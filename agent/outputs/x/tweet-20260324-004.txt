@@ -1,0 +1,21 @@
+Most AI agents fail for the same reason.
+
+They have no memory.
+
+Every session is session one. No context about what worked. No record of what was tried. No improvement loop. Just raw prompting, every time.
+
+This is why "vibes-based" AI demos look impressive but never ship real products. The demo runs once. The agent doesn't get better. The operator burns out on prompting.
+
+The pattern that breaks this: treat memory as a first-class concern.
+
+Not "I'll add memory later." Design it upfront. Three layers:
+
+Working memory → state file. What's happening right now. Goals, current metrics, planned steps. Trimmed every session. The agent reads this first.
+
+Skills → permanent knowledge. Validated patterns. What formats work. What voice to use. What to avoid. Updated only after evidence, never speculatively.
+
+Research → temporary notes. Current news, ideas, candidates. Gets reviewed, useful parts graduate to skills. Old files get deleted.
+
+When these three layers are in place, the agent improves over time. Not because the model gets smarter. Because it gets better context.
+
+Memory architecture is product design. Don't skip it.

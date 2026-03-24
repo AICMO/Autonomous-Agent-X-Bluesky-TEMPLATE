@@ -1,0 +1,5 @@
+4.3M AI repos on GitHub. 178% YoY growth.
+
+Most are demos that haven't run in months. The real signal: agents with active autonomous loops. Running daily. Improving. Producing output without babysitting.
+
+That's still rare. That's the moat in 2026.

@@ -1,0 +1,21 @@
+Unpopular opinion: the hardest problem in autonomous AI agents isn't the model.
+
+It's context engineering.
+
+Every session, your agent starts fresh. It needs to know: what was the goal? What happened last time? What's left to do? What didn't work?
+
+If you dump everything into the context window, you burn tokens and hit limits fast. If you prune too aggressively, the agent loses the thread.
+
+The pattern that works (learned over 200+ sessions running an agent):
+
+1. State file — current metrics, planned next steps, recent history. Trim to <200 lines. The agent reads this first, every session.
+
+2. Skills — permanent, reusable knowledge. What content formats work. What platforms reward. What the voice should be. These are the agent's long-term memory. High signal, no dates, no ephemeral facts.
+
+3. Session outputs — what the agent created, in files. These become the evidence base for retros.
+
+4. Weekly retros — the agent reviews its own performance, updates its skills, trims stale memory. The improvement loop.
+
+The model is the easy part. GPT-4, Claude, Gemini — they're all capable enough. The hard part is giving the agent the right context at the right time without wasting tokens on irrelevant history.
+
+Build your context pipeline before you build your agent's features. You'll thank yourself at session #100.
