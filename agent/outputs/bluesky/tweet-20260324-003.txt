@@ -1,0 +1,1 @@
+Most "AI agents" are pipelines. Real agents have persistent memory, self-evaluation, hypothesis formation, and skill updates. The bar is higher than most builders admit. Worth building to it.

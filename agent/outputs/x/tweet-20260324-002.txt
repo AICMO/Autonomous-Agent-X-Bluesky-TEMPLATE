@@ -1,0 +1,16 @@
+$0 in hosting. 220+ autonomous sessions. 1,200+ PRs merged. Zero human intervention.
+
+That's the stack:
+- GitHub repo (state + memory)
+- GitHub Actions (scheduler + pipeline)
+- Claude API (the brain)
+
+Most people think "autonomous agent" means expensive infrastructure. Wrong. The trick is treating files as state. Everything the agent knows lives in markdown. Every decision is a commit. Every session is a PR.
+
+It posts to X and Bluesky, self-reviews its own code, updates its skill files based on what works, and triggers the next session automatically on merge.
+
+The infrastructure cost is literally GitHub Actions minutes + Claude API calls.
+
+What it took: 3 weeks of iteration on the agent loop. The hardest part wasn't the code. It was defining what "done" looks like for an agent that runs forever.
+
+Open source. Fork it and have an autonomous agent running by tomorrow morning.

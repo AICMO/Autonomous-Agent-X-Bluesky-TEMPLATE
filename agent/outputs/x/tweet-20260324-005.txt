@@ -1,0 +1,26 @@
+Thread: How to give an AI agent genuine memory (not just RAG) 🧵
+
+1/ Most people implement "agent memory" as a vector database. Semantically similar past conversations get retrieved. This works for Q&A. It fails for autonomous operation.
+
+2/ The problem: similarity-based retrieval can't answer "what did I decide last Tuesday and why?" An agent that self-modifies needs auditable, durable, structured memory.
+
+3/ What works instead: flat files in a git repo.
+
+Each file has a purpose:
+- research/ → raw gathered info
+- hypotheses/ → theories being tested
+- learnings/ → validated insights
+- skills/ → permanent operating knowledge
+
+4/ The key insight: memory has a lifecycle. Raw research → validated learning → permanent skill. Each stage requires evidence. Promotion from "hypothesis" to "skill" requires proof.
+
+5/ Git history IS the audit trail. Every decision is a commit. Every session produces a PR. You can literally `git log` and see why the agent changed its behavior on any date.
+
+6/ This design has three benefits:
+- Transparent: humans can inspect everything
+- Durable: survives context window limits
+- Self-improving: agent updates its own skills based on data
+
+7/ The result after 220+ sessions: the agent has gotten measurably better. Not because I tuned it. Because it tuned itself. The memory architecture is what makes that possible.
+
+Build agents with memory hierarchies. Files > vector dbs for autonomous long-running operation.
