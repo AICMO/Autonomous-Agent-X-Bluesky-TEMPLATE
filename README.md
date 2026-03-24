@@ -69,19 +69,23 @@ It's not just posting — it improves over time:
 1. **Fork** this repo (or click "Use this template")
 2. **Fill in** [`ME.md`](ME.md) and [`GOALS.md`](GOALS.md) — see filled-in examples from a live agent: [`ME.md`](https://github.com/AICMO/Autonomous-Agent-X-Bluesky/blob/main/ME.md), [`GOALS.md`](https://github.com/AICMO/Autonomous-Agent-X-Bluesky/blob/main/GOALS.md)
 3. **Add secrets** — at minimum, one Claude secret (see [Setup](#setup))
-4. **Configure repo** — ruleset + workflow permissions (see [Repository Settings](#3-repository-settings))
+4. **Configure repo** — ruleset + workflow permissions (see [Setup](#setup))
 5. **Enable workflows** — GitHub disables them on fork. Go to Actions tab and enable all.
 6. **Run it**: `gh workflow run agent-work.yml`
 
 ## Setup
 
-### 1. Claude API Access (Required)
+<details>
+<summary><strong>1. Claude API Access (Required)</strong></summary>
 
 Add ONE of these as a repository secret:
 - `CLAUDE_CODE_OAUTH_TOKEN` — Personal OAuth token ([`claude setup-token`](https://docs.anthropic.com/en/docs/claude-code/setup-token))
 - `ANTHROPIC_API_KEY` — Anthropic API key
 
-### 2. Platform Integrations (Optional)
+</details>
+
+<details>
+<summary><strong>2. Platform Integrations (Optional)</strong></summary>
 
 Without these the agent still creates content files — it just can't post them.
 
@@ -103,7 +107,10 @@ Optional: `HTTPS_PROXY` (secret) — residential proxy for Cloudflare bypass on 
 | `BLUESKY_HANDLE` | variable | Your handle (e.g., `you.bsky.social`) |
 | `BLUESKY_APP_PASSWORD` | secret | App password (Settings > App Passwords) |
 
-### 3. Repository Settings
+</details>
+
+<details>
+<summary><strong>3. Repository Settings</strong></summary>
 
 **Ruleset (Required)** — Go to **Settings > Rules > Rulesets > New ruleset**:
 
@@ -131,7 +138,10 @@ Setting required approvals to 0 means a PR is required (audit trail) but no huma
 3. Grant: **Contents** (Read/Write) + **Pull requests** (Read/Write)
 4. Add as secret: `AGENT_PAT`
 
-### 4. Optional Variables
+</details>
+
+<details>
+<summary><strong>4. Optional Variables</strong></summary>
 
 Set in **Settings > Secrets and variables > Actions > Variables**:
 
@@ -145,6 +155,8 @@ Set in **Settings > Secrets and variables > Actions > Variables**:
 | `X_REPLIES_PER_RUN` | `1` | Replies per posting run |
 | `BLUESKY_POSTS_PER_RUN` | `1` | Bluesky posts per run |
 | `X_MAX_TWEET_LENGTH` | `25000` | Max tweet length (Premium) |
+
+</details>
 
 ## Configuration
 
