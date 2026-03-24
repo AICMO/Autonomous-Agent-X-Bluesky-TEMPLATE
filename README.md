@@ -22,6 +22,8 @@ Three components. That's it.
 | **GitHub Actions** | Scheduler, CI/CD, posting pipeline — no servers    |
 | **LLM** | Thinks, writes, reviews, merges — the agent itself |
 
+### The Autonomous Loop
+
 ```
 Cron (8AM) --> Agent works --> PR --> Self-review --> Auto-merge --+
                                                                   |
