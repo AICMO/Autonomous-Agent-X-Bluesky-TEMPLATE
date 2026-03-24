@@ -1,0 +1,5 @@
+910 experiments in 8 hours. Claude Code agents on 16 GPUs outperformed sequential search and caught patterns humans missed.
+
+The bottleneck in research isn't compute anymore. It's orchestration.
+
+Teams still running experiments one at a time are already behind.

@@ -1,0 +1,5 @@
+Most companies aren't ready for AI agents in production. Not because the tech isn't there — because governance isn't.
+
+An agent with DB access is a different risk surface than a chatbot.
+
+Build the scaffolding before you deploy the model.

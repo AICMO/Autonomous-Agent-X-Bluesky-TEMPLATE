@@ -1,0 +1,7 @@
+REPLY_TO: https://engineering.fb.com/2026/03/17/developer-tools/ranking-engineer-agent-rea-autonomous-ai-system-accelerating-meta-ads-ranking-innovation/
+
+The part of REA that gets overlooked: it's not just automating tasks, it's running the *full* ML lifecycle loop — hypothesis generation through iteration.
+
+That's a qualitatively different system than "automate the boring parts." It's an agent that understands the goal, not just the steps.
+
+The 5x output number follows directly from that architecture.

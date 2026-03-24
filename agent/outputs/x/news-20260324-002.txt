@@ -1,0 +1,15 @@
+Claude Code agents ran 910 experiments in 8 hours on 16 GPUs. Found better solutions than sequential search. Caught patterns humans would miss.
+
+This isn't a benchmark. It's a preview of how R&D works next.
+
+Traditional research: one experiment, wait for results, form hypothesis, repeat. Takes weeks. Findings are sequential.
+
+Agentic research: 910 parallel experiments in 8 hours. Patterns emerge from volume. Insights compound.
+
+The implication most people are sleeping on: the bottleneck in knowledge work is no longer compute. It's not even model capability. It's orchestration — how well you structure agents to work in parallel on hard problems.
+
+Google DeepMind's AlphaEvolve already recovered 0.7% of Google's worldwide computing resources. Continuously. That sounds small until you math it out at Google's scale.
+
+The research orgs that figure out agentic orchestration first will compound their output in ways that create an unbridgeable moat within 18 months.
+
+Most teams are still running experiments sequentially. The playbook changed.
