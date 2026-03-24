@@ -1,0 +1,5 @@
+Meta's REA agent: 5x engineering output, doubled model accuracy. Three engineers doing work that used to require two per model.
+
+AI agents aren't demos anymore. They're running ML pipelines at scale.
+
+The $12B agent market in 2026 is just the beginning.

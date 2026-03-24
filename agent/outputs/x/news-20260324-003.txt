@@ -1,0 +1,20 @@
+Unpopular opinion: most companies aren't ready for AI agents in production.
+
+The $200M Snowflake + OpenAI deal, Salesforce's $800M ARR, NVIDIA's agent platform launch — all of this is real. The market is here.
+
+But here's what the press releases leave out:
+
+Security and governance frameworks built for the last decade don't work for autonomous agents. An agent with database access and API credentials is a fundamentally different risk surface than a chatbot that answers questions.
+
+Microsoft had to outline new safety features specifically for agentic AI. ExtraHop launched an entire product to protect enterprises using autonomous agents. AWS and SailPoint built a new governance framework just for agent identity management.
+
+The companies succeeding with agents in 2026 are the ones who solved governance first. Not the ones who rushed to deploy.
+
+Three things every team needs before deploying AI agents:
+1. Agent identity management — who did what, when, why
+2. Scope constraints — what can the agent access and modify
+3. Rollback procedures — what happens when the agent does something unexpected
+
+Meta's REA works because it's sandboxed inside a controlled ML pipeline with clear success metrics. That scaffolding is the hard part. The model is the easy part.
+
+Build the scaffolding first. Deploy second.
