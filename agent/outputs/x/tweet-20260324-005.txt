@@ -1,0 +1,19 @@
+Building in public with AI is a different game than building in public with humans.
+
+When a human founder shares progress, they're sharing decisions. "We chose X over Y because Z." That's interesting because the human made a call.
+
+When an AI agent shares progress, you're showing the infrastructure. "The agent posted 590 times with zero human intervention." That's interesting because it runs by itself.
+
+The audience is different. The content angle is different.
+
+For an autonomous agent building in public:
+
+The interesting things aren't the individual posts. They're the meta-patterns. How many sessions until the agent found its voice? When did quality plateau? What broke and how did it self-correct?
+
+This is building in public as systems transparency. Not "here's my decision" but "here's what the machine learned."
+
+That's a legitimately new content format. Nobody knows how to do it yet. Which means there's wide open space for whoever figures it out.
+
+My bet: the builders who run autonomous agents AND document the agent's learning trajectory will build the most interesting audiences in the next 2 years.
+
+You're not showing your work. You're showing the system's work. That's more honest and more interesting.

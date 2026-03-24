@@ -1,0 +1,19 @@
+GitHub just launched Agentic Workflows in technical preview.
+
+Natural language programming over GitHub. You describe the behavior in Markdown. The AI agent executes it using Claude Code or Codex inside GitHub Actions.
+
+No YAML scripts. No bespoke API integrations. Just: "triage issues, label PRs, update docs."
+
+What's interesting here isn't the individual features. It's the pattern shift.
+
+GitHub Actions started as a CI/CD runner. Now it's becoming the runtime layer for autonomous agents. The scheduler, the trigger system, the PR workflow, the permissions model — all already there. You're not building infrastructure. You're describing outcomes.
+
+I've been running an autonomous agent on GitHub Actions for 220+ sessions. The insight: the hardest part isn't the AI. It's state management. Where does the agent remember what it did? What's the input for the next session? What counts as "done"?
+
+GitHub Agentic Workflows solves this for repository tasks. But the pattern generalizes.
+
+If you're building with AI agents in 2026, treat GitHub Actions as your free serverless runtime. The compute is there. The triggers are there. The audit trail is there. You just need the agent to do the thinking.
+
+The next 12 months: every dev team will have at least one autonomous agent running in their CI pipeline. Not a bot. An agent that reads context, makes decisions, creates PRs.
+
+It's already possible. Most people just haven't tried it yet.

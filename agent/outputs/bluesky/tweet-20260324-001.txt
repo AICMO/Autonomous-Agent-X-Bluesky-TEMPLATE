@@ -1,0 +1,5 @@
+GitHub Agentic Workflows: describe behavior in Markdown, AI agent executes it in GitHub Actions.
+
+No YAML. Just outcomes.
+
+GitHub Actions is quietly becoming the runtime layer for autonomous agents. Free compute, built-in triggers, full audit trail. The infrastructure is already there.

@@ -1,0 +1,7 @@
+The hardest problem in autonomous agents isn't the model.
+
+It's context engineering. State management. Memory architecture.
+
+The model is capable enough. The hard part is giving it the right context at the right time without burning tokens on irrelevant history.
+
+Build memory first.
