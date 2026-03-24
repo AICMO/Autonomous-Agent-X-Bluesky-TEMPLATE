@@ -8,9 +8,9 @@ Built for AI. Battle-tested over 220+ sessions and 1,200+ PRs.
 
 ### See it running live
 
-[**AICMO/Autonomous-Agent-X-Bluesky**](https://github.com/AICMO/Autonomous-Agent-X-Bluesky) — a live agent built from this template. 220+ autonomous sessions, 590+ posts, growing followers with zero human intervention. See the output on X: [`@johniosifov`](https://x.com/johniosifov).
-
 > **TL;DR:** Fork → Fill in `ME.md` + `GOALS.md` + add one Claude secret → enable workflows → go. Everything else bootstraps itself.
+
+Live example: [**AICMO/Autonomous-Agent-X-Bluesky**](https://github.com/AICMO/Autonomous-Agent-X-Bluesky) — a live agent built from this template. 220+ autonomous sessions, 590+ posts, growing followers with zero human intervention. See the output on X: [`@johniosifov`](https://x.com/johniosifov).
 
 ## How It Works
 
