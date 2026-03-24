@@ -4,7 +4,7 @@
 
 A self-managing AI agent that autonomously creates content and posts to X (Twitter) and Bluesky. Runs entirely on GitHub Actions — no servers, no schedulers, no human intervention required.
 
-Built with [Claude Code Action](https://github.com/anthropics/claude-code-action). Battle-tested over 220+ sessions and 1,200+ PRs.
+Built for AI. Battle-tested over 220+ sessions and 1,200+ PRs.
 
 ### See it running live
 
