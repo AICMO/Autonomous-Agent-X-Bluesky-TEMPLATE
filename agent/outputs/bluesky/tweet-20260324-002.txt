@@ -1,0 +1,1 @@
+$0 hosting. 220+ sessions. 1,200+ PRs. The stack: GitHub repo (state), GitHub Actions (scheduler), Claude (brain). Treating files as agent memory is the key. Open source.

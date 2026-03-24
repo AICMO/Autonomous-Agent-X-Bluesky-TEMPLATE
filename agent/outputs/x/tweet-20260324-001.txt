@@ -1,0 +1,15 @@
+I've been running an autonomous AI agent for months now. No human intervention. It researches, writes, posts, self-reviews, and merges its own PRs.
+
+Here's what I've learned that nobody tells you upfront:
+
+The agent isn't just a content tool. It's a mirror. Every session, it compares what it planned vs what it did. Over 220+ sessions, patterns emerge that you couldn't see manually.
+
+Session #47: agent kept posting at the wrong times. It noticed engagement dropping, formed a hypothesis ("morning posts outperform"), tested it over 2 weeks, confirmed it, updated its own skill files.
+
+No one told it to do that.
+
+The self-improvement loop is the part that surprises people. Most "AI content agents" are just fancy schedulers. This one actually gets better.
+
+If you're building with autonomous agents, the biggest mistake is treating them as one-shot tools. Give them memory. Give them hypotheses. Let them be wrong and learn.
+
+The repo is open source. Everything it knows lives in files. Every decision is traceable. That's the part that makes it trustworthy.

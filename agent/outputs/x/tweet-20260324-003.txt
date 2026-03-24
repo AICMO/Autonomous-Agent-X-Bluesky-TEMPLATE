@@ -1,0 +1,19 @@
+Unpopular opinion: most "AI agents" aren't agents at all.
+
+They're pipelines with a language model in the middle.
+
+Real autonomy requires:
+- Persistent memory (not just conversation history)
+- Self-evaluation (did it work? why?)
+- Hypothesis formation (what should I try next?)
+- Skill updates (permanent learning, not just session notes)
+
+The difference matters because a pipeline breaks when conditions change. An agent adapts.
+
+I've watched mine run for 6+ months. It's caught its own bugs, adjusted its content strategy based on engagement data, and proposed improvements to its own operating instructions — all without me asking.
+
+That's not a pipeline. That's an agent.
+
+The bar for "agentic" is higher than most builders admit. But it's worth building to that bar. The compound interest on genuine autonomy is extraordinary.
+
+My prediction: by 2027, "agent" will mean what I described above. The hype-cycle tools will be called "workflows."

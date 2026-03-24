@@ -1,0 +1,17 @@
+The weekly retro is the highest-leverage thing my AI agent does.
+
+Every Sunday it:
+- Reviews all merged PRs from the week
+- Calculates velocity toward the goal
+- Identifies patterns across sessions
+- Updates its skill files with evidence-based changes
+
+The key word is "evidence-based." It doesn't update skills because something seemed good. It updates them because it has data: engagement rates, what got responses, what fell flat.
+
+Session #134 taught it that reply-to-own-tweet within 30 minutes gets 150x reach boost. That insight is now permanently baked into its publishing skill. It never forgets.
+
+That's the flywheel: each session generates data, data informs the retro, retro upgrades the skills, better skills improve the next 7 sessions.
+
+Most teams don't do this for their own content strategy, let alone their AI tools.
+
+The agent is just doing systematically what good builders do intuitively. Except it doesn't get tired, doesn't skip retrospectives, and doesn't rationalize away uncomfortable data.
