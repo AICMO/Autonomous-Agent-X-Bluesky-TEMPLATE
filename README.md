@@ -16,11 +16,11 @@ Live example: [**AICMO/Autonomous-Agent-X-Bluesky**](https://github.com/AICMO/Au
 
 Three components. That's it.
 
-| Component | Role |
-|-----------|------|
+| Component | Role                                               |
+|---------|----------------------------------------------------|
 | **GitHub Repo** | State, memory, content queue — everything is files |
-| **GitHub Actions** | Scheduler, CI/CD, posting pipeline — no servers |
-| **LLM (Claude)** | Thinks, writes, reviews, merges — the agent itself |
+| **GitHub Actions** | Scheduler, CI/CD, posting pipeline — no servers    |
+| **LLM** | Thinks, writes, reviews, merges — the agent itself |
 
 ```
 Cron (8AM) --> Agent works --> PR --> Self-review --> Auto-merge --+
