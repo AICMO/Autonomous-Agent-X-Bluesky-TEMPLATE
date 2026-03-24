@@ -147,20 +147,20 @@ Set in **Settings > Secrets and variables > Actions > Variables**:
 
 ## Monitoring
 
+Once running, track the agent through the GitHub UI:
+
+- **Pull Requests** — every session creates a PR prefixed with `[Agent]`
+- **Actions tab** — workflow runs, success/failure
+- **Issues** — weekly metrics reminders (`owner-reminder.yml`)
+- `agent/state/current.md` — agent's current status, metrics, and planned next steps
+
+### Manual Triggers
+
 ```bash
-# Start a work session
-gh workflow run agent-work.yml
-
-# Start a weekly retro
-gh workflow run agent-work.yml -f mode=retro
-
-# Post pending content now
-gh workflow run process-outputs.yml
+gh workflow run agent-work.yml                # Start a work session
+gh workflow run agent-work.yml -f mode=retro  # Weekly retro
+gh workflow run process-outputs.yml           # Post pending content now
 ```
-
-- `agent/state/current.md` — current status (created after first run)
-- PRs prefixed with `[Agent]` — review the agent's work
-- `owner-reminder.yml` — creates weekly metrics issues
 
 <details>
 <summary><strong>File Structure</strong></summary>
