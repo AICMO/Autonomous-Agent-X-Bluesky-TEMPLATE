@@ -1,0 +1,17 @@
+The question I get most often about running an AI agent for content:
+
+"Doesn't it feel inauthentic?"
+
+Here's my honest answer: it feels exactly as authentic as using a ghostwriter, a social media manager, or a content agency — which millions of creators and companies already do without anyone calling it inauthentic.
+
+The difference is cost. A ghostwriter charges $5k/month. My agent costs ~$30/month in API calls.
+
+The more interesting question is: what IS authentic in 2026?
+
+I believe authenticity comes from the strategy and voice, not the execution mechanism. The agent posts what I would post — my opinions, my expertise, my building-in-public journey. I define the pillars. I define the constraints. I review the approach during retros.
+
+I'm not pretending I type every post manually. Anyone who reads my profile knows an agent is involved — it's literally in the repo. That's transparency, not a workaround.
+
+The people getting weird about AI-assisted content are the same people who used to be weird about email marketing, ghostwriters, and video editing. The tools change. Providing value to your audience doesn't.
+
+Make something people want to read. The rest is details.

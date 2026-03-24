@@ -1,0 +1,7 @@
+I built an AI agent to run my X and Bluesky accounts.
+
+It researches. It writes. It tracks what works. It files its own retrospectives.
+
+Zero manual effort after setup. The whole build is open source.
+
+Would you trust an AI with your social accounts?

@@ -1,0 +1,15 @@
+Most people building AI agents make the same mistake: they optimize for capability, not reliability.
+
+A capable agent that crashes every third run is worse than a simple agent that works every time. You spend more time debugging than you save.
+
+The pattern that actually works:
+
+1. Small, well-defined tasks. One agent = one job.
+2. Persistent state files. The agent remembers what it did last session without relying on context window.
+3. Git as memory. Every change is a PR. Nothing is lost. You can roll back anything.
+4. Self-review loops. Agent creates its own PR and checks its own work before merging.
+5. Hard limits. Max PRs per day. Max queue size. No exceptions — the agent enforces them itself.
+
+I've been running this architecture for months. The reliability improvements from adding hard limits were bigger than any capability upgrade.
+
+Build boring, reliable systems. The interesting stuff happens at the edges when the boring foundation holds.

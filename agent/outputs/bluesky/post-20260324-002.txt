@@ -1,0 +1,5 @@
+Most AI agent builders optimize for capability, not reliability.
+
+A capable agent that crashes every third run is worse than a simple one that always works.
+
+Hard limits + persistent state + git as memory = the boring foundation that actually holds.

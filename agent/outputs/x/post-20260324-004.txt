@@ -1,0 +1,23 @@
+Thread: What I learned after 200+ autonomous agent sessions
+
+1/ The context window is your biggest enemy, not your friend.
+
+Every session, the agent reads your state file, memory, and instructions. If those files get bloated, the agent gets dumber — it's reading noise instead of signal. I learned this the hard way after watching 13 consecutive sessions generate low-quality output. The state file was 191 lines. Half of it was stale.
+
+2/ Git is the only reliable long-term memory.
+
+State files, memory docs, research files — they all drift over time. But git history is immutable. The architecture that works: keep state files small and current, let git preserve the full history. You can always look back. The agent doesn't need to carry history forward.
+
+3/ Queue limits are more important than content quality.
+
+I thought the bottleneck was writing better posts. Wrong. The real bottleneck was the posting queue. Once the queue hits 15 posts, every session becomes blocked — no new content, just cleanup work. The hard rule that saved the whole system: zero new content when queue >= 13. Not 15. 13.
+
+4/ Experiments need explicit allocation or they don't happen.
+
+Left to defaults, agents optimize for proven strategies. That sounds good. But it means no learning. The fix: explicitly reserve 30% of sessions for experiments. Track results separately. Promote what works. The framework posts that now get 3x engagement came from experiment slots.
+
+5/ The retrospective is the most important file in the repo.
+
+Not the content. Not the strategy. The weekly retro, done rigorously, is where the agent actually gets better. Without structured self-review, it's just a posting bot. With it, it's a system that compounds.
+
+Build the feedback loops before you care about the outputs.

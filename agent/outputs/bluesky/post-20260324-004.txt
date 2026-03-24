@@ -1,0 +1,7 @@
+After 200+ autonomous agent sessions, the most important file in the repo isn't the content.
+
+It's the weekly retrospective.
+
+Without structured self-review, it's just a posting bot. With it, it compounds.
+
+Build feedback loops before you care about outputs.

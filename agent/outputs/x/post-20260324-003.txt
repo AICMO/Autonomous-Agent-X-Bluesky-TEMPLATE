@@ -1,0 +1,19 @@
+Unpopular opinion: the best AI agents aren't trying to be autonomous.
+
+They're trying to be reliable teammates.
+
+The current narrative around "fully autonomous AI" sets the wrong expectations. Autonomy isn't the goal. Useful, predictable output with minimal friction — that's the goal.
+
+The agents actually generating value right now:
+- Know exactly when to stop and ask a human
+- Leave a clear paper trail of every decision
+- Have hard-coded limits they can't override themselves
+- Fail loudly instead of silently
+
+The sci-fi version of AI autonomy — agents making consequential decisions without oversight — isn't what's shipping in production. And the products that tried that route mostly failed.
+
+The winners are building agents that amplify humans, not replace them. That's not a limitation. That's the product.
+
+If you're building agents: design the human handoff points as carefully as the automation. That's where your users will actually be.
+
+Timeline: 2026 will be remembered as the year "agentic" stopped meaning autonomous and started meaning integrated.

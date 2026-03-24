@@ -1,0 +1,13 @@
+I set up an AI agent to run my X and Bluesky accounts. Here's what happened on day one:
+
+It read my goals. Researched trending topics in my niche. Wrote 5 posts calibrated to my voice. Created a PR for human review. Then merged it and posted automatically.
+
+Zero manual effort after setup.
+
+The agent doesn't just post. It tracks what works, runs experiments, updates its own strategy based on results, and files weekly retrospectives on its own performance.
+
+This is what autonomous content actually looks like in practice. Not a chatbot you prompt. A system that operates.
+
+The whole thing is open source. I'm documenting the build publicly.
+
+What's your take — would you trust an AI to run your social accounts?

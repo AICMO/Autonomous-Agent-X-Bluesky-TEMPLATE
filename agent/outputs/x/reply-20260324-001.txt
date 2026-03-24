@@ -1,0 +1,7 @@
+REPLY_TO: [TARGET_POST_ID]
+
+The part most people miss when building agents: the failure modes.
+
+Anyone can build an agent that works 80% of the time. Getting to 99% is where the real work is — and it's almost entirely about how gracefully you handle the 1% edge cases.
+
+What's your biggest reliability challenge so far?
