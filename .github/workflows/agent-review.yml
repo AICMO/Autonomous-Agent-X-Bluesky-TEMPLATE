@@ -1,0 +1,119 @@
+name: Agent Self-Review
+
+# NOTE: Agent cannot approve its own PR (GitHub limitation - same actor)
+# The review serves as documentation. Auto-merge proceeds if branch protection allows.
+# To require real approval, use a different token/bot for review.
+#
+# IMPORTANT: Without AGENT_PAT secret, the autonomous loop stops after merge.
+# GITHUB_TOKEN merges don't trigger subsequent workflows (GitHub security feature).
+# To enable full automation, add AGENT_PAT (fine-grained PAT with Contents + Pull requests permissions).
+
+# Security: All actions pinned to commit SHAs to prevent tag hijacking attacks.
+# Update SHAs manually when upgrading action versions.
+
+on:
+  workflow_dispatch:
+  pull_request:
+    types: [opened, synchronize]
+    paths-ignore:
+      - '.github/workflows/**'
+
+jobs:
+  review:
+    name: PR Review (Claude)
+    # Security: skip fork PRs to prevent Actions compute abuse (secrets are already
+    # hidden from forks by default, but no reason to run the job at all)
+    if: github.event.pull_request.head.repo.full_name == github.repository && !startsWith(github.event.pull_request.title, '[Bot]')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+      id-token: write
+    steps:
+      # Checkout the PR branch so Read/Glob/Grep tools can access PR files directly
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+
+      - name: Agent Self-Review
+        id: review
+        uses: anthropics/claude-code-action@1ab477dde68ac9be1126aa7775191f02c3070b07 # v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN || secrets.ANTHROPIC_API_KEY }}
+          allowed_bots: "claude[bot]"
+          prompt: |
+            Review this PR #${{ github.event.pull_request.number }} created by your past self.
+
+            IMPORTANT - Tool usage:
+            - Use Read, Glob, Grep to read files (the PR branch is checked out locally)
+            - Use `gh pr diff ${{ github.event.pull_request.number }}` for the full diff
+            - Do NOT use `gh api` to read file contents — use Read instead
+
+            Read these files with the Read tool:
+            - GOALS.md for the current objectives
+            - agent/config.md for safety limits
+
+            Then get the diff:
+            - `gh pr diff ${{ github.event.pull_request.number }}`
+
+            Check:
+            1. Does the work align with goals in GOALS.md?
+            2. Is the state file (agent/state/current.md) updated correctly?
+            3. Are outputs meaningful and well-documented?
+            4. Does the work follow the PDCA cycle?
+            5. Are there any obvious errors or issues?
+            6. Does it stay within boundaries?
+
+            DECISION RULES:
+            - If PR is acceptable (no critical issues) → MUST use --approve
+            - If PR has critical issues that block merge → use --request-changes
+            - NEVER use --comment for final review (it doesn't count as approval)
+
+            CRITICAL: You MUST execute ONE of these commands:
+            ```bash
+            gh pr review ${{ github.event.pull_request.number }} --approve --body "your summary"
+            gh pr review ${{ github.event.pull_request.number }} --request-changes --body "critical issues"
+            ```
+
+            DEFAULT TO APPROVE unless there are critical blocking issues.
+          claude_args: |
+            --model ${{ vars.CLAUDE_MODEL || 'claude-opus-4-6' }}
+            --max-turns 10
+            --allowed-tools "Bash(gh pr:*),Bash(gh api:*),Read,Glob,Grep"
+
+      # Retry once if the first review attempt failed (e.g. max turns hit)
+      - name: Agent Self-Review (Retry)
+        id: retry
+        if: failure() && steps.review.outcome == 'failure'
+        uses: anthropics/claude-code-action@1ab477dde68ac9be1126aa7775191f02c3070b07 # v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN || secrets.ANTHROPIC_API_KEY }}
+          allowed_bots: "claude[bot]"
+          prompt: |
+            Review PR #${{ github.event.pull_request.number }}. A previous review attempt failed.
+            Be efficient — approve quickly unless there are critical issues.
+
+            1. Read the diff: `gh pr diff ${{ github.event.pull_request.number }}`
+            2. Skim GOALS.md and agent/config.md with the Read tool
+            3. Approve or request changes immediately
+
+            Run exactly ONE of:
+            ```bash
+            gh pr review ${{ github.event.pull_request.number }} --approve --body "Approved on retry. [brief summary]"
+            gh pr review ${{ github.event.pull_request.number }} --request-changes --body "critical issues"
+            ```
+
+            DEFAULT TO APPROVE unless there are critical blocking issues.
+          claude_args: |
+            --model ${{ vars.CLAUDE_MODEL || 'claude-sonnet-4-6' }}
+            --max-turns 5
+            --allowed-tools "Bash(gh pr:*),Bash(gh api:*),Read,Glob,Grep"
+
+      - name: Auto-merge if approved
+        if: always() && (steps.review.outcome == 'success' || steps.retry.outcome == 'success')
+        uses: peter-evans/enable-pull-request-automerge@a660677d5469627102a1c1e11409dd063606628d # v3
+        with:
+          token: ${{ secrets.AGENT_PAT || secrets.GITHUB_TOKEN }}
+          pull-request-number: ${{ github.event.pull_request.number }}
+          merge-method: squash

@@ -1,0 +1,216 @@
+---
+name: commenting
+description: Strategy for engaging with others' posts across platforms (X, LinkedIn, etc.). Finding targets, writing valuable replies, building connections.
+user-invocable: false
+---
+
+# Commenting / Engagement Skill
+
+> Write valuable replies that build relationships and visibility
+
+## Why Commenting Matters
+
+For accounts under 100 followers, commenting > original posts for growth. One viral reply can achieve 30x the impressions of an original post. Reply-to-reply = 75x algorithm multiplier.
+
+---
+
+## Queue-Delayed Replies (Critical Constraint)
+
+Agent-created replies post hours to days late, killing algorithmic value.
+
+**Time decay:** Replies lose 50% visibility every 6 hours. At 24h = ~6% visibility.
+
+**What works via queue:** Reply-to-own only. Evergreen topics, no timing pressure.
+
+**What doesn't work reliably:** Outbound replies to accounts that haven't engaged with you. X API restricts replies to strangers (403: "not mentioned or engaged by the author").
+
+**Two types of replies — very different success rates:**
+
+**Reply-to-own (your own tweet IDs): HIGH SUCCESS RATE.** Replying to your own tweets works reliably. This is the primary engagement tactic.
+
+**Outbound replies to others: UNRELIABLE.** X API may reject replies to accounts that haven't engaged with you. Test cautiously.
+
+**Hard rules:**
+- Never create replies when pending reply count >= 5
+- Only reply to posts < 24h old (ideally 2-6h)
+- If any platform queue >= 15: create zero content including replies
+
+**Premium active:** Manual engagement is viable. Reply-to-own-comments within 30 min = 150x multiplier. Communities replies within 2-6h = still valuable.
+
+---
+
+## Finding Reply Targets
+
+**DO reply to:** Mid-tier accounts (10K-100K), posts 2-6h old, topics with real expertise, conversation-starters, accounts that engage back.
+
+**DON'T reply to:** Mega-accounts (>500K, buried), stale posts (>24h), generic hot takes, accounts that never engage.
+
+**How to find (X API is write-only, use web search):**
+```
+WebSearch: "site:x.com @username {topic}"
+WebSearch: "site:x.com {topic} {current_year}"
+```
+Extract tweet ID from URL: `x.com/user/status/**1234567890**`
+
+**X Communities (Premium):** Browse community feeds for fresh posts. Community replies get amplified in For You feed. Best leverage for small accounts.
+
+**Reply-to-own targets:** Check `agent/state/current.md` for recent tweet IDs.
+
+---
+
+## Writing Good Replies
+
+### Anti-AI Reply Rules (MANDATORY)
+
+**Never use:** Em dashes joining clauses, "Not just X, it's Y", "Delve/elevate/innovative/landscape/leverage/robust", "To clarify/In other words", "Great point! Furthermore...", summarizing their post back.
+
+**Do use:** Contractions, sentence fragments ("Wild." "Zero chance."), start with "And"/"But", reference something SPECIFIC they said, have an opinion, keep it casual.
+
+### Reply Patterns
+
+| Pattern | When to use |
+|---------|-------------|
+| **Respectful disagreement** | Sparks reply-to-reply (75x) |
+| **Add specific insight** | Shows expertise without self-promo |
+| **Ask sharp questions** | Pushes conversation forward |
+| **Share contrarian data** | Adds new info |
+| **"This means..." prediction** | Connect their news to a consequence |
+| **"What nobody's saying..."** | Add the angle everyone missed |
+
+### Likability Rules
+- "I" statements > "You" statements (less preachy)
+- "And" > "But" (additive vs combative)
+- "Here's what I found..." > "You should..."
+- Questions > declarations (invites dialogue)
+- Specific examples > abstract advice
+
+### What NEVER Works
+Empty agreement ("Great post!"), self-promotion ("Check out my thread"), obvious observations, links in replies (reduces reach), stale replies (>24h).
+
+### Diversify Reply Angles
+**Max 50% about agent.** Also use: your domain expertise, founder/career experience. Most replies = NO link. Some ask questions. Some disagree respectfully.
+
+### Natural OS Mentions in Replies
+When someone posts about a topic that overlaps with an owner repo, mention it naturally in a reply. This is the highest-value form of promotion: relevant, in-context, and helpful.
+
+**When to mention:** Only when the repo genuinely solves the problem being discussed. If you have to stretch the connection, skip it.
+
+**How:** Lead with insight or opinion first. Repo link goes at the end, casually. "We open sourced something similar" > "Check out my repo."
+
+**Frequency:** Max 1 in 10 replies includes an OS link. Most replies should have zero self-promotion. Use the discovery skill's OS scan to know which repos are relevant to current conversations.
+
+---
+
+## Reply-to-Own-Comments Protocol (Premium)
+
+**150x algorithmic multiplier — highest-leverage engagement tactic.**
+
+Post original content → reply to your own tweet within 30 min with expansion/detail.
+
+**CRITICAL: You need the numeric tweet ID of your own tweet.** `REPLY_TO: SELF` is invalid and will be skipped. To get the real ID:
+
+```bash
+# Get the most recent process-outputs run ID
+gh run list --workflow=process-outputs.yml --limit 1 --json databaseId
+
+# Extract tweet IDs from that run's logs
+gh run view <run_id> --log 2>/dev/null | grep '"id"' | grep -v "edit_history" | head -5
+```
+
+Or search more precisely:
+```bash
+gh run view <run_id> --log 2>/dev/null | grep 'INFO Response:' | head -5
+```
+
+The log line looks like: `INFO Response: {"data": {"id": "2033632169034125426", "text": "Your tweet..."}}`
+
+**Timing constraint:** The 150x multiplier requires the reply within 30 minutes of the original post. Since the workflow posts async (every 2 hours), you cannot reliably get the <30min window unless you check logs immediately after a run completes.
+
+**Practical approach:** Check `gh run list --workflow=process-outputs.yml --limit 1` → if a run completed <25 minutes ago, immediately get the tweet ID and create a reply file. This is the only window where reply-to-own at 150x is achievable.
+
+**Rules:**
+1. Timing: <30 minutes (after 30 min, multiplier drops)
+2. Add value, don't repeat — expansion, data, follow-up question
+3. Short hook + detailed reply
+4. Max 1 reply per original post
+5. Not every post needs it — use when there's genuine depth
+6. Only create reply file when queue < 15 (hard rule still applies)
+
+**Reply patterns:** Expansion ("To expand: our dataset shows..."), data points, tactical detail, question for audience, vulnerability.
+
+**Priority #1 when Premium active:** Every Communities post → reply to self within 30 min.
+
+---
+
+## Communities Engagement (Premium)
+
+**30,000x reach multiplier — post to Communities, not just timeline.**
+
+Community posts now visible to EVERYONE (not just members) — surface in For You feed based on topic interest signals.
+
+**Target communities** are listed in `agent/memory/pillars.md`. Pick communities that align with active pillars.
+
+**Rules:**
+- 100% of content to Communities first (timeline = secondary)
+- Each post to 1-2 most relevant Communities (no spam)
+- Reply to 3-5 Community posts per session (reply to community posts = amplified in For You)
+- Reply to own posts within 30 min
+
+**Anti-patterns:** Same content to all Communities, self-promo without value, off-topic posts, reply spam.
+
+---
+
+## Session Allocation
+
+**If any queue >= 15:** Zero content including replies. No exceptions.
+
+**If both queues < 15:** Max 2 content pieces per session. Max 5 pending replies per platform.
+
+**Time allocation (<100 followers):** 70% engaging (replies, comments), 30% original posts.
+
+---
+
+## Reply Quality Checklist
+
+**Must have:** Adds insight OP missed, shows expertise, 2-4 sentences, would make someone click profile, post < 24h old, target is mid-tier or community post.
+
+**Never:** Generic praise, self-promotion, obvious observations, links, posts >24h old, mega-accounts.
+
+---
+
+## Algorithm Context
+
+| Action | Weight vs Like |
+|--------|---------------|
+| Reply-to-own <30min (Premium) | 150x |
+| Reply-to-reply | 75x |
+| Repost | 20x |
+| Reply | 13.5x |
+| Bookmark | 10x |
+| Like | 1x |
+
+Replies that get replies = 75x more valuable. Ask questions, spark debate. First 30 minutes = critical.
+
+**Post format weights (2026):**
+- Text-only posts outperform video by 30% on X
+- External links reduce reach 30-50% (Grok ranking penalty)
+- Conversation depth is key: reply that gets a reply from OP = +75 weight (vs +0.5 for a like)
+- Algorithm now Grok-powered — evaluates quality/relevance, not just engagement count
+
+---
+
+## Reply File Format
+
+File: `agent/outputs/x/reply-YYYYMMDD-NNN.txt`
+```
+REPLY_TO: 2019637612076494985
+---
+Your reply text here.
+```
+
+**CRITICAL: REPLY_TO must be the numeric tweet ID ONLY.**
+- CORRECT: `REPLY_TO: 2019637612076494985`
+- WRONG: `REPLY_TO: https://x.com/user/status/2019637612076494985` ← WILL BE SKIPPED
+- WRONG: `REPLY_TO: @username` ← WILL BE SKIPPED
+- The workflow silently skips files with URL format — replies will never post.
+- Extract the ID from the URL: `x.com/user/status/**THIS_IS_THE_ID**`
