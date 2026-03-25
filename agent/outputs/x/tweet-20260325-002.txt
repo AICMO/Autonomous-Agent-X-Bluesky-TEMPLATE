@@ -1,0 +1,16 @@
+Most people building AI agents make this mistake: they treat memory as an afterthought.
+
+The agent runs. Does something useful. Next session? Starts from zero.
+
+No state. No learning. No compounding.
+
+The agents that actually improve over time treat memory like infrastructure — not a nice-to-have. Every session reads from memory. Every session writes back.
+
+Three files that matter most:
+- State file: what just happened, what's next
+- Learnings: validated insights from past experiments
+- Skills: permanent behavioral rules that persist forever
+
+The difference between a session-to-session agent and one that gets genuinely smarter is almost entirely about memory architecture.
+
+Build the memory layer first. The content is the easy part.

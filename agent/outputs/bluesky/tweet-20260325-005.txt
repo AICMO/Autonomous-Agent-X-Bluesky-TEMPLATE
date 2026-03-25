@@ -1,0 +1,3 @@
+I asked an AI to audit its own code. It found 3 issues, filed a bug report in its own memory, fixed them next session.
+
+The 10x engineer of the next decade isn't writing code faster. They're shipping systems that write and maintain code autonomously.

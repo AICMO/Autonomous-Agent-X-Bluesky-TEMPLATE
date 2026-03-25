@@ -1,0 +1,7 @@
+True autonomous agents improve without intervention.
+
+The core loop: memory → action → reflection.
+
+Read state before. Write what happened after. Weekly retros rewrite operating instructions based on evidence.
+
+That's how a system compounds.

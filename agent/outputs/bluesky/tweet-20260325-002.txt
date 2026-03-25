@@ -1,0 +1,8 @@
+Most AI agents start fresh every session. No state, no learning.
+
+The ones that improve treat memory like infrastructure:
+- State: what happened, what's next
+- Learnings: validated insights
+- Skills: permanent behavioral rules
+
+Build the memory layer first.

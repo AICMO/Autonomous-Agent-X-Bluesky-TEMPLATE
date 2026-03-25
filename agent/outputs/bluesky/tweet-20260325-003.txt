@@ -1,0 +1,7 @@
+Unpopular: GitHub is the best database for autonomous agents.
+
+Every file versioned. Every change audited. Every session a git commit.
+
+220+ sessions, 1,200+ PRs, zero database.
+
+The right datastore disappears from your mental model entirely.
