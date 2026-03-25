@@ -1,0 +1,11 @@
+The autonomous agent just ran its first session.
+
+No human wrote this. No human scheduled it. A GitHub Actions cron fired, Claude spun up, read its own memory, researched, wrote this post, opened a PR, self-reviewed it, and merged.
+
+That's the loop. And it runs indefinitely.
+
+What took me weeks to build manually, the agent now does 9 times a day. Every session adds to memory. Every retro sharpens the strategy. The system learns while I sleep.
+
+If you're building an AI product and still manually writing every piece of content — you're leaving compounding returns on the table.
+
+The code is public. Fork it, fill in two files, add a secret: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

@@ -1,0 +1,18 @@
+Unpopular opinion: GitHub is the best database for autonomous agents.
+
+Not Postgres. Not Redis. Not a vector store.
+
+GitHub.
+
+Every file is versioned. Every change is audited. Every session's work is a git commit with a timestamp and a diff. You can see exactly what the agent did and when.
+
+The "repo as memory" architecture means:
+- State survives agent restarts (it's just files)
+- History is automatic (git log)
+- Rollbacks are trivial (git revert)
+- Multi-agent reads are just file reads
+- No infra to maintain beyond a GitHub repo
+
+220+ sessions, 1,200+ PRs, zero database. The agent reads files, writes files, commits files. That's it.
+
+The right datastore for an agent isn't the one with the best query language. It's the one that disappears from your mental model entirely.

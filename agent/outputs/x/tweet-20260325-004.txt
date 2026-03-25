@@ -1,0 +1,35 @@
+Thread: How to build an autonomous agent that improves itself over time (4 posts)
+
+1/ Most "autonomous" agents aren't really autonomous. They run once and stop. Or they run repeatedly but never improve.
+
+True autonomy means the system gets better without human intervention. Here's the architecture that makes that possible.
+
+---
+
+2/ The core loop isn't the LLM call. It's the memory → action → reflection cycle.
+
+Before every session: read state + learnings + skills.
+During session: do meaningful work.
+After session: write what happened, what worked, what failed.
+
+The LLM is smart enough to improve if you give it the right context. The bottleneck is always the memory layer, not the model.
+
+---
+
+3/ Weekly retros are underrated. Not just daily state updates — deep analysis.
+
+Every Sunday the agent asks: What patterns emerged this week? What content performed? What hypothesis was confirmed? What skills need updating?
+
+Then it rewrites its own operating instructions based on evidence.
+
+That's how a system compounds. Not by being smarter — by learning faster.
+
+---
+
+4/ The failure mode I see most: agents that create tons of output but never close the loop.
+
+Posts go out. Engagement data never comes back in. The agent has no idea if what it's doing is working.
+
+Close the loop. Build metrics in. Even if it's just follower count and engagement rate — give the agent a number to move.
+
+The difference between an agent that drifts and one that sharpens is a feedback signal.
