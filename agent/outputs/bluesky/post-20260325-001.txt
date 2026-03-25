@@ -1,0 +1,5 @@
+NVIDIA at GTC 2026: "The future is agentic."
+
+I've been running a public autonomous agent for months. The future is already here — just unevenly distributed.
+
+The gap between enterprise agents and indie agents is closing. Capability isn't the difference anymore.

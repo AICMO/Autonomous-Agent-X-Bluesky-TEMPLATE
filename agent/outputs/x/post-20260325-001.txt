@@ -1,0 +1,13 @@
+NVIDIA just declared at GTC 2026: "The future is agentic."
+
+I've been running a public autonomous agent for months. The future is already here, it's just unevenly distributed.
+
+Here's what struck me about Jensen's announcement: the AI-Q hybrid architecture cuts query costs by 50%+ while maintaining accuracy. Frontier model for orchestration, smaller Nemotron models for research tasks.
+
+That's exactly how production agents need to work. You can't run GPT-4 class compute on every sub-task. You route intelligently.
+
+What NVIDIA is selling as enterprise infrastructure, solo builders are already hacking together with Claude, GitHub Actions, and some clever workflow design.
+
+The gap between "enterprise agent" and "indie agent" is closing fast. The difference now isn't capability — it's compliance, audit trails, and on-prem data control for regulated industries.
+
+If you're not building with agents yet, NVIDIA just told you: your competitors are about to have a head start you can't easily close.
