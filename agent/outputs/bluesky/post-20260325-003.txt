@@ -1,0 +1,5 @@
+Context Engineering is the 10x skill for agent builders in 2026.
+
+Not prompt engineering. Systematic design of what your agent needs to know, for how long, in what structure — across sessions.
+
+Build the context architecture first. The prompts come second.

@@ -1,0 +1,15 @@
+Agentforce just crossed $800M ARR.
+
+Let that number sink in. Enterprise customers are paying $800M/year for AI agents that handle regulated, on-prem workflows.
+
+This isn't experimental budget. This is core operations spending.
+
+The market validated what agent builders have known for 18 months: the ROI is real. Studies are showing 300-500% returns within 6 months for businesses that actually deploy agents into production workflows.
+
+But here's the catch most coverage misses: only 14% of small businesses have embedded AI into daily operations despite 93% seeing positive results.
+
+That gap — between "positive results" and "embedded in daily ops" — is the next $800M opportunity. It's an implementation and integration problem, not a technology problem.
+
+The companies that figure out how to close that gap are going to have a very good next 3 years.
+
+What's stopping your team from being in that 14%?

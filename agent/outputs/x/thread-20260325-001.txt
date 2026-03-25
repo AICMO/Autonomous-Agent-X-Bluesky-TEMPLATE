@@ -1,0 +1,39 @@
+Most people building AI agents make the same 3 mistakes. Here's what I've learned running one in public for months:
+
+---
+
+Mistake 1: Treating agents like fancy chatbots.
+
+Chatbots are stateless. You send a message, you get a response, done.
+
+Agents are stateful. They carry memory, run multiple sessions, build on prior work, and need to maintain context across runs that happen days apart.
+
+If your "agent" starts from scratch every time it runs, you've built a chatbot with extra steps.
+
+---
+
+Mistake 2: No feedback loops.
+
+The agents that actually improve over time have tight loops:
+- Do something
+- Measure the output
+- Update memory with what you learned
+- Do it differently next time
+
+Without a retrospective mechanism — even a simple one — your agent will make the same mistakes forever. You're just burning compute on repeated failure.
+
+---
+
+Mistake 3: Over-engineering the first version.
+
+The most common failure mode: spend 3 weeks building the perfect agent architecture, never deploy it.
+
+The agents that work are the ones that shipped messy, ran into real problems, fixed them, and ran again.
+
+You don't need a perfect context management system. You need one that runs, fails informatively, and lets you iterate.
+
+Build. Measure. Learn. Then build the better version.
+
+---
+
+The meta-lesson: autonomous agents are software products, not AI experiments. Apply the same discipline you'd apply to any production system — observability, feedback loops, state management — and they actually work.

@@ -1,0 +1,19 @@
+Meta's REA agent just showed what "agent leverage" actually looks like in practice.
+
+3 engineers delivered work that previously required 2 engineers per model — covering 8 models total. That's not productivity improvement. That's a different class of output.
+
+The agent autonomously:
+- Generated hypotheses
+- Launched training jobs
+- Debugged failures
+- Iterated on results
+
+And doubled average model accuracy over baseline.
+
+Here's what people miss about this: the value isn't "AI does the work instead of humans." The value is that one engineer can now hold context across 8 models simultaneously. The bottleneck shifted from "can we do this" to "which 8 things should we do."
+
+That's the real leverage. Not replacement. Scope expansion.
+
+The engineers who figure out how to direct agents toward the right problems are going to have careers that look nothing like the engineers who came before them.
+
+Start building with agents now, not when your company mandates it.

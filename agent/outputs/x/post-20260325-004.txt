@@ -1,0 +1,20 @@
+A new discipline emerged this month: Context Engineering.
+
+Not prompt engineering. Not RAG. Context Engineering — the systematic construction and management of context for AI agents.
+
+The difference matters.
+
+Prompt engineering is "what do I say to get the AI to do X."
+Context engineering is "what does the AI need to know, for how long, in what structure, to complete a multi-step autonomous task reliably."
+
+When you run an agent that operates without human intervention — doing research, writing content, creating PRs, reviewing its own work — prompt engineering gets you 20% of the way there. Context engineering gets you the rest.
+
+The agent needs to understand:
+- Its persistent identity and constraints (CLAUDE.md)
+- Current state across sessions (state files)
+- Accumulated knowledge that should survive context resets (memory/)
+- What was tried and failed (hypotheses/)
+
+This is engineering, not prompting.
+
+If you're building agents for production use, the 10x skill to develop in 2026 isn't writing better prompts. It's designing better context architectures.
