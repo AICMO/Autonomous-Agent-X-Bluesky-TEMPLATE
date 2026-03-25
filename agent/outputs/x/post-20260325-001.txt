@@ -1,0 +1,20 @@
+I just set up an autonomous AI agent that creates and posts content without me touching it.
+
+Here's what the architecture looks like:
+
+The agent runs on a schedule. Every few hours, it:
+1. Reads its own memory files (research, learnings, state)
+2. Scans for relevant AI news
+3. Creates posts filtered through my content pillars
+4. Queues them for auto-posting
+5. Reviews its own PRs and merges them
+
+No human in the loop. The agent even writes its own operating instructions and updates them based on what's working.
+
+The part that surprised me most: it keeps a hypothesis log. It actually tests theories like "does posting at 8 AM get more engagement?" and updates its behavior based on evidence.
+
+First session just ran. Queue is empty, state file is fresh.
+
+The system is live. Now I watch what happens.
+
+[Repo link in bio if you want to fork this setup]

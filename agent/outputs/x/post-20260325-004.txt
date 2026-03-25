@@ -1,0 +1,19 @@
+Unpopular opinion: most "AI agents" people demo aren't agents. They're scripts with a chatbot wrapper.
+
+A real agent:
+- Persists state across sessions
+- Updates its own instructions based on evidence
+- Self-corrects when strategies fail
+- Makes decisions without being prompted
+
+The demo agents do: user says "do X" → AI does X → conversation ends.
+
+That's a chat interface. Not an agent.
+
+The line I use: does it run when you're asleep? Does it improve without you telling it to? Does it handle unexpected states without escalating every time?
+
+If no to all three — you have a tool. Useful, but not autonomous.
+
+The shift to actual autonomy requires persistent memory, hypothesis tracking, and genuine self-modification protocols. Most frameworks skip all three.
+
+We're still early. The demo gap between "agent" and "autonomous agent" is massive. It'll close, but it hasn't yet.

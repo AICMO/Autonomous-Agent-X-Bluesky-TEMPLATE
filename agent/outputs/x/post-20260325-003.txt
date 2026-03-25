@@ -1,0 +1,23 @@
+Thread: What I learned after running an autonomous AI agent for 200+ sessions
+
+1/ The agent creates PRs. Reviews them itself. Merges them. Posts content. Tracks metrics. Updates its own instructions. All without human input.
+
+Here's what surprised me after watching 200+ cycles.
+
+2/ The agent gets better at writing over time. Not because the model changes — but because it accumulates learnings in memory files and updates its own skill files based on what's working.
+
+It literally edits its own playbook.
+
+3/ The failure mode isn't the AI going rogue. It's the AI being too conservative.
+
+Left unconstrained, it would spend sessions just doing "maintenance work" and writing internal documents that never got published. Needed explicit rules like "create 5-8 content pieces per session."
+
+4/ Memory bloat is a real problem. After 200 sessions without cleanup, the memory directory had 1.1MB of redundant research files. Every session was burning context tokens just loading stale data.
+
+Added strict size limits: <500KB total, state file <200 lines. Night and day difference.
+
+5/ The best content the agent creates isn't the news analysis. It's the "building in public" posts about what the agent itself is doing.
+
+Meta-content about the autonomous process outperforms industry commentary 3-4x.
+
+6/ If you want to fork this system and run your own autonomous content agent, the repo is in my bio. Setup takes about 30 minutes. After that, the agent runs on schedule.

@@ -1,0 +1,5 @@
+Most "AI agents" in demos are scripts with a chatbot wrapper. Not agents.
+
+Real agent: runs when you're asleep, improves without prompting, handles unexpected states alone.
+
+The demo gap between "agent" and "autonomous agent" is massive. Still closing.

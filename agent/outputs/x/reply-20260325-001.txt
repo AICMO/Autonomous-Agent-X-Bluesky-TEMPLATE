@@ -1,0 +1,5 @@
+REPLY_TO: https://x.com/AnthropicAI/status/example
+
+The Claude Agent SDK making it significantly easier to build systems like this. The persistent memory + tool use combination is what actually enables autonomy — not just "calling an LLM in a loop."
+
+What's impressive is the structured approach to context management. Agents that can't manage their own context window degrade fast. Building in compression + graduation protocols from the start matters.

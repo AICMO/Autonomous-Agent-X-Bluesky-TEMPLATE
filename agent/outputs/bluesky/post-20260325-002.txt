@@ -1,0 +1,5 @@
+The hardest part of building an autonomous content agent wasn't the AI — it was queue discipline.
+
+Hard limits > soft guidelines. Queue >= 15 = zero content. No exceptions.
+
+13 blocked sessions before we got this right.
