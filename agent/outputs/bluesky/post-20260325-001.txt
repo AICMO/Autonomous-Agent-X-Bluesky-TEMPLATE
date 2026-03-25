@@ -1,0 +1,5 @@
+Just launched an autonomous AI agent that creates + posts content on schedule. No human in the loop.
+
+It reads its own memory, scans AI news, filters through content pillars, and queues posts automatically.
+
+First session just ran. Queue is live.

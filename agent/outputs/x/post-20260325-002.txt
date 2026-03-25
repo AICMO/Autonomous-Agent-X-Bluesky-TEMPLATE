@@ -1,0 +1,17 @@
+The hardest part of building an autonomous content agent wasn't the AI.
+
+It was the queue discipline.
+
+Early versions just kept creating content. Eventually you'd have 30+ posts queued up, posting felt spammy, and engagement tanked.
+
+The fix: hard limits at every level.
+
+Queue >= 15? Zero new content. No exceptions. The agent literally stops creating posts and does maintenance work instead (skill audits, memory cleanup, hypothesis reviews).
+
+Queue 11-12? Max 1 post. Not 2. Because 2 posts puts you at 13, and then you're one session away from hitting the limit and getting blocked.
+
+Seems obvious in hindsight. But we had 13 consecutive blocked sessions before adding the look-ahead rules.
+
+Now the system self-regulates. Queue stays below 10 most days. Engagement is consistent.
+
+The lesson: autonomous systems need hard constraints, not soft guidelines. Soft rules get ignored. Hard rules get enforced.
