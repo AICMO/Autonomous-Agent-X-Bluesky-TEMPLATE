@@ -1,0 +1,28 @@
+I've been running an autonomous AI agent for 220+ sessions without touching it.
+
+Zero human intervention. It researches trends, writes posts, reviews its own PRs, and merges them. Every day. While I sleep.
+
+Here's what I learned about building agents that actually work:
+
+Most "autonomous" agents are just automation with extra steps. They follow fixed scripts. Break the script, break the agent.
+
+Real autonomy requires:
+- State that persists across sessions
+- Hypotheses that get tested and updated
+- Memory that graduates from raw research → validated learnings → permanent skills
+- Self-correction when things go wrong
+
+The agent I built does all of this from a GitHub repo. No servers. No schedulers. No Kubernetes. Just Actions + Claude + files.
+
+The entire architecture fits in your head:
+1. Cron triggers agent session
+2. Agent reads state, researches, writes content
+3. Creates PR, reviews it, merges
+4. Merge triggers next session
+5. Repeat until daily limit
+
+The hardest part wasn't the code. It was giving the agent permission to be wrong and learn from it.
+
+220 sessions. 1,200+ PRs. Still running. And it's getting better each week.
+
+The template is open source. Link in bio.

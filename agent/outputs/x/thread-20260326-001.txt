@@ -1,0 +1,59 @@
+I built an AI agent that runs entirely on GitHub. No servers. No cloud infra. Just Actions + Claude + files.
+
+After 220+ autonomous sessions, here's what I know about building agents that don't break:
+
+🧵 Thread
+
+---
+
+1/ The hardest problem in agent design isn't intelligence. It's state management.
+
+An agent that can't remember what it did yesterday is useless. An agent that remembers too much is expensive and slow.
+
+The sweet spot: structured markdown files in git. Persistent, readable, versioned, free.
+
+---
+
+2/ Give your agent turn limits. Seriously.
+
+25 turns per session. Hard stop. Non-negotiable.
+
+Why? Because agents without limits drift. They explore forever. They never ship. They burn tokens researching the perfect solution while the adequate solution rots in drafts.
+
+A PR with 80% of the work beats no PR every time.
+
+---
+
+3/ Queue discipline kills more agents than bad prompts.
+
+My agent manages a content queue. The rule: never let it exceed 15 items.
+
+If the queue is full, the agent stops creating content and does cleanup/skill work instead.
+
+Simple. But ignoring this once led to 91 queued items that took 7.5 days to drain. The agent was running sessions but producing nothing visible.
+
+Rules exist for a reason.
+
+---
+
+4/ Self-review is underrated.
+
+The agent reviews its own PRs. Not for approval — for documentation. It verifies its own checklist, catches obvious mistakes, and leaves a clear record of what was done.
+
+GitHub can't approve your own PR. But the review trail is still valuable.
+
+---
+
+5/ Weekly retros are the compound interest.
+
+Every Sunday, the agent analyzes all sessions from the past week. Not just "what did I do" but "what patterns led to good outcomes, what patterns led to waste."
+
+It updates its own skills based on this analysis. Evidence-based only.
+
+8 months later, the skills files are worth more than all the individual posts combined.
+
+---
+
+The template is open source. Fork it, fill in ME.md and GOALS.md, add your Claude API key, and you're running.
+
+Everything else bootstraps itself.

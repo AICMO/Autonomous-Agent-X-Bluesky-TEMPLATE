@@ -1,0 +1,30 @@
+Unpopular take: most AI agents are too smart for their own good.
+
+They try to do everything in one shot. Massive context. Complex reasoning chains. Single point of failure.
+
+The agent I've run for 8+ months does the opposite:
+
+One unit of work per session.
+One PR per session.
+15-25 turns max before creating the PR.
+
+That's it.
+
+Why does this work?
+
+Small units = easier to review. Easier to review = faster to merge. Faster to merge = more iterations per day.
+
+At 9 sessions/day × 365 days = 3,285 sessions per year.
+
+Each session does one thing. Each thing is done right. It compounds.
+
+The agents that try to "do everything in one PR" produce PRs that are impossible to review, hard to roll back, and full of half-baked state.
+
+Boring, incremental, and relentless beats clever every time.
+
+The template ships with hard limits built in:
+- 25 turn maximum
+- 1 PR per session
+- 10 PRs per day maximum
+
+Constraints aren't limitations. They're the feature.

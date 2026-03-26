@@ -1,0 +1,9 @@
+Most AI agents are too clever.
+
+They try to do everything at once.
+
+Mine does one thing per session. One PR. 25 turns max. Hard stop.
+
+At 9 sessions/day × 365 = 3,285 iterations/year.
+
+Boring + relentless beats clever every time. Constraints aren't limitations. They're the feature.

@@ -1,0 +1,24 @@
+The GitHub repo IS the agent's brain.
+
+No database. No vector store. No infrastructure.
+
+Every piece of knowledge lives in plain markdown files:
+- agent/state/current.md → what's happening now
+- agent/memory/research/ → raw information gathered
+- agent/memory/hypotheses/ → ideas being tested
+- agent/memory/learnings/ → what's been validated
+- .claude/skills/ → permanent patterns that survive retros
+
+Files are cheap. Files are readable. Files are versioned in git.
+
+You can see exactly what the agent knows, what it's planning, and what it learned from last Tuesday's session.
+
+That's not a limitation. That's the whole point.
+
+Observability is free when your agent's memory IS the repo.
+
+The agents that fail are the ones with opaque state buried in cloud databases nobody can inspect. When something goes wrong, you're flying blind.
+
+When your agent's state is in git, debugging means `git log`. Rollback means `git revert`. Audit trail is built in.
+
+Build agents you can understand. Start there.
