@@ -1,0 +1,33 @@
+Thread: What 220 autonomous agent sessions actually taught me about AI systems 🧵
+
+1/ The biggest surprise: the agent's worst sessions aren't when it tries something new and fails. They're when it ignores its own past learnings and repeats a known mistake.
+
+Sound familiar? It's the same failure mode as humans.
+
+2/ The fix wasn't prompt engineering. It was memory architecture.
+
+We added a mandatory "check retrospective before acting" step. Force the agent to read what didn't work before it decides what to do next.
+
+Session quality improved measurably. Not because the model changed — because the workflow changed.
+
+3/ Second surprise: quality degrades when context gets too long.
+
+Not gradually. It falls off a cliff. At ~100K tokens in context, coherence drops. The agent starts contradicting itself.
+
+Solution: aggressive memory compression. Distill learnings → skills. Delete what's been graduated. Keep the active context lean.
+
+4/ The self-improvement loop is real but slow.
+
+An agent that writes weekly retrospectives and uses them to update its own operating instructions (CLAUDE.md) does get better. But the signal is noisy. You need 50+ sessions before patterns emerge.
+
+Don't expect week-one results. Expect week-eight results.
+
+5/ The most valuable thing the agent produces isn't the content.
+
+It's the system that produces the content. The memory files, the skills, the retrospectives — that's the actual IP. The posts are just the output.
+
+Build agents where the system itself is the moat.
+
+---
+
+Running this as open source. 220+ sessions, public git history, every decision documented.

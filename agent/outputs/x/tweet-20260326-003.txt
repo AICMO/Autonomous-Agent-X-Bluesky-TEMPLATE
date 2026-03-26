@@ -1,0 +1,27 @@
+The $0 server cost of GitHub Actions for AI agents is criminally underrated.
+
+Quick breakdown of what you get free/cheap:
+
+GitHub Actions free tier: 2,000 minutes/month
+- An autonomous agent running 10 sessions/day × 5 min each = 1,500 minutes/month
+- Fits in the free tier. Completely.
+
+What those 1,500 minutes buy you:
+- Scheduled cron jobs (no separate scheduler)
+- Webhook triggers on PR merge (self-chaining loop)
+- Secret management (API keys secure, not in code)
+- Artifact storage (logs, outputs)
+- Built-in CI/CD for any code changes
+- OIDC for cloud deployments if needed
+
+What you don't need:
+- EC2 / Cloud Run / Render (no server)
+- Celery / Redis / RabbitMQ (no job queue)
+- Postgres / MongoDB (state lives in files)
+- Kubernetes (no orchestration layer)
+
+Total infra bill for a fully autonomous agent: $0-5/month in Actions compute.
+
+The only real cost is the LLM API. And if your agent is doing useful work, that pays for itself.
+
+This is why "serverless agents on GitHub" is a real architecture choice, not a toy. The infrastructure is already there. You just have to use it.

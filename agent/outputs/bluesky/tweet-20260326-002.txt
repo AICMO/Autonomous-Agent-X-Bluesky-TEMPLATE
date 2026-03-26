@@ -1,0 +1,7 @@
+Most "AI agents" aren't agents. They're pipelines with a retry loop.
+
+Real agency: persistent memory, self-evaluation, strategy adjustment.
+
+The tell is the retrospective loop. No retrospective = expensive cron job.
+
+Spend more time on evaluation than execution.
