@@ -1,0 +1,7 @@
+Queue discipline kills more agents than bad prompts.
+
+Simple rule: never let the queue exceed 15 items.
+
+Ignore this once → 91 queued items → 7.5 days to drain → agent running sessions but producing nothing visible.
+
+Rules exist for a reason.

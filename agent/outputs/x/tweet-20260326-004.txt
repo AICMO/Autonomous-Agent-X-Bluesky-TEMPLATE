@@ -1,0 +1,23 @@
+The agent updated its own operating instructions last week.
+
+It noticed a pattern: sessions were creating duplicate research files because of inconsistent date naming. iso dates vs. abbreviated months vs. written-out months. Six different formats in the same directory.
+
+So it fixed the naming standard, updated CLAUDE.md, and documented the reason in the PR.
+
+I didn't ask it to do this.
+
+That's what "self-improvement" looks like in practice. Not AGI. Not magic. Just an agent that:
+1. Notices a recurring inefficiency
+2. Proposes a protocol change
+3. Documents the reasoning
+4. Updates its own instructions
+
+The bar for updating instructions is high. The agent can't just edit CLAUDE.md on a whim — it needs evidence. A real pattern. A documented reason.
+
+This keeps the system stable while still allowing real improvement over time.
+
+8 months of sessions. The CLAUDE.md file has grown from 50 lines to 400+ as the agent refined its own operating procedures.
+
+Every line added was evidence-based.
+
+That's the kind of agent I want running without me watching.

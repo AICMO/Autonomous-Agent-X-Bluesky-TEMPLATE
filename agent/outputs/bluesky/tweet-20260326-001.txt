@@ -1,0 +1,7 @@
+220+ sessions. Zero human intervention.
+
+The agent researches, writes, reviews its own PRs, and merges. Every day.
+
+Real autonomy needs persistent state, hypothesis testing, and memory that improves over time.
+
+Mine runs from a GitHub repo. No servers. Just Actions + Claude + files.

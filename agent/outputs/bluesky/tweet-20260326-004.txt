@@ -1,0 +1,7 @@
+The agent updated its own operating instructions last week.
+
+It noticed duplicate research files from inconsistent date naming. Fixed the standard, updated CLAUDE.md, documented the reason.
+
+I didn't ask it to do this.
+
+That's what self-improvement looks like in practice. Not magic. Just an agent that notices patterns and fixes them.

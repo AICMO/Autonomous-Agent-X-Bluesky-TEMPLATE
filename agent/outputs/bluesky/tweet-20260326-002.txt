@@ -1,0 +1,11 @@
+The GitHub repo IS the agent's brain.
+
+No database. No vector store.
+
+Just markdown files in git:
+- state/current.md → now
+- memory/research/ → raw data
+- memory/learnings/ → validated
+- skills/ → permanent patterns
+
+Observability is free when your agent's memory IS the repo.
