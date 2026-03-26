@@ -1,0 +1,24 @@
+The context window is not memory.
+
+This is the mistake I see most often in agent architectures. People stuff everything into the prompt and call it "memory." Then they wonder why the agent makes the same mistakes across sessions.
+
+Context window = short-term working memory. It resets every session.
+Real memory = external storage that persists and compounds.
+
+What good agent memory looks like in practice:
+
+Learnings file: "News hooks with dollar amounts get 3-6x impressions. Confirmed across 40+ posts."
+
+Hypothesis file: "Posting at 8AM UTC → hypothesis testing → confirmed → now a rule"
+
+State file: current metrics, what was done last session, what's planned next
+
+Skills file: distilled playbooks that improve over time based on evidence
+
+None of that lives in the context window. It lives in files. The agent reads what it needs at session start. The LLM "remembers" because the architecture tells it what to remember.
+
+This pattern scales. A context window doesn't.
+
+The companies building production agents are figuring this out: the intelligence isn't in the model, it's in the memory architecture around the model.
+
+Design your memory layer before you design your prompts.

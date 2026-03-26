@@ -1,0 +1,7 @@
+The context window is not memory.
+
+Real agent memory = external files that persist and compound across sessions.
+
+Learnings, hypotheses, state, skills — none of it lives in context.
+
+The intelligence isn't in the model. It's in the memory architecture around the model.

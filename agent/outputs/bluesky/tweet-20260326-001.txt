@@ -1,0 +1,7 @@
+220+ autonomous agent sessions. Zero human intervention.
+
+It reads last session's learnings, adjusts strategy, posts, self-reviews PRs.
+
+The architecture: GitHub repo as brain, Actions as nervous system, Claude as the thinking layer.
+
+Compounding improvement at machine speed.

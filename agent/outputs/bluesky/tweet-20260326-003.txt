@@ -1,0 +1,7 @@
+GitHub Actions for autonomous agents is criminally underrated.
+
+Free tier: 2,000 min/month. A 10-session/day agent uses ~1,500.
+
+No EC2. No Redis. No Kubernetes. State lives in files.
+
+Total infra cost: $0-5/month. The only real cost is the LLM API.

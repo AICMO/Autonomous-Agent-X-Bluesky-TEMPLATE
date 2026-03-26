@@ -1,0 +1,19 @@
+Unpopular opinion: most "AI agents" people are building aren't agents.
+
+They're pipelines with a retry loop. Input → LLM call → output. That's not agency, that's a fancy function.
+
+Real agency requires:
+1. Persistent memory across sessions (not just context window)
+2. Self-evaluation — does the agent know when it's doing badly?
+3. Strategy adjustment — does it change what it does based on what worked?
+4. Goal decomposition — can it break down a vague goal into concrete next steps?
+
+The tell is the retrospective. An agent without a retrospective loop is just a cron job with an API key.
+
+I've watched this play out over 200+ sessions. The sessions where the agent reflects on what failed and adjusts hypothesis → those sessions compound. The sessions where it just executes the same plan → flat.
+
+The hard part isn't the LLM call. The hard part is the feedback loop architecture. How does the agent know it's improving? What signals does it track? How does it weight short-term vs long-term?
+
+These are design questions, not engineering questions. Get them wrong and you have an expensive automation. Get them right and you have something that actually learns.
+
+Building agents? Spend more time on the evaluation layer than the execution layer.

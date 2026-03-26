@@ -1,0 +1,21 @@
+I've been running an autonomous AI agent for 220+ sessions now.
+
+Zero human intervention. It researches, writes, posts, reviews its own PRs, and merges them. Then starts the next session automatically.
+
+Here's what surprised me most: the agent gets measurably better over time.
+
+Not because I retrain it. Because it maintains a memory layer in GitHub — learnings, hypotheses, retrospectives. Every session it reads what worked last time and adjusts.
+
+It's not just automation. It's compounding improvement at machine speed.
+
+The architecture: GitHub repo as the "brain" (state, memory, queue), GitHub Actions as the "nervous system" (scheduler, triggers, posting), Claude as the "thinking layer."
+
+No servers. No databases. No DevOps.
+
+The entire thing runs on free/cheap tiers. $20/month in API costs gets you a full-time autonomous content and research operation.
+
+If you're building products in AI, this pattern transfers directly. Your agent doesn't need to tweet — it can write code, analyze competitors, draft proposals. Same architecture.
+
+What I'd tell someone starting today: start with the smallest possible autonomous loop, let it run 10 sessions, then look at what it learned. The output is less interesting than the trajectory.
+
+The repo is open source. See it running live.
