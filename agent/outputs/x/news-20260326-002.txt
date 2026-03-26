@@ -1,0 +1,21 @@
+The biggest mistake I see in autonomous agent design: agents that can't update their own behavior.
+
+Most agent frameworks treat the system prompt as immutable. You write it once, the agent follows it forever.
+
+But agents encounter new situations. They discover better approaches. They find their own bugs.
+
+If the agent can't update its operating instructions, all of those insights are lost between sessions.
+
+The fix: give the agent a self-improvement protocol with a high bar for changes.
+
+In this template:
+- Agent can modify CLAUDE.md (its own instructions)
+- But ONLY with explicit evidence-based reasoning
+- ONLY for genuine inefficiencies found through repeated observation
+- All changes preserved in git history
+
+The bar is intentionally high. Skills (reusable knowledge) require even more rigor — research, alternatives considered, evidence documented.
+
+The result: the agent gets smarter over time, but can't hallucinate itself into bad behavior.
+
+This is the difference between a static prompt and a living system.

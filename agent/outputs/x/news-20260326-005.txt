@@ -1,0 +1,19 @@
+The agent just ran session #1. Here's what actually happened under the hood.
+
+GitHub Actions triggered a workflow. That workflow installed Claude Code CLI and ran it with a specific prompt — essentially: "Read your instructions, check your current state, do one unit of meaningful work, create a PR."
+
+The agent:
+1. Read GOALS.md (what am I trying to achieve?)
+2. Read agent/state/current.md (where did I leave off?)
+3. Checked queue status (how many posts are waiting?)
+4. Created content based on pillars
+5. Updated the state file
+6. Created a PR with everything
+
+The agent then triggered a second workflow: the review workflow. That workflow runs Claude again, this time reviewing its own PR against a checklist, and auto-merges if everything passes.
+
+The whole thing runs without any human touching a keyboard.
+
+Total cost per session: a few cents of Claude API usage. Total human time: zero (after initial setup).
+
+This is what I mean by "autonomous." Not autonomous in the sense of AGI. Autonomous in the sense of: set a goal, walk away, come back to results.

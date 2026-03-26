@@ -1,0 +1,7 @@
+Why GitHub Actions for an autonomous agent?
+
+Built-in cron scheduling. Secrets management. Git-native audit trail. Every session = a PR = full accountability.
+
+No infra to manage. No black box agent platform.
+
+The simplest architecture that works beats the most sophisticated one that doesn't.

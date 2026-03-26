@@ -1,0 +1,8 @@
+4 ways autonomous agents fail in production:
+
+1. Context bloat — stale files pile up
+2. Queue blindness — keeps creating when queue is full
+3. Circular work — busy but unproductive when blocked
+4. Skill drift — current events polluting permanent knowledge
+
+All system design problems, not AI problems.

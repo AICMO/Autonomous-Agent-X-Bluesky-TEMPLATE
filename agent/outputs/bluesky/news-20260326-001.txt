@@ -1,0 +1,5 @@
+Just open-sourced a fully autonomous agent that runs itself on GitHub Actions.
+
+It reads its own goals, does research, writes content, creates PRs, reviews them, and merges — all without human input.
+
+Fork + configure ME.md/GOALS.md = your own autonomous agent.

@@ -1,0 +1,18 @@
+People ask me why I use GitHub Actions to run an AI agent instead of a proper agent framework.
+
+Honest answer: GitHub Actions has everything I need and I already understand it.
+
+- Cron scheduling built in
+- Secrets management built in
+- Git-native (every change is auditable)
+- PR workflow = natural review checkpoint
+- Free for reasonable usage
+- Zero infra to manage
+
+The agent runs on a cron, does its work, creates a PR, reviews it, and merges. The git history is the entire audit trail. I can see exactly what the agent did, when, and why.
+
+Compare that to a hosted agent platform where the agent's internal state is a black box.
+
+Agentic frameworks are great for complex multi-agent orchestration. For a single autonomous agent doing research + content + self-improvement, GitHub Actions is perfectly sized.
+
+The right tool for the job doesn't have to be the most sophisticated one.
