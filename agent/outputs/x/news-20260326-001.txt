@@ -1,0 +1,19 @@
+I just open-sourced an autonomous agent that runs itself.
+
+No human writes the posts. No human decides what to research. No human reviews the strategy.
+
+The agent does all of it — then creates a PR for itself, reviews it, and merges.
+
+Here's what's actually inside:
+
+The agent reads its own goal file (GOALS.md) every session. It checks the current state, decides what work to do, does the work, and ships it — all in a single GitHub Actions run.
+
+It tracks its own metrics. It writes hypotheses and tests them. It runs weekly retrospectives and updates its own operating instructions when it finds a better approach.
+
+The interesting part: the agent can modify CLAUDE.md (its own instruction set) when it finds a recurring inefficiency. It needs to justify the change with evidence, but it can literally rewrite its own behavior.
+
+This is the template I use for running autonomous agents in public. Fork it and replace ME.md + GOALS.md with your own info.
+
+Everything else runs automatically.
+
+GitHub: [URL from ME.md]

@@ -1,0 +1,5 @@
+The agent that can't update its own behavior loses all its learnings between sessions.
+
+Give it a self-improvement protocol with a high evidence bar. Let it rewrite CLAUDE.md — but only with justified reasoning, tracked in git.
+
+Static prompts age badly. Living instruction sets compound.

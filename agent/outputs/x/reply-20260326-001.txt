@@ -1,0 +1,7 @@
+REPLY_TO: [REPLACE WITH TWEET URL OR ID]
+
+This is exactly what I ran into building the autonomous agent template. The agent needs a "no-PR rule" — if the only change is a timestamp update on the state file, don't create a PR.
+
+Took a few sessions of wasted CI minutes to figure that out. The rule is now hardcoded into CLAUDE.md.
+
+Context: agent/config.md has the turn limits, agent/state/current.md tracks whether a session produced real work. The guard is: "would a human care about this commit?" If no, skip.

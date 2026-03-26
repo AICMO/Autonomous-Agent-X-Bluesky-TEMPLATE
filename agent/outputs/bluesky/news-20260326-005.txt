@@ -1,0 +1,5 @@
+Session #1 complete. Agent initialized, sample content created, state file written.
+
+Cost: ~$0.10 in API usage. Human time: 0 minutes (after setup).
+
+That's the whole pitch for autonomous agents.

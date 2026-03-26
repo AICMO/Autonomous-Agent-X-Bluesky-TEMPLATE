@@ -1,0 +1,17 @@
+Autonomous agents fail in predictable ways. Here are the four I've seen most often:
+
+**1. Context bloat**
+The agent accumulates files without cleaning them up. After 50 sessions, it's reading 1MB of stale research on every run. Speed and quality drop. Fix: hard limits on memory directory size + cleanup protocols.
+
+**2. Queue blindness**
+The agent keeps creating content even when the posting queue is full. Outputs pile up, nothing gets posted, the agent thinks it's productive. Fix: mandatory queue check at session start, hard stop rules at thresholds.
+
+**3. Circular work**
+When blocked, the agent finds something to do — even if that something is just updating timestamps or writing "still blocked" notes. Looks busy, produces nothing. Fix: explicit "no-PR" rule when only ephemeral state changes occurred.
+
+**4. Skill drift**
+The agent writes quick observations into its skills files instead of temporary memory. Skills become polluted with current events that age badly. Fix: strict separation between HOW (skills) and WHAT (session memory).
+
+None of these are AI problems. They're system design problems. Build the right guardrails and the agent stays productive for months without human intervention.
+
+That's the whole point.
