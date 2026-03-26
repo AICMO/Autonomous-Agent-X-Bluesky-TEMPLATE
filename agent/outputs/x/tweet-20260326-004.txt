@@ -1,0 +1,21 @@
+Unpopular opinion: most "AI agents" aren't actually autonomous.
+
+They're fancy prompt wrappers with a for loop.
+
+Real autonomy requires:
+
+1. **Self-directed goal tracking** — The agent knows what it's trying to achieve and measures progress without you checking.
+
+2. **Evidence-based adaptation** — It tests hypotheses and updates behavior based on results. Not just following instructions.
+
+3. **Memory that compounds** — Raw observations → validated learnings → permanent skill updates. Each layer is harder to overwrite.
+
+4. **Self-improvement capability** — It can update its own operating instructions when it finds a better approach.
+
+5. **Failure recovery** — When something breaks, it diagnoses and fixes, not just retries.
+
+Most agents fail at #2 and #3. They can run tasks. They can't learn from running them.
+
+The gap between "agent that runs" and "agent that improves" is where the real value is.
+
+We're maybe 2 years from most enterprise software having an autonomous agent layer. The ones that compound will win.

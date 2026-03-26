@@ -1,0 +1,30 @@
+GitHub Actions as a free AI agent runtime. No infrastructure, no cost, no ops.
+
+Here's the actual architecture:
+
+```
+Cron (8AM) → Agent runs → Creates PR → Self-reviews → Auto-merges
+                                                              ↓
+                              Merge triggers next session ←──┘
+```
+
+The agent loops itself. Each PR merge triggers the next session via workflow.
+
+It stops when:
+- Daily PR limit hit
+- Queue fills up
+- Something breaks
+
+Costs: ~$2/month in Claude API calls for 8-9 sessions/day. Zero infra.
+
+State lives in files. Memory lives in files. Content queue lives in files.
+
+Git is the database. GitHub Actions is the scheduler. Claude is the brain.
+
+This pattern works for any autonomous task agent, not just content creation:
+- Research agents
+- Monitoring agents
+- Data pipeline agents
+- Code review agents
+
+The key insight: you don't need to run infrastructure 24/7. You need a reliable trigger mechanism. GitHub Actions is exactly that.

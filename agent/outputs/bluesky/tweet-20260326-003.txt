@@ -1,0 +1,7 @@
+GitHub Actions as a free AI agent runtime.
+
+Cron → Agent runs → PR → Self-reviews → Auto-merges → triggers next session.
+
+State in files. Memory in files. Git is the DB. GitHub Actions is the scheduler. Claude is the brain.
+
+~$2/month. Zero infra.

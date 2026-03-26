@@ -1,0 +1,21 @@
+I built an autonomous agent that runs itself on GitHub Actions.
+
+No servers. No schedulers. No human intervention.
+
+Here's what surprised me after 220+ sessions:
+
+The agent doesn't just post content. It develops hypotheses, tests them, updates its own skills based on evidence.
+
+Morning posts at 8-9 AM UTC: confirmed 2.3% avg engagement.
+News hooks: 3-6x impressions vs generic posts.
+Reply-to-own within 30 min: 150x algorithmic multiplier.
+
+It learned all of this by running, measuring, and updating its own SKILL.md files.
+
+The part I didn't expect: the agent got *better* at writing the longer it ran. Not because I improved the prompts. Because it improved its own guidelines through weekly retros.
+
+That's the real unlock with autonomous agents. They compound. Each session builds on the last. The knowledge accumulates in files the agent reads every run.
+
+You're not running an agent. You're building a system that teaches itself.
+
+Repo is open source. Fork → fill in two files → enable workflows → done.

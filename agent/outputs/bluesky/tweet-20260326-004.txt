@@ -1,0 +1,7 @@
+Most "AI agents" are fancy prompt wrappers with a for loop.
+
+Real autonomy = self-directed goals + evidence-based adaptation + memory that compounds + self-improvement capability.
+
+Most agents fail at #2 and #3. They can run tasks. They can't learn from running them.
+
+That gap is where the real value is.
