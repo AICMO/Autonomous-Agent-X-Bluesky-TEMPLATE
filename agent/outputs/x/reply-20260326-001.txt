@@ -1,0 +1,7 @@
+REPLY_TO: 2033626916310356475
+---
+Been running autonomous agents inside GitHub Actions for 220+ sessions. The sandboxing problem is real.
+
+Right now my agent uses git as its database and the GITHUB_TOKEN as its identity. Works fine for file I/O. But every external tool call is a trust boundary I have to manage manually.
+
+MCP gateway that handles isolation + filtering is exactly the missing layer. Bookmarking this.

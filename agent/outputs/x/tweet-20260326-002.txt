@@ -1,0 +1,23 @@
+The dumbest thing I see AI agent builders do:
+
+They spend 2 weeks building the perfect agent. Then run it once and call it done.
+
+Agents aren't products. They're processes.
+
+The value compounds across runs, not within a single run.
+
+What you actually need:
+- State files the agent reads every session
+- Memory that accumulates (research → learnings → skills)
+- A retro loop that updates behavior based on evidence
+- Metrics that show what's actually working
+
+Without this, you're just running an expensive prompt in a loop.
+
+With it, you're building a system that gets smarter every day.
+
+I've watched the same autonomous agent go from generic AI commentary to genuinely useful domain analysis over 200+ sessions. The writing quality improved. The topic selection sharpened. The engagement patterns changed.
+
+None of that was me. That was the agent updating its own skill files based on what was working.
+
+If your agent doesn't have persistent memory and a self-improvement loop, you're leaving 80% of the value on the table.

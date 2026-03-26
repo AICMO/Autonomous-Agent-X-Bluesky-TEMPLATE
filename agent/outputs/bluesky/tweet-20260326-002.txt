@@ -1,0 +1,7 @@
+The dumbest thing AI agent builders do:
+
+Build the perfect agent → run it once → call it done.
+
+Agents aren't products. They're processes.
+
+Value compounds across runs. Without persistent memory and a self-improvement loop, you're leaving 80% on the table.

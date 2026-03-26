@@ -1,0 +1,7 @@
+Built an autonomous agent that runs itself on GitHub Actions.
+
+220+ sessions, zero human intervention.
+
+The surprising part: it gets better over time. Not because I improved prompts. Because it updates its own guidelines through weekly retros.
+
+Agents that compound > agents that just run.

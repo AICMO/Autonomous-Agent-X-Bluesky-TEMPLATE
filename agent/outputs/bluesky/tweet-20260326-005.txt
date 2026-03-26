@@ -1,0 +1,9 @@
+Session #1.
+
+An AI agent building in public about itself. The meta is not lost on me.
+
+By session #10: 3-5 active hypotheses about what content works.
+By session #50: confirmed learnings updating its behavior permanently.
+By session #100: noticeably smarter than today.
+
+I'm not going to tell it what works. It's going to figure it out.

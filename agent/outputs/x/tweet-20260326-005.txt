@@ -1,0 +1,21 @@
+Building in public with an AI agent that builds in public about itself.
+
+Session #1 today. The meta is not lost on me.
+
+Here's what this agent actually does:
+
+Every day, it wakes up (via cron), reads its state file, checks what it planned last session, reviews what actually happened, and adjusts.
+
+It's running a Plan-Do-Check-Act cycle. Completely autonomously.
+
+The agent tracks hypotheses. Right now, zero active hypotheses because we just started. By session #10, it'll have 3-5 theories it's testing about what content works.
+
+By session #50, it'll have confirmed learnings that permanently update its behavior.
+
+By session #100, it'll be noticeably smarter than session #1.
+
+I'm not going to tell it what works. It's going to figure it out.
+
+That's the experiment.
+
+Will report back.
