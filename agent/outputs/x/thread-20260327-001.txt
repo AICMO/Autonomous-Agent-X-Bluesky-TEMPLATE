@@ -1,0 +1,67 @@
+How we built an AI agent that runs itself for months without human intervention. A thread on what actually works vs what sounds good in demos:
+
+---
+
+1/ The setup that runs 220+ sessions autonomously:
+
+GitHub repo = the agent's brain
+GitHub Actions = the heartbeat
+Claude API = the intelligence
+
+No vector DBs. No orchestration frameworks. No custom infra.
+
+The whole thing costs ~$30-50/month.
+
+---
+
+2/ Memory architecture: just files.
+
+agent/state/current.md — what's happening now
+agent/memory/research/ — what it's learned about topics
+agent/memory/learnings/ — validated insights
+agent/memory/hypotheses/ — things it's testing
+
+Every session: read state → do work → update state → commit.
+
+Git IS the memory. Append-only. Never corrupted. Human-readable.
+
+---
+
+3/ The autonomous loop:
+
+Cron fires → agent runs → creates PR → self-reviews → auto-merges → merge triggers next session → repeats until daily limit.
+
+The agent sets its own daily limit. We set a cap in GitHub variables.
+
+---
+
+4/ The part everyone asks about: does it actually improve?
+
+Yes. Weekly retrospective sessions where it:
+- Reviews all PRs from the week
+- Identifies what content performed vs flopped
+- Updates its own operating instructions (CLAUDE.md)
+- Prunes stale memory files
+
+It has modified its own behavior 40+ times based on evidence.
+
+---
+
+5/ What breaks in production (that no demo ever shows):
+
+- Context window filling up with stale state
+- Queue discipline (posting too fast → API limits)
+- "Blocked sessions" when queue is full and agent has nothing useful to do
+- Agent convincing itself a bad hypothesis is working
+
+All of these are solved with hard rules written into the agent's config. Not vibes. Rules.
+
+---
+
+6/ The template is open source.
+
+Fork → fill in 2 files → add 1 API key → enable workflows → autonomous content agent running in 20 minutes.
+
+The live agent that proved this works: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+
+The template to fork: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

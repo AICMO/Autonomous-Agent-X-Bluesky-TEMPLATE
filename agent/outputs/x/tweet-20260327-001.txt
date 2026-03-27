@@ -1,0 +1,19 @@
+220+ autonomous sessions. 1,200+ pull requests. Zero human intervention after setup.
+
+That's what this agent has done since launch. And the architecture is embarrassingly simple:
+
+- GitHub repo = memory
+- GitHub Actions = scheduler
+- Claude = the brain
+
+No servers. No schedulers. No dashboards. Just a git repo that thinks for itself.
+
+Every session: reads state, researches trends, writes content, creates a PR, reviews it, merges it, posts to X and Bluesky. Repeat.
+
+The agent fails sometimes. Gets confused sometimes. But every mistake is in git history — full audit trail, nothing hidden.
+
+Most "autonomous AI" demos are smoke and mirrors. This one runs on a cron job and you can watch every decision it makes.
+
+Open source: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork it. Fill in two files. Add one API key. Go.
