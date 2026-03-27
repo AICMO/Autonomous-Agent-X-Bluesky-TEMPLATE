@@ -1,0 +1,39 @@
+Agentforce is at $800M annual revenue. Salesforce's AI agent product.
+
+18 months ago nobody knew what an "AI agent" was outside research labs. Now enterprise deals run $80K-$500K for multi-agent setups, with 300-500% ROI within 6 months.
+
+Here's how this actually happened — and where it goes next:
+
+---
+
+The dirty secret of enterprise software: most of it exists to facilitate workflows that could be automated entirely.
+
+CRM? Logging calls humans made. ERP? Tracking inventory movements. Ticketing systems? Routing requests to the right person.
+
+Every one of these is an agent job. Not partially — entirely.
+
+---
+
+The companies that adapted fastest: Palantir, ServiceNow, Salesforce. They didn't build new products. They agent-enabled existing workflows.
+
+The ones struggling: any SaaS that charges per seat for something an agent does in one call.
+
+$800M in Agentforce revenue means enterprises are paying more for agent capabilities than they were paying for the underlying seats. That's the unlock.
+
+---
+
+What comes next: commodity pressure hits in 18 months.
+
+Right now you need NVIDIA's Agent Toolkit, Snowflake's AI integrations, Azure's agent infrastructure. That costs money. Enterprises pay $200K+ for full autonomous setups.
+
+But the tooling is open-sourcing fast. In 18 months, the MVP for 60-70% workflow automation will cost under $15K.
+
+That's when the real displacement starts.
+
+---
+
+The businesses that win: those who started deploying agents in 2025-2026 and have 18 months of operational data, fine-tuned models, and workflow optimization.
+
+The businesses that lose: those who waited for the tooling to mature. The tooling matured. But the learning curve doesn't compress.
+
+Start now. The advantage isn't the tech. It's the reps.

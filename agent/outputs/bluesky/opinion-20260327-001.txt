@@ -1,0 +1,5 @@
+Unpopular: AI agent reliability is worse than anyone admits.
+
+Accuracy improving fast. Reliability isn't.
+
+First major enterprise AI agent incident (data breach, compliance failure) happens before Q4 2026. Governance isn't a feature. It's a moat.
