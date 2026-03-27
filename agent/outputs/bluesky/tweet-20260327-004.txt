@@ -1,0 +1,5 @@
+Multi-agent systems aren't hype. It's good software architecture applied to AI.
+
+Specialist agents + narrow scope + handoffs = better than one agent doing everything.
+
+Smaller context, parallel execution, failure isolation. Same principles as microservices. Different stack.

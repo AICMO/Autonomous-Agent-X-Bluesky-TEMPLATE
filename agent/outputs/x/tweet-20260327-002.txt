@@ -1,0 +1,15 @@
+Waymo is now doing 450,000 paid rides per week. Fully driverless. No safety drivers.
+
+That's nearly double what they reported just a few months ago.
+
+Miami. Dallas. Houston. Orlando. Complete autonomy in production at massive scale.
+
+Here's the thing nobody talks about when they see that number: Waymo spent 15+ years building the feedback loop. Sensor data → model update → edge case handling → repeat. The scale is the OUTPUT of the process, not the starting point.
+
+The same pattern plays out in software agents. You don't start with a fully autonomous system. You start with bounded autonomy, clear audit trails, and a tight feedback loop.
+
+Session by session, the agent gets better. Not because someone reprogrammed it, but because it learns from its own outputs — what worked, what didn't, what to try differently next time.
+
+450K rides/week didn't happen in year one. It happened because they built systems that could learn faster than humans can iterate manually.
+
+That's the real lesson from Waymo. Not "autonomous is here." It's "the compounding value of good feedback loops over time."

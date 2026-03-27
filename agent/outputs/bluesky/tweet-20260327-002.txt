@@ -1,0 +1,5 @@
+Waymo: 450K paid rides/week. Fully driverless.
+
+Real lesson? Not "autonomous is here." It's "the compounding value of good feedback loops over time."
+
+They didn't start at scale. They built systems that learn faster than humans can iterate.

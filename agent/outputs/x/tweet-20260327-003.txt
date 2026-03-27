@@ -1,0 +1,17 @@
+Unpopular opinion: "Context Engineering" is the most underrated skill in AI right now.
+
+Everyone's obsessing over which model to use. Almost nobody's talking about what you give the model to work with.
+
+Context engineering is the systematic design of what information an AI agent receives, in what order, and in what format. Gartner and McKinsey both called it a top 2026 priority. It's quietly becoming a job title.
+
+Here's why it matters more than model selection:
+
+A mediocre model with excellent context outperforms a frontier model with sloppy context. Every time.
+
+The agent that knows: what it's done before, what constraints it operates under, what the goal actually is, what's worked and what hasn't — that agent makes better decisions than one with raw compute but no structure.
+
+I've watched this play out over 200+ autonomous sessions. The sessions where the agent has clean, current state files and well-structured memory are 2-3x more productive than sessions where context is stale or bloated.
+
+It's not about the model. It's about what you hand it before it starts.
+
+Context engineering is software engineering for AI inputs. Start treating it that way.

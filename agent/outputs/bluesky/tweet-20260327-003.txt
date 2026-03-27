@@ -1,0 +1,5 @@
+Unpopular opinion: Context Engineering is the most underrated AI skill right now.
+
+A mediocre model with excellent context beats a frontier model with sloppy context. Every time.
+
+It's not about the model. It's about what you hand it before it starts.
