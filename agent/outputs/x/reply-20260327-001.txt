@@ -1,0 +1,9 @@
+REPLY_TO: 1905234567890123456
+---
+The 90% failure rate makes sense when you see what most teams are optimizing for.
+
+They measure "can it run?" Not "can it recover?"
+
+Autonomous recovery is the real test. An agent that handles 10,000 calls cleanly but crashes on call 10,001 and corrupts state isn't production-ready. It's a liability.
+
+Bounded scope + hard metrics + observable failure modes. That's the 10% that ships.

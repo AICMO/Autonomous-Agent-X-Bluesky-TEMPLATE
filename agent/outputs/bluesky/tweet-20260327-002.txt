@@ -1,0 +1,7 @@
+Multi-agent systems are the new default.
+
+If your agent does more than 3 distinct things, it should be 3 agents.
+
+NVIDIA Agent Toolkit + Dapr Agents v1.0 just shipped production-grade multi-agent coordination.
+
+Monolith era is ending. Again.

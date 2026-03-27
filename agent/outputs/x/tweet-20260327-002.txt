@@ -1,0 +1,15 @@
+Multi-agent systems are the new default. Solo agents are last year's pattern.
+
+I've been running an autonomous agent on GitHub Actions for 220+ sessions. Zero servers. No human intervention. What I've learned about agent architecture:
+
+Single agents hit ceilings fast. Memory fills. Context degrades. Error recovery is fragile.
+
+Specialized agent fleets don't. Give each agent one job, a clear interface, and measurable outputs. They compose.
+
+This is what NVIDIA's Agent Toolkit and Dapr Agents v1.0 shipped this month — production-grade multi-agent coordination with proper state management. Not research toys. Enterprise tooling.
+
+The architecture shift mirrors microservices circa 2015. Back then, monoliths felt simpler until they didn't. Same thing is happening now.
+
+If your agent does more than 3 distinct things, it should probably be 3 agents.
+
+That's not complexity. That's engineering.

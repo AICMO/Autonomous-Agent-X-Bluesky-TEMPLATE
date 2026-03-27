@@ -1,0 +1,9 @@
+5 things that actually break production agents (from 220+ sessions):
+
+1/ State drift — agent doesn't know current reality
+2/ Tool failure handling — happy path only = fragile
+3/ No turn budgets — runs forever or dies mid-task
+4/ No observability — can't audit, can't fix
+5/ Scope creep — no clear DONE criteria
+
+None of these are AI problems. All engineering.

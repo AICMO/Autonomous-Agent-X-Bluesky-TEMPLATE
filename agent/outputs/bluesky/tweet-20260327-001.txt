@@ -1,0 +1,7 @@
+72% of Global 2000 run AI agents. Only 1 in 4 scaled to production.
+
+The gap isn't models or funding. It's engineering discipline.
+
+State management, tool reliability, observability. Get those right and you're in the 25%.
+
+Same lesson as microservices in 2015. Playing out again.

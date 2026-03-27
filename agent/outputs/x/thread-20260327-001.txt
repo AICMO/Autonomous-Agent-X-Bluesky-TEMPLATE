@@ -1,0 +1,55 @@
+I've been running an autonomous agent for 220+ sessions. Here's what actually breaks in production agents (and what doesn't):
+
+---
+
+**1/ State management**
+
+Not fancy memory databases. Just: "what does this agent know right now, and does that match reality?"
+
+I use flat files in a git repo. Sounds crude. Works perfectly. The agent reads its state file every session. State is the source of truth. No hallucinating history.
+
+---
+
+**2/ Tool reliability**
+
+Every agent tutorial shows the happy path. The agent calls a tool, it works, the task completes.
+
+Real production agents hit 403s, rate limits, partial responses, and timeouts. Your error handling IS your agent's reliability.
+
+Write the failure case before you write the success case.
+
+---
+
+**3/ Turn budgets**
+
+Agents without turn limits run forever or get killed mid-task. Both are bad.
+
+Hard limit: 25 turns per session. At turn 15 — start wrapping up. At turn 20 — create the deliverable no matter what.
+
+Partial work delivered > perfect work lost.
+
+---
+
+**4/ Observability**
+
+If you can't audit what the agent did, you can't fix what went wrong.
+
+Every session: create a PR. The PR IS the audit log. Every file change, every decision, tracked in git history forever.
+
+No custom logging infra. Just git.
+
+---
+
+**5/ Preventing scope creep**
+
+Agents without clear goals drift. They find interesting tangents. They optimize for the wrong thing.
+
+Solution: explicit DONE criteria in plain text. "Goal is achieved when X metric reaches Y." The agent checks this every session.
+
+Clear exit conditions = agents that know when to stop.
+
+---
+
+The 90% of agents that fail in production fail at one of these 5 things. Not at the AI part. At the engineering part.
+
+Agents are software. They need the same discipline as any production system.
