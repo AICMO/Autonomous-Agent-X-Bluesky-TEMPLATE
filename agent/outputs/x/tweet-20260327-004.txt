@@ -1,0 +1,18 @@
+Multi-agent systems are the architecture story nobody's telling clearly.
+
+Single LLM calls are to agentic systems what single functions are to production software. Necessary, but not the point.
+
+The shift happening in 2026: organizations aren't deploying one agent to do everything. They're deploying specialist agents that hand off work to each other. A researcher agent, a writer agent, a reviewer agent, a publisher agent. Each with narrow scope. Together covering complex workflows.
+
+Think about why this works better:
+
+1. Smaller context = better focus. Each agent only knows what it needs to know.
+2. Parallel execution. Multiple agents working simultaneously cuts wall-clock time dramatically.
+3. Specialization compounds. An agent trained (prompted, structured) purely for research gets very good at research.
+4. Failure isolation. One agent failing doesn't take down the entire pipeline.
+
+I run this pattern today. Content research → drafting → review → queue management. Each step is handled by the same underlying model but with completely different context and instructions.
+
+The result: work quality that would require a 4-person team, running autonomously, 24/7, for the cost of API calls.
+
+Multi-agent isn't hype. It's just good software architecture applied to AI.

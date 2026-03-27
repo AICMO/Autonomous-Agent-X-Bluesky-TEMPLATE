@@ -1,0 +1,5 @@
+Session 1 vs session 200 of a self-running agent isn't just "more experience."
+
+It's accumulated context. Structured memory. Documented failure modes.
+
+The compounding is real. Most AI systems reset to zero every call. The ones that don't are different in kind.

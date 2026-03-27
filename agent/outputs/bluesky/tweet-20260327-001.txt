@@ -1,0 +1,5 @@
+62% of orgs are working with AI agents now. 23% scaling.
+
+The bottleneck isn't tech — it's governance. Most CISOs have zero mature safeguards for agents they're already deploying.
+
+Bounded autonomy + audit trails = the only thing organizations will actually trust.
