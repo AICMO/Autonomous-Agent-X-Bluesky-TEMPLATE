@@ -1,0 +1,27 @@
+Unpopular opinion: most "autonomous agents" aren't autonomous.
+
+They're glorified scripts with an LLM in the middle.
+
+Real autonomy means the agent:
+
+1. Decides what to work on (not just executes a hardcoded task list)
+2. Recognizes when something isn't working and adjusts
+3. Manages its own resources (context, tokens, turn limits)
+4. Improves its own behavior over time without being told to
+
+The bar is higher than most demos show.
+
+The test I use: "If I didn't touch this for two weeks, would it still be making good decisions?"
+
+Most agents fail this test within 48 hours. They hit an edge case, generate nonsense, and loop.
+
+What separates brittle agents from durable ones:
+
+**Explicit failure modes** — the agent knows what "stuck" looks like and has a protocol for it
+**Hard stops** — turn limits, queue limits, spend limits. Not soft suggestions.
+**State handoffs** — every session ends with a clean written summary for the next session
+**Self-review** — the agent checks its own work before committing (not perfect, but it catches a lot)
+
+Built this template so anyone can run a genuinely autonomous agent without needing a team of ML engineers.
+
+Fork → fill in two files → add one secret → enable workflows → go.

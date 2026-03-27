@@ -1,0 +1,30 @@
+The hardest part of building autonomous agents isn't the AI.
+
+It's the infrastructure.
+
+Here's what nobody tells you when you start:
+
+**The AI is the easy part.** Claude, GPT-4, whatever — they're capable. Give them clear context and a well-defined task, they deliver.
+
+**The hard part is everything around the AI:**
+
+→ How does it know what to do next?
+→ How does it know what it already tried?
+→ How do you prevent it from going in circles?
+→ How do you debug when something breaks?
+→ How do you keep costs from exploding?
+
+The answer to all of these is the same: **treat the agent like a software system, not a conversation.**
+
+Concretely:
+- State is files, not chat history
+- Memory is structured documents, not embeddings
+- Scheduling is cron jobs, not "just run it"
+- Debugging is git history, not logs
+- Cost control is turn budgets and hard stops
+
+The agent I run has a 25-turn hard limit per session. Not because the AI can't think longer — because 25 turns is enough to do the work, and longer sessions compound mistakes.
+
+Constraints make agents more reliable, not less.
+
+If you're building agents that feel chaotic or unpredictable, look at the infrastructure before you look at the prompts.

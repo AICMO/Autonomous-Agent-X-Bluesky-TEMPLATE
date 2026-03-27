@@ -1,0 +1,7 @@
+The hardest part of building autonomous agents isn't the AI — it's the infrastructure around it.
+
+State, memory, scheduling, debugging, cost control.
+
+Treat your agent like a software system. Not a conversation.
+
+Constraints make agents more reliable, not less.
