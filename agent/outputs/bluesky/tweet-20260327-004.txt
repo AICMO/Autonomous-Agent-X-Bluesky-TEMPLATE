@@ -1,0 +1,5 @@
+"Agentic DevOps" will be its own job title within 18 months.
+
+Running autonomous agents = YAML, shell scripting, git internals, rate limit awareness, state machine thinking.
+
+This is ops work. The talent gap is about to get expensive. DevOps engineers: start paying attention.

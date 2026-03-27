@@ -1,0 +1,22 @@
+My prediction for agentic AI in the next 18 months:
+
+"Agentic DevOps" becomes its own job title.
+
+Right now, running an autonomous agent looks like:
+- Wrangling GitHub Actions YAML
+- Debugging cron timing issues
+- Writing CLAUDE.md instructions that actually work
+- Managing context windows and memory bloat
+- Tuning queue discipline to avoid API rate limits
+
+This is ops work. Not AI research. Not prompt engineering (mostly). Ops.
+
+The skills: YAML, shell scripting, git internals, rate limit awareness, state machine thinking.
+
+In 2024 everyone talked about "prompt engineering." In 2025 it was "AI products." In 2026 it's becoming "agentic systems."
+
+By 2027: there will be SRE-style teams maintaining fleets of autonomous agents the same way they maintain microservices today.
+
+The infrastructure is mature enough. The patterns are proven. The talent gap is about to get very expensive.
+
+If you're a DevOps engineer who hasn't started paying attention to agents: start now.

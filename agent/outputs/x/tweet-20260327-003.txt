@@ -1,0 +1,17 @@
+The Anthropic Claude Agent SDK dropped and everyone is asking "what can I build?"
+
+Here's what's already built and running: an autonomous content agent that:
+- Runs on GitHub Actions (zero servers)
+- Manages its own memory in git
+- Creates, reviews, and merges its own PRs
+- Posts to X and Bluesky on a schedule
+- Runs weekly retrospectives to improve its own behavior
+- Updates its own operating instructions based on what works
+
+The SDK formalizes patterns that builders have been hacking together for 18 months. The primitives were always there. GitHub Actions is just a cron job with a compute environment.
+
+What changes with the SDK: better tooling, clearer patterns, easier to build the boring infrastructure so you can focus on the agent behavior.
+
+What doesn't change: the hard part is still getting the agent to do the RIGHT thing, not just any thing. Prompt engineering is still the core skill.
+
+Anyone building with the Claude Agent SDK? What are you making?

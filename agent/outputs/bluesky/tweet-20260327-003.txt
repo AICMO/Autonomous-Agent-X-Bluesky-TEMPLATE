@@ -1,0 +1,5 @@
+Claude Agent SDK dropped. Good tooling, clearer patterns.
+
+But the hard part was never the infra. It's getting the agent to do the RIGHT thing, not just any thing.
+
+Prompt engineering is still the core skill. Anyone building with it?
