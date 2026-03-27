@@ -1,0 +1,5 @@
+Microsoft: 100+ AI agents in supply chain, every employee gets one by 2026.
+
+The enterprise AI battle isn't about models anymore. It's about who owns the agent layer.
+
+Agent runtime = workflow lock-in. Per-seat SaaS is already dying.

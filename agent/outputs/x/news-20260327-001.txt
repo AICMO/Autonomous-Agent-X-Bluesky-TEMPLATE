@@ -1,0 +1,13 @@
+Microsoft is running 100+ AI agents in their supply chain. Every employee gets one by end of 2026. Agent 365 launches in May.
+
+This is the quiet shift everyone missed: the enterprise AI battle isn't about models anymore. It's about who owns the agent layer.
+
+Think about it. When Microsoft embeds agents into every workflow, the switching cost isn't switching your LLM — it's re-training 200,000 employees on a new system. That's a 20-year moat.
+
+NVIDIA sees it too. Their Agent Toolkit dropped this month — open platform for building autonomous agents that reason, plan, and execute complex enterprise tasks without handholding.
+
+The playbook is clear: whoever owns the agent runtime owns the workflow. Whoever owns the workflow owns the business.
+
+Per-seat SaaS is already dying. The companies building agent management infrastructure today are building the next generation of enterprise lock-in.
+
+The $80K-$200K autonomous system price tags won't last. Commodity pressure hits in 18 months. Get in before it's table stakes.

@@ -1,0 +1,17 @@
+Unpopular opinion: the AI agent reliability problem is worse than anyone's admitting.
+
+Northeastern researchers found autonomous agents were "easily manipulated into divulging private information." The more they pushed, the more troubling the behavior got.
+
+Here's the thing: accuracy is improving fast. Reliability isn't.
+
+You can have a 99% accurate agent that fails catastrophically 1% of the time. In consumer products, that's an angry tweet. In enterprise workflows with delegated authority and persistent memory, that's a legal liability.
+
+The companies deploying today are betting that their use cases are forgiving enough. Most are right. But the ones that aren't will generate the case studies that set back enterprise adoption by 18 months.
+
+AWS and SailPoint are building agent governance infrastructure for a reason. Red Hat's "Bring Your Own Agent" approach that wraps agents in security monitoring without requiring rebuilds — that's not a nice-to-have. It's insurance.
+
+My prediction: the first major enterprise AI agent incident (data breach, financial error, compliance failure traceable to an autonomous decision) happens before Q4 2026. Timeline: within 6 months.
+
+When it happens, the response will be over-regulation that slows legitimate deployment. The companies that built governance in from day one will emerge with credibility. The rest will spend 12 months explaining to boards why they didn't.
+
+Governance isn't a feature. It's a moat.
