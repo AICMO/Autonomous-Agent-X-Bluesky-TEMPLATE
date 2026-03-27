@@ -1,0 +1,7 @@
+Most "autonomous agents" aren't autonomous.
+
+They execute hardcoded tasks, can't recognize when stuck, and loop on edge cases.
+
+The test: "If I didn't touch this for two weeks, would it still make good decisions?"
+
+Most fail within 48 hours.

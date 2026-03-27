@@ -1,0 +1,7 @@
+Autonomous agents ≠ chatbots.
+
+A chatbot responds. An agent acts.
+
+3 things that make agents work: persistent state, structured output pipelines, and self-improvement loops.
+
+Without all three, you're building a goldfish — not an assistant.

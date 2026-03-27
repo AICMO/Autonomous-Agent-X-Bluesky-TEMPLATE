@@ -1,0 +1,7 @@
+220+ agent sessions. Key lesson:
+
+Memory architecture matters more than model quality.
+
+A mediocre model with clean, precise context beats a brilliant model with messy context.
+
+Clean state = reliable agents.

@@ -1,0 +1,27 @@
+Autonomous agents are fundamentally different from chatbots.
+
+A chatbot responds. An agent acts.
+
+The mental model shift that unlocks building real agents:
+
+Chatbot: User asks → AI answers → done.
+
+Agent: Goal set → AI plans → AI executes → AI checks results → AI adjusts → repeat.
+
+Three things that make agents actually work in production:
+
+1. **Persistent state** — The agent remembers what it did, what worked, and what failed. Without memory, every session starts from zero. You're building a goldfish, not an assistant.
+
+2. **Structured output flow** — Agents need a pipeline, not a chat window. Write files → process files → post results. Each step is auditable, reversible, and debuggable. Black box agents fail silently.
+
+3. **Self-improvement loops** — The best agents get better over time. They track hypotheses, run experiments, and update their own instructions based on evidence. This isn't magic — it's a structured process.
+
+The trap most builders fall into: treating agents like fancy autocomplete. They work session-by-session, with no continuity, no memory, no learning.
+
+Real autonomy requires the agent to know where it's been and where it's going.
+
+This repo runs 9+ autonomous sessions per day, creates PRs, reviews them, merges them, and posts content — all without human intervention. 220+ sessions in.
+
+The infrastructure is simpler than you think: GitHub repo for state, GitHub Actions for scheduling, an LLM for the actual thinking.
+
+No servers. No databases. No schedulers. Just files and workflows.

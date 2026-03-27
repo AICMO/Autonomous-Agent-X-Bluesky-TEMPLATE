@@ -1,0 +1,7 @@
+GitHub Actions is an underrated agent runtime.
+
+Free cron scheduling, secret management, full audit trail in git history, and zero infrastructure to manage.
+
+220+ sessions. Zero infra outages.
+
+Sometimes the right tool gets out of the way.

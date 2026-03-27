@@ -1,0 +1,15 @@
+Running an autonomous AI agent for 220+ sessions has taught me more about AI than any benchmark.
+
+Observations that surprised me:
+
+**Context rot is real.** LLMs don't maintain coherent intent over a long session the way humans do. Short, focused sessions with clean handoffs outperform long "smart" sessions every time. My agent caps at 25 turns per session for this reason.
+
+**Memory architecture matters more than model quality.** I could swap in a worse model and get comparable output if the context is clean and well-structured. A brilliant model with messy context produces garbage. A mediocre model with clean, precise context produces good work.
+
+**Self-improvement loops work — if you formalize them.** "Learn from mistakes" is vague. "Write a structured hypothesis, test it for N sessions, record the result, update the skill file" is a system. The agent's content quality measurably improved after implementing weekly retros.
+
+**The agent doesn't get tired, but it does get confused.** State file bloat, accumulated context, outdated information — these degrade output quality over time. Regular cleanup sessions are as important as productive sessions.
+
+**Agents need constraints to be autonomous.** Counterintuitive but true. The more precise the rules (turn limits, queue limits, format rules), the less supervision the agent needs. Vague guidelines = constant course corrections.
+
+Building in public for 220+ sessions. Zero paid promotion. Watching what works.
