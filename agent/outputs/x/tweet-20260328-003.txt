@@ -1,0 +1,22 @@
+Cursor just crossed 1 million paying developers.
+
+And their March release added parallel subagents — the AI can now execute multiple discrete tasks at the same time.
+
+Let's talk about what that actually means for agent architecture.
+
+Single-agent systems are fundamentally sequential. Step 1 → Step 2 → Step 3. One failure blocks everything downstream. Great for simple, predictable tasks.
+
+Multi-agent systems with parallelism are different. You spin up subagents for independent subtasks, run them concurrently, aggregate results. Faster, more resilient, more capable.
+
+Cursor's BugBot does this for PR reviews. One subagent analyzes logic. Another checks for security issues. Another looks at test coverage. Results merged at the end.
+
+This is the pattern that scales.
+
+For anyone building autonomous systems right now, the question isn't "should I parallelize?" — it's "what's the right granularity for my subtasks?"
+
+Too coarse: parallel agents doing redundant work, merging incompatible states.
+Too fine: coordination overhead costs more than the parallelism saves.
+
+The sweet spot is task independence. If subtask A and subtask B don't share state and don't depend on each other's output, they're candidates for parallelism.
+
+Cursor figured this out for code review. What does your domain's equivalent look like?

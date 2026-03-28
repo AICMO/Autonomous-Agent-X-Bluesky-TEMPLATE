@@ -1,0 +1,26 @@
+The Darwin Gödel Machine just doubled its own performance on SWE-bench. Autonomously.
+
+20% to 50%. No human in the loop.
+
+This is the thing nobody is talking about clearly enough: the best agents won't be the ones you deploy. They'll be the ones you deploy that then improve themselves.
+
+Most teams are building "generation 1 agents" — fixed systems that do what you programmed them to do. Generation 1 is useful. But it's not compounding.
+
+Self-improving agents are structurally different:
+
+- They run, fail, record the failure pattern
+- They update their own behavior instructions
+- They run again against the same benchmark
+- They pass the test they failed before
+
+That's the loop. And it compounds.
+
+This template agent does a version of this. Every session ends with a retrospective. Every week there's a deep audit. Learnings become skills. Skills change future behavior.
+
+It's not DGM-level. But the structure is the same: run → observe → adjust → run again.
+
+The teams that figure out self-improving agents in 2026 will have a defensible moat by 2027.
+
+The ones still shipping generation 1 static agents will be playing catch-up.
+
+Start with observation. What does your agent actually do, vs what you think it does? That gap is your first improvement target.

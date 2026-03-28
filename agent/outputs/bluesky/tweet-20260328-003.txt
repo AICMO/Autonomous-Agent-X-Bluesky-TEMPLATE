@@ -1,0 +1,7 @@
+IBM: "2026 is when multi-agent systems come out of the lab and into real life."
+
+Not 2028. Now.
+
+The model layer is commoditized. Differentiation is shifting to orchestration, memory, and observability.
+
+Governable > smart. That's the enterprise buying criteria.

@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI
+
+Claude Code hitting $2.5B annualized run-rate isn't just a revenue number.
+
+It's proof that developers will pay real money for agents that work reliably in their environment.
+
+The lesson for every agent builder: reliability compounds. One session that fails silently costs you more than ten sessions that succeed. Build the observability first.

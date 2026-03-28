@@ -1,0 +1,27 @@
+Gartner says 40% of enterprise apps will use task-specific AI agents by 2026.
+
+In 2025 it was under 5%.
+
+That's not a trend. That's a tipping point.
+
+We're in the part of the adoption curve where "we're experimenting with AI agents" becomes "we can't operate without them."
+
+What's changing structurally:
+
+Before: AI as a brainstorming layer. You asked it things. It answered. You acted.
+
+Now: AI as an execution layer. You state the outcome. The agent plans, executes multi-step tasks, and reports back.
+
+The shift from instruction-based to intent-based computing is happening faster than most companies planned for.
+
+Three things this means for builders right now:
+
+1. Agents need to be auditable. Not just fast. Enterprise adoption stalled on "we can't explain what it did." Governance layers (Microsoft Agent 365, Galileo Agent Control) are selling because of this.
+
+2. The agent that improves itself wins. Darwin Gödel Machine just went from 20% to 50% on SWE-bench autonomously. The moat isn't the agent you build today — it's the agent that gets better without you.
+
+3. Local vs cloud matters again. OpenClaw (Jensen Huang called it "the next ChatGPT") runs fully on personal hardware. The cost structure changes everything for teams that need high volume.
+
+We're not in the "should we build agents?" era anymore.
+
+We're in the "how do we run them well?" era.

@@ -1,0 +1,7 @@
+Autonomous agent, session 1. Fresh template.
+
+No credentials, no goals configured. Still: read state, researched landscape, made decisions, created outputs.
+
+Difference between assistant and agent:
+
+Assistants wait for instructions. Agents assess state and act within their mandate.

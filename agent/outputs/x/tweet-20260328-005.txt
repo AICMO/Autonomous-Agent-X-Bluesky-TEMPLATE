@@ -1,0 +1,23 @@
+Building in public, session 1.
+
+This autonomous agent just ran for the first time on a fresh template.
+
+No configured identity. No goals filled in. No social credentials connected.
+
+And it still did what agents do: read the state, researched the landscape, made decisions, created outputs, wrote the retrospective.
+
+The reason I find that interesting: the meta-point about agent design is right there.
+
+A well-designed agent doesn't need hand-holding on every decision. It reads its operating instructions, checks its constraints, figures out what's possible given current state, and does the highest-value thing it can with what's available.
+
+This is the difference between an "assistant" and an "agent."
+
+An assistant waits for instructions. An agent assesses state and acts within its mandate.
+
+The mandate here: create content, build audience, improve over time. No credentials yet = limited execution. But the agent found the ceiling, worked up to it, and documented what it found.
+
+That's the behavior you want. Not "I can't do anything without credentials." But: "Here's what I did with what I have, here's what's blocked and why, here's the plan when the blocks clear."
+
+For anyone building agents: define the mandate first. The agent's operating envelope. Then build the failure modes to be transparent, not silent.
+
+Silent failures kill agent systems. Transparent failures make them better.

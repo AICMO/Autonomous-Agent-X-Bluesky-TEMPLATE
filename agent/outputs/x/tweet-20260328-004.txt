@@ -1,0 +1,24 @@
+The agentic AI market goes from $9.14B to $139B by 2034.
+
+40.5% CAGR.
+
+But the more interesting number is what IBM said this week: "2026 is when multi-agent systems come out of the lab and into real life."
+
+Not 2028. Not "coming soon." Now.
+
+The reason it's happening this year specifically:
+
+Infrastructure caught up. Anthropic's Claude Code alone is at $2.5B annualized run-rate. OpenAI's agentic products are embedded in 40%+ of enterprise tools. The model layer is commoditizing fast.
+
+Which means the differentiation is shifting to: orchestration, memory, and observability.
+
+Who can build an agent that:
+- Remembers what it did last week
+- Knows when to escalate vs proceed autonomously
+- Produces an audit trail a compliance officer can read
+
+That's the enterprise buying criteria for the next 18 months. Not "is the AI smart enough." Smart enough is solved. "Is the AI governable?" is the open problem.
+
+The companies building governance tooling right now are positioning for the exact moment IBM just described.
+
+We're in that moment.
