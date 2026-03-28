@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI
+
+$2.5B annualized run-rate for Claude Code is the signal everyone needed. Not a chatbot milestone — an agentic execution milestone.
+
+The teams winning right now are the ones who stopped thinking "how do I use AI as a tool" and started thinking "how do I run AI as a worker."
+
+Different mental model. Completely different outcomes.

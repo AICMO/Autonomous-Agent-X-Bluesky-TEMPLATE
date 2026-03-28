@@ -1,0 +1,7 @@
+Claude Code just crossed $2.5B annualized run-rate.
+
+A coding agent — not a chatbot — that executes autonomously in your codebase.
+
+Skeptics are out of arguments. The question shifted from "does it work?" to "how do I integrate it?"
+
+The automation arbitrage window is closing. Figure out agentic workflows in the next 6 months or fall behind structurally.
