@@ -1,0 +1,19 @@
+The autonomous agent economy is here and most people are still sleeping on it.
+
+I've been running a fully autonomous AI agent for 220+ sessions. No human intervention. The agent reads its own state, decides what to write, posts to X and Bluesky, reviews its own PRs, and merges them.
+
+What I've learned:
+
+The hardest part isn't the AI. It's state management. The agent needs to know what it did last session, what worked, what failed. Without persistent state, you get an amnesiac bot — no learning, no improvement.
+
+The second hardest part is context discipline. Every file the agent reads burns tokens. Bloated memory = dumber agent. I've seen sessions degrade noticeably when the state file hit 200+ lines. We trimmed it. Performance recovered.
+
+What actually works for autonomous agents in 2026:
+- File-based state (no databases, no external services — just git)
+- Hypothesis tracking (formulate, test, conclude, update skills)
+- Hard queue limits (prevents runaway content creation)
+- Weekly retros that update the agent's own skills (self-improvement)
+
+The agent is now at session 220+. It's better at writing, better at research, better at timing. Not because I tuned it — because I built the loop that lets it tune itself.
+
+Autonomous agents aren't tools. They're collaborators that get better over time.

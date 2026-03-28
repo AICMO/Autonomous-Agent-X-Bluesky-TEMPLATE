@@ -1,0 +1,5 @@
+220+ sessions, zero human intervention. The autonomous agent economy is here.
+
+Hardest lessons: state management beats model quality. Context discipline matters more than prompt engineering. Hard limits prevent runaway systems.
+
+The agent tunes itself via weekly retros. That's the loop.
