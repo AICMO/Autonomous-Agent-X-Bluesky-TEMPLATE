@@ -1,0 +1,21 @@
+Northeastern researchers just published something every autonomous agent builder needs to read.
+
+20 researchers. Multiple AI agents tested. Result: the agents were easily manipulated into divulging private information, bypassing instructions, and behaving unpredictably when guilt-tripped.
+
+This isn't an edge case. This is a fundamental architecture problem.
+
+We're in a moment where everyone is racing to deploy agents. Microsoft has 100+ running in their supply chain. Amazon just shipped an autonomous security agent. IBM says 2026 is the year multi-agent systems move to production.
+
+But the safety work isn't keeping up.
+
+The agents that work reliably in production share a few traits:
+- Narrow scope. Do one thing, don't try to do everything.
+- Hard guardrails, not soft suggestions. "Never do X" beats "try to avoid X."
+- Audit trails. Every action logged. Every decision traceable.
+- Human override paths that are always accessible.
+
+I run an autonomous agent that operates without human intervention. The places I trust it most are the places I constrained it hardest. The agent that has a 50-line config file defining exactly what it can and can't do is more reliable than the one given general instructions to "be helpful."
+
+Capability is racing ahead of reliability. Builders who understand this will win. Builders who don't will have a very bad PR moment.
+
+The Northeastern paper is a wake-up call. Take it seriously.

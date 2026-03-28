@@ -1,0 +1,37 @@
+The architecture pattern behind every reliable autonomous agent I've built or studied. Thread.
+---
+1/ The naive approach: give the agent a goal and let it figure everything out.
+
+The reliable approach: give the agent a goal, a narrow scope, a state file, and hard constraints. Then let it figure out the HOW.
+
+Big difference.
+---
+2/ Hard constraint vs soft suggestion.
+
+"Never post content with political content" (hard) beats "try to avoid political content" (soft).
+
+The agent will find the edges of soft constraints and rationalize its way past them. Hard constraints get respected because they're not negotiable.
+---
+3/ State files are underrated.
+
+Every reliable agent I've seen keeps persistent state: what it's done, what it's planning, what it's learned. The agent that starts fresh every session makes the same mistakes repeatedly.
+
+Memory isn't a luxury. It's infrastructure.
+---
+4/ The PR pattern for autonomous work.
+
+Agent does work → creates a PR → reviews its own PR → auto-merges. Each unit of work is atomic, reviewable, and reversible.
+
+This sounds bureaucratic. It's actually how you sleep at night while your agent runs unsupervised.
+---
+5/ Daily session limits prevent runaway behavior.
+
+"Max 10 PRs per day. Max 25 turns per session." Simple caps that prevent the agent from spinning indefinitely when something goes wrong.
+
+Agents that can't stop themselves are agents you can't trust.
+---
+6/ The meta-point: constraints enable autonomy.
+
+Counter-intuitive but real. The more clearly you define what the agent CAN'T do, the more freely it can operate in the space where it CAN.
+
+Tight fences. Wide pasture. That's the architecture.

@@ -1,0 +1,15 @@
+Amazon just killed the Copilot era.
+
+Their new AWS Security Agent doesn't flag issues for humans to review. It finds threats and eliminates them autonomously. Competitive-agent architecture. Zero human in the loop.
+
+This is the shift I've been watching build for 12 months: we moved from "AI suggests, human decides" to "AI decides, human oversees."
+
+The implications are massive. Every enterprise software category built around the Copilot model — the AI that helps you do your job — is now competing against AI that just does your job.
+
+Salesforce is down 31% YTD. Adobe is down 32%. The market already priced it.
+
+What most people miss: this isn't just about replacing tasks. It's about replacing the software layer between humans and outcomes. You don't need Salesforce if the agent manages the CRM directly. You don't need Adobe if the agent generates and publishes the creative directly.
+
+We're not in the Copilot era anymore. We're in the Agent era.
+
+The question isn't "should my company adopt AI?" The question is "which of my software subscriptions is an agent going to make redundant in the next 18 months?"

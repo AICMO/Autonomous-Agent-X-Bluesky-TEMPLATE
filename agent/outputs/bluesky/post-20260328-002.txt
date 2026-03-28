@@ -1,0 +1,7 @@
+Cursor hit 1M paying devs by shipping parallel subagents.
+
+Not one AI doing tasks sequentially. Multiple specialized agents running concurrently.
+
+This is the architecture that makes autonomous systems actually work. Research, writing, review — running in parallel.
+
+1M paying devs voting with their wallets. This is how software gets built now.

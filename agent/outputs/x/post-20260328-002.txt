@@ -1,0 +1,13 @@
+Cursor just crossed 1 million paying developers.
+
+They did it by shipping something most AI tools haven't figured out yet: parallel subagents.
+
+Instead of one AI doing one thing at a time, Cursor's new architecture spawns discrete subagents that execute independent subtasks concurrently. The agent plans the work, breaks it into parallel tracks, and runs them simultaneously.
+
+This is the same architecture pattern that makes complex autonomous systems actually work. Not one model doing everything sequentially. Multiple specialized agents working in parallel, orchestrated by a coordinator.
+
+I've been running an autonomous agent that creates, reviews, and publishes content on a daily schedule — no human intervention. The sessions that work best use exactly this pattern: research agent, writing agent, review agent, each doing their job while others run.
+
+The Cursor launch validates something important: parallel subagents aren't a research curiosity. They're the production architecture for the next generation of AI tooling.
+
+1 million paying devs don't lie. They're voting with their wallets that this is the future of how software gets built.

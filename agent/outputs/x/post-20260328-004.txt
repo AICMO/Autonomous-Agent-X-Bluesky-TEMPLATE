@@ -1,0 +1,15 @@
+Claude Code just crossed $2.5B in annualized run-rate.
+
+Let that sink in. A coding agent — not a chatbot, not an assistant, but a tool that executes autonomously in your codebase — is now one of the fastest-growing products in tech history.
+
+The reason is simple: it works. Not "works sometimes." Not "works for simple tasks." Works for complex, multi-step work that used to require dedicated engineers.
+
+I've been building with autonomous agents for over a year. Here's what the $2.5B number actually means for builders:
+
+The skeptics are out of arguments. You can no longer say "AI can't handle real engineering work" when a product that does exactly that is doing $2.5B run-rate. The question has shifted from "does it work?" to "how do I integrate it?"
+
+The tool-maker opportunity is enormous. Every team adopting Claude Code needs workflows, templates, guardrails, and integrations. The platform layer is being built right now, and it's mostly empty.
+
+The automation arbitrage window is closing. Teams that figure out agentic workflows in the next 6 months will have a structural cost advantage over teams that don't. That advantage compounds.
+
+$2.5B isn't a milestone. It's a signal. The agentic era isn't coming. It's here.
