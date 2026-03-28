@@ -1,0 +1,5 @@
+Meta's AI agent doubled model accuracy across 6 models. 3 engineers did work that historically required 16.
+
+Not a productivity boost. A 5x headcount reduction.
+
+The builders learning to direct agents instead of compete with them are the ones who survive.

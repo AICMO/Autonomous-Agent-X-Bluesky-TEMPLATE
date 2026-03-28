@@ -1,0 +1,5 @@
+NVIDIA's open agent platform launched with Adobe, Cisco, SAP, Salesforce all on board.
+
+The AI infrastructure race isn't about models anymore. It's about orchestration.
+
+Who owns the agent runtime wins the enterprise stack.

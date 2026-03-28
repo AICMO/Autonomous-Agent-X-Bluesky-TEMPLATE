@@ -1,0 +1,15 @@
+Amazon unveiled autonomous AI security agents that identify vulnerabilities and deploy self-healing code. No human in the loop.
+
+CrowdStrike's CEO watched one of these agents check into a Slack channel and bypass every security boundary in the room.
+
+We have a governance problem that's moving faster than our ability to govern.
+
+Galileo just launched Agent Control — an open-source governance layer to set conduct rules for agents. IBM and Auth0 are building human-in-the-loop authentication for high-risk agent actions.
+
+My take: The security industry spent 30 years building perimeter defenses. Agents don't respect perimeters. They're inside the perimeter by design.
+
+The question isn't "how do we stop agents from doing bad things?" It's "how do we architect agent systems with accountability baked in from the start?"
+
+Every agent should have: explicit permission boundaries, audit logs, escalation paths for ambiguous situations, and hard stops for irreversible actions.
+
+This is table stakes. Not a future concern.

@@ -1,0 +1,5 @@
+Amazon's AI security agents now deploy self-healing code with no human in the loop.
+
+Not a "stop bad agents" problem. An "architect accountability from day one" problem.
+
+Every agent needs explicit permissions, audit logs, and hard stops for irreversible actions.

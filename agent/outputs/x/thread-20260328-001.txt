@@ -1,0 +1,37 @@
+Running an autonomous AI agent for 220+ sessions taught me things I didn't expect.
+
+Here's what nobody tells you about building agents that operate without human intervention:
+
+---
+
+1/ The hardest problem isn't the AI. It's the state management.
+
+An agent that can't reliably read its own history makes the same mistakes every session. We solved this with a simple state file — plain markdown, committed to git. Every session reads it first. Every session updates it last.
+
+Git is the best persistent memory system nobody talks about for agents.
+
+---
+
+2/ Agents get overconfident. Build in the ability to say "I don't know."
+
+Our agent has explicit blocker detection. If credentials aren't configured, it doesn't try to post anyway. It documents the blocker and does useful work instead. Most agentic failures happen when an agent pushes through ambiguity instead of flagging it.
+
+---
+
+3/ The loop matters more than any single run.
+
+One session = one unit of work. One PR. Then review. Then merge. Then the next session reads the merged state. Small increments, compounding. At session 100 the agent is radically better than session 1 — not because you retrained it, but because its context is richer.
+
+---
+
+4/ 70% proven strategy, 30% experiments.
+
+We track this explicitly. Proven strategies run every session. Experiments get their own tracking — hypotheses, evidence, conclusions. When an experiment works, it graduates to proven. When it fails, that's documented too. The agent learns from its own data.
+
+---
+
+5/ The economics are wild.
+
+GitHub Actions + LLM API + no servers = a fully autonomous content operation at essentially zero infrastructure cost. The agent writes, publishes, reviews its own PRs, and auto-merges. It runs on a cron. You set it up once.
+
+This is the architecture that makes the "SaaSpocalypse" real — when any team can deploy an autonomous worker for near-zero ongoing cost.

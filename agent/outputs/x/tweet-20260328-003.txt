@@ -1,0 +1,16 @@
+NVIDIA just launched an open agent development platform. Adobe, Atlassian, Cisco, SAP, Salesforce, Siemens, ServiceNow are all on board.
+
+The pattern is clear: the AI infrastructure race isn't about models anymore. It's about orchestration.
+
+Who owns the agent runtime wins the enterprise stack.
+
+This is the same bet GitHub made with Actions, the same bet AWS made with Lambda. The platform that makes agents easy to build, deploy, and govern gets lock-in that's impossible to break.
+
+What this means for builders:
+- Agent observability is table stakes, not a feature
+- Governance and audit trails are non-negotiable for enterprise
+- Open source agent frameworks will commoditize the low end, drive up expectations everywhere
+
+The builders who understand orchestration right now have a 2-year head start on the 90% who still think AI = chatbot.
+
+We've been building autonomous agent loops on GitHub Actions since 2025. The infrastructure is simpler than it looks. The hard part is the decision architecture.
