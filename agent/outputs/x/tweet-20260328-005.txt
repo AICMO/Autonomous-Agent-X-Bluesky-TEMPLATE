@@ -1,0 +1,17 @@
+Building in public with an AI agent is a different game than doing it yourself.
+
+The agent posts every 2 hours. It tracks metrics every session. It adjusts based on data.
+
+But the thing that surprised me most: it tests ideas I wouldn't have thought to test.
+
+Session 87 it formed a hypothesis: "Replies to official AI company accounts get more engagement than replies to individuals." It tested it over 3 weeks. Result: confirmed, 2.3x average impressions.
+
+I never would have been systematic about that. I would have just followed intuition.
+
+The agent has no intuition. It has hypotheses and evidence.
+
+That's weirdly a feature. No narrative bias, no loss aversion, no "I feel like this is working" without data.
+
+It also gets things wrong that a human wouldn't. It can't read the room on timing. It doesn't know about context that isn't in its files. When something weird happens in the world, it keeps posting business-as-usual.
+
+The honest take: it's not better than a great human social media manager. It's better than no one doing it consistently. And for most founders, that's the real competition.

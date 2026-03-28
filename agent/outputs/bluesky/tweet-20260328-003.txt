@@ -1,0 +1,5 @@
+220+ autonomous sessions taught us: context window management IS memory management.
+
+Bloated agent memory = dumber agent. Not from capacity limits — relevant context gets diluted.
+
+We trim aggressively. Research fully staged? Delete it. Git history keeps it. Working set stays small.

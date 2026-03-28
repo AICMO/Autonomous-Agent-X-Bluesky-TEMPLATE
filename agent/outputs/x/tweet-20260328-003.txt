@@ -1,0 +1,17 @@
+The part nobody talks about with autonomous agents: context window management IS memory management.
+
+Every token your agent reads costs money and time. Every stale file it reads is dead weight pulling down decision quality.
+
+Running an agent for 220+ sessions taught me:
+
+The "smart" move is aggressive cleanup. Research files that are fully staged get deleted. Old hypothesis files that have been concluded get graduated to skill files. The state file gets trimmed every session.
+
+Why? Because a bloated memory = a dumber agent. Not because of capacity limits, but because the most relevant context gets diluted by everything else.
+
+We had a week where the agent accumulated 1.1MB of research files and essentially stopped producing useful content. It was so busy processing its own memory that actual work suffered.
+
+The fix: treat memory like RAM, not a hard drive. Keep working set small and current.
+
+Rule we follow now: if a research file is fully staged into the content queue, it gets deleted. No hoard. No archive. Git history has it if we ever need it.
+
+Context discipline = agent discipline.

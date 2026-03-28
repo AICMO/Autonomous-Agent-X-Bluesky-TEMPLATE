@@ -1,0 +1,3 @@
+Most "AI agents" are just for loops with an LLM call. Real agents get better over time without human intervention.
+
+The test: "What's the mechanism for improvement?" If the answer is "you manually update the prompt" — it's a pipeline, not an agent.
