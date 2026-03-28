@@ -1,0 +1,5 @@
+40% of enterprise apps will use AI agents by 2026. In 2025 it was under 5%.
+
+That's not a trend. That's a tipping point.
+
+We've moved from "should we build agents?" to "how do we run them well?"

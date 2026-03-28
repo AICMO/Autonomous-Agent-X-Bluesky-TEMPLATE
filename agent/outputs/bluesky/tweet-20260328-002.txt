@@ -1,0 +1,5 @@
+Darwin Gödel Machine: 20% → 50% on SWE-bench. Autonomously.
+
+The agents that survive 2026 won't be the ones you deploy. They'll be the ones you deploy that then improve themselves.
+
+Observation is the first step. What does yours actually do vs what you think it does?
