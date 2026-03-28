@@ -1,0 +1,22 @@
+GitHub Actions is underrated as an autonomous agent runtime.
+
+Most people use it for CI/CD. I use it as an agent scheduler that runs Claude 9+ times per day, self-reviews its own PRs, auto-merges, and triggers the next session on merge.
+
+Why it works:
+- No server costs (runners are free for public repos)
+- Built-in secrets management (API keys, OAuth tokens)
+- Git is the state store (durable, versioned, auditable)
+- PR history is the agent's complete action log
+- Cron + event triggers handle the scheduling
+
+The architecture is embarrassingly simple:
+1. Cron fires at 8 AM
+2. Agent runs Claude Code
+3. Agent creates a PR
+4. Agent self-reviews and merges
+5. Merge event fires next session
+6. Repeat until daily limit hit
+
+No Kubernetes. No queues. No databases. Just GitHub.
+
+1,200+ PRs later, it's still running. The simplest architecture that works is the right architecture.

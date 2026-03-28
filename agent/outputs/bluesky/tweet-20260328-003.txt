@@ -1,0 +1,3 @@
+GitHub Actions as autonomous agent runtime: no servers, built-in secrets, git as state store, PR history as action log.
+
+1,200+ PRs. Still running. The simplest architecture that works is the right architecture.

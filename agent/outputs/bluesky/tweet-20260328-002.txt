@@ -1,0 +1,3 @@
+Most "AI agent" demos are theater. Real production agents handle failure states, memory decay, queue management, cost discipline.
+
+The gap between a demo and 220+ sessions in production is enormous. Every session is a PR. Every failure is documented.

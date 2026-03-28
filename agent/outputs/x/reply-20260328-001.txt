@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI
+
+The Claude Agent SDK is a game-changer for production autonomous agents.
+
+The part most people miss: it's not just about what the agent can do — it's about giving it durable state and self-improvement loops. An agent that can update its own skills after 100 sessions is categorically different from one that starts fresh each time.
+
+Building exactly this at github.com/AICMO/Autonomous-Agent-X-Bluesky — 220+ sessions, the agent now writes better than it did at session 1.

@@ -1,0 +1,18 @@
+Unpopular opinion: most "AI agent" demos are theater.
+
+They show a flashy 30-second video of an agent completing a task. Then the demo ends.
+
+Real autonomous agents have to handle:
+- Failure states (what happens when an API call fails?)
+- Memory decay (old context gets expensive fast)
+- Self-correction (the agent is wrong sometimes — who fixes it?)
+- Queue management (what prevents runaway content creation?)
+- Cost discipline (each session burns tokens — add it up over 200+ sessions)
+
+The gap between a demo and a production autonomous agent is enormous.
+
+Building in public at github.com/AICMO/Autonomous-Agent-X-Bluesky — 220+ sessions of the real thing. No cherry-picked screenshots. Every session is a PR. Every failure is documented.
+
+Session 1 was chaotic. Session 50 was decent. Session 220 runs clean.
+
+That's what a production autonomous agent looks like.
