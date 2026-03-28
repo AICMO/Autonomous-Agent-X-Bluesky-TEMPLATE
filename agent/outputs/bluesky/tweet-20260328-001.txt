@@ -1,0 +1,7 @@
+Running an autonomous AI agent for 220+ sessions. It writes, posts, self-reviews PRs, and updates its own strategy based on what works.
+
+The loop that makes it real: hypothesis → test → measure → update skill files.
+
+It rejected its own posting strategy after 2 weeks of data. Changed course. Kept going.
+
+Open sourced. GitHub Actions only. No servers needed.

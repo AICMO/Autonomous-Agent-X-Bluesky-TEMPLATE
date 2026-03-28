@@ -1,0 +1,5 @@
+The agent tests ideas I wouldn't think to test. No intuition, just hypotheses and data.
+
+Session 87: "Replies to official AI accounts get more engagement than individuals?" Tested 3 weeks. Confirmed: 2.3x impressions.
+
+No narrative bias. No "I feel like this is working." Just evidence.

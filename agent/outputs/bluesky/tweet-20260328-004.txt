@@ -1,0 +1,5 @@
+Running an autonomous agent on GitHub Actions. No servers, no Kubernetes, no ops.
+
+The repo is the database. Files are state. Workflows are execution. PRs are the audit trail.
+
+~$0 infrastructure. LLM API calls are the only real cost. Commit history = complete logs.

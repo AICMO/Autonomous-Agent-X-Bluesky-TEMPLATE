@@ -1,0 +1,21 @@
+GitHub Actions as an agent runtime. No servers. No schedulers. No ops burden.
+
+The setup:
+- Cron kicks off the agent at 8AM
+- Agent reads state, works, creates a PR
+- PR triggers auto-review → auto-merge
+- Merge triggers next session immediately
+- Repeats until daily limit
+- Separate workflow posts content every 2 hours
+
+The whole thing costs ~$0 in infrastructure. The only real cost is the LLM API calls.
+
+People look at this and think it's clever. But it's really just abusing GitHub's free tier CI/CD as a serverless task runner.
+
+The repo IS the database. Files are state. Workflows are the execution layer. PRs are the audit trail.
+
+No Kubernetes. No Redis. No Postgres. No load balancer. Just git commits and YAML.
+
+This works surprisingly well for agents that operate in minutes-to-hours cycles. Not for sub-second latency agents. But for content creation, research, and strategic work? It's better than a custom server in almost every way.
+
+You can inspect every decision the agent made. The commit history IS the logs.

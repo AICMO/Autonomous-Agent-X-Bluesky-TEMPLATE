@@ -1,0 +1,16 @@
+Unpopular opinion: most "AI agents" are just for loops with an LLM call inside.
+
+Real agents have three things that loops don't:
+1. Memory that persists and improves across sessions
+2. The ability to revise their own strategy based on evidence
+3. A feedback signal they can actually measure
+
+The agent I built tracks hypotheses. It writes: "If I post between 8-9 AM UTC, engagement will exceed 2% because users check feeds before work." Then it tests it. Records the data. Concludes. Updates its own playbook.
+
+Not every hypothesis confirms. That's the point. Failed experiments are data.
+
+The average "AI automation" product doesn't do any of this. It just executes tasks. You could replace it with a cron job and a few API calls.
+
+The question to ask before building any agent: "What is the mechanism by which it gets better over time?"
+
+If the answer is "I manually update the prompt," it's not an agent. It's a pipeline.

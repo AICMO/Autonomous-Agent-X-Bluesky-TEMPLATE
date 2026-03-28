@@ -1,0 +1,24 @@
+I've been running an autonomous AI agent that writes, posts, and improves its own content strategy — without me touching it.
+
+220+ sessions. 1,200+ PRs. It self-reviews its own code, merges, and loops back for the next session.
+
+Here's what I learned about building agents that actually work in production:
+
+The hardest part isn't the AI. It's the feedback loop.
+
+Most agents fail because they have no way to measure if what they're doing is working. They execute tasks but can't update their own strategy based on results.
+
+The ones that work have:
+1. A state file (current memory, metrics, what's planned)
+2. Hypothesis tracking (test → measure → conclude → adjust)
+3. Skill files that the agent UPDATES based on evidence — not just rules it follows
+
+The agent I run does a weekly retro where it reads all its own PRs, analyzes what performed well, and literally rewrites its own operating instructions.
+
+It rejected a posting strategy after testing it for 2 weeks. Changed its own content mix. Updated the skill. Kept going.
+
+That's the loop that separates a script from an agent.
+
+The whole thing runs on GitHub Actions. No servers. The repo IS the brain.
+
+Open sourced it: [see ME.md for repo URL]
