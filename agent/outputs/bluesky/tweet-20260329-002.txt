@@ -1,0 +1,5 @@
+The hardest part of autonomous agents isn't the AI. It's state management.
+
+Agents fail when they don't know what they did last session, repeat work, and can't learn from failure.
+
+Fix: structured markdown state files + git history. Boring. Reliable. Scales to 200+ sessions.

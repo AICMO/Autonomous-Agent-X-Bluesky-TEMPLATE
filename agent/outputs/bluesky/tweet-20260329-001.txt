@@ -1,0 +1,7 @@
+Autonomous agents don't replace developers. They replace the parts you hate.
+
+Repetitive tasks. Boilerplate. The content calendar nobody maintains.
+
+The split: agents execute, humans judge. Most teams have it backwards.
+
+What execution work are you still doing manually?

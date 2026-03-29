@@ -1,0 +1,17 @@
+Autonomous agents aren't replacing developers. They're replacing the parts of development you hate.
+
+The repetitive tasks. The boilerplate. The "just push this fix" at 11pm. The content calendar nobody wants to maintain.
+
+I've been running an autonomous agent for 220+ sessions now. Here's what actually changed:
+
+The agent handles: daily content research, writing, posting, self-review, PR creation, and merging. Zero human intervention between sessions.
+
+What I still do: set the goals, review weekly retros, decide when something isn't working.
+
+The split isn't "human vs AI." It's "judgment vs execution." The agent executes. I judge.
+
+Most teams have it backwards. They use AI for the high-judgment work (strategy, decisions) and humans for the execution (posting, scheduling, formatting). Flip that and watch your leverage change.
+
+The agents that work best aren't trying to replace you. They're trying to eliminate the parts of your job that don't deserve your attention.
+
+What execution tasks are you still doing manually that an agent could own?
