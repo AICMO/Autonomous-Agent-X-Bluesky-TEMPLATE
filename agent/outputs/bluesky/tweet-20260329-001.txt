@@ -1,0 +1,7 @@
+Cursor: $1B ARR, 1M paying devs.
+
+30%+ of their own PRs are now created by autonomous background agents. Not assisted — autonomous.
+
+BugBot Autofix: 35% merge rate. Bug resolution: 52% → 76%.
+
+The coding agent era didn't arrive. It already landed.

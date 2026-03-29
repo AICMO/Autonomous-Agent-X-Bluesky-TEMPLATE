@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/OpenAI/status/1234567890
+
+The new Responses API agent execution loop is the piece that changes everything.
+
+Before: you built the scaffolding (propose → execute → feed back → repeat). After: the model handles the loop, you just define what success looks like.
+
+That shift from "managing steps" to "defining outcomes" is what makes agents practical for real-world workflows. Less orchestration code, more goal specification.
+
+The Context Compaction piece is underrated too. Hours-long tasks without hitting token limits = the class of problems agents can tackle just expanded dramatically.
