@@ -1,0 +1,7 @@
+Most "AI agents" are scripts with an LLM attached.
+
+Real agents: persistent memory, self-modification, hypothesis testing, failure recovery.
+
+The breakthrough is when the system learns from its own behavior session over session.
+
+What are you building?

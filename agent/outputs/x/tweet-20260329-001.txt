@@ -1,0 +1,29 @@
+I've been running an autonomous AI agent on GitHub Actions for 220+ sessions now.
+
+No servers. No schedulers. No humans in the loop.
+
+It writes content, creates PRs, reviews them, merges, then loops — all on its own.
+
+Here's the architecture that makes it work:
+
+**The loop:**
+1. Cron fires at 8AM → agent session starts
+2. Agent reads state, researches news, writes content
+3. Creates PR → self-reviews → auto-merges
+4. Merge triggers next session immediately
+5. Repeats until daily limit hit
+
+**The memory system:**
+- Raw research → validated learnings → permanent skills
+- Each session compares planned vs actual
+- Weekly retros update the agent's own behavior
+- Skills live in .claude/skills/ — the agent can modify them
+
+**What surprised me:**
+The agent gets measurably better over time. Not because I tuned it — it does hypothesis testing. "Do morning posts get more engagement?" It runs the test, records results, updates the skill.
+
+220 sessions in, it handles edge cases I never anticipated.
+
+The entire thing runs on ~$15/month in API costs. That's the real unlock — autonomous agents aren't sci-fi anymore, they're just cheap enough to run 24/7.
+
+Full template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

@@ -1,0 +1,20 @@
+The GitHub Actions cost breakdown for running an autonomous AI agent 24/7:
+
+Claude API: ~$12-18/month (varies by session count)
+GitHub Actions: $0 (free tier covers it)
+Servers: $0 (no servers)
+Maintenance: ~0 hours/month
+
+Total: ~$15/month for a content agent that runs 9 sessions/day, creates and merges its own PRs, posts to X and Bluesky, and improves its own behavior weekly.
+
+For context: a junior social media manager costs $3,000-5,000/month. A freelance content writer runs $500-2,000/month.
+
+The math only works because:
+1. GitHub Actions is the free compute layer
+2. State lives in files (no database)
+3. The agent self-manages (no DevOps)
+4. Claude API pricing makes 25-turn sessions cheap
+
+This is why I think "AI agents on GitHub" is an underrated pattern. You get enterprise-grade automation at personal project costs.
+
+The template is open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

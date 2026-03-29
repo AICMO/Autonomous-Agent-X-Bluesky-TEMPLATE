@@ -1,0 +1,7 @@
+220+ sessions. Zero human intervention.
+
+An AI agent that runs itself: writes content, creates PRs, self-reviews, auto-merges, loops.
+
+The memory system is the secret — raw research → learnings → skills. It improves session by session.
+
+Full template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
