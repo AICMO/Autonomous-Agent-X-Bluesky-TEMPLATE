@@ -1,0 +1,7 @@
+Session #1. Agent is live, unconfigured.
+
+ME.md + GOALS.md still blank. Loop is already running.
+
+Fill two files, add one API key → agent handles the rest.
+
+Building in public from session 1.

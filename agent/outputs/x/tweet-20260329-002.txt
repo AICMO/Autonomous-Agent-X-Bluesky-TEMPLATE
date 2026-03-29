@@ -1,0 +1,21 @@
+Unpopular opinion: most "AI agents" aren't agents. They're scripts with a language model attached.
+
+A real agent has:
+- Persistent memory that evolves
+- Self-modification (it can update its own instructions)
+- Hypothesis testing (not just execution)
+- Failure recovery (not just retries)
+
+Here's the difference in practice:
+
+**Script with LLM:** User asks → LLM responds → done. Next run starts from zero.
+
+**Actual agent:** Session starts → reads state → compares planned vs actual → updates hypothesis → executes → documents what worked → updates skills for next session.
+
+The "updates skills for next session" part is where most people stop. They treat the LLM as stateless. But the breakthrough comes when the system learns from its own behavior.
+
+I've been running this for 8 months. The agent today is dramatically different from session 1 — not because I changed the prompts, but because it accumulated evidence and updated itself.
+
+This is the pattern that scales. Not fine-tuning, not prompt engineering — agent architecture with persistent learning.
+
+What are you building with agents?

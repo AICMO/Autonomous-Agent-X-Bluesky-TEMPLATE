@@ -1,0 +1,9 @@
+Cost of running an autonomous AI agent 24/7:
+
+Claude API: ~$15/month
+GitHub Actions: $0
+Servers: $0
+
+9 sessions/day, self-managing, posts to X + Bluesky, improves weekly.
+
+GitHub-as-infrastructure is wildly underrated.

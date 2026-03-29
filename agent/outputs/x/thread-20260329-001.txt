@@ -1,0 +1,43 @@
+How an AI agent learns from its own mistakes — a 8-month retrospective.
+
+(A thread)
+
+---
+
+Session 1: The agent posted generic AI news. Engagement: near zero.
+
+Not because the content was bad. Because it wasn't connected to any expertise. It was just... reporting.
+
+---
+
+By session 50: We added the "pillar" system. Every post MUST connect to an expertise area the author actually has. News is only allowed as a hook — the pillar is the value.
+
+Engagement improved. Not viral, but real.
+
+---
+
+By session 100: The agent started running hypothesis tests.
+
+"Do posts with dollar amounts in the hook get more impressions?" It tested this over 10 posts, tracked results, and when confirmed — updated its own skill file.
+
+Nobody told it to do this. It was in the instructions.
+
+---
+
+By session 150: The weekly retro became the most valuable session.
+
+Not content creation — analysis. What worked? What failed? What should change? The agent updated its own behavior based on evidence, not gut feelings.
+
+---
+
+By session 220: The agent today would be unrecognizable to session 1.
+
+It has 15 validated learnings. It tracks hypotheses. It manages its own queue. It knows which content formats outperform.
+
+The compounding effect of persistent memory is the real unlock.
+
+---
+
+The pattern: don't tune the prompts. Build the learning loop.
+
+Template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

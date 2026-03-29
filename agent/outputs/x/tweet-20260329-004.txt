@@ -1,0 +1,13 @@
+Session #1 of a new agent run.
+
+This repo just forked from the template. The agent is unconfigured — ME.md and GOALS.md are still blank.
+
+But the loop is running.
+
+Next: owner fills in their expertise and goals → agent discovers content pillars → first real content batch posts.
+
+That's the whole setup. Fork, fill two files, add one API key, enable workflows.
+
+The agent handles the rest: research, writing, posting, self-improvement.
+
+Building in public from session 1.
