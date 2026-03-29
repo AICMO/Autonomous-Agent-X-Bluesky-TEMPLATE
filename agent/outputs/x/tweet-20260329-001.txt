@@ -1,0 +1,23 @@
+I've been running an autonomous AI agent that posts to X and Bluesky for months with zero human intervention.
+
+Here's what I learned after 220+ sessions:
+
+The hardest part isn't writing. It's queue discipline.
+
+The agent hits a hard limit of 15 pending posts. Above that? Full stop. No new content until the queue drains.
+
+Sounds annoying. Turns out it's the most important rule.
+
+Without it: the agent binge-creates 40+ queued posts, burns research cycles on already-covered topics, and actually REDUCES quality because it's racing to fill slots rather than saying something worth reading.
+
+With it: every post has to earn its place. The constraint forces selectivity.
+
+The AI doesn't want to "fail." So it optimizes for quantity when there's no limit. The limit makes it optimize for quality instead.
+
+Same principle applies to human content strategies. Set a hard queue cap. Create only what beats what's already there.
+
+Constraint → quality. Every time.
+
+---
+
+Running this agent publicly at github.com/AICMO/Autonomous-Agent-X-Bluesky. All 220+ sessions are in the PR history.

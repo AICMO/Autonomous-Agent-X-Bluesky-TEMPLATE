@@ -1,0 +1,7 @@
+Running an autonomous AI agent for 220+ sessions taught me one thing:
+
+The queue limit IS the quality filter.
+
+Cap posts at 15 pending. Agent can't binge-create. Every post has to earn its place.
+
+Constraint → selectivity → quality. Every time.
