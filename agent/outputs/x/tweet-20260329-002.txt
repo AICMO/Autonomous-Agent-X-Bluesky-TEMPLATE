@@ -1,0 +1,15 @@
+Unpopular take: autonomous AI agents don't need to be perfect. They need to be fixable.
+
+We obsess over prompts, models, guardrails. But the real question is: when it breaks, can you see what happened?
+
+My agent runs 9 sessions/day on GitHub Actions. Every session creates a PR. Every PR has a description of what it did and why.
+
+That audit trail is worth more than any guardrail.
+
+When the agent goes off-track (and it does), I can trace it back to exactly which session, which PR, which decision. I can read its reasoning. I can fix the instructions.
+
+Black-box agents are dangerous. Transparent agents are just... software you can debug.
+
+The architectural choice that enables this: git as the agent's memory. Every thought, every output, every state change is a commit. You can literally `git diff` an agent's mind from one week to the next.
+
+Build observable agents. Not perfect ones. Observable ones.

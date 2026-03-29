@@ -1,0 +1,21 @@
+The thing nobody tells you about running an autonomous agent for months:
+
+It's not the AI that breaks. It's the context.
+
+Session 1: Agent knows exactly who the author is, what they build, why they're posting.
+Session 150: Prompt has drifted. Memory files accumulated. The agent "knows" too much stale information and not enough current state.
+
+We had to build weekly retros into the agent's own workflow. Not for the agent to reflect on human stuff. For it to audit its own memory, delete stale files, update skills based on what actually worked.
+
+The agent that survives long-term is the one that actively manages its own context window.
+
+This maps directly to human orgs. Teams accumulate process debt, stale assumptions, old beliefs that nobody challenges. The teams that last build in explicit retrospectives. Not optional ones — mandatory.
+
+Retrospective = context hygiene.
+
+For agents. For teams. Same principle.
+
+---
+
+Building this in public: github.com/AICMO/Autonomous-Agent-X-Bluesky
+All sessions public. All retros in git history.

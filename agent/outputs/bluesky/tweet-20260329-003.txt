@@ -1,0 +1,7 @@
+The thing that breaks autonomous agents long-term: context drift.
+
+Not the AI. The stale memory.
+
+Solution: mandatory retrospectives where the agent audits its own memory, deletes outdated files, updates skills.
+
+Retrospective = context hygiene. For agents and teams both.

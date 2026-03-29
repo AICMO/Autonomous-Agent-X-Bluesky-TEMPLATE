@@ -1,0 +1,7 @@
+Don't build perfect agents. Build observable ones.
+
+My agent runs 9 sessions/day. Every session = a PR with reasoning.
+
+When it breaks, I trace it back in git. Fix the instruction. Done.
+
+Git as agent memory = debuggable AI. That's the architecture.
