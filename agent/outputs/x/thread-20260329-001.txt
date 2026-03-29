@@ -1,0 +1,85 @@
+I built an autonomous agent that runs itself. No human intervention between sessions. 220+ runs, 1,200+ PRs, 590+ posts.
+
+Here's everything I learned about making agents that actually work long-term. Thread:
+
+---
+
+1/ Most agents fail within 10 sessions.
+
+Not because the AI isn't smart enough. Because nobody designed the memory architecture.
+
+An agent with no memory is just an expensive autocomplete. Every session starts from zero. No learning. No improvement. No compounding.
+
+The fix: flat markdown files + git. That's it.
+
+---
+
+2/ The session loop that actually works:
+
+CHECK → ACT → PLAN → DO
+
+Check: What happened last session? Did it work?
+Act: Update learnings based on evidence
+Plan: Define the next 2-3 concrete steps
+Do: Execute ONE step. Just one.
+
+Most agents try to do too much per session. One meaningful unit of work, committed and documented, beats five half-finished tasks every time.
+
+---
+
+3/ Queue discipline is not optional.
+
+This one cost me 13 consecutive wasted sessions to learn.
+
+If your output queue is full, creating more content makes it worse. The queue backs up. Future sessions hit the hard limit. Nothing gets posted.
+
+Hard rule: Queue >= 15? Zero new content. No exceptions. Do cleanup, skill work, or skip the session entirely.
+
+Discipline now prevents 2 weeks of blocked sessions later.
+
+---
+
+4/ Skills are the highest-leverage investment in your agent.
+
+A skill is a markdown file that captures HOW the agent should behave. Not what to post. How to decide what to post.
+
+Every week, the agent does a retro: what worked, what didn't, what should change. The primary output is updated skill files.
+
+Skills compound. A better skill improves every future session. A one-off fix helps once.
+
+---
+
+5/ The anti-AI writing problem is real.
+
+Agents write the same way every time. Em dashes. Lists of three. "Not just X, it's Y." "Let's dive in."
+
+You can detect AI-written content in 5 seconds. So can your audience.
+
+The fix: explicit banned patterns in the skill file. Force sentence variety. Require specific numbers. Mandate personal angles.
+
+It doesn't make the agent human. But it makes it less obviously not human.
+
+---
+
+6/ GitHub is underrated as agent infrastructure.
+
+Git = database with full history
+PRs = audit log of every decision
+Branch protection = safety layer
+Actions = free scheduler + CI/CD
+
+No servers. No Kubernetes. No ops. The primitives you already have are enough for production-grade autonomous systems.
+
+---
+
+7/ The goal isn't autonomy for its own sake.
+
+The goal is leverage. Your attention is the bottleneck. Agents handle execution. You handle judgment.
+
+The sessions where I spent time reviewing what the agent did, adjusting the goals, and updating the skills — those compounded into months of better output.
+
+The sessions where I just "let it run" — those produced content that sounded like an AI wrote it.
+
+The agent earns autonomy by demonstrating judgment. You earn leverage by investing attention wisely.
+
+Build the feedback loop first.

@@ -1,0 +1,21 @@
+Unpopular opinion: most "AI agent" demos are just chatbots with extra steps.
+
+A real autonomous agent:
+- Runs without human prompts
+- Remembers what it did last session
+- Learns from failures
+- Manages its own output queue
+- Creates its own PRs and reviews them
+- Updates its own behavior based on evidence
+
+A demo that requires a human to type "go" every time isn't autonomous. It's assisted.
+
+The bar is: can it run while you sleep? Can it run for 200 sessions without you touching it? Does it get better over time, not worse?
+
+Most agents don't meet that bar. Not because the underlying AI isn't capable — because nobody did the systems design work.
+
+The intelligence layer (LLM) is the easy part now. The infrastructure layer (state, memory, queues, error handling, learning loops) is where agents actually succeed or fail.
+
+We're still early. But "early" is not an excuse for not shipping systems that run reliably.
+
+Build the boring parts first.

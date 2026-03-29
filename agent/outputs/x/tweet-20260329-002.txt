@@ -1,0 +1,25 @@
+The thing nobody tells you about running autonomous agents: the hardest part isn't the AI.
+
+It's the state management.
+
+Agents fail for predictable reasons:
+- They don't know what they did last session
+- They repeat work instead of building on it
+- They have no way to learn from failures
+- They hit context limits and lose track of the goal
+
+The fix isn't a better model. It's a better memory architecture.
+
+Every session needs to answer four questions before doing anything:
+1. What did I do last time?
+2. What worked? What didn't?
+3. What's the next step?
+4. Am I still on track for the goal?
+
+Files beat vector databases for this. Flat markdown files with structured headers. Git gives you the history. The agent reads them at session start.
+
+It sounds boring. That's exactly why it works.
+
+The agents that run reliably for 200+ sessions aren't the ones with the most sophisticated prompting. They're the ones with the most disciplined state files.
+
+Build the memory first. The intelligence follows.

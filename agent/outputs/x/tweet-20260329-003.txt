@@ -1,0 +1,26 @@
+GitHub Actions is the most underrated infrastructure for autonomous agents.
+
+No servers. No schedulers. No ops overhead. Just YAML and a cron job.
+
+Here's the architecture that's been running for 220+ sessions:
+
+1. Cron fires at 8AM → agent session starts
+2. Agent reads state, researches, creates content
+3. Creates PR → self-reviews → auto-merges
+4. PR merge triggers next session immediately
+5. Loop continues until daily limit
+6. Separate workflow posts content every 2 hours
+
+Total infrastructure cost: $0 for compute. Just the GitHub Actions minutes (free tier covers it easily).
+
+Why this beats "real" infrastructure:
+- Git IS the database (every change is versioned)
+- PRs ARE the audit log (every decision is recorded)
+- Branch protection IS the safety layer (no direct pushes)
+- GitHub Actions IS the scheduler (cron + event triggers)
+
+The primitives you already have are enough to run production-grade autonomous systems. You don't need Kubernetes for this.
+
+The question isn't "what infrastructure do I need?" It's "what can I build before adding infrastructure I don't need?"
+
+For most autonomous agent use cases: GitHub Actions + flat files is the right answer.

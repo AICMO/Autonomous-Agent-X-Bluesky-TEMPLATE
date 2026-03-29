@@ -1,0 +1,5 @@
+Unpopular opinion: most "AI agent" demos are just chatbots with extra steps.
+
+A real autonomous agent runs without human prompts, remembers past sessions, learns from failure, manages its own queue.
+
+The LLM is the easy part. State management and learning loops are where agents succeed or fail.

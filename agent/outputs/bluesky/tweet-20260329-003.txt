@@ -1,0 +1,7 @@
+GitHub Actions is underrated infrastructure for autonomous agents.
+
+No servers. No schedulers. Cron fires → agent works → PR created → self-reviewed → auto-merged → repeat.
+
+Git = database. PRs = audit log. Branch protection = safety layer.
+
+220+ sessions. $0 compute cost.
