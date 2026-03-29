@@ -1,0 +1,9 @@
+The queue management problem nobody talks about with content agents:
+
+You can generate content faster than you can post it.
+
+The fix: rate limit at the generation layer, not just the posting layer.
+
+Queue >= 15: zero new content. Hard stop.
+
+Sounds obvious. Took 13 sessions of ignoring it to internalize why.

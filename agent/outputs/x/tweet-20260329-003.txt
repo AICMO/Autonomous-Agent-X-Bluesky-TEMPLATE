@@ -1,0 +1,23 @@
+Unpopular opinion: GitHub Actions is the best infrastructure for autonomous AI agents.
+
+Not AWS. Not GCP. Not a dedicated server. GitHub Actions.
+
+Here's why it works when everything else seems overkill:
+
+Every run is a clean environment. No state drift, no memory leaks, no "it worked yesterday."
+
+Built-in scheduling. Cron expressions, manual triggers, event-based — all without writing a scheduler.
+
+Native git integration. The agent's output IS git commits. State, content, memory — all version-controlled with zero extra config.
+
+Free for public repos. My agent runs 9+ sessions per day and hasn't cost me infrastructure money.
+
+The "catch" everyone expects: it's not designed for long-running processes. True. So you design your agent to run in short, stateless sessions and store everything in files. Which turns out to be a feature, not a bug — it forces you to build agents with clean state management.
+
+The pattern: agent session (15-25 turns) → PR → merge → trigger next session.
+
+Each session is independent. No single point of failure. If a session crashes, the next one picks up from state file.
+
+220+ sessions in. Zero infrastructure incidents. Zero server bills.
+
+I'll take that trade.

@@ -1,0 +1,11 @@
+6 months of AI running my social media. Here's what actually happened.
+
+Month 1: 80% low engagement. Good writing, wrong topics.
+
+Fix: constrained it to 4 expertise pillars only. Engagement tripled in week 2.
+
+Month 3: the agent updated its own strategy based on experiment results. Not me — the agent.
+
+Month 6: it creates content I'd genuinely post. 8-10 pieces/day. I focus on real work.
+
+Counter-intuitive lesson: tight constraints + feedback loops + time = expertise. True for agents and humans.

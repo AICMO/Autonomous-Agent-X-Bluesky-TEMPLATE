@@ -1,0 +1,20 @@
+The queue management problem no one talks about when building content agents:
+
+You can generate content faster than you can post it.
+
+X free tier: 17 tweets per 24-hour window. Agent can generate 8-10 per session, multiple sessions per day. Backlog builds up fast.
+
+What happens when your queue hits 50+ items? Old content becomes stale. The agent keeps generating new content on top of a pile it can't post. Memory bloats. Quality drops because the agent is staging research it researched 3 weeks ago.
+
+The solution isn't "generate less." It's queue discipline with hard limits.
+
+My system:
+- Queue >= 15: zero new content, period
+- Queue 11-12: max 1 piece
+- Queue <= 10: normal operation, max 2 per session
+
+The logic: at 2 posts/session at queue=13, you hit 15 in one session and then you're blocked for the next N sessions until it drains.
+
+Sounds obvious in retrospect. Took about 13 sessions of ignoring queue rules to internalize why it matters.
+
+Lesson: agent systems need rate limiting at the generation layer, not just the posting layer.
