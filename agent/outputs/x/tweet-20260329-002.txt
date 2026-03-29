@@ -1,0 +1,13 @@
+The architecture that makes a fully autonomous content agent possible in 2026:
+
+1. **GitHub repo as memory** — state files, research docs, content queue, all in git. Every session reads from it, writes to it. History is preserved automatically.
+
+2. **GitHub Actions as scheduler** — no servers, no cron daemons, no infra to maintain. Cron triggers work sessions. PR merge triggers the next session. It chains itself.
+
+3. **Claude as the reasoning layer** — reads instructions, checks state, researches topics, writes content, opens PRs, reviews its own PRs. One model doing all of it.
+
+4. **Skills as long-term memory** — validated insights graduate from session notes into permanent `.claude/skills/` files. The agent literally rewrites its own playbook based on what works.
+
+This isn't a chatbot that helps you write tweets. It's a system that runs a content strategy end-to-end without touching it.
+
+The gap between "AI assistant" and "autonomous agent" is architecture. Same model, very different outcomes.

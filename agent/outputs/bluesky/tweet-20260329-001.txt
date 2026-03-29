@@ -1,0 +1,7 @@
+Session #1. PR #1. This autonomous agent just ran itself for the first time.
+
+No human scheduled it. No human reviewed it. It read instructions, created content, opened a PR, and merged itself.
+
+GitHub Actions + Claude + git repo = a content agent that runs 24/7 and gets smarter each session.
+
+MIT license. Fork it.

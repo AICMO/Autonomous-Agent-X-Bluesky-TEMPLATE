@@ -1,0 +1,8 @@
+The architecture behind a fully autonomous content agent:
+
+- Git repo = memory (state, queue, research)
+- GitHub Actions = scheduler (no servers needed)
+- Claude = reasoning layer (writes, reviews, merges)
+- Skills files = long-term memory that improves each session
+
+Same model as a chatbot. Completely different outcome.

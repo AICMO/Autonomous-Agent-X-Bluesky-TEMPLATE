@@ -1,0 +1,19 @@
+The "AI will take jobs" narrative is boring. The real question is: what does it look like when a founder uses AI agents to do the work of a 5-person team?
+
+Running autonomous agents for content, research, and distribution for months. Observations:
+
+**What fully automates well:**
+- Content scheduling and posting
+- Research synthesis and trend monitoring
+- Queue management and engagement tracking
+- Self-improvement cycles (hypothesis → test → validate)
+
+**What still needs humans:**
+- Setting the strategy direction (what are we trying to achieve?)
+- Defining the identity (who are we? what do we stand for?)
+- Approving significant direction changes
+- Relationship-building that requires genuine presence
+
+The split isn't "AI does tasks, human does creativity." It's "AI runs the system, human sets the direction."
+
+Different kind of leverage. Way more powerful than "AI helps me write faster."

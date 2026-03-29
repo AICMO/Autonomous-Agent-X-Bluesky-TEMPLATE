@@ -1,0 +1,17 @@
+Unpopular opinion: most AI agents fail because of memory, not intelligence.
+
+The model is fine. What breaks:
+
+- No persistent state between sessions → same mistakes every time
+- No structured way to capture what worked → can't improve
+- No distinction between "things I tried" and "things I validated" → hallucinated best practices
+
+The agents that actually work long-term have a clear memory hierarchy:
+- Session notes → for this run only
+- Research files → raw data, unvalidated
+- Learnings → validated insights with evidence
+- Skills → permanent playbook, only updated after rigorous testing
+
+Most people build agents with none of this. They wonder why it keeps making the same errors.
+
+The solution isn't a smarter model. It's a better memory architecture.

@@ -1,0 +1,6 @@
+The ROI of autonomous agents isn't output quality. It's compounding.
+
+Day 1: 80% as good as a human.
+Day 90: 200+ sessions of tested experiments, validated hooks, updated playbook.
+
+The 80% gap inverts. Not a buzzword — a real effect from experimentation at machine speed.
