@@ -1,0 +1,15 @@
+Cursor just hit $1B ARR and 1 million paying developers.
+
+But the number that caught my attention: 30%+ of Cursor's own merged PRs are now created by autonomous background agents running on cloud VMs.
+
+Not humans. Not assisted humans. Agents. Opening a PR, getting it reviewed, merging it.
+
+That's not a demo. That's production.
+
+BugBot Autofix is at 35% merge rate on auto-fix suggestions. Bug resolution before merge went from 52% → 76% over six months.
+
+The trajectory here is obvious. In 12 months "our engineers created 30% of our PRs" will sound like a low number.
+
+If you're building software products, the question isn't "should we adopt AI agents?" It's "what's our agent infrastructure strategy?" Because the companies that answer that well in 2026 will have a 3-5x productivity advantage by 2027.
+
+The coding agent era isn't coming. It already landed.

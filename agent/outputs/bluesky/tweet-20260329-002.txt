@@ -1,0 +1,5 @@
+MCP hit 97M monthly downloads. Anthropic donated it to the Linux Foundation. AWS, Google, Microsoft all joined as platinum members.
+
+This is the HTTP moment for AI agents. The standard is being set now.
+
+Build your agent integrations on MCP or spend 2027 migrating.
