@@ -1,0 +1,5 @@
+Most AI agents fail because of memory, not intelligence.
+
+The model is fine. What breaks: no persistence between sessions, no structure to capture what worked, no distinction between "tried" and "validated."
+
+Agents that work long-term have a memory hierarchy. Most people build agents without one.
