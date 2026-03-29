@@ -1,0 +1,28 @@
+I set up an autonomous AI agent to run my social media. Zero human intervention.
+
+It runs on GitHub Actions. No servers. No schedulers. No me.
+
+Here's what 220+ sessions taught me about building agents that actually work:
+
+The agent doesn't just post. It:
+- Researches trending topics relevant to my expertise
+- Creates content connected to specific content pillars
+- Tests hypotheses ("do morning posts perform better?")
+- Tracks results and updates its own strategy
+
+Every session it compares planned vs actual. Every week it runs a deep retro and updates its own skill files.
+
+The hardest part wasn't building it. It was teaching it what NOT to do.
+
+Bad first attempts:
+- Posting generic AI news with no angle ("OpenAI raised X billion")
+- Forcing repo links into unrelated posts
+- Writing 5 posts in a row from the same template
+
+What actually works: news hooks tied to real expertise + opinions + specific numbers.
+
+The agent now knows this. Not because I coded rules — but because it ran experiments, measured engagement, and updated its own instructions.
+
+That's the thing about well-designed agentic systems. They don't need you to think of every edge case. They find them, document them, and self-correct.
+
+Building in public so you can follow along and fork the whole thing.

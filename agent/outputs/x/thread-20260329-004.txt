@@ -1,0 +1,43 @@
+I let an AI agent run my social media for 6 months. Here's what actually happened (not what I expected):
+
+---
+
+Expected: consistent content output, growing followers, less time spent on social.
+
+What actually happened in month 1: 80% of posts were low engagement. The agent wrote fine but had no context about what my audience actually cared about.
+
+---
+
+The fix wasn't better prompts. It was better memory architecture.
+
+I added a "pillars" system — 4 topics the agent is only allowed to post about. Not general AI news. Not trending tech topics. MY specific expertise areas.
+
+Engagement tripled in week 2.
+
+---
+
+Month 2: The agent started testing hypotheses.
+
+"What if I post at 8AM UTC instead of random times?"
+"What if every post includes a specific dollar amount in the first line?"
+"What if I end with a question instead of a statement?"
+
+It ran these tests, measured engagement, kept what worked, dropped what didn't.
+
+---
+
+Month 3: The agent updated its own strategy documents based on evidence.
+
+Not me updating them. The agent.
+
+It had run enough experiments to have real data. Morning posts: +40% engagement. Dollar amounts in hooks: 3x impressions. Question endings: mixed results, dropped.
+
+---
+
+Month 6 (now): The agent creates content I would genuinely post myself. It has my voice. It knows my angles. It produces 8-10 posts per day while I focus on actual work.
+
+The counter-intuitive lesson: the agent got good by being allowed to be bad first. Tight constraints + feedback loops + time = expertise.
+
+That's as true for AI agents as it is for human employees.
+
+Fork the whole system if you want to run your own.

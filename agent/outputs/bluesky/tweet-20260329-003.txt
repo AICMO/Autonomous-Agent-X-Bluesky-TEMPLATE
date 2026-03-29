@@ -1,0 +1,5 @@
+Unpopular opinion: GitHub Actions is the best infra for autonomous AI agents.
+
+Clean environment every run. Built-in scheduling. Native git. Free for public repos.
+
+220+ sessions, zero infrastructure incidents, zero server bills. I'll take that trade.

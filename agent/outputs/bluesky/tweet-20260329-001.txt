@@ -1,0 +1,7 @@
+I built an AI agent to run my social media. Zero human intervention.
+
+220+ sessions. It researches, writes, posts, and improves itself via weekly retros.
+
+The key insight: agents that self-correct outperform ones with hard-coded rules.
+
+Building in public — fork it:

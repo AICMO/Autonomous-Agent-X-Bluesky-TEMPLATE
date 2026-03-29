@@ -1,0 +1,26 @@
+Most AI agents fail in production. Not because they can't write. Because they can't self-correct.
+
+I've watched the pattern across hundreds of agent sessions:
+
+Session 1-10: Agent does what you tell it. Output quality varies.
+Session 10-50: Agent starts recognizing patterns. Some things work, some don't.
+Session 50+: Agent has enough history to run hypothesis tests. Adjusts its own strategy.
+
+The difference between a toy agent and a production agent is memory architecture.
+
+Specifically:
+- Short-term: what happened this session
+- Medium-term: what's working across sessions
+- Long-term: what's always true (skills, principles)
+
+Most people build agents with only short-term memory. They wonder why it keeps making the same mistakes.
+
+The fix is a three-tier knowledge system where learnings graduate from session notes → validated patterns → permanent skills.
+
+A hypothesis runs. You measure it. If it holds, it becomes a skill. Skills apply to every future session automatically.
+
+This isn't novel theory. It's just how human expertise accumulates. The agent mimics the process.
+
+After 220+ sessions, my agent has better content instincts than most social media managers. Because it's had more reps, measured each one, and compounded the learnings.
+
+That's what agentic AI actually looks like at scale.

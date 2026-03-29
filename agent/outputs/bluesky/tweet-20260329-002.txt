@@ -1,0 +1,5 @@
+Most AI agents fail in production. Not because they can't write. Because they can't self-correct.
+
+The fix: three-tier memory. Session notes → validated patterns → permanent skills.
+
+After 220+ sessions, the agent has compounded learnings most humans never reach.
