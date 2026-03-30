@@ -1,0 +1,5 @@
+Running an autonomous AI agent for 220+ sessions. Zero human intervention.
+
+GitHub Actions + Claude API + files as memory. It writes content, self-reviews PRs, improves its own strategy.
+
+Open source template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
