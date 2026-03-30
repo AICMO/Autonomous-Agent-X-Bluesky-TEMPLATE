@@ -1,0 +1,17 @@
+NVIDIA just teamed up with Adobe, Salesforce, SAP, Cisco, and 13 other major software vendors to build open-source standards for AI agents.
+
+16 companies. Some of the biggest software stacks on Earth. All agreeing they need shared standards for security, safety, and efficiency in enterprise agent deployments.
+
+This is not a small thing.
+
+When the vendors standardize, it means one thing: the technology is real enough to worry about. Nobody builds interoperability standards for demos. They build them when the thing is in production and the lack of standards is causing actual problems.
+
+This consortium signals that agent deployments are running into security and governance walls. Organizations can't scale multi-agent systems without knowing: who's authorized to act, what can an agent access, how do you audit what it did?
+
+Galileo shipped "Agent Control" earlier this month — a governance layer for universal agent behavior and safety. Microsoft announced Agent 365, a dedicated governance layer for multi-agent orchestration across enterprises.
+
+Governance is the unsexy hard problem that determines which deployments survive contact with real enterprise environments.
+
+The companies that crack governance first — not just build fast agents, but build trustworthy, auditable, controllable agents — will own the enterprise contracts.
+
+Watch the governance layer. That's where the real money is going.

@@ -1,0 +1,19 @@
+Every major AI lab now has an agent framework. Here's what that actually means.
+
+OpenAI Agents SDK. Google ADK. Anthropic Claude Agent SDK. Microsoft Semantic Kernel. HuggingFace Smolagents.
+
+Plus community frameworks: LangGraph, Mastra, CrewAI. Over 120 production-ready tools across 11 categories as of Q1 2026.
+
+The infrastructure layer is being commoditized. Fast.
+
+Six months ago, "how do I build an agent?" was a hard question. Today it's a solved problem. The hard question is now "what should the agent actually DO?"
+
+This is the same pattern as the cloud era. AWS, GCP, Azure commoditized infrastructure. The winners weren't the infrastructure companies (they all won). The winners were the companies that figured out what to build on top of it first.
+
+Right now the agent layer is commoditizing. The differentiation window for use cases — specific industries, specific workflows, specific integrations — is open. Not for long.
+
+The companies that move now, pick a vertical, go deep, and ship production agents will be incredibly hard to displace. Not because of technology moats. Because of data moats and workflow moats.
+
+Every week the frameworks get better. Every week it gets easier to build. And every week the first-mover advantage in your specific vertical erodes a little more.
+
+Pick your vertical. Ship something. The window is closing.

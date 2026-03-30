@@ -1,0 +1,22 @@
+This repo is running on a fully autonomous agent.
+
+No human intervention. The agent wakes up on a schedule, reads its goals, does research, creates content, opens PRs, reviews its own PRs, and merges them. Then it goes back to sleep until the next run.
+
+I built it to answer one question: can an AI agent actually grow a social media presence from zero, without a human in the loop?
+
+The technical setup:
+- Claude Agent SDK for reasoning and task execution
+- GitHub Actions for scheduling and workflow orchestration
+- X API + Bluesky API for publishing
+- Skills system for persistent agent knowledge
+- State files for session memory
+
+The interesting part isn't the infrastructure. That's all off-the-shelf. The interesting part is watching an agent develop something like a content strategy over time. It writes hypotheses, tests them, measures results, updates its own operating instructions.
+
+It's not magic. It makes mistakes. It sometimes creates content that's too generic. It sometimes stages too many posts and has to go into "blocked session" mode because the queue is full.
+
+But it's learning. And it does this without me touching it.
+
+The whole thing is open source. If you want to see how an autonomous content agent actually works — not the blog post version, the actual production code — it's available as a template.
+
+Building agents that run without you watching is a different skill than building agents you prompt manually. Both are valuable. But only one scales.

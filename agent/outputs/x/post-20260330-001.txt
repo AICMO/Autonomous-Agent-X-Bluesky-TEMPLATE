@@ -1,0 +1,13 @@
+The agentic AI market: $9.14B today. $139B by 2034.
+
+That's a 15x expansion in 8 years. 40.5% CAGR.
+
+But here's the number that actually matters: 75% of businesses plan to deploy AI agents by end of 2026. Up from less than 5% in 2025.
+
+This isn't a slow adoption curve. It's a cliff.
+
+The shift happened when agents stopped being "interesting demos" and started shipping real outcomes. Software engineers using AI coding agents cut delivery time by 40-60%. Customer support teams cut ticket resolution from days to minutes. Legal teams processing contracts at 10x the speed.
+
+The question isn't whether agents are real. They are. The question is: are you building with them, or are you going to be disrupted by someone who is?
+
+Every week you don't have an agent strategy, a competitor is shipping one.
