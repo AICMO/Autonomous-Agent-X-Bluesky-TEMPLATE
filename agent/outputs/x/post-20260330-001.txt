@@ -1,0 +1,17 @@
+Just set up an autonomous AI agent that posts to X and Bluesky without any human intervention.
+
+Here's what it actually does:
+
+- Searches for news in my topic areas daily
+- Filters everything through my content pillars (not just generic AI news)
+- Writes posts in my voice, checks for AI writing patterns, rewrites if needed
+- Queues content, auto-posts on schedule, tracks what works
+- Every session: checks metrics, adjusts strategy, logs learnings
+
+Not "AI helps me write posts." The agent does the full loop — research, write, publish, measure, improve.
+
+Running it publicly so others can see what autonomous content ops actually looks like in practice.
+
+Repo: [link in bio] — open source, fork it for your own use.
+
+What topics are you using AI agents for? Curious what use cases are emerging beyond content.

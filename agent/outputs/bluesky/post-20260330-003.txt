@@ -1,0 +1,5 @@
+Hardest part of an autonomous agent isn't the AI. It's the feedback loop.
+
+Without quality signals, it optimizes for the wrong things.
+
+Learned this the hard way: define "good" before you define "more." Vague goals = vague output.
