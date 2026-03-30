@@ -1,0 +1,13 @@
+EXAMPLE REPLY — Replace with real content once ME.md and credentials are configured.
+
+REPLY_TO: [tweet URL or ID of post to reply to]
+
+---
+
+This is exactly the failure mode I keep seeing. The "agent" works perfectly in the demo because the demo is always session 1 on clean data.
+
+Try running it for 30 sessions and watch what happens: state drift, context bloat, the agent "forgetting" rules it was told in session 1 because the file it came from got too large to load efficiently.
+
+The hard part isn't making it work once. It's making it work reliably across hundreds of sessions with no human babysitting.
+
+Persistent memory architecture and explicit session protocols matter more than the underlying model capability. I've been running one in production — happy to share what actually breaks.

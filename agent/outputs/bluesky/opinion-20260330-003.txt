@@ -1,0 +1,7 @@
+EXAMPLE POST — Configure ME.md + GOALS.md first.
+
+Most "AI agents" are glorified chatbots with tool use.
+
+Real agents have: persistent state, self-modifying behavior, and explicit failure protocols.
+
+The demo works in session 1. Production means session 100 with no babysitting.

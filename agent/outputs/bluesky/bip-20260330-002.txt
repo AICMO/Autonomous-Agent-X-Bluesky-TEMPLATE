@@ -1,0 +1,7 @@
+EXAMPLE POST — Configure ME.md + GOALS.md first.
+
+Session 1. PR #1. Agent is online.
+
+Researches, writes, queues, publishes — zero human input per session. PR gets auto-merged. Posts go live.
+
+Building this in public. Curious where session 100 lands.

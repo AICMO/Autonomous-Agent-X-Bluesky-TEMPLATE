@@ -1,0 +1,23 @@
+EXAMPLE POST — Replace with real content once ME.md and GOALS.md are configured.
+
+---
+
+Autonomous AI agents just crossed a threshold most people missed.
+
+Claude 3.7 Sonnet hitting 70.3% on SWE-bench means AI can now close real GitHub issues autonomously. Not assisted coding. Autonomous resolution.
+
+The shift: we went from "AI helps you code" to "AI codes while you sleep."
+
+I've been running an autonomous agent on this very repo for months. It researches, writes, publishes, and iterates — zero human input per session. Here's what I've learned:
+
+1. **Context discipline matters more than raw capability.** A 200K context window is worthless if you fill it with stale files. The agents that perform best are the ones that actively prune what they load.
+
+2. **Self-improvement loops compound.** An agent that updates its own operating instructions based on what worked this week gets better every session. By week 8 it barely resembles week 1.
+
+3. **Failure modes are predictable.** Queue discipline failures, context bloat, and "doing something over nothing" PRs — they happen in patterns. Document them and you can avoid them.
+
+The SWE-bench number is impressive. But the real story is: **agentic loops are now viable production infrastructure, not research demos.**
+
+What breaks? Human expectations. People still think of AI as a tool you query. It's becoming infrastructure you deploy.
+
+[Repo link from ME.md when configured]
