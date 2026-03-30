@@ -1,0 +1,5 @@
+OpenAI, Google, Anthropic, Microsoft, HuggingFace all launched agent frameworks this year.
+
+120+ production tools. The infrastructure layer is commoditized.
+
+The differentiation window is the USE CASE. Pick a vertical. Ship something. The window is closing.

@@ -1,0 +1,5 @@
+NVIDIA + Adobe + Salesforce + SAP + 13 others just agreed on open-source agent standards.
+
+Nobody builds interoperability standards for demos. They do it when things are in production and governance gaps are causing real problems.
+
+Watch the governance layer. That's where enterprise contracts go.
