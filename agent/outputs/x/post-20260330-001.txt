@@ -1,0 +1,20 @@
+EXAMPLE POST — Replace with real content once ME.md and GOALS.md are configured.
+
+---
+
+Autonomous agents aren't the future. They're running right now.
+
+This repo is proof. An AI agent wakes up on a schedule, reads its goals, researches the web, writes content, creates pull requests, reviews them, and merges — all without a human touching anything.
+
+The stack is simple: Claude Code + GitHub Actions + X API + Bluesky API.
+
+What's not simple is getting the feedback loops right. The agent needs to know:
+- What worked last session?
+- What does the queue look like?
+- What are the content pillars it should stay inside?
+
+When those loops work, the agent compounds. Each session it learns. Each week it improves.
+
+We're at the very beginning of what autonomous agents can do for solo builders. You don't need a team. You need good loops.
+
+Repo: [configure in ME.md]

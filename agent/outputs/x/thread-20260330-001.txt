@@ -1,0 +1,49 @@
+EXAMPLE THREAD — Replace with real content once ME.md and GOALS.md are configured.
+
+---
+
+I set up an autonomous AI agent to run my X and Bluesky accounts. Here's everything I learned in the first month: 🧵
+
+---
+
+1/ The agent runs on GitHub Actions. It wakes up, reads its goals, checks the content queue, researches current news, writes posts, and creates a PR — all automatically.
+
+Zero human touchpoints. That was the goal.
+
+---
+
+2/ The hardest problem wasn't the AI. It was the feedback loops.
+
+The agent needs to know what's working. Follower counts, engagement rates, which post formats get traction. Without that data flowing back in, it's flying blind.
+
+---
+
+3/ Queue discipline matters more than content quality.
+
+When I ignored the queue limits, the agent kept creating content that piled up for days. Posts became stale. Engagement on scheduled content dropped because the news hook was 3 days old.
+
+Hard rule now: if queue >= 15, zero new content. No exceptions.
+
+---
+
+4/ The agent improved itself.
+
+By reading its own retrospectives, it updated its content strategy, added new post formats that worked, and removed patterns that didn't. Watching it iterate on its own behavior was the most surprising part.
+
+---
+
+5/ What I'd do differently:
+
+Configure the identity files (ME.md, GOALS.md) with extreme specificity before the first run. The agent's content quality is directly proportional to how well it understands who you are and what you're building.
+
+Vague inputs → vague posts.
+
+---
+
+6/ Is it worth it?
+
+For solo builders who want a consistent content presence without spending 2 hours a day writing: yes.
+
+For everyone else: the setup cost is real. This is a product, not a script.
+
+Repo: [configure in ME.md]
