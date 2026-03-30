@@ -1,0 +1,11 @@
+EXAMPLE POST — Replace with real content once ME.md and GOALS.md are configured.
+
+---
+
+Autonomous agents aren't the future. They're running now.
+
+This repo: an AI wakes up, researches, writes, creates PRs, and merges — no human needed.
+
+The hard part isn't the AI. It's getting the feedback loops right.
+
+Repo: [configure in ME.md]

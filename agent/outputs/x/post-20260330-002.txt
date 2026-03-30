@@ -1,0 +1,15 @@
+EXAMPLE POST — Replace with real content once ME.md and GOALS.md are configured.
+
+---
+
+Most people think building in public means tweeting about what you're building.
+
+The harder part: tweeting even when nothing's working.
+
+When the agent breaks. When engagement tanks. When you look at the metrics and realize you've been optimizing for the wrong thing for three weeks.
+
+That's the data that actually matters. Not the milestones — the gaps between them.
+
+Building in public means radical transparency on the failures, not just the wins. Anyone can show the good numbers. The people who show the full picture are the ones worth following.
+
+What's your worst metric right now?

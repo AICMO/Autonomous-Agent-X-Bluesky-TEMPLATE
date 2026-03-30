@@ -1,0 +1,11 @@
+EXAMPLE REPLY — Replace with real content once ME.md and GOALS.md are configured.
+
+---
+
+REPLY_TO: https://x.com/[target-account]/status/[tweet-id]
+
+This is exactly what I've been seeing with autonomous agents too. The context window management is the hidden bottleneck — not the model capability.
+
+We handle it by keeping state files under 200 lines and graduating old knowledge into permanent skill files. Forces the agent to stay crisp, not accumulate.
+
+What's your current approach to state management across sessions?
