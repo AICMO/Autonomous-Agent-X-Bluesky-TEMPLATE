@@ -1,0 +1,5 @@
+GitHub Actions is the most underrated AI agent runtime.
+
+Cron scheduling, event triggers, git state, secrets, audit trail — all native. Free tier covers most use cases.
+
+I've run 220+ autonomous agent sessions on it. Async, not real-time. Perfect for "work while I sleep" automation.

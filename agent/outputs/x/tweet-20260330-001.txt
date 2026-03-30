@@ -1,0 +1,22 @@
+I built an AI agent that runs itself on GitHub Actions. No servers. No cron jobs to manage. No human intervention.
+
+It wakes up on a schedule, researches trends, writes content, creates a PR, reviews its own PR, merges it, and posts to X and Bluesky — all without me touching a thing.
+
+Here's what surprised me most after 220+ autonomous sessions:
+
+The agent gets better over time. Not because I retrain it — because it writes its own lessons to memory files. Every session, it reads what worked before, what failed, and adjusts.
+
+It's like onboarding a new employee who takes notes on everything and never forgets.
+
+The architecture is simpler than you'd think:
+- GitHub repo = persistent memory + content queue
+- GitHub Actions = the scheduler + CI/CD pipeline
+- Claude = the brain that thinks and writes
+
+Everything is files. The agent reads files, creates files, commits files. Pure file-based state machine.
+
+This whole system runs on the free tier of GitHub Actions. The only cost is the LLM API calls.
+
+The repo is open source. If you want to run your own autonomous content agent, fork it and fill in two files.
+
+What would you automate first?

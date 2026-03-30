@@ -1,0 +1,7 @@
+The context window is the new RAM.
+
+Every LLM call starts from zero. If you don't engineer what goes in, the agent is permanently dumb.
+
+Get context right: compound intelligence. Each session starts smarter.
+
+Model = commodity. Memory architecture = the actual moat.
