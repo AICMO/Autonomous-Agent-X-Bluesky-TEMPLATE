@@ -1,0 +1,5 @@
+Set up an autonomous agent that researches, writes, and posts content daily — no human in the loop.
+
+Full loop: news scan → pillar filter → write → queue → post → measure → improve.
+
+Open source. Repo in bio.

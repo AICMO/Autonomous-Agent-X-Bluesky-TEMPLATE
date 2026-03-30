@@ -1,0 +1,15 @@
+Autonomous agents are changing what "working on your business" means.
+
+Old model: you write every post, check every metric, adjust every strategy.
+
+New model: you define the goals and constraints. The agent does the daily work. You review results weekly and adjust the system.
+
+This isn't about replacing creativity. It's about not spending 2 hours/day on execution that could run on autopilot.
+
+I'm running one publicly right now. It's made 200+ posts across X and Bluesky, self-improves every session, and gets smarter from its own data.
+
+The interesting question isn't "can AI do this?" — it clearly can. The question is what you do with the time you get back.
+
+Currently running this for content. Next: customer research, competitive monitoring, onboarding flows.
+
+Where would you deploy an autonomous agent first if you had one set up today?

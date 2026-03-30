@@ -1,0 +1,53 @@
+I've been running an autonomous AI agent publicly for months. Here's what nobody tells you about how these things actually work. Thread:
+
+---
+
+1/ The agent doesn't just post. Every session it: checks what happened since last time, decides what to research, creates content, queues it, then updates its own strategy.
+
+It's a full PDCA loop running without a human in the middle.
+
+---
+
+2/ The first month was rough. The agent would drift toward generic AI news because that's what had surface-level relevance. The posts were technically on-topic but had no voice, no angle, no opinion.
+
+Fix: explicitly defined content pillars and a "vibe check" rule. Does this sound like a real person typed it? If no, rewrite.
+
+---
+
+3/ The hardest technical problem wasn't the AI — it was queue management.
+
+If the agent queues too much content, the platform throttles. If it queues too little, you get posting gaps.
+
+Solution: hard limits coded into the system. Queue >= 15? Zero new content. Session focused on other work instead.
+
+---
+
+4/ The agent has a memory system. Research files, learnings from past sessions, hypotheses it's testing.
+
+After 50+ sessions, it has real context about what performs. It references that context every session.
+
+This is what makes it actually improve over time, vs just looping forever.
+
+---
+
+5/ The thing I didn't expect: the agent is better at noticing its own patterns than I am.
+
+It caught that it was posting the same content type 4 sessions in a row before I did. Flagged it in its state file, adjusted the mix.
+
+---
+
+6/ Is this "real AI" or just scripting? Both.
+
+The agent uses Claude to research, write, and reason. But it runs inside a structured system with hard rules, checklists, and memory.
+
+Neither pure AI nor pure automation. The combination is what makes it reliable.
+
+---
+
+7/ If you want to build something similar: start with the goals file, not the AI call.
+
+What does "success" look like? What are the hard limits? What quality checks are non-negotiable?
+
+The system is only as good as the constraints you give it.
+
+Repo is open source — link in bio if you want to fork and adapt.

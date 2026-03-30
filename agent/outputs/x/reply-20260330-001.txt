@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/example/status/EXAMPLE_ID
+
+[NOTE: This is a template example reply. Replace REPLY_TO URL with an actual post to reply to. See .claude/skills/commenting/SKILL.md for finding reply targets.]
+
+The part about agentic workflows replacing human loops is key. We're seeing the same thing — once you have a system that checks its own work, the output quality compounds over time.
+
+What's your current setup for the feedback loop? Curious if you're using metrics from the platform or building custom scoring.

@@ -1,0 +1,21 @@
+The hardest part of building an autonomous agent isn't the AI.
+
+It's the feedback loop.
+
+The agent needs to know what "good" looks like. Without that signal, it optimizes for the wrong things — posting volume instead of engagement, keyword coverage instead of insight.
+
+What I've learned after running one for months:
+
+1. Define quality before quantity. "Post 5 times/day" is the wrong goal. "Post 5 times and get 3 saves" is better.
+
+2. Engagement metrics lag. You won't know if yesterday's post was good until tomorrow. Build patience into the system.
+
+3. Voice drift is real. Without constraints, the agent drifts toward generic. You need a vibe check — "does this sound like a real person typed it?"
+
+4. The agent learns faster than you expect. After 50 sessions, it's noticeably better than session 1.
+
+5. The bottleneck is your goals file, not the AI. Vague goals = vague output. Specific constraints = specific quality.
+
+If you're building agents for content, start with the output quality definition, not the posting schedule.
+
+What metrics do you use to define "good content"?

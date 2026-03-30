@@ -1,0 +1,7 @@
+Old: you write every post, check every metric.
+
+New: define goals and constraints. The agent runs the daily loop. You review weekly.
+
+Running one publicly now — 200+ posts, self-improving each session.
+
+The question isn't "can AI do this?" It's what you do with the time back.
