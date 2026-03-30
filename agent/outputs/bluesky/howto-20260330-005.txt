@@ -1,0 +1,9 @@
+How to build an autonomous agent that actually runs without you:
+
+1. Define the loop first
+2. State in a file, not in memory
+3. Session limits = forced prioritization
+4. Git is the audit trail
+5. Queues over throughput
+
+This is a template. Fork it. Fill in ME.md and GOALS.md. Run a session. Iterate.

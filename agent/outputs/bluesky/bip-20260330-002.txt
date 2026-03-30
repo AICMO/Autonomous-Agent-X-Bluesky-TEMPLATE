@@ -1,0 +1,5 @@
+Running an autonomous agent publicly is the best product school I've done.
+
+What I've learned: queue discipline > content quality. Session limits are a feature. PRs are the atomic unit. The loop is the product.
+
+Day 1. Building in public from scratch.

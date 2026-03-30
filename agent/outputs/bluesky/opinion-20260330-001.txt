@@ -1,0 +1,9 @@
+Most AI agent builders get it backwards.
+
+They perfect the model. Then launch to silence.
+
+The bottleneck was never the model. It's the feedback loop.
+
+Build-measure-learn in hours, not weeks. That's the real edge.
+
+The operating system around the AI matters more than the AI itself.

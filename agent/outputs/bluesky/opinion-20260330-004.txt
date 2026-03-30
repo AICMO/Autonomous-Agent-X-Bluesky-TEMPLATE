@@ -1,0 +1,7 @@
+Hot take: autonomous agent hype is mostly demos.
+
+Actual production operation is a different discipline. State management, turn budgets, queue discipline, self-review that catches real errors.
+
+None of that is AI research. It's boring software engineering.
+
+The interesting work is the plumbing.

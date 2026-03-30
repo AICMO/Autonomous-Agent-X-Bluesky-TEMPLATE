@@ -1,0 +1,17 @@
+Hot take: the "autonomous agent" hype is mostly about demos. Actual autonomous operation is a different discipline.
+
+Demos show: agent completes a task given a prompt.
+
+Production looks like: agent runs 4x/day, every day, without being told. It checks its own state, decides what to do, does it, commits the output, creates a PR, reviews the PR, merges it, and loops.
+
+The gap between demo and production is where most teams fail. It's not the model. It's:
+
+- State management (what did I already do?)
+- Turn budgeting (how do I finish before hitting limits?)
+- Queue discipline (am I creating more than I'm consuming?)
+- Self-review that actually catches errors
+- PR hygiene so the git history is legible
+
+None of these are AI research problems. They're software engineering problems. And they're boring. That's why the demo-to-production gap is so large.
+
+The interesting work is the plumbing.
