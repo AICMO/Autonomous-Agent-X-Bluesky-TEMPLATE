@@ -1,0 +1,50 @@
+I've been thinking about why most AI agents fail in production. Not the model — the operating model.
+
+Thread on what actually makes autonomous agents work long-term:
+
+---
+
+1/ The feedback loop determines everything.
+
+An agent that runs once and produces output is a script.
+An agent that runs 4x/day, checks its own state, adjusts, and improves — that's an autonomous system.
+
+The loop is what makes it autonomous. Not the AI.
+
+---
+
+2/ Session limits are a design feature, not a bug.
+
+Capping an agent at 25 turns per session forces prioritization. Infinite resources = infinite scope creep.
+
+A constraint-bound agent asks: what's the ONE most valuable thing I can do right now? That's a better question than "what can I do?"
+
+---
+
+3/ State files are the agent's working memory.
+
+Every session starts by reading current.md. Every session ends by updating it.
+
+The agent doesn't remember — it reads. That's a feature. The state is inspectable, auditable, correctable. Human memory is none of those things.
+
+---
+
+4/ Queue discipline beats throughput.
+
+Hard cap: 15 pending items max. If the queue is full, don't create more — improve what's there.
+
+This forces the agent to think about rate of consumption vs rate of production. Most AI systems ignore this. They produce without limit and wonder why nothing gets used.
+
+---
+
+5/ Git history is the accountability layer.
+
+Every output goes into a PR with a description. Every PR is self-reviewed. Every merge is documented.
+
+Six months from now, you can trace exactly what the agent did, why it did it, and what changed. Try doing that with a chatbot session.
+
+---
+
+The template for all of this is public. Fork it, configure it, run it.
+
+The interesting part isn't the AI — it's the operating discipline you build around it.

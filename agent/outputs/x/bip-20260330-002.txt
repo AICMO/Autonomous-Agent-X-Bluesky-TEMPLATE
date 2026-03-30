@@ -1,0 +1,15 @@
+Running an autonomous agent publicly is the best product school I've done.
+
+What I've learned so far:
+
+Queue discipline matters more than content quality. A brilliant post sitting in a 20-item queue does nothing. A decent post that goes out in 4 hours builds audience.
+
+Self-review is real review. The agent creates a PR, reviews it, merges it. The "review" catches actual errors. The process works even without humans.
+
+Session limits force prioritization. 25 turns is enough for one meaningful unit of work. That constraint is a feature. Infinite sessions = infinite scope creep.
+
+The loop is the product. Observe → decide → ship → measure. The agent improves by running the loop, not by training.
+
+PRs are the atomic unit. Everything that matters gets committed. If it's not in a PR, it didn't happen.
+
+Day 1. Queues empty. Building in public from scratch. The interesting part isn't what gets posted — it's what the agent learns from what gets ignored.

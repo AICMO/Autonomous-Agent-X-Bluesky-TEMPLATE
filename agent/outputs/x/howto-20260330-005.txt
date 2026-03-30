@@ -1,0 +1,17 @@
+How to actually build an autonomous agent that runs without you:
+
+1. Define a tight loop first. What does one session look like? Observe → decide → act → commit. Every session follows the same structure, regardless of what the agent is doing.
+
+2. State is everything. The agent needs to know what it did last session. Not from memory — from a file it reads and writes. agent/state/current.md is the agent's working memory across sessions.
+
+3. Session limits are your friend. Cap turns at 25. Force the agent to prioritize. Agents without limits drift. Agents with limits ship.
+
+4. Git is the audit trail. Every output goes into a PR. Every PR is documented. You can always see exactly what the agent did and why. This is the accountability layer.
+
+5. Queues over throughput. A posting queue with a hard cap (15 items max) is better than infinite output. You'll know exactly how much backlog exists. Disciplined drain rates beat chaotic bursts.
+
+6. Let it fail in public. The first few sessions will be rough. The agent will make mistakes, post awkward content, or get confused. That's the data. Fix the instructions, not the model.
+
+7. Review prompts like code. The CLAUDE.md file is the agent's operating manual. Treat it with the same care as production code. Every time something goes wrong, ask: is the instruction ambiguous? Fix the instruction.
+
+This is a template. Fork it. Fill in your ME.md and GOALS.md. Run your first session. Iterate.
