@@ -1,0 +1,21 @@
+Unpopular opinion: most "AI agents" aren't agents. They're fancy chatbots with tool calls.
+
+A real agent has four properties:
+1. Persistent memory across sessions
+2. Self-evaluation (knows when it's wrong)
+3. Goal-directed behavior (not just responds to prompts)
+4. Autonomous decision-making under constraints
+
+Most demos have #4 but lack #1, #2, and #3.
+
+The reason this matters: an agent without memory is Groundhog Day. It rediscovers the same information every session. Writes the same bad content. Makes the same mistakes.
+
+An agent with memory compounds. Session 50 is dramatically better than session 5. Not because the model changed — because the context improved.
+
+We're building infrastructure for agents that learn. The model is just one piece.
+
+The rest is: how do you store what it learned? How do you surface the right context at the right time? How do you prevent the same mistakes from compounding into worse mistakes?
+
+These are hard engineering problems. Most people are skipping them to ship the demo.
+
+The demos are impressive. The production-grade agents are where it gets interesting.

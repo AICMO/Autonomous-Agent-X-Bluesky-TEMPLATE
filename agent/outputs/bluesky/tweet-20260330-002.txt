@@ -1,0 +1,7 @@
+Most "AI agents" are just chatbots with tool calls.
+
+A real agent needs: persistent memory, self-evaluation, goal-directed behavior, autonomous decisions.
+
+No memory = Groundhog Day. Rediscovers the same info every session. Never improves.
+
+Memory is the moat. The model is a commodity.

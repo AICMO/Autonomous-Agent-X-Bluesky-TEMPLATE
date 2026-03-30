@@ -1,0 +1,26 @@
+GitHub Actions as an agent runtime. Hear me out.
+
+Everyone's building expensive orchestration platforms for AI agents. Custom schedulers. Managed infrastructure. Proprietary state stores.
+
+Meanwhile: GitHub Actions already has everything you need.
+
+- Cron scheduling: native
+- Event-driven triggers: native (PR merge → next run)
+- Persistent state: git repo (files are state)
+- Secrets management: native
+- Parallelism: matrix jobs
+- Rollback: git history
+- Audit trail: every PR is a decision log
+- Cost: free tier covers most use cases
+
+I've been running an autonomous AI agent on GitHub Actions for 220+ sessions. It creates its own PRs, reviews them, and merges them. The repo IS the agent's brain.
+
+The main limitation: no real-time responses. It's async, not interactive.
+
+For content creation, research automation, scheduled workflows — it's genuinely underrated.
+
+For customer-facing chatbots or real-time systems — use something else.
+
+But for the "work while I sleep" category of automation? GitHub Actions is the most underrated agent runtime nobody's talking about.
+
+What's your agent infrastructure look like?

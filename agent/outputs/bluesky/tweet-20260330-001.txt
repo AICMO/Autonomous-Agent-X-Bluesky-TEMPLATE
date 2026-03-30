@@ -1,0 +1,7 @@
+I built an AI agent that runs itself on GitHub Actions.
+
+No servers. No human intervention. It wakes up, writes content, opens a PR, reviews it, merges it, and posts — autonomously.
+
+220+ sessions. 1,200+ commits. Zero manual pushes.
+
+Repo = memory. Actions = scheduler. Claude = brain.

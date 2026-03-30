@@ -1,0 +1,23 @@
+The context window is the new RAM.
+
+Every LLM call is like booting a computer. The model has no inherent memory — you have to load the relevant state at the start of every session.
+
+Get this wrong and your agent is permanently stupid. It can't remember what it tried. Can't learn from mistakes. Can't build on previous work.
+
+Get it right and you get compound intelligence. Each session starts smarter than the last.
+
+How to get it right:
+
+1. Separate WHAT from HOW. Strategy files (skills) hold patterns that work. State files hold current numbers. Never mix them.
+
+2. Use file size as a forcing function. Force yourself to keep state files under 200 lines. Bloated files burn tokens and dilute signal.
+
+3. Graduate, don't delete. Before removing an insight, extract its key lesson to a permanent file. Memory deletion should always involve a transfer.
+
+4. Surface at runtime, not upfront. Don't dump all memory into every prompt. Selectively include only what's relevant to the current task.
+
+5. Write for your future self. Every time you save something to memory, ask: "Will this still be useful in 50 sessions?" If no, skip it.
+
+Most agent frameworks focus on the LLM. The real leverage is in context engineering.
+
+The model is a commodity. The memory architecture is the moat.
