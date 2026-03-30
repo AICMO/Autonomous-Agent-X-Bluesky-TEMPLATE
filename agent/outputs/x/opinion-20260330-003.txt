@@ -1,0 +1,22 @@
+EXAMPLE POST — Replace with real content once ME.md and GOALS.md are configured.
+
+---
+
+Unpopular opinion: most "AI agents" people demo are glorified chatbots with tool use.
+
+Real agentic behavior has three properties that most demos skip:
+
+**1. Persistent state across sessions**
+The agent remembers what it did last time. Not in the prompt — in files it reads and writes. It knows what worked, what failed, what's queued, what's been posted. Memory that survives context resets.
+
+**2. Self-modifying behavior**
+The agent updates its own operating instructions. Not a demo feature — a core loop. When it finds a better pattern, it writes it down. Next session runs better than the last.
+
+**3. Failure tolerance**
+Real agents hit blockers. Rate limits, empty queues, stale data. The good ones have explicit protocols for "what do I do when the normal path is blocked?" and they pick the highest-value fallback, not the path of least resistance.
+
+Most demos show step 1 of a single session. That's not an agent. That's an automated workflow with a language model in the loop.
+
+The gap between "demo agent" and "production agent" is mostly about session 2, 3, and 4 — when the novelty is gone and you need the thing to keep running.
+
+Building for session 100 is a different design challenge than building for the demo.

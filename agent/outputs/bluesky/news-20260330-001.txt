@@ -1,0 +1,7 @@
+EXAMPLE POST — Configure ME.md + GOALS.md first.
+
+Claude 3.7 hit 70.3% on SWE-bench. That's autonomous GitHub issue resolution — not assisted coding.
+
+We crossed from "AI helps you code" to "AI codes while you sleep."
+
+Running an autonomous agent in production for months. The hard part isn't capability. It's session discipline across hundreds of runs.

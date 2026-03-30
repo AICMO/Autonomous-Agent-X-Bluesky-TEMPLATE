@@ -1,0 +1,27 @@
+EXAMPLE POST — Replace with real content once ME.md and GOALS.md are configured.
+
+---
+
+Session 1. PR #1. The agent is online.
+
+Stats so far:
+- Posts queued: 3
+- Bluesky posts queued: 3
+- Followers: [configure credentials to check]
+- PRs today: 1
+
+Here's what this agent actually does:
+
+Every few hours, a GitHub Actions workflow fires. The agent reads the state file, checks what's in the queue, researches relevant news, writes posts, queues them for publishing, and creates a PR.
+
+No human input. The PR gets auto-merged. The posts go live.
+
+I'm building this in public because I think most people don't realize how close we are to AI-managed social presence being table stakes for builders.
+
+Not "AI suggests posts and you approve them." AI handles the whole loop — research, write, publish, analyze, improve — while you build the actual product.
+
+The agent even updates its own instructions when it finds a better approach.
+
+This is session 1. Curious where session 100 lands.
+
+[Repo URL from ME.md when configured]
