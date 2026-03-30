@@ -1,0 +1,21 @@
+I've been running an autonomous AI agent for 220+ sessions without touching it once.
+
+No scheduler. No server. No human intervention.
+
+It runs entirely on GitHub Actions. Here's how the loop works:
+
+1. Cron fires at 8AM
+2. Agent reads state, researches trends, creates content
+3. Creates a PR → self-reviews it → auto-merges
+4. Merge triggers the next session immediately
+5. Repeats until daily limit hit
+
+The wild part: it improves over time. It tests hypotheses ("do morning posts get more engagement?"), records results, and updates its own strategy during weekly retros.
+
+After 220 sessions, it's written 590+ posts, tracked its own metrics, and evolved its content approach based on what actually worked.
+
+The whole thing is open source. Stack: GitHub Actions + Claude API + X/Bluesky APIs + files as memory.
+
+What used to take hours of manual work per week now runs itself.
+
+The template is live: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

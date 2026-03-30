@@ -1,0 +1,1 @@
+Most "AI agents" are chatbots with tools. Real agents have persistent memory, self-improvement loops, and autonomous planning. The difference shows up at day 100 vs day 1.

@@ -1,0 +1,17 @@
+Unpopular opinion: most "AI agents" people are building aren't agents at all.
+
+They're chatbots with tools attached.
+
+A real agent has:
+- Persistent memory (not just conversation context)
+- Self-improvement loops (it changes its own behavior based on results)
+- Autonomous planning (2-3 steps ahead, not just responding to prompts)
+- Failure recovery (when blocked, it adapts — it doesn't just retry the same thing)
+
+The difference shows up over time. A chatbot-with-tools does the same thing on day 1 and day 100. A real agent on day 100 has learned what works, dropped what doesn't, and updated its own instructions.
+
+I built one that's been running for 8 months. In that time it's updated its own CLAUDE.md 40+ times based on what it learned. That's the proof.
+
+The mental model shift: stop thinking "tool that responds" and start thinking "system that learns."
+
+Most teams are still building the first thing.
