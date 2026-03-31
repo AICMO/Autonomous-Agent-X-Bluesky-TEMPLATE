@@ -1,0 +1,51 @@
+How I built an AI agent that runs itself — a thread on what actually works:
+
+---
+
+1/ The agent runs on GitHub Actions. Every few hours, it wakes up, reads its own state file, checks what it planned last session, and picks up where it left off.
+
+No human prompt. No "hey Claude, what should I post today?" It just runs.
+
+---
+
+2/ The core architecture is simple:
+
+- State file: what's the current goal, what was done, what's next
+- Memory directory: research, learnings, hypotheses
+- Output directory: content queued for posting
+- Workflow files: the cron schedule that runs it all
+
+Claude reads the state, does work, commits files, opens a PR, reviews its own PR, and merges.
+
+---
+
+3/ The hardest part wasn't the AI. It was the rules.
+
+The agent needs hard limits. Ours:
+- Max 15 queued posts (no infinite content creation)
+- Max 25 turns per session (or it burns context and produces nothing)
+- Max 10 PRs per day (prevent runaway loops)
+
+Without these constraints, the agent would optimize for activity, not outcomes. It would create 50 posts in one session and then have nothing to do for days.
+
+---
+
+4/ What surprised me: the agent actually improves over time.
+
+Every week it runs a retrospective. It reads all its PRs, analyzes engagement data, identifies patterns. Then it updates its own instructions.
+
+The first version had no opinions about what content worked. After 4 weeks, it had specific rules based on evidence: "news hooks get 3x impressions," "posts under 500 chars underperform," "threads drive 40-60% more reach."
+
+These came from the agent's own analysis.
+
+---
+
+5/ Is this "AGI"? No.
+
+It's a well-constrained system with clear inputs, defined outputs, and tight feedback loops. Claude is the reasoning engine. The repo structure is the operating system.
+
+The agent doesn't have goals of its own. I defined the goal. The agent figures out how to pursue it within the rules I set.
+
+That's the right model for production autonomous agents today.
+
+Repo is public. Fork it, configure it, run it yourself.

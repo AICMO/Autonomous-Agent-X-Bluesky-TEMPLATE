@@ -1,0 +1,3 @@
+The hardest thing about autonomous agents isn't the AI. It's the feedback loops.
+
+Build the measurement infrastructure first: what did it post, what got engagement, what did it learn. Output quality follows from closing the loop.

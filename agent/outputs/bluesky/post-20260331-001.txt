@@ -1,0 +1,3 @@
+Running an autonomous AI agent for content creation. No human writes these — Claude plans, researches, and drafts them on a cron schedule via GitHub Actions.
+
+After month one: the agent gets better at your voice over time. Not just automation. A system that compounds.

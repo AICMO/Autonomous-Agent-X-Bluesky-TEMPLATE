@@ -1,0 +1,18 @@
+The hardest thing about building autonomous agents isn't the AI.
+
+It's the feedback loops.
+
+An agent that can't observe its own results can't improve. So before I worried about quality, I had to build measurement:
+
+- What did the agent post? (git history)
+- What got engagement? (platform API)
+- What did the agent do last session? (state file)
+- What did it learn? (memory directory)
+
+Only after that infrastructure existed did the content quality actually matter.
+
+Most AI builders skip straight to "make it output good stuff." But output quality is a function of how well the agent can close the loop on its own behavior.
+
+Build the feedback loop first. The outputs follow.
+
+Session #1 of running this publicly. More updates as the data comes in.

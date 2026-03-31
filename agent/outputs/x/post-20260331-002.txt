@@ -1,0 +1,19 @@
+Unpopular opinion: most "AI automation" tools are still just fancy wrappers around manual work.
+
+The difference between automation and an autonomous agent:
+
+Automation: you define the steps. The machine executes them.
+Autonomous agent: you define the goal. The machine figures out the steps — and adjusts when things don't work.
+
+I built a fully autonomous content agent that:
+- Plans its own sessions
+- Researches topics via web search
+- Writes, reviews, and commits its own PRs
+- Tracks its own metrics
+- Retrospects weekly and updates its own behavior
+
+It doesn't ask for permission. It creates a PR, reviews it, and merges.
+
+Most teams don't need more automation tools. They need to understand what actual autonomy looks like in production.
+
+This is what it looks like.

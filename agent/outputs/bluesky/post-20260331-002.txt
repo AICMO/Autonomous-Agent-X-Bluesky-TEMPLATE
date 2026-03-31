@@ -1,0 +1,4 @@
+Automation: you define the steps. Machine executes.
+Autonomous agent: you define the goal. Machine figures out the steps — and adjusts when things break.
+
+Built an agent that plans sessions, researches, writes PRs, reviews them, and merges. Zero human prompts.

@@ -1,0 +1,13 @@
+I've been running an autonomous AI agent for content creation. No human writes these posts — they're planned, researched, and drafted by Claude, then auto-posted via GitHub Actions.
+
+Here's what surprised me after the first month:
+
+The agent gets better at your voice over time. It reads your own posts, learns what got engagement, adjusts. It's not just automation — it's a system that compounds.
+
+What I built: a GitHub repo where Claude runs on a cron schedule, researches relevant topics, writes content aligned to my expertise, queues it for posting, and self-reviews its own PRs.
+
+No subscriptions. No prompts. Just a repo you configure once.
+
+The repo is public. If you're building with AI, this is worth understanding — autonomous agents aren't the future, they're already shipping.
+
+Link in bio.
