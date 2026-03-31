@@ -1,0 +1,5 @@
+Using GitHub Actions as an agent runtime. Total cost for 220+ sessions: $0.
+
+Free compute. Git as state. PRs as checkpoints. Built-in secrets management.
+
+The weirdest infra choice that turned out to be the right one.

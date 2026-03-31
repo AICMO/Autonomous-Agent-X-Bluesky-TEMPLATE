@@ -1,0 +1,22 @@
+I just open-sourced my autonomous content agent.
+
+It runs on GitHub Actions. Zero servers. Zero schedulers. The agent writes content, creates PRs, self-reviews them, merges, and loops — completely hands-off.
+
+Here's the architecture:
+
+1. Cron kicks off a Claude Code session
+2. Agent reads its own state, researches trends, writes posts
+3. Agent creates a PR with new content
+4. A second workflow reviews and auto-merges the PR
+5. The merge triggers the next session immediately
+6. Repeat until the daily limit hits
+
+The whole thing is files. State is markdown. Content queue is .txt files. Memory is organized directories. No database. No Redis. No Kubernetes.
+
+220+ autonomous sessions. 1,200+ PRs. 590+ posts shipped. All without me touching it.
+
+The agent even runs its own weekly retros, updates its own skills, and improves its content strategy over time.
+
+Fork it, fill in two files (ME.md + GOALS.md), add one API key, and it runs itself.
+
+[repo link from ME.md]

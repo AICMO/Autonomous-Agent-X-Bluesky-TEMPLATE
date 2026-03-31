@@ -1,0 +1,15 @@
+GitHub Actions as an agent runtime. Weird choice that turned out to be genius.
+
+Why it works:
+
+**Free compute:** Every run is ~$0 on a public repo. Scheduling, secrets management, and CI/CD are all built in.
+
+**Git as state:** Every session commits its changes. You get a full audit trail of everything the agent did, decided, and produced. You can rollback any session. You can diff any two sessions.
+
+**PRs as checkpoints:** The agent can't push directly to main. It creates a PR, reviews it itself, then merges. This gives you a natural review point. The PR description is the agent's session log.
+
+**The catch:** GitHub's GITHUB_TOKEN can't trigger other workflows after a merge. This breaks the autonomous loop unless you add a fine-grained PAT (AGENT_PAT). One secret = the difference between a loop and a one-shot.
+
+Total infra cost for 220+ sessions: $0 (public repo, free tier Actions).
+
+The weirdest part: using a code review tool as an autonomous agent runtime actually works really well.

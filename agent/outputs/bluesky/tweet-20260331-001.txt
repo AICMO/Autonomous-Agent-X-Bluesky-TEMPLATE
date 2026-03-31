@@ -1,0 +1,7 @@
+Just open-sourced my autonomous content agent.
+
+Runs on GitHub Actions. Zero servers. Agent writes posts, creates PRs, self-reviews, merges, loops.
+
+220+ sessions. 1,200+ PRs. 590+ posts. Zero human intervention.
+
+Fork → fill 2 files → add 1 API key → it runs itself.

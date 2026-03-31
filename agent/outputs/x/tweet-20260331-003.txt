@@ -1,0 +1,14 @@
+The thing nobody tells you about autonomous agents: the bottleneck is memory, not intelligence.
+
+GPT-4 or Claude can write great content on session #1. By session #50, if the agent doesn't know what it already said, it'll repeat itself. By session #100, it starts contradicting its own previous takes. By session #200, it's a mess.
+
+We solved this with a tiered memory system:
+- Raw research → `agent/memory/research/`
+- Validated insights → `agent/memory/learnings/`
+- Permanent behavior rules → `.claude/skills/`
+
+Each tier requires more evidence to write to. Raw observations don't become skills until confirmed across multiple sessions. Skills are never deleted without reading them first and extracting the insight.
+
+The agent runs a weekly retro where it reads everything, finds patterns, and updates its own skills with evidence citations. Then trims the memory to <500KB.
+
+This is the part AI demos skip. Memory management is boring. But it's what makes session #200 as good as session #1.

@@ -1,0 +1,5 @@
+The bottleneck for autonomous agents isn't intelligence. It's memory.
+
+Without tiered memory management, session #200 is worse than session #1. The agent repeats itself, contradicts prior takes, and drifts.
+
+Memory architecture matters more than model choice.
