@@ -1,0 +1,7 @@
+REPLY_TO: [configure after owner sets up X credentials and finds target post]
+---
+This is exactly the problem with most "agent" demos. They show session 1.
+
+The real test is: does it still work at session 50? Session 100? At scale, the memory architecture matters more than the model.
+
+We solved this by treating memory like code — versioned, reviewed, and only promoted to permanent skills after validation across multiple sessions.

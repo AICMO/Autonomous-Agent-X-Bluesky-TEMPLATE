@@ -1,0 +1,5 @@
+Unpopular opinion: most "AI agents" aren't agents. They're glorified API wrappers with a for-loop.
+
+The test: if you need to babysit it, it's automation. Not an agent.
+
+Try session #50 before calling it an agent.

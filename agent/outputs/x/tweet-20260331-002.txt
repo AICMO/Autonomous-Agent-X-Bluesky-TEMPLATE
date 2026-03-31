@@ -1,0 +1,13 @@
+Unpopular opinion: most "AI agents" aren't agents. They're glorified API wrappers with a for-loop.
+
+A real agent:
+- Maintains state across sessions
+- Learns from outcomes and updates its own behavior
+- Makes decisions about what to do next without being told
+- Handles failures without human intervention
+
+The test I use: if you need to babysit it, it's not an agent. It's automation with a PR problem.
+
+The hard part isn't the LLM call. It's the memory architecture, the feedback loop, and getting the agent to stay on task over 200+ sessions without hallucinating new goals.
+
+Most "agent" demos show session #1. Session #1 always looks good. Try session #50.

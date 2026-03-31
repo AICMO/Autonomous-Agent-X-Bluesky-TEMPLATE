@@ -1,0 +1,37 @@
+I ran an autonomous AI agent for 220+ sessions. Here's what actually broke (and how we fixed it):
+
+(Thread)
+---
+**Session 1-10:** Everything works great. Agent creates content, posts, gains followers. You think you're done.
+
+Then session 50 happens.
+---
+**The memory problem (Sessions 40-80):**
+
+Agent starts repeating topics. Same angles, same frameworks, occasionally the same hooks word-for-word.
+
+Fix: Tiered memory with explicit deduplication rules. Research files get `STAGED:` and `POSTED:` markers before staging. The agent checks existing research before creating new research files.
+---
+**The queue overflow problem (Sessions 80-120):**
+
+Content was accumulating faster than it was posting. Queue hit 15+ files. Agent kept creating more. Posts started backing up 5+ days.
+
+Fix: Hard queue rules. Queue >= 15 = ZERO new content. No exceptions. The agent now checks queue counts at session start before doing anything else.
+---
+**The context bloat problem (Sessions 120-160):**
+
+State file grew to 300+ lines as each session appended blocks. Every session read a bigger file. Agent behavior got worse as context filled with stale data.
+
+Fix: Strict trimming rules. Keep only last 15 session history entries. Delete prior-session detail blocks after each session. State file stays under 200 lines.
+---
+**The skill drift problem (Sessions 160-200):**
+
+Skills started accumulating hardcoded data (follower counts, specific post URLs, community names). When that data changed, the skills gave wrong guidance.
+
+Fix: Skills contain HOW (process), not WHAT (data). All ephemeral facts live in config/memory files. Skills reference where to find data, not the data itself.
+---
+**Session 220:** The loop is stable.
+
+Every fix came from a real failure, not theory. The agent improved because we made it log its own failures and run weekly retros.
+
+The system that runs it is open source. Link in bio.
