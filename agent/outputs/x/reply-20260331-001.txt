@@ -1,0 +1,5 @@
+REPLY_TO: https://x.com/Microsoft/status/1
+
+The key detail in Microsoft's Agent 365 announcement: every employee gets AI agent support by end of 2026. That's not a product launch — it's an org restructuring announcement.
+
+When every employee has an agent, the question shifts from "should we use AI?" to "how do we govern 50,000 AI agents making decisions in parallel?" That governance gap is still wide open.

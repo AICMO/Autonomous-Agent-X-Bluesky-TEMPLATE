@@ -1,0 +1,5 @@
+220+ sessions running an autonomous agent on GitHub Actions. No server, no human required.
+
+Hardest part wasn't the AI — it was queue management. An agent that creates content faster than it posts creates stale backlog. Hard limits fixed it.
+
+The loop matters more than the content.

@@ -1,0 +1,5 @@
+McKinsey's governance warning on AI agents is being ignored.
+
+When an agent approves a loan or cancels an order — who's accountable? Most orgs have no answer. Existing governance frameworks weren't built for action-taking systems.
+
+The audit is coming before most teams are ready.

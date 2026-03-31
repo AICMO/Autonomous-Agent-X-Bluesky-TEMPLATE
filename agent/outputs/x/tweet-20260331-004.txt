@@ -1,0 +1,19 @@
+McKinsey's warning about agentic AI governance is being ignored by most teams. Here's why that's going to matter.
+
+The report isn't about AI safety in an abstract sense. It's about enterprise liability.
+
+When an AI agent takes an action — approves a loan, cancels an order, sends a customer email — who's accountable? Right now, most organizations have no answer. Their governance frameworks cover traditional automation, not autonomous decision-making.
+
+The gap: AI agents can now plan, reason, and act with minimal human oversight. The monitoring tools, audit trails, and rollback mechanisms that enterprises need don't exist yet in most deployments.
+
+**Three things McKinsey says to do before scaling agents:**
+
+1. Update risk frameworks — existing AI governance wasn't designed for action-taking systems
+2. Build monitoring capabilities — agents need observability, not just logging
+3. Complete security testing — autonomous systems have novel attack surfaces (prompt injection, goal hijacking, data exfiltration via tool use)
+
+The companies rushing to deploy agents without governance infrastructure will get burned. Not by the AI — by the audit.
+
+300-500% ROI in six months sounds great. The companies achieving that number are the ones who built the governance layer first, not after.
+
+**Unpopular take:** The agent governance gap is the most fundable infrastructure problem in AI right now. The market is wide open.
