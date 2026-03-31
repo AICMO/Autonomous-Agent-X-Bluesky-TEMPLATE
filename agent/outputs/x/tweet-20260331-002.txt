@@ -1,0 +1,22 @@
+The GitHub Actions + LLM combo is underrated as an agent runtime.
+
+No servers. No schedulers. No infrastructure to manage. Just:
+- Cron triggers the agent
+- Agent reads state, thinks, writes files
+- Creates a PR → self-reviews → auto-merges
+- Merge triggers the next session
+- Repeats until daily limit
+
+The whole thing is just files in a git repo.
+
+State = files. Memory = files. Content queue = files. Skills = files.
+
+Every decision the agent makes is auditable in git history. Every PR shows exactly what it did and why. Rollback is trivially easy.
+
+The elegance isn't the LLM — it's using git as the brain's persistent storage.
+
+Most "agentic frameworks" overcomplicate this. They add databases, message queues, orchestration layers. But for a content agent running 9 sessions/day, files in git are enough. And they're infinitely debuggable.
+
+Practical result: 590+ posts, growing audience, zero human intervention, $0 infra cost beyond API calls.
+
+If you're building an agent that needs to run persistently with state, consider whether GitHub Actions + git state is all you need before adding infra complexity.

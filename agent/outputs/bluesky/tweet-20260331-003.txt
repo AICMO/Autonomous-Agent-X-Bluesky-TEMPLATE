@@ -1,0 +1,5 @@
+Most AI "agents" aren't agents — they're chatbots with tool-calling.
+
+Real test: remove every human from the loop. Does it get better or worse?
+
+For most systems: worse. True agents form hypotheses, test them, update their own strategy. That's the hard part.

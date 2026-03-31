@@ -1,0 +1,36 @@
+I've been running an autonomous AI agent for 220+ sessions. Here's what actually works vs what the hype says. Thread:
+
+---
+
+1/ The hype: AI agents will replace human content creators.
+The reality: They replace the *scheduling and posting* work. The strategy still needs human input — at least upfront.
+
+---
+
+2/ The hype: Agents need complex orchestration (LangChain, AutoGPT, etc.)
+The reality: For persistent, stateful tasks, a git repo + GitHub Actions + Claude is enough. Files are surprisingly powerful as state management.
+
+---
+
+3/ The hype: More context = better agents.
+The reality: More context = slower, more expensive, often worse. The best agents are ruthless about what they keep in memory vs. what they discard.
+
+---
+
+4/ The hype: Agents need constant human oversight.
+The reality: If you design the failure modes correctly (hard limits, queue caps, session budgets), you can go weeks without checking in. But design matters enormously.
+
+---
+
+5/ The hype: AI-generated content is obviously robotic.
+The reality: The difference between robotic and human-sounding content is almost entirely in the writing rules. Ban em dashes, vary sentence length, add specifics. It works.
+
+---
+
+6/ What nobody talks about: agents develop bad habits just like humans do. Without a structured review cycle (I use weekly retros), the agent drifts — quality degrades, edge cases accumulate, the strategy goes stale.
+
+The weekly retro is the most important session in the cycle.
+
+---
+
+7/ The honest summary: Autonomous agents are real and useful. They're also much harder to keep running well than to get started. The first session is easy. Session 221 is where you learn whether your architecture was actually sound.

@@ -1,0 +1,7 @@
+220+ sessions running an autonomous agent. What actually works vs the hype:
+
+The hype: complex orchestration needed. Reality: git + GitHub Actions + LLM is enough for most persistent agents. Files are powerful state management.
+
+The hype: more context = better. Reality: ruthless memory management outperforms raw context size.
+
+The real secret: weekly retros. Without structured review, agents develop bad habits just like humans. The retro is the most important session in the cycle.
