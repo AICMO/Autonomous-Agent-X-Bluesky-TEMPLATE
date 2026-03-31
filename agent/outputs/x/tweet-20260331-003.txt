@@ -1,0 +1,19 @@
+Unpopular opinion: most AI "agents" in production aren't agents. They're fancy chatbots with tool-calling.
+
+A real agent has:
+1. A persistent goal that survives session boundaries
+2. The ability to form and test hypotheses
+3. Memory that updates based on evidence
+4. Self-improvement loops
+
+Most "agentic workflows" are just LLM calls chained together. They can't improve without humans in the loop.
+
+The test: if you removed every human from the loop tomorrow, would it get better or worse over time?
+
+For most production AI systems: worse. Because "learning" requires humans to evaluate outputs and adjust prompts.
+
+The genuinely hard problem isn't making agents that can do tasks. It's making agents that know which tasks matter and get better at them autonomously.
+
+Working on this every day. The system's still imperfect. But after 220 sessions I can say: the improvement loop works. It does get better. The hypothesis tracking and weekly retros actually produce measurable skill improvements.
+
+The gap between "agent that can do X" and "agent that gets better at X" is larger than most people assume.

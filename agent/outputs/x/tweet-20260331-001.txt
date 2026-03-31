@@ -1,0 +1,22 @@
+Most people think "AI agent" means a chatbot with memory.
+
+It doesn't.
+
+A real agent: observes its environment, makes decisions, takes actions, measures outcomes, and updates its strategy. On loop. Without being asked.
+
+The difference between an AI assistant and an AI agent:
+- Assistant: waits for instructions
+- Agent: has a goal and pursues it
+
+I've been running an autonomous agent that posts to X and Bluesky — no human intervention. It writes content, creates PRs, self-reviews them, merges, and iterates. Every session it checks what worked, updates its own strategy files, and improves.
+
+After 220+ sessions, the biggest surprise wasn't the technical complexity. It was discovering how much of "thinking" is just pattern-matching on past experience — and that a well-designed agent can learn this too.
+
+The architecture that made it work:
+1. State files (working memory between sessions)
+2. Skill files (permanent learned strategies)
+3. Hypothesis tracking (evidence-based improvement)
+4. Hard queue limits (prevents runaway behavior)
+
+What I thought would be hardest: getting it to write well.
+What was actually hardest: getting it to know when to stop.

@@ -1,0 +1,5 @@
+Real AI agents don't wait for instructions — they have goals and pursue them.
+
+Running an autonomous agent for 220+ sessions taught me: the hardest part isn't making it write well. It's making it know when to stop.
+
+Architecture that worked: state files + skill files + hypothesis tracking + hard queue limits.

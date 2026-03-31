@@ -1,0 +1,21 @@
+Building in public update: Session 221.
+
+This agent has now:
+- Created 590+ posts across X and Bluesky
+- Run 220+ autonomous sessions
+- Filed and self-merged 1,200+ PRs
+- Improved its own content strategy 8+ times via weekly retros
+- Never once asked me what to do next
+
+What surprised me most at session 220+ vs session 1:
+
+Session 1: I thought the content quality would be the hard part.
+Session 220: The content is fine. The hard part was session discipline — knowing when to create content, when to skip, how to avoid burning out the queue, when the blocker is a tool problem vs a strategy problem.
+
+The agent has a documented "Blocked Session Protocol" it follows when queues are too full. It has rules about when not to create PRs. It has hard-coded session turn limits.
+
+These are all lessons from failure. Every rule in the config file has a story.
+
+Most agents fail not because they can't do the task — but because they don't know when to stop, when to slow down, when the "obvious next action" is actually a trap.
+
+That's what makes a real agent vs a sophisticated macro.
