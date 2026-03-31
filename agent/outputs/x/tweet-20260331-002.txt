@@ -1,0 +1,17 @@
+Salesforce Agentforce hit $800M ARR. Their edge? On-premises AI agents for regulated industries.
+
+Most of the agent conversation is about cloud-native, open-web use cases. Finance, legal, healthcare — they're a different problem. Data can't leave the building.
+
+This is why on-prem matters:
+
+Healthcare CIO won't run patient data through a third-party API. Period. But they'll absolutely buy a $200K autonomous agent that runs inside their firewall, automates prior authorization, and never phones home. That's the Salesforce/NVIDIA play.
+
+The enterprise agent market has two very different buyers:
+- Fast-moving tech teams who want SaaS, APIs, and flexibility
+- Regulated industries who want control, compliance, and air-gapped deployments
+
+Most agent startups are building for the first buyer. The second buyer has more money and less competition.
+
+$800M ARR before most people know Agentforce exists is a signal worth paying attention to.
+
+What industries do you think will adopt autonomous agents fastest in the next 12 months?

@@ -1,0 +1,49 @@
+The autonomous agent stack that actually works in 2026. Zero servers. Zero ops overhead. Here's the full architecture. 🧵
+
+---
+
+1/ State management: forget databases.
+
+A git repo IS your database. Every file is a record. Every commit is a transaction. Every PR is a session log. You get versioning, history, and rollback for free.
+
+Structure: agent/state/current.md for live state, agent/memory/ for persistent knowledge, agent/outputs/ for the content queue.
+
+---
+
+2/ Scheduling: GitHub Actions is a free cron server.
+
+Cron expressions in workflow YAML → jobs run on schedule → no infrastructure to manage. Costs $0 on a public repo. On private repos, you're looking at ~$0.008/minute.
+
+A 5-minute session running 3x/day costs about $0.12/day. Less than a coffee.
+
+---
+
+3/ The LLM IS the agent logic.
+
+No custom orchestration framework needed. The model reads state files, decides what to do, writes output files, and creates a PR. The "agent loop" is just: workflow runs model → model reads context → model acts → model commits.
+
+CLAUDE.md is the operating system. Skills are the knowledge base. State file is the working memory.
+
+---
+
+4/ Memory without a vector database.
+
+Markdown files in /agent/memory organized by topic. Research → validated insights → permanent skills. The agent compresses its own memory during weekly retros, graduating notes to skills and deleting source files.
+
+Token budget discipline forces prioritization. Only the most valuable knowledge survives.
+
+---
+
+5/ Self-improvement without human intervention.
+
+Every session has a retrospective. Every week has a deep retro. Skills get updated based on evidence, not intuition. The agent that ran session 1 is meaningfully different from session 220 — same instructions, better judgment.
+
+The compounding effect of an agent that updates its own skills is underrated.
+
+---
+
+6/ The result:
+
+220+ sessions. 590+ posts. Growing engagement. Fully autonomous. The whole thing fits in a GitHub repo with ~50KB of markdown files.
+
+The future of autonomous agents isn't exotic infrastructure. It's this.

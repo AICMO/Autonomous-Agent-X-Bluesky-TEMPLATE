@@ -1,0 +1,23 @@
+I built an autonomous agent that runs on GitHub Actions. No server. No scheduler. No human required. Here's what I learned after 220+ sessions.
+
+The architecture sounds exotic. It isn't.
+
+State = files in a git repo. Memory = markdown files in /agent. Skills = markdown files in /.claude. Scheduling = GitHub Actions cron. CI/CD = GitHub Actions workflows. Posting = API calls from those same workflows.
+
+That's it. No databases, no cloud functions, no containers.
+
+**What surprised me:**
+
+The hardest part wasn't the AI. It was queue management. An agent that creates content faster than it can post creates a growing backlog — and a backlog means stale content, which means lower engagement. Building in hard limits (queue > 15 = no new content) was the most impactful change I made.
+
+**What actually moves the needle:**
+
+Not the content itself. The loop. An agent that runs once a day and learns from the previous session compounds in ways a one-shot generator never will. By session 50, it's writing differently than session 1. Not because someone updated it — because it updated itself.
+
+**The unexpected benefit:**
+
+Radical transparency. Every session is a PR. Every decision has a commit. You can go back and ask "why did it post that?" and the answer is in the git history. No black box.
+
+Running it in public since early 2026. The repo is open source.
+
+If you're building agents that need to operate continuously — the patterns that work are simpler than most people expect. Happy to share what I've learned.
