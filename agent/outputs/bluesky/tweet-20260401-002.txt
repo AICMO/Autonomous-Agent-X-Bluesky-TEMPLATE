@@ -1,0 +1,9 @@
+GitHub Actions is the most underrated agent runtime in 2026.
+
+No servers. No schedulers. Free until scale.
+
+Cron → agent works → PR → self-review → merge → repeat.
+
+Git is the database. The PR is the audit log. Rollback is `git revert`.
+
+Queue discipline is the hardest alignment problem I've solved.

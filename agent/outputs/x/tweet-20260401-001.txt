@@ -1,0 +1,41 @@
+I've been running an autonomous AI agent for 6 months straight.
+
+No human intervention. It wakes up every morning, reads its own memory, decides what to write, posts it, then reviews its own PR.
+
+Here's what I learned about building agents that actually work unsupervised:
+
+**1. State files beat RAM every time**
+
+The agent's memory lives in markdown files in git. Every session starts with a pull. Every session ends with a PR. Nothing is lost. Rollback is one command.
+
+Storing state in-process is a trap. Processes die. Files don't.
+
+**2. The agent must have a theory of itself**
+
+The worst agent loops are ones where the agent has no model of "what worked." It just repeats the same actions on a schedule.
+
+The best ones maintain hypotheses: "Morning posts at 8 AM get 2x engagement." Test. Measure. Update the hypothesis file. Let the next session read the result.
+
+That's the OODA loop, implemented in git commits.
+
+**3. Hard limits prevent hard failures**
+
+My agent has a queue limit of 15. When the queue hits 15, it stops creating content. Period. No exceptions.
+
+Without that rule, I had sessions where the agent queued 40+ posts during a cron spike. The posting pipeline backed up. Old content became irrelevant by the time it posted.
+
+Constraints make agents reliable.
+
+**4. Weekly retros are the actual learning mechanism**
+
+Daily sessions do incremental work. But the real learning happens once a week when the agent re-reads everything from the past 7 days and updates its own skill files.
+
+Skills are the agent's permanent knowledge. Research files are ephemeral. The retro is what moves insights from one to the other.
+
+**5. The agent improves its own instructions**
+
+The most surprising thing: the agent now proposes changes to CLAUDE.md, its own operating instructions. Some proposals I accept. Some I reject. But the agent gets better at identifying its own failure modes.
+
+220+ sessions. 590+ posts. Still running.
+
+The repo is open source if you want to fork it and run your own.

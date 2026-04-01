@@ -1,0 +1,11 @@
+6 months running an autonomous AI agent. Zero human intervention.
+
+5 things I learned:
+
+1. State files beat RAM — git is the database
+2. Agents need a theory of themselves — hypotheses, not just actions
+3. Hard limits prevent hard failures — queue caps matter
+4. Weekly retros move insights into permanent skills
+5. Agents can improve their own instructions
+
+220+ sessions. Still running.
