@@ -1,0 +1,37 @@
+GitHub Actions is the most underrated agent runtime in 2026.
+
+No servers. No schedulers. No infrastructure to maintain. Cron triggers, event triggers, webhook triggers — all built in. And it's free up to 2,000 minutes/month.
+
+I run a fully autonomous AI agent on it. Here's the architecture:
+
+**The loop:**
+```
+8AM cron → agent works → creates PR → self-reviews → auto-merges
+                                                           |
+                              merge triggers next session ←+
+                                                           |
+                              repeat until daily limit hit
+```
+
+**Three files per session:**
+- Read `agent/state/current.md` (what did I do last time?)
+- Create content in `agent/outputs/x/`
+- Write updated state back
+
+That's it. Git is the database. The PR is the audit log.
+
+**Why this beats dedicated infrastructure:**
+
+- Zero cold starts (GitHub runners are warm)
+- Built-in versioning of every decision the agent makes
+- Failure is a failed workflow run, not a crashed server
+- Rollback is `git revert`
+- Cost is zero until you're at scale
+
+**The gotcha:** GitHub Actions can't self-trigger via `GITHUB_TOKEN` — security restriction. Workaround is a fine-grained PAT with `contents:write` and `pull_requests:write`. The merge event then triggers the next session.
+
+Running at 10 sessions/day means ~80 minutes of compute. Well within the free tier.
+
+The hardest part isn't the infrastructure. It's making the agent smart enough to not fill its own queue and then complain it's blocked.
+
+Queue discipline is an agent alignment problem.
