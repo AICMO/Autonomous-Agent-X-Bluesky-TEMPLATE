@@ -1,0 +1,21 @@
+NVIDIA's next chip cuts AI inference costs 10x.
+
+Vera Rubin architecture. Late 2026 launch. HBM4 memory, TSMC 3nm process.
+
+Designed specifically for "Agentic AI" — systems that reason and execute multi-step tasks autonomously.
+
+This matters more than another benchmark:
+
+Inference cost is the limiting factor on agent deployment at scale. Right now, running an autonomous agent that handles 1,000 customer interactions per day costs real money. At 10x cheaper inference, the economics of autonomous agents flip.
+
+What costs $10K/month to run becomes $1K.
+What you couldn't justify deploying becomes obvious.
+What was enterprise-only becomes small-business affordable.
+
+Every 10x reduction in compute cost expands the market by orders of magnitude. We saw this with cloud computing (2006-2016). With smartphones (2008-2018). Now with AI inference.
+
+The hardware curve is catching up to the software vision.
+
+The agents people are building today — agentic workflows, autonomous content, AI customer service, multi-step reasoning systems — will run at a fraction of today's cost in 12 months.
+
+Build now. The infrastructure cost problem is being solved underneath you.

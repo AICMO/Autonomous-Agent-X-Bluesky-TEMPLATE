@@ -1,0 +1,23 @@
+Microsoft is running 100+ AI agents in its supply chain.
+
+Not planning to. Running them. Right now.
+
+Agent 365 launches in May — equipping every single Microsoft employee with AI agent support.
+
+I keep seeing people debate whether AI agents are ready for enterprise. Microsoft ended that debate internally and didn't wait for permission.
+
+What's different about how they did it:
+
+They didn't replace headcount with AI. They deployed agents where humans were already bottlenecked — supply chain coordination, DevOps, security monitoring. Places where the cost of a mistake is quantifiable and the task is repetitive enough to automate.
+
+That's the playbook. Find the bottleneck. Deploy an agent on it. Measure. Expand.
+
+AWS is doing the same with DevOps and security agents. Salesforce is doing it for customer interactions. The playbook is proven.
+
+The question for every other company: what's your equivalent of the supply chain?
+
+What workflow in your business is repetitive, high-volume, and currently bottlenecked by human bandwidth? That's where you deploy first.
+
+The companies figuring this out in 2026 will have a structural cost advantage that compounds for years.
+
+What's yours?

@@ -1,0 +1,7 @@
+NVIDIA's Vera Rubin chip: 10x reduction in AI inference costs. Late 2026.
+
+Designed specifically for agentic AI.
+
+When agents cost 10x less to run, everything that's too expensive to deploy today becomes obvious.
+
+Build now.

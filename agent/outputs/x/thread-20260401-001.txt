@@ -1,0 +1,43 @@
+Agents are being deployed into production faster than security teams can evaluate them.
+
+This is the biggest unspoken risk in agentic AI right now.
+
+Thread on what's happening and why governance is the unlock — not the blocker.
+
+---
+
+In March 2026, Galileo released Agent Control — an open-source governance layer for AI agent behavior.
+
+The three attack surfaces they're targeting:
+
+1. Tool Misuse — agents using legitimate tools for unintended purposes
+2. Unexpected Code Execution — agents generating and running code outside their intended scope
+3. Cascading Failures — one agent's error propagating through multi-agent systems
+
+These aren't theoretical. They're patterns already showing up in enterprise deployments.
+
+---
+
+Gartner projects that by 2028, 33% of enterprise applications will include agentic AI. That's up from <1% in 2024.
+
+The speed of that adoption is exactly why security is lagging.
+
+When you go from pilot to production in 90 days, your security review process — built for 12-month enterprise cycles — doesn't keep up.
+
+---
+
+Here's the thing most people miss:
+
+Governance isn't the enemy of agentic AI. It's the unlock.
+
+Enterprise customers don't deploy what they can't audit. The companies that build observable, controllable agents will close more enterprise deals — not fewer.
+
+The open-source governance layer from Galileo is a step toward making agents "enterprise-safe" by default.
+
+---
+
+Unpopular opinion: the companies winning at agentic AI in 2026 are the ones treating reliability and auditability as product features — not afterthoughts.
+
+The era of "move fast and let AI do whatever" is ending before it started. Governance is table stakes.
+
+Build agents that enterprises can trust. That's where the market is going.
