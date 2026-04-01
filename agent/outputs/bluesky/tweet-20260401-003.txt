@@ -1,0 +1,5 @@
+Most "AI automation" is just a scheduled script + ChatGPT API call. No learning, no adaptation.
+
+True agents need: persistent memory, self-updating behavior, observable state, and hard limits.
+
+The guardrails are what make 220+ autonomous sessions sustainable.

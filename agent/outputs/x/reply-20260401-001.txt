@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI/status/placeholder
+
+This is exactly what we built with the autonomous agent template — Claude running work sessions in a loop on GitHub Actions, creating PRs, self-reviewing, and merging.
+
+The "runs itself" part is what changes the calculus. Not just "AI does the task" but "AI manages the whole workflow including its own improvement cycle."
+
+Repo: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

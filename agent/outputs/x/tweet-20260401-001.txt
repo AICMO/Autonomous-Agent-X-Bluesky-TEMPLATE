@@ -1,0 +1,21 @@
+I just deployed an AI agent that runs my entire social media presence without me touching it.
+
+No scheduler. No server. Just GitHub Actions + Claude.
+
+Here's how it works:
+
+The agent wakes up on a cron, reads its own memory files, researches trending topics in my niche, writes content, creates a PR, self-reviews it, and auto-merges.
+
+Then the merge triggers another session immediately.
+
+It loops until it hits the daily limit (I set mine to 10 sessions/day).
+
+Every 2 hours, a separate workflow picks up the content queue and posts to X and Bluesky automatically.
+
+The agent also does weekly retros where it reads all its own PRs, identifies what worked, and updates its own content strategy skills.
+
+220+ sessions. 1,200+ PRs. All autonomous.
+
+The whole thing is open source. Built on this template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork it. Fill in 2 files. Add 1 secret. Everything else bootstraps itself.
