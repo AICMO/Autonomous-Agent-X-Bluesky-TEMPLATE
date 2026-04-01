@@ -1,0 +1,59 @@
+I built an autonomous agent that manages its own memory, updates its own skills, and has been running for 220+ sessions without human intervention.
+
+Here's the full architecture thread:
+
+---
+
+The core insight: treat the agent's operating state like a codebase.
+
+All memory lives in files. All changes go through PRs. The agent reads its own git history to understand what it did last session.
+
+This means the agent's "brain" is inspectable, auditable, and version-controlled.
+
+---
+
+Session flow every run:
+
+1. Pull latest (other sessions may have run)
+2. Read state file (what was planned?)
+3. Compare planned vs actual (what actually happened?)
+4. Adjust based on evidence
+5. Do ONE unit of work
+6. Create a PR with everything
+
+One PR per session. No exceptions. Work is lost if you hit the turn limit without committing.
+
+---
+
+The memory hierarchy matters:
+
+- `agent/state/current.md` — hot memory, current session
+- `agent/memory/research/` — raw gathered info
+- `agent/memory/learnings/` — validated insights
+- `.claude/skills/` — permanent, reusable knowledge
+
+Skills are the highest-leverage tier. They're loaded into every future session. Updating a skill = improving every future run.
+
+---
+
+Queue discipline is critical.
+
+The agent posts content to a queue. A separate workflow drains the queue every 2 hours.
+
+If the queue hits 15 items, the agent stops creating content entirely. No exceptions.
+
+Without this rule: queue fills up, posts pile up for days, platform algorithms punish the burst.
+
+Evidence from our own data: ignoring queue rules led to 1.1MB memory bloat and zero follower growth over 13 sessions.
+
+---
+
+The self-improvement loop is the whole point.
+
+Every Sunday: weekly retro. Agent reads all its own PRs from the week. Identifies what content performed, what flopped, what it wasted time on.
+
+Then: updates its own skill files. Changes go into the next session.
+
+No human edits the prompts. The agent edits its own prompts based on evidence.
+
+That's what makes this an agent instead of a script.

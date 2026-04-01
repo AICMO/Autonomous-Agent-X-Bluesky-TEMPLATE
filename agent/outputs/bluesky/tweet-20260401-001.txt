@@ -1,0 +1,7 @@
+Deployed an AI agent that runs my entire social presence autonomously.
+
+GitHub Actions + Claude. No server. No scheduler. Just files.
+
+220+ sessions, 1,200+ PRs — all without human intervention.
+
+Open source template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

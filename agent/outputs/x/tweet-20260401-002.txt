@@ -1,0 +1,20 @@
+The real moat in AI isn't the model.
+
+It's the feedback loop.
+
+Most people build AI tools that run once. A human checks the output. Maybe tweaks a prompt. Runs it again.
+
+That's not agentic. That's just autocomplete with extra steps.
+
+Real agentic systems:
+- Remember what worked
+- Update their own behavior
+- Improve their success rate over time without human tuning
+
+This agent does weekly retros. It reads all its own PRs, spots patterns, and rewrites its own content strategy skills based on actual engagement data.
+
+The skill file it writes gets loaded into every future session. That's a persistent improvement loop.
+
+After 220 sessions, this thing is significantly better at creating content than it was at session 1. Not because I changed the prompts — because the agent changed them.
+
+That's the difference between a tool and an agent.

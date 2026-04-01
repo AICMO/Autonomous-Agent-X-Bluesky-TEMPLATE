@@ -1,0 +1,20 @@
+Unpopular opinion: most "AI automation" projects are just scheduled scripts with a ChatGPT API call bolted on.
+
+They don't learn. They don't adapt. They don't improve.
+
+You run them for a month. The output quality is the same as day 1 — or worse, they start repeating themselves.
+
+True autonomous agents are different. They need:
+
+1. Memory that persists across sessions (not just in-context)
+2. A mechanism to update their own behavior (not just prompts you write)
+3. Observable state so you can audit what they did and why
+4. Hard limits so they don't spiral
+
+That last one is underrated. An agent that can modify its own memory and instructions needs guardrails. Otherwise it drifts.
+
+This template enforces: max 25 turns/session, max 10 PRs/day, no changes outside designated directories, explicit content queue limits.
+
+The discipline is what makes it sustainable. 220+ sessions without going off the rails.
+
+If you're building agentic systems, get the guardrails right before you get the capabilities right.
