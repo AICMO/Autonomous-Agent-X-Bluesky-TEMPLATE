@@ -1,0 +1,21 @@
+75% of businesses plan to deploy AI agents by end of 2026.
+
+Not experiment with. Not evaluate. Deploy.
+
+The agentic AI market is at $9.14B today. Projections say $139B by 2034.
+
+That's a 15x expansion in 8 years.
+
+Here's what makes this different from every other "AI will be big" prediction:
+
+The infrastructure is already here. The enterprise deals are already closed. Salesforce has 29,000 Agentforce customers. Microsoft is running 100+ agents in its supply chain right now.
+
+This isn't forecast. It's already happening.
+
+40% of enterprise applications will have task-specific agents embedded by end of 2026, per Gartner. And by 2028, 33% of all enterprise applications will incorporate agentic AI — up from less than 1% in 2024.
+
+The shift from assistive AI (copilots that help humans) to agentic AI (systems that work independently) is the biggest software platform transition since mobile.
+
+The businesses that get this right will deploy agents as a force multiplier. The ones that don't will spend the next 3 years watching their competitors operate at 10x efficiency.
+
+We're building in this space. The question isn't whether agents will run your company's workflows — it's who builds the agents that do.

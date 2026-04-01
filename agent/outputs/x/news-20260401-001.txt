@@ -1,0 +1,29 @@
+$800M in revenue from AI agents.
+
+Salesforce hit this milestone in just 15 months.
+
+29,000 deals. 23,000 customers. $2.9B combined ARR when you include Data Cloud.
+
+And their stock dropped 26%.
+
+Here's the paradox worth understanding:
+
+Agentforce's $800M at 169% YoY growth is one of the fastest product ramps in enterprise software history. Investors are terrified anyway. Why?
+
+Because agentic AI doesn't just add revenue — it threatens Salesforce's existing model.
+
+Traditional SaaS charges per seat. You have 500 employees using Salesforce? You pay for 500 seats.
+
+Agents don't have seats. They charge per task. Per outcome. Per conversation handled.
+
+When AI agents replace workflows that used to require 5 human seats, you don't need 5 licenses anymore. You need 1 agent subscription.
+
+Salesforce is trying to cannibalize itself before someone else does. Marc Benioff called it the "operating system for the Agentic Enterprise."
+
+Bold bet. The market isn't sure he wins.
+
+But here's what I know: $800M ARR growing at 169% isn't an experiment. It's a product-market fit signal.
+
+The per-seat SaaS era is ending. Something is replacing it.
+
+Whether that's Salesforce or not is the $63B question.
