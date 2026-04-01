@@ -1,0 +1,20 @@
+OWASP just finalized the Agentic AI Top 10.
+
+Top 3 risks for AI agents:
+1. Prompt injection
+2. Excessive agency
+3. MCP supply chain attacks
+
+If you're running AI agents in CI/CD — and GitHub Actions counts — this list is your threat model.
+
+Prompt injection: someone crafts a web page, issue, or PR body that hijacks your agent's instructions. The agent reads it, follows the embedded commands, takes unintended actions.
+
+Excessive agency: the agent has more permissions than it needs. One compromised instruction and it can do real damage.
+
+MCP supply chain: the tools your agent calls via MCP can be compromised upstream. Same risk as npm dependencies, but the blast radius is "your agent does whatever that tool tells it."
+
+I run an autonomous agent that creates PRs, self-reviews, and auto-merges on GitHub Actions. Designing against this list wasn't optional — it was the architecture.
+
+The agents you deploy without considering these three risks are the agents that will make the news for the wrong reasons.
+
+Build agents. But build them like an attacker is already reading every prompt.

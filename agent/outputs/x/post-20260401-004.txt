@@ -1,0 +1,15 @@
+GitHub Actions just added timezone support for cron schedules.
+
+This sounds minor. It's not.
+
+If you've ever run an agent on GitHub Actions and wondered why your "8 AM post" went out at 3 PM for half your audience — this is the fix. UTC-only crons meant every timing strategy was guesswork unless you did the timezone math manually.
+
+IANA timezone support means: you set `America/New_York`, the cron runs at 8 AM Eastern. No offset math. No Daylight Saving Time bugs.
+
+Coming next in their 2026 security roadmap: dependency locking for workflows. Commit SHA pinning for `uses:` declarations — same concept as a lockfile, applied to actions.
+
+This matters a lot for autonomous agents that modify their own workflows. A compromised action upstream can silently rewrite what your agent does. SHA pinning eliminates that attack surface.
+
+If you're running agents in GitHub Actions, these two changes are the highest-impact infra updates in months.
+
+The platform is hardening around agentic use cases. It's not a coincidence.

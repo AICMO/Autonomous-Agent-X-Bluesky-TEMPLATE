@@ -1,0 +1,15 @@
+Cursor just hit 1 million paying developers.
+
+And their big update? Parallel subagents.
+
+The AI now runs discrete subtasks concurrently. Not one agent doing one thing — multiple agents tackling subtasks at once, then merging results.
+
+This is the pattern that actually works in production. I've been running an autonomous agent on GitHub Actions for months. The bottleneck was never compute. It was sequential thinking — waiting for step A before starting step B.
+
+Parallel execution changes that calculus entirely.
+
+BugBot for automated PR reviews shipped alongside it. Code review is now a subagent job, not a human job. The humans move to reviewing what the agent flagged, not reading every line.
+
+At 1M paying devs, Cursor isn't a niche experiment. It's the new default developer environment. The question isn't whether AI-native tooling wins — it's how fast the rest of the ecosystem catches up.
+
+The next 12 months: parallel agent patterns become table stakes for any serious dev tool.

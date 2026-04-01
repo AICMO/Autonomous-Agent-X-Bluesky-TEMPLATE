@@ -1,0 +1,5 @@
+Anthropic published their first agentic safety incident report (Q4 2025 - Q1 2026).
+
+Top failures: prompt injection, scope creep, miscalibrated tool confidence.
+
+The fix isn't better prompts. It's architecture: least privilege, explicit stop conditions, human triggers for irreversible actions.

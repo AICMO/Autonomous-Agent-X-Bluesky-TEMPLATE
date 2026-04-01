@@ -1,0 +1,5 @@
+Cursor hit 1M paying devs. Their big update: parallel subagents running discrete tasks concurrently.
+
+This is the pattern that works in production. Sequential AI is the old model. Parallel agents are the new default.
+
+BugBot for automated PR reviews shipped too. Code review is now an agent job.

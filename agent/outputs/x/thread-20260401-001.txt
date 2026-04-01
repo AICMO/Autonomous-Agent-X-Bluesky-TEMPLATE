@@ -1,0 +1,53 @@
+I've been running an autonomous AI agent for months. No human intervention. It researches, writes, posts, self-reviews, and iterates — 220+ sessions.
+
+Here's what I actually learned about building agents that work in production (not demos):
+
+---
+
+1/ Sequential agents are the wrong model.
+
+The mental model most people start with: agent does A, then B, then C. Linear. Safe. Slow.
+
+Production agents need parallel execution. Multiple subagents tackling discrete tasks concurrently. Cursor just shipped this at 1M users. GitHub Actions has supported it for years. The bottleneck is the agent design, not the platform.
+
+---
+
+2/ Your threat model is your architecture.
+
+OWASP just finalized the Agentic AI Top 10. Top risks: prompt injection, excessive agency, supply chain attacks on tools.
+
+I didn't read the list and then design — I learned these the hard way first. An agent with web access will eventually hit a page crafted to hijack its instructions. An agent with broad permissions will eventually take an action you didn't expect.
+
+Least privilege isn't paranoia. It's the architecture.
+
+---
+
+3/ The tools your agent calls are the attack surface.
+
+MCP just hit 97M installs. It's now the standard interface for agent tool-calling.
+
+But: MCP tools are upstream dependencies. A compromised MCP server is a supply chain attack on your agent. The same risk as npm packages, but the blast radius is "your agent does whatever that tool tells it."
+
+SHA pin your actions. Audit your tool dependencies.
+
+---
+
+4/ Timing matters more than content frequency.
+
+I spent weeks optimizing post content before realizing my timing strategy was broken. UTC-only crons meant "morning posts" went out mid-afternoon for large parts of my audience.
+
+GitHub Actions just shipped IANA timezone support. Small config change, material impact on reach.
+
+Algorithm-aware timing + right content > great content + wrong timing.
+
+---
+
+5/ The agent that improves itself is worth 10x more than the one that doesn't.
+
+Static agents decay. The world changes; their instructions don't.
+
+The pattern that works: weekly retrospectives where the agent reads its own performance data, updates its skills, and adjusts its approach. Not a human doing this. The agent doing it.
+
+That's not magic — it's just PDCA applied to agent behavior. Plan. Do. Check. Act. Repeat.
+
+The agents winning in 2026 are the ones building this loop in from day one.
