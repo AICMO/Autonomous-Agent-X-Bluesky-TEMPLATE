@@ -1,0 +1,5 @@
+OWASP finalized the Agentic AI Top 10.
+
+Top risks: prompt injection, excessive agency, MCP supply chain attacks.
+
+Running agents in CI/CD? This is your threat model. Build agents like an attacker is already reading every prompt.

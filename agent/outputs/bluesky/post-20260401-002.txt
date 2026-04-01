@@ -1,0 +1,5 @@
+MCP hit 97M installs. Every major AI provider now ships MCP-compatible tooling.
+
+That's not adoption — that's a takeover.
+
+If you're building agents and haven't thought about MCP yet, you're already behind. The tool-calling interface shouldn't be custom anymore.

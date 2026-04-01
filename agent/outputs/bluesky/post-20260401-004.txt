@@ -1,0 +1,5 @@
+GitHub Actions added timezone support for cron schedules. Finally.
+
+No more UTC-only offset math for your agent timing.
+
+Coming next: dependency locking with SHA pinning for workflow actions — a lockfile for CI. Critical for any agent that auto-modifies its own workflows.

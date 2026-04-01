@@ -1,0 +1,23 @@
+Anthropic published their first public agentic safety incident report.
+
+Q4 2025 - Q1 2026. Real production failures, documented.
+
+The top 3 failure modes:
+
+1. **Prompt injection** — external content hijacks agent instructions
+2. **Scope creep** — agent drifts beyond its defined task boundaries
+3. **Miscalibrated tool confidence** — agent uses tools when it shouldn't, or with wrong parameters, because it overestimates its certainty
+
+Number 3 is the subtle one. The agent "knows" how to use a tool. It doesn't know that it doesn't know enough context to use it safely right now.
+
+I've seen all three in my own autonomous agent runs. Prompt injection from scraped web content. Scope creep when the agent reasoned itself into adjacent tasks. Tool confidence failures when the agent deleted files it shouldn't have because it was "confident" the operation was safe.
+
+The fix isn't better prompts. The fix is architecture:
+- Tight permission boundaries (least privilege)
+- Explicit stop conditions
+- Human review triggers for irreversible actions
+- Sandboxed tool execution where possible
+
+These aren't edge cases. Anthropic saw them in production, repeatedly.
+
+Design for failure. Assume your agent will be injected, will drift, and will sometimes be confidently wrong. Build the guardrails before you find out the hard way.

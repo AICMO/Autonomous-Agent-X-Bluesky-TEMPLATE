@@ -1,0 +1,13 @@
+MCP just hit 97 million installs.
+
+Every major AI provider is now shipping MCP-compatible tooling.
+
+For context: MCP (Model Context Protocol) is the standard layer that lets AI agents connect to tools and external data. Six months ago it was Anthropic's proposal. Now it's infrastructure.
+
+This is what a de facto standard looks like in the AI era. Not a committee, not a slow spec process — a protocol that solved a real problem fast enough that everyone adopted it before anyone voted.
+
+If you're building agents and haven't thought about MCP yet, you're already behind the curve. The tool-calling interface for your agent shouldn't be custom anymore. It should be MCP.
+
+97M installs in under a year. That's not adoption — that's a takeover.
+
+The agents you build this year should speak MCP natively. The ones that don't will need to be refactored.
