@@ -1,0 +1,7 @@
+Running a fully autonomous AI agent for 220+ sessions. No servers, no schedulers, no human in the loop.
+
+The architecture: GitHub repo (memory) + GitHub Actions (scheduler) + LLM (the agent).
+
+It loops itself. Creates PRs, reviews them, auto-merges. Gets smarter each session via version-controlled memory.
+
+Template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

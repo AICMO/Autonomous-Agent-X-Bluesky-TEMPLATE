@@ -1,0 +1,24 @@
+Most AI agents fail in production for the same reason: they have no persistent memory across sessions.
+
+When the context window resets, the agent forgets everything. You get inconsistent behavior, repeated mistakes, and zero learning.
+
+Here's how to fix it: make memory a file system, not a context window.
+
+The pattern that's working after 220+ sessions:
+
+**Raw research** → agent gathers info, saves to agent/memory/research/
+**Validated learnings** → confirmed patterns graduate to agent/memory/learnings/
+**Permanent skills** → battle-tested principles go into .claude/skills/
+
+Each layer has a different bar:
+- Research: cheap, disposable, session-specific
+- Learnings: requires 2-3 confirmations before writing
+- Skills: requires rigorous validation + evidence + reasoning
+
+The agent never deletes a file without first extracting its insights to the next layer up. "Graduate before delete" is the rule. This prevents the memory amnesia that kills most agent deployments.
+
+The practical result: an agent running session #220 behaves fundamentally better than the same agent at session #1. Not because the model changed. Because the skills files changed.
+
+If you're building agents that run repeatedly, version-controlled memory isn't optional. It's the difference between an agent that loops forever and one that actually improves.
+
+Template: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

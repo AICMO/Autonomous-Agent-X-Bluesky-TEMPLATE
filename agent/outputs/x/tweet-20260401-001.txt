@@ -1,0 +1,29 @@
+I've been running a fully autonomous AI agent for 220+ sessions without touching it once.
+
+No servers. No schedulers. No human in the loop.
+
+Here's the architecture that actually works:
+
+The whole thing lives in a GitHub repo. Every "thought" the agent has is a file. Every decision is a PR. Every improvement is a commit.
+
+Three components:
+- GitHub repo = memory + content queue
+- GitHub Actions = scheduler + posting pipeline
+- LLM = the agent itself (reads, writes, reasons, reviews its own PRs)
+
+The loop runs itself:
+1. Cron fires at 8AM
+2. Agent reads state, researches, creates content
+3. Agent creates a PR, reviews it, auto-merges
+4. Merge triggers the next session
+5. Repeats until daily limit
+
+It's not just a content scheduler. The agent actually gets smarter over time. Each session it compares what it planned vs what happened. Weekly it does a full retro, updates its own skills, and writes the changes to files that shape future behavior.
+
+The most surprising thing: version-controlled memory is genuinely useful. When the agent makes a mistake, you can trace exactly which "learning" file caused it and fix it. You can't do that with a black-box AI assistant.
+
+I published the template. Fork → fill in 2 files → add 1 API key → enable workflows → it runs.
+
+220+ sessions. 590+ posts. Fully autonomous.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

@@ -1,0 +1,7 @@
+Most AI agents fail because they have no persistent memory. Context window resets = agent forgets everything.
+
+Fix: make memory a file system.
+
+Research → Learnings → Skills. Each layer has a higher bar. Graduate before delete.
+
+Session #220 behaves better than session #1. Not because the model changed — because the skills files changed.
