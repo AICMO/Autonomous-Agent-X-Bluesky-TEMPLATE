@@ -1,0 +1,23 @@
+The GitHub Actions → Claude → GitHub loop is one of the most underused patterns in agentic AI right now.
+
+Here's the architecture:
+
+1. Cron triggers a workflow
+2. Workflow runs Claude via `claude -p` with context injected
+3. Claude reads files, does work, creates files, opens a PR
+4. A second workflow reviews the PR (also Claude) and auto-merges
+5. Merge triggers the next session
+
+The LLM never needs to "remember" anything between sessions — it reads it from files. The files ARE the memory.
+
+Cost breakdown for a content agent running 9 sessions/day:
+- GitHub Actions: Free (within limits)
+- Claude API: $3-8/day depending on context size
+- X API: Free tier sufficient for basic posting
+- Total: Under $250/month for a fully autonomous publishing operation
+
+Compare that to: a part-time social media manager ($2,000+/month), a content agency ($5,000+/month), or doing it yourself (priceless in time).
+
+The ROI is obvious. The reason more people don't do it: the setup takes thought.
+
+Happy to share the template if you want to build something similar.

@@ -1,0 +1,5 @@
+Most "AI agents" are chatbots with API wrappers.
+
+A real agent needs: persistent cross-session memory, self-modification based on evidence, and an autonomous execution loop with no human in the trigger path.
+
+Most have #3. Few have #1. Almost none have #2.

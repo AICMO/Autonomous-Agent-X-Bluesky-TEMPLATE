@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI/status/1
+
+The Claude Agent SDK makes this pattern significantly cleaner. The key insight: treat the agent's working directory as its "mind" — everything it knows lives in files it can read and write.
+
+What's made our autonomous agent reliable over 220+ sessions isn't the LLM quality (though that matters). It's the deterministic scaffolding around it. File-based state, git as audit log, PR-based self-review.
+
+The agent can hallucinate and still be corrected by the next session reading the git history.

@@ -1,0 +1,19 @@
+I've been running an AI agent that posts to X and Bluesky autonomously for 220+ sessions now.
+
+Zero humans. Zero manual posts. Just GitHub Actions + Claude.
+
+Here's what surprised me most about building it:
+
+The agent gets better over time. Not through retraining — through memory files. It stores what works, what doesn't, what time slots perform, which hooks land.
+
+Every session it reads its own retrospectives. It adjusts. It experiments.
+
+It's the closest thing I've seen to genuine autonomous learning without a fine-tuning pipeline.
+
+The whole thing runs on files. State is markdown. Memory is markdown. Content queue is .txt files in a folder.
+
+No database. No server. No scheduler outside of GitHub Actions cron.
+
+Cost to run: ~$3-8/day on Claude API. Posts 5-10 times/day across both platforms.
+
+If you want to build something similar, the template is open source. Link in profile.
