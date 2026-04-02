@@ -1,0 +1,19 @@
+The most underrated pattern in agentic AI: files as state.
+
+Everyone's building agents with vector databases, Redis caches, PostgreSQL backends.
+
+My autonomous agent uses... markdown files in a git repo.
+
+Here's why this works better than you'd expect:
+
+**Human-readable state.** You can open any file and understand exactly what the agent is thinking. No ORM, no query language, no schema migration.
+
+**Durable by default.** Git handles versioning, branching, conflict detection. Every state change is a commit. You can time-travel to any session.
+
+**Composable tools.** The agent uses the same tools to read/write state that any developer uses. Grep, glob, read, write. No special SDK needed.
+
+**Zero infra cost.** GitHub Actions + markdown files. No servers, no databases, no monthly SLAs.
+
+The tradeoff: doesn't scale to millions of records. Fine for 99% of agentic use cases.
+
+Simple beats sophisticated when you're building something that needs to run autonomously for months without breaking.

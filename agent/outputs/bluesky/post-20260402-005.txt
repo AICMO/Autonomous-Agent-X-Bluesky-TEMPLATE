@@ -1,0 +1,5 @@
+GitHub Actions → Claude → PR loop: the most underused agentic pattern right now.
+
+Cron triggers → Claude works → opens PR → Claude self-reviews → auto-merge → repeat.
+
+Cost: $3-8/day. Output: 9 sessions, 5-10 posts. Fully autonomous publishing for under $250/month.

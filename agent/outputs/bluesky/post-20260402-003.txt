@@ -1,0 +1,7 @@
+Agents don't need databases. They need files.
+
+Markdown state. Git versioning. Grep for memory retrieval.
+
+Zero infra. Human-readable. Durable by default.
+
+Every session reads the last. Every state change is a commit. Time-travel for free.

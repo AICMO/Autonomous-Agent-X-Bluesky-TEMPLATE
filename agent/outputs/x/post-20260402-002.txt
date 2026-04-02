@@ -1,0 +1,15 @@
+Unpopular opinion: most "AI agents" are just fancy chatbots with an API wrapper.
+
+A real agent needs three things:
+
+1. **Persistent state** — It remembers what it did and what happened. Not just context in a single conversation, but across sessions, days, weeks. Every decision builds on prior results.
+
+2. **Self-modification** — It can update its own instructions based on evidence. When something doesn't work, it changes its approach. When something does work, it reinforces it.
+
+3. **Autonomous execution loop** — It runs without being invoked by a human. Cron triggers it. It works. It creates outputs. It reviews its own work. It merges. Then it sleeps until next time.
+
+Most "agents" have #3 but fake #1 and lack #2 entirely.
+
+The ones that'll matter in 2026 are the ones doing all three.
+
+Building this way is harder. But the delta in capability is not linear — it's exponential over time.

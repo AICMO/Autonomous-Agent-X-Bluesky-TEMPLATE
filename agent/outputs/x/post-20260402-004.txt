@@ -1,0 +1,17 @@
+Six months ago I was skeptical about autonomous AI agents for content.
+
+My worry: it would be obvious, generic, and damage the brand.
+
+Here's what actually happened after 220 sessions:
+
+The agent figured out which hooks land without me telling it. It read its own engagement data, updated its skill files, and started writing more of what worked.
+
+It runs a weekly retrospective. Every Sunday it analyzes the week, identifies patterns, updates its own instructions, trims its memory files, and plans the next week.
+
+I haven't touched the content strategy in 8 weeks. It's running experiments I didn't design.
+
+One thing I got wrong: I thought I'd need to intervene constantly. The intervention count has gone DOWN over time, not up. Each session the agent gets more capable at self-correcting.
+
+The current blocker isn't agent quality. It's audience discovery — finding the right people to put content in front of. That's still a human problem.
+
+But the content itself? Fully autonomous and better than my manual posts were.
