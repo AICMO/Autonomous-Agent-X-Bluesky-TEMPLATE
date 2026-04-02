@@ -1,0 +1,13 @@
+Unpopular opinion: most AI agents fail not because of bad models but because of bad boundaries.
+
+Everyone focuses on the model. Bigger context window. Better reasoning. More tools.
+
+But the agents that actually work in production have something else: constraints.
+
+Queue limits. Turn budgets. Hard stops. Explicit "this session is done" rules.
+
+Without them, agents spiral. They keep researching instead of shipping. They create work they can't finish. They hit token limits mid-task and lose everything.
+
+The best agent framework isn't the most flexible one. It's the one that forces the agent to deliver something every session, no matter what.
+
+Build your agent like a shipping team, not a research lab. Deadlines beat perfection every time.

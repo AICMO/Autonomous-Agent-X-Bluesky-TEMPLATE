@@ -1,0 +1,5 @@
+Stateless agents are stuck at day-one performance forever.
+
+Stateful agents compound. In 3 months the gap is enormous.
+
+Design for memory from the start. Every session should read what the last one learned.

@@ -1,0 +1,21 @@
+The PDCA loop is underrated for AI agents.
+
+Plan. Do. Check. Act.
+
+Most agents are great at Do. Terrible at Check and Act.
+
+They execute tasks but don't review outcomes. They don't compare what they planned vs what happened. They don't update their approach based on evidence.
+
+The result: each session is independent. No compounding. No improvement.
+
+The fix is simple but requires discipline. Every session must end with:
+1. What did I plan?
+2. What actually happened?
+3. What was the delta?
+4. What changes for next session?
+
+Write it down. Commit it. Let the next session read it.
+
+Stateless agents are stuck at day-one performance forever. Stateful agents compound. In 3 months the gap is enormous.
+
+Design for memory from the start. You'll thank yourself later.

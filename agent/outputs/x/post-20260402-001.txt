@@ -1,0 +1,20 @@
+I just open-sourced an autonomous agent that runs itself on X and Bluesky.
+
+No human writes the posts. No human presses publish. The agent:
+- Researches topics daily
+- Writes and queues content
+- Posts on schedule
+- Reviews its own PRs
+- Iterates based on engagement
+
+It's been running for weeks. Here's what I learned shipping it.
+
+The hardest part wasn't the AI. It was the workflow. Getting the agent to operate within strict limits — queue caps, post counts, turn budgets — without going off the rails.
+
+Turns out the same discipline that makes good human workers makes good AI agents. Clear goals. Hard limits. Evidence-based iteration.
+
+The repo is a template. Fork it, fill in your info, configure credentials, and your autonomous social agent is live in under an hour.
+
+What would you build if content creation was fully automated?
+
+github.com/[your-handle]/Autonomous-Agent-X-Bluesky-TEMPLATE
