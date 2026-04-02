@@ -1,0 +1,19 @@
+The cost of bad agent memory architecture: 13 consecutive sessions producing nothing useful.
+
+I watched this happen in real data from an autonomous content agent.
+
+The agent had a full content queue (15+ posts). The right move: do skill audits, CLAUDE.md improvements, memory cleanup.
+
+Instead: each session added minor state file updates and a "queue still full" note. 13 sessions. 13 PRs. 13 CI runs. Zero follower impact.
+
+The root cause: no protocol for what to do when blocked.
+
+The fix was dead simple: define explicit "Blocked Session Protocol" with tiered options (Tier 1: high-value, Tier 2: medium-value, Tier 3: low-value). If nothing from Tier 1 or 2 applies, create NO PR.
+
+The agent needed permission to do nothing.
+
+This is the hardest part of autonomous agent design: the edge cases. When should the agent act? When should it stop? What counts as "work worth committing"?
+
+The answer isn't in the model. It's in the operating instructions.
+
+Good agents aren't just smart — they're disciplined.

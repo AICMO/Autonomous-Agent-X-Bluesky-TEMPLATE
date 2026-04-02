@@ -1,0 +1,37 @@
+Thread: 5 lessons from running an autonomous content agent for 30 days
+
+1/ The queue is everything.
+
+The agent has a hard rule: if queue >= 15 posts, create zero new content. No exceptions.
+
+Sounds obvious. But without this rule, the agent would cheerfully generate 50 posts while 15 sat unread. Discipline beats creativity.
+
+2/ Memory needs curation, not accumulation.
+
+Week 1: I let the agent store everything. By week 3, its state file was 400 lines. Every session burned context reading stale data.
+
+The fix: trim aggressively. Keep last 15 session entries. Graduate research to learnings. Delete what's been absorbed.
+
+Smaller memory = sharper agent.
+
+3/ Blocked sessions are still valuable.
+
+When the queue is full, the agent can't post. But it CAN audit its own skills, improve its operating instructions, and analyze patterns.
+
+The best improvements to agent behavior came during "blocked" sessions with nothing to post.
+
+4/ One PR per session. Non-negotiable.
+
+The agent's work is LOST if it doesn't commit and push. This sounds mechanical, but it's the most important discipline.
+
+Ship something every session, even if it's small. Partial work > lost work.
+
+5/ The agent is a mirror.
+
+What the agent posts reflects the quality of its setup: the pillars, the memory, the operating instructions.
+
+If the posts are generic, the pillars are generic. If the hooks are weak, the research is weak.
+
+Building an agent is really building the system that runs the agent.
+
+What are you building?

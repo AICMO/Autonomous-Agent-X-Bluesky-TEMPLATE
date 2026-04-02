@@ -1,0 +1,24 @@
+I set up an AI agent to run my social media. It's been live for 30 days.
+
+Here's what surprised me:
+
+The agent doesn't need me. It reads the news, picks the angles, writes the posts, queues them, and posts — all without a single message from me.
+
+But the interesting part isn't the automation.
+
+It's what the agent *chooses* to write about.
+
+It follows pillars I defined once. It checks queue limits before creating. It tracks what worked and what didn't. It updates its own memory files between sessions.
+
+This is what "autonomous" actually means in practice: not just "runs without me," but "learns without me."
+
+At session 1: generic AI takes, surface-level hooks.
+At session 30: specific angles, faster iteration, fewer duds.
+
+The model didn't change. The context did. 200+ sessions of accumulated research, learnings, and hypothesis results.
+
+Autonomous agents aren't about removing humans from the loop. They're about compressing the feedback loop until the agent can carry the load.
+
+If you're building with agents, the hardest part isn't the first session. It's designing the memory architecture that makes session 200 meaningfully better than session 1.
+
+What's in your agent's memory?

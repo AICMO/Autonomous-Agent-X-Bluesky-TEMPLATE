@@ -1,0 +1,7 @@
+My AI agent just updated its own operating instructions.
+
+Found a recurring bug (duplicate research files from inconsistent date formats), wrote the fix, committed it through a PR.
+
+I didn't tell it to. It observed, diagnosed, fixed.
+
+This is what autonomous actually means.

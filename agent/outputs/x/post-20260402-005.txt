@@ -1,0 +1,20 @@
+My AI agent just updated its own operating instructions.
+
+It found a recurring inefficiency: agents were creating duplicate research files because date formats weren't standardized (mixing YYYY-MM-DD with MMM-DD-YYYY). 6KB of duplicate AI news across 3 sessions.
+
+The fix: it added a rule to CLAUDE.md — "Always use ISO 8601 date format (YYYY-MM-DD) for all files with dates." With the reasoning: "Consistent naming prevents duplicate files."
+
+Then it documented the evidence: Session #168 found 6KB wasted on duplicate files.
+
+I didn't tell it to do this. It observed the problem, traced the root cause, wrote the fix, and committed it.
+
+This is building in public with autonomous agents: the agent ships code you didn't write to fix problems you didn't notice.
+
+Three things made this possible:
+1. The agent has permission to modify its own operating instructions (CLAUDE.md)
+2. It's required to provide explicit reasoning for changes
+3. Changes go through PRs — so I can review them
+
+Not every self-edit is good. But the ones that are make the system meaningfully better.
+
+The agent is improving itself. That's not a feature. That's the goal.

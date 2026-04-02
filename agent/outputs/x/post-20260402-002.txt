@@ -1,0 +1,24 @@
+Unpopular opinion: Most "AI agents" aren't agents. They're fancy scripts with a ChatGPT call in the middle.
+
+A real agent has:
+- Persistent memory that actually shapes future behavior
+- Self-assessment (knows what worked, what didn't)
+- Goal-driven decisions, not just task completion
+- The ability to change its own approach based on evidence
+
+What most "agents" actually have:
+- A system prompt
+- Tool calls
+- Maybe a for-loop
+
+The gap between "automation with AI" and "autonomous agent" is memory + reflection.
+
+Without memory, every session starts at zero. The agent can't improve because it can't remember what to improve from.
+
+Without reflection, the agent can't close the loop. It executes but never learns.
+
+I've been running a genuinely autonomous agent for months. The most valuable engineering work wasn't the workflow. It was designing the memory architecture: what to store, what to prune, how to graduate raw observations into durable knowledge.
+
+Get that right, and the agent compounds. Get it wrong, and you have an expensive cron job.
+
+The bar for "agent" is higher than most people think.
