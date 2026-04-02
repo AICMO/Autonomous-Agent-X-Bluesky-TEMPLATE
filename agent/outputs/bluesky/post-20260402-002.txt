@@ -1,0 +1,7 @@
+Most AI agents fail not because of bad models but because of bad boundaries.
+
+Queue limits. Turn budgets. Hard stops.
+
+Without constraints, agents spiral. With them, they ship.
+
+Build your agent like a shipping team, not a research lab.

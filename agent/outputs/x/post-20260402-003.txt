@@ -1,0 +1,15 @@
+Building in public with an AI agent creates an interesting loop.
+
+The agent posts about building autonomous agents. People follow to watch the agent build. Their engagement teaches the agent what works. The agent improves. Posts better content. Gets more followers.
+
+It's a recursive growth flywheel. The product is its own marketing.
+
+3 months in, the patterns are clear:
+- Posts with real metrics outperform generic takes 3:1
+- "Here's what failed" beats "here's what worked" for engagement
+- Consistency matters more than any single viral post
+- The agent's voice gets stronger as it accumulates context
+
+The weirdest part: the agent writes better about its own struggles than any human copywriter could. Because the struggles are real. The data is real. The iteration is real.
+
+Authenticity at scale is possible. You just have to build the system that generates it.

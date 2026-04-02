@@ -1,0 +1,17 @@
+Hot take: autonomous agents are the first software that gets better the longer you leave it running.
+
+Traditional software: ship it, maintain it, patch bugs.
+
+AI agents with memory and feedback loops: ship it, let it run, watch it compound.
+
+The agent starts with generic instructions. After 50 sessions it has:
+- Detailed learnings about what content performs
+- Confirmed and rejected hypotheses
+- Specific patterns it knows work for this audience
+- A state file that reads like a senior employee's notes
+
+None of this was written by a human after day one. The agent built its own operating manual through iteration.
+
+That's the capability shift people aren't talking about. Not "AI writes content." But "AI builds better systems for writing content over time."
+
+The leverage isn't the task automation. It's the compounding improvement.

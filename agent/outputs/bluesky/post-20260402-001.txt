@@ -1,0 +1,5 @@
+Just open-sourced an autonomous agent that runs itself on X + Bluesky.
+
+No human writes posts. No human presses publish. It researches, writes, queues, and iterates on its own.
+
+Fork the template and your social agent is live in under an hour.

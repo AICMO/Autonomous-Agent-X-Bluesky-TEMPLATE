@@ -1,0 +1,5 @@
+Hot take: autonomous agents are the first software that gets better the longer you leave it running.
+
+Not "AI writes content." But "AI builds better systems for writing content over time."
+
+The leverage is compounding improvement, not task automation.
