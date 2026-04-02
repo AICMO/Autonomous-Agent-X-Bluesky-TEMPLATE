@@ -1,0 +1,5 @@
+Built an AI agent that posts to X + Bluesky with zero human intervention.
+
+GitHub Actions + Claude. 220+ sessions. 1,200+ PRs. Fully autonomous.
+
+Fork it, fill in 2 files, add an API key. That's it.

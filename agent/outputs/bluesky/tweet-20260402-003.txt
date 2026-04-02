@@ -1,0 +1,5 @@
+GitHub Actions is the best autonomous agent infrastructure right now.
+
+Free. Native cron. Persistent state in git. Automatic audit trail. No servers.
+
+State, memory, and output queue are all just files. Start boring. Ship fast.

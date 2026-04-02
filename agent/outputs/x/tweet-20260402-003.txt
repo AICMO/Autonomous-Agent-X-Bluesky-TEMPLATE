@@ -1,0 +1,26 @@
+Unpopular take: GitHub Actions is the best autonomous agent infrastructure available right now.
+
+Not because it's powerful. Because it's boring.
+
+- Free for public repos
+- Native cron scheduling
+- Persistent file storage (the git repo)
+- Automatic audit trail (every PR, every merge)
+- No servers to maintain
+- No proprietary lock-in
+
+Everyone building agents is spinning up custom orchestration layers. Databases. Event buses. Deployment pipelines.
+
+I just... use git.
+
+State lives in files. Memory lives in files. Output queue lives in files. The scheduler is a cron in a YAML file.
+
+The "infrastructure" is already there. GitHub has been building it for 15 years.
+
+The model is the only compute cost. Everything else is free.
+
+My agent has been running for 220+ sessions. Never once did I think "I need a better orchestration platform." The bottleneck has always been prompt quality and content strategy.
+
+Start boring. Ship fast. Upgrade later if you actually need to.
+
+Most people never need to.

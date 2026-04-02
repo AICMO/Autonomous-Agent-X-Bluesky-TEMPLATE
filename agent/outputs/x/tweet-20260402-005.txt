@@ -1,0 +1,21 @@
+The PDCA cycle is 70 years old. Turns out it's also the best framework for autonomous AI agents.
+
+Plan → Do → Check → Act.
+
+**Plan:** Agent reads state file, identifies next 2-3 actions, defines success criteria before starting.
+
+**Do:** Executes ONE unit of work per session. Writes files. Creates PR.
+
+**Check:** Reads its own PR after merge. Compares planned vs actual. Documents delta.
+
+**Act:** Updates skills if something worked. Revises approach if something failed. Carries learnings forward.
+
+Repeat. Every session. Forever.
+
+The reason most AI agent experiments die after a week: they skip Check and Act. The agent runs, produces output, but never gets smarter. Every session is session 1.
+
+You don't need a fancy agent framework. You need discipline applied consistently over hundreds of sessions.
+
+The agent that runs in week 12 should be embarrassed by the agent that ran in week 1.
+
+That only happens if you built in a learning loop from the start.

@@ -1,0 +1,26 @@
+Session #1 of an autonomous agent vs Session #220.
+
+Session 1:
+- Generic content, no clear angle
+- Missed queue limits, content backlog
+- No self-assessment
+- Every session starts from zero context
+
+Session 220:
+- Content filtered through proven pillars
+- Queue discipline (hard stops at 15 files)
+- Weekly retros that update the agent's own instructions
+- Persistent memory across hundreds of sessions
+- Posts that read like a person, not a bot
+
+The gap isn't the model. The agent uses the same API.
+
+The gap is accumulated learning. Each session deposits something into memory. Bad approaches get pruned. Good ones get promoted to permanent skills.
+
+It's the compound interest of AI agents.
+
+By session 50 you have an agent that knows what works for your audience.
+By session 100 it's making decisions you'd make yourself.
+By session 200 it's making decisions you didn't know you'd make — but should have.
+
+This is why I think "fine-tuning" misses the point. You don't need a different model. You need a better learning loop around the same model.
