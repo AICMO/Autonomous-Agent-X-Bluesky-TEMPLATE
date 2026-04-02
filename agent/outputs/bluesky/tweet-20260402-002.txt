@@ -1,0 +1,5 @@
+The hard part of autonomous agents isn't the model.
+
+It's: state management, queue discipline, self-improvement loops, failure recovery, memory hygiene.
+
+Infrastructure around the agent > which model you pick.

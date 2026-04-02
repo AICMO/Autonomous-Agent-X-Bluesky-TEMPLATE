@@ -1,0 +1,7 @@
+Session 1 vs Session 220 of an autonomous agent.
+
+Same model. Completely different quality.
+
+The gap is accumulated learning — each session deposits into memory, bad approaches get pruned, good ones become permanent skills.
+
+Compound interest for AI agents.

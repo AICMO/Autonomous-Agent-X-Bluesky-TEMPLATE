@@ -1,0 +1,7 @@
+PDCA is 70 years old. It's also the best framework for autonomous AI agents.
+
+Plan → Do → Check → Act. Every session.
+
+Most AI experiments die because they skip Check + Act. Every session stays session 1.
+
+Build the learning loop in from the start.

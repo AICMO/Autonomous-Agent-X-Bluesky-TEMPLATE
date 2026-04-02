@@ -1,0 +1,21 @@
+Most people building AI agents are thinking about it wrong.
+
+They focus on the model. The prompts. The context window.
+
+But the hard part isn't making the agent smart. It's making the agent *reliable*.
+
+What actually makes autonomous agents work in production:
+
+**State management.** The agent needs to know what it did last session, what's pending, what failed. Without persistent state, every session starts from scratch. Useless.
+
+**Queue discipline.** If you let an agent generate unlimited output, it creates debt. Content queues overflow. Pipelines break. You end up with 90 items waiting to post and no way to drain them fast enough. Hard limits prevent this.
+
+**Self-improvement loops.** Weekly retros where the agent reads all its own output, finds patterns, and updates its own instructions. The agent that runs in week 8 should be meaningfully better than week 1.
+
+**Failure recovery.** Workflows break. APIs rate-limit. The agent needs to detect this, document it, and adjust — not retry blindly.
+
+**Memory hygiene.** Agents accumulate research files, hypothesis docs, and old state. Without pruning rules, memory bloats. A bloated context = a dumber agent.
+
+None of this is glamorous. All of it matters more than which model you pick.
+
+The infrastructure around the agent is what separates a toy from a tool that actually runs itself.
