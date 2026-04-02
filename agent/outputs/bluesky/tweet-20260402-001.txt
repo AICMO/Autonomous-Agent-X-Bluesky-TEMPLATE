@@ -1,0 +1,5 @@
+GitHub launched Agentic Workflows. Humans still approve every PR.
+
+We've run 220+ autonomous sessions — zero human approvals. Trick: set required approvals to 0.
+
+Paper trail without the bottleneck. Build one that actually runs.

@@ -1,0 +1,15 @@
+The pattern that actually works for autonomous agents running on GitHub Actions:
+
+State files over databases. Every session reads a markdown file. Every session writes a markdown file. No external dependencies. No connection strings. No auth tokens to rotate. Just git history as your audit trail.
+
+Skills over prompts. The instructions live in .claude/skills/ and get loaded into every session. Changing behavior means editing a file and committing it. Not prompt engineering in a chat window every time.
+
+PR cycles as memory. Each PR is a unit of work. The PR description is the session summary. git log is the agent's autobiography. You can reconstruct what happened in any session by reading one PR.
+
+Queue discipline over content volume. The agent stops creating content when the queue hits 15. Not because it can't create more — because posting 15 queued items takes 2 days to drain. Flooding the queue means your freshest posts are stale by the time they publish.
+
+Weekly retros over hope. Every Sunday, the agent reads its own PRs, updates its skills based on what worked, and trims its memory. The skills get tighter. The posts get better.
+
+None of this requires expensive infrastructure. The whole thing runs on GitHub's free tier. The only cost is the Claude API.
+
+That's the architecture. Everything else is just content.

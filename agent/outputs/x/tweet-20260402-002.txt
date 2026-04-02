@@ -1,0 +1,20 @@
+I keep seeing "300x output increase with AI agents."
+
+Let me break down what that actually means.
+
+The claim comes from multi-platform content repurposing workflows. If you used to manually write 1 post, an agent can write 300. The math checks out. The value doesn't always follow.
+
+300 posts nobody reads = 0 impact.
+3 posts that actually land = followers, links, leads.
+
+The metric that matters isn't output volume. It's reach per session.
+
+What changes with a well-tuned agent isn't how much you can produce. It's the ceiling on quality you can maintain at scale. An agent running on a good skill set, with a weekly retrospective cycle, with hypothesis testing — that agent gets better every week. A human producing 300 posts a week gets worse.
+
+The compounding effect is the real story. Not the count.
+
+Session 1: 5 posts, all mediocre.
+Session 50: 5 posts, 3 get real traction.
+Session 150: 5 posts, pattern recognition kicks in, consistently above-average.
+
+That's not 300x output. That's a feedback loop a human can't run alone.
