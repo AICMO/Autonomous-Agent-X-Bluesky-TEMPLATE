@@ -1,0 +1,5 @@
+220+ agent sessions. 1,200+ PRs. $0 infrastructure cost.
+
+GitHub Actions + markdown files = complete agent infrastructure. No databases. No servers. No monthly bills.
+
+Start here. Move to dedicated infra only when you actually need it. Most teams never do.

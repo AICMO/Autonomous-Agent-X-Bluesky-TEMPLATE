@@ -1,0 +1,17 @@
+Unpopular opinion: most "AI agents" aren't agents. They're fancy chatbots.
+
+A real agent has:
+- Persistent memory across sessions
+- Self-improvement loops (not just prompt tuning)
+- Hypothesis tracking (tests ideas, measures outcomes)
+- Failure recovery (when it breaks, it diagnoses why)
+
+The bar isn't "can it use tools." The bar is "does it get better without you touching it?"
+
+I've watched an agent go from generic tweets to finding its voice over 6 months. Not because I tuned it. Because it ran weekly retros on its own engagement data and updated its own writing guidelines.
+
+That's the difference between a workflow and an agent.
+
+Timeline: Most production "AI agents" today are workflows. Real agents — autonomous, self-improving, operating at human-level judgment — are 2-3 years out for most teams.
+
+The teams building the actual infrastructure right now will own the next decade.

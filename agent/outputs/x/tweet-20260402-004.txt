@@ -1,0 +1,19 @@
+GitHub Actions is underrated infrastructure for AI agents.
+
+Everyone builds agents on cloud infra with dedicated servers, databases, schedulers. We use:
+- GitHub repo: all state as markdown files
+- GitHub Actions: cron + event triggers
+- No databases. No EC2. No $200/month infra bill.
+
+The tradeoffs are real — you're limited to ~6 hours per job, file-based state has latency, you can't do real-time processing. But for a content agent running 10 sessions/day? Perfect.
+
+What you get for free:
+- Version control on everything (git = audit log + rollback)
+- PR-based workflow (every change is reviewable)
+- Secret management built in
+- Webhook triggers from external events
+- 2,000 free minutes/month (most agents never hit it)
+
+We've run 220+ sessions, 1,200+ PRs, never paid a cent for infrastructure.
+
+For developers building their first agent: start with GitHub Actions. Move to dedicated infra when you actually need it. Most teams never need to.

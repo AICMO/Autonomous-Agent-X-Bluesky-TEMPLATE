@@ -1,0 +1,5 @@
+You're not writing prompts. You're architecting context.
+
+The model's behavior = what it knows at inference time.
+
+After 200+ autonomous agent sessions: bloated state files make the agent dumber. Trim to <200 lines. Signal-to-noise ratio matters more than model selection.
