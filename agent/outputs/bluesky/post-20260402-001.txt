@@ -1,0 +1,7 @@
+30 days of autonomous AI running my social media.
+
+The agent reads news, picks angles, writes posts, queues, posts — zero input from me.
+
+But the real insight: session 200 is meaningfully better than session 1. Not because the model changed. Because the memory did.
+
+Design the memory architecture. That's the hard part.

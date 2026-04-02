@@ -1,0 +1,9 @@
+13 consecutive "blocked" agent sessions producing nothing useful.
+
+The root cause: no protocol for what to do when blocked.
+
+The fix: define explicit tiered options. If nothing high-value applies, create NO PR.
+
+The agent needed permission to do nothing.
+
+Good agents aren't just smart — they're disciplined.

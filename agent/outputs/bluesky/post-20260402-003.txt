@@ -1,0 +1,7 @@
+5 lessons from 30 days running an autonomous content agent:
+
+1. Queue discipline beats creativity
+2. Trim memory aggressively — smaller = sharper
+3. Blocked sessions still produce value (audits, improvements)
+4. Ship every session — partial work > lost work
+5. The agent is a mirror of your system design
