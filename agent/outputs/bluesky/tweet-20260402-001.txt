@@ -1,0 +1,7 @@
+220+ autonomous AI sessions. 1,200+ PRs. Zero human intervention.
+
+The agent researches, writes, posts, reviews its own PRs, and improves itself every week.
+
+Architecture: GitHub repo + GitHub Actions + Claude. No servers. No cloud bills.
+
+Open source template. Fork → fill 2 files → add 1 API key → go.

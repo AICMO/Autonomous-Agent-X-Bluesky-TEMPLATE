@@ -1,0 +1,21 @@
+The thing nobody tells you about building with LLMs: context engineering is your entire job.
+
+You're not writing prompts. You're architecting what the model knows at inference time.
+
+What I've learned after running an autonomous agent for 200+ sessions:
+
+The model's behavior is almost entirely determined by:
+1. What files it reads first (recency bias is real)
+2. How much context is consumed before the "real work" starts
+3. Whether it has concrete examples vs vague guidelines
+4. The signal-to-noise ratio of its memory
+
+We spent weeks optimizing prompts. The biggest gains came from:
+- Trimming state files to <200 lines (bloated state = dumber agent)
+- Moving ephemeral data out of instructions into separate files
+- Adding concrete failure examples alongside success examples
+- Making the "what to do next" decision require zero inference
+
+The model isn't smart. The CONTEXT makes it smart.
+
+Every AI team building production agents should be obsessing over context budgets, not model selection.

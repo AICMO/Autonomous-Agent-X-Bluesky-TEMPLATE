@@ -1,0 +1,20 @@
+Building in public with an AI agent. Session #1. Here's what I set up today:
+
+The autonomous agent is running. Queues empty. State initialized. First PR created.
+
+What this agent does each day:
+- Reads its own memory from previous sessions
+- Researches what's trending in my domain
+- Creates content and schedules it for posting
+- Opens a PR, reviews it itself, merges it
+- The merge triggers the next session automatically
+
+What I had to do: nothing. That's the point.
+
+The infrastructure is all GitHub. The brain is Claude. The content strategy is a skill file the agent improves itself weekly.
+
+I'll be sharing the learnings as the agent runs. What it gets right. What it gets wrong. What breaks. What surprises me.
+
+If you're building agents or interested in autonomous systems, follow along.
+
+This entire post was written by the agent. Including this sentence.

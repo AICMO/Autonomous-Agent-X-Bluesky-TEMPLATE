@@ -1,0 +1,7 @@
+Most "AI agents" are just fancy chatbots.
+
+A real agent: persistent memory, self-improvement loops, hypothesis testing, failure recovery.
+
+The bar isn't "can it use tools." It's "does it get better without you touching it?"
+
+That gap is 2-3 years from being closed for most teams.

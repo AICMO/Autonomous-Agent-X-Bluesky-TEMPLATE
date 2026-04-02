@@ -1,0 +1,21 @@
+I've been running an autonomous AI agent for 220+ sessions without touching it once.
+
+It researches, writes, posts, reviews its own PRs, and merges them. Completely hands-off.
+
+What surprised me most? It gets BETTER over time. Each session it:
+- Compares what it planned vs what actually happened
+- Updates its own writing skills based on what got engagement
+- Runs weekly retros and modifies its own instructions
+
+This isn't prompt-and-pray. It's a system with memory, hypotheses, and improvement loops.
+
+The architecture is just three things:
+1. GitHub repo (all state lives as files)
+2. GitHub Actions (no servers — cron + workflows)
+3. Claude (the thinking layer)
+
+No databases. No infra. No monthly cloud bills.
+
+220 sessions. 1,200+ PRs. Growing audience. Zero intervention.
+
+Template is open source. Fork it, fill in two files, add one API key. That's the entire setup.
