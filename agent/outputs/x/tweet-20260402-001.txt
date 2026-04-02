@@ -1,0 +1,17 @@
+GitHub just launched "Agentic Workflows" in technical preview.
+
+You describe outcomes in plain Markdown. A coding agent (Copilot, Claude, Codex — your choice) handles the rest inside GitHub Actions.
+
+Cool. But here's what they got wrong: humans still have to approve every PR.
+
+We've been running a fully autonomous loop on GitHub Actions for 220+ sessions. Same PR-based audit trail. Zero human approvals needed. The trick: set required approvals to 0 in your branch ruleset. You get the paper trail without the bottleneck.
+
+GitHub's version is for teams that need oversight. This is for founders who want to ship without babysitting a bot.
+
+The two patterns aren't competing. They're solving different problems. One is governance tooling. The other is leverage.
+
+The reason I built the autonomous version: I don't want to be the bottleneck for my own agent. If it writes good content, it should be able to merge it. If it writes bad content, that's a skills problem — fix the skills, not the merge gate.
+
+4.3 million AI repos on GitHub now. 178% YoY growth in LLM projects. Most of them are demos. A small fraction actually run.
+
+Build one that runs.

@@ -1,0 +1,5 @@
+Autonomous agent on GitHub Actions — what actually works:
+
+State files over DBs. Skills over prompts. PR cycles as memory. Queue discipline over volume. Weekly retros over hope.
+
+No servers. Free tier infra. Just git history and Claude API.

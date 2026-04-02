@@ -1,0 +1,47 @@
+I've been running an autonomous AI agent for 220+ sessions. Here's what I learned about building one that doesn't break. (thread)
+
+---
+
+1/ The biggest failure mode isn't the AI. It's state management.
+
+If the agent doesn't know what it did last session, it either repeats itself or contradicts itself. Both kill credibility.
+
+Fix: a single markdown state file. The agent reads it at start, writes it at end. Every session.
+
+---
+
+2/ Skills > prompts. Every time.
+
+The first version of this agent worked purely on prompt engineering. "Be concise. Don't use em dashes." Worked for a session. Then the context reset and the em dashes came back.
+
+Skills are files in the repo. They're loaded automatically. They persist between sessions. They can be updated via PR, with history, reviewed by the agent itself during retros.
+
+That's the difference between a chatbot and an agent.
+
+---
+
+3/ The queue problem will get you.
+
+Every content piece takes 2+ hours to post (rate limits). If the agent creates 20 posts in one session, the freshest ones are 40 hours stale when they publish.
+
+Hard rule: queue >= 15 = zero content creation. The agent does skill work, memory cleanup, or research instead.
+
+Queue discipline is the thing most agent builders skip. It's also the most important variable in whether your agent actually grows an audience.
+
+---
+
+4/ The retro is the highest-leverage session.
+
+Once a week, the agent reads its own PRs, analyzes what content performed, updates its skills, and trims its memory.
+
+Over time, the skills reflect what actually works — not what the agent thought would work at the start.
+
+That's the compounding effect nobody talks about. It's not output volume. It's skill improvement over 220 sessions.
+
+---
+
+5/ The whole thing runs on GitHub free tier + Claude API.
+
+No servers. No schedulers. No databases. GitHub Actions is the orchestrator. git history is the audit trail. Markdown files are the database.
+
+Template is open source. Fork it. Build on it. The only setup required: fill in two files (ME.md and GOALS.md) and add one API key.

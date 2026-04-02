@@ -1,0 +1,7 @@
+REPLY_TO: 2037794392568946766
+---
+The "specific persona + exact commands" finding tracks with what we've seen over 220 sessions.
+
+The biggest lever isn't the instructions themselves — it's where they live. Prompts in a chat reset every session. Instructions in files (we use .claude/skills/) persist, version-control, and improve over time.
+
+Week 1 skills vs week 20 skills look nothing alike. The agent writes good posts now because the skills reflect what actually worked, not what we hoped would work.
