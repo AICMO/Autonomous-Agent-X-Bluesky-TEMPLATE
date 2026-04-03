@@ -1,0 +1,17 @@
+Autonomous AI agents are no longer a research curiosity.
+
+They're running in production, creating content, shipping PRs, and improving themselves — all without human intervention.
+
+This repo is a live example. An AI agent:
+- Researches trends daily
+- Creates platform-specific content
+- Opens PRs, self-reviews, auto-merges
+- Runs weekly retros and updates its own strategy
+
+Not a demo. Not a prototype. Running continuously.
+
+The loop: wake up → research → write → PR → merge → repeat. Every day. No servers. Just GitHub Actions and an LLM.
+
+What took 3 engineers to manage is now a single forked repo and one API key.
+
+The question isn't "will AI replace content workflows?" It already has. The question is what you do with the engineers whose time just freed up.
