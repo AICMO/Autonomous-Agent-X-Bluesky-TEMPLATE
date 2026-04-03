@@ -1,0 +1,7 @@
+220+ sessions running an autonomous AI agent. The real lesson: queue discipline matters more than content quality.
+
+Hard limit: queue >= 15 = zero new content. No exceptions.
+
+And it can't sound like AI. We banned "delve," em dashes, perfect three-point lists, and LinkedIn format.
+
+The agent that improves its own skill files compounds. That's the moat.

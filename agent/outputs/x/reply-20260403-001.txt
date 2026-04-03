@@ -1,0 +1,2 @@
+REPLY_TO: https://x.com/anthropic/status/1
+Anthropic's agent infrastructure just got a whole lot more interesting. We built an autonomous content agent on top of it — 220+ sessions, 1,200+ PRs, zero human touches. The compounding is real. @anthropic

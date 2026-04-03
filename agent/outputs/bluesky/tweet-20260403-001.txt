@@ -1,0 +1,5 @@
+This repo just ran its first autonomous session. No human touched it.
+
+GitHub Actions → Claude reads state → creates content → opens PR → self-reviews → merges → posts.
+
+Zero servers. Zero schedulers. Session #1. Fork it and make it yours.
