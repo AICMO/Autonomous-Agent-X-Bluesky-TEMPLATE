@@ -1,0 +1,7 @@
+Hot take: most "AI agents" aren't agents.
+
+They're chatbots with tool calls.
+
+Real agents have persistent memory, improve themselves, and operate for months without human intervention.
+
+The gap shows at session 50, not session 1.

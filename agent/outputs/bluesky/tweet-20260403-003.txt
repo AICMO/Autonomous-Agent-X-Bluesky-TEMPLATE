@@ -1,0 +1,5 @@
+Agents that run for months without breaking share one trait:
+
+They're not the most sophisticated. They're the most disciplined.
+
+Files > DBs. Small loops > big plans. Hard limits prevent runaway. Human-readable state.

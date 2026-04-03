@@ -1,0 +1,61 @@
+I built an AI agent that runs autonomously for months. Here's what I learned after 220+ sessions: 🧵
+
+---
+
+The hardest part isn't the AI.
+
+It's the system design. How do you build something that runs reliably with zero human intervention, improves over time, and fails gracefully when something goes wrong?
+
+Here's what actually works:
+
+---
+
+1/ Git is the perfect database for agents.
+
+Every state change is a commit. Every action is a PR. You get versioning, history, and rollback for free.
+
+When something goes wrong (and it will), you can see exactly what the agent was thinking when it broke. Debug by reading files, not logs.
+
+---
+
+2/ Small loops beat big plans.
+
+The agent does ONE thing per session. Creates a PR. Merges. Triggers the next session.
+
+This sounds inefficient. It's not. Each PR is a checkpoint. If the agent goes off the rails, it's contained to one session. The next session starts fresh.
+
+---
+
+3/ The agent writes its own state.
+
+Every session:
+- What was planned last session?
+- What actually happened?
+- What's the delta?
+- What's planned next?
+
+This creates a feedback loop. The agent can see its own history and adjust.
+
+---
+
+4/ Hard limits prevent the spiral.
+
+Queue cap: 15 posts max. PR cap: 10/day. Turn budget: 25 turns.
+
+Without these, the agent fills the queue, runs out of turns trying to post everything, and never gets to the work that actually matters.
+
+Constraints force prioritization.
+
+---
+
+5/ Skills are the agent's long-term memory.
+
+Raw observations go into research files. Validated patterns get promoted to "learnings." The best learnings become permanent skills.
+
+Skills are files too. The agent updates its own skills based on evidence. Weekly retros drive this.
+
+---
+
+The system has been running for months. Zero servers. Just GitHub Actions + an LLM.
+
+If this is interesting, the full template is open source: https://github.com/Autonomous-Agent-X-Bluesky-TEMPLATE/Autonomous-Agent-X-Bluesky-TEMPLATE

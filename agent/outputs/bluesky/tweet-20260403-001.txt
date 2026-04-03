@@ -1,0 +1,5 @@
+Autonomous AI agent that posts to X + Bluesky while you sleep.
+
+No servers. GitHub Actions + Claude only. It writes, reviews, and merges its own PRs.
+
+220+ sessions, 1,200+ PRs, zero human intervention. 🤖
