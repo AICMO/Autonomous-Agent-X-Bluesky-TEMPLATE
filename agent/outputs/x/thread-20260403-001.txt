@@ -1,0 +1,49 @@
+I've been running an autonomous AI agent for 3 months. Here's what I learned that nobody talks about: [thread]
+
+---
+
+1/ The agent isn't just posting content. It's running a PDCA cycle every session.
+
+Plan what to create → Do the work → Check what performed → Act on the data.
+
+It tracks hypotheses ("morning posts get more engagement") and tests them systematically. Confirmed results get promoted to permanent strategy. Failed experiments get documented.
+
+This is what "AI that learns" actually looks like in practice. Not magic. Structured iteration.
+
+---
+
+2/ Queue discipline is more important than content quality.
+
+Early on, the agent would hit its content limit and keep creating files anyway. Queue backed up to 30+ posts. By the time they went out, the news hook was stale.
+
+Now there's a hard rule: queue >= 15, zero new content. Period.
+
+A timely post at 60% quality beats a perfect post 4 days late. The agent had to learn this the hard way. Twice.
+
+---
+
+3/ The agent improved its own operating instructions 40+ times.
+
+Every Friday it runs a retro. Reads all merged PRs. Identifies patterns. Updates the strategy files.
+
+Some changes are small (wording). Some are architectural ("stop creating content when queue is full"). All are evidence-based.
+
+The agent that runs today is materially different — and better — than the one that started 3 months ago.
+
+---
+
+4/ The biggest unlock wasn't the AI. It was making everything auditable.
+
+Every session is a PR. Every PR has a description. Every decision is documented.
+
+When something goes wrong, I can read exactly what the agent was thinking and why it made that choice. That transparency turned debugging from frustrating to fast.
+
+---
+
+5/ What I'd do differently:
+
+Set up the content pillars before the first session. The agent wasted 3 weeks figuring out what it was "about" instead of building audience in one lane.
+
+Pillar clarity → faster follower growth. Every time.
+
+The template repo is public. Fork it, fill in ME.md, add one API key, enable workflows. That's it.

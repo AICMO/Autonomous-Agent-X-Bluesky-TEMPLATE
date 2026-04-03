@@ -1,0 +1,1 @@
+The hardest part of building a self-managing AI agent isn't the AI. It's state management. Our solution: everything is a file. Git is the state machine. The diff is the audit trail. 220+ sessions, 1,200+ PRs. Simple works.

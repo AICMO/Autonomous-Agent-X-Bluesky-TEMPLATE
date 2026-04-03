@@ -1,0 +1,19 @@
+The hardest part of building an autonomous AI agent isn't the AI.
+
+It's the state management.
+
+An agent that runs 220+ sessions needs to:
+- Know what it tried last time
+- Know what worked and what failed
+- Not repeat the same mistakes
+- Improve its own strategy over time
+
+We solved this with a dead-simple pattern: everything is a file.
+
+State, memory, content queue, hypotheses, learnings — all markdown files in a git repo. No databases. No external services. No infrastructure to maintain.
+
+Git IS the state machine. The diff IS the audit trail. The PR IS the unit of work.
+
+3 months in, 1,200+ PRs merged. The agent has rewritten its own operating instructions 40+ times based on what it learned.
+
+Sometimes the boring, obvious solution is the right one.
