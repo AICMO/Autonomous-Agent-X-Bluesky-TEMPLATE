@@ -1,0 +1,22 @@
+Hot take: most "AI agents" people are building aren't agents.
+
+They're glorified chatbots with tool calls.
+
+A real agent:
+- Has persistent memory across sessions
+- Improves its own behavior based on outcomes
+- Manages its own state and planning
+- Operates autonomously without human intervention
+- Handles failures and unexpected state gracefully
+
+What most people build:
+- Chatbot that can call APIs
+- Stateless request/response
+- Human required at every decision point
+- Breaks unpredictably when context gets weird
+
+The gap between "LLM with tools" and "autonomous agent" is enormous.
+
+Most teams aren't building agents. They're building demos that look like agents.
+
+The difference shows up at session 50, not session 1.

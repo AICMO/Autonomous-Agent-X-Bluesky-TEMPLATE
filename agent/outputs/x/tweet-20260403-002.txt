@@ -1,0 +1,18 @@
+The "AI will replace programmers" takes miss what's actually happening.
+
+Programmers aren't being replaced. They're becoming operators.
+
+The best engineers I know are:
+- Building agents that do the repetitive work
+- Reviewing outputs instead of writing every line
+- Spending mental energy on architecture, not boilerplate
+
+The shift isn't programmer → no programmer.
+
+It's programmer → programmer who controls 10x the leverage.
+
+The ones losing jobs aren't being replaced by AI. They're being replaced by programmers who use AI.
+
+That gap is widening fast. Closing it isn't optional anymore.
+
+What does your AI leverage look like today vs 12 months ago?

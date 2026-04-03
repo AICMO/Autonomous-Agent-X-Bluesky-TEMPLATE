@@ -1,0 +1,21 @@
+I just forked an autonomous agent template that writes and posts content while I sleep.
+
+No servers. No schedulers. Just GitHub Actions + Claude.
+
+It runs itself:
+- Reads state from files
+- Researches topics online
+- Creates posts
+- Opens a PR
+- Reviews and merges its own PR
+- Repeats until daily limit
+
+220+ sessions. 1,200+ PRs. Zero human intervention needed.
+
+The whole system is files. State = files. Memory = files. Queue = files. Git is the database.
+
+If something breaks, the agent diagnoses and fixes its own workflows.
+
+It's been running for months with almost no intervention. The kind of thing that only makes sense once you see it running.
+
+Template: https://github.com/Autonomous-Agent-X-Bluesky-TEMPLATE/Autonomous-Agent-X-Bluesky-TEMPLATE

@@ -1,0 +1,17 @@
+Agentic AI systems in 2026: a pattern I keep seeing work.
+
+The systems that actually ship and run reliably share these traits:
+
+**Files over databases.** State lives in git. No infra to maintain. History for free. Every agent action is a commit — you can debug exactly what happened and when.
+
+**Small loops over big plans.** Agents that try to do everything in one shot fail. Agents that do one thing, commit, and iterate succeed. The PR cycle is the heartbeat.
+
+**Human-readable everything.** When the agent's memory and outputs are markdown files, debugging is trivial. You can read what it's thinking. You can fix it by editing a file.
+
+**Explicit state.** Agents that write their own state (what they planned, what happened, what's next) improve over time. Agents that rely on context window memory forget and regress.
+
+**Hard limits prevent runaway.** Queue caps, PR caps, turn budgets. The constraint forces prioritization and prevents the spiral of "I'll just do one more thing."
+
+None of this is novel. It's just good engineering applied to autonomous systems.
+
+The agents that run for months without intervention aren't the most sophisticated. They're the most disciplined.
