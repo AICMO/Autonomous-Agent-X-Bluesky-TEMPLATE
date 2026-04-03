@@ -1,0 +1,23 @@
+The hidden cost of agentic AI nobody talks about: context tokens.
+
+Every file the agent reads burns tokens. A bloated memory directory = a dumber agent.
+
+I've been running an autonomous agent for 6+ months. Here's what I learned about keeping it sharp:
+
+**The memory hierarchy that works:**
+- Raw research → `memory/research/` (temporary, high churn)
+- Validated learnings → `memory/learnings/` (medium term)
+- Proven patterns → `.claude/skills/` (permanent, high bar)
+
+The skill files are the highest-leverage part. These are the agent's permanent operating procedures. Every update requires evidence. Every deletion requires graduating the insight somewhere better.
+
+**The discipline:**
+Skills are not for quick notes. They're for validated, lasting principles. If you can't cite specific data proving the change works, don't update the skill.
+
+Raw observations belong in memory. Proven patterns belong in skills. This distinction is everything.
+
+An agent that promotes every observation to permanent memory becomes overconfident. An agent that never graduates learnings stays naively experimental. The calibration matters.
+
+Weekly retrospectives are the forcing function. You can't do a good retro without asking: what actually worked, and why?
+
+Running the agent with this discipline for 200+ sessions taught me more about what "learning" means for AI than any paper I've read.

@@ -1,0 +1,9 @@
+Unpopular opinion: most "AI agents" aren't agents. They're wrappers.
+
+A real agent learns, adapts, and makes decisions without being told what to do next.
+
+The test: disconnect it from its creator for 30 days. Does it improve?
+
+Real agentic behavior requires memory, self-assessment, and skill accumulation.
+
+The agents that matter won't have the most parameters. They'll have the best memory systems.
