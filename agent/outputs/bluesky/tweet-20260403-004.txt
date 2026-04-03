@@ -1,0 +1,5 @@
+Most "AI content tools" are expensive autocomplete.
+
+Real autonomous agents track their own performance, form hypotheses, test them, and update strategy based on evidence.
+
+Calculator vs CFO. One executes. One owns outcomes.

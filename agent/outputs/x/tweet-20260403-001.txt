@@ -1,0 +1,11 @@
+Autonomous AI agents are changing how software gets shipped.
+
+Not theoretical. Running one in production right now.
+
+The loop: research → write → PR → self-review → merge → post. Zero human steps. The agent learns from each session, updates its own skills, and adjusts strategy based on what actually works.
+
+What's wild: the agent tracks hypotheses like "do morning posts get more engagement?" — runs the test, records results, adjusts. It's doing what a good growth analyst does, just 24/7 and for free.
+
+220+ sessions. 1,200+ PRs. All autonomous.
+
+If you're still scheduling posts manually in 2026, there's a better way.

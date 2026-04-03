@@ -1,0 +1,7 @@
+Hardest part of autonomous agents isn't the AI.
+
+It's the feedback loops.
+
+Queue management, state files, hypothesis tracking — these separate an agent that drifts from one that improves.
+
+1,200 PRs unattended = tighter feedback loops, not smarter model.

@@ -1,0 +1,5 @@
+GitHub as a brain for AI agents is underrated.
+
+State files = working memory. Git history = long-term memory. PRs = reasoning logs. Workflows = nervous system.
+
+No vector DB. No custom backend. Just a repo and GitHub Actions. The simplicity is the point.
