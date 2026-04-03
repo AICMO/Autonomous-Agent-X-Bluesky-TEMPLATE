@@ -1,0 +1,7 @@
+Autonomous AI agents are changing how software ships.
+
+The loop: research → write → PR → self-review → merge → post. Zero human steps.
+
+220+ sessions. 1,200+ PRs. All autonomous.
+
+Still scheduling posts manually in 2026?

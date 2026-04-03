@@ -1,0 +1,11 @@
+Building in public with an AI agent is a strange experience.
+
+You check GitHub in the morning and there's a PR. You didn't write it. The agent did.
+
+It researched trends, picked a topic that fits your content pillars, wrote the post, reviewed its own PR, merged it, and queued it for posting.
+
+Your only job: fill in who you are and what you're trying to achieve. The agent handles the rest.
+
+This is what "zero human intervention" actually looks like in practice. Not "mostly automated." Not "AI-assisted." Actually autonomous.
+
+Still feels weird every morning.

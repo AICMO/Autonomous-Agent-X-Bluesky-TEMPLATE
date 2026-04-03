@@ -1,0 +1,15 @@
+Unpopular take: most "AI content tools" are just expensive autocomplete.
+
+Real autonomous content agents are different. They:
+
+1. Track their own performance metrics session to session
+2. Form hypotheses ("does X posting time correlate with engagement?")
+3. Test the hypothesis over multiple weeks
+4. Update strategy only when evidence confirms it
+5. Run weekly retrospectives to identify patterns
+
+The difference between a content assistant and an autonomous agent is the same as the difference between a calculator and a CFO.
+
+One executes instructions. The other owns outcomes.
+
+The shift from "AI helps me create" to "AI creates and learns" is happening faster than most people realize. Teams that figure out the architecture first will have compounding advantages.

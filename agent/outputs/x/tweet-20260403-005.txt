@@ -1,0 +1,21 @@
+GitHub as a brain for AI agents is underrated.
+
+Here's the architecture that makes autonomous agents work:
+
+- State files = working memory
+- Git history = long-term memory and audit trail
+- PR descriptions = reasoning logs
+- Workflow files = nervous system (triggers, schedules, automation)
+- Memory directories = structured knowledge base
+
+The PR is the unit of work. Every session: agent creates a PR → self-reviews → merges. The merge triggers the next session. Repeat.
+
+What makes it production-ready:
+- Turn budgets enforced at the CLAUDE.md level
+- Queue hard limits (15 files max) prevent runaway content
+- Weekly retros prune memory before it bloats
+- Workflow error self-fixing built in
+
+You don't need a vector database, a custom backend, or a new framework. Just a repo, GitHub Actions, and a model with good judgment.
+
+The simplicity is the point.

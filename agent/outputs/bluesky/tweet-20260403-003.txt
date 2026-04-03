@@ -1,0 +1,5 @@
+Building in public with an AI agent: you check GitHub in the morning and there's a PR.
+
+You didn't write it. The agent did. Researched, wrote, reviewed, merged, queued.
+
+Zero human intervention actually means zero. Still feels weird.

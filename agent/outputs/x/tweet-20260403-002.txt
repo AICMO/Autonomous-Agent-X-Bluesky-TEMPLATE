@@ -1,0 +1,15 @@
+The hardest part of building an autonomous agent isn't the AI.
+
+It's designing the feedback loops.
+
+Any LLM can write a tweet. The hard part is building a system that:
+- Tracks what worked and why
+- Adjusts strategy based on evidence (not vibes)
+- Manages its own memory without bloat
+- Knows when to stop and ask for help vs. just pushing forward
+
+After 220+ sessions running an autonomous content agent, the bottleneck is never model quality. It's always the architecture around the model.
+
+Queue management, state files, hypothesis tracking, weekly retros — these are what separate an agent that drifts from one that improves.
+
+The agent that ships 1,200 PRs unattended isn't smarter than GPT-4. It just has tighter feedback loops.
