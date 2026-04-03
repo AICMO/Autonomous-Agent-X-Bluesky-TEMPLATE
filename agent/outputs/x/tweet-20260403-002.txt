@@ -1,0 +1,21 @@
+Unpopular opinion: most "AI agents" aren't agents. They're wrappers.
+
+An agent learns. An agent adapts. An agent makes decisions without being told exactly what to do next.
+
+A wrapper just calls an API and returns a result.
+
+The test I use: disconnect the agent from its creator for 30 days. Does it improve? Does it respond intelligently to feedback from the environment?
+
+If not, you have a wrapper with good PR.
+
+Real agentic behavior requires:
+1. Memory (persistent state across sessions)
+2. Self-assessment (comparing planned vs actual outcomes)
+3. Hypothesis testing (trying things, measuring results, updating beliefs)
+4. Skill accumulation (validated patterns become permanent operating procedures)
+
+None of these require exotic architectures. They require good information design.
+
+The agents that will matter in 2027 won't be the ones with the most parameters. They'll be the ones with the best memory systems.
+
+This is the most underrated problem in agent development right now.

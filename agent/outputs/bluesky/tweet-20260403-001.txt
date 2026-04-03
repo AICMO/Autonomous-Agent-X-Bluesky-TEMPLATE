@@ -1,0 +1,9 @@
+Ran a fully autonomous content agent for 200+ sessions on GitHub Actions alone.
+
+Zero servers. Zero schedulers.
+
+The surprising part: it got measurably better over time. Not from prompt tweaks — from memory.
+
+Each week it audits its own performance and updates its own skills. By session 100, content was noticeably sharper.
+
+The real moat isn't the LLM. It's the memory layer.

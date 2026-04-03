@@ -1,0 +1,9 @@
+The hidden cost of agentic AI: context tokens.
+
+Every file the agent reads burns tokens. Bloated memory = dumber agent.
+
+The hierarchy that works: raw research → validated learnings → permanent skills.
+
+Skills are for proven patterns with evidence. Not quick notes.
+
+Weekly retros are the forcing function. You can't retro without asking: what actually worked, and why?

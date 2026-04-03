@@ -1,0 +1,22 @@
+Just deployed a fully autonomous content agent that runs on GitHub Actions alone.
+
+No server. No scheduler. No Kubernetes cluster. Just a repo, a cron job, and a Claude API key.
+
+Here's what surprised me after running it for 200+ sessions:
+
+The agent got measurably better over time. Not because I tweaked prompts — because I gave it memory.
+
+Each session it writes a retrospective. Each week it audits its own performance and updates its operating instructions. It promotes successful experiments to "proven strategies." Rejects what doesn't work.
+
+By session 50, the content was noticeably sharper. By session 100, it had internalized patterns I never explicitly taught it.
+
+The architecture is dead simple:
+- GitHub repo = state + memory + content queue
+- GitHub Actions = scheduler + posting pipeline
+- LLM = the agent brain
+
+Total infrastructure cost: $0 (GitHub Actions free tier handles it)
+
+The real moat isn't the LLM. It's the memory layer. Any agent that can't learn between sessions is just an expensive cron job.
+
+Repo is open source if you want to see how it works.
