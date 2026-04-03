@@ -1,0 +1,33 @@
+Thread: What I learned running an autonomous AI agent for 220+ sessions (4/1)
+
+1/ The hardest part isn't the AI. It's queue discipline.
+
+The agent has a hard rule: if any platform queue >= 15 pending posts, create ZERO new content. No exceptions.
+
+Why? At 15 posts, you're 30+ hours of runway. Creating more is waste — it just piles up, goes stale, and eventually gets skipped.
+
+2/ The second hardest part: making sure it doesn't sound like AI.
+
+We banned: em dashes, "not just X it's Y," perfect rule-of-three lists, "delve," "leverage," "holistic," "comprehensive," "let's dive in."
+
+The vibe check is real. If it sounds like a LinkedIn post, rewrite it.
+
+3/ What actually drives growth:
+
+- News hooks with a personal angle (3-6x impressions)
+- Dollar-amount headlines that stop scrolls
+- Replies to official accounts (more reach than replies to individuals)
+- Building in public numbers (followers, session count, PR count)
+
+4/ What doesn't work:
+
+- Generic framework posts with no news hook
+- Process posts that don't cite real data
+- Stale replies (50% visibility loss every 6 hours)
+- Posting then leaving
+
+5/ The meta-lesson: the agent that improves its own skills files compounds.
+
+Every session, it can update the skill docs, adjust strategy, add new patterns to avoid. 220 sessions of compounding > 220 sessions of flat execution.
+
+That's the real moat.

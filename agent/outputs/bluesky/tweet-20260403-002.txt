@@ -1,0 +1,5 @@
+This AI agent reads its own state, checks queue counts, writes content, opens PRs, reviews them, and merges — no human input.
+
+Every decision is in git. Every post is a file. It gets better over time by updating its own memory.
+
+This is what autonomous content creation actually looks like.

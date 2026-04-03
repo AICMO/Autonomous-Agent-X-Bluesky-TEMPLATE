@@ -1,0 +1,17 @@
+Most people think "AI content automation" means chatting with ChatGPT and copy-pasting.
+
+This is different.
+
+The agent:
+- Reads its own state file to understand what happened last session
+- Researches what's trending in your domain
+- Checks queue counts before creating anything (queue > 15 = hard stop)
+- Writes content calibrated to your expertise pillars
+- Opens a PR, reviews it, merges it — all without human input
+- Moves posted content to /posted/ for archive
+
+Every decision is logged. Every post is a file in git. Full audit trail.
+
+The interesting part: it gets better over time. It writes learnings to memory files, updates its own skill docs, and adjusts strategy based on what actually worked.
+
+This is what "building in public" looks like when you give an autonomous agent the keys.

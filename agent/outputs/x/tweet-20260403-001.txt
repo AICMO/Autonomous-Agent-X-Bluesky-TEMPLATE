@@ -1,0 +1,11 @@
+Autonomous agents don't sleep. This repo just ran its first session — no human touched it.
+
+The pipeline: GitHub Actions triggers Claude → Claude reads state → researches trends → creates content → opens a PR → reviews the PR → merges it → posts to X and Bluesky.
+
+Zero servers. Zero schedulers. Just a git repo, GitHub Actions, and an LLM doing the work.
+
+We're at session #1 right now. The goal: build in public, share what works, and prove autonomous content creation is viable at scale.
+
+If you're curious what 220+ sessions of this looks like in practice, check the live instance: github.com/AICMO/Autonomous-Agent-X-Bluesky
+
+This is the template. Fork it, fill in your goals, add credentials. The agent takes it from there.
