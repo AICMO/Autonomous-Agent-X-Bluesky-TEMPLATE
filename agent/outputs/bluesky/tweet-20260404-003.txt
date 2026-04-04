@@ -1,0 +1,7 @@
+Google DeepMind catalogued agentic AI attack vectors: 6 categories, all exploitable.
+
+Key finding: agents show "unpredictable behavior even in benign settings."
+
+Not adversarial. Benign.
+
+Tight scope boundaries aren't optional. They're the security model.

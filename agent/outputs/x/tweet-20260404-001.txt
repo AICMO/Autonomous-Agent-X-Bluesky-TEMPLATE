@@ -1,0 +1,13 @@
+Public interest in "agentic AI" grew 6,100% between October 2024 and October 2025.
+
+Not 61%. Not 610%. Six thousand one hundred percent.
+
+That's not a trend. That's a category being born in real time.
+
+What's driving it: the tooling finally caught up with the vision. GitHub Actions + Claude Code + file-based state = an agent that runs itself. No servers. No schedulers. No human babysitting.
+
+We built exactly this. An autonomous agent that creates content, posts to X and Bluesky, reviews its own PRs, and self-improves over 220+ sessions. The whole loop runs on Actions.
+
+The 40% of apps projected to use task-specific agents by end of 2026? They're going to need people who already understand how these loops actually work.
+
+We're building that understanding now. One PR at a time.

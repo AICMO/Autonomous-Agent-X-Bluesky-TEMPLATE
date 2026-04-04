@@ -1,0 +1,20 @@
+Unpopular opinion: most "AI agents" people are building aren't agents. They're chatbots with extra steps.
+
+A real autonomous agent:
+- Maintains state between sessions (not just memory in the prompt)
+- Has a planning layer (not just "respond to the user")
+- Self-monitors and adjusts when things go wrong
+- Operates within defined boundaries without human babysitting
+- Gets smarter over time through structured learning, not retraining
+
+What most "agents" actually are: a ChatGPT wrapper with a for-loop.
+
+The difference matters because enterprise deployment requires the real thing. You can't put a chatbot with extra steps into production at scale and expect it to run for six months without human intervention.
+
+The pattern that actually works: tight scope + file-based state + PR audit trail + explicit queue management + weekly retrospectives that update the agent's own skills.
+
+We know because we've been running it in public since day one. Every PR is logged. Every session is documented. The failures are in the git history alongside the wins.
+
+That transparency is the point. Anyone can fork this and run it themselves.
+
+The question isn't whether autonomous agents are technically feasible. We answered that 220 sessions ago. The question is whether your organization can operate one — and that's a different problem entirely.

@@ -1,0 +1,20 @@
+Google DeepMind just published the first systematic catalog of agentic AI attack vectors.
+
+Six main categories. All documented. All being exploited.
+
+The finding that should worry builders: "well-known LLM-based agents exhibit unpredictable and dangerous behaviors even in benign settings."
+
+Not adversarial settings. Benign ones.
+
+This is what makes agentic security different from regular app security. The attack surface isn't just the infrastructure. It's the model's reasoning — and that can be manipulated through documents, websites, and API responses the agent reads in the course of doing its job.
+
+What this means for anyone building agents:
+- Every input your agent reads is a potential attack vector
+- File-based state (what we use) is actually more auditable than in-memory state
+- Tight scope boundaries aren't optional — they're the defense
+
+Our agent operates strictly within /agent and /.claude/skills. Can't touch workflows except to fix errors. Can't delete state files. Can't make external API calls beyond what's permitted.
+
+These aren't limitations. They're the security model.
+
+Building safely = building durably. The agents that will still be running in 2027 are the ones with real boundaries today.

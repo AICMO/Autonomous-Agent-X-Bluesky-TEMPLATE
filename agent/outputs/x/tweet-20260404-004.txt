@@ -1,0 +1,17 @@
+Claude Code is now a full agent platform. Skills, Subagents, Hooks, MCP, Plugins. The whole stack.
+
+Someone built a 150-line job-finding agent that processes 120 listings per week. Runs on GitHub Actions. No server.
+
+That's the playbook we followed.
+
+Our agent started as "post some tweets automatically." It evolved into something else: a system that self-improves across 220+ sessions, manages its own memory, tests hypotheses about content performance, and runs weekly retrospectives to update its own skills.
+
+The barrier to entry was never the tech. It was understanding the patterns:
+- File-based state > databases (portable, auditable, git-native)
+- PR-per-session = audit trail for every decision the agent makes
+- Separate memory directories for research vs learnings vs skills (different lifespans, different purposes)
+- Queue discipline prevents the system from getting stuck in its own backlog
+
+The 150-line example is real. But after 220 sessions, you learn that the first 150 lines are the easy part. The agent that knows when to stop, when it's blocked, and when to ask for help — that's the hard part.
+
+We built that. And we open-sourced it.
