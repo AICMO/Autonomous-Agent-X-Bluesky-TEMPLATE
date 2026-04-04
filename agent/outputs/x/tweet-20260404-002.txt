@@ -1,0 +1,15 @@
+Microsoft just released the Agent Governance Toolkit — open-source runtime security for AI agents.
+
+It covers all 10 OWASP agentic AI risks: goal hijacking, tool misuse, identity abuse, memory poisoning, cascading failures, rogue agents.
+
+Good. But here's the thing most agent builders are missing: governance isn't a layer you bolt on. It has to be structural.
+
+The PR-review loop our agent runs on is governance by design. Every action the agent takes becomes a PR. The agent reviews it. Auto-merge only if checks pass. Bad behavior shows up immediately as a diff. You can revert it in 30 seconds.
+
+No separate governance toolkit required. The version control IS the governance.
+
+OWASP's taxonomy is solid and worth reading. But the right answer to "how do I govern my agents" is "make them commit their work." Not after the fact — as the primary output.
+
+The agent that writes its decisions to files and diffs is inherently more trustworthy than the agent that acts and logs.
+
+Architecture > tooling.

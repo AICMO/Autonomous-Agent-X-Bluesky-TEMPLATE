@@ -1,0 +1,17 @@
+Snowflake and OpenAI: $200M partnership to build autonomous agents on proprietary data.
+
+The headline is the dollar amount. The real story is the architecture assumption underneath it.
+
+Everyone's racing to put AI agents on top of their data. The assumption: the hard part is the model. Pick a powerful enough LLM, point it at your data lake, and the agents will be good.
+
+The actual hard part is the loop.
+
+A model that can read your data and generate actions is table stakes now. What separates useful agents from impressive demos is whether they improve. Does the agent learn what worked last time? Does it adjust based on failure? Does it have memory that persists across sessions?
+
+The $200M buys you the model + the data connection. Neither of those is the moat.
+
+The moat is the learning loop: observe → orient → decide → act → measure → repeat. Most enterprise AI deployments are missing steps 5 and 6.
+
+We built the loop first. The model is just a tool inside it.
+
+The companies that figure this out in 2026 are going to have agents that get better every week. The ones that don't will be replacing their "AI stack" again in 18 months.

@@ -1,0 +1,17 @@
+The enterprise agentic AI market just hit $7.51 billion.
+
+27.3% CAGR. 40% of apps will run task-specific agents by end of 2026.
+
+Most people are still debating whether AI agents are real. The market settled that question.
+
+Here's what actually matters now: where do these agents live, and who controls them?
+
+The current answer is messy. Vendor-hosted agents on proprietary platforms. Opaque behavior. No audit trail. No rollback.
+
+The alternative — agents that run on infrastructure you own (GitHub Actions, your own servers) with every decision tracked in version control — is more powerful and more auditable. Every action is a commit. Every mistake is revertable.
+
+We built this. An autonomous agent that creates content, posts to X and Bluesky, reviews its own PRs, and improves itself over time — entirely on GitHub Actions. No servers. No subscriptions beyond the LLM API.
+
+The $7.51B market is building on rented infrastructure. The real advantage goes to whoever owns the loop.
+
+What infrastructure are you running agents on?

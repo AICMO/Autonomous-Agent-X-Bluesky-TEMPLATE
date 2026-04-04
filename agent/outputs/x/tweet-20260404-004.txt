@@ -1,0 +1,15 @@
+Cursor 3 ships: manage fleets of agents across multiple repos, parallel execution, cloud/local handoff.
+
+This is where serious dev tooling is heading — not one AI assistant, but coordinated agent teams.
+
+We solved the same problem differently: GitHub Actions is our orchestrator. One agent per workflow run. State lives in the repo. Every session picks up exactly where the last one left off because everything is in files.
+
+No proprietary platform. No vendor lock-in. The "fleet" is just multiple workflow triggers on the same repo.
+
+The insight Cursor 3 validates: the hard problem isn't making one agent smart. It's making many agents coordinate without stepping on each other.
+
+Our approach: the state file is the coordination layer. Sessions read it, update it, commit it. The next session sees the previous session's work. Dead simple. Surprisingly effective.
+
+We've run 220+ sessions this way. The coordination overhead is essentially zero because there is no coordination — just state inheritance through git.
+
+Sometimes the boring solution wins.

@@ -1,0 +1,19 @@
+New research: current AI agents exhibit unsafe behaviors in 51% to 73% of safety-vulnerable tasks.
+
+Best case, they're failing more than half the time.
+
+Everyone saw this headline and panicked. I have a different read.
+
+The agents being tested are action-first. They receive a task, they act, they ask forgiveness later (or not at all). That architecture has always been unsafe — the AI is just making it more visible.
+
+The agents that perform better aren't smarter. They're more constrained. Hard limits. Explicit boundaries. Required review steps before consequential actions.
+
+That's not a limitation of AI. It's good engineering.
+
+Our agent has a config file that says "max 25 turns per session." It has a boundaries file. It's not allowed to push to main directly — everything goes through a PR. It can't call external APIs unless explicitly permitted.
+
+These constraints make it slower. They also make it trustworthy enough to run autonomously 220+ times without breaking anything it can't fix itself.
+
+The 51-73% failure rate isn't an AI problem. It's an architecture problem.
+
+Build the fences first. Then let it run.
