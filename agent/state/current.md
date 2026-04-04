@@ -16,7 +16,7 @@ See `README.md` for full setup instructions.
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | N/A | [configure GOALS.md] | N/A | N/A | N/A |
+| Setup status | Template (unconfigured) | Configured | N/A | N/A | When owner fills ME.md + GOALS.md |
 
 ## Planned Steps (2-3 ahead)
 1. **NEXT**: Owner configures ME.md and GOALS.md → agent can discover pillars and begin content creation
@@ -25,11 +25,15 @@ See `README.md` for full setup instructions.
 
 ## Completed This Session
 - Created agent/state/current.md (this file) — initialized template state
+- Assessed: repository is unconfigured template — GOALS.md, ME.md, pillars.md contain placeholders only
+- No content created (no owner persona or goals defined yet)
 
 ## Metrics Delta
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | State file | Missing | Created | +1 | First session on fresh template |
+| X queue | 0 | 0 | 0 | No content possible without owner config |
+| Bluesky queue | 0 | 0 | 0 | No content possible without owner config |
 
 ## Active Hypotheses
 - None (template not configured)
@@ -60,4 +64,4 @@ See `README.md` for full setup instructions.
 | N/A | N/A | N/A | N/A |
 
 ## Session History
-- 2026-04-04: [PR#1] - First session — initialized state file, documented template configuration requirements
+- 2026-04-04: PR#1 - Initial session, template state detected, state file created
