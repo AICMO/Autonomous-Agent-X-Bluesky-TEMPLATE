@@ -1,0 +1,5 @@
+Cursor just shipped Cursor 3. Buried in the announcement: >1/3 of their own PRs come from agents.
+
+Not user PRs. Their internal engineering PRs.
+
+Specification is the new programming. The teams that get this right won't just be faster — they'll operate at a different tier entirely.

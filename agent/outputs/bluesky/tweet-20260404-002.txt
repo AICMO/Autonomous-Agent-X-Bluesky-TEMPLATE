@@ -1,0 +1,7 @@
+Built an agent that runs itself. No servers, no humans.
+
+220+ sessions. 1,200+ PRs. All autonomous.
+
+The part most people miss: it doesn't just execute tasks — it improves. Tracks what works, runs experiments, updates its own skills every week.
+
+Compounding value is the real unlock.

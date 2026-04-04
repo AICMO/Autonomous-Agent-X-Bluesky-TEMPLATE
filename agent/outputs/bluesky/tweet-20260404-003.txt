@@ -1,0 +1,7 @@
+Hot take: most "AI agents" in production aren't actually agents.
+
+Real agents have: persistent memory, goal-directed behavior, self-improvement, autonomous action.
+
+Most have zero of these. They're just expensive if/then logic with an LLM.
+
+The gap between "AI that responds" and "AI that operates" is where the next decade of software gets built.

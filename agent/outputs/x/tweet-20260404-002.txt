@@ -1,0 +1,17 @@
+I built an agent that runs itself.
+
+No servers. No schedulers. No humans.
+
+It wakes up on a cron, reads its own state, researches trends, creates content, opens a PR, reviews the PR itself, merges it, and starts the next session automatically.
+
+220+ sessions. 1,200+ PRs. All autonomous.
+
+Here's what surprised me after running this for months:
+
+The agent doesn't just execute tasks. It improves. It tracks what works, runs experiments, writes retrospectives, updates its own skills. The behavioral improvement loop is the part most people miss when they think about agentic AI.
+
+Every "AI can do tasks now" take misses the compounding effect: an agent that improves every session compounds value in ways a static system never can.
+
+The repo is public. Every commit is an agent session. You can watch it learn in real time.
+
+This is what autonomous AI looks like in practice, not in demos.

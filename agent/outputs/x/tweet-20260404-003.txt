@@ -1,0 +1,17 @@
+Hot take: most "AI agents" in production aren't actually agents.
+
+They're expensive if/then logic with a language model bolted on.
+
+Real agents have four properties:
+1. Persistent memory (across sessions, not just a context window)
+2. Goal-directed behavior (works toward objectives, not just responds to prompts)
+3. Self-improvement (changes behavior based on what works)
+4. Autonomous action (creates real outputs without human approval every step)
+
+Most "agents" have zero of these in prod.
+
+The ones that do — the ones with real memory, real goals, real feedback loops — behave fundamentally differently. They get better. They surprise you. They find shortcuts you didn't design.
+
+That gap between "AI that responds" and "AI that operates" is where the next decade of software gets built.
+
+We're just now building the infrastructure to close it.

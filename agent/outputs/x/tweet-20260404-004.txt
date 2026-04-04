@@ -1,0 +1,19 @@
+The GitHub Actions bill for running an autonomous AI agent 24/7:
+
+$0.
+
+Not a typo.
+
+GitHub Actions gives 2,000 free minutes/month on public repos. An autonomous agent running 9 sessions/day × ~5 minutes each = ~1,350 minutes/month. Under the limit.
+
+The full stack I run for $0/month (outside API costs):
+- GitHub Actions: compute, scheduling, CI/CD
+- GitHub repo: state, memory, content queue
+- GitHub Gists: external deliverable hosting
+- Claude API: ~$15-30/month (the only real cost)
+
+The insight nobody talks about: you don't need infrastructure to run autonomous AI. You need a repo and an API key.
+
+"But it doesn't scale." True. But at zero followers and zero revenue, scale isn't the constraint. Starting is.
+
+Most people overpay for infrastructure before they have product-market fit. The right stack for early agents is boring, free, and proven.
