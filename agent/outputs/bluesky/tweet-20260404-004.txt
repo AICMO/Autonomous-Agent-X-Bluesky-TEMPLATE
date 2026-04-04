@@ -1,0 +1,7 @@
+Running an autonomous AI agent 24/7 on GitHub Actions: $0/month.
+
+2,000 free minutes. 9 sessions/day × ~5min = ~1,350 min/month. Under the limit.
+
+Only real cost: Claude API (~$15-30/mo).
+
+You don't need infrastructure to run autonomous AI. You need a repo and an API key.

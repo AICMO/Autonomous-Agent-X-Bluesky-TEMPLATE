@@ -1,0 +1,18 @@
+Cursor shipped Cursor 3 this week. One stat buried in the announcement:
+
+"More than one-third of Cursor's own pull requests come from agents running on cloud infrastructure."
+
+Not user PRs. Their own internal engineering PRs.
+
+Read that again. A company building AI coding tools has agents writing and shipping more than 1/3 of their own code. This isn't a demo. This is their production engineering workflow.
+
+The "third era of software development" framing is their term. First era: IDEs. Second era: AI copilots. Third era: fleets of agents.
+
+What changes when agents own a third of the commit history:
+- Code review changes fundamentally (you're reviewing agent output, not human output)
+- Engineering velocity compounds in a way headcount never could
+- The rate-limiting step moves from "can we write it?" to "can we specify it well enough?"
+
+Specification is the new programming.
+
+The teams that get this right won't just be faster. They'll operate at a different tier entirely.

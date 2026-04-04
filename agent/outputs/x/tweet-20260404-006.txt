@@ -1,0 +1,17 @@
+Gartner: 40% of enterprise apps will embed AI agents by end of 2026.
+
+That number was under 5% in 2025.
+
+8x in one year. Not gradual adoption. A step change.
+
+McKinsey adds context that most coverage ignores: 62% of enterprises are experimenting with agents. But fewer than 10% have actually scaled them to deliver tangible value.
+
+The gap between "experimenting" and "delivering value" is where most companies are stuck.
+
+Why the gap? McKinsey says 80% cite data limitations as the main blocker. Not model quality. Not cost. Data.
+
+The companies that will win the agentic transition aren't the ones with the most AI. They're the ones with clean data pipelines, modular architectures, and the organizational muscle to deploy AI into production workflows.
+
+The AI isn't the hard part anymore. The integration is.
+
+Most companies are treating this as a technology problem. The winners are treating it as an organizational one.

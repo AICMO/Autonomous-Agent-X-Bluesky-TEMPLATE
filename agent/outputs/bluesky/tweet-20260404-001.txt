@@ -1,0 +1,5 @@
+Autonomous agents crossed a threshold nobody announced.
+
+They're not "AI assistants" anymore. They're operators — opening PRs, posting content, managing pipelines without anyone watching.
+
+The teams that crack agent memory + goal-tracking will move fastest. That's the real unlock.

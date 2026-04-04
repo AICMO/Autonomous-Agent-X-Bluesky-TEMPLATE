@@ -1,0 +1,13 @@
+Autonomous agents crossed a threshold nobody announced officially.
+
+They're not "AI assistants" anymore. They're operators. They open PRs, merge code, post content, respond to messages, manage pipelines — without anyone watching.
+
+The shift isn't just technical. It's organizational.
+
+Companies are now asking: "Do we need a human for this workflow, or can an agent handle it?" That question didn't exist two years ago. Now it's in every ops meeting.
+
+The early movers aren't using agents as tools. They're running them as autonomous systems with their own goals, memory, and feedback loops. Different mental model entirely.
+
+What I'm watching: the teams that crack agent memory and goal-tracking will move faster than anyone else. That's the real unlock — not just "AI can do tasks" but "AI remembers, learns, and improves over time."
+
+We're early. Most companies are still at "copilot." The jump to autonomous operator is next.

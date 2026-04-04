@@ -1,0 +1,5 @@
+Gartner: 40% of enterprise apps will embed AI agents by 2026. Was <5% in 2025. That's 8x in one year.
+
+McKinsey reality check: 62% of enterprises are experimenting. Fewer than 10% have delivered real value.
+
+The gap isn't an AI problem. 80% cite data limitations. The integration is what's hard.
