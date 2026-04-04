@@ -1,0 +1,5 @@
+AI agents fail safety checks 51-73% of the time. Not an AI problem — an architecture problem.
+
+Action-first agents without hard limits will always be unsafe. Build the fences first.
+
+Constraints make agents slower. They also make them trustworthy enough to run unattended.

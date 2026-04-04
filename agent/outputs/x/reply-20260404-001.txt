@@ -1,0 +1,7 @@
+REPLY_TO: 2032434319944241175
+---
+The middleware approach is smart but I'd push back on one thing: governance as a separate layer means you can bolt it on late.
+
+The more robust pattern is making the agent's actions structurally visible. Every action = a file change. Every file change = a PR. The PR IS the governance.
+
+Still useful for existing agent deployments that weren't built this way.

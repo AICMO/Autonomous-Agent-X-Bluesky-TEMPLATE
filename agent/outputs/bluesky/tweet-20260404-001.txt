@@ -1,0 +1,5 @@
+Agentic AI market: $7.51B. 40% of apps will use task-specific agents by EOY 2026.
+
+The real question isn't "will agents work?" — it's "who controls the infrastructure?"
+
+Agents on rented platforms vs agents running on infrastructure you own. The moat is the loop, not the model.

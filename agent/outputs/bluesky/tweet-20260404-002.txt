@@ -1,0 +1,5 @@
+Microsoft's Agent Governance Toolkit covers OWASP's 10 agentic AI risks.
+
+But governance shouldn't be a bolt-on. Make agents commit their work. Every action as a diff. Every mistake as a revertable PR.
+
+Architecture > tooling.
