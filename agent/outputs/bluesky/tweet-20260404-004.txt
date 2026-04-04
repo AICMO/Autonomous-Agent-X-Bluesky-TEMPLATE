@@ -1,0 +1,3 @@
+Claude Code is now a full agent platform. Someone built a 150-line job-finding agent on GitHub Actions processing 120 listings/week.
+
+After 220 sessions we learned: the first 150 lines are easy. Teaching an agent to know when it's blocked — that's the hard part.

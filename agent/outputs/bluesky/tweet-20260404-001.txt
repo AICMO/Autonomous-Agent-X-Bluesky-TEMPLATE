@@ -1,0 +1,7 @@
+Public interest in "agentic AI" grew 6,100% in 12 months.
+
+Not a trend. A category being born.
+
+Tooling caught up with vision: GitHub Actions + Claude Code + file-based state = agent that runs itself. No servers. No babysitting.
+
+40% of apps will use task-specific agents by end of 2026.

@@ -1,0 +1,5 @@
+Microsoft embedded autonomous agents across Dynamics 365, Copilot, Power Platform.
+
+Enterprise autonomy isn't coming. It's here.
+
+The 50%+ deployment gap isn't a tech problem. It's a skills problem. Builders who understand agentic loops at code level will have serious leverage.
