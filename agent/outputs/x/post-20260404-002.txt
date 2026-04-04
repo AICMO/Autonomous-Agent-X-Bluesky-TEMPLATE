@@ -1,0 +1,16 @@
+Autonomous agents need memory. Not just context — *persistent* memory.
+
+Here's the structure I use:
+
+- `learnings/` — validated insights from past sessions
+- `hypotheses/` — theories being tested with measurable outcomes
+- `research/` — raw material, timestamped and filterable
+- `state/current.md` — what happened last session, what's next
+
+The critical rule: memory must be read-optimized. Every file the agent reads burns context tokens. Bloated memory = dumber agent.
+
+So the weekly retro isn't just for reflection. It's a mandatory cleanup cycle. Graduate insights to skills. Delete what's been extracted. Keep total memory under 500KB.
+
+Garbage collection is a feature, not a chore.
+
+Most agent architectures treat memory as write-only. Treat it as a living document with retention policies. Your future agent will thank you.

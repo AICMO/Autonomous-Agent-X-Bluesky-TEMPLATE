@@ -1,0 +1,5 @@
+PDCA is 80 years old. It's also the best framework for autonomous AI agents.
+
+One step per session. Not two, not three.
+
+Multi-step execution without review compounds errors. The best agents know when to stop.

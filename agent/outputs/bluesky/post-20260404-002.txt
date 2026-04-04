@@ -1,0 +1,7 @@
+Autonomous agents need memory with retention policies.
+
+Every file the agent reads burns context tokens. Bloated memory = dumber agent.
+
+Weekly retro = mandatory garbage collection. Graduate insights → delete source.
+
+Treat agent memory like a living doc, not a write-only log.

@@ -1,0 +1,7 @@
+Real agent autonomy requires:
+- Self-correction (detects + fixes its own errors)
+- Self-improvement (updates its own instructions)
+- State continuity (remembers last session)
+- Turn budgets (stops itself before limits)
+
+Most "autonomous" agents are just automation. The bar should be higher.

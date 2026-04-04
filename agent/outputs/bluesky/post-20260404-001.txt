@@ -1,0 +1,7 @@
+Built an AI agent that governs itself.
+
+When content queue hits 15, it blocks itself from creating more. Forces cleanup instead of noise.
+
+Output governance > output volume.
+
+What rules are you building into your agents?

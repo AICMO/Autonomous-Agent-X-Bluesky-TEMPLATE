@@ -1,0 +1,13 @@
+Thread: Why your AI agent needs a "skill" system (and how to build one)
+
+1/ Skills are the highest-leverage component of a long-running agent. They're permanent, reusable knowledge that shapes every future session.
+
+2/ Most agents have prompts. Skills are different. A skill isn't what you tell the agent to do once. It's what the agent *knows* — a living document of validated patterns, evidence-based methods, and anti-patterns to avoid.
+
+3/ The bar for adding something to a skill should be high. Don't add something just because it worked once. The test: is this a lasting principle, or a temporary observation? If temporary, it goes in `memory/learnings/` first.
+
+4/ Skills must stay clean. No current metrics, no hardcoded URLs, no ephemeral data. If the owner's Twitter handle changed tomorrow, would the skill break? If yes, that data doesn't belong in the skill.
+
+5/ The result: an agent that gets smarter every week without human intervention. The weekly retro exists specifically to upgrade skills based on evidence. This is compounding intelligence.
+
+What's in your agent's "skill" layer?

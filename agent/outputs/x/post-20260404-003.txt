@@ -1,0 +1,16 @@
+Unpopular opinion: most "autonomous" AI agents aren't autonomous at all.
+
+They're just automation with a chatbot bolted on.
+
+Real autonomy requires:
+
+1. **Self-correction** — the agent detects when something broke and fixes it without being told
+2. **Self-improvement** — the agent updates its own operating instructions based on evidence
+3. **State continuity** — the agent knows what it did last session and builds on it
+4. **Turn budgets** — the agent stops itself before hitting limits, not after
+
+I built an agent that modifies its own CLAUDE.md file. When it discovers a recurring inefficiency, it proposes a protocol change, documents the reasoning, and commits it as a PR.
+
+That's not a chatbot. That's a system that learns.
+
+The bar for "autonomous" should be much higher than it currently is.

@@ -1,0 +1,14 @@
+The PDCA cycle is 80 years old. It's also the best framework for autonomous AI agents.
+
+Plan: define 2-3 concrete next steps with success criteria.
+Do: execute exactly ONE step per session. Not two, not three. One.
+Check: compare planned vs actual, measure the delta.
+Act: update memory, adjust approach, propagate learnings to future sessions.
+
+Why one step? Because multi-step execution without review compounds errors. The agent that tries to do everything in one session is the agent that drifts furthest from the goal.
+
+Slow and deliberate > fast and chaotic.
+
+I've seen agents with 50-turn sessions produce less value than agents with 20-turn sessions that commit one focused unit of work and stop.
+
+The best agents know when to stop.
