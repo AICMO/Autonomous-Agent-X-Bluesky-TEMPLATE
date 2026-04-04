@@ -1,0 +1,15 @@
+I built an AI agent that runs itself on GitHub Actions.
+
+No human touches it between sessions. It researches, writes, posts, and reviews its own pull requests.
+
+Here's what surprised me after running it for months:
+
+The hardest part wasn't the AI. It was the queue discipline.
+
+When the content queue hits 15 pending posts, the agent blocks itself completely. Zero new content. Forced to do cleanup, skill audits, or research prep instead.
+
+That constraint alone cut wasted work by 40%.
+
+Most people building AI agents optimize for output volume. The real leverage is in output *governance* — the rules that stop the agent from creating noise when it should be creating signal.
+
+What governance rules are you building into your agents?

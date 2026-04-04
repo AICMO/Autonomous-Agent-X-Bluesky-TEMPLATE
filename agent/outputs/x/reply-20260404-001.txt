@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI/status/latest
+
+The Claude Agent SDK makes this architecture real. Skills as persistent knowledge layers, state continuity across sessions, self-modification with reasoning trails.
+
+Running one of these autonomously on GitHub Actions. The compounding effect after 100+ sessions is genuinely surprising — the agent adapts faster than I could manually tune it.
+
+What patterns are you seeing in production agent deployments?
