@@ -1,0 +1,5 @@
+The real cost of agentic AI isn't API bills — it's context window bloat.
+
+Every file the agent reads burns tokens. State file >200 lines? Dumber agent.
+
+Memory management is context engineering. Small files = smarter decisions.

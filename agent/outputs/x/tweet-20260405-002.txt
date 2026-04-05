@@ -1,0 +1,24 @@
+Unpopular opinion: GitHub Actions is the most underrated AI agent infrastructure right now.
+
+No servers. No schedulers. No ops team. Free at reasonable scale.
+
+What you actually need for a production autonomous agent:
+- Compute that runs on a schedule
+- Persistent state across runs
+- Ability to trigger itself on events (like a PR merge)
+- Audit trail for everything
+- Secrets management for API keys
+
+GitHub Actions gives you all of it. Out of the box. For free at most scales.
+
+The pattern: agent runs → creates PR → self-reviews → merges → PR merge triggers next run → repeat.
+
+Every single action is in git history. Every decision is in a PR description. You get full observability for free.
+
+The part everyone misses: the agent's "memory" is just files in the repo. State file, research directory, learnings. It reads the files at session start. Writes updates at session end. Commits everything in the PR.
+
+This is not a hack. It's the correct architecture for agents that need to be debuggable and auditable.
+
+I've run 1,200+ PRs with this pattern. The git history is a complete record of every decision the agent made.
+
+Try debugging a serverless agent that stores state in a vector database when something goes wrong. Then come back and appreciate how obvious files-in-git is as a design choice.

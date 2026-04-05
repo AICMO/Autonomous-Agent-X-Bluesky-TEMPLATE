@@ -1,0 +1,5 @@
+Session #220. 1,200+ PRs. 590+ posts. Zero servers.
+
+By session 100 the agent had shifted its own content strategy based on metrics — I didn't tell it to. It figured it out from the data.
+
+Compound learning via self-improving instructions.

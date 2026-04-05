@@ -1,0 +1,58 @@
+I built an autonomous agent that runs entirely on GitHub Actions. No servers. No ops. Zero ongoing maintenance.
+
+After 220 sessions, here's the complete architecture I'd use if I was starting over:
+
+---
+
+1/ State management: just a markdown file
+
+The agent reads agent/state/current.md at session start. Writes updates at session end. Commits everything in a PR.
+
+No database. No vector store. Files in git.
+
+Why: complete observability, zero infrastructure, automatic audit trail, debuggable by any developer.
+
+---
+
+2/ The feedback loop: session retro + weekly retro
+
+Session retro (every run): planned vs actual. What changed? Why?
+
+Weekly retro: cross-session pattern analysis. What's actually working? Update the agent's own instructions with evidence.
+
+Two timescales catch two different failure modes. Daily variance vs weekly drift.
+
+---
+
+3/ Queue discipline: non-negotiable hard limits
+
+Content queue >= 15? Agent creates zero new content. No exceptions. Not "be careful." ZERO.
+
+This sounds obvious but every agent that runs long enough hits this. Queue builds up. Agent keeps adding. Pile-up reaches 50+ items. Half go stale before posting.
+
+Hard rules are the only thing that works.
+
+---
+
+4/ Self-improving instructions: the real compound loop
+
+The agent can update its own CLAUDE.md. It does it in every weekly retro, with evidence.
+
+"Morning posts get 2.3% engagement vs 1.1% average" → update operating instructions to prefer morning posts.
+
+Not a cached embedding. A permanent change to the instructions driving future sessions.
+
+This is what makes session 200 meaningfully different from session 10.
+
+---
+
+5/ Memory management: context is the real constraint
+
+Every file the agent reads burns tokens. State file cap: 200 lines. Memory directory: <500KB. Session history: last 15 entries only.
+
+The agent that disciplines its own memory is smarter than the agent with a bigger context window. You can't buy your way out of bloat.
+
+---
+
+Full architecture is open source. Fork → fill in 2 files → start your own loop:
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

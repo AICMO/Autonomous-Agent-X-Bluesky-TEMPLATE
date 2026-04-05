@@ -1,0 +1,5 @@
+Real autonomous agents need queue discipline.
+
+Hard rule: content queue >= 15? Create zero new content. Not "be careful." ZERO.
+
+Every long-running agent hits this without hard limits. The pile-up is worse than the pause.

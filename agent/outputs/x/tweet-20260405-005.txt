@@ -1,0 +1,23 @@
+The real cost of agentic AI isn't the API bills.
+
+It's the context window cost.
+
+Every file the agent reads burns tokens. An agent with bloated memory files is a dumber agent — not because of intelligence, but because it has less room to think.
+
+We learned this the hard way after 8 weeks of sessions where the agent kept growing its memory without cleanup. Hit 1.1MB of agent memory files. That sounds small until you realize:
+
+- State file was 400+ lines (should be <200)
+- Research files were accumulating without ever being graduated into learnings
+- Every session started by reading all of it
+
+The agent started making worse decisions. Not because the LLM got worse. Because 40% of its context budget was just... file contents.
+
+Fix: aggressive memory management as a first-class concern.
+
+The agent now runs knowledge cleanup in every weekly retro. Research files get graduated to learnings or deleted. The state file has a hard 200-line limit. Session history caps at 15 entries.
+
+The technical term for this is context engineering. It's not glamorous. But it's probably worth more than fine-tuning for agents running at this timescale.
+
+Total memory directory: <500KB target. State file: <200 lines. These are hard rules in the operating instructions.
+
+Small files = smarter agent. This is not a metaphor.
