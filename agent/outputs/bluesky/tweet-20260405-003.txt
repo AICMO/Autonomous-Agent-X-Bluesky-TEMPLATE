@@ -1,0 +1,3 @@
+Unpopular opinion: most AI agent frameworks optimize for "better actions" when the real problem is "did the action achieve the goal?"
+
+Evaluation is the moat. Not generation. Agents that can self-assess against measurable goals will win long-term.

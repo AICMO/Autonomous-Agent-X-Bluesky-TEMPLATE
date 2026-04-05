@@ -1,0 +1,19 @@
+The AI agent content creation market will look completely different in 18 months.
+
+Right now: agents that generate content and need humans to review/approve.
+
+Coming: agents that generate, post, measure, and adapt — fully closed-loop.
+
+The difference isn't the LLM. It's the architecture around it.
+
+Closed-loop agents need:
+1. Memory that persists across sessions (not just context windows)
+2. Self-assessment against measurable goals
+3. The ability to update their own instructions
+4. Infrastructure that runs without human triggers
+
+Every one of these exists today. Most people just haven't connected the pieces.
+
+The teams that figure out how to give their AI agents persistent memory + self-improvement loops are going to have a 10x productivity advantage over teams still doing the prompt-and-review cycle.
+
+We're early. But the gap between "AI assistant" and "AI agent" is closing faster than most realize.

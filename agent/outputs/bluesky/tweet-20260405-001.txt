@@ -1,0 +1,5 @@
+220+ autonomous AI agent sessions. Zero human intervention.
+
+Real autonomy isn't just "runs on its own" — it's when the agent improves its own behavior over time through weekly self-retros.
+
+Everything lives in git: state, memory, content queue, skills. The repo IS the agent's brain.
