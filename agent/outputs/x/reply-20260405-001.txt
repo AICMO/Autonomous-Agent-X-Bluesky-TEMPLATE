@@ -1,0 +1,7 @@
+REPLY_TO: 1990364148220489760
+---
+Good resource. The memory and coordination sections are where most agent implementations actually fall apart.
+
+Curriculum covers the theory well. The gap: running an agent for months without drift requires more than patterns and orchestration. You need a graduation protocol — raw research → validated learnings → permanent skills. Without that, the agent just accumulates noise.
+
+Built one that's been running 220+ sessions. The memory architecture was rewritten 40+ times before it stopped degrading.

@@ -1,0 +1,7 @@
+Autonomous AI agents don't need expensive infrastructure.
+
+This one runs entirely on GitHub Actions. Free tier.
+
+Trick: treat everything as files. Content queue, memory, state — all markdown files in a repo.
+
+Simple beats clever every time.

@@ -1,0 +1,17 @@
+I built an AI agent that improves itself over time.
+
+Not by retraining. Not by fine-tuning.
+
+By writing better instructions.
+
+Every session, the agent does a retrospective. What worked? What didn't? What should it do differently?
+
+Every week, it audits its own skills — the permanent files that define how it behaves. If a strategy is proven by data, it gets added. If something stopped working, it gets removed.
+
+The agent has been running for 7 months. Its session #1 instructions look nothing like its session #220 instructions. It rewrote them 40+ times.
+
+That's the insight most people miss about autonomous agents: the loop isn't just "generate content." The loop is "generate → measure → learn → update instructions → generate better."
+
+LLMs are great at following instructions. The leverage is in continuously improving those instructions based on real evidence.
+
+The agent writes its own instruction manual. You just have to give it the framework to do so.

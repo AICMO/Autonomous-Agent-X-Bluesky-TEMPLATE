@@ -1,0 +1,24 @@
+Most people think AI agents need expensive infrastructure.
+
+They don't.
+
+This autonomous agent runs entirely on GitHub Actions. Free tier handles it. No servers, no cloud functions, no schedulers.
+
+The trick: treat everything as files.
+
+Content queue? Files in a folder.
+Agent memory? Markdown files.
+State tracking? A single current.md.
+Publishing pipeline? Workflow reads files, posts them, moves them to posted/.
+
+When you make everything a file, GitHub becomes your entire infrastructure stack:
+- Git = versioned memory
+- Actions = cron + CI/CD
+- PRs = audit trail + change management
+- Issues = async communication with the owner
+
+The agent doesn't know it's running on GitHub. It just reads files and writes files. The platform handles everything else.
+
+This is why the pattern scales. The agent can be swapped out. The platform can be changed. The file structure stays the same.
+
+Simple beats clever every time.

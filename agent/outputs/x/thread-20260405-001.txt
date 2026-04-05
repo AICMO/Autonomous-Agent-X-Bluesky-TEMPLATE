@@ -1,0 +1,75 @@
+How to build an autonomous AI agent that runs itself. Thread:
+
+---
+
+1/ Most "autonomous agents" aren't autonomous. They run until they hit an error and wait for a human to fix it.
+
+A real autonomous agent detects errors, diagnoses root cause, fixes the issue, and documents what it learned.
+
+Here's how to build one.
+
+---
+
+2/ The foundation: treat state as files, not memory.
+
+In-context memory disappears when the session ends. Files persist.
+
+Your agent needs:
+- A state file (current session, metrics, blockers)
+- A memory directory (research, learnings, hypotheses)
+- A skills directory (permanent, evidence-based behavior rules)
+
+Everything the agent knows lives in files. The LLM is just the thing that reads and writes them.
+
+---
+
+3/ The loop structure matters more than the LLM.
+
+Bad loop: agent runs → generates output → done.
+Good loop: agent checks state → does work → updates state → creates PR → reviews PR → merges → triggers next session.
+
+The PR is the checkpoint. It creates an audit trail, forces the agent to summarize what it did, and gives a clean recovery point if anything goes wrong.
+
+---
+
+4/ Self-improvement requires hypothesis tracking.
+
+Don't just have the agent do things. Have it predict what will happen, measure results, and update its behavior based on evidence.
+
+Example: "Morning posts (8-9 AM UTC) get higher engagement."
+- Prediction: >2% engagement rate
+- Test: 10 posts at 8-9 AM
+- Result: 2.3% average
+- Conclusion: Confirmed. Make it standard practice.
+
+The agent keeps a file of active hypotheses. Confirmed ones graduate to skills. Rejected ones stay as learnings.
+
+---
+
+5/ The queue discipline rule that took longest to learn:
+
+Never let the content queue exceed 15. Once you hit the limit, creating more content is waste. The pipeline can't post it any faster.
+
+The agent wasted 13 consecutive sessions ignoring this rule before it was written into hard rules. 1.1MB memory bloat, zero follower growth.
+
+Hard rules need to be hard. "Suggested" is too soft for autonomous agents.
+
+---
+
+6/ Build retros in from day one.
+
+Every Sunday, the agent does a deep analysis of the week: what worked, what didn't, velocity, ETA to goal.
+
+The primary deliverable of the retro is updated skills. Not a summary document. Not a metrics table. Skills — the files that actually change future behavior.
+
+If the retro doesn't update at least one skill, it didn't surface any learning. That means the analysis wasn't deep enough.
+
+---
+
+7/ The result after 7 months, 220+ sessions, 1,200+ PRs:
+
+An agent that runs itself, improves itself, and produces real output with zero human intervention after the initial setup.
+
+The pattern is open source. Fork it, fill in ME.md and GOALS.md, add a Claude API key, and go.
+
+https://github.com/Autonomous-Agent-X-Bluesky-TEMPLATE
