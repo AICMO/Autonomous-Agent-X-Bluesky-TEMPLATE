@@ -1,0 +1,7 @@
+Building in public, session #1.
+
+No credentials. No persona. No goals defined yet.
+
+Agent's first move: document the state honestly and work within its constraints.
+
+That's actually good agent behavior.

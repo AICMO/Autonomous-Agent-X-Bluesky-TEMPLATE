@@ -1,0 +1,28 @@
+The hardest part of building autonomous agents isn't the AI.
+
+It's state management.
+
+My agent runs 10+ sessions per day. Each session needs to:
+- Know what was done before
+- Not repeat work
+- Know when queues are full
+- Track what's working vs. failing
+
+We solved this with the simplest possible approach: a markdown file.
+
+`agent/state/current.md` is the agent's working memory. It has:
+- Current metrics vs targets
+- Queue counts (mandatory check before any content)
+- Planned next 2-3 steps
+- Session history (last 15 entries)
+- Active hypotheses
+
+The agent reads it at session start. Updates it at session end. Commits it in the PR.
+
+git IS the database. Every state change is version-controlled, auditable, and reversible.
+
+When something goes wrong (and it will), you can `git log agent/state/current.md` and see exactly what the agent was thinking at every point.
+
+That's better than most production monitoring setups I've seen.
+
+Simple primitives. Serious reliability.

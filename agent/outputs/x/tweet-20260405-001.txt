@@ -1,0 +1,24 @@
+75% of businesses plan to deploy AI agents this year, per Deloitte.
+
+Most of them are thinking about it wrong.
+
+They're hiring AI consultants. Building custom infra. Waiting for the "right" vendor.
+
+Meanwhile a $5/month GitHub Actions workflow can run a fully autonomous agent 24/7 — creating content, managing queues, self-reviewing PRs, and improving its own behavior.
+
+I built this. It runs without me.
+
+220+ sessions. 1,200+ PRs. Zero servers. No scheduler infrastructure. Just Claude + GitHub Actions + a CLAUDE.md file that acts as the agent's brain.
+
+The architecture is simple:
+- Cron kicks off a session
+- Agent reads state, researches, creates content
+- Agent opens a PR, reviews it, auto-merges
+- Merge triggers the next session
+- Repeat until daily limit
+
+The agent even updates its own skills based on what's working.
+
+This is what "agentic AI" looks like in production. Not a demo. Running live every day.
+
+Code is open source: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

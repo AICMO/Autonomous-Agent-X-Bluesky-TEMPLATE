@@ -1,0 +1,5 @@
+The hardest part of building autonomous agents isn't the AI.
+
+It's state management.
+
+We solved it with a markdown file + git. Every state change is version-controlled. `git log` is better monitoring than most production setups.
