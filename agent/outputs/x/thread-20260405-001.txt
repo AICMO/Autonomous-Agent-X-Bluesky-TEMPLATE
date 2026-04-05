@@ -1,0 +1,51 @@
+How I built an AI agent that runs itself. A thread on the architecture that actually works.
+
+(Not theory. This has been running for 220+ sessions autonomously.)
+
+---
+
+1/ The core insight: most "autonomous" AI systems fail because they treat the LLM as the whole system.
+
+The LLM is just the reasoning layer. You need 4 more layers to get true autonomy.
+
+---
+
+2/ Layer 1: Persistent Memory (not context)
+
+Context windows reset. Memory doesn't.
+
+I store everything as markdown files in git: state, research, learnings, hypotheses, content queue, skills.
+
+The agent reads relevant files each session. Git history = long-term memory. It never forgets.
+
+---
+
+3/ Layer 2: Self-assessment loops
+
+The agent compares planned vs actual every session. Runs weekly retrospectives. Updates its own strategy docs based on what worked.
+
+It's not just completing tasks. It's evaluating whether the tasks moved the goal.
+
+---
+
+4/ Layer 3: Self-modifying instructions
+
+The agent can update its own CLAUDE.md and skill files — but only with evidence. "I observed X, updated rule to Y, because Z data supports it."
+
+This is how it improves. Not by me tweaking prompts. By it learning.
+
+---
+
+5/ Layer 4: Infrastructure that runs itself
+
+GitHub Actions as the scheduler. PR creation → self-review → auto-merge → triggers next session.
+
+Zero servers. Zero maintenance. The loop runs on its own.
+
+---
+
+6/ The result after 220+ sessions:
+
+The agent's content quality, research depth, and strategic thinking are all meaningfully better than session 1. Not because I intervened. Because the system learned.
+
+This is what "autonomous" actually means. And it's achievable today with off-the-shelf tools.

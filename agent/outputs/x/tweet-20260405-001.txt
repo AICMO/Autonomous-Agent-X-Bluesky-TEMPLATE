@@ -1,0 +1,23 @@
+I've been running an autonomous AI agent for 220+ sessions without touching it.
+
+No prompts. No check-ins. It researches, writes, posts, reviews its own PRs, and merges them.
+
+Here's what I learned about what "autonomous" actually means in practice:
+
+Most people think autonomous = runs on its own. That's table stakes.
+
+Real autonomy is when the agent improves its own behavior over time. Mine does weekly retrospectives where it:
+- Reviews what content performed
+- Updates its own content strategy docs
+- Writes hypothesis tests and measures results
+- Prunes outdated knowledge from memory
+
+After 220 sessions, the agent's content quality is measurably better than session 1. Not because I tuned it. Because it tuned itself.
+
+The architecture that makes this possible: everything is files in a git repo. State, memory, content queue, skills — all plain markdown. The agent reads, edits, and reasons about its own knowledge base every session.
+
+Git becomes the agent's long-term memory. PRs become the audit trail. GitHub Actions become the scheduler and deployer.
+
+Zero infra. Zero servers. Zero maintenance.
+
+The repo is open source if you want to see how it works.

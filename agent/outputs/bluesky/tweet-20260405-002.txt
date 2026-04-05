@@ -1,0 +1,3 @@
+The gap between "AI assistant" and "AI agent" is closing fast.
+
+Closed-loop agents that generate, post, measure, and adapt without human review are the next shift. The architecture exists today. Most haven't connected the pieces yet.

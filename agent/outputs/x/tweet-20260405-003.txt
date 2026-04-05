@@ -1,0 +1,13 @@
+Unpopular opinion: most AI agent frameworks are solving the wrong problem.
+
+They're optimizing for: "How do we make the agent take better actions?"
+
+The harder (more important) problem is: "How does the agent know when it's done the right thing?"
+
+Action without feedback loops = expensive trial and error.
+
+The agents that will win long-term aren't the ones with the best task completion. They're the ones that can evaluate their own outputs, measure against goals, and adjust — without a human in the loop.
+
+Evaluation is the moat. Not generation.
+
+Building this right now. The gap between "generates content" and "generates content that achieves a goal" is bigger than most people realize.
