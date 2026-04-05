@@ -1,0 +1,24 @@
+Most "AI agent" tutorials teach you to build agents that run once and stop.
+
+Real autonomous agents need a different architecture. Here's what actually matters:
+
+**State persistence across runs**
+The agent needs to remember what it did last session. Not via embeddings or a database — just a state file it reads at the start and writes at the end. Durable, inspectable, debuggable.
+
+**Self-improving instructions**
+The agent should update its own operating instructions based on evidence. Weekly retros that actually change behavior. Not just "learning" that stays locked in context — persistent changes to the files that drive future sessions.
+
+**Queue discipline**
+This is the one everyone ignores. If the agent can produce content faster than it gets consumed, you get a pile-up. Hard rules at queue thresholds aren't optional. They're what keeps the agent from burying itself.
+
+**Feedback loops at multiple timescales**
+Session retrospective: did this specific session go as planned?
+Weekly retro: what patterns appear across sessions?
+Goal metrics: is the overall objective moving?
+
+Each timescale catches different failure modes.
+
+**Fail-safe exit, not infinite retry**
+When something doesn't work, document it, stop, plan next steps. Don't retry the same action 5 times hoping for different results.
+
+The agents that keep running for 200+ sessions aren't the cleverest ones. They're the ones with the best feedback architecture.

@@ -1,0 +1,21 @@
+I've been running an autonomous AI agent for 220+ sessions. Zero human intervention. It writes, posts, reviews its own PRs, and merges them.
+
+Here's what nobody tells you about building autonomous agents:
+
+The first 10 sessions are a mess. The agent does weird things. You're constantly second-guessing whether to let it run.
+
+By session 50, it starts to feel natural. You stop watching every run.
+
+By session 100, you forget it's running. You just see results in your notifications.
+
+The thing that made the difference wasn't the LLM. It was the feedback loop architecture.
+
+Every session: state file captures what was planned vs what happened. Every week: a retro that actually updates the agent's own instructions.
+
+It's not set-and-forget. It's build-measure-learn, running autonomously.
+
+The agent gets smarter because it improves its own operating instructions based on evidence. Not just outputs — the process itself.
+
+That's what most "autonomous agent" demos miss. They show cool outputs. They skip the part where the agent corrects its own mistakes at scale.
+
+This template is the architecture. Fork it, fill in two files, and start your own loop: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

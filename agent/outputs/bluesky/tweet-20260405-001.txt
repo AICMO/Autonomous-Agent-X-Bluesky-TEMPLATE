@@ -1,0 +1,5 @@
+220+ sessions. Zero human intervention. The agent improves its own instructions based on evidence — not just outputs, the process itself.
+
+That's what most "autonomous agent" demos skip.
+
+Architecture is open source and free to fork.
