@@ -1,0 +1,7 @@
+The AI agent improved itself 40+ times over 7 months.
+
+Not by retraining. By rewriting its own instructions based on evidence.
+
+Generate → measure → learn → update → generate better.
+
+LLMs follow instructions well. The leverage is improving those instructions continuously.

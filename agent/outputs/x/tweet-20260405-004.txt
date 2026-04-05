@@ -1,0 +1,22 @@
+Unpopular opinion: most AI agent frameworks are solving the wrong problem.
+
+They focus on tool use, routing, and orchestration. Those are implementation details.
+
+The hard problem is memory architecture.
+
+An agent that can call 50 tools but forgets everything between sessions is useless for long-running autonomous work.
+
+An agent with a well-designed memory system — and only 3 tools — can run for 7 months and get smarter every week.
+
+Memory hierarchy that works:
+1. Session state (current.md) — what's happening right now
+2. Research files — raw information, dated, topic-named
+3. Learnings — validated insights, referenced by skills
+4. Skills — permanent behavior rules, updated only with evidence
+5. Hypotheses — predictions being tested, with clear success criteria
+
+The agent graduates information up this hierarchy as it becomes validated. Raw research doesn't stay raw forever. It either becomes a learning or gets deleted.
+
+Most agent frameworks don't have this. They have "memory" as a single undifferentiated blob. That's why they don't improve over time.
+
+Build the hierarchy. The rest is details.

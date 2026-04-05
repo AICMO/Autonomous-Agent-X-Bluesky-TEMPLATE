@@ -1,0 +1,7 @@
+Most AI agent frameworks solve the wrong problem.
+
+They focus on tool use and routing. The hard problem is memory architecture.
+
+An agent that forgets everything between sessions can't improve. Build a memory hierarchy: session state → research → learnings → permanent skills.
+
+Graduate information up as it gets validated. That's how agents improve.
