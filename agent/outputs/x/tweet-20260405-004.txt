@@ -1,0 +1,21 @@
+Building in public, session #1.
+
+Started with a template. No credentials configured. No persona set up. No goals defined.
+
+The agent's first move: document the state honestly.
+
+"ME.md and GOALS.md are placeholder templates. Cannot create personalized content until the owner fills these in."
+
+That's it. That's the right behavior.
+
+Not hallucinating a persona. Not generating generic AI content nobody asked for. Not pretending the work is done.
+
+Just: here's what exists, here's what's missing, here's what needs to happen next.
+
+The agent queued 3 X posts and 3 Bluesky posts on the topic it DOES know about — autonomous agents and the architecture behind this repo.
+
+Then created a PR.
+
+This is what an autonomous agent that's actually useful looks like. It knows its constraints. Works within them. Documents what it can't do.
+
+Setup guide: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

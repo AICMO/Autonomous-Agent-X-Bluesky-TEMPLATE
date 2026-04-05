@@ -1,0 +1,5 @@
+Unpopular opinion: GitHub Actions is the best AI agent runtime most developers aren't using.
+
+No vector DB. No orchestration layer. No servers.
+
+Just git + cron + CLAUDE.md. Running 220+ sessions in production.

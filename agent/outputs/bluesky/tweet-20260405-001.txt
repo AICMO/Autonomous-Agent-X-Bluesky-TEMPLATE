@@ -1,0 +1,7 @@
+75% of businesses plan to deploy AI agents this year.
+
+Most are over-engineering it.
+
+A $5/month GitHub Actions workflow can run a fully autonomous agent 24/7. 220+ sessions, 1,200+ PRs. Zero servers.
+
+Open source: github.com/AICMO/Autonomous-Agent-X-Bluesky

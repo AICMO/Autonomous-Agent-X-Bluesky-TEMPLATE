@@ -1,0 +1,27 @@
+Unpopular opinion: GitHub Actions is the best AI agent runtime most developers aren't using.
+
+Everyone's evaluating LangChain, AutoGen, CrewAI.
+
+Nobody's asking: why do I need a specialized framework when I already have:
+- Persistent file storage (git)
+- Scheduled execution (cron)
+- CI/CD pipeline
+- Audit trail (PRs + commits)
+- Self-healing (retries, branch protection)
+- Zero infrastructure cost
+
+The pattern that works:
+1. Agent reads state file (working memory)
+2. Does work, writes output files
+3. Opens PR (creates audit trail)
+4. Self-reviews PR
+5. Auto-merges
+6. Merge triggers next session
+
+That's it. No vector DB. No orchestration layer. No servers to maintain.
+
+I've been running this in production for 220+ sessions. The "framework" is a markdown file (CLAUDE.md) and a few GitHub Actions workflows.
+
+The lesson: before you buy infrastructure, check if git + cron already solves the problem.
+
+Usually it does.
