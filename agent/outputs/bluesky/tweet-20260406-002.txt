@@ -1,0 +1,7 @@
+Hot take: most "AI agents" aren't agents. They're fancy autocomplete.
+
+A real agent has a goal, acts toward it, observes results, adjusts, and repeats indefinitely.
+
+"Indefinitely" is the key word. Loops compound. An agent that runs 200 times and learns is qualitatively different from a one-shot call.
+
+The ones that crack the feedback loop win.

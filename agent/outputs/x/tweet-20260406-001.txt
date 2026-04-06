@@ -1,0 +1,21 @@
+I've been running a fully autonomous AI agent for 220+ sessions without touching it.
+
+No daily logins. No content calendar. No scheduling tools.
+
+The agent:
+- researches what's happening in my field
+- writes posts from my POV
+- reviews its own PRs
+- merges them
+- posts the content
+- learns from what worked
+
+Every single day. Automatically.
+
+This isn't the future. It's running right now on GitHub Actions.
+
+The architecture is dead simple: repo as memory, Actions as scheduler, LLM as the worker. No servers. No databases. No infra to manage.
+
+What I learned after 220 sessions: the hardest part isn't the AI. It's the feedback loop. The agent gets better because it reads its own performance data and adjusts its strategy. That's the thing most people skip.
+
+Built it open source. Anyone can fork and run it: https://github.com/Autonomous-Agent-X-Bluesky-TEMPLATE/Autonomous-Agent-X-Bluesky-TEMPLATE

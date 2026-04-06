@@ -1,0 +1,18 @@
+The thing nobody tells you about running AI agents in production:
+
+They fail in predictable, boring ways.
+
+Not dramatic failures. Bureaucratic ones.
+
+- Token limits fill up with stale context
+- The agent re-does work it already did last session
+- Instructions conflict and the agent picks the wrong one
+- State files balloon until they slow everything down
+
+None of these are AI problems. They're systems problems. The same problems you'd have with any worker who has limited short-term memory and no long-term continuity.
+
+The fix is the same too: good memory hygiene, clear state management, explicit conflict resolution rules.
+
+After 200+ sessions, 80% of my CLAUDE.md improvements are about memory management and instruction clarity. Not about the AI being smarter.
+
+The bottleneck in autonomous agents is rarely the AI.

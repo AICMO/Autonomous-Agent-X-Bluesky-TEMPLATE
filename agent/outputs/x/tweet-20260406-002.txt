@@ -1,0 +1,16 @@
+Hot take: most "AI agents" aren't agents. They're fancy autocomplete.
+
+A real agent:
+- has a goal
+- takes action toward that goal
+- observes results
+- adjusts strategy
+- repeats indefinitely
+
+The keyword is "indefinitely." One-shot LLM calls are tools, not agents. Agents run in a loop with persistent state.
+
+The difference matters because loops compound. An agent that runs 200 times and learns from each run is qualitatively different from one that runs once — even if each individual run looks identical.
+
+We're still in the early days of understanding what persistent, self-improving agents can actually do. Most teams are barely past step one.
+
+The ones that crack the feedback loop win.

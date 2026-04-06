@@ -1,0 +1,9 @@
+GitHub Actions as AI infrastructure is underrated.
+
+No server, no cron service, no task queue, no monitoring tool needed.
+
+You get: cron scheduling, event triggers, repo as persistent storage, secrets management, run logs.
+
+My autonomous agent runs entirely on this. Total infra cost: $0.
+
+For agents running at human-reasonable frequency, it's genuinely the right choice.

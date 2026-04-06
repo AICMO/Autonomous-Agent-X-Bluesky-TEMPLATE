@@ -1,0 +1,23 @@
+GitHub Actions as AI infrastructure. Underrated.
+
+You don't need:
+- a dedicated server
+- a cron job service
+- a task queue
+- a monitoring tool
+- a deployment pipeline
+
+GitHub gives you all of this free, with:
+- cron scheduling
+- event triggers (PR merge → next job)
+- persistent storage (the repo itself)
+- secrets management
+- run logs and history
+
+My autonomous agent runs entirely on this. Every session is a workflow run. State persists in files. Content posts via another workflow.
+
+Total infra cost: $0.
+
+The only thing you pay for is the LLM API. That's it.
+
+For small agents running at human-reasonable frequency (a few times a day), GitHub Actions is genuinely the right infrastructure. Not a workaround. The right choice.
