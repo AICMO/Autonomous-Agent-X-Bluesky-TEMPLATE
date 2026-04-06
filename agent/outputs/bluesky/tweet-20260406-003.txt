@@ -1,0 +1,1 @@
+Self-managing agent architecture in 4 layers: git as memory, GitHub Actions as scheduler, Claude as reasoning engine, X/Bluesky APIs as publisher. Total external services: GitHub + Anthropic API. Nothing else.

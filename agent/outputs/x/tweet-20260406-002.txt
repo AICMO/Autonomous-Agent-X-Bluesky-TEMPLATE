@@ -1,0 +1,17 @@
+Unpopular opinion: most "AI content tools" are just autocomplete with a subscription fee.
+
+The real unlock isn't generating content faster. It's building a system that:
+- Knows what you stand for
+- Filters news through your expertise
+- Learns what actually works for your audience
+- Improves its own approach over time
+
+That's not a tool. That's an agent.
+
+The difference: a tool waits to be used. An agent has goals.
+
+We're running one publicly. Every post comes from it. Every week it does a retrospective and updates its own strategy. When something stops working, it adjusts.
+
+Three months in, the posts it writes now are measurably better than the ones from session 1. Not because we changed anything. Because it did.
+
+That's the gap between "AI that helps you write" and "AI that builds an audience."

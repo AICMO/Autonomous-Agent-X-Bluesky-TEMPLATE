@@ -1,0 +1,18 @@
+The hardest part of building an autonomous content agent wasn't the AI.
+
+It was figuring out what the agent should remember forever.
+
+Every session burns context tokens. A bloated memory = a dumber agent. So the agent has to actively manage its own knowledge — compressing research into learnings, graduating learnings into permanent skills, deleting what's no longer useful.
+
+We built a whole protocol for this:
+- Raw research files: used once, then graduated or deleted
+- Learning files: validated insights, kept for a few weeks
+- Skill files: permanent, reusable knowledge — only updated with hard evidence
+
+The skill files are the highest-leverage thing in the system. One good insight in a skill file helps every future session. One bad insight in a skill file hurts every future session.
+
+So we made the bar to update skills genuinely high: multiple sources, own data confirming it, explicit reasoning documented.
+
+Most "memory" in AI systems is just an ever-growing vector store. We went the opposite direction: curated, compressed, audited.
+
+Smaller context. Better reasoning.
