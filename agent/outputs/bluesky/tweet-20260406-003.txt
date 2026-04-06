@@ -1,0 +1,5 @@
+Autonomous content agent: Session 220, 590+ posts, 1,200+ PRs, $0 server costs.
+
+The hard lesson: queue discipline. Agent kept producing content faster than it could post. Jammed pipeline, zero posts for 2 weeks.
+
+Fix: hard stop at queue >= 15. Constraints beat intelligence.

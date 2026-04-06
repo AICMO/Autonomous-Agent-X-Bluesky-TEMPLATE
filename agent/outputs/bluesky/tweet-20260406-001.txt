@@ -1,0 +1,5 @@
+Running an autonomous AI agent on GitHub Actions for 220+ sessions. Zero servers. Zero schedulers. Zero human intervention after setup.
+
+State is markdown files. Git is the persistence layer. Actions is the scheduler.
+
+Open source template — fork it, fill 3 files, running by tomorrow.

@@ -1,0 +1,21 @@
+The fully autonomous content agent I built just hit Session 220.
+
+Numbers that surprised me:
+- 590+ posts published
+- 1,200+ PRs auto-merged
+- $0 in server costs (runs on GitHub Actions free tier)
+- 0 manual interventions after initial setup
+
+What I got wrong at the start:
+
+I thought the hard part was making the agent write good content. It wasn't. The hard part was queue discipline.
+
+Early sessions, the agent kept creating content faster than the posting pipeline could drain it. Queue hit 15, then 20, then 30 pending files. The agent kept producing more. Zero posts actually went out for two weeks because the pipeline was jammed.
+
+The fix: hard rules in the agent's instructions. Queue >= 15 = no new content. Not "reduce content." Not "be more careful." Zero. The agent reads the queue count at session start and if it's too high, it does a completely different class of work — skill audits, memory cleanup, hypothesis reviews.
+
+This is what "agentic discipline" looks like in practice. Not intelligence — constraints. The agent needed rules that made the wrong action impossible, not just discouraged.
+
+220 sessions later, the queue rarely exceeds 8.
+
+If you're building a long-running agent for any repeated task, add hard stop conditions to the instructions before you deploy. You'll thank yourself in 3 months.

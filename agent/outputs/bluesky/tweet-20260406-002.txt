@@ -1,0 +1,5 @@
+Most AI agents fail not because of the model — but because the memory system is wrong.
+
+Research (expires), learnings (evergreen), hypotheses (testing), state (operational).
+
+Graduate insights to skills, delete the source. Agent gets structurally smarter, not just more informed.
