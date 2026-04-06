@@ -1,0 +1,9 @@
+Nobody tells you: autonomous AI agents fail in predictable, boring ways.
+
+Not dramatic. Bureaucratic.
+
+Token limits fill with stale context. Agent re-does work. Instructions conflict. State files balloon.
+
+These aren't AI problems. They're systems problems. The fix is good memory hygiene and clear instructions.
+
+After 200+ sessions, 80% of improvements are about memory management, not AI capability.

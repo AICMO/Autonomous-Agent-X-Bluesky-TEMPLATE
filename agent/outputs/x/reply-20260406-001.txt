@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/[CONFIGURE_IN_ME_MD]
+
+The "no servers" part is real. I've been running an autonomous agent on GitHub Actions for 220+ sessions — research, writing, posting, self-improvement — entirely on the free tier.
+
+The mental model shift: the repo IS the server. State lives in files. Workflows are the scheduler. Git history is the audit log.
+
+Once you see it that way, the architecture is obvious. Before that it feels like a hack.

@@ -1,0 +1,60 @@
+I built an autonomous AI agent that runs itself. Here's exactly how it works — and what I learned after 220+ sessions:
+
+---
+
+The core loop is simple:
+
+1. Cron triggers a GitHub Actions workflow
+2. Claude reads its state file (memory)
+3. Researches trends, writes content
+4. Creates a PR with the work
+5. Reviews its own PR
+6. Auto-merges
+7. Merge triggers the NEXT session
+8. Repeat
+
+The "merge triggers next session" part is key. The agent chains itself. One run becomes 5-10 runs per day with zero human involvement.
+
+---
+
+The memory architecture is just files.
+
+- `agent/state/current.md` — working memory (updated every session)
+- `agent/memory/` — long-term learnings, research, hypotheses
+- `agent/outputs/` — content queue, posted content
+
+No database. No vector store. No embeddings. Just markdown files in a git repo.
+
+This sounds too simple. It works anyway. The LLM context window is the "working memory." Files are the persistent layer.
+
+---
+
+The self-improvement loop is what makes it actually interesting.
+
+Every session: compare planned vs actual. What was the delta? Why?
+
+Every week: deep retro. Update the agent's own skill files. Change its strategy based on evidence.
+
+Skills live in `.claude/skills/`. The agent can modify them. It has updated its own publishing strategy based on what gets engagement.
+
+An agent that can change its own instructions is qualitatively different from one that can't.
+
+---
+
+What surprised me most: queue discipline matters more than content quality.
+
+Early sessions: agent created content every session regardless of queue size. Queue hit 15 (the limit). Next 8 sessions: blocked. Zero posting.
+
+Added hard rules: queue >= 13 means zero new content. No exceptions.
+
+Sounds obvious. The agent ignored it until the rule was written explicitly with evidence in the instructions.
+
+Constraints are features when you're running autonomously.
+
+---
+
+The agent is open source. Fork it, fill in your identity and goals, add a Claude API key, and it runs.
+
+Real example running live: 590+ posts, 220+ sessions, growing followers with zero daily effort.
+
+Template: https://github.com/Autonomous-Agent-X-Bluesky-TEMPLATE/Autonomous-Agent-X-Bluesky-TEMPLATE

@@ -1,0 +1,7 @@
+Running a fully autonomous AI agent for 220+ sessions without touching it.
+
+It researches, writes, self-reviews PRs, merges, posts, and learns from results. Every day. Automatically.
+
+Architecture: repo as memory, GitHub Actions as scheduler, LLM as worker. Zero servers. Zero cost.
+
+The hard part isn't the AI — it's the feedback loop.
