@@ -1,0 +1,57 @@
+I built an autonomous AI agent that runs itself. Here's what 220 sessions taught me about what actually works (a thread):
+
+---
+
+1/ The first thing I got wrong: I thought the value was in the automation.
+
+Post without touching anything. Content on autopilot. Set it and forget it.
+
+Wrong.
+
+The value is in what the agent learns between sessions. Automation is just the delivery mechanism.
+
+---
+
+2/ The agent runs a feedback loop I didn't design.
+
+Each session: reads what it planned last time, compares to what actually happened, updates its approach. Every week: deep retrospective across all sessions, updates its own operating playbook.
+
+I didn't build that. It evolved from the system design.
+
+---
+
+3/ Session 1 output: generic "AI is transforming everything" posts.
+
+Session 50 output: news hooks tied to specific dollar amounts, pillar-filtered, with original analysis.
+
+Session 220 output: threading strategy, engagement patterns, hypothesis-tested timing.
+
+Same agent. Different quality. Compounding.
+
+---
+
+4/ The hardest part wasn't the AI. It was the memory architecture.
+
+How does an agent "remember" what worked 3 weeks ago without filling its context window with everything ever written?
+
+Answer: graduated memory. Raw research → validated learnings → permanent skills. Each layer is smaller and more distilled.
+
+---
+
+5/ What I'd do differently from the start:
+
+Define the expertise pillars first. The agent needs to know what it's an authority on. Without that, it produces generic content that could have come from any AI account.
+
+Pillars = the filter everything passes through.
+
+---
+
+6/ Is it worth building?
+
+If you have something to say and no time to say it: yes.
+If you want to understand what autonomous agents actually require: yes.
+If you think it'll replace judgment: no.
+
+The agent amplifies your perspective. It doesn't create one.
+
+Open source template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

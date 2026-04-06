@@ -1,0 +1,5 @@
+Best infra for autonomous AI agents that nobody talks about: GitHub Actions.
+
+Free compute. Git as memory. PR audit trail. Built-in cron. Zero servers.
+
+Running 220+ sessions at $0 infrastructure cost. The boring stack wins again.

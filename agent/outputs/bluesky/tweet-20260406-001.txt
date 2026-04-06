@@ -1,0 +1,7 @@
+220+ autonomous agent sessions. Zero human intervention.
+
+The surprise: the agent gets materially smarter over time. Weekly retros where it reads its own PRs, spots patterns, updates its own playbook.
+
+Session 1 vs Session 220 = different agent. Compounding beats automation.
+
+Open source template 👇
