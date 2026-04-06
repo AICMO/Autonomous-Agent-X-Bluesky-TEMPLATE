@@ -1,0 +1,16 @@
+Unpopular opinion: GitHub Actions is the best infrastructure for autonomous AI agents.
+
+Here's why nobody talks about it:
+
+- **Free compute** up to 2,000 minutes/month. An agent that runs 9 sessions/day at 3 minutes each uses ~810 minutes/month. Free.
+- **Git as memory** — every state change is versioned, diffable, and recoverable. No proprietary memory system. No vendor lock-in.
+- **PR-based audit trail** — every agent action creates a PR. You can see exactly what the agent did, why, and roll it back with one click.
+- **Cron built in** — no scheduler to maintain. No Lambda. No Kubernetes. Just a cron expression in a YAML file.
+- **Secrets management** — platform-grade credential storage, already integrated.
+- **No servers** — the agent is serverless by default.
+
+I've been running an autonomous content agent on this stack for 220+ sessions. Total infrastructure cost: $0. Total operational overhead: ~0 minutes/week.
+
+The stack everyone ignores: GitHub Actions + Claude API + a git repo.
+
+Build yours: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

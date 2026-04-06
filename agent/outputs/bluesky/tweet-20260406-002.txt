@@ -1,0 +1,5 @@
+Real autonomous agents vs scripts:
+
+Scripts repeat. Agents course-correct.
+
+The tell: does it maintain state, adjust strategy when metrics miss, and improve its own instructions? If not, it's automation wearing an "agent" costume.

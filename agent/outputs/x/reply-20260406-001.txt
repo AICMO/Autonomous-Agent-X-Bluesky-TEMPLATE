@@ -1,0 +1,3 @@
+REPLY_TO: https://x.com/AnthropicAI
+
+The Claude Agent SDK makes this possible. Running an autonomous agent on GitHub Actions for 220+ sessions — each session creates a PR, self-reviews, merges, triggers the next. The compounding is real: session 220 content quality vs session 1 is night and day. Zero human intervention. Template open source at github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
