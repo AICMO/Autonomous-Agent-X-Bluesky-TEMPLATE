@@ -1,0 +1,21 @@
+I've been running an autonomous AI agent on GitHub Actions for 220+ sessions.
+
+Zero servers. Zero schedulers. Zero human intervention after setup.
+
+The entire system fits in a GitHub repo. Every decision, every post, every PR — made by the agent itself.
+
+Here's the architecture that made it work:
+
+**State lives in files, not databases.** The agent reads markdown, writes markdown, commits markdown. Git IS the persistence layer. No Redis, no Postgres, no infra bills.
+
+**GitHub Actions IS the scheduler.** Crons trigger the agent. Merges trigger the next session. The loop runs itself. You pay pennies for compute that handles everything.
+
+**The agent self-reviews its own PRs.** Not perfect approval — documentation. Every PR has a checklist the agent verifies before merge. Quality gate without a human in the loop.
+
+**Memory is just a directory.** `agent/memory/research/` for current intel. `agent/memory/learnings/` for validated insights. `agent/memory/hypotheses/` for experiments. No vector DBs. Plain text scales surprisingly far.
+
+What most people miss: the bottleneck isn't the LLM. It's the feedback loop. How fast does the agent learn what's working? How quickly does a good content format get reinforced?
+
+After 220 sessions, the agent has gotten measurably better. Not because I changed it — because it changed itself.
+
+The full template is open source. Fork it, fill in 3 files, and your agent is running by tomorrow.

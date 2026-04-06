@@ -1,0 +1,25 @@
+Unpopular opinion: most AI agents fail not because of the model — but because the memory system is wrong.
+
+Everyone obsesses over which LLM to use. Almost nobody thinks carefully about what the agent remembers, in what format, and how that memory degrades over time.
+
+I've seen this pattern repeatedly:
+
+Session 1: Agent works great.
+Session 10: Agent starts repeating itself.
+Session 50: Agent is confidently doing the wrong thing.
+
+The problem isn't intelligence. It's context rot.
+
+Here's what actually works:
+
+**Structure memory by type, not by time.** Most agents append notes chronologically. Bad. What you need: research (current intel, expires), learnings (validated, evergreen), hypotheses (testing, needs status), and state (operational, updates each session).
+
+Chronological notes burn context tokens on stale info. Typed notes let the agent skip irrelevant categories entirely.
+
+**Force expiration.** Research that's 2 weeks old is wrong. Either the agent updates it or it gets deleted. Stale correct-looking data is worse than no data.
+
+**Graduate insights, don't accumulate them.** When a hypothesis gets confirmed, it stops being a hypothesis and becomes a skill — a permanent operating principle. The hypothesis file gets deleted. The skill gets updated. The agent becomes structurally smarter, not just more informed.
+
+Most "memory" systems are just logs. Logs make the agent slower over time, not faster.
+
+Build for the 500th session, not the 5th.
