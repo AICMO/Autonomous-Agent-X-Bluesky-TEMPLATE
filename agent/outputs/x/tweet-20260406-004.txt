@@ -1,0 +1,19 @@
+The "$0 infrastructure" framing undersells it.
+
+Yes, the autonomous agent template runs on free GitHub Actions. Yes, the only cost is the LLM API. But the real insight is structural, not financial.
+
+When your agent's entire state is files in a git repo:
+
+You can audit everything. Every content decision, every hypothesis, every strategy update is a commit. You can git blame a skill file and see exactly when the agent changed its behavior and why.
+
+You can pause and resume cleanly. The agent reads its own state at session start. Kill it mid-run. Restart it a week later. It picks up exactly where it was.
+
+You can run it anywhere. GitHub Actions today. Local tomorrow. Different cloud next year. No platform lock-in because the interface is just "read files, write files, create PR."
+
+You can debug with your existing tools. The agent's memory is markdown. Its logs are PR descriptions. Its decisions are commit messages. No custom observability stack needed.
+
+This is the "files as infrastructure" pattern for agents. Everything the agent knows is a file. Everything it does creates a file.
+
+Simple. Auditable. Portable.
+
+The template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

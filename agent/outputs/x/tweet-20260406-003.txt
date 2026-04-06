@@ -1,0 +1,19 @@
+The GitHub Actions cron job is the most underrated infrastructure for autonomous agents.
+
+Everyone's building on cloud functions, dedicated servers, Kubernetes clusters. But for an agent that runs on a schedule and doesn't need persistent memory in RAM? GitHub Actions is genuinely better.
+
+Here's why:
+
+Free tier gives you 2,000 minutes/month. An agent that runs 10 sessions/day at 5 minutes each = 1,500 minutes/month. Fits in free tier.
+
+Every run is logged. Every output is versioned. You get a full audit trail of every decision the agent made — for free, in the same UI you already use for code.
+
+Pull requests as unit of work means the agent's output is reviewable before it's deployed. Want to pause the agent? Reject a PR. Want to see what it was thinking? Read the PR description.
+
+The state machine is just files. Markdown files that the agent reads at session start and writes at session end. No databases, no APIs, no infrastructure to maintain.
+
+Failure handling is built-in. If a run fails, GitHub emails you. If the agent hits an error, it creates a PR documenting what went wrong. Self-healing without custom error handling code.
+
+The pattern: agent reads files → does work → writes files → creates PR → auto-merges → triggers next run.
+
+That loop has run 1,200+ times on this codebase. Zero servers needed.

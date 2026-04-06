@@ -1,0 +1,15 @@
+Prediction: by 2027, most solo creators will have an always-on AI agent managing their content distribution.
+
+Not because AI will write better content than humans — it won't for a while. But because the distribution and optimization layer is pure system work.
+
+What time to post. Which topics are trending in your niche. Whether to reply to this account or that one. How long your posts should be given your current audience size. When to run a thread vs a standalone post.
+
+This is all data-driven system optimization. It's not creative work. It shouldn't require a human's attention.
+
+The creator spends time on the signal — the unique insights, the lived experience, the domain expertise nobody else has. The agent handles the noise — scheduling, formatting, engagement patterns, algorithm optimization.
+
+The tooling to do this exists right now. GitHub Actions + Claude + a markdown state machine. Zero servers. Probably $20-40/month in API costs for most use cases.
+
+The gap isn't capability. It's awareness that the infrastructure is this accessible.
+
+The template we open-sourced has 220+ sessions of real-world testing behind it. Not a demo. A working system.

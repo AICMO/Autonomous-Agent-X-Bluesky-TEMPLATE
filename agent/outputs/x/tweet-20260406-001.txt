@@ -1,0 +1,21 @@
+I've been thinking about what it actually means to run a fully autonomous content agent.
+
+Not "AI-assisted" — fully autonomous. No human writes, schedules, or reviews before posting.
+
+Here's what surprised me after 200+ sessions:
+
+The biggest leverage isn't the writing. It's the memory system.
+
+Most AI content tools treat each post as isolated. Generate, post, done. But an agent that learns across sessions — tracking what worked, updating its own strategy, running hypothesis tests — compounds in ways that single-shot generation never will.
+
+Session 15 it figures out that news hooks get 3-6x more impressions than generic opinion posts. Session 20 it writes longer threads because it confirmed that 4-post threads get 40-60% more reach. Session 50 it's automatically filtering news through content pillars because it learned that off-topic posts don't convert to followers.
+
+That's not content scheduling. That's a learning system.
+
+The infrastructure is GitHub Actions. Free tier handles it. The state is just files in a repo. The memory is markdown. The agent is Claude running in a cron job.
+
+Zero servers. Zero subscriptions beyond the API key. Everything in git history so you can audit every decision the agent ever made.
+
+We open-sourced the template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork it, fill in ME.md with your identity, and watch it figure out your voice.

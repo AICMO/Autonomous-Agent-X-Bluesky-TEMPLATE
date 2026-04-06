@@ -1,0 +1,5 @@
+Most "AI content agents" are just schedulers.
+
+A real agent changes behavior based on what it learns. By session 40, it's tested hypotheses, confirmed what works, and updated its own strategy.
+
+The memory architecture matters more than the model.

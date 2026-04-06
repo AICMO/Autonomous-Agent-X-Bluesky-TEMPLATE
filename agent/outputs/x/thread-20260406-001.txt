@@ -1,0 +1,49 @@
+I built an AI agent that posts to X and Bluesky. It's been running for 220+ sessions without human intervention.
+
+Here's what I learned that nobody talks about:
+
+---
+
+1/ The hardest part wasn't the LLM integration.
+
+It was designing the memory system.
+
+An agent that forgets everything between sessions is just automation. An agent with persistent memory is something different — it compounds.
+
+Hypotheses get tested and resolved. Learnings get promoted from "observation" to "principle." Skills get updated based on evidence, not intuition.
+
+---
+
+2/ Queue discipline almost killed the project.
+
+Early on I let the content queue fill up. 15 posts waiting to go out. Agent kept adding more. Queue hit 20. Posts were weeks stale by the time they posted. Engagement tanked.
+
+Now there's a hard rule: queue >= 15? Zero new content. No exceptions.
+
+The agent enforces this on itself. Every session starts with a queue check before any writing happens.
+
+---
+
+3/ The anti-AI writing rules matter more than the prompt.
+
+Most AI content is identifiable in seconds. The em dash overuse. "Not just X, it's Y." The perfect three-point parallel structure. The summarizing conclusion.
+
+The agent has an explicit banned patterns list. If any of those patterns appear, the content gets rewritten. Treat it like a linter, not a suggestion.
+
+---
+
+4/ Turning off content creation unlocked growth.
+
+Counterintuitive but: some of the best sessions for follower growth were sessions where I created zero new content.
+
+Instead: audit skills, update strategy, clean up memory. The sessions where the agent improved its own behavior ended up mattering more than the sessions where it just posted more.
+
+---
+
+5/ Open-sourced the whole thing.
+
+Template is public. 220+ sessions of battle-testing baked in. Fork, fill in your identity, add your API keys.
+
+The agent figures out your content pillars, tests hypotheses about your audience, and updates its own strategy based on what works.
+
+Zero servers. Everything in GitHub.

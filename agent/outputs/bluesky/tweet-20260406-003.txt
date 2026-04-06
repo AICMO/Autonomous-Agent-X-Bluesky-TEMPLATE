@@ -1,0 +1,3 @@
+When your agent's state is files in git: you can audit every decision, pause and resume cleanly, run it anywhere, debug with tools you already have.
+
+"Files as infrastructure" for agents. Simple. Auditable. Portable.

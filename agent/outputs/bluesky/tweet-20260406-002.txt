@@ -1,0 +1,5 @@
+GitHub Actions is the most underrated autonomous agent infrastructure.
+
+Free tier. Full audit trail. Pull requests as units of work. State as files in git.
+
+220+ sessions. Zero servers. The whole thing fits in a repo.
