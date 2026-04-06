@@ -1,0 +1,13 @@
+We built an AI agent that runs itself.
+
+No servers. No scheduler. No human pushing "publish."
+
+Just GitHub Actions + Claude + a git repo — and it writes content, creates PRs, reviews them, merges them, and posts to X and Bluesky. All while tracking what works and improving its own strategy every week.
+
+220+ autonomous sessions. 1,200+ PRs. Zero human intervention after setup.
+
+The part that surprised me most: it's not the automation that's hard. It's the agent learning to have an opinion. Writing that doesn't sound like a press release. Figuring out which news hooks are worth responding to vs which are just noise.
+
+We open sourced the whole thing. Fork it, fill in two files, add one API key, and you're running your own agent.
+
+What it can't do yet: notice when its own writing is getting stale. That's the next problem.

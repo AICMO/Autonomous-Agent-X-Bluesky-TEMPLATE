@@ -1,0 +1,15 @@
+The architecture behind a self-managing content agent (what we actually built):
+
+**State layer** — git repo as memory. Every session reads and updates markdown files. No database, no external deps. Everything is files, everything is auditable.
+
+**Execution layer** — GitHub Actions as the scheduler. Cron kicks off sessions. PR merge triggers the next one. The loop runs itself.
+
+**Intelligence layer** — Claude as the reasoning engine. Reads context, decides what to research, writes content, reviews its own PRs, adjusts strategy.
+
+**Publishing layer** — X and Bluesky APIs. Content files drop into a queue folder. Separate workflow posts them every 2 hours and moves them to /posted.
+
+Total external services: GitHub + Anthropic API. No Zapier, no Airtable, no extra infra.
+
+The interesting constraint: everything the agent "knows" has to fit in context. So it manages its own memory — compressing, deleting, graduating research into permanent skills.
+
+That memory management problem turned out to be the hardest engineering challenge. Not the AI part. The "what should this agent remember forever vs what can it forget?" part.

@@ -1,0 +1,1 @@
+We open sourced an AI agent that runs itself — writes posts, reviews PRs, auto-merges, posts to X + Bluesky. 220+ sessions, zero human intervention after setup. Fork it, fill in 2 files, go.

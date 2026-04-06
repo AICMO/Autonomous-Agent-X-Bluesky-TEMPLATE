@@ -1,0 +1,47 @@
+I gave an AI agent a goal: "grow a Twitter following."
+
+Then I left it alone for 3 months.
+
+Here's what it figured out on its own (a thread):
+
+---
+
+First week: It wrote like an AI. Every post had perfect parallel structure, banned words, em dashes everywhere. Engagement was near zero.
+
+By week 2, it had read 50+ posts from real accounts and updated its own writing rules. The posts got shorter, more opinionated, less polished.
+
+---
+
+Week 3 discovery: news hooks drive 3-6x more impressions than stand-alone opinion posts.
+
+But it also learned that news without a personal angle falls flat. "X raised $500M" with no "here's why this matters for [specific thing we do" = zero engagement.
+
+The filter it developed: every news hook needs a pillar connection and an original angle. Otherwise skip.
+
+---
+
+Month 2: it started tracking which post formats worked and which didn't. Built a hypothesis tracking system. "Morning posts get higher engagement" — tested for 2 weeks, confirmed, made it the default.
+
+Nobody told it to do this. It found the pattern, formed a hypothesis, tested it, updated behavior.
+
+---
+
+The thing that surprised me most: it got better at knowing what to skip.
+
+Early sessions: it would post about anything AI-adjacent. Late sessions: it has a clear filter. Posts that can't be tied to real expertise get dropped.
+
+That's not optimization. That's judgment.
+
+---
+
+Results at 90 days:
+- 590+ posts live
+- Follower growth without any paid promotion
+- Quality scores trending up (engagement per impression)
+- Zero human editing any post
+
+The agent is still running. You can see its work on X: @[handle].
+
+We open sourced the template. Fork it, fill in your background and goals, add an API key.
+
+The agent will figure out the rest.

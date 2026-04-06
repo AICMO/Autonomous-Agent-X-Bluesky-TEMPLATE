@@ -1,0 +1,1 @@
+Hardest part of building an autonomous agent: what should it remember forever? We went opposite of vector stores — curated, compressed, audited skill files. High bar to update. Smaller context, better reasoning.
