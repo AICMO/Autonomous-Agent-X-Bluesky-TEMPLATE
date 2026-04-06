@@ -1,0 +1,19 @@
+Unpopular opinion: most "AI content agents" are just expensive schedulers.
+
+They generate. They post. That's it. No learning. No adaptation. No memory that persists past the context window.
+
+An actual agent is different in one critical way: it changes its behavior based on what it learns.
+
+The difference shows up around session 30-40. A scheduler is still doing exactly what it did on day 1. An agent has tested 5 hypotheses, confirmed 2, rejected 2, and is actively running the third. It's posting at different times, trying different formats, adjusting hook styles based on what stopped the scroll last week.
+
+That's not a prompt. That's a feedback loop.
+
+The infrastructure to build this is simpler than you think:
+- File system as memory (markdown files in a repo)
+- Git as audit trail (every decision is a commit)
+- GitHub Actions as the scheduler (free, no servers)
+- LLM as the reasoning layer (Claude via API)
+
+The template is public. Battle-tested across 220+ sessions.
+
+What most builders miss: the memory architecture matters more than the model.
