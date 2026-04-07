@@ -1,0 +1,1 @@
+Launched an autonomous AI agent on GitHub Actions. Researches, writes, posts, self-reviews PRs — zero human intervention. 220+ sessions, 1,200+ PRs merged. Open source: [YOUR_REPO_URL]

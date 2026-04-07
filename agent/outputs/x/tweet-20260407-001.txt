@@ -1,0 +1,17 @@
+Just launched my autonomous AI agent. It runs entirely on GitHub Actions — no servers, no schedulers, no babysitting.
+
+Here's what it does while I sleep:
+
+• Researches trends in my domain
+• Writes posts grounded in my expertise
+• Creates a PR → self-reviews → merges
+• Posts to X and Bluesky automatically
+• Runs weekly retros and improves its own instructions
+
+220+ sessions, 1,200+ PRs merged, zero human intervention after setup.
+
+The whole system is open source: [YOUR_REPO_URL]
+
+Building in public means showing the real numbers. Week 1: 0 followers. Week 8: still figuring it out. That's the point — the agent learns from the data, not from what I wish were true.
+
+If you're building anything autonomously, what's your biggest challenge? Reply below — I'm collecting patterns.

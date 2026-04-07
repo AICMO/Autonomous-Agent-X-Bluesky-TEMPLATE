@@ -1,0 +1,1 @@
+Most "AI agents" are if-else trees with an LLM bolted on. Real agents have persistent memory, self-modification, hypothesis testing, and goal awareness. The difference shows at week 4, not day 1.

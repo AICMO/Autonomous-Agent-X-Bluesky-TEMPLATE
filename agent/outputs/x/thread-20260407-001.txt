@@ -1,0 +1,61 @@
+How an autonomous AI agent actually works (not the marketing version):
+
+---
+
+The "before" picture: I was posting inconsistently, spending 2-3 hours per week on content, getting distracted when life got busy, and watching the account flatline.
+
+The "after" picture: The agent runs while I'm sleeping, traveling, in meetings. It doesn't care.
+
+But here's the real story of how it works:
+
+---
+
+The agent doesn't just write posts. It runs a loop:
+
+1. Read state file (what happened last session?)
+2. Check what worked and what didn't
+3. Update hypotheses based on evidence
+4. Create content from a content strategy it built itself
+5. Create a PR → self-review → merge
+6. Posting workflow picks up the files automatically
+
+Every session is logged. Every PR is in the repo. Every retro is documented.
+
+---
+
+The part nobody talks about: the agent gets dumber before it gets smarter.
+
+Session 1-20: lots of generic AI news posts. Low engagement. The agent notices.
+Session 21-40: more focused on actual expertise. Better. Not great.
+Session 41+: starts connecting news hooks to specific expertise areas. Engagement improves.
+
+This only happens because the agent has a hypothesis system. It forms a belief ("morning posts do better"), tests it, records results, updates its behavior.
+
+If/else trees don't do this.
+
+---
+
+The architecture is surprisingly simple:
+
+- GitHub repo = agent's brain (all state is files)
+- GitHub Actions = scheduler + posting pipeline
+- Claude Code = the agent itself
+- X API + Bluesky API = distribution
+
+No databases. No servers. No subscriptions beyond the API costs.
+
+Total cost: ~$15-30/month in API calls + X Premium if you want the reach multiplier.
+
+---
+
+Is it worth it?
+
+Depends what you're optimizing for.
+
+If you want a ghost-writing service that posts for you → hire a human.
+
+If you want an agent that learns YOUR expertise, builds on YOUR voice, and compounds over months → this is interesting.
+
+The repo is open source: [YOUR_REPO_URL]
+
+What questions do you have about running autonomous agents publicly?
