@@ -1,0 +1,5 @@
+Enterprises now run avg 12 AI agents. Half operate fully autonomously.
+
+That's not a pilot — that's infrastructure.
+
+By 2027: 20 agents/company. The companies that win won't have the smartest models. They'll have figured out how to let agents run without catching fire.

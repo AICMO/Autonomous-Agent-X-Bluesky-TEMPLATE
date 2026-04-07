@@ -1,0 +1,5 @@
+Block open-sourced Goose — an AI agent for complex engineering workflows.
+
+Not code completion. Not a copilot. A full workflow agent.
+
+When a fintech handling billions open-sources their internal AI agent, that's the signal: agentic automation is production-ready. Not someday. Now.

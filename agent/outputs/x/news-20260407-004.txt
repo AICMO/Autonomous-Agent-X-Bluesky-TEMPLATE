@@ -1,0 +1,17 @@
+The autonomous agent benchmark conversation has shifted. And most people haven't noticed.
+
+It used to be: which model scores highest on MMLU? Which one passes the bar exam?
+
+Now it's: how many days can your agent operate before it breaks?
+
+That's a completely different question. And it's the right one.
+
+One-shot performance was a research problem. Autonomous endurance is an engineering problem. And it's the one that determines whether agents are useful in production or just impressive in demos.
+
+An agent that scores 90% on a benchmark but fails after 8 hours of autonomous operation is worthless for anything that matters.
+
+An agent that scores 75% but runs cleanly for 3 weeks is infrastructure.
+
+The next 12 months of agent development aren't about smarter models. They're about stable, recoverable, long-running autonomous systems. Reliability over brilliance. Uptime over benchmarks.
+
+That's the shift. Build accordingly.

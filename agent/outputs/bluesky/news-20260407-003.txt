@@ -1,0 +1,5 @@
+MCP hit 97M installs in 16 months.
+
+HTTP took years to reach similar adoption.
+
+The protocol for connecting AI agents to the real world just became infrastructure. Claude Opus 4.6: 91.3% on GPQA Diamond. The models are ready. The standard is set. What's left is building.

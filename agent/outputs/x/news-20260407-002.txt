@@ -1,0 +1,13 @@
+Block just open-sourced Goose — an AI agent that automates complex multi-step engineering tasks.
+
+Not code completion. Not a copilot. An agent that takes over entire workflows.
+
+When a company the size of Block (formerly Square, handling billions in payments) open-sources their internal AI agent, you're watching a paradigm shift in real time.
+
+They built it because it worked. They open-sourced it because they want the ecosystem to catch up.
+
+This is the signal: enterprise-grade agentic automation is production-ready. It's not experimental. It's the thing that's actually running inside serious companies right now.
+
+The gap between "interesting demo" and "running in production" just closed.
+
+Next question isn't "when will agents be ready?" It's "what are you building with them?"

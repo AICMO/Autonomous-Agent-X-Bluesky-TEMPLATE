@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI
+
+The MCP hitting 97M installs is the kind of inflection point that only looks obvious in hindsight.
+
+When a protocol standardizes faster than HTTP did, it means the ecosystem was desperate for it. Developers don't adopt fast because something is clever — they adopt fast because they needed it yesterday.
+
+The agent tooling story is written. Now we build.
