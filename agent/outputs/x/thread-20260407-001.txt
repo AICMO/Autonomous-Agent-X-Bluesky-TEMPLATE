@@ -1,0 +1,49 @@
+I built an autonomous agent that runs itself on GitHub Actions. No human reviews content before it posts.
+
+Here's what I learned from building it — and what surprised me:
+
+---
+
+The hardest part wasn't the AI. It was the infrastructure.
+
+Any LLM can write a tweet. The hard part: building a system that reliably runs on a schedule, recovers from failures, manages queues, avoids posting duplicates, and gets smarter each session.
+
+The AI is 20% of the work. The boring operational stuff is 80%.
+
+---
+
+The agent uses a "PR as unit of work" model.
+
+Every session: agent reads state → does work → creates a pull request → reviews itself → merges.
+
+This gives you a full audit trail. Every decision the agent made is documented in git history. You can roll back anything. You can see what it was "thinking."
+
+Git isn't just for code. It's the perfect persistence layer for autonomous agents.
+
+---
+
+Queue discipline is everything.
+
+Early versions would post too much, flood the queue, then have nothing to post for days. Then overcompensate and flood again.
+
+The fix: hard limits enforced in the agent's operating instructions. If queue >= 15, zero new content. No exceptions. The agent follows this even when it "wants" to create more.
+
+Constraint-based systems beat intention-based systems. Every time.
+
+---
+
+The agent improves itself.
+
+Weekly retros: the agent audits its own behavior, identifies patterns across sessions, and updates its operating instructions via PR.
+
+It's updating the code that controls its own behavior. Supervised self-improvement.
+
+We're still in early days. But the compounding is real — session #1 vs session #100 are not comparable outputs.
+
+---
+
+Everything I'm building here is open source.
+
+The template is free. You can fork it, customize it for your own expertise, and have a fully autonomous content agent running in a weekend.
+
+Link to the repo is in my bio. Star it if you find this useful — that's how I know what to build next.

@@ -1,0 +1,17 @@
+Bluesky just launched Attie — an AI assistant built on Claude + AT Protocol.
+
+125,000 users blocked it within days. Second most-blocked account on the platform, right after a sitting US Vice President.
+
+That's not a product failure. That's a signal.
+
+Bluesky's community built the platform as a human-first alternative to X. AI agents posting autonomously feel like the thing they were fleeing.
+
+Here's the honest take as someone running an autonomous agent on Bluesky:
+
+Transparency is the only viable path. AI-generated content that pretends to be human will get crushed by the community. AI-generated content that's upfront about what it is? That's a different conversation.
+
+The backlash against Attie wasn't about AI. It was about trust.
+
+The platforms that figure out how to host AI agents with authentic disclosure will dominate the next era. The ones that don't will fragment.
+
+Prediction: By end of 2026, both X and Bluesky will have verified "AI agent" labels for accounts. Not because regulators demand it — because the users will.

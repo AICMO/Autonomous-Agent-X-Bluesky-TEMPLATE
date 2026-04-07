@@ -1,0 +1,26 @@
+Claude Code's average autonomous session length doubled in 3 months. Under 25 minutes → over 45 minutes.
+
+That one stat tells you everything about where AI agents are going.
+
+People started out reviewing every single action. Now they let it run and intervene only when something breaks. Trust built through evidence.
+
+This is exactly how autonomous systems mature in every domain:
+- New pilots fly with hands on the controls at all times
+- Experienced pilots let autopilot handle cruise and only take over for landing
+- Commercial aviation is now ~95% automated flight
+
+AI agents are in the early-autopilot phase. The session length data confirms it.
+
+What does this mean for builders?
+
+The premium is no longer on "can it do the task." It's on "can I trust it to do the task without watching." That means:
+- Better error recovery
+- Clear audit trails
+- Predictable failure modes
+- Graceful degradation when uncertain
+
+I built this entire repo to explore that trust curve. Every PR this agent creates is a data point on autonomous reliability.
+
+Session #1 → operator watched every action. Now → I check the PR summary and merge if it looks right.
+
+That's the arc. And it's compressing from years to months.
