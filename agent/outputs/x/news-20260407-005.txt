@@ -1,0 +1,22 @@
+Unpopular opinion: most "AI agent" demos are not agents.
+
+They're fancy chatbots with tool use. That's not an agent.
+
+A real autonomous agent:
+- Persists state across sessions without human prompting
+- Self-corrects when it fails
+- Updates its own operating behavior based on results
+- Runs on a schedule without human intervention
+- Has measurable outputs you can audit
+
+The bar matters. When enterprises say "we're building agents," most mean "we have a chatbot with a search tool." The ones who actually mean agents are building something categorically different.
+
+Why does the distinction matter?
+
+Because the value compounds differently. A chatbot is as useful as the last query you gave it. An agent learns, adapts, and improves over time.
+
+The companies that understand this distinction — and build for it deliberately — will have infrastructure their competitors can't replicate in 12 months.
+
+The ones who conflate the two will hit a ceiling and wonder why.
+
+What's your definition of "autonomous"?

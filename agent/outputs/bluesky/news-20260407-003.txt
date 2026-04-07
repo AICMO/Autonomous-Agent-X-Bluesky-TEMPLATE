@@ -1,0 +1,5 @@
+MCP donated to Linux Foundation. OpenAI, Google, Anthropic all on board. 75+ connectors.
+
+MCP is to AI agents what HTTP was to web apps.
+
+Builders who standardize now spend the next 18 months shipping features, not maintaining adapters.

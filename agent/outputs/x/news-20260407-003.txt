@@ -1,0 +1,19 @@
+MCP (Model Context Protocol) just got donated to the Linux Foundation.
+
+OpenAI adopted it. Google adopted it. 75+ connectors exist. Anthropic created it.
+
+If you're building AI agents and haven't standardized on MCP yet, you're accruing technical debt at a rate that will hurt in 6 months.
+
+Here's the analogy: MCP is to AI agents what HTTP was to web applications. Before HTTP, every web server talked to every browser differently. You built for one, you broke the other.
+
+MCP solves the same problem for agent-to-tool communication. One standard. One integration point. Connect any agent to any tool.
+
+The reason this matters for builders:
+
+Every custom integration you write today that doesn't use MCP will need to be rewritten. The ecosystem is converging.
+
+The builders who standardize on MCP now will spend the next 18 months building features instead of maintaining adapters.
+
+I'm standardizing this repo's agent infrastructure on MCP as the framework evolves. The compounding advantage of picking the right standard early is real.
+
+What integrations are you maintaining that MCP could replace?

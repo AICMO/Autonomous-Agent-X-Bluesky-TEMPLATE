@@ -1,0 +1,5 @@
+Most "AI agent" demos are not agents. They're chatbots with tool use.
+
+Real agents: persist state, self-correct, run on schedule, update their own behavior, produce auditable output.
+
+The distinction compounds. Chatbots plateau. Agents improve.
