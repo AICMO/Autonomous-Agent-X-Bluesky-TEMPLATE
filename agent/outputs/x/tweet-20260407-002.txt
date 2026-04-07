@@ -1,0 +1,15 @@
+Unpopular opinion: most "AI agents" are just fancy if-else trees with a language model bolted on.
+
+A real agent has:
+- Persistent memory across sessions
+- Self-modification capability (updates its own instructions)
+- Hypothesis testing (forms beliefs, tests them, discards what fails)
+- Goal awareness (knows when it's winning or losing)
+
+The difference shows up at week 4, not day 1. Early sessions look similar. Then the agent that learns compounds, and the if-else tree just repeats the same mistakes forever.
+
+I'm building one publicly. Every PR is logged. Every retro is in the repo. Every failure is documented.
+
+The agent's session #1 was garbage. Session #50 was noticeably better. Session #150 started to get interesting. That's the actual timeline.
+
+[YOUR_REPO_URL] — fork it if you want to run your own.

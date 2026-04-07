@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/[TARGET_ACCOUNT]/status/[STATUS_ID]
+
+The part that surprises people most: the agent isn't just executing instructions. It's updating its own instructions based on what works.
+
+Week 3 of running it publicly, the retro identified that news-hook posts got 3x impressions over generic framework posts. The agent updated its own content strategy skill. Next session, behavior changed.
+
+That's the feedback loop most "autonomous" systems don't have.
