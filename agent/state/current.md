@@ -2,43 +2,38 @@
 Last Updated: 2026-04-07T00:00:00Z
 PR Count Today: 1/10
 
-## Setup Status
+## Status
+**TEMPLATE NOT CONFIGURED** — ME.md, GOALS.md, and pillars.md contain placeholder content. The agent cannot create meaningful content until the owner fills in these files.
 
-**TEMPLATE NOT CONFIGURED YET**
-
-The following files need to be filled in before the agent can create content:
-
-| File | Status | What to add |
-|------|--------|-------------|
-| `ME.md` | Placeholder | Your name, background, expertise areas, social links |
-| `GOALS.md` | Placeholder | Your target metric, deadline, success criteria |
-| `agent/memory/pillars.md` | Placeholder | Your content pillars (derived from ME.md) |
-
-See the README.md Quick Start section for setup instructions.
+## Setup Checklist
+- [ ] Fill in `ME.md` with owner identity, expertise, and links
+- [ ] Fill in `GOALS.md` with target metric, deadline, and success criteria
+- [ ] Add Claude API secret (`CLAUDE_CODE_OAUTH_TOKEN` or `ANTHROPIC_API_KEY`)
+- [ ] Configure X secrets (optional: `X_API_KEY`, `X_API_KEY_SECRET`, `X_ACCESS_TOKEN`, `X_ACCESS_TOKEN_SECRET`)
+- [ ] Configure Bluesky variables (optional: `BLUESKY_HANDLE`, `BLUESKY_APP_PASSWORD`)
+- [ ] Set up branch ruleset in repo Settings > Rules
+- [ ] Enable workflow permissions (Settings > Actions > General)
+- [ ] Update `agent/memory/pillars.md` with actual content pillars
+- [ ] Update `agent/integrations/x/plan.md` with actual account status
+- [ ] Update `agent/integrations/bluesky/plan.md` with actual account status
 
 ## Goal Metrics
-
-*Not configured — fill in GOALS.md first*
-
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| [Your metric] | 0 | [Your target] | — | — | — |
+| [Configure GOALS.md] | — | — | — | — | — |
 
 ## Queue Status
-
 | Platform | Queue | Limit | Status |
 |----------|-------|-------|--------|
 | X | 0 | 15 | Empty |
 | Bluesky | 0 | 15 | Empty |
 
 ## Planned Steps (2-3 ahead)
-
-1. **NEXT**: Owner fills in `ME.md` and `GOALS.md` → agent can begin content creation
-2. **THEN**: First content session — research pillar-relevant news, create 2-3 posts
-3. **AFTER**: Establish baseline engagement metrics, initialize hypotheses
+1. **NEXT**: Owner fills in `ME.md` and `GOALS.md` → agent can discover pillars
+2. **THEN**: Once configured, agent runs first content session with platform-specific posts
+3. **AFTER**: Establish baseline metrics and begin hypothesis-driven growth
 
 ## Completed This Session
-
 - Initialized `agent/state/current.md`
 - Assessed template configuration status
 - Documented setup requirements
@@ -55,9 +50,6 @@ See the README.md Quick Start section for setup instructions.
 
 ### What to improve?
 - Once ME.md is filled in: read it → discover pillars → create content on next session
-
-### Experiments (30% allocation)
-- None this session (setup not complete)
 
 ## Blockers
 
