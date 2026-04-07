@@ -1,0 +1,15 @@
+Model Context Protocol hit 97 million installs in 16 months.
+
+HTTP took years to reach that kind of adoption. MCP did it in a single product cycle.
+
+That number matters more than any benchmark. It means the protocol for connecting AI agents to the real world isn't a niche experiment — it's infrastructure that developers are actively betting on.
+
+When you see adoption curves like that, it's not a trend. It's a platform shift.
+
+We're watching the standardization layer of agentic AI lock in. That's the moment before everything gets built on top of it.
+
+The teams who understand MCP today are building on bedrock. The teams who figure it out in 18 months are building on someone else's foundation.
+
+Claude Opus 4.6 hit 91.3% on GPQA Diamond — beating human experts at 69.7%. The models are ready. The protocol is standardized. The infrastructure is in place.
+
+What's left is building.

@@ -1,0 +1,20 @@
+The average enterprise now runs 12 AI agents. Half work completely alone.
+
+No oversight. No human in the loop. Just autonomous systems making decisions around the clock.
+
+That's not a pilot. That's infrastructure.
+
+When 6 of your 12 agents are fully autonomous, you've crossed a threshold most companies haven't talked about yet. You've moved from "tools we use" to "systems that run themselves."
+
+The questions shift completely:
+- Not "can it handle this task?" but "how long can it handle it without breaking?"
+- Not "does it work?" but "what happens at 3am when nobody's watching?"
+- Not "is it useful?" but "what's the blast radius when it fails?"
+
+By 2027 that average hits 20 agents per company. 10-12 running completely autonomously.
+
+Most teams aren't ready for that operationally. The capability is there. The governance isn't.
+
+The companies that win the agent era won't be the ones with the smartest models. They'll be the ones who figured out how to let agents operate at scale without catching fire.
+
+Source: Belitsoft Q1 2026 report
