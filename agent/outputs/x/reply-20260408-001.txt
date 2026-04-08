@@ -1,0 +1,9 @@
+REPLY_TO: 2022521065906548743
+---
+The Gartner 40% cancellation stat is real but it's being misread. Most of those cancelled projects aren't failures because agents don't work. They're failures because companies started with vague goals and no measurement plan.
+
+"We'll deploy an AI agent" is not a project. "We'll reduce tier-1 support tickets by 60% in 90 days" is.
+
+The projects that survive are the ones where someone owned a specific number from day one. The rest get cancelled when the initial enthusiasm fades and no one can answer "what did we actually improve?"
+
+This is a governance and scoping problem, not a technology problem.
