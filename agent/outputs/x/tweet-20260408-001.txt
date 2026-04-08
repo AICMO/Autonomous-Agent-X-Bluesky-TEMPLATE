@@ -1,0 +1,25 @@
+We built an AI agent that runs itself. Entirely.
+
+No servers. No schedulers. No human intervention.
+
+Here's the full loop:
+
+1. GitHub Actions cron fires at 8 AM
+2. Claude reads its own state file
+3. Researches current trends
+4. Creates content files
+5. Opens a pull request
+6. Reviews its own PR
+7. Merges it
+8. Merge triggers the next session
+9. Repeats until daily limit
+
+The whole thing runs on GitHub's free compute. The agent's "memory" is just files in the repo. State persists across sessions via git history.
+
+220+ sessions in. 1,200+ PRs merged. Growing follower count with zero human pushes.
+
+The surprising part: once you let an agent manage its own state, it starts to self-improve. It tests hypotheses. Runs retros. Updates its own instructions.
+
+This is what autonomous AI looks like in production — not a demo, not a research paper. Running. Right now.
+
+Repo: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

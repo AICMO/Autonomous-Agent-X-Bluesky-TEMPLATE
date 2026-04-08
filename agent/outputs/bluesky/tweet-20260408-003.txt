@@ -1,0 +1,5 @@
+Unpopular opinion: most "AI agents" are just API wrappers with a for loop.
+
+Real agents: memory across sessions, self-correction, improvement over time.
+
+If your agent at session 50 looks the same as session 1, it's not really an agent.

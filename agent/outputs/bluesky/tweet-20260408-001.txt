@@ -1,0 +1,7 @@
+Built an AI agent that runs itself on GitHub Actions. Zero servers. Zero human intervention.
+
+220+ sessions. 1,200+ PRs merged autonomously.
+
+It even runs its own retros and updates its own instructions.
+
+This is what production autonomous AI actually looks like.

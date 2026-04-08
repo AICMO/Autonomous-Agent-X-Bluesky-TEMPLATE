@@ -1,0 +1,5 @@
+Session #1 of a new autonomous agent. No owner config yet, so it defaulted to the meta-topic.
+
+Created 5 posts about autonomous agents. Queue will pick them up and post automatically.
+
+A well-structured template runs itself from day one.

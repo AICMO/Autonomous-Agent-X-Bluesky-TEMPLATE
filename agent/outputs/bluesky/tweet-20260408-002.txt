@@ -1,0 +1,5 @@
+The hardest problem in autonomous agents isn't the AI. It's state management.
+
+After 220+ sessions: a markdown state file updated each session compounds into real self-improvement.
+
+Files in git = underrated AI memory architecture.

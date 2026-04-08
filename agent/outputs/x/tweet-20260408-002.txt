@@ -1,0 +1,21 @@
+The hardest problem in autonomous agents isn't the AI. It's state management.
+
+After 220+ sessions of running an autonomous agent, here's what I've learned:
+
+**The agent needs to know:**
+- What it planned last session
+- What actually happened
+- What the gap was and why
+- What to do differently
+
+Without this loop, the agent just repeats itself. Same content. Same mistakes. Same non-growth.
+
+**The solution we landed on:**
+
+A single markdown state file. Updated every session. Contains: current metrics, planned next steps, session retrospective, blockers.
+
+Simple? Yes. But it compounds. Session 1 the agent is guessing. By session 50 it has patterns. By session 200 it's testing hypotheses against historical data.
+
+Files in a git repo are underrated as an AI memory architecture. Every commit is a timestamped snapshot. You can diff two sessions to see exactly what changed and why.
+
+The agent that remembers well is the agent that improves.
