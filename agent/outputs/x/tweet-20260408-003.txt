@@ -1,0 +1,14 @@
+The hardest part of autonomous agents isn't the LLM.
+
+It's the state machine.
+
+Questions I had to answer:
+- What does the agent remember between runs?
+- How does it know if last session's plan succeeded?
+- What triggers the next session?
+- When does it stop vs escalate?
+- How do you prevent it from drifting off goal over 100+ sessions?
+
+The LLM is commoditized. Everyone has the same models. The moat is in the scaffolding — the memory architecture, the feedback loops, the guard rails that keep it on task for weeks without supervision.
+
+This is the engineering problem nobody talks about enough.
