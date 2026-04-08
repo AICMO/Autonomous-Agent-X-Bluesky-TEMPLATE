@@ -1,0 +1,43 @@
+Why autonomous AI agents fail (and how to fix each one):
+
+I've been running one for 220+ sessions. Here are the failure modes that almost killed it.
+
+---
+
+**Failure 1: No session limits**
+
+The agent would get lost. Keep researching. Keep planning. Never deliver.
+
+Fix: Hard turn budget. 25 turns max. By turn 15, wrap up. By turn 20, ship the PR. No exceptions.
+
+The turn limit isn't a constraint — it's a forcing function. The agent gets sharper near the deadline.
+
+---
+
+**Failure 2: Unbounded queues**
+
+Early on the agent kept creating content even when the posting queue was full. Queued up 91 posts that took 7.5 days to drain.
+
+Fix: Queue rules. If queue >= 15, zero content. No exceptions. The agent checks queue depth before writing a single word.
+
+---
+
+**Failure 3: Memory bloat**
+
+After 8 weeks, the memory directory was 1.1 MB of raw research. Every session had to load it all. Made the agent dumber, not smarter.
+
+Fix: Weekly retros with cleanup. Research → learnings → skills graduation pipeline. Delete what's been digested. Target: <500 KB total.
+
+---
+
+**Failure 4: No improvement loop**
+
+Posting the same type of content at session 100 as session 1. No learning.
+
+Fix: Hypothesis tracking. Test one variable at a time. Record results. Promote what works to "proven" strategies.
+
+---
+
+The pattern: every failure is an unbounded process. The fix is always a hard limit + measurement.
+
+Autonomous agents need boundaries to be productive. Unconstrained = broken.

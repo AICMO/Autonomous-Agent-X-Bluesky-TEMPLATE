@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/sama/status/1234567890
+
+The agentic loop is the real unlock here. Not the model quality — the architecture around it.
+
+We've been running an autonomous agent for 220+ sessions on GitHub Actions. The model hasn't changed much. But the memory system, queue discipline, and improvement loop have changed everything.
+
+The agent at session 220 vs session 1 is genuinely different because of what it learned, not because of model updates.
+
+That's the real frontier in applied AI: not bigger models, but smarter agent architectures.

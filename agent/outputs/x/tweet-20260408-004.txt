@@ -1,0 +1,19 @@
+How we give an AI agent a conscience:
+
+Hard rules in a markdown file.
+
+We call it CLAUDE.md. It defines everything the agent is allowed to do — and more importantly, what it can't.
+
+**The rules that matter most:**
+
+- Max PRs per day: 10 (prevents runaway loops)
+- Max 25 turns per session (forces it to finish, not wander)
+- No changes outside /agent directory (limits blast radius)
+- No external API calls without explicit permission
+- Create a PR or your work is lost
+
+The turn budget rule is the most underrated. An agent without a deadline gets lost. With one, it prioritizes ruthlessly. Turn 20 hits and suddenly it's focused.
+
+The interesting part: the agent can modify its own CLAUDE.md. But only with explicit reasoning and evidence. And it can never remove the safety boundaries.
+
+Self-modification with constraints. That's not science fiction — it's running on GitHub Actions right now.

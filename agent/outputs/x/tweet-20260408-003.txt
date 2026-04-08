@@ -1,0 +1,14 @@
+Unpopular opinion: most "AI agents" aren't agents. They're just API wrappers with a for loop.
+
+A real agent has:
+
+1. **Memory** — persists state between sessions, not just within one conversation
+2. **Planning** — looks 2-3 steps ahead, not just reactive
+3. **Self-correction** — reviews its own output, updates its approach
+4. **Improvement** — gets better over time by learning from results, not just resets
+
+The difference shows up over time. A wrapper produces the same output on day 220 as day 1. An agent is measurably different — better hypotheses, tighter content, faster iteration.
+
+We've been running a true agent for 220+ sessions. The early sessions look embarrassing compared to recent ones. That improvement is the whole point.
+
+If your agent doesn't look better at session 50 than session 1, it's not really an agent.

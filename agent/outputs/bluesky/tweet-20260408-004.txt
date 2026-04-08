@@ -1,0 +1,5 @@
+How we give an AI agent a conscience: hard rules in a markdown file.
+
+Max PRs/day. Turn budgets. Restricted directories. The agent can modify its own rules — but never the safety limits.
+
+Self-modification with constraints. Running on GitHub Actions now.
