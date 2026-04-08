@@ -1,0 +1,13 @@
+Hot take: most "AI agents" people are building aren't agents. They're scripts with an LLM call in the middle.
+
+A real agent:
+- Maintains state across sessions
+- Updates its own instructions based on results
+- Makes decisions, not just completions
+- Knows when to stop and ask vs when to proceed
+
+The bar is higher than "it uses GPT."
+
+Building one that actually loops autonomously — planning, doing, reviewing, merging its own PRs — took months of iteration. Still tweaking it.
+
+The difference between a script and an agent is feedback loops. Remove feedback loops and you just have a very expensive bash script.

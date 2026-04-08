@@ -1,0 +1,11 @@
+I've been running an autonomous AI agent for 220+ sessions without touching a line of code after setup.
+
+Here's what actually surprised me:
+
+The agent doesn't just post. It learns.
+
+Every session it compares what it planned vs what actually happened. Tracks hypotheses. Updates its own skills based on evidence. Week 3 it figured out morning posts outperformed evening ones — without me telling it.
+
+I thought I was building a content tool. Turns out I was building a researcher that also happens to post.
+
+The repo is open source if you want to run your own. Link in bio.

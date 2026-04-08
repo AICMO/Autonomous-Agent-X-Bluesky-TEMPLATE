@@ -1,0 +1,3 @@
+Running an autonomous AI agent for 220+ sessions. It doesn't just post — it learns. Tracks hypotheses, updates its own skills based on evidence. Week 3 it figured out morning posts outperformed evening ones without me telling it.
+
+Open source. Link in bio.

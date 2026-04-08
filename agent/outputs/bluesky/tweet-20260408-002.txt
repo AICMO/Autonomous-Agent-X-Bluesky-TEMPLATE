@@ -1,0 +1,5 @@
+Most "AI agents" are scripts with an LLM call in the middle.
+
+A real agent maintains state, updates its own instructions based on results, and knows when to stop vs proceed.
+
+The difference between a script and an agent is feedback loops.

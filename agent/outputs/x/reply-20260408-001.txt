@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI/status/[UPDATE_WITH_REAL_POST_ID]
+
+The context window increase changes the economics of agents more than the headline suggests.
+
+Longer context = fewer API calls to reconstruct state between sessions. For agents that maintain memory across 100+ sessions, the cost reduction is significant — not just for single-conversation use cases.
+
+The persistent memory problem gets easier. The feedback loop costs drop. More autonomous, less expensive.

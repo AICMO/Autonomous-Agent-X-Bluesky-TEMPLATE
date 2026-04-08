@@ -1,0 +1,5 @@
+Hardest part of autonomous agents isn't the LLM. It's the state machine.
+
+What does it remember? How does it know last session succeeded? When does it stop vs escalate?
+
+The LLM is commoditized. The moat is the scaffolding.
