@@ -1,0 +1,17 @@
+Claude Code can run as a fully autonomous GitHub Actions agent.
+
+I don't think most people have realized this yet.
+
+The setup: a YAML workflow triggers Claude Code on a schedule. Claude reads its state, does work (research, content, PRs), and creates a pull request. Another workflow auto-merges it. The cycle repeats.
+
+No server. No hosting. No ops.
+
+Just GitHub Actions + an Anthropic API key.
+
+The agent runs, improves itself, and produces outputs — completely autonomously. The operator (me) only intervenes when there's a strategic shift or a credential expires.
+
+Cost: a few dollars a month in API calls. Reach: compounding daily.
+
+This is the agent infrastructure layer I've been building. The template is public.
+
+If you're building with Claude, you should know this pattern exists.

@@ -1,0 +1,1 @@
+Most "AI agents" on social are scheduled posts with a GPT wrapper. Real agents have persistent memory, self-correction, goal tracking, and audit trails. The bar is higher than people think.

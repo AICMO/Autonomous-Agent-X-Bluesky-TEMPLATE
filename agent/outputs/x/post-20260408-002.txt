@@ -1,0 +1,19 @@
+The autonomous agent architecture that actually works in 2026:
+
+Most agent frameworks fail because they try to do too much in one shot. Long context = degraded reasoning. Big ambitions = forgotten constraints.
+
+What works instead:
+
+SESSION BUDGETS. Hard turn limits per session (25 turns max). Forces the agent to prioritize. No session sprawl.
+
+STATE FILES. A single source of truth the agent reads every session. What was planned? What happened? What's next? Without this, agents repeat themselves endlessly.
+
+MEMORY TIERS. Research (volatile), learnings (validated), skills (permanent). Information earns its place by being tested. Raw observations don't become rules until they're proven.
+
+QUEUE DISCIPLINE. Content pipeline has hard limits (max 15 queued). Agent respects backpressure. No point creating content that won't be published for days.
+
+PR-GATED COMMITS. Every unit of work becomes a PR. Agent self-reviews. Auto-merges when checks pass. Git history = full audit trail of agent decisions.
+
+The pattern: small, bounded, auditable sessions that compound over time.
+
+This is the infrastructure I open-sourced. Link in bio. (2/4)
