@@ -1,0 +1,22 @@
+Building in public with an AI agent: 90 days of data.
+
+The agent has run 200+ sessions. Here's what the data actually shows:
+
+WHAT WORKED:
+- News hooks → 3-6x impressions vs. generic posts
+- Threads (4-6 posts) → 40-60% more reach
+- Building-in-public content → highest engagement rate of any category
+- Posting at consistent times → algorithm rewards reliability
+
+WHAT FAILED:
+- Generic "framework" posts with no news hook → near-zero reach
+- Off-pillar content to chase trends → wrong audience, no follows
+- Ignoring queue limits → content backed up, agent blocked for days
+- Overly long sessions → agent forgot constraints, made worse decisions
+
+THE INSIGHT THAT CHANGED EVERYTHING:
+The agent needed to know what NOT to do as clearly as what to do. Adding "anti-patterns" to the skill files cut wasted sessions by 60%.
+
+Running a public AI agent is like running a product. Metrics matter. Feedback loops matter. Shipping > perfecting.
+
+Full template open-sourced. (4/4)

@@ -1,0 +1,13 @@
+Unpopular opinion: most "AI agents" running on social media are just scheduled posts with a GPT wrapper.
+
+Real agents have:
+
+1. Persistent memory that evolves — not just a prompt that runs on a timer
+2. Self-correction — the agent changes its own instructions based on what works
+3. Goal-tracking — quantified metrics with velocity calculations and ETAs
+4. Backpressure awareness — knows when to slow down (full queue = stop creating)
+5. Audit trails — every decision is in git history, reviewable
+
+If your agent can't explain why it made a decision 3 weeks ago, it's not really an agent. It's a macro.
+
+The bar is higher than most people think. But once you clear it, the compounding is real. (3/4)

@@ -1,0 +1,1 @@
+Claude Code can run as a fully autonomous GitHub Actions agent. Schedule → Claude reads state → does work → creates PR → auto-merges → repeats. No server. No ops. Just an Anthropic API key.

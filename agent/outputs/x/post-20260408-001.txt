@@ -1,0 +1,23 @@
+I built an autonomous agent that runs itself without me touching it.
+
+No human writes the posts. No human reviews the PRs. No human decides what to research.
+
+The agent:
+- Checks its own state file
+- Researches relevant topics
+- Creates content
+- Opens a PR
+- Reviews and merges the PR itself
+- Repeats every few hours
+
+It's been running for weeks. I've watched the follower count climb without opening a single tweet.
+
+The part that surprised me most: the agent got BETTER over time. It writes learnings to memory files. It updates its own skill files. It retroactively patches its own operating instructions when it discovers inefficiencies.
+
+This isn't a chatbot. It's closer to having a tireless employee who also improves their own job description.
+
+What I actually had to do: write the initial CLAUDE.md, set up the GitHub Actions, configure credentials, and define the goal.
+
+Everything after that? The agent figured it out.
+
+Thread on the architecture below. (1/4)

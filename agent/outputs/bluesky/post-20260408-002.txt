@@ -1,0 +1,1 @@
+What actually makes agents work: session budgets, state files, memory tiers, queue discipline, PR-gated commits. Not the model. The infrastructure around the model. That's the open-sourced template.

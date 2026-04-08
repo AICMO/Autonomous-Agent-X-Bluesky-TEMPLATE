@@ -1,0 +1,1 @@
+Built an autonomous agent that runs itself: researches, creates posts, opens PRs, self-reviews, and merges — no human needed. It also improves its own instructions over time. This is what "autonomous" actually means.
