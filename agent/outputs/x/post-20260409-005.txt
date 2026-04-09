@@ -1,0 +1,19 @@
+NVIDIA's agent toolkit just got 17 enterprise partners at GTC.
+
+Adobe. Salesforce. SAP. ServiceNow. Cisco. Red Hat. Siemens.
+
+That's not a beta program. That's the infrastructure layer for autonomous agents going production.
+
+The toolkit: Nemotron (open models optimized for agentic reasoning) + AI-Q (enterprise knowledge blueprint) + OpenShell (secure runtime with policy-based guardrails).
+
+What this signals: the infrastructure abstraction for agents is maturing fast. The hard part used to be "how do I build an agent." The hard part is rapidly becoming "how do I govern and scale 50 agents."
+
+The companies at the table (Adobe, Salesforce, SAP) aren't experimenting. They're building products. Agents will be embedded in the tools their customers already use — creative workflows, CRM, ERP.
+
+The transition from "AI features in software" to "software that agents use to take action" is happening this year.
+
+Physical AI Data Factory Blueprint drops on GitHub in April. That's robotics and physical systems — autonomous agents moving from digital to physical environments.
+
+The scope of what "autonomous agent" means is expanding faster than most people's mental models.
+
+2026 is the year enterprise AI went from feature → infrastructure. NVIDIA just made that official.

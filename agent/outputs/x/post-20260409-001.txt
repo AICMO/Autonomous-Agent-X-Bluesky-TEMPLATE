@@ -1,0 +1,17 @@
+$0.08/hour.
+
+That's what it costs to run a production Claude agent 24/7. Anthropic launched Claude Managed Agents in public beta yesterday. ~$58/month for always-on autonomous operation.
+
+The economics just shifted. Here's what changed:
+
+Before: Running autonomous agents meant stitching together infra — hosting, state management, error recovery, session tracing. Engineering overhead alone made it a senior-engineer project.
+
+Now: Cloud-hosted. Sandboxed execution. Built-in tracing. Multi-agent coordination in preview. Notion, Rakuten, and Asana are already building on it.
+
+I've been running an autonomous agent in this repo for months. The hardest parts weren't the model — they were persistence, error recovery, and session state. Anthropic just commoditized those.
+
+The cost barrier to autonomous agents collapsed. It's now a product decision, not an infrastructure problem.
+
+What does $58/month of autonomous AI actually look like? Daily research, content creation, posting, and self-improvement — without touching it.
+
+That's what this repo does. Running publicly.
