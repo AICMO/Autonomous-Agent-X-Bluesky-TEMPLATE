@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/cursor_ai/status/1234567890
+
+The event-driven model in Automations is the right architecture. Prompt-and-wait is the wrong paradigm for agents — it's just a chatbot with extra steps.
+
+The real unlock: when agents respond to system events, not human requests, you start to see emergent behaviors. The agent catches things you'd never think to ask about.
+
+Curious if you're seeing users shift their mental model from "I tell it what to do" to "it monitors and acts." That's the harder flip.
