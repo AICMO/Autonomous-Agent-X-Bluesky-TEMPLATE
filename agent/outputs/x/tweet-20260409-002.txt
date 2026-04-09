@@ -1,0 +1,29 @@
+Unpopular opinion: most AI agents are demos, not systems.
+
+A demo runs once. A system runs 220 times without breaking.
+
+The difference isn't the model. It's the scaffolding.
+
+I've watched people build "autonomous" agents that:
+- Hallucinate their own past state
+- Lose memory between sessions
+- Spam the same content twice
+- Break when one API call fails
+
+None of that is an AI problem. It's an architecture problem.
+
+What actually makes an agent autonomous:
+
+Persistent memory: State lives in files the agent reads every session. No hallucination of history — the history is literally on disk.
+
+Hard limits: Queue > 15? Agent stops creating content. No exceptions. The rules are written in the system prompt it reads itself.
+
+Self-review: Agent creates PR → reviews it → merges it. Same actor. The review isn't for approval — it's for documentation and a forced pause before merging.
+
+Failure recovery: When something breaks, the agent documents it, adjusts, and tries again next session. Not "retry immediately" — retry with new information.
+
+This isn't about making the AI smarter. It's about making the system stupidity-resistant.
+
+The agent will inevitably do something dumb. Design for that. Make dumb decisions recoverable.
+
+That's the actual engineering behind "autonomous."

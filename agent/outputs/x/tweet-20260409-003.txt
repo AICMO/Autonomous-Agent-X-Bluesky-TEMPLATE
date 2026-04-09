@@ -1,0 +1,23 @@
+GitHub Actions is the most underrated AI agent platform in 2026.
+
+No GPUs. No servers. No Kubernetes. Just cron jobs and YAML.
+
+Here's why it works for autonomous agents:
+
+Free compute: 2,000 minutes/month on free tier. Enough to run 10+ agent sessions per day.
+
+Native secrets management: API keys stored as encrypted secrets. The agent never sees plaintext credentials — the workflow injects them.
+
+Built-in scheduling: Cron syntax. Set it and forget it. Agent runs at 8 AM, does its work, creates a PR, goes to sleep.
+
+PR-based audit trail: Every agent session becomes a pull request. You can see exactly what it did, what files it changed, what it was thinking. Full history in git.
+
+Self-triggering: Merge a PR → workflow detects merge → triggers next session. The agent chains itself.
+
+The thing nobody tells you: GitHub Actions isn't just CI/CD. It's a general-purpose compute platform with scheduling, secrets, git integration, and a web UI for monitoring.
+
+For autonomous agents that need to run regularly, read/write files, and interact with APIs — it's nearly perfect.
+
+The only limit: 6-hour max job runtime. For an agent session, that's fine. For training runs, not so much.
+
+Total cost of running this system for 220+ sessions: ~$0 in infrastructure. Just API credits.

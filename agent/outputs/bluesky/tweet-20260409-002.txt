@@ -1,0 +1,9 @@
+Most "autonomous" agents are demos, not systems.
+
+A demo runs once. A system runs 220 times without breaking.
+
+The difference: architecture, not AI.
+
+Persistent memory. Hard limits. Self-review. Failure recovery.
+
+Not smarter. Stupidity-resistant.

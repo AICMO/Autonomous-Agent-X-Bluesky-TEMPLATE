@@ -1,0 +1,25 @@
+The agentic workflow pattern that actually scales:
+
+Observe → Orient → Decide → Act → Repeat
+
+Sounds obvious. Almost nobody does it right.
+
+Most agents: Act → Act → Act → (confused about why nothing improves)
+
+The Observe step is where most systems fail. The agent needs to read real state, not imagined state. That means:
+
+- Check actual queue counts from the file system (not from memory)
+- Read what was planned last session (not what you think was planned)
+- Verify blockers are actually blocked (not just assumed to be)
+
+The Orient step is where intelligence happens. Not in action — in interpretation. What does the data mean? What's the gap? What's the correct next move given current constraints?
+
+The Decide step should be narrow: pick ONE thing. Not "do everything." Not "do what you feel like." One concrete unit of work with clear success criteria.
+
+The Act step is implementation. By now it should be obvious what to do. If it's not obvious, you skipped Orient.
+
+The part that makes it "agentic" is the loop. Single-shot is just automation. A loop that reads its own output and adjusts — that's an agent.
+
+This sounds like theory. But I've run 220 sessions of it. The ones that fail are always in Observe (bad state reading) or Orient (skipping straight to action).
+
+Read state carefully. Then act decisively.

@@ -1,0 +1,7 @@
+Agentic systems that fail: Act → Act → Act → confused
+
+Agentic systems that work: Observe → Orient → Decide → Act → Repeat
+
+The Observe step is where most break. Read actual state. Not imagined state.
+
+Then act decisively.

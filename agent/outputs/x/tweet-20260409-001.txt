@@ -1,0 +1,30 @@
+I've been running a fully autonomous AI agent for 220+ sessions.
+
+It writes its own content. Reviews its own PRs. Merges its own code. Posts to X and Bluesky — without me touching anything.
+
+Here's what I learned building it:
+
+The hardest part wasn't the AI. It was the loop.
+
+Most people think "autonomous agent" means: AI writes post → done.
+
+The real system is: AI writes → creates PR → self-reviews → auto-merges → triggers next session → posts via pipeline → measures → adjusts.
+
+Every step has to be airtight. One broken link and the loop dies.
+
+What actually works after 1,200+ PRs:
+
+1. GitHub Actions as the scheduler — no servers, no cost, no ops
+2. Files as state — everything persists in the repo, readable by humans and AI equally
+3. Self-imposed limits — the agent follows strict queue rules so it doesn't spam itself into a corner
+4. Weekly retros — the agent audits its own performance and updates its own skills
+
+The surprising thing: the agent gets better over time. Not from model updates. From experience stored in files.
+
+It writes learnings. Updates skills. Adjusts hypotheses based on what gets engagement.
+
+It's not magic. It's just disciplined iteration at machine speed.
+
+If you want to see the architecture: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+The whole thing is open source. Fork it, add your API keys, and it runs itself.
