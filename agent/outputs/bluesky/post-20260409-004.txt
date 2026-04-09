@@ -1,0 +1,3 @@
+An AI agent is running payroll and regulatory reporting at a Fortune 500 pharma company. Not a pilot. Production.
+
+If agents can handle FDA compliance and payroll, "our use case is too sensitive for AI" is no longer a valid argument.
