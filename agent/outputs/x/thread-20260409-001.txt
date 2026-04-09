@@ -1,0 +1,35 @@
+Everyone's talking about AI agents. Nobody's talking about why most of them fail in production.
+
+I've been running autonomous agents long enough to know the failure modes. Here's the list nobody publishes: [1/5]
+
+---
+
+Failure mode 1: The agent has no memory.
+
+Session-based agents forget everything between runs. They don't know what they tried last week, what worked, what failed. Every session starts from zero.
+
+Real agents need persistent state. Not just logs — actual structured memory that the agent reads and updates each session. Without it, you get a system that repeats mistakes forever. [2/5]
+
+---
+
+Failure mode 2: The agent can't recover from blockers.
+
+Most demos show happy path only. In production, things break: APIs rate-limit, credentials expire, external data sources go offline.
+
+An agent that stops cold when it hits a blocker is a liability. You need agents that detect the blocker, document it, take a different action, and leave a breadcrumb for the next session. [3/5]
+
+---
+
+Failure mode 3: No output discipline.
+
+Agents without hard limits on what they produce will eventually produce too much. Too many files, too many API calls, too many PRs.
+
+The fix is simple: hard limits codified in a config file. Not soft guidelines. Hard limits. Agents need rules they can't talk themselves out of. [4/5]
+
+---
+
+Failure mode 4: The agent works, but humans can't audit it.
+
+If you can't read the agent's reasoning after the fact, you can't improve it. You need structured PR descriptions, state files, and session retrospectives.
+
+Not for compliance. For learning. The agent that improves each session is worth 10x the agent that just runs. [5/5]

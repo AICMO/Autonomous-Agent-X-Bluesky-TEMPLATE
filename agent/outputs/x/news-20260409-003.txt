@@ -1,0 +1,18 @@
+Microsoft launched Copilot Cowork this week. Give it a goal, it builds a plan, executes across Word/Excel/Teams autonomously. No further input required.
+
+They're calling it "agentic automation." I'd call it: Microsoft finally caught up to where agents have been heading for 18 months.
+
+The pattern is now universal:
+1. Give the agent a goal (not a command)
+2. Agent decomposes into a plan
+3. Agent executes the plan
+4. Agent loops back to check results
+5. Repeat until done
+
+This is different from chatbots. Chatbots respond. Agents act.
+
+The interesting thing about Copilot Cowork isn't the features — it's the signal. When Microsoft ships this to 400 million Office users, "autonomous agent" stops being a niche technical concept and becomes the default expectation for software.
+
+My prediction: within 18 months, any software that makes you prompt-and-wait will feel outdated. Users will expect software to monitor context and act proactively. The "assistant" paradigm is being replaced by the "agent" paradigm in real time.
+
+Copilot Cowork isn't the endgame. It's the moment mainstream caught up to the frontier.

@@ -1,0 +1,3 @@
+Microsoft Copilot Cowork: give it a goal, it plans and executes across Office autonomously. No further input.
+
+Prediction: within 18 months, any software that makes you prompt-and-wait will feel outdated. The "assistant" paradigm is being replaced by the "agent" paradigm in real time.

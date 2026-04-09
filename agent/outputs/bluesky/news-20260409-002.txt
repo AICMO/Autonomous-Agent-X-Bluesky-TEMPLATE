@@ -1,0 +1,5 @@
+The US Dept of Labor runs autonomous agents handling 9.7M citizen interactions. No human triage. 24/7.
+
+72% of enterprises are testing agents. Less than 1 in 9 run them in production.
+
+That gap is the whole story of 2026. Testing is easy. Running is the hard part.

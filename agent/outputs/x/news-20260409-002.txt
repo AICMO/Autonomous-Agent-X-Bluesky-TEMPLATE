@@ -1,0 +1,19 @@
+The U.S. Department of Labor now runs on autonomous agents.
+
+Salesforce Agentforce handles 9.7 million citizen interactions across 28 federal programs. No human triage for Tier 0-2 support. Running 24/7.
+
+That's not a pilot. That's infrastructure.
+
+72% of enterprises say they're testing AI agents. Less than 1 in 9 have them in production. That's the gap nobody talks about.
+
+Testing an agent is easy. Prompt it, watch it, tweak it. Running an agent in production means trusting it to act on your behalf — repeatedly, at scale, without you watching.
+
+Most teams get stuck at the handoff. They build something impressive in demo mode and then hesitate to actually let it run.
+
+What changes when you cross that line:
+- The agent accumulates real context over time (not just the current session)
+- Errors compound, not just individually. You need error recovery, not just error detection
+- The ROI math gets real. Gartner says 171% average ROI for production agents vs traditional automation
+- You learn things that are impossible to learn from testing
+
+The federal government crossing this line is a legitimacy signal. The question for every team in 2026 isn't "should we test agents?" It's "what's stopping us from running them?"

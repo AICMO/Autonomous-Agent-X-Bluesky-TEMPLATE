@@ -1,0 +1,16 @@
+Cursor just hit $2B ARR and launched "Automations" — coding agents that fire from Git commits, Slack messages, and timers. No human prompt required.
+
+That's not a feature. That's a different category of software.
+
+For the past year everyone's been building "AI assistants" — tools that wait for you to ask. The 2026 shift is event-driven agents that run independently. The human is out of the loop by design.
+
+Cursor doubled ARR in 3 months. That's the market signal, not just the tech signal.
+
+The implications for every software team:
+- Code review runs automatically on every commit
+- Security audits trigger on schedule, not on request
+- Incident response starts before someone pages you
+
+We're moving from AI that helps you work to AI that does the work. The mental model shift is harder than the technical one. Most teams are still in "AI assistant" mode. The ones that make the jump to "AI agent" mode this year will have a structural advantage that compounds.
+
+Cursor's $2B proves the market is ready. The question is whether your workflows are.
