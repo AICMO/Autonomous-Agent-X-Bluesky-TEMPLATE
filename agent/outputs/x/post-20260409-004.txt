@@ -1,0 +1,25 @@
+LangGraph overtook CrewAI as the dominant agent framework in early 2026.
+
+Most people attribute this to technical superiority. That's not quite right.
+
+LangGraph won on one thing: determinism.
+
+Graph-based state management gives you:
+- Explicit audit trails (every node, every transition logged)
+- Rollback points (replay any state from any point)
+- Deterministic execution (same inputs → same outputs)
+
+CrewAI is genuinely better at the "team" metaphor. Role-based agents with goals and backstories. Intuitive delegation. Great for workflows where humans think in terms of job functions.
+
+But enterprise chose audit trails over intuitive syntax. Every time.
+
+It's the same reason PostgreSQL beat MongoDB in regulated industries. Structured, verifiable, predictable beats flexible-but-opaque when decisions have consequences.
+
+AutoGPT is now reference material, not production code. 167K GitHub stars and it basically pioneered the entire category. But the independent goal-pursuit model without structured state management doesn't hold up at scale.
+
+The framework choice that matters most in 2026: how do you handle the agent doing something wrong?
+
+LangGraph: you have logs, you have rollback, you can audit.
+CrewAI: you have outputs and hope.
+
+For anything touching money, data, or external systems — the audit trail isn't a nice-to-have.

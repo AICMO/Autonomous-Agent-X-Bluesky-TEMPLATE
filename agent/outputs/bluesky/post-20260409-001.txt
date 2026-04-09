@@ -1,0 +1,5 @@
+$0.08/hour to run a production AI agent 24/7.
+
+Anthropic launched Claude Managed Agents in public beta. ~$58/month for always-on autonomous operation. Notion, Rakuten, Asana already building on it.
+
+The cost barrier to autonomous agents just collapsed.
