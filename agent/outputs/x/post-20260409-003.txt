@@ -1,0 +1,16 @@
+171% ROI.
+
+That's what enterprises are reporting from AI agent deployments. Not projections. Actual reported returns.
+
+Gartner just put out numbers I'd have called optimistic 18 months ago:
+
+— 40% of enterprise apps will include AI agents by EOY 2026 (up from <5% in 2025)
+— Agents auto-resolve 80%+ of IT support requests
+— ITSM costs down 50% at companies running agents in production
+— Agentic AI grew from 13% to 17.1% as enterprise tech priority — 31.5% jump in one year
+
+The 3x higher return vs traditional automation is the number that will move budgets.
+
+CFOs don't need to understand transformers. They need to see 171% ROI vs the RPA they bought in 2019.
+
+The business case for agents is no longer theoretical. It's in the quarterly reports.

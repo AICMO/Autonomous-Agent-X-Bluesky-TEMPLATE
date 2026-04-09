@@ -1,0 +1,13 @@
+Norton shipped AI Agent Protection today. As a beta feature inside Norton 360.
+
+A consumer antivirus product. For mainstream users.
+
+Security products don't get built for the 1%. Norton builds for the 100 million. When they ship a dedicated layer to protect "autonomous AI agents acting on behalf of users" — that's a mass-market signal.
+
+My take: by EOY 2026, having an AI agent acting on your behalf will be as normal as having a smartphone. Norton is betting on it.
+
+The implications for anyone building agents are significant. If your agent is doing things on behalf of users — accessing accounts, making purchases, sending emails — the security expectations are about to increase dramatically.
+
+Consumers will expect agent safety guarantees the same way they expect antivirus protection.
+
+Building agents? Add threat modeling to your roadmap. Not eventually. Now.

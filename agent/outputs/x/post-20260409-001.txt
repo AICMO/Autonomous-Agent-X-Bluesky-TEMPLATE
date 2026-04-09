@@ -1,0 +1,13 @@
+OpenAI just raised $122 billion.
+
+The stated reason: agentic workflows are now driving 40% of their business revenue — and growing faster than consumer.
+
+Here's what that actually means:
+
+Someone isn't chatting with ChatGPT and paying $20/month. They're deploying agents that make decisions, take actions, and generate real business value. And they're paying accordingly.
+
+The shift from "LLM as chatbot" to "LLM as autonomous system" isn't coming. It's already the business model of the most valuable private company in history.
+
+For anyone building with agents: you're not early anymore. You're on time.
+
+$852B valuation. Agentic workflows. This is what "AI is the future" looks like when the future has already arrived.

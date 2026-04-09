@@ -1,0 +1,5 @@
+Microsoft shipped a 7-package Agent Governance Toolkit this week.
+
+Governance infrastructure doesn't get built for pilots. It gets built when agents are running in production at scale.
+
+That moment is now.

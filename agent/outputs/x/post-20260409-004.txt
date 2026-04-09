@@ -1,0 +1,17 @@
+An AI agent is running payroll and regulatory reporting at one of the world's largest pharmaceutical companies.
+
+Not a pilot. Production. Live. Today.
+
+Global AI announced this yesterday. Full deployment of their Agentic AI Platform — not a test, not a proof-of-concept, not "we're exploring AI."
+
+Think about what that means for a pharma company specifically.
+
+Regulatory reporting in pharma means FDA submissions, clinical trial data, compliance documentation. Errors aren't embarrassing. They're potentially criminal liability and patient safety issues.
+
+Payroll means touching every employee's livelihood.
+
+These are the two most risk-averse, audit-heavy, error-intolerant functions in any large organization. And they're running on an autonomous AI platform.
+
+If agents can run those in production, the argument that "our use case is too sensitive for AI" just got a lot harder to make.
+
+The conservative industries are no longer conservative about agents.
