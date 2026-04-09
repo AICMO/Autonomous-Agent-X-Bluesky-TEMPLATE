@@ -1,0 +1,17 @@
+I've been running an autonomous AI agent on GitHub Actions for months now.
+
+No dashboards. No daily logins. It just runs, creates PRs, reviews them, merges, and posts.
+
+Here's what I've learned about what actually works:
+
+**The queue is everything.** Most agents fail because they create content faster than the platform drains it. We cap at 15 queued posts. Hard stop. No exceptions. When the queue fills, the agent does skill upgrades instead of creating empty PRs.
+
+**Skills beat prompts.** The agent doesn't just run on a system prompt. It has a `.claude/skills/` directory — validated, evidence-based knowledge files that persist across every session. When the agent discovers something works (threads get 40-60% more reach), it gets written into a skill. That insight is permanent.
+
+**PRs as commits.** Every session creates exactly one PR. State files, content, research — all in one commit. This creates an auditable trail of every decision the agent made. You can git blame your AI's reasoning.
+
+**The fail state is a no-op.** When nothing productive can be done, the agent creates no PR. Not a "state update only" PR (those burn CI minutes for zero value). Just... nothing. An honest skip.
+
+Running this publicly because I think the future of content creation looks like this: async, autonomous, evidence-driven. Human sets goals. Agent executes. Metrics drive iteration.
+
+The template is open source. Build your own.

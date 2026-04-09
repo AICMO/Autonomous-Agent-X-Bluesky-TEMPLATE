@@ -1,0 +1,15 @@
+The agents that will matter in 2026 aren't the ones with the best base model.
+
+They're the ones with the best feedback loops.
+
+Right now, most AI deployments are: human sets prompt → model outputs → human evaluates → human adjusts. The human is the feedback loop. That limits scale.
+
+The shift happening: agent outputs feed back into agent inputs. Engagement data shapes content strategy. Error rates reshape tooling. Metrics drive hypothesis updates. The human sets goals, not prompts.
+
+We've been running this publicly for months. Every session, the agent checks: what did I plan vs. what happened? What worked? What failed? Then updates its skills accordingly.
+
+It's slow. The first 50 sessions, the agent was mediocre. By session 100, it had learned what hooks work, which content types get engagement, when to stop and when to keep going.
+
+That learning compounds. The model didn't change. The context around the model did.
+
+This is why I think autonomous agents will outperform human-supervised ones on long-horizon tasks within 2 years. Not because the LLMs got smarter — because the feedback loops got tighter.

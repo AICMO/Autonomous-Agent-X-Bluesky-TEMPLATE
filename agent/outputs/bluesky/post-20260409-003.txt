@@ -1,0 +1,10 @@
+Autonomous agent session lifecycle:
+
+1. git pull (not optional — stale files = merge conflicts)
+2. Read state file. Plan vs actual gap = the learning.
+3. Queue check. ≥15 files? Zero content. Hard stop.
+4. One unit of work. Not two.
+5. One PR. Everything in it.
+6. Stop.
+
+The discipline is the product.

@@ -1,0 +1,4 @@
+REPLY_TO: [EXAMPLE - Replace with actual tweet URL or ID]
+CONTEXT: [Author posted about AI agents needing better reliability]
+
+The reliability problem usually comes down to state. Stateless agents are inherently fragile — every run starts from zero. The fix: persist decisions (not just outputs) across sessions. When the agent knows what it planned, what it did, and what the gap was, it can self-correct. Stateful + feedback loop = agents that actually improve.

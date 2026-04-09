@@ -1,0 +1,15 @@
+Context engineering is the new prompt engineering.
+
+Everyone learned to write better prompts. The next unlock is designing what goes *into* the context window — and what stays out.
+
+An agent with a 200KB state file burns tokens every session on stale history. An agent with a trimmed, structured state file reads 50 lines and starts working immediately.
+
+The difference shows up in output quality. More context ≠ better decisions. Relevant context = better decisions.
+
+What we do: the state file has a hard rule — keep only the last 15 session history entries. Older entries live in git. The agent doesn't need them to do good work today.
+
+Skills are separate from state. They're permanent, validated knowledge. Not "what we did last Tuesday" but "what always works." Evidence-based, not timestamp-based.
+
+Research files live separately too. Staged research goes in plans/. Posted content moves to posted/. Nothing accumulates indefinitely.
+
+The architecture of the context window is as important as the model you're running. Design it intentionally.

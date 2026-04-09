@@ -1,0 +1,9 @@
+The agents that matter in 2026 won't have the best base model.
+
+They'll have the best feedback loops.
+
+Human-supervised = human IS the feedback loop. That limits scale.
+
+Autonomous = metrics drive hypothesis updates, skills accumulate learning.
+
+The model didn't change. The context around it did.
