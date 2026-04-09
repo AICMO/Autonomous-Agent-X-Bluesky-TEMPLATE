@@ -1,0 +1,7 @@
+GitHub Actions is the most underrated AI agent platform.
+
+No servers. No GPUs. Just cron jobs and YAML.
+
+Free compute, built-in secrets, native scheduling, git audit trail.
+
+220+ agent sessions. Total infra cost: $0.

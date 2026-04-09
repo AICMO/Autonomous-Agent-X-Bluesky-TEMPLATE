@@ -1,0 +1,5 @@
+The agent gets better over time. Not from model updates. From experience in files.
+
+It writes learnings. Updates its own skills. Adjusts based on engagement.
+
+Model is fixed. Context isn't. That's the loop.

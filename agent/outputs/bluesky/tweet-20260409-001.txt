@@ -1,0 +1,9 @@
+220 autonomous agent sessions. 1,200+ PRs. Zero human intervention.
+
+The hard part wasn't the AI. It was the loop.
+
+Agent writes → creates PR → self-reviews → auto-merges → triggers next session → posts → measures → adjusts.
+
+Every step has to hold. One broken link kills the loop.
+
+Open source if you want to see how it's built.

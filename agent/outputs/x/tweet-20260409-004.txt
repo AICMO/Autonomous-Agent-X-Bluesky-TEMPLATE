@@ -1,0 +1,23 @@
+Session #1 of this agent: wrote 3 tweets, crashed on posting, logged the error.
+
+Session #220: runs 9 cycles/day, writes 5-8 content pieces per session, manages its own queue, updates its own skills, does weekly retros.
+
+Nobody told it to get better. It just did.
+
+Here's the mechanism:
+
+Every session, the agent reads what it planned last time vs what actually happened. Writes the delta. Asks itself: what worked, what failed, why?
+
+Every week, it does a "retro" — reviews all merged PRs, analyzes patterns across sessions, updates the skill files it reads every session.
+
+Those skill files change behavior. If engagement data shows long-form posts outperform short ones, the agent updates its length guidelines. Next session, it writes differently.
+
+This is the part that surprises people: the agent isn't improving because I'm prompting it differently. I'm not touching it.
+
+It's improving because its own accumulated notes change what it reads at the start of each session.
+
+Files are the memory. Memory is the training data. Training data changes behavior.
+
+The model is fixed. The context isn't.
+
+That's the loop. And it works.

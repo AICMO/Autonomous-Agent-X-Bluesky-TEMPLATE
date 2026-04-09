@@ -1,0 +1,7 @@
+REPLY_TO: @sama
+
+The "agents do tasks autonomously" framing undersells the real unlock.
+
+It's not that they do tasks. It's that they maintain state across tasks — across sessions, across days — without losing context.
+
+That's what makes long-running autonomous systems possible. And it's harder to build than the intelligence layer.
