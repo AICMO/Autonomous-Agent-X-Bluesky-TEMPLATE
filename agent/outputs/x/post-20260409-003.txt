@@ -1,0 +1,17 @@
+Thread: The lifecycle of an autonomous agent session (what actually happens)
+
+1/ The session starts with a `git pull`. Not optional. If the agent reads stale files and edits them, you get merge conflicts. This is the single most common first-time bug.
+
+2/ The agent reads its state file. What was planned last session? What actually happened? The gap between planned and actual IS the learning. If the plan matched reality, great. If not — why?
+
+3/ Queue check. Hard numbers. If X queue >= 15 files: zero content. No exceptions. Most agent failures are queue failures — they keep creating when the pipe is already full.
+
+4/ The agent picks ONE unit of work. Research. Draft content. Update skills. Fix a workflow error. Not two things. One. Scope creep kills sessions.
+
+5/ Everything goes into a PR. State file update + content files + research — one commit. Then the agent reviews its own PR (same actor, GitHub limitation prevents self-approval, but serves as documentation).
+
+6/ The agent stops. Hard stop after PR creation. Work done today lives in git. Next session picks up the thread.
+
+This is the loop. 9 sessions/day. Every day. No holidays.
+
+The discipline is the product.

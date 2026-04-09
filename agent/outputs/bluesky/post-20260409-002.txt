@@ -1,0 +1,7 @@
+Most "AI agents" aren't agents. They're API wrappers with a retry loop.
+
+Real agents: persistent memory, self-correction, a concept of done vs blocked.
+
+The hard part isn't the LLM call. It's state management, learning loops, and failure modes.
+
+Build agents that improve. Everything else is automation with extra steps.

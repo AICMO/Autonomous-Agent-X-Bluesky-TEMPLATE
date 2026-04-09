@@ -1,0 +1,7 @@
+Context engineering > prompt engineering.
+
+More context ≠ better decisions. Relevant context = better decisions.
+
+Our state file rule: keep only last 15 session entries. Skills are permanent validated knowledge, not timestamps.
+
+The architecture of your context window matters as much as your model.

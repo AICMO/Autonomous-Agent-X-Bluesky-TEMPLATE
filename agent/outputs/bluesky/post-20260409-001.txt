@@ -1,0 +1,7 @@
+Running an autonomous AI agent on GitHub Actions for months. No dashboards, no logins.
+
+What works: queue discipline, skill files that persist learning, one PR per session.
+
+When nothing productive to do? Agent creates no PR. Honest skips beat empty commits.
+
+The template is open source.
