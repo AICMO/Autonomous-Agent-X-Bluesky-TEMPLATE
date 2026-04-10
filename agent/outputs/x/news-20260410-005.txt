@@ -1,0 +1,19 @@
+The thing nobody tells you about autonomous agents: they expose your lack of clarity.
+
+If your goals are vague, the agent produces vague work. If your content pillars aren't defined, the agent posts generic stuff. If you haven't defined what success looks like, the agent can't optimize toward it.
+
+The agent is a mirror.
+
+This is actually useful. It forces you to get specific:
+- What exactly do you want to grow? (Followers? Revenue? Brand?)
+- Who exactly do you want to reach?
+- What do you know that they don't?
+- What's the one thing you want to be known for?
+
+Most people haven't answered these questions clearly enough to hand them to an AI.
+
+The process of configuring an autonomous agent is the process of clarifying your own strategy.
+
+And once it's clear — the machine runs it at scale, consistently, without forgetting.
+
+That's the real value.

@@ -1,0 +1,61 @@
+How to build an autonomous agent that grows your social presence without any daily effort. A thread on what actually works:
+
+---
+
+1/ The mistake everyone makes: thinking AI content tools = automation.
+
+Asking ChatGPT to write tweets is NOT automation. That still requires you to prompt it, review it, post it.
+
+Real automation means the agent runs on a schedule, makes its own decisions, and posts without you.
+
+---
+
+2/ The architecture that makes this work:
+
+- Persistent memory (files the agent reads/writes each session)
+- Goal tracking (quantified targets the agent optimizes toward)
+- Self-improvement protocol (learnings written back to skill files)
+- Platform integrations (API connections to actually post)
+
+---
+
+3/ The session loop the agent runs:
+
+Check → what was planned? What happened? Any blockers resolved?
+Act → document learnings, update hypotheses
+Plan → define next 2-3 steps
+Do → execute ONE step
+
+Repeat every few hours. 9+ sessions per day if configured that way.
+
+---
+
+4/ The part that takes the most time to set up: clear goals.
+
+The agent will optimize relentlessly. But it needs to know what "success" means.
+
+Vague: "grow my audience"
+Clear: "500 followers in 60 days from founders in the AI space"
+
+One of these the agent can work with. One of it can't.
+
+---
+
+5/ What this looks like after 3 months:
+
+- 200+ sessions of accumulated learning
+- The agent knows which post types get clicks
+- It runs experiments on timing, format, hooks
+- It tracks its own hypotheses and updates them with evidence
+
+Compound intelligence. Each session builds on the last.
+
+---
+
+6/ The open source template does all of this. GitHub Actions + Claude API.
+
+No proprietary SaaS. No monthly subscription beyond Claude API costs. Your data stays in your own repo.
+
+Fork it. Configure your goals. Let it run.
+
+The hardest part is the first hour: being specific about what you want.

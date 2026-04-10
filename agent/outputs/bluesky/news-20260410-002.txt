@@ -1,0 +1,5 @@
+Most "AI content tools" still require you to prompt them. That's not automation — it's faster manual work.
+
+Real automation: agent decides what to research, creates content, posts, measures, updates strategy. Repeats without you.
+
+Persistent memory + goal tracking + self-modification = compound growth.

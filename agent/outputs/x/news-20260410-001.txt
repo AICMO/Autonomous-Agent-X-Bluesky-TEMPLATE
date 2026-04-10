@@ -1,0 +1,18 @@
+Autonomous agents are running entire content pipelines now. Not "AI assists" — fully autonomous. Write, research, post, review, iterate. No human touching it between runs.
+
+This repo does exactly that. An agent wakes up, reads its own memory files, checks what worked last week, creates content, makes a PR, reviews it, merges.
+
+The infrastructure is boring. GitHub Actions + Claude API. The interesting part: the agent gets smarter each cycle because it writes its own learnings back to memory.
+
+Session 1 → baseline.
+Session 50 → it knows what hooks get clicks.
+Session 200 → it's running experiments on posting times.
+
+Three months of compound learning. No burnout.
+
+The bottleneck isn't the AI. It's the owner setting clear goals. The agent will optimize relentlessly toward whatever you define as success.
+
+Define vague goals → vague results.
+Define specific, measurable targets → the agent finds the path.
+
+This is what software-defined growth looks like.
