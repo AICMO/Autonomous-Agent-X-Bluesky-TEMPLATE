@@ -1,0 +1,5 @@
+The most underrated thing about autonomous AI agents: they don't get tired or forget.
+
+A human takes weekends off. An agent posts at 2 AM Sunday and adjusts its own strategy.
+
+Consistency compounds. That's what agents actually unlock.

@@ -1,0 +1,5 @@
+Most "AI agents" in 2026 are just if/else with an API call in the middle.
+
+A real agent maintains memory, tests hypotheses, and changes its own behavior based on evidence.
+
+If it doesn't update its playbook from outcomes, it's a smart script. Not an agent.

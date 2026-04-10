@@ -1,0 +1,18 @@
+I built a system where an AI agent:
+
+1. Reads the news every morning
+2. Filters it through my content pillars
+3. Writes 5-8 posts
+4. Creates a PR for my review
+5. Self-reviews and merges
+6. Posts on schedule
+
+Zero humans in the loop. Zero servers to maintain. Just GitHub Actions and an LLM.
+
+The whole thing runs on ~$5-20/month depending on model and session count.
+
+Most people think "AI content" means ChatGPT + copy/paste. This is the next generation: fully autonomous pipelines that get smarter every week.
+
+The agent tracks its own hypotheses ("do morning posts get more engagement?"), tests them, and updates its own playbook.
+
+That's not a tool. That's a system that learns.

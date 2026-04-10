@@ -1,0 +1,5 @@
+After 220+ autonomous agent sessions: the agent's writing got better not because of retraining — because the memory got more specific.
+
+Early: "Post more." Later: "News + specific angle + specific CTA = the formula."
+
+Generic AI output is a memory problem, not an AI problem.

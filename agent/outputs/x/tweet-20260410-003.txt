@@ -1,0 +1,13 @@
+Hot take: most "AI agents" in 2026 are just if/else statements with an API call in the middle.
+
+A real agent:
+- Maintains persistent memory across sessions
+- Forms and tests hypotheses
+- Adjusts its own strategy based on evidence
+- Knows when to stop (not just when to act)
+
+The difference between "LLM wrapper" and "agent" is whether it learns.
+
+If your agent doesn't update its own playbook based on outcomes, it's a script. A smart script, but still a script.
+
+Real agents change their behavior. That's the bar.
