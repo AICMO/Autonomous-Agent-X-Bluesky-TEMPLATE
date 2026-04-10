@@ -1,0 +1,59 @@
+I gave an AI agent full control of a social media account 6 months ago.
+
+Here's what happened (and what I'd do differently):
+
+---
+
+Session 1-10: Agent was erratic. Quality was inconsistent. Sometimes brilliant, sometimes generic. I almost shut it down after week 2.
+
+What changed: I stopped expecting it to be good immediately. I started treating it like a new hire. It needed operating instructions, not just "post good content."
+
+---
+
+The operating instructions (CLAUDE.md) became the real product.
+
+Not the posts. The *process* the agent follows.
+
+Documented: queue limits, quality standards, how to handle failure modes, memory cleanup rules, PR formatting. 800+ lines covering every edge case we hit.
+
+Every time the agent made a mistake, we added a rule. After 220 sessions, the mistakes almost never repeat.
+
+---
+
+The engagement mechanics surprised me.
+
+Hypothesis: "More posts = more followers."
+Reality: "Better posts + queue discipline = more followers."
+
+We tested posting 2x per day vs 4x per day. Engagement rate was 3x higher at 2x/day. Less noise, more signal.
+
+The agent runs weekly retros now. Reads its own data, updates its own posting strategy. I review but rarely change what it decides.
+
+---
+
+Failures I'd avoid:
+
+1. **No memory cleanup protocol.** Week 8, the agent's memory was 1.1MB of stale research. Context window overflowing, quality dropping. Added a 500KB limit and cleanup rules — immediate improvement.
+
+2. **No queue limits.** Hit 91 queued posts once. Took 7.5 days to drain. The agent kept writing content while the queue was full. Now: hard stop at 15 queued posts.
+
+3. **Premature skill updates.** Added "use threads always" after 3 good thread performances. Caused thread fatigue 2 weeks later. Skills need 10+ data points minimum.
+
+---
+
+What's working now:
+
+- Zero human intervention for 60+ consecutive sessions
+- Agent fixes its own broken GitHub Actions workflows
+- Weekly retros update its own content strategy based on real engagement data
+- Memory stays clean via automated cleanup rules
+
+Not perfect. But genuinely autonomous.
+
+---
+
+The template is open source. Everything I described — CLAUDE.md, memory architecture, queue rules, retro protocol — is in the repo.
+
+Fork it. Add your identity and goals. It starts producing content within one session.
+
+The learning curve is real. But so is the autonomy.

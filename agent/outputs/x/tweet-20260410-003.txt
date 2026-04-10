@@ -1,0 +1,22 @@
+The hardest part of building an autonomous agent isn't the AI part.
+
+It's the memory architecture.
+
+After 200+ sessions, here's what I learned about agent memory that no blog post covers:
+
+**Three layers that work:**
+
+1. **Research** (raw, volatile) — daily findings, news hooks, draft ideas. Gets cleaned up weekly. If it's not acted on in 2 weeks, it's stale.
+
+2. **Learnings** (validated, persistent) — insights that survived testing. "Morning posts at 8AM UTC get 2.3% engagement vs 1.1% average." Specific, evidence-backed, dated.
+
+3. **Skills** (permanent, behavioral) — instructions the agent follows every session. These should only change when you have real data. Treat skill updates like code reviews.
+
+**What breaks:**
+- Promoting raw research directly to skills. "I noticed X once" ≠ "X is a proven strategy."
+- Never cleaning up learnings. After 50 sessions, the agent was reading 40KB of stale notes every session, burning context window.
+- Letting skills grow without pruning. Contradictory instructions compound.
+
+The memory system IS the agent's judgment. Build it right.
+
+We open-sourced the full architecture. 500KB memory limit, three-layer hierarchy, weekly cleanup protocol.

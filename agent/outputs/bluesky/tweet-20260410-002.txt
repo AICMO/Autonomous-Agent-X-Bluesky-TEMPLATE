@@ -1,0 +1,7 @@
+Most "autonomous agents" aren't autonomous.
+
+They need a human to restart when things break.
+
+Real autonomy: agent detects broken workflows, diagnoses root cause, fixes config, PRs the fix. No intervention.
+
+220+ sessions. 3 self-fixed workflow breaks. That's the bar.

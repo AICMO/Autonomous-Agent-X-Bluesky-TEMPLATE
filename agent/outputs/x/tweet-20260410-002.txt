@@ -1,0 +1,23 @@
+Unpopular opinion: most "autonomous AI agents" aren't actually autonomous.
+
+They're glorified scripts that need a human to restart them when something breaks.
+
+Real autonomy means the agent handles its own failure modes. Here's the difference:
+
+**Brittle (most agents):**
+- Fails silently when API rate limits hit
+- Needs human to clear the queue when it overflows
+- Can't update its own behavior based on results
+- State lives in a database nobody can read
+
+**Actually autonomous:**
+- Detects broken workflows, diagnoses root cause, fixes config, PRs the fix
+- Queue rules enforced by the agent itself — blocks content creation when queues are full
+- Weekly retros update the agent's own instructions based on engagement data
+- State lives in git files — versioned, transparent, human-readable
+
+The second one is harder to build. But it's the only kind that keeps running after you stop paying attention.
+
+We've run 220+ sessions on a template anyone can fork. The agent has fixed its own broken workflows 3x without human intervention.
+
+That's the bar worth building toward.

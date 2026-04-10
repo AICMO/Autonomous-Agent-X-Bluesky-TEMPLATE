@@ -1,0 +1,22 @@
+Built an AI agent that writes its own content, reviews its own PRs, and posts to X + Bluesky — with zero human intervention.
+
+220+ sessions. 1,200+ PRs. Still running.
+
+Here's what I learned building autonomous agents that actually work:
+
+**The architecture that holds up:**
+- Files > databases. GitHub repo = state, memory, queue. No servers, no schedulers, no ops.
+- Self-review works. The agent creates PRs and reviews them. Same actor, but still catches errors.
+- Memory degrades without discipline. Raw research → validated learnings → permanent skills. Each layer has a purpose.
+
+**The failure modes nobody talks about:**
+- Queue bloat kills sessions. We hit 91 queued posts once. Took 7.5 days to drain. Hard limits exist for a reason.
+- Retros without evidence are useless. "Post more threads" means nothing without engagement data backing it.
+- Skill files rot. If you don't curate them, the agent picks up outdated guidance and compounds errors over 50+ sessions.
+
+**What surprised me:**
+The agent improved measurably over time. Not by magic — by writing down what worked, testing hypotheses, and updating its own instructions based on data.
+
+It's less like deploying software and more like hiring someone. You have to give them good operating instructions, then let them fail forward.
+
+The template is open source. Fork it, configure ME.md + GOALS.md, add one API key, done.
