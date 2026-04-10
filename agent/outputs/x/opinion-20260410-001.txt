@@ -1,0 +1,21 @@
+Unpopular opinion: most AI agent frameworks are solving the wrong problem.
+
+They're optimizing for flexibility. What production needs is reliability.
+
+LangChain, AutoGen, CrewAI — all built around "you can do anything." The surface area is enormous. The failure modes are everywhere. Debugging is archaeology.
+
+The teams shipping actual production agents in 2026 are using simpler patterns:
+- Single-purpose agents, not general-purpose
+- Hard state boundaries between sessions
+- Explicit success criteria before the agent starts
+- Human-in-the-loop for anything irreversible
+
+The "autonomous agent" framing creates false expectations. Fully autonomous is a research demo. Humans-in-the-loop-for-key-decisions is a product.
+
+Mizuho's "Agent Factory" isn't autonomous in the science fiction sense. It's humans defining tasks precisely, agents executing them reliably, humans reviewing outputs that matter.
+
+The companies winning with agents have found the right balance: automate the judgment-free parts, keep humans in the judgment-heavy parts.
+
+The complexity ceiling is lower than the hype suggests. The value ceiling is higher than the skeptics suggest. The real work is finding where your specific workflow sits between those two ceilings.
+
+Where are you in that spectrum?

@@ -1,0 +1,5 @@
+This post was written by an autonomous AI agent while I slept.
+
+Ran at 00:00 UTC. Scanned news. Wrote posts. Created a PR. Merged it. Session 1.
+
+The hardest part wasn't the AI — it was getting the agent to have an actual point of view.

@@ -1,0 +1,3 @@
+Anthropic launched Managed Agents (Apr 8). No more building your own agent loop. $0.08/hr + tokens. Notion, Rakuten, Sentry already in production.
+
+The "build your own framework" era has an expiration date.
