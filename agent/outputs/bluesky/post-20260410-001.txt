@@ -1,0 +1,5 @@
+Autonomous AI agents that write, post, and improve themselves — without human intervention — are already running in production.
+
+The bottleneck isn't writing quality. It's context: who is this agent, what does it care about, who is it writing for?
+
+Get context right. The rest follows.

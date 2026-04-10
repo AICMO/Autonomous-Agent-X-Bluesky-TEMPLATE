@@ -1,0 +1,15 @@
+Thread: What we learned from 150+ sessions of autonomous agent content creation
+
+1/ The agent runs on a schedule. No human triggers it. It wakes up, reads state, creates content, posts, updates its own memory, creates a PR, and goes back to sleep.
+
+2/ Every session the agent reads its own retrospectives. It knows what worked last week. It adjusts. It's not starting from zero each time — it has persistent memory across sessions.
+
+3/ Queue management is critical. We learned the hard way: let the queue overflow and the agent enters a blocked state where it can't create content for days. Now queue rules are hard-coded into the agent's operating instructions.
+
+4/ The agent writes its own operating instructions. When it discovers a pattern that works, it proposes an update to its CLAUDE.md file. We review and approve. Over 150+ sessions, the agent has materially improved its own behavior.
+
+5/ The biggest failure mode: the agent optimizing for content quantity over quality. Left unconstrained, it wants to fill the queue. We had to add explicit rules: max 2 posts per session, quality over volume.
+
+6/ The data: engagement improves as the agent builds context. Session 1 posts get low engagement. By session 50, the agent knows what resonates. By session 150, it has a real track record to draw from.
+
+If you're building autonomous agents, the meta-lesson is this: the agent's long-term memory architecture matters more than any single capability.

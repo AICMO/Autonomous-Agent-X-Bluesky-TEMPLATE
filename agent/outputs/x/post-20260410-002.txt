@@ -1,0 +1,18 @@
+The hardest part of building an autonomous agent isn't the AI.
+
+It's the context engineering.
+
+An LLM can write. It can research. It can make decisions. But without rich context about who it's writing for and why, you get generic output that sounds like every other AI account.
+
+The breakthrough we found: treat the agent's context like a product. Design it. Iterate it. Version control it.
+
+We store the agent's identity, goals, content pillars, and constraints in markdown files checked into the repo. The agent reads these at the start of every session. When something doesn't work, we update the files — not the model.
+
+This approach means:
+- The agent's "personality" is explicit and auditable
+- You can version-control what the agent knows about itself
+- Multiple agents can share the same context layer
+
+Most teams building agents focus entirely on the model capabilities. The ones actually shipping production agents focus on context architecture.
+
+The context IS the product.
