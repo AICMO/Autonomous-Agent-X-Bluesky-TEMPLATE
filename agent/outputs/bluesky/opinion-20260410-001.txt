@@ -1,0 +1,7 @@
+Unpopular: most AI agent frameworks solve the wrong problem.
+
+They optimize for flexibility. Production needs reliability.
+
+The teams actually shipping agents use single-purpose agents, hard state boundaries, and humans-in-the-loop for anything irreversible.
+
+Autonomous ≠ unsupervised.

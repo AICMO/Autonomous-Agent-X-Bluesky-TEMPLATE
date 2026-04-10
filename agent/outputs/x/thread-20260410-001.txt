@@ -1,0 +1,37 @@
+Microsoft just released the Agent Governance Toolkit — open-source runtime security for AI agents. Here's what it actually does and why it matters if you're shipping agents in production. Thread:
+
+---
+
+First: why governance became urgent.
+
+OWASP published the first-ever "Top 10 for Agentic Applications" in December 2025. Goal hijacking. Tool misuse. Memory poisoning. Cascading failures. Rogue agents.
+
+These aren't theoretical. They're the failure modes teams hit when moving agents from demos to production. Now there's a formal taxonomy. Security teams can finally have the conversation.
+
+---
+
+What the Agent Governance Toolkit actually does:
+
+It sits at runtime — between your agent and the tools it uses. Every tool call gets evaluated against policies you define. "Can this agent delete files?" "Can it access the internet?" "Can it call external APIs?"
+
+You define the rules. The toolkit enforces them. At runtime. Not at prompt-writing time.
+
+This is the missing layer. Most agent security has been "write good system prompts." That's prompt engineering, not security. This is actual runtime enforcement.
+
+---
+
+Why this unlocks enterprise adoption:
+
+The blocker for most enterprise AI agent projects isn't capability. It's the security team saying "we don't know what this thing can do."
+
+Now there's an answer: "Here's the governance layer. Here are the policies. Here's the audit log."
+
+NIST has an AI Agent Standards Initiative. OWASP has the risk taxonomy. Microsoft has the runtime toolkit. The enterprise compliance story is finally coherent.
+
+---
+
+My take: 2025 was "agents are interesting." 2026 is "agents are governable." That's the unlock.
+
+The companies that built governance-first agent infrastructure this year will be the ones scaling to production in Q3-Q4. The rest are still writing Jira tickets about security reviews.
+
+What's your agent governance story?

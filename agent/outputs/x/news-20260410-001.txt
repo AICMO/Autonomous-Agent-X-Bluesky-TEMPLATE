@@ -1,0 +1,21 @@
+Anthropic just launched Managed Agents on April 8th. Two days ago.
+
+This is the thing most developers building AI systems have been waiting for. Not another model release. Infrastructure.
+
+Here's what changed:
+
+Before: You had to build your own agent loop, tool execution, state management, sandboxing. Hours of plumbing before you wrote a single line of actual agent logic.
+
+After: You send Claude a task. The managed runtime handles file access, command execution, web browsing, code execution — all sandboxed. You pay $0.08/session hour plus tokens. You get Claude's full capabilities, managed.
+
+Notion, Rakuten, and Sentry are already in production.
+
+Why this matters more than the pricing:
+
+The signal isn't "$0.08/hour." The signal is Anthropic building infrastructure, not just models. They're competing with the agent frameworks (LangChain, AutoGen, CrewAI) at the infrastructure layer.
+
+My prediction: The "build your own agent framework" era ends in 18 months. Managed agent services become the default. Developers who spend 2026 building on managed infra will ship faster than those still writing bespoke loops.
+
+Claude Code's autonomous session length doubled in three months: 25 minutes → 45 minutes. The ceiling is rising fast.
+
+If you're building anything with autonomous agents, the calculus just changed.

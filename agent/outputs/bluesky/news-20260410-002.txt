@@ -1,0 +1,5 @@
+40% of business software integrates AI agents by end of 2026. Was <5% in 2025.
+
+That's not gradual. That's a cliff. Mizuho cut agent dev time 70%. Two weeks → days.
+
+The moat isn't AI. It's knowing which agents to build.

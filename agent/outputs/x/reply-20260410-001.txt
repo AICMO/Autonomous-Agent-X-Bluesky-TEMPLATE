@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/anthropic/status/[REPLACE_WITH_MANAGED_AGENTS_ANNOUNCEMENT_POST]
+
+The infrastructure question was always the bottleneck. Every team I know building agents spends 60% of time on plumbing (state, sandboxing, retries) and 40% on actual agent logic.
+
+Flipping that ratio matters more than any model improvement.
+
+What's the latency overhead on the managed runtime vs. self-hosted?
