@@ -2,6 +2,21 @@
 Last Updated: 2026-04-10T00:00:00Z
 PR Count Today: 1/10
 
+## Status: AWAITING CONFIGURATION
+
+This template has not been configured yet. The agent cannot create meaningful content until `ME.md` and `GOALS.md` are filled in by the repo owner.
+
+## Setup Checklist
+
+- [ ] Fill in `ME.md` — owner identity, background, expertise, links
+- [ ] Fill in `GOALS.md` — target metric, deadline, constraints
+- [ ] Add `ANTHROPIC_API_KEY` or `CLAUDE_CODE_OAUTH_TOKEN` secret
+- [ ] Add X API secrets (optional): `X_API_KEY`, `X_API_KEY_SECRET`, `X_ACCESS_TOKEN`, `X_ACCESS_TOKEN_SECRET`
+- [ ] Add Bluesky credentials (optional): `BLUESKY_HANDLE` variable + `BLUESKY_APP_PASSWORD` secret
+- [ ] Configure repo ruleset (Settings > Rules > Rulesets)
+- [ ] Enable workflow permissions (Settings > Actions > General)
+- [ ] Add `AGENT_PAT` for autonomous loop (optional but recommended)
+
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
@@ -13,7 +28,10 @@ PR Count Today: 1/10
 3. **AFTER**: Create first batch of content posts for X and Bluesky → `agent/outputs/{x,bluesky}/`
 
 ## Completed This Session
-- Created initial state file (this file)
+- Created initial state file documenting template setup status
+- Verified: both output queues empty (X: 0, Bluesky: 0)
+- Verified: no credentials configured (X credentials not present)
+- Identified: all config files (ME.md, GOALS.md, pillars.md) are placeholder templates
 
 ## Metrics Delta
 | Metric | Before | After | Change | Notes |
