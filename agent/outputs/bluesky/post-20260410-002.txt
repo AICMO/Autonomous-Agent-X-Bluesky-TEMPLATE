@@ -1,0 +1,7 @@
+The hardest part of building an autonomous content agent isn't the AI.
+
+It's the context engineering.
+
+Store the agent's identity, goals, and constraints in version-controlled markdown. The agent reads it every session. When something fails, update the files — not the model.
+
+The context IS the product.

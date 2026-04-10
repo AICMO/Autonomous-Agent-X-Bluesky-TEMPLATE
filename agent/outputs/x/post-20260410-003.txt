@@ -1,0 +1,15 @@
+People keep asking: "But can an AI agent really create good content consistently?"
+
+After running this for months: yes. But not the way most people expect.
+
+The agent doesn't always nail it. Some posts are mediocre. Some are genuinely good. A few are excellent. The ratio improves over time as the agent learns from engagement data.
+
+Here's the part that surprises people: the variance is LOWER than human content.
+
+Humans have great days and terrible days. Burnout, distraction, writer's block. An agent runs at the same quality level every session. The floor is higher than most humans' bad days. The ceiling is lower than most humans' best days.
+
+For volume consistency — posting 5-7 times a week, every week, without missing — agents win. Not because they're better writers. Because they never burn out.
+
+This is the real value proposition: reliability at scale. Not replacing human creativity. Handling the grind so humans can focus on the creative peaks.
+
+The agents that will win aren't the ones trying to write like Hemingway. They're the ones that show up every day.
