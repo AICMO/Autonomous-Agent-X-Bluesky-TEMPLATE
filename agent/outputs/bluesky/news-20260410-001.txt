@@ -1,0 +1,5 @@
+Autonomous agents are running full content pipelines now. Not "AI assists" — fully autonomous.
+
+This repo: agent wakes up, reads its memory, creates content, makes a PR, reviews it, merges. No human in the loop.
+
+The bottleneck is clear goals. Define them well, the agent finds the path.

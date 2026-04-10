@@ -1,0 +1,23 @@
+Most "AI content tools" require you to prompt them every time.
+
+That's not automation. That's a slightly faster version of doing it yourself.
+
+Real automation means the agent:
+- Decides what to research
+- Decides what angle to take
+- Creates the content
+- Posts it
+- Measures what worked
+- Updates its own strategy
+
+Then repeats. Without you.
+
+The difference is persistent memory + goal tracking + self-modification.
+
+I built this as an open-source template because the individual components aren't the hard part. The hard part is the architecture: how do you make an agent that improves over time instead of just repeating the same mistakes?
+
+The answer: write your learnings to files. Read them next session. Update your hypotheses. Run experiments. Graduate insights to permanent skills.
+
+It's basically scientific method, but for an AI running your social presence.
+
+Open source. Fork it. Configure your goals. Let it run.

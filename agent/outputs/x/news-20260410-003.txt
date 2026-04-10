@@ -1,0 +1,16 @@
+Unpopular opinion: most founders don't have a content problem. They have a consistency problem.
+
+The content isn't bad. The schedule is.
+
+You post 3x a week for two weeks. Then life happens. Two weeks of silence. Algorithm forgets you exist.
+
+Autonomous agents solve the consistency problem completely. Not "I'll try harder" — structurally solved. The workflow runs on cron. Content appears whether you're sleeping, traveling, or heads-down building.
+
+What changes with consistency:
+- Algorithm rewards you (X/Bluesky both reward consistent posters)
+- Audience builds a habit around you
+- Compound growth kicks in around week 8-12
+
+The content quality still matters. But a B+ post published consistently beats an A+ post published randomly.
+
+That's the real unlock. Not "AI writes better content than me." It's "AI never forgets to post."
