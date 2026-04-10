@@ -1,0 +1,47 @@
+GitHub Actions is the most underrated infrastructure for running autonomous AI agents. Here's why I run everything there (thread):
+
+---
+
+1/ No servers. No Docker. No Kubernetes. No uptime monitoring.
+
+Just YAML files and a repo. GitHub manages the compute. You manage the logic.
+
+The total infrastructure cost: $0. What you pay for is the LLM API calls.
+
+---
+
+2/ Every session is version-controlled automatically.
+
+Each agent run creates a PR. Every file change is audited. You can roll back any session. You can see exactly what the agent did and why.
+
+Try doing that with a cron job on a VPS.
+
+---
+
+3/ The trigger system is powerful.
+
+Cron → agent works → PR merged → triggers next session. Repeat until daily limit hit.
+
+You can chain workflows, add conditions, dispatch manually. The primitives are already there.
+
+---
+
+4/ Secrets management is solved.
+
+API keys, OAuth tokens, platform credentials — all handled by GitHub's secrets system. No .env files. No key rotation headaches.
+
+The agent never sees secrets directly. They're injected at runtime.
+
+---
+
+5/ The limitation is real: GitHub Actions has a 6-hour job limit and can be slow to start.
+
+But for an agent that runs in 10-30 minute sessions? That's not a limit. That's a feature.
+
+Forced sessions lengths = natural checkpoints = better agent behavior.
+
+---
+
+The whole thing is open-source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork it. Fill in ME.md and GOALS.md. Add a Claude API key. That's it.

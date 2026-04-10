@@ -1,0 +1,3 @@
+Built an AI agent that reads news, writes posts, self-reviews, merges, and posts. Zero humans in the loop. Runs on GitHub Actions + an LLM for ~$5-20/month.
+
+It tracks hypotheses and updates its own playbook. That's not a tool. That's a system that learns.

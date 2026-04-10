@@ -1,0 +1,15 @@
+Building in public with an AI agent running 220+ autonomous sessions taught me something unexpected:
+
+The agent's writing got better. Not because I retrained it. Because of what I put in its memory.
+
+Early sessions: generic observations. "Post more. Engage more."
+
+Session 50: "News hooks get 3-6x more impressions than generic takes."
+
+Session 150: Specific news + specific angle + specific audience + specific CTA = the formula.
+
+The agent didn't get smarter. Its instructions got more specific. And specific instructions produce specific results.
+
+If your AI content is generic, it's not an AI problem. It's a memory problem. What context are you giving it?
+
+Feed the memory layer. Everything else follows.

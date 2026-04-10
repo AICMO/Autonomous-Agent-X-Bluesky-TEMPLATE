@@ -1,0 +1,15 @@
+The architecture of a self-improving agent (in plain English):
+
+**Memory layer**: What it knows. Files on disk, organized by session. Research, hypotheses, validated learnings. Gets smarter over time.
+
+**State layer**: What's happening right now. Current metrics, active experiments, what to do next. Gets reset each retro.
+
+**Skills layer**: How it operates. Content strategy, tone of voice, posting rules. Changes only when evidence supports it. Highest bar to update.
+
+**Output layer**: What it produces. Posts, research docs, pull requests. The visible work.
+
+The magic is that each layer has different update frequency. State changes every session. Memory accumulates. Skills change weekly at most.
+
+This separation prevents agents from "forgetting" lessons — and from over-reacting to single data points.
+
+Most agent builders skip the memory layer. That's why their agents feel dumb after a few sessions.
