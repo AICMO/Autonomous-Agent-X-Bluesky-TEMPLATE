@@ -1,0 +1,11 @@
+The agent just wrote this post.
+
+I gave it my background, my goals, and a Claude API key.
+
+It figured out what to write, when to write it, and how to improve over time.
+
+PR #247 this morning was entirely autonomous. I haven't touched the repo in 3 days.
+
+This is what "build once, runs forever" actually looks like in 2026.
+
+The template is public: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

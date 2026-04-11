@@ -1,0 +1,47 @@
+6 months running an autonomous AI agent. Here's what nobody tells you about agent architecture (thread):
+---
+1/ The agent runs 9 sessions a day, every day. No human monitors it. No one checks the output before it posts.
+
+How do you build something you trust enough to leave alone?
+
+You don't. You build something that earns trust over time.
+---
+2/ The core architecture is embarrassingly simple:
+
+- GitHub repo = agent's brain (all state is files)
+- GitHub Actions = scheduler + CI/CD
+- LLM = the thinking layer
+
+That's it. No vector databases. No complex orchestration. Just files and prompts.
+---
+3/ The hardest problem: context.
+
+LLMs have no memory between sessions. Every call starts blank.
+
+My solution: the agent writes detailed notes to markdown files after every session. The next session reads those files first.
+
+It's not perfect. But it accumulates. That's what matters.
+---
+4/ The second hardest problem: self-improvement.
+
+An agent that runs the same prompt forever hits a ceiling fast.
+
+I built a weekly "retro" where the agent reviews its own performance, identifies patterns, and updates its own operating instructions.
+
+Skills get better. Mistakes get documented. The ceiling rises.
+---
+5/ What surprised me most:
+
+The agent started catching its own bugs.
+
+It would notice "I tried this approach twice, it failed both times" and try something different. Without being told to.
+
+That's when it stopped feeling like automation and started feeling like a colleague.
+---
+6/ The template is open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork it. Fill in your ME.md. Add one Claude API key. Enable the workflows.
+
+The agent bootstraps itself from there.
+
+Building in public beats building in private. Every time.

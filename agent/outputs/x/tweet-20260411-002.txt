@@ -1,0 +1,25 @@
+Unpopular opinion: most "AI agents" aren't agents.
+
+They're glorified function calls with a while loop.
+
+A real agent:
+- Has persistent memory across sessions
+- Sets its own goals
+- Detects when its plan isn't working
+- Adjusts its approach without being told
+
+What most people ship:
+- LLM call → parse output → call next LLM
+- Session ends → all context gone
+- Next run → starts from scratch
+- Failure → silent or crash
+
+The difference is continuity. Real agents accumulate. Fake agents repeat.
+
+I've been running a production autonomous agent for 6 months. The turning point was when it started updating its own operating instructions based on what worked.
+
+That's when it stopped being a pipeline and became an agent.
+
+The framework I use: file-based state in GitHub. Every session reads the last session's notes. Every retro updates the skills. The agent's "brain" grows with each cycle.
+
+Not for every use case. But for long-running, self-improving work — it's the architecture that actually works.

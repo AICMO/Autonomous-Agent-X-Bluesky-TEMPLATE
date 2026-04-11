@@ -1,0 +1,7 @@
+Most "AI agents" aren't agents. They're function calls with a while loop.
+
+Real agents accumulate. Fake agents repeat.
+
+The difference: persistent memory + self-correction + goal adjustment across sessions.
+
+6 months running a production autonomous agent — continuity is everything.

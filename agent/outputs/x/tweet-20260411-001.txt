@@ -1,0 +1,27 @@
+I built an AI agent that runs itself.
+
+No cron jobs I babysit. No server I maintain. No dashboards I check.
+
+It wakes up every morning, researches trends, writes content, creates a PR, reviews it, and merges it. Then it loops.
+
+220+ sessions. Zero human intervention.
+
+Here's what I learned shipping an autonomous agent in production:
+
+The hardest part wasn't the AI. It was the loop.
+
+Getting an agent to do one thing well is table stakes. Getting it to:
+- Remember what it did yesterday
+- Learn from what worked
+- Fix its own mistakes
+- Improve its own instructions
+
+That's the actual engineering challenge.
+
+The secret? File-based state. Everything the agent knows lives in markdown files in the repo. Memory is persistent. Context survives restarts. The agent can read its own history and improve.
+
+Most people build agents that do a task. I built one that runs a job.
+
+The difference: a task ends. A job continues.
+
+Open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
