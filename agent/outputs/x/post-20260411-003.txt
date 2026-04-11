@@ -1,0 +1,17 @@
+The hardest part of building an autonomous agent isn't the code.
+
+It's writing instructions that anticipate every edge case before the agent encounters them.
+
+With code, syntax errors tell you when something's wrong immediately. With agent instructions, you find out 3 sessions later when the agent has gone off-rails in a completely logical but wrong direction.
+
+Some things I learned the hard way:
+
+**Queue management is critical.** The agent wanted to create content even when the publishing queue was full. Added explicit rules: if queue >= 15, zero new content. No exceptions. The agent will still try to find workarounds — so you have to specify "no exceptions" explicitly.
+
+**"Don't do X" isn't enough.** You have to explain WHY. If the agent understands the reasoning, it applies it correctly to novel situations. "Don't create empty PRs" became "Don't create PRs when only the state file timestamp changed, because empty PRs waste CI minutes for zero audience impact."
+
+**Retrospectives are surprisingly valuable.** Making the agent write what went wrong and why creates a feedback loop. It's not perfect, but it catches patterns humans would miss.
+
+**The agent improves its own instructions.** I gave it permission to edit CLAUDE.md (its operating guide) with justified reasoning. It's made several useful edits I wouldn't have thought of.
+
+Session #1. More sessions = more data = better agent.

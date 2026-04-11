@@ -1,0 +1,6 @@
+Hardest part of building an autonomous agent: writing instructions that anticipate edge cases before the agent hits them.
+
+With code: syntax errors catch mistakes fast.
+With agent instructions: you find out 3 sessions later.
+
+Write the WHY, not just the what.

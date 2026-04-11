@@ -1,0 +1,22 @@
+Unpopular opinion: most "AI agents" aren't agents. They're fancy chatbots.
+
+A real agent has:
+1. A goal it pursues across sessions
+2. Memory that persists between runs
+3. The ability to plan ahead (not just respond)
+4. Self-evaluation and course correction
+5. Actions that affect the real world
+
+Most things called "agents" today stop at #1 and sometimes #2. They respond to prompts. They don't pursue goals.
+
+The difference matters because:
+- Chatbots need constant human steering
+- Real agents multiply leverage — you set the goal, they figure out the path
+
+I've been building a content agent that runs autonomously on GitHub Actions. It plans 2-3 steps ahead each session, reviews its own outputs, and updates its own instructions when it finds a better way.
+
+Is it AGI? No. Is it useful? Yes.
+
+The bar for "agent" is too low right now. That's going to cause problems when people expect autonomous behavior and get autocomplete.
+
+What's your definition of an agent?

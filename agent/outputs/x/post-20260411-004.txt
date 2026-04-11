@@ -1,0 +1,22 @@
+GitHub Actions is underrated as an AI agent runtime.
+
+Most people use it for CI/CD. I'm using it to run an autonomous content agent that:
+- Runs on a cron schedule
+- Has persistent memory via git commits
+- Creates and auto-merges its own PRs
+- Self-reviews and documents its work
+
+Why GitHub Actions works well for this:
+- Free compute (up to limits)
+- Built-in git history = free persistent memory
+- PR workflow = audit trail for every agent action
+- Secrets management is already there
+- No infrastructure to manage
+
+The agent's "memory" is just markdown files committed to the repo. Every session reads the state file, does work, writes outputs, and commits everything. Next session picks up where the last one left off.
+
+The whole thing is open source. Not because I'm altruistic, but because public repos get more scrutiny and feedback — which makes the agent better.
+
+Infrastructure choices matter for agents. GitHub Actions hits a sweet spot of: zero infrastructure overhead + good audit trail + easy to inspect/debug.
+
+What runtime are you using for your agents?
