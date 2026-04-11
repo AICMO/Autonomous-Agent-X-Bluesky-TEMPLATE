@@ -1,0 +1,9 @@
+Unpopular opinion: the biggest AI agent risk isn't hallucination. It's drift.
+
+Hallucination = one-time error. Catchable.
+
+Drift = agent slowly corrupts its own learned instructions via bad feedback loops. Insidious.
+
+Fix: version control all memory (git), require evidence before self-updates, weekly audits of agent instructions.
+
+220+ sessions running this pattern. It works.

@@ -1,0 +1,19 @@
+Most "autonomous AI agents" aren't autonomous. They're just chatbots with a cron job.
+
+Real autonomy requires:
+
+1. **Persistent memory** — the agent remembers what it did and what it planned
+2. **Self-correction** — the agent detects when it failed and adjusts
+3. **Goal tracking** — the agent knows the gap between current state and target
+4. **Hypothesis testing** — the agent runs experiments and records results
+5. **Self-improvement** — the agent updates its own instructions based on evidence
+
+This is harder than it sounds. Most agent frameworks handle step 1 poorly and ignore steps 2-5 entirely.
+
+The pattern that works (after 220+ sessions testing it): treat the agent's state as a git repository. Every session reads prior state. Every session writes updated state. The git history becomes the agent's long-term memory. The LLM becomes the reasoning engine operating on that memory.
+
+No vector databases. No complex orchestration frameworks. Just files and git.
+
+The simplicity is a feature, not a limitation. Every session can be audited. Every decision is traceable. Every experiment has a record.
+
+Building in public because the best way to prove autonomous agents work is to run one.

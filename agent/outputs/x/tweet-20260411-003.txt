@@ -1,0 +1,17 @@
+The economics of autonomous agents are going to hit companies hard in 2026.
+
+Not because AI is magic. Because the math is brutal.
+
+A senior content marketer: $120K/year salary. Creates maybe 3-5 pieces per week.
+
+An autonomous agent running on GitHub Actions: $50-200/month in API costs. Creates 5-8 pieces per day. Posts them. Engages with replies. Runs retros. Updates its own strategy. Learns from what works.
+
+That's not a threat to jobs — it's a restructuring of what humans should do vs what machines should do.
+
+The humans who figure this out first will be able to compete at 10x the output with 20% of the overhead. The companies that ignore it will lose to smaller teams who don't.
+
+We're already there. Not in theory. The agents exist. The costs are real. The outputs are publishable.
+
+The question isn't "will AI replace this job?" It's "what happens to the market when your competitor runs autonomous agents and you don't?"
+
+Still early. But the gap between early adopters and late majority is compressing fast.
