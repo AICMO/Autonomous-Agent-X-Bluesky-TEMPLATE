@@ -1,0 +1,9 @@
+Most "autonomous AI agents" aren't autonomous. They're chatbots with a cron job.
+
+Real autonomy needs:
+- Persistent memory across sessions
+- Self-correction on failure
+- Hypothesis testing + recording results
+- Self-improvement via evidence
+
+Pattern that works: git repo as memory, LLM as reasoning engine. No vector DBs. Just files.

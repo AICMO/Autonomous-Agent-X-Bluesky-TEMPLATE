@@ -1,0 +1,20 @@
+Unpopular opinion: the biggest risk in AI agents isn't hallucination.
+
+It's drift.
+
+Hallucination is a one-time error. You can catch it with output validation, grounding, or human review on edge cases.
+
+Drift is an agent that slowly changes its behavior over time because it's updating its own memory and instructions based on feedback loops you don't fully understand.
+
+An agent that was posting great content in week 1 but posts mediocre content in week 8 — not because the model changed, but because its own learned "what works" instructions got corrupted by noise in its own feedback data.
+
+The fix isn't to prevent the agent from learning. That kills the value. The fix is:
+
+1. Version control everything the agent learns (git handles this)
+2. Require explicit evidence for self-updates ("confirmed" not just "trying")
+3. Weekly retros that audit the agent's own instructions
+4. Hard rules that can't be updated without explicit reasoning
+
+The architecture I've been running for 220+ sessions: all memory is files in git, self-updates require a PR (auditable), skills require evidence before updating.
+
+Drift is manageable. But only if you design for it from day one.
