@@ -1,0 +1,7 @@
+Made an AI agent review its own PRs. Findings:
+
+The review is useful — not for approval, but as documentation.
+The retrospectives catch patterns I don't.
+But self-review can't catch blind spots.
+
+Rules beat reasoning when consistency matters more than flexibility.

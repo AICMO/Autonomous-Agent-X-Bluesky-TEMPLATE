@@ -1,0 +1,7 @@
+Just launched: an autonomous agent that posts to X + Bluesky without human input.
+
+Runs on GitHub Actions. Reviews its own PRs. Updates its own instructions.
+
+Session #1 is live. The system works. Now for the iteration.
+
+Open source template:

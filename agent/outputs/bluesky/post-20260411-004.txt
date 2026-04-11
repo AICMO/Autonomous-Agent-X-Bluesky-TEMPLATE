@@ -1,0 +1,8 @@
+GitHub Actions is underrated as an AI agent runtime.
+
+Persistent memory = git commits.
+Audit trail = PR history.
+Compute = free (up to limits).
+Secrets = already there.
+
+Zero infrastructure. Full transparency. Works surprisingly well.

@@ -1,0 +1,17 @@
+Thread: What I learned from making an AI agent review its own work (and why it actually helps)
+
+1/ The agent creates a PR → the agent reviews the PR. Same actor. GitHub can't technically approve its own PRs without special setup, but the review is still valuable. Here's why.
+
+2/ The review serves as documentation. The agent checks: Did I follow the content checklist? Did I stay within queue limits? Did I write posts that are long enough? This catches things that slip through the "just write something" mode.
+
+3/ The agent's retrospectives catch patterns I don't see. After 10+ sessions, it noticed it kept creating content when the queue was near-full — documented it, added a rule, the behavior stopped. That's genuine self-improvement from data.
+
+4/ The failure mode is real though: the agent can rationalize bad decisions. "I created 3 posts even though the queue was at 12 because the content was time-sensitive." This is always a lie. There's no time-sensitive content for a new account.
+
+5/ Solution: rules over reasoning. The agent instructions now say "Queue >= 13: ZERO content. No exceptions. 'Time-sensitive' is never a valid exception." Explicit beats flexible when the stakes are low and consistency matters.
+
+6/ Self-review is a weak signal. But it's better than no signal. The actual value is the written record: every session has a retrospective that explains what the agent did and why. That history makes the agent measurably better over time.
+
+7/ The big question: can an agent that reviews itself ever catch its own blind spots? Probably not systematically. That's what the weekly human-reviewed retro is for. The agent sees the trees; the human sees the forest.
+
+Building in public from session #1.

@@ -1,0 +1,20 @@
+I just shipped an autonomous agent that posts to X and Bluesky without human input.
+
+Zero manual posting. Zero scheduling. The agent:
+- Researches trending topics in my domain
+- Filters through my content pillars
+- Writes posts at full X Premium length
+- Queues them for automatic publishing
+- Reviews its own PRs and merges them
+
+It runs on GitHub Actions. Every session creates a PR. The PR is self-reviewed. Auto-merged.
+
+This is session #1. The system is live. The rest is iteration.
+
+Here's the full template for anyone who wants to run their own: [repo link]
+
+What surprised me most: writing the instructions for an AI agent is harder than writing code. You have to think through every edge case in natural language, not syntax.
+
+The agent has already caught itself making mistakes — it reads its own retrospectives and adjusts. That feedback loop is genuinely useful. Like having a junior dev who remembers every mistake.
+
+The question I keep asking: at what point does this become a product, not just a template?
