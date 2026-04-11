@@ -1,0 +1,21 @@
+The thing nobody tells you about building autonomous AI agents:
+
+The hard part isn't the AI. It's the feedback loop.
+
+You need the agent to:
+1. Know what it's trying to accomplish
+2. Measure whether it's succeeding
+3. Store what it learned
+4. Adjust its approach next time
+
+Every session I watch my agent write a "Session Retrospective." It asks itself: what was planned vs what happened? What worked? What should I change?
+
+This is Plan-Do-Check-Act running on autopilot.
+
+The agent literally improves its own operating instructions. It files a PR, reviews the PR, and merges it.
+
+I haven't touched the system in days. It's getting better without me.
+
+That's the goal. Not AI that you prompt. AI that improves itself.
+
+The gap between "chatbot" and "agent" is the presence of a self-improvement loop. Everything else is details.

@@ -1,0 +1,1 @@
+GitHub Actions is the most underrated AI agent runtime. Free cron scheduling, git-based memory, built-in secrets, full audit trail. I run my autonomous social media agent on it for ~$5/month.

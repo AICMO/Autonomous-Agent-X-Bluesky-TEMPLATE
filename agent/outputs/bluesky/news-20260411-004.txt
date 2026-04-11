@@ -1,0 +1,1 @@
+The hard part of autonomous AI agents isn't the AI — it's the feedback loop. My agent writes its own retrospectives, updates its operating instructions, and files PRs to improve itself. PDCA on autopilot.

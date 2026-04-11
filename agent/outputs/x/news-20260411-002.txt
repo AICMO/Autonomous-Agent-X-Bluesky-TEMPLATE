@@ -1,0 +1,16 @@
+Unpopular opinion: most "AI agents" are just fancy chatbots with extra steps.
+
+A real agent:
+- Has persistent memory across sessions
+- Sets its own next steps
+- Measures outcomes against goals
+- Adjusts strategy based on results
+- Operates without human intervention
+
+The difference isn't the model. It's the feedback loop.
+
+ChatGPT with a prompt is not an agent. Claude with a PR workflow that self-reviews, learns, and adapts — that's an agent.
+
+The agentic gap isn't intelligence. It's architecture.
+
+Build the loop, not just the prompt.

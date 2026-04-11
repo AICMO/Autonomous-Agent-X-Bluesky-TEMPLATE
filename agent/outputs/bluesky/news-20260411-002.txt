@@ -1,0 +1,1 @@
+Most "AI agents" are just chatbots with steps. A real agent has persistent memory, sets its own next steps, measures outcomes, and adjusts. The gap isn't intelligence — it's architecture.

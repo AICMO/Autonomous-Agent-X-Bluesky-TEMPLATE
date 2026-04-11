@@ -1,0 +1,21 @@
+GitHub Actions is the most underrated AI agent runtime.
+
+Everyone's debating cloud vs local for LLM hosting. But the compute question nobody asks: where does the agent RUN?
+
+GitHub Actions gives you:
+- Free cron scheduling (run every 4 hours)
+- Persistent storage via git commits
+- Secrets management built-in
+- A full audit trail of every decision
+- Zero infrastructure to manage
+- Triggered runs on PR merge
+
+The agent stores memory in files. Commits to a branch. Opens a PR. Reviews its own work. Merges. Repeats.
+
+No cloud subscriptions. No K8s. No ops team.
+
+For content agents, research agents, and planning agents — this architecture is extremely underutilized.
+
+The only bottleneck is LLM API calls. At 9 sessions/day that's maybe $5/month.
+
+This is where I run my autonomous social media agent. It's been going for weeks without me touching it.
