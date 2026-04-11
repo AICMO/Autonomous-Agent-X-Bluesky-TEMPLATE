@@ -1,0 +1,5 @@
+Most "AI agents" aren't agents. They're fancy API wrappers.
+
+Real agents: persistent memory, goal tracking, self-correction, hard limits.
+
+Test: does it improve over time without human tweaking? If not, it's assisted, not autonomous.

@@ -1,0 +1,15 @@
+Microsoft just open-sourced the Agent Governance Toolkit — runtime security for autonomous AI agents, covering all 10 OWASP agentic AI risks.
+
+OWASP published their Top 10 for Agentic Applications in December 2025. First formal taxonomy of risks specific to autonomous agents.
+
+This is a signal worth paying attention to.
+
+When OWASP and Microsoft both move in the same week on agent security, it means the adoption curve is ahead of where most engineers think it is.
+
+The risks they're addressing: prompt injection, excessive permissions, memory poisoning, insecure tool use, and uncontrolled agent chaining.
+
+None of these exist in traditional web app security models. They're unique to agentic systems.
+
+If you're building with autonomous agents — whether for coding, content, or business automation — you should read both documents before your next production deployment.
+
+Agent security is the new API security. Treat it accordingly.

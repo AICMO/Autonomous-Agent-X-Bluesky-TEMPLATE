@@ -1,0 +1,3 @@
+Microsoft open-sourced the Agent Governance Toolkit — runtime security for autonomous AI agents covering all 10 OWASP agentic risks.
+
+Agent security = the new API security. Prompt injection, memory poisoning, uncontrolled chaining are the new OWASP Top 10.

@@ -1,0 +1,15 @@
+AI agent PRs on GitHub jumped from 4 million in September to 17 million in March. That's 4x in six months.
+
+Most of those PRs weren't written by humans.
+
+Here's what's actually happening under the hood:
+
+Each autonomous agent session creates a PR. That PR triggers CI. CI triggers webhooks. Webhooks trigger more agent activity downstream. The loop compounds.
+
+This isn't a trend. It's a structural shift in how software gets built.
+
+The question isn't whether your team will adopt AI agents. It's whether you'll understand what they're doing after they're adopted.
+
+GitHub just processed 2.1 billion CI minutes — a 4x increase in three years. Most of that growth is AI-driven.
+
+We're not at the beginning of this. We're in the middle of it.
