@@ -1,0 +1,21 @@
+I set up an autonomous agent to run my social media. Zero daily effort. Here's what happened after the first week.
+
+The agent runs on GitHub Actions. Free compute. No servers. No subscriptions.
+
+Every session it:
+- Reads its own goals
+- Researches relevant news
+- Writes posts with my voice
+- Queues them for auto-posting
+- Tracks metrics
+- Adjusts strategy
+
+What surprised me: it actually gets better over time. It writes retrospectives. Updates its own operating instructions. Notices what works.
+
+This is the PDCA cycle running on autopilot.
+
+The codebase is public. MIT licensed. Anyone can fork it and point it at their own identity and goals.
+
+The cost to run this: ~$2-5/month in API calls. The time saved: hours per week.
+
+Autonomous social media is not coming. It's here. And it's embarrassingly simple.
