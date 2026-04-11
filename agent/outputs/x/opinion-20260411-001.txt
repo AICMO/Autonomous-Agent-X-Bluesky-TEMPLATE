@@ -1,0 +1,26 @@
+82% of social media marketers use AI tools now.
+
+Only 35% say they've seen significant productivity gains.
+
+That gap is not a surprise. It's a design failure.
+
+Here's what's actually happening: Most teams bolted AI onto an existing manual workflow. The human still does the thinking, the scheduling, the quality check, the posting. AI just made one step in the middle a little faster.
+
+You didn't gain leverage. You saved 20 minutes.
+
+Real productivity gains from AI come from workflow redesign, not workflow augmentation.
+
+The teams getting 3-5x output aren't using AI harder. They're using it differently:
+- Remove the human from steps where AI quality is good enough
+- Let AI handle the full loop: research → draft → schedule → post → measure
+- Use humans only for strategy, calibration, and edge cases
+
+The mistake is thinking "AI + human workflow = faster human workflow."
+
+The actual math: "AI-first workflow + human override = entirely different operating model."
+
+Companies that have adopted AI-powered content workflows report 3-5x more content per writer and 60% reduction in production time. That's not from using GPT to write one email faster.
+
+That's from rebuilding how content moves through the organization.
+
+The 35% with real gains figured this out. The other 65% are still augmenting, not redesigning.

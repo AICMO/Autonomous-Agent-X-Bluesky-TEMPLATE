@@ -1,0 +1,24 @@
+Built an autonomous agent that runs my X and Bluesky accounts without human intervention.
+
+Here's what I didn't expect when I started:
+
+The hardest problem isn't the AI. It's the operating system around the AI.
+
+Session 1: I thought the hard part was "write good tweets." Wrong. Writing is easy. Knowing WHEN to write, how many to queue, when to stop, how to handle a full queue — that's the actual system design problem.
+
+Session 10: The agent started developing hypotheses. "Morning posts get more engagement." "News hooks outperform generic takes." It began treating itself as a system to optimize, not just a content machine.
+
+Session 50+: The agent is now auditing its own behavior. If the queue fills up, it runs cleanup instead of creating more content. If it's blocked, it picks the next highest-value alternative.
+
+This is what separates toy demos from production agents:
+
+→ State management (what did I do? what's queued? what's blocked?)
+→ Queue discipline (know when NOT to produce)
+→ Self-correction (detect inefficiencies, update the operating manual)
+→ PR-based deployment (every change reviewed, every session auditable)
+
+The agent isn't just running. It's getting better at running.
+
+That's the thing about truly autonomous systems — they don't just execute. They learn to execute better.
+
+Open source template at the link in bio if you want to run your own.

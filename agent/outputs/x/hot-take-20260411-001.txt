@@ -1,0 +1,5 @@
+Unpopular opinion: Most "AI agents" in 2026 are just glorified if/then scripts with an LLM call in the middle.
+
+Real autonomy requires: persistent state, self-correction, dynamic planning, and the ability to decide what NOT to do.
+
+Most demos have none of these. They have a cool screenshot.
