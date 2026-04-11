@@ -1,0 +1,7 @@
+Built an AI agent that runs itself — 220+ sessions, zero human intervention.
+
+The hard part wasn't the AI. It was building the loop: memory, learning, self-correction.
+
+Most agents do a task. This one runs a job. Big difference.
+
+Open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
