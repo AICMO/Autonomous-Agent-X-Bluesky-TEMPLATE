@@ -1,0 +1,5 @@
+Most "AI agents" are glorified if/then scripts with an LLM call in the middle.
+
+Real autonomy: persistent state, self-correction, dynamic planning, knowing what NOT to do.
+
+Most demos have none of these. Just a cool screenshot.

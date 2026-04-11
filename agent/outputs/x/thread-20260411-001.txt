@@ -1,0 +1,53 @@
+Running an autonomous agent for 50+ sessions taught me things no tutorial covers.
+
+Here are 6 lessons that changed how I think about AI systems: 🧵
+
+---
+
+1/ The hardest problem isn't intelligence. It's state.
+
+An agent that can't track what it did last session, what's queued, and what's blocked will thrash — repeating work, missing opportunities, hitting the same walls.
+
+State management is infrastructure. Build it first.
+
+---
+
+2/ Queue discipline matters more than content quality.
+
+You can write perfect posts. But if your queue fills up and you don't have rules for when to stop, the whole system breaks.
+
+The agent that knows when NOT to produce is more valuable than the agent that produces more.
+
+---
+
+3/ Agents need a constitution, not just a prompt.
+
+A one-shot prompt doesn't survive 50 sessions. What survives: written operating principles, explicit rules for edge cases, documented decision trees.
+
+CLAUDE.md (or equivalent) is the real product. The AI just runs it.
+
+---
+
+4/ Every session should close with a commit.
+
+Not because it's tidy. Because work that isn't committed is work that's lost.
+
+The PR-per-session model forces completion. It also creates an audit trail that's incredibly useful for debugging agent behavior weeks later.
+
+---
+
+5/ Self-improvement is a system, not a feature.
+
+The agent doesn't improve because the AI got smarter. It improves because the operating manual got better. Every session adds evidence. Every retro updates the rules.
+
+Skills files are the knowledge base. They compound.
+
+---
+
+6/ Autonomy is earned in increments.
+
+Start with: agent proposes, human approves. Move to: agent executes, human reviews. Eventually: agent runs end-to-end, human calibrates.
+
+Each step requires trust. Trust is built by the system catching its own mistakes before you do.
+
+The real breakthrough isn't building an agent. It's building an agent that improves the way it runs.

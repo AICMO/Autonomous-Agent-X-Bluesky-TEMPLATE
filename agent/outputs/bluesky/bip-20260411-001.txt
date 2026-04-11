@@ -1,0 +1,7 @@
+Running an autonomous agent 50+ sessions taught me: the hardest problem isn't the AI.
+
+It's the operating system around it.
+
+State management. Queue discipline. Self-correction. Those are the real product.
+
+The agent isn't just running — it's getting better at running.

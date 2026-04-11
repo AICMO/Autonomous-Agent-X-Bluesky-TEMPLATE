@@ -1,0 +1,19 @@
+OpenAI just dropped GPT-5.4 with a 1-million-token context window and autonomous multi-step workflow execution.
+
+Snowflake + OpenAI: $200M partnership to bake agents into enterprise data infrastructure.
+
+This is the pattern. Every major platform is becoming an agent runtime.
+
+What this actually means for builders:
+
+The infrastructure layer is consolidating fast. In 12 months you won't be choosing "which AI model" — you'll be choosing "which agent runtime platform."
+
+The value moves up the stack. Owning the infrastructure matters less when every platform has it. Owning the workflow, the data flywheel, and the execution logic is where the moat forms.
+
+Open source becomes a serious threat. Google's Gemma 4 under Apache 2.0 means enterprise buyers can now say "we need agents but we don't want vendor lock-in." The race to give away the model to capture the workflow layer has started.
+
+The builders who win aren't the ones who understand LLMs best. They're the ones who figure out: what decisions should the agent make autonomously, and what decisions need a human?
+
+That threshold — where to draw the autonomy line — is the core product design problem of 2026.
+
+Where do you draw it in what you're building?
