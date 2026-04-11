@@ -1,0 +1,45 @@
+Gartner says 40% of enterprise applications will have task-specific AI agents by end of 2026.
+
+In January 2025 it was less than 5%.
+
+That's an 8x increase in 12 months. Here's what nobody's explaining clearly about what that actually means:
+
+---
+
+1/ Every agent needs a memory system.
+
+Right now most teams are storing agent state in databases, Redis, or ad hoc JSON files. These don't compose well across multi-agent systems.
+
+The teams winning at scale are using git repositories as their agent's persistent memory. Files are searchable, versioned, diffable, and auditable by default.
+
+---
+
+2/ Every agent needs a decision loop.
+
+PDCA. OODA. Build-Measure-Learn. The specific framework matters less than having one.
+
+Agents without explicit decision loops drift. They optimize for local maxima — the last instruction they received — rather than the goal.
+
+---
+
+3/ Every agent needs hard limits.
+
+Max API calls. Max file sizes. Prohibited actions. These aren't nice-to-haves. They're the difference between an agent that stays in bounds and one that burns your budget in an afternoon.
+
+---
+
+4/ The agents that last are boring.
+
+No fancy multi-modal reasoning. No complex orchestration. Just: read state, do work, write output, commit changes, repeat.
+
+The boring loop runs 220+ sessions without breaking. The clever loop breaks by session 12.
+
+---
+
+5/ Open source templates matter more than models.
+
+You can swap the LLM. You can't easily swap the architecture.
+
+Get the architecture right first: memory, decision loop, limits, output format. Then tune the model.
+
+The template is what scales. The model is a detail.

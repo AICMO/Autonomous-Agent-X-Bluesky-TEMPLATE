@@ -1,0 +1,5 @@
+AI agent PRs on GitHub: 4M in September → 17M in March. 4x in 6 months.
+
+Each autonomous agent session creates a PR. That PR triggers CI. CI triggers webhooks. The loop compounds.
+
+This isn't a trend. It's a structural shift in how software gets built.

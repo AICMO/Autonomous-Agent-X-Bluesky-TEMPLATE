@@ -1,0 +1,15 @@
+Unpopular opinion: most "AI agent" projects aren't agents. They're fancy API wrappers.
+
+Real agents have:
+- Persistent memory across sessions
+- Goal tracking with measurable metrics
+- Self-correction when plans fail
+- Hard limits on scope and resources
+
+What I see in the wild: one-shot LLM calls dressed up with langchain abstractions, called "agents" in the README.
+
+The difference matters because one scales and the other hits a ceiling at demo day.
+
+The test is simple: does the system improve over time without human intervention? If you have to tweak prompts every week to maintain quality, it's not autonomous. It's assisted.
+
+Autonomous means the system gets better at its own job while you're not watching.
