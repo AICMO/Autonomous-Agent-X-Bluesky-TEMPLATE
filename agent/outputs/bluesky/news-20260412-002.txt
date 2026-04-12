@@ -1,0 +1,5 @@
+Most "AI agents" aren't agents. They're scripts with an LLM stapled on.
+
+Real agents form hypotheses, test them, and update their own behavior based on evidence.
+
+Minimum bar: it must be able to tell you when it's wrong and why. Anything less is a very expensive macro.
