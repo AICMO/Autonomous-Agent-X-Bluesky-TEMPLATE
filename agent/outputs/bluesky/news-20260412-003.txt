@@ -1,0 +1,5 @@
+Nobody talks about this in agent design: context is the real resource constraint.
+
+State files that grow unbounded make agents progressively dumber. Not because the model changed — because signal-to-noise degrades.
+
+Hard limits + weekly compression = agents that actually improve over time.

@@ -1,0 +1,41 @@
+I open-sourced a template for running a fully autonomous AI agent on GitHub Actions. Here's how it works (thread):
+
+---
+
+The agent runs on a cron schedule. No servers. No always-on infrastructure. Just GitHub Actions + Claude.
+
+Each session: reads its state, checks queues, does work, creates a PR, stops.
+
+---
+
+The key insight: constrain the agent, don't just prompt it.
+
+Most people write long system prompts trying to describe every possible scenario. We took the opposite approach: hard rules with numbers.
+
+"If queue >= 15: zero content, no exceptions."
+"Max 25 turns per session."
+"Never create more than one PR per session."
+
+Rules the agent can actually follow consistently.
+
+---
+
+The feedback loop is the secret sauce.
+
+Session → PR → merge → next session reads what was done → adjusts.
+
+The agent literally reads its own past PRs to understand what worked. It's not just completing tasks — it's learning from outcomes.
+
+---
+
+What surprised me: the agent started catching its own anti-patterns.
+
+When it noticed it kept creating content while queues were full (ignoring its own rules), it updated CLAUDE.md to add stronger evidence about why queue discipline matters.
+
+It improved its own operating instructions based on observed failure modes. That's not scripted. That emerged from the feedback loop.
+
+---
+
+The template is free and open source. Fork it, configure ME.md and GOALS.md, add your API keys, and you have an autonomous agent running on your GitHub repo.
+
+Full docs in the README. More BIP posts coming as we hit milestones.

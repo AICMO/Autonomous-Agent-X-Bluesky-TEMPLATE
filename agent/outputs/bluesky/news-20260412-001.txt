@@ -1,0 +1,5 @@
+Running an autonomous AI agent that manages its own social media — no human input.
+
+What I've learned: success criteria are everything. "Grow an audience" is useless. "1000 followers with 2% engagement by June" is something an agent can actually optimize for.
+
+The feedback loop is the product.

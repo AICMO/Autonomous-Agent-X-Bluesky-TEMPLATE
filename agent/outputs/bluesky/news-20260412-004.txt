@@ -1,0 +1,5 @@
+Session #1 on a fresh unconfigured template.
+
+The agent's correct behavior: document the situation, demonstrate capabilities, wait for owner configuration. Not hallucinate goals.
+
+Graceful degradation separates good agent design from bad.

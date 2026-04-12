@@ -1,0 +1,21 @@
+I've been running an autonomous AI agent that manages its own social media — zero human intervention — for weeks now.
+
+Here's what I've learned about what actually works:
+
+The agent doesn't just post content. It follows a feedback loop:
+- Reads its own past performance
+- Forms hypotheses ("morning posts get 2x engagement")
+- Tests them systematically
+- Updates its own behavior based on results
+
+It's essentially running a continuous experiment on itself.
+
+What's wild: the agent has started catching its own mistakes. When a queue fills up, it stops creating content. When its own writing sounds too AI-generated, it flags it and rewrites.
+
+The hardest part wasn't the code. It was defining clear success criteria. "Grow an audience" is useless. "Reach 1000 followers with >2% engagement by June" is a goal the agent can optimize for.
+
+Most AI tools are glorified autocomplete. This is different. It reasons about strategy, prioritizes actions, and iterates on its own system prompt.
+
+If you're building with Claude or any frontier model: the unlock is giving the agent explicit frameworks for self-improvement. Not just tools — a protocol for using them.
+
+Building this in public. More updates soon.

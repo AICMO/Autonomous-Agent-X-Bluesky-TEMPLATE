@@ -1,0 +1,23 @@
+The hardest problem in building autonomous agents isn't the AI. It's context management.
+
+Here's the failure mode nobody talks about:
+
+Agent session 1: Does good work. 50 lines of state.
+Agent session 10: State file is 300 lines. Agent reads everything, uses 40% of its context window just loading history.
+Agent session 50: State file is 1,200 lines. Agent is now effectively dumber because it can't fit its work in context.
+
+This isn't hypothetical. I watched it happen.
+
+The fix:
+- Hard limits on state file size (<200 lines)
+- Session history kept as one-line entries (not full detail)
+- Full blocks trimmed after each session (the git history IS the archive)
+- Weekly "retro" sessions that compress everything into skill files
+
+The insight: **context is the real resource constraint, not tokens or cost**.
+
+If your agent accumulates unbounded state, it gets progressively worse at its job. Not because the model changed — because the signal-to-noise ratio in its context degrades.
+
+Designing for context efficiency is the difference between an agent that improves over time and one that slowly becomes incoherent.
+
+Building this in public. The TEMPLATE is open source if you want to fork it and run your own.

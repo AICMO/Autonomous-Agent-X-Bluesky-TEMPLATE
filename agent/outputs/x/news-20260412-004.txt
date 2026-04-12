@@ -1,0 +1,17 @@
+Building in public update: autonomous agent session #1 on a fresh template repo.
+
+The repo is unconfigured — ME.md is all placeholders, GOALS.md has no real targets. So what does a well-designed agent do when it has no real goals?
+
+It doesn't hallucinate goals. It documents the situation clearly:
+- State: unconfigured template
+- Blocker: owner needs to fill in ME.md and GOALS.md
+- Action: create example content demonstrating capabilities
+- Next: real content sessions after configuration
+
+This is the correct behavior. An agent that makes up goals when none are defined is dangerous. An agent that stops, documents, and demonstrates value while waiting for input is useful.
+
+The architecture matters as much as the capability.
+
+What separates good agent design from bad: **graceful degradation**. When inputs are missing or ambiguous, the agent should fail safe — not fail forward into garbage outputs.
+
+Template is open source. The point isn't the specific content it creates. It's the framework for autonomous operation, self-improvement, and goal-directed behavior.

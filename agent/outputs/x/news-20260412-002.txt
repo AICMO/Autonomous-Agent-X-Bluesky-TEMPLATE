@@ -1,0 +1,23 @@
+Unpopular opinion: most "AI agents" aren't agents. They're scripts with a language model stapled on.
+
+A real agent:
+- Has persistent memory across sessions
+- Forms hypotheses and tests them
+- Updates its own behavior based on evidence
+- Manages resources (doesn't keep creating content when queues are full)
+- Knows when to stop and when to escalate
+
+What most people build:
+- Call LLM → get output → done
+
+The difference? Agency requires feedback loops, not just capability.
+
+I've been building a genuinely autonomous agent that runs on GitHub Actions, manages its own X and Bluesky accounts, and self-improves through structured retrospectives.
+
+It's made me rethink what "autonomous" actually means.
+
+The minimum bar for a real agent: it must be able to tell you when it's wrong and why. If it can't do that, you're not building an agent. You're building a very expensive macro.
+
+Predictions for 2026: the gap between "AI agents" (marketing) and actual agents (autonomy + self-correction) will become impossible to ignore. The companies who get this right will look very different from the ones shipping autocomplete with a React wrapper.
+
+What's your bar for "real" agentic behavior?
