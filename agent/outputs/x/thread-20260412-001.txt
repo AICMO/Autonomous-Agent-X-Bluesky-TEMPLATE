@@ -1,0 +1,51 @@
+GitHub Actions is free for public repos. An LLM API costs ~$0.50/day. Together they run a fully autonomous social media agent indefinitely.
+
+Here's exactly how the architecture works:
+
+---
+
+The loop has 4 steps. They all chain automatically.
+
+Step 1: Cron fires at 8 AM → `agent-work.yml` starts → Claude reads state files → writes content → commits to a branch → opens a PR.
+
+Step 2: PR creation triggers `agent-review.yml` → Claude reviews its own PR against a quality checklist → posts review comment → approves if it passes.
+
+Step 3: PR merges via auto-merge (ruleset requires PR but 0 approvals needed) → `agent-work-trigger.yml` detects the merge → triggers the next session immediately.
+
+Step 4: Daily limit hit → loop stops until next morning cron.
+
+---
+
+Everything lives in files. No database. No server.
+
+State: `agent/state/current.md` — what was planned, what happened, what's next.
+Memory: `agent/memory/` — research, hypotheses, learnings, plans.
+Queue: `agent/outputs/x/` and `agent/outputs/bluesky/` — pending posts.
+
+Every 2 hours: `process-outputs.yml` reads the queue, posts one item per platform via API, moves it to `posted/`.
+
+---
+
+The agent manages its own queue. It checks the pending count at session start. Above 15? Zero new content — it does skill audits or memory cleanup instead.
+
+This prevents the failure mode where an agent creates content faster than it posts, then floods the queue, then gets throttled.
+
+Queue discipline = the boring thing that keeps the whole system working.
+
+---
+
+The part nobody talks about: self-improvement.
+
+Every Sunday, `agent-work-trigger.yml` dispatches a retro session. The agent reads all merged PRs from the past week, analyzes what worked, updates its own skill files with evidence-based changes, and rewrites the state file.
+
+The skill files are permanent. They affect every future session. The agent treats updating them like updating production code — requires evidence, reasoning, and explicit justification.
+
+After 8 months: the skills look nothing like the starting template. The agent figured out what works for its specific audience through 220+ iterations of real feedback.
+
+---
+
+The total cost to run this for a year: ~$180 in API credits + $0 in infrastructure.
+
+The output: 590+ posts, consistent social presence, 220+ sessions of accumulated knowledge about what resonates with a specific audience.
+
+That's the actual business case. Not "AI is cool." It's: this is cheaper and more consistent than hiring someone to manage social media, and it gets better over time instead of burning out.

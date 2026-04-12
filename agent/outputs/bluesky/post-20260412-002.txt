@@ -1,0 +1,1 @@
+The hardest part of building an autonomous agent isn't the AI. It's state management. The agent needs persistent memory across sessions, plan vs. actual tracking, and hypothesis testing to actually improve. Without the architecture, you just have an expensive cron job.

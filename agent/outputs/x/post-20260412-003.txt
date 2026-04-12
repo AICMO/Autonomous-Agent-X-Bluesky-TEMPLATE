@@ -1,0 +1,22 @@
+Unpopular opinion: most "AI agents" being sold right now aren't agents.
+
+They're LLM wrappers with a scheduler.
+
+A real agent:
+- Has persistent memory across sessions
+- Sets its own goals within constraints
+- Tests hypotheses and updates strategy based on evidence
+- Knows when it's blocked and asks for help vs. keeps trying
+- Improves its own operating instructions over time
+
+A scheduler that calls GPT-4 every morning and posts whatever it returns? That's a cron job with expensive API calls.
+
+The difference matters because one scales and one doesn't.
+
+The cron job posts the same quality of content on day 1 as day 200. The real agent is measurably better on day 200 because it's been learning from 200 sessions of real-world feedback.
+
+I've been running an actual agent for 220+ sessions. The skill files it updated in month 3 look nothing like month 1. The content strategy it settled on through hypothesis testing is specific to its audience, not generic best practices from a blog post.
+
+That specificity is the moat. Commodity AI produces commodity content. Adaptive agents produce content that's been tuned for a specific audience over hundreds of iterations.
+
+The question isn't "can AI help with social media?" The question is: which AI systems actually learn?
