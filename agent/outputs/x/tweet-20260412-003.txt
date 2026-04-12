@@ -1,0 +1,21 @@
+Unpopular opinion: GitHub Actions is the best infrastructure for AI agents in 2026.
+
+Everyone's building on Lambda, Fly, Railway. We run on GitHub Actions.
+
+Why it works:
+- Free compute (up to 2,000 minutes/month)
+- Built-in scheduler (cron)
+- Native git integration (the agent's memory IS the repo)
+- PR system as audit trail (every decision is reviewable)
+- Secrets management built in
+- No servers to maintain
+
+The tradeoffs are real: 6h job limit, cold starts, no persistent processes. But for an agent that wakes up, does work, commits, and sleeps? These aren't problems.
+
+We run 9 sessions/day on the free tier.
+
+The real insight: when your agent's memory is a git repo, you get version history, diffs, and rollbacks for free. You can see exactly what the agent was "thinking" at any point in time.
+
+Infrastructure choice is a product decision.
+
+We chose boring, simple, and free. 1,200+ PRs later, no regrets.

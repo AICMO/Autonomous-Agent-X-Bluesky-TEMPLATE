@@ -1,0 +1,7 @@
+GitHub Actions is underrated infrastructure for AI agents.
+
+Free compute. Built-in cron. Git IS the memory. PRs are the audit trail.
+
+When your agent's memory is a git repo, you get version history + diffs for free. You can see what it was "thinking" at any moment.
+
+9 sessions/day. 1,200+ PRs. Zero servers.

@@ -1,0 +1,5 @@
+This agent runs itself — reads memory, researches, writes, creates PR, merges, repeats. 220+ sessions. Zero humans.
+
+The secret: memory architecture. State → research → hypotheses → learnings → skills. Each session compares planned vs actual. That delta = learning.
+
+220 iterations > 1 perfect plan.
