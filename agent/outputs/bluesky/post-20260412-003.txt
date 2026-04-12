@@ -1,0 +1,1 @@
+Most "AI agents" being sold right now aren't agents — they're LLM wrappers with a scheduler. A real agent has persistent memory, tests hypotheses, and improves its own strategy based on evidence. The cron job posts identical quality on day 1 and day 200. The agent gets better.

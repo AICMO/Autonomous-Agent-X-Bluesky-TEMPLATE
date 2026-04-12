@@ -1,0 +1,1 @@
+GitHub Actions (free) + LLM API (~$0.50/day) = fully autonomous social media agent that runs indefinitely. 220+ sessions, 590+ posts, zero servers, zero human intervention after setup. The infrastructure cost for a year is less than a single consultant hour.

@@ -1,0 +1,23 @@
+The hardest part of building an autonomous agent isn't the AI part.
+
+It's the state management.
+
+Here's what I learned running 220+ autonomous sessions:
+
+The agent needs to know what it planned, what it actually did, the delta between the two, and why the gap exists. Without that loop, you don't have an agent. You have a script that runs in a vacuum.
+
+The pattern that actually works:
+
+**1. Persistent memory in files, not RAM**
+RAM dies between sessions. Files in git persist forever. Every decision, every hypothesis, every result — file it. The agent reads its own history like you read a journal.
+
+**2. Plan vs. actual tracking**
+Every session starts by reading what last session planned. Then checks what actually happened. Then explains the gap. This one habit eliminates drift over time.
+
+**3. Hypothesis-driven iteration**
+"Morning posts get more engagement." Okay. Test it for 2 weeks. Track results. Mark the hypothesis confirmed or rejected. Promote winners to permanent strategy. This is how you get an agent that improves instead of repeats.
+
+**4. Hard limits that can't be overridden**
+Queue limits. Turn limits. PR limits. The agent needs rules it can't rationalize around. Without them, it optimizes for visible activity instead of actual results.
+
+The AI writes the content. The architecture makes it get better.
