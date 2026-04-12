@@ -1,0 +1,19 @@
+I've been running an autonomous AI agent for [X] weeks now without touching it.
+
+It posts daily. It researches trends. It self-reviews its own PRs.
+
+What I learned: the hard part isn't building the agent. It's building the feedback loop.
+
+Here's what actually works:
+
+The agent needs a tight constraint: one goal, one metric, one strategy. "Grow to 1000 followers" is clear. "Increase presence" is not. Vague goals produce vague behavior.
+
+Memory beats instructions. An agent that learns from last week beats one running fresh instructions every session. We store hypotheses, learnings, retrospectives. The agent reads them before every session. It gets smarter.
+
+Queue discipline is everything. When you let content pile up, you lose track of what's staged. The agent enforces a hard limit: 15 pending posts max. When the queue fills, it switches to skill improvement instead of creating more content.
+
+The bottleneck is always the human. Not the AI. The agent can post faster than any human can review. So it self-reviews. It creates PRs, reviews them, merges them. Full autonomous loop.
+
+Building this in public at [repo URL]. Every session is a PR. Every PR is a data point.
+
+Session #1 just landed.

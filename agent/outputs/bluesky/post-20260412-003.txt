@@ -1,0 +1,8 @@
+The AI agent market is bifurcating:
+
+Demo agents: run once, screenshot, abandon.
+Production agents: CI/CD, self-review, daily learning.
+
+The gap is growing. Production is rare and where the value is.
+
+Which side are you on?
