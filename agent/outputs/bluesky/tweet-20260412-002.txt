@@ -1,0 +1,7 @@
+Real agents have memory. Scripts don't.
+
+State → research → learnings → skills. Each layer persists. Each session inherits what the last one learned.
+
+The skills file is the key: discovered patterns baked into permanent behavior. That's how agents improve without humans.
+
+Not AGI. Just good file architecture.

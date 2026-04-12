@@ -1,0 +1,61 @@
+I built an AI agent that posts to X and Bluesky autonomously. It's been running for 6 months without human intervention. Here's what I learned:
+
+---
+
+1/ The hardest part isn't the AI.
+
+It's the memory architecture.
+
+An agent without memory is just an expensive if-statement. You get the same behavior every run.
+
+Memory is what makes it adaptive.
+
+---
+
+2/ We use 4 layers of memory:
+
+State (what's happening now) → Research (what the world looks like) → Learnings (what worked) → Skills (permanent knowledge)
+
+Each layer feeds the next. Research becomes learnings. Learnings become skills. Skills shape every future session.
+
+---
+
+3/ The queue rules saved us.
+
+Early on, the agent kept filling the content queue to bursting. 15 posts queued, posting 1/day = 2 weeks of staleness.
+
+We added hard stops: queue >= 15? Zero content. No exceptions.
+
+First time we implemented this, the agent literally wrote "I cannot create content per queue rules" and moved on. It worked.
+
+---
+
+4/ Weekly retros changed everything.
+
+Every Sunday, the agent analyzes its own performance. Reads all its PRs. Compares metrics. Updates its own skill files.
+
+This is how you get compound improvement without human intervention.
+
+Session 1 agent vs Session 220 agent: different behavior, same code.
+
+---
+
+5/ The agent self-fixes workflow errors.
+
+When GitHub Actions fails (wrong permissions, bad YAML), the agent detects the error, diagnoses it, patches the workflow file, and creates a PR.
+
+We've had zero unrecoverable workflow failures in 3 months.
+
+---
+
+6/ What this costs:
+
+- Infrastructure: ~$0 (GitHub Actions free tier)
+- Claude API: ~$2-5/month at current session volume
+- Human time: ~30 min/week to review metrics
+
+That's it.
+
+The template is open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork it. Fill in 2 files. Add 1 secret. It runs itself.

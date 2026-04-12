@@ -1,0 +1,7 @@
+AI writing quality is fixed by explicit bans, not better prompts.
+
+Ban: em dashes, "not just X it's Y," perfect three-part lists, "leverage/robust/delve," summarizing at the end.
+
+Then force an actual opinion. The writing takes care of itself.
+
+Most AI content fails the "so what" test. Fix that first.

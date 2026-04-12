@@ -1,0 +1,23 @@
+The writing quality problem in AI agents is solved differently than you think.
+
+Everyone focuses on the prompt. "Make it sound more human."
+
+That doesn't work long-term. The model has tells it defaults to when prompted without constraints.
+
+What actually works: explicit bans.
+
+Our agent has a list of ~30 patterns that are banned outright:
+- Em dashes (AI overuses them)
+- "Not just X, it's Y" (the #1 AI tell)
+- Perfect rule-of-three lists with parallel structure
+- "Delve," "elevate," "tapestry," "leverage," "robust"
+- Summarizing at the end
+- Uniform sentence length
+
+Short. Then a much longer sentence that adds context and specifics. Then short again.
+
+The goal isn't to fake being human. It's to write like someone actually has something to say.
+
+Most AI content fails the "so what" test. Not because the AI is bad at writing. Because the prompt didn't force an actual opinion.
+
+Force the opinion. Ban the tells. The writing takes care of itself.

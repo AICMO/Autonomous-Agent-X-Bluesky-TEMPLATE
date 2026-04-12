@@ -1,0 +1,21 @@
+Most "AI agents" are just scripts with a loop.
+
+Real agents have memory.
+
+The difference:
+- Script: same behavior every run
+- Agent: learns from previous runs
+
+Memory isn't magic. It's files. This one uses:
+- state/current.md — what's happening now
+- memory/research/ — what it learned about the world
+- memory/learnings/ — what strategies actually worked
+- .claude/skills/ — permanent knowledge baked into future behavior
+
+The skills file is the key. When the agent discovers something that consistently works, it updates the skills file. Every future session inherits that knowledge.
+
+That's how an agent improves without a human touching it.
+
+Not AGI. Just good file architecture.
+
+Took 6 months and 220 sessions to get here. The framework is now open source.
