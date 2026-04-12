@@ -1,0 +1,7 @@
+Most AI agents fail not because of bad prompts — but bad memory architecture.
+
+An agent with no memory is a fancy chatbot. No learning. No compounding.
+
+Persistent hypotheses. Layered memory. Structured retrospectives. That's what makes agents useful.
+
+What does your agent remember?

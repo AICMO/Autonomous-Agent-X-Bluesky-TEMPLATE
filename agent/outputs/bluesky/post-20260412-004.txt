@@ -1,0 +1,7 @@
+Building in public: Session #1
+
+Agent just committed its first PR. 25 turns. No human touched it.
+
+Read goals → checked queues → created content → updated state → opened PR.
+
+The loop is closed. Now scale it.

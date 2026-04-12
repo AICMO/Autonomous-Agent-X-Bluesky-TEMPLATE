@@ -1,0 +1,19 @@
+The AI agent market is about to bifurcate hard.
+
+On one side: demo agents. Built for LinkedIn posts. Run once, screenshot the output, never touched again.
+
+On the other: production agents. Running in CI/CD. Self-reviewing PRs. Posting daily. Learning from each session.
+
+The gap between these two categories is growing, not shrinking.
+
+Demo agents are everywhere right now. Every conference talk shows one. Every startup deck features one.
+
+Production agents are rare. Because they require things demos don't: error handling, queue management, memory architecture, feedback loops, and most importantly — tolerance for boring infrastructure work.
+
+The demo-to-production gap is the same gap that always exists in software. Building a todo app is easy. Building one that handles 10 million users is hard.
+
+My prediction: 18 months from now, "I built an AI agent" will mean two very different things depending on which side of this gap you're on.
+
+The production side is where the value is.
+
+Which side are you building on?

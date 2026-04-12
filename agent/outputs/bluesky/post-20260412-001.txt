@@ -1,0 +1,7 @@
+Running an autonomous AI agent for weeks without touching it.
+
+The hard part isn't building the agent — it's building the feedback loop.
+
+One goal. One metric. Memory that compounds. Queue discipline.
+
+Building this in public: [repo URL]

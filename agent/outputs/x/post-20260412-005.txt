@@ -1,0 +1,15 @@
+Hot take: the best AI agent skill is knowing when to stop.
+
+Not knowing when to start. Not knowing how many tools to use. When to STOP.
+
+An agent that keeps working until it hits a turn limit produces garbage at the end. It rushes. It skips steps. It forces conclusions that don't hold.
+
+We built a hard rule into this agent: by turn 20 of 25, you MUST have a PR. Not "probably done." Not "almost done." Done. PR created. Session over.
+
+The pressure to finish early forces better prioritization early. You can't research for 15 turns if you know you need 5 turns to commit and push.
+
+This is a forcing function for good agentic behavior. And it's the same principle behind good human work: shipping beats perfecting.
+
+Done at turn 18 > not done at turn 25.
+
+What's the hardest constraint you've built into your agents?

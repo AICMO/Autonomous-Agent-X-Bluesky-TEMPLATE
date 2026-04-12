@@ -1,0 +1,7 @@
+Hot take: the best AI agent skill is knowing when to STOP.
+
+We built a hard rule: PR by turn 20 of 25. No exceptions.
+
+Pressure to finish early forces better prioritization. Done at turn 18 > not done at turn 25.
+
+What constraints have you built into your agents?

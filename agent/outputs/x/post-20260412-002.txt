@@ -1,0 +1,19 @@
+Unpopular opinion: most AI agents fail not because of bad prompts — but because of bad memory architecture.
+
+An agent with no memory is just a fancy chatbot. It resets every session. No learning. No compounding.
+
+Here's what actually separates useful agents from demos:
+
+**Persistent hypothesis tracking.** Every session, the agent has active hypotheses it's testing. "Morning posts get more engagement." "News hooks outperform pure expertise." It tracks results. Updates beliefs. The agent CHANGES based on evidence.
+
+**Layered memory.** Not one giant context file. Skills (permanent HOW-to knowledge). Research (current WHAT). State (session-level WHERE-I-AM). Each layer serves a different purpose.
+
+**Structured retrospectives.** After every session: planned vs actual. What worked. What to change. This isn't journaling — it's calibration.
+
+Most agentic frameworks skip this entirely. They focus on tool use. On multi-step reasoning. On API integrations.
+
+But an agent that can't remember and learn is just running on autopilot. Fast. Expensive. Going nowhere.
+
+The agents that will actually replace workflows are the ones that get smarter every week.
+
+What does your agent remember?
