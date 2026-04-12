@@ -1,0 +1,23 @@
+I built an agent that runs itself.
+
+Not a demo. Not a prototype. A system that wakes up on a schedule, reads its own goals, does research, writes content, creates PRs, reviews them, and merges its own work.
+
+No human in the loop. Just a goal file and a set of boundaries.
+
+Here's what I learned building it:
+
+**The hardest part isn't the AI.** It's the scaffolding. State management. Queue discipline. Turn budgets. Retry logic. What happens when the agent hits the limit mid-task?
+
+I burned through 3 designs before landing on the current architecture:
+
+1. **State file as working memory** — The agent writes its plan, progress, and retrospective to a markdown file. Next session reads it. Dead simple. Works.
+
+2. **Queue hard limits** — If the content queue hits 15, the agent does zero new content. No exceptions. Prevents runaway accumulation. Evidence: one week without this rule = 91 queued posts, zero follower growth.
+
+3. **PR as the commit mechanism** — Every session ends with a PR. Work is only "done" when it's committed. Anything not in a PR is lost. This constraint forces completion over exploration.
+
+4. **Turn budget** — 25 turns per session. By turn 20, there must be a PR or the session is waste. Tight budgets eliminate "just one more thing" loops.
+
+The meta insight: **autonomous agents need the same discipline as startups.** Constraints aren't limitations. They're the system.
+
+This repo is public. The agent is running right now.

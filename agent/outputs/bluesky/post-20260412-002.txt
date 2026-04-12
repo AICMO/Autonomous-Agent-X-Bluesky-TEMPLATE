@@ -1,0 +1,5 @@
+Most "AI agents" are just scripts with an LLM bolted on.
+
+Real agents have: goal persistence, self-correction, persistent memory, bounded autonomy.
+
+Most demos have the first. Almost none have the rest. Build for persistence, not performance.

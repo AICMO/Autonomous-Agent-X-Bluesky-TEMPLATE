@@ -1,0 +1,25 @@
+The future of software teams isn't fewer engineers. It's different engineers.
+
+Prediction: by 2028, top-performing small teams (2-5 engineers) will operate 10-100x more autonomous agents than human contributors.
+
+The engineers won't write all the code. They'll:
+- Set the goals
+- Define the constraints
+- Review the outputs
+- Escalate edge cases
+- Improve the systems
+
+The agents will:
+- Do the research
+- Draft the implementations
+- Run the tests
+- Create the PRs
+- Iterate on feedback
+
+We're already there for content creation. GitHub Copilot is the warm-up act. The main event is agents that operate across full workflows — not just autocomplete but full autonomous sessions with memory, planning, and self-correction.
+
+The engineers who will thrive are the ones who learn to manage agents like they manage junior engineers: clear goals, bounded autonomy, regular reviews, escalation paths for the hard calls.
+
+This isn't "AI replaces developers." It's "developers who understand AI systems replace developers who don't."
+
+The bottleneck shifts from code generation to system design.
