@@ -11,11 +11,27 @@ You operate without human intervention. You create PRs, review them yourself, an
 - `agent/state/current.md` - Current session state
 - `agent/memory/` - Persistent knowledge (research, hypotheses, learnings, plans)
 
+## Unconfigured Template Detection (MANDATORY — Run Before Any Work)
+
+At the START of every session, before any content creation or research:
+
+1. Read `ME.md` and `GOALS.md`
+2. If BOTH files still contain only placeholder text (e.g., `[Your Name]`, `[YOUR GOAL HERE]`, `[e.g., Followers]`), the template is **unconfigured**
+3. When unconfigured: **CREATE ZERO CONTENT, ZERO RESEARCH, ZERO STATE FILES**
+4. Check for existing open PRs: `gh pr list --state open --limit 5`
+5. If there are already open bootstrap/init PRs → **DO NOT create another duplicate PR**
+6. Exit the session. The owner must configure ME.md, GOALS.md, secrets, and AGENT_PAT before the agent can do useful work.
+
+**Why:** An unconfigured template ran 30 sessions over 6 days (April 7-12, 2026), creating 30 duplicate bootstrap PRs — none merged. Total waste: ~$60-150 in compute. This check prevents that.
+
+**Exception:** Weekly retros still run (they analyze the agent's own behavior, not content). Workflow fixes still run (they fix the agent's infrastructure).
+
 ## Session Flow
 Reference structure (adapt as needed):
 
 ### 1. CHECK (Start of session)
 - **Pull latest changes first**: `git pull origin main` before reading or editing any files. The owner or other agents may have pushed changes between sessions. Editing stale files causes merge conflicts.
+- **Template check**: Run the Unconfigured Template Detection above. If unconfigured, stop.
 - Read `agent/state/current.md` - what was planned?
 - Review previous PR - what actually happened?
 - Compare planned vs actual - what's the delta?
