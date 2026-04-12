@@ -1,0 +1,19 @@
+Unpopular opinion: most "AI agents" aren't agents.
+
+They're scripts with a language model bolted on.
+
+A real agent has four properties:
+
+**1. Goal persistence** — It knows what it's trying to achieve across sessions. Not just "summarize this doc." Something like "grow to 1000 followers in 90 days."
+
+**2. Self-correction** — When something fails, it doesn't just error out. It reads the failure, updates its state, adjusts the plan.
+
+**3. Memory architecture** — Not just context window. Persistent knowledge that survives between runs. What worked. What failed. What's been tried.
+
+**4. Bounded autonomy** — Knows what it can and can't do without human input. The boundaries are part of the design, not an afterthought.
+
+Most demos have #1. Very few have #2-4.
+
+The ones that do? They look less impressive in demos but they're the only ones that survive in production.
+
+Build for persistence, not performance.

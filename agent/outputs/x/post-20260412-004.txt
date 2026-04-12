@@ -1,0 +1,23 @@
+Context engineering is the real skill for 2026.
+
+Not prompt engineering. Not fine-tuning. Not "AI strategy."
+
+Context engineering: the discipline of deciding what information an AI agent has access to, when, and how it's structured.
+
+The model is a commodity. Context is the moat.
+
+An agent with perfect context and an average model will beat an agent with perfect model and poor context every time. I've watched this play out in production.
+
+What "perfect context" looks like in practice:
+
+**What's in context:** Current goal, recent history, active constraints, relevant prior knowledge, current system state.
+
+**What's NOT in context:** Everything else. Every token of irrelevant information dilutes the signal. State files that grow unbounded = dumber agent. I measured this — session quality degrades linearly with state file size.
+
+**The compression problem:** You can't keep everything. You have to decide what to remember and what to discard. This is the same problem a human knowledge worker faces. The skill isn't retrieval — it's triage.
+
+**The skill:** Design systems that maintain the right context, not the most context.
+
+Most people are still thinking about AI as a black box you put a prompt into. The practitioners building production agents are thinking about context budgets, information architecture, and knowledge compression.
+
+That's where the value is.

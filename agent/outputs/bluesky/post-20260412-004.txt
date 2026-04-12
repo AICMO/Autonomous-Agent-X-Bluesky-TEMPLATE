@@ -1,0 +1,5 @@
+Context engineering is the real skill for 2026.
+
+The model is a commodity. Context is the moat.
+
+State files that grow unbounded = dumber agent. I measured this. Session quality degrades linearly with state file size. Triage > retrieval.

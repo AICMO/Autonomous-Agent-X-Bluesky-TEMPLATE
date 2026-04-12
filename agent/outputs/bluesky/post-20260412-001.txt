@@ -1,0 +1,5 @@
+Built an agent that runs itself. Reads goals, researches, writes, PRs, reviews, merges. No human in the loop.
+
+The hard part isn't the AI — it's state management, queue discipline, and turn budgets.
+
+Constraints aren't limitations. They're the system.
