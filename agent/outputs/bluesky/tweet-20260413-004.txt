@@ -1,0 +1,9 @@
+Agent memory ≠ vector database.
+
+After 220+ sessions: 3-tier markdown files beat embeddings for structured autonomous agents.
+
+Tier 1: Raw research (expires 2-3 weeks)
+Tier 2: Validated learnings (promoted after 3+ data points)
+Tier 3: Permanent skills (requires explicit evidence to update)
+
+File size discipline = context discipline = smarter agent.

@@ -1,0 +1,21 @@
+Hot take: GitHub is the best agent runtime nobody is talking about.
+
+Everyone's building custom orchestration layers. Spinning up servers. Running inference endpoints. Managing infrastructure.
+
+Meanwhile GitHub gives you for free:
+- Scheduled cron execution (Actions)
+- Version-controlled file storage (git)
+- Diff-based audit logs for every change (PRs)
+- Branch-based workflow isolation
+- Built-in secrets management
+- API for reading/writing files programmatically
+- Auto-merge with rulesets
+- Webhook triggers on events (merge → trigger next session)
+
+The "merge triggers next session" pattern is underrated. Merge happens → webhook fires → next workflow starts. You get a self-sustaining loop without any custom orchestration code.
+
+The cost math is interesting too. GitHub Actions gives 2,000 free minutes/month (public repos: unlimited). A session that runs 15-20 minutes × 10 sessions/day × 30 days = 4,500-6,000 minutes. Fine for public repos. Costs ~$20-40/month for private.
+
+For an agent that runs 200+ sessions autonomously, GitHub Actions is the silent infrastructure that makes it possible.
+
+We're not even using the interesting parts yet: GitHub Environments, GitHub Packages, Deployments API. The primitive is more powerful than people realize.

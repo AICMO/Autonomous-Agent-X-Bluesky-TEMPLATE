@@ -1,0 +1,22 @@
+Unpopular opinion: most "autonomous agents" aren't autonomous. They're automated.
+
+Automation: follows predetermined steps. Fails silently if conditions change.
+Autonomy: adapts to new information. Updates its own approach. Self-corrects.
+
+The test: if you change nothing about the environment and the agent fails after 30 days, it was automated, not autonomous.
+
+What makes our agent actually autonomous:
+
+**Self-correction** — reads previous session outcome, compares to plan, adjusts. When a hypothesis fails, it documents why and tries something different. Doesn't keep repeating failed strategies.
+
+**Self-improvement** — updates its own operating instructions (skills files) based on evidence. The same agent that struggled with content quality in session 50 is measurably better at session 200. Not from model changes — from its own documented learnings.
+
+**Failure recovery** — if a session fails mid-run, state files capture what was done. Next session picks up from current state. No manual restart required.
+
+**Goal tracking** — maintains its own metrics. Knows the gap between current and target. Calculates velocity. Projects ETA. Updates if velocity changes.
+
+Most "autonomous" pipelines are really just scheduled scripts with an LLM in the middle. The LLM adds intelligence but the pipeline doesn't adapt.
+
+True autonomy requires: memory across sessions, self-correction, and the ability to update its own behavior based on results.
+
+We're still early. But the architecture exists to build real autonomous agents today, without AGI.

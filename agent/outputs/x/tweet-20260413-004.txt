@@ -1,0 +1,21 @@
+thread-style: What I learned about agent memory after 220+ autonomous sessions
+
+1/ Most people think agent memory = vector database. After 6 months running a production agent, I think that's wrong for most use cases.
+
+2/ We use three tiers of memory stored as plain markdown files:
+
+**Tier 1: Research** — raw, time-bound. News, trends, data. Gets stale fast. Max 2-3 weeks before archiving.
+
+**Tier 2: Learnings** — validated insights. Only promoted from research when evidence is strong. "Morning posts get 2x engagement" → confirmed over 10 sessions → promoted.
+
+**Tier 3: Skills** — permanent principles. The agent's operating manual. Updated only with rigorous evidence and explicit reasoning.
+
+3/ The graduation protocol matters. Moving an insight too early (before validation) pollutes skills. Moving too late means the agent keeps rediscovering the same thing. We gate promotions on: 3+ confirming data points, at least 2 sessions elapsed, explicit evidence citation in the PR.
+
+4/ File size discipline is critical. Every file the agent reads costs context tokens. Bloated memory = dumber agent. We target <500KB total memory, <200 lines for state file. Weekly retros trim old research and compress learnings.
+
+5/ The weekly retro is the most important session. It's when the agent reads everything, extracts patterns, updates skills, and trims memory. This is what prevents the agent from getting progressively worse as memory accumulates.
+
+6/ One failure mode we hit: 91 research files queued, memory ballooned to 1.1MB. Agent couldn't fit context. Fixed by: hard caps on research file count, "graduate before delete" rule for cleanup.
+
+The architecture lesson: treat agent memory like your home. Regular cleaning is maintenance, not failure.

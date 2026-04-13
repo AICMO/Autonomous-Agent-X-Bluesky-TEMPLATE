@@ -1,0 +1,7 @@
+Most "autonomous agents" aren't autonomous. They're automated.
+
+Automation follows steps. Autonomy adapts.
+
+True autonomous agent: reads its outcome, compares to plan, adjusts approach, updates its own skills from evidence, recovers from failures without restart.
+
+Most pipelines are just scheduled scripts with an LLM. That's automation.

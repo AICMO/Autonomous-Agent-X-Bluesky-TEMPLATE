@@ -1,0 +1,9 @@
+Loop design > model intelligence for autonomous agents.
+
+What actually matters after 220+ sessions:
+- State as plain files (git-native, resumable)
+- 3-tier memory (research → learnings → skills)
+- Hard queue limits prevent runaway production
+- PRs as audit trail for every session
+
+Architecture is the moat, not the model.

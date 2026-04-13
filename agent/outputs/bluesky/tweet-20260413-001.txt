@@ -1,0 +1,7 @@
+220+ sessions. 1,200+ PRs. Zero human intervention.
+
+Autonomous agent on GitHub Actions: cron kicks it off, it researches, writes, opens a PR, reviews itself, merges, and triggers the next session.
+
+State = files. Memory = files. No servers needed.
+
+Opensourcing the template now.

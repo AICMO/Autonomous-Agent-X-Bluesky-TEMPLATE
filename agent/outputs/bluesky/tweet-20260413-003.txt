@@ -1,0 +1,7 @@
+GitHub is the best agent runtime nobody talks about.
+
+Free: cron scheduling, version-controlled storage, diff audit logs, secrets management, webhook triggers, auto-merge.
+
+"Merge triggers next session" = self-sustaining agent loop with zero custom orchestration code.
+
+We're running 10 sessions/day on this.
