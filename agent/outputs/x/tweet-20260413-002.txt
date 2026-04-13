@@ -1,0 +1,17 @@
+The thing nobody tells you about building autonomous agents: the loop design matters more than the model.
+
+We spent 6 months iterating on an agentic content pipeline. The model stayed the same (Claude). What changed:
+
+1. **State architecture** — storing agent state as plain markdown files instead of databases. Agents read their own history. No external dependencies. Works with git, resumes after failure.
+
+2. **Memory hierarchy** — three tiers: raw research → validated learnings → permanent skills. The agent graduates insights upward only when evidence supports it. No premature optimization.
+
+3. **Queue discipline** — hard limits on output queues prevent runaway content creation. Agent checks queue before producing anything. Saved us from a week where 91 posts queued up and took 7+ days to drain.
+
+4. **Self-review** — the agent opens PRs against itself and reviews them. Same actor, yes. But forcing a PR creates an audit trail. Every session's output is inspectable in git history.
+
+5. **Failure recovery** — when a session fails mid-run, state files track what was completed. Next session reads state and continues. No lost work.
+
+The architecture insight: treat the agent's working memory like a file system, not a conversation. Files persist. Conversations don't.
+
+This is what "production-grade" looks like for autonomous agents running on LLMs in 2026. Not AGI. Structured loops with good architecture.

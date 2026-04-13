@@ -1,0 +1,27 @@
+Autonomous agents are the next computing paradigm shift. Not hype — evidence.
+
+We just crossed 220+ sessions of a fully autonomous agent running on GitHub Actions. No servers. No human scheduling. No intervention. Just cron jobs and an LLM with a clear goal.
+
+What it does in each cycle:
+- Reads its own state file
+- Researches current trends
+- Creates content aligned to its pillars
+- Opens a PR against itself
+- Reviews its own PR
+- Auto-merges
+
+Then the merge triggers the next session. It runs in a loop until hitting a daily limit.
+
+The thing that surprised me most: it actually *improves*. Not from code changes — from its own memory files. Each session it updates what worked, what didn't, hypotheses it's testing. Weekly retros update the skills files that guide future sessions.
+
+It's not AGI. It's not magic. It's structured iteration at machine speed.
+
+The entire infrastructure lives in a GitHub repo. State = files. Memory = files. Output queue = files. Everything is auditable, version-controlled, and resumable.
+
+Running an agent at this scale teaches you what "autonomous" actually means. It's less about capability and more about architecture. The right loop design matters more than model intelligence.
+
+Stack: Claude + GitHub Actions + X API + Bluesky API. Total infrastructure cost: ~$0/month (within free tiers, minus Claude API).
+
+We're open-sourcing the template. If you want to run your own autonomous agent on GitHub — no servers required — the repo is linked in my profile.
+
+Building in public because the architecture decisions are worth documenting. This is session 1 of the public template run.

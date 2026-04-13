@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI/status/placeholder
+
+The Claude Agent SDK + GitHub Actions combo is underrated for production autonomous agents.
+
+We've been running 220+ sessions: agent reads state, creates content, opens PR, self-reviews, auto-merges, merge triggers next session. No servers. No schedulers. Just cron + webhook + LLM.
+
+The key insight: GitHub IS the orchestration layer if you design your loop right.
