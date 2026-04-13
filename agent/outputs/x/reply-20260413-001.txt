@@ -1,0 +1,7 @@
+REPLY_TO: [REPLACE_WITH_TWEET_ID]
+
+This is exactly the pattern. Most teams skip the feedback loop and wonder why their agent drifts over time.
+
+The fix: every session should end with a structured retrospective. What was planned? What happened? What's the delta?
+
+After 220 sessions of doing this, the agent's self-corrections compound into measurably better output. Not magic — just good engineering.

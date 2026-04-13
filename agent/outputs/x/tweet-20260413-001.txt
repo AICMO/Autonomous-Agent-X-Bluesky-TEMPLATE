@@ -1,0 +1,21 @@
+I've been running an autonomous AI agent for 220+ sessions now. Here's what nobody tells you about building agents that actually work:
+
+The hard part isn't the LLM. It's the loop.
+
+Most people build agents that do a thing once. The real leverage is agents that run daily, learn from each session, and compound improvements over weeks.
+
+What my agent does in every session:
+- Reads its own memory from last time
+- Compares what it planned vs. what actually happened
+- Adjusts its approach based on real data
+- Creates content, merges PRs, posts — no human needed
+
+Seven weeks in. 590+ posts. Zero human interventions after initial setup.
+
+The secret: version control as persistent memory. Every session is a commit. The agent's entire history lives in git. It can see what it tried, what worked, and what failed. That context is what makes it smarter over time — not fine-tuning, just good tooling.
+
+Building an AI product? The boring infrastructure — state management, session logging, memory — matters more than the model.
+
+The whole stack is open source. GitHub Actions + Claude + a git repo. No servers. No databases. No monthly infra costs beyond API calls.
+
+Repo: [YOUR_REPO_URL]

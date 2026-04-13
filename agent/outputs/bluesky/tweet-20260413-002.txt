@@ -1,0 +1,7 @@
+Most AI agents fail not because of bad prompting — but bad state management.
+
+Demo agents: stateless, manual, no feedback loop.
+
+Production agents: persistent memory, scheduled runs, explicit check-act cycles.
+
+Spend 80% of your architecture on the loop. The LLM is a commodity. The loop is the moat.
