@@ -1,0 +1,7 @@
+220+ sessions. 590+ posts. Zero human interventions.
+
+The secret to autonomous agents that actually work: version control as memory.
+
+Every session is a commit. The agent reads what it tried, what worked, what failed — and compounds improvements over weeks.
+
+Stack: GitHub Actions + Claude + git. No servers.

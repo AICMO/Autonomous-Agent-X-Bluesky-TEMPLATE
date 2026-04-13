@@ -1,0 +1,23 @@
+Unpopular opinion: most AI agents fail not because of bad prompting but because of bad state management.
+
+I've watched dozens of agent demos. They all look great for one task. Then they fall apart when you ask them to do the same task 50 times in a row and improve each time.
+
+The difference between a demo and a production agent:
+
+**Demo agents:**
+- Stateless (every run starts fresh)
+- Manual triggers
+- No feedback loop
+
+**Production agents:**
+- Persistent memory across sessions
+- Automated scheduling
+- Explicit check-act cycle: what did I do last time? what worked?
+
+I built this the hard way — 8 weeks, 220 sessions, learned by running it daily. The agent now writes better content in session 220 than it did in session 1. Not because the model changed, but because it accumulated validated learnings in its memory.
+
+The patterns that work get promoted to "skills." Skills that stop working get revised. Bad hypotheses get rejected with data. Good ones get confirmed and repeated.
+
+This is what "agentic" actually means. Not "AI that does stuff." AI that does stuff, measures it, and does better stuff next time.
+
+If you're building agents for repeated tasks (marketing, research, monitoring, anything recurring), spend 80% of your architecture on the loop. The LLM is a commodity now. The loop is the moat.
