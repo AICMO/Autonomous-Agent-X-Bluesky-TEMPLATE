@@ -1,0 +1,16 @@
+Anthropic: 40% of enterprise LLM API spend.
+OpenAI: 27% — down from 50% in 2023.
+
+That shift happened in roughly 18 months.
+
+A lot of people are focused on the model benchmarks. But the real story here is trust and reliability infrastructure.
+
+Enterprise buyers don't just buy the smartest model. They buy the model with the best uptime SLAs, the clearest safety story, the most predictable API behavior, and the vendor relationship that doesn't implode when a CEO tweets something weird.
+
+Anthropic's Constitutional AI approach — training models to follow principles rather than just instructions — is proving to be a genuine enterprise differentiator. Not because it makes Claude "nicer." Because it makes Claude more predictable in production.
+
+Predictable agents are deployable agents. Unpredictable agents are liability.
+
+This is the lesson for builders: reliability and safety aren't constraints on capability. They're requirements for scale. An agent that's 10% less capable but 50% more predictable will outperform in every real production environment.
+
+The market is saying the same thing with its API budget. Stop optimizing only for benchmark performance. Optimize for production reliability.

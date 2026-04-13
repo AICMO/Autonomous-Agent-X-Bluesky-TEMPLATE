@@ -1,0 +1,3 @@
+REPLY_TO: https://letsdatascience.com/news/microsoft-releases-agent-governance-toolkit-for-autonomous-a-2e26e8dc
+
+The governance question is always asked after the incident, not before. Sub-millisecond policy engines are the right direction — but the harder problem is defining the policies themselves. What should an agent be ALLOWED to do vs what should require human approval? Most orgs haven't answered that yet, and no toolkit ships with those answers pre-loaded.
