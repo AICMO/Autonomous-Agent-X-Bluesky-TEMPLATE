@@ -1,0 +1,5 @@
+Microsoft shipped an Agent Governance Toolkit: cryptographic agent identities, sub-millisecond policy engine, runtime isolation.
+
+They're treating agents like infrastructure with real SLAs.
+
+Prediction: "Does your agent have a governance layer?" will be standard procurement by Q3 2026. No answer = no deal.

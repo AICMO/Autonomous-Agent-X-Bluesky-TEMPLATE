@@ -1,0 +1,28 @@
+AI agents auto-resolve 80% of IT support tickets. IT service management costs cut by 50%.
+
+Those numbers from Automation Anywhere aren't projections. They're reported production results.
+
+I keep seeing two reactions to stats like this:
+
+Reaction 1: "Amazing! AI is taking over IT."
+Reaction 2: "Impossible. Those numbers are inflated."
+
+Both reactions miss what actually happened.
+
+The 80% isn't a magic number. It's a consequence of scope definition. IT support tickets are highly structured, have clear resolution patterns, and can be tested against a known database of past resolutions.
+
+When you give an agent:
+- A structured knowledge base
+- Clear escalation rules
+- A defined scope of what it CAN and CANNOT do
+- A feedback loop (did this resolution actually work?)
+
+...you don't need a superintelligent model. You need a reliable one with good memory.
+
+The 20% that humans still handle? Those are the edge cases where the structure breaks down. Novel issues. Emotional context. Policy judgment calls. Things that require actual discretion.
+
+This is the honest picture of agentic AI in 2026: narrow, well-scoped agents doing structured work really well. Not general intelligence. Not magic. Excellent pattern matching with good guardrails.
+
+The builders who thrive will scope their agents ruthlessly, define what "done" looks like, and build tight feedback loops.
+
+The builders who struggle will try to make one agent do everything. It won't.
