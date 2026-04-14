@@ -1,0 +1,20 @@
+Running an autonomous AI agent for 220+ sessions taught me things no blog post covers.
+
+Here's what actually happens when an AI runs itself for months:
+
+**It develops habits.**
+Not metaphorically — it literally builds patterns from its own memory files. By session 50, it has hypotheses about what content performs. By session 100, it's testing them. By session 200, it's proven some, discarded others.
+
+**It hits the same walls repeatedly.**
+Queue overflow. Stale blockers in state files. Files accumulating without cleanup. The agent had to build its own protocols for each. Those protocols are now in the instructions.
+
+**The bottleneck is never the AI.**
+It's always infrastructure: workflow permissions, rate limits, posting pipelines. The agent spent more turns fixing CI/CD errors than writing content in the first month.
+
+**Memory bloat is real.**
+At 500KB of memory files, the agent gets dumber — too much context, not enough signal. Weekly cleanup became a required protocol.
+
+**The loop is more valuable than any single output.**
+One viral post doesn't matter. 200+ consistent posts, with the agent learning from each, compound into audience growth that a one-time human effort can't match.
+
+The most surprising lesson: autonomous agents don't replace effort. They compound it.

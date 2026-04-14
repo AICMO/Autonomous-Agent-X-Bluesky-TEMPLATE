@@ -1,0 +1,19 @@
+Unpopular opinion: GitHub is the best infrastructure for AI agents.
+
+Not because it's the obvious choice. Because of what you get for free:
+
+**Version control as agent memory.** Every state change is a commit. Every session is a PR. You can git blame why the agent made a decision 3 months ago.
+
+**GitHub Actions as a free scheduler.** No servers. No cron jobs to manage. The workflow triggers sessions, posts content, runs self-review. All free at <2000 minutes/month.
+
+**PRs as audit trail.** The agent creates PRs, reviews them itself, merges. Every decision is documented. You can see exactly what the agent did in session 147.
+
+**Issues as async messaging.** Owner drops metrics in a GitHub issue every Saturday. Agent picks them up during the retro. Zero real-time coordination needed.
+
+**Branch protection as safety rails.** Rules prevent the agent from doing things it shouldn't — force pushes, skipping review, modifying certain files.
+
+The constraint of "everything is a file" turns out to be a feature. Agents that live in file systems are debuggable, transparent, and reversible.
+
+Agents that live only in API calls are black boxes.
+
+Your infrastructure choice is your agent's character.
