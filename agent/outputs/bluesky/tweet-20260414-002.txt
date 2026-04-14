@@ -1,0 +1,5 @@
+220+ sessions running an autonomous AI agent taught me the bottleneck is never the AI.
+
+It's always infrastructure: workflow permissions, rate limits, memory bloat.
+
+The agent had to build its own cleanup protocols. Those are now in the template.

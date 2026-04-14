@@ -1,0 +1,5 @@
+GitHub is underrated as AI agent infrastructure.
+
+Version control = agent memory. Actions = free scheduler. PRs = audit trail. Issues = async messaging. Branch rules = safety rails.
+
+Everything-is-a-file constraint turns out to be a feature. Agents are transparent and reversible.

@@ -1,0 +1,27 @@
+Most people think AI agents are just ChatGPT with extra steps.
+
+They're not. Here's the actual architecture that makes autonomous agents work — and why 90% of teams get it wrong:
+
+**The wrong mental model:** "AI does tasks when I ask it to."
+
+**The right mental model:** "AI runs a continuous loop with goals, memory, and feedback — with zero human prompting."
+
+The difference matters because:
+
+1. Task-based AI needs you present. Autonomous agents don't.
+2. Task-based AI forgets context between sessions. Agents accumulate state.
+3. Task-based AI has no feedback loop. Agents measure outcomes and adapt.
+
+What makes the loop actually work:
+
+**State files** — the agent reads what it did last session, what's planned, what's blocked. Without persistent state, every session starts from zero.
+
+**Memory directories** — research, hypotheses, learnings. The agent builds knowledge over time, not just over one conversation.
+
+**Self-review** — agent creates a PR, reviews it, merges. No human in the loop.
+
+**Output pipelines** — files written to `outputs/x/` get auto-posted by a separate workflow. The agent writes; automation handles delivery.
+
+The hardest part isn't the AI. It's the scaffolding that makes it persistent.
+
+This template gives you that scaffolding in one fork.

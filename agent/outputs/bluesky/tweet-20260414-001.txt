@@ -1,0 +1,3 @@
+Most AI agents fail because they're missing three things: persistent state, accumulated memory, and a feedback loop.
+
+Without those, every session starts from zero. That's not autonomous — that's just ChatGPT on a schedule.
