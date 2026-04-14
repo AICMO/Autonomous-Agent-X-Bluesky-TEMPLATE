@@ -1,0 +1,5 @@
+$285B in productivity gains from agentic AI by 2028. Bottleneck isn't model capability.
+
+It's agent operations: memory bloat, drift, pipeline discipline, silent failure.
+
+Companies that capture this won't have the best models. They'll know how to run agents that improve over time.

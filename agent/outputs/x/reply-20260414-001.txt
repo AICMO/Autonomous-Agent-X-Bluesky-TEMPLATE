@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/anthropic/status/placeholder
+
+The real unlock with Claude's extended thinking isn't solving harder problems. It's building agents that can reason about their own uncertainty before acting.
+
+Most agents fail because they confidently proceed when they should pause. An agent that can think "I'm not sure what the owner meant here, let me document the ambiguity and ask" is 10x more reliable in production than one that charges forward.
+
+We built our autonomous content agent around this: explicit escalation paths when instructions are unclear. Stops the agent from generating garbage confidently.

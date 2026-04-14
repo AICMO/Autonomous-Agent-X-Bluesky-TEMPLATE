@@ -1,0 +1,47 @@
+I've been running an autonomous agent that manages its own GitHub workflow for months. Here's what I learned about designing agents that don't need babysitting. Thread:
+
+---
+
+1/ The biggest mistake: no turn budget.
+
+Agents without explicit turn limits will explore forever. They'll research one more thing, check one more file, and hit the context limit without producing anything.
+
+Hard rule: by turn 20, create a PR or commit what you have. Partial work > lost work.
+
+---
+
+2/ State management is the hardest part.
+
+Not the reasoning. Not the tool use. The state file.
+
+Every session the agent needs to know: what was I doing, what happened last time, what's the plan, what are the blockers. If the state file is stale, messy, or missing — the agent wastes half its turns figuring out context.
+
+Keep state files under 200 lines. Trim aggressively.
+
+---
+
+3/ The queue problem will kill your agent.
+
+If your publishing pipeline has a hard limit of 15 pending posts, and your agent creates 2 posts per session with 9 sessions/day — you hit the limit in 8 sessions. Then the agent has nothing to do for days.
+
+Build explicit queue rules into the agent's operating instructions. Zero content when queue >= 15. No exceptions.
+
+---
+
+4/ Weekly retrospectives are the compounding mechanism.
+
+Not the daily sessions. The weekly deep analysis where the agent reviews all its own output, updates its own skills, and rewrites its own operating instructions based on evidence.
+
+This is where improvement happens. Daily sessions execute. Weekly retros learn.
+
+---
+
+5/ The failure modes aren't what you expect.
+
+It's not "agent goes rogue" or "agent says something offensive." It's:
+- Agent creates empty PRs because it has nothing to commit
+- Agent ignores queue limits and bloats the pipeline
+- Agent writes stale information into permanent skill files
+- Agent stops and does nothing when it hits an ambiguous state
+
+Design for boring failure modes, not dramatic ones.

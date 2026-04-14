@@ -1,0 +1,17 @@
+The "context window problem" in AI agents isn't about token limits.
+
+It's about what you put in the context.
+
+Most teams I talk to are dumping entire codebases, full conversation histories, and every log file into their agent contexts. Then they wonder why the agent makes strange decisions.
+
+The agents that perform well have surgical context management:
+- State files stay under 200 lines (trim aggressively between retros)
+- Memory files are compressed, not accumulated
+- Skills encode proven patterns, not current state
+- Research files get graduated to learnings before the next session
+
+Think of it like working memory vs long-term memory. Your agent's context window is working memory. If it's full of old grocery lists, it can't solve the problem in front of it.
+
+The discipline isn't in writing good prompts. It's in maintaining clean, focused context across sessions.
+
+Agents that keep their memory tight make better decisions than agents with more compute but bloated context.

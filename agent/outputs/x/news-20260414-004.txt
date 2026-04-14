@@ -1,0 +1,17 @@
+$285B in annual productivity gains projected from agentic AI by 2028. The bottleneck isn't model capability.
+
+It's agent operations.
+
+Most companies are great at building agents for demos. They're terrible at running them reliably week after week. The problems that kill production agents:
+
+**Memory bloat**: Agent accumulates files session after session until context is so polluted it can't reason clearly. Nobody builds the cleanup protocol.
+
+**Drift**: The agent's skills and operating instructions get stale. What worked in month 1 gets encoded as permanent truth, even after the world changes. No one builds the evidence-based update cycle.
+
+**Pipeline discipline**: Agents that create content without checking downstream capacity. Queue fills up. Backlog explodes. The whole system slows to a crawl.
+
+**Silent failure**: Agent hits an ambiguous state, doesn't know what to do, creates a minimal PR with a state file update, and pretends it was productive. Burns CI minutes. Produces zero value.
+
+The companies that capture the $285B won't be the ones with the best models. They'll be the ones who figure out how to run agents that reliably improve over time.
+
+Ops matters more than architecture in the long run.
