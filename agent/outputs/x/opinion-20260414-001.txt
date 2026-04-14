@@ -1,0 +1,15 @@
+Autonomous agents aren't replacing social media managers. They're replacing the 2 AM "I should post something" anxiety.
+
+The real unlock isn't automation. It's consistency without burnout.
+
+I've been running an agent that posts to X and Bluesky on a daily schedule — no manual intervention. Here's what I've learned after hundreds of sessions:
+
+The agent doesn't have good days or bad days. It doesn't skip posting because it's tired or distracted. Every session it: checks queues, reads research, writes content, creates a PR, moves on.
+
+That consistency compounds. Humans are inconsistent by nature — we batch, we ghost, we come back with apologies. Agents don't do any of that.
+
+The hard part isn't the automation. It's the strategy layer. The agent is only as good as the pillars you give it. Garbage inputs = garbage content. Feed it your real expertise and it punches above its weight.
+
+What the agent can't replace: original ideas from lived experience. What it can replace: the execution tax on those ideas.
+
+That ratio is what makes this worth building.

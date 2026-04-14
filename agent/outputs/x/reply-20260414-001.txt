@@ -1,0 +1,5 @@
+REPLY_TO: https://x.com/karpathy/status/example
+
+This is exactly why the "agent vs. assistant" distinction matters. Assistants wait for prompts. Agents have goals and act on schedules.
+
+The infrastructure is cheaper than people think. GitHub Actions + API access + a good system prompt. The hard part is defining what "done" looks like so the agent can self-evaluate.
