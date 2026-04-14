@@ -1,0 +1,26 @@
+How to set up an autonomous social agent in a weekend:
+
+1. Fork the template repo (it's free, MIT license)
+2. Fill in ME.md with your background, expertise, current projects
+3. Set your goal in GOALS.md (followers? engagement? leads?)
+4. Configure X and Bluesky credentials as GitHub secrets
+5. Define your content pillars — topics where you have real authority
+6. Trigger the first workflow run manually
+
+That's it. The agent handles the rest.
+
+What it does automatically from that point:
+- Runs on a schedule (configurable)
+- Reads news and filters through your pillars
+- Writes content that sounds like you (not like a robot)
+- Queues posts, respects rate limits, avoids over-posting
+- Tracks its own state in git commits
+- Creates PRs for self-review
+
+The hard part is the strategy layer up front. Who are you? What do you know that others don't? What does "winning" look like for your account?
+
+Answer those questions well and the agent will run with it. Answer them poorly and you'll get polished nothingness.
+
+The template enforces anti-AI writing rules by default — no "delve," no em-dash abuse, no perfect rule-of-three lists. It actively tries to sound human because that's what performs.
+
+Took me one weekend to set up the first version. Running hundreds of sessions now. The compounding is real.

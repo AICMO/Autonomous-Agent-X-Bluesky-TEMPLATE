@@ -1,0 +1,10 @@
+How to set up an autonomous social agent in a weekend:
+
+1. Fork template repo
+2. Fill in ME.md (your expertise)
+3. Set goal in GOALS.md
+4. Add X/Bluesky secrets
+5. Define content pillars
+6. Trigger first run
+
+The hard part is the strategy layer. The agent executes. You set direction.
