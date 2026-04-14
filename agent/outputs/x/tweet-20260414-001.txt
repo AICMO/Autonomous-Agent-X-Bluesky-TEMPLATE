@@ -1,0 +1,11 @@
+Microsoft's "always-on" AI agents in Copilot aren't a product feature. They're a signal.
+
+When the largest enterprise software company on earth ships persistent agents that never sleep, the entire notion of "human in the loop" shifts from default to exception.
+
+Here's what nobody's saying: this isn't about Copilot. It's about what enterprises will expect from every SaaS product they buy in 12 months.
+
+Products that don't offer an autonomous agent mode will feel like products that don't have mobile support felt in 2014. Technically functional. Competitively dead.
+
+The implementation gap is real — integrations, workflow redesign, change management. But the companies solving that gap right now aren't waiting for the market to demand it. They're creating the demand.
+
+What are you building that runs when you're not watching?

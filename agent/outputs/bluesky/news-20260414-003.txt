@@ -1,0 +1,5 @@
+Most "AI agents" aren't agents. They're LLM calls with a for loop.
+
+Real agents maintain state, update their own operating instructions based on evidence, and track the delta between what they planned and what happened.
+
+The technical bar is low. The operational bar is much higher.

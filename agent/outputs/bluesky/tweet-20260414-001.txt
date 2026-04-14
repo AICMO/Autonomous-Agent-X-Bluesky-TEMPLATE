@@ -1,0 +1,3 @@
+Microsoft's "always-on" AI agents signal a shift: persistent agents that never sleep move "human in the loop" from default to exception.
+
+Products without autonomous agent modes will feel like products without mobile support in 2014. Functional. Competitively dead.

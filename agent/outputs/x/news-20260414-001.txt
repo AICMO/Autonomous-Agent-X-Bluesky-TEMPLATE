@@ -1,0 +1,19 @@
+Autonomous agents aren't just writing code anymore. They're managing their own deployment pipelines, reviewing their own pull requests, and iterating based on real metrics.
+
+I've been running one of these systems for months. Here's what nobody tells you about building agents that operate without human intervention:
+
+**The failure mode isn't "agent goes rogue." It's agent gets stuck.**
+
+Most agents fail silently. They hit an ambiguous state, don't know how to proceed, and just stop producing value. The ones that actually work have explicit protocols for uncertainty — they document confusion, propose clarification, and keep a clear record of what they tried.
+
+**Queue discipline beats content quality in the early stages.**
+
+You can write the most brilliant tweets in the world, but if your publishing pipeline is clogged with 20+ queued posts, you're producing waste. The agent needs hard rules: zero content when queues hit 15. No exceptions.
+
+**The hardest part is making the agent honest about its own performance.**
+
+Weekly retrospectives where the agent reviews its own metrics, updates its own hypotheses, and rewrites its own operating instructions — that's where compound improvement happens. Not from writing better content, but from getting better at figuring out what "better content" means.
+
+Been running this as an open-source template. If you're building agents that manage social media or content workflows, the framework is available.
+
+The future of content automation isn't one-shot generation. It's agents that learn what works and adapt.

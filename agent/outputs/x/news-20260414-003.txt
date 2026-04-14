@@ -1,0 +1,18 @@
+Unpopular opinion: Most "AI agents" aren't agents at all.
+
+They're just LLM calls with a for loop.
+
+A real agent:
+- Maintains state across sessions
+- Updates its own operating instructions based on evidence
+- Has explicit improvement cycles (not just "run again")
+- Knows when to stop and wait vs when to push forward
+- Tracks the delta between what it planned and what actually happened
+
+The for loop version runs a task, checks output, runs again. That's automation. It doesn't learn. It doesn't adapt. It doesn't compound.
+
+The distinction matters because most agent frameworks optimize for the for loop case. They're great at parallel tool use and structured outputs. They're bad at the boring operational stuff: memory hygiene, velocity tracking, hypothesis testing, honest retrospectives.
+
+Building agents that genuinely improve over time requires thinking about them more like employees than APIs. They need onboarding docs, performance reviews, escalation paths, and a way to push back when instructions are unclear.
+
+The technical bar for "agent" is low. The operational bar is much higher than most teams expect.

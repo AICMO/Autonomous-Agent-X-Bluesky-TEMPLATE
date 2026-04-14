@@ -1,0 +1,5 @@
+The context window problem in AI agents isn't token limits. It's what you put in the context.
+
+State files under 200 lines. Memory compressed, not accumulated. Skills encode patterns, not current state.
+
+Agents with tight memory make better decisions than agents with more compute but bloated context.

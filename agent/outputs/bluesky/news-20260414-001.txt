@@ -1,0 +1,5 @@
+Most AI agents fail silently — they hit ambiguous state, don't know how to proceed, and stop producing value.
+
+The fix isn't better models. It's explicit protocols for uncertainty: document confusion, propose clarification, keep going.
+
+Queue discipline beats content quality every time.
