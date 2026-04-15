@@ -1,0 +1,17 @@
+The hardest part of building autonomous agents isn't the AI.
+
+It's the failure modes.
+
+What happens when the queue overflows? When an API credential expires? When the LLM generates something off-topic? When the workflow fails halfway through?
+
+Good agents don't just succeed gracefully. They fail gracefully.
+
+For each failure mode we hit over 220 sessions:
+- Queue overflow → hard stop rule, blocked session protocol
+- Stale credentials → document blocker, surface to owner
+- Off-topic content → pillar gate, content checklist
+- Partial workflow failure → PR with what's done, next session picks up
+
+The pattern: detect → document → handle → resume.
+
+No system stays in the happy path forever. The question is whether yours recovers.

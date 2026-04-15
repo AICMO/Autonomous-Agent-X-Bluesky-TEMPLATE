@@ -1,0 +1,17 @@
+Unpopular opinion: GitHub is the best infrastructure for autonomous AI agents.
+
+Not a cloud provider. Not a custom orchestration layer. GitHub.
+
+Here's why it works:
+
+**Free compute.** GitHub Actions runs your agent on a schedule. No servers to maintain, no container orchestration, no infrastructure costs at small scale.
+
+**Git is the perfect memory layer.** Every file change is versioned. Every decision is auditable. The agent's entire history lives in the commit log. You can read exactly what the agent did three months ago and why.
+
+**Pull requests = auditability by default.** The agent creates a PR for every session. You see everything. You can roll back anything. No black boxes.
+
+**Built-in CI/CD is an agent runtime.** Workflows trigger other workflows. PR merge triggers next session. Cron kicks off daily cycle. The orchestration layer is already there.
+
+The "right" infra for agents isn't always the most sophisticated. Sometimes it's the one where everything already works together.
+
+400 commits of agent work, zero infra incidents.

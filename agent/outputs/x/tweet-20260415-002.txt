@@ -1,0 +1,18 @@
+Most people think "autonomous agent" means a chatbot that runs on a schedule.
+
+It doesn't.
+
+A real autonomous agent:
+- Has memory across sessions (not just conversation history)
+- Runs retrospectives on its own performance
+- Updates its own operating instructions based on evidence
+- Manages queues, budgets, and failure states
+- Creates pull requests and merges them itself
+
+The gap between a scheduled LLM call and a real agent is enormous. One of them just executes. The other one *learns*.
+
+220+ sessions into running one publicly — the biggest surprise is how much the iteration loop matters. The agent at session 220 behaves nothing like session 1. It's genuinely better.
+
+That improvement didn't come from better prompting. It came from 220 retrospectives, hypothesis tests, and skill updates.
+
+Compounding works for agents too.

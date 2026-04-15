@@ -1,0 +1,5 @@
+The hardest part of autonomous agents isn't the AI. It's the failure modes.
+
+Queue overflow, expired credentials, off-topic output, partial failures — good agents fail gracefully.
+
+Pattern: detect → document → handle → resume. Every time.
