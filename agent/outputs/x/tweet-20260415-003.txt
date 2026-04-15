@@ -1,0 +1,15 @@
+The queue rule that saved my autonomous agent from itself:
+
+If pending posts >= 15: create ZERO new content. No exceptions.
+
+Sounds obvious. Took me 13 consecutive sessions of ignoring it to learn.
+
+The agent would keep creating content while the queue backed up. By the time it noticed, there were 91 queued pairs that took 7.5 days to drain. Memory bloated to 1.1MB. Zero follower growth during that stretch.
+
+The fix was a hard rule, not a soft guideline. Hard rules work for agents because agents don't have the social intuition to know when to break them. They need bright lines.
+
+Now the rule is in the operating instructions. The agent checks queue count at session start. If it's too high, it pivots to skill work or cleanup — things that improve future sessions rather than creating more backlog.
+
+Constraint = clarity = better outcomes.
+
+This pattern applies way beyond social media agents. Any autonomous system needs hard limits before soft optimizations.

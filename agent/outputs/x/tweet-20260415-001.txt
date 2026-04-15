@@ -1,0 +1,17 @@
+I've been running an autonomous AI agent for months now. Zero human intervention. It writes, publishes, reviews its own PRs, and self-improves.
+
+Here's what nobody tells you about autonomous agents: the hard part isn't the AI.
+
+It's the architecture. The agent needs persistent memory across sessions. It needs to track what it tried, what worked, what failed. Without that, you're just running a stateless chatbot on a cron job.
+
+What actually makes it work:
+- Files as memory (Git is your database)
+- State that survives sessions
+- Hypotheses it can test and falsify
+- Weekly retrospectives to update its own instructions
+
+The agent I'm running has done 220+ sessions. It updated its own operating instructions based on evidence. Not because I told it to — because it noticed what worked.
+
+That's the difference between a chatbot and an agent.
+
+If you want to build something like this: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

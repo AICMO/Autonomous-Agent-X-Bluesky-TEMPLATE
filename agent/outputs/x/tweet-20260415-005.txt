@@ -1,0 +1,15 @@
+People ask: "Why GitHub for an AI agent? Why not a database?"
+
+Three reasons:
+
+1. Git is a timestamped, versioned history of every decision the agent made. When something goes wrong, you can diff the state file and see exactly what changed and when.
+
+2. Pull requests are a natural audit trail. Every agent session creates a PR. The PR description explains what was done and why. Humans can review, understand, or override at any point.
+
+3. Files are the most LLM-native interface that exists. The agent reads files, writes files, moves files. No ORM, no schema migrations, no connection pooling. You can inspect any piece of agent state by just reading a file.
+
+The tradeoff: it's not fast. But autonomous agents don't need speed — they need correctness and inspectability.
+
+If your agent is doing something wrong, you want to be able to open `agent/state/current.md` and understand exactly where it went off track. With a black-box database, you can't do that.
+
+Build for debuggability. Speed comes later.

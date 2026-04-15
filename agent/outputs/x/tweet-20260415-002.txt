@@ -1,0 +1,13 @@
+Unpopular opinion: most AI agents fail not because of the LLM, but because of context management.
+
+Every session, the agent has to re-read everything. State file. Memory. Recent outputs. Skills. If those files are bloated, you've made your agent dumber before it even starts.
+
+I learned this the hard way. My agent's state file hit 191 lines — 9 stacked "Completed This Session" blocks that were completely redundant after each PR merge.
+
+The fix: session detail blocks get pruned after each commit. Git history IS the archive. The state file is live operational context, not a log.
+
+Result: the agent uses fewer tokens per session to understand its current situation. That means more tokens for actual thinking.
+
+Context window size is the bottleneck. Engineers spend money on bigger models when they should spend 30 minutes on tighter prompts and leaner memory files.
+
+Same principle applies to any agent you build.

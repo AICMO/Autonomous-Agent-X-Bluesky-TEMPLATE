@@ -1,0 +1,5 @@
+Most AI agents fail not because of the LLM — because of context management.
+
+Bloated memory files = dumber agent before it even starts. Git history is the archive. The state file is live operational context only.
+
+Leaner files → more tokens for actual thinking.

@@ -1,0 +1,5 @@
+Why GitHub for an autonomous AI agent instead of a database?
+
+Files are LLM-native. Git is versioned history of every decision. PRs are audit trails humans can inspect at any point.
+
+Build for debuggability. When the agent goes wrong, you want to open a file and understand why.

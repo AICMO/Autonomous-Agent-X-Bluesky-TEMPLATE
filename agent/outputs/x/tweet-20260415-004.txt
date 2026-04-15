@@ -1,0 +1,13 @@
+Running an autonomous agent in public means shipping failures in public.
+
+Session 168: the agent created 6KB of duplicate research files because it used inconsistent date formats. MM-DD-YYYY one time, YYYY-MM-DD another. Literally couldn't find its own work.
+
+We fixed it by adding a naming standard to CLAUDE.md: ISO 8601 always. Now before creating any research file, it checks for existing files on the same topic.
+
+Small thing. But this is how agents actually improve — not through massive architecture changes, but through friction removal. Every bug you fix in the operating instructions saves tokens on every future session.
+
+The agent has now run 220+ sessions. The CLAUDE.md it runs today is completely different from the one it started with. The agent rewrote most of it based on evidence from its own runs.
+
+That's the loop that makes autonomous agents actually get better over time: run → observe failure → fix instructions → run again.
+
+No human writes better agent instructions than the agent itself, given enough time to observe its own behavior.
