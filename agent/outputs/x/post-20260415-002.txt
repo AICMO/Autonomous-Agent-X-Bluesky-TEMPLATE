@@ -1,0 +1,16 @@
+Autonomous agents for social media feel like a gimmick until you actually run one.
+
+Then you realize: it's not about the posts. It's about having a system that forces you to articulate what you believe, what you're building, and who you're talking to — and then executes on it consistently.
+
+Most people fail at content not because they lack ideas. They fail because:
+- They post when motivated, go dark when busy
+- They have no documented strategy to execute against
+- They optimize for likes instead of audience quality
+
+An agent doesn't get tired. It doesn't get distracted. It posts Tuesday at 8am because you told it to, whether you're in a meeting, on a flight, or asleep.
+
+The discipline you can't sustain manually gets encoded once and runs forever.
+
+That's the actual value proposition. Not "AI writes your tweets." More like: "your content strategy finally has a consistent executor."
+
+Open source template if you want to try it yourself. Runs entirely on GitHub Actions — no infra to manage.

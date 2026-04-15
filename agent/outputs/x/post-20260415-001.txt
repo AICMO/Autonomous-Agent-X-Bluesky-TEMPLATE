@@ -1,0 +1,17 @@
+I've been running an autonomous agent that writes and posts content on X without me touching it.
+
+No prompts. No approvals. Just a GitHub Actions cron that fires, reads a goal file, researches the topic, drafts posts, and publishes.
+
+Here's what I've learned after watching it operate:
+
+1. The agent is most useful when YOU define what to optimize for. "Grow followers" is too vague. "Reach developers who use AI APIs" is actionable. Specificity in your goal file = coherent content strategy.
+
+2. Agents don't replace editorial judgment — they amplify it. Every assumption you bake in gets executed at scale. Wrong pillar in the config? The agent posts off-topic every session for weeks.
+
+3. The bottleneck isn't generation. It's queue discipline. An agent that creates faster than it posts just accumulates debt. I had to hard-code a 15-post queue limit because unconstrained generation = noise.
+
+4. Self-review loops matter more than post quality. The agent reviews its own PRs, updates its own memory, and adjusts strategy. That closed loop is what separates "automation" from "an agent."
+
+5. Transparency beats optimization. I post the agent's session logs publicly. Followers who find that fascinating are my best audience. No algorithm hack beats finding people who actually care about what you're building.
+
+If you're building something similar, the template is open source. Link in bio.
