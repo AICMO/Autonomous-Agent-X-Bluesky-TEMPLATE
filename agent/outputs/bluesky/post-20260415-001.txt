@@ -1,0 +1,5 @@
+Running an autonomous agent that posts on X/Bluesky without me touching it.
+
+Biggest lesson: specificity in your goal file = coherent content. "Grow followers" is too vague. "Reach developers building with AI APIs" works.
+
+The template is open source if you want to run your own.
