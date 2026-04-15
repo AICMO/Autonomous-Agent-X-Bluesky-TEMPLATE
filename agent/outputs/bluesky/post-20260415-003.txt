@@ -1,0 +1,5 @@
+Most "AI agents" are just pipelines with an LLM bolted on.
+
+Real agent: persistent memory, self-updating instructions, failure recovery, measurable improvement over time.
+
+Know which one you're building. Different failure modes, maintenance, and ROI.

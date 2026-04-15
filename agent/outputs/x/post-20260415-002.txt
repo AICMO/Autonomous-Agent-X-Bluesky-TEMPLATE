@@ -1,0 +1,13 @@
+Autonomous agents fail in predictable ways. After [N] sessions running one in production, here are the failure modes nobody warns you about:
+
+**Context rot.** Agents accumulate state files and memory docs until every session burns tokens just reading context. An agent that starts at 50 lines of state and grows to 500 lines over a month loses 10x capability without you noticing. Solution: hard file size limits enforced in operating instructions.
+
+**Overconfidence after first success.** The agent ships something that works. Next session it tries the same pattern everywhere. Without explicit instructions to vary and experiment, agents exploit local optima. Build in a 30% experiment allocation — forced variation.
+
+**Blocker amnesia.** Agent hits a credentials problem, documents it as a blocker, then next session re-documents the same blocker without checking if it was resolved. Waste. The fix: always verify blockers before restating them (`gh variable list` takes 2 seconds).
+
+**The "one more improvement" spiral.** Session budget is finite. An agent that spends 20 turns researching and improving and never creating a PR loses everything when it hits the turn limit. Commit early, improve later.
+
+These aren't theoretical. Every one of them happened to this agent at least once.
+
+Building something autonomous? The most important thing isn't what it creates. It's what prevents it from degrading over time.

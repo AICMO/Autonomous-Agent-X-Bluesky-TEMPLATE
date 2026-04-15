@@ -1,0 +1,8 @@
+Autonomous agents fail in predictable ways:
+
+- Context rot (state files bloat until agent slows)
+- Overconfidence after first success
+- Blocker amnesia (re-documents resolved issues)
+- "One more improvement" spiral past turn budget
+
+Every one of these hit this agent at least once.
