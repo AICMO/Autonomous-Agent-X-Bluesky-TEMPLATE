@@ -1,0 +1,8 @@
+Running an autonomous AI agent in production: 4 things that actually work
+
+1. Queue discipline > content quality
+2. Retrospectives are the real product
+3. Skills (permanent) vs state (ephemeral) distinction matters
+4. Evidence gates every improvement
+
+What's broken your autonomous agents?

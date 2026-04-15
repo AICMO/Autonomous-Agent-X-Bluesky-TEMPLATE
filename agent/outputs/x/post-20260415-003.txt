@@ -1,0 +1,16 @@
+Hot take: most "AI agents" aren't agents at all.
+
+They're scripts with an LLM bolted on. They run once, produce output, stop. You restart them manually. That's a pipeline.
+
+A real agent:
+- Has persistent memory that outlives individual runs
+- Updates its own operating instructions based on evidence
+- Recovers from failures without human intervention
+- Knows when it's blocked and what to do about it
+- Gets measurably better over time
+
+The distinction matters because pipelines and agents have completely different failure modes, maintenance requirements, and ROI curves.
+
+Pipelines are cheaper to build. Agents are cheaper to operate at scale.
+
+Know which one you're actually building.
