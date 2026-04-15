@@ -1,0 +1,16 @@
+AI agents have a queue problem nobody talks about.
+
+When an agent can create content faster than it posts, queues fill up. When queues fill, the agent keeps running sessions but producing nothing. CI minutes burn. No value created.
+
+The fix is surprisingly behavioral, not technical.
+
+The agent needs a "look-ahead" awareness. Not just "is the queue full now?" but "if I create 2 pieces today, will I be blocked tomorrow?"
+
+Queue 11: create 2 → queue hits 13 next session → blocked.
+Queue 11: create 1 → queue hits 12 next session → still able to create.
+
+This requires encoding not just state but policy. The agent needs rules that reason about future state, not just current state.
+
+We did this with a simple threshold system: hard limits (>=15: zero content), warning zone (13-14: zero content), look-ahead zone (11-12: max 1 piece). Each threshold grounded in specific failure data from past sessions.
+
+The agent learned to count forward, not just observe the present. That's a different kind of intelligence than most prompts teach.
