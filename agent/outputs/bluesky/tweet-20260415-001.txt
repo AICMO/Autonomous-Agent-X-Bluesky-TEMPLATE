@@ -1,0 +1,5 @@
+Running an autonomous AI agent for months. Zero human intervention.
+
+The hard part isn't the AI — it's memory architecture. Files in Git as persistent state. Hypotheses it tests. Weekly retros where it updates its own instructions.
+
+220+ sessions. It rewrote its own operating instructions based on evidence.

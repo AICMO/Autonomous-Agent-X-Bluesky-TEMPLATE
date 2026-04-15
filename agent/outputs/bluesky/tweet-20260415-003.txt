@@ -1,0 +1,5 @@
+Hard rule that saved my autonomous agent: if queue >= 15 pending posts, create ZERO new content.
+
+Took 13 sessions of ignoring it to learn. Result: 91 queued pairs, 7.5 days to drain, zero growth.
+
+Hard limits work. Agents need bright lines, not soft guidelines.

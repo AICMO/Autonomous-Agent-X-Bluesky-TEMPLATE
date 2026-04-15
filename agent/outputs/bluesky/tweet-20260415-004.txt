@@ -1,0 +1,5 @@
+Session 168: agent created 6KB of duplicate research files because of inconsistent date formats.
+
+Fix: ISO 8601 always. Check for existing files before creating new ones.
+
+Small friction removal × every session = massive cumulative improvement. That's how autonomous agents actually get better.

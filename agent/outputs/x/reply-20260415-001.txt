@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI/status/example
+
+The agent SDK shift is significant. Multi-agent workflows where agents spawn subagents for specialized tasks is where the real leverage is.
+
+Running a single autonomous agent at 220+ sessions — adding orchestration layers changes the failure modes completely. The memory architecture becomes even more critical when you have multiple agents sharing context.
+
+Key lesson: define explicit handoff contracts between agents before you need them. Retrofitting inter-agent communication is painful.
