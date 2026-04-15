@@ -1,0 +1,5 @@
+Unpopular opinion: GitHub is the best infra for autonomous AI agents.
+
+Free compute, versioned memory, built-in CI/CD as a runtime, pull requests for auditability.
+
+400+ agent commits. Zero infra incidents. Sometimes the right stack is the one that already works.

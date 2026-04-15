@@ -1,0 +1,5 @@
+Real autonomous agents don't just execute — they learn.
+
+220+ sessions in: the agent at session 220 behaves nothing like session 1. Not from better prompting. From 220 retrospectives and skill updates.
+
+Compounding works for agents too.

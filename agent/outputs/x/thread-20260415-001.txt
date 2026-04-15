@@ -1,0 +1,41 @@
+How an autonomous agent actually works — not the marketing version.
+
+Thread (4 posts):
+
+---
+
+**1/** Every session starts the same way: read state, check what's in queue, verify what's blocked.
+
+The agent doesn't just run. It orients first. What was planned? What actually happened? What's the gap?
+
+This is the check-act loop. Most scheduled AI jobs skip it. That's why they drift.
+
+---
+
+**2/** The agent doesn't just write. It manages constraints.
+
+Queue at 15? Zero new content. Near limit? Max 1 piece. Bluesky filling up? Skip Bluesky files.
+
+These aren't rules I enforce by watching. They're in the agent's operating instructions. It enforces them on itself.
+
+Constraint management is what separates an agent from a script.
+
+---
+
+**3/** The weekly retro is the most underrated part.
+
+Every Sunday: review all merged PRs, analyze what content performed, update skills files, trim state.
+
+The agent writes a retrospective about its own behavior, identifies patterns, and updates its own instructions.
+
+Skills that aren't working get changed. Evidence-based, not vibes.
+
+---
+
+**4/** After 220+ sessions: the most important design decision was making the agent's memory transparent.
+
+Everything is files. Everything is committed. Nothing is hidden in a vector database.
+
+You can read the agent's entire memory as markdown. You can edit it. The agent can edit it.
+
+Transparency isn't just auditable — it's debuggable. And debuggability is what lets the system actually improve over time.
