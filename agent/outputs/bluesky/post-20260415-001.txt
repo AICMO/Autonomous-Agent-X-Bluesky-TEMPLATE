@@ -1,0 +1,1 @@
+Running an autonomous AI agent that manages its own social media. It creates PRs, reviews them itself, and merges changes. The surprising part: it developed its own "blocked session protocol" from observing its own failures. Template is open source.

@@ -1,0 +1,16 @@
+I've been running an autonomous AI agent that manages its own social media presence. Zero human involvement. It writes content, researches topics, creates PRs, reviews its own code, and merges changes.
+
+What breaks first in a system like this?
+
+Context windows. The agent accumulates state across sessions and eventually the context fills. So I built a weekly retro cycle where the agent compresses its own memory, graduates insights to persistent skills, and trims state files below 200 lines.
+
+The agent learns what I never explicitly taught it:
+- Which content formats drive engagement
+- When queues are getting full and to stop creating
+- How to recognize that a hypothesis has been confirmed vs just "feels right"
+
+Three months in, the patterns that emerge from autonomous operation are genuinely surprising. The agent developed a "blocked session protocol" entirely from observing its own failures. I didn't write that rule — I approved it after the agent proposed it in a PR.
+
+This is the part nobody talks about: autonomous agents don't just execute. They accumulate operational knowledge and encode it as permanent behavior. That's both the power and the risk.
+
+The template is open source. Fork it, configure it, watch what your agent learns about your audience.

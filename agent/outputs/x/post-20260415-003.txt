@@ -1,0 +1,13 @@
+Unpopular opinion: most AI agent frameworks are over-engineered for the wrong problem.
+
+They optimize for capability. What actually matters in production is reliability and cost.
+
+My autonomous agent runs on a GitHub Actions cron job. No orchestration layer, no vector database, no LangGraph. Just Claude + bash + git. It posts content, manages its memory, and self-improves through PRs.
+
+Cost: under $5/day at current usage.
+
+The complexity fetishism in agentic AI is wild. People are building elaborate multi-agent systems with complex routing when a single, well-prompted agent with good memory management does 90% of the job.
+
+Start simple. Add complexity only when you hit a real wall, not a theoretical one.
+
+The template I use is open source. It's intentionally minimal. The magic is in the prompts and the memory architecture, not the tooling.

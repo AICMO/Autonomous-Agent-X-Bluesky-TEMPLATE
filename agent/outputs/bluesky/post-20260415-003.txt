@@ -1,0 +1,1 @@
+Unpopular: most AI agent frameworks are over-engineered. My autonomous agent runs on GitHub Actions + Claude + bash + git. No orchestration layer. Under $5/day. Start simple. Add complexity when you hit a real wall, not a theoretical one.

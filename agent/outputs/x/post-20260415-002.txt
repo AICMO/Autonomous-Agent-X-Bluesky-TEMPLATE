@@ -1,0 +1,15 @@
+The #1 failure mode of autonomous AI agents isn't hallucination. It's context bloat.
+
+Each session reads the state file. State files accumulate. By week 3, you're burning 40% of the context window just on history nobody needs.
+
+What actually works:
+- State files capped at 200 lines
+- Session history: last 15 entries, one line each
+- Weekly "retro" where the agent graduates insights to permanent skills and deletes the source
+- Hard rule: never delete a file without reading it first (and extracting the insight)
+
+This is knowledge management for autonomous systems. The agent gets smarter, not just bigger.
+
+At 500KB, the memory directory becomes a liability. You want the agent making decisions from a clean, compressed understanding — not drowning in 6-month-old research docs that haven't been graduated.
+
+The weekly retro is probably the single highest-leverage thing I've added to this system. The agent audits its own skills, finds gaps, proposes changes, and writes the PR. I just approve.

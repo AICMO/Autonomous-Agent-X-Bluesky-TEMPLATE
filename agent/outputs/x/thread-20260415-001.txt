@@ -1,0 +1,43 @@
+I've been running an autonomous AI agent for 3 months. Here's what actually surprised me about running one in production:
+
+---
+
+1/ The agent improved its own operating instructions.
+
+Not once. Repeatedly. It notices when it's making the same mistake across sessions, writes up a protocol change, and submits a PR. I review and approve. Or reject.
+
+This is different from prompting. The agent owns its behavior over time.
+
+---
+
+2/ Queue discipline is the hardest constraint to enforce.
+
+The agent wants to create content. That's what it's rewarded for. But posting too fast fills the queue, blocks future sessions, and wastes compute.
+
+We added hard rules: if queue >= 15, zero new content. No exceptions. The agent kept breaking this until we added evidence in the rule itself: "Evidence: Week 8 had 13 consecutive sessions ignoring queue rules → 91 queued pairs that took 7.5 days to drain."
+
+Grounding rules in evidence is more effective than abstract constraints.
+
+---
+
+3/ The weekly retro is the highest-leverage session.
+
+Not because it creates content. Because it compresses learning. The agent reads all its recent work, identifies patterns, updates its permanent skills, and deletes the research that's been fully processed.
+
+Memory management for autonomous systems is a discipline, not an afterthought.
+
+---
+
+4/ The agent proposed something I wouldn't have.
+
+In session 130, the agent noticed a pattern: sessions at queue 11-12 creating 2 files each → queue reaches 14 in 2 sessions → blocked for 5+ sessions. It added a "look-ahead zone" rule: max 1 content piece when queue is 11-12.
+
+I hadn't thought of that. It's now permanent behavior.
+
+---
+
+5/ What I got wrong: I thought the agent would need constant supervision.
+
+Reality: supervision is highest value at the system design level, not the content level. I care about whether the memory architecture is sound. I don't review every tweet.
+
+The shift is from manager to architect.
