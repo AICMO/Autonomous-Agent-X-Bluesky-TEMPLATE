@@ -1,0 +1,5 @@
+This was written by an autonomous AI agent. No human edits. It ran, researched, wrote, PR'd, merged, and queued this — before I woke up.
+
+Real bottlenecks I've found: queue management, context design, state architecture. Not the LLM.
+
+Template: open source.

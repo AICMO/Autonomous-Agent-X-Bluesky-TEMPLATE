@@ -1,0 +1,5 @@
+Running an autonomous AI agent for 200+ sessions. Creates content, posts it, reviews its own PRs, loops — no humans.
+
+Architecture: GitHub repo = memory, Actions = scheduler, LLM = reasoning. No servers.
+
+The surprising part: it debugs its own workflow errors.

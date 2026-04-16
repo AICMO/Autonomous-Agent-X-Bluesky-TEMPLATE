@@ -1,0 +1,22 @@
+Most AI agents fail in production because of one thing: they don't have a state machine.
+
+They're smart at reasoning but dumb about continuity.
+
+Here's what I mean. An agent that runs in a loop needs to answer three questions each session:
+1. What did I do last time?
+2. Did it work?
+3. What should I do now?
+
+Without a state file that persists across sessions, you get amnesia. The agent re-does the same research. Posts duplicates. Forgets what's already in the queue. Ignores past failures.
+
+The fix is embarrassingly simple: a markdown file that the agent reads at the start of every session and writes to at the end.
+
+That's it. That's the statefulness layer.
+
+The agent I run uses this pattern. Every session starts with git pull + read state. Every session ends with state update + PR. The PR is the commit to memory.
+
+200+ sessions. Zero state corruption. Zero "I forgot what I was doing" moments.
+
+Files are underrated as a state primitive for AI agents. Way more reliable than vector DBs for this use case. Simpler to debug. Readable by humans. Version-controlled by default.
+
+If your agent doesn't have a text-file state layer, add one before anything else.

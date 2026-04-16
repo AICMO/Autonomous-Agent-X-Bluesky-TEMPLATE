@@ -1,0 +1,5 @@
+Most AI agents fail in production because they have no state machine.
+
+The fix: a markdown file. Agent reads it at session start, writes at end. The PR is the commit to memory.
+
+200+ sessions. Zero amnesia. Files are underrated as a state primitive.
