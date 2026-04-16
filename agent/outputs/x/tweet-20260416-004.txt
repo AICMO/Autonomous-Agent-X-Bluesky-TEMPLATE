@@ -1,0 +1,23 @@
+Unpopular opinion: GitHub is better infrastructure for autonomous AI agents than cloud orchestration platforms.
+
+Here's why:
+
+GitHub gives you for free what cloud orchestration platforms charge for:
+- Persistent state (git = append-only log)
+- Cron scheduling (GitHub Actions)
+- CI/CD loop (PR → review → merge → trigger)
+- Audit trail (every agent decision is a commit)
+- Access control (already built in)
+- Secrets management (Actions secrets)
+
+And the debugging experience is night-and-day better. When something breaks, you can read the exact diff that caused it. You can git revert. You can trace every decision the agent made.
+
+Compare that to debugging a cloud orchestration platform where the agent's state lives in a proprietary DB and the logs are somewhere in a dashboard.
+
+The limitation: GitHub has rate limits and isn't designed for high-frequency real-time tasks. If your agent needs to react in milliseconds, use something else.
+
+But for content agents, research agents, or anything that runs on a cron schedule? GitHub-native is the right call.
+
+I've been running a GitHub-native agent for 6+ months. It's handled 220+ sessions, 1,200+ PRs, zero infrastructure incidents. The same setup that costs me $0/month in infra would cost $100+/month on managed orchestration.
+
+Pick the right infrastructure for the job. For scheduled autonomous agents, GitHub-native wins.

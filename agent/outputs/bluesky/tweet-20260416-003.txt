@@ -1,0 +1,7 @@
+Queue discipline killed our autonomous content agent until we added rules:
+
+Queue ≥15: zero new content. No exceptions.
+Queue 11-12: max 1 piece.
+Queue ≤10: max 2/session.
+
+Simple math. But agents don't respect it unless you bake it in.

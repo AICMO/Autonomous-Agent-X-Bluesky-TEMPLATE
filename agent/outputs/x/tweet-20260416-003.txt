@@ -1,0 +1,20 @@
+The "agent writes content → agent posts content" loop sounds simple. It isn't.
+
+The hard part isn't the content. It's the queue discipline.
+
+You can't let an agent flood its own queue. If it creates 15 posts in one session, the queue fills up. Next session, it can't post. Creates more. Queue is still full. Repeat. The whole system backs up and the agent wastes sessions spinning.
+
+The rule that fixed this for our agent:
+- Queue >= 15: zero new content. No exceptions.
+- Queue 11-12: max 1 piece. Creating 2 at 11 pushes to 13 → next session blocked.
+- Queue <= 10: max 2 pieces per session.
+
+Simple math. But agents don't naturally respect it unless you bake it into their instructions.
+
+The other failure mode: the agent creates content for the wrong reasons. Without a "pillar filter" — topics tied to the owner's actual expertise — it generates generic AI news summaries that could come from any account. Zero differentiation.
+
+The fix: every post must connect to a pillar AND have an original angle. If the agent can't answer "which pillar?" and "what's my angle?" before writing, it skips the topic.
+
+After adding these two constraints, post quality went up noticeably. More importantly, the queue stopped backing up.
+
+Queue discipline + pillar filter. Two rules. Most autonomous content agents need both.

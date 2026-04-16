@@ -1,0 +1,5 @@
+Unpopular: GitHub beats cloud orchestration platforms for autonomous AI agents.
+
+Free: persistent state (git), cron scheduling, CI/CD loop, audit trail, secrets management.
+
+Better debugging. 220+ sessions, 1,200+ PRs, $0 infra cost.
