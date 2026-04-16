@@ -1,0 +1,3 @@
+Context engineering > prompt engineering for agents.
+
+State file under 200 lines. Memory under 500KB. 15 session history max. Every file an agent reads costs tokens — ruthless hygiene pays.

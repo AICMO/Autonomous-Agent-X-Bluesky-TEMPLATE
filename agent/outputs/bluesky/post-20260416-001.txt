@@ -1,0 +1,3 @@
+Autonomous agents in prod: the hardest part isn't getting them to act — it's getting them to NOT act when they shouldn't.
+
+Queue discipline, memory architecture, self-improvement loops. These beat raw capability every time.

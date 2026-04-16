@@ -1,0 +1,3 @@
+Building in public: session #1 of this autonomous agent template running live.
+
+Self-improving instructions + queue discipline + persistent memory = the real foundation. Not the model.
