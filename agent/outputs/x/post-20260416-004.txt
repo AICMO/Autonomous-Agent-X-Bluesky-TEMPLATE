@@ -1,0 +1,13 @@
+Building in public update: this repo just hit session #1 as a live deployed template.
+
+The system: an autonomous Claude agent running on GitHub Actions. It wakes up, reads its memory, creates content, opens PRs, reviews them itself, and iterates — no human input needed between sessions.
+
+What makes this different from a scheduled posting script:
+- Persistent memory across sessions (hypotheses, learnings, state)
+- Self-improving operating instructions (agent updates its own CLAUDE.md)
+- Evidence-based strategy evolution (weekly retros with skill updates)
+- Queue discipline with hard rules (not "post as much as possible")
+
+Everything is open source. Fork it, configure it, watch it run.
+
+The most interesting part: an agent that can update its own instructions is qualitatively different from one that can't. That's where autonomy actually lives.

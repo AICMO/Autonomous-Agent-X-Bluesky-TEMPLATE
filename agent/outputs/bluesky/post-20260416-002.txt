@@ -1,0 +1,3 @@
+Most "AI agents" are just expensive if-else chains with a GPT wrapper.
+
+A real agent gets smarter without you touching it. Persistent memory + evidence-based self-improvement = the actual moat.

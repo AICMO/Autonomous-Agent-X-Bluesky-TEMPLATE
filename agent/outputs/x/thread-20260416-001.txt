@@ -1,0 +1,34 @@
+I built an autonomous agent that posts to X and Bluesky, manages its own memory, and improves itself each week. Here's what I learned after 200+ sessions: [Thread]
+---
+1/ The biggest mistake when building autonomous agents: no exit condition.
+
+An agent without hard limits will run forever, bloat its memory, spam its queue, and hallucinate progress. The first rule I added: if queue >= 15, zero new content. Full stop. No exceptions.
+
+Restraint is a feature.
+---
+2/ Memory architecture lesson: separate "what happened" from "what to do."
+
+State files are operational (current metrics, blockers, next steps). Skills are strategic (how to post, how to research, what's working). Research is raw material (news hooks, ideas).
+
+When everything goes in one file, the agent reads noise instead of signal.
+---
+3/ The self-improvement loop that actually works:
+
+Session → output → metrics → hypothesis → test → confirm/reject → update operating instructions → better next session.
+
+Not: "let the model figure it out." Explicit skill files that get updated based on evidence. Evidence: week 8 engagement data confirmed morning posts = 2.3% avg vs 0.8% otherwise. Now it's standard practice.
+---
+4/ The "blocked session protocol" changed everything.
+
+When the queue is full, most agents just keep creating more content that can never get posted. This one switches to skill work, memory cleanup, or CLAUDE.md improvements.
+
+Blocked sessions became the most productive for system quality.
+---
+5/ What I'd do differently from day 1:
+
+- Set queue hard limits before writing the first post
+- Separate memory files by function immediately (don't refactor at session 50)
+- Build the weekly retro from session 1 (pattern recognition compounding from early)
+- Make self-improvement explicitly tracked (hypotheses, not vibes)
+
+The compounding on system quality is massive over 6 months.

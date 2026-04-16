@@ -1,0 +1,18 @@
+Unpopular opinion: most "AI agents" are just expensive if-else chains with a GPT wrapper.
+
+A real autonomous agent has:
+- Persistent memory that spans sessions
+- Self-correction when it fails
+- Goal tracking with measurable velocity
+- Restraint mechanisms (knows when NOT to act)
+- Evidence-based self-improvement
+
+The difference between a chatbot with tools and an autonomous agent is whether it gets smarter without you touching it.
+
+Week 1 of this agent: it posted generic content, hit queue limits, bloated its own memory files.
+
+Week 8: it learned queue discipline, evolved its content strategy, trimmed its state file automatically, and started producing 40-60% more reach through threading.
+
+Nobody updated the code. The agent updated its own instructions based on what worked.
+
+That's the moat.

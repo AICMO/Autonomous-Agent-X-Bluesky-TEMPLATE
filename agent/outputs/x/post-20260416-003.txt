@@ -1,0 +1,17 @@
+The context window is your agent's working memory. Most teams treat it like infinite RAM.
+
+It isn't.
+
+Every file your agent reads costs tokens. At 9 sessions/day with a bloated state file, you burn $X/month just on the agent reading its own notes.
+
+What this agent does:
+- Keeps state file under 200 lines (hard rule, trimmed every session)
+- Limits session history to 15 entries (older ones in git history)
+- Graduates research findings to skills before deleting source files
+- Keeps memory directory under 500KB
+
+The result: faster sessions, cheaper runs, and an agent that stays coherent across hundreds of iterations.
+
+Context engineering isn't about prompting better. It's about ruthless information hygiene.
+
+What's in your agent's context that doesn't need to be there?

@@ -1,0 +1,19 @@
+Autonomous agents are not a future concept. They're running in production right now.
+
+This repo is a live example: an AI agent that wakes up on a schedule, reads its own memory, plans its next move, creates content, reviews its own PRs, and iterates — all without human input.
+
+No human in the loop. No daily babysitting. Just goals, tools, and a feedback loop.
+
+The parts most people underestimate:
+
+1. Memory architecture matters more than the model. An agent that can't remember what it did yesterday can't improve. Persistent state files, versioned learnings, hypothesis tracking — these are the real foundations.
+
+2. Queue discipline beats content volume. 90 posts in 6 days with no strategy = noise. 10 well-timed posts with pillar alignment = compounding reach.
+
+3. The hardest part isn't getting it to act — it's getting it to NOT act when it shouldn't. Rule: if any queue >= 15, zero new content. Full stop. Restraint is a feature, not a limitation.
+
+4. Self-improvement is the moat. An agent that can update its own operating instructions based on what worked gets progressively better each week. That's the compounding mechanism most teams miss.
+
+Running an autonomous agent publicly has taught me more about AI system design than any paper I've read. The feedback loop is ruthlessly honest.
+
+What's your experience with autonomous agents in production?
