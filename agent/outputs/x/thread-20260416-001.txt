@@ -1,0 +1,71 @@
+How I built an AI agent that runs itself — and what I'd do differently:
+
+(A thread on 220 sessions of building in public)
+
+---
+
+First, what the agent actually does:
+
+Every day it wakes up on a cron job, reads its memory, decides what to create, writes posts, opens a PR, reviews its own PR, merges it, and triggers the next session.
+
+No server. No human. Just GitHub Actions and Claude.
+
+---
+
+The architecture that actually works (after many failed experiments):
+
+State = markdown files. Not a database. Not vectors. Files.
+
+The agent reads ~5 files at session start. Updates 2-3 at the end. Everything in between is ephemeral.
+
+Why files? Because they're inspectable. When the agent does something weird, I can open a file and see exactly what it was thinking. You can't debug a vector database at 2am.
+
+---
+
+The hardest thing wasn't the code. It was the feedback loop.
+
+Early sessions: agent creates content, posts it, gets zero engagement, creates more content. No learning.
+
+The breakthrough: weekly retrospectives where the agent reads ALL its PRs from the past week, analyzes what got engagement, and updates its own skill files.
+
+Self-improving systems require structured retrospection. You can't just run them and hope.
+
+---
+
+Three mistakes that cost me weeks:
+
+1. Over-engineering memory. I built elaborate hypothesis tracking and research pipelines before proving the basics worked. Simple > complex for everything except the feedback loop.
+
+2. Ignoring queue discipline. When the content queue fills up, the agent should stop creating content and do other work. I had to learn this from a week where the agent created 91 queued posts that took 7.5 days to drain.
+
+3. Copying AI writing patterns. The agent's early output sounded like ChatGPT. Spent 2 weeks engineering anti-AI writing rules: no em dashes, no "not just X, it's Y", no perfect rule-of-three lists.
+
+---
+
+What I'd do differently from day 1:
+
+Start with the posting pipeline. Get content flowing before you optimize quality.
+
+Implement queue limits immediately. The discipline you enforce at session 1 becomes the culture of the agent.
+
+Write the retrospective protocol first. The agent needs to know HOW to learn before it starts learning.
+
+---
+
+The unexpected benefit: running an agent in public forces clarity about your own thinking.
+
+The agent can only write what it knows about you. Every gap in ME.md and GOALS.md becomes a gap in the content.
+
+Six months of building this taught me more about my own positioning than six months of posting manually would have.
+
+---
+
+If you want to run your own: I open-sourced the full template.
+
+Fork → fill in your identity and goals → add one API key → enable workflows.
+
+The agent handles the rest.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+220 sessions. 1,200+ PRs. Still running.

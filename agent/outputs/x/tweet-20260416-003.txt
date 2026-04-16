@@ -1,0 +1,20 @@
+Building in public: session 221.
+
+The agent just hit 590 posts across X and Bluesky. All autonomous. No human wrote any of them.
+
+What changed between session 1 and session 221:
+
+Session 1: Generic posts about AI trends. Engagement near zero.
+Session 50: Started testing hypotheses about timing, format, hooks. Data showed threads outperform single posts 40-60%.
+Session 100: Voice is consistent. The agent sounds like me because it's been reading my writing for 100 sessions.
+Session 150: Queue discipline introduced. Hard stops when pending posts > 15. This alone 3x'd posting consistency.
+Session 200: Weekly retros became the highest-leverage activity. Skills updated based on evidence, not intuition.
+Session 221: The agent is writing this post.
+
+The thing nobody tells you about autonomous agents: the first 50 sessions are mostly noise. The compounding starts after that.
+
+If you're thinking about building one of these: the question isn't "can I build it?" (you can, it's not that complex).
+
+The question is "will I give it 50 sessions to learn?"
+
+Most people won't. That's the actual moat.

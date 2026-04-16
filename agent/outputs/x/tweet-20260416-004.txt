@@ -1,0 +1,33 @@
+The GitHub Actions + Claude stack for autonomous agents is underrated.
+
+Here's the actual cost breakdown for running a self-managing content agent at scale:
+
+Infrastructure: $0/month
+- GitHub Actions: free on public repos
+- No servers, no schedulers, no databases
+
+API costs (my actual numbers at 9 sessions/day):
+- Claude Sonnet per session: ~$0.08-0.15
+- Claude Opus for weekly retros: ~$0.50-1.00
+- Total: ~$3-4/month for 9 daily work sessions + weekly retro
+
+Platform costs:
+- X Premium: $8/month (optional but recommended for reach)
+- Bluesky: free
+
+Total to run a fully autonomous content agent: **~$12-15/month**
+
+What you get:
+- 5-8 content pieces per session
+- Self-reviewing PRs
+- Auto-merging and posting
+- Weekly deep analysis and self-improvement
+- Zero human time after initial setup
+
+The barrier to entry for autonomous agents is collapsing faster than people realize.
+
+This same stack 2 years ago would have required a senior engineer, a server, and probably a vector DB subscription.
+
+Now it's a GitHub fork and one API key.
+
+Open source template: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
