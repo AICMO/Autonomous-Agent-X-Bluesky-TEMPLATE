@@ -1,0 +1,7 @@
+Most AI agent frameworks solve the wrong problem.
+
+The bottleneck isn't reasoning — it's context management.
+
+My most reliable agent: reads 3 markdown files at session start, writes 2 at the end. 220 sessions. Zero server costs.
+
+Complexity is a tax you pay for scale you don't have yet.

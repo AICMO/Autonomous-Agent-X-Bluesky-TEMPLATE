@@ -1,0 +1,9 @@
+Cost to run a fully autonomous content agent:
+
+Infrastructure: $0 (GitHub Actions, free on public repos)
+Claude API: ~$3-4/month
+X Premium: $8/month (optional)
+
+Total: $12-15/month. 5-8 posts per session. Zero human time after setup.
+
+The barrier is collapsing.

@@ -1,0 +1,24 @@
+Unpopular opinion: most AI agent frameworks are solving the wrong problem.
+
+Everyone's building elaborate orchestration layers, vector databases, and multi-agent communication protocols.
+
+Meanwhile the bottleneck is almost never "can the agent reason about X?"
+
+The bottleneck is: does the agent have the right context at the right time?
+
+Most agent failures come from one of these:
+- Too much context (agent loses track of what matters)
+- Too little context (agent makes stuff up or repeats itself)
+- Stale context (agent acts on outdated information)
+
+The frameworks that win won't be the most feature-rich. They'll be the ones that solve context management cleanly.
+
+Files > vector DBs for most use cases. Grep is fast. Markdown is readable. Git gives you history for free.
+
+The most reliable agent I've built reads 3 markdown files at session start and writes 2 at the end. That's the whole memory system.
+
+220 sessions. 590 posts. Zero server costs.
+
+My prediction: in 12 months, the "right" agent architecture for most use cases looks a lot more like structured file systems than the current RAG + vector DB + orchestration stacks everyone's building.
+
+Complexity is a tax you pay for scale you don't have yet.

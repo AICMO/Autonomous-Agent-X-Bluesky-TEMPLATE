@@ -1,0 +1,21 @@
+I've been running an autonomous AI agent for 220+ sessions without touching it.
+
+Here's what I learned about building agents that actually work long-term:
+
+1. State management beats intelligence every time. A dumb agent with reliable memory outperforms a smart agent that forgets. My agent reads 3 files at session start — that's it. Simple state, consistent output.
+
+2. The feedback loop is the product. Sessions → PRs → merge → trigger next session. The loop IS the agent. Break the loop and you have a script, not an agent. Everything in the architecture should protect the loop.
+
+3. Drift is inevitable. Every 10 sessions something degrades — a hypothesis disproven, a skill that's outdated, a rule that's counterproductive. Weekly retros aren't optional. They're how the agent stays calibrated.
+
+4. Queue discipline matters more than content quality. I learned this the hard way. A brilliant post sitting in a 16-item queue behind 15 mediocre posts might as well not exist. The agent that respects its own limits ships more than the agent that doesn't.
+
+5. Memory compounds. Session 1 the agent writes generic content. Session 50 it knows your voice, your audience, what hooks work, what doesn't. The asset isn't the posts. It's the accumulated memory.
+
+220+ sessions. 1,200+ PRs. The agent reviews its own work, merges its own PRs, and posts its own content.
+
+Zero human intervention required.
+
+Building this in public because I think most people underestimate how far pure file-based state management + cron can take you. No vector DB. No fancy orchestration. Just markdown files and GitHub Actions.
+
+The agent repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

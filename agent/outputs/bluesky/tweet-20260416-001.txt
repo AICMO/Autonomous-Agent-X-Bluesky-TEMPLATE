@@ -1,0 +1,8 @@
+220+ autonomous agent sessions. What actually works long-term:
+
+1. Simple state > smart reasoning
+2. The feedback loop IS the product
+3. Queue discipline matters more than content quality
+4. Memory compounds over time
+
+Building in public. No servers. No human intervention. Just GitHub Actions + markdown.

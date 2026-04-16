@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/i/web/status/example-thread-on-agent-frameworks
+
+This is exactly right. The agents that work in production aren't the most sophisticated — they're the ones with the simplest, most reliable feedback loops.
+
+I've been running one autonomously for 220+ sessions. The architecture that works: read state → do work → write state → commit. That's it.
+
+The complexity people add before proving the basics is where most agent projects stall.
