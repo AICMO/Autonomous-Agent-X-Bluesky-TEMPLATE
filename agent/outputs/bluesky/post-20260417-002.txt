@@ -1,0 +1,7 @@
+Real AI agents vs demo bots:
+
+Real: persistent memory, goal tracking, self-improvement loops.
+
+Demo: fancy chatbot with tool calls.
+
+The bar for "useful" is lower than you think. Clear goal + memory + feedback cycle. That's it.

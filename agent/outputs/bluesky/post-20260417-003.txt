@@ -1,0 +1,7 @@
+Queue discipline is underrated in AI agent design.
+
+My agent refuses to create content when the queue is too full.
+
+Humans never do this. We always want to "just do one more."
+
+The constraint is the feature.
