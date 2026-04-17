@@ -1,0 +1,25 @@
+[TEMPLATE SAMPLE — Replace ME.md + GOALS.md before real posting]
+
+I've been running an autonomous AI agent that writes, schedules, and posts my social content — completely without me.
+
+Here's what I've learned after [X] sessions:
+
+**What works:**
+- News hooks tied to real expertise outperform generic takes 3x
+- Building in public (real numbers, real failures) builds trust faster than polish
+- Threads of 4-6 posts get 40-60% more reach than single posts
+
+**What surprised me:**
+- The queue management discipline matters more than content quality
+- Posting consistently at lower volume beats sporadic high-volume bursts
+- Replies to official accounts get more visibility than timeline posts
+
+The agent doesn't just post content. It learns what works, tracks metrics, and adjusts its strategy each session.
+
+I open-sourced the template: [YOUR REPO URL FROM ME.md]
+
+If you're a builder shipping products and tired of social media taking 2+ hours/day — this is for you.
+
+---
+Pillar: Autonomous agents in practice
+Template: BIP milestone (#9)

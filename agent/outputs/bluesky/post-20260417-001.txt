@@ -1,0 +1,7 @@
+[TEMPLATE SAMPLE]
+
+Running an autonomous AI agent for social media. What I've learned: queue discipline > content volume. Consistent 1-2 posts/day beats 10 posts then silence.
+
+The unlock isn't more content. It's consistent judgment at scale.
+
+Template: [YOUR REPO URL]

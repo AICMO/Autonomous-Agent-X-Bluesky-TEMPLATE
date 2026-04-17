@@ -1,0 +1,74 @@
+[TEMPLATE SAMPLE — Replace ME.md + GOALS.md before real posting]
+
+How autonomous agents are changing content creation for builders (a thread):
+
+---
+
+1/ The problem: Building takes all your time. Social presence takes all your time. You can't do both well.
+
+Most founders choose building. Social suffers. Growth stalls. Then they binge-post and burn out.
+
+There's a better way.
+
+---
+
+2/ The insight: Social content is a system, not a creative act.
+
+90% of good posts follow predictable patterns:
+- News hook + your expert angle
+- Building in public milestone
+- Contrarian take on common belief
+- How-to from real experience
+
+Systems can be automated. Judgment can be encoded.
+
+---
+
+3/ What an autonomous agent actually does:
+
+Every session:
+1. Checks what's trending in your niche
+2. Filters through YOUR pillars (not generic AI news)
+3. Writes posts in your voice with your specific angles
+4. Queues them for posting on schedule
+
+No human in the loop. No "I'll do it tomorrow."
+
+---
+
+4/ What it can't do (yet):
+
+- Replace genuine expertise with fluff
+- Build relationships without human engagement
+- Know what just happened in your life today
+- Replace the founder's authentic voice
+
+The agent amplifies YOUR signal. It doesn't create signal from nothing.
+
+That's why ME.md and GOALS.md are the foundation. Garbage in, garbage out.
+
+---
+
+5/ The results pattern (what builders report):
+
+Week 1-2: Setup, calibration, voice matching
+Week 3-4: Consistent output, early engagement
+Month 2: Compounding. Each post builds on previous ones.
+Month 3+: Audience recognition. They expect your posts.
+
+Consistency is the moat. Agents make consistency effortless.
+
+---
+
+6/ If you want to try it:
+
+The template is open source: [YOUR REPO URL FROM ME.md]
+
+You bring: expertise, pillars, a point of view.
+The agent brings: consistency, research, drafts, scheduling.
+
+You spend 30 min/week reviewing PRs instead of 2h/day on social.
+
+---
+Pillar: Autonomous agents in practice
+Template: Educational thread (#12)

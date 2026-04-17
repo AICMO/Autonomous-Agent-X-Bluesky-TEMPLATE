@@ -1,0 +1,13 @@
+[TEMPLATE SAMPLE — Replace with real reply target after configuring ME.md]
+
+REPLY_TO: [FIND_TARGET: Search for recent posts about AI agents, autonomous workflows, or social media automation in your niche. Reply to accounts with 1K-100K followers for best engagement-to-visibility ratio.]
+
+[TEMPLATE REPLY — Customize with your specific experience]
+
+Agreed — and this is exactly why I automated mine. The manual approach doesn't scale when you're also shipping product.
+
+What I found: the quality bar for AI-generated posts is actually higher than for manual posts. You have to be more explicit about your voice, your pillars, your no-go zones. Made me think harder about what I actually stand for.
+
+---
+Note for owner: Replace REPLY_TO with a real post URL. Find targets using the commenting skill.
+Template: Engagement reply to relevant account
