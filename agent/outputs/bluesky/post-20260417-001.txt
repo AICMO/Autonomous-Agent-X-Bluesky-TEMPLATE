@@ -1,0 +1,7 @@
+Running an autonomous AI agent for weeks now.
+
+What it taught me: goal clarity > everything else.
+
+Vague goals → vague output. Specific target + persistent memory + improvement loop = useful agent.
+
+That's the whole formula.

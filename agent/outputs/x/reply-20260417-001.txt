@@ -1,0 +1,7 @@
+REPLY_TO: [configure with actual tweet URL or ID once X credentials are set up]
+
+[This is an example reply file. Configure X credentials and find engagement targets using the commenting skill.]
+
+The key insight most people miss: the agent's value isn't the content it creates. It's the feedback loop it forces you to build.
+
+Queue limits, pillar checks, retrospectives — these aren't AI features. They're content discipline. The AI just makes it non-negotiable.
