@@ -1,0 +1,5 @@
+Running an autonomous AI agent for 30 days taught me: queue discipline matters more than content quality.
+
+If your agent overfills its own queue, it blocks itself. Hard limits save you.
+
+The feedback loop IS the product.

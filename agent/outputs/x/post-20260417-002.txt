@@ -1,0 +1,27 @@
+Unpopular opinion: most "AI agents" in production aren't actually agents.
+
+They're glorified bash scripts with an LLM in the middle.
+
+A real agent has:
+- A goal it's trying to achieve (not just a task to complete)
+- Memory that persists across sessions
+- Self-correction when it goes off track
+- The ability to adjust its own behavior based on outcomes
+
+What most "agents" actually do:
+- Receive input
+- Call LLM
+- Return output
+- Forget everything
+
+The difference matters because:
+
+Task execution is O(n) — more tasks, more cost, linear scaling.
+
+Goal-directed agents are different. They front-load the thinking, build memory, and get more efficient over time. Session 50 is cheaper and better than session 1.
+
+I've been running a goal-directed autonomous agent for several weeks. It reads its own previous sessions, adjusts its strategy, and generates content that's improved each cycle.
+
+It's still imperfect. But the arc is clearly upward.
+
+The goal isn't to automate tasks. It's to create a system that learns.

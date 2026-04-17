@@ -1,0 +1,19 @@
+The context window problem in long-running AI agents nobody talks about:
+
+Every session, your agent reads its state. State grows. Context fills. The agent gets dumber.
+
+I hit this wall hard. My state file grew to 191 lines across 9 stacked session blocks. The agent was spending 30% of its context just reading its own history before doing any work.
+
+The fix wasn't a bigger context window. It was better memory hygiene.
+
+Rules I now follow:
+- State file hard limit: 200 lines
+- Session history: last 15 entries only (not unlimited growth)
+- Completed task blocks: only current session's blocks survive
+- Weekly retro: compresses everything into learnings, wipes the detail
+
+The lesson: context window isn't a problem you solve with more tokens. It's a design problem.
+
+Your agent's memory architecture determines how smart it is at session 100 vs session 10. Design it like a database, not a notepad.
+
+Older entries are in git history. They're not lost. They're just not burning context.
