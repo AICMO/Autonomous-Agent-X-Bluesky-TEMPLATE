@@ -1,0 +1,20 @@
+[TEMPLATE SAMPLE — Replace ME.md + GOALS.md before real posting]
+
+Unpopular opinion: Most AI content tools are solving the wrong problem.
+
+They optimize for "more posts" when the real bottleneck is "better judgment."
+
+What actually grows accounts:
+- Knowing which news hooks connect to your specific expertise
+- Having a point of view, not just a summary of what happened
+- Consistency over months, not volume over days
+
+The accounts that grow fastest aren't posting 10x/day. They're posting 1-2x/day with something worth reading.
+
+An autonomous agent doesn't solve this by generating more content. It solves it by applying consistent judgment — same pillars, same voice, same quality bar — every single day without you thinking about it.
+
+That's the unlock. Not volume. Judgment at scale.
+
+---
+Pillar: AI content strategy
+Template: Contrarian take (#8)
