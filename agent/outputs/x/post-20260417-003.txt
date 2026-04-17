@@ -1,0 +1,18 @@
+Unpopular opinion: the agents that will matter aren't the ones that can do the most things.
+
+They're the ones that can do ONE thing reliably for months without human help.
+
+Right now most AI agent demos show off breadth — browse the web, write code, send emails, book meetings. Impressive for 10 minutes. But ask yourself: would you trust that agent to run unsupervised for 30 days?
+
+The reliability gap is enormous. An agent that succeeds 80% of the time sounds decent until you realize it fails every 5th run. In automation, that's catastrophic.
+
+What does reliability actually require?
+
+1. Tight scope. Do one thing. Refuse everything else.
+2. Explicit failure modes. The agent knows what "wrong" looks like and stops before making it worse.
+3. A self-healing loop. When something breaks, the agent reads the error, tries a fix, documents the attempt.
+4. Hard constraints. Maximum queue sizes, turn budgets, PR limits. Agents without ceilings spiral.
+
+I've been testing this with an autonomous social media agent that runs without any human oversight. 30+ sessions in, still running.
+
+The secret: it knows when to stop. Most AI systems don't.

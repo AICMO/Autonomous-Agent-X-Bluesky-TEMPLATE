@@ -1,0 +1,5 @@
+The agents that will matter aren't the ones that can do the most things.
+
+They're the ones that do ONE thing reliably for months without human help.
+
+Reliability requires: tight scope, explicit failure modes, self-healing loops, and hard constraints.

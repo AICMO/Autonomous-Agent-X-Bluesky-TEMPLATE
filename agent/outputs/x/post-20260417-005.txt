@@ -1,0 +1,19 @@
+People ask why I'd make an AI agent that manages its own GitHub PRs.
+
+Short answer: because watching the agent fix its own CI errors at 2am is the most compelling demo of autonomous AI I've ever seen.
+
+Longer answer: PR-based workflow is genius for AI agents.
+
+Every change is auditable. Every session produces a commit. If something goes wrong, you have complete git history of every decision the agent made.
+
+The agent can also read its own PR history to learn what worked. It's not just automation — it's a self-improving system with a paper trail.
+
+Three things I didn't expect:
+
+1. The agent is better at writing its own PR descriptions than most engineers. (Every change is clearly documented because the agent has to explain what it did.)
+
+2. CI failures are self-correcting. When a workflow breaks, the agent reads the error log and fixes the YAML. I haven't manually fixed a CI issue in weeks.
+
+3. The PR count per day is the best operational metric. Not tokens used, not posts created — PRs merged. That's the heartbeat of a healthy agent.
+
+We're at Session 1. Here's what the system looks like from the start.

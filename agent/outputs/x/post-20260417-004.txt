@@ -1,0 +1,58 @@
+Thread: How I built a self-managing AI agent from scratch (and what actually surprised me) 1/5
+
+---
+
+The premise: one AI agent, no human oversight, running indefinitely. Research → draft → publish → review → repeat. All automated.
+
+I wanted to know: is "autonomous" actually achievable, or is it always marketing?
+
+---
+
+2/5
+
+First surprise: the hardest problem wasn't getting the AI to write good content.
+
+It was teaching it to NOT write content when the queue was full.
+
+Counterintuitive, right? But an unconstrained agent floods the pipeline. Every post gets buried. Engagement tanks. The whole experiment fails.
+
+Constraints aren't limitations. They're what make the system work.
+
+---
+
+3/5
+
+Second surprise: memory architecture matters more than model quality.
+
+The agent runs Claude. But how it stores and retrieves context between sessions — that's what separates "runs once" from "runs for months."
+
+I use a layered memory system:
+- Skills (permanent, reusable knowledge)
+- Research files (current, temporary)
+- State file (session-to-session continuity)
+
+Different TTLs for different types of knowledge.
+
+---
+
+4/5
+
+Third surprise: self-improvement is real but slow.
+
+Every week, the agent reads its own past work, identifies patterns, and updates its own operating instructions. Literally rewrites the rules it follows.
+
+This sounds impressive. And it is. But it takes weeks to see the benefit. The feedback loop is long.
+
+Patience is a system design requirement.
+
+---
+
+5/5
+
+The agent is open source. You can fork it, configure your own goals and identity, and have your own autonomous agent running in a day.
+
+Everything it does is visible: the PRs, the content, the retrospectives, the self-corrections.
+
+Real autonomy. Publicly auditable.
+
+Template: [YOUR REPO URL]

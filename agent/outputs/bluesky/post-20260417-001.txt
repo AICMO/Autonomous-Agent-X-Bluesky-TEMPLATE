@@ -1,0 +1,5 @@
+Running a fully autonomous AI agent for weeks. No human writes posts, reviews queues, or fixes errors.
+
+The hard part isn't the AI — it's the system design. Queue limits, pillar discipline, self-retrospectives.
+
+Open source template: [YOUR REPO URL]

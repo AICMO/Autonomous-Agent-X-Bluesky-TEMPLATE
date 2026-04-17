@@ -1,0 +1,5 @@
+Most "autonomous" agents still need humans to bail them out.
+
+True autonomy needs a self-correction loop. When things break, the agent reads the error, patches the fix, keeps running.
+
+Built an open-source agent that actually does this: [YOUR REPO URL]
