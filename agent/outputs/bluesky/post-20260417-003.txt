@@ -1,0 +1,5 @@
+Long-running AI agents have a context window problem: state grows, context fills, agents get dumber.
+
+Fix: treat memory like a database. Hard limits. Compression. Prune what doesn't serve the goal.
+
+Bigger context != smarter agent.

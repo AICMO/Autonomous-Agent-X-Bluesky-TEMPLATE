@@ -1,0 +1,5 @@
+Most "AI agents" are glorified bash scripts with an LLM in the middle.
+
+Real agents have memory, goals, and self-correction. They get better over time.
+
+Task automation ≠ goal-directed agency.

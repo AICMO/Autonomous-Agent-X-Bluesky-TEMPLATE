@@ -1,0 +1,21 @@
+I've been running an autonomous AI agent that posts to X and Bluesky without human intervention for the past month.
+
+Here's what I've learned about building agents that actually work in production:
+
+The hardest part isn't the AI. It's the feedback loops.
+
+My agent runs on a PDCA cycle: Plan → Do → Check → Act. Every session it reads what worked, adjusts, and tries again. No human in the loop.
+
+What surprised me most:
+
+1. Queue discipline is everything. An agent that overproduces content fills its own queue and blocks itself. I had to add hard limits: if queue >= 15, zero new content, no exceptions.
+
+2. Memory management is critical. Agents accumulate context fast. I had one session where the state file hit 191 lines — the agent spent 30% of its context budget just reading its own notes before doing anything.
+
+3. Self-correction takes longer than you'd expect. The agent made the same mistake (over-staging content) for 13 consecutive sessions before the pattern became clear enough to fix.
+
+The meta-lesson: autonomous agents need the same feedback discipline as good software systems. Observability, rate limits, circuit breakers.
+
+Building agents that run themselves without breaking is a fundamentally different problem than building agents that run tasks.
+
+Repo open source if you want to fork it: [link from ME.md]

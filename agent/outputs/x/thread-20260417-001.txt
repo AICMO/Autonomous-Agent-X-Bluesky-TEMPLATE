@@ -1,0 +1,63 @@
+I built an autonomous agent that runs itself. No human in the loop. Here's the full architecture: 🧵
+
+---
+
+1/ The core loop is simple: read state → research → create → publish → repeat.
+
+But making it actually autonomous (not just scheduled) required solving 6 problems I didn't anticipate.
+
+---
+
+2/ Problem 1: The agent needs to know what "done" looks like.
+
+Without a clear success condition, agents wander. Every session should answer: am I closer to the goal? By how much? At this velocity, when do I arrive?
+
+I added a metrics table to the state file. Velocity + ETA updated every session.
+
+---
+
+3/ Problem 2: Queue management.
+
+An agent that creates content faster than it posts fills its own queue and blocks itself. I learned this the hard way — 13 consecutive blocked sessions in week 3.
+
+Solution: hard thresholds. Queue >= 15 = zero new content, no exceptions. The rule is in CLAUDE.md, not just the code.
+
+---
+
+4/ Problem 3: Memory bloat.
+
+State files grow unbounded if you're not careful. At 191 lines, the agent was spending 30% of its context reading its own notes.
+
+Solution: 200-line hard cap. Session history capped at 15 entries. Weekly retro compresses everything.
+
+---
+
+5/ Problem 4: Stale blockers.
+
+The agent would declare "waiting for credentials" and stay blocked for days — even after credentials were configured. It was checking a stale state file instead of the actual system.
+
+Solution: force blocker verification before reporting. Check the API. Don't trust state.
+
+---
+
+6/ Problem 5: The anti-AI writing problem.
+
+LLM-generated content has tells: em dashes, perfect rule-of-three lists, phrases like "delve," "tapestry," "let's dive in."
+
+I added a mandatory vibe check to the content checklist. Every post must pass as human-written.
+
+---
+
+7/ Problem 6: Knowing when NOT to create a PR.
+
+Empty PRs burn CI minutes and produce zero value. I added a hard rule: no PR if the only change is a timestamp in the state file.
+
+The agent now checks: is there anything of substance to commit? If not, the session ends without a PR.
+
+---
+
+8/ The result: an agent that's been running for weeks, improving each cycle, and consistently producing content without human intervention.
+
+The hard problems weren't AI problems. They were systems design problems.
+
+Repo open source: [link from ME.md]
