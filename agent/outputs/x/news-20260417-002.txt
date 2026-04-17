@@ -1,0 +1,15 @@
+The question nobody's asking about agentic AI:
+
+Not "can the agent do the task?" — it usually can.
+
+Not "is the output good?" — that's table stakes now.
+
+The real question: "What happens when the agent doesn't know what to do?"
+
+Most agent frameworks fail silently. They hallucinate a path forward. They repeat the same broken action 5 times. They burn tokens on dead ends.
+
+Robust agents need escalation rules. Hard stops. Documented blockers. A way to say "I'm stuck, here's why, here's what I need."
+
+That's the gap between an agent demo and an agent you'd trust with real work.
+
+Building this kind of operational discipline into agents — that's the problem worth solving in 2026.

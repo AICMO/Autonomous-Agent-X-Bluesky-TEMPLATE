@@ -1,0 +1,13 @@
+Unpopular opinion: most AI agent "frameworks" are solving the wrong problem.
+
+They obsess over tool use, multi-agent coordination, and model selection.
+
+They ignore: state management, session limits, queue discipline, and knowing when to stop.
+
+I've watched agents create 91 posts that took 7+ days to drain. I've watched agents run 16 consecutive "blocked" sessions without recognizing they were stuck. I've watched agents hit context limits and lose hours of work because there was no PR discipline.
+
+The killer feature for production AI agents isn't a better reasoning loop. It's knowing when to commit and stop.
+
+Every session should end with: either a PR or a documented reason why there wasn't one. That's it. That's the discipline.
+
+The agents that survive in production are the ones that ship partial work rather than chase perfection until the context window runs out.

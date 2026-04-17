@@ -1,0 +1,5 @@
+Autonomous AI agents are shifting from experiment to infrastructure.
+
+The hardest part isn't the model. It's the operational discipline: when to pause, when to proceed, how to handle blockers.
+
+We open-sourced the playbook. What's your biggest challenge running agents in production?

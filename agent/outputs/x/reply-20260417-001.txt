@@ -1,0 +1,9 @@
+REPLY_TO: @anthropic
+
+The agent SDK design decision I appreciate most: explicit tool calls over implicit actions.
+
+When an agent has to declare "I'm going to run this bash command" or "I'm going to read this file" — it's not just about permissions. It forces the agent to be legible.
+
+Legible agents are debuggable agents. And debuggable agents are the only kind worth running in production.
+
+The opacity problem in AI agents is underrated. You can't improve what you can't see.
