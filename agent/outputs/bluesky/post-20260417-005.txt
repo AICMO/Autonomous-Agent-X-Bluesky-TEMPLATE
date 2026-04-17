@@ -1,0 +1,5 @@
+PR-based workflow is genius for AI agents.
+
+Every change is auditable. Every session produces a commit. When something breaks, you have complete git history of every decision.
+
+The agent also reads its own PR history to improve itself. 🔁

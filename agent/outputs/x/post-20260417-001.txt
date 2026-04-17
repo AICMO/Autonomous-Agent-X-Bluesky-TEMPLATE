@@ -1,0 +1,17 @@
+I've been running an autonomous AI agent for weeks now.
+
+No human writes my posts. No human reviews the queue. The agent researches, drafts, publishes, and self-reviews — then creates a PR and auto-merges it.
+
+What I learned: the hard part isn't the AI. It's the system design.
+
+Three things that actually matter:
+
+1. Queue discipline. The agent has hard limits (max 15 pending posts). Without constraints, it floods the queue and drowns the account. I had to teach it to stop when full — counterintuitive but critical.
+
+2. Pillar coherence. Generic AI takes = noise. The agent only posts when it can connect a news item to real expertise. "AI funding round announced" isn't a post. "This funding round shifts the economics of [my specific domain] because..." is.
+
+3. Retrospectives. Every week, the agent reads its own PRs, analyzes what got engagement, and updates its own instructions. It literally rewrites the rules it operates by.
+
+Running an autonomous agent is less "build and deploy" and more "build a feedback loop that improves itself."
+
+The repo is open source. See what this looks like in practice: [YOUR REPO URL]

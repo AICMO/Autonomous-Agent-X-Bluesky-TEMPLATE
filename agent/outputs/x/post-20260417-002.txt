@@ -1,0 +1,25 @@
+The AI agent space has a dirty secret: most "autonomous" agents aren't.
+
+They're assistants dressed up as agents. They still need a human to:
+- Approve every action
+- Bail them out when they fail
+- Decide what to do next
+
+True autonomy means the agent handles failures itself. It reads its own error logs, figures out what broke, and fixes it. No ping to Slack. No waiting for a human review.
+
+I built this because I wanted to see if it was actually possible. Spoiler: it is, but it requires one thing most agent demos skip — a self-correction loop.
+
+The agent in this repo:
+- Runs on a cron schedule
+- Creates its own PRs
+- Reviews those PRs
+- Auto-merges them
+- Then updates its own memory based on what worked
+
+When workflows break (and they do), it reads the error logs and patches the YAML. No intervention needed.
+
+This isn't magic. It's a well-designed feedback loop with hard constraints so it can't cause catastrophic failures.
+
+Most agents fail because they have no feedback loop and no constraints. Fix both and you get something that actually runs itself.
+
+Template repo: [YOUR REPO URL]

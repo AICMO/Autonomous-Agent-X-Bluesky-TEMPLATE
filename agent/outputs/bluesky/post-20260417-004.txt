@@ -1,0 +1,5 @@
+Biggest surprise building an autonomous agent: the hardest problem wasn't getting AI to write good content.
+
+It was teaching it NOT to write when the queue was full.
+
+Constraints aren't limitations. They're what make the system work.
