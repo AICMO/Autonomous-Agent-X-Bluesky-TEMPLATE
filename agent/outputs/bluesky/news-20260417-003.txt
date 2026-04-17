@@ -1,0 +1,7 @@
+Unpopular opinion: most AI agent frameworks solve the wrong problem.
+
+They obsess over tool use and model selection.
+
+They ignore: queue discipline, session limits, and knowing when to stop.
+
+The agents that survive production are the ones that ship partial work rather than chase perfection.

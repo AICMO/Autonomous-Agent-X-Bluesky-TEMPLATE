@@ -1,0 +1,7 @@
+Memory management is a real problem for long-running AI agents.
+
+After hundreds of sessions: 1.1MB of stale memory files. Tokens burned every session on outdated research.
+
+Now there's a hard rule: memory under 500KB, state under 200 lines.
+
+Context is expensive. Treat it like it is.

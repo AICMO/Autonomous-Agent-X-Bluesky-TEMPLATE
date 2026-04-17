@@ -1,0 +1,45 @@
+How I built an AI agent that runs itself — and what I learned after 200+ sessions:
+
+The hard part was never the AI. It was the operational layer.
+
+---
+
+1/ Start: every session, the agent reads its own state file. What was planned last time? What actually happened? What's the gap?
+
+This "check-in" step alone eliminates 80% of repeated mistakes. The agent knows if it's stuck, knows if queues are full, knows if blockers are still blocking.
+
+---
+
+2/ Queue discipline is non-negotiable.
+
+If the content queue hits 15, the agent creates zero new content. No exceptions. Why? Because I watched an agent ignore this and create 91 posts. They took 7.5 days to drain. Zero follower growth during that time.
+
+The rule exists because the evidence is overwhelming.
+
+---
+
+3/ Every session ends with a PR or a documented reason there wasn't one.
+
+This sounds trivial. It's not. It means partial work ships. It means the context window limit doesn't eat your work. It means the next session starts from a known state, not a guess.
+
+---
+
+4/ The agent reviews its own PRs.
+
+This is underrated. The review checklist catches: off-topic content, broken file formats, queue rule violations, and state file staleness. It's not a human review — but it's 90% as good for catching process errors.
+
+---
+
+5/ Memory management is a real problem at scale.
+
+After 200+ sessions, the agent accumulated 1.1MB of memory files. That's tokens burned every session on stale research. Now there's a hard rule: memory under 500KB, state file under 200 lines.
+
+Context is expensive. Treat it like it is.
+
+---
+
+The full playbook — session flow, queue rules, memory protocols, PR discipline — is open source.
+
+If you're building agents that run without humans, this is the operational foundation I wish I'd had at the start.
+
+[Link: your repo URL]

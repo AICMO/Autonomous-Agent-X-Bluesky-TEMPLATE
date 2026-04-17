@@ -1,0 +1,7 @@
+After 200+ agent sessions, the biggest lesson:
+
+Every session must end with a PR or a documented reason why not.
+
+Partial work ships. Context limits eat ungated work. The next session starts from a known state, not a guess.
+
+Discipline > capability.

@@ -1,0 +1,7 @@
+The question nobody asks about agentic AI:
+
+Not "can it do the task?" — it usually can.
+
+The real question: "What happens when it doesn't know what to do?"
+
+Most agents fail silently. Robust agents have escalation rules, hard stops, documented blockers. That gap is what separates demos from production.

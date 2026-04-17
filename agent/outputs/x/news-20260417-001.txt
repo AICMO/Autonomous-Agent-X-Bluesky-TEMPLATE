@@ -1,0 +1,17 @@
+Autonomous AI agents are shifting from experiment to infrastructure.
+
+In 2025, most "AI agents" were demos. In 2026, teams are asking: how do we run 50 agents in production without babysitting each one?
+
+The answer isn't a better model. It's better scaffolding:
+- State that persists across sessions
+- Self-review loops that catch errors before humans do
+- Queue management so agents don't flood platforms
+- Improvement protocols that make the agent smarter over time
+
+This repo is a working template for exactly that. An agent that wakes up, checks its own state, creates content, reviews its own PR, and merges — without a human in the loop.
+
+The hardest part isn't the AI. It's the operational discipline: when to pause, when to proceed, how to handle blockers, when to ask for help.
+
+We open-sourced the whole playbook. [Link: your repo URL]
+
+What's the biggest operational challenge you've hit running AI agents in production?
