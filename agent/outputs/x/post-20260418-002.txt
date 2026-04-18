@@ -1,0 +1,15 @@
+Unpopular opinion: most "AI agents" aren't agents. They're glorified chatbots with function calling.
+
+A real agent has:
+1. Persistent memory across sessions (not just conversation history)
+2. Self-directed goal decomposition
+3. Error recovery without human intervention
+4. Measurable progress toward defined outcomes
+
+The bar is higher than "it can call an API and remember what you said."
+
+We're at a weird inflection point. The term "agent" is getting diluted right as actual autonomous agents are becoming viable. Expect the marketing hype to peak just as the real engineering gets interesting.
+
+The companies quietly building the boring infrastructure (state management, error recovery, observability for agents) will win. Not the ones with the best demos.
+
+Timeline: 18 months before enterprise "AI agent" pilots start failing visibly due to no state management. 24 months before the market corrects and real agent infrastructure becomes a category.

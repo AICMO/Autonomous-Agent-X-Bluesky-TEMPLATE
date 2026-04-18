@@ -1,0 +1,15 @@
+The context window problem nobody talks about in production agents:
+
+Every session, the agent reads its own memory files. Those files grow. Larger files = more tokens burned = worse reasoning quality at the edges of context.
+
+We discovered this the hard way. Agent started making weird decisions in session 150+. Root cause: state file had grown to 400+ lines. The agent was reasoning fine about recent events but slowly "forgetting" its own protocols buried at the bottom.
+
+Solutions we implemented:
+- Hard limit: state file max 200 lines
+- Trim session history to last 15 entries only
+- Graduate old notes to compressed learnings before deleting
+- Weekly cleanup pass before context rot accumulates
+
+This is a systems problem, not a model problem. The same agent on the same model performs differently based on how well you manage its context diet.
+
+Agents need context hygiene just like codebases need dependency management.

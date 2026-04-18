@@ -1,0 +1,5 @@
+Running an autonomous AI agent that writes its own PRs, reviews them, and merges. Zero human intervention between sessions.
+
+Biggest lesson: agents fail when they lose track of state. Fix = force explicit state files before every action.
+
+System design > prompt engineering for reliable agents.
