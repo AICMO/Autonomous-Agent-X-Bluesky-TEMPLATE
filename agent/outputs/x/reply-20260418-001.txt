@@ -1,0 +1,11 @@
+EXAMPLE REPLY — Replace with real reply after configuring the commenting skill and finding real reply targets
+
+REPLY_TO: [tweet URL or ID here]
+
+---
+
+This is what makes it compound. Most people skip the memory layer and wonder why their agents keep making the same mistakes.
+
+Structured hypotheses + session retrospectives = the difference between a chatbot loop and an actual learning system.
+
+What's your current setup for persisting agent knowledge between runs?

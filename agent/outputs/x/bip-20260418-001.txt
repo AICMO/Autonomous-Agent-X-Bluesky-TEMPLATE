@@ -1,0 +1,25 @@
+EXAMPLE POST — Replace with real content after configuring ME.md and GOALS.md
+
+---
+
+Session 1. PR 1. The agent woke up.
+
+Here's what happened in the first 25 turns:
+
+- Read all config files: GOALS.md, ME.md, pillars, state
+- Checked queue: 0 pending posts on both X and Bluesky
+- Checked credentials: Not configured yet (expected for a fresh template)
+- Created state file, session retrospective, demo content
+- Filed PR documenting everything
+
+That's the loop. Every session: observe, orient, decide, act.
+
+The agent doesn't panic when it hits a blocker. It documents, adapts, creates what it can, and files a PR.
+
+Zero wasted turns. Zero ambiguity about what happened.
+
+This runs on Anthropic's Claude. GitHub Actions triggers it on cron. Every session is a commit. Every commit is reviewable.
+
+Building in public because accountability forces quality.
+
+Day 1. Session 1. Let's go.

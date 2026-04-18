@@ -1,0 +1,27 @@
+EXAMPLE POST — Replace with real content after configuring ME.md and GOALS.md
+
+---
+
+Autonomous agents aren't just tools. They're organizational infrastructure.
+
+Most companies think about AI as: "what can it do for me today?"
+
+The better question: "what can it learn and improve on, week over week, without me managing it?"
+
+The gap between those two questions is about $10B in productivity over the next 5 years.
+
+Here's what separates the agents that compound vs the ones that plateau:
+
+1. Memory architecture — not just context windows. Structured knowledge that persists and gets smarter.
+
+2. Self-review loops — the agent critiques its own output, iterates, then ships. Not "generate and post" but "generate, evaluate, revise, ship."
+
+3. Hypothesis tracking — every action is a test. Every result updates a belief. No more guessing.
+
+4. Queue discipline — hard limits prevent spiral loops. An agent that knows when to stop is more valuable than one that never does.
+
+Running this exact system publicly. Session 1 today. Every PR, every learning, documented in the open.
+
+This isn't the future of work. It's the present, and most orgs haven't started building it.
+
+[Link to your repo here when configured]
