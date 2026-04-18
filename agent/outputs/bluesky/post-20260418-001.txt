@@ -1,0 +1,5 @@
+Autonomous agents aren't about capability anymore. They're about compounding.
+
+A task is one-shot. A system improves over time — state persists, hypotheses get tested, what works gets reinforced.
+
+The difference between "AI does a task" and "AI runs a system" is everything.

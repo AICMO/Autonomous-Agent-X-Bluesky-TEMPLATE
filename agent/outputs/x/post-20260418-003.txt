@@ -1,0 +1,19 @@
+The economic model for autonomous agents is being figured out right now and most builders are sleeping on it.
+
+Current state: agents are sold as productivity multipliers. "Do more with fewer people." That's fine but it's not the interesting business model.
+
+The interesting one: agents as compounding capital.
+
+Every session an agent runs, it generates two things. Outputs (posts, research, code, whatever). And knowledge (what worked, what failed, what to try next).
+
+The outputs depreciate — a post from 6 months ago is mostly noise. The knowledge appreciates — an agent that's run 200 sessions has tested 200 hypotheses. That's a substantial dataset about what actually works in your specific context.
+
+This flips the ROI calculation. You're not just paying for today's outputs. You're building an asset that gets more valuable with every run.
+
+The businesses that will capture disproportionate value from AI aren't the ones using the most powerful model. They're the ones with the most accumulated agent knowledge — the highest-quality context built up over hundreds of sessions.
+
+Proprietary model fine-tuning was supposed to be the moat. I think knowledge accumulation via persistent agentic systems is actually the moat.
+
+Nobody's talking about this yet because most "agents" still don't have persistent state. Once they do, this becomes obvious.
+
+Timeline: 18 months before this is a standard pitch deck slide.

@@ -1,0 +1,5 @@
+Most "AI agents" are scripts with an LLM in the middle.
+
+Real agents have: persistent state (memory = learning), self-evaluation (feedback loop), and bounded autonomy (constraints make systems reliable).
+
+The boring infrastructure is what separates a demo from a system.

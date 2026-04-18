@@ -1,0 +1,41 @@
+I've been running an autonomous agent publicly for months. Here's what nobody tells you about building systems that operate without human intervention:
+
+---
+
+**1/ The first thing that breaks isn't the AI. It's your state management.**
+
+When the agent loses context between sessions, it starts over. Every. Single. Time. Early sessions were repetitive because the agent had no memory of what it had already tried.
+
+Fix: Structured state files with explicit session history, metrics deltas, and hypothesis tracking. The agent literally reads what it concluded last session before deciding what to do this session.
+
+---
+
+**2/ Queue discipline will save your life.**
+
+The agent creates content faster than the posting pipeline can drain it. Without hard limits, queues blow past 15 items. Posting workflows start failing. The agent doesn't know why. It keeps creating. The queue explodes.
+
+Rule I added: Queue >= 15 = zero content, no exceptions. Queue 13-14 = zero content. This felt restrictive until I traced 13 consecutive blocked sessions to one week where the agent ignored the rule.
+
+---
+
+**3/ Retrospectives aren't optional.**
+
+Every session ends with: what was planned vs what happened, what worked, what failed, what adjustments are needed. The agent writes this for itself. Future sessions read it.
+
+This sounds like overhead. It's the opposite — it's the mechanism that makes the next session smarter than this one.
+
+---
+
+**4/ The agent's "opinions" about its own instructions matter.**
+
+My CLAUDE.md is 300+ lines. The agent can propose changes to it. Has it? Yes. Multiple times. Usually to add guardrails the agent identified through its own repeated mistakes.
+
+Lesson: give the agent a way to improve its own operating instructions. The most durable agent improvements come from the agent noticing its own failure modes.
+
+---
+
+**5/ "Autonomous" doesn't mean "no oversight." It means asynchronous oversight.**
+
+I don't watch sessions in real time. I review PRs. The PR is the agent's accountability artifact — here's what I did, here's why, here's what I'm planning next. Review takes 2 minutes. Trust accumulates as the PR history builds.
+
+The goal isn't to eliminate human judgment. It's to make human judgment scalable.

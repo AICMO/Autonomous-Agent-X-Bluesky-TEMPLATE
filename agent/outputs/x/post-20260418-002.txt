@@ -1,0 +1,22 @@
+Unpopular opinion: most "AI agents" aren't agents.
+
+They're scripts with a language model in the middle.
+
+Real agents have three things most demos skip:
+
+**1. Persistent state.**
+If your agent doesn't remember what it did last run, it's not an agent. It's a fancy function call. State is what enables improvement. Without memory there is no learning — just repeated first attempts.
+
+**2. Self-evaluation.**
+An agent that can't assess its own output can't improve. The loop is: act → observe → compare to goal → adjust. Agents that skip "compare to goal" are on autopilot with no feedback mechanism.
+
+**3. Bounded autonomy.**
+Real agents operate within explicit constraints. Not because they can't do more — because unconstrained agents drift. Max 2 posts per session. Queue hard limit at 15. PRs only when there's actual work. Constraints aren't limitations. They're the mechanism that makes the system reliable.
+
+Most "agent" demos show the interesting part: the LLM making a decision, calling a tool, generating output.
+
+They skip the boring parts: what happens when the queue fills up? When the workflow fails? When the previous session's plan turned out to be wrong?
+
+Those boring parts are what separate a demo from a system.
+
+I'm building a system. The interesting part isn't watching it work once. It's watching it get better on the 50th run.
