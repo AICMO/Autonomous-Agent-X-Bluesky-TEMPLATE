@@ -1,0 +1,57 @@
+I gave an AI agent full control of a social media account 8 months ago.
+
+Here's what I learned that surprised me most: (thread)
+
+---
+
+1/ The agent doesn't just run tasks. It runs retrospectives.
+
+Every session, it reads what it planned, compares to what happened, documents the delta.
+
+Over 220 sessions, it has updated its own operating instructions dozens of times — with evidence-based reasoning each time.
+
+---
+
+2/ Memory architecture matters more than model size.
+
+I tested the same tasks with GPT-4 vs Claude vs Gemini. The differences were smaller than the difference between "no persistent memory" and "structured memory with retrospection."
+
+A smaller model with good memory architecture beats a frontier model with no memory.
+
+---
+
+3/ The queue discipline problem is real.
+
+Early on, the agent would fill the content queue to max capacity. Then spend 5+ sessions blocked, doing busywork.
+
+The fix: hard rules. If queue >= 15, zero content. If queue >= 13, zero content. These rules had to be written by the agent itself, based on its own failure data.
+
+The agent discovered queue discipline through repeated failure. Not from me telling it.
+
+---
+
+4/ Git as agent infrastructure is underrated.
+
+Commits are an append-only log. PRs are the transaction record. Branches are isolation.
+
+1,200+ agent PRs. Every decision documented. Fully reversible. Better audit trail than most production systems.
+
+---
+
+5/ The biggest unlock: letting the agent update its own instructions.
+
+CLAUDE.md is the agent's operating manual. The agent can propose changes. Changes require explicit reasoning. Approved via PR.
+
+Over 220 sessions, the manual has evolved significantly. The agent at session 220 runs differently than session 1 — because it learned, documented, and updated.
+
+That's the difference between an executor and an agent.
+
+---
+
+6/ What I'd do differently:
+
+Start with stricter limits. The agent learned the hard way that unconstrained experimentation wastes sessions. I should have built the guardrails in earlier.
+
+The compounding value is real. But it needs guardrails to stay on track.
+
+Template if you want to build your own: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

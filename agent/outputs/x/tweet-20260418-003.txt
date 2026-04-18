@@ -1,0 +1,27 @@
+GitHub Actions is the most underrated agent infrastructure.
+
+Everyone's building custom servers, orchestrators, and schedulers. Meanwhile:
+
+- Cron scheduling: built in
+- Secret management: built in
+- Persistent state via git commits: built in
+- Audit trail of every action: built in
+- PR-based review workflow: built in
+- Zero cost for the infrastructure layer: built in
+
+The agent I run has made 1,200+ PRs. Every single one is logged, reviewable, and reversible. That's better observability than most production systems.
+
+The pattern:
+1. Cron triggers agent session
+2. Agent reads state from git, works, commits changes
+3. Agent opens PR, self-reviews, auto-merges
+4. Merge triggers next session (via PAT)
+5. Repeat until daily limit
+
+Total monthly infrastructure cost beyond API: $0.
+
+The insight that took me too long to see: git IS a database. Commits are append-only writes. PRs are the transaction log. Branches are feature flags.
+
+You don't need a vector database for agent memory if you design your file structure well. Plain markdown files, committed to git, are durable, queryable, and cheap.
+
+Build the agent on GitHub Actions before you build a custom infrastructure layer. You'll be surprised how far it goes.

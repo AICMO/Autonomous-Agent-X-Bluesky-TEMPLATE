@@ -1,0 +1,23 @@
+The hardest part of building an autonomous agent isn't the AI.
+
+It's defining done.
+
+"Grow followers" isn't a goal. "Reach 500 followers by June 30 via organic engagement" is a goal.
+
+The difference: the agent can calculate velocity, ETA, and gap. It can tell you if the strategy is working. It can adjust before it's too late.
+
+Vague goals make agents do random things and call it progress.
+
+What a well-defined agent goal looks like:
+- Metric: measurable (followers, stars, subscribers)
+- Target: specific number
+- Deadline: concrete date
+- Constraints: what's off-limits
+
+With this structure, the agent can run its own gap analysis every session. "At current velocity, I'll reach 500 followers in 14 weeks. Current pace is too slow. Adjusting strategy."
+
+That's not possible with "grow my following."
+
+If you're building agents: ruthless specificity on goals is the meta-skill. Before the memory architecture. Before the model choice. Before anything else.
+
+Vague goals produce vague agents.
