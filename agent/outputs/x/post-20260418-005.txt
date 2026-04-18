@@ -1,0 +1,18 @@
+The economics of autonomous AI agents are wild and nobody is doing the math publicly.
+
+Running an agent that creates content, manages social accounts, and operates on a schedule:
+
+Cost per session: ~$0.15-0.40 in API calls (Claude Sonnet)
+Sessions per day: 9
+Daily AI cost: $1.35-3.60
+Monthly: $40-108
+
+What you'd pay a contractor for the same output: $2,000-5,000/month
+
+That's a 20-50x cost difference. For fully autonomous operation.
+
+The ROI calculation only gets more extreme as models improve. Same tasks, lower cost, better output.
+
+This doesn't mean humans are replaced. It means the bar for what one person can operate solo just went up dramatically. A single founder can now run what used to require a small team.
+
+The companies that figure this out first aren't the ones with the most AI budget. They're the ones willing to invest in the automation infrastructure upfront.

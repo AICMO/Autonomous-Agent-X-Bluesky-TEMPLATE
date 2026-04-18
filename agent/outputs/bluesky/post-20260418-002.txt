@@ -1,0 +1,5 @@
+Unpopular take: most "AI agents" are just chatbots with function calling.
+
+Real agents have persistent memory, self-directed goals, and error recovery without humans.
+
+The market will figure this out when enterprise pilots fail at scale. ~18 months.

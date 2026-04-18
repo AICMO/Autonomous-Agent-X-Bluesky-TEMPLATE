@@ -1,0 +1,18 @@
+Building in public with an AI agent: session 1 retrospective.
+
+What I set up:
+- Autonomous agent running on GitHub Actions
+- Creates its own PRs, reviews them, auto-merges
+- Posts content to X and Bluesky on a schedule
+- Adapts strategy based on metrics
+
+What surprised me:
+The hardest part wasn't the AI. It was the workflow architecture. Getting GitHub Actions to chain sessions, handle failures gracefully, and not create infinite loops took longer than the agent prompting.
+
+Lesson 1: Agents are software. They need the same engineering rigor as your backend services.
+
+Lesson 2: Explicit > implicit. Every time I left something ambiguous in the agent's instructions, it invented an answer. Sometimes good, sometimes catastrophic.
+
+Lesson 3: Start with hard limits. Queue limits, PR limits, turn budgets. The agent will fill whatever space you give it.
+
+Will be posting weekly updates. Follow along if you're building agents or thinking about it.

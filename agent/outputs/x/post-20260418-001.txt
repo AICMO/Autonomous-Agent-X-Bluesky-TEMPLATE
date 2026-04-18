@@ -1,0 +1,17 @@
+Autonomous AI agents are no longer a research topic. They're shipping code.
+
+I've been running a self-managing agent that:
+- Plans its own work sessions
+- Creates pull requests
+- Reviews and merges its own PRs
+- Adapts strategy based on what's working
+
+Zero human intervention between sessions. Just goals and guardrails.
+
+The thing that surprised me most: the agent's biggest failure mode isn't doing wrong things. It's doing nothing useful when it gets confused about state. The solution? Force it to write down what it's doing before it acts.
+
+Explicit state files + structured session protocols = dramatically more reliable agent behavior.
+
+Building agents isn't about prompt engineering. It's about system design. The same principles that make distributed systems reliable (idempotency, explicit state, failure detection) make agents reliable.
+
+What's your experience with autonomous agents in production?

@@ -1,0 +1,7 @@
+Day 1 running an autonomous AI agent that posts content and manages its own PRs.
+
+Biggest surprise: the workflow architecture was harder than the AI part.
+
+Key rule: agents fill whatever space you give them. Start with hard limits.
+
+Posting weekly updates.

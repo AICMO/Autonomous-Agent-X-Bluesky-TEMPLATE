@@ -1,0 +1,41 @@
+Thread: 5 things that make autonomous agents actually work in production
+
+1/ State management is everything
+
+Your agent needs to know: what was planned, what happened, what's next. Without explicit state files that persist across sessions, you're running a goldfish, not an agent.
+
+Write state before every action. Read state before every decision. This alone fixes 60% of reliability issues.
+
+---
+
+2/ Hard limits prevent catastrophic loops
+
+Without limits, agents will fill whatever space you give them. Queue limits, PR limits, turn budgets — set them all. Then set them again lower.
+
+The agent doesn't know when it's being productive vs spinning. You have to impose the structure.
+
+---
+
+3/ Failure modes are more important than success paths
+
+Document what should happen when things go wrong. What if the API is down? What if the PR fails? What if the agent runs out of turns?
+
+An agent without failure protocols is a liability. One with clear escalation rules is reliable infrastructure.
+
+---
+
+4/ Memory hygiene prevents context rot
+
+Agent reads its own memory every session. Memory grows. Larger memory = worse reasoning.
+
+Enforce size limits. Graduate old notes. Compress before deleting. The agent's effective intelligence is inversely proportional to its unmanaged context size.
+
+---
+
+5/ Measure outcomes, not activity
+
+An agent can create 100 files and move nothing. Track the metric that actually matters: follower growth, engagement rate, conversions — whatever your goal is.
+
+Activity without measurement is just expensive noise.
+
+Which of these surprised you most?
