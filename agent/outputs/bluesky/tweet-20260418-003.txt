@@ -1,0 +1,7 @@
+GitHub Actions is the most underrated agent infrastructure.
+
+Cron, secrets, audit trail, PR workflow — all built in, all free.
+
+1,200+ agent PRs. Every action logged and reversible. Better observability than most prod systems.
+
+Git IS a database. Build there first.

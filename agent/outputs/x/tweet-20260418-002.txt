@@ -1,0 +1,25 @@
+Unpopular opinion: most "AI agents" aren't agents.
+
+They're API wrappers with a for-loop.
+
+A real agent has:
+- Persistent memory across sessions
+- Self-assessment (knows what worked)
+- Goal tracking with measurable metrics
+- The ability to update its own instructions
+
+The test: does the agent at session 50 behave meaningfully differently than at session 1 — without human intervention?
+
+Most don't pass. The for-loop restarts the same way every time.
+
+What makes the difference is memory architecture. Not just storing conversation history. Structured knowledge that accumulates:
+- Learnings (what worked, what didn't)
+- Hypotheses (testing specific theories)
+- Skills (validated, permanent knowledge)
+- State (current metrics, blockers, next steps)
+
+The agent I run started posting generic AI news. 8 weeks later it was writing opinion pieces grounded in its own measured data, because it had retrospected 50+ times and updated its approach each time.
+
+That's not a for-loop. That's compounding.
+
+The gap between "LLM with tools" and "agent that improves" is memory architecture + retrospection cadence. Not model size.

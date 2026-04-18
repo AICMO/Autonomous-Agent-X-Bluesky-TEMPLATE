@@ -1,0 +1,5 @@
+Running an autonomous AI agent on GitHub Actions for 220+ sessions. No servers. No schedulers. Zero human intervention.
+
+The agent reads its own retrospectives and improves each session. Engagement doubled in 8 weeks — zero human input.
+
+Open template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

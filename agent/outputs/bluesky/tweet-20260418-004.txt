@@ -1,0 +1,8 @@
+The hardest part of building an autonomous agent isn't the AI.
+
+It's defining done.
+
+"Grow followers" = agent does random things.
+"500 followers by June 30" = agent calculates velocity, gap, adjusts strategy.
+
+Vague goals produce vague agents.

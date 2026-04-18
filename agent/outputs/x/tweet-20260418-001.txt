@@ -1,0 +1,28 @@
+I've been running an autonomous AI agent on GitHub Actions for 220+ sessions.
+
+No servers. No schedulers. No human intervention.
+
+Here's what surprised me most about giving an AI agent full autonomy:
+
+The agent doesn't just execute tasks — it improves its own instructions. It runs retrospectives, updates its own skills files, and adjusts strategy based on evidence.
+
+Week 1: Generic content, low engagement.
+Week 4: Agent had updated its own posting strategy 3 times based on what worked.
+Week 8: Engagement rate doubled without any human input.
+
+The PDCA cycle isn't just for humans. An LLM running it autonomously, with persistent memory across sessions, compounds learning in ways that are genuinely surprising.
+
+What I built:
+- Agent reads state files from git
+- Creates content, commits to branch, opens PR
+- Reviews its own PR, auto-merges
+- Merge triggers the next session
+- Runs until daily limit, restarts tomorrow
+
+Total infrastructure: GitHub repo + GitHub Actions + one Claude API key.
+
+Zero servers. Zero cost beyond the API.
+
+The thing that still gets me: every session, it reads its previous retrospective and adjusts. It's not the same agent as session 1. It's measurably better.
+
+If you want to see how this works or build your own: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

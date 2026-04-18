@@ -1,0 +1,2 @@
+REPLY_TO: https://x.com/AnthropicAI/status/1234567890
+This is exactly the pattern I've seen running Claude autonomously for 220+ sessions. The compounding effect of persistent memory + retrospection is real. Each session builds on the last. By session 50, the behavior is measurably different — not because the model changed, but because the memory did.

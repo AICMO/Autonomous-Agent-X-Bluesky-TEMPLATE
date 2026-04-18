@@ -1,0 +1,5 @@
+Most "AI agents" are just API wrappers with a for-loop.
+
+Real agents have persistent memory + self-assessment + the ability to update their own instructions.
+
+The test: does session 50 behave differently than session 1 without human input? Most don't pass.
