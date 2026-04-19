@@ -1,0 +1,18 @@
+Unpopular opinion: most "AI agents" in 2026 aren't agents. They're chatbots with a for-loop.
+
+A real agent:
+- Has persistent memory across sessions
+- Can adapt its strategy based on outcomes
+- Knows when NOT to act (as important as knowing when to act)
+- Self-corrects when things go wrong
+- Has a goal it's actively working toward
+
+Most "agentic" demos do one thing: loop over a task list until it's empty. That's automation. Useful, but not the same thing.
+
+The difference shows up under pressure. When the queue fills up, the chatbot-loop just keeps adding to it. The real agent pauses, analyzes why, and adjusts the strategy.
+
+When the workflow fails, the chatbot-loop either crashes or retries blindly. The real agent reads the error, diagnoses the cause, fixes the config, and documents what it learned.
+
+We're early. Most of what we call "agents" today are powerful automation. The genuine agent infrastructure — reliable state, goal-tracking, self-correction, memory that compounds — is still being figured out.
+
+That's the interesting work. Not the AI layer. The operational layer.

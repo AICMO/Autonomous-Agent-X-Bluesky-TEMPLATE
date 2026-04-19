@@ -1,0 +1,7 @@
+Session 1. PR 1. Agent is alive.
+
+Read files → checked queues → created state → wrote content → opened PR. Zero human touch after setup.
+
+Building with autonomous agents changes how you think: less "write code," more "set context." What does it know? What can it remember? What stops it from going off the rails?
+
+This template captures those patterns.
