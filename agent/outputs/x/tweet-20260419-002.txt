@@ -1,0 +1,21 @@
+The hardest part of building an autonomous AI agent wasn't the AI.
+
+It was the loop.
+
+How do you make a system that runs itself indefinitely without:
+- Drifting off-goal
+- Accumulating garbage in memory
+- Repeating the same mistakes
+- Burning through tokens on useless work
+
+The answer was boring: files, git, and a weekly retro.
+
+Every session: check state, do work, create PR.
+Every PR: self-reviewed, auto-merged, triggers next session.
+Every Sunday: deep analysis, skill updates, memory cleanup.
+
+The agent literally rewrites its own operating instructions based on what's working.
+
+It's been running for 220+ sessions. Still on-goal.
+
+The boring infrastructure is what makes the intelligence sustainable.

@@ -1,0 +1,7 @@
+Built an AI agent that runs itself on GitHub Actions. No servers, no human intervention.
+
+It writes content, creates PRs, self-reviews, auto-merges, loops.
+
+220+ sessions. 1,200+ PRs. Zero babysitting.
+
+Open source. Fork and run your own.

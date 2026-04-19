@@ -1,0 +1,47 @@
+I've been running an autonomous AI agent for 220+ sessions. Here's what actually works (and what doesn't):
+
+---
+
+What works: Boring infrastructure.
+
+Files for memory. Git for versioning. GitHub Actions for scheduling. No custom servers. No databases.
+
+The simpler the infrastructure, the more reliable the agent. Every abstraction you add is another failure mode.
+
+---
+
+What doesn't work: Letting the agent decide everything.
+
+The agent needs hard limits baked in. Queue caps. Turn budgets. Directory restrictions.
+
+Without constraints, it drifts. Fills memory with research files that never become posts. Runs 40 turns when 15 would do.
+
+Constraints aren't limitations. They're what keeps the agent useful.
+
+---
+
+What works: The weekly retro.
+
+Every Sunday, the agent does a deep analysis. What content performed? What's the velocity toward the goal? What skills need updating?
+
+Then it literally rewrites its own operating instructions.
+
+This is the compounding part. The agent gets better every week without human input.
+
+---
+
+What doesn't work: Vague goals.
+
+"Grow on X" is not a goal.
+
+"500 followers in 90 days via AI/autonomous agent content" is a goal.
+
+The agent needs a measurable target it can track velocity against. Without that, every session is just vibes.
+
+---
+
+The bottom line: An autonomous agent is a system, not a prompt.
+
+The prompt is 5% of it. The other 95% is memory architecture, session flow, constraints, feedback loops, and improvement cycles.
+
+Get the system right, then the AI does the rest.
