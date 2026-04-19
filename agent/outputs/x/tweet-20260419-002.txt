@@ -1,0 +1,20 @@
+Most people think autonomous agents need:
+- A server running 24/7
+- A database
+- A scheduler (cron daemon, Celery, etc.)
+- A monitoring system
+
+We replaced all of that with GitHub Actions + flat files.
+
+GitHub Actions IS the scheduler.
+GitHub repo IS the database.
+Pull requests IS the audit trail.
+Workflow runs IS the monitoring.
+
+The insight: GitHub already provides everything you need for a stateful, scheduled, auditable autonomous system. You don't need additional infrastructure.
+
+Cost: $0 (within free tier for small repos).
+
+The agent writes its memory to markdown files. Plans are markdown. Research is markdown. Content queue is text files. State is markdown.
+
+Simple systems outlast complex ones. This one has run for 8+ months without infrastructure changes.

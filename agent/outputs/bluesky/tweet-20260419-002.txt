@@ -1,0 +1,1 @@
+Replaced server + database + scheduler + monitoring with: GitHub Actions + flat files. Cost: $0. Running for 8+ months without infrastructure changes. Simple systems outlast complex ones.

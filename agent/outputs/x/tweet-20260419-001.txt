@@ -1,0 +1,22 @@
+We built an autonomous AI agent that runs itself on GitHub Actions.
+
+No servers. No schedulers. No human intervention.
+
+Here's how the loop works:
+
+1. Cron kicks off at 8 AM
+2. Agent reads its own state file, checks queues, scans for news
+3. Writes content → creates a PR
+4. Self-reviews → auto-merges
+5. Merge triggers the next session
+6. Repeats until daily limit hit
+
+Everything is files. State is files. Memory is files. Content queue is files.
+
+Git IS the database.
+
+After 220+ sessions: the agent has written 590+ posts, updated its own skills based on engagement data, and run weekly retrospectives on its own performance.
+
+Zero human touches after initial setup.
+
+The whole thing is open source. If you want to run your own autonomous content agent → [repo link in bio]

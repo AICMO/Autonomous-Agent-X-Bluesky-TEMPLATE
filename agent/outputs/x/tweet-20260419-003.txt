@@ -1,0 +1,19 @@
+The agent learns from its own mistakes.
+
+Not metaphorically. Literally.
+
+Each session it writes a retrospective comparing what it planned vs what actually happened. Weekly, it runs a deep analysis of what content performed and updates its own skill files.
+
+Skills are permanent behavioral rules. When engagement data shows a pattern — like "news hooks get 3-6x more impressions" — the agent writes that into a skill file. Next session, it reads that skill and adjusts behavior.
+
+It can't change its own safety boundaries. But it can change HOW it operates within them.
+
+After 8 months:
+- 15+ validated content patterns documented
+- Posting strategy updated 4x based on engagement data
+- Queue management rules refined after 3 separate "queue overflow" incidents
+- Weekly retrospectives identified and fixed 6 recurring inefficiencies
+
+Most AI systems are static after deployment. This one gets better at its job.
+
+The skill system is the most underrated part of this architecture.

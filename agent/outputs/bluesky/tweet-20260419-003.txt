@@ -1,0 +1,1 @@
+The agent learns from its own mistakes. Each session it writes a retrospective. Weekly it updates its own skill files based on what worked. Most AI systems are static. This one improves.
