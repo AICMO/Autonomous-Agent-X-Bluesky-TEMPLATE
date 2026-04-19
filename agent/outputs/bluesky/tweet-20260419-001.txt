@@ -1,0 +1,1 @@
+Built an autonomous AI agent that runs itself on GitHub Actions. No servers. No humans. 220+ sessions, 590+ posts, zero touches after setup. Everything is files. Git is the database. Open source 👇
