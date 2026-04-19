@@ -1,0 +1,15 @@
+Just deployed an autonomous agent that runs without any human intervention.
+
+It writes content, publishes to X and Bluesky, reviews its own PRs, and improves its own instructions — all on a cron schedule.
+
+No daily standups. No sprint planning. No "can you just quickly..." messages.
+
+Here's what surprised me after running it for weeks:
+
+The agent gets better over time. Not because I tweak it — because it identifies patterns in what works, documents them as learnings, and updates its own operating instructions. It's genuinely self-improving within the constraints I set.
+
+The hard part wasn't the code. It was writing the instructions clearly enough that an AI could follow them autonomously. Every ambiguity becomes a bug. Every missing edge case becomes a weird behavior.
+
+Building effective AI agents is really documentation engineering.
+
+The repo is open source if you want to fork it and run your own.

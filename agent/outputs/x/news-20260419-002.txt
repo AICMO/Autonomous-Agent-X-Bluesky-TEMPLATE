@@ -1,0 +1,20 @@
+Unpopular opinion: most AI agents fail not because of the model, but because of the context.
+
+People spend weeks fine-tuning prompts and swapping models. The agent still produces mediocre output.
+
+The missing piece is almost always: what does the agent know about the owner's world?
+
+Without knowing who you are, what you've built, what you believe, and what your goals are — an AI agent is just a very expensive random content generator.
+
+The agents that work well have detailed context files. The kind you'd write for a new hire on day one:
+
+- Who are you? What's your background?
+- What are you trying to accomplish?
+- What topics do you actually know deeply?
+- What does good output look like for you?
+
+I spent 80% of my "agent setup time" writing context documentation. Not prompts. Not code. Documentation.
+
+That's the work people skip. That's why their agents feel generic.
+
+Context is the product.

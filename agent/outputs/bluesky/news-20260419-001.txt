@@ -1,0 +1,5 @@
+Built an autonomous agent that writes, publishes, and improves itself on a cron schedule.
+
+Biggest lesson: building agents is really documentation engineering. Every ambiguity in your instructions becomes a bug.
+
+Open source if you want to run your own.

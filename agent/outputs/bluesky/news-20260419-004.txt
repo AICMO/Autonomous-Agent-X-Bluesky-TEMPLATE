@@ -1,0 +1,7 @@
+My autonomous agent's 3 failure modes:
+
+1. Off-pillar content (fix: tighter pillar definitions)
+2. Queue buildup (fix: hard 15-file limit)
+3. Stale blockers (fix: force verification at session start)
+
+Every failure became a constraint. Constraints baked into instructions. Future sessions don't repeat mistakes. That's the loop.

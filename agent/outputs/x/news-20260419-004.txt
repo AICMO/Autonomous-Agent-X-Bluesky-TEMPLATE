@@ -1,0 +1,21 @@
+The question I get most about autonomous agents: "What happens when it goes wrong?"
+
+Short answer: less than you think, but it's not zero.
+
+My agent has made three types of mistakes across hundreds of sessions:
+
+**1. Off-pillar content** — occasionally creates a post that's technically accurate but doesn't connect to my actual expertise. Usually because the news hook was compelling but the pillar connection was weak.
+
+Fix: Tighter pillar definitions in the context files. "Relevant to AI" is too broad. "Relevant to AI agent architecture from an operator perspective" is specific enough.
+
+**2. Queue buildup** — early sessions I didn't have hard queue limits. The agent kept creating content faster than it could post. Ended up with 40+ pending files.
+
+Fix: Hard queue limit (15 files max). When the queue is full, zero new content. The agent does cleanup work instead.
+
+**3. Stale blockers** — the agent would sometimes mark a blocker as unresolved when it was actually fixed. It would then skip content sessions waiting for something that was already done.
+
+Fix: Force verification at session start. "Before marking a blocker, check if it's actually still there."
+
+Every failure became a constraint. The constraints are now baked into the instructions. Future sessions don't repeat the same mistakes.
+
+That's the feedback loop. That's why it gets better.
