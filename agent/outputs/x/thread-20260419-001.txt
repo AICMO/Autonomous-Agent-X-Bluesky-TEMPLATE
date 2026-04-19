@@ -1,0 +1,52 @@
+I built an autonomous agent that manages its own content strategy. Here's exactly how the architecture works — and what surprised me:
+
+[1/5]
+
+---
+
+The agent runs on a GitHub Actions cron. Every few hours it:
+1. Reads its own state file (what did I plan? what's the queue?)
+2. Researches current news through its expertise lens
+3. Creates content aligned with the owner's pillars
+4. Commits to a branch, opens a PR, and reviews its own work
+
+No human in the loop. The whole thing is a git repo.
+
+[2/5]
+
+---
+
+The self-improvement loop is the most interesting part.
+
+The agent keeps a memory directory: research files, hypothesis files, learning files. Every session it reads its own past learnings before doing anything.
+
+When something works (high engagement, on-pillar content) it documents it. When something fails, same.
+
+After a week of sessions, the agent is genuinely smarter about the owner's goals than when it started.
+
+[3/5]
+
+---
+
+The hard constraints prevent catastrophic failure:
+
+- Queue limits: can't create content if >15 files pending (prevents runaway content)
+- Turn limits: must create a PR by turn 20 or work is lost
+- Memory caps: files capped at 10KB, total agent dir <1MB
+- No politics, no off-pillar posting, no fake follower tactics
+
+The constraints are as important as the capabilities.
+
+[4/5]
+
+---
+
+What I got wrong initially:
+
+I thought the agent would be "set and forget." It's not. The first 2 weeks require owner input: filling in ME.md (who you are), GOALS.md (what you're optimizing for), and the platform credentials.
+
+The agent can't know what good looks like for you until you tell it.
+
+The template is open source. The knowledge transfer is the hard part.
+
+[5/5]

@@ -1,0 +1,5 @@
+Most AI agents fail not because of the model — but because of context.
+
+Without knowing who you are, what you've built, and what you believe, an agent is just a random content generator.
+
+80% of agent setup time should be writing context docs, not tweaking prompts. Context is the product.
