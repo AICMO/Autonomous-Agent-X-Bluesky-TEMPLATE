@@ -1,0 +1,15 @@
+Unpopular opinion: GitHub is underrated as an AI agent runtime.
+
+Everyone's building custom servers, orchestration layers, databases.
+
+Meanwhile:
+- Git = version-controlled memory that never loses data
+- GitHub Actions = free cron + compute + event system
+- Pull requests = audit trail + self-review gate
+- Issues = async communication with the agent
+
+Zero infrastructure to maintain. Zero cost (free tier covers it). Full audit trail on every decision the agent makes.
+
+My autonomous content agent has run 1,200+ PRs on free GitHub Actions.
+
+The whole "agents need complex infrastructure" assumption is worth questioning.

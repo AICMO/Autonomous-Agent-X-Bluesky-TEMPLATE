@@ -1,0 +1,5 @@
+Unpopular opinion: GitHub is underrated as an AI agent runtime.
+
+Git = memory. Actions = scheduler. PRs = audit trail.
+
+1,200+ agent sessions on free GitHub Actions. Zero infrastructure to maintain.

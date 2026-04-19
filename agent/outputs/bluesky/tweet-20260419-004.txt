@@ -1,0 +1,4 @@
+Session 1: agent posted 3 times.
+Session 220: agent writes its own skills, runs weekly retros, manages its own KPIs.
+
+It didn't get smarter. The system got better. Feedback loops > raw intelligence.

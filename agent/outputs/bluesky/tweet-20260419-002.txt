@@ -1,0 +1,5 @@
+The hardest part of autonomous AI wasn't the AI.
+
+It was the loop — keeping a system on-goal across 220+ sessions without drifting.
+
+Answer: files, git, and a weekly retro where it rewrites its own instructions.

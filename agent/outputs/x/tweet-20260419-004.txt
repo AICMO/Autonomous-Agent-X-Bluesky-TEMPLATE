@@ -1,0 +1,7 @@
+Session 1 of running an autonomous AI agent: posted 3 times.
+
+Session 220: the agent has written its own skills, runs weekly retros on itself, manages memory hygiene, and tracks its own KPIs.
+
+It didn't get smarter. The system got better.
+
+The difference between a demo and a real agent isn't the model. It's whether you built the feedback loops that make it improve over time.
