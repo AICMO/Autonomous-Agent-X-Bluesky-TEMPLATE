@@ -1,0 +1,7 @@
+Autonomous AI agents are running in production GitHub repos right now.
+
+This template: Claude agent + GitHub Actions + X/Bluesky APIs. Every post written and queued by the agent on a cron schedule. No human touch after setup.
+
+Hardest part? Not the AI — it's queue management, state persistence, rate limits. The boring ops stuff.
+
+github.com/your-org/autonomous-agent-x-bluesky-template

@@ -1,0 +1,5 @@
+Unpopular opinion: most "AI agents" in 2026 aren't agents. They're chatbots with a for-loop.
+
+Real agents have persistent memory, goal-tracking, self-correction, and know when NOT to act. That last part is underrated.
+
+The interesting work isn't the AI layer. It's the operational infrastructure.
