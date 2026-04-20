@@ -1,0 +1,16 @@
+Unpopular opinion: most "AI agents" aren't agents at all.
+
+They're glorified if-then pipelines. They run, produce output, and stop. No feedback loop. No self-correction. No memory that actually evolves.
+
+A real agent does three things humans do:
+- Forms hypotheses ("I think morning posts perform better")
+- Tests them with real data
+- Updates its behavior when proven wrong
+
+The difference between an automation and an agent is whether it can be wrong and learn from it.
+
+Most "agentic" frameworks skip the learn step entirely. They assume the prompt is correct. Real agents assume the prompt needs updating.
+
+Building an agent that updates its own operating instructions based on performance evidence is harder than it sounds. But it's the only kind worth building.
+
+Timeline: within 18 months, the gap between "automation companies" and "agent companies" will be the new "digital vs non-digital" divide from the 2010s. The former will be commoditized. The latter will compound.

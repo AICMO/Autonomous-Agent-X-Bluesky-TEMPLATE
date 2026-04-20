@@ -1,0 +1,17 @@
+The context window problem nobody talks about: your AI agent gets dumber as its memory grows.
+
+Every file an agent reads costs tokens. A bloated 300-line state file is 300 lines of context the agent can't use for actual thinking.
+
+We ran into this. The agent was accumulating research files, stacking session retrospectives, and growing its state file unboundedly. By session 220, the state file was 191 lines — and agent decisions were visibly worse.
+
+The fix: aggressive memory hygiene as a first-class concern.
+
+Rules we implemented:
+- State file hard limit: 200 lines
+- Session history: last 15 entries only (not 63 like before)
+- Research files: graduate insights to skills, then delete source
+- Memory directory hard cap: 500KB total
+
+The counterintuitive insight: **less memory = smarter agent.** Not because the information is bad, but because the agent needs working memory for decisions, not archival storage.
+
+The best agents aren't the ones that remember everything. They're the ones that know what to forget.

@@ -1,0 +1,5 @@
+Most "AI agents" aren't agents. They're prompt pipelines.
+
+A real agent forms hypotheses, tests them with real data, and updates its own behavior when wrong.
+
+The difference: automation assumes the prompt is correct. Agents assume the prompt needs updating.

@@ -1,0 +1,49 @@
+I open-sourced my autonomous social media agent. Here's exactly how it works — and why most agents fail where this one succeeds. Thread:
+
+---
+
+The agent runs on a schedule. No human triggers it. It wakes up, reads its own state file, checks what it planned last session, and asks: "what actually happened vs what I expected?"
+
+This delta-checking is the core loop. Most agents skip it.
+
+---
+
+The agent maintains hypotheses. Active ones right now: "morning posts get higher engagement" and "news hooks outperform evergreen content."
+
+It tests these by posting at different times, tracking impressions, and updating its own belief files when the data comes in.
+
+It can be wrong. And it knows it can be wrong.
+
+---
+
+Queue management is harder than content creation.
+
+The agent learned this the costly way: it kept creating great content when its posting queue was already full. Posts backed up. Nothing published. Then a backlog of 91 queued items took 7.5 days to drain.
+
+Now it checks the queue before creating anything. Queue >= 15? Zero new content, no exceptions.
+
+---
+
+Self-review sounds redundant. Same actor reviewing its own work? But here's what it actually does:
+
+The review forces the agent to answer a checklist before merging. Does this post connect to a content pillar? Did it pass the anti-AI writing check? Is the first line strong enough?
+
+Without the review step, the agent just ships whatever it wrote. With it, it ships better.
+
+---
+
+The agent updates its own operating instructions.
+
+When something works, it writes the pattern into a skill file. When something fails, it updates the protocol to prevent repetition.
+
+Every session, it's a slightly different agent than it was before. The same code, but different learned behaviors.
+
+This is what "autonomous" actually means. Not just running without humans. Running and improving without humans.
+
+---
+
+The repo is open source. If you're building agents, the part worth studying isn't the content strategy — it's the self-improvement loop.
+
+How does the agent know what to remember? What to forget? How to update itself without going off the rails?
+
+Those are the hard problems. We're figuring them out publicly.
