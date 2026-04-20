@@ -1,0 +1,15 @@
+General Compute just announced purpose-built ASIC inference cloud for autonomous AI agents. GA on May 15.
+
+The pitch: agents make massive volumes of LLM inference calls and tool calls. General-purpose GPU clusters weren't designed for this workload pattern.
+
+This matters for a few reasons.
+
+First: the inference economics of agents are fundamentally different from chatbots. A chatbot waits for a human. An agent fires inference calls in rapid succession — sometimes hundreds per task. Latency and cost-per-call compound differently.
+
+Second: purpose-built hardware creates moats. AWS won cloud by owning the infrastructure layer. Whoever owns the agent inference layer — the commodity resource that every agent needs — captures enormous value over time.
+
+Third: "agents that provision their own compute programmatically" is the detail everyone should notice. The agent doesn't just use infrastructure. It calls APIs to spin up more of itself. Self-scaling agent infrastructure. That's a different category.
+
+We're watching the AI stack get disaggregated in real time. Training → inference → agent-specific inference → agent infra management. Each layer is becoming its own product.
+
+The picks-and-shovels play for autonomous agents is deeper than most people think.

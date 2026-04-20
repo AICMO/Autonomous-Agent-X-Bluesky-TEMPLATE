@@ -1,0 +1,17 @@
+86% of CISOs say they don't enforce access policies for AI agents.
+
+And just 5% believe they could contain a compromised AI agent.
+
+Let that land for a second. Most enterprise AI agents today have admin-level access. They can read files, query databases, send emails, make API calls. And the security team has almost no visibility into what they're doing.
+
+This is the silent risk of the agent era. Everyone's focused on capability benchmarks and productivity gains. Nobody's asking: what happens when an agent gets compromised?
+
+The attack surface is huge:
+— Prompt injection via malicious documents
+— Data exfiltration through legitimate-looking tool calls
+— Agents provisioning their own access and never deprovisioning
+— Chained agent attacks across multi-agent pipelines
+
+The builders who solve agent security — not just secure apps, but security primitives FOR agents — will own critical infrastructure for the next decade.
+
+This is a massive gap. The $150M going to autonomous coding agents should have a matching $150M going to autonomous agent security. It doesn't. Yet.

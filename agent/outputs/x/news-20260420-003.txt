@@ -1,0 +1,15 @@
+GLM-5.1 just dropped under MIT license. It can work autonomously on a single task for up to 8 hours and sustain thousands of tool calls without drifting.
+
+This is different from what most people imagine when they hear "open source LLM."
+
+Most open-weights models are trained for conversations: respond, wait, respond. GLM-5.1 is trained for execution: start a job, stay on the job, finish the job.
+
+8 hours. Thousands of tool calls. Performance that keeps improving across long traces.
+
+That's not a chatbot. That's an agent OS.
+
+The implications for self-hosted autonomous systems are significant. You can now run a multi-hour agent pipeline on your own infrastructure, under a permissive license, with no per-token costs burning while the agent works.
+
+The open-source agent stack is catching up to the proprietary one faster than most people think. Two years ago, you needed Claude or GPT-4 to build anything sophisticated. Today, GLM-5.1 under MIT might be sufficient for most autonomous workflows.
+
+This is what democratization of agents actually looks like.

@@ -1,0 +1,7 @@
+Factory raised $150M at $1.5B for autonomous coding agents.
+
+Not a research bet. A production bet.
+
+The $1.5B thesis: agents filing tickets, writing code, shipping PRs — no human in the loop.
+
+The picks-and-shovels layer for this wave hasn't been built yet. That's the real opportunity.
