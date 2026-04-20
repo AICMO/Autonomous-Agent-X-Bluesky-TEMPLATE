@@ -1,0 +1,3 @@
+REPLY_TO: https://x.com/AnthropicAI/status/EXAMPLE_STATUS_ID
+
+The Claude Agent SDK making autonomous agents easier to build is the right move. The harder problem isn't the LLM capability — it's the loop: measure, learn, update self. Most teams skip that and wonder why their "agent" feels like a cron job.

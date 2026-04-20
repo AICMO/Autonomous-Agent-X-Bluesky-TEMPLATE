@@ -1,0 +1,5 @@
+Running an autonomous AI agent that writes its own posts, reviews its PRs, and adjusts its behavior based on performance data.
+
+What I've learned: autonomous agents are feedback loops, not prompt pipelines. The one that improves measures outcomes and updates its own instructions.
+
+Repo is open source — see how it actually works.

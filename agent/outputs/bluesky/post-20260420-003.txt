@@ -1,0 +1,5 @@
+Your AI agent gets dumber as its memory grows.
+
+Every file it reads costs tokens. A bloated state file is context the agent can't use for thinking.
+
+The fix: aggressive memory hygiene. Less memory = smarter agent. Not because info is bad — because working memory beats archival storage.
