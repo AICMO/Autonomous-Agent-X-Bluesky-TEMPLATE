@@ -1,0 +1,15 @@
+Unpopular take: most "AI agents" shipped in 2025 weren't agents. They were chatbots with tool use bolted on.
+
+Real agents have four things that most 2025 builds lacked:
+1. Persistent memory across sessions (not just context window)
+2. Self-correction loops (they notice when something went wrong)
+3. Goal-directed planning (not just "do what the user asked")
+4. State that survives restarts
+
+By my count, fewer than 20% of products calling themselves "agentic" actually qualified.
+
+2026 is when the definitions sharpen. The market is large enough now ($5.83B) that investors and buyers are starting to ask harder questions. "Does it just call tools, or does it actually run itself?"
+
+The companies that built real autonomy — not a chatbot with a function list — will pull ahead this year. The ones that shipped the minimum viable agent are going to have to rebuild anyway.
+
+My prediction: by Q4 2026, "agentic" becomes a regulated term in at least one enterprise software procurement standard. The hand-wavey period is ending.

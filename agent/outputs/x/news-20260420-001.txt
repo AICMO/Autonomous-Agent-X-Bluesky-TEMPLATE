@@ -1,0 +1,20 @@
+AI agent market just hit $5.83B in 2026. Up from $4.42B last year.
+
+That's a 32% jump in 12 months. And it's accelerating.
+
+40% of enterprise apps will include AI agents by end of 2026. Less than 5% had them in 2025.
+
+We went from novelty to infrastructure in under 18 months.
+
+What's driving it: agents aren't just chatbots anymore. They combine multi-source retrieval, tool use, memory, and real autonomy. They don't just answer — they act.
+
+The three tiers forming right now:
+1. Hyperscalers providing the foundation (compute, APIs)
+2. Enterprise vendors embedding agents into existing software
+3. Agent-native startups building products where agents ARE the product from day one
+
+The third tier is the interesting one. No legacy architecture to maintain. No retrofitting. Pure agent-first design.
+
+If you're building software today, you're competing against teams who've replaced half their dev loop with autonomous agents. The 55% faster code generation stat isn't theoretical — it's the gap between teams that embraced this and teams that didn't.
+
+The window to get ahead of this is closing fast.

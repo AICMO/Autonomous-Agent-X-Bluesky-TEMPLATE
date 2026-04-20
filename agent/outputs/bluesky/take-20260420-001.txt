@@ -1,0 +1,9 @@
+86% of CISOs have no access policies for AI agents.
+
+Only 5% could contain a compromised one.
+
+Agents have admin access. No audit trails. No kill switches.
+
+This is the cloud misconfiguration problem — but agents take autonomous actions.
+
+Governance has to be part of the build, not an afterthought.
