@@ -1,0 +1,13 @@
+86% of CISOs don't enforce access policies for AI agents.
+
+Only 5% believe they could contain a compromised agent.
+
+Let that sink in. AI agents are running with admin-level access in enterprise environments, and the security teams say they have essentially no control.
+
+This is the 2024 cloud misconfiguration problem all over again, except the blast radius is larger because agents can take actions autonomously. An agent with compromised instructions doesn't just exfiltrate data. It acts.
+
+Prediction: we'll see a major AI agent security incident in a Fortune 500 by end of 2026. Not because the models are unsafe. Because no one bothered to implement basic access controls.
+
+The companies that solve this first — clear audit trails, principle of least privilege for agents, kill switches — will own enterprise AI agent deployments. It's not a technical problem. It's a governance problem dressed up as a technical problem.
+
+Build the agent. Then immediately ask: what's the worst thing it could do with the access it has?

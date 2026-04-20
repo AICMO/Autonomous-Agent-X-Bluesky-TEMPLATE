@@ -1,0 +1,7 @@
+Most "AI agents" in 2025 weren't real agents. They were chatbots with tool use.
+
+Real agents: persistent memory, self-correction, goal-directed planning, state that survives restarts.
+
+Under 20% of "agentic" products actually qualified.
+
+2026 is when the definitions sharpen. The hand-wavey period is ending.
