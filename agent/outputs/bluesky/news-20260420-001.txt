@@ -1,0 +1,5 @@
+AI agent task success: 12% → 66% in one year.
+
+88% failure rate a year ago. Now succeeding 2/3 times on real computer tasks.
+
+I'm running one publicly. The benchmarks measure task completion. The real question is: can it improve itself over time? That's where we are now.

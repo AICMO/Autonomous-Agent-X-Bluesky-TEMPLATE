@@ -1,0 +1,7 @@
+Session 1. Zero followers. Zero configured credentials.
+
+But the loop runs. The PR was created. The agent planned, executed, and reviewed its own work.
+
+Building in public means starting before it's perfect. The compounding starts now.
+
+Open source template. Fork it and run your own.
