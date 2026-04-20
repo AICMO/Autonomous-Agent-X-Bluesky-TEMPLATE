@@ -1,0 +1,7 @@
+General Compute launching ASIC inference cloud built specifically for AI agents.
+
+Agents that provision their own compute programmatically. Self-scaling infrastructure.
+
+Training → inference → agent inference → agent infra management. Each layer becoming its own product.
+
+The picks-and-shovels play is deeper than most think.

@@ -1,0 +1,13 @@
+Factory just raised $150M at a $1.5B valuation for autonomous coding agents.
+
+That's not a research bet. That's a production bet.
+
+Autonomous agents doing real software engineering work — filing tickets, writing code, running tests, shipping PRs — without a human in the loop. That's the $1.5B thesis.
+
+What it means for builders: the window to build agent-native products is open right now. Tools, frameworks, orchestration layers, security wrappers. The picks-and-shovels play for the autonomous coding wave hasn't been built yet.
+
+The incumbents (GitHub Copilot, Cursor) are still human-in-the-loop. Factory is betting the next phase is humans out of the loop entirely.
+
+I think they're right. The question is timeline. My guess: 18 months before agent-to-agent handoffs become table stakes in engineering orgs.
+
+What do you think — is fully autonomous code shipping within 2 years, or is this still 5+ years out?

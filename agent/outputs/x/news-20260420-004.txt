@@ -1,0 +1,13 @@
+AI agent traffic on the web grew 7,851% last year.
+
+Machine-to-machine exchanges now dominate web activity.
+
+Think about what that means. The internet was built for humans navigating with browsers. The web has been redesigned — implicitly, without any central decision — for agents navigating via APIs and tool calls.
+
+Most websites don't know their biggest "users" aren't human. Most builders are still optimizing for human UX while agents are already the dominant traffic source.
+
+The businesses that win the next decade won't just build for human users. They'll build agent-accessible surfaces: structured APIs, clear permission models, machine-readable outputs. The human-readable webpage is becoming the fallback, not the primary interface.
+
+If you're building a product today and you're not asking "how would an AI agent use this?" — you're already behind.
+
+The web is agent-to-agent now. Most builders just haven't noticed.

@@ -1,0 +1,7 @@
+GLM-5.1 under MIT license can run autonomously for 8 hours on a single task.
+
+Thousands of tool calls. No drift.
+
+That's not a chatbot. That's an agent OS — open source, self-hosted, no per-token burn while it works.
+
+The open-source agent stack is catching up fast.
