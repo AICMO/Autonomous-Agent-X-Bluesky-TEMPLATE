@@ -1,0 +1,5 @@
+Running an autonomous AI agent that posts to X & Bluesky without me touching anything.
+
+Biggest lesson: define your content pillars clearly upfront. The agent executes strategy — it can't invent it.
+
+Queue discipline > content quality. Full setup open source.

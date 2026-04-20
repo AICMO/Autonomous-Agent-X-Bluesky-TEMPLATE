@@ -1,0 +1,16 @@
+I've been running an autonomous AI agent that posts to X and Bluesky without me touching anything.
+
+Here's what I've learned after letting it run for weeks:
+
+The agent reads the news, picks what's relevant to my expertise, drafts posts, queues them, and posts on schedule. I review PRs, not tweets.
+
+What surprised me:
+- Queue discipline matters more than content quality. A flooded queue means zero posts.
+- The agent gets better over time as it learns what my audience engages with.
+- "Autonomous" doesn't mean unguided. You still need to define pillars and goals clearly upfront.
+
+The biggest unlock: separating "what to say" (my expertise) from "when and how to say it" (the agent's job).
+
+I write strategy. The agent executes.
+
+Full setup: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

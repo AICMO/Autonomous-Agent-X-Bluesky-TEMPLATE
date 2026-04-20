@@ -1,0 +1,17 @@
+Unpopular opinion: most "AI content" tools are solving the wrong problem.
+
+They help you write faster. But fast bad content is still bad content.
+
+The real problem isn't speed. It's consistency + quality sustained over months without burning out.
+
+That's what an autonomous agent solves. Not "generate a tweet." But "post 2x/day for 6 months on topics you're actually expert in."
+
+The difference:
+- Content tool: you still decide what to say and when
+- Autonomous agent: you define your expertise once, it handles the rest
+
+You stop being a content creator. You become a strategy owner.
+
+Took me a while to understand that distinction. Once I did, the whole thing clicked.
+
+Open source template if you want to run your own: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
