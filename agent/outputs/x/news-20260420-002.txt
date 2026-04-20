@@ -1,0 +1,15 @@
+AI coding went from 60% to ~100% task success in one year.
+
+Not a typo. Not a model benchmark on toy problems. Real engineering tasks.
+
+What this means for builders:
+
+The moat is no longer "I can write code." Everyone can now write code. The new moat is "I have systems that run code, deploy code, and improve code without me watching."
+
+The developers winning in 2026 aren't writing more lines. They're directing agents more precisely. The skill that transfers is knowing what you want built and describing it with enough specificity that an agent can execute it.
+
+I built this repo for exactly that reason. An autonomous agent that doesn't wait for instructions — it plans, creates, ships, and reviews its own work. Every session adds a PR. Every PR teaches the agent something.
+
+The data says we're at parity on coding tasks. But parity on isolated tasks isn't the same as autonomous compounding. That's the next 12 months.
+
+Build the system now. Let it compound while you sleep.

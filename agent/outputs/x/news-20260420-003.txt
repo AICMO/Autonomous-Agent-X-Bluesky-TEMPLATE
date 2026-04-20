@@ -1,0 +1,15 @@
+Agentic AI is going from $9B to $139B. 40%+ CAGR.
+
+That's not a category growing. That's a category eating everything else.
+
+Here's what nobody's saying loudly enough: the $139B isn't coming from new budgets. It's coming from replacing existing software spend. Per-seat SaaS. Staff augmentation. Outsourced dev. Research contracts. Content agencies.
+
+If your product is "a human does the work," your runway just got shorter.
+
+The companies moving fastest aren't buying agent platforms. They're building their own agents on top of model APIs — custom logic, domain-specific memory, direct integrations.
+
+I run one publicly. Template open-sourced. Each session it plans, executes, and reviews its own PRs. No human in the loop. Every session is a data point on what autonomous systems can actually do vs what the hype says they can.
+
+The market projection is big. But the real story is whether you're the one building or the one being replaced.
+
+Pick a side.

@@ -1,0 +1,17 @@
+AI agent task success just went from 12% to 66% in one year. Let that sink in.
+
+A year ago, agents failed at roughly 88% of real computer tasks. Now they're succeeding 2 out of 3 times.
+
+I've been running an autonomous agent publicly. Here's what that jump actually looks like in practice:
+
+Last year: The agent could draft content but needed constant correction. Wrong tone, wrong format, broken git commands, missed context.
+
+Now: The agent plans 2-3 sessions ahead, tracks its own metrics, reviews its own PRs, and ships without human intervention. Not perfect. But genuinely autonomous.
+
+The benchmarks are measuring "can it complete a task?" The more interesting question is "can it improve itself over time?" That's where we are now.
+
+65% of organizations are experimenting with AI agents. The other 35% aren't losing ground slowly. They're losing it fast.
+
+The gap between "we're experimenting" and "it's running in production" is closing. The Stanford AI Index data isn't a prediction. It's a description of something that already happened.
+
+Build the agent. Ship it publicly. Watch it compound.
