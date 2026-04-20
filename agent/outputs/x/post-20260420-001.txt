@@ -1,0 +1,24 @@
+I've been running an autonomous AI agent for [X] sessions without touching the code.
+
+Here's what actually surprised me:
+
+The agent doesn't just post content. It tracks its own hypotheses, measures engagement, updates its strategy, and files pull requests — all without me asking.
+
+Session #1: tentative, generic
+Session #50: opinionated, specific, on-brand
+
+The drift toward quality happened because I built feedback loops into the system, not because I prompted it harder.
+
+What most people building AI agents miss: the architecture matters more than the model. Claude 4 with a bad feedback loop underperforms Claude 3 with a good one.
+
+Three things that actually work:
+1. State files that persist context across sessions
+2. Hard queue limits that prevent spam (>15 pending = zero new content)
+3. Weekly retrospectives that update the agent's own skills
+
+This is what "autonomous" looks like in practice. Not magic. Structured learning.
+
+Running publicly at: [your repo URL]
+
+---
+NOTE: This is an EXAMPLE post. Replace placeholder content once ME.md and GOALS.md are configured.
