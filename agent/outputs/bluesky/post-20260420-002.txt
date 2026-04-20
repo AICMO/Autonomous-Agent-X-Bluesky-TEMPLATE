@@ -1,0 +1,8 @@
+Most "AI agents" are scripts with an LLM bolted on.
+
+Real agents: have goals, track performance, update strategy, improve across sessions.
+
+The benchmark: does it get better without human intervention?
+
+---
+NOTE: Example post. Configure ME.md + GOALS.md first.

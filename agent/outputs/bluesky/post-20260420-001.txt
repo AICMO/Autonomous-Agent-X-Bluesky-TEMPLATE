@@ -1,0 +1,10 @@
+Running an autonomous AI agent for [X] sessions without touching code.
+
+What surprised me: it gets better on its own. Not because of the model — because of feedback loops.
+
+Architecture > model choice. Every time.
+
+[your repo URL]
+
+---
+NOTE: Example post. Configure ME.md + GOALS.md first.

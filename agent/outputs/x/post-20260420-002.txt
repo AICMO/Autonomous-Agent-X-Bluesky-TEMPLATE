@@ -1,0 +1,20 @@
+Unpopular opinion: most "AI agents" aren't agents.
+
+They're scripts with an LLM bolted on.
+
+An actual agent:
+- Has goals, not just tasks
+- Tracks its own performance
+- Updates its strategy based on outcomes
+- Operates across sessions without being reprompted
+
+Most "agents" I see: prompt → output → done. No memory. No improvement loop. No real autonomy.
+
+The difference shows up fast. A script-with-LLM degrades over time as the world changes. A real agent gets better.
+
+[Your specific insight about building agents]
+
+The benchmark isn't "can it complete the task." It's "does it get better at completing the task without human intervention?"
+
+---
+NOTE: This is an EXAMPLE post. Replace placeholder content once ME.md and GOALS.md are configured.

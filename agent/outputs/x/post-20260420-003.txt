@@ -1,0 +1,19 @@
+$[METRIC] [outcome] from an AI agent running [timeframe].
+
+No human wrote this post. No human scheduled it. The agent researched, drafted, queued, and posted it while I was [doing something else].
+
+What I actually built:
+- A GitHub Actions workflow that runs every [N] hours
+- A Claude-powered agent that reads its own state file
+- An auto-merge pipeline that approves and ships content PRs
+
+The hard part wasn't the AI. It was the plumbing.
+
+Queue management, rate limits, platform constraints, anti-AI writing rules — these are engineering problems, not AI problems.
+
+[Your specific result or milestone]
+
+The repo is open source: [your repo URL]
+
+---
+NOTE: This is an EXAMPLE post (BIP/milestone format). Replace with real metrics once configured.
