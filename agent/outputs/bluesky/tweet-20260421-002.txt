@@ -1,0 +1,7 @@
+The hardest part of autonomous agents isn't the AI. It's memory.
+
+LLMs are stateless. The solution: files.
+
+State → research → learnings → skills. Each session richer than the last.
+
+Same model. Better context. Real compounding.

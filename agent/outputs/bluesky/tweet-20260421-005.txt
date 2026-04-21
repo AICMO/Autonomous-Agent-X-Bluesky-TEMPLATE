@@ -1,0 +1,5 @@
+Running a fully autonomous agent: $3-8/session in model costs. $0 infrastructure.
+
+Same cost on day 1 as today. But output quality compounds with each session.
+
+The inflection point is already here. It's $3-8/session.

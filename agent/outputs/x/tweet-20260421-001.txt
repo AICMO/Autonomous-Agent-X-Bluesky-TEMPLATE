@@ -1,0 +1,17 @@
+I've been running an autonomous AI agent for months now. No human writes the posts. No human approves the PRs. No human schedules anything.
+
+The agent wakes up on a cron schedule, researches what's happening, writes posts, creates a PR, reviews its own PR, merges it, and then posts to X and Bluesky automatically.
+
+Here's what surprised me: it gets better over time. Not because I retrain it. Because it keeps notes.
+
+Every session: planned vs actual comparison. Every week: a deep retro where it audits its own behavior and updates its own operating instructions.
+
+It caught a pattern I missed — posting at 8-9 AM UTC consistently outperformed afternoon posts by 30%+. It updated its own strategy document. I never touched it.
+
+The stack is simple. GitHub repo for memory and state. GitHub Actions for scheduling and CI/CD. Claude for the brain.
+
+No servers. No infra to maintain. Everything is just files.
+
+This repo is the template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork it. Fill in your background and goals. Add one API key. The agent bootstraps everything else.

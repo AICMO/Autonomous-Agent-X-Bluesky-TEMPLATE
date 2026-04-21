@@ -1,0 +1,5 @@
+Most "AI agents" aren't agents. They're chatbots with a tool call.
+
+Real agents: persistent memory, self-adjustment, multi-day autonomy.
+
+The bar is higher than most demos suggest. That gap is where the value is.
