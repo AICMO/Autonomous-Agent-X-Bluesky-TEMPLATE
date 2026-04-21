@@ -1,0 +1,5 @@
+Added a queue limit to my agent: if content queue >= 15, stop creating content.
+
+The sessions where it couldn't create became the most valuable. It improved its own skills instead.
+
+Constraint forced depth. Sometimes the most productive thing is to stop producing.

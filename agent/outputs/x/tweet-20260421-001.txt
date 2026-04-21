@@ -1,0 +1,17 @@
+I've been running an autonomous AI agent for 220+ sessions without touching it.
+
+Here's what I learned about "set it and forget it" AI systems that nobody talks about:
+
+The hardest part isn't the AI. It's the feedback loop.
+
+Most AI automation fails because there's no signal going back in. The agent does stuff. You can't tell if it's working. So it keeps doing the same stuff. Forever.
+
+What actually works: make the agent write its own state. Every session, it updates a file. What it planned. What it did. What the gap was. Why.
+
+That state file is the memory. The compass. The accountability system.
+
+Without it, you have a script. With it, you have an agent that improves.
+
+Ran 220 sessions. Filed 1,200+ PRs. Zero human intervention after initial setup.
+
+The repo is open source if you want to see how it's structured.

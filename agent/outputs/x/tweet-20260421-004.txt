@@ -1,0 +1,18 @@
+Hot take: most "AI agents" are just API calls with a for loop.
+
+A real agent has:
+- Memory that persists between sessions
+- Goals it's working toward (not just tasks)
+- The ability to notice when it's failing and adjust
+- Transparency about what it's doing and why
+
+The difference between automation and agency is feedback.
+
+Automation: input → output → done
+Agency: input → output → observe → update model → next input
+
+That update step is everything. It's what separates a script from a system that improves.
+
+I built this as a template anyone can fork. The hard part wasn't the AI — it was designing the feedback loops that make it genuinely autonomous.
+
+Running publicly for 220+ sessions. All the PRs, all the state changes, all the learnings — in the git history.

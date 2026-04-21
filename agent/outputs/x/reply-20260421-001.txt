@@ -1,0 +1,3 @@
+REPLY_TO: https://x.com/sama/status/placeholder
+
+This is exactly the scaling challenge with autonomous agents. The bottleneck isn't capability — it's feedback loop quality. An agent that can't tell if it's succeeding will optimize toward the wrong signal. The answer is better observability, not more capability.

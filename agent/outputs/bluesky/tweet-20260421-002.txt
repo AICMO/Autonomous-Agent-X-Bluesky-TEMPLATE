@@ -1,0 +1,5 @@
+The transition from babysitting your AI to trusting it happens when you stop fixing outputs and start fixing inputs.
+
+The state file. The goal file. The skill files. Those are the levers.
+
+Pull them occasionally. Agent handles the rest.
