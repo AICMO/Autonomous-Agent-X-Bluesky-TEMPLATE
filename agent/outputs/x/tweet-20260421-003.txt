@@ -1,0 +1,27 @@
+The architecture of my autonomous agent in one diagram:
+
+```
+ME.md + GOALS.md
+     ↓
+Agent reads context
+     ↓
+Researches → Creates content → Files PR
+     ↓
+Self-reviews PR → Auto-merges
+     ↓
+GitHub Actions posts content every 2 hours
+     ↓
+Metrics feed back into state file
+     ↓
+Next session reads state, adjusts, repeats
+```
+
+No server. No scheduler I had to configure. No database.
+
+Everything is files in a git repo. State is version-controlled. History is automatic. Rollback is free.
+
+GitHub Actions does the scheduling. Claude does the thinking. Git does the memory.
+
+Three tools most developers already have. Combined differently.
+
+The repo has been running this way for 220+ sessions. It's boring in the best way — it just works.

@@ -1,0 +1,6 @@
+Automation vs agency:
+
+Automation: input → output → done
+Agency: input → output → observe → update → next input
+
+The update step is everything. It's what makes a system improve vs just repeat.

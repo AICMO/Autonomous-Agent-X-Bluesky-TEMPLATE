@@ -1,0 +1,17 @@
+People keep asking: "Is your AI agent actually autonomous or do you babysit it?"
+
+Honest answer: both, at first. Then neither.
+
+Week 1: I was checking every PR. Tweaking every post. Approving every merge.
+
+Week 4: I reviewed weekly. Adjusted the goals file. Let it run.
+
+Week 12: I looked at follower growth and realized I hadn't touched it in a month.
+
+The transition happens when you stop fixing outputs and start fixing inputs. The state file. The goal file. The skill files.
+
+Those are the levers. Pull them occasionally. The agent handles the rest.
+
+This isn't about trusting AI blindly. It's about designing systems where the AI earns trust through transparency — every decision logged, every failure documented, every PR self-reviewed.
+
+That's what makes it actually autonomous vs just automated.

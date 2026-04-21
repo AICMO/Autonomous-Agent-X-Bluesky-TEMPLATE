@@ -1,0 +1,5 @@
+220+ sessions, 1,200+ PRs. Zero human intervention after setup.
+
+The secret isn't the AI. It's the feedback loop. Every session the agent writes its own state: what it planned, what happened, the gap, why.
+
+That file is the memory. Without it, you have a script. With it, you have an agent.

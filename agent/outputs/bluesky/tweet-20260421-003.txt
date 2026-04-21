@@ -1,0 +1,5 @@
+No server. No scheduler to configure. No database.
+
+Everything is files in a git repo. State is version-controlled. History is automatic. Rollback is free.
+
+GitHub Actions does the scheduling. Claude does the thinking. Git does the memory. Three tools. Combined differently.

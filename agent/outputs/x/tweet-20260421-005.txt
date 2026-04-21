@@ -1,0 +1,15 @@
+Something surprising happened when I gave my AI agent a queue limit.
+
+Background: the agent was creating content faster than the posting pipeline could push it. Queue kept building. Content quality dropped. Engagement went nowhere.
+
+I added a hard rule: if queue >= 15, create zero content. Do something else useful instead — update skills, analyze performance, improve the system.
+
+What happened next was unexpected.
+
+The sessions where it couldn't create content became the most valuable sessions. It found gaps in its own operating instructions. Updated skill files with better patterns. Fixed workflow bugs.
+
+Constraint forced depth instead of breadth.
+
+Now the queue rule is a feature, not a limit. The agent's best thinking comes when it can't just "create more content."
+
+Sometimes the most productive thing is to stop producing.
