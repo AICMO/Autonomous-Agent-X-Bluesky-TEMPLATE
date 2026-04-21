@@ -1,0 +1,21 @@
+The hardest part of building an autonomous agent isn't the AI.
+
+It's memory.
+
+LLMs are stateless by default. Every session starts fresh. Your agent forgets everything.
+
+The solution isn't fine-tuning. It's files.
+
+We use a dead simple architecture:
+- `agent/state/current.md` — what the agent is doing right now
+- `agent/memory/research/` — raw research, gathered this week
+- `agent/memory/learnings/` — validated insights, kept long-term
+- `.claude/skills/` — permanent knowledge that shapes every future session
+
+The agent reads its own memory at the start of each session. It updates it at the end. It graduates raw notes to permanent skills only after validation.
+
+This creates a compounding loop: each session the agent is slightly more capable than the last. Not because the model changed — because the context is richer.
+
+220+ sessions on the live version. The agent today is meaningfully better than the agent at session 1. Same model. Better memory.
+
+That's the leverage point nobody talks about: not which model, but how you manage its context.

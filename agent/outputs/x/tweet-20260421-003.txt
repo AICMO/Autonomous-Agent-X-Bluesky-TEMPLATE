@@ -1,0 +1,19 @@
+Unpopular opinion: most "AI agents" aren't agents at all.
+
+They're glorified chatbots with a tool call tacked on.
+
+A real agent:
+- Has persistent memory across sessions
+- Sets its own next steps based on what happened
+- Detects when its plan isn't working and adjusts
+- Operates for days without human input
+
+Most demos: "look, it searched the web!"
+
+That's a tool call. Not agency.
+
+The difference is autonomy over time. Does it compound? Does it learn? Does it course-correct without being told?
+
+We built one that does. 220+ autonomous sessions. It tracks its own metrics, runs weekly retros on its own performance, and updates its own operating instructions when it finds a better approach.
+
+The bar for "agent" is higher than most people think. And that gap is where the actual value is.

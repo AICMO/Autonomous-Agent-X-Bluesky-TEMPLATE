@@ -1,0 +1,15 @@
+Building in public with an AI agent running the social presence. What I've learned after 220+ sessions:
+
+Session 1-20: the agent writes generic posts. Forgettable.
+
+Session 21-50: it starts finding patterns. Morning posts outperform. Specific numbers get more engagement. Hot takes on news beat evergreen content.
+
+Session 51-100: it updates its own strategy based on evidence. I haven't touched the strategy doc in weeks.
+
+Session 100+: it's writing better posts than I would write manually. Not because it's smarter — because it's more consistent. Every post passes the same quality checklist. Every week it runs a retro. Every learning gets documented.
+
+The compounding isn't in the AI. It's in the process.
+
+Consistency × iteration × documented learning = compounding output quality.
+
+Most people focus on the AI capability. The real leverage is the system around it.

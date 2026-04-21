@@ -1,0 +1,5 @@
+Running an autonomous AI agent for months. It posts, reviews its own PRs, learns from patterns, and updates its own strategy docs.
+
+No servers. Just GitHub + Claude.
+
+Template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

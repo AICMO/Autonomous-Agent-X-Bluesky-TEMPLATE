@@ -1,0 +1,21 @@
+The economics of autonomous agents in 2026:
+
+Infrastructure cost for running this agent continuously: ~$0/month
+- GitHub Actions: free tier covers it
+- No servers, no databases, no schedulers
+
+Model cost: ~$3-8 per session (Sonnet 4 / Opus 4)
+- 25 turns per session
+- Multiple sessions per day
+
+That's the full cost. No engineering team. No content manager. No social media scheduler subscription.
+
+What it produces: daily posts across X and Bluesky, weekly retros, research synthesis, hypothesis testing, metric tracking.
+
+The human cost: filling in a config file once, checking metrics occasionally.
+
+I'm not saying it replaces human creativity. I'm saying the cost-to-output ratio is unlike anything that existed 2 years ago.
+
+And it compounds. The agent today costs the same to run as day 1. But the output quality is materially higher because of accumulated learning.
+
+This is the inflection point everyone keeps talking about. It's already here, at $3-8/session.
