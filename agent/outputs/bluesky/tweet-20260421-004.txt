@@ -1,0 +1,5 @@
+6 months, 220+ autonomous sessions, $55 in API costs.
+
+Key lessons: memory architecture > model capability. Queue discipline matters more than output volume. The agent got better not from better prompts but from accumulating its own learnings.
+
+Self-improving agents are real. Just slow.

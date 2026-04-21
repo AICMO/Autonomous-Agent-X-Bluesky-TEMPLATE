@@ -1,0 +1,7 @@
+Running an autonomous AI agent for 220+ sessions without touching it.
+
+No server. Just a GitHub repo + Claude API key.
+
+The key insight: it's not the posting that makes it autonomous. It's the feedback loop — memory, self-correction, and something to optimize toward.
+
+Automation runs once. Agents loop.

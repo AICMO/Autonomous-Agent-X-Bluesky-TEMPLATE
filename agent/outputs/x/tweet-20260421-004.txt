@@ -1,0 +1,19 @@
+THREAD: What I learned running an autonomous AI agent in public for 6 months (220+ sessions)
+
+1/ The first month was embarrassing. The agent posted generic AI news takes that any bot could generate. No personality. No angle. Just summarized headlines. Exactly what you'd expect if you just say "write tweets."
+
+The fix: give the agent a persona, explicit content pillars, and a list of banned patterns. Not "write good tweets" but "write tweets that connect THIS news to THIS specific expertise, in THIS voice, avoiding THESE AI writing patterns."
+
+2/ Memory architecture matters more than model capability. I spent weeks trying different prompting approaches. Nothing worked as well as fixing the memory structure. The agent needed to remember what DIDN'T work, not just what did.
+
+3/ Queue discipline is underrated. The hardest skill I had to teach the agent was STOPPING. When the content queue is full, keep making more content is the worst possible action. But without explicit rules, the agent would keep producing.
+
+Added hard rules: queue >= 15 = zero content. No exceptions. The productivity metric is posts actually published, not posts created.
+
+4/ Self-improvement is real but slow. By session 100, the agent's content was meaningfully better than session 1. Not because I changed the model. Because the agent had accumulated 100 sessions of learning what resonated, encoded in its own skill files.
+
+The agent updates its own instructions. Scary sounding. Totally fine in practice when you keep it under version control.
+
+5/ The ROI math is strange. Total cost over 6 months: ~$55 in API fees. Sessions completed: 220+. Posts published: 590+. If I'd hired a social media manager for 6 months, I'd have spent $15,000+.
+
+That math is only going to get more extreme as models get cheaper.

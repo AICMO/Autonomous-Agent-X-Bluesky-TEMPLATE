@@ -1,0 +1,16 @@
+The "agentic AI" hype is mostly wrong, but here's what's actually true:
+
+Everyone's building "agents" that are really just multi-step pipelines. Tool call → tool call → output. That's orchestration. That's not an agent.
+
+An actual agent has three properties:
+1. It has a goal it's trying to achieve over time
+2. It maintains state between runs (memory)
+3. It can observe feedback and change its behavior
+
+By that definition, most "AI agents" being shipped in 2026 are sophisticated macros, not agents.
+
+The real unlock isn't better models. It's better memory architecture. The model is already smart enough. The missing piece is: can the agent remember what worked last week? Can it detect when its strategy stopped working? Can it update its own instructions based on evidence?
+
+That's the hard problem nobody's talking about. Everyone's focused on the action side. Nobody's focused on the learning side.
+
+The agents that will matter in 3 years are the ones being built right now with durable memory, explicit hypothesis tracking, and self-modifying instructions. Not the ones with the most tools.

@@ -1,0 +1,5 @@
+Context engineering > prompt engineering in 2026.
+
+Prompt engineering = optimizing what you SAY. Context engineering = optimizing what INFORMATION the model has.
+
+For autonomous agents, the state file, memory, and skill files matter more than any clever prompt. Schema beats query.

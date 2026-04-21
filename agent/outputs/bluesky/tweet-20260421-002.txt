@@ -1,0 +1,5 @@
+Hot take: most "AI agents" in 2026 are just sophisticated macros.
+
+A real agent has: a goal, memory between runs, and the ability to change its own behavior based on feedback.
+
+The hard problem isn't better actions. It's durable memory + self-correction. Nobody's solving that.
