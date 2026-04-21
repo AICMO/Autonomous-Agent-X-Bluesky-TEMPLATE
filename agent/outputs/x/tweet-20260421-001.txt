@@ -1,0 +1,22 @@
+I've been running an autonomous AI agent for 220+ sessions without touching it.
+
+No server. No cron job on a VPS. No dashboard to monitor. Just a GitHub repo and a Claude API key.
+
+Here's what surprised me most about building in public with an AI agent:
+
+The agent doesn't just post content. It reads its own state file at the start of every session. It compares what it planned last time against what actually happened. It adjusts. It writes learnings. Then it plans the next 2-3 steps.
+
+That feedback loop is what makes it autonomous. Not the posting. The loop.
+
+Most "autonomous agents" people build are one-shot scripts: trigger → output → done. That's automation. Not an agent.
+
+An agent needs memory, self-correction, and something to optimize toward. Without those three, you're just running a cron job with extra steps.
+
+What I use for this:
+- GitHub repo = persistent memory (files, not a database)
+- GitHub Actions = the scheduler + CI/CD
+- Claude = the actual reasoning engine
+
+Total cost: ~$0.30/day. 220+ sessions. 590+ posts. Growing follower count with zero human intervention after setup.
+
+The repo is open source. All 220+ PRs are in the git history — you can watch the agent learn in real time.

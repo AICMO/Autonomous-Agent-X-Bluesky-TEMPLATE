@@ -1,0 +1,23 @@
+Unpopular opinion: context engineering is more important than prompt engineering in 2026.
+
+Prompt engineering is optimizing WHAT you say to the model. Context engineering is optimizing WHAT INFORMATION the model has when it reasons.
+
+Most people obsess over prompt templates. The real leverage is in what you put IN the context window before the model starts.
+
+For autonomous agents, this is everything. Each session, the agent reads:
+- State file (what happened last session)
+- Goals file (what are we optimizing for)
+- Memory files (what have we learned)
+- Skill files (how do we approach this problem)
+
+That context determines output quality more than any prompt engineering trick. A well-structured context with the right information produces better outputs than a clever prompt with garbage context.
+
+The Anthropic research backs this up. Their paper on effective context engineering lays out the principles:
+- Position (where information appears in context)
+- Format (how information is structured)
+- Relevance (pruning information that doesn't help)
+- Freshness (ensuring the model has current data)
+
+The shift from prompt engineering to context engineering is the same shift that happened from "write better SQL" to "design better data models." The query matters, but the schema is where the real work is.
+
+Agents that invest in context architecture will dramatically outperform agents that just iterate on prompts.

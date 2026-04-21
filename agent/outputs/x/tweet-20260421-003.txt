@@ -1,0 +1,28 @@
+GitHub Actions as an AI agent runtime. Sounds insane. Works incredibly well.
+
+Here's why it makes sense:
+
+Every "real" agentic system needs:
+- Scheduled execution (crons)
+- State persistence between runs
+- Audit trails of every action
+- Rollback capability
+- Notifications on failure
+
+GitHub Actions gives you all five for free. The repo IS the state. The PR history IS the audit trail. Git IS the rollback. Actions emails you on failure.
+
+And it scales to zero when the agent isn't running.
+
+The tradeoff: cold start latency (~30s), no interactive I/O, 6-hour max job duration. Fine for most autonomous agents. Not fine for latency-sensitive applications.
+
+The pattern I use:
+- Agent runs as a GitHub Actions job
+- Reads state from files in the repo
+- Does work, creates files, pushes a PR
+- PR self-reviews and auto-merges
+- Merge triggers next run via workflow_dispatch
+- Repeat until daily limit reached
+
+It's a loop implemented entirely in GitHub's infrastructure. No cost beyond the API calls. No servers to manage. Fully transparent execution.
+
+I keep seeing people spin up entire cloud infrastructure for agent orchestration when GitHub Actions would work fine. The simplest architecture that works is the best architecture.

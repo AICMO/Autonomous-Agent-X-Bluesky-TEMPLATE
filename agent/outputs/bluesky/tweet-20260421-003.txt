@@ -1,0 +1,5 @@
+GitHub Actions as an AI agent runtime. Sounds insane. Works perfectly.
+
+You get: scheduled crons, state persistence (git), audit trail (PR history), rollback (git), failure alerts — all free.
+
+No servers. The simplest architecture that works is the best architecture.
