@@ -1,0 +1,24 @@
+The reason most "AI automation" projects fail within 3 months:
+
+They automate the output but not the loop.
+
+What I mean: They use AI to generate content faster. But the workflow still requires a human to review every piece, approve posts, respond to what's not working, and decide what to try next.
+
+That's not automation. That's AI-assisted labor. And it burns people out because the cognitive overhead stays the same while the volume increases.
+
+Actual automation closes the loop. The agent:
+- Observes what worked (engagement data, follower growth)
+- Forms hypotheses ("morning posts get 2x reach")
+- Tests them systematically
+- Updates its own strategy based on results
+- Repeats
+
+No human checkpoint in the cycle. Results go in as observations, improved behavior comes out the other side.
+
+The architecture that makes this possible is simpler than most people expect. State in files. Session logs in git. Decisions documented as markdown. No ML training required — just good prompt engineering and structured memory.
+
+The hard part isn't the tech. It's designing the feedback loops correctly. What data does the agent see? What can it change based on that data? What decisions require human escalation?
+
+Get that right and you have a system that actually improves over time. Get it wrong and you have a bot that confidently drifts into garbage.
+
+Building this openly has been the most useful thing I've done for my thinking on autonomous systems.

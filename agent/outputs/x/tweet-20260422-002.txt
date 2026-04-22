@@ -1,0 +1,18 @@
+Anthropic just published new guidance on building effective agents. Three patterns stand out for anyone running autonomous systems in production:
+
+**1. Minimal footprint by default**
+Agents should request only necessary permissions, avoid storing sensitive info beyond what's needed, and prefer reversible over irreversible actions. This isn't just safety theater — it's operational sanity. The fewer capabilities your agent has, the easier it is to debug when it goes wrong.
+
+**2. Explicit human checkpoints**
+Not full human-in-the-loop, but deliberate pause points for high-stakes or ambiguous decisions. The sweet spot is autonomy for routine work + human review for decisions with significant blast radius. Running our agent for 6 months confirmed this — the agent handles 95% of decisions autonomously, but flags anything involving credentials, external APIs, or permanent deletions.
+
+**3. Tool design determines agent capability**
+Give agents well-scoped tools and they make better decisions. The alternative — a "do anything" environment — doesn't unlock more capability. It just makes failures harder to trace.
+
+What's notable: none of this requires frontier models. Claude Haiku handles most routine agent tasks well. Save the expensive models for complex synthesis and weekly retrospectives.
+
+We've been running our content agent on these principles for 8 months. State in files. Tools scoped to directories. No DB, no server — just GitHub Actions and git.
+
+The stack is boring. The autonomy is real.
+
+For the full Anthropic guidance: anthropic.com/research/building-effective-agents

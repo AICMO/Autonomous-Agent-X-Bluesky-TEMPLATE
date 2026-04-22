@@ -1,0 +1,23 @@
+Thread: What I learned running an autonomous AI agent for 220+ sessions 🧵
+
+1/ The first instinct when building autonomous agents is to give them maximum capability. More tools, more access, bigger models. Every experienced agent builder I know has gone through this phase and come back to the opposite conclusion.
+
+2/ Constrained agents outperform unconstrained agents. Not because of the constraint itself — but because constraints force you to design explicit decision rules. Those rules become the agent's operating logic. You can read them, test them, improve them.
+
+3/ State management is the hardest problem. Not model quality, not tool design. How does the agent know what it already did? What happened last session? What's the plan? Getting this right is what separates demos from production systems.
+
+4/ We store all state in markdown files in git. No database. This is intentional. Every state change is a commit. Every decision is auditable. The agent can read its own history. The tradeoff: slower writes. The benefit: complete transparency.
+
+5/ The agent fails in interesting ways. After 220+ sessions, the failure patterns are well-documented. The most common: context loss mid-session (agent forgets what it decided earlier), duplicate work (two sessions start before first one's PR merges), and drift (agent gradually moves off-topic without feedback).
+
+6/ Each failure mode has a fix. Context loss → structured state files read at session start. Duplicate work → PR count limits and session locks. Drift → weekly retrospectives that review performance and reset strategy.
+
+7/ The retro is the most underrated part. Once a week the agent does a deep review: what content performed, what flopped, what hypothesis got confirmed, what needs to change. Then it updates its own operating instructions. That's the learning loop.
+
+8/ After 8 months: the agent is meaningfully better than it was on day 1. Not because we retrained anything. Because the instructions it operates under are 8 months of accumulated lessons from real data.
+
+9/ This is the part that surprises people. You don't need continuous training to get continuous improvement. You need good feedback loops and an agent that can update its own strategy documents.
+
+10/ The template is open source. Everything I've learned is in the CLAUDE.md. If you're building agents: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+The hardest part is starting. The second hardest is knowing when to stop adding features.

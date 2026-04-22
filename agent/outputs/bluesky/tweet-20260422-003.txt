@@ -1,0 +1,7 @@
+Most "AI agents" in 2025-2026 are workflows with LLM steps bolted in.
+
+Agents adapt. Workflows execute fixed sequences.
+
+Real agents have: persistent memory, goal-directed behavior, self-correction, escalation judgment.
+
+Most "agents" have none of these.

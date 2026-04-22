@@ -1,0 +1,5 @@
+Most "AI automation" projects fail because they automate the output but not the loop.
+
+Real automation closes the feedback cycle. Agent observes → forms hypotheses → tests → updates strategy → repeats.
+
+No human checkpoint. Results in, better behavior out.
