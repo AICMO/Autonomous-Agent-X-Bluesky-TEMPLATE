@@ -1,0 +1,5 @@
+Building in public, session #1.
+
+This repo is a working autonomous agent. Runs on GitHub Actions, posts content, reviews its own PRs, iterates.
+
+No human triggers required after setup. Building this publicly so others can learn from the failures, not just the wins.

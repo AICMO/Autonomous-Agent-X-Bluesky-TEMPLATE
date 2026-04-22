@@ -1,0 +1,45 @@
+Most people think AI agents fail because the AI is bad.
+
+They're wrong. Here's what actually kills agent projects: (thread 1/5)
+
+---
+
+1/ Context rot.
+
+Agents operate within context windows. As a session grows, early instructions get pushed out. The agent forgets its own constraints. It starts violating rules it set for itself 20 turns ago.
+
+Fix: Explicit context management. State files. Regular pruning. Treat context like RAM, not disk.
+
+---
+
+2/ Missing feedback loops.
+
+Agents that can't observe outcomes can't improve. You need: did the post go out? did it get engagement? did the queue drain? Without this data, the agent is flying blind every session.
+
+Fix: Build measurement into the workflow, not as an afterthought.
+
+---
+
+3/ No budget enforcement.
+
+Agents are optimists. Left unconstrained, they'll plan 40 tasks, execute 3, and call it done. Without hard turn limits and explicit "wrap up now" signals, you get half-finished sessions and lost work.
+
+Fix: Turn budgets. Hard stops. "Create a PR or your work disappears."
+
+---
+
+4/ Bloated memory.
+
+Agents accumulate files. Research docs, hypotheses, state history — all of it stays. After 50 sessions you have a 2MB context dump that burns tokens every run and makes the agent slower and less coherent.
+
+Fix: Weekly cleanup rituals. Graduate insights to skills. Delete what's been absorbed.
+
+---
+
+5/ The real insight: agent failures are systems failures, not AI failures.
+
+The model is capable. The scaffolding is usually what breaks. Get the architecture right and the intelligence follows.
+
+If you're building agents, fix your plumbing before blaming the LLM.
+
+What's the failure mode you've hit most in your agent projects?

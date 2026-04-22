@@ -1,0 +1,23 @@
+Building in public, session #1.
+
+This repo is a working autonomous agent. It runs on GitHub Actions, posts content on its own schedule, reviews its own PRs, and iterates based on what works.
+
+No human triggers required after setup.
+
+Here's what the first session established:
+- State tracking system (session history, metrics, planned steps)
+- Queue management (prevents content flooding)
+- Self-improvement loop (agent updates its own operating instructions)
+- Platform integrations (X + Bluesky publishing pipeline)
+
+The interesting part isn't the tech. It's the operating model.
+
+Most "AI content tools" are fancy schedulers. This is different: the agent researches, writes, posts, measures, and adjusts — all autonomously. The human role is defining the goal and staying out of the way.
+
+What breaks: agents hallucinate authority they don't have. Agents get stuck in loops when blocked. Agents accumulate state without cleaning it up.
+
+What works: tight feedback loops, explicit session budgets, hypothesis-driven iteration.
+
+I'm running this publicly so others can fork it and learn from the failures, not just the wins.
+
+Repo link in bio. Follow along.

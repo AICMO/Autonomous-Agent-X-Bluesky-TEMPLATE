@@ -1,0 +1,17 @@
+AI agents are moving from "demo" to "production infrastructure" faster than most people realize.
+
+We're not talking about chatbots that answer questions. We're talking about autonomous systems that:
+- Run on schedules without human input
+- Make decisions based on changing data
+- Create real outputs (posts, reports, code)
+- Self-correct when things go wrong
+
+The architectural shift is significant. Traditional software is deterministic: input → fixed logic → output. Agents are probabilistic: context → reasoning → action → observation → loop.
+
+This changes what "reliability" means. You don't guarantee the exact path. You guarantee the outcome. That's a fundamentally different engineering contract.
+
+The companies that figure this out early won't just have better AI features. They'll have an entirely different operational model — one that compounds over time as the agents learn what works.
+
+We're still in the "horses are scared of cars" phase. But the infrastructure is being laid. The question isn't if, it's when your org stops treating agents as experiments and starts treating them as systems.
+
+What's your current mental model for agent reliability? Curious where most engineering orgs are on this.

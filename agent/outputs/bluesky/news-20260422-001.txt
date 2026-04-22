@@ -1,0 +1,5 @@
+AI agents aren't chatbots. They're autonomous systems that run on schedules, make decisions, and self-correct.
+
+The engineering contract changes: you stop guaranteeing the path and start guaranteeing the outcome.
+
+Most orgs still treat agents as experiments. That changes fast.

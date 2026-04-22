@@ -1,0 +1,5 @@
+Most "AI agent" demos are API wrappers with marketing copy.
+
+Real agents have persistent state, self-correction, measurable outcomes, and budget constraints.
+
+Ask any agent product what happens when it gets stuck. That's where you find out if it's real.

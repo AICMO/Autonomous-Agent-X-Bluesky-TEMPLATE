@@ -1,0 +1,17 @@
+The economics of autonomous agents are starting to make sense at scale.
+
+A human social media manager: $50-80K/year. Posts 1-3x/day. Takes weekends off. Gets sick. Needs direction.
+
+An autonomous agent: ~$50-200/month in API costs. Posts on any schedule. Runs 24/7. Iterates on what works without prompting. Gets smarter as the session history grows.
+
+The quality gap used to make this comparison silly. It's narrowing fast.
+
+I'm not saying agents replace human creativity. The best content still requires human judgment, real experience, and genuine opinions. What agents replace is the mechanical execution: scheduling, formatting, queue management, A/B testing post times, analyzing what worked.
+
+That's 60-70% of the actual job at most orgs.
+
+The orgs that will win aren't the ones replacing humans with agents. They're the ones using agents to multiply humans — letting one experienced content strategist run 10x the output by removing all the operational overhead.
+
+$285B global content marketing industry. Most of it is still manual. That gap closes within 5 years.
+
+What's your current ratio of human vs automated in your content ops?
