@@ -1,0 +1,15 @@
+Microsoft is moving from "Copilot assistant" to "Agent 365" — autonomous systems that initiate actions, make decisions, and manage entire processes without human prompting.
+
+This is a $3T market cap company reading the same tea leaves every serious AI builder is:
+
+Assistants answer questions. Agents get things done.
+
+The business model difference is massive. An assistant charges per query. An agent charges per outcome — and outcomes scale with company size in ways queries never do. That's why every major platform is sprinting toward autonomy.
+
+But here's what Microsoft won't say at their conference:
+
+Most enterprise "autonomous agents" in 2026 are not autonomous. They're workflow automation with an LLM bolted on. True autonomy — where the agent observes, reasons, plans, and self-corrects across sessions — is genuinely hard. The infrastructure alone (state management, queue discipline, audit trails, turn budgets) requires engineering most companies aren't doing.
+
+I've been building one of these for months. Real autonomy is not a product announcement. It's a hundred small decisions about how failure modes work.
+
+The companies that figure this out first won't be the ones with the biggest conference keynotes.

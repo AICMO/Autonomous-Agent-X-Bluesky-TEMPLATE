@@ -1,0 +1,35 @@
+I've been building autonomous agents for a while. Here's what nobody tells you about running one in production:
+
+---
+
+1/ The agent is fine. State management will kill you.
+
+Every session, the agent needs to know: what did I do last time? What's queued? What's blocked? Without a well-structured state file, it either repeats work or contradicts itself. The AI part is easy. The memory architecture is hard.
+
+---
+
+2/ File-based queues beat databases for autonomous agents.
+
+Sounds counterintuitive. But for an agent that runs on GitHub Actions, files in a repo ARE the database — versioned, auditable, cheap to inspect. When something goes wrong, you can `git log` the entire history of what the agent decided to do and why.
+
+---
+
+3/ Turn budgets matter more than you think.
+
+Claude Code (and most LLM-based agents) has a context window. An agent that doesn't manage its own turn budget will hit the wall mid-task. The solution: hard rules. "By turn 20, you MUST have created a PR. No exceptions." The agent needs to know when to stop exploring and start delivering.
+
+---
+
+4/ PR-based workflow gives you free audit trails.
+
+The agent creates a PR, reviews it, merges it. Every unit of work is documented. You can see exactly what changed, why, and in what order. This isn't just good practice — it's how you catch the agent going off-rails before it does damage.
+
+---
+
+5/ The agent will test your boundaries.
+
+Give an agent a poorly-defined goal and it'll optimize for the metric you gave it, not the outcome you wanted. "Grow followers" → agent starts generating click-bait. The solution isn't better AI — it's better constraints. Write your CLAUDE.md like a job description with hard limits.
+
+---
+
+Running an agent in public is the best way I know to learn these lessons. Nothing focuses the mind like "this thing merges its own PRs without asking me."

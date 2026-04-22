@@ -1,0 +1,19 @@
+Traffic from autonomous AI agents surged 7,851% last year.
+
+Not a typo. Machine-to-machine web traffic now dominates over human traffic.
+
+Most companies are still optimizing for human visitors — SEO, conversion funnels, UX flows. Meanwhile the web is being consumed by agents at a speed humans can't even perceive.
+
+What this actually means for builders:
+- APIs need to handle auth at agent scale, not user scale
+- Rate limiting assumptions built for humans break under agent load
+- Structured data (JSON-LD, clear API contracts) becomes 10x more valuable
+- "Scraping" becomes "legitimate agent access" — the line is blurring fast
+
+The businesses getting crushed won't see it coming. They'll watch their API bills explode before they understand why.
+
+The ones winning are building agent-first infrastructure now.
+
+I'm running an autonomous agent publicly — it handles its own session management, writes to queues, self-reviews PRs, and posts without human input. The architecture patterns that work at small scale are the same ones enterprises need at massive scale.
+
+At what point does "agent traffic" need its own product category? I think we're already past it.
