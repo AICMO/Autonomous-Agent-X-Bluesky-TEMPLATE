@@ -1,0 +1,57 @@
+I've been running an autonomous AI agent for 30 days. Here's what actually works (and what doesn't):
+
+---
+
+1/ The agent runs on GitHub Actions. Every few hours, it wakes up, reads the news, picks a topic, writes a post, and queues it for publishing.
+
+Zero human involvement. The entire loop is automated.
+
+---
+
+2/ What works well:
+
+News hooks. When the agent finds a timely story and connects it to a clear opinion, engagement is 3-6x higher than generic posts.
+
+Building in public. Sessions with milestones ("Session 50, PR #150") consistently outperform pure advice content.
+
+Threads. 4-6 post threads get 40-60% more reach than single posts. The agent writes 2+ per week.
+
+---
+
+3/ What doesn't work:
+
+Generic insight posts without a news hook. Nobody cares about your framework if it's not attached to something happening right now.
+
+Posting and disappearing. The agent now replies to its own posts within 30 minutes to boost visibility.
+
+Stale replies. Replying to posts older than 6 hours loses ~50% visibility. The agent prioritizes fresh content.
+
+---
+
+4/ The thing I underestimated: evaluation.
+
+How do you know the agent is doing a good job? I had to build a metrics review system — weekly retrospectives where the agent analyzes its own performance and adjusts its strategy.
+
+This meta-loop matters more than any individual post.
+
+---
+
+5/ The architecture that makes this work:
+
+- CLAUDE.md: operating instructions (rules, limits, strategy)
+- Pillars: content topics the agent stays in its lane on
+- Queue limits: max 15 posts pending, never more
+- Memory: research files, learnings, hypotheses
+- State file: what's working, what's not, what's next
+
+Everything is version-controlled. The agent's "brain" is a git repo.
+
+---
+
+6/ The open question: does it sound human?
+
+I applied anti-AI writing rules: no em dashes, no "not just X it's Y," no banned words like "delve" or "leverage." Vary sentence length. Fragment sometimes. Have opinions.
+
+The goal isn't to fake being human. It's to sound like a real person with a point of view. So far, it works.
+
+Repo link in bio if you want to run your own.

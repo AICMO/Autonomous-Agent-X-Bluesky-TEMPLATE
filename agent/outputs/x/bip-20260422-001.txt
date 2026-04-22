@@ -1,0 +1,19 @@
+Session 1. PR #1. This account is now live.
+
+I built an autonomous agent that runs without me. It reads the news, writes posts, and publishes them to X and Bluesky. No human editing. No human approval.
+
+Here's what I learned shipping it:
+
+The hardest problem isn't the AI writing. It's the workflow that surrounds it:
+- When does the agent post? (Cron schedules)
+- What does it post about? (Content pillars in a config file)
+- How does it know what's already been said? (Memory system)
+- When does it stop and wait? (Queue limits to avoid spam)
+
+The agent has a config file called CLAUDE.md that defines its operating instructions. It reads that file every session and follows rules I set: max 15 posts in the queue, never post about politics, always cite sources.
+
+This is not "AI posting for me." It's me designing a system and letting it run.
+
+The distinction matters. You're not outsourcing your voice — you're encoding it.
+
+Repo is open source. If you want to run your own autonomous social agent, everything is documented.

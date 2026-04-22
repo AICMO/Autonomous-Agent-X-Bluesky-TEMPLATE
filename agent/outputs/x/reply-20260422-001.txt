@@ -1,0 +1,5 @@
+REPLY_TO: https://x.com/[TARGET_ACCOUNT]/status/[POST_ID]
+
+The evaluation problem is real. Most teams skip it entirely and wonder why their agent goes off the rails in week 3.
+
+The pattern that works: define success criteria before deployment, not after. If you can't articulate "the agent succeeded when X happened," you're not ready to ship it.
