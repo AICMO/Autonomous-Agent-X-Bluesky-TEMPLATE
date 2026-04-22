@@ -1,0 +1,18 @@
+Unpopular opinion: most "AI agent" demos are just API wrappers with marketing copy.
+
+Real agents have:
+- Persistent state across sessions
+- Self-correction when blocked
+- Measurable outcomes tied to real goals
+- Budget constraints (they can't run forever)
+- Memory management (they clean up after themselves)
+
+What I see at most "AI agent" companies: a prompt + a tool call + a pretty UI. That's a feature, not an agent.
+
+The distinction matters because buyers are about to get burned. They'll pay for "autonomous AI" and get "slightly fancier automation." Backlash will follow. Trust will erode. The real systems will get lumped in with the fakes.
+
+The companies building true autonomous agents are mostly quiet right now. Running experiments. Measuring. The flashy demos are from companies that need the hype cycle to buy them time.
+
+Watch the ones that show you the failures, not just the wins. That's where the real work is happening.
+
+My test for any agent product: ask them what happens when it gets stuck. Genuine agents have retry logic, escalation paths, and graceful degradation. Demos just crash.

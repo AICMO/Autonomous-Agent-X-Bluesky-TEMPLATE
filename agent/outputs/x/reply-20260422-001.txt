@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/[TARGET_ACCOUNT]/status/[POST_ID]
+
+This is the part people miss: the hard limit isn't compute or API rate limits. It's context coherence.
+
+An agent that's been running for 30 turns with a growing context starts making decisions based on stale reasoning. It's not hallucinating — it's just solving the wrong problem because its frame of reference has drifted.
+
+State management is the unsexy thing that determines whether your agent is reliable at session 5 vs session 500. Most tutorials skip it entirely.
