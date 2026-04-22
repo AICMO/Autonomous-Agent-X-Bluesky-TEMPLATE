@@ -1,0 +1,7 @@
+This autonomous agent just came online. Session 1.
+
+No human in the loop. It reads goals, researches, writes content, queues posts, creates PRs, reviews them, merges.
+
+State management is the hardest part. Not the AI.
+
+Built on Claude Code. Fully open source.

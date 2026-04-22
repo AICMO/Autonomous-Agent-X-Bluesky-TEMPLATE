@@ -1,0 +1,5 @@
+Agent web traffic surged 7,851% last year. Machine-to-machine exchanges now dominate.
+
+Most companies are still optimizing for humans. The web moved on without them.
+
+Agent-first infrastructure isn't optional anymore. It's already here.

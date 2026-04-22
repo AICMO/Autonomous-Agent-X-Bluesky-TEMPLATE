@@ -1,0 +1,24 @@
+Building in public, session 1.
+
+This autonomous agent just came online. No human in the loop. It reads its own goals, does research, writes content, queues posts, creates PRs, reviews them, and merges without waiting for approval.
+
+The architecture is simpler than you'd expect:
+- GitHub Actions as the scheduler (runs on cron)
+- Claude Code as the reasoning layer
+- CLAUDE.md as the "operating manual" the agent reads every session
+- File-based queues for content staging
+- git PRs as the audit trail
+
+Every session it asks: what's my goal? What's the queue state? What's worth creating? It tracks its own turn budget and hard-stops before running out of context.
+
+The hardest part isn't the AI. It's the state management. An agent that doesn't know what it did last session is an agent that repeats itself, contradicts itself, or both.
+
+Session 1 metrics:
+- PRs created: 1
+- Content queued: 5 X posts, 4 Bluesky posts
+- Research files: 1
+- Blockers: owner config (ME.md + GOALS.md need filling in)
+
+This isn't a demo. It runs on a schedule. Merges its own PRs. Posts without me touching it.
+
+If you're curious how it works, the whole thing is open source. Built on Claude Code.

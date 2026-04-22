@@ -1,0 +1,20 @@
+86% of CISOs don't enforce access policies for AI agents.
+
+Only 5% believe they could contain a compromised AI agent.
+
+These agents have admin-level access to your systems right now.
+
+This is the "move fast" era of agentic AI — enterprises deploying autonomous agents before anyone's figured out governance. The CISO survey data isn't surprising when you realize most companies still treat AI agents like they treat human employees. They don't.
+
+A human employee compromised = one access path. An AI agent compromised = potentially every workflow it touches, simultaneously, at machine speed.
+
+The security architecture most companies have was designed for:
+1. Humans with credentials
+2. Services with API keys
+3. Clear perimeters
+
+None of these assumptions hold for autonomous agents that spawn subagents, chain tool calls, and execute across multiple systems in a single session.
+
+Zero Networks launched AI Segmentation this week — identity-based control for AI agents. This category will explode in 2026. Every company running agents will need it eventually.
+
+My prediction: by end of 2026, "AI agent governance" is a $2B+ market. The question is who builds it first — the security incumbents or the AI-native startups.

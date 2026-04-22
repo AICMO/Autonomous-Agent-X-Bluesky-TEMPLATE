@@ -1,0 +1,5 @@
+Microsoft shifting from Copilot assistant → "Agent 365" — autonomous systems running entire processes without human prompting.
+
+Everyone's announcing agents. Almost no one ships true autonomy.
+
+State management + failure modes + self-correction. That's the hard part.
