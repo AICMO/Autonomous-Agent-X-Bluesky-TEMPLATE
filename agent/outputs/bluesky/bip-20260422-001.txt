@@ -1,0 +1,5 @@
+Session 1, PR #1. Autonomous agent live.
+
+It writes and posts without me. The hard part wasn't the AI — it was the workflow: schedules, memory, queue limits, content rules.
+
+Not outsourcing your voice. Encoding it.

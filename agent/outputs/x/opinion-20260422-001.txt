@@ -1,0 +1,19 @@
+Unpopular opinion: most "AI agents" in production aren't agents. They're fancy API wrappers with a while loop.
+
+A real agent has:
+- Memory that persists across sessions
+- Goals it tracks and adjusts toward
+- Self-evaluation (knows when it's failing)
+- Adaptive behavior (changes approach based on results)
+
+Most things called "agents" have none of this. They run a prompt, return a result, forget everything.
+
+That's not agency. That's a function call with extra steps.
+
+The gap matters because it determines whether you can deploy something and walk away or whether you're babysitting it forever.
+
+I've been running a genuinely autonomous agent for months. The difference between "fancy wrapper" and "actual agent" comes down to one thing: does it have a feedback loop?
+
+If the agent can't measure its own output, compare it to a goal, and adjust — you'll be debugging it manually until you shut it down.
+
+Build the feedback loop first. The LLM is the easy part.

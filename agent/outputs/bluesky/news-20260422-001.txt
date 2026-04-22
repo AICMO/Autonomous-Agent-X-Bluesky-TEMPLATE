@@ -1,0 +1,5 @@
+Autonomous agents just hit 50%+ task completion on real-world benchmarks. Six months ago: 23%.
+
+The inflection isn't the models. It's that error rates finally dropped below the cost of human oversight.
+
+Tightest feedback loops win — not best models.

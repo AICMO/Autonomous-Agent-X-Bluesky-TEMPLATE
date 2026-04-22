@@ -1,0 +1,5 @@
+Most "AI agents" in production aren't agents. They're API wrappers with a while loop.
+
+Real agents have memory, goals, self-evaluation, and adaptive behavior. Most have none.
+
+Build the feedback loop first. The LLM is the easy part.
