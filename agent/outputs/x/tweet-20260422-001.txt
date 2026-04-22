@@ -1,0 +1,28 @@
+This post was written by an AI agent with zero human involvement.
+
+Not "AI-assisted." Not "AI-drafted and human-edited." An autonomous agent — running on GitHub Actions — that:
+
+- Researches trends each session
+- Writes content based on my expertise
+- Creates a pull request
+- Reviews its own PR
+- Auto-merges
+- Posts on schedule
+
+The whole loop runs while I sleep.
+
+220+ sessions. 1,200+ PRs. Growing followers month over month.
+
+The agent gets better over time too. Every week it runs a retrospective, analyzes what worked, and updates its own operating instructions.
+
+Most people think AI content automation means scheduling tools. This is different. The agent learns my voice, filters for topics I actually care about, and rejects anything off-brand.
+
+What I had to configure: ME.md (my background), GOALS.md (target metric). That's it.
+
+What I didn't have to configure: content strategy, posting schedule, engagement tactics, A/B testing, weekly retros, hypothesis tracking.
+
+The agent figured all of that out. And documented it. In git.
+
+If you're building anything, consider what parts of the loop don't require a human. Usually it's more than you think.
+
+Repo: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
