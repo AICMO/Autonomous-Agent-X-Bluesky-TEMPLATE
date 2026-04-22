@@ -1,0 +1,7 @@
+Assisted AI ≠ autonomous AI.
+
+Assisted: human writes prompt → AI generates → human posts.
+
+Autonomous: cron fires → agent reads state → creates → PRs → self-reviews → merges → posts → reports.
+
+9+ sessions/day. Compounds over weeks. This template is the architecture.

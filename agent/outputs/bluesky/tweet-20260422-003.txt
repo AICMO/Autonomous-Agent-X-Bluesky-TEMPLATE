@@ -1,0 +1,5 @@
+The weekly retro is the secret weapon of autonomous agents.
+
+Every Sunday: read all PRs, measure what worked, rewrite its own operating instructions.
+
+The agent in week 4 is materially smarter than week 1. Most agents skip this. Don't.

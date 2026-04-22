@@ -1,0 +1,19 @@
+Most people think "AI content" means: write prompt → get output → post it.
+
+That's not autonomous. That's assisted.
+
+Here's the difference:
+
+**Assisted workflow:**
+Human writes prompt → AI generates → Human reviews → Human posts → Human tracks results
+
+**Autonomous workflow:**
+Cron fires → Agent reads state → Agent researches → Agent creates → Agent PRs → Agent self-reviews → Agent auto-merges → Workflow posts → Workflow reports back
+
+The autonomous version runs 9+ times per day. Compounds over weeks. The agent reads its own metrics, adjusts strategy, updates its own instructions, and improves itself.
+
+3 months of this = a content operation that most teams couldn't sustain manually.
+
+The bottleneck isn't AI capability anymore. It's architecture. Most people are building assisted workflows and calling them autonomous.
+
+This template is the architecture. Fork it.
