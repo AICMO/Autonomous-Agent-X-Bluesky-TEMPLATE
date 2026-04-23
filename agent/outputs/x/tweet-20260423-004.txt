@@ -1,0 +1,23 @@
+Cloudflare runs 7 AI agents to review every pull request.
+
+One coordinator. Six specialists:
+- Security
+- Performance
+- Code quality
+- Documentation
+- Release management
+- Compliance
+
+The coordinator deduplicates findings, combines insights, posts one structured review comment.
+
+No human reviewer touches the code first.
+
+Most teams think about AI code review as "replace the human." Cloudflare's insight: build a team of specialists that no single human could replicate.
+
+A security specialist who reads every OWASP update. A performance analyst who benchmarks every function. A compliance reviewer who knows every regulation by heart. Running in parallel. Never tired. Never late to a deadline.
+
+The competitive advantage isn't the individual agent. It's the coordination layer.
+
+This is the pattern I keep seeing across every high-performing AI implementation in 2026: it's not one smart agent. It's a well-designed system of agents with clear roles and a coordinator that synthesizes.
+
+What's your team's code review bottleneck? There's probably an agent for that.

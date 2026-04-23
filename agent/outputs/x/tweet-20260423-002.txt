@@ -1,0 +1,21 @@
+Andrej Karpathy open-sourced something wild in March.
+
+A 630-line Python script. One AI agent. It:
+- Modifies its own training code
+- Runs experiments
+- Evaluates results
+- Iterates on what worked
+
+No human in the loop. Just the agent, running.
+
+In 2 days: 700 experiments. 20 optimizations discovered. 11% efficiency improvement.
+
+Think about what that number means. A team of ML researchers working a full year might run 700 experiments. The agent did it over a weekend.
+
+This isn't futurism. This is a script you can run right now.
+
+The pattern is clear: the agents that improve themselves will compound in capability faster than any human team can keep up with. Not because they're smarter. Because they don't stop.
+
+If you're building AI systems in 2026 and not thinking about self-improvement loops, you're designing for yesterday.
+
+What's the bottleneck in your workflow that a self-improving agent could eliminate first?

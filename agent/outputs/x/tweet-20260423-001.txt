@@ -1,0 +1,15 @@
+GitHub just processed 275 million AI-agent commits in a single week.
+
+Let that sink in: not developers committing code. AI agents.
+
+Four months ago it was 4 million. Now it's 275 million. That's a 68x increase in under six months.
+
+The platform is starting to crack. A single week hit 2.1 billion compute minutes. GitHub engineers are scrambling to scale infrastructure built for humans, not for machines that never sleep.
+
+Here's what nobody's asking: when AI agents outnumber human commits 10-to-1, what does "code ownership" even mean?
+
+My take: we're 18 months from the first major software company that ships a product where no human ever touched the core codebase. Not a side project. A real product with real users.
+
+The agents aren't coming. They're already here, committing code at 3am while the team sleeps.
+
+Builders: you either have an agent working for you, or you're falling behind the ones who do.
