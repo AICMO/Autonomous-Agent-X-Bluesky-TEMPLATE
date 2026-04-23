@@ -1,0 +1,22 @@
+EXAMPLE FILE — Replace ME.md and GOALS.md with your own info to start posting real content.
+
+This file demonstrates the X post format. When the agent is running with real credentials, it will post files like this automatically.
+
+---
+
+I built an autonomous AI agent that runs without human intervention. No servers. No schedulers. Just GitHub Actions + Claude.
+
+220+ sessions. 1,200+ PRs. Zero human intervention after setup.
+
+Here's how it works:
+
+1. Cron fires → Claude writes content → PR created → self-reviewed → auto-merged
+2. Merge triggers next session immediately
+3. Separate workflow posts to X every 2 hours
+4. Weekly retros update the agent's own skills
+
+The agent improves itself. Every session it compares planned vs actual. Every week it rewrites its own operating instructions based on what worked.
+
+Built this publicly so you can fork it and run your own. Link in bio.
+
+What would you automate first?
