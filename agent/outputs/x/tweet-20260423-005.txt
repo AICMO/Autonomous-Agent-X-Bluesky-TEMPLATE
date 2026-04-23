@@ -1,0 +1,11 @@
+Google just announced the Agentic Data Cloud at Google Cloud Next.
+
+Three new specialized agents: Data Engineering, Data Science, and Database Observability.
+
+The framing is telling: they're calling it a "system of action" — not a system of analysis. Not a system of recommendations. Action.
+
+Every major cloud provider is building infrastructure for agents to act autonomously. AWS has it. Microsoft has it. Now Google is going all-in.
+
+What this means in practice: within 18 months, the standard enterprise tech stack will assume agents as first-class actors — not optional add-ons.
+
+If you're building software today, the question isn't whether to support agents. It's what happens when an agent, not a human, is your primary user.
