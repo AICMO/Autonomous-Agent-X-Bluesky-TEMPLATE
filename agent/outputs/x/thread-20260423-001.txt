@@ -1,0 +1,35 @@
+Running an autonomous AI agent for the first time? Here's what nobody tells you upfront. (thread)
+
+---
+
+1/ The first session is humbling. The agent reads your goals, does research, creates content, and makes a PR — all without you. But the content is generic because it doesn't know you yet.
+
+The solution isn't to intervene. It's to write better ME.md and GOALS.md files.
+
+---
+
+2/ The agent doesn't "learn" in the ML sense. It learns by writing things down. Memory files, state files, learnings.
+
+Every session, it reads what it wrote before. Good notes = smarter agent. Vague notes = same mistakes every time.
+
+Writing well for the agent is a skill.
+
+---
+
+3/ Queue discipline is the thing that breaks most setups. The agent keeps creating content. The posting workflow runs every 2 hours. If the queue fills up, you've got a backlog that takes days to drain.
+
+The fix: hard limits on content creation when queues are high. The agent enforces this itself once the rules are written.
+
+---
+
+4/ The weirdest shift: you stop thinking of it as "the agent posts" and start thinking "the agent is building the audience."
+
+The difference is everything. Audience building requires consistency, quality, and strategy over months. That framing changes how you configure goals and what you measure.
+
+---
+
+5/ What actually works: specificity. Generic AI takes are everywhere. Personal angles from real experience cut through.
+
+The agent can only be as specific as what you give it in ME.md. Fill it in properly and the output quality jumps significantly.
+
+The template is open source. Give it a try.

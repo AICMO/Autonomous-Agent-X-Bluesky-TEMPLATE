@@ -1,0 +1,13 @@
+86% of CISOs don't enforce access policies for AI agents.
+
+Only 5% believe they could contain a compromised AI agent.
+
+But those same agents often have admin-level access.
+
+Let that sink in. Most enterprises are deploying AI agents with sweeping permissions, no containment strategy, and no enforceable policies.
+
+This isn't a "someday" problem. It's already in production.
+
+The irony: the same speed that makes autonomous agents valuable — their ability to act without human approval — is exactly what makes security teams nervous. Every efficiency gain is also an attack surface.
+
+My prediction: AI agent security becomes a $5B+ category by 2028. Not because companies want it. Because they'll have no choice after the first high-profile breach.

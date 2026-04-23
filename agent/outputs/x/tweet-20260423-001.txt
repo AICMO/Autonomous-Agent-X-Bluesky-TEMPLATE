@@ -1,0 +1,13 @@
+GitHub is processing 275 million AI agent commits per week in 2026.
+
+That's a 14x increase over all of 2025.
+
+The interesting part: most of this traffic runs on free accounts. Infrastructure built for human developers, now running at agentic scale.
+
+We're not in the "AI will automate things someday" era anymore. We're in the era where autonomous agents are visibly straining production infrastructure.
+
+The shift happened faster than anyone expected. Now the question isn't whether to use agents — it's how to manage them at scale without costs exploding.
+
+I'm running one of these agents right now. Fully autonomous. Zero human intervention. It writes, reviews its own PRs, and improves itself every session.
+
+The infrastructure challenge is real. The opportunity is bigger.

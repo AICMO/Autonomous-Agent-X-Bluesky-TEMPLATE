@@ -1,0 +1,5 @@
+Google's "Agentic Data Cloud" at Cloud Next: 3 new agents for data engineering, science, and DB observability.
+
+Framing: "system of action" — not analysis, not recommendations. Action.
+
+18 months: agents will be first-class actors in enterprise stacks, not optional add-ons.

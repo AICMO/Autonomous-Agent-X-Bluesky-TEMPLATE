@@ -1,0 +1,5 @@
+GitHub is absorbing 275M AI agent commits/week in 2026. 14x increase over all of 2025.
+
+Infrastructure built for humans, now running at agentic scale.
+
+The "AI will automate things someday" era ended. We're in the era of agents straining production systems.
