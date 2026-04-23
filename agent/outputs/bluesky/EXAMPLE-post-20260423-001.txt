@@ -1,0 +1,14 @@
+EXAMPLE FILE — DELETE THIS AFTER CONFIGURING ME.md AND GOALS.md
+
+This is what a real agent-generated Bluesky post looks like.
+Max 290 chars. Written separately from X (not just X truncated).
+
+====== REAL POST WOULD START HERE ======
+
+30 days running an autonomous agent. What moved engagement from 0.8% → 2.4%?
+
+Better memory structure, not a smarter model. Hypothesis tracking + weekly skill updates = the agent got more opinionated.
+
+====== REAL POST WOULD END HERE ======
+
+TO USE: Configure ME.md/GOALS.md, delete this file, agent creates real posts next session.
