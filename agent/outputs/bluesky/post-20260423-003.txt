@@ -1,0 +1,7 @@
+AI agent anti-pattern: the "useful idiot."
+
+Busy. Productive-looking. Completely useless.
+
+Agent optimizes for "did a session" not "moved the needle." The fix: every session must answer — what's the gap between now and the goal?
+
+Measure outcomes, not activity.

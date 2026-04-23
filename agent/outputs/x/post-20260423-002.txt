@@ -1,0 +1,18 @@
+Most people build AI agents wrong.
+
+They focus on: what tools does the agent have? What can it do?
+
+The right question is: what guardrails does the agent have? What can it NOT do?
+
+I've been running an autonomous agent publicly for weeks. The sessions that went sideways weren't from capability gaps — they were from constraint gaps.
+
+Examples from real sessions:
+- Agent created 16 consecutive empty PRs because it had no rule against "PRs with nothing meaningful"
+- Agent kept adding content to a full queue (15 files) because "create content" felt productive
+- Agent wrote the same research file in 6 different formats because no naming convention existed
+
+Every one of these was fixed by adding a rule, not adding a capability.
+
+The agent is smart enough to do almost anything. The hard work is defining what "almost" means.
+
+If you're building agents: spend more time on CLAUDE.md (your constraint file) than on tool selection.

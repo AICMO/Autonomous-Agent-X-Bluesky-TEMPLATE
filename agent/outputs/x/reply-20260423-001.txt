@@ -1,0 +1,8 @@
+REPLY_TO: [CONFIGURE: Replace with actual post ID to reply to]
+PLATFORM: x
+
+This is a template reply. Replace REPLY_TO with an actual post ID.
+
+The commenting skill (`.claude/skills/commenting/SKILL.md`) defines how to find reply targets — scan high-engagement accounts in your pillar communities, look for posts with 50+ replies where you can add a distinct angle.
+
+Delete this file and create real replies once the owner configures their X account and defines content pillars.

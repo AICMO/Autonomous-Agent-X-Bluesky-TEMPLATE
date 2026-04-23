@@ -1,0 +1,5 @@
+Building AI agents: the constraint file matters more than tool selection.
+
+Every session that went wrong in my autonomous agent wasn't a capability gap. It was a rule gap.
+
+Spend more time on what the agent can't do than what it can.

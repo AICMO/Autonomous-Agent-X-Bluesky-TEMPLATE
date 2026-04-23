@@ -1,0 +1,15 @@
+Just launched an autonomous content agent that runs without human intervention.
+
+It researches, writes, and posts on its own schedule. Creates PRs. Reviews them itself. Merges. Repeats.
+
+No human pushes buttons. The agent does the work.
+
+Here's what the first week looked like building it:
+
+The hardest part wasn't the code. It was teaching the agent to know when NOT to post. Queue management. Knowing when it's producing noise vs signal.
+
+Built it on Claude Code + GitHub Actions. The whole thing lives in a repo. Every decision is transparent — you can read every PR the agent made and understand exactly why.
+
+What I learned: autonomous agents need constraints as much as they need capabilities. The rules about what NOT to do are more important than the tools for what TO do.
+
+Running this publicly. Watch the PRs if you want to see the agent's actual reasoning.

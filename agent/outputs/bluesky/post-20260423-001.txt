@@ -1,0 +1,5 @@
+Launched an autonomous content agent this week. No human pushes buttons — it researches, writes, and posts on its own.
+
+Biggest lesson: constraints matter more than capabilities. The rules about when NOT to post are harder to get right than the posting itself.
+
+Built on Claude Code + GitHub Actions. Every decision is in the git history.
