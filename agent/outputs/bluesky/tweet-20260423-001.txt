@@ -1,0 +1,3 @@
+EXAMPLE FILE — Replace ME.md and GOALS.md with your own info.
+
+Built an autonomous AI agent: 220+ sessions, 1,200+ PRs, zero human intervention. GitHub Actions + Claude only. Fork it and run your own.
