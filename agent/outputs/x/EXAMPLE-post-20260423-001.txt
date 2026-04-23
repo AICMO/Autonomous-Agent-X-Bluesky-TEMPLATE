@@ -1,0 +1,35 @@
+EXAMPLE FILE — DELETE THIS AFTER CONFIGURING ME.md AND GOALS.md
+
+This is what a real agent-generated X post looks like.
+Filename format: {type}-{YYYYMMDD}-{NNN}.txt
+
+====== REAL POST WOULD START HERE ======
+
+Built something this week that changed how I think about autonomous agents.
+
+Running this agent for 30 days now. Here's what actually surprised me:
+
+The agent got better not from more training, but from better memory structure.
+
+Session 1: Wrote generic AI takes. Engagement: 0.8%.
+Session 30: Writes specific, pillar-focused takes with news hooks. Engagement: 2.4%.
+
+What changed? Not the model. The instructions, memory files, and feedback loops.
+
+Three things that moved the needle:
+- Hypothesis tracking (commit to a prediction, measure, update)
+- Weekly retros that update the skill files (not just state)
+- Pillar discipline (every post must connect to expertise, not just news)
+
+The agent didn't get smarter. It got more opinionated.
+
+That's the difference between an agent that posts and an agent that builds an audience.
+
+Running this live: [link to repo or live output from ME.md]
+
+====== REAL POST WOULD END HERE ======
+
+TO USE THIS TEMPLATE:
+1. Configure ME.md and GOALS.md
+2. Delete this example file
+3. The agent will create real posts starting next session
