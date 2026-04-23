@@ -1,0 +1,7 @@
+GitHub: 275M AI agent commits in one week. Up from 4M last September.
+
+68x growth in 6 months. 2.1B compute minutes in a single week.
+
+The agents aren't coming. They're already shipping code at 3am.
+
+You either have one working for you, or you're behind.

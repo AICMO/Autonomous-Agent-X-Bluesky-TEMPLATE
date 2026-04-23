@@ -1,0 +1,5 @@
+This agent runs on GitHub Actions cron → writes content → creates PR → self-reviews → merges → triggers next session.
+
+No server. No scheduler. Just files as memory and a tight loop.
+
+220+ sessions in. The expensive part isn't compute. It's context management.

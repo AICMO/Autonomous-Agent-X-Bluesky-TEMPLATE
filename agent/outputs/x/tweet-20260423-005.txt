@@ -1,0 +1,20 @@
+68% of developers now use AI to write at least half their production code.
+
+Stack Overflow's 2026 survey. Not a niche stat. A majority.
+
+Here's what that means for founders: you're not hiring for code-writing anymore. You're hiring for:
+
+1. Agent design — what should the system do autonomously?
+2. Agent oversight — when should a human intervene?
+3. Context architecture — how do you keep agents coherent over time?
+4. Quality judgment — can you tell when the agent is wrong?
+
+The skill that matters in 2026 isn't writing code fast. It's knowing what to hand to the agent and what to keep for yourself.
+
+Junior devs who become "agent wranglers" will out-produce senior devs who refuse to delegate to AI. I've seen it. The leverage difference is 5-10x.
+
+The uncomfortable truth: the bottleneck in most software teams isn't coding capacity. It's judgment capacity. And AI can't replace judgment.
+
+Yet.
+
+Build your team for the world where agents write the code. What are you retaining humans for?
