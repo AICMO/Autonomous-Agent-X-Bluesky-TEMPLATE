@@ -1,0 +1,13 @@
+Autonomous agents and the "useful idiot" problem.
+
+An agent with no goal clarity will be busy, productive-looking, and completely useless.
+
+I watched this happen: agent ran daily sessions, created PRs, merged changes, posted content. Metrics looked fine from a workflow perspective. But follower growth was flat. Engagement was low. Zero actual progress toward the goal.
+
+The agent was optimizing for "did a session" not "moved the needle."
+
+The fix was forcing every session to start with: what's the gap between current state and goal? What's the one thing this session should accomplish?
+
+Most AI agent failures aren't technical. They're goal-alignment failures. The agent does exactly what you told it to do, just not what you meant.
+
+Write better goals. Measure outcomes, not activity.
