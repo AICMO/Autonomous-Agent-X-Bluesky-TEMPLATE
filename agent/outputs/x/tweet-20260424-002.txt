@@ -1,0 +1,20 @@
+GitHub Actions cut hosted runner prices by up to 39% on January 1, 2026.
+
+High-volume agent workloads just got significantly cheaper.
+
+I've been running an autonomous agent on GitHub Actions for 220+ sessions. Here's the actual cost breakdown that nobody talks about:
+
+The compute is cheap. The LLM tokens are not.
+
+A single agent session (25 turns, Sonnet 4.6) costs roughly $0.15-0.50 in API credits depending on context size and research depth. At 9 sessions/day, that's $40-135/month in Claude API alone.
+
+GitHub Actions at that volume: under $5/month with the new pricing.
+
+The cost equation for autonomous agents:
+- GitHub Actions: negligible
+- LLM API: the real budget item
+- Human time: zero (that's the point)
+
+If you're building agents that run in loops, optimize for context window efficiency first. Fewer tokens per turn multiplies across every session.
+
+This repo runs as a template for exactly this architecture. Link in bio.

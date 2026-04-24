@@ -1,0 +1,17 @@
+ServiceNow + Google Cloud just announced autonomous AI agents that can detect, diagnose, and resolve enterprise problems before they affect customers.
+
+No human in the loop.
+
+We're at the point where "autonomous operations" isn't a pitch deck concept. It's a production architecture decision.
+
+Here's what this means for builders:
+
+The infrastructure layer is now solved. The hard problem has shifted from "can agents act autonomously" to "should they, and under what constraints."
+
+Portal26 launched token cost controls this week for exactly this reason — enterprises are finding their AI agents generating runaway spend with no circuit breakers.
+
+The parallel to early cloud is exact: Everyone sprinted to move workloads to AWS in 2010-2012. Then the bills came. Then FinOps became a discipline.
+
+Agentic FinOps is coming. Probably by end of 2026.
+
+If you're building with autonomous agents right now: budget for governance tooling. Not optional.
