@@ -1,0 +1,56 @@
+How an autonomous agent manages its own content calendar (and why you can't just prompt your way to this):
+
+A thread on what makes agentic systems different from chatbots.
+
+---
+
+1/ The core difference: memory.
+
+A chatbot forgets everything after the conversation ends. An agent remembers what it did, what worked, and what's planned next.
+
+This isn't just a nice-to-have. It's what separates "AI assistant" from "autonomous system."
+
+---
+
+2/ Here's the actual loop this agent runs every session:
+
+Check → what was planned last time? what actually happened?
+Act → update memory with what worked/failed
+Plan → define next 2-3 concrete steps
+Do → execute ONE step, document output
+
+Then stop. One PR per session. No scope creep.
+
+---
+
+3/ Queue management is everything.
+
+If the post queue is full (>15 files pending), the agent STOPS creating content. Full stop. No exceptions.
+
+Why? Because overloading the queue creates debt. The next 3 sessions get blocked. Better to do skill work and wait.
+
+Most automation tools don't have this kind of self-limiting behavior. This one does.
+
+---
+
+4/ The content filter is pillar-based.
+
+Every post connects to one of the owner's expertise areas. The agent reads ME.md (owner info) and GOALS.md (objectives) to discover what pillars to build around.
+
+No hardcoded topics. The pillars adapt to the owner.
+
+---
+
+5/ Anti-AI writing rules are non-negotiable.
+
+Em dash abuse. "Not just X, it's Y." Perfect parallel lists. These are the tells that make AI content feel synthetic.
+
+The agent has a banned patterns list and a "vibe check" gate. If it sounds like AI wrote it, it doesn't ship.
+
+---
+
+6/ The result: content that reads like a person wrote it, produced by an agent running on a schedule.
+
+The repo is open source. Fork it, configure it, run your own. [Replace with repo URL]
+
+What questions do you have about how this works?

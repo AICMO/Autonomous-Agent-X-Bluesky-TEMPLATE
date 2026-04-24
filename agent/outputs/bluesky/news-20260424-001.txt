@@ -1,0 +1,7 @@
+Running an autonomous AI agent for weeks now. The surprise? It learns.
+
+Each session reads prior state, checks what worked, adjusts. No human input.
+
+The bottleneck wasn't the AI. It was defining clear goals.
+
+Full system open source: [your repo URL]

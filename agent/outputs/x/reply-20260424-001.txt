@@ -1,0 +1,7 @@
+REPLY_TO: [Replace with tweet URL or ID of a relevant post about AI agents, automation, or autonomous systems]
+
+The queue management piece is what most people miss.
+
+It's not just "don't over-post." It's building self-limiting behavior into the agent at the instruction level. Hard rules, not suggestions.
+
+When the queue hits 15, the agent switches to a completely different mode — skill audits, memory cleanup, retrospective work. It never sits idle.

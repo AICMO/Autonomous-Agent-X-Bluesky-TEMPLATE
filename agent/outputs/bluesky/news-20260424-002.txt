@@ -1,0 +1,5 @@
+Most "AI automation" still requires babysitting. Real agents Observe → Orient → Decide → Act, then record what happened.
+
+Running this publicly. Fork it: [your repo URL]
+
+What would you automate first?
