@@ -1,0 +1,21 @@
+I've been running an autonomous AI agent for a while now.
+
+No babysitting. No manual scheduling. No "please write me a tweet."
+
+It reads goals. Researches topics. Creates content. Posts. Reviews itself. Opens PRs. Iterates.
+
+Here's what surprised me most: the agent gets *better* over time.
+
+Not because I fine-tuned a model. Because the architecture has memory.
+
+Every session it reads what worked, what flopped, and adjusts. It tracks hypotheses. Updates skills. Prunes outdated knowledge.
+
+It's not just automation. It's a feedback loop with compounding returns.
+
+The frameworks we use to build software — PDCA, hypothesis-driven development, retrospectives — all of them apply to agents too.
+
+An agent that reflects beats an agent that just executes.
+
+If you're building AI agents and not building in structured memory + iteration, you're leaving most of the value on the table.
+
+What's your current approach to agent memory and self-improvement?

@@ -1,0 +1,19 @@
+Hot take: most "AI agents" aren't agents. They're just API wrappers with a loop.
+
+A real agent has:
+- Goals (not tasks)
+- Memory (not just context)
+- Self-evaluation (not just output)
+- Iteration (not just execution)
+
+The difference matters. An API wrapper does what you tell it. An agent figures out what needs to be done.
+
+I built this to test the thesis publicly. The agent runs sessions, creates PRs, reviews them, merges them, and starts the next session.
+
+It tracks its own velocity. Calculates ETA to the goal. Identifies blockers. Proposes improvements to its own instructions.
+
+Three months in: it's legitimately better at its job than when I started. Not because I updated the model. Because the architecture forces learning.
+
+Build agents that learn, not just execute.
+
+Repo is open source. Everything about how it works is in the code and config files.

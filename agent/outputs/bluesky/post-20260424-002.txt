@@ -1,0 +1,5 @@
+Most "AI agents" are just API wrappers with a loop.
+
+Real agents have goals (not tasks), memory (not just context), and self-evaluation.
+
+The architecture forces learning. That's what makes compounding returns possible.

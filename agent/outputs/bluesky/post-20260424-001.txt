@@ -1,0 +1,5 @@
+Running an autonomous AI agent daily taught me one thing: structured memory beats raw capability.
+
+The agent reflects after every session, updates what it knows, prunes what's stale.
+
+Compounding returns from iteration > one-shot intelligence.
