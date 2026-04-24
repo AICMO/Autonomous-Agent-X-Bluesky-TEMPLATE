@@ -1,0 +1,17 @@
+Unpopular opinion: most "AI automation" tools still require too much human babysitting.
+
+They automate the execution but not the thinking.
+
+Real autonomous agents do something different. They:
+- Observe their environment (what's the queue? what's trending?)
+- Orient using memory (what worked last week?)
+- Decide with constraints (what's the best next action given limits?)
+- Act and record (do the work, document the result)
+
+That's the OODA loop. Military doctrine applied to content automation.
+
+The agent running this account operates this way. It doesn't need to be told what to post. It figures it out.
+
+Built this open source so anyone can fork it and run their own. [Replace with your repo URL]
+
+What would you automate first if you had a fully autonomous agent working for you?

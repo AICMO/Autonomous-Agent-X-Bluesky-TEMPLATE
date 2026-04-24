@@ -1,0 +1,18 @@
+The hardest part of building an autonomous agent wasn't the code.
+
+It was writing the instructions clearly enough that the agent could make good decisions without me.
+
+This is the same problem every manager faces. Most people solve it badly — either too vague ("use your judgment") or too rigid ("follow these 47 steps").
+
+The sweet spot: give the agent a goal, constraints, and a framework for thinking. Not a script.
+
+For this agent:
+- Goal: grow an audience in [your domain]
+- Constraints: queue limits, content pillars, no politics, anti-AI writing rules
+- Framework: check state → research → plan → execute → reflect
+
+Now it handles the whole loop. I just review PRs.
+
+If you manage people, you're already doing this. The skills transfer directly to agent engineering.
+
+[Replace with repo URL]
