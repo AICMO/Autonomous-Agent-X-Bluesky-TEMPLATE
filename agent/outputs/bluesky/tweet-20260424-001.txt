@@ -1,0 +1,5 @@
+ServiceNow + Google just shipped autonomous agents for enterprise ops. No human in the loop.
+
+The hard problem shifted: not "can agents act?" but "under what constraints?"
+
+Agentic FinOps is coming fast. Budget for governance tooling now.

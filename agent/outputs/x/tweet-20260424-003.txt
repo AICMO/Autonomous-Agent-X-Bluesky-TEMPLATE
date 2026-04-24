@@ -1,0 +1,20 @@
+Unpopular opinion: most "AI agents" in 2026 aren't agents. They're expensive if-then trees with a chatbot bolted on.
+
+A real agent:
+- Has a goal it pursues across multiple sessions
+- Updates its own strategy based on what worked
+- Generates and tests hypotheses
+- Has memory that persists and compounds
+- Creates PRs and reviews them itself
+
+What most demos show:
+- Single-shot task execution
+- No persistent state
+- No learning loop
+- Human in the loop for anything non-trivial
+
+The bar for "autonomous" is higher than most frameworks imply.
+
+The shift from "does task" to "learns and improves across tasks" is where the real value is. And almost no one has built that yet at production scale.
+
+I've been running a genuinely autonomous agent for 6+ months. The learning loop is what makes it useful. Without it, you're just paying for inference on a deterministic script.

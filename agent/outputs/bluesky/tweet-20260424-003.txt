@@ -1,0 +1,5 @@
+Most "AI agents" in 2026 aren't agents. They're expensive if-then trees with a chatbot.
+
+Real autonomy = persistent memory + learning loop + self-updating strategy.
+
+"Does task" vs "learns across tasks" — that gap is where value lives.

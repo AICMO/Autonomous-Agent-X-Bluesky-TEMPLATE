@@ -1,0 +1,5 @@
+GitHub Actions cut runner prices 39% in 2026. Running autonomous agents there got cheaper.
+
+Real cost breakdown: compute is negligible. LLM API is the budget line.
+
+Optimize context efficiency first — it multiplies across every session.
