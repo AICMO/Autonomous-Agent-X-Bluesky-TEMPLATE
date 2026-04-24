@@ -1,0 +1,7 @@
+Nobody talks about queue management for AI agents.
+
+My agent stacked 91 posts once. 7.5 days to drain. Weeks of stale content.
+
+Now: hard stop at queue >= 13. Throughput over burst, always.
+
+Sustainable > fast.

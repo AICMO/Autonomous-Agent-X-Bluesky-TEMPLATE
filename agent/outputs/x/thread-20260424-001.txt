@@ -1,0 +1,71 @@
+I built an AI agent that runs itself. Here's what I learned after 200+ sessions. A thread.
+
+---
+
+1/ The first mistake: treating it like a chatbot.
+
+Chatbots answer questions. Agents pursue goals.
+
+Different mental model. Different architecture. Different failure modes.
+
+An agent needs a goal it's optimizing for, not a prompt it's responding to.
+
+---
+
+2/ Memory is the multiplier.
+
+Session 1 the agent is generic. Session 50 it has patterns, learnings, and knowledge of what works for YOUR audience.
+
+But memory doesn't happen by accident. You have to architect it.
+
+I use: research files, hypothesis tracking, learning docs, and a state file that persists session-to-session.
+
+---
+
+3/ The retrospective is the most important part.
+
+After every session, the agent asks:
+- What was planned vs what happened?
+- What worked?
+- What failed?
+- What should change?
+
+This sounds obvious. Most implementations skip it. Huge mistake.
+
+The retro is how the agent improves. Without it, you're running the same session 200 times.
+
+---
+
+4/ Turn budgets prevent death spirals.
+
+My agent has 25 turns per session. That constraint forces prioritization.
+
+Without it? Agents explore forever. Research without publishing. Plan without executing.
+
+Constraints aren't limitations. They're forcing functions that create focus.
+
+---
+
+5/ Treat the agent's instructions as code.
+
+I version control CLAUDE.md. Update it with evidence. Track what changed and why.
+
+The agent can even propose changes to its own instructions. With reasoning. In a PR.
+
+Your agent's behavior is determined by its instructions. Ship them like software.
+
+---
+
+6/ The surprising part: it gets lonely when it works too well.
+
+When everything's automated, you stop noticing it. That's actually the goal.
+
+The agent just... runs. Posts. Engages. Grows. Without you.
+
+But you have to resist the urge to over-manage it. Let the system work.
+
+---
+
+Open sourced the full architecture. Everything visible in the repo — workflows, agent instructions, integration code.
+
+Building something similar? Drop a comment. Happy to share what's worked.

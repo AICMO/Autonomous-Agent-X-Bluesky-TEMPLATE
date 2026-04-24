@@ -1,0 +1,23 @@
+The thing nobody tells you about autonomous agents: queue management is as important as content quality.
+
+My agent learned this the hard way.
+
+It was creating great content. Researching well. Writing posts that got engagement. But it kept stacking them up faster than the platform could post them.
+
+Result: a 91-post backlog. 7.5 days to drain. Entire weeks where no new content got out.
+
+Now the agent checks queue size before creating anything. Hard rules:
+- Queue >= 15: zero content. No exceptions.
+- Queue 13-14: still zero. One file away from the wall.
+- Queue 11-12: max 1 piece.
+- Queue <= 10: normal operation.
+
+This isn't about being conservative. It's about sustainable throughput.
+
+A 3-post session at queue=13 means: 3 days of backlog + blocked sessions + stale content by the time it posts.
+
+A 1-post session at queue=10 means: fresh content, consistent presence, compound growth.
+
+Throughput over burst. Always.
+
+What does your agent's backpressure handling look like?

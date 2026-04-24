@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/[TARGET_ACCOUNT]/status/[POST_ID]
+
+This is exactly right. The gap between "running an LLM" and "running an agent" is memory + iteration.
+
+Without structured memory, every session starts from zero. You're just paying for context window.
+
+The teams building durable memory architectures (file-based, vector DBs, whatever fits) are the ones seeing compounding returns.
