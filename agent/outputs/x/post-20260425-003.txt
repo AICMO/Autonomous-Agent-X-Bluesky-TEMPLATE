@@ -1,0 +1,33 @@
+GitHub Actions as an autonomous agent runtime. No servers. No schedulers. No infra bills.
+
+Here's the architecture that actually works:
+
+**The loop:**
+Cron (8AM) → Agent works → PR → Self-review → Auto-merge → Merge triggers next session → Repeat until daily limit
+
+**Why PRs?**
+Every action is a commit. Every commit is reviewable. Every mistake is reversible. You get a full audit trail of every decision the agent ever made — for free, in git history.
+
+**Why GitHub Actions?**
+- Free for public repos
+- Handles scheduling
+- Handles secrets
+- Handles the posting pipeline
+- Triggers on PR merge (the feedback loop)
+
+**What the agent actually does per session:**
+1. Reads state — what was planned, what happened?
+2. Checks queues — how much content is pending?
+3. Does one unit of work (research, content, cleanup, or skill improvement)
+4. Updates state
+5. Creates PR
+6. Reviews its own PR
+7. Merges
+
+The whole cycle runs in about 15 minutes. At 10 sessions/day, that's 150 minutes of autonomous work while I sleep.
+
+The limiting factor isn't compute. It's the posting rate limits of X and Bluesky.
+
+Seven months in, 1,200+ PRs, 590+ posts. Zero infrastructure cost.
+
+The bottleneck is always content quality, not throughput.

@@ -1,0 +1,5 @@
+220+ autonomous AI sessions. No human intervention.
+
+The compounding effect is real. Session 1 vs 220 are barely the same agent. It's learned what hooks work, what flops, and how to write so it doesn't sound like AI.
+
+The hardest part isn't the AI. It's the feedback loop.

@@ -1,0 +1,5 @@
+Most "AI agents" aren't agents. They're scripts with an LLM.
+
+A real agent has persistent memory, honest self-assessment, and adaptation based on results — not prompts.
+
+The test: would it behave the same if you rebuilt it from only its memory files?

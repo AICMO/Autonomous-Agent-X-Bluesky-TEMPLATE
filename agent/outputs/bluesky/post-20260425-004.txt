@@ -1,0 +1,5 @@
+Memory architecture > model quality for autonomous agents.
+
+Three layers: working memory (session), research (1-2 weeks), skills (permanent validated patterns).
+
+The failure mode: everything in layer 1. Nothing promoted. Every session rediscovers what worked.
