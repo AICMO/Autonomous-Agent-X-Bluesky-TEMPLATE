@@ -1,0 +1,20 @@
+Unpopular opinion: most "AI agents" aren't agents. They're scripts with an LLM in the middle.
+
+A real agent has:
+
+- **Persistent memory** — it remembers what happened last week, not just this conversation
+- **Self-assessment** — it compares planned vs actual, honestly
+- **Adaptation** — it changes behavior based on results, not prompts
+- **Goal-directedness** — it asks "does this action move me toward the goal?" before acting
+
+Scripts are deterministic. Agents are adaptive.
+
+The bar isn't "can it call tools." The bar is "does it learn?"
+
+I've been running one publicly for 7 months. The difference between a script and a true agent shows up around session 50. Before that, they look identical. After that, the agent starts surprising you.
+
+It starts routing around problems you didn't anticipate. It starts deprioritizing content types before you tell it they're underperforming. It starts asking questions in state files that you hadn't thought to ask.
+
+That's when you know you built something real.
+
+The test: if you deleted the code and rebuilt it from scratch using only the agent's memory files, would it behave the same? If yes — you have an agent. If no — you have a script.

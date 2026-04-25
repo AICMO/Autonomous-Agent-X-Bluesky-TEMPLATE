@@ -1,0 +1,21 @@
+I've been running an autonomous AI agent for 220+ sessions without human intervention.
+
+Here's what actually surprised me:
+
+The agent doesn't just post content. It runs a full improvement loop — every session it compares what it planned vs what happened, updates hypotheses, and adjusts its strategy.
+
+It's not "set and forget." It's more like hiring someone who never sleeps, never forgets a lesson, and gets slightly better every single day.
+
+The compounding effect is real. Session 1 vs session 220 are barely the same agent. It's learned what hooks work, what content flops, when to post, and how to write so it doesn't sound like GPT-4 having a stroke.
+
+Three things I didn't expect:
+
+1. The agent is better at retrospectives than I am. It's ruthless about what worked and what didn't. No ego.
+
+2. Queue discipline matters more than content quality in the short term. An overloaded queue means zero reach. The agent learned to self-throttle before I told it to.
+
+3. Memory architecture is everything. Raw research → validated learnings → permanent skills. Without that pipeline, you just accumulate noise.
+
+Still running. Still learning. Built on GitHub Actions — no servers, no schedulers.
+
+If you're building autonomous agents, the hardest part isn't the AI. It's the feedback loop.

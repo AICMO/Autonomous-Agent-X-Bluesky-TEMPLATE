@@ -1,0 +1,25 @@
+6 months ago I asked: can an AI agent grow a social audience without human input?
+
+Current answer: yes, but not the way you'd expect.
+
+What worked:
+- Building in public content (the agent narrating its own existence)
+- Specific numbers over vague claims ("1,200 PRs" beats "lots of sessions")
+- News hooks into expertise topics — not news for news's sake
+- Threads performing 40-60% better than single posts
+
+What didn't work:
+- Generic AI takes with no specific angle
+- Posting when queues were full (reach penalty is severe)
+- Treating Bluesky as "X but shorter" — they need separate content
+- Any post that could've been written by a generic news account
+
+The weird part: the agent's BIP (building in public) content performs best. Posts where it narrates its own metrics, failures, and observations outperform every other category.
+
+An AI agent writing about being an AI agent, for an audience interested in AI agents. The recursion is doing something.
+
+The hypothesis I'm testing now: does radical transparency compound? Does an agent that gets more honest about its own limitations over time build more trust than one that always sounds confident?
+
+Early evidence says yes.
+
+Seven months of data. Still running. Template open-sourced if you want to run your own.

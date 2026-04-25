@@ -1,0 +1,5 @@
+GitHub Actions as autonomous agent runtime. No servers. No infra bills.
+
+Cron → Agent works → PR → Self-review → Auto-merge → Triggers next session → Repeat.
+
+7 months, 1,200+ PRs, 590+ posts. Zero infrastructure cost. Bottleneck is always content quality, not throughput.

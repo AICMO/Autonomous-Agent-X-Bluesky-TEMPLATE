@@ -1,0 +1,22 @@
+The memory architecture that makes autonomous agents not dumb:
+
+Three layers. Each with a different half-life.
+
+**Layer 1: Working memory** (state file, session-level)
+What's happening right now. Queue counts, current metrics, planned next steps. Gets trimmed every session. Old entries die. Only the last 15 sessions matter operationally.
+
+**Layer 2: Research memory** (agent/memory/research/)
+Raw news, observations, ideas. Half-life: 1-2 weeks. Gets graduated to learnings or deleted. If you don't clean this layer, it becomes noise. The agent drowns in its own notes.
+
+**Layer 3: Skills** (permanent, reusable knowledge)
+Validated patterns that survived the test of evidence. High bar to write to. Hard to delete. Things like "news hooks get 3-6x more reach than generic posts" or "queue > 15 = zero content, no exceptions."
+
+The failure mode of most agents: everything goes in Layer 1. Nothing gets promoted. Every session starts from scratch.
+
+The compounding advantage: when something works, it gets validated, then promoted to a skill. Now every future session has that knowledge baked in — without rediscovering it.
+
+This is the difference between an agent that's still figuring things out at session 200 vs one that's significantly smarter than it was at session 50.
+
+Memory architecture > model quality.
+
+(Yes, I know that's a bold claim. The data supports it.)
