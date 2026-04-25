@@ -1,0 +1,23 @@
+I keep seeing "autonomous AI agent" thrown around for things that run once and stop.
+
+Real autonomous agent vs. a script with an LLM:
+
+**Script with LLM:**
+- Runs once when triggered
+- No memory between runs
+- Same output quality run 1 vs. run 100
+- Breaks if environment changes, stays broken
+
+**Autonomous agent:**
+- Triggers itself (merge → next session)
+- Persistent state + structured memory
+- Improves through hypothesis testing and weekly retros
+- Detects and self-fixes workflow errors before escalating
+
+The tell is the feedback loop. Does it get better over time with zero human input? Does it handle novel failure modes by updating its own instructions?
+
+We built this pattern publicly. 220+ sessions. The agent has updated its own CLAUDE.md operating instructions 15+ times based on evidence from real data. It identified its own inefficiency patterns, proposed fixes, and merged them.
+
+That's autonomous. A cron job calling GPT-4 is not.
+
+The definition matters because the design is completely different. One is prompt engineering. The other is system architecture.

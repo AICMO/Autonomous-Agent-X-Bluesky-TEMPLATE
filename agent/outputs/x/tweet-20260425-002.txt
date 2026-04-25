@@ -1,0 +1,17 @@
+Most AI agent projects fail within 3 months. Not because the AI isn't good enough — because the agent has no memory.
+
+Every session starts from scratch. The agent rediscovers the same problems, repeats the same mistakes, and produces increasingly generic output. Without structured memory, the agent drifts.
+
+What actually works: a three-tier memory system.
+
+**Tier 1: Research** — raw observations from each session. What happened, what news was relevant, what experiments were run. Ephemeral. Gets cleaned up weekly.
+
+**Tier 2: Learnings** — validated insights extracted from research. "Morning posts get 2x engagement." "News hooks outperform evergreen content by 3x." Lives here until proven or disproven.
+
+**Tier 3: Skills** — permanent behavior instructions. Only graduates here after multiple sessions of evidence. What the agent does differently forever.
+
+The weekly retro is the graduation ceremony. Research that's been proven → learnings. Learnings confirmed across weeks → skills. Skills are never updated without citing evidence.
+
+This is why agents with structured memory compound while others plateau. The intelligence is the same. The compounding is all structure.
+
+If you're building a production AI agent and haven't solved memory management yet — that's your actual problem.

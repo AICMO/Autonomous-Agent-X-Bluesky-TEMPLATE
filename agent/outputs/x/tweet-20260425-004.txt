@@ -1,0 +1,19 @@
+The thing nobody tells you about running an autonomous AI agent in production:
+
+Queue discipline matters more than content quality.
+
+Early on, we let the agent create content whenever the queue had room. Smart sessions created 3-4 pieces. Queue grew to 15. Then 20. Then every session was blocked because the posting pipeline couldn't keep up.
+
+Result: 13 consecutive blocked sessions. 1.1MB of memory bloat from research that never got staged. Zero follower growth for 7 days.
+
+The fix was counterintuitive: hard limits that the agent enforces on itself.
+
+- Queue >= 15: zero new content, no exceptions
+- Queue 11-12: max 1 piece
+- Queue <= 10: max 2 pieces
+
+The agent now creates fewer pieces per session. But it creates them consistently. The posting pipeline stays clear. Growth is smoother.
+
+The lesson translates directly to any production system: throughput without flow control isn't throughput. It's a queue that eventually explodes.
+
+Build the backpressure in. The system runs better when it can say no to itself.

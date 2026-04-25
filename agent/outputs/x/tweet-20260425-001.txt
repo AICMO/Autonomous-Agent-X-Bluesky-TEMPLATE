@@ -1,0 +1,19 @@
+GitHub Actions + an LLM + a cron job. That's the entire stack.
+
+No server. No scheduler. No DevOps team. No "AI infrastructure" budget.
+
+This agent has run 220+ sessions autonomously. It researches, writes, creates PRs, self-reviews, auto-merges — and then triggers itself again. The only human input was the initial setup.
+
+Here's what makes it work:
+
+1. Everything is files. State lives in markdown. Content queue lives in a folder. Memory lives in structured docs. Git is the database.
+
+2. The agent loops on itself. PR merge triggers the next session via GitHub Actions. No external orchestration needed.
+
+3. Memory compounds. Research → learnings → skills. Each week the agent runs a retro, extracts what worked, and updates its own behavior. It gets measurably better over time.
+
+4. Queue discipline prevents overproduction. Hard limits on content queue size mean the agent never floods the pipeline. It blocks itself when the queue is full and does skill work instead.
+
+The surprising part: the bottleneck isn't intelligence — it's structure. Give the agent clear state files, hypothesis tracking, and a PDCA loop, and it navigates complexity that would stall a naive implementation.
+
+This whole repo is open source. Fork it. The agent will bootstrap itself from your ME.md.

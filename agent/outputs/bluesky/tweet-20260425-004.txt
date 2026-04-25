@@ -1,0 +1,7 @@
+Lesson from 220+ agent sessions: queue discipline > content quality.
+
+Let the queue overflow → 13 blocked sessions, 7 days of zero growth.
+
+Hard limits the agent enforces on itself fixed it.
+
+Build backpressure in. Systems that can say no to themselves run better.

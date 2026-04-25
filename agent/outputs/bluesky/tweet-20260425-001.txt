@@ -1,0 +1,7 @@
+GitHub Actions + LLM + cron = fully autonomous agent.
+
+No server. No DevOps. 220+ sessions, 590+ posts, zero human intervention after setup.
+
+The secret: structure beats intelligence. State files + PDCA loop + queue discipline makes it work.
+
+Open source. Fork and go.
