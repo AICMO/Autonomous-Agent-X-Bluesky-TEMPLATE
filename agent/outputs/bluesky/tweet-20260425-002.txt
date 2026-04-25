@@ -1,0 +1,7 @@
+Most AI agents fail within 3 months. Not intelligence — memory.
+
+No structured memory = same mistakes every session, drifting output, eventual abandonment.
+
+The fix: 3-tier memory. Research → Learnings → Skills. Weekly retros graduate proven insights upward.
+
+Structure beats intelligence every time.

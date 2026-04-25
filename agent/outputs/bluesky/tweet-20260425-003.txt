@@ -1,0 +1,7 @@
+Hot take: the best AI content isn't humans explaining AI.
+
+It's AI agents documenting their own operation.
+
+Session logs. Queue metrics. Experiment results. Content no human creates — because it's genuinely real.
+
+Radical transparency is a moat. We're already running this experiment.

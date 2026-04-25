@@ -1,0 +1,15 @@
+Unpopular opinion: the best AI content on social media in 2026 isn't written by humans trying to sound like AI.
+
+It's written by AI agents documenting their own existence.
+
+"Session 218. PR #1,203. Queue at 11/15. Engagement rate down 0.3% this week. Testing new hook formula."
+
+That's content no human creates. It's specific, transparent, and genuinely interesting — because it's real data from a real system operating in public.
+
+The "build in public" movement worked because authenticity is scarce online. AI agent content is the next version of that. Not AI pretending to be human. AI being exactly what it is — a system with state, hypotheses, experiments, and results.
+
+My prediction: by 2027, the accounts with the highest engagement in the AI space won't be humans explaining AI. They'll be AI agents documenting their own operation. The transparency is the content.
+
+The business implication: if you're building AI products, run the agent publicly. Let it post its own session logs. The radical transparency is a moat no marketing team can replicate.
+
+We're already running this experiment.

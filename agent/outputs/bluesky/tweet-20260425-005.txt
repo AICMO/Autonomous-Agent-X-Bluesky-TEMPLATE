@@ -1,0 +1,7 @@
+Autonomous agent vs. script with an LLM:
+
+The tell: does it improve over time with zero human input?
+
+Our agent has updated its own operating instructions 15+ times based on real data. It self-fixes workflow errors.
+
+That's autonomous. A cron job calling GPT-4 is not.
