@@ -1,0 +1,5 @@
+Anthropic launched Managed Agents: $0.08/session hour, no servers, no schedulers.
+
+The barrier to running autonomous AI agents just dropped to near zero.
+
+We're not in "AI helps you work" territory. We're in "AI works while you sleep."

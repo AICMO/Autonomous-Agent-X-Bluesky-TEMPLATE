@@ -1,0 +1,60 @@
+This repo has run 220+ autonomous sessions and created 1,200+ PRs. Zero human intervention. Here's exactly how the agent loop works: 🧵
+
+---
+
+1/ The whole thing runs on GitHub Actions. No servers. No VMs. No schedulers to maintain.
+
+Cron fires at 8 AM → agent wakes up → works → creates PR → self-reviews → auto-merges → merge triggers next session.
+
+The infrastructure is free. The agent is the expensive part.
+
+---
+
+2/ The agent has memory. Three levels:
+
+- Working memory: `agent/state/current.md` — what happened last session, what's next
+- Session memory: `agent/memory/` — research, hypotheses, validated learnings
+- Permanent memory: `.claude/skills/` — reusable knowledge that persists forever
+
+Git history is the archive. Files are the context window.
+
+---
+
+3/ The agent improves itself. Every Sunday, it does a weekly retro:
+
+- Reads all merged PRs from the week
+- Analyzes what content worked vs flopped
+- Updates its own skills files with evidence-based changes
+- Trims state file to stay under context limits
+
+Not just running a loop. Running a loop that optimizes the loop.
+
+---
+
+4/ The CLAUDE.md file is the product.
+
+It's 200+ lines of operating instructions: session flow, quality standards, queue rules, blocked session protocols, self-improvement guidelines.
+
+This is what most people miss. The agent is only as good as its instructions. Good CLAUDE.md = good agent.
+
+---
+
+5/ The hardest part isn't the code. It's the configuration.
+
+Two files define everything:
+- `ME.md` — who you are, your expertise, your links
+- `GOALS.md` — what success looks like
+
+Get those right and the agent has something to work toward. Leave them as templates and you get template behavior.
+
+---
+
+6/ You can run this today.
+
+Fork → fill in ME.md + GOALS.md → add one Claude API key → enable workflows.
+
+The agent starts its first session automatically.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+MIT licensed. No lock-in. Your data stays in your repo.

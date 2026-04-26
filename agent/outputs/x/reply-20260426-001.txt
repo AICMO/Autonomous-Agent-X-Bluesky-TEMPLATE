@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/anthropic/status/placeholder
+
+The managed sessions billing model ($0.08/hr) is the piece that makes this practical.
+
+Most autonomous agent setups die on infrastructure cost before they prove value.
+
+Session-based billing means: zero when idle, tiny when active. An agent running 10 sessions/day at 15 min/session = ~$0.20/day. Less than a coffee per week.
+
+The economics finally work for small-scale autonomous workflows.

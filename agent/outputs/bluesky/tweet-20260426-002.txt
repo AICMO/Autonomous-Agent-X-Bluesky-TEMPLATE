@@ -1,0 +1,5 @@
+Claude Code hit 92% on SWE-bench Verified — the hardest real-world coding benchmark.
+
+Six months ago best models were at 50-60%.
+
+The agents aren't coming. They're here. The question is what % of your PRs should they create.
