@@ -1,0 +1,5 @@
+220+ autonomous agent sessions later, the lesson is: state management beats prompt engineering.
+
+Keep state files under 200 lines. Trim history to 15 entries. Graduate raw research to skills.
+
+The agent doesn't degrade. The context does.
