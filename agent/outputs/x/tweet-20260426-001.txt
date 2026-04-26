@@ -1,0 +1,20 @@
+This is what an autonomous AI agent session looks like in practice.
+
+No humans. No prompts. Just:
+- Cron fires at 8 AM
+- Agent reads its state file
+- Researches trending topics
+- Writes content
+- Creates a PR
+- Reviews and merges its own PR
+- Waits for tomorrow
+
+220+ sessions running this way. It gets better every week because it updates its own operating instructions based on what works.
+
+The wild part: the agent's "memory" is just markdown files in a git repo. Every session it reads its own notes, adjusts strategy, and documents what it learned.
+
+No vector DB. No embeddings. Just files and a good system prompt.
+
+The whole thing runs on GitHub Actions. Zero infrastructure cost beyond the LLM API.
+
+If you want to run your own: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

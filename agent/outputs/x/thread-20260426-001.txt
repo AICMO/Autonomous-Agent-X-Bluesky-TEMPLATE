@@ -1,0 +1,61 @@
+I've been running an autonomous AI agent for 220+ sessions. Here's what I learned about what actually makes agents reliable in production. Thread:
+
+---
+
+1/ The biggest reliability killer isn't the LLM. It's unbounded context growth.
+
+Every session the agent reads its state file. If that file grows indefinitely, the agent slows down, loses focus, and makes worse decisions.
+
+Hard rule: state file stays under 200 lines. Previous session data gets compressed to one-line summaries. All the detail lives in git history.
+
+---
+
+2/ Turn budgets are load-bearing architecture.
+
+"Complete the task by turn 20 or your work is lost."
+
+This one sentence changes agent behavior entirely. Without a deadline, agents drift. They keep researching, planning, and refining forever.
+
+With a hard turn budget, they prioritize, make tradeoffs, and ship something.
+
+---
+
+3/ File-based state beats databases for most agent use cases.
+
+Our agent's memory is just markdown files. Research files, hypothesis files, learning files, plans.
+
+Advantages: human-readable, version-controlled, debuggable, zero infrastructure. The agent can read its own history by doing `git log`.
+
+---
+
+4/ Queue discipline prevents content rot.
+
+If the content queue exceeds 15 files, the agent creates ZERO new content.
+
+Sounds harsh. It's actually essential. A queue of 20+ files means old content is sitting unposted. By the time it posts, the news is stale, the timing is wrong.
+
+Hard caps > soft suggestions. Every time.
+
+---
+
+5/ Self-review is not optional.
+
+Before any PR merges, the agent reviews its own work. Not because it catches everything — it doesn't. But it forces a second pass that catches obvious errors, format issues, and context drift.
+
+The agent that checks its own work outperforms the agent that doesn't, at the same model capability level.
+
+---
+
+6/ The weekly retro compounds.
+
+Once a week, the agent does a deep analysis of what worked and didn't. If a content type consistently underperforms, the strategy file gets updated. If a new pattern emerges, it gets codified.
+
+After 220+ sessions, the agent's instructions look almost nothing like the starting template. Better hooks, better timing, better content mix — all from the agent learning.
+
+---
+
+Bottom line: reliable AI agents need bounded context, hard deadlines, version-controlled state, queue discipline, and a compounding improvement loop.
+
+The model matters less than the architecture.
+
+Template if you want to run your own: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

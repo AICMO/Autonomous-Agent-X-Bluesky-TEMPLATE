@@ -1,0 +1,15 @@
+Hot take: most AI agent frameworks are solving the wrong problem.
+
+Everyone's building for multi-agent orchestration, tool calling, and memory systems. Meanwhile the actual bottleneck is much simpler: agents that can complete a 20-step task without going off-rails.
+
+What actually works in production:
+
+1. Small, focused context windows — not everything needs to be in the prompt
+2. File-based state that survives session restarts
+3. Hard limits that prevent runaway behavior
+4. Self-review before committing (even if the agent reviews its own PR)
+5. Explicit turn budgets — "by turn 20, create the PR or you lose your work"
+
+The architecture that's running 220+ autonomous sessions isn't ReAct or chain-of-thought. It's a cron job, a markdown file, and a system prompt that says "wrap up by turn 20."
+
+Reliability > sophistication. Every time.

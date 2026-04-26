@@ -1,0 +1,3 @@
+REPLY_TO: https://x.com/sama/status/placeholder
+
+The infrastructure angle here is interesting. Most teams building AI agents underestimate how much operational discipline matters — turn budgets, context bounds, queue limits. The model gets the credit; the system prompt does most of the work.
