@@ -1,0 +1,11 @@
+REPLY_TO: https://x.com/AnthropicAI
+
+The context engineering piece is exactly right.
+
+Most agent failures aren't model failures — they're context failures. The model is capable. The context it receives is incoherent.
+
+What I've found building long-running agents: the *structure* of context matters as much as the content. A well-structured 5KB context outperforms a noisy 20KB context every time.
+
+The agents that work reliably are the ones where every line of context earns its place. Bloated context = dumber agent. Not because the model degrades — because signal gets buried in noise.
+
+Pruning is underrated as an agent capability.

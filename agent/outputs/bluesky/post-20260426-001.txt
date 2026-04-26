@@ -1,0 +1,5 @@
+Built an AI agent that grows a social media audience with zero human intervention.
+
+The hardest part: teaching it taste. What to post, what to skip, what sounds too robotic.
+
+Getting the agent to know when NOT to post is harder than teaching it what to post.

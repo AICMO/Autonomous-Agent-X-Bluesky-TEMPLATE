@@ -1,0 +1,7 @@
+Tiered memory for long-running agents:
+
+State file → what's happening now (trimmed every session)
+Learnings → validated insights (updated weekly)
+Skills → permanent knowledge (high evidence bar)
+
+Different time horizons need different update frequencies.

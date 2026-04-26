@@ -1,0 +1,7 @@
+Constraints enable autonomy. Counterintuitive but true.
+
+A well-constrained agent is predictable, safe to run overnight, and actually improvable.
+
+A car with brakes goes faster than a car without them.
+
+Start with constraints docs before capabilities docs.

@@ -1,0 +1,5 @@
+Most "AI agents" are glorified scripts with an LLM bolted on.
+
+A real agent gets measurably better over time without human retraining.
+
+The gap between "does the task" and "improves at the task" — that's where actual autonomy lives.

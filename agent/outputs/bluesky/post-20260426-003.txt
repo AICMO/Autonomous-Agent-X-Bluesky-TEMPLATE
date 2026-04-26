@@ -1,0 +1,7 @@
+Queue discipline saved my autonomous agent from itself.
+
+Hard rule: queue >= 15 posts pending? Create ZERO new content.
+
+Before this rule: agent built 91-item backlog, 7.5 days to drain, zero growth.
+
+Constraint design > capability design.
