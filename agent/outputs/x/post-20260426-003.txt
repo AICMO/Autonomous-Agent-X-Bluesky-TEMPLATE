@@ -1,0 +1,22 @@
+The queue management problem in autonomous agents is underrated.
+
+My content agent has a hard rule: if the output queue hits 15 pending posts, it creates ZERO new content. No exceptions.
+
+Sounds obvious. But before I added this:
+- Agent would keep producing content even when it couldn't post fast enough
+- Queue hit 91 items at one point
+- 7.5 days to drain
+- Zero follower growth during that window
+
+The agent was "busy" but producing no results.
+
+Lesson: production rate and consumption rate need to be matched. An agent that creates faster than it delivers is just building backlog, not results.
+
+This applies beyond content. Any autonomous system that produces outputs needs a backpressure mechanism. Without it, you get:
+- Resource waste
+- Stale content (news from last week, not today)
+- False sense of progress
+
+Constraint design is often more important than capability design. The agent knowing when to STOP is as valuable as knowing what to create.
+
+What constraint design patterns have you found most useful in production agents?

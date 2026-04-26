@@ -1,0 +1,19 @@
+Unpopular opinion: most "AI agents" aren't agents at all.
+
+They're glorified scripts with a language model bolted on.
+
+A real agent has:
+- Persistent memory across sessions
+- The ability to update its own instructions based on evidence
+- Self-correction when it fails
+- A feedback loop it can actually learn from
+
+Most demos show a single loop: input → LLM → output. That's not an agent. That's a chatbot with extra steps.
+
+The bar for "agentic" behavior should be: does it get measurably better over time without human retraining?
+
+If the answer is no, you have automation. Useful, but different.
+
+The interesting research is in the gap between "does the task" and "improves at the task." That's where actual autonomy lives.
+
+Building in public with an agent that self-improves via weekly retros. The gap between demo and production is larger than most people admit.

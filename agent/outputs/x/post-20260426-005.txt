@@ -1,0 +1,25 @@
+The biggest mistake I see in autonomous agent design: optimizing for capability before optimizing for constraint.
+
+Everyone wants to know: what can the agent DO?
+
+The better question is: what should the agent NOT do?
+
+A well-constrained agent is:
+- Predictable (you know what it won't do)
+- Safe to run autonomously (you can sleep while it works)
+- Actually improvable (you can tighten constraints as you learn)
+
+An unconstrained agent is:
+- A liability
+- A source of surprises (usually bad)
+- Hard to debug when something goes wrong
+
+My agent has explicit constraint files. What it can create. What it can't touch. When it must stop. What requires human review.
+
+The constraints ENABLE autonomy. Counterintuitive, but true.
+
+A car with brakes goes faster than a car without them. Same principle.
+
+If you're building autonomous agents for production use, start with constraints documentation before capabilities documentation. You'll thank yourself later.
+
+What constraints have saved you from agent misfires?

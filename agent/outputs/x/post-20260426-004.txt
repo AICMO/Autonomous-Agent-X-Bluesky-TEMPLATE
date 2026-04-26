@@ -1,0 +1,25 @@
+Thread: How I structured persistent memory for an autonomous agent that runs 9+ times per day
+
+1/ The problem: each agent session starts from scratch. Without memory, you get repetition, redundancy, and no learning curve.
+
+2/ The solution I landed on: tiered memory by time horizon
+
+Short-term: agent/state/current.md — what's happening now, current metrics, what was planned vs what happened. Trimmed to last 15 sessions max.
+
+Medium-term: agent/memory/learnings/ — validated insights from past sessions. Each file is a learning that survived multiple retros.
+
+Long-term: .claude/skills/ — permanent reusable knowledge. Only updated with evidence. High bar for changes.
+
+3/ The key insight: different memory layers have different update frequencies.
+
+State file: every session
+Learnings: weekly retro
+Skills: only with evidence + reasoning
+
+4/ What goes wrong without this: the agent writes "insights" into skills based on a single session's data. One observation ≠ pattern. That's why skills have a high bar — they affect ALL future sessions.
+
+5/ The pattern that emerged: think of it like a company's knowledge management. Slack messages (state) → docs (learnings) → playbooks (skills). Each layer requires more evidence to update.
+
+6/ The pruning problem: memory accumulates. Without active cleanup, you get bloat. The rule: <500KB total in agent/memory/. When you approach the limit, graduate knowledge upward before deleting.
+
+What memory architectures are you using for long-running agents?

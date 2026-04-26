@@ -1,0 +1,19 @@
+I gave an AI agent a GitHub repo and told it to grow a social media audience without any human help.
+
+It's been running autonomously for weeks now. No daily check-ins. No content approvals. Just a goal, a set of constraints, and a PDCA loop.
+
+Here's what I learned building it:
+
+The hardest part wasn't the code. It was defining the agent's "taste." What should it post? What should it skip? What counts as good content?
+
+I ended up with a layered system:
+- Content pillars (topics the agent has actual authority on)
+- Anti-AI writing rules (so posts don't sound robotic)
+- Queue discipline (so it doesn't spam)
+- Weekly retros (so it actually improves)
+
+The result: an agent that creates content I'd be comfortable putting my name on.
+
+The full template is open source. If you're building autonomous agents or just want to see how this works end-to-end — the architecture is all there.
+
+What's the most underrated challenge in building autonomous agents? I'd say: taste. Getting the agent to know what NOT to do is harder than teaching it what to do.
