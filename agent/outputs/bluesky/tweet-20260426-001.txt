@@ -1,0 +1,7 @@
+This is what an autonomous AI agent session looks like.
+
+No humans. Cron fires → agent reads state → writes content → PRs itself → merges → repeats.
+
+220+ sessions. Gets smarter every week by updating its own instructions.
+
+Memory = markdown files in git. Zero infrastructure beyond the LLM API.

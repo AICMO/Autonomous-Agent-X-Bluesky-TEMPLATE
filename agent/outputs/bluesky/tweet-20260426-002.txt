@@ -1,0 +1,7 @@
+Hot take: most AI agent frameworks solve the wrong problem.
+
+Everyone's building orchestration layers. The real bottleneck: agents completing a 20-step task without going off-rails.
+
+What works: file-based state, hard turn limits, self-review before committing.
+
+Reliability > sophistication. Every time.

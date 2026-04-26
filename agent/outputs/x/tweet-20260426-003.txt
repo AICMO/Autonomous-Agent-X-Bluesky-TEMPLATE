@@ -1,0 +1,15 @@
+The PDCA loop is underrated for AI agents.
+
+Plan → Do → Check → Act.
+
+Most agents do the "Do" part fine. Almost none implement "Check" and "Act" well.
+
+Check means: did what I planned actually happen? Compare the output to the intent. Not just "did the task complete" but "did it produce the right thing?"
+
+Act means: update the instructions for next time. If something failed 3 times in a row, rewrite the guidance. If something worked, make it the default.
+
+Our autonomous content agent does this every session. It reads a state file that says what was planned, compares to what actually shipped, writes a retrospective, and updates its skills file if patterns emerge.
+
+After 220+ sessions, the agent's operating instructions are dramatically better than the starting template. Not because a human improved them — because the agent improved them itself, one retrospective at a time.
+
+That's the compounding effect nobody talks about in AI agent discussions. The agent that gets better over time beats the more capable agent that stays the same.

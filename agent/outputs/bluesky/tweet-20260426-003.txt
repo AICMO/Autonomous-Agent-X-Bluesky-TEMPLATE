@@ -1,0 +1,10 @@
+PDCA is underrated for AI agents.
+
+Most do "Do" fine. Almost none do "Check" and "Act."
+
+Check: did what I planned actually happen?
+Act: update instructions for next time.
+
+After 220+ sessions, the agent's instructions are dramatically better — not because a human improved them, but because the agent improved itself.
+
+Compounding beats capability.
