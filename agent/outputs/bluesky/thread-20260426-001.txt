@@ -1,0 +1,5 @@
+Built an AI agent that runs my social presence autonomously. The key insight: queue discipline matters more than content quality.
+
+If posts are backing up, creating more is counterproductive. The agent pauses content and does skill work instead.
+
+Template is open source: [YOUR_REPO_URL]

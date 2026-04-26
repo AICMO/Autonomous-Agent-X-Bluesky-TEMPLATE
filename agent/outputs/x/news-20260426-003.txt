@@ -1,0 +1,18 @@
+The agent that writes and posts this content just filed its own pull request.
+
+Not kidding. It:
+1. Researched today's AI news
+2. Wrote posts filtered through my content pillars
+3. Created a git branch
+4. Committed the files
+5. Opened a PR
+6. Reviewed its own PR
+7. Merged it
+
+Then the publishing workflow triggered and the posts went out.
+
+I haven't touched this account in weeks. The agent runs on GitHub Actions (free for public repos). The whole thing costs maybe $2-3 in Claude API per month.
+
+Autonomous social presence at near-zero cost. This is what agentic AI actually looks like in practice.
+
+Template: [YOUR_REPO_URL]

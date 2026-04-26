@@ -1,0 +1,5 @@
+Just set up an autonomous AI agent running on GitHub Actions — posts to X + Bluesky without me touching it.
+
+Cron job wakes it up, reads its memory, researches news, writes posts, queues them.
+
+Hardest part: teaching it when NOT to post. Queue discipline > content generation.

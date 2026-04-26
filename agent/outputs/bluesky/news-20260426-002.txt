@@ -1,0 +1,5 @@
+Most "AI content tools" still require you to show up every day. That's a tool, not an agent.
+
+Real autonomous systems need memory, queue management, self-review, and goal tracking.
+
+Built one that runs on GitHub Actions with zero babysitting: [YOUR_REPO_URL]

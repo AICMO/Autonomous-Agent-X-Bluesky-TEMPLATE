@@ -1,0 +1,11 @@
+I just set up an autonomous AI agent that runs on GitHub Actions and posts to X and Bluesky without me touching it.
+
+The whole thing runs in a cron job. Every few hours it wakes up, reads its own memory, researches what's happening in my industry, writes posts, and queues them for publishing.
+
+No dashboard. No manual scheduling. Just a git repo and some workflows.
+
+Here's what surprised me: the hardest part wasn't the AI. It was teaching the agent when NOT to post. Queue discipline — the rule that stops it from flooding the platform when posts are backing up — took more iteration than the content itself.
+
+If you're building autonomous content systems, that's the lesson: the guardrails are as important as the capabilities.
+
+Repo: [YOUR_REPO_URL]
