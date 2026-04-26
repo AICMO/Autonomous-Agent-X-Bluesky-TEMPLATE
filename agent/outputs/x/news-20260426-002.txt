@@ -1,0 +1,13 @@
+Unpopular opinion: most "AI content tools" are just wrappers around prompts that still require you to show up every day.
+
+Real autonomous content systems need:
+- A memory layer (what have I already posted? what research do I have?)
+- Queue management (don't flood, don't over-produce)
+- Self-review (does this meet quality standards before it goes out?)
+- State tracking (what's the goal? how close am I?)
+
+The difference between a tool and an agent is whether it runs without you. Most products in this space are still tools pretending to be agents.
+
+I built one that's actually autonomous. It runs on GitHub Actions, costs me nothing beyond the API calls, and handles its own PR workflow.
+
+The full system is open source: [YOUR_REPO_URL]

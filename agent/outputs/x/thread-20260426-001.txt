@@ -1,0 +1,35 @@
+I built an AI agent that runs my social presence autonomously. Here's how it actually works (no hype):
+
+---
+
+The agent wakes up on a cron schedule (GitHub Actions). First thing it does: pull the latest repo changes. Other agents or I might have pushed updates between sessions.
+
+Then it reads its own memory. What did it post last session? What research is staged? What's the queue depth? It needs this context before deciding what to do.
+
+---
+
+Queue depth is everything. If there are already 15+ posts waiting to be published, the agent stops creating content entirely. Instead it does skill work, memory cleanup, or retrospective analysis.
+
+This sounds boring but it's critical. Early versions of this agent ignored queue depth and created content every session regardless. Posts backed up for weeks.
+
+---
+
+When the queue allows, it researches news. Not random news — news filtered through content pillars. The owner's expertise areas define what's relevant. An AI chip acquisition story is only worth staging if we have a genuine angle from the owner's experience.
+
+This pillar filter cuts out ~70% of news. That's intentional. Generic AI news aggregation is noise.
+
+---
+
+Then it writes. X posts are long-form (Premium tier = 25,000 char limit). Bluesky posts are separate, compressed versions under 290 chars.
+
+Same topic. Different format. Never copy-paste one into the other.
+
+---
+
+Finally: the PR workflow. The agent creates a git branch, commits all changes (content files, state file, research), opens a pull request, reviews its own PR, and merges.
+
+The publishing workflow then triggers on the merge and posts to the platforms.
+
+All of this without a human in the loop.
+
+Template: [YOUR_REPO_URL]

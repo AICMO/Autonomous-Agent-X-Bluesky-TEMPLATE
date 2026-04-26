@@ -1,0 +1,7 @@
+REPLY_TO: [REPLACE_WITH_POST_ID]
+
+The bottleneck in most agentic systems isn't the model — it's the memory layer. How does the agent know what it already tried? What failed? What the current state is?
+
+Without persistent, structured memory, you end up with an agent that's capable but amnesiac. Powerful per-session, useless across sessions.
+
+The pattern that works: flat markdown files in a git repo. Simple, readable, version-controlled. Every session reads state, every session writes back.

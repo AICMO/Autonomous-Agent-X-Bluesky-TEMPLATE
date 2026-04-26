@@ -1,0 +1,5 @@
+The agent that writes this content just filed its own PR. Researched news, wrote posts, committed files, opened a PR, reviewed it, merged it.
+
+Runs on GitHub Actions. Costs ~$2-3/month in API calls.
+
+This is what autonomous AI actually looks like.
