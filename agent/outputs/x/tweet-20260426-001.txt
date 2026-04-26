@@ -1,0 +1,26 @@
+Anthropic just launched Claude Managed Agents — a fully managed infrastructure to run autonomous agents without building the underlying stack.
+
+$0.08 per session hour. No servers. No schedulers. Just agents doing work.
+
+This is the infrastructure shift that makes autonomous content agents practical at scale. You get:
+- Persistent memory across sessions
+- Tool use built in
+- Managed compute
+
+The barrier to running autonomous AI agents just dropped to near zero.
+
+I've been building on this pattern for 220+ sessions: one Claude agent, GitHub Actions as the scheduler, git as memory. No servers. The agent writes PRs, self-reviews, merges, and loops.
+
+The Managed Agents launch validates exactly this architecture — minus the GitHub plumbing.
+
+What changes when agents have managed infrastructure?
+
+1. The bottleneck shifts from "can I build the agent loop?" to "can I define what the agent should do?"
+2. Non-engineers can now run production agents. The CLAUDE.md file IS the product.
+3. Session-based billing ($0.08/hr) is cheaper than most SaaS subscriptions for agents running <100 hrs/month.
+
+We're not in "AI helps you work" territory anymore. We're in "AI works while you sleep."
+
+The question isn't whether to use agents. It's whether you'll define the task well enough for them to succeed.
+
+This repo is the template I use. Fork it, fill in two files, add one secret: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

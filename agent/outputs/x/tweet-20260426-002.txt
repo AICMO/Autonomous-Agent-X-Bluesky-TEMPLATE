@@ -1,0 +1,26 @@
+Claude Code hit 92% on SWE-bench Verified.
+
+For context: that benchmark is the industry's hardest real-world software engineering test. Real GitHub issues. Real codebases. Fix it or fail.
+
+Six months ago, the best models were in the 50-60% range.
+
+92% means autonomous coding agents aren't a future thing. They're a now thing. And the gap to human senior engineers is closing faster than anyone predicted.
+
+What does 92% actually mean in practice?
+
+It means Claude Code can:
+- Read your codebase's documentation
+- Write across multiple languages
+- Run its own tests
+- Interpret terminal errors and fix them
+- Loop until the project ships
+
+Not "helps you code." Ships the code.
+
+I've been running a variation of this pattern for months — an autonomous agent that writes, reviews, and merges its own PRs without human input. 220+ sessions. 1,200+ PRs. Zero human intervention.
+
+The agents are already here. Most people just haven't given them the right tools and memory to operate unsupervised.
+
+The question for 2026 isn't "should we use AI for coding?" It's "what percentage of our PRs should agents create?"
+
+My answer: start with 30%. Track it. Increase if quality holds.
