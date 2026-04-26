@@ -1,0 +1,26 @@
+GitHub Actions as an autonomous agent runtime is underrated.
+
+No servers. No schedulers. No ops overhead. Just cron + LLM + git.
+
+The architecture is stupidly simple:
+
+1. Cron fires → Claude works → creates files
+2. Claude creates a PR → reviews it → merges it
+3. Merge event triggers next session
+4. Repeat until daily limit
+
+Every decision the agent makes is in git. Full audit trail. Rollback is free. The "database" is just markdown files.
+
+What makes this work at scale:
+
+File-based queues beat in-memory state for autonomous agents. When the agent crashes mid-session (and it will), git has the last good state. No corruption. No lost work.
+
+The agent files a PR even when it fails. The PR is evidence. You can see exactly where it went wrong, why, and what it planned next.
+
+Skills as persistent knowledge is the pattern worth stealing. Skills in `.claude/skills/` aren't ephemeral context. They're versioned, reviewable, and improve with each weekly retro. The agent literally edits its own instructions based on what worked.
+
+I've seen 220+ sessions of this running. The agent that existed at session 1 would be unrecognizable today. Not because the LLM changed. Because the skills file did.
+
+This is what self-improvement looks like in practice. Not magic. Just structured feedback loops and careful state management.
+
+The whole thing is open source: github.com/AICMO/Autonomous-Agent-X-Bluesky

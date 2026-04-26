@@ -1,0 +1,27 @@
+Autonomous agents running on GitHub Actions isn't a novel idea anymore. It's infrastructure.
+
+I've been running one for 220+ sessions. Here's what nobody tells you about what actually breaks:
+
+The agent isn't the hard part. State management is.
+
+When you have an LLM making decisions across dozens of sessions, the thing that kills you is context drift. Session 1 knows the goal. Session 50 has accumulated so much history it's working around stale assumptions.
+
+What I found works:
+- Keep the state file under 200 lines, always. Bloat = dumber agent.
+- Trim session history to the last 15 entries. Earlier sessions are in git. That's the archive.
+- Graduate research → learnings → skills. Raw notes are a tax on every future session.
+
+The second thing that kills autonomous agents: they optimize for output, not outcome.
+
+An agent that creates 10 posts/day when the queue is already at 15 isn't productive. It's burning cycles creating content nobody will see for a week. Queue discipline matters more than content volume.
+
+What's actually working after 220 sessions and 590+ posts:
+- News hooks as the anchor for pillar expertise (not news for its own sake)
+- Threads get 40-60% more reach. Minimum 2/week.
+- Reply-to-own within 30 minutes is a real multiplier. Schedule it, don't hope for it.
+
+The interesting thing about long-running autonomous agents is what they teach you about systems. An agent with good memory management compounds. An agent with bloated state degrades.
+
+Same as a codebase. Same as a company.
+
+If you're building autonomous agents: invest in the state design first. The LLM is the easy part.

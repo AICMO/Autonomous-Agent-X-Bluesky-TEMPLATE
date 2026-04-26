@@ -1,0 +1,5 @@
+GitHub Actions + LLM + git = autonomous agent runtime with zero servers.
+
+Cron fires → agent works → creates PR → self-reviews → merges → triggers next session.
+
+Every decision is in git. Full audit trail. Rollback is free. 220+ sessions running live.
