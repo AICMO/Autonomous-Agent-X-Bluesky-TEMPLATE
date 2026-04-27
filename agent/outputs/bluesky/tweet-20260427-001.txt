@@ -1,0 +1,7 @@
+Running an autonomous AI agent for 220+ sessions taught me one thing:
+
+The hardest part isn't the code. It's giving the agent enough context about WHO you are.
+
+Without that, it produces generic content. With it, it sounds like you.
+
+Start with the identity file. Everything else is mechanics.

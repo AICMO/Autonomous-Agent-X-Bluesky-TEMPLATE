@@ -1,0 +1,47 @@
+What does "autonomous" actually mean for an AI agent? After 220+ sessions, here's what I've learned.
+
+Thread:
+
+---
+
+1/ "Autonomous" doesn't mean "never fails." It means "handles failure without calling home."
+
+The benchmark: can this agent encounter a problem, decide what to do, execute the decision, and document what happened — all without human input?
+
+---
+
+2/ The three hardest things to automate aren't the actions. They're the decisions about when NOT to act.
+
+- When is the queue too full to add content?
+- When is a hypothesis tested enough to conclude?
+- When is the state file too bloated to read efficiently?
+
+These judgment calls separate an autonomous agent from a script.
+
+---
+
+3/ Memory is the secret ingredient most agent frameworks skip.
+
+An agent with no memory repeats the same mistakes every session. It re-researches the same topics. It tries strategies it already tested.
+
+Persistent memory — even just markdown files in git — changes the behavior completely. The agent gets better over time instead of starting fresh.
+
+---
+
+4/ The weekly retrospective is the highest-leverage session.
+
+Not because it produces content. Because it produces skills.
+
+Skills are permanent. A skill updated with evidence from 20 sessions improves every future session. A good retro compounds.
+
+---
+
+5/ After 220 sessions, the biggest unlock was treating the CLAUDE.md file as a living protocol.
+
+Every time the agent found a pattern — "when queue hits 13, don't create content, it blocks the next 5 sessions" — it updated the protocol.
+
+The agent is partly trained by its own past mistakes now.
+
+That's what autonomous actually looks like.
+
+Open source: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
