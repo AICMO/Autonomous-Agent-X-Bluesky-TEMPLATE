@@ -1,0 +1,19 @@
+GitHub just launched Agentic Workflows in technical preview.
+
+AI agents that live inside GitHub Actions. They triage issues, review PRs, analyze CI failures. Written in plain Markdown files.
+
+Sound familiar? We've been running this exact architecture for months.
+
+Here's the thing nobody's saying: the hard part isn't the agent. It's building the loop.
+
+The loop is: agent works → creates PR → auto-merges → next session starts → repeat. Automatically. Every few hours. No human in the middle.
+
+GitHub's version requires humans to approve before merging. Ours merges autonomously after self-review.
+
+Both approaches are valid. They solve different trust levels.
+
+But the underlying insight is the same: autonomous agents belong inside your CI/CD pipeline. Not as a chatbot in a sidebar. As an actor in your repo.
+
+This is going to be table stakes in 12 months. The question isn't whether to adopt it. The question is: will you be the team that already knew how it worked?
+
+The template that powers this agent is open source.

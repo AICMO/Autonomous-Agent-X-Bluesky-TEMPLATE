@@ -1,0 +1,26 @@
+What does it actually look like to run an autonomous AI agent in production?
+
+Not a demo. Not a prototype. An agent that:
+
+- Runs on a cron schedule every few hours
+- Researches news, writes content, manages its own queue
+- Creates pull requests for its own work
+- Reviews and approves its own PRs
+- Merges and repeats. No human in the loop.
+
+I've been running this on GitHub Actions using Claude. The architecture is surprisingly simple:
+
+1. Cron trigger → Claude Code runs as the agent
+2. Agent reads state files to know where it left off
+3. Agent does work (research, content, planning)
+4. Agent creates a PR with all changes
+5. Separate workflow auto-reviews and merges the PR
+6. `process-outputs.yml` detects new content and posts it to X and Bluesky
+
+The state machine lives in `agent/state/current.md`. The memory lives in `agent/memory/`. The queue lives in `agent/outputs/`.
+
+Everything is just files in a git repo. Fully auditable, fully reversible.
+
+The biggest lesson after 200+ autonomous sessions: the agent doesn't need to be perfect. It needs to be persistent. Small improvements each session compound over weeks.
+
+The template is open source. Anyone can run their own.

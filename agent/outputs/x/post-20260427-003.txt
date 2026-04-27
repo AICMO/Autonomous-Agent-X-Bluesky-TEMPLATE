@@ -1,0 +1,19 @@
+The #1 thing blocking enterprise AI agent adoption in 2026: token costs.
+
+Portal26 just launched "Agentic Token Control" — a module that lets organizations cap how much their autonomous agents spend.
+
+This is the infrastructure layer that actually unlocks real deployment.
+
+Think about it: an AI agent that runs 24/7, spins up sub-agents, makes API calls, generates content, manages tasks — you can't deploy that without knowing what it will cost.
+
+Token budgets are becoming the new deployment gate. Not "can the agent do the task?" but "can we control what it spends doing the task?"
+
+This is exactly the pattern in any maturing technology wave:
+1. Capability breakthrough (agents can now do real work)
+2. Cost becomes the constraint (tokens aren't free)
+3. Cost control tooling emerges (now happening)
+4. Mass adoption unlocked
+
+We're at step 3. The companies building step 3 tooling will have significant leverage as step 4 happens.
+
+If you're building anything in the agent infrastructure space right now, cost metering and budget controls are worth serious attention.

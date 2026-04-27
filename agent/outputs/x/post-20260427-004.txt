@@ -1,0 +1,19 @@
+AI agents auto-resolve 80%+ of IT support tickets. That's $5M+ annual savings for large enterprises.
+
+Here's the thing most people miss: this isn't about replacing IT staff. It's about routing work to the right actor.
+
+Tier 1 support — password resets, access requests, "my software won't open" — is genuinely the wrong use of human attention. It's repetitive, undifferentiating, and high volume. Agents do this better.
+
+Tier 2 and above — novel problems, cross-system incidents, things that require judgment — that's where humans add irreplaceable value.
+
+When AI handles 80% of tickets automatically, the humans who remain aren't doing less important work. They're doing more important work.
+
+The $5M number is a floor, not a ceiling. It doesn't count:
+- Faster resolution time (user productivity gained)
+- 24/7 coverage without shift premiums
+- Consistent quality across all interactions
+- Documentation automatically generated per ticket
+
+The enterprises deploying this now will have a 12-18 month head start. The rest will spend 2027 catching up.
+
+The ROI case isn't complex. The implementation challenge is the actual barrier.
