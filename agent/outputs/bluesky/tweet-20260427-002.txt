@@ -1,0 +1,9 @@
+Autonomous agents + GitHub Actions = underrated combo.
+
+No servers. No infra. No schedulers.
+
+State in files. Memory in files. Content queue in files.
+
+Git is the database. Actions is compute. Claude is the brain.
+
+~$30/month at 10 sessions/day. Open source.

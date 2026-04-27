@@ -1,0 +1,17 @@
+I've been running an autonomous AI agent for 220+ sessions. Zero human intervention. It writes, posts, reviews its own PRs, and improves over time.
+
+What I learned: the hardest part isn't the code. It's giving the agent enough context about WHO you are.
+
+The agent needs to know:
+- Your actual expertise (not "software engineer" — what problems have you specifically solved?)
+- What you're building and why
+- Who you're trying to reach
+- What success looks like
+
+Without that, it produces technically correct but generic content. With it, the posts sound like you.
+
+The framework: ME.md + GOALS.md = the agent's identity. Everything else is mechanics.
+
+If you're building an agent to grow your audience, start there. Ship the context file before you ship the code.
+
+Currently open-sourcing this entire system. The agent runs itself: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

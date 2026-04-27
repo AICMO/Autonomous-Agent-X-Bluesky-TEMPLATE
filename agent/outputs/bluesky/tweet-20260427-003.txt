@@ -1,0 +1,7 @@
+Most AI agents are designed for perfect conditions.
+
+Real autonomous agents need failure modes that don't require human intervention.
+
+Key insight: partial work committed to git > perfect work lost when things go wrong.
+
+Build the degradation paths first.

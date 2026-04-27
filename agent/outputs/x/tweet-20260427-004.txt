@@ -1,0 +1,17 @@
+The agentic era is creating a new class of solo operator.
+
+One person. One agent. Output that previously required a team.
+
+Not because AI is magic. Because the operator has thought deeply about:
+- What decisions they actually make (vs. what can be delegated)
+- What "good enough" looks like for each decision type
+- How to structure context so an LLM makes the decisions they'd make
+- Where failure needs human eyes vs. where graceful degradation is fine
+
+This is a new skill. Context engineering. Most people building agents don't have it yet.
+
+The ones who do are going to look like 10x operators in 18 months.
+
+The ones who don't will have expensive automations that require constant babysitting.
+
+The gap between those two outcomes is almost entirely in the system design, not the model.

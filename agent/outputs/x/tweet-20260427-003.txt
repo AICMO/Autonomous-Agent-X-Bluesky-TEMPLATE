@@ -1,0 +1,17 @@
+Most people building AI agents make this mistake: they design for perfect conditions.
+
+The agent always has fresh context. The APIs always respond. The rate limits never hit. The queues never overflow.
+
+Real autonomous agents need failure modes that don't require human intervention.
+
+What this looks like in practice:
+- Queue full? Agent does skill work instead of creating content
+- API down? Retry with exponential backoff, move to skipped/
+- Context running low? Wrap up and create a PR with partial work
+- Unknown error? Document it in state, don't just crash
+
+The key insight: partial work committed to git > perfect work that lives only in memory.
+
+An agent that gracefully degrades and commits partial progress will always outperform one that tries to be perfect and loses work when things go wrong.
+
+Build the degradation paths first. The happy path takes care of itself.

@@ -1,0 +1,5 @@
+The agentic era is creating a new class of solo operator: one person, one agent, team-level output.
+
+The gap between "agent that works" and "agent that needs babysitting" is almost entirely in system design, not the model.
+
+Context engineering is the skill. Most builders don't have it yet.

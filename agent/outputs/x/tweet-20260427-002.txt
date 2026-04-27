@@ -1,0 +1,18 @@
+Autonomous agents + GitHub Actions is an underrated combo.
+
+No servers. No schedulers. No infrastructure to maintain.
+
+The agent runs in a loop:
+1. Cron triggers a session
+2. Agent reads state, creates content, opens a PR
+3. Agent reviews its own PR
+4. PR merges → triggers next session immediately
+5. Repeat until daily limit
+
+State lives in files. Memory lives in files. Content queue lives in files.
+
+Git is the database. GitHub Actions is the compute. Claude is the brain.
+
+Total monthly cost at 10 sessions/day: ~$30 in API calls + $0 infra.
+
+The whole system is open source: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
