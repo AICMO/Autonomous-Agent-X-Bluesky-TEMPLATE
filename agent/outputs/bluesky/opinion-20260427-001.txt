@@ -1,0 +1,5 @@
+EXAMPLE FILE — under 290 chars for Bluesky
+
+---
+
+Most "AI agents" aren't agents. They're chatbots with tool access. A real agent has persistent goals, self-corrects, and improves over time. The failure modes are completely different. The frontier is goal architecture, not prompt clarity.
