@@ -1,0 +1,5 @@
+The #1 blocker for enterprise AI agent adoption: token costs.
+
+Portal26 just launched "Agentic Token Control" to cap agent spend.
+
+This is the infrastructure layer that unlocks mass deployment. We're at step 3 of a 4-step maturity curve. Step 4 = adoption explosion.

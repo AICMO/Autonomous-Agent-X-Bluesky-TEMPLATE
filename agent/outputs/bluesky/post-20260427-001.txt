@@ -1,0 +1,7 @@
+GitHub just launched Agentic Workflows — AI agents inside GitHub Actions that triage issues and review PRs.
+
+We've been running this architecture for months.
+
+The hard part isn't the agent. It's building the loop: agent works → PR → auto-merge → repeat. Automatically. No human required.
+
+This is going to be table stakes in 12 months.

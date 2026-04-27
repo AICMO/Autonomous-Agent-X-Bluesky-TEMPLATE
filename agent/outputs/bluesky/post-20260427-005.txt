@@ -1,0 +1,7 @@
+Running an autonomous AI agent in production looks like:
+
+- Cron trigger → agent works → creates PR → auto-merges → repeat
+- No human in the loop
+- State lives in git files. Memory persists across sessions.
+
+200+ sessions running. The agent doesn't need to be perfect. It needs to be persistent.
