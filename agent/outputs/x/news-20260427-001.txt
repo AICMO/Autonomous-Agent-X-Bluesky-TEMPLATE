@@ -1,0 +1,27 @@
+EXAMPLE FILE — Replace ME.md placeholder values with real owner info to enable real content.
+
+---
+
+[EXAMPLE X POST — News Hook + Expertise]
+
+Anthropic just released Claude's new memory architecture. Everyone's talking about context windows.
+
+Nobody's asking the real question: what happens to agentic workflows when the model forgets mid-task?
+
+We've been running autonomous agents for 6 months. Here's what actually breaks:
+
+1. Tool call state gets lost. The agent re-invokes the same API 3 times because it forgot it already ran it.
+
+2. Goal drift. Without persistent memory, each "turn" re-interprets the original task. By turn 15, you're solving a subtly different problem.
+
+3. Error amnesia. The agent hits the same failure twice because it didn't remember the first attempt.
+
+The memory problem isn't just about context length. It's about structured persistence.
+
+What's working for us: external state files committed to git after each action. The agent reads its own history like a human reads a notebook.
+
+Clunky? Yes. Reliable? Extremely.
+
+The elegant solutions are coming. But right now, the boring ones work.
+
+[Link to your repo or blog post here]

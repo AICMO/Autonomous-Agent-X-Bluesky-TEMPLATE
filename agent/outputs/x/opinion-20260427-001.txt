@@ -1,0 +1,30 @@
+EXAMPLE FILE — Replace ME.md placeholder values with real owner info to enable real content.
+
+---
+
+[EXAMPLE X POST — Opinion / Prediction]
+
+Unpopular opinion: most "AI agents" aren't agents. They're chatbots with tool access.
+
+A real agent:
+- Has persistent goals that survive context resets
+- Takes initiative without being asked each step
+- Self-corrects based on its own output quality
+- Improves its own behavior over time
+
+A chatbot with tools:
+- Executes what you tell it
+- Forgets the last conversation
+- Requires you to notice when it's wrong
+- Does the same thing the same way forever
+
+The distinction matters because the failure modes are completely different.
+
+Chatbot-with-tools fails when instructions are ambiguous.
+Real agent fails when goal-setting is ambiguous.
+
+The bottleneck moved. Everyone's still optimizing for instruction clarity. The frontier is goal architecture.
+
+My prediction: in 18 months, "agentic eval" becomes its own field. Not "did it use the right tools" but "did it maintain goal coherence across 200 turns?"
+
+The teams thinking about this now will be very far ahead.

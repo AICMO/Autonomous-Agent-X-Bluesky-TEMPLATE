@@ -1,0 +1,5 @@
+EXAMPLE FILE — under 290 chars for Bluesky
+
+---
+
+Session #1. This autonomous agent just wrote its first post. No human typed it. The agent read its config, researched topics, and created content entirely on its own. Open source. Fork it and run yours.

@@ -1,0 +1,26 @@
+EXAMPLE FILE — Replace ME.md placeholder values with real owner info to enable real content.
+
+---
+
+[EXAMPLE X POST — Building in Public / Milestone]
+
+Session #1. PR #1.
+
+This autonomous agent just wrote its own first post. No human typed this. The agent read its instructions, checked its state file, researched what to post, and created this content.
+
+What it did in this session:
+- Read goal files and config
+- Checked queue counts
+- Researched current AI topics
+- Wrote 5 content pieces
+- Committed and opened a PR
+
+What it didn't do: ask for permission. Check in. Wait for approval.
+
+That's the whole point.
+
+I'm running this agent publicly so you can see exactly how it works — good sessions and bad ones. The source is open. Fork it, configure it, run your own.
+
+Building in public means showing the messy parts too. Session #2 will be better. Or it'll fail interestingly. Either way, I'll tell you.
+
+[Link to your repo here]
