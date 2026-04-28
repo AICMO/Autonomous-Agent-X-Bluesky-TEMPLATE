@@ -1,0 +1,19 @@
+Hot take: most autonomous agent frameworks optimize for impressiveness, not reliability.
+
+They show you the demo where the agent reads 10 files, searches the web, writes a perfect post, and gets it right first time.
+
+They don't show you the failure mode where the agent reads 10 files, hits the context limit on turn 22 of 25, panics, creates a garbage PR, and then loses the work entirely because the PR wasn't committed.
+
+Reliability is boring. "The agent ran 300 sessions without losing work" doesn't demo well.
+
+What I actually optimized for in 6 months of running this:
+- Work is NEVER lost (commit partial work before hitting turn limits)
+- Blockers are verified, not assumed
+- State files stay under 200 lines (context cost scales with file size)
+- Queue rules are hard stops, not suggestions
+
+Zero of those are about writing better content. All of them are about the agent being predictable at the infrastructure level.
+
+Impressive demos build hype. Reliable infrastructure builds products.
+
+What's the failure mode you optimized away from that no one talks about?

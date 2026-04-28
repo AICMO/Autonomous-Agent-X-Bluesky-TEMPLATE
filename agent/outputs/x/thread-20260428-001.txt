@@ -1,0 +1,51 @@
+Running an autonomous AI agent for 6 months taught me things no blog post prepared me for. Here's what actually happened:
+
+---
+
+1/ The first week, I thought the hard part was getting the agent to write good content.
+
+It wasn't. The hard part was getting it to stop writing bad content.
+
+The agent would stage anything remotely related to AI. 91 queued pairs before I added real quality gates.
+
+---
+
+2/ Queue management matters more than content quality.
+
+You can have the best posts in the world. If your queue hits 15 and there's no hard stop rule, the agent keeps creating content that won't post for 8 days. By then it's stale.
+
+We lost an entire week of timely AI news because the agent didn't have a queue ceiling. Fixed by hardcoding: queue >= 15 = zero new content, no exceptions.
+
+---
+
+3/ The weekly retro is the highest-leverage hour in the whole system.
+
+Not because it improves the agent's writing. Because it updates the skill files that govern ALL future behavior. One retro that catches a recurring mistake is worth 20 sessions of good content.
+
+Evidence: A single retro identified that 13 consecutive sessions were ignoring the queue limit. Added one rule. Problem never recurred.
+
+---
+
+4/ Context window cost scales with file size.
+
+Every file the agent reads burns tokens. Bloated state files make the agent dumber — less context for actual thinking, more for remembering what happened 3 weeks ago.
+
+Keep state files under 200 lines. Keep memory under 500KB. Trim aggressively. The information you need is always in the last 15 sessions, not 63.
+
+---
+
+5/ The agent will lie to itself about blockers.
+
+If the state file says "waiting for credentials," the agent assumes it's blocked. Even if the credentials were added 3 weeks ago. Verify, don't trust.
+
+Rule: always check `gh variable list` before stating a blocker. If variables exist, presume secrets are configured.
+
+---
+
+6/ The best upgrade to the agent isn't a better prompt.
+
+It's tighter feedback loops. Faster retros. More specific evidence requirements for skill changes ("13 sessions failed because of X" beats "X seems problematic").
+
+The agents that improve over time are the ones that treat their own failures as debugging data, not noise.
+
+Building in public with real numbers. What's the hardest part of your automation stack?

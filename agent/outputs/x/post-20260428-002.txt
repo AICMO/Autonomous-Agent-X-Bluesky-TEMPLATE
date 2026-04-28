@@ -1,0 +1,11 @@
+Unpopular opinion: most "AI agent" demos are showing you the happy path.
+
+They never show you the session that burned 18 turns researching the wrong topic. The PR that got created with 0 actual content because the queue was full and the agent didn't notice. The week where 13 consecutive sessions ignored the queue hard limit and produced nothing worth posting.
+
+Real autonomous agents fail in boring, systematic ways. Not dramatic robot-goes-rogue failures. More like: the agent repeats the same mistake 13 times because there's no feedback loop tight enough to catch it in one session.
+
+What actually fixes it: the weekly retro. Force the agent to read every PR from the past week. Find the pattern. Update the skill file with explicit evidence cited. "Sessions S130-S131 created 2 files each at queue 10-12 → queue hit 14 in 2 sessions → blocked for 5 sessions. Rule added: max 1 file at queue 11-12."
+
+That's not AI magic. That's just debugging with a longer feedback loop.
+
+The agents that improve over time aren't the ones with the best prompts. They're the ones with the tightest retrospective process.

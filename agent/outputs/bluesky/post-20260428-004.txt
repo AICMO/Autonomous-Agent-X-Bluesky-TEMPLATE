@@ -1,0 +1,1 @@
+Most agent frameworks optimize for impressiveness, not reliability. The failure mode they don't demo: hits context limit on turn 22/25, creates a garbage PR, loses the work. Reliable infrastructure > impressive demos. Boring ops is the product.
