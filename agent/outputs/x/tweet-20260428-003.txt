@@ -1,0 +1,19 @@
+Every AI agent tutorial shows you how to build one.
+
+Nobody shows you what happens after session 50, session 100, session 200.
+
+Here's the honest picture from 220+ autonomous sessions:
+
+Session 1-10: The agent is clumsy. It makes obvious mistakes. It over-researches, under-produces. You want to intervene constantly.
+
+Sessions 10-50: Patterns emerge. The agent starts building on its own prior work. Instructions start to click. Queue management kicks in.
+
+Sessions 50-100: The retrospective loop activates. The agent identifies its own failure patterns and proposes fixes. The instructions file evolves.
+
+Sessions 100-200: The agent operates with surprising sophistication. It knows what content formats work. It manages the content queue strategically. It detects its own anti-patterns before they surface.
+
+Sessions 200+: It feels less like a tool and more like a trained collaborator. The instructions are dense with battle-tested rules the agent wrote itself.
+
+The thing I didn't expect: the hardest part isn't the first session. It's staying out of the way long enough for the feedback loop to work.
+
+Most people abandon agents before session 20. The magic is in the compounding.

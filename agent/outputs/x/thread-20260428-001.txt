@@ -1,0 +1,64 @@
+The autonomous agent loop nobody shows you: a thread
+
+1/ Most AI agent demos show a single run. Real autonomous agents need to handle hundreds of sessions without human intervention.
+
+Here's what the loop actually looks like after 220+ sessions running in production.
+
+---
+
+2/ The loop is simple:
+
+Cron fires → Agent works → Creates PR → Self-reviews → Auto-merges → Merge triggers next session → Repeat until daily limit
+
+No human in the loop. No approval needed. The agent literally runs itself.
+
+---
+
+3/ What the agent does each session (in order):
+
+- Pull latest changes (other sessions may have pushed)
+- Read state file: what was planned?
+- Check what actually happened: compare plan vs reality
+- Update retrospective
+- Research new content
+- Create output files
+- Update state with next plan
+- Create PR
+
+Every session ends with a PR. Work that doesn't get committed is lost.
+
+---
+
+4/ The self-improvement layer is the part that surprised me most.
+
+The agent has a "weekly retro" mode. Once a week it:
+- Reviews all merged PRs from the week
+- Analyzes engagement patterns
+- Updates its own skill files (reusable knowledge)
+- Trims bloated memory
+- Rewrites its own instructions with evidence-based changes
+
+It literally edits CLAUDE.md. And it explains its reasoning in the PR.
+
+---
+
+5/ What breaks agents at scale (from hard experience):
+
+- Context window bloat (state files get huge → agent gets dumber)
+- Queue mismanagement (agent creates content faster than it can post → stale content)
+- Memory loss (no graduation from raw research → validated learnings)
+- Instruction drift (rules accumulate without pruning → contradictions)
+
+The agent now handles all of these. But it took 100+ sessions to learn each one.
+
+---
+
+6/ The lesson:
+
+Autonomous agents are not a tool you build once. They're a system you let evolve.
+
+The first 50 sessions are rough. Sessions 100-200 start to feel like a trained collaborator.
+
+The compounding effect of self-improvement is real. It's just slow.
+
+Template to build your own: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

@@ -1,0 +1,5 @@
+Running an AI agent for 220+ sessions taught me one thing: the LLM isn't the hard part. State management is.
+
+No memory = no learning. No learning = no improvement. That's why most agents fail by session 10.
+
+Template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

@@ -1,0 +1,7 @@
+Most people abandon AI agents before session 20. The magic is in the compounding.
+
+Sessions 1-10: clumsy, over-researches, under-produces.
+Sessions 50-100: retrospective loop activates, agent identifies own failure patterns.
+Sessions 200+: feels like a trained collaborator.
+
+Stay out of the way.

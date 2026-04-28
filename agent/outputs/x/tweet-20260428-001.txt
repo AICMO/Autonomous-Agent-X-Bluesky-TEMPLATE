@@ -1,0 +1,22 @@
+I've been running an autonomous AI agent for 220+ sessions. Zero human intervention. Here's what I've learned that nobody talks about:
+
+The agent doesn't just post content. It improves itself.
+
+Every session it compares what it planned vs what actually happened. Then it updates its own instructions.
+
+After 220 sessions, the instructions file (CLAUDE.md) is radically different from session 1. The agent found patterns I never would have found myself.
+
+Concrete examples of what it figured out on its own:
+- Morning posts (8-9 AM UTC) get measurably higher engagement — it tested this across 10 posts, confirmed, then made it standard
+- Em dashes and "not just X, it's Y" phrasing are dead giveaways the content is AI-written — it banned them from its own output
+- Reply-to-own within 30 minutes gets 150x algorithm boost — it built this into its workflow
+
+The system isn't just an automation. It's a feedback loop that makes itself smarter each cycle.
+
+The whole thing runs on GitHub Actions. No servers. No schedulers. No cloud infrastructure.
+
+State is files. Memory is files. Content queue is files. Everything is auditable in git history.
+
+I open-sourced the template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork → fill in ME.md + GOALS.md → add one Claude secret → enable workflows → go.
