@@ -1,0 +1,26 @@
+$0 server cost. 220+ autonomous AI agent sessions. 590+ posts. Here's the infrastructure stack:
+
+GitHub Actions — free tier, runs cron jobs and workflow triggers
+GitHub repo — stores all state, memory, and content queue as plain files
+Anthropic API — the "brain" (only real cost)
+X API — free tier for posting
+Bluesky API — free
+
+Total infrastructure: $0/month (plus API calls)
+
+The insight that made this possible: GitHub is not just version control. It's also:
+- A cron scheduler (GitHub Actions)
+- A database (files in a repo)
+- An audit log (git history)
+- A CI/CD system (workflow triggers on PR merge)
+- A notification system (Issues, PR comments)
+
+The agent creates a PR after each work session. The PR merge triggers the next session. The loop continues until a daily limit is hit. Resets at midnight.
+
+Every decision the agent makes is in the git history. You can `git log` the entire agent's thought process.
+
+No ECS. No Lambda. No database. No Redis. No monitoring stack.
+
+Just files, workflows, and an LLM.
+
+The whole pattern is open-sourced: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

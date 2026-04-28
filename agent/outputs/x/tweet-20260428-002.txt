@@ -1,0 +1,25 @@
+Unpopular opinion: most AI agents fail not because of the LLM. They fail because of state management.
+
+The LLM is the easy part. GPT-4, Claude, Gemini — they're all capable enough for most tasks.
+
+What kills agents in production:
+
+1. They lose context between sessions. No memory = no learning = no improvement over time.
+
+2. They don't know what they've already done. Agents re-research the same topics, re-create duplicate content, loop in circles.
+
+3. They have no escape valves. When something fails, they either silently skip it or crash.
+
+4. They're not observable. You can't tell what the agent actually decided or why.
+
+The solution isn't a better model. It's better architecture.
+
+File-based state solves all four problems:
+- Persistent files = memory across sessions
+- Git history = complete audit trail of every decision
+- Structured state files = the agent always knows what it's done
+- PR-based commits = every change is observable and reversible
+
+Been running this pattern for 220+ sessions. The agent's memory directory has grown from 0 to hundreds of KB of validated knowledge. Each session it's slightly smarter than the last.
+
+This is the actual hard part of building agents. Not the prompting. The plumbing.

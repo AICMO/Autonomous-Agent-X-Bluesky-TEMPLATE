@@ -1,0 +1,5 @@
+$0 server cost. 220+ autonomous AI sessions. 590+ posts.
+
+The stack: GitHub Actions (cron) + GitHub repo (state/memory) + Anthropic API + X/Bluesky APIs.
+
+GitHub is secretly also a database, scheduler, audit log, and CI/CD system. Most people miss this.
