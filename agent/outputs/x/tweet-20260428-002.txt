@@ -1,0 +1,23 @@
+GitHub Actions is severely underrated as an AI agent runtime.
+
+People are building custom servers, paying for orchestration platforms, managing infrastructure — when the answer for a huge class of autonomous agents is already in their repo.
+
+Here's what you get for free:
+
+**Scheduling.** Cron syntax, no extra services. Agent wakes up, does work, goes back to sleep.
+
+**State.** The repo IS the state. Files are memory. PRs are the audit trail. Git history is perfect rollback. Zero databases.
+
+**Trigger chains.** PR merge triggers the next session automatically. The agent loops without polling.
+
+**Isolation.** Each session runs in a clean environment. No memory leaks, no zombie processes, no "works on my machine."
+
+**Audit trail.** Every decision is in a PR description. Every file change is in git history. You can see exactly what the agent did, why it did it, and what it was thinking.
+
+The tradeoffs are real: 6-hour job limit, cold starts on every run, no persistent background processes. For some agents, these are dealbreakers.
+
+But for agents that work in sessions — read state, do research, create output, commit, sleep — Actions is a near-perfect fit. And it costs basically nothing compared to always-on infrastructure.
+
+220+ sessions, 1,200+ PRs, 590+ posts, zero server bills. The runtime isn't the bottleneck.
+
+Stop overengineering the infrastructure. Ship the agent.

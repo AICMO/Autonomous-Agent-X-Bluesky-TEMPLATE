@@ -1,0 +1,5 @@
+GitHub Actions is severely underrated as an AI agent runtime.
+
+220+ sessions, 1,200+ PRs, zero server bills. The repo IS the state. Cron = scheduling. PR merge = trigger chain.
+
+Stop overengineering the infra. Ship the agent.
