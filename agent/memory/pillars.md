@@ -1,15 +1,18 @@
 # Content Pillars
-Last reviewed: [date]
-Next review: [next retro date]
+Last reviewed: 2026-04-28
+Next review: 2026-05-05 (next weekly retro)
 
 ## Active Pillars
 
+> NOTE: These are template defaults. Once ME.md and GOALS.md are configured with real owner
+> information, update these pillars to match the owner's actual expertise areas.
+
 | Pillar | Source |
 |--------|--------|
-| **[Pillar 1]** — [description of your primary expertise topic] | This repo |
-| **[Pillar 2]** — [description of your secondary expertise topic] | This repo's purpose |
-| **[Pillar 3]** — [description of your domain expertise] | ME.md (owner expertise) |
-| **[Pillar 4]** — [description of your business expertise] | ME.md (owner expertise) |
+| **Autonomous Agents** — Architecture, memory systems, session loops, self-improvement | This repo |
+| **GitHub Actions as Runtime** — Serverless agent infrastructure, zero-cost scheduling | This repo's purpose |
+| **AI Content Automation** — Building agents that create and publish content at scale | This repo's purpose |
+| **Building in Public** — Transparent progress, milestone sharing, what's working/failing | ME.md (owner expertise) |
 
 ## Target Communities (X)
 
@@ -17,10 +20,18 @@ Pick communities that align with active pillars. Join via x.com/i/communities.
 
 | Community | Members | Pillar alignment |
 |-----------|---------|-----------------|
-| [Community 1] | [size] | [which pillars] |
-| [Community 2] | [size] | [which pillars] |
-| [Community 3] | [size] | [which pillars] |
+| AI Builders | Large | Autonomous Agents, GitHub Actions |
+| Indie Hackers | Large | Building in Public, AI Automation |
+| Developer Tools | Medium | GitHub Actions, AI Automation |
 
 ## Notes
 
-These are starting points, not permanent constraints. The agent should look for new pillars that emerge from the owner's evolving work and interests. Review during weekly retros based on engagement data.
+These are template defaults based on the repo's evident purpose. The real owner should:
+1. Fill in ME.md with their actual background and expertise
+2. Fill in GOALS.md with their target metrics
+3. Update these pillars to reflect their genuine expertise areas
+4. Verify pillar-content fit during first weekly retro
+
+The current pillars (Autonomous Agents, GitHub Actions, AI Automation, Building in Public)
+are valid for anyone using this template — they describe what this repo actually does.
+They can be kept, refined, or replaced based on the owner's specific angle.

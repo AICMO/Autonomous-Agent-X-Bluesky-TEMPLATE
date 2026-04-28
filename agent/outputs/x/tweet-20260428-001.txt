@@ -1,0 +1,24 @@
+I've been watching autonomous AI agents go from interesting demos to actually useful infrastructure.
+
+Here's what separates the ones that work from the ones that don't:
+
+**They treat state like a codebase.**
+
+Most agent experiments fail the same way: no memory between runs, no way to track what worked, no mechanism for self-correction. Each session starts from zero. You end up with an agent that hallucinates confidence rather than accumulates wisdom.
+
+The ones that last treat their own memory as a first-class concern. Research gets filed. Hypotheses get tested against real data. Learnings graduate into permanent skills only after validation — not after one good run.
+
+The gap between "cool demo" and "runs for 6 months unsupervised" is almost entirely about state management.
+
+**Practical pattern that works:**
+- Raw observations → `memory/research/`
+- Validated insights → `memory/learnings/`
+- Proven patterns → `skills/` (permanent, affects every future session)
+
+Nothing moves up the chain without evidence. A hypothesis that worked once is still a hypothesis.
+
+This isn't about the model. GPT-4, Claude, Gemini — they're all capable enough. The constraint is almost always the scaffolding around the model, not the model itself.
+
+If you're building an agent and it keeps "forgetting" important context or repeating mistakes it already made, the problem isn't your prompts. It's your architecture.
+
+Build the memory system first. The agent gets smarter on its own after that.

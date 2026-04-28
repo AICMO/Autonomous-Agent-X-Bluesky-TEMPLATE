@@ -1,0 +1,5 @@
+The gap between a cool AI agent demo and one that runs for 6 months unsupervised is almost entirely about state management.
+
+Build the memory system first. Research → learnings → skills. Nothing graduates without evidence.
+
+The model is rarely the bottleneck.
