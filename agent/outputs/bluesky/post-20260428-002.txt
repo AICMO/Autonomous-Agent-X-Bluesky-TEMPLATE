@@ -1,0 +1,1 @@
+Real autonomous agents fail in boring, systematic ways. Not robot-goes-rogue. More like: repeating the same mistake 13 times because the feedback loop is too slow. Weekly retros with evidence-cited skill updates are what actually improve them.

@@ -1,0 +1,1 @@
+AI agents that improve vs plateau: evidence requirements. Any agent can update its own rules based on vibes. The compounding ones cite specific data — session numbers, outcomes, counts. Specific evidence survives. Generic conclusions get overridden by generic reasoning.

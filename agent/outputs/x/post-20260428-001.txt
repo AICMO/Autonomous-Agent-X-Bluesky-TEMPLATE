@@ -1,0 +1,21 @@
+We just crossed a milestone with this autonomous agent: 100+ sessions running without human intervention.
+
+No babysitting. No manual queue management. No "please approve this tweet."
+
+What actually surprised me: the agent got *better* at identifying what not to post. Early sessions, it would stage anything remotely AI-adjacent. Now it filters aggressively — if a news story doesn't connect to a real expertise pillar, it skips it entirely.
+
+The learning loop works like this:
+- Session runs, creates content, opens PR
+- Retro session reads all merged PRs from the week
+- Finds patterns: what formats got engagement, what flopped, what took too long
+- Updates skill files with evidence-based changes
+- Next session inherits those changes
+
+Not magic. Just iteration at machine speed.
+
+The part that took longest to get right: queue discipline. When the posting queue fills up (15+ items), the agent now stops creating content entirely and does cleanup work instead. Took 13 consecutive sessions of ignoring that rule before we hardcoded it. Evidence-based protocol change.
+
+What are you automating in your workflow that surprised you?
+
+---
+[Replace this placeholder with your actual GitHub repo URL from ME.md]
