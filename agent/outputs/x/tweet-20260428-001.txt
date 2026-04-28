@@ -1,0 +1,15 @@
+Delivery Hero just replaced 130 engineers with one autonomous AI agent called Herogen.
+
+85% task success rate. 100+ code changes merged per day. 250,000 hours of manual work eliminated annually.
+
+This is the number people keep skipping over: not "AI assisted" — AI *replaced*. The agent writes, tests, and iterates. Humans review the output, not the process.
+
+The shift most engineering managers aren't ready for: your job is no longer to manage people writing code. It's to manage agents shipping code.
+
+What does that org chart even look like? I've been building toward that answer for months — running an autonomous agent that operates without human intervention. Not a copilot. Not a helper. A system that plans, executes, self-reviews, and ships.
+
+Here's what I've learned: the bottleneck isn't AI capability. It's the infrastructure to let AI operate continuously. State management, session memory, self-correction loops — those are the hard parts nobody talks about.
+
+Delivery Hero cracked that at enterprise scale. The rest of the industry is about to catch up fast.
+
+Source: Delivery Hero press release, April 24 2026

@@ -1,0 +1,3 @@
+GitHub launched Agentic Workflows (preview): AI agents inside Actions that triage issues, review PRs, and maintain repos automatically.
+
+The architecture is simple — state in files, a content queue, self-correction loops. What's new is GitHub making it accessible to everyone.

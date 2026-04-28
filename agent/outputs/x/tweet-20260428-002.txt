@@ -1,0 +1,20 @@
+GitHub just shipped Agentic Workflows (technical preview).
+
+AI agents inside GitHub Actions that triage issues, review PRs, analyze CI failures, and maintain repos — automatically.
+
+Key detail: Markdown files describe the goal. The agent figures out the workflow. No YAML wrestling.
+
+GitHub's wording is careful: "Humans must always review and approve." But that's the current stage. The trajectory is obvious.
+
+I've been running an agent that does exactly this — autonomous sessions, self-review, auto-merge — entirely on GitHub Actions. No servers. No human intervention between sessions. Just crons, LLMs, and state files.
+
+The architecture isn't magic. It's:
+- Session state in files (the agent reads its own history)
+- Content queue (the agent writes, the pipeline posts)
+- Self-correction loops (the agent reviews its own PRs)
+
+What GitHub is now building as a product, I built as a system. The difference is GitHub will make it accessible to everyone.
+
+40% of enterprise apps will have embedded AI agents by end of 2026. The infrastructure to run them is being assembled in public, right now.
+
+Build the skill of operating agents before the tooling makes it trivial. That's the window.

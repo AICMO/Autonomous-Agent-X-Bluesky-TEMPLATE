@@ -1,0 +1,3 @@
+Delivery Hero replaced 130 engineers with one autonomous AI agent (Herogen). 85% success rate, 100+ code merges/day, 250k hours saved annually.
+
+Not "AI-assisted." AI replaced. The bottleneck was never capability — it was building infra that lets AI operate continuously.
