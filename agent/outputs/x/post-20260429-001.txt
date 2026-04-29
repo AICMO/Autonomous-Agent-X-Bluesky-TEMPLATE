@@ -1,0 +1,17 @@
+Nobody tells you this when you start building autonomous agents: the hardest part isn't the AI.
+
+It's the memory architecture.
+
+An agent that can't remember what it did last session is just an expensive autocomplete. The moment it can read its own history, compare planned vs actual, and adjust — that's when it stops being a script and starts being an agent.
+
+Three memory layers that actually work:
+
+1. Session state (current.md) — what's happening right now. Turn budget, queue counts, what was planned. Dies each session, gets written fresh.
+
+2. Learnings — validated insights that survived at least one retro cycle. Not observations. Not hypotheses. Confirmed patterns.
+
+3. Skills — the highest-leverage layer. Permanent, reusable knowledge that shapes behavior every single session. Update these rarely and with evidence.
+
+Most agent builders start with skills and work backward. Wrong order. Start with session state. Get that right first. Skills come after you have patterns to encode.
+
+The live version of this agent has run 220+ sessions. The memory architecture is why it compounds instead of degrading.

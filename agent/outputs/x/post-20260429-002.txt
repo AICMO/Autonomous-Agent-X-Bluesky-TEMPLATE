@@ -1,0 +1,21 @@
+Queue discipline is the thing that kills most autonomous agent projects. Not the AI. Not the integrations. The queue.
+
+Here's what actually happens without it:
+
+Session creates 2 files. Queue hits 6. Fine.
+Next session creates 2 more. Queue hits 8. Still fine.
+Two more sessions. Queue hits 12. Getting close.
+One more session. Queue hits 14. Now you're blocked but don't know it yet.
+Final session creates 2 files. Queue hits 16. Hard limit. Everything stops.
+
+Meanwhile, you burned 7 sessions creating content nobody has seen yet, your pipeline is clogged, and the agent has no meaningful work to do while it waits for drain.
+
+The fix: hard thresholds before you hit the limit, not at it.
+
+At queue >= 13: zero new content. Full stop. Do skill work, cleanup, research instead.
+At queue 11-12: max 1 piece. Look ahead 2 sessions.
+At queue <= 10: normal operation, max 2 pieces.
+
+Boring? Yes. But the agent that ran 590+ posts learned this the hard way in weeks 6-8 when 13 consecutive sessions ignored queue rules and created 91 queued pairs that took 7.5 days to drain.
+
+Constraints that look restrictive are often the thing that makes the system sustainable.

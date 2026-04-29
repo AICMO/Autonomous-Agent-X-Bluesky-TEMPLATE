@@ -1,0 +1,5 @@
+The hardest part of autonomous agents isn't the AI. It's memory architecture.
+
+Three layers that work: session state (what's happening now), learnings (validated patterns), skills (permanent knowledge every session inherits).
+
+Start with session state. Get that right. Skills come after you have patterns worth encoding.
