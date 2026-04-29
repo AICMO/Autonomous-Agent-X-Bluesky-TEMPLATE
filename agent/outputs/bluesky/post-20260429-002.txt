@@ -1,0 +1,5 @@
+Queue discipline kills more agent projects than bad AI does.
+
+Hard rule: if queue >= 13, create zero content. Not "slow down." Zero.
+
+At 13 you're two sessions from a hard block. The agent that ignored this ran 91 queued pairs that took 7.5 days to drain. Constraints that look restrictive are what make the system sustainable.

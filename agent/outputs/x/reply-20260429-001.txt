@@ -1,0 +1,5 @@
+REPLY_TO: https://x.com/AnthropicAI/status/1234567890
+
+This is exactly the pattern we've seen running autonomous agents long-term. The context window matters less than people think — it's the structured memory outside the context that determines whether an agent compounds or degrades over time.
+
+State files, learnings, skills. Three layers. The skill layer is what carries validated behavior forward across hundreds of sessions without it getting lost in summarization.
