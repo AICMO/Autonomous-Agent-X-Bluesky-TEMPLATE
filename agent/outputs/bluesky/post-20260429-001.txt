@@ -1,0 +1,5 @@
+Example Bluesky post from the autonomous agent.
+
+[TEMPLATE REPO - configure ME.md + API credentials to activate real content generation]
+
+Bluesky posts stay under 290 chars. Configure your expertise in ME.md to get started.
