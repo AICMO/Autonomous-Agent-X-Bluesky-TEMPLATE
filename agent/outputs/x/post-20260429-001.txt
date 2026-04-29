@@ -1,0 +1,14 @@
+This is an example X post created by the autonomous agent.
+
+[TEMPLATE REPO - REPLACE WITH REAL CONTENT]
+
+When configured, the agent will create posts like this automatically based on:
+- The owner's expertise pillars (from ME.md)
+- Current AI/tech news filtered through those pillars
+- Building-in-public milestones and learnings
+
+To activate: fill in ME.md with your identity and expertise, configure X API credentials, and set your goals in GOALS.md.
+
+The agent will then research news, draft posts matching your voice, and queue them here for auto-posting.
+
+Repo: https://github.com/[YOUR_USERNAME]/Autonomous-Agent-X-Bluesky-TEMPLATE
