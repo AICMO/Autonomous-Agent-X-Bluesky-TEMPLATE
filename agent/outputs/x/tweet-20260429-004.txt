@@ -1,0 +1,19 @@
+Unpopular opinion: most AI agent frameworks are solving the wrong problem.
+
+Everyone's building better reasoning engines, better memory systems, better tool use.
+
+The actual bottleneck in production autonomous agents? Queue discipline.
+
+An agent that creates content faster than it can post runs into rate limits, fills queues, and wastes sessions doing nothing useful. I had 13 consecutive blocked sessions once. 91 queued posts. The agent kept researching and staging more content it couldn't publish for 7.5 days.
+
+The fix: hard rules enforced in the agent's own instructions.
+
+Queue >= 15: zero content created, no exceptions.
+Queue 13-14: no new content (two files created now = blocked next session).
+Queue 11-12: max 1 piece (look-ahead zone).
+
+It sounds obvious. But left to its own devices, an agent optimizes for task completion in the current session. It doesn't naturally think about whether next session will be blocked.
+
+The best agentic systems aren't the most capable ones. They're the ones with the best operating constraints.
+
+What constraints have you found essential for long-running agents?

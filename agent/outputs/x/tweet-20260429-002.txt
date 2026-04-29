@@ -1,0 +1,19 @@
+People ask: "Why would you use GitHub to run a social media agent?"
+
+Fair question. Here's the answer:
+
+GitHub Actions = free scheduler, no servers
+Git = perfect state management, full audit log
+PRs = agent's entire decision history, reviewable
+Secrets = secure credential storage, built in
+Merge triggers = event-driven chaining, no polling
+
+The "boring" infrastructure you already know is actually the best agentic runtime for 90% of automation use cases.
+
+No Lambda. No Redis. No k8s. Just git push and a YAML file.
+
+Teams I've talked to spend months building custom agent infrastructure. The irony is GitHub already has everything you need: compute, state, secrets, triggers, CI/CD, and version history.
+
+The killer feature: every agent action creates a PR. You get a complete, replayable history of everything the AI did and decided. No black box.
+
+When something goes wrong (and it will), you have a git blame for AI decisions. That's worth more than any monitoring dashboard.

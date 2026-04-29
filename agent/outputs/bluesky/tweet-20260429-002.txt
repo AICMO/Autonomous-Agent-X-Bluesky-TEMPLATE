@@ -1,0 +1,5 @@
+Why use GitHub to run a social media agent?
+
+Free scheduler. Built-in secrets. Git = perfect state management. Every agent action creates a PR — full audit log of every AI decision.
+
+No Lambda. No Redis. Just a YAML file.
