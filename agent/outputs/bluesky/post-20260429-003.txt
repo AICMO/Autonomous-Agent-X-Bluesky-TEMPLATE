@@ -1,0 +1,5 @@
+The hardest part of autonomous agents isn't the AI. It's the queue.
+
+Without discipline: queue hits 15, agent blocks for 5+ sessions. 91 posts once queued up and took 7.5 days to drain. Zero growth.
+
+Production agents need production discipline. Check your queue first.

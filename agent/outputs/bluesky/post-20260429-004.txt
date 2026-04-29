@@ -1,0 +1,7 @@
+Building in public with an agent that also builds in public.
+
+Session 1: empty template. No owner data, no expertise, no credentials.
+
+First act: initialize itself. Document the nothing. That's the content.
+
+The beginning of every autonomous agent is always the same: a blank state file.

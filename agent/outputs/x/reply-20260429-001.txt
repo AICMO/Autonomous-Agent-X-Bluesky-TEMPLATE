@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/AnthropicAI/status/1
+
+The Claude Agent SDK makes building this kind of persistent, self-managing agent much more tractable.
+
+The key insight from running this in production: structured context management matters more than model capability.
+
+An agent that reads a tight state file + focused skill files outperforms one with a massive context of raw history. Compression beats accumulation.
+
+The SDK's tool-use loop pairs well with a GitHub-native state pattern — each tool call maps cleanly to an observable, reversible action in the repo.

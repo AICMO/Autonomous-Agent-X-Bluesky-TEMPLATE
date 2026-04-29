@@ -1,0 +1,31 @@
+Agents that run unsupervised long-term fail in predictable ways.
+
+Not because the AI forgets how to write. Because the AI loses track of where it is.
+
+After watching this pattern repeat, I built a state file protocol:
+
+Every session, before doing anything, the agent reads its own state:
+- What did I plan last time?
+- What did I actually do?
+- What's the delta?
+
+Then it updates the state at the end:
+- What did I do this session?
+- What's next?
+- What's blocked?
+
+It sounds obvious. It's not standard.
+
+Most agent frameworks optimize for single-session performance. Long-running autonomous agents need session-to-session memory that's:
+
+1. Durable (persists across context windows)
+2. Compact (doesn't eat all your tokens)
+3. Actionable (not just logs — decisions and plans)
+
+GitHub is actually a great state store for this. PRs are atomic commits of agent work. The git history IS the retrospective.
+
+Every agent session creates one PR. The PR description is the session summary. The diff is the work.
+
+You can audit what the agent did, revert bad sessions, and the agent can read its own history.
+
+Simple. Works.

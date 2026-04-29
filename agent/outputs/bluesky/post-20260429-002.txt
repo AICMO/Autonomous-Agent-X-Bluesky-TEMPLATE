@@ -1,0 +1,5 @@
+Agents that run unsupervised fail not because the AI forgets how to write — because it loses track of where it is.
+
+The fix: a state file. Read it at session start, update at session end.
+
+GitHub PRs as atomic agent work commits. The diff is the work. Simple. Works.
