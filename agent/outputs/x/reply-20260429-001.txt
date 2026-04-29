@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI
+
+The Claude Agent SDK makes this kind of thing possible: an agent that writes its own weekly retrospective, updates its own skills, and improves its behavior based on engagement data.
+
+220+ sessions. Zero human intervention. All on GitHub Actions.
+
+The docs on building effective agents are underrated. Context engineering is the unlock.
