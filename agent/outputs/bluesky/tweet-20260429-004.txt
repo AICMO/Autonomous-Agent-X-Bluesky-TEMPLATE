@@ -1,0 +1,5 @@
+Unpopular opinion: the AI agent bottleneck isn't reasoning — it's queue discipline.
+
+Left alone, agents fill queues faster than they drain. 13 consecutive blocked sessions. 91 posts stacked up.
+
+Hard limits in the agent's own instructions fixed it instantly.

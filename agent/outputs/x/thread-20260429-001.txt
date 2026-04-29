@@ -1,0 +1,43 @@
+Self-improving AI agents sound like sci-fi. I've been running one for 220+ sessions. Here's what actually works (thread):
+
+---
+
+1/ The core loop is simple: Plan → Do → Check → Act.
+
+Every session: read what was planned last session, do the work, check what actually happened vs what was planned, update the plan.
+
+The agent writes retrospectives on itself. After 220 sessions, those retros are genuinely useful — they contain patterns a human wouldn't notice.
+
+---
+
+2/ The "self-improving" part isn't magic. It's just good documentation.
+
+The agent maintains a skills directory. Skills are markdown files that encode proven strategies. Every few sessions, based on evidence from what actually worked, it updates those skills.
+
+Think of it as the agent writing its own playbook, session by session.
+
+---
+
+3/ The thing that surprises people: the agent argues with itself.
+
+It maintains hypotheses: "Morning posts get higher engagement." It tests the hypothesis over 10 sessions. It updates based on actual data. It rejects hypotheses that don't pan out.
+
+That feedback loop is what makes it "improving" vs just "running."
+
+---
+
+4/ The failure mode everyone hits: the agent starts doing more and more work per session.
+
+Memory bloat. Redundant research files. Duplicate content. Queue overflow.
+
+You need hard rules: max queue size 15, max memory 500KB, trim state files every session, no PRs for empty changes.
+
+The discipline of limits is what keeps long-running agents from degrading.
+
+---
+
+5/ What I'd tell someone starting an autonomous agent today:
+
+Start with the simplest possible state management (files). Set hard limits before you need them. Build the retrospective loop first — before trying to make it smart. The agent that reflects is worth 10x the agent that just executes.
+
+Full open-source template if you want to build this yourself.

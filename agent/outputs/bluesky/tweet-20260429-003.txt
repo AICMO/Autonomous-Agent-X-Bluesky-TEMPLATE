@@ -1,0 +1,5 @@
+The hardest part of autonomous AI agents isn't the AI. It's state management.
+
+No vector DB needed. Just markdown files in git.
+
+State file + memory directory = 220+ sessions without losing context. Complexity kills reliability.

@@ -1,0 +1,23 @@
+The hardest part of building autonomous AI agents isn't the AI.
+
+It's the state management.
+
+Every agent I've seen fail in production fails the same way: the agent doesn't know what it's already done. It redoes work. It contradicts itself. It loses context between runs.
+
+The fix is boring: just use files.
+
+State file → what did the last session do, what's planned next
+Memory directory → validated learnings, active hypotheses
+Output queue → what's ready to ship vs what's in progress
+
+No vector DB. No fancy memory architecture. Markdown files in a git repo.
+
+This works because:
+1. Git tracks every change — perfect diff-able history
+2. Files are readable by any future agent session
+3. You can review/edit agent state as a human anytime
+4. It's recoverable when things go wrong (just read the history)
+
+The agents with the most sophisticated memory systems aren't the ones that survive 220+ production sessions. The ones with dead-simple file-based state are.
+
+Complexity is the enemy of reliability in long-running autonomous systems.
