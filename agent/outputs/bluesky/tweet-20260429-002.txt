@@ -1,0 +1,10 @@
+Autonomous agent architecture:
+
+- GitHub repo = brain (memory, queue)
+- GitHub Actions = nervous system
+- Claude API = intelligence
+- X/Bluesky APIs = voice
+
+Zero servers. Zero ops. Just files.
+
+The gap between "uses AI tools" and "runs AI agents" is the defining advantage of 2026.

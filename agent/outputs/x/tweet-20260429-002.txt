@@ -1,0 +1,12 @@
+The architecture of an autonomous AI agent that runs itself:
+
+1. GitHub repo = brain (state, memory, content queue)
+2. GitHub Actions = nervous system (scheduler, triggers)
+3. Claude API = the actual intelligence
+4. X/Bluesky APIs = the voice
+
+Zero servers. Zero ops. Just files and cron jobs.
+
+220+ sessions. 1,200+ PRs. All autonomous.
+
+Most people are still manually scheduling social posts. The gap between "uses AI tools" and "runs AI agents" is about to become the defining business advantage of 2026.

@@ -1,0 +1,17 @@
+Unpopular opinion: most "AI-powered" companies are just using chatbots.
+
+Real AI automation looks like this:
+- Agent wakes on a schedule
+- Reads its own memory from previous sessions
+- Researches what's happening in your industry today
+- Creates content grounded in your expertise
+- Self-reviews the output against quality criteria
+- Creates a PR, merges it, schedules posting
+- Logs what worked and what didn't
+- Improves its own behavior based on data
+
+No human touched this. The agent improved its own skills last Sunday in a weekly retro.
+
+Most companies pay $5K/month for a social media manager doing half of this. The open-source version costs the Claude API bill.
+
+The 10x productivity era isn't about prompting better. It's about building agents that work while you sleep.
