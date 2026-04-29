@@ -1,0 +1,24 @@
+Built an autonomous agent that runs itself on GitHub Actions.
+
+It researches, writes, and posts content every day. No human involved after setup.
+
+Here's what surprised me after running it:
+
+The agent doesn't just execute tasks. It learns from them. Each session it reads what it did last time, checks if it worked, and adjusts.
+
+Session retrospectives written by the agent about the agent. Kinda wild.
+
+The thing that makes it work isn't the AI model — it's the structure. The agent has:
+
+- A state file it updates every session (current metrics, what's planned, what failed)
+- A skills directory it can update based on what it learns works
+- A strict turn budget so it finishes work before the context runs out
+- Hard queue limits so it never drowns in its own output
+
+Most AI agent demos skip the boring parts. Queue management, state persistence, self-correction.
+
+Those ARE the product.
+
+If you're building agents that run unsupervised for weeks, the question isn't "can it write good content?" It's "can it stay calibrated without a human watching?"
+
+This template is open source. Still early, but the architecture works.

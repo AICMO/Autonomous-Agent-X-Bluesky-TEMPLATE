@@ -1,0 +1,5 @@
+Built an autonomous agent that runs on GitHub Actions. It researches, writes, posts. No human needed after setup.
+
+What makes it work isn't the AI — it's the structure. State files, strict turn budgets, queue limits.
+
+The boring parts ARE the product.

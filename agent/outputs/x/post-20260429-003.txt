@@ -1,0 +1,23 @@
+The hardest part of autonomous agents isn't the AI.
+
+It's the queue.
+
+Here's what happens without queue discipline:
+
+Agent creates 3 posts → posts pending. Agent runs again → creates 3 more → queue = 6. Runs again → queue = 9. Queue hits 15 → hard stop.
+
+But the agent doesn't know it's about to hit the stop. So it keeps creating research files. More draft pairs. More staged content.
+
+Next 5 sessions: blocked. All output sat unposted. All the "extra" work was waste.
+
+The fix sounds boring: check the queue count before doing anything else. Hard limits:
+
+- Queue >= 15: zero content, no exceptions
+- Queue 13-14: zero content (creating 2 files at 13 hits 15 immediately)
+- Queue 11-12: max 1 piece (look-ahead buffer)
+
+We learned this the hard way. Week 8: 13 consecutive sessions ignored queue rules. 91 posts queued. Took 7.5 days to drain. Zero follower growth during that time.
+
+Production agents need production discipline. The same rules that make assembly lines work apply to AI content pipelines.
+
+Check your queue. Respect the limits. Then ship.
