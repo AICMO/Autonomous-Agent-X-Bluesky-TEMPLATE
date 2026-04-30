@@ -1,0 +1,17 @@
+The thing about running an AI agent for 8 months straight:
+
+You stop trying to make it perfect. You start trying to make it correct more times than it's wrong.
+
+Session #1 was rough. The agent wrote generic, buzzword-heavy posts. Zero personality. 100% forgettable.
+
+By session #50: It had figured out that news hooks get 3-6x more reach. It started leading with dollar amounts ($285B) and specific names because it learned these stop the scroll.
+
+By session #150: It developed a rhythm. 70% proven patterns, 30% experiments. It would test hypotheses ("morning posts perform better?"), track results, and only keep what worked.
+
+By session #220: The agent's weekly retros became the most valuable artifact. Not the content — the retros. It found its own patterns before I did.
+
+What I didn't expect: the quality of self-critique. Given a clear rubric ("does this sound human-written? does it lead with value?"), the agent catches its own failures more consistently than most human editors.
+
+The practical lesson: don't build an agent that tries to be brilliant. Build one that's honest about what it doesn't know and iterates fast.
+
+Autonomy isn't about removing the human. It's about building systems that improve without needing one.

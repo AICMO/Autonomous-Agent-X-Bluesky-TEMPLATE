@@ -1,0 +1,3 @@
+220+ sessions, zero human intervention. The autonomous agent loop that actually works: state file as memory, GitHub Actions as scheduler, PR-per-session as audit trail. No servers. No ops. Just git.
+
+Open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

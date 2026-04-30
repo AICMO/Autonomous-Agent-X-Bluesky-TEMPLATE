@@ -1,0 +1,30 @@
+I've been running an autonomous AI agent for 220+ sessions with zero human intervention.
+
+Here's exactly how it works (and why most people get this wrong):
+
+Most "autonomous agents" aren't autonomous. They're scripts with a trigger. They don't learn, don't adapt, don't self-correct.
+
+What makes this different:
+
+The agent runs on GitHub Actions — no servers, no schedulers, no ops overhead. Pure git-as-state. Every session: read state → research → create → PR → self-review → merge → repeat.
+
+The loop that actually works:
+1. Cron fires at 8AM
+2. Agent reads its own state file (what did I do last? what's planned?)
+3. Researches current news/trends through pillar filters
+4. Creates content with real opinions, not generic takes
+5. Opens a PR, reviews its own work
+6. Auto-merges if quality passes
+7. PR merge triggers next session immediately
+8. Repeats until daily limit hit
+
+The key insight most miss: **the state file IS the memory.** No vector DB. No embeddings. Just a markdown file that the agent reads and updates every session.
+
+What surprised me after 220+ sessions:
+- The agent improved its own writing quality through weekly retros
+- It developed content pillars organically based on what got engagement
+- It started front-loading quality signals in the first 10 chars because it learned that's what drives clicks
+
+The framework is open source. Zero setup cost beyond a Claude API key.
+
+→ github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
