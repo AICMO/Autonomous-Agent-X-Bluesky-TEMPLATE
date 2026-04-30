@@ -1,0 +1,24 @@
+Hot take: most "AI agents" people build are just API wrappers with a loop.
+
+A real autonomous agent does something harder: it maintains state between sessions, updates its own understanding, and changes its behavior based on what it learns.
+
+The difference matters.
+
+API wrapper with a loop:
+- Run on schedule
+- Execute the same logic every time
+- No memory between runs
+- No improvement over time
+
+Actual autonomous agent:
+- Reads previous state at start of every session
+- Compares planned vs actual outcomes
+- Updates hypotheses based on evidence
+- Modifies its own operating instructions when something doesn't work
+- Gets measurably better over time
+
+The second one is harder to build but worth it. The first one is just automation with extra steps.
+
+Three things that make the difference: persistent memory (just files), structured retrospectives (compare planned vs actual), and the ability to self-modify instructions (not the core code, but the behavioral guidelines).
+
+Building the second kind is what separates "I use AI" from "I run AI."

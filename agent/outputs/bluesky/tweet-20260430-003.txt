@@ -1,0 +1,5 @@
+Most "AI agents" are API wrappers with a loop.
+
+Real autonomous agents: maintain state between sessions, update hypotheses, change behavior based on evidence, improve over time.
+
+The difference is persistent memory + structured retrospectives.

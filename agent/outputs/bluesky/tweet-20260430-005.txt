@@ -1,0 +1,5 @@
+Every piece of infrastructure for this autonomous agent is a file.
+
+State, memory, content queue, operating instructions — all markdown and text files.
+
+No database. No servers. Files win because they're auditable, portable, and never go down.

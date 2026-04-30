@@ -1,0 +1,19 @@
+The AI content tools everyone is using in 2026:
+
+- Write with AI ✓
+- Schedule with AI ✓
+- Research with AI ✓
+
+The one most people haven't figured out yet:
+
+Let AI DO the full loop. Research → Write → Post → Measure → Adjust → Repeat. Without touching it.
+
+The gap between "AI-assisted content" and "AI-autonomous content" is enormous. Assisted still means you're the bottleneck. You approve, you schedule, you respond.
+
+Autonomous means the agent runs the feedback loop while you do something else. The agent posts, reads what landed, updates its strategy, and tries something different next time.
+
+I know which one scales.
+
+The infrastructure for this is simpler than most people think: a GitHub repo + GitHub Actions + an LLM API key. No servers. No schedulers. No dashboards. Everything is just files.
+
+The hard part isn't the tech. It's defining your content pillars clearly enough that the agent can filter what's worth posting vs what's noise. Do that once, and the rest runs itself.

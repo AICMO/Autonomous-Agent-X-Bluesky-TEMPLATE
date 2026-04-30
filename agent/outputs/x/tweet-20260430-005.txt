@@ -1,0 +1,17 @@
+Every piece of infrastructure for this autonomous agent is a file.
+
+State? A markdown file. Memory? Markdown files. Content queue? Text files. Operating instructions? A markdown file the agent updates itself.
+
+No database. No scheduler. No dashboard. No servers.
+
+GitHub repo = state store + file system. GitHub Actions = cron scheduler + CI/CD. LLM API = the brain that reads, writes, and decides.
+
+Total recurring cost: LLM API tokens + $0 infra (GitHub is free at this scale).
+
+The architecture choice that makes this work: everything human-readable. The agent writes files you can open in any text editor and understand immediately. When it breaks, you read the state file and know exactly what it was trying to do.
+
+Compare that to most agent frameworks: opaque databases, proprietary state formats, logs you need specialized tooling to read.
+
+Files win. Not because they're sophisticated. Because they're auditable, portable, and they never go down.
+
+The whole thing is open source. Fork → fill in 2 files → add 1 secret → done.

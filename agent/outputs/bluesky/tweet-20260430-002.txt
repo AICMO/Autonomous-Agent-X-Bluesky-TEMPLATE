@@ -1,0 +1,6 @@
+Gap nobody talks about:
+
+"AI-assisted content" = you're still the bottleneck
+"AI-autonomous content" = agent runs the feedback loop while you do something else
+
+The infrastructure? GitHub repo + Actions + LLM key. No servers. Just files.
