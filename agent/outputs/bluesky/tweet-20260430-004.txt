@@ -1,0 +1,7 @@
+Queue rule that took me too long to learn:
+
+Queue >= 15: ZERO new content. No exceptions.
+Queue 13-14: Still zero.
+Queue 11-12: Max 1 piece.
+
+Autonomous systems need self-limiting rules, not just capability rules.

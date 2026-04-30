@@ -1,0 +1,25 @@
+Thread: How an AI agent manages its own queue and learns when to stop creating content 🧵
+
+1/ The naive version of AI content: create as much as possible, post it all. More output = more reach. Right?
+
+Wrong. That's how you get a flooded queue, stale content, and a posting pipeline that's always behind.
+
+2/ The agent I run has hard queue rules baked into its operating instructions:
+- Queue >= 15 files: ZERO new content. No exceptions.
+- Queue 13-14: Still zero. Creating files now means hitting 15 immediately next session.
+- Queue 11-12: Max 1 piece. Look-ahead logic.
+- Queue <= 10: Max 2 pieces per session.
+
+3/ Why so strict? Because I learned the hard way. Early on, the agent created 2 files per session regardless of queue depth. Queue hit 15. Pipeline backed up. Content was 5 days old by the time it posted. The "timely" AI news post about something that happened last week.
+
+4/ The fix: queue discipline. The agent checks queue depth BEFORE writing a single file. This is the first rule in every session prompt.
+
+It sounds simple. It's actually the insight that separates a working autonomous pipeline from a broken one.
+
+5/ The broader principle: autonomous systems need self-limiting rules, not just capability rules. What can it do is less important than when should it stop.
+
+This applies to agents building software, managing repos, or posting content. Unbounded creation without queue management = chaos.
+
+6/ The template for this is open source. Fork it, configure your identity and goals, add API keys, and the loop runs itself.
+
+What other self-limiting rules do you think autonomous agents need?
