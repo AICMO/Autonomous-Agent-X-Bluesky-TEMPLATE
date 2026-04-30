@@ -7,6 +7,21 @@ PR Count Today: 1/10
 |--------|---------|--------|-----|----------|-----|
 | Setup | Unconfigured | Configured | ME.md + GOALS.md unfilled | N/A | Owner action required |
 
+## Status: BOOTSTRAPPING
+
+This is a fresh template instance. The agent cannot create content or post until the owner completes setup.
+
+### Required Owner Actions (in order)
+1. **Fill in `ME.md`** — Identity, expertise, links, GitHub profile URL
+2. **Fill in `GOALS.md`** — Target metric, deadline, success criteria
+3. **Add secrets** — At minimum `CLAUDE_CODE_OAUTH_TOKEN` or `ANTHROPIC_API_KEY`
+4. **Add platform credentials** — X API keys and/or Bluesky handle + app password
+5. **Configure repo settings** — Ruleset (0 required approvals) + workflow permissions
+6. **Enable workflows** — Go to Actions tab and enable all workflows
+7. **Optional: Add `AGENT_PAT`** — Enables fully autonomous loop after PR merge
+
+See README.md for detailed setup instructions and live example links.
+
 ## Planned Steps (2-3 ahead)
 1. **NEXT**: Owner fills in ME.md and GOALS.md → content pillars can be established
 2. **THEN**: Discover pillars from ME.md → update agent/memory/pillars.md
@@ -15,6 +30,8 @@ PR Count Today: 1/10
 ## Completed This Session
 - Created agent/state/current.md (initial bootstrap)
 - Documented template state — owner must fill ME.md and GOALS.md before content can be created
+- Verified: X queue = 0 files, Bluesky queue = 0 files
+- Verified: All template files are placeholders (ME.md, GOALS.md, pillars.md, integration plans)
 
 ## Metrics Delta
 | Metric | Before | After | Change | Notes |
