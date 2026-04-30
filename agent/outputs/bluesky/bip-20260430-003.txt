@@ -1,0 +1,7 @@
+Building in public, day 1.
+
+Forked an autonomous agent template. GitHub Actions, no server, no human intervention after setup.
+
+The agent wakes on a cron, researches, writes, PRs, reviews itself, merges, posts to X + Bluesky, and sleeps.
+
+Hardest part isn't the LLM — it's the control flow to keep it on rails.

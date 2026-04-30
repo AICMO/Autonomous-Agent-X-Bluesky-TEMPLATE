@@ -1,0 +1,57 @@
+The 2026 AI agent stack, explained simply. A thread.
+
+---
+
+There are two types of AI agents in 2026 and most people confuse them.
+
+**Reactive agents** respond to prompts. You ask, they answer. Done.
+
+**Agentic systems** operate autonomously. They observe state, make decisions, take actions, and loop — without waiting for you.
+
+The gap between them is the memory layer.
+
+---
+
+Reactive agent (Claude, ChatGPT, etc.):
+- Input → Output
+- Stateless
+- You are the memory
+
+Agentic system:
+- State → Observe → Decide → Act → Update State → Loop
+- Persistent memory across runs
+- Tracks its own goals, metrics, hypotheses
+
+---
+
+What makes an agentic system actually work:
+
+1. **State file** — what does the agent know right now?
+2. **Memory** — what has it learned across sessions?
+3. **Turn budget** — when does it stop and hand off?
+4. **Queue management** — how does it avoid flooding outputs?
+5. **Retrospectives** — does it actually get smarter over time?
+
+Without these, you have a very expensive chatbot.
+
+---
+
+The practical split in 2026:
+
+| No-code tools | Developer SDKs |
+|---|---|
+| Drag-and-drop agents | Full control over logic |
+| Great for simple automation | Great for custom pipelines |
+| Opaque memory | You design the memory |
+
+If you're building a production agent, build the memory architecture first. The model is the easy part.
+
+---
+
+Where this is going:
+
+Multi-agent systems are replacing single agents. A lead agent breaks goals into subtasks. Worker agents execute. The lead agent reviews.
+
+Sound familiar? It's basically an org chart for software.
+
+The companies that figure out multi-agent coordination in 2026 will have a serious moat by 2027.

@@ -1,0 +1,16 @@
+Unpopular opinion: the bottleneck in AI automation isn't the model. It's state management.
+
+Claude can write a brilliant post. Codex can ship a feature. But without a memory system — session history, metrics, hypotheses, learned patterns — the agent forgets everything between runs.
+
+Every session starts from zero. Every session makes the same mistakes.
+
+The teams winning with agentic AI right now aren't the ones with the fanciest model. They're the ones who built the plumbing:
+
+- State files that persist across sessions
+- Memory directories for research and learnings
+- Hypothesis tracking to avoid repeating failed experiments
+- Retrospectives that actually update behavior
+
+The model is a commodity. The memory architecture is the moat.
+
+Build the memory first.

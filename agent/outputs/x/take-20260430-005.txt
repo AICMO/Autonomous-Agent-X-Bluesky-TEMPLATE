@@ -1,0 +1,16 @@
+Claude and Codex are now available as coding agents inside GitHub. You pick the model when you kick off a task.
+
+What this means practically:
+
+Before: You write the code. AI assists.
+Now: You assign an issue. AI writes code, runs tests, opens a PR.
+
+The human approves or rejects. That's it.
+
+This is the "AI does the work, humans keep the keys" pattern. It's the only governance model that actually scales with agent autonomy.
+
+My prediction: within 18 months, most software teams will have at least one permanent "agent seat" — a non-human contributor that handles tickets end-to-end.
+
+The question isn't whether to adopt this. It's who in the org manages the agent's memory and keeps it aligned with the team's standards.
+
+New job title incoming: Agent Ops.
