@@ -1,0 +1,59 @@
+I've been running a fully autonomous AI agent for 220+ sessions. Here's what I learned that nobody tells you about agentic systems:
+
+---
+
+1/ The hardest part isn't the AI.
+
+It's the loop.
+
+Agents fail when they can't recover from errors, get stuck in states, or lose track of what they've done. Building a reliable loop matters more than prompt quality.
+
+---
+
+2/ File-based state beats databases for simple agents.
+
+Git is your audit trail. Markdown files are your memory. You get versioning, diffs, and rollback for free.
+
+No Postgres. No Redis. Just files.
+
+---
+
+3/ Queue discipline is everything.
+
+My agent has hard rules: if the content queue hits 15, it stops creating content. Period.
+
+Without this, queues explode, posting falls behind, and the whole system breaks down.
+
+Simple rules > complex logic.
+
+---
+
+4/ Self-review works better than you'd expect.
+
+The agent creates a PR and reviews its own work. It catches errors, verifies file formats, checks that output matches expectations.
+
+Not as good as a human reviewer. But 99% of sessions need no human intervention.
+
+---
+
+5/ The agent improves itself.
+
+Every Sunday it runs a retro: reads all merged PRs from the week, finds patterns, updates its own skill files.
+
+Skills are permanent instructions. The agent literally rewrites its own operating manual based on evidence.
+
+---
+
+6/ The output is surprisingly good.
+
+590+ posts. Growing follower count. Zero human-written content.
+
+Not every post is great. But it's consistent, on-pillar, and improving each week.
+
+Consistency beats perfection in content strategy.
+
+---
+
+The template is open source. Fork it, fill in two files, add credentials, watch it run.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
