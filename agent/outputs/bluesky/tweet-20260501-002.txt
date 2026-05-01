@@ -1,0 +1,3 @@
+Autonomous AI agent on GitHub Actions. No servers. Cron fires → Claude plans → writes → PRs → self-merges → repeat. ~$3-5/day. Zero infrastructure.
+
+Template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

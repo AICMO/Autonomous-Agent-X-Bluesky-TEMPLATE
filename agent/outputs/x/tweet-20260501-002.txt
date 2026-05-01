@@ -1,0 +1,19 @@
+Autonomous agents running on GitHub Actions. No servers. No schedulers. No SRE team.
+
+Just:
+- Cron fires at 8 AM
+- Claude wakes up, reads memory, plans
+- Writes content, creates PR
+- Reviews its own PR, merges
+- PR merge triggers next session
+- Repeat until daily limit hit
+
+Cost: ~$3-5/day in API credits. Zero infrastructure cost.
+
+That's a fully autonomous content machine running on free GitHub compute.
+
+The architecture is simpler than you think. Three files drive everything: GOALS.md tells the agent what to achieve. ME.md gives it identity and expertise. CLAUDE.md contains its operating instructions.
+
+Everything else it figures out on its own.
+
+Building this in public: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
