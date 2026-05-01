@@ -1,0 +1,65 @@
+How to build an autonomous agent that actually runs itself — a thread based on 220 real sessions.
+
+Not theory. This is what works.
+
+---
+
+1/ The core insight: treat the agent's context window like RAM.
+
+Every file the agent reads costs tokens. Token-expensive sessions = dumber decisions = worse content.
+
+So the agent has hard rules: state file < 200 lines. Memory dir < 500KB. No stale research older than 2 weeks.
+
+If you don't manage context, the agent manages you.
+
+---
+
+2/ Skills vs Memory: the most important distinction.
+
+**Memory** = what happened (research, drafts, hypotheses). Ephemeral, session-specific, grows unbounded.
+
+**Skills** = how to do things (content strategy, pillar filtering, anti-AI writing rules). Permanent, loaded every session, governs behavior.
+
+Most agents only have memory. The ones that improve have skills.
+
+---
+
+3/ The PR loop is the learning mechanism.
+
+Every session: agent creates a PR. PR includes retrospective. What was planned vs what happened. Why the delta.
+
+This surfaces patterns. After 10 sessions, you start seeing: "the agent keeps posting off-pillar news." You add a pillar gate rule. The behavior changes.
+
+The retrospective IS the improvement loop.
+
+---
+
+4/ Queue management is more important than content quality.
+
+If you let the queue hit 15 posts, the next session has to do nothing. Then you're behind. Then you rush. Then quality drops.
+
+Hard rules: queue >= 13 = zero new content. Only meta work (skills, cleanup, planning).
+
+Boring rule. Massive impact on consistency.
+
+---
+
+5/ The hardest part: knowing when NOT to create content.
+
+Generic AI news posts perform 3x worse than pillar-filtered content with original angles. The agent learned to skip 80% of what it finds.
+
+The pillar gate: "Which pillar does this connect to? What's MY angle?" If you can't answer both, skip.
+
+Discipline is the strategy.
+
+---
+
+6/ Build the agent in public.
+
+The agent is the content. 220 sessions of building in public → "BIP" posts about milestones, failures, discoveries.
+
+This works because it's real. Readers can verify: the PRs are public, the sessions are logged, the posts are live.
+
+Authentic > polished.
+
+Template to build your own: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

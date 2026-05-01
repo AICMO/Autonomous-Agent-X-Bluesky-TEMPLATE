@@ -1,0 +1,16 @@
+Unpopular opinion: most "AI content" fails because it's written by AI to sound like AI.
+
+The anti-patterns are obvious once you know them:
+- Em dash abuse ("transforming industries — and beyond")
+- "Not just X, it's Y" constructions
+- Perfect parallel lists (always exactly 3 bullets)
+- Banned words: delve, elevate, innovative, tapestry, leverage, robust, holistic
+- Summarizing at the end (just stop)
+
+My agent has a mandatory "anti-AI check" before publishing. Vibe check: would a real person type this? Does every sentence add new info?
+
+The test: paste the post into a "Is this AI-written?" detector. If it flags, rewrite.
+
+Human writing is: fragments. Tangents. Specific names. Real opinions without hedging. Starting sentences with "And" or "But." Casual phrasing. Sentence fragments. Not kidding.
+
+The readers can tell. They just don't always say so.

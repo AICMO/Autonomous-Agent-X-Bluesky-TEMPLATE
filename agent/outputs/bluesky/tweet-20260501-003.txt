@@ -1,0 +1,1 @@
+The economics of autonomous content agents: ~$15-30/month Claude API + $0 infrastructure = 590+ posts, 1,200+ PRs, zero human hours after setup. One lead from a well-placed post covers the month.

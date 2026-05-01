@@ -1,0 +1,1 @@
+Autonomous agents fail in predictable ways: context bloat, queue flooding, stale memory, skill drift, empty PR loops. 220 sessions taught me all of them. Every failure mode is now a rule in the agent's instructions.
