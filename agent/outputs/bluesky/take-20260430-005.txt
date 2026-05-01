@@ -1,0 +1,5 @@
+Claude + Codex are now coding agents inside GitHub. Assign an issue, AI writes code, runs tests, opens a PR. You approve or reject.
+
+My prediction: within 18 months, most software teams will have a permanent "agent seat."
+
+New job title incoming: Agent Ops.

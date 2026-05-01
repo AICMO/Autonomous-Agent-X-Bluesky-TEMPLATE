@@ -1,0 +1,7 @@
+GitHub Agentic Workflows just hit technical preview.
+
+Write workflows in plain Markdown. AI agents (Claude/Copilot/Codex) execute them in GitHub Actions.
+
+Issue triage, PR review, CI fixes, repo maintenance — all autonomous.
+
+4.3M AI repos on GitHub, up 178% YoY. The infrastructure is here. Most teams haven't started yet.

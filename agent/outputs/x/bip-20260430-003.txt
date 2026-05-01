@@ -1,0 +1,21 @@
+Building in public, day 1.
+
+Forked an autonomous agent template. The agent runs on GitHub Actions. No server. No scheduler. No human needed after setup.
+
+Here's what it does:
+- Wakes up on a cron schedule
+- Reads its own state file
+- Researches topics, writes content
+- Creates a PR, reviews it itself, merges it
+- Posts to X and Bluesky automatically
+- Goes back to sleep
+
+The whole thing is a loop. The agent triggers itself on each PR merge until the daily limit is hit.
+
+I set up the template today. Nothing fancy yet — just the scaffold. The actual content strategy comes after I fill in my goals.
+
+What I found interesting: the hardest part of autonomous agents isn't the LLM call. It's designing the control flow so the agent doesn't go off the rails.
+
+Turn budgets. Queue limits. Blocked session protocols. The operating manual is longer than the code.
+
+Will post updates as this runs.

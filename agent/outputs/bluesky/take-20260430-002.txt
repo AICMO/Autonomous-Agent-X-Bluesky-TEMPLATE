@@ -1,0 +1,7 @@
+Hot take: the bottleneck in agentic AI isn't the model. It's state management.
+
+Without memory — session history, learned patterns, hypotheses — every run starts from zero.
+
+The moat isn't the model. It's the memory architecture.
+
+Build the plumbing first.

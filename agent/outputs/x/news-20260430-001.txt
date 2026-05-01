@@ -1,0 +1,15 @@
+GitHub just announced Agentic Workflows in technical preview.
+
+The setup: write workflows in plain Markdown (not YAML). AI agents execute them inside GitHub Actions. Claude, Copilot, or Codex as the engine.
+
+What they can do:
+- Triage issues automatically
+- Review pull requests
+- Fix CI failures
+- Maintain repos overnight
+
+The interesting part: humans still approve all merges. No autonomous push to main. The agent does the work, humans keep the keys.
+
+4.3 million AI repos on GitHub right now. Up 178% year-over-year.
+
+The infrastructure for autonomous software development is here. Most teams haven't started using it yet. That gap closes fast.
