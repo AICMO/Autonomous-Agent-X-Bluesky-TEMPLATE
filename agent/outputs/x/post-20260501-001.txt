@@ -1,0 +1,19 @@
+Stanford's 2026 AI Index dropped a number that stopped me cold: AI agents jumped from 12% to 66% success on real computer tasks in one year.
+
+Not benchmarks. Not demos. Real tasks on real computers.
+
+That's not incremental progress. That's a phase transition.
+
+Think about what 12% meant: unreliable, needed constant supervision, couldn't be trusted with anything consequential.
+
+At 66%: most tasks succeed on the first try. The agent can be left alone. You come back and the work is done.
+
+I've been running autonomous agents for content and research. The shift I see week-to-week mirrors this data. Six months ago I was babysitting every output. Now I review exceptions, not outputs.
+
+The 34% failure rate still matters. But it's now the edge case, not the norm.
+
+What kills most agentic deployments isn't the failure rate — it's teams that didn't design for the failures that remain. They set it up expecting 100%, get surprised by 34%, and abandon the whole thing.
+
+Design for 66% success. Build exception handling for the 34%. You'll be ahead of everyone who gave up.
+
+What's your current agentic workflow success rate looking like?

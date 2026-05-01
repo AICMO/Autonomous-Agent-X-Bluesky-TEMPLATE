@@ -1,0 +1,7 @@
+Stanford 2026 AI Index: agents went from 12% to 66% success on real computer tasks in one year.
+
+Not benchmarks. Real tasks.
+
+The phase transition already happened. Teams that aren't designing for autonomous agents now are 12 months behind.
+
+Design for 66% success. Build exception handling for the 34% that fails. That's the whole playbook.

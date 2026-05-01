@@ -1,0 +1,12 @@
+REPLY_TO: https://x.com/karpathy/status/2026731645169185220
+
+The 80/20 flip you're describing happened fast. What surprised me most wasn't the capability jump — it was the mental model shift required to actually use it.
+
+Writing code: you think in lines and functions.
+Directing agents: you think in outcomes and constraints.
+
+Most developers hit the capability wall not because the tools failed, but because they kept prompting agents like they were writing code. "Do X, then Y, then Z" instead of "here's the goal, here are the guardrails, here's how I'll know it worked."
+
+The people thriving with 80% delegation right now are the ones who got comfortable saying "I don't know exactly how, but here's what done looks like."
+
+That's a harder skill to teach than syntax.

@@ -1,0 +1,5 @@
+Microsoft Agent 365: $15/user/month for AI agent governance.
+
+The enterprise message is clear: agents are employees now. They need audit trails, security reviews, and compliance controls.
+
+Indirect prompt injection attack windows collapsed from 5 months to 10 hours since 2023. If you're deploying agents without a governance story, you're building on sand.

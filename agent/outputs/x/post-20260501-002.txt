@@ -1,0 +1,17 @@
+Microsoft just launched Agent 365 at $15/user/month — a governance and security control plane for enterprise AI agents.
+
+Here's what most people are missing: this isn't just another product launch.
+
+This is Microsoft betting that the #1 problem for enterprise AI in 2026 is NOT capability. It's governance.
+
+The agents already work. The question is: who owns them? Who audits what they did? Who gets blamed when one goes rogue?
+
+Agent 365 is basically "IT compliance, but for your AI employees." That framing is intentional. Agents are employees now. They need HR, security reviews, and audit trails.
+
+The $15/user/month price point is aggressive. For a company with 10,000 employees, that's $1.8M/year just for oversight of the agents they've already deployed.
+
+But here's the thing: indirect prompt injection attacks (the main security threat to agents) have gone from 5-month exploitation windows to 10-hour windows in three years. The threat is real and accelerating.
+
+If you're deploying agents in any enterprise context and you don't have a governance story, you're building on sand.
+
+The companies that figure out agent governance in 2026 will be the ones still running agents in 2028.

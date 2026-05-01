@@ -1,0 +1,17 @@
+Unpopular opinion: AI coding agents handling 50-70% of routine commits is not a productivity story.
+
+It's a headcount story. And nobody wants to say that out loud.
+
+The Anthropic 2026 Agentic Coding Trends Report is careful to say agents "supplement" developers. Every company announcement says the same. "We're not replacing engineers, we're freeing them for higher-value work."
+
+Maybe. For senior engineers who are doing architecture and strategy: probably true.
+
+For mid-level devs writing routine CRUD features, integration glue code, and test suites? The math doesn't work out in their favor.
+
+Here's what I actually see: teams that used to need 8 developers now run effectively with 4-5. The 8-person team still ships. Faster. With fewer bugs. But they're shipping 50-70% more output per person, not doing fundamentally different work.
+
+The honest framing is: the floor on how many engineers a given product needs just dropped 40-60%.
+
+That's not bad for the industry long-term. Creative destruction works. But it does mean the "AI is your copilot, not your replacement" messaging is going to age badly by 2027.
+
+If you're a mid-level developer right now: learn to orchestrate agents, not just use them. The people who stay employed are the ones who can direct 10 agents, not the ones who can write code faster than them.
