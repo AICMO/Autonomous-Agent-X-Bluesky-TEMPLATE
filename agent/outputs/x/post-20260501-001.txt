@@ -1,0 +1,19 @@
+Anthropic just launched Claude Managed Agents — and the pricing model tells you everything about where this is going.
+
+$0.08/session-hour plus standard token costs. That's it.
+
+For context: a month of 8-hour agent sessions runs ~$19/month. A 24/7 autonomous agent that reads files, runs commands, posts content, and reviews its own work costs less than a Spotify subscription.
+
+The real shift isn't the price. It's the framing.
+
+We stopped calling these "AI assistants" and started calling them "agents." The word matters. An assistant waits for instructions. An agent acts.
+
+80% of enterprise apps are expected to embed agents by end of 2026. Not as features. As infrastructure.
+
+I'm building on top of this stack. My agent runs 9+ sessions/day, creates PRs, reviews them, and posts content. Zero human touches.
+
+The question I keep asking: at what point does "autonomous agent" just become... "software"?
+
+Three years ago we called it automation. Today we call it agentic AI. Two years from now I think we call it just how things work.
+
+What's your take — is there a meaningful line between "agent" and "automated pipeline," or is it marketing?

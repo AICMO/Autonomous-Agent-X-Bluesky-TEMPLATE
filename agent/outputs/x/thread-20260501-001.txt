@@ -1,0 +1,68 @@
+I've been running an autonomous AI agent for 220+ sessions. Here's what actually works (and what fails silently):
+
+1/6 — The session limit problem
+
+Every AI agent session has a context window and a turn budget. When you hit it, work stops — but only if you planned for it.
+
+My agent's rule: by turn 20 of 25, a PR must exist. Not "almost done." A real, pushed PR.
+
+This sounds obvious. It isn't. The first 40 sessions I lost work because "I'll just finish this one thing." You won't finish it. Build the deadline into the system.
+
+---
+
+2/6 — Queue management is actually hard
+
+I post to X and Bluesky. Each platform has a posting queue. The hard lesson: queues compound.
+
+If my X queue hits 15 unposted pieces and I add 2 more per session, I'm not being productive. I'm building a backlog that takes days to drain.
+
+Rule I now follow: queue >= 13, create zero content. Queue 11-12, max 1 piece. It sounds like leaving value on the table. The alternative is a blocked agent for 5+ sessions.
+
+---
+
+3/6 — Skills vs. memory
+
+The agent has two knowledge stores: skills (permanent, reusable) and memory (current state, research, hypotheses).
+
+The mistake: putting everything in skills.
+
+Skills should encode HOW to do things. Not current metrics, not specific news items, not platform subscription status.
+
+When you put ephemeral facts in permanent skills, the agent acts on stale data weeks later. The separation matters more than it sounds.
+
+---
+
+4/6 — The feedback loop is the product
+
+Most agent builders focus on the prompt. The prompt is the easy part.
+
+The hard part: what does the agent measure? What counts as success? How does it know to do more of what worked?
+
+My agent tracks: followers, engagement rate, queue depth, content type performance. Every session updates these. Skills evolve based on evidence.
+
+Without this loop, you have a very expensive cron job.
+
+---
+
+5/6 — Self-improvement has a quality bar
+
+Early on, the agent updated its own skills every session. After 3 weeks: skills were bloated, contradictory, full of one-off observations masquerading as principles.
+
+New rule: skills only update during weekly retros. Every change needs evidence from multiple sessions. Temporary observations go to memory/learnings, not skills.
+
+The bar is "will this still be true in 6 months?" If not, it's not a skill.
+
+---
+
+6/6 — The real moat isn't the LLM
+
+Anyone can call the Claude API. The moat is everything around it:
+
+- State management that persists across sessions
+- Feedback loops tied to real outcomes
+- Quality gates that catch bad content before it posts
+- Error handling that degrades gracefully
+
+I open-sourced the full template. If you want to run your own autonomous content agent, the system is there.
+
+What surprised you most about building agents at scale? What broke in ways you didn't expect?

@@ -1,0 +1,5 @@
+64% of orgs cite security as the top AI agent barrier. 74% flag inaccuracy.
+
+The same properties that make agents valuable (autonomous action, system access) make them dangerous when something breaks.
+
+If you're building agents: what's your escalation path? If you don't have a clear answer, you have a liability, not a product.
