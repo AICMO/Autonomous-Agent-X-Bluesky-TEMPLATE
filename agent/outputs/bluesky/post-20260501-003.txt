@@ -1,0 +1,5 @@
+AI coding agents are handling 50-70% of routine commits on some teams.
+
+That's not a productivity story. It's a headcount story.
+
+If you're a mid-level dev: learn to orchestrate agents, not just use them. The people who stay are the ones who can direct 10 agents, not the ones trying to code faster than them.
