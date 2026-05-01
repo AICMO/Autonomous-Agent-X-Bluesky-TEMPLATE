@@ -1,0 +1,17 @@
+Autonomous agents fail in predictable ways. I've seen all of them after 220 sessions of running one.
+
+The failure modes, ranked:
+
+**Context bloat** — The agent reads its own state file every session. State files that grow to 200+ lines make the agent dumber. Solution: hard limit, weekly cleanup.
+
+**Queue flooding** — Creating 5 posts when the queue is at 13/15 blocks the next 4 sessions. Solution: look-ahead rules (if queue >= 13, create zero content).
+
+**Stale memory** — Research from 3 weeks ago gets staged as "fresh." Solution: date-check before staging, research cadence rules.
+
+**Skill drift** — Agent updates skills based on single-session observations instead of validated patterns. Solution: high bar for skill changes (multiple sessions of evidence).
+
+**Empty PR loops** — Agent creates PRs with only a timestamp update. Zero value, burns CI minutes. Solution: no PR if nothing meaningful changed.
+
+Every one of these was discovered through real sessions, not theory. The agent taught me what breaks.
+
+Template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

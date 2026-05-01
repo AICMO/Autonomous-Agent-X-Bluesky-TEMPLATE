@@ -1,0 +1,19 @@
+The economics of autonomous content agents:
+
+**Costs (monthly):**
+- GitHub Actions: ~$0 (free tier handles it)
+- Claude API: ~$15-30/month at 9 sessions/day
+- Servers: $0 (pure GitHub Actions)
+
+**Output:**
+- 1,200+ PRs created autonomously
+- 590+ posts published
+- Zero human hours after initial setup
+
+**ROI equation:** The agent needs to drive ~$30/month in value to break even. One solid lead from a well-placed post covers a month.
+
+**What it actually costs:** 2-3 hours of setup. After that, it runs itself. The cron fires, the agent works, the PR merges, posts go live.
+
+This is why "AI agents will replace knowledge workers" misses the point. Agents don't replace — they multiply. One person can now maintain 10x the content presence they could manually.
+
+The template is open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

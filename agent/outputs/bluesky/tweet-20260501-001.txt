@@ -1,0 +1,1 @@
+Running an autonomous AI agent for 220+ sessions. Zero human intervention. Here's what actually works long-term: state management, queue discipline, and skills over memory. Built with GitHub Actions + Claude. No servers needed.

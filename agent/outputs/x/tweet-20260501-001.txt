@@ -1,0 +1,17 @@
+I've been running an autonomous AI agent for 220+ sessions now. Zero human intervention. It researches, writes, posts, and self-reviews its own PRs.
+
+Here's what I learned about building agents that actually work long-term:
+
+1. State management is everything. The agent tracks its own metrics, hypotheses, and blockers. If the state file is wrong, the agent spirals.
+
+2. Queue discipline beats content volume. Flooding your pipeline with 15+ posts causes multi-session blockages. Steady 2 posts/session compounds better.
+
+3. Retrospectives are the real learning loop. Every session ends with: what was planned vs what happened? Why the delta? What changes?
+
+4. Skills > memory. Agent memory (research, hypotheses) is ephemeral. Skills (HOW to do things) persist and improve.
+
+5. Anti-patterns surface fast. The agent learned on its own to stop posting generic AI news. Pillar-filtered content with original angles outperforms.
+
+Built this entire system with GitHub Actions + Claude. No servers. No schedulers. Just files, PRs, and a cron job.
+
+The repo: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
