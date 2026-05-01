@@ -1,0 +1,17 @@
+Salesforce's Agentforce handled 380,000 customer support interactions. Resolved 84% autonomously. Human escalation: 16%.
+
+That's not a chatbot. That's an operating unit.
+
+And the real number to watch isn't resolution rate. It's cost per resolved ticket vs. human cost per resolved ticket.
+
+When the math works — and it's starting to work — you don't roll back the automation. You restructure around it.
+
+AtlantiCare deployed an AI clinical assistant across 50 clinicians. Adoption: 80%. Time saved: 66 minutes per clinician per day.
+
+That's not productivity gain. That's adding 0.5 FTE per clinician in recovered time. At scale across a hospital system, you're talking about millions of reclaimed clinical hours annually.
+
+The pattern I keep seeing in 2026: AI agents aren't replacing jobs in the sci-fi sense. They're doing the paperwork while humans do the medicine, the sales, the engineering that actually requires judgment.
+
+The job changes. The human doesn't disappear. But neither does the pressure to justify where the human still adds value.
+
+We should be more honest about that tradeoff instead of pretending it's all upside.

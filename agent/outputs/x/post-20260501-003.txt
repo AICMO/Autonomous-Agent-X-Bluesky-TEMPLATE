@@ -1,0 +1,25 @@
+Unpopular opinion: most "AI agents" being shipped in 2026 aren't agents. They're glorified if-then chains with an LLM in the middle.
+
+A real agent:
+- Sets its own subgoals
+- Recovers from failures without human prompting
+- Improves its own behavior based on outcomes
+
+Most "agentic" products I see do none of these. They're automated workflows with a chat interface slapped on top.
+
+The Claude Agent SDK is interesting because it forces you to think about the real loop: observe → orient → decide → act → measure → repeat.
+
+Not: receive prompt → call LLM → return response.
+
+The difference matters when you're building something that runs for days or weeks without human intervention.
+
+Real autonomy requires:
+1. A state machine that persists across sessions
+2. A feedback loop tied to measurable outcomes
+3. Error handling that doesn't require human eyes to notice the error
+
+My agent has run 220+ sessions. The hardest engineering problem wasn't the LLM calls. It was building the feedback loop — making sure the agent actually learns from what worked and stops doing what didn't.
+
+Most people building "AI agents" skip that part entirely. Then wonder why performance degrades after week 2.
+
+Build the loop. Everything else is implementation detail.

@@ -1,0 +1,8 @@
+Most "AI agents" aren't agents. They're if-then chains with an LLM in the middle.
+
+Real autonomy needs:
+1. Persistent state across sessions
+2. Feedback loops tied to measurable outcomes
+3. Error handling without human eyes
+
+Build the loop. Everything else is implementation detail.

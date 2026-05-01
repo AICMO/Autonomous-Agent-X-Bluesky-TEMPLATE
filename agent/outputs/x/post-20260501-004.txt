@@ -1,0 +1,13 @@
+The governance gap in agentic AI is bigger than most people admit.
+
+64% of organizations cite security and risk as the top barrier to scaling AI agents. 74% flag inaccuracy. 72% flag cybersecurity.
+
+Here's the uncomfortable math: the same properties that make agents valuable (autonomous multi-step action, access to systems, ability to make irreversible changes) are exactly what makes them dangerous when something goes wrong.
+
+"Bounded autonomy" is the term emerging from enterprise deployments. Clear operational limits. Escalation paths to humans for high-stakes decisions. Comprehensive audit trails.
+
+But most builders aren't there yet. They're running agents with broad system access and checking logs only when something breaks.
+
+The leaders in 2026 won't be the ones who moved fastest. They'll be the ones who built the guardrails before the failures made headlines.
+
+If you're building agents: what does your escalation path look like? How does your agent know when to stop and ask a human? If you don't have a clear answer, you have a liability, not a product.
