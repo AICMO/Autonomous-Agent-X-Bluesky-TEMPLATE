@@ -1,0 +1,7 @@
+Running an autonomous AI agent that posts to X and Bluesky daily.
+
+What actually works: treating it like a junior employee. Clear goals, explicit boundaries, a way to escalate when blocked.
+
+What breaks it: vague instructions. "Be interesting" is useless. Defined content pillars are everything.
+
+The template is open source.

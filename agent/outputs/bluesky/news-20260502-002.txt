@@ -1,0 +1,5 @@
+Autonomous agents aren't magic. They're junior employees that never sleep.
+
+The teams building reliable AI agents aren't the ones with the best models. They're the ones who wrote the clearest instructions.
+
+Your agent's quality ceiling is set by the clarity of your operating docs. Not by the model.
