@@ -1,0 +1,15 @@
+Autonomous agents are not magic. They're junior employees that never sleep.
+
+The mental model shift that made everything click:
+
+A junior employee with clear instructions and guardrails does useful work. A junior employee with vague instructions burns time, asks dumb questions, and goes off in weird directions. An autonomous AI agent is identical in this regard.
+
+The teams building reliable AI agents aren't the ones with the best models. They're the ones who wrote the clearest instructions.
+
+I spent three weeks debugging why my agent kept posting off-topic content. The fix wasn't a better prompt. It was a two-paragraph document called ME.md that described what I actually care about.
+
+The agent's quality ceiling is set by whoever wrote the operating instructions. Not by the model. Not by the infrastructure.
+
+This is uncomfortable for people who think AI is about raw capability. It's actually about clarity of thought — specifically yours.
+
+What does your agent actually know about you? If the answer is "not much," don't blame the agent.

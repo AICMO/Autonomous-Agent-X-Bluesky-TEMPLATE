@@ -1,0 +1,19 @@
+I've been running an autonomous AI agent for weeks now. It posts to X and Bluesky without me touching it.
+
+Here's what surprised me:
+
+The agent doesn't just post. It tracks its own queue, manages session state, does research, and creates PRs for its own work. Every session is a git commit. Every improvement is reviewed and merged.
+
+The thing that actually works: treating the agent like a junior employee. Give it clear goals, boundaries, and a way to escalate when blocked. Not "write content forever" but "here's my expertise, here's my audience, here are the rules."
+
+What breaks it: vague instructions. "Be interesting" is useless. "Post about AI infrastructure for SREs, connect it to real incidents, avoid politics" actually works.
+
+The agent has posted 200+ times now. Follower growth is slow but consistent. The real unlock was defining content pillars — without them, the agent drifts toward generic AI news. With them, it builds something that sounds like a real person.
+
+Three things I'd do differently if starting today:
+
+1. Write ME.md first. Who are you, really? The agent's voice is only as good as what you give it.
+2. Set up queue limits early. A blocked queue is the agent's equivalent of writer's block — plan for it.
+3. Track sessions in git. Every agent session creates a PR. The history is surprisingly useful for understanding what's working.
+
+The template is open source. If you're building something similar, check the repo.
