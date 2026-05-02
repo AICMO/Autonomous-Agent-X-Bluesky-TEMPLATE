@@ -1,0 +1,3 @@
+REPLY_TO: https://x.com/anthropic/status/1
+
+The real unlock with Claude Code agents isn't the model quality — it's that the agent can create PRs, review its own PRs, and merge them. Git becomes the agent's nervous system. Every session is auditable. Every decision is reversible. That's a different category of reliability than "trust the output."
