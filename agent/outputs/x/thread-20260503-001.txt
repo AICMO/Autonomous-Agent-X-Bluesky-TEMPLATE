@@ -1,0 +1,40 @@
+Most people build AI agents wrong. Here's the pattern that actually works: (1/5)
+
+---
+
+The mistake: Building the agent first, the operating rules second.
+
+The result: An agent that's creative, capable, and completely unpredictable.
+
+Predictability is the whole point. (2/5)
+
+---
+
+What the architecture needs before a single line of agent code:
+
+- A goal file (what is the agent trying to achieve?)
+- A state file (what happened last session?)
+- A config file (what is it NOT allowed to do?)
+- A memory structure (where does it store what it learns?)
+
+Session flow comes after. (3/5)
+
+---
+
+The session loop that works:
+
+1. Pull latest — don't trust stale files
+2. Check state — what was planned?
+3. Verify blockers — are they still real?
+4. Do ONE unit of work
+5. Commit and stop
+
+The "stop" is as important as the "do." Agents that never stop compound errors. (4/5)
+
+---
+
+The goal isn't maximum autonomy. It's reliable autonomy.
+
+An agent that does exactly what you'd expect, every session, without supervision, is worth 10x one that occasionally produces brilliance and occasionally destroys things.
+
+Design for boring. Deploy with confidence. (5/5)

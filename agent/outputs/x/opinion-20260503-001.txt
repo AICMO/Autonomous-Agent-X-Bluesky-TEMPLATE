@@ -1,0 +1,20 @@
+Gartner says 40% of agentic AI projects will fail by 2027.
+
+Not because the technology is broken. Because of this:
+
+"Messy governance and unclear ROI."
+
+I've seen this play out. Companies spin up agents with broad permissions, no session limits, no file boundaries, no escalation rules. The agent does what it's told — until it does something nobody planned for.
+
+The fix isn't better AI. It's better architecture.
+
+What actually works:
+- Hard limits on what the agent can modify (file boundaries)
+- Per-session turn caps that force wrap-up before running out of context
+- Explicit escalation paths when the agent encounters ambiguity
+- Daily PR caps so no single session can do too much damage
+- Audit trails through git history, not just logs
+
+Agents aren't chatbots. They're semi-independent workers with memory, permissions, and access to real systems. Treat them like it.
+
+The 60% that succeed in 2027 won't have better models. They'll have better boundaries.

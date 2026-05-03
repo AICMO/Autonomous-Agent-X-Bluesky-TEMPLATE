@@ -1,0 +1,9 @@
+The cloud AI war ends in commodity.
+
+Every cloud will have equivalent models and infra.
+
+The moat isn't infrastructure. It's the workflow around it.
+
+How does your agent decide what to do next? Handle blockers? Improve over time?
+
+Build the workflow. The cloud will follow.

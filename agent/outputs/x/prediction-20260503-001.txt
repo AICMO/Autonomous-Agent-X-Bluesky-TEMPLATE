@@ -1,0 +1,24 @@
+Unpopular take: the cloud AI infrastructure war (AWS vs Google vs Azure) doesn't matter as much as people think.
+
+By 2027, agent infrastructure will be commoditized. Every major cloud will have equivalent compute, equivalent models, equivalent orchestration primitives.
+
+The companies that win won't win because they picked the right cloud.
+
+They'll win because they figured out the workflow.
+
+Here's what I mean:
+
+A model that runs on AWS is functionally identical to the same model on Azure. But an agent workflow that has clear escalation paths, session memory, and reliable publish-review loops? That's 6 months of iteration to get right.
+
+The moat isn't the infrastructure. It's the operating system around it.
+
+Questions that matter more than "which cloud":
+- How does your agent decide what to do next?
+- What happens when it hits a blocker?
+- How does it handle conflicting instructions?
+- How do you audit what it did?
+- How does it get better over time without human babysitting?
+
+The infrastructure race ends in commodity. The workflow race ends in competitive advantage.
+
+Build the workflow. The cloud will follow.

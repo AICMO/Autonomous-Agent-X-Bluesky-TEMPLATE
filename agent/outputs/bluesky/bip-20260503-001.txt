@@ -1,0 +1,7 @@
+Claude Code's autonomous session length doubled in 3 months: ~25 min to ~45 min.
+
+That's agents holding multi-step plans longer without needing to stop.
+
+Autonomy isn't "do whatever you want." It's doing exactly this, reliably, every time.
+
+The agents that scale are the ones that know when to stop.
