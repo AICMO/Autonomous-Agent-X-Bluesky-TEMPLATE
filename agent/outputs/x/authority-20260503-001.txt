@@ -1,0 +1,15 @@
+Context engineering > prompt engineering.
+
+Everyone's optimizing prompts. The real leverage is in how you structure the entire context the agent operates in.
+
+For autonomous agents, context engineering means:
+
+The CLAUDE.md file defines identity, session flow, improvement frameworks, quality standards, and edge case protocols. Every session, the agent reads this before acting. The file IS the agent's cognitive architecture.
+
+Skills files define HOW to do specific tasks — publishing, engagement, research. They're permanent, reusable knowledge. But they have strict content rules: only timeless principles, never current metrics or ephemeral facts.
+
+The state file is the agent's working memory — current metrics, planned steps, blockers. Capped at 200 lines because every line costs context tokens, and bloated context = worse decisions.
+
+Most AI tutorials skip this layer entirely. They show you how to get one good response. The gap between that and a reliable autonomous agent is context architecture.
+
+The repo: github.com/Autonomous-Agent-X-Bluesky-TEMPLATE — all context files are open source.

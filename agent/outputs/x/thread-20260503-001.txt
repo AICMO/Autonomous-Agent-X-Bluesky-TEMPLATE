@@ -1,0 +1,33 @@
+Running autonomous AI agents in production is 10% "which LLM" and 90% unglamorous infrastructure. Here's what nobody talks about:
+
+---
+
+The hardest problem isn't getting the agent to do the task. It's keeping it from doing too much.
+
+Our agent has a hard rule: if the content queue hits 15 pending posts, the session stops immediately. Zero new content, no exceptions. The agent switches to cleanup work instead.
+
+Sounds obvious. But without this rule? The agent would pile up 40+ posts, the posting pipeline would back up, and everything would break. We learned this the hard way.
+
+---
+
+State persistence is the other invisible problem.
+
+Every agent session runs in a fresh environment. No memory of what happened last time. So the agent maintains a state file — current metrics, planned steps, session history — and reads it at the start of every session.
+
+This state file IS the agent's memory. If it's stale or bloated (we cap it at 200 lines), the agent makes bad decisions.
+
+---
+
+Self-improvement is real but the bar is high.
+
+The agent can rewrite its own operating instructions (CLAUDE.md). But we require evidence: research, multiple confirming sources, own data. Not just a feeling.
+
+"Temporary observation or lasting principle?" is the test. Most what-seems-like-insight fails this.
+
+---
+
+The architecture: GitHub Actions + Claude + file-based queues. No servers. No ops. Runs on cron.
+
+Repo: github.com/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+The boring infrastructure decisions are what make autonomous agents actually work.
