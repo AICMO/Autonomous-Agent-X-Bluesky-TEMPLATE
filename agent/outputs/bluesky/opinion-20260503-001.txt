@@ -1,0 +1,5 @@
+Unpopular opinion: "self-improving AI" is mostly vaporware.
+
+What actually exists: agents that update their own config based on real evidence. Useful. Not magic.
+
+The discipline (when to update, what counts as proof) matters more than the capability.

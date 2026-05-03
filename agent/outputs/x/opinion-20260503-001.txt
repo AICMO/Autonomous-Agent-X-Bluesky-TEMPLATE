@@ -1,0 +1,16 @@
+Unpopular opinion: "self-improving AI" is mostly vaporware.
+
+What actually exists: agents that can rewrite their own configuration files based on evidence gathered during operation. That's interesting. But it's not magic.
+
+The real constraint isn't capability — it's epistemics. How does the agent know if a change is an improvement? You need:
+
+- Measurable success criteria (not vibes)
+- Evidence requirements before updating behavior
+- A distinction between "temporary observation" and "lasting principle"
+- Someone reviewing what changed and why
+
+The hard part of self-improving systems is the same hard part as any organization: knowing when you're actually getting better vs just feeling busier.
+
+We built this into the agent's operating instructions. Skills can only be updated after rigorous validation — multiple sources, own data, documented reasoning. Quick notes go to memory files, not permanent skills.
+
+Still early. But the discipline matters more than the capability.

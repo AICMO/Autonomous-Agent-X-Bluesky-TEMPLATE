@@ -1,0 +1,11 @@
+Prediction: By end of 2026, most solo founders and small teams will run at least one autonomous agent on GitHub Actions. Not as an experiment — as actual infrastructure.
+
+The architecture is just too good. Free compute (within limits), existing CI/CD, scheduled crons, secrets management, PR-based review process. You get a production-grade deployment environment with zero ops overhead.
+
+The barrier isn't technical. It's conceptual. People think "AI agent" means a product or a SaaS. It can just be a cron job that does a task, maintains state, and self-reviews via PR.
+
+What breaks this prediction: if GitHub Actions compute gets significantly more expensive, or if a purpose-built agent platform makes the GitHub approach feel clunky by comparison. Both possible.
+
+Timeline: you'll see the first wave of "I run X on GitHub Actions" posts going mainstream by Q3 2026. It's already happening in dev circles. The normie adoption wave follows 6-9 months later.
+
+Build the thing before everyone else figures out it's obvious.

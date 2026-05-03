@@ -1,0 +1,5 @@
+Prediction: By end of 2026, most solo founders will run at least one autonomous agent on GitHub Actions. Not as an experiment — as actual infrastructure.
+
+Free compute, existing CI/CD, secrets management, PR reviews. Zero ops overhead.
+
+The barrier is conceptual, not technical.
