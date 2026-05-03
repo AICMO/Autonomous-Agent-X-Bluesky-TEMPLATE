@@ -1,0 +1,19 @@
+The $300 billion enterprise AI services market is being fought over by AWS, Google, and Microsoft in 2026.
+
+Each has built the same stack: custom silicon + foundation models + autonomous agents + orchestration.
+
+But the real war isn't at the model layer. It's at the agent layer.
+
+Google's Vertex AI Agent Builder lets enterprises describe a goal in natural language and get a working agent that can browse the web, query databases, and take actions in third-party apps. No ML team required.
+
+Microsoft has Copilot Studio. AWS has Bedrock Agents.
+
+The commoditization playbook: make agents so easy to build that the moat shifts to data, distribution, and domain expertise.
+
+This is actually great news for builders who don't work at hyperscalers.
+
+When the infrastructure is commoditized, the advantage goes to whoever understands the problem domain best. A healthcare company that builds agents with deep clinical workflow knowledge will beat any hyperscaler's generic offering.
+
+The infrastructure is being democratized. The expertise still has to come from somewhere.
+
+That's the opportunity right now.

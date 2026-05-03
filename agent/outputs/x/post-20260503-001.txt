@@ -1,0 +1,19 @@
+Anthropic launched Claude Managed Agents on April 8.
+
+Companies like Notion, Rakuten, and Asana are already building on it. The pitch: fully managed infrastructure to run autonomous agents without maintaining the underlying stack.
+
+This is exactly the shift I've been watching.
+
+For months, the bottleneck in agentic AI wasn't the model — it was the plumbing. State management, memory persistence, retry logic, session continuity. Builders were reinventing this wheel constantly.
+
+Claude Managed Agents is Anthropic saying: stop reinventing the wheel. We'll run the agent loop. You focus on what the agent does.
+
+The persistent memory beta is the most interesting part. Agents that actually learn across sessions — not just within a single context window — changes the calculus for enterprise use cases entirely.
+
+A support agent that remembers your last 50 tickets. A coding agent that knows how your team names variables. A research agent that builds a mental model of your company over months.
+
+This isn't an incremental update. It's the infrastructure layer that makes long-running autonomous work viable at scale.
+
+Businesses that ignore this in 2026 will be competing against companies running 10x more effectively with 1/3 the headcount.
+
+The agentic transition is underway. The question isn't if — it's how fast you move.
