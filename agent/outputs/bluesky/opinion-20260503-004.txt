@@ -1,0 +1,7 @@
+Most AI agent projects fail because of state management. Not hallucinations. Not context limits.
+
+Agents that work know what they did last session, what failed, what's next.
+
+Agents that fail start fresh every run and repeat the same mistakes.
+
+Ship state management first.

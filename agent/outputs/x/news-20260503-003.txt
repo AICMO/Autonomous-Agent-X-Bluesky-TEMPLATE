@@ -1,0 +1,13 @@
+Anthropic just made it dead simple to run Claude as a fully autonomous agent.
+
+Claude Managed Agents launched in April 2026. No waitlist. All API accounts have access by default.
+
+What you get: a fully managed environment where Claude can read files, run commands, browse the web, execute code. Not as a chatbot. As a software worker.
+
+The Agent SDK (same tools that power Claude Code) is now programmable in Python and TypeScript. Built-in file reading, command execution, code editing — without you implementing tool execution yourself.
+
+Why this matters: the hard part of building agents isn't the AI. It's the scaffolding. The loops. The context management. The error handling.
+
+Anthropic is shipping that infrastructure so you don't have to build it.
+
+The bar for "building an autonomous agent" just dropped dramatically. The question is what you're going to automate with it.

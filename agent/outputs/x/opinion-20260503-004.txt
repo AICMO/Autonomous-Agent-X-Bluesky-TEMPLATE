@@ -1,0 +1,24 @@
+Hot take: most "AI agent" projects fail for the same boring reason — no state management.
+
+Not hallucinations. Not context limits. Not tool failures.
+
+State.
+
+Agents that work are agents that know:
+- What they did last session
+- What failed and why
+- What they planned to do next
+
+Agents that fail are stateless loops that start fresh every run and wonder why they repeat mistakes.
+
+The architecture that actually works:
+- State file written every session
+- Retrospective section built into the loop
+- Planned next steps always 2-3 ahead
+- Failures documented, not silently discarded
+
+Most agent tutorials skip this entirely. They show you the happy path. One prompt → one output → success.
+
+Real agents run for days. Weeks. They need memory. They need self-correction. They need a loop that compounds on itself.
+
+Ship the state management first. The impressive demos come later.
