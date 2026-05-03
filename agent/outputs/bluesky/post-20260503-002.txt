@@ -1,0 +1,7 @@
+Santander + Mastercard: Europe's first payment fully executed by an AI agent.
+
+No human authorized it. Real banking system. Real transaction.
+
+86% of CISOs don't enforce access policies for AI agents. 5% think they could contain a compromised one.
+
+Speed without guardrails isn't velocity — it's risk.

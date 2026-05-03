@@ -1,0 +1,7 @@
+Anthropic launched Claude Managed Agents. Notion, Rakuten, Asana already using it.
+
+The bottleneck was never the model — it was the plumbing. State management, memory, retry logic.
+
+Persistent memory beta changes everything. Agents that learn across sessions, not just within a context window.
+
+The agentic transition is here. Move fast or fall behind.

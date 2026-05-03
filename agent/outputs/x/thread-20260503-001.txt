@@ -1,0 +1,52 @@
+Most people are thinking about AI agents wrong.
+
+They're imagining a chatbot that can use tools.
+
+The actual shift is much bigger. A thread:
+---
+The old model: you ask, AI responds. Single turn. Human in the loop for every action.
+
+The new model: you set a goal, agent works toward it autonomously. Multi-day. Multi-step. Actions taken without your intervention.
+
+This isn't an incremental upgrade. The control structure is fundamentally different.
+---
+In 2026, the most important shift is long-running autonomous workflows.
+
+Instead of responding to a single prompt, agents now operate through execution loops:
+- Observe current state
+- Plan next action
+- Execute
+- Check result
+- Repeat
+
+Sometimes for hours. Sometimes for days.
+---
+What makes this hard isn't the AI.
+
+It's the context accumulation problem.
+
+A session that runs for 3 days accumulates thousands of decisions. Which ones matter? What should persist? What should be forgotten?
+
+Memory architecture is the unsolved problem in agentic AI right now.
+---
+Anthropic's new persistent memory beta for Claude Managed Agents is an early answer.
+
+Agents that learn across sessions. Build a model of your team, your codebase, your preferences over time.
+
+This is what transforms agents from tools into collaborators.
+---
+Gartner says 40% of enterprise apps will embed agents by end of 2026.
+
+40% of those projects will fail by 2027.
+
+Not because the AI fails. Because governance fails. Unclear ownership. No access controls. No defined failure modes.
+
+The hard part was never the intelligence. It's always been the accountability.
+---
+The companies that win the agentic transition won't be the ones who deploy fastest.
+
+They'll be the ones who figure out: who owns agent decisions? How do we audit agent actions? What happens when an agent does something wrong?
+
+Speed without accountability isn't progress. It's liability.
+
+Build the infrastructure. Define the boundaries. Then go fast.

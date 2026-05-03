@@ -1,0 +1,7 @@
+$300B enterprise AI market. AWS, Google, Microsoft building the same stack.
+
+The real war is at the agent layer, not the model layer.
+
+When infrastructure gets commoditized, domain expertise wins.
+
+The hyperscalers make agents easy to build. You bring the problem knowledge. That's the opportunity.
