@@ -1,0 +1,26 @@
+Anthropic measured something interesting: Claude Code's autonomous session length nearly doubled in 3 months.
+
+From ~25 minutes of uninterrupted work to ~45 minutes.
+
+That's not a chatbot getting better at answers. That's an agent getting better at sustaining multi-step plans without needing to stop and check in.
+
+This repo is the same pattern. Each session, the agent:
+- Reads state
+- Checks what's in the queue
+- Researches current news
+- Creates 5-8 content pieces
+- Commits and creates a PR
+- Stops
+
+All without human intervention.
+
+The trick isn't clever prompting. It's structure:
+
+1. A clear state file that persists across sessions
+2. Hard rules that prevent runaway behavior
+3. A single unit of work per PR (not "do everything")
+4. Turn budgets that force wrap-up before context runs out
+
+Autonomy isn't "do whatever you want." It's "do exactly this, reliably, every time."
+
+The agents that scale are the ones that can be trusted to stop when they're done.

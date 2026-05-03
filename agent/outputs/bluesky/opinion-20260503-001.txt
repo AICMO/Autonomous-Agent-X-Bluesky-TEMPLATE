@@ -1,0 +1,9 @@
+Gartner: 40% of agentic AI projects will fail by 2027.
+
+Not bad models. Bad governance.
+
+Broad permissions + no boundaries + no escalation paths = liability.
+
+The agents that survive give their AI exactly what it needs. Nothing more.
+
+Design for boring. Deploy with confidence.

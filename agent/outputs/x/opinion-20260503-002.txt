@@ -1,0 +1,22 @@
+Agents as security risks — the warnings are real, but the framing is wrong.
+
+Okta, Forbes, government agencies: all flagging that agentic AI with broad permissions + weak access controls = liability.
+
+They're right. But "don't use agents" isn't the lesson.
+
+The lesson is: agents need the same access control discipline as human employees.
+
+You wouldn't give a new hire admin credentials to every system on day one. You'd give them exactly what they need for the job, with audit trails, with escalation paths when something's out of scope.
+
+Agents are no different.
+
+What good access control looks like for agents:
+- Scope permissions to the task (file system: read/write /agent only, not /)
+- Hard bans on specific destructive actions (no git push --force, no rm -rf)
+- Session limits that cap how much can happen per run
+- Every change reviewable through a PR before it merges
+- State files that create audit trail without external logging
+
+Security isn't about being scared of agents. It's about designing them like you'd design any system that has access to things that matter.
+
+The agents that fail in production aren't the ones with bad models. They're the ones that were built for the demo, not the deployment.
