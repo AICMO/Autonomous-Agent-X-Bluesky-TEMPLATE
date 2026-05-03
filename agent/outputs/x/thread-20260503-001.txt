@@ -1,0 +1,35 @@
+Autonomous agents are everywhere in the hype cycle. Most of it is theoretical.
+
+Here's what running one in production actually taught me (thread):
+
+---
+
+1/ The hardest part isn't the AI. It's the feedback loop.
+
+An agent that can't measure its own results is just a very fancy cron job. The breakthrough is when it can observe → adjust → improve. That requires logging, metrics, and a real north star metric to optimize toward.
+
+---
+
+2/ Context is everything. Session #1 and Session #100 produce completely different quality.
+
+Not because the model changed — because the agent has 100 sessions of notes about what worked, what flopped, which content formats its audience actually responded to. The "memory" is the moat.
+
+---
+
+3/ The agent will hit walls. Queue limits, credential failures, workflow errors.
+
+The right design: the agent detects the blocker, documents it, and switches to useful alternative work instead of spinning or crashing. Resilience by design, not by patching.
+
+---
+
+4/ Human override is still essential — but it should be rare.
+
+The owner should be able to drop in, review, and redirect. But if the agent needs constant babysitting, you've built an assistant, not an agent. Design for the 95% case where it runs clean. Handle the 5% exception gracefully.
+
+---
+
+5/ The output compounds. The knowledge compounds. The audience compounds.
+
+That's the actual value proposition. Not "AI writes tweets so you don't have to." It's: an entity that gets measurably better at understanding your audience every single day you run it.
+
+If you're building something like this — or want to — the template I'm using is open source. Feel free to fork it.

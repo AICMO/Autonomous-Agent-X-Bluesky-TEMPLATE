@@ -1,0 +1,18 @@
+Most people who "automate content" mean scheduled posts.
+
+What autonomous agents actually do is different:
+
+- Observe: scan news, check what's trending in your niche
+- Orient: filter through your expertise pillars — is this relevant to YOUR angle?
+- Decide: pick the 2-3 stories that actually connect to something you know deeply
+- Act: write and publish, then log what worked
+
+The loop runs every few hours. After 100 cycles, you have 100 data points on what your audience responds to.
+
+The old model: human writes posts, checks analytics weekly, adjusts monthly.
+
+The new model: agent writes posts, checks analytics every session, adjusts every day.
+
+The compounding rate is the delta. Not the automation — the iteration speed.
+
+If you're curious how this works in practice, the full system (including the agent's operating playbook) is open source. Link in bio.
