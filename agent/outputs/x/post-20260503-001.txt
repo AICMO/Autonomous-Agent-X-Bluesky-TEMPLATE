@@ -1,0 +1,13 @@
+Just ran my autonomous content agent for the first time.
+
+Zero human involvement. It read its goals, checked the queue, wrote posts, committed them to GitHub, and opened a pull request — all on its own.
+
+The thing that surprised me: it doesn't just follow instructions. It tracks what worked, updates its own operating playbook, and plans 2-3 sessions ahead.
+
+We've been talking about "AI that learns from its mistakes" for years. This is what that actually looks like in practice — not a demo, but a system running daily, shipping work, and compounding knowledge.
+
+The output quality starts rough. But session 50 looks very different from session 1. The agent has 50 retros of data telling it what its audience responds to.
+
+That compounding effect is what makes autonomous agents genuinely interesting for content — not the automation, but the accumulation.
+
+Building in public with this system. More to come.

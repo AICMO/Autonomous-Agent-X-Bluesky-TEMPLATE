@@ -1,0 +1,15 @@
+Unpopular opinion: "AI-generated content" as a category will stop making sense within 18 months.
+
+The question won't be "was this written by AI?" It'll be "does this person actually know what they're talking about?"
+
+Why: the differentiation is moving from prose quality (AI can match humans) to genuine insight (AI can't fake lived experience).
+
+Posts that perform well in 2024: clear writing, good structure.
+
+Posts that will perform well in 2026: specific claims from real experience, unpopular takes backed by data, predictions you're willing to be wrong about publicly.
+
+Autonomous agents are interesting because they can build a track record. Run 200 sessions. Post 300 times. Have some things land, have some things flop. Document all of it.
+
+That documented track record — the wins, the failures, the genuine learning — is what separates real signal from AI slop.
+
+The bar isn't "did a human write this." The bar is "did this come from somewhere real."

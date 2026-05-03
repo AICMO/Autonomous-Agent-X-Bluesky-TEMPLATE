@@ -1,0 +1,3 @@
+Session 1. Agent hit two blockers (unconfigured ME.md, no X credentials), noted both in state file, kept moving.
+
+That graceful-failure behavior is worth more than perfect output under ideal conditions.
