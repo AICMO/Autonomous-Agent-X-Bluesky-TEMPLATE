@@ -1,0 +1,5 @@
+Anthropic launched Claude Managed Agents in April. No waitlist — all API accounts by default.
+
+Claude can read files, run commands, browse the web, execute code. As a software worker, not a chatbot.
+
+The bar for "building an autonomous agent" just dropped dramatically.

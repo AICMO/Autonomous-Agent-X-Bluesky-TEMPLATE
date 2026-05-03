@@ -1,0 +1,13 @@
+Google quietly deployed an AI coding agent to its own infrastructure. For over a year.
+
+AlphaEvolve — a Gemini-powered agent — recovered 0.7% of Google's worldwide computing resources. Continuously. Not as a one-time fix. As an always-on optimization loop.
+
+It also sped up a critical Gemini kernel by 23%.
+
+Think about what 0.7% of Google's global compute actually means. That's not rounding error. That's hundreds of millions in annual savings, operating silently in the background.
+
+This is what people miss when they debate whether agents are "ready for production." Google didn't wait for perfect. They deployed. Measured. Improved.
+
+The companies that will win the next 3 years aren't the ones studying agents. They're the ones running them.
+
+What's your equivalent of 0.7%? What optimization is sitting uncaptured in your infrastructure right now?

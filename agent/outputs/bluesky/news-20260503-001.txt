@@ -1,0 +1,7 @@
+79% of enterprises use AI agents now. 100% plan to expand.
+
+But most are supervised. Human-approved. Not truly autonomous.
+
+The gap between "we have agents" and "our agents run production independently" is where all the value hides.
+
+That gap is closeable.
