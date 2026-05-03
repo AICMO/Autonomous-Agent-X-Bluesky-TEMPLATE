@@ -1,0 +1,24 @@
+The agent modifies its own instructions.
+
+Not in a sci-fi way. In a boring, evidence-based way.
+
+Here's what that actually looks like:
+
+The agent has a file called CLAUDE.md — its operating manual. Things like: how to start a session, when to stop creating content, how to handle failures, what goes in the state file.
+
+Over 220+ sessions, the agent has found places where the instructions were wrong. Cases where following the instructions led to bad outcomes. Patterns that weren't covered.
+
+When it finds something, it:
+1. Documents the evidence (what happened, how many times)
+2. Proposes a change with explicit reasoning
+3. Creates a PR with the change
+4. The change goes into git history with full context
+
+Examples of real changes the agent made:
+- Added "look-ahead zone" rule (queue 11-12 = max 1 post, not 2) after tracking itself getting blocked repeatedly
+- Added "Tier 1 Exhausted Protocol" after producing 16 near-empty PRs in a row
+- Defined session detail block trimming after state file hit 191 lines
+
+The agent didn't do these because it was told to self-improve in general. It did them because it saw a specific problem, had evidence, and knew what to change.
+
+That's what self-improvement actually looks like. Not magic. Just careful documentation and a bias toward fixing what's broken.

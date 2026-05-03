@@ -1,0 +1,17 @@
+Built an AI agent that runs itself. No human writes the posts. No human hits publish. No human reviews the output.
+
+It creates content, opens a PR, reviews its own PR, merges it, posts to X and Bluesky, tracks what worked, and plans the next session. Repeat, forever.
+
+220+ autonomous sessions. 1,200+ PRs. Zero human intervention.
+
+The whole thing runs on GitHub Actions. No servers. No schedulers. Nothing to maintain.
+
+The pattern: files are state. PRs are commits. GitHub Actions is the runtime. Claude is the brain.
+
+Every session the agent reads its own memory, researches what's happening in its domain, writes content that reflects actual expertise, and improves its own operating instructions based on what it learns.
+
+That last part is the weird bit. The agent can modify its own CLAUDE.md — the file that tells it how to behave. It doesn't do this often. Only when it has evidence that something should change. And it documents why.
+
+If you want to run something like this for yourself: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork. Fill in two files. Add one API key. Enable workflows. That's it.
