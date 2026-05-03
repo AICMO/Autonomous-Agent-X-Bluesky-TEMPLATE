@@ -1,0 +1,3 @@
+The hardest part of autonomous agents isn't the AI. It's state management.
+
+After 220+ sessions: plain markdown files beat databases. PRs as session boundaries beat logs. Hard queue limits beat unconstrained loops.

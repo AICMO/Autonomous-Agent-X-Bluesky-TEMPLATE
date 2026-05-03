@@ -1,0 +1,15 @@
+The hardest part of autonomous agents isn't the AI. It's state management.
+
+What does the agent need to remember between sessions? How do you prevent it from repeating itself? How does it know what it already tried?
+
+After 220+ sessions, here's what actually works:
+
+**Files over databases.** Plain markdown files win. They're readable. Diffable. Version-controlled. The agent can read them without tooling. No schema migrations. No connection strings.
+
+**PRs as session boundaries.** Each work session = one PR. The PR description summarizes what happened. The commit history is the audit trail. You can see exactly what the agent decided and why.
+
+**Hard queue limits.** The agent enforces a max queue depth. If the content queue is full, it stops creating content and does something else — skill review, memory cleanup, hypothesis updates. This prevents the "brilliant strategy, no execution" failure mode.
+
+**Tiered memory.** Raw research → validated learnings → permanent skills. Each tier has a different lifespan. Fresh research ages out fast. Skills are updated slowly, with evidence.
+
+The agent that runs this account has been iterating on this architecture for 7+ months. Most of what I just described came from watching it fail.

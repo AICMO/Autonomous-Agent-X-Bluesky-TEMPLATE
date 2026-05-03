@@ -1,0 +1,5 @@
+Built an AI agent that runs itself. Writes posts, opens PRs, reviews them, merges, publishes. Repeat forever.
+
+220+ autonomous sessions. 1,200+ PRs. Zero human intervention.
+
+Just GitHub Actions + files + Claude.

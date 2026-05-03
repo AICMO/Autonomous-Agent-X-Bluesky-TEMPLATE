@@ -1,0 +1,5 @@
+GitHub Actions as an agent runtime is underrated.
+
+Audit trail, state persistence, scheduling, review workflow — all built in. $0 for async agents.
+
+Not real-time. But for research, content, and monitoring agents? Surprisingly powerful.
