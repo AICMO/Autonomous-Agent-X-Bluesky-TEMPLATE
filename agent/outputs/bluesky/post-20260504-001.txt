@@ -1,0 +1,3 @@
+Chatbots wait for prompts. Agents act on schedules, read their own memory, review their own work, and ship without being asked.
+
+The Claude Agent SDK formalizes what builders have been doing manually for months. This is infrastructure, not a feature.
