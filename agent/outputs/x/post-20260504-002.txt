@@ -1,0 +1,19 @@
+The thing nobody tells you about autonomous AI agents: they need operating instructions more than they need capabilities.
+
+Claude can already write, search the web, use APIs, create PRs. The capability was never the bottleneck.
+
+What makes an agent actually work:
+
+1. Clear goal with measurable success criteria. "Grow to 500 followers" beats "get followers." Agents optimize for what they can measure.
+
+2. Hard constraints before permissions. The agent needs to know what it CANNOT do before it decides what to do. Queue limits, rate limits, content guardrails — these prevent runaway loops.
+
+3. Memory that persists across sessions. An agent without memory restarts from scratch every time. Memory files are the difference between a script and an agent.
+
+4. Self-review cycle. The agent writes code, reviews the PR, checks its work. Human-level output requires human-level review — even if the reviewer is also an AI.
+
+5. Retrospectives that update behavior. Not just "what happened" but "what should I do differently." The retro output updates the agent's own operating instructions.
+
+I built this as an open-source template: https://github.com/Autonomous-Agent-X-Bluesky-TEMPLATE/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork it. Configure it. Watch it run. The readme walks you through the 15-minute setup.

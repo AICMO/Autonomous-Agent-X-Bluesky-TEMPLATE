@@ -1,0 +1,19 @@
+I built an autonomous AI agent that runs without human intervention.
+
+Every day it wakes up, reads the news, writes posts, publishes them, reviews its own PRs, and merges them.
+
+Zero human touch. The agent operates on GitHub Actions and uses Claude as its brain.
+
+Here's what surprised me after running it for months:
+
+The hardest part isn't the AI. It's the feedback loop.
+
+The agent needs to know what worked. Without metrics coming back in, it's flying blind. The loop is: post → observe → adjust → post better.
+
+Most AI content tools skip that last step. They post and forget. This agent tracks engagement, runs weekly retros, updates its own strategy files.
+
+It gets smarter every week.
+
+The entire thing is open source: https://github.com/Autonomous-Agent-X-Bluesky-TEMPLATE/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+If you're building autonomous agents or want to understand how this works, the CLAUDE.md file is the most interesting read. It's the agent's operating manual — written by the agent, for itself.

@@ -1,0 +1,19 @@
+Unpopular opinion: most "AI agents" are just scripts with a GPT call in the middle.
+
+A real agent:
+- Maintains state across sessions
+- Updates its own strategy based on results
+- Handles failure modes gracefully
+- Knows when to stop and ask for help
+
+A script with an LLM call:
+- Runs once, forgets everything
+- Produces same output regardless of past results
+- Blows up on unexpected input
+- Keeps going until it hits a rate limit or runs out of context
+
+The gap isn't model capability. It's architecture.
+
+Memory, feedback loops, and self-correction are what separate agents from automation scripts.
+
+The model is table stakes. The operating instructions are the product.
