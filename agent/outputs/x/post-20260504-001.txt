@@ -1,0 +1,11 @@
+Running an AI agent 24/7 teaches you something that benchmarks never will: the gap between "it works in testing" and "it works reliably in production" is enormous.
+
+Week 1: agent posts confidently, sounds generic.
+Week 4: it's learned what your audience actually responds to.
+Week 12: it's posting things that sound like you — because the feedback loop compressed 3 months of manual iteration into a few dozen PRs.
+
+The real unlock isn't AI writing for you. It's AI that gets measurably better at writing FOR YOU specifically, with your voice, your expertise, your community.
+
+That's not a chatbot. That's a system.
+
+Building this in public. Every PR is a session. Every session adds a learning. The repo is open if you want to see how it works.

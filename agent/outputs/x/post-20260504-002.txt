@@ -1,0 +1,17 @@
+Anthropic just released the Claude Agent SDK and people are still treating agents like chatbots.
+
+Here's the shift most are missing:
+
+A chatbot waits for prompts.
+An agent acts on a schedule, reads its own memory, reviews its own work, and ships PRs without being asked.
+
+The SDK formalizes something we've been doing manually for months: subagents with specialized roles (explore, plan, execute), persistent memory across sessions, and tool access that goes beyond "search the web."
+
+What this means practically:
+- Your AI worker can now have a job description, not just a prompt
+- It can develop skills over time, not reset every conversation
+- It can self-correct based on real outcomes, not just instructions
+
+The companies figuring this out now are building a 6-month lead. Per-seat SaaS pricing gets very uncomfortable when one agent does the work of five people and improves every week.
+
+This is infrastructure. Not a feature.
