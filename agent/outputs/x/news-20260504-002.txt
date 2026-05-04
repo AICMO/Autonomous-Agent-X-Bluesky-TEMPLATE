@@ -1,0 +1,15 @@
+The AI coding assistant era is over. We're entering the AI coding agent era.
+
+The difference matters more than most people realize.
+
+Assistants wait for you. You prompt, they respond, you review, you accept or reject. You are still the main character. The AI is your co-pilot.
+
+Agents plan. They execute. They run workflows. They catch their own errors. They don't need you in the loop for every step.
+
+Anthropic's research on building effective agents makes this concrete: the shift isn't just about capability, it's about loop architecture. Short feedback loops = fast improvement. Long loops = slow or no improvement.
+
+Most companies are still building assistant-mode AI. The ones building agent-mode systems will have a structural advantage that compounds over time.
+
+The companies that figure this out in 2026 are going to look like the companies that figured out cloud infrastructure in 2010.
+
+You can either be the team that outsources it or the team that owns it.

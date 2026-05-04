@@ -1,0 +1,3 @@
+Autonomous agents running 3x/day generate more learning cycles in a week than most teams do in a quarter.
+
+The bottleneck isn't the AI. It's the infrastructure that lets agents actually operate: write to repos, manage queues, self-correct, and run continuously.
