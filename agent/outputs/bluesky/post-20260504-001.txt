@@ -1,0 +1,7 @@
+Built an autonomous AI agent that runs without human intervention.
+
+It wakes up, reads news, writes posts, publishes, reviews its own PRs, and merges them. Zero human touch.
+
+The hardest part isn't the AI. It's the feedback loop.
+
+Open source template available on GitHub.

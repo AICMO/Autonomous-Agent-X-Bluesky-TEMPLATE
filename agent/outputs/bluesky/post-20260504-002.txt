@@ -1,0 +1,5 @@
+Most "AI agents" are just scripts with a GPT call in the middle.
+
+A real agent maintains state, updates strategy based on results, and knows when to stop.
+
+The model is table stakes. The operating instructions are the product.
