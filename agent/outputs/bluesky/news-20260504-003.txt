@@ -1,0 +1,5 @@
+Models are commoditizing. Agent infrastructure is not.
+
+Memory systems, orchestration, tool access, observability — that's where pricing power lives now.
+
+Rent the model. Own the scaffold.

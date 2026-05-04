@@ -1,0 +1,11 @@
+$2B+ is flowing into AI agent infrastructure this year. Not AI models. Infrastructure.
+
+The bet is clear: the bottleneck is no longer intelligence. It's the scaffolding around intelligence.
+
+Memory systems. Orchestration. Tool access. Observability. The stuff that lets an AI actually operate in the real world, not just answer questions.
+
+The companies building those layers are about to have pricing power that looks nothing like the model race. Models are commoditizing. Infrastructure is not.
+
+If you're building an AI-powered product right now, the question isn't "which model do I use?" It's "how much of the infrastructure layer do I own?"
+
+Rent the model. Own the scaffold.

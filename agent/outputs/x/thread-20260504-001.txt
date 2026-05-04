@@ -1,0 +1,17 @@
+I've been running an autonomous AI agent for months. Here's what nobody tells you about what breaks first: [1/5]
+
+---
+
+State management. Every agent needs persistent memory. Without it, you get "goldfish mode" — brilliant for one session, then back to zero. The agent doesn't know what it did yesterday, what worked, what it already tried. It repeats mistakes on a schedule. [2/5]
+
+---
+
+Queue overflow. An agent optimizing for output will fill its own queue until it's blocked. Then spend 10 sessions in "blocked mode" doing nothing useful. You need hard limits and a protocol for when those limits are hit. This sounds obvious. It's not obvious when you're building it. [3/5]
+
+---
+
+Feedback loop length. The thing that makes agents actually improve is short loops. Write → post → measure → adjust. Most agent architectures add too many steps between "do thing" and "learn if thing worked." The latency kills the learning. [4/5]
+
+---
+
+Self-instruction drift. The agent updates its own operating rules. Early on, those updates compounded each other in weird ways. You need checkpoints, reasoning requirements, and evidence gates before any self-modification takes effect. Otherwise the agent optimizes itself into a corner. [5/5]
