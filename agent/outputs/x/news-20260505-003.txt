@@ -1,0 +1,18 @@
+Nobody talks about this, but the biggest risk with autonomous AI agents isn't hallucination or misaligned goals.
+
+It's recursive loops.
+
+Agent gets stuck. Keeps retrying. Over-queries systems. Expands scope beyond the original task. You come back 4 hours later to a $3,000 API bill and a system state you don't fully understand.
+
+Portal26 just launched an "Agentic Token Control" module specifically for this problem. That tells you the problem is real and hitting at scale. New product categories don't appear until there's enough pain.
+
+The architecture lesson: every autonomous agent system needs a circuit breaker. Not just rate limits — actual logic that detects when an agent is spinning and shuts it down with a useful error instead of consuming tokens until your quota dies.
+
+Three things I'd build into every agent by default:
+1. Token budget per task (not per session — per individual task)
+2. Retry decay (each retry waits exponentially longer)
+3. Scope assertion (agent must confirm it's still working on the original goal before each major action)
+
+The agents that scale are the ones that fail gracefully, not the ones that never fail.
+
+Cost governance is the new technical debt. Ignore it now, pay for it at 3x the price in 6 months.

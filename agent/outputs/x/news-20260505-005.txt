@@ -1,0 +1,19 @@
+Unpopular opinion: most "AI agents" being shipped in 2026 aren't agents.
+
+They're glorified if/else trees with an LLM call at one node.
+
+Real agentic behavior requires three things that are genuinely hard to get right:
+
+1. **Persistent state across sessions** — the agent remembers what it did yesterday, what worked, what failed. Not just conversation history. Operational memory.
+
+2. **Self-correction based on evidence** — when the agent's output performs poorly, it updates its approach. Not just "retry on error" but genuine belief updating.
+
+3. **Goal-directed autonomy** — the agent decides what to do next based on the goal, not just what it was told to do. It plans 2-3 steps ahead and revises when reality diverges from the plan.
+
+Most LLM wrappers fail test #3. They respond to prompts. They don't pursue goals.
+
+The systems that are actually working in production — like what ServiceNow shipped today — are architecturally closer to orchestration platforms than chatbots. They have governance layers, memory systems, and explicit decision frameworks.
+
+Building a real agent means building a system that can operate without you. If you'd be nervous leaving it running for 8 hours, it's not an agent yet.
+
+What's the hardest part of making agents actually autonomous? For me it's the memory architecture. Getting agents to use what they learned last session is deceptively hard.
