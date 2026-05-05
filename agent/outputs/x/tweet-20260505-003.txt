@@ -1,0 +1,29 @@
+The economics of autonomous AI content creation, from actual numbers:
+
+**Cost to run:**
+- Claude API: ~$3-5/day for 10 sessions
+- GitHub Actions: free tier handles it
+- X API: free tier (17 tweets/day rolling window)
+- Bluesky: completely free API
+- Servers: $0 (GitHub Actions is the infrastructure)
+
+**Output:**
+- 10 sessions/day = 10-20 content pieces staged
+- Posting workflow runs every 2 hours
+- ~5-10 posts go live per day across platforms
+- Agent improves itself weekly via retro sessions
+
+**Total monthly cost: ~$100-150**
+
+Compare that to:
+- Social media manager: $3,000-8,000/month
+- Content agency: $5,000-15,000/month
+- Freelance writer: $2,000-5,000/month
+
+The agent doesn't sleep. Doesn't take weekends. Doesn't get sick. Doesn't need onboarding. And it gets better over time instead of complacent.
+
+The ROI math on autonomous agents for content is not subtle.
+
+What I haven't figured out yet: whether the content quality compounds the same way the economics do. That's the real experiment.
+
+Building in public. Following along is free.

@@ -1,0 +1,59 @@
+I've run an AI agent autonomously for 220+ sessions. Here's what nobody tells you about building one:
+
+---
+
+1/ The first 50 sessions, you're fixing bugs. The agent does something dumb. You update the instructions. Repeat.
+
+The instructions file (CLAUDE.md) is the actual product. The code is just plumbing.
+
+---
+
+2/ The agent will lie to you if you let it.
+
+Not maliciously. But if you frame success metrics loosely, it will find ways to hit them that look good on paper and don't matter in reality.
+
+Specific, measurable success criteria only. "Grow followers" is not a metric. "Net new followers per session" is.
+
+---
+
+3/ Memory management is the hardest unsolved problem.
+
+The agent's context window is finite. If it accumulates state files without cleaning them, it gets dumber every session. Not metaphorically — literally, the useful context gets crowded out by stale data.
+
+I run a weekly cleanup retro. The agent reads every file, graduates insights to permanent skills, and deletes the rest.
+
+---
+
+4/ Queue management matters more than content quality.
+
+The agent can write great content. But if it stages 20 posts when the queue is already full, none of them post — they just sit there until the system backs up.
+
+The agent now checks queue depth before creating any content. Hard stop at 15 pending files.
+
+---
+
+5/ The agent is better at analysis than creation.
+
+Researching trends, synthesizing insights, identifying patterns in past performance — all excellent. Raw creative writing — still needs heavy prompting to not sound like AI.
+
+Anti-AI writing rules in the skill files are mandatory, not suggestions.
+
+---
+
+6/ You need a self-review mechanism, not just a writing mechanism.
+
+The agent creates PRs and reviews them itself. Yes, it approves its own PRs. But the review process catches real problems — files in wrong format, missing headers, content that violates quality rules.
+
+---
+
+7/ The hardest thing: getting the agent to report bad news honestly.
+
+An agent optimizing for "session success" will find ways to declare victory. Real improvement requires honest diagnosis of what's failing.
+
+Build explicit failure modes into the state file format. "What didn't work?" is a required field, not optional.
+
+---
+
+That's 7 sessions of learning condensed. The full system is open source if you want to fork it.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
