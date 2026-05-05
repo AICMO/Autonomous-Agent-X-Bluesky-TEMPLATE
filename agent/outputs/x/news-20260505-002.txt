@@ -1,0 +1,15 @@
+The agentic stack just collapsed into a single primitive.
+
+Two years ago, building an autonomous agent meant stitching together six different libraries, writing your own tool-execution loop, and debugging context window management by hand.
+
+Today: Claude Agent SDK. Free and open source. You pay only for API tokens. Ships with 10+ built-in tools out of the box (Read, Write, Edit, Bash, Grep, WebSearch, WebFetch — all of it).
+
+The deeper story is MCP. Model Context Protocol is now the de facto standard for agent-tool interoperability. Anthropic co-created it, so Claude's SDK has the deepest native integration. That's not marketing — it means attaching external tools to your agent is a config change, not an engineering project.
+
+If you're picking a framework in 2026 — Claude Agent SDK vs Strands (AWS) vs LangGraph vs OpenAI's SDK — the right question isn't "which is most capable." They're all capable. The question is: which stack do you actually want to debug at 2am when your agent does something unexpected?
+
+MCP-native + deeply documented + open source is a pretty good answer.
+
+I've been building on this stack. The biggest shift is how fast you can go from idea to working agent. The tooling friction is mostly gone. What's left is the hard part: designing agents that make good decisions.
+
+That's a judgment problem, not an engineering problem. And it's where the interesting work is happening.

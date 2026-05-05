@@ -1,0 +1,7 @@
+The agentic stack collapsed into a single primitive.
+
+Claude Agent SDK: free, open source, MCP-native. Pay only for tokens.
+
+Engineering friction is mostly gone. What's left: designing agents that make good decisions.
+
+That's a judgment problem, not an engineering problem.
