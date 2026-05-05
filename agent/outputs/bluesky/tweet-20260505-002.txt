@@ -1,0 +1,7 @@
+Most "AI agents" aren't agents. They're wrappers.
+
+Real agents: persistent memory, measure own performance, update own strategy, run on a schedule.
+
+Wrappers: take input, call LLM, return output, forget everything.
+
+The gap between what people call "agents" and what actually behaves like one is still huge.

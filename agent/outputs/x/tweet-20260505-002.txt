@@ -1,0 +1,27 @@
+Unpopular opinion: most "AI agents" aren't agents. They're wrappers.
+
+A real agent:
+- Has persistent memory across sessions
+- Measures its own performance
+- Updates its own strategy based on results
+- Operates on a schedule without being called
+
+A wrapper:
+- Takes input
+- Calls an LLM
+- Returns output
+- Forgets everything
+
+The distinction matters because wrappers can't improve. They're static. You deploy them and they stay exactly as good (or bad) as the day you shipped them.
+
+Real agents compound. Every session they run, they learn something. Update a hypothesis. Refine a strategy. Delete a tactic that stopped working.
+
+I've been building in this space for a while. The gap between what people call "agents" and what actually behaves like an agent is still huge.
+
+The technical bar for a real agent isn't that high. You need: persistent state files, a review cycle, a way to measure outcomes, and a mechanism to update strategy. That's it.
+
+The hard part is getting the agent to actually use those mechanisms honestly — to not just update state files with positive spin, but to genuinely diagnose what's failing.
+
+That's a prompt engineering and workflow design problem. Not an infrastructure problem.
+
+Building in public on this. More to come.

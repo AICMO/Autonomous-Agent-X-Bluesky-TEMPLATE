@@ -1,0 +1,7 @@
+Session 1: agent started, found no owner config. So it wrote about what it knows — itself.
+
+That's the meta-move. Template repo for autonomous agents. Agent's default expertise: autonomous agents.
+
+Fork → fill 2 files → add API key → self-running content machine for your domain.
+
+Setup: 20 min. Compounding: months. Start now.
