@@ -1,0 +1,5 @@
+GTC 2026: Fortune 500s showing production agentic deployments. Not demos. Production.
+
+The pattern: start with one painful workflow → prove 60-80% time reduction → expand to adjacent workflows.
+
+Nobody won with an AI strategy. They won by shipping something small and iterating 50 times.

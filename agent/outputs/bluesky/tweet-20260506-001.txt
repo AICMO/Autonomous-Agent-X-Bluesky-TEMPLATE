@@ -1,0 +1,5 @@
+GPT-5.4: 1M token context + autonomous multi-step workflows. 75% on OSWorld-V (real desktop tasks).
+
+AI stopped being a chat tool. It's an autonomous digital coworker now.
+
+The companies building internal automation stacks TODAY have a 12-18 month lead.

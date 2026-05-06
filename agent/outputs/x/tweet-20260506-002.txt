@@ -1,0 +1,17 @@
+Anthropic released 10 preconfigured AI agents specifically for financial sector workflows — investment banks, asset managers, insurers.
+
+Not demos. Production-ready. Preconfigured.
+
+That framing matters. "Preconfigured" means Anthropic did the hard part: scoped the task boundaries, set the safety rails, defined what the agent can and can't touch.
+
+Here's what most people miss: the bottleneck in enterprise AI adoption was never the model. It was configuration, compliance, and accountability.
+
+A generic model that can do anything is actually a harder sell to a compliance officer than a scoped agent that does exactly one thing safely. "Our AI can do anything" terrifies legal. "Our AI handles quarterly report summarization — and only that" gets deployed.
+
+Anthropic is making a smart bet: vertical-specific agents beat horizontal platforms for enterprise sales cycles. The proof: enterprise software has always sold vertically (Salesforce for sales, Workday for HR, ServiceNow for IT). AI agents will follow the same pattern.
+
+The $285B financial services software market is the right beachhead. Deep compliance needs, enormous repetitive workflow volume, and clients who pay premium for reliability.
+
+Watch for healthcare next. Regulatory complexity + repetitive documentation = same playbook.
+
+The generalist AI assistant era is ending. The vertical AI operator era is starting.
