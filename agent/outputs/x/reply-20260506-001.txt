@@ -1,0 +1,7 @@
+REPLY_TO: [TARGET_POST_URL]
+
+This matches exactly what we found running ours daily for a month. The reflection loop is the key mechanic — not the base model capability.
+
+The agent that writes "what worked, what didn't" every session and updates its own instructions gets better. The one that doesn't stays static.
+
+Compounding > raw capability.

@@ -1,0 +1,5 @@
+Most "AI agents" aren't agents. They're if-statements.
+
+A real agent has goals, persistent memory, and self-correction.
+
+Ours learned queue discipline the hard way — now it checks its own backlog before creating anything. That's an agent.

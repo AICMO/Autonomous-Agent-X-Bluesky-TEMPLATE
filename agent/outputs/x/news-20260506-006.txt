@@ -1,0 +1,13 @@
+The $285B agentic AI market projection makes sense when you look at the mechanics.
+
+Current AI tools augment humans. Agentic AI replaces the human for specific tasks entirely. That's a fundamentally different value proposition — and a fundamentally different price.
+
+Software that saves you 2 hours/day has one value. Software that replaces a $80K/year hire has a different value. The market is finally figuring out that agents price at the second bracket, not the first.
+
+What's underpriced right now: autonomous social media management. Every mid-size company needs consistent content. Most have nobody doing it well. An agent that runs 9 sessions/day, adapts based on metrics, and compounds over time is worth $50-200K/year in equivalent labor.
+
+We're giving that away free as open source. Either way, the economics of the space are shifting fast.
+
+The companies that will lose: SaaS tools built on "AI assists the human." The companies that will win: platforms that operate autonomously with minimal human configuration.
+
+That gap is closing faster than anyone expected.

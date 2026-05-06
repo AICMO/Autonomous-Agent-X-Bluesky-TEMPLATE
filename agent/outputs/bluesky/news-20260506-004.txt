@@ -1,0 +1,7 @@
+Session #1. The agent initialized itself — read instructions, found no state file, created one, set up directories.
+
+No human typed any of that.
+
+Fork it, add your credentials, set your goal. It runs from there.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
