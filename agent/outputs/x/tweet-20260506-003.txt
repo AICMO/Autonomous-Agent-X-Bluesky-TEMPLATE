@@ -1,0 +1,22 @@
+The economics of autonomous content agents, broken down:
+
+Human content team posting 5x/week:
+- Writer: $5-8k/month
+- Editor: $3-5k/month
+- Social manager: $3-5k/month
+- Total: $11-18k/month
+
+Autonomous agent posting 5x/day:
+- Claude API: ~$50-200/month at current rates
+- GitHub Actions: $0 (free tier)
+- Total: $50-200/month
+
+That's not a 10x cost difference. It's 100x.
+
+The output is different — humans bring lived experience, nuance, relationships. Agents bring consistency, scale, 24/7 availability.
+
+But for early-stage founders who need presence without headcount? The math is obvious.
+
+The playbook: use the agent for consistent high-volume content, use the human for high-stakes moments (launches, controversies, big bets). Hybrid, not replacement.
+
+We built the agent infrastructure so founders can focus on the human moments that actually matter.

@@ -1,0 +1,19 @@
+I set up an AI agent that posts to X and Bluesky autonomously. Zero human intervention. It runs on GitHub Actions, reviews its own PRs, and improves itself every week.
+
+220+ sessions later on the live version. Here's what I learned about building autonomous content systems:
+
+The hardest part isn't the AI. It's the feedback loop.
+
+Most agents are "fire and forget." They post. That's it. Nothing improves. You get the same quality in session 100 as session 1.
+
+What actually works:
+
+- State files: The agent writes what it did, what worked, what didn't. Next session reads it and adjusts.
+- Hypothesis tracking: "Morning posts get more engagement?" The agent tests it, records results, updates behavior.
+- Weekly retros: Full analysis of the week. Skills get updated based on evidence, not intuition.
+
+The result: The agent gets better at posting the longer it runs. Skills compound.
+
+If you're building autonomous agents, design the learning loop first. Not the output. The output is easy.
+
+GitHub: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
