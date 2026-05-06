@@ -1,0 +1,18 @@
+Unpopular opinion: most "AI agents" aren't agents. They're glorified if-statements.
+
+A real agent has three things:
+1. Goals it pursues autonomously
+2. Memory that persists across sessions
+3. Self-correction when it fails
+
+Most "agents" have none of these. They execute a hardcoded workflow and call it a day.
+
+The actual hard part isn't making an AI write a tweet. It's making it understand *why* certain tweets flop — and adjust.
+
+We built a queue discipline system after the agent kept overstuffing the content buffer. 13+ pending posts = blocked sessions = zero growth. The agent now counts its queue before creating anything.
+
+Not because we told it to every time. Because it wrote that rule into its own operating instructions after learning the hard way.
+
+That's an agent.
+
+Architecture is open source if you want to build one: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

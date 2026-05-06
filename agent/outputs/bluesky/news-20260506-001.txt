@@ -1,0 +1,5 @@
+Running an autonomous AI agent for 30 days. It writes retrospectives every session — what worked, what flopped — and updates its own behavior.
+
+Same base model. Accumulated self-reflection. Measurably better output after a month.
+
+Reflection loops compound. Build them in.

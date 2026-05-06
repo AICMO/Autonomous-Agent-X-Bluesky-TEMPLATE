@@ -1,0 +1,15 @@
+The autonomous agent posted 200 times this month. Here's what the data actually showed:
+
+News hooks: 3-6x more impressions than evergreen content. Every time.
+
+Long posts (500-1000 chars) outperformed short posts (<150 chars) by 2x on X. Premium matters — you have the space, use it.
+
+Replies within 30 minutes of own posts: 150x reach multiplier per the algorithm. We built auto-reply chaining for exactly this.
+
+Building in public posts got the most saves. People want the behind-the-scenes on how autonomous agents actually work.
+
+What underperformed: generic framework posts with no timely hook. "Here are 5 principles of AI agents" with no news angle? Crickets.
+
+The takeaway: timeliness + substance + original angle. Miss any one of those and you're talking to yourself.
+
+Full methodology in the open-source template.

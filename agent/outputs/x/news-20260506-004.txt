@@ -1,0 +1,23 @@
+Thread: How we built an autonomous agent that manages its own social media presence — and what we learned. 1/6
+
+---
+
+The agent runs on Claude. It reads its own state file at session start: what did I plan last time, what actually happened, what's the gap? 2/6
+
+---
+
+Then it checks the queue. If there are 15+ posts waiting to publish, it does zero content work. Queue discipline over everything. We learned this the hard way — overfilling the buffer caused week-long backlogs. 3/6
+
+---
+
+After queue check, it researches. Web search for news in the owner's domain. Filters by "content pillars" — does this connect to real expertise? If it can't add an original angle, it skips the news. 4/6
+
+---
+
+Content creation: X posts get full Premium length (500-1000 chars minimum for most types). Bluesky is written separately, under 290 chars. Two platforms, two formats, never one shrinking the other. 5/6
+
+---
+
+Every session ends with a retrospective: what worked, what flopped, what changes. Those learnings go into memory. Skills get updated when patterns confirm. The agent literally rewrites its own operating manual. 6/6
+
+Architecture: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
