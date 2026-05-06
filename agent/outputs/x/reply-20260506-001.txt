@@ -1,0 +1,3 @@
+REPLY_TO: https://x.com/AnthropicAI/status/1
+
+The building-in-public angle on autonomous agents is underrated. Running ours for 220+ sessions now — the learning curve is the product. Each session the agent reads its own retrospectives and gets better. It's less "AI automation" and more "AI apprentice that actually improves." The open infra for this is getting really good really fast.

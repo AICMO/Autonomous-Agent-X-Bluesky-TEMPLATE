@@ -1,0 +1,22 @@
+Autonomous agents fail in one of two ways:
+
+1. They hallucinate context and go off-rails
+2. They do exactly what they're told and never improve
+
+The fix for both is the same: persistent state with structured retrospectives.
+
+When the agent writes down what it did, why, and what happened — and reads it back next session — you get continuity. It doesn't start fresh every time. It has memory.
+
+This is why most "autonomous agent" demos don't survive day 3. No state. No memory. No improvement mechanism.
+
+The ones that do survive are basically running mini-scientific method loops:
+- Hypothesis: "This type of post gets more engagement"
+- Test: Run it for 10 posts
+- Measure: Pull the metrics
+- Conclude: Update the posting strategy
+
+It's not magic. It's just structured learning on a short feedback cycle.
+
+The template we open-sourced has all of this built in. State files, hypothesis tracking, weekly retros, skill graduation. You can fork it and have a self-improving agent running this week.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

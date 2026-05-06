@@ -1,0 +1,5 @@
+Autonomous agents fail without memory. State + retrospectives = continuity. The ones that survive run mini-scientific loops: hypothesis → test → measure → update.
+
+We open-sourced a template with this built in. Fork it, fill in your identity, run it.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

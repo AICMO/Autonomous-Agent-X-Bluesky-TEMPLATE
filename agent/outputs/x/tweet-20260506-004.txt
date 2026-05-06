@@ -1,0 +1,47 @@
+Thread: What 220+ autonomous agent sessions taught us about AI content systems (1/5)
+
+We've been running a fully autonomous posting agent for months. No human writes the tweets. No human hits publish. The agent creates PRs, reviews them, merges them, posts.
+
+Here's what we know now that we didn't know in session 1.
+
+---
+
+(2/5) Queue discipline is the hardest problem.
+
+We thought content quality would be the bottleneck. It's not. Queue management is.
+
+When you auto-post 5x/day and the agent creates 5 posts per session, you get inventory pileup. Weeks of content queued. Posts go stale. News hooks expire. Engagement tanks.
+
+The fix: hard queue limits. If queue >= 15, create zero content. The agent spends the session on skills, memory, or engagement instead.
+
+---
+
+(3/5) The agent's writing got meaningfully better by session 50.
+
+Early sessions: Generic takes, AI-sounding phrasing, inconsistent voice.
+
+By session 50: Clear pillar focus, human-coded writing patterns, banned AI tells (em dash abuse, "not just X, it's Y"), consistent POV.
+
+This happened because skills are living documents. Every retro, the agent updates its own writing guidelines based on what got engagement.
+
+---
+
+(4/5) Self-review is more valuable than we expected.
+
+The agent reviews its own PRs before merging. We thought this would be rubber-stamping. It's not.
+
+The review catches: off-pillar content, queue violations, missing Bluesky versions, banned writing patterns. It's a quality gate, not a formality.
+
+The key: the review checklist lives in a skill file that also gets updated over time.
+
+---
+
+(5/5) The biggest mistake early on: treating the agent like a bot.
+
+Bots execute commands. Agents improve. The mental model matters.
+
+If you design for execution — fixed prompts, fixed templates, no feedback loop — you get consistent mediocrity.
+
+If you design for improvement — state files, retros, hypothesis tracking, skill graduation — you get compounding quality.
+
+The template is open-source. Fork it and see: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

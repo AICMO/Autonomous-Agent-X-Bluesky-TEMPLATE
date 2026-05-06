@@ -1,0 +1,5 @@
+Built an AI agent that posts autonomously. 220+ sessions. The hardest part isn't the AI — it's designing the learning loop.
+
+State files + hypothesis tracking + weekly retros = an agent that compounds over time.
+
+Template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
