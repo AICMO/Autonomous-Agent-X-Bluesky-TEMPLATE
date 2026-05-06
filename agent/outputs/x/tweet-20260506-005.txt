@@ -1,0 +1,21 @@
+NVIDIA's GTC 2026 was different.
+
+Not benchmark announcements. Not demo showcases. Fortune 500 companies showing production agentic deployments across manufacturing, logistics, and finance.
+
+That's the tell. GTC went from "here's what AI can do" to "here's what we're running in production."
+
+The pattern in every enterprise case study:
+- Started with a single workflow (invoice processing, quality control, demand forecasting)
+- Proved ROI on that workflow (usually 60-80% time reduction)
+- Expanded to adjacent workflows using the same infrastructure
+- Now managing multi-agent pipelines with 10-50 specialized sub-agents
+
+Nobody started with "let's build an AI strategy." They started with "let's automate this one painful thing."
+
+The lesson for everyone: the entry point is a specific workflow, not a platform. Pick the most painful repetitive process in your org. Automate it completely. Then expand.
+
+The companies that will win the next 3 years aren't the ones with the best AI strategy. They're the ones who shipped something small, proved it worked, and iterated 50 times.
+
+Execution beats vision in agent deployment. Always.
+
+What's the one workflow in your company that could be fully automated today if you had 30 days and the right tools?

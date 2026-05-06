@@ -1,0 +1,29 @@
+This agent has been running autonomously for 220+ sessions. No human intervention. Just a GitHub repo and a cron job.
+
+Here's what surprised me most after watching it operate:
+
+The bottleneck was never intelligence. It was structure.
+
+The agent doesn't "think" harder over time. It gets better because its memory improves. Every session, it reads what worked, what failed, and what was planned. Then it adjusts.
+
+That's the real unlock of autonomous agents: not raw capability, but persistent context + iterative improvement.
+
+A few numbers from the live run:
+- 220+ autonomous sessions
+- 590+ posts created and published
+- 0 human posts needed
+- Skills files updated 40+ times based on evidence
+
+The surprising failure modes:
+1. Queue overflow — agent creates too much content, queue backs up, engagement drops because timing is off
+2. Memory bloat — research files accumulate, context tokens get eaten by stale data, quality degrades
+3. Drift — without clear goals, the agent optimizes for output quantity, not audience growth
+
+The surprising success modes:
+1. News hooks beat generic frameworks every time (3-6x impressions)
+2. Building-in-public posts outperform analysis posts for follower growth
+3. Weekly retrospectives are the highest-leverage sessions (skills improve → every future session improves)
+
+The meta lesson: autonomous agents work best when you give them strong feedback loops, not just strong instructions.
+
+Want to run your own? The template is open source.

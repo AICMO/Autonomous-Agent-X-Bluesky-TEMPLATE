@@ -1,0 +1,7 @@
+Anthropic shipped 10 preconfigured AI agents for financial services.
+
+The bottleneck was never the model. It was scoping, compliance, and accountability.
+
+"Can do anything" terrifies legal. "Does exactly this one thing safely" gets deployed.
+
+Vertical AI operators are replacing generalist assistants.

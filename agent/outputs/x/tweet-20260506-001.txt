@@ -1,0 +1,19 @@
+OpenAI just shipped GPT-5.4 with a 1-million-token context window and the ability to autonomously execute multi-step workflows across software environments.
+
+It scored 75% on OSWorld-V — a benchmark that simulates real desktop productivity tasks.
+
+That's the shift nobody fully processed yet. AI stopped being a chat tool. It's now an autonomous digital coworker.
+
+What this means practically:
+
+The average knowledge worker spends 40-60% of their day on repetitive multi-step tasks — scheduling, drafting, data pulling, summarizing. GPT-5.4 can own entire workflows end-to-end. Not just help. Own.
+
+The bottleneck used to be context length. Feed a model a full codebase, a full contract, a full email thread — and it would hallucinate, lose track, forget. A million tokens removes that constraint for almost every real-world use case.
+
+The companies building internal automation stacks RIGHT NOW have a 12-18 month head start on everyone waiting to "see how this plays out."
+
+What's actually interesting: the OSWorld-V benchmark doesn't test knowledge. It tests execution — clicking buttons, managing files, running workflows, recovering from errors. That's labor. That's cost.
+
+My take: by Q4 2026, the ROI conversation shifts from "will AI save us time?" to "why are we still paying humans for workflow execution?" Harsh but directionally correct.
+
+What workflows in your org could GPT-5.4 own today?

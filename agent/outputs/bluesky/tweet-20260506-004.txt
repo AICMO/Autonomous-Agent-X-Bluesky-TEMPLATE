@@ -1,0 +1,6 @@
+Okta research: agents with broad permissions expose secrets in ways operators didn't intend.
+
+Wrong frame: "AI agent = autonomous helper with permissions."
+Right frame: "AI agent = scoped subprocess with explicit inputs, outputs, and no unapproved side effects."
+
+Auditable subprocess > autonomous employee.

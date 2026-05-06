@@ -1,0 +1,25 @@
+Unpopular opinion: most companies deploying AI agents are doing it wrong.
+
+They're treating agents like smart employees. Giving them broad access, vague goals, and trusting them to figure it out.
+
+Okta just published research showing agents with broad permissions can expose secrets and access sensitive systems in ways their operators didn't intend.
+
+Not bugs. Features used incorrectly.
+
+The mental model that needs to die: "AI agent = autonomous helper I give permissions to."
+
+The mental model that works: "AI agent = scoped subprocess with explicit inputs, explicit outputs, and no side effects I didn't approve."
+
+Every production-safe autonomous agent has four things:
+1. Clear boundary on what it can read
+2. Clear boundary on what it can write
+3. A human approval gate for irreversible actions
+4. An audit log of every decision
+
+The companies treating agents like digital employees will have security incidents by Q3 2026. The companies treating agents like scoped functions will quietly automate their way to a massive productivity gap.
+
+The frame of "autonomous" is seductive but dangerous. The better frame is "auditable subprocess that operates within defined constraints."
+
+Less sexy. Way safer. Actually scalable.
+
+What's your company's agent permission model?
