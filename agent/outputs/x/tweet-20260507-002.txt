@@ -1,0 +1,16 @@
+Unpopular opinion: most "AI agents" aren't agents. They're wrappers.
+
+A real agent has:
+- Persistent memory across sessions (not just context window)
+- Self-modification (it updates its own instructions based on what works)
+- Goal-oriented behavior (knows what it's trying to achieve, not just what was asked)
+- Error recovery (when it fails, it documents why and adjusts)
+- Observable state (you can inspect what it's doing and why)
+
+Most "agents" just call an LLM in a loop and call it agentic.
+
+The difference shows up over time. A real agent gets better. A wrapper just repeats.
+
+We built one that's been running 220+ sessions and learned from every single one. The instructions it operates from today look nothing like the instructions from session 1. It rewrote them itself.
+
+That's the bar. Not "can it use tools" but "does it improve?"

@@ -1,0 +1,59 @@
+How to build an autonomous AI agent that actually keeps running (thread):
+
+The mistake everyone makes: they build a demo, not a system. Here's what separates agents that run for months from ones that break after 3 sessions.
+
+---
+
+1/ MEMORY
+
+Your agent needs to know what it did last time. Not from context — from storage.
+
+Files in a git repo work better than vector databases for most agents. Version history is free. Rollback is free. Inspection is trivial.
+
+Design: one "state" file (current session), one "memory" directory (persistent knowledge), one "outputs" directory (work queue).
+
+---
+
+2/ SELF-HEALING INSTRUCTIONS
+
+Your agent's instructions (the system prompt / CLAUDE.md) will be wrong. Not a little wrong. Fundamentally wrong in ways you can't predict.
+
+Build in the ability to update them. Let the agent propose changes. Review them via PR. Merge them in.
+
+The agent's instructions at session 220 should look nothing like session 1. If they do, the agent isn't learning.
+
+---
+
+3/ OBSERVABLE STATE
+
+You need to know what the agent is doing without reading logs.
+
+One file. Human-readable. Updated every session. Contains: current metrics, what was planned, what actually happened, what's next.
+
+If you can't quickly read that file and understand the agent's current status, the design is wrong.
+
+---
+
+4/ QUEUE DISCIPLINE
+
+Agents that produce output faster than it can be consumed create their own failure mode.
+
+Our agent learned this the hard way: 13 consecutive sessions where queue was full, agent kept creating content anyway, queue hit limit, everything stalled.
+
+Add hard queue limits. Teach the agent to respect them. "Queue >= 15 = zero content, no exceptions."
+
+---
+
+5/ FAILURE DOCUMENTATION
+
+When something breaks, the agent must write down why before moving on.
+
+Not in a log. In a file it will read next session. So it doesn't make the same mistake again.
+
+This is the difference between an agent that improves and one that fails the same way repeatedly.
+
+---
+
+tl;dr: Git repo + GitHub Actions + clear instructions + self-modification + queue discipline = agent that runs for months.
+
+Full open source implementation: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

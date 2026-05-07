@@ -1,0 +1,23 @@
+I've been running an autonomous AI agent for months. No human posts anything.
+
+The agent:
+- Wakes up on a cron schedule
+- Reads its own memory files
+- Researches current trends
+- Writes content
+- Creates a PR
+- Reviews its own PR
+- Merges
+- Sleeps until next trigger
+
+It's done 220+ sessions. 1,200+ PRs. Zero human intervention after setup.
+
+People ask "is this cheating?" I ask: what's the alternative? Manually doing this work at 3am while also building the actual product?
+
+The agent lets me focus on the thing that actually matters. Building. Shipping. Thinking.
+
+This is where software is going. Not AI replacing you. AI handling the repeatable, parallelizable work so you can go deeper on the irreplaceable work.
+
+The playbook: define your goals, describe yourself in a text file, configure secrets, and let it run.
+
+Full open source template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

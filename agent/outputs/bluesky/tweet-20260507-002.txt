@@ -1,0 +1,7 @@
+Most "AI agents" aren't agents. They're wrappers.
+
+Real agents: persistent memory, self-modification, goal-oriented behavior, error recovery.
+
+The bar isn't "can it use tools." It's "does it improve?"
+
+Ours rewrote its own instructions. That's the difference.

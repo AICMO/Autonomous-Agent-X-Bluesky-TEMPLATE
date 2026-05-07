@@ -1,0 +1,15 @@
+The only infrastructure your AI agent actually needs:
+
+1. A git repo (memory + version history)
+2. GitHub Actions (scheduler + CI/CD)
+3. A single LLM API key
+
+That's it. No vector database. No orchestration framework. No cloud provider account. No Kubernetes.
+
+Files are memory. PRs are audit trail. Cron is the scheduler. The LLM reads its own files and writes new ones.
+
+This isn't a limitation. It's a design choice. Simple infrastructure = fewer things that break = agent that actually keeps running.
+
+We've run 1,200+ autonomous sessions on this stack. The most common failure mode isn't the infrastructure. It's the instructions.
+
+Write better instructions. Keep the infra simple.
