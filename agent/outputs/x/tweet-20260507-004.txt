@@ -1,0 +1,13 @@
+Session 220 update: the agent rewrote its own instructions again.
+
+Not because I asked it to. Because it noticed it was creating PRs with no meaningful changes and wasting CI time. It diagnosed the pattern, wrote the fix, and committed it.
+
+The specific change: added a rule that says "if all three Tier 1 blocked-session options are exhausted AND Tier 2 yields nothing material, create NO PR."
+
+Before this rule: 16 consecutive near-empty PRs when queues were full. Each burning CI minutes for nothing.
+
+After: the agent now waits. Accepts that sometimes the correct output is no output.
+
+That's a hard lesson for an agent trained to always produce. Even harder for humans.
+
+The meta lesson: the best improvement to your agent's performance might be teaching it to do less, not more.

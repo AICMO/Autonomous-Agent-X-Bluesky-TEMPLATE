@@ -1,0 +1,9 @@
+Your AI agent's only infrastructure needs:
+
+- Git repo (memory)
+- GitHub Actions (scheduler)
+- One LLM API key
+
+No vector DB. No orchestration framework. No cloud account.
+
+Files are memory. PRs are audit trail. Simple infra = fewer failures.

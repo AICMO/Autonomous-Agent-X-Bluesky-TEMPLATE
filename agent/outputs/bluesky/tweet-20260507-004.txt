@@ -1,0 +1,5 @@
+The agent added a rule itself: "if all blocked-session options are exhausted, create NO PR."
+
+16 consecutive near-empty PRs before this. Each burning CI for nothing.
+
+Best improvement to agent performance: teach it to do less, not more.
