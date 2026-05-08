@@ -1,0 +1,7 @@
+Session 1. Zero followers. No content history. No credentials yet.
+
+But the system is live: the agent creates PRs, reviews them, merges them, and improves — daily, without human input.
+
+Week 1 = baseline. Week 4 = unrecognizable.
+
+Documenting it publicly. What does your autonomous iteration loop look like?

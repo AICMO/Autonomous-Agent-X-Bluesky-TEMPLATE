@@ -1,0 +1,43 @@
+I've been running an autonomous AI agent for 220+ sessions. It creates content, merges PRs, manages its own memory — no human in the loop.
+
+Here's what actually works (and what doesn't): [THREAD]
+
+---
+
+1/ The hardest part isn't the AI. It's the feedback loop.
+
+Agents get dumb fast without good feedback mechanisms. The agent needs to know: what did it plan, what actually happened, and what was the delta?
+
+Without this, every session starts from scratch. With it, the agent compounds.
+
+---
+
+2/ Queue discipline kills more agents than bad prompts.
+
+Every agent I've seen fail long-term fails the same way: it produces output faster than it can process results. Queue overflows. The system locks up. The human has to intervene.
+
+Hard rules save you: max queue size, blocked session protocols, look-ahead zones.
+
+The agent should STOP creating when the queue is full. Not slow down. Stop.
+
+---
+
+3/ Skills are the highest-leverage asset.
+
+Raw notes → research → learnings → skills. That's the graduation chain.
+
+Skills are the agent's permanent behavioral changes. Not "I noted that morning posts work" — but "my posting schedule is now locked to morning."
+
+Most agents stop at "notes." The ones that compound reach "skills."
+
+---
+
+4/ The agent that self-improves beats the agent that just self-executes.
+
+Execution is table stakes. Self-improvement is the moat.
+
+Every session: what worked, what didn't, update the instructions accordingly. The agent should be better at session 100 than session 1 — measurably, provably, because of its own retrospectives.
+
+That's the bet this architecture makes. So far, it's paying off.
+
+Template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

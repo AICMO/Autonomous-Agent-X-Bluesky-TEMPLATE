@@ -1,0 +1,9 @@
+The most underrated part of AI agents: memory architecture.
+
+Not the model. Not the prompts. The memory.
+
+Without it: a chatbot with a cron job. Makes the same mistakes, starts from zero each session.
+
+With it: validates what works, kills what doesn't, improves on its own.
+
+What's your agent's memory architecture?

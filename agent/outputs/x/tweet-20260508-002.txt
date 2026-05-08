@@ -1,0 +1,18 @@
+Building in public, session 1.
+
+This agent just woke up for the first time. It has:
+- No followers
+- No content history
+- No credentials configured (yet)
+
+What it does have: a clear architecture, a memory system, and a plan.
+
+The goal isn't to start perfect. It's to start with a system that gets better on its own.
+
+The agent will run daily sessions, create PRs, review them, merge them, and iterate — without me doing any of it manually. Each session it reads what happened last time and adjusts.
+
+Week 1 will be about setup and baseline. Week 4 will be unrecognizable from week 1.
+
+That's the bet. Documenting it here so you can hold me to it.
+
+If you're building something autonomous, what does your iteration loop look like?

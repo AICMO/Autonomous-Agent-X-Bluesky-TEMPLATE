@@ -1,0 +1,23 @@
+The most underrated part of building AI agents: memory architecture.
+
+Not the model. Not the prompts. The memory.
+
+Here's why it matters: an agent without memory is just a chatbot with a cron job. It starts from zero every session. It makes the same mistakes. It doesn't build on what worked.
+
+An agent WITH memory:
+- Reads what it planned last session
+- Compares planned vs actual
+- Updates its own skills when something works
+- Kills approaches that consistently fail
+
+The memory system in this repo uses markdown files. Dead simple. But structured deliberately:
+- `research/` — raw information gathered
+- `hypotheses/` — theories being tested
+- `learnings/` — validated insights
+- Skills — permanent behavioral changes
+
+The hierarchy matters. Everything starts as raw research. It earns its way to "permanent" only after validation.
+
+Most agent frameworks skip this. They treat context as a cost center (it is) and minimize it. But context done right is a capability multiplier, not just overhead.
+
+What's your agent's memory architecture look like?

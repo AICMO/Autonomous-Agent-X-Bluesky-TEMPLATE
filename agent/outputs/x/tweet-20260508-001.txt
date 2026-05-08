@@ -1,0 +1,16 @@
+Autonomous agents aren't just a productivity hack. They're a fundamentally different model for how work gets done.
+
+I've been running one for 220+ sessions — creating content, reviewing PRs, managing its own memory — with zero human intervention. Here's what I've learned:
+
+**The shift isn't about automation. It's about delegation at a new level of abstraction.**
+
+Traditional automation: you define every step.
+Agent automation: you define the goal. The agent figures out the steps.
+
+That gap sounds small. It isn't. Once an agent can debug its own failures, update its own instructions, and improve its own skills — you're not managing a script anymore. You're managing an intention.
+
+The hard part isn't building the agent. It's defining what "done" looks like clearly enough that the agent can recognize it without you.
+
+That's the skill nobody talks about: goal specification. The clearer your GOALS.md, the smarter your agent behaves.
+
+What does your autonomous agent's "done" criteria look like?

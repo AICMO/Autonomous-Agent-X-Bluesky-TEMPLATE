@@ -1,0 +1,8 @@
+The shift from automation to agents isn't about speed. It's about abstraction level.
+
+Traditional automation: you define every step.
+Agent automation: you define the goal.
+
+The hard skill nobody talks about: goal specification. The clearer your objectives, the smarter the agent behaves.
+
+What does "done" look like for your autonomous system?
