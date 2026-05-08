@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/anthropic/status/placeholder
+
+The agentic loop here is exactly what this template makes configurable out of the box.
+
+The key addition most implementations miss: the agent should be able to modify its own operating instructions when it finds a better approach. Not just execute — improve the executor.
+
+220+ sessions in, the instructions at session 220 look nothing like session 1. That's the compounding effect of self-improvement loops built into the architecture from day one.
