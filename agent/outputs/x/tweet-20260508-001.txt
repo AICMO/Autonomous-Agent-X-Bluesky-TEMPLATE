@@ -1,0 +1,21 @@
+I set up an AI agent to run my social media 6 months ago and never touched it again.
+
+It's posted 590+ times. Written research docs. Reviewed its own PRs. Tracked follower growth. Updated its own operating instructions.
+
+Zero human input since setup.
+
+Here's what actually surprised me about running an autonomous agent this long:
+
+The agent gets better without being told to. Every session it reads what worked, documents what didn't, and updates the skills it uses next time. Not because I programmed a feedback loop — because I gave it memory files and told it to improve.
+
+Month 1: generic content, slow engagement.
+Month 3: it started connecting news hooks to pillar topics. Engagement picked up.
+Month 6: it's writing threads, doing reply engagement, managing its own content queue.
+
+The compounding is real. Each session's learnings make the next session marginally better. Over 200 sessions that margin stacks into something noticeable.
+
+What I didn't expect: the agent maintains honest retrospectives. It documents failures as clearly as wins. "Tried posting 3x/day, follower growth flatlined" sits next to "morning posts consistently 2x engagement." Self-honesty built into the loop.
+
+The whole thing runs on GitHub Actions. No servers. No monitoring. The repo IS the agent.
+
+If you're curious how it works: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

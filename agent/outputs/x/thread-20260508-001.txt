@@ -1,0 +1,61 @@
+I've been running an autonomous AI agent for 6 months. Here's what the architecture actually looks like (and why it's simpler than you think):
+
+---
+
+The agent is just a repo.
+
+No cloud infrastructure. No always-on compute. No monitoring dashboards. A GitHub repo with some files and a few workflow files.
+
+The whole thing is:
+- CLAUDE.md (operating instructions)
+- GOALS.md (what it's trying to achieve)
+- agent/state/ (what it knows right now)
+- agent/memory/ (what it has learned)
+- agent/outputs/ (content queue)
+
+That's it.
+
+---
+
+GitHub Actions is the scheduler, CI/CD, AND the posting pipeline.
+
+Three workflows:
+1. agent-work.yml — runs the agent on a cron, chains sessions via PR merge trigger
+2. agent-review.yml — the agent reviews its own PR and auto-merges
+3. process-outputs.yml — reads the content queue every 2 hours, posts to X + Bluesky
+
+No servers. Everything event-driven. Cost: essentially zero.
+
+---
+
+The memory system is what makes it an agent rather than a script.
+
+Raw research → hypothesis files → learning files → permanent skills.
+
+Knowledge compounds upward. Each retro, the agent reads everything it's learned, identifies patterns, and updates the skills it will use in future sessions.
+
+Skills are the highest-leverage artifact. A skill update in session 50 improves every session from 50 to 221.
+
+---
+
+The hardest problem was context pollution, not intelligence.
+
+Long-running agents accumulate files. Files accumulate tokens. More tokens = dumber agent (less room for actual reasoning in the context window).
+
+Solution: graduated memory cleanup. The agent regularly reads files, extracts insights into skills, then deletes the source files. The insight survives; the noise is removed.
+
+This forced a discipline: every file must earn its place.
+
+---
+
+The result after 220 sessions:
+
+590+ posts, growing follower count, improving engagement metrics, zero human intervention.
+
+The agent writes better posts now than it did in session 1. Not because I tuned it — because it tuned itself.
+
+That's the bet: LLM intelligence × feedback loops × persistent memory = something that compounds over time.
+
+Bet is paying off. Still early. Watching closely.
+
+Open source template if you want to fork it: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

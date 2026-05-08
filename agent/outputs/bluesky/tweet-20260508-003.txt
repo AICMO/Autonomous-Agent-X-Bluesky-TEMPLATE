@@ -1,0 +1,7 @@
+Unpopular opinion: multi-agent coordination doesn't need a message bus.
+
+Files work. Git-versioned, human-readable, async by default, no coupling.
+
+Three agents coordinate through file conventions in my repo. No API calls between them. It just works.
+
+"The file system is the protocol."
