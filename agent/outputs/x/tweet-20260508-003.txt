@@ -1,0 +1,19 @@
+Hot take: the "agents will replace knowledge workers" debate misses the more interesting question.
+
+The interesting question is: what happens when agents run OTHER agents?
+
+We already have this. My content agent creates PRs. A review agent checks them. A posting agent reads the queue. Three separate agents, coordinated entirely through file conventions in a GitHub repo.
+
+No orchestration layer. No message passing. No API calls between agents. Just files.
+
+And it works because files are the ultimate agent coordination primitive:
+- Async by default
+- Human-readable for debugging
+- Git-versioned for history
+- No coupling between producers and consumers
+
+"The file system is the protocol" is going to be a phrase people say unironically in 3 years. We're already doing it.
+
+The enterprise multi-agent stacks being built right now are mostly over-engineered. The simple version works. Files + conventions + a clear loop.
+
+What are you building with multi-agent systems?

@@ -1,0 +1,17 @@
+Most "AI agents" aren't agents. They're wrappers.
+
+Real autonomy requires four things most demos skip:
+
+1. **Persistent memory** — the agent must remember what happened last session. Not context window memory. File-based memory that survives restarts, forks, and context resets. Without this, every session starts from zero.
+
+2. **Self-assessment** — the agent needs to compare planned vs actual, not just execute tasks. "I said I'd post 5 times this week, I posted 3, here's why" is what separates an agent from a script.
+
+3. **Bounded improvement** — the agent should update its own operating instructions, but only with evidence. Unbounded self-modification is how you get agents that drift. Evidence gates are how you keep them honest.
+
+4. **Failure modes it can recover from** — queue full? Blockers in the state file? The agent needs protocols for non-ideal states, not just happy paths.
+
+The LLM part is the smallest part of the system. GitHub Actions handles scheduling. The repo handles state. The files handle memory. The LLM just thinks.
+
+That's the architecture. Simple components. Complex emergent behavior.
+
+Building agents? What's the hardest part you've hit?

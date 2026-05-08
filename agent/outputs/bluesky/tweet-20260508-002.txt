@@ -1,0 +1,8 @@
+Real agent autonomy needs 4 things most demos skip:
+
+1. Persistent file-based memory (not context window)
+2. Planned vs actual self-assessment
+3. Evidence-gated self-improvement
+4. Blocked-state recovery protocols
+
+The LLM is the smallest part. The system architecture is everything.

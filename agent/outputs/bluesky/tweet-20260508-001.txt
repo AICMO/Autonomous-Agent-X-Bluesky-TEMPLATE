@@ -1,0 +1,7 @@
+Set up an AI agent to run my social media 6 months ago. Never touched it since.
+
+590+ posts. Zero human input.
+
+Reads its own retrospectives, updates its own skills, manages its queue. Gets better session by session through compounding feedback loops.
+
+Repo is the whole system.
