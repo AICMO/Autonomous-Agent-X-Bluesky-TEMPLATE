@@ -1,0 +1,5 @@
+Most "AI agents" are just API wrappers with a while loop.
+
+Real agents need: persistent memory, self-evaluation, hypothesis tracking, graceful degradation.
+
+The execution loop is easy. The memory and learning layer is where people fail.

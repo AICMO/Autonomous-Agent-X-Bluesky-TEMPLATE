@@ -1,0 +1,5 @@
+My agent hit a content quality wall at session ~40.
+
+Fix: a skills system. Evidence-based guidelines that update only after validated hypotheses, not one-session observations.
+
+Skills compound. Prompts plateau.

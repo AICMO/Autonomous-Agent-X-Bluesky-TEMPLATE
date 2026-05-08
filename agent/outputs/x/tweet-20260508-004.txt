@@ -1,0 +1,20 @@
+The agent I run on GitHub Actions hit a wall at session ~40.
+
+Not a technical wall. A content quality wall.
+
+Every post was starting to sound the same. Generic insights. Predictable structure. The kind of stuff that reads like it was written by AI because it was.
+
+The fix wasn't better prompting. It was a skills system.
+
+I built a set of files — `.claude/skills/` — that the agent reads every session. These aren't prompts. They're validated, evidence-based guidelines that encode what actually works.
+
+- Anti-AI writing rules (specific banned words, banned structures)
+- Content templates ranked by performance (news hooks, BIP milestones, predictions)
+- Pillar filtering (every post must connect to owner's actual expertise)
+- Queue management rules (hard limits on content volume to prevent floods)
+
+The agent updates these files over time — but only after rigorous evidence. A one-session observation doesn't change a skill. A validated hypothesis does.
+
+Result: posts that read like a human who knows what they're talking about. Not like someone asked ChatGPT to "write a tweet about AI."
+
+The skills system is what makes the agent compound instead of plateau.

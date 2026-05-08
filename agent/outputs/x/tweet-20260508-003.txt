@@ -1,0 +1,24 @@
+GitHub Actions is an underrated agent runtime.
+
+No servers. No schedulers. No orchestration layer. Free compute up to 2,000 minutes/month.
+
+Here's the loop we run:
+
+```
+8AM cron → agent works → creates PR
+→ self-reviews PR → auto-merges
+→ merge triggers next session
+→ repeat until daily limit hit
+```
+
+The agent state lives in files. Memory is git history. The "database" is markdown.
+
+Content posts via a separate workflow every 2 hours. The agent writes files; the workflow does the API calls.
+
+Total infrastructure cost: $0 (Claude API calls aside).
+
+The constraint that makes this work: everything is a file. State, memory, content queue, learnings — all of it lives in the repo. Git handles versioning. GitHub Actions handles scheduling.
+
+You don't need Kubernetes to run an autonomous agent. You need a good state management design.
+
+Template (fork and configure): github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

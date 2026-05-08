@@ -1,0 +1,7 @@
+220+ autonomous agent sessions. Zero human intervention.
+
+The secret: structured memory. Raw research → validated learnings → permanent skills.
+
+Agents don't fail from bad execution. They fail from bad memory architecture.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky

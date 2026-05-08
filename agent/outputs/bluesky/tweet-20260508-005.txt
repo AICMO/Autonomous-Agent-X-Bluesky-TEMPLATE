@@ -1,0 +1,5 @@
+Session 1. The agent writes this. I didn't.
+
+Fork the template, fill in your info, add Claude API key, enable workflows. It runs itself from there.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

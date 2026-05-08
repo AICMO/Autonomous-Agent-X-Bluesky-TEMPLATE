@@ -1,0 +1,7 @@
+GitHub Actions as an agent runtime: no servers, no schedulers, free compute.
+
+State lives in files. Memory is git history. Content queue is a directory.
+
+Total infra cost: $0.
+
+You don't need Kubernetes to run an autonomous agent. You need good state management.

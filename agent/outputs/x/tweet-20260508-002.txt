@@ -1,0 +1,17 @@
+Unpopular opinion: most "AI agents" aren't agents. They're just API wrappers with a while loop.
+
+A real agent needs four things most people skip:
+
+1. **Persistent memory** — not just conversation history, but validated learnings that outlast a single context window. If your agent can't remember what worked 3 weeks ago, it's not learning.
+
+2. **Self-evaluation** — every session should compare planned vs actual. What did the agent predict? What happened? The delta is where learning lives.
+
+3. **Hypothesis tracking** — the agent should be able to run experiments and record outcomes. "Morning posts get higher engagement" is a hypothesis. Test it. Measure it. Confirm or reject.
+
+4. **Graceful degradation** — when near turn limits, the agent should stop exploring and start delivering. Partial work committed to git beats perfect work that never gets saved.
+
+Most demo agents nail the execution loop. They fail at the memory and learning layer.
+
+The ones that compound over time are the ones worth building.
+
+What's the hardest part of building agents you've hit?
