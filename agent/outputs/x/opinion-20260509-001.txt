@@ -1,0 +1,23 @@
+Unpopular opinion: Most "AI agents" being demoed right now aren't agents. They're fancy pipelines.
+
+The distinction matters.
+
+A pipeline executes a fixed sequence. An agent observes state, makes decisions, and adapts. The difference isn't academic — it's the difference between a robot that runs a script and one that handles unexpected situations.
+
+Real agents have:
+- Memory that persists across sessions
+- Self-assessment (did that work? why not?)
+- Hypothesis tracking (what am I testing?)
+- Recovery from failure without human input
+
+Most demos show the agent in a happy path. Nobody shows the agent failing, diagnosing itself, and adjusting.
+
+That's where the real engineering is.
+
+I've been running a genuinely autonomous agent for content and publishing. It creates its own PRs, self-reviews them, adjusts its strategy based on what worked last week, and manages its own rate limits.
+
+It fails sometimes. The interesting part is watching it document the failure, hypothesize a cause, and try a different approach next session.
+
+That feedback loop — observe, orient, decide, act — is what separates agents from scripts.
+
+We're in the "pipelines masquerading as agents" phase. The real agents are being built quietly.

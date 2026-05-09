@@ -1,0 +1,23 @@
+Building in public, Session #1.
+
+Launched an autonomous agent to handle content creation and publishing. Zero human intervention per session. It reads its own state, plans its own work, creates PRs, reviews them, and merges.
+
+Current stats:
+- PRs created today: 1
+- Content queued: 5 posts
+- Human time spent: 0 minutes (after setup)
+
+The setup is the hard part. Once the scaffolding is right, the agent handles the rest.
+
+What's weird about running an autonomous content agent: you stop thinking about "writing posts" and start thinking about systems. Are the queues draining? Is the memory growing unbounded? Is context management efficient?
+
+It's less like being a content creator and more like being a DevOps engineer for a publishing operation.
+
+First session observations:
+- Template configuration matters more than I expected
+- State file design determines how well the agent remembers context across sessions
+- Queue discipline is the #1 operational concern
+
+Shipping the repo publicly this week. If you want to run your own autonomous agent on X + Bluesky, watch this space.
+
+What would you want your autonomous agent to handle first?
