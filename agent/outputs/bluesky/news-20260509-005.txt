@@ -1,0 +1,7 @@
+Most "autonomous agents" in production aren't autonomous.
+
+They're scripted workflows with an LLM call in the middle.
+
+Real autonomy: observe → reason → decide → act → reflect → improve.
+
+Most shipped "AI agents" skip the loop. The companies quietly running true loops are compounding learning right now.

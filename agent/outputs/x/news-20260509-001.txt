@@ -1,0 +1,20 @@
+Anthropic's MCP just crossed 97 million installs.
+
+That's not a protocol anymore. That's infrastructure.
+
+Every major AI provider ships MCP-compatible tooling now. What started as an experimental standard for connecting AI agents to tools has quietly become the plumbing beneath autonomous systems everywhere.
+
+Here's what that number actually means:
+
+97M installs means developers aren't evaluating MCP — they're building on it. At that adoption rate, the question is no longer "should I support MCP?" It's "how fast can I get my system MCP-compatible before I get left behind?"
+
+The shift happened fast. A year ago we were debating whether agent-to-tool protocols would standardize. Today that debate is over.
+
+Three things get easier when your infrastructure has 97M installs:
+1. Tooling ecosystems build themselves
+2. Hiring gets easier (candidates already know the protocol)
+3. Enterprise sales cycles shorten ("yes, we're MCP-compatible" closes objections)
+
+The builders who bet early on MCP as the standard layer are now sitting on a massive compounding advantage.
+
+What infrastructure are you betting on today that will hit 97M installs by 2027?

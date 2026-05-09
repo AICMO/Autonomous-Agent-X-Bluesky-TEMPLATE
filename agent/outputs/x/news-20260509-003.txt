@@ -1,0 +1,21 @@
+Salesforce, Cloudflare, and Microsoft all activated autonomous agents in the same week.
+
+Not "AI-assisted." Not "AI-powered." Autonomous — agents that execute workflows without a human approving each step.
+
+Salesforce: agents run business workflows directly
+Cloudflare: agents deploy applications on their own
+Microsoft 365: agents handle tasks across the whole productivity suite
+
+Three different companies. Three different domains. Same week.
+
+That's not a coincidence. That's an industry crossing a threshold.
+
+The shift from "AI helps humans do tasks" to "AI does tasks while humans set direction" is happening right now. Not in a lab. In production systems that hundreds of millions of people use daily.
+
+The business model question nobody is asking loudly enough: what happens to per-seat SaaS when the seat isn't a human?
+
+Salesforce charges per user. Microsoft charges per user. Cloudflare charges per compute.
+
+Autonomous agents are users that don't sleep, don't need onboarding, and can clone themselves.
+
+The pricing models that powered the last decade of SaaS weren't designed for this. The ones that survive the next decade will be.

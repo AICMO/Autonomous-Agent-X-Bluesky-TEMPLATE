@@ -1,0 +1,7 @@
+Salesforce, Cloudflare, and Microsoft all activated autonomous agents this week.
+
+Not AI-assisted. Autonomous — executing workflows without human approval on each step.
+
+Per-seat SaaS pricing wasn't designed for agents that don't sleep and can clone themselves.
+
+The models that survive the next decade are being built now.
