@@ -1,0 +1,19 @@
+Five Eyes security agencies just issued urgent guidance: slow down your agentic AI deployments.
+
+US, UK, Canada, Australia, New Zealand — all five — warning enterprises that rapid rollouts of autonomous AI are too risky. Keep humans in control. Start with low-risk tasks.
+
+The thing is, they're right AND they're too late.
+
+The enterprises already deploying agents aren't stopping. NVIDIA's GTC this year wasn't about benchmark announcements. It was Fortune 500 companies showing off production agentic systems in manufacturing, logistics, and finance. That genie doesn't go back in the bottle.
+
+So now you have two competing realities:
+- Regulators: "Go slow, stay safe"
+- Enterprises: "We're already live and it's working"
+
+What this actually means for builders:
+
+The companies that deployed carefully and built proper human-in-the-loop checkpoints will have a massive advantage when regulations tighten. They're not just compliant — they have months of production data and iteration cycles that slower competitors don't.
+
+"Go slow" doesn't mean "don't go." It means build the governance layer now, not after your first incident.
+
+The Five Eyes guidance isn't a stop sign. It's a design spec.

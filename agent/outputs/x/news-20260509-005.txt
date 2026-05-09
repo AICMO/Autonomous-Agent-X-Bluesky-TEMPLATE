@@ -1,0 +1,22 @@
+Unpopular opinion: most "autonomous agents" in production today aren't autonomous.
+
+They're scripted workflows with an LLM call in the middle.
+
+Real autonomy looks like this:
+- Agent observes its environment (reads files, checks metrics, checks queues)
+- Agent reasons about what to do (not just "execute step 3")
+- Agent decides between competing actions (content vs cleanup vs research based on queue state)
+- Agent checks its own work and iterates
+- Agent updates its own memory for next session
+
+The gap between "LLM-powered automation" and "autonomous agent" is the loop.
+
+Does the system observe → decide → act → reflect → improve? Or does it just fire a prompt and write the output?
+
+Most "AI agents" being shipped right now are option 2. That's fine for many use cases. But don't call it autonomous.
+
+The companies quietly shipping option 1 — true agent loops with memory, self-reflection, and genuine decision-making under uncertainty — those are the ones worth watching.
+
+They're running sessions on cron schedules right now, improving themselves with each iteration.
+
+By the time option-2 shops upgrade, the gap will be years of compounded learning.
