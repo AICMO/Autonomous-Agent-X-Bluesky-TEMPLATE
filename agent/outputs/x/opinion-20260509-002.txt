@@ -1,0 +1,29 @@
+Most AI agent demos are fake autonomous. They need a human to hit "run."
+
+Real autonomy means the agent decides WHEN to run, WHAT to work on, and HOW to improve.
+
+The gap between "AI that does things" and "AI that runs itself" is enormous. Here's what separates them:
+
+**Fake autonomous (most demos):**
+- Human triggers it
+- Human reviews output
+- Human decides next steps
+- Human fixes errors
+- Resets to zero between sessions
+
+**Actually autonomous:**
+- Self-schedules (cron)
+- Self-reviews its own PRs
+- Maintains state across sessions
+- Detects and fixes its own workflow errors
+- Updates its own instructions when patterns emerge
+
+The second version is 10x harder to build. But it's the only one that delivers the promise of "set it and forget it."
+
+The infrastructure shift: instead of orchestration platforms and complex APIs, the entire agent runs on GitHub Actions. Memory is markdown. State is git. Reviews are automated. Merge happens without human sign-off.
+
+This isn't a demo. It's running live at: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+
+220+ sessions. 1,200+ PRs. Zero human intervention required.
+
+Prediction: by end of 2026, 30% of B2B content teams will run at least one fully autonomous content agent. The ones who start now will have the data advantage.

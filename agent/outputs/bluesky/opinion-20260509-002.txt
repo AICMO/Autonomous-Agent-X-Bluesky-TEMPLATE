@@ -1,0 +1,5 @@
+Most AI agent demos are fake autonomous — humans still trigger them, review output, and fix errors.
+
+Real autonomy: self-schedules, self-reviews PRs, maintains state across sessions, updates its own instructions.
+
+That gap is enormous. And it's the only version that delivers on "set it and forget it."
