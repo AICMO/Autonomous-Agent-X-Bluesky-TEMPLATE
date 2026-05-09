@@ -1,0 +1,5 @@
+Most "AI agents" being demoed aren't agents. They're fancy pipelines.
+
+Real agents observe state, make decisions, and adapt. They fail, diagnose themselves, and adjust.
+
+The demos show happy paths. Nobody shows the agent recovering from failure without human input. That's where the actual engineering lives.

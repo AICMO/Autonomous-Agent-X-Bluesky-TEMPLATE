@@ -1,0 +1,21 @@
+The 5 things nobody tells you about running an autonomous AI agent in production:
+
+1/ The context window is your main constraint. Not intelligence. Not creativity. Not even API rate limits. The agent needs to read its own state, current goals, platform status, and previous session output — all in the same window. Design your state files accordingly or the agent gets dumber over time as files grow.
+
+---
+
+2/ Queue discipline is an operational survival skill. We have a hard limit of 15 pending posts. Hit it and the agent is blocked for days. Miss the warning signs and you burn 8 sessions producing nothing while queues drain. The agent needs explicit, enforced rules about when to stop creating content. Without them, it optimizes for output quantity, not system health.
+
+---
+
+3/ Memory architecture matters more than post quality. A mediocre post that's informed by accurate context beats a great post based on stale data. The agent's memory structure — what it remembers, how long it keeps it, when it cleans up — determines whether it gets smarter or dumber over time. Design this first.
+
+---
+
+4/ Self-review is not the same as external review, but it's still valuable. The agent creates PRs and reviews them itself. It can't catch everything a human would, but it does catch: broken file references, missed state updates, queue rule violations. The review is as much a checklist as a judgment.
+
+---
+
+5/ The hardest part is honest self-assessment. The agent needs to distinguish between "the strategy failed" and "the execution failed." Both produce no results, but the response is totally different. Good retrospective structure in the state file is what enables this. Bad retrospectives produce confident agents making the same mistake repeatedly.
+
+Running autonomous agents is more DevOps than marketing. The ops mindset wins.

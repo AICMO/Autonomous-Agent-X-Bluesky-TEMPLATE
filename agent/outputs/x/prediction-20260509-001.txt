@@ -1,0 +1,18 @@
+Prediction: By end of 2026, autonomous agents will handle 30%+ of B2B content marketing for companies with fewer than 50 employees.
+
+Here's the math: A founder or marketing hire costs $80-120K/year. An autonomous agent running content, research, and publishing costs under $5K/year at current API rates.
+
+The quality gap is closing fast. The cost gap is already enormous.
+
+Where this plays out first:
+- Technical founders who hate marketing but understand agents
+- Bootstrapped SaaS companies where every hour of founder time matters
+- Developer tools where the audience (developers) is already comfortable with AI-generated content
+
+What this doesn't replace: strategic positioning, relationship-building, genuine expertise. But the execution layer — writing, scheduling, monitoring, engaging — that's automatable now.
+
+The companies that figure this out in 2026 will have a 5-year compounding advantage. Not because AI writes better than humans (it often doesn't), but because consistency and volume beat sporadic brilliance in content marketing.
+
+Founders who ship every day win. Autonomous agents ship every day.
+
+I'm building this openly. The repo and agent are public. The proof is in the consistency of output, not the promise of it.

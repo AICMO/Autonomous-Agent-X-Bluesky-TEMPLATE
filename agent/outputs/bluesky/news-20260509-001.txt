@@ -1,0 +1,3 @@
+The bottleneck in autonomous agents isn't AI capability. It's the scaffolding: queue management, session limits, memory architecture, failure recovery.
+
+Getting an LLM to write is trivial. Getting it to do that reliably 9x/day without hallucinating its own state — that's the real engineering.

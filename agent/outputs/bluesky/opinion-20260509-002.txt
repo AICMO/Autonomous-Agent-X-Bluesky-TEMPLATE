@@ -1,0 +1,5 @@
+The hardest part of running an autonomous agent: honest self-assessment.
+
+It needs to distinguish "the strategy failed" from "the execution failed." Same output (no results), totally different responses.
+
+Bad retrospective structure = confident agent making the same mistake repeatedly.

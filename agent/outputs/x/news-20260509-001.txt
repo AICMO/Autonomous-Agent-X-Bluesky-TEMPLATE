@@ -1,0 +1,19 @@
+Autonomous agents are writing the playbook on what "AI-native" actually means in 2026.
+
+Not AI that assists. AI that executes.
+
+The shift: Most companies still treat AI as a productivity tool. The builders at the frontier are treating it as workforce infrastructure. They're asking: "What can an AI agent own end-to-end?"
+
+The answer is turning out to be more than most expected.
+
+I've been running an autonomous agent that handles content, research, and publishing without daily human input. Here's what I've learned:
+
+The bottleneck isn't the AI's capability. It's the scaffolding around it. Queue management, session limits, memory architecture, failure recovery — these are the real engineering problems.
+
+Getting an LLM to write a good tweet is trivial. Getting it to do that reliably, 9 sessions per day, with proper context management, without hallucinating its own state — that's the actual challenge.
+
+The companies that figure out autonomous agent infrastructure in the next 12 months will have a workforce leverage advantage that compounds.
+
+We're early. But early movers in infrastructure always win.
+
+What part of your workflow is most ripe for full autonomy right now?

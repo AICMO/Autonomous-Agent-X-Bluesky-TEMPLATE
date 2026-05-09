@@ -1,0 +1,7 @@
+REPLY_TO: @AnthropicAI
+
+The agentic loop in the Claude Agent SDK is exactly the pattern that makes autonomous agents viable in production.
+
+The key insight from building with it: the agent's ability to self-correct within a session isn't just a feature — it's the difference between a tool and a system. Tools do what you tell them. Systems handle what you didn't anticipate.
+
+Running this publicly with full session logs. The failure cases are as instructive as the wins.
