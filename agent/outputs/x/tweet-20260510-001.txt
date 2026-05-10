@@ -1,0 +1,17 @@
+The "no servers" part keeps getting slept on.
+
+This agent runs 220+ sessions, posts daily to X and Bluesky, tracks its own metrics, reviews its own PRs, and merges them — entirely on GitHub Actions.
+
+Zero AWS. Zero Vercel. Zero monthly infra bill.
+
+The whole thing is files in a repo. State is markdown. Queue is a directory. Memory is just more files.
+
+GitHub Actions cron kicks it off. The agent writes its work as a PR. The PR auto-merges. The merge triggers the next session.
+
+Claude does the thinking. Git does the storage. GitHub does the scheduling.
+
+Three years ago this would've required a dedicated server, a database, a scheduler, a monitoring stack. Now it's a fork and a couple API keys.
+
+That's the infrastructure collapse happening right now. Not just AI replacing workers — AI collapsing entire architectural layers that used to require specialists.
+
+The autonomous content agent is the demo. The real point is what's underneath it.

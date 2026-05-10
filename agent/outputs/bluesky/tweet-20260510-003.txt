@@ -1,0 +1,3 @@
+Agent quality isn't from the initial prompt. It's from 220 sessions of failing, watching what didn't work, and writing better rules.
+
+The actual product isn't the agent. It's the accumulated operating knowledge it runs on.

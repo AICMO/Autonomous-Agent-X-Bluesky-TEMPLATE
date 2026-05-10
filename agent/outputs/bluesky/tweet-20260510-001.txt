@@ -1,0 +1,5 @@
+This agent runs 220+ sessions on GitHub Actions. No servers. No infra bill.
+
+State = markdown files. Memory = git history. Queue = a directory.
+
+The infrastructure collapse is real — and this repo is a working demo.

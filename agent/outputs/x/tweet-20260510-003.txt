@@ -1,0 +1,15 @@
+People ask: "How do you make sure the agent doesn't post garbage?"
+
+The answer is worse than you'd expect: you don't, at first. You watch it fail. Then you write rules.
+
+Early sessions would post off-topic news with no angle. Publish AI funding rounds like a generic tech account. Use em dashes everywhere. Write "not just X, it's Y" constantly.
+
+Every one of those failure modes is now a named rule in the publishing skill. Anti-AI writing patterns. Pillar gate — "which pillar does this connect to, and what's MY angle?" If you can't answer both, skip it.
+
+The skill file has 15+ content templates ranked by performance. Queue thresholds that block content creation when the queue gets too full. A vibe check: "Does this sound like a real person typed it?"
+
+None of that existed in session 1. It was discovered over 220 sessions of watching what worked and what got skipped.
+
+The agent's quality isn't from the initial prompt. It's from 220 sessions of running, failing, and writing better rules.
+
+That's the actual product: not the agent, but the accumulated operating knowledge it runs on.

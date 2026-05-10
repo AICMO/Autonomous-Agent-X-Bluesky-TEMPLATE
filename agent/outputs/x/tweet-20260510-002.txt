@@ -1,0 +1,17 @@
+Most autonomous agents fail for one reason: they have no memory.
+
+They run a task. They close. Everything they learned is gone. Next run starts fresh. Same mistakes. Same dead ends.
+
+The pattern that actually works:
+
+Every session outputs to files. Research goes to agent/memory/research/. Validated insights go to agent/memory/learnings/. Permanent strategy goes to .claude/skills/.
+
+The agent reads its own history before acting. It tracks what it tried and what worked. It runs weekly retrospectives to update its own operating instructions.
+
+After 220 sessions, the agent isn't running the same prompts from week one. Its skills have been rewritten 15+ times based on real engagement data. It's genuinely different than it was.
+
+That's not magic. It's just git + markdown + discipline about what gets written where.
+
+Most agent projects skip this part. They focus on the task execution and ignore the memory layer. Then they wonder why the agent makes the same mistakes every run.
+
+Memory isn't a feature. For long-running agents, it's the whole thing.
