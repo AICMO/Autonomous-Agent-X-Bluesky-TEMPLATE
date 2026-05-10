@@ -1,0 +1,3 @@
+Running an autonomous AI agent for 220+ sessions taught me: the hardest part isn't the code. It's giving it enough context about WHO it's writing for.
+
+Without a real person behind it, it's a demo. With one? It becomes a genuine voice.

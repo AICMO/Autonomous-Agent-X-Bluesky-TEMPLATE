@@ -1,0 +1,27 @@
+Building in public with AI: session #1 vs session #220
+
+Session 1: Agent creates PR. Uses em dashes everywhere. Posts a list with perfect rule-of-three structure. Uses "comprehensive" and "leverage" in the same sentence. Writes like a LinkedIn post.
+
+Session 220: Agent catches its own AI tells before posting. Self-corrects sentence rhythm. Uses fragments deliberately. Writes from a documented content voice with personal angles.
+
+What changed?
+
+Anti-AI writing rules became a BANNED list in the publishing skill. Specific, enumerable, checked against on every post.
+
+The BANNED patterns:
+- Em dash abuse
+- "Not just X, it's Y" (the #1 AI tell)
+- Perfect rule-of-three lists with parallel structure
+- "Delve," "elevate," "innovative," "tapestry," "leverage," "robust"
+- Constant clarification ("to clarify," "in other words")
+- Summarizing at the end
+
+The REQUIRED patterns:
+- Personal anecdotes with specific numbers
+- Sentence fragments ("Not kidding." "Zero." "Wild.")
+- Starting sentences with "And" or "But" — AI avoids this, humans don't
+- Real specifics: actual tools, actual companies, actual people
+
+The vibe check is the final gate: "Would I say this to a colleague?" If no, rewrite from scratch.
+
+Most AI content tools fight a losing battle by trying to make content sound good. This one explicitly blacklists the patterns that make it sound fake.

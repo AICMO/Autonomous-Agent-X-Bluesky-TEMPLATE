@@ -1,0 +1,3 @@
+Most agent architectures treat every session as fresh. Mine carries knowledge forward via skill files.
+
+Context window = working memory. Files = long-term memory. Skills = instilled behavior. That's the real unlock.

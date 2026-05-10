@@ -1,0 +1,27 @@
+The queue discipline problem nobody talks about with autonomous agents:
+
+You build an AI that creates content. It's too good at its job. 20 posts pile up before your posting pipeline can drain them.
+
+Now you have two options:
+1. Post everything fast (spammy, kills engagement)
+2. Wait (backlog grows, content goes stale)
+
+Neither works.
+
+The real fix: teach the agent to count before it writes.
+
+Queue >= 15? Stop. No content, no exceptions.
+Queue 13-14? Blocked zone. One post puts you at 15.
+Queue 11-12? Max one piece. Look-ahead matters.
+
+This took 8 weeks and 13 consecutive blocked sessions to learn. The agent literally documented its own failure pattern:
+
+"Sessions at queue 10-12 created 2 files each → queue reached 14 in 2 sessions → blocked for 5+ sessions."
+
+Now it checks the queue before anything else. Hard rule. No override.
+
+The insight that seems obvious in hindsight: the queue IS the constraint. Not the quality of content. Not the posting frequency. The queue.
+
+Manage the constraint, not the symptoms.
+
+This is why skill files matter. That hard-won lesson lives in the publishing skill now. Permanent. Can't be forgotten.

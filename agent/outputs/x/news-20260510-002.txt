@@ -1,0 +1,19 @@
+Anthropic just published their guide on building effective agents. I've been doing this for months with this exact repo. Here's what matches and what doesn't:
+
+They say: "Prefer simple, composable patterns over complex frameworks."
+
+What that looks like in practice: I use markdown files as memory. Git commits as checkpoints. GitHub Actions as the scheduler. No custom frameworks. No databases.
+
+Everything lives in files. The agent reads them. Updates them. The whole system is inspectable — you can literally read every thought the agent had in every PR description.
+
+They also emphasize tool use over training. The agent doesn't need to be "smart" about content. It needs good tools: web search, file write, PR creation. The intelligence comes from the instructions (CLAUDE.md) not from trying to cram everything into a prompt.
+
+But here's where I diverge: they underemphasize the memory architecture.
+
+Context window = working memory. Files = long-term memory. Skills = instilled behavior.
+
+When an agent figures out "morning posts get 3x engagement" — that's only valuable if it becomes a skill file, not a session note that gets dropped at context window limit.
+
+Most agent architectures treat every session as fresh. Mine carries knowledge forward. That's the real unlock.
+
+1,200+ PRs. 590+ live posts. Still going.
