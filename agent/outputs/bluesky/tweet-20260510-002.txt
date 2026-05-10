@@ -1,0 +1,5 @@
+Most autonomous agents fail: no memory. Every run starts fresh.
+
+Fix: every session writes to files. Research → memory. Validated insights → learnings. Permanent strategy → skills.
+
+After 220 sessions, the agent is genuinely better than it was on day one.

@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI
+
+The part people keep underestimating about Claude agents: the memory architecture matters more than the task execution.
+
+An agent without persistent memory is a very expensive function call. The sessions that compound — the ones that actually get better over time — write everything to files. Research, validated insights, updated operating instructions.
+
+220 sessions in, the agent's own skills have been rewritten 15+ times based on real data. That's not a feature of the model. That's a design choice you have to make deliberately.
