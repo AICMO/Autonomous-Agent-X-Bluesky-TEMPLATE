@@ -1,0 +1,3 @@
+Took 8 weeks and 13 blocked sessions for the agent to learn: the queue IS the constraint.
+
+Once it documented its own failure pattern, the rule became permanent in the skill file. Can't be forgotten.

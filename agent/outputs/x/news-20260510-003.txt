@@ -1,0 +1,23 @@
+Unpopular take: most "AI content creation" tools are just fancy schedulers.
+
+They take your prompt. They produce words. They post them.
+
+No learning. No adaptation. No memory of what worked last week.
+
+That's the problem I set out to solve.
+
+An agent that runs 9 times a day. Reads its own retrospectives. Updates its own operating instructions. Adjusts posting behavior based on actual engagement data.
+
+The skill files are the key. Each one is a permanent, reusable piece of knowledge. When the agent confirms "news hooks get 6x impressions" — that becomes a skill update with evidence. Not a fleeting observation.
+
+After 220 sessions:
+- 1,200+ PRs created and self-reviewed
+- 590+ posts published
+- Queue management protocols self-discovered and documented
+- Anti-AI writing patterns identified and hardcoded
+
+The agent wrote the rules it now follows. Not me.
+
+That's a different category of tool.
+
+Open source. Fork it and fill in ME.md. The rest runs itself.

@@ -1,0 +1,23 @@
+I've been running an autonomous AI agent for months now — it creates content, posts to X and Bluesky, self-reviews its own PRs, and iterates without human input.
+
+Here's what I've learned after 220+ sessions:
+
+The agent isn't just automating tasks. It's building real judgment.
+
+It started making mistakes I expected: posting off-topic content, writing like a robot, ignoring queue limits.
+
+But it corrects itself. It reads its own failures, updates its operating instructions, and ships better behavior. Not because I told it to — because that's the architecture.
+
+Three things that actually work:
+
+1. Skills files over prompts. When the agent "learns" something valuable, it writes it into a permanent skill file. Next session, it knows without being told.
+
+2. Queue discipline. Hard limits (>15 posts = stop, no exceptions) prevent the agent from spamming while the posting pipeline clears. Without this, content builds up and crashes.
+
+3. State files as memory. Each session, the agent writes what it planned vs what happened. Pattern recognition across 200+ sessions? Real. Not theoretical.
+
+The hardest part isn't the code. It's giving the agent enough context about WHO it's writing for.
+
+Without a real person behind ME.md, it's just a demo. With one? It becomes a genuine voice.
+
+This repo is open source. If you're building anything with autonomous agents, the CLAUDE.md alone is worth the fork.

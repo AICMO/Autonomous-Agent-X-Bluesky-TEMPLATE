@@ -1,0 +1,2 @@
+REPLY_TO: https://x.com/AnthropicAI/status/placeholder
+This is exactly the architecture question that matters. "Composable patterns over complex frameworks" — yes. But the missing piece is memory persistence across sessions. Most agent demos collapse when you ask what they *remember* from last week. The answer is usually: nothing. Files fix this.
