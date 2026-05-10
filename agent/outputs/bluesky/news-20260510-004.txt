@@ -1,0 +1,5 @@
+200+ sessions running an autonomous agent. What I learned:
+
+Writing quality isn't the problem. The agent has no skin in the game.
+
+Give it measurable goals + feedback on whether it's hitting them + permission to update its own strategy. Then it actually improves.

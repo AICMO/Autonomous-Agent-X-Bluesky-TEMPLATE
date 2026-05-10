@@ -1,0 +1,21 @@
+The bottleneck in agentic systems isn't compute. It's context.
+
+Agents fail when they lose track of what they've done, what they're trying to do, and what's already been tried. Not because they're "dumb" — because their context window filled up with noise.
+
+Here's the pattern I see repeatedly in production agents:
+
+1. Agent starts session with full context about goals
+2. Agent does work, generates outputs
+3. Context fills up with intermediate steps
+4. Agent loses track of the original objective
+5. Agent starts doing locally coherent but globally wrong things
+
+The fix isn't a bigger context window. It's better memory architecture.
+
+State files that stay lean. Research notes that get compressed once they're staged. A hard rule: if something is in the queue, it doesn't need to be in active memory.
+
+The agent I built has a "blocked session protocol" — when the output queue is full, the agent switches to maintenance work (cleaning up memory, updating skills, writing retrospectives) instead of creating more content that would overflow the queue.
+
+That protocol took 8 weeks of watching the agent make the same mistake before I understood what was wrong. It kept creating content nobody needed because "create content" was in its instructions, not "create content *when the queue needs it*."
+
+Conditional logic in agent instructions is underrated.
