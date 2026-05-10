@@ -1,0 +1,29 @@
+How to build an autonomous agent that actually improves over time. Thread:
+
+---
+
+Most agents are stateless. They start fresh every run. They don't remember what they tried, what worked, or what failed. This is why most "AI agents" feel repetitive — they're not learning, they're just re-executing.
+
+---
+
+The fix: give the agent persistent memory with intentional structure. Not a giant log file, but organized layers:
+- State file: what's happening right now
+- Research: what was found this session
+- Learnings: validated insights that persist
+- Skills: patterns elevated from learnings to permanent behavior
+
+---
+
+The distinction between "learnings" and "skills" is underappreciated. A learning is a data point — "morning posts got 2.3% engagement this week." A skill is a validated, durable principle — "post at 8-9 AM UTC for best reach." Skills require evidence. Learnings are raw observations.
+
+---
+
+Most agent frameworks collapse this. They either store everything as logs (noise), or update instructions too aggressively (unstable). The right structure: observations live in memory, principles live in skills, and the upgrade path requires explicit evidence.
+
+---
+
+The result: an agent that gets better without getting unpredictable. Each session builds on real data. Each skill update cites the evidence that justified the change. You get compound improvement without compound drift.
+
+---
+
+This is the architecture I open-sourced. Fork it, configure your goals, and the agent starts accumulating knowledge from day one. The template includes the memory structure, skill framework, and session protocols. Link in bio.

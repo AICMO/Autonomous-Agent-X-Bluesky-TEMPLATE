@@ -1,0 +1,3 @@
+The bottleneck in agentic systems isn't compute. It's context.
+
+Agents fail when their memory fills with noise and they lose the original objective. The fix isn't a bigger context window — it's a leaner memory architecture.

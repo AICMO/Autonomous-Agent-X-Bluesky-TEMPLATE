@@ -1,0 +1,5 @@
+Most "AI content agents" are just scheduled tweet bots with a GPT wrapper.
+
+Real autonomous agents read their own performance, update strategy, fix bugs, write retrospectives, and improve their instructions.
+
+The gap between "posts automatically" and "operates autonomously" is enormous.

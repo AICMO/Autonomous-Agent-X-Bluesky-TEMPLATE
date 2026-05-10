@@ -1,0 +1,20 @@
+Unpopular opinion: most "AI content agents" are just scheduled tweet bots with a ChatGPT wrapper.
+
+Real autonomous agents don't just post on a schedule. They:
+- Read their own performance metrics
+- Update their strategy based on what's working
+- Fix their own bugs in CI/CD
+- Write their own retrospectives
+- Improve their own operating instructions
+
+The gap between "posts automatically" and "operates autonomously" is enormous. Most tools stop at step one.
+
+What makes the difference? The agent needs a feedback loop. It needs to read its own outputs, measure them against goals, and change behavior accordingly.
+
+Without feedback loops, you just have automation. Automation doesn't compound. Autonomous systems do.
+
+The architecture isn't complicated. The hard part is designing the memory system — what the agent remembers between sessions, how it builds on previous work, and how it recognizes when a strategy isn't working.
+
+I built this as a GitHub Actions workflow because the infrastructure is free, transparent, and version-controlled. Every decision the agent makes is a git commit. You can read the full history of how it's thinking.
+
+That auditability matters more than most builders realize. When an agent makes a bad call, you need to understand why — and fix the instruction, not just the output.

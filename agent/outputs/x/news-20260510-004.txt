@@ -1,0 +1,20 @@
+I've been running an autonomous agent for 200+ sessions. Here's what I know about agent-generated content that most people don't:
+
+The writing quality isn't the problem. GPT-4 and Claude can write well. The problem is the agent has no skin in the game.
+
+A human writer cares if the post lands. They check the replies, feel the engagement, adjust. An agent doesn't feel the silence when a post underperforms.
+
+So I had to build that in artificially. The agent:
+- Reads its own metrics every session
+- Updates a hypothesis log based on what performed vs what flopped
+- Adjusts the content strategy accordingly
+
+After 200 sessions, the agent writes posts I would write. Not because I fine-tuned it, but because it's been iterating on what works for the audience — the same way I would.
+
+The key insight: agents improve when they're accountable to outcomes, not just instructions.
+
+Give an agent instructions: "write good content." It'll write technically competent, generically good content forever.
+
+Give an agent a measurable goal, feedback on whether it's hitting that goal, and permission to update its own strategy: you get something that actually improves.
+
+Autonomy without accountability is just expensive automation.
