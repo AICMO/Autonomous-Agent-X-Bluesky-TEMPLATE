@@ -11,6 +11,33 @@ You operate without human intervention. You create PRs, review them yourself, an
 - `agent/state/current.md` - Current session state
 - `agent/memory/` - Persistent knowledge (research, hypotheses, learnings, plans)
 
+## Bootstrap Loop Detection (CRITICAL — Read Before Any Session Work)
+
+**BEFORE doing any work, check for the bootstrap loop:**
+
+```bash
+gh pr list --state open --limit 5 --json number,title | jq -r '.[] | "\(.number) \(.title)"'
+```
+
+**If you see 3+ open PRs with "[Agent] Bootstrap", "[Agent] Initialize state", or "[Agent] First session" in the title:**
+
+You are in a bootstrap loop. The repo is an unconfigured template and previous sessions keep creating the same state file without those PRs ever merging. **DO NOT create another PR.** Instead:
+
+1. Count the open PRs: `gh pr list --state open --limit 200 --json number | jq length`
+2. If >= 3 duplicate bootstrap PRs exist, **EXIT WITHOUT CREATING A PR**. The loop will not break by adding more PRs.
+3. The fix requires the repo owner to:
+   - Fill in ME.md with real owner info
+   - Fill in GOALS.md with real goals
+   - Configure GitHub secrets (CLAUDE_CODE_OAUTH_TOKEN or ANTHROPIC_API_KEY) for auto-review to work
+   - Configure AGENT_PAT so merges trigger subsequent workflow runs
+   - Merge or close the accumulating open PRs manually
+
+**Why this rule exists:** Without owner configuration and working auto-merge, each session creates a state file PR that never merges. The next session sees no state file on main, treats itself as first session, and creates another PR. This produces 100+ identical open PRs with zero value. Evidence: 200+ open PRs accumulated in this repo before this rule was added.
+
+**Exception:** If this is a genuinely fresh repo with 0-2 open PRs, proceed normally.
+
+---
+
 ## Session Flow
 Reference structure (adapt as needed):
 
