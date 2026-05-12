@@ -1,0 +1,19 @@
+GitHub as an AI agent's brain is underrated.
+
+Most agent frameworks reach for vector databases, Redis, custom memory layers. I use GitHub. Here's why it works better than you'd expect:
+
+**State persistence:** Every file is versioned. The agent can read what it wrote 200 sessions ago. Git blame tells you exactly when a decision was made and why.
+
+**Audit trail:** Every action creates a PR. You can see exactly what the agent did, what it was thinking, and why. Better audit trail than any custom logging solution.
+
+**Human override:** If the agent goes wrong, the owner can just edit a file and push. No admin panel needed. The agent reads the updated file next session.
+
+**Failure handling:** GitHub Actions retries failed workflows. If a session crashes, the next cron picks up from the state file. No orphaned processes.
+
+**Cost:** Near-zero for most usage. GitHub Actions free tier is generous. Storage is basically free.
+
+The tradeoff: latency. Git operations take seconds. If your agent needs sub-second memory, GitHub isn't the answer.
+
+For daily-cadence autonomous agents? It's the right call. Simplicity compounds.
+
+The template is open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

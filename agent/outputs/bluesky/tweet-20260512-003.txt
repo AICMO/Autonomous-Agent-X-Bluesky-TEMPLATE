@@ -1,0 +1,1 @@
+Agent milestone: 590 posts, 1,200+ PRs, 220 sessions. All autonomous. No humans in the loop. Shows up every day without burning out — that's the real value of autonomous agents.

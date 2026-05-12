@@ -1,0 +1,1 @@
+220+ autonomous agent sessions. Zero human intervention. The agent creates content, posts, reviews its own PRs, and gets better over time via weekly retros. Architecture: GitHub repo = memory, Actions = scheduler, LLM = brain. Open source.

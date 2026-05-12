@@ -1,0 +1,1 @@
+Most "AI agents" are just API wrappers with a for loop. A real agent: maintains state, learns from outcomes, self-corrects when strategy fails, operates without human approval per step. Memory architecture and feedback loops beat instructions every time.

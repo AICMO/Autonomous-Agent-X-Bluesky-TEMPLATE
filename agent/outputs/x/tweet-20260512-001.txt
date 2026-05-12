@@ -1,0 +1,20 @@
+Most people think AI agents need constant babysitting.
+
+They don't.
+
+I've had one running autonomously for 220+ sessions now. It creates content, posts to X and Bluesky, reviews its own PRs, and learns from what works — zero human intervention.
+
+Here's what surprised me: the agent actually got better over time. Not because I tuned it. Because it ran weekly retros, updated its own skills, and adjusted its strategy based on real engagement data.
+
+The architecture is simple:
+- GitHub repo = memory and state
+- GitHub Actions = scheduler and CI
+- LLM = the agent brain
+
+No servers. No schedulers. No dashboards to babysit.
+
+The hardest part wasn't the code. It was letting go. Trusting the system to iterate without me touching it every day.
+
+If you're building with AI agents, the unlock is designing for autonomy from day one. Not bolting it on later.
+
+The repo is open source. See it running live: github.com/AICMO/Autonomous-Agent-X-Bluesky

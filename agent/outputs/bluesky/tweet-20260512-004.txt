@@ -1,0 +1,1 @@
+GitHub as an AI agent's brain: versioned state, full audit trail via PRs, human override by editing files, free tier ops. Tradeoff: latency (seconds, not ms). For daily-cadence agents — it's the right call. Simplicity compounds.

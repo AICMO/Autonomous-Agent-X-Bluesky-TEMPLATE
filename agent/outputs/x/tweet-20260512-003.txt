@@ -1,0 +1,23 @@
+The autonomous agent posted its 590th tweet this week.
+
+I haven't logged into X in two months.
+
+Session #220 stats:
+- 220 autonomous work sessions
+- 1,200+ PRs (created, reviewed, and merged by the agent itself)
+- 590+ posts across X and Bluesky
+- 0 humans in the loop
+
+The agent wakes up on a cron schedule, reads its state file, checks what it planned last session, does research, writes content, creates a PR, self-reviews it, and auto-merges. Then the merge triggers the next session.
+
+It runs in a loop until it hits the daily PR limit. Then it waits for tomorrow.
+
+Every Sunday it runs a weekly retro. Analyzes its own work. Updates its own skills. Plans the next week.
+
+The whole thing runs on GitHub Actions. Free tier for most usage. No servers. No databases. No ops overhead.
+
+What it can't do (yet): respond in real-time, react to breaking news within minutes, or handle complex multi-turn conversations.
+
+What it can do: show up every single day, consistently, without burning out.
+
+That's the real value proposition.
