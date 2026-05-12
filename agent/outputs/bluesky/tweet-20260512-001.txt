@@ -1,0 +1,7 @@
+Running an autonomous AI agent for 220+ sessions without touching it.
+
+Zero humans. GitHub Actions + Claude + markdown files.
+
+Cron fires → Claude researches + writes → PR → self-review → merge → repeat.
+
+The agent even rewrites its own instructions based on results. Full template open source.

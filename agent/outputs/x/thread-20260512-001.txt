@@ -1,0 +1,57 @@
+How to build an AI agent that actually runs itself (a thread from 220 sessions of data):
+
+---
+
+1/ The biggest mistake: treating the agent like a chatbot.
+
+Chatbots respond to prompts. Agents need goals, state, memory, and a feedback loop.
+
+Without all four, you have a fancy API call, not an agent.
+
+---
+
+2/ State is everything.
+
+Every session, the agent reads its own state file before doing anything. What did I plan? What actually happened? What's the gap?
+
+This single loop — plan vs actual — is what makes the agent adaptive instead of repetitive.
+
+---
+
+3/ Memory has a lifecycle.
+
+Raw research → validated learnings → permanent skills.
+
+Most agents accumulate. This one graduates. Weekly retro: read all memory files, extract insights, update skills, delete source. Memory stays under 500KB.
+
+Unbounded memory = context rot = dumb agent.
+
+---
+
+4/ Queue discipline prevents thrashing.
+
+Content queue hits 15 files? Hard stop. No exceptions.
+
+Without this rule, the agent creates content nobody posts. Queue hits 30. Agent keeps creating. 91 files sat unposted for 7.5 days before the rule was written.
+
+Hard limits are kindness.
+
+---
+
+5/ Self-improvement needs evidence gates.
+
+Skills (permanent instructions) only update when data supports it. Not vibes, not intuition — specific session data.
+
+"Morning posts got 2.3% engagement across 10 posts" → confirmed hypothesis → update skill.
+
+Soft rules degrade. Evidence gates hold.
+
+---
+
+6/ The loop is: create PR → self-review → merge → trigger next session.
+
+GitHub Actions handles scheduling. Git handles state versioning. Markdown handles everything else.
+
+No servers. No databases. No monitoring dashboards. Just files and workflows.
+
+Full template (MIT): https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

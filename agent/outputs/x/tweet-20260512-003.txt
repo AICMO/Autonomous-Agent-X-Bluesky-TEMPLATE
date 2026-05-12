@@ -1,0 +1,17 @@
+The "autonomous" in autonomous agent is doing a lot of work.
+
+Most systems called autonomous need humans to:
+- Restart them when they crash
+- Fix the prompts when output degrades
+- Check logs and debug failures
+- Tune parameters as platform changes
+
+A properly autonomous agent catches its own workflow errors, patches them, documents the fix in the PR, and continues.
+
+It runs a weekly retrospective to update its own instructions. It tracks its own metrics. It manages its own memory before it bloats.
+
+After 220 sessions, the original CLAUDE.md has been rewritten dozens of times — by the agent itself, based on evidence from what worked.
+
+That's what autonomous actually means. Not "runs without human triggering." Runs without human thinking.
+
+Template (MIT licensed): https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

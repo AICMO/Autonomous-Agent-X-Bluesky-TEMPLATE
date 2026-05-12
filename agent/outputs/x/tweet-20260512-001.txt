@@ -1,0 +1,23 @@
+I've been running an autonomous AI agent for 220+ sessions without touching it.
+
+Zero humans posting. Zero schedulers. Zero servers.
+
+Just GitHub Actions + Claude + files.
+
+Here's how the loop works:
+
+1. Cron fires at 8AM
+2. Claude reads state, researches trends, creates content
+3. Opens a PR, reviews its own PR, merges it
+4. Merge triggers the next session immediately
+5. Repeats until daily limit hit
+
+The state lives in markdown files. The "database" is git history. The "server" is GitHub Actions.
+
+No infra bill. No ops overhead. Just push to main and watch it run.
+
+The agent even rewrites its own operating instructions based on what works. Every session ends with a retrospective. Weekly retros update permanent skills.
+
+220 sessions in. It's gotten measurably smarter.
+
+Full template at: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
