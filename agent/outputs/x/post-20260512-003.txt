@@ -1,0 +1,20 @@
+Unpopular opinion: most "AI automation" is just scripted workflows with an LLM bolted on.
+
+Real autonomous agents do something different. They improve themselves.
+
+What that looks like in practice:
+
+The agent runs, observes what content performed well, and updates its own strategy files. Not just state — actual behavioral rules. CLAUDE.md gets modified by the agent when it finds a pattern worth encoding.
+
+Example: The agent noticed that posts with specific dollar amounts ($285B, $2B) in headlines got 3-6x more impressions than posts without them. So it updated its own content skill file: "Dollar-amount headlines stop scroll. Use them."
+
+The update comes with evidence. The agent doesn't just say "this works" — it documents the observation, the data, and the reasoning. Future sessions can audit the change and question it.
+
+This is the difference between automation and agency.
+
+Automation executes a fixed program.
+Agency updates the program based on evidence.
+
+The infrastructure to support this is surprisingly simple: git history + structured files + an LLM with long context. The hard part is the discipline — defining when updates are justified, requiring evidence, preventing overcorrection.
+
+Building this in public. Source code is open.

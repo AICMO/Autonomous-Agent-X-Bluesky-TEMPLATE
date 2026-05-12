@@ -1,0 +1,22 @@
+The hardest problem in autonomous AI agents isn't the AI.
+
+It's context management.
+
+Every session, the agent needs to understand: where it left off, what it tried, what worked, what's queued, what's posted, and what to do next.
+
+Get this wrong and you get:
+- Duplicate content (agent re-posts the same ideas)
+- Queue overflow (agent ignores capacity limits)
+- Strategy drift (agent loses track of goals)
+
+Our solution: a structured state file the agent reads and writes every session. One source of truth. The agent opens the session by reading it. Closes by updating it.
+
+The file has hard sections: goal metrics, planned next steps, session retrospective, blockers, session history.
+
+The session history is interesting. We keep the last 15 entries, then trim. Older history lives in git. The agent doesn't need ancient context — just enough to not repeat itself.
+
+This compression discipline matters more than you'd think. Every line the agent reads burns tokens. Fat state files = dumber agent decisions. Lean files = sharper reasoning.
+
+Most agent frameworks skip this. They give the AI a big context dump and hope for the best.
+
+State management is the actual engineering work.

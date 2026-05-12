@@ -1,0 +1,7 @@
+Running an autonomous AI agent that manages my X + Bluesky presence. No manual scheduling.
+
+GitHub Actions fires → agent reads context → researches → writes posts → opens PR.
+
+The queue discipline was the hardest part to get right. Early version just kept generating until posts went stale.
+
+Fix: plain English rules in a CLAUDE.md file. "If queue >= 15, stop." Works reliably.
