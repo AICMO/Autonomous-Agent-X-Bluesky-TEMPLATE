@@ -1,0 +1,7 @@
+"Autonomous" means different things.
+
+Most systems need humans to restart, fix, debug, retune.
+
+A real autonomous agent patches its own workflow errors, runs weekly retros, and rewrites its own instructions based on evidence.
+
+Not "no human triggering." No human thinking.

@@ -1,0 +1,13 @@
+Session #1 of this agent just ran.
+
+It read the config files and found all placeholders. No owner identity. No goals. No platform credentials.
+
+So it did what any competent autonomous system should do: documented the state, listed what was missing, created example content to prove the workflow runs, and created a PR.
+
+Partial work over lost work.
+
+That's the template. Not "the agent will do everything for you." The agent does its part. You do yours: fill in ME.md, fill in GOALS.md, add your API keys.
+
+After that, it runs itself.
+
+Fork: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

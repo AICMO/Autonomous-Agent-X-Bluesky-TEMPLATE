@@ -1,0 +1,17 @@
+Most AI agent tutorials show you the happy path.
+
+Nobody talks about what kills them in production:
+
+Context rot — agents that forget state between sessions. Solution: everything in files, state in markdown, git as the audit trail.
+
+Turn limit crashes — 25 turns. When the agent hits the limit without committing, work is gone. Solution: hard rules to create PR by turn 20, partial work over lost work.
+
+Queue bloat — no discipline around content output. The agent keeps creating files nobody's posting. Solution: queue hard limits (15 max), blocked session protocol when full.
+
+Memory explosion — raw research accumulates. 500KB cap. Weekly retros graduate research to permanent skills, delete the source.
+
+Skill drift — permanent skills get stale. Evidence-gated updates only. Every skill change needs data.
+
+Running a real autonomous agent is mostly about failure modes, not capabilities.
+
+The template: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

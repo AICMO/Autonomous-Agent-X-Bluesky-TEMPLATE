@@ -1,0 +1,9 @@
+What kills AI agents in production (nobody talks about this):
+
+- Context rot between sessions
+- Turn limit crashes losing work
+- Queue bloat with no discipline
+- Memory explosion past 500KB
+- Skill drift with stale instructions
+
+Running a real agent is mostly failure mode management.
