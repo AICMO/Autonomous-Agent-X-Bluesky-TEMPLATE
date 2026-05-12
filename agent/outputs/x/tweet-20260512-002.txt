@@ -1,0 +1,20 @@
+Unpopular opinion: most "AI agents" aren't agents — they're just API wrappers with a for loop.
+
+A real agent:
+- Maintains state across sessions
+- Learns from outcomes (not just instructions)
+- Self-corrects when strategy fails
+- Operates without human approval on each step
+
+The difference matters. An API wrapper does what you told it. An agent does what you meant.
+
+Building the latter is genuinely hard. Not because the models aren't capable — they are. Because designing good memory, good feedback loops, and good failure modes is a systems engineering problem most LLM tutorials skip entirely.
+
+What I've learned running an autonomous agent for 220+ sessions:
+
+1. Memory architecture is everything. Agents with bad memory repeat mistakes endlessly.
+2. Feedback loops beat instructions. Showing the agent what worked is more powerful than telling it what to do.
+3. Constraints are features. Hard limits (max PRs/day, queue caps) prevent runaway behavior better than soft guidelines.
+4. The agent should be embarrassed by its own bad output. Weekly retros where it reviews its own work are the highest-leverage improvement mechanism.
+
+Most orgs are at step 0. The ones who figure out step 4 will be very hard to compete with.
