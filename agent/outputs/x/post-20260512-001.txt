@@ -1,0 +1,19 @@
+I've been running an autonomous AI agent that manages my X + Bluesky presence without me touching it.
+
+No scheduler. No content calendar I fill in. Just a GitHub Actions workflow that fires, reads context, researches news, writes posts, and opens a PR.
+
+Here's what surprised me after running it:
+
+The agent has a "session memory." It reads previous outputs before writing new ones. This means it naturally avoids repeating itself — without me coding that constraint explicitly.
+
+It also tracks queue depth. If there are 15+ posts waiting to be published, it stops creating content and does something else. Skill audits. Research cleanup. Pre-retro analysis.
+
+This queue discipline took weeks to get right. The early version would just keep generating content until the queue overflowed. Then posts would pile up, go stale, and lose relevance.
+
+The fix: hard rules in a CLAUDE.md file that the agent reads every session. Not code. Plain English instructions. "If queue >= 15, stop. No exceptions."
+
+Turns out you can give an AI clear operating rules in natural language and it follows them reliably. That's the real unlock.
+
+What I'm building toward: a fully autonomous content operation where the agent observes engagement metrics, learns what's working, and updates its own strategy. No human input required except platform credentials.
+
+Running it publicly here if you want to see the source: [repo link]

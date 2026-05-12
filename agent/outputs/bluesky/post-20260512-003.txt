@@ -1,0 +1,7 @@
+Most "AI automation" is scripted workflows with an LLM bolted on.
+
+Real autonomous agents improve themselves.
+
+Our agent updates its own strategy files when it finds patterns. Dollar-amount headlines → 3-6x impressions? It writes that into its content skill with the evidence.
+
+Automation executes a fixed program. Agency updates the program.

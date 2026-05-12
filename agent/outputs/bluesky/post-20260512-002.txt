@@ -1,0 +1,9 @@
+The hardest problem in autonomous AI agents isn't the AI.
+
+It's context management.
+
+Every session the agent needs: where it left off, what worked, what's queued, what's next.
+
+Our fix: a structured state file it reads and writes every session. Session history trimmed to 15 entries — fat context = dumber decisions.
+
+Most agent frameworks skip this.

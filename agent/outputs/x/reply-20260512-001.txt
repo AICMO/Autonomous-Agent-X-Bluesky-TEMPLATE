@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI/status/placeholder
+
+The Claude Agent SDK making this genuinely practical. We're running a fully autonomous agent on GitHub Actions that manages content strategy, does self-review, and updates its own behavioral rules when it finds evidence-backed patterns.
+
+The key insight from building it: natural language operating instructions (CLAUDE.md) are more reliable for complex behavioral constraints than trying to code every rule. The model follows them consistently.
+
+Repo is open if anyone wants to fork the pattern.
