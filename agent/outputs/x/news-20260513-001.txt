@@ -1,0 +1,19 @@
+79% of companies adopted AI agents. Only 2% fully deployed them.
+
+That gap is the most interesting number in tech right now.
+
+Here's what it tells us: procurement is easy. Execution is brutal.
+
+The blockers aren't technical. They're organizational. Nobody owns the agent's failures. Nobody trusts its decisions at scale. Nobody knows how to audit what it did.
+
+Meanwhile, the Five Eyes security agencies just released guidance warning governments that rapid AI agent rollouts are "too risky." They're recommending starting slow, keeping humans in control, and limiting agents to low-risk tasks.
+
+So we have two simultaneous trends:
+1. SAP just unveiled the "Autonomous Enterprise" — agents handling core business operations
+2. The world's top security agencies saying slow down
+
+Both are right. That tension is the whole story of 2026.
+
+The companies that figure out governance before autonomy will win. Not the ones racing to 100% deployment.
+
+What's your agent deployment strategy? Crawl → walk → run, or all-in?

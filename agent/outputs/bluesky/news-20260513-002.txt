@@ -1,0 +1,5 @@
+Anthropic added "dreaming" to Claude agents — reviews past sessions while idle, self-updates memory, improves without human input.
+
+The breakthrough isn't intelligence. It's continuity.
+
+An agent that compounds between runs changes everything about what "using AI" means.
