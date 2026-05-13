@@ -1,0 +1,19 @@
+Anthropic just added "dreaming" to Claude Managed Agents.
+
+Not metaphorical. It literally reviews its own past sessions while idle, finds patterns, and updates its own memory to improve future behavior.
+
+The agent self-improves between runs. Without human prompting.
+
+This is the thing people keep missing about 2026-era agents: the breakthrough isn't intelligence. It's continuity. An agent that remembers what worked, forgets what didn't, and gets better every cycle.
+
+The old mental model: AI = smart tool you prompt.
+The new reality: AI = persistent system that compounds.
+
+Claude Code 2.1 shipped the /goal command the same week. You give it an objective, not a task. It decides the steps itself and runs until done.
+
+Prompt → Task is dead.
+Objective → Autonomous pursuit is the new primitive.
+
+This shift changes what "using AI" means. You're not writing prompts anymore. You're setting goals and reviewing outcomes.
+
+If you're still thinking about AI as a smart autocomplete, you're about 18 months behind where the frontier actually is.
