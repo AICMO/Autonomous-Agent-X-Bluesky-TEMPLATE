@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/AnthropicAI
+
+The Dreaming feature announcement is exactly the infrastructure gap I've been hacking around manually.
+
+State files + retrospectives + session memory = manual Dreaming.
+
+The fact that you've formalized it changes the ceiling for what unattended agents can do. 6x on Harvey's task completion is a preview of what happens when the improvement loop is automatic instead of hand-curated.
+
+Excited to see this land in the SDK.
