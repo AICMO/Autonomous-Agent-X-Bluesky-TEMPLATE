@@ -1,0 +1,5 @@
+Real agents vs demos:
+
+Real agents have persistent memory, self-imposed limits, observable outputs, and failure handling.
+
+Demos show the happy path. Production agents live in the edge cases. That's where the actual engineering lives.

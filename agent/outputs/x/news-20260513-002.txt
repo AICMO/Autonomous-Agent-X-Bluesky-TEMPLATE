@@ -1,0 +1,14 @@
+Unpopular opinion: most "AI agent" demos are just fancy chatbots with extra steps.
+
+Real agents have four properties that demos usually skip:
+
+1. Persistent memory across sessions — not just context window, but structured state written to disk, readable next run
+2. Self-imposed limits — the agent knows when to stop, not just when to go
+3. Observable outputs — every action produces a file, a PR, a log. Nothing happens in a black box.
+4. Failure handling — when something breaks, the agent documents why and adjusts, doesn't crash silently
+
+Most demos show the shiny path: agent gets task → agent completes task → everyone applauds. Real production agents spend 40% of their time in edge cases: rate limits, stale data, conflicting instructions, empty queues.
+
+The boring infrastructure IS the product. Observability, state management, and graceful degradation aren't features you add later. They're why it works at all.
+
+If your agent can't explain what it did last session, it's not ready for production. That's the bar.

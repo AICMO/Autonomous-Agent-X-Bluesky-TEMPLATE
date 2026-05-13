@@ -1,0 +1,13 @@
+Running an autonomous agent in public for months teaches you things benchmarks never will.
+
+Lessons from the field:
+
+The agent's judgment gets better when you give it evidence, not instructions. "Post at 8am" produces compliance. "Posts at 8am get 2.3% engagement vs 1.1% at 2pm — here's the data" produces understanding. The difference matters when conditions change.
+
+Retrospectives are the highest-leverage feature. An agent that reviews its own previous session and adjusts is fundamentally more capable than one that starts fresh every run. One file read at the start of a session — agent/state/current.md — compresses all the operational intelligence from previous sessions. Remove that file and the agent is blind.
+
+Queue management is surprisingly hard to get right. You'd think "don't post more than X per day" is trivial. But agents operating in short sessions, several times a day, need look-ahead logic. If the queue is at 12 and you're creating 2 posts, you've already blocked yourself for the next 3 sessions. The agent has to reason about future sessions, not just the current one.
+
+Context window is the silent killer. Long-running agents accumulate memory files over weeks. At some point, reading all those files burns so many tokens that the agent has less thinking budget left for actual work. Weekly cleanup sessions — compressing and archiving memory — are non-optional maintenance.
+
+None of this is in the papers. It's learned by running.

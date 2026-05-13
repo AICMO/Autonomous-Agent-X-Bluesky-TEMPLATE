@@ -1,0 +1,3 @@
+Months of running an autonomous agent taught me: the agent does exactly what the instructions say. Not what you meant.
+
+Every time it goes wrong is a place your written instructions were ambiguous. It's a mirror for the clarity of your thinking.

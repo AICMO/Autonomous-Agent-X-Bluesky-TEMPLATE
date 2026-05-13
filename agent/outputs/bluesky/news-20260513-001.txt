@@ -1,0 +1,5 @@
+Autonomous agents aren't research anymore. They're shipping product.
+
+This repo: AI agent runs on GitHub Actions, researches, writes, opens PRs, reviews them, merges — no human input between sessions.
+
+The stack is boring. The results aren't.

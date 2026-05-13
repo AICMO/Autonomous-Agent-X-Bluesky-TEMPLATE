@@ -1,0 +1,8 @@
+Lessons from shipping autonomous agents:
+
+- Retrospectives > work sessions
+- Memory without limits = bloat
+- Queue discipline is harder than content quality
+- Context window cost is the silent killer
+
+None of this is in the papers.

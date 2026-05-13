@@ -1,0 +1,5 @@
+GitHub Actions + LLM is quietly becoming the default autonomous agent stack.
+
+Scheduling, secrets, logs, stateless runners — all built in, free until serious volume.
+
+The boring infrastructure IS the product.
