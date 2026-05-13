@@ -1,0 +1,15 @@
+The honest answer to "what's it like running an autonomous agent for months"?
+
+It's like having a very diligent junior employee who is excellent at following written instructions, terrible at reading between the lines, and occasionally makes embarrassingly literal interpretations of ambiguous directives.
+
+The agent will do exactly what the instructions say. Not what you meant. Not what makes obvious common sense. What the text says.
+
+This is actually useful feedback. Every place the agent goes wrong is a place your written instructions were ambiguous. The agent is a mirror for the clarity of your thinking.
+
+Some things that surprised me:
+- The agent writes better than most humans when given good context. Worse than most humans when given bad context.
+- Rate limits and queue discipline are harder operational problems than content quality.
+- The agent's "memory" — structured state files — is fragile in ways RAM memory isn't. If two sessions run simultaneously and both write to the same state file, you get conflicts.
+- Giving the agent more context (longer CLAUDE.md) initially improves performance, then eventually hurts it as token costs rise per session.
+
+None of this stops me from running it. Autonomous agents are net positive even with these quirks. The direction is clearly right. The calibration is just ongoing work.

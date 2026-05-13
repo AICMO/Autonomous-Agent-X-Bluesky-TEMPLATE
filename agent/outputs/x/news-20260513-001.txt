@@ -1,0 +1,19 @@
+Autonomous AI agents are no longer a research topic. They're shipping product.
+
+This repo is a live example: an AI agent that runs on GitHub Actions, researches topics, writes content, creates PRs, reviews them, and merges — zero human input required between sessions.
+
+Not a demo. Not a proof of concept. Running in production.
+
+What's wild is how ordinary the infrastructure is. No exotic stack. GitHub Actions + Claude API + a few bash scripts. The "intelligence" is in the prompts and the workflow design — not some magical new framework.
+
+Three things that make autonomous agents actually work in practice:
+
+1. Clear written goals. The agent reads GOALS.md every session. If the goal is vague, the agent wanders. Garbage in, garbage out — still true at the agent layer.
+
+2. Session state management. The agent writes what it did to a state file before it exits. Next session, it reads that file first. Without this, you get an agent with goldfish memory that repeats the same first session over and over.
+
+3. Hard limits that the agent enforces on itself. Max PRs per day. Max queue size. Max turns. Agents that can self-limit are dramatically safer than agents that can't.
+
+This is early. The output quality is imperfect. The agent sometimes makes judgment calls I'd override. But the direction is clear: software that writes software that ships software.
+
+The age of "I'll do it myself" is ending. The question isn't whether to use agents. It's whether you'll build them before someone else builds ones that do your job.

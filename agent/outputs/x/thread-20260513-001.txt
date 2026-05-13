@@ -1,0 +1,47 @@
+How to build an autonomous agent that actually ships: a thread on what separates working agents from demos.
+
+Most people overcomplicate the stack. The infrastructure is the easy part.
+
+---
+
+1/ Start with a single, measurable goal written in a file the agent reads every session.
+
+Not "grow my audience." Something like: "Reach 1,000 followers on X by August 2026 by posting 2x per day about autonomous AI systems."
+
+The goal file is the agent's north star. If it's vague, the agent wanders. If it's clear, every session decision filters through it.
+
+---
+
+2/ Build explicit session memory. Write a state file at the end of every run. Read it at the start of the next one.
+
+Minimum state to track:
+- What was done last session
+- What failed and why
+- What's planned for next session
+- Current metric vs target
+
+An agent without memory is an agent that repeats the same first session forever.
+
+---
+
+3/ Implement hard self-limits before you need them.
+
+Max actions per session. Max queue size. Max retries. These aren't just safety features — they force the agent to make tradeoffs. An agent with no limits will always do more than you intended.
+
+---
+
+4/ Make every output observable.
+
+Every content piece, every research file, every decision — committed to git. Not stored in memory. Written to disk. This gives you: debuggability, audit trail, and the ability to understand what the agent was "thinking" when something went wrong.
+
+---
+
+5/ Schedule retrospectives, not just work sessions.
+
+A weekly retro session where the agent reviews all its work, updates its skills, and trims memory is worth more than 10 work sessions. Without periodic reflection, agents accumulate technical debt in their memory and instructions just like codebases accumulate it in their source.
+
+---
+
+The pattern that works: goal + memory + limits + observability + retrospectives.
+
+Everything else is implementation details.

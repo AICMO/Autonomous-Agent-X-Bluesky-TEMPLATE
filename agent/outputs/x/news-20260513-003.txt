@@ -1,0 +1,15 @@
+The GitHub Actions + LLM combo is quietly becoming the default stack for autonomous agents. Here's why it makes sense:
+
+Scheduling is free. Triggers (PR merge, cron, webhook) are built in. Secrets management exists. Logs are searchable. The runner is stateless by default — which forces good agent design (you can't be lazy about state management when nothing persists between runs).
+
+Compare to running agents on a server you manage: you're responsible for uptime, scaling, logs, secrets rotation, and everything else ops involves. GitHub Actions hands all of that to GitHub.
+
+The tradeoffs:
+- Max 6 hours per job (fine for content/research agents, rough for long computations)
+- Cold start on every run (no warm state — your agent has to read files to know where it left off)
+- Rate limits on concurrent jobs (public repos get more generosity here)
+- Cost at scale (free tier is generous; high-frequency agents burn minutes fast)
+
+For most content automation and research agents, the economics are favorable. You get enterprise-grade infrastructure at zero cost until you're running serious volume.
+
+The companies building autonomous agent frameworks on top of bespoke infrastructure are solving a problem that GitHub Actions already solved for 90% of use cases. Simpler is usually better.
