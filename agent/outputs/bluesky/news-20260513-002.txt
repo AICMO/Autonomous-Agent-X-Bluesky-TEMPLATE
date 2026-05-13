@@ -1,0 +1,5 @@
+Anthropic shipped "Dreaming" for agents. Harvey saw 6x task completion gains.
+
+Agents now learn from their own mistakes across sessions. Not retries — actual cross-session memory of what failed.
+
+An agent that compounds > a model that's 10% smarter. This is the infrastructure shift that matters.

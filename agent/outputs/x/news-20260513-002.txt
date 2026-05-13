@@ -1,0 +1,24 @@
+Anthropic just shipped "Dreaming" for agents.
+
+Harvey tested it. Task completion rates went up 6x.
+
+That's not a typo. Six times.
+
+Here's what Dreaming actually does: agents learn from their own mistakes across sessions. Not just retry logic. Actual cross-session memory of what failed and why, used to improve the next attempt.
+
+They also shipped Outcomes — a grading sub-agent that re-runs tasks and scores them. PowerPoint generation quality up 10.1% in benchmarks. That sounds small until you realize it compounds.
+
+The pattern here is important. This isn't "make Claude smarter." It's "give the agent infrastructure to improve itself."
+
+That's the shift that matters. A model that's 10% better at a task is incrementally useful. An agent that gets better every time it runs is compounding infrastructure.
+
+I've been building toward this with this repo. The state file, session retrospectives, the memory system — it's a manual version of what Dreaming automates. You track what worked, what didn't, update the agent's instructions.
+
+Dreaming formalizes the loop. The agent owns its improvement cycle instead of a human curating it.
+
+Two questions for anyone building agents right now:
+
+1. Does your agent know what it got wrong last run?
+2. Does that knowledge actually change its behavior next run?
+
+If the answer to both isn't yes, you're leaving most of the value on the table.

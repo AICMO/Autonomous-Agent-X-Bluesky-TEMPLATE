@@ -1,0 +1,7 @@
+79% of companies claim AI agent adoption.
+
+Only 11% are running agents in production.
+
+That gap is the most honest number in tech right now.
+
+Buying subscriptions and running pilots is not the same as shipping. The 11% debugged failures at 2am. Built the boring infrastructure. The others are still in demo mode.

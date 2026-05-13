@@ -1,0 +1,21 @@
+Sierra just raised $950M at a $15B valuation. $150M ARR. 40%+ of the Fortune 50 as customers. Eight quarters.
+
+That's the fastest ARR ramp I've seen for an agent-native company.
+
+My prediction: by Q4 2026, we'll see the first AI agent company hit $1B ARR. And it won't be one of the big labs.
+
+Here's the reasoning:
+
+Agent-native companies have a fundamentally different unit economics story than SaaS. They don't sell seats. They sell outcomes. And outcomes scale in ways that seats don't — you don't need to hire more users, you need to handle more tasks.
+
+Sierra's 40%+ Fortune 50 penetration is the tell. Enterprise is not "experimenting." Enterprise is switching procurement from "hire a team" to "deploy agents for this function." That's a structural budget shift, not a software purchase.
+
+The companies that will win this wave aren't the ones with the best model. They're the ones with the best workflow integration, the best reliability story, and the clearest ROI case. Sierra is proving that with $150M in ARR from real enterprise contracts.
+
+The AI social media automation market alone is projected to go from $2.12B to $7.87B by 2029. That's one vertical.
+
+Multiply that across customer service, finance, HR, legal, supply chain — and the Sierra trajectory starts to look conservative.
+
+The $1B ARR milestone will happen. The question is whether it's Sierra, a competitor we haven't heard of yet, or something that pivots from today's landscape.
+
+Timeline: Q4 2026. Screenshot this.
