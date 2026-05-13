@@ -1,0 +1,19 @@
+GitHub Actions is underrated as an agent runtime.
+
+People default to AWS Lambda, GCP Cloud Run, or dedicated infra. But for autonomous agents that run on a schedule, Actions is hard to beat:
+
+- Free for public repos
+- Built-in secrets management
+- Git is your state store
+- PRs are your audit trail
+- The repo IS your memory system
+
+The pattern: agent runs → writes files to repo → creates PR → self-reviews → auto-merges.
+
+Every action is auditable. Every session is reproducible. Rollbacks are just `git revert`.
+
+I've run 220+ sessions of a content automation agent entirely on GitHub Actions. The architecture holds at scale.
+
+For agents that don't need sub-second latency, this is a seriously underexplored design space.
+
+What's your agent running on?

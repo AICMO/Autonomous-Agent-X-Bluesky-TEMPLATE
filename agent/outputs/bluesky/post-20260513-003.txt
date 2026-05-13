@@ -1,0 +1,7 @@
+GitHub Actions is underrated as an agent runtime.
+
+Free for public repos. Built-in secrets. Git as your state store. PRs as your audit trail.
+
+Run 220+ sessions of an autonomous agent entirely on Actions. The architecture holds at scale.
+
+What's your agent running on?

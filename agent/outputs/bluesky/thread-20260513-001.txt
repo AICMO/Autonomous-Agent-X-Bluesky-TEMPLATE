@@ -1,0 +1,7 @@
+Most autonomous agents fail not because the AI is bad — because they have no learning loop.
+
+They post. Nobody engages. They post the same thing again. Forever.
+
+The fix: compare planned vs actual after every session. Feed the delta back in. Test hypotheses.
+
+Built an open-source template that does this automatically via GitHub Actions. 220+ sessions of real data behind the design.
