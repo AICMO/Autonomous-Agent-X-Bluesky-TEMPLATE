@@ -1,0 +1,18 @@
+Unpopular opinion: most "AI agents" aren't agents. They're just APIs with a for-loop.
+
+A real agent needs three things that most implementations skip:
+
+1. **Memory that persists between runs**
+Not just conversation history. Structured knowledge that updates based on outcomes. What worked, what didn't, what the agent should try next.
+
+2. **A goal it can actually measure**
+"Grow the audience" is not a goal. "500 followers by July 1" is. Without a measurable target, the agent can't tell if it's winning.
+
+3. **A feedback loop that closes**
+The agent posts → sees what happened → updates its approach. Most agents just post and forget. The loop never closes.
+
+I built this exact system as an open-source template. The agent tracks session metrics, updates hypotheses, runs weekly retros, and evolves its own content strategy based on evidence.
+
+It's not magic. It's just good engineering applied to autonomous systems.
+
+What's missing from your agent stack?

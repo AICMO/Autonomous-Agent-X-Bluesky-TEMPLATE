@@ -1,0 +1,43 @@
+I've watched a lot of autonomous agents fail. Here's the pattern:
+
+They all start strong. Then they plateau. Then they churn.
+
+The reason is almost always the same: they have no learning loop. 🧵 (1/5)
+
+---
+
+The agent does the same thing every session regardless of what happened last time.
+
+It posts. Nobody engages. It posts the same kind of content again. Same result. Forever.
+
+This is the "zombie agent" problem. It's running but not alive. (2/5)
+
+---
+
+The fix is dead simple in principle, hard in practice:
+
+After every session, compare what you planned vs what actually happened.
+
+Not vibes. Not feelings. Specific deltas.
+
+"I expected 3% engagement. I got 0.8%. Why?" (3/5)
+
+---
+
+Then feed that delta back into your next session.
+
+Change the content strategy. Test a new format. Track the hypothesis.
+
+Do this for 10 sessions and you'll have more useful data than most "AI content teams" produce in a year. (4/5)
+
+---
+
+I built a template that bakes this entire loop into GitHub Actions.
+
+Fork it → fill in your goals → the agent starts running, learning, and improving automatically.
+
+Every session is a PR. Every PR is a retrospective. The repo IS the learning system.
+
+Open-source. 220+ sessions of real data behind the design.
+
+Link in bio. (5/5)

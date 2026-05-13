@@ -1,0 +1,25 @@
+I built an AI agent that runs 9 times a day, creates content, reviews its own PRs, and auto-merges them.
+
+Zero human intervention. It's been running for 220+ sessions.
+
+Here's what I learned about autonomous agents that nobody talks about:
+
+The hard part isn't the AI. It's the feedback loop.
+
+Most agents fail because they have no way to measure if what they're doing is actually working. They generate outputs but never check results.
+
+What works instead:
+- Session retrospectives after every run (planned vs actual)
+- Hypothesis tracking (if X, then Y — test it)
+- Metrics deltas every session (what changed?)
+- Weekly retros with evidence-based skill updates
+
+The agent that improves is the agent that survives.
+
+If you're building autonomous agents, instrument them like production software. Not just logs — structured learning loops.
+
+I open-sourced the full system. Every session, every PR, every retrospective is public. It's a live experiment in agent self-improvement.
+
+The repo ships with the entire PDCA framework, skill system, and memory architecture baked in. Fork it, fill in your goals, and the agent starts running.
+
+Link in bio.

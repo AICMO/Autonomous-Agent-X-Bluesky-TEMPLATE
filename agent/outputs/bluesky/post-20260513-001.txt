@@ -1,0 +1,7 @@
+Built an AI agent that runs autonomously 9x/day, creates content, reviews its own PRs, and auto-merges.
+
+220+ sessions. Zero human intervention.
+
+The hard part isn't the AI — it's the feedback loop. Most agents fail because they never check if what they're doing is actually working.
+
+Open-sourced the full system. Live experiment in agent self-improvement.

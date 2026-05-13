@@ -1,0 +1,5 @@
+Most "AI agents" aren't agents. They're APIs with a for-loop.
+
+Real agents need: persistent memory that updates on outcomes, measurable goals (not vague ones), and a feedback loop that actually closes.
+
+Built an open-source template with all three. The agent tracks metrics, tests hypotheses, and updates its own strategy based on evidence.
