@@ -1,0 +1,23 @@
+Unpopular opinion: most teams building AI agents are solving the wrong problem.
+
+They're obsessed with the model. Which model is smarter. Which benchmark wins. Which company's API is fastest.
+
+But the 2026 State of AI Agents report is blunt: 46% of enterprises say integration with existing systems is their primary challenge. Not model capability. Not cost. Not safety.
+
+Integration.
+
+The agent that can reason brilliantly but can't authenticate into your CRM, read your internal docs, or write to your database is useless. You built a very smart thing that can't do anything.
+
+The orgs winning with agents right now have figured out the boring stuff:
+- Auth flows that actually work in production
+- Audit trails that compliance teams accept
+- Rollback mechanisms when agents make mistakes
+- Rate limiting so a loop doesn't burn $50k in API calls overnight (Portal26 just launched a whole product for this)
+
+Model capability is a commodity. It'll keep getting better whether you optimize for it or not.
+
+The durable advantage is in the integration layer. The teams that build clean agent infrastructure — the pipes, the governance, the observability — will compound that advantage as models improve.
+
+Stop arguing about which model is 0.3% smarter. Start asking: can your agent actually complete the workflow end-to-end in your production environment?
+
+That's the real question.

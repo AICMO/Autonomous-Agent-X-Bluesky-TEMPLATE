@@ -1,0 +1,7 @@
+MCP hit 97M monthly downloads. Anthropic donated it to the Linux Foundation. OpenAI, Google, Microsoft all co-signed.
+
+The protocol connecting AI agents to real systems is now neutral infrastructure — like TCP/IP for the agent internet.
+
+46% of enterprises say system integration is their #1 agent challenge. MCP solves that.
+
+Get familiar with it now or spend 12 months catching up.
