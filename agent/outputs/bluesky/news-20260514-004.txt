@@ -1,0 +1,7 @@
+Hot take: most teams building AI agents are solving the wrong problem.
+
+46% of enterprises say integration is their top challenge. Not the model.
+
+Model capability is a commodity. The durable advantage is in the plumbing: auth, audit trails, governance, rate limiting.
+
+Can your agent actually run in production? That's the question.

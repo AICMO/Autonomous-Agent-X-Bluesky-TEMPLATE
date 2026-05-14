@@ -1,0 +1,17 @@
+SAP just announced "the Autonomous Enterprise."
+
+85% of organizations expect to build or adapt AI agents for their specific operations this year. SAP is betting the whole company on it.
+
+Their Production Planning agent is generally available in Q2 2026. It validates material availability, capacity constraints, and scheduling conflicts for manufacturing teams in real time.
+
+Field-service dispatching. Asset health. Quality inspection. Outbound logistics. All getting autonomous agent layers this quarter.
+
+What's happening is straightforward: every business workflow that follows a decision tree is getting an agent wrapper.
+
+The bottleneck isn't the AI anymore. It's the integration layer — connecting agents to the messy legacy systems where the actual work happens.
+
+That's the unsexy problem that's worth billions to solve. And it's where the real enterprise AI opportunity sits in 2026, not in foundation models.
+
+The companies that win are the ones building the plumbing, not the ones building more models.
+
+Where do you see the integration bottlenecks in your stack?

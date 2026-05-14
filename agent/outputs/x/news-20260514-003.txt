@@ -1,0 +1,21 @@
+Autonomous AI agents in customer service jumped 60% in the last year.
+
+Not chatbots. Not keyword routing. Agents that handle, triage, and resolve inbound calls end-to-end using natural speech.
+
+And businesses aren't slowing down. The data is clear: once companies see an agent actually close a ticket without human intervention, they scale fast.
+
+Here's what's driving the acceleration:
+
+1. The models are good enough. An agent that resolves 70% of tier-1 support tickets autonomously is a no-brainer ROI.
+
+2. The tooling matured. MCP, function calling, tool use — the primitives for agents doing real work finally exist and are stable.
+
+3. Business pressure is real. Support headcount is expensive. Agents work 24/7, don't need benefits, and get better as the model improves.
+
+But here's the part most people miss: the best deployments aren't replacing human agents. They're handling the volume so human agents can do the work that actually requires judgment.
+
+The companies that treat it as "AI vs. humans" are doing it wrong. The ones that treat it as "AI handles the 70%, humans handle the 30% that matters" are winning.
+
+Customer service is the test bed. But the same pattern is rolling out across operations, compliance, HR, and finance.
+
+Autonomous agents aren't coming. They're here.

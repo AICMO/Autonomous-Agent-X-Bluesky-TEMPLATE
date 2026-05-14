@@ -1,0 +1,7 @@
+SAP's "Autonomous Enterprise" is live. Manufacturing agents for planning, scheduling, field service, and logistics all dropping Q2 2026.
+
+85% of orgs plan to build agents this year.
+
+The bottleneck isn't AI capability anymore. It's integrating agents into legacy systems.
+
+That's where the real enterprise opportunity is.
