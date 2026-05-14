@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI
+
+The Claude Agent SDK is genuinely well-designed for long-running autonomous agents.
+
+The key thing most builders miss: it's not about the LLM call quality. It's about what persists between calls.
+
+State files + tiered memory + queue discipline = an agent that actually improves over 100+ sessions instead of degrading. The architecture matters more than the model.

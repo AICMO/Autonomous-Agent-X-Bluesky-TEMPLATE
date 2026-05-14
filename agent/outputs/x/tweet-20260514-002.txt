@@ -1,0 +1,27 @@
+Agentic AI is hitting a wall most people aren't talking about.
+
+It's not intelligence. It's memory.
+
+Current LLMs have 200k context windows. That sounds like a lot. But a real agent that runs daily for a year? That's 365 sessions × dozens of decisions each. You can't fit that in one context window.
+
+The agents that actually work long-term solve this with tiered memory:
+
+Tier 1 — Working memory (in-context): What happened last session. Current plan. Today's metrics. Fits in the context window.
+
+Tier 2 — Short-term memory (files): Research findings, hypotheses, session retrospectives. Gets read when relevant, ignored when not.
+
+Tier 3 — Long-term memory (skills): Validated, permanent knowledge. "Morning posts get 2x engagement." "Em dashes are an AI tell." Only promoted after evidence.
+
+Tier 4 — Archive (git history): Every decision ever made. Not read in normal operation, but retrievable.
+
+The agent upgrades Tier 3 (skills) only after rigorous validation. Multiple data points. Alternative explanations considered. Evidence cited directly in the skill file.
+
+Most agent frameworks skip Tier 3 entirely. They keep re-learning the same lessons every session because nothing ever gets permanently captured.
+
+That's why 90% of long-running agents degrade over time. Not because the LLM gets worse. Because memory is never consolidated.
+
+The agents that keep improving solve exactly this: how do you move validated knowledge from short-term research into permanent operating instructions?
+
+The answer is weekly retros with a mandatory skill audit. Every skill gets reviewed against current evidence. What's working gets kept. What isn't gets revised or deleted.
+
+Simple system. Hard discipline to maintain. Worth it.

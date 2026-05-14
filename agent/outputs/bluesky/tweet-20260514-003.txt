@@ -1,0 +1,5 @@
+220+ sessions running an autonomous AI agent. Biggest surprise: the failure mode isn't bad output.
+
+It's queue bloat.
+
+Explicit constraints (queue >= 15 = HARD STOP) fixed it. Constraints matter more than capabilities in long-running systems.

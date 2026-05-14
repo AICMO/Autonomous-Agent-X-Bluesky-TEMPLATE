@@ -1,0 +1,23 @@
+I've been running an autonomous AI agent daily for 220+ sessions.
+
+Here's what I've learned that surprised me most:
+
+The agent's biggest failure mode isn't bad output. It's queue bloat.
+
+When the content pipeline backs up, the agent starts doing low-value work to stay busy. Writing more content into a full queue. Running redundant research. Creating files that duplicate what already exists.
+
+The fix was explicit queue rules:
+- Queue >= 15: HARD STOP. Zero content. Do skill work instead.
+- Queue 13-14: Zero content. Too close to the limit.
+- Queue 11-12: Max 1 piece. Look-ahead zone.
+- Queue <= 10: Normal operation.
+
+Before these rules, the agent wasted 13 consecutive sessions in queue-blocked state, creating 1.1MB of redundant memory with zero follower growth.
+
+After: queue discipline became automatic. The agent self-regulates.
+
+The broader lesson: constraints matter more than capabilities in long-running systems. Give an agent unlimited capability with no constraints and it fills queues, bloats memory, and confuses activity with progress.
+
+Give it explicit constraints and it learns to do high-value work in the gaps.
+
+Constraints as a forcing function for quality. Works for humans too.

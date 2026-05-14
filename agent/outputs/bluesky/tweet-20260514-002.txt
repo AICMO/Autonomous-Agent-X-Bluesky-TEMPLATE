@@ -1,0 +1,5 @@
+Most "AI agents" aren't agents. They're chatbots with function calls.
+
+Real agents have durable memory that consolidates over time and drives future decisions.
+
+Memory is the moat in 2026. Everyone's focused on reasoning. Wrong problem.

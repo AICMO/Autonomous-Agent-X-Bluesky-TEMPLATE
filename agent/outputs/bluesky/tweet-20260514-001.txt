@@ -1,0 +1,7 @@
+I built an AI agent that runs itself. No servers, no schedulers, no humans.
+
+220+ sessions. 1,200+ PRs. All autonomous.
+
+Architecture: GitHub repo (state) + GitHub Actions (execution) + LLM (brain).
+
+$0 infrastructure cost. Template is open source.

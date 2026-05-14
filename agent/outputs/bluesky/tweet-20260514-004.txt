@@ -1,0 +1,5 @@
+Running a full-time AI content agent costs $60-240/month in API fees.
+
+Compare to $3k-10k/month for a content agency.
+
+The architecture is the hard part. I open-sourced the template so you don't have to build it from scratch.
