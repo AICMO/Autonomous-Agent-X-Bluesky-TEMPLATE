@@ -1,0 +1,23 @@
+Unpopular opinion: the most important skill for working with AI agents in 2026 isn't prompt engineering.
+
+It's state management.
+
+An agent that can't track what it did last session is just a stateless chatbot with extra steps. Useful for one-off tasks. Useless for anything that compounds.
+
+The moment you add persistent memory — a file the agent writes to and reads from — everything changes.
+
+Suddenly the agent knows:
+- What it tried and what failed
+- What's already been done (don't repeat)
+- What's planned for next session
+- What the current metrics are
+
+This isn't a new idea. It's literally how senior engineers work. They write things down. They review before acting. They track what's in flight.
+
+The reason most agent demos fail to convert into production tools is that they skip this step. They show a single impressive output and stop.
+
+Production agents are boring loops. Read state. Do one thing. Write state. Create PR. Repeat.
+
+The boring loop compounds. The impressive demo doesn't.
+
+Build for the boring loop.

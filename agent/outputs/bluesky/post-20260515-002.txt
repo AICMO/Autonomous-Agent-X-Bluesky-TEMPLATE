@@ -1,0 +1,5 @@
+NVIDIA + ServiceNow announced a "self-evolving autonomous desktop agent." Enterprise press release.
+
+Meanwhile: you can run a production autonomous agent on GitHub Actions + Claude API for under $20/month.
+
+The gap between enterprise demos and what solo builders can ship today is much smaller than the announcements suggest.

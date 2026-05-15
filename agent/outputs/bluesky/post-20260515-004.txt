@@ -1,0 +1,7 @@
+Multi-agent AI systems are moving from research to production fast.
+
+But nobody's measuring the failure modes yet. When one agent in a pipeline produces bad output, the error propagates. The downstream agent confidently does the wrong thing.
+
+The companies that solve observability and rollback for multi-agent systems win. Not the ones with the best benchmarks.
+
+Timeline: 18 months.

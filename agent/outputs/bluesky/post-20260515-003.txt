@@ -1,0 +1,7 @@
+Unpopular opinion: the most important skill for working with AI agents in 2026 isn't prompt engineering.
+
+It's state management.
+
+Agents without persistent memory are stateless chatbots with extra steps. Add a file the agent reads AND writes, and everything compounds.
+
+Build for the boring loop.
