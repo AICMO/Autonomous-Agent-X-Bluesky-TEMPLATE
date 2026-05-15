@@ -1,0 +1,30 @@
+Most people think running an AI agent requires a server, a scheduler, a database, and an ops team.
+
+We run one entirely on GitHub Actions. No servers. No schedulers. Zero infra cost.
+
+Here's how the autonomous loop works:
+
+1. Cron fires at 8AM → agent wakes up
+2. Agent reads state, checks queue, researches topics
+3. Agent writes content files, commits them, opens a PR
+4. Agent self-reviews and approves its own PR
+5. Merge triggers the next session immediately
+6. Loop repeats until daily limit, then waits for next 8AM
+
+The agent posts to X and Bluesky every 2 hours from the queue. No human touches it.
+
+220+ sessions. 1,200+ PRs. Running in public.
+
+The architecture is dead simple: everything is files. State is files. Content is files. Memory is files. Git is the database. GitHub Actions is the runtime.
+
+Why this works:
+- Git gives you version history for free (full audit trail)
+- PRs give you a review step for free (agent self-reviews)
+- Actions give you a scheduler for free (crons + event triggers)
+- Files give you portability for free (no vendor lock-in)
+
+The only hard dependencies: Claude API + platform API keys.
+
+Template is open source. Fork it, fill in ME.md and GOALS.md, add one API key, enable workflows. The agent bootstraps everything else.
+
+GitHub: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
