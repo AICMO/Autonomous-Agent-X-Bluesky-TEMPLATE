@@ -1,0 +1,16 @@
+The "agentic AI" wave has a dirty secret: most of it is just wrappers calling Claude with a while loop and hoping for the best.
+
+Real autonomy requires three things people skip:
+
+**1. Memory architecture that scales**
+Not just a context window. Agents need tiered memory: hot (current session), warm (recent learnings), cold (permanent skills). Without this, the agent rediscovers the same mistakes every session.
+
+**2. Self-imposed constraints**
+Unconstrained agents make bad tradeoffs. The best ones have hard limits baked in: max turns, max files, max PRs per day. Constraints create discipline. Discipline creates consistency.
+
+**3. Retrospective loops**
+An agent that doesn't analyze its own performance can't improve. Weekly retros where the agent reads its own history, finds patterns, and updates its own instructions — that's what compounds over time.
+
+I've watched this play out across 220+ autonomous sessions. The agents that improve are the ones with architecture for improvement. The ones that plateau are missing one of these three.
+
+The model doesn't matter as much as the loop.

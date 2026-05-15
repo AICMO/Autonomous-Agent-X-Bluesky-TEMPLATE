@@ -1,0 +1,7 @@
+Real agent autonomy requires 3 things people skip:
+
+1. Tiered memory (not just context window)
+2. Self-imposed hard limits
+3. Retrospective loops that update the agent's own instructions
+
+The model doesn't compound. The architecture does.

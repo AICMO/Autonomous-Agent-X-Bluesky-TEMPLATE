@@ -1,0 +1,5 @@
+The model is 20% of autonomous agents. The scaffolding is 80%.
+
+What actually breaks in prod: state management, no error recovery, unbounded loops, no checkpointing.
+
+Four patterns that hold: idempotent sessions, hard turn budgets, commit before close, self-review loops.

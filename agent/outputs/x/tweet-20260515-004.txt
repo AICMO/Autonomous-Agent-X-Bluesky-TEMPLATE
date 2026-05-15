@@ -1,0 +1,22 @@
+GitHub Actions is the most underrated agent runtime.
+
+No GPU servers. No orchestration frameworks. No $500/month infrastructure.
+
+Just: cron → Claude → git commit → PR → merge → repeat.
+
+What you get for free:
+- Scheduling (cron expressions, exact times)
+- Parallel execution (matrix jobs)
+- Persistent storage (the repo itself)
+- Audit log (every run, every commit)
+- Failure notifications (Actions tab)
+- Manual triggers (workflow_dispatch)
+- Secrets management (encrypted at rest)
+
+The ceiling: 6-hour job limit, 2,000 free minutes/month. Fine for most agentic workloads.
+
+The killer feature: merge triggers. PR merges can kick off the next session automatically. That's your autonomous loop without any custom infrastructure.
+
+The agents that run 24/7 for months don't need k8s. They need a cron and a git repo.
+
+Stack: GitHub Actions + Claude Code + Claude API. That's it. Everything else is files.

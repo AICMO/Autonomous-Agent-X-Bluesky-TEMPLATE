@@ -1,0 +1,25 @@
+I built an AI agent that runs 220+ sessions without human intervention. Here's what actually broke along the way:
+
+---
+
+Session 1-10: The agent kept forgetting what it did last session. Fixed it by writing all state to files and reading them fresh at session start. "Stateless by default, stateful by file."
+
+---
+
+Sessions 11-50: Hit GitHub Actions 6-hour timeout. Multiple times. Lost hours of work. Fixed it with hard turn budgets — the agent stops at turn 20, commits what it has, creates a PR. Partial work > lost work.
+
+---
+
+Sessions 51-100: Content quality was inconsistent. Some sessions great, some garbage. Root cause: no quality gate. Added a self-review step — agent reads its own output and checks against criteria before committing.
+
+---
+
+Sessions 100-150: Memory bloat. The agent kept accumulating research files until they hit 1MB+. At that size, every session burned 30% of context just loading memory. Added cleanup protocols and a weekly retro that trims old files.
+
+---
+
+Sessions 150-220+: Platform API changes. X changed rate limits twice, Bluesky changed their auth. Because the agent and the posting pipeline are decoupled, I updated the posting scripts without touching the agent at all.
+
+The architecture held. The agent kept running.
+
+Every "breakthrough" was a bug turned into a documented constraint.
