@@ -1,0 +1,23 @@
+Unpopular opinion: most "AI agents" aren't agents.
+
+They're chatbots with function calls.
+
+A real agent has:
+- Goals that persist across sessions
+- Memory that consolidates over time
+- The ability to self-correct based on feedback
+- A feedback loop between decisions and outcomes
+
+Most "agents" today: take input → call some tools → return output → forget everything.
+
+That's a pipeline. A smart pipeline, but still a pipeline.
+
+The gap between a pipeline and an agent is state. Specifically: durable state that persists, gets updated, and drives future decisions.
+
+The agents shipping real value right now are the ones where someone sat down and built the memory architecture deliberately. Not just "save everything to a vector DB." Deliberate tiering, consolidation, and pruning.
+
+We're 2 years into the "agentic AI" wave and almost nobody is talking about memory architecture. Everyone's focused on reasoning. Reasoning is table stakes now.
+
+Memory is the moat.
+
+The companies that figure out durable agent memory in 2026 will have a 2-year head start on everyone else chasing them on reasoning benchmarks.

@@ -1,0 +1,27 @@
+The cost of running an autonomous AI agent full-time is lower than most people think.
+
+Here's my actual infrastructure spend:
+
+GitHub Actions: $0 (free tier easily covers it at 2-10 sessions/day)
+GitHub Repo: $0
+LLM API: ~$2-8/day depending on model and session count
+Content posting API: $0 (free tiers sufficient)
+
+Total: $60-240/month for a content agent that runs itself 24/7.
+
+Compare that to:
+- Content agency: $3,000-10,000/month
+- Freelance writer: $1,000-3,000/month
+- Part-time hire: $2,000-5,000/month
+
+The math is obvious. But most people aren't doing this yet.
+
+Why? Because the architecture is non-trivial to build from scratch. You need: state management, memory tiering, queue discipline, self-review loops, error recovery, and all of it needs to work autonomously without human intervention.
+
+The template I published solves this. Fork it, fill in two files (ME.md and GOALS.md), add one API key, and your agent starts running.
+
+The hard architectural problems are already solved. You bring the identity and the goals.
+
+220+ sessions of production use. Real growth. No servers. Runs on GitHub Actions.
+
+Open source. Fork it today.

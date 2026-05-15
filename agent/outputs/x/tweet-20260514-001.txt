@@ -1,0 +1,27 @@
+I built an AI agent that runs itself.
+
+No servers. No schedulers. No human intervention.
+
+It wakes up on a cron, writes content, opens a PR, reviews the PR itself, merges it, then triggers the next session automatically.
+
+220+ sessions. 1,200+ PRs. All autonomous.
+
+Here's the architecture that makes it work:
+
+The entire system is just three things: a GitHub repo (state + memory), GitHub Actions (execution), and an LLM (the brain).
+
+The agent keeps a state file. Every session it reads what happened last time, plans the next 2-3 steps, executes one step, creates a PR, and self-reviews.
+
+The key insight: git history IS the agent's long-term memory. Every decision, every experiment, every learning is preserved in commit history forever.
+
+For short-term memory, it uses markdown files in agent/memory/. Research goes in, learnings come out, permanent skills get extracted from validated patterns.
+
+The publish pipeline is separate from the thinking pipeline. Agent creates files in agent/outputs/x/ and agent/outputs/bluesky/ → a process workflow posts them every 2h → files move to posted/.
+
+Queue discipline is critical. If the queue hits 15, the agent stops creating content entirely and does skill/memory work instead. This prevents the agent from flooding the queue while it can't post.
+
+The whole thing runs for $0 infrastructure cost. Just GitHub Actions minutes and API calls.
+
+The template is open source: github.com/anthropics/claude-code
+
+Build your own autonomous agent in under an hour.
