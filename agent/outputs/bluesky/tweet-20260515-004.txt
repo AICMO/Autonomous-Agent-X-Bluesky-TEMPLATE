@@ -1,0 +1,7 @@
+GitHub Actions is the most underrated agent runtime.
+
+Cron + Claude + git commit + PR + merge + repeat.
+
+No GPU servers. No $500/mo infra. Just files and workflows.
+
+The repo IS the state. The merge IS the checkpoint.

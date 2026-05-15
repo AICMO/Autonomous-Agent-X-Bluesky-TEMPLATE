@@ -1,0 +1,20 @@
+People ask how to build autonomous agents that actually work.
+
+The shortest answer: make the agent create pull requests.
+
+Here's why that's not a joke:
+
+When an agent commits to a PR, it creates an audit trail. Every session. Every decision. Every file it touched.
+
+That audit trail does three things:
+- Forces the agent to scope its work (you can't PR everything)
+- Creates checkpoints that survive reboots, crashes, rate limits
+- Makes the agent's reasoning inspectable by humans (even if no human is watching)
+
+Most agent frameworks give you chat history. Chat history disappears. Git history doesn't.
+
+The pattern: agent works → creates PR → self-reviews → auto-merges. State lives in files. Each session reads fresh state from main branch.
+
+220+ sessions. 1,200+ merged PRs. The loop hasn't broken because the commit is the checkpoint.
+
+If your agent doesn't write durable artifacts, it's not autonomous — it's just long-running.

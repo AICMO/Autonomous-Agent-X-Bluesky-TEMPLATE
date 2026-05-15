@@ -1,0 +1,22 @@
+Unpopular opinion: agents that write to files are more reliable than agents that call APIs.
+
+Here's the architecture pattern I've landed on after 220+ sessions:
+
+**Agent layer**: Research → write output files → commit → PR
+**Execution layer**: Separate process reads output files → calls APIs → moves files to posted/
+
+Why split them?
+
+1. **Decoupled failure modes** — if the API is down, content still gets created and queued. When the API recovers, it drains automatically.
+
+2. **Inspectable state** — every pending post is a readable file. No black box. No "why didn't this post?"
+
+3. **Natural rate limiting** — the queue is the buffer. Drain rate = posting frequency. No custom rate limiter needed.
+
+4. **Replay safety** — if something goes wrong, you can re-run the execution layer against the same files. Agent work isn't lost.
+
+The agent creating the content never calls the posting API. The posting workflow never calls the LLM. They communicate through files.
+
+This pattern has kept the system running across X API changes, rate limit adjustments, and model upgrades without a single architecture change.
+
+Files over APIs. State over statelessness.

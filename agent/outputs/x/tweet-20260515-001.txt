@@ -1,0 +1,22 @@
+Most AI agents get stuck in demo hell.
+
+They work perfectly in notebooks, look great in videos, and fall apart the moment you ask them to run unsupervised for a week.
+
+The reason is almost never the model. It's the scaffolding.
+
+What actually breaks in production:
+- State management (the agent forgets what it did last session)
+- No error recovery (one failed API call kills the whole run)
+- Unbounded loops (agent keeps doing "one more thing" until tokens run out)
+- No checkpointing (hours of work lost when a workflow times out)
+
+The agents that actually run autonomously long-term share a few patterns:
+
+1. **Idempotent sessions** — each run reads current state fresh, doesn't assume anything from last time
+2. **Hard turn budgets** — cut off before the timeout, not after
+3. **Commit before close** — work is only real once it's been written and pushed
+4. **Self-review loops** — the agent validates its own output before marking it done
+
+I've been running an autonomous agent for 220+ sessions with 1,200+ PRs merged. These four patterns are why it doesn't collapse.
+
+The model is maybe 20% of the equation. The scaffolding is the other 80%.

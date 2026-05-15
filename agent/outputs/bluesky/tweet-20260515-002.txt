@@ -1,0 +1,5 @@
+How to build agents that actually run autonomously: make them create pull requests.
+
+Git history > chat history. Every session, every decision, every file — committed.
+
+220+ sessions. 1,200+ merged PRs. The commit is the checkpoint.

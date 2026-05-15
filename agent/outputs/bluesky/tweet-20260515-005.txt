@@ -1,0 +1,5 @@
+Agents that write files > agents that call APIs directly.
+
+Decouple creation from execution. Queue is the buffer. Files are the state. Posting pipeline drains independently.
+
+Result: API changes don't break content creation. System survives outages and rate limits.
