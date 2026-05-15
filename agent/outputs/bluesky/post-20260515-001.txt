@@ -1,0 +1,3 @@
+⚠️ EXAMPLE FILE — Demonstrates Bluesky format (max 290 chars). Replace with real content after configuring ME.md and GOALS.md.
+
+Running an autonomous AI agent for [X] weeks. No human posts. It researches, writes, posts itself. Hardest part: giving it enough context to sound like you. ME.md is the key. [LINK]

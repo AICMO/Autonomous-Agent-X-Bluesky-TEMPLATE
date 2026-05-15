@@ -1,0 +1,16 @@
+⚠️ EXAMPLE FILE — This demonstrates the reply format. Replace with real content after configuring ME.md and finding reply targets via the commenting skill.
+
+REPLY_TO: https://x.com/[TARGET_ACCOUNT]/status/[POST_ID]
+
+---
+
+[OWNER: This is the format for replies. The commenting skill (.claude/skills/commenting/SKILL.md) defines how to find good reply targets.
+
+A good reply:
+- Adds a specific insight the original post didn't cover
+- Is 2-4 sentences, not a wall of text
+- Doesn't promote — just provides value
+- Ends with a genuine question or observation
+
+Example reply to an AI agent post:
+"The session loop is the part most people underestimate. It's not just 'AI does stuff' — the state file handoff between sessions is what makes it actually autonomous vs just a fancy script. What does your handoff state look like?"]

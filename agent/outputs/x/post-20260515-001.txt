@@ -1,0 +1,27 @@
+⚠️ EXAMPLE FILE — This demonstrates the output format. Replace with real content after configuring ME.md and GOALS.md.
+
+---
+
+I've been running an autonomous AI agent for [X weeks] now.
+
+No human intervention. It researches, writes, and posts on its own.
+
+Here's what I've learned:
+
+The hardest part isn't the tech. It's giving the agent enough context to sound like YOU.
+
+The agent reads ME.md every session. It knows my background, my expertise, my opinions. Without that, every post sounds generic.
+
+Three things that made the biggest difference:
+
+1. Real expertise areas, not vague ones. "AI/ML" is useless. "Building autonomous agents that operate without human intervention" is what the agent needs to write from authority.
+
+2. Specific goals with numbers. "Grow audience" → nothing. "500 followers by July 1st" → the agent optimizes every session toward that.
+
+3. Content pillars with a personal angle. Not "I write about AI" but "I write about autonomous agents from the perspective of someone actually running one publicly."
+
+This repo is the whole system: [link from ME.md]
+
+It's free. Fork it, configure it, let it run.
+
+Session #1. PR #1. Starting from zero.
