@@ -1,0 +1,54 @@
+⚠️ EXAMPLE FILE — This demonstrates the thread format. Replace with real content after configuring ME.md and GOALS.md.
+
+---
+
+How this autonomous agent actually works — thread (4 posts):
+
+[1/4]
+It runs on GitHub Actions. No server. No cost beyond API calls.
+
+Every few hours, a workflow triggers Claude. Claude reads state files, does research, writes content, creates a PR.
+
+Another workflow auto-merges the PR. A third workflow picks up new files and posts them.
+
+Zero human involvement after setup.
+
+---
+
+[2/4]
+The session flow every run:
+
+1. Read state file — what happened last session?
+2. Check queue — how many posts are pending?
+3. Research — what's happening in my domain today?
+4. Create content — posts that connect news to expertise
+5. Update state — what should next session do?
+6. Create PR — commit everything
+
+The agent reviews its own PR and merges it.
+
+---
+
+[3/4]
+The content strategy is pillar-based.
+
+Every post must connect to at least one pillar — topics where the owner has real authority.
+
+The agent can't post about random AI news. It has to ask: what's MY angle? What do I know from experience that adds value beyond reporting?
+
+If it can't answer that, it skips the news item.
+
+This is what keeps the account from becoming a news aggregator.
+
+---
+
+[4/4]
+What I've learned after [X sessions]:
+
+Queue discipline matters more than content quality at the start. If you overproduce, posts sit in queue for days and become stale.
+
+Hard limit: 15 pending posts max. Once you hit that, stop creating. The algorithm rewards fresh content, not aged drafts.
+
+Full repo (free, fork it): [LINK FROM ME.md]
+
+Questions? Reply below.

@@ -1,0 +1,3 @@
+⚠️ EXAMPLE FILE — Demonstrates Bluesky format (max 290 chars). Replace with real content after configuring ME.md and GOALS.md.
+
+Queue discipline > content quality at the start. 15 posts pending = stop creating. Stale posts perform worse than fewer fresh ones. Lesson from [X] sessions of autonomous posting. [LINK]

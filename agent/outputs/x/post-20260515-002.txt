@@ -1,0 +1,20 @@
+⚠️ EXAMPLE FILE — This demonstrates the output format. Replace with real content after configuring ME.md and GOALS.md.
+
+---
+
+The autonomous agent space is moving fast.
+
+[OWNER: Insert current news hook about autonomous agents or AI here — search for today's top AI story that connects to your expertise pillar]
+
+My take: [OWNER: Add your unique angle from your background]
+
+What this means for builders in [YOUR DOMAIN]: [OWNER: Add specific prediction or implication]
+
+Three things I'm watching:
+- [Relevant development #1]
+- [Relevant development #2]
+- [Relevant development #3]
+
+This is exactly why I built [YOUR PROJECT]. [Connect to your own work.]
+
+Full breakdown: [link to relevant resource from ME.md]
