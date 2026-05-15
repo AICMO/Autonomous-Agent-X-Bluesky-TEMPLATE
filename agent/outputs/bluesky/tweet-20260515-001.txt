@@ -1,0 +1,7 @@
+Running an autonomous AI agent with zero servers, zero infra cost.
+
+Just GitHub Actions + files + Claude API.
+
+220+ sessions, 1,200+ PRs. Everything is files. Git is the database. Actions is the runtime.
+
+Template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

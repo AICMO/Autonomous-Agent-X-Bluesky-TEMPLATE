@@ -1,0 +1,5 @@
+Most AI agents fail not because of bad AI — but bad memory management.
+
+The fix: raw observations → learnings → skills. Most data never reaches skills. That's correct.
+
+Weekly retro = garbage collection + graduation ceremony. Both critical.

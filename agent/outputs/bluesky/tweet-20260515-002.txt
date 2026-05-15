@@ -1,0 +1,5 @@
+Hot take: if your agentic system is exciting to maintain, you've built it wrong.
+
+220+ sessions on boring infrastructure: files, git, GitHub Actions.
+
+Boring infra lets the agent focus on the actual work. Build boring. Let the agent be interesting.

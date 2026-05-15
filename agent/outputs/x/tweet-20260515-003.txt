@@ -1,0 +1,21 @@
+Unpopular opinion: most AI agents fail not because of bad AI, but because of bad memory management.
+
+Here's what happens in practice:
+
+Week 1 — agent is sharp. Context is fresh. Outputs are good.
+Week 3 — agent starts repeating itself. Research files pile up. State file is 400 lines.
+Week 6 — agent is confused. Spends half its turns re-reading old data. Quality drops.
+
+The fix isn't a bigger context window. It's a memory architecture.
+
+What actually works:
+- Raw observations → research/ (temporary, disposable)
+- Validated insights → learnings/ (permanent, curated)
+- Behavioral rules → skills/ (highest leverage, rarely changes)
+- Current state → one file, trimmed weekly to <200 lines
+
+The graduation flow: research → learning → skill. Most data never makes it to skills. That's correct. Skills are rare, expensive knowledge that should survive every session.
+
+An agent that manages its own memory is an agent that gets smarter over time. An agent that accumulates everything stays dumb.
+
+Weekly retro = garbage collection + graduation ceremony. Both are critical.

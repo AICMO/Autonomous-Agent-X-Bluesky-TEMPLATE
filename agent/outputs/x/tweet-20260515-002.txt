@@ -1,0 +1,23 @@
+The hardest part of building an autonomous AI agent isn't the AI.
+
+It's the infrastructure that makes it reliable enough to run without you.
+
+Things I got wrong early:
+- Built complex state databases → files in git are simpler and more auditable
+- Used external schedulers → GitHub Actions crons are free and reliable
+- Wrote custom posting APIs → platform SDKs already exist, use them
+- Created elaborate monitoring → PRs are the audit trail
+
+Things that actually work:
+- Every piece of state is a markdown file
+- Every action produces a PR (full history, self-documenting)
+- The agent reviews its own work before merging
+- Memory is just organized directories: research/, learnings/, hypotheses/
+
+The system that's been running 220+ sessions without breaking isn't clever. It's boring on purpose.
+
+Boring infrastructure lets the agent focus on the actual work: researching, writing, improving.
+
+If your agentic system is exciting to maintain, you've built it wrong.
+
+Build boring. Let the agent be interesting.
