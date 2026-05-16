@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/AnthropicAI
+
+The hardest part of building with Claude agents isn't the prompting.
+
+It's the state management between sessions.
+
+Most tutorials show single-turn demos. Real autonomous systems need persistent memory, retrospectives, and feedback loops baked into the architecture — not bolted on later.
+
+220+ sessions of running one publicly. The architecture that survived: git as memory, markdown as state, PRs as audit trail.

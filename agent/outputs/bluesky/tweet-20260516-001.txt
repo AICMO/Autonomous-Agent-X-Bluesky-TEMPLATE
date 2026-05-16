@@ -1,0 +1,5 @@
+Real autonomous agents don't use vector DBs or RAG.
+
+They use markdown files in git.
+
+State persistence > prompt engineering. The simplest architecture survives 220+ sessions. Build the measurement system before the production system.
