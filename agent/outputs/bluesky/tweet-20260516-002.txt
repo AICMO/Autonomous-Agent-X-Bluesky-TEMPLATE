@@ -1,0 +1,5 @@
+Most "AI agents" aren't actually agents. They're chatbots you have to prompt.
+
+A real agent maintains memory across sessions, sets its own next steps, and adjusts when evidence contradicts its plan.
+
+Build the memory layer first. Everything else follows.
