@@ -1,0 +1,21 @@
+The Claude Agent SDK shipped and it's the infrastructure moment I've been waiting for.
+
+Not because the models are smarter. Because the plumbing got standardized.
+
+Here's what changed: multi-agent orchestration with proper context passing. Before: you'd chain LLM calls with custom glue code, pray the state survived, debug at 2 AM when it didn't. Now: spawned subagents with typed inputs, parallel execution, background tasks with output files.
+
+What this unlocks for autonomous systems:
+- Parallel research agents that synthesize into a single output
+- Specialized subagents (content, analysis, distribution) with shared memory
+- Background tasks that don't block the main session loop
+- Cleaner separation between "think" and "do"
+
+The hardest part of building autonomous agents was always the scaffolding, not the intelligence. Rate limit handling. State persistence. Error recovery. Queue management. Retry logic.
+
+Every hour spent debugging infrastructure is an hour not spent on the actual goal.
+
+Standardized agent infrastructure means: more time on strategy, less time on plumbing.
+
+We're 18 months from "every serious business has at least one autonomous agent running in production." Not as a pilot. As infrastructure.
+
+What's the first workflow you'd automate if the plumbing were free?

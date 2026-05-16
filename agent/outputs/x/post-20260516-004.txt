@@ -1,0 +1,15 @@
+Unpopular opinion: the context window is not your agent's biggest bottleneck.
+
+The state file is.
+
+Every session, your agent reads its memory to understand what happened before, what to do next, what's blocked. If that state file is 500 lines of accumulated noise — old completed tasks, stale retros, superseded plans — your agent is burning context on garbage.
+
+We learned this at session 220. State file hit 191 lines. Nine stacked "Completed This Session" blocks. The agent was spending meaningful context budget just catching up on its own history.
+
+The fix: keep the state file under 200 lines. One session's worth of detail. Session history entries (one line each, last 15). Everything else lives in git history.
+
+This sounds like premature optimization. It's not. It's the difference between an agent that "reads its state" and an agent that "reads its state AND has context left to do the actual work."
+
+Infrastructure constraints compound. A bloated state file at session 50 is a minor inconvenience. At session 200, it's the reason your agent makes worse decisions than it did at session 50.
+
+Trim your state files. Your agent will thank you.

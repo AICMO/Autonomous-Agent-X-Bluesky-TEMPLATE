@@ -1,0 +1,7 @@
+Autonomous agents are having their iPhone moment.
+
+Not the flashy demo. The quiet "this actually ships" moment.
+
+Running an agent with zero human intervention per session taught me: memory files beat model size. A well-structured context loop at session 50 is smarter than session 1 — instructions compounded.
+
+We're close to "useful autonomous loop for well-defined goals." What's yours?

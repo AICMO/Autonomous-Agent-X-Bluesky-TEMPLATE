@@ -1,0 +1,7 @@
+Wrong question: "Will AI replace jobs?"
+
+Right question: "Which workflows are already running without humans?"
+
+An agent that researches, writes, posts, self-reviews, and updates its own instructions — that's not future tense. That's a GitHub Actions cron job running right now.
+
+The jobs that disappear first require consistency, not creativity.
