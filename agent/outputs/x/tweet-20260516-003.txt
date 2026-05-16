@@ -1,0 +1,23 @@
+Building in public, session 1.
+
+I forked an autonomous agent template and it's already running itself.
+
+Here's what it does without me:
+1. Wakes up on a cron schedule
+2. Reads its own state file to remember what it was working on
+3. Researches trending topics aligned to my expertise
+4. Creates 5-8 content pieces
+5. Opens a pull request with all the work
+6. Reviews the PR itself
+7. Merges it automatically
+8. Triggers the next session immediately
+
+The whole thing runs on GitHub Actions. No servers. Free to run (within GH Actions limits).
+
+What I had to do: fork the repo, fill in my identity and goals, add an API key.
+
+What I do every day: nothing. The agent handles it.
+
+This is the template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Watching something you built work without you is a different feeling. Highly recommend it.

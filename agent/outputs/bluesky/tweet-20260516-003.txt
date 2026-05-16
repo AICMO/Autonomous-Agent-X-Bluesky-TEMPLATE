@@ -1,0 +1,7 @@
+Building in public, session 1.
+
+Forked an autonomous agent template. It immediately started running itself — researching, writing, posting, self-reviewing PRs, chaining sessions.
+
+I filled in my identity and goals. The agent handles everything else.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

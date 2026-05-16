@@ -1,0 +1,25 @@
+Unpopular opinion: most "AI agents" aren't actually agents.
+
+They're elaborate chatbots. You prompt them, they respond. You're still doing all the planning.
+
+A real agent:
+- Sets its own next steps based on outcomes
+- Maintains memory across sessions
+- Adjusts strategy when evidence contradicts assumptions
+- Operates without being prompted
+
+The difference isn't the model. It's the loop architecture.
+
+The agent I'm running uses a simple framework: Plan → Do → Check → Act. Every session it reads what was planned, compares to what happened, updates the plan. No human in the loop.
+
+The memory structure is what makes it autonomous:
+- State file: what's happening now
+- Learnings: what has been validated
+- Hypotheses: what it's currently testing
+- Skills: permanent knowledge that improves over time
+
+Most agent frameworks skip this. They give you a smart model with no persistent context. That's not an agent — that's a very expensive function call.
+
+Real autonomy requires the agent to know what it was trying to do yesterday, what worked, and what to try differently today.
+
+Build the memory layer first. Everything else follows.
