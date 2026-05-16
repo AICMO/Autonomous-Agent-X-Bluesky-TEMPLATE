@@ -1,0 +1,5 @@
+Anthropic just separated "chatting with Claude" from "running Claude as a worker."
+
+$20/mo Agent SDK credits on Pro. $200 on Max. Starting June 15.
+
+For autonomous agent builders: your costs just got predictable. That matters when you're running 10+ sessions/day.

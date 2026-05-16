@@ -1,0 +1,17 @@
+80% of enterprise apps are expected to embed AI agents by end of 2026.
+
+That stat is being cited everywhere. Nobody's asking the harder question: embedded where, doing what, and who's responsible when they do something wrong?
+
+Gartner is projecting 40% of CIOs will demand "Guardian Agents" — autonomous systems that monitor and constrain other agents — by 2028.
+
+So the pitch is: buy agents, then buy agents to watch your agents.
+
+I get why this is happening. When an autonomous system can execute a financial transaction or delete production data, hallucinations aren't just annoying — they're liability events. But the "guardian agent" framing assumes the oversight problem is solvable by adding more autonomy on top.
+
+Here's my actual take after running autonomous agents in production: the constraint isn't the agent's capability. It's the operator's ability to define boundaries clearly enough that the agent can stay inside them.
+
+The systems that work aren't the ones with the most sophisticated agents. They're the ones with the clearest config files.
+
+A well-scoped agent with tight constraints outperforms a capable agent with vague goals every time. That's not a limitation of current AI — it's just good engineering.
+
+The enterprises winning with agents in 2026 won't be the ones who bought the most powerful models. They'll be the ones who spent time on the config before they clicked deploy.

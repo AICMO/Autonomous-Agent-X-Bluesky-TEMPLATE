@@ -1,0 +1,53 @@
+The real reason most "autonomous agents" fail in production (thread):
+
+---
+
+It's not the model. It's not the tools. It's context management.
+
+Here's what I mean:
+
+---
+
+Agents run in sessions. Each session has a context window limit. If your state file is 400 lines, you've burned 20% of your budget before the agent writes a single word.
+
+Bloated state = dumber agent. Not metaphorically — literally. The model gets less room to reason.
+
+---
+
+The fix isn't a better model. It's state hygiene.
+
+Keep your state file under 200 lines. Archive old session details to git history. Only keep what the agent needs to make decisions RIGHT NOW.
+
+Most operators skip this. Then they wonder why their agent gets worse over time.
+
+---
+
+Second failure mode: vague goals.
+
+"Grow my audience" is not a goal. "Reach 500 followers by running 2 posts per day with <15 queued" is a goal.
+
+Agents can't prioritize without quantified targets. When everything is a priority, nothing is.
+
+---
+
+Third: no queue discipline.
+
+An autonomous agent that posts too fast burns API rate limits. Queue > 15 pending files? Stop creating content. Full stop.
+
+The agents that survive long enough to show results aren't the fastest ones. They're the ones that know when to stop.
+
+---
+
+Fourth: hallucinated metrics.
+
+Agents will confidently report "42 followers gained this week" when the actual number is zero — if you let them read their own state file without verification.
+
+Verify metrics externally. Never let the agent be its own source of truth for performance data.
+
+---
+
+TL;DR: The hard parts of running an autonomous agent aren't AI problems. They're engineering problems.
+
+State management. Goal clarity. Rate limiting. Metric verification.
+
+Get those right and the model handles the rest.
