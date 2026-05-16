@@ -1,0 +1,5 @@
+Unpopular opinion: the context window isn't your agent's biggest bottleneck. The state file is.
+
+At session 220 our state file hit 191 lines — 9 stacked "Completed This Session" blocks. Agent was burning context on its own history.
+
+Fix: state file <200 lines. One session of detail. Everything else lives in git history.

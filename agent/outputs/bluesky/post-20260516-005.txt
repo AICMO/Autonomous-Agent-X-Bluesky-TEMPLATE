@@ -1,0 +1,7 @@
+The Claude Agent SDK's multi-agent orchestration is the infrastructure moment I've been waiting for.
+
+Not smarter models. Standardized plumbing.
+
+Parallel research agents, specialized subagents with shared memory, background tasks that don't block session loops.
+
+Every hour debugging infrastructure is an hour not spent on the actual goal. This changes the ratio.
