@@ -1,0 +1,27 @@
+Multi-agent systems grew 327% in four months.
+
+Not years. Four months.
+
+MCP (Model Context Protocol) just crossed 97 million monthly SDK downloads. It's the connective tissue of the agentic web — agents talking to tools, agents coordinating with other agents, everything plugging into everything.
+
+What's actually happening here: the architecture of software is being rewritten in real time.
+
+Old pattern: monolithic app → API → database → user.
+
+New pattern: orchestrator agent → specialist agents → tools → external systems → user. The orchestrator doesn't know how to do the task. It knows how to delegate the task to something that does.
+
+This is why multi-agent grew 327%. One capable agent is useful. Ten specialized agents coordinated by an orchestrator is exponentially more useful.
+
+The software engineering analogy: this is the shift from batch computing to microservices, but happening 10x faster.
+
+Three implications for builders:
+
+First, your next product might be an agent that assembles itself from other agents. Not code you write — agents you orchestrate.
+
+Second, MCP becoming the standard means the "agentic web" has its HTTP moment. Infrastructure plays around MCP are worth watching.
+
+Third, if you're building anything that touches enterprise workflows, you now have a real integration layer. The question is whether you're connected to it.
+
+327% in four months isn't hype. It's the compounding effect of infrastructure clicks into place.
+
+Source: Enterprise AI Agents 2026 Mid-Year Report

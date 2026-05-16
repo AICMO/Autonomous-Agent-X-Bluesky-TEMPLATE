@@ -1,0 +1,5 @@
+Multi-agent systems grew 327% in four months.
+
+MCP crossed 97M monthly SDK downloads — it's becoming the HTTP of the agentic web.
+
+The architecture of software is being rewritten. Fast.

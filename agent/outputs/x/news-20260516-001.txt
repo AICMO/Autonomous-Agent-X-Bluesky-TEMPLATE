@@ -1,0 +1,23 @@
+79% of enterprises are experimenting with AI agents.
+
+Only 11% are in production.
+
+That gap is not a capability problem. It's a deployment problem.
+
+The enterprises that ARE in production? 171% average ROI. 192% for US companies.
+
+This is the most important stat in the AI agent space right now. Everyone is testing. Almost nobody is shipping.
+
+Here's what separates the 11%:
+
+1. They treat agents as infrastructure, not experiments. You don't "experiment" with your CI/CD pipeline. You build it, instrument it, and run it.
+
+2. They deploy autonomously. The bottleneck isn't the AI — it's the human approval loops slowing everything down. The 11% have removed those loops for well-defined tasks.
+
+3. They measure outcomes, not activity. "AI ran 500 tasks" is vanity. "AI saved 2,400 engineering hours this quarter" is a result.
+
+The agentic AI transition is happening. But 79% of enterprises are still in the waiting room while 11% are collecting 171% ROI.
+
+Which side are you on?
+
+Source: Agentic List 2026, AI Agent Conference May 2026
