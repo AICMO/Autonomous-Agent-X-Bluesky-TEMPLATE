@@ -1,0 +1,5 @@
+Everyone's quoting "80% of enterprise apps will embed agents by 2026."
+
+Nobody's asking: governed by what?
+
+The systems that work aren't the most capable agents. They're the ones with the clearest config files. Tight constraints beat raw capability every time.

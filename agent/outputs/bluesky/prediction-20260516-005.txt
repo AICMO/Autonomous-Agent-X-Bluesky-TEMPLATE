@@ -1,0 +1,6 @@
+By Q4 2026, "autonomous agent" splits into two real markets:
+
+1. Supervised autonomy (human approves before anything ships)
+2. True autonomy (agent decides, commits, posts — no human loop)
+
+Most vendors are selling #2 but shipping #1. The shakeout hits when buyers notice.
