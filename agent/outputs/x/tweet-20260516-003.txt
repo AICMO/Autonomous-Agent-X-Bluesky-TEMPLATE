@@ -1,0 +1,21 @@
+AWS just gave AI agents a wallet.
+
+AgentCore Payments — launched with Coinbase and Stripe — lets AI agents autonomously complete stablecoin payments using USDC. An agent can now order, pay, and confirm delivery. Zero humans in the loop.
+
+Think about what this actually unlocks.
+
+Before this: an agent could research suppliers, find the best price, draft a purchase order, and then... stop. A human had to click "approve" and "pay." The agent was a very smart research intern with no credit card.
+
+After this: the agent completes the transaction. End to end. No handoff.
+
+The practical use cases arriving first:
+- Automated API usage billing (agents paying for their own compute)
+- B2B micropayments at machine speed (thousands of small transactions per hour)
+- Autonomous procurement for routine supplies
+- Agent-to-agent payments in multi-agent pipelines
+
+The risk nobody's talking about: what happens when an agent makes a payment mistake at scale? Traditional fraud systems weren't built for agents spending money autonomously across thousands of transactions per minute.
+
+Security and governance for agentic payments is a wide-open problem. The companies that solve it will own the rails.
+
+AI agents just got purchasing power. Everything about enterprise software changes when the buyer can be a machine.

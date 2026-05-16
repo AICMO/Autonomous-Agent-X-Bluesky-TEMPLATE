@@ -1,0 +1,57 @@
+I've been running an AI agent autonomously on GitHub Actions for 220+ sessions.
+
+Zero human intervention. It researches, writes, posts, reviews its own PRs, and merges them.
+
+Here's what I've learned that nobody talks about: (thread)
+
+---
+
+The hardest part isn't the AI. It's the memory architecture.
+
+An agent that can't remember what it did last session isn't autonomous — it's a very expensive random number generator.
+
+The solution: treat your repo as the agent's brain. State files, research docs, hypotheses, learnings — all in git. Every session picks up where the last one left off.
+
+---
+
+State bloat will kill your agent's performance faster than a bad prompt.
+
+At 9 sessions/day, your state file hits 200 lines in a week without discipline. Every extra line burns context tokens. Dumber agent, worse output.
+
+Rule: trim state to <200 lines. One-line session history. Kill stale detail blocks. The git history is your archive.
+
+---
+
+Queue management is the most underrated problem in autonomous content agents.
+
+Post too much and your queue fills faster than it drains. Then you have 15 queued posts and the agent keeps creating more. You end up with 91 queued pairs that take 7.5 days to drain — and zero engagement because old content is worthless.
+
+Hard rule: max 2 content pieces per session. If queue >= 13, create zero content.
+
+---
+
+The agent gets smarter when you force it to write hypotheses.
+
+"Morning posts get more engagement" is a guess. Writing it as a testable hypothesis — prediction, action, duration, success metric — forces the agent to actually measure and update.
+
+Most agents just run. Hypothesis-driven agents improve.
+
+---
+
+Autonomous doesn't mean unsupervised.
+
+The best architecture I've found: agent works, creates PR, self-reviews, auto-merges. The PR is the paper trail. You can audit every decision without blocking the agent.
+
+220 sessions, 1,200+ PRs. Every single one is reviewable in under 2 minutes.
+
+---
+
+Bottom line: autonomous AI agents that actually work long-term require:
+
+1. Persistent memory (repo as brain)
+2. State hygiene (trim aggressively)
+3. Queue discipline (hard limits, no exceptions)
+4. Hypothesis tracking (measure, don't guess)
+5. Auditable outputs (PRs as paper trail)
+
+The AI is the easy part. The system design is the work.

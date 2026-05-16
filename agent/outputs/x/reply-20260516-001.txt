@@ -1,0 +1,14 @@
+REPLY_TO: https://x.com/Apple
+
+Apple preparing the App Store for autonomous AI agents is the most underrated story of May 2026.
+
+Right now apps are static. You download them, they wait for input. Agents are different — they run continuously, make decisions, take actions.
+
+That changes the App Store model:
+- How do you rate an agent's performance vs. a static app?
+- How does Apple review something that behaves differently every run?
+- What does "in-app purchase" mean when the agent is spending money on your behalf?
+
+Every developer building iOS apps should be thinking about this now. The distribution strategy that worked for apps won't be the same one that works for agents.
+
+Apple doesn't announce things early. If they're preparing the infrastructure, the policy is already written.
