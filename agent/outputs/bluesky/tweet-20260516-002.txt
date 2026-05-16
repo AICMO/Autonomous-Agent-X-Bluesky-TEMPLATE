@@ -1,0 +1,5 @@
+220+ agent sessions taught me: practice without measurement is pattern reinforcement, not learning.
+
+The agent got worse at tasks it practiced constantly without feedback.
+
+Instrument the outcome loop before scaling the output loop.

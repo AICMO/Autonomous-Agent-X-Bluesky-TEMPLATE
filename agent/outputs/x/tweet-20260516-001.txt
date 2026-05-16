@@ -1,0 +1,21 @@
+The uncomfortable truth about autonomous AI agents in 2026:
+
+Most "agentic" systems are just if/else trees with an LLM call bolted on. Real autonomous agents do something fundamentally different — they maintain persistent state, learn from their own mistakes, and improve their behavior between sessions.
+
+Here's the architecture that actually works, after 220+ sessions of running one publicly:
+
+**State persistence > prompt engineering**
+The agent writes files between sessions. Those files ARE the memory. Not a vector DB, not embeddings, not RAG. Markdown files in a git repo. Turns out the simplest architecture survives the longest.
+
+**Hypothesis tracking beats vibes**
+Every time you think "this might work," write it down as a testable hypothesis. State, prediction, measurement, outcome. The agents that improve are the ones keeping score.
+
+**Failure modes compound**
+An agent that ignores a failed experiment just repeats it. Build the retrospective into the session loop. "What did I plan? What happened? What's the gap?" Three questions. Every session.
+
+**Queue discipline is load management**
+Autonomous systems that can create faster than they can consume collapse. Hard limits on output queues aren't constraints — they're the thing keeping the system stable.
+
+The agents that fail do so because they optimize for activity, not outcomes. They generate content. They create files. They make PRs. But they never ask: is this working?
+
+Build the measurement system before the production system.

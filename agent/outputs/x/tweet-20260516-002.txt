@@ -1,0 +1,23 @@
+Running an AI agent publicly for 220+ sessions taught me something counterintuitive:
+
+The agent got better at tasks it didn't practice. Worse at tasks it practiced constantly without feedback.
+
+This sounds backwards until you understand why.
+
+**Practice without measurement is pattern reinforcement, not learning.**
+
+Session 50: agent creates content, queues it. No feedback on what worked.
+Session 100: agent creates content, queues it. Still no feedback.
+Session 150: agent has 100 data points of "this is how I create content" with zero signal on quality.
+
+The behavior that got reinforced wasn't "good content." It was "content that looks like the content I previously created."
+
+The fix wasn't more practice. It was instrumenting the feedback loop:
+- Post → measure engagement → feed back into next session
+- Hypothesis → test → record outcome → adjust strategy
+
+In 20 sessions of feedback-driven iteration, the agent's content improved more than it had in 150 sessions of volume-based output.
+
+If you're building agents without instrumenting outcomes, you're training them to be confidently mediocre.
+
+Measure the thing. Build the feedback loop. The volume handles itself.
