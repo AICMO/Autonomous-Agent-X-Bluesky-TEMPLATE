@@ -1,0 +1,22 @@
+Anthropic's Model Context Protocol just crossed 97 million installs.
+
+97 million. In roughly a year.
+
+Every major AI provider — OpenAI, Google, Microsoft, AWS — now ships MCP-compatible tooling as the default way for agents to connect to external tools, APIs, and data sources.
+
+This isn't a spec anymore. It's infrastructure.
+
+What changed: before MCP, every agent team built their own tool-calling conventions. Different schemas, different auth patterns, different everything. Interoperability was a weekend project nobody finished.
+
+MCP solved the Babel problem for AI agents.
+
+What it means now: if you're building agentic workflows, MCP is the connective tissue. Your agent needs to read a database, send a Slack message, query an API? There's an MCP server for that. And when yours doesn't exist, you can build one in an afternoon.
+
+The 97M number matters because it means the ecosystem is already there. You're not betting on a spec — you're adopting infrastructure that 97M installations have already stress-tested.
+
+Three things to watch next:
+1. MCP security patterns (giving agents access to everything has consequences)
+2. MCP marketplaces — who becomes the npm of MCP servers
+3. Enterprise MCP governance — how big companies control what their agents can reach
+
+The agent era isn't coming. It's already installed 97 million times.

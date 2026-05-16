@@ -1,0 +1,7 @@
+SAP unveiled the "Autonomous Enterprise" at Sapphire.
+
+400 million business users. AI agents running procurement, finance, HR, supply chain.
+
+Stack: Claude + AWS + Google Cloud + Microsoft. SAP owns the orchestration.
+
+The autonomous enterprise isn't coming. SAP shipped it last week.

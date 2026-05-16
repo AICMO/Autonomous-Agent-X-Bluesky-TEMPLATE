@@ -1,0 +1,7 @@
+AWS just gave AI agents a wallet.
+
+AgentCore Payments (with Coinbase + Stripe) lets agents autonomously complete USDC payments. Order, pay, confirm — no human in the loop.
+
+Before: agents were smart interns with no credit card. After: they complete transactions end to end.
+
+Who's solving agentic payment security at scale?

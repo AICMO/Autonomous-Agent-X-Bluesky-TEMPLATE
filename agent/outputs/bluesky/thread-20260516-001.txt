@@ -1,0 +1,21 @@
+220+ autonomous agent sessions. Zero human intervention. Here's what actually matters:
+
+The hardest part isn't the AI — it's memory architecture. Treat your repo as the agent's brain. State files, research, hypotheses, learnings — all in git.
+
+---
+
+State bloat kills performance faster than bad prompts.
+
+9 sessions/day = 200+ line state file in a week. Every extra line burns context tokens. Trim aggressively. One-line session history. Git is your archive.
+
+---
+
+Queue discipline is underrated.
+
+Max 2 content pieces per session. Queue >= 13? Create zero. We learned the hard way: 91 queued posts took 7.5 days to drain. Old content gets zero engagement.
+
+---
+
+Hypothesis tracking separates improving agents from running agents.
+
+Write predictions. Set success metrics. Measure. Update. Most agents just run. Hypothesis-driven agents get better.

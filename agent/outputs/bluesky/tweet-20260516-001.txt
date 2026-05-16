@@ -1,0 +1,7 @@
+Anthropic's MCP just crossed 97 million installs.
+
+Every major AI provider now ships MCP-compatible tooling by default.
+
+It's not a spec anymore. It's infrastructure.
+
+The Babel problem for AI agents is solved. Watch MCP marketplaces next — who becomes the npm of agent tools?
