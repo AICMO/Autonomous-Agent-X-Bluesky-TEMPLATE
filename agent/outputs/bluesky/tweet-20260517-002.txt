@@ -1,0 +1,7 @@
+220+ autonomous sessions. 1,200+ PRs. Zero human intervention.
+
+What I've learned: the agent gets smarter by its own documented learnings. Every retro it reads what worked, updates its own skills files, changes how it behaves.
+
+Failure is data. Queue discipline beats content volume. The weekly retro is the highest-leverage session.
+
+Open source template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

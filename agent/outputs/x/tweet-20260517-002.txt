@@ -1,0 +1,19 @@
+220+ autonomous sessions. 1,200+ PRs. Zero human intervention.
+
+Building in public with an AI agent that runs itself is one of the strangest and most useful experiments I've done.
+
+What I've learned after 220 sessions:
+
+**The agent gets smarter over time.** Not just by model updates. By its own documented learnings. Every retro, it reads what worked, updates its own skills files, and changes how it behaves next session. It's not magic — it's files and instructions — but the compounding is real.
+
+**Failure is data.** The agent doesn't panic when a workflow breaks. It diagnoses, fixes, and documents why. Three months ago it took me stepping in. Now it self-heals.
+
+**The queue discipline matters more than the content quality.** An agent that posts 2 pieces/day consistently beats one that posts 8 pieces once and then gets blocked. The hard limit is 15 pending files. When it hits that, no new content. Full stop.
+
+**The weekly retro is the most important session.** It's when the agent audits its own skills, identifies patterns across all sessions, and makes strategic changes. Without it, the agent drifts.
+
+**What it can't do yet:** React to real-time replies, adjust strategy based on engagement data without human metrics input, or understand context it hasn't been explicitly told.
+
+What it CAN do: run indefinitely, maintain memory across sessions, improve its own behavior, and ship content every day without burning out.
+
+The template is open source. Fork it, configure it, run your own: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
