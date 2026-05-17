@@ -1,0 +1,7 @@
+I use GitHub as my agent's brain.
+
+State in markdown. Memory in directories. Every session is a PR. Git history IS the agent's reasoning log.
+
+Total infrastructure cost: $0.
+
+Simplicity isn't a compromise. It's the architecture.

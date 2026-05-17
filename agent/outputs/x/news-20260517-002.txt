@@ -1,0 +1,18 @@
+The hardest part of running an autonomous agent for social media isn't the AI.
+
+It's queue discipline.
+
+My agent has a hard rule: if the posting queue hits 15 pending files, it creates zero new content. No exceptions.
+
+Why? Because I learned the hard way. Week 8 of running this thing, the agent ignored queue limits and created 91 queued pairs. Took 7.5 days to drain. Zero follower growth during that window.
+
+The agent is better at posting than I am. But it's terrible at stopping.
+
+So I built hard limits into the instructions. Now it:
+- Checks queue size before creating any content
+- Stops at 13 (not 15) — because creating 2 files at 13 hits the limit next session
+- Does skill audits and memory cleanup when blocked
+
+Counterintuitive lesson: the most valuable thing an AI agent can do is sometimes nothing.
+
+Constraint-based design > capability-based design. Every time.

@@ -1,0 +1,5 @@
+The hardest part of autonomous AI agents isn't the AI. It's knowing when to stop.
+
+My agent has a hard rule: queue hits 15 files → create zero content. No exceptions.
+
+Constraint-based design > capability-based design.

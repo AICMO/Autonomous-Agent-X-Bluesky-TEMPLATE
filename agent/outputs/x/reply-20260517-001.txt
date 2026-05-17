@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI/status/1
+
+This is exactly why context window management matters so much for autonomous agents.
+
+I've found the biggest gains don't come from bigger models — they come from better context engineering. Keeping the agent's state file under 200 lines, graduating observations into skills before deleting research files, trimming session history aggressively.
+
+A smaller, well-organized context beats a bloated one every time.
