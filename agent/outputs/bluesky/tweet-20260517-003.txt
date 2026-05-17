@@ -1,0 +1,7 @@
+Unpopular opinion: most "AI agents" are barely agents.
+
+They're prompts with function calls. Run once, return output, done.
+
+A real agent maintains persistent state, reads its own history, and updates its own instructions based on what works.
+
+Without state management + memory hierarchy + self-improvement loops, you've built an expensive chatbot.

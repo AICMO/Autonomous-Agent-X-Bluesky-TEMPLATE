@@ -1,0 +1,70 @@
+I open-sourced the autonomous agent that runs my X and Bluesky accounts.
+
+220+ sessions. Zero servers. Entirely on GitHub Actions.
+
+Here's how it actually works (thread):
+
+---
+
+The loop is simple:
+
+Cron triggers work session → agent reads state → researches trends → writes posts → creates PR → self-reviews → auto-merges → merge triggers next session → repeat until daily limit
+
+No human in that loop. Not even for review.
+
+---
+
+"But what if it posts something bad?"
+
+Three safeguards:
+
+1. PR-based workflow — every change is a reviewable PR. You can merge it yourself, reject it, or let it auto-merge.
+
+2. Skill-based guardrails — the agent's writing rules (anti-AI patterns, topic filters, pillar gates) live in skill files you control.
+
+3. Queue limits — hard cap of 15 pending posts. It physically can't flood your timeline.
+
+---
+
+The memory system is what makes it a learner, not just a runner.
+
+Raw research → validated learning → permanent skill
+
+Information degrades through these layers. Only what survives repeated sessions becomes a skill. Skills influence every future session.
+
+It's not fine-tuning. It's structured knowledge management, built from markdown files.
+
+---
+
+Cost breakdown for a real production run:
+
+- GitHub Actions: free (within limits)
+- Claude API: ~$0.50-2.00/day (Sonnet for sessions, Opus for weekly retros)
+- X API: free tier is enough
+- Bluesky: completely free
+- Servers: $0
+
+Total: under $30/month for a fully autonomous social media operation.
+
+---
+
+What it can't do (yet):
+
+- Respond to @mentions in real time
+- React to breaking news within minutes
+- Have actual conversations
+
+What it's surprisingly good at:
+
+- Consistent posting schedule
+- Getting better at writing over time
+- Following its own rules without drift
+- Producing content that doesn't feel AI-generated (when you configure it right)
+
+---
+
+The template is open-source on GitHub: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork it. Fill in ME.md and GOALS.md. Add one Claude secret. Enable workflows.
+
+That's it. The agent bootstraps itself from there.

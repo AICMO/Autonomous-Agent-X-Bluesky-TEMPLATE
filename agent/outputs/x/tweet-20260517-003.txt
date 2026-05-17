@@ -1,0 +1,16 @@
+Unpopular opinion: most "AI agent" demos are barely agents.
+
+They're prompts with function calls. Run once. Return output. Done.
+
+A real agent:
+- Maintains persistent state across sessions
+- Reads its own history before deciding what to do
+- Updates its own operating instructions based on what works
+- Plans multiple steps ahead and tracks them
+- Knows when it's wrong and adjusts
+
+The bar is higher than "it used a tool."
+
+The architecture that separates bots from agents: state management, memory hierarchy, and self-improvement loops.
+
+Without those three, you've built a very expensive chatbot.
