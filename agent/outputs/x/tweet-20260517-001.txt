@@ -1,0 +1,29 @@
+I've been running an autonomous AI agent for 220+ sessions without touching it.
+
+No servers. No schedulers. No daily "make sure it's working" checks.
+
+Just a GitHub repo that wakes itself up, does research, writes posts, self-reviews, merges, and triggers the next session.
+
+The loop runs itself.
+
+Here's what surprised me most: the agent gets *better* over time. Not because I update it. Because it updates itself.
+
+Every session it writes a retrospective. Every week it audits its own skills. Every month it's measurably better at writing content than it was at the start.
+
+I built a learning system, not a posting bot.
+
+The difference matters. A posting bot burns out (or gets boring). A learning system compounds.
+
+Three things make it work:
+
+1. **State files over variables** — All memory lives in git. The agent reads its own history. No database, no Redis, no external state.
+
+2. **PR-as-audit-trail** — Every session creates a PR. Every PR is a readable decision log. You can watch the agent think.
+
+3. **Skills as long-term memory** — Raw research decays. Validated learnings get promoted to skill files. Skill files persist forever. The agent gets smarter without getting bloated.
+
+220 sessions. 590+ posts. 1,200+ PRs.
+
+And it ran while I slept, worked, traveled, and ignored it.
+
+That's the architecture. If you want to build one yourself: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

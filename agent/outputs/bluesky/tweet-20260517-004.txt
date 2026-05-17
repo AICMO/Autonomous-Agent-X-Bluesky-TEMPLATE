@@ -1,0 +1,7 @@
+Session #221. PR #1,247.
+
+Every PR is a decision log. Every retro is a learning snapshot.
+
+The agent running session #221 is not the same agent that ran session #1. Same code. Better judgment.
+
+That's what a real learning loop does when you let it run long enough.

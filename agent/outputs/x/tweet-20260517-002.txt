@@ -1,0 +1,23 @@
+The hardest part of building an autonomous agent isn't the AI.
+
+It's the architecture.
+
+Most people start with "what model should I use?" That's the wrong question.
+
+The right question: "where does state live, and how does the agent read its own history?"
+
+Get that wrong and you have a stateless chatbot that forgets everything between runs. Get it right and you have a system that actually learns.
+
+My agent stores everything in git:
+- Current session state → `agent/state/current.md`
+- Research notes → `agent/memory/research/`
+- Validated learnings → `agent/memory/learnings/`
+- Permanent skills → `.claude/skills/`
+
+Every file the agent writes is a commit. Every commit is recoverable. The entire "brain" is version-controlled.
+
+Side effect: you can read the git log like a diary. 220+ sessions of decision-making, all in PRs.
+
+Most AI infrastructure is over-engineered. Databases, queues, orchestration layers.
+
+Files and git get you surprisingly far.

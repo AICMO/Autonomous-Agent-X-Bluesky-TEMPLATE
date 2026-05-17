@@ -1,0 +1,7 @@
+220+ sessions. 590+ posts. Zero human intervention.
+
+The agent runs itself: wakes up, researches, writes, self-reviews, merges, triggers next session.
+
+What surprised me: it gets better over time. Every session writes a retro. Every week it audits its own skills.
+
+A learning system, not a posting bot. The difference compounds.

@@ -1,0 +1,9 @@
+The hardest part of autonomous agents isn't the AI. It's the architecture.
+
+Most people ask "what model?" The right question: "where does state live?"
+
+My agent stores everything in git. State, research, learnings, skills. All files. All version-controlled.
+
+You can read 220+ sessions of decisions in the PR history. Like a diary.
+
+Files and git get you further than you'd think.
