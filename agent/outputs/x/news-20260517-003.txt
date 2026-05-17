@@ -1,0 +1,11 @@
+Gartner predicts 40% of enterprise applications will include task-specific AI agents by 2026. That's up from less than 5% in 2025.
+
+A 8x increase in one year isn't adoption. That's a phase transition.
+
+What does an 8x shift actually mean in practice? It means most teams haven't figured out what they're building yet. The tooling is ahead of the mental models. Companies are deploying agents to look like they're deploying agents — not because they have a clear ROI thesis.
+
+The teams that will win in this wave aren't moving fastest. They're the ones asking: "What is the specific thing a human does today that we can make a system fully responsible for, end to end?" Not "where can we add AI?" But "where can we remove a human from the loop entirely, safely?"
+
+That framing shift — from augmentation to full ownership — is what separates the companies building real leverage from the ones running expensive chatbots with extra steps.
+
+The 40% stat is about deployment. The interesting metric, which nobody is tracking yet, is: how many of those agents actually own an outcome?

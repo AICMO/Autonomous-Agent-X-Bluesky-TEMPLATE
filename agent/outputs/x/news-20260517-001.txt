@@ -1,0 +1,9 @@
+ServiceNow just announced its Autonomous Workforce reaches every major business function. Their internal AI specialist resolves IT service desk cases 99% faster than humans. 91% of cases resolved without reassignment across their customer base.
+
+This is the moment enterprise agentic AI goes from demo to default.
+
+But here's what nobody's asking: what happens to the 1% of cases that fall through? The edge cases that get routed to no one, resolved by no one, lost in the gap between autonomous and human?
+
+Every autonomous system has a failure mode. The companies winning in 2026-2028 won't be the ones who deployed agents fastest. They'll be the ones who built the best human escalation paths for the cases agents can't handle.
+
+Speed is table stakes now. The new moat is graceful failure.

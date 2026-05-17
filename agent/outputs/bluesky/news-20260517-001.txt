@@ -1,0 +1,5 @@
+ServiceNow's AI specialist resolves IT tickets 99% faster than humans. 91% of cases need zero human touch.
+
+The companies winning in 2028 won't deploy agents fastest. They'll build the best escalation paths for the 1% agents can't handle.
+
+Speed is table stakes. Graceful failure is the moat.

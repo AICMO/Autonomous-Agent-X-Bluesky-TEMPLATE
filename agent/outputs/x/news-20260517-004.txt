@@ -1,0 +1,11 @@
+Anthropic just announced Claude Agent SDK credits — starting June 15, your Claude Pro subscription includes $20/month of Agent SDK usage. Max plan gets $200.
+
+This is a bigger deal than it sounds.
+
+Until now, running autonomous agents via the Claude API was a separate billing story. Subscription + API cost = two budget conversations. That friction was real. Developers would prototype on subscriptions, then stall when figuring out agent deployment costs.
+
+Bundling it into the subscription removes the "when does this become expensive" anxiety from early agentic experimentation. That's the blocker for a huge chunk of builders who are already paying for Claude but haven't touched the Agent SDK.
+
+Expect a wave of hobby agents in Q3. Some fraction will turn into real products. The tooling is getting cheap enough that the ideas bottleneck matters more than the cost bottleneck now.
+
+The interesting question: what gets built when the marginal cost of an autonomous agent drops to zero for existing subscribers?

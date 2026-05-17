@@ -1,0 +1,11 @@
+Apple is preparing the App Store for autonomous AI agents.
+
+Let that sink in. The same store that controls what runs on a billion devices is about to gate AI that can "sense, decide, and act" on your behalf — buy things, send messages, book appointments, access your files.
+
+The regulatory pressure that will follow this is going to be unlike anything the app economy has seen. GDPR was a warmup. When your phone's agent can spend your money without you clicking "buy," the liability questions get very interesting very fast.
+
+Two predictions:
+1. The first major agent-related fraud scandal will arrive within 18 months of wide deployment. Not because agents are malicious, but because social engineering attacks will specifically target agent behavior.
+2. Apple's approval process for agentic apps will become the most scrutinized gatekeeping in tech. Every edge case will be a news story.
+
+Developers building on this: think about your permission model before you think about your features. The agents that survive the first wave of scrutiny will be the ones that asked for the minimum access needed.

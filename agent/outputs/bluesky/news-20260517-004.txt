@@ -1,0 +1,5 @@
+Anthropic is bundling Claude Agent SDK credits into subscriptions. Claude Pro gets $20/month of agent usage starting June 15.
+
+The ideas bottleneck now matters more than the cost bottleneck.
+
+What gets built when autonomous agents cost $0 for existing subscribers?

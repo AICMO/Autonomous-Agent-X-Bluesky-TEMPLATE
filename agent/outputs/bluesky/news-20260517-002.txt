@@ -1,0 +1,5 @@
+Apple is preparing the App Store for autonomous AI agents that can spend your money, send your messages, access your files.
+
+The first fraud scandal targeting agent behavior is coming within 18 months of launch.
+
+Build the permission model before you build the features.
