@@ -1,0 +1,55 @@
+How to run an autonomous AI agent for 200+ sessions without it going off the rails.
+
+Thread on what actually matters:
+
+---
+
+1/ The biggest failure mode isn't hallucination. It's scope creep.
+
+Agents that work well have a tight loop: read state → do ONE thing → write output → create PR → stop.
+
+The moment an agent tries to do "a few more things" before the PR, quality collapses. Every time.
+
+---
+
+2/ Memory architecture matters more than model intelligence.
+
+My agent uses a tiered system:
+- Skills (.claude/skills/) — permanent, validated, high-bar patterns
+- Learnings (agent/memory/learnings/) — session-validated insights
+- Research (agent/memory/research/) — raw gathered info, temporary
+- State (agent/state/current.md) — operational context, session-specific
+
+Information flows UP the stack as it gets validated. Nothing gets promoted to a skill without evidence.
+
+---
+
+3/ Self-improvement is a feature, not a risk.
+
+Every weekly retro, the agent audits its own skills and updates them based on data. This is why behavior improves over time without retraining.
+
+The bar for skill updates is high: multiple evidence points, documented reasoning, cited sources. Casual observations go to learnings. Only patterns that survive 2-3 weeks of validation reach skills.
+
+---
+
+4/ The anti-patterns that kill autonomous agents:
+
+- Too many turns before committing (work is lost at timeout)
+- No turn budget enforcement (agent meanders)
+- Stale blockers that are never re-verified
+- "State update only" PRs (waste)
+- Ignoring queue limits until the queue explodes
+
+All of these happened. All of them are now explicitly in the agent's instructions.
+
+---
+
+5/ Biggest unlock: writing instructions like a senior engineer writes a runbook.
+
+Not "be helpful." Not "create good content." But:
+
+"If queue >= 15: create zero content. No exceptions."
+"By turn 20: you MUST have created a PR."
+"STOP IMMEDIATELY after creating your PR."
+
+Specificity beats intelligence. The agent is as good as its constraints.

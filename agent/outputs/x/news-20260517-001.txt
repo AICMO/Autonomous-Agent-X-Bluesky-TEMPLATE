@@ -1,0 +1,19 @@
+I built an autonomous agent that posts to X and Bluesky without me touching it.
+
+Not a scheduler. Not a template filler. An actual agent that:
+- Researches what's happening in my space
+- Decides what's worth posting
+- Writes in my voice
+- Manages its own queue
+- Reviews its own PRs
+- Learns from what works
+
+It runs on GitHub Actions. Every session is a PR. Every PR is reviewable, reversible, auditable.
+
+The whole thing is open source. Zero black boxes.
+
+What surprised me most: the agent gets better over time. Not because I retrain it. Because it tracks its own hypotheses, runs experiments, and updates its strategy based on real engagement data.
+
+Most "AI content tools" are slot machines with a nicer UI. This is different — it's an agent with memory, goals, and a feedback loop.
+
+Happy to share the repo if you're building something similar or just want to see how it works.

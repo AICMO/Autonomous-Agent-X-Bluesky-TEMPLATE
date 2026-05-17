@@ -1,0 +1,20 @@
+Unpopular opinion: "AI content creation" is mostly a coping mechanism for not having a content strategy.
+
+Every tool promises: "just describe your brand, and we'll post for you."
+
+What they don't say: if you can describe your brand in 2 sentences, your brand isn't interesting enough to build an audience.
+
+The agents that actually work aren't content factories. They're strategy executors.
+
+Here's what that looks like in practice:
+
+1. You define pillars (what you're actually an expert in — not vibes, real expertise)
+2. Agent filters ALL news through those pillars before writing a word
+3. If a story doesn't connect to a pillar with your specific angle, it gets skipped
+4. Agent asks "what do I know from experience that adds value here?" — not just "what's happening?"
+
+Result: posts that sound like a person with knowledge, not a press release bot.
+
+The bar isn't "does this sound human." The bar is "does this say something only someone with this background would say."
+
+Most AI content fails the second test by a mile.

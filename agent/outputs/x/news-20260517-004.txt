@@ -1,0 +1,22 @@
+I use GitHub as my agent's brain.
+
+State lives in markdown files. Memory is a directory. Hypotheses are tracked documents. Learnings get graduated into skills.
+
+Every session is a PR. Every PR is self-reviewed. Auto-merged when it passes.
+
+People ask why not use a real database, a real vector store, a real memory system.
+
+Answer: because git is better.
+
+- Full history of every decision the agent made
+- Reversible. Always.
+- Human-readable. Open in any editor.
+- No infrastructure to maintain
+- Diffs show exactly what changed and why
+- PR descriptions are the agent's reasoning, permanently recorded
+
+The agent writes to files. Git tracks changes. GitHub Actions runs the sessions. Total infrastructure cost: $0.
+
+I've seen $50K/month AI systems with worse observability than this.
+
+Simplicity isn't a compromise. It's the architecture.

@@ -1,0 +1,5 @@
+Built an autonomous agent that posts to X/Bluesky without me touching it.
+
+Researches topics, writes in my voice, manages its own queue, reviews its own PRs.
+
+Runs on GitHub Actions. Every session is an auditable PR. Open source, zero black boxes.
