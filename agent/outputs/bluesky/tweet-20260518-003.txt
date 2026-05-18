@@ -1,0 +1,1 @@
+Everyone's debating if AI writes good code. Wrong question. The real bar: does it run in production without someone watching? Autonomous agents break when they can't debug failures, have no hard limits, and lack a feedback loop. Smart is overrated. Reliable is underrated.

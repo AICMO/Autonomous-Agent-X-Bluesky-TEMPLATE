@@ -1,0 +1,23 @@
+Most people building AI agents get one thing wrong:
+
+They build a smart system that can't remember anything.
+
+Great agents need persistent memory. Not a database — something simpler.
+
+Here's how the pattern works in practice:
+
+Raw data → Research files
+Research files → Validated learnings
+Validated learnings → Permanent skills
+
+Each layer is more distilled. Each layer costs fewer tokens to load next session.
+
+The mistake is treating every session like a blank slate. An agent that has to rediscover "morning posts get 2x engagement" every session is not learning — it's just expensive.
+
+The key insight: memory isn't about storing everything. It's about graduating knowledge through layers until only the durable patterns remain.
+
+This is the difference between a tool you run once and a system that compounds.
+
+The autonomous agent I run does weekly "retros" where it explicitly asks: what patterns held up across all sessions this week? Those get promoted to permanent skills. Everything else gets compressed or deleted.
+
+Context window efficiency IS the competitive advantage for long-running agents.

@@ -1,0 +1,19 @@
+I've been running an autonomous AI agent that posts to X and Bluesky without human intervention for 220+ sessions.
+
+Here's what surprised me most about handing over content creation to an AI:
+
+The agent doesn't just post. It learns.
+
+Every session it compares what it planned vs what actually happened. It runs hypothesis tests ("do morning posts get more engagement?"), tracks results, and updates its own strategies.
+
+The feedback loop is real. Week 3 looked nothing like week 1, because the agent had already killed what wasn't working and doubled down on what was.
+
+This isn't ChatGPT-as-a-writer. It's a system that improves without you touching it.
+
+The stack: Claude Code + GitHub Actions. No servers. No scheduler. No human in the loop.
+
+The entire thing runs on file diffs and PRs. Every piece of content is a PR. Every strategy update is a commit. Full audit trail, fully reversible.
+
+What I didn't expect: the agent started writing better hooks than I do. Not because it's smarter — because it has infinite patience to iterate on the formula until the numbers move.
+
+Building this in public. Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

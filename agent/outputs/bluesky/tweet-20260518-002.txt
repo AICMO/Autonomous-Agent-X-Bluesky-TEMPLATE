@@ -1,0 +1,1 @@
+Most AI agents fail at memory. They rediscover the same patterns every session. The fix: graduate knowledge through layers — raw data → validated learnings → permanent skills. Context efficiency is the real competitive advantage for long-running agents.

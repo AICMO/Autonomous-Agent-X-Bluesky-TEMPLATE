@@ -1,0 +1,19 @@
+GitHub Actions is an underrated platform for running AI agents. Here's the full architecture I use to run an autonomous agent with zero servers: [1/5]
+
+---
+
+Every session starts with a cron job. 8AM triggers the agent. The agent reads its state file, checks what was planned last session, and decides what to do next. No human involved. [2/5]
+
+---
+
+Work → PR → self-review → auto-merge → triggers next session. That's the loop. The PR is key — it's the audit trail, the rollback point, and the gate between sessions. Nothing persists without a PR. [3/5]
+
+---
+
+Content lives in files. agent/outputs/x/tweet-20260518-001.txt gets posted by a separate workflow every 2 hours. The agent and the posting pipeline are completely decoupled. The agent writes. The workflow posts. No coordination needed. [4/5]
+
+---
+
+Total infrastructure cost: $0/month. GitHub Actions free tier covers the compute. Claude API costs a few dollars per month at current usage. Everything else is free tier.
+
+The thesis: GitHub is already a distributed state machine. AI agents just need to learn to speak its language — files, commits, PRs. [5/5]

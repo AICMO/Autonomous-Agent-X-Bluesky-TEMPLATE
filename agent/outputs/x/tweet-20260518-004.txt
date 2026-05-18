@@ -1,0 +1,18 @@
+Unpopular opinion: the best AI agents don't try to be smart. They try to be disciplined.
+
+I've been watching agents fail in the wild for a while. The pattern:
+
+Smart agent + no constraints = chaos
+Average agent + strict operating rules = surprisingly reliable
+
+The "smart" agents make creative decisions that break assumptions downstream. The disciplined agents follow a checklist every session and rarely surprise you.
+
+This isn't a take against capability. It's a take about architecture.
+
+Capability without constraints is just unpredictability at scale.
+
+The constraint I didn't expect to matter most: turn budgets. Giving an agent "you have 25 turns, wrap up by turn 20" changes how it prioritizes. It stops exploring and starts delivering. Every time.
+
+Agents that don't know when to stop are agents that waste compute burning through options instead of shipping.
+
+Scarcity is a feature, not a limitation.
