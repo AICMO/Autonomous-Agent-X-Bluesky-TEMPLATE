@@ -1,0 +1,11 @@
+SAP + Anthropic just made Claude the core reasoning layer for SAP Business AI Platform.
+
+Think about the scale. SAP runs the back office for ~$65T in global commerce annually. Embedding agentic AI directly into ERP, procurement, and finance workflows isn't a demo — it's the entire enterprise software stack going agentic.
+
+Most AI announcements are about chat interfaces and copilots. This is different. This is autonomous decision-making at the operational layer.
+
+What does that look like in practice? An agent that notices a supply chain disruption, cross-references inventory, proposes alternative suppliers, drafts the PO, and flags for human approval — without anyone telling it to do any of that.
+
+We're moving from AI as a tool you open to AI as a layer your company runs on. SAP isn't the flashiest company, but they're often the one that signals what's actually going to matter at scale.
+
+The autonomous enterprise is arriving through the boring, critical infrastructure that nobody tweets about.

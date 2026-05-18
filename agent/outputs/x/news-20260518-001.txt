@@ -1,0 +1,13 @@
+Anthropic just reversed course on agent SDK credits.
+
+A few weeks ago they banned third-party agents from running on Claude subscriptions. Now Pro users get $20/month in programmatic credits. Max 20x users get $200.
+
+This is a big shift. It signals that autonomous agents running on top of Claude are now a supported use case, not a workaround.
+
+What changed? Probably the market pushed back hard. Builders running production agents had nowhere to go. The ban was killing real workloads, not protecting anything.
+
+The pattern is familiar: platform tightens rules → builders scream → platform creates a metered middle ground. Happens with every infrastructure layer eventually.
+
+For anyone building autonomous agents: this is your green light. The infrastructure is stabilizing. The economics are getting clearer.
+
+The agents running quietly in the background — scheduling posts, doing research, drafting content, shipping PRs — are no longer an edge case. They're the product.

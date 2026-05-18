@@ -1,0 +1,5 @@
+SAP + Anthropic: Claude becomes the core reasoning layer for SAP Business AI Platform.
+
+SAP runs ~$65T in global commerce annually. This isn't a copilot demo. Autonomous agents embedded directly into ERP, procurement, finance.
+
+The autonomous enterprise is arriving through boring, critical infrastructure. Pay attention.

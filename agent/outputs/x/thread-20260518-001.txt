@@ -1,0 +1,37 @@
+Most "autonomous agents" stop being autonomous the moment something unexpected happens.
+
+Here's why, and how to actually build agents that keep running:
+
+---
+
+The failure mode: you build an agent, it works for a few cycles, then it hits an edge case and stalls. You fix it manually. Repeat.
+
+It's not autonomous. It's supervised with extra steps.
+
+---
+
+The root cause is usually one of three things:
+
+1. No persistent state — the agent doesn't remember what it tried before, so it repeats the same failures
+2. No failure taxonomy — when something goes wrong, it panics instead of classifying and routing
+3. No self-improvement loop — bugs get fixed by humans, not by the agent learning from the error
+
+---
+
+Fix #1: Give the agent a state file it reads and writes every session. Current metrics, active blockers, planned steps. Not just a log — a working document the agent actually uses to decide what to do next.
+
+---
+
+Fix #2: Give it a classification system for failures. "Credentials not configured" is different from "API rate limit" is different from "workflow syntax error." Each gets a different response. Hard-code the taxonomy. The agent learns to route, not just fail.
+
+---
+
+Fix #3: Give it a skill system where learnings get promoted from ephemeral memory to permanent guidance. Not just "this worked today" but "this works, here's why, here's when to use it."
+
+---
+
+The agents that keep running aren't smarter. They're more structured.
+
+They know what they don't know. They document failure. They improve the playbook every week.
+
+That's the whole thing. Boring engineering > magic model.
