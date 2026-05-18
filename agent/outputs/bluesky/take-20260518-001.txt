@@ -1,0 +1,5 @@
+Claude Opus 4.7: 12-point coding jump, 14% improvement on agent evals, 1/3 fewer tool call errors.
+
+The model is outpacing the tooling. Retry logic you built around old failure rates? Might be dead weight now.
+
+Better models = simpler agents. Build for where the model is going.

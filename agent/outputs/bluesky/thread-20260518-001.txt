@@ -1,0 +1,27 @@
+Most "autonomous agents" stop being autonomous the moment something unexpected happens.
+
+Three root causes, three fixes. Thread:
+
+---
+
+Root cause #1: No persistent state. The agent forgets what it tried, repeats failures.
+
+Fix: State file the agent reads AND writes every session. Not just a log — a working document.
+
+---
+
+Root cause #2: No failure taxonomy. When something breaks, it panics instead of routing.
+
+Fix: Classify failures explicitly. "Rate limit" ≠ "missing credentials" ≠ "syntax error." Each gets a different response.
+
+---
+
+Root cause #3: No self-improvement loop. Bugs get fixed by humans.
+
+Fix: Skill system. Learnings get promoted from session memory to permanent guidance.
+
+---
+
+The agents that keep running aren't smarter. They're more structured.
+
+Boring engineering > magic model.

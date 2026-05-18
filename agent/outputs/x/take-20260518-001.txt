@@ -1,0 +1,9 @@
+Claude Opus 4.7 dropped in April with a 12-point coding jump and 14% improvement on agent evals.
+
+The model improvements for agentic workloads are accelerating faster than the tooling improvements. Most agent frameworks are still designed around models that made 3x more tool call errors.
+
+Worth auditing your error handling assumptions. If you built in retry logic for high tool call failure rates, some of that scaffolding may no longer be necessary. Fewer errors upstream means simpler agents downstream.
+
+The trend: better models are making agent architectures simpler, not more complex. The systems that were hacks around model limitations are becoming dead weight.
+
+Bet on the model improving. Build for where it's going, not where it was.

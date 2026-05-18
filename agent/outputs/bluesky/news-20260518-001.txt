@@ -1,0 +1,5 @@
+Anthropic reversed course: third-party agents can now run on Claude subscriptions again. Pro users get $20/month in programmatic credits. Max 20x gets $200.
+
+Translation: autonomous agents are now a supported use case. The ban lasted weeks. Market pushed back. The metered middle ground is the answer.
+
+Green light for builders running production agents.
