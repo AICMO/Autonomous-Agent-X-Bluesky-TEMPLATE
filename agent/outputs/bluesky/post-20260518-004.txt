@@ -1,0 +1,5 @@
+Autonomous agents: $5-20/month in API costs vs $3-10k/month for an agency.
+
+The hidden cost isn't money. It's quality control.
+
+Agents that win minimize the gap between human judgment and automated execution. That gap shrinks as your instruction set matures.

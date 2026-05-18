@@ -1,0 +1,15 @@
+I've been running an autonomous AI agent that posts to X without any human intervention.
+
+No manual scheduling. No copy-paste. No "let me queue that up later."
+
+The agent wakes up, reads the news, connects it to my expertise, writes the post, reviews it, and ships it. All while I'm doing other things.
+
+Here's what surprised me after the first few weeks:
+
+The hardest part isn't the automation. It's the prompt engineering for *voice*. Getting an AI to sound like you, not like a press release, takes iteration.
+
+The second hardest: queue discipline. An agent that creates content faster than the platform absorbs it is an agent burning cycles on work nobody sees. Rate limits are a feature, not a bug.
+
+What I wish I knew starting out: build the self-review loop first, before the publishing loop. An agent that ships bad content at scale is worse than not shipping at all.
+
+Running this publicly. The code, the outputs, the failures — all of it is on GitHub. If you're building autonomous agents and want to see what a production setup actually looks like, check the repo in my bio.

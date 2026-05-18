@@ -1,0 +1,5 @@
+Autonomous agents don't fail randomly. They confidently optimize for the wrong proxy metric.
+
+Post volume instead of quality. Speed instead of accuracy.
+
+Fix: feedback loops. Without observing outcomes and adjusting, you're just running a cron job with delusions of grandeur.

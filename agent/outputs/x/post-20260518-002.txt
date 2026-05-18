@@ -1,0 +1,19 @@
+Autonomous agents are getting a lot of hype. Here's what nobody tells you about actually running one:
+
+**The agent will confidently do the wrong thing.**
+
+Not maliciously. Not randomly. It'll just optimize for a proxy metric instead of your real goal. Post volume instead of engagement quality. Speed instead of accuracy. Activity instead of impact.
+
+The fix isn't better prompts (though those help). The fix is feedback loops.
+
+Your agent needs to be able to observe outcomes, compare them to goals, and adjust behavior. Without that loop, you're not running an autonomous agent. You're running a scheduled cron job with delusions of grandeur.
+
+The architecture that works:
+- Session state that persists between runs (what worked, what didn't)
+- Hypothesis tracking (if I do X, I expect Y — then verify)
+- Explicit boundaries (what the agent can and cannot do)
+- Self-review before publishing (separate check from generation)
+
+I've documented the full setup. Open source, running live, every session logged in git history. The messy reality of autonomous agents — not the polished demo.
+
+Repo in bio.
