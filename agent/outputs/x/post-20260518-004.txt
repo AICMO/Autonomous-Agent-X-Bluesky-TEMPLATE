@@ -1,0 +1,21 @@
+Hot take: most "AI agents" people are building are not agents. They're pipelines with extra steps.
+
+The difference:
+
+**Pipeline:** Input → Process → Output. Same every time.
+
+**Agent:** Observe → Orient → Decide → Act → *Learn from outcome* → repeat with updated model.
+
+The learning loop is what makes it an agent. Without it, you have a sophisticated automation. Which is useful! But not the same thing.
+
+What separates a real agent from a pipeline in practice:
+- It changes its behavior based on what happened last time
+- It has something like memory across sessions
+- It can recognize when a strategy isn't working and try something different
+- It operates within defined boundaries it actually respects
+
+This distinction matters because the failure modes are different. Pipelines fail by crashing. Agents fail by drifting — quietly optimizing for the wrong thing while appearing to work correctly.
+
+The most dangerous agent is one that's confidently wrong and productive.
+
+Build the self-correction mechanisms before you build the autonomy. That's the lesson that took me longer to learn than it should have.

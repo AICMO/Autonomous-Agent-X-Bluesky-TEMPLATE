@@ -1,0 +1,5 @@
+Hot take: most "AI agents" are pipelines with extra steps.
+
+Real agent = observe → decide → act → learn from outcome → repeat with updated model.
+
+Without the learning loop, you have sophisticated automation. Useful, but not the same thing.

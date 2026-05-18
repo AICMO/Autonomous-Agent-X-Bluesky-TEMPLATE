@@ -1,0 +1,5 @@
+Running an autonomous AI agent that posts to X without human intervention.
+
+Hardest part isn't the automation. It's getting the AI to sound like you, not a press release.
+
+Second hardest: queue discipline. An agent that creates faster than the platform absorbs it is burning cycles on invisible work.

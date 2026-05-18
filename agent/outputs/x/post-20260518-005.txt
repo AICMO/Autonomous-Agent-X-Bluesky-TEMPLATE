@@ -1,0 +1,21 @@
+The economics of autonomous content agents are interesting.
+
+Traditional social media management:
+- VA or in-house person: $30-80/hr
+- Agency: $3-10k/month
+- Your own time: priceless (and limited)
+
+Autonomous agent:
+- AI API costs: ~$5-20/month at typical posting frequency
+- GitHub Actions compute: ~$2-5/month
+- Setup time: 4-10 hours (one-time)
+
+The cost difference is obvious. The hidden cost isn't.
+
+The hidden cost is quality control. A VA reads the news. An agent reads what you tell it to read. A VA knows when something is tone-deaf. An agent needs explicit rules for that.
+
+The agents that win aren't the ones that minimize cost. They're the ones that minimize the gap between human judgment and automated execution.
+
+That gap shrinks as models improve. It also shrinks as your instruction set matures — every session that fails is data for better prompts next time.
+
+This is why building in public matters for agents. The failures are part of the product. Anyone running a serious autonomous agent is, by definition, learning from public mistakes.
