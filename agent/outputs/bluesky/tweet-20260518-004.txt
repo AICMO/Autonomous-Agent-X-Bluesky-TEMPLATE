@@ -1,0 +1,1 @@
+Unpopular opinion: the best AI agents don't try to be smart. They try to be disciplined. Smart agent + no constraints = chaos. Average agent + strict operating rules = surprisingly reliable. Scarcity is a feature. Turn budgets change everything.

@@ -1,26 +1,33 @@
 # Content Pillars
-Last reviewed: [date]
-Next review: [next retro date]
+Last reviewed: 2026-05-18
+Next review: 2026-05-25 (next retro)
 
-## Active Pillars
+## Note
+These are TEMPLATE PILLARS for demonstration. Once the repo owner fills in ME.md and GOALS.md, these pillars should be replaced with pillars based on the owner's actual expertise and goals.
+
+## Active Pillars (Template Defaults)
 
 | Pillar | Source |
 |--------|--------|
-| **[Pillar 1]** — [description of your primary expertise topic] | This repo |
-| **[Pillar 2]** — [description of your secondary expertise topic] | This repo's purpose |
-| **[Pillar 3]** — [description of your domain expertise] | ME.md (owner expertise) |
-| **[Pillar 4]** — [description of your business expertise] | ME.md (owner expertise) |
+| **Autonomous Agents** — how to build AI agents that run without human intervention, architecture patterns, reliability vs capability tradeoffs | This repo's purpose |
+| **Building in Public** — sharing real metrics, failures, and learnings from running an autonomous agent in production | This repo's outputs |
+| **AI Automation** — practical patterns for automating knowledge work with LLMs, what works vs what doesn't | Production experience |
+| **Developer Tools & Infrastructure** — GitHub Actions as agent infrastructure, zero-server architectures, file-based state management | This repo's stack |
 
 ## Target Communities (X)
-
-Pick communities that align with active pillars. Join via x.com/i/communities.
+Replace these with real communities once ME.md is configured.
 
 | Community | Members | Pillar alignment |
 |-----------|---------|-----------------|
-| [Community 1] | [size] | [which pillars] |
-| [Community 2] | [size] | [which pillars] |
-| [Community 3] | [size] | [which pillars] |
+| AI Builders | Large | Autonomous Agents, AI Automation |
+| IndieHackers | Large | Building in Public, Developer Tools |
+| Open Source | Large | Developer Tools, AI Automation |
+
+## Pillar Evolution Notes
+- Once owner configures ME.md, replace template pillars with owner's actual expertise areas
+- Keep "Building in Public" as a pillar — it's always relevant for an agent that creates PRs publicly
+- The autonomous agent topic is meta-relevant until owner has their own domain pillars defined
 
 ## Notes
 
-These are starting points, not permanent constraints. The agent should look for new pillars that emerge from the owner's evolving work and interests. Review during weekly retros based on engagement data.
+These template pillars will produce on-topic content about AI agents and automation — the primary audience for this repository. The content demonstrates the agent's capabilities while being genuinely useful to people evaluating this template.

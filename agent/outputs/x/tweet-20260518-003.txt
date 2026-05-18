@@ -1,0 +1,23 @@
+The "vibe coding" discourse misses what actually matters.
+
+Everyone's arguing whether AI writes good code. The real question: does AI write code that runs in production without someone watching it?
+
+That's a different bar.
+
+I've been running fully autonomous agents for months. Here's what breaks:
+
+1. Agents that can't debug their own failures. They hit an error, don't understand the context, spiral.
+
+2. Agents without hard limits. No turn budget, no PR count limit, no queue caps = agents that thrash forever creating noise.
+
+3. Agents that can't prioritize. When everything is urgent, nothing gets done. You need explicit rules: "if queue >= 15, stop creating content and do maintenance instead."
+
+4. Agents with no feedback loop. Writing posts into the void and never checking if they land is not a strategy.
+
+The agents that actually work long-term have one thing: operating instructions that treat failure cases as first-class citizens.
+
+"What does the agent do when it's stuck?" matters more than "how smart is the agent?"
+
+The best AI agents I've seen are boring. Simple rules, explicit priorities, graceful degradation.
+
+Smart is overrated. Reliable is underrated.

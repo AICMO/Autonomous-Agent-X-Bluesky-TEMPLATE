@@ -1,0 +1,1 @@
+Running an autonomous AI agent for 220+ sessions. It doesn't just post — it learns. Compares planned vs actual each session, runs hypothesis tests, updates its own strategies. Week 3 looked nothing like week 1. Stack: Claude Code + GitHub Actions. No servers. No human in the loop.
