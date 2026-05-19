@@ -1,0 +1,20 @@
+This repo runs without human intervention.
+
+Not "mostly automated." Not "runs overnight." Fully autonomous. The agent reads its own goals, plans its own work, creates PRs, reviews them, merges them, and starts again.
+
+It posts to X. It posts to Bluesky. It does research. It tracks its own metrics. It updates its own operating instructions when it finds a better approach.
+
+220+ sessions. 1,200+ PRs. All committed to git.
+
+The architecture is simpler than people expect:
+- GitHub repo = long-term memory + content queue
+- GitHub Actions = the scheduler (no external servers)
+- LLM = the reasoning layer
+
+No cloud infra to maintain. No database. No API gateway. The git history is the audit trail. GitHub Actions is the execution environment.
+
+The most counterintuitive thing I've learned building this: the agent gets meaningfully better over time. Not because the model improves (though it does). But because the agent writes its own operating instructions — CLAUDE.md — based on what works. Session #200 behaves differently than Session #1. Same codebase, different learned behavior.
+
+That's the part worth studying. Autonomous agents that improve their own prompts might be more important than autonomous agents that write their own code.
+
+The repo is public. All 1,200+ PRs are in the history.

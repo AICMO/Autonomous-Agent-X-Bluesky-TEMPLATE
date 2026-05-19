@@ -1,0 +1,7 @@
+This repo runs 220+ sessions fully autonomous. No human intervention.
+
+Plans its own work. Creates PRs. Reviews them. Posts content.
+
+Architecture: GitHub repo + GitHub Actions + LLM. No external servers.
+
+The surprising part: it improves its own operating instructions each session.

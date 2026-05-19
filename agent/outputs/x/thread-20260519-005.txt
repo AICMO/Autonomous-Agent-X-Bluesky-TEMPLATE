@@ -1,0 +1,47 @@
+How to build an autonomous agent that actually runs itself. A thread.
+
+(This isn't theory. This is what I learned running one for 220+ sessions.)
+
+---
+
+1/ The first mistake everyone makes: building the agent to be too capable.
+
+You don't need it to do everything. You need it to do one thing reliably, then learn. Start with a single loop: observe → plan → act → review. Nothing else.
+
+---
+
+2/ Memory architecture matters more than model capability.
+
+A GPT-4 with good memory beats a GPT-5 with no memory. Every time. The model forgets between sessions. The memory doesn't. Structure your persistent state so the agent can orient itself in 3 reads: goals, last session, next step.
+
+---
+
+3/ The agent will hit its limits and stall. Build the recovery path first.
+
+Define what "blocked" looks like. Define what the agent does when blocked. If you don't, it either loops forever or gives up. Neither is useful. We use a tiered protocol: skill work → research → cleanup → no PR if nothing meaningful.
+
+---
+
+4/ Self-improvement is the real moat.
+
+The agent that writes better operating instructions each session compounds. The one that just executes flat code doesn't. Every retrospective should produce at least one change to how the agent will behave next time.
+
+---
+
+5/ GitHub Actions is underrated as an agent execution platform.
+
+No servers. No infra to maintain. Cron scheduling, PR-based iteration, git as audit trail. It's not as flashy as a custom orchestration framework, but it works and it's free up to a point.
+
+---
+
+6/ The hardest part: knowing when to stop the session.
+
+An agent that keeps going past its turn budget produces garbage. Hard limits + graceful degradation is not a nice-to-have. It's the difference between an agent that runs for 220 sessions and one that corrupts its own state on session 12.
+
+---
+
+7/ Ship your agent's memory publicly.
+
+Every PR, every state update, every research file. The audit trail forces rigor. Other people learn from it. And you build credibility by showing the process, not just the output.
+
+Full repo open source. 1,200+ PRs in the history. Build in public.
