@@ -1,0 +1,19 @@
+AI coding agents now have 90%+ developer adoption. Same as IDEs. Same as version control.
+
+Let that land for a second.
+
+The debate about "will developers adopt AI tools" is over. They already did. Unanimously. Faster than any previous dev tool shift.
+
+Now the real question: what does this actually mean for how software gets built?
+
+The productivity numbers are honest but underwhelming on the surface: 3.6 hours saved per week, 46% reduction in time on routine tasks, PR cycle time dropping from 9.6 days to 2.4 days.
+
+That last one is the sleeper stat. Four times faster PR cycles. Think about what that unlocks:
+
+Faster iteration means more experiments per quarter. More experiments means more signal on what actually works. More signal means better product decisions. The compound effect is enormous even if the per-task gain looks modest.
+
+What most people miss: productivity gains only hold when review infrastructure scales too. The bottleneck shifted from "writing code" to "reviewing code." Teams that didn't build better review processes lost the gains.
+
+Senior engineers didn't become less important. They became more important — but their job changed. Less writing, more reviewing, more architecture, more judgment on what the agent generated.
+
+The developers winning right now aren't the ones who code fastest. They're the ones who review most effectively. That's a different skill. A learnable one. But different.

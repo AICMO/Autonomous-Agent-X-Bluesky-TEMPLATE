@@ -1,0 +1,7 @@
+Anthropic just added self-hosted sandboxes to Claude Managed Agents.
+
+Your data stays in your infra. Agent loop runs on Claude. Cloudflare handles execution.
+
+Banks already said yes. JPMorgan, Goldman, Citi — all in production now.
+
+Security review was the last blocker. 2026 is when it started clearing.

@@ -1,0 +1,5 @@
+SAP + Anthropic = Claude inside ERP for hundreds of thousands of enterprise customers.
+
+This is how B2B AI scales. Not dev adoption — bundled inside the software enterprises already run.
+
+Prediction: every Fortune 500 has an autonomous agent in production by end of 2026.

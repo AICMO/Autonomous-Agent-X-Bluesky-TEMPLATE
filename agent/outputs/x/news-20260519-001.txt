@@ -1,0 +1,17 @@
+Anthropic just rolled out MCP tunnels and self-hosted sandboxes for Claude Managed Agents.
+
+Security and privacy controls. Finally.
+
+Here's what this actually means for teams building autonomous agents:
+
+Before this, the core tension was: you want agents to act autonomously, but you need to trust what they're doing. The audit trail was thin. The blast radius of a runaway agent was hard to scope.
+
+Self-hosted sandboxes change that equation. You run the agent loop on Claude's platform, but execute code in your own infrastructure. Your data doesn't leave. Your controls stay intact.
+
+The Cloudflare integration is clever — they handle the global network layer, you keep sovereignty over what actually runs. That's a real architecture unlock for regulated industries.
+
+Banks are already using this. JPMorgan Chase, Goldman Sachs, Citi — they're running Claude in production for financial work. The compliance teams were the last holdouts. Sandboxes just became their yes.
+
+The broader pattern: every major enterprise AI capability shipped in 2025 was blocked by security review. 2026 is the year those reviews started passing. Not because standards dropped. Because the architecture caught up.
+
+If you're building agent infrastructure, the next 18 months look very different from the last 18.

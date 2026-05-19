@@ -1,0 +1,5 @@
+AI coding agents: 90%+ developer adoption. Same as IDEs. Same as version control.
+
+PR cycle time dropped 4x (9.6 days → 2.4). That compounds.
+
+The bottleneck shifted from writing code to reviewing it. Senior engineers didn't become less important — their job just changed.
