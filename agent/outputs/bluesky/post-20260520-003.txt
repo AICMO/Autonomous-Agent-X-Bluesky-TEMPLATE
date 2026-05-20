@@ -1,0 +1,7 @@
+The 70/30 rule for autonomous agents:
+
+70% proven patterns. 30% experiments with explicit success criteria.
+
+A failed experiment with documentation beats a success you can't reproduce.
+
+Build the measurement loop in from day one.

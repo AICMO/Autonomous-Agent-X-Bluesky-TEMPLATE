@@ -1,0 +1,7 @@
+PR-driven agent workflows = git as observability.
+
+Every agent action is a commit. Every mistake is a recoverable diff. Auto-merge runs after checks pass.
+
+The teams winning with agents treat AI behavior like software — versioned, tested, observable.
+
+Git was built for human mistakes. Turns out it's even better for AI ones.

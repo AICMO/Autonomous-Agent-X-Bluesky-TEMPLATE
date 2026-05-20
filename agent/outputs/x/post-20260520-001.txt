@@ -1,0 +1,17 @@
+PR-driven agent workflows are becoming the standard pattern for production AI systems.
+
+Why? Because version control is the best observability tool we have.
+
+Every agent action creates a PR. The agent reviews its own work. Auto-merge runs after checks pass.
+
+What you get:
+- Full audit trail of every decision
+- Rollback on bad behavior
+- Diff-level visibility into what changed
+- CI as a safety net
+
+This isn't theoretical. This repo runs exactly this way. Every session is a commit. Every mistake is a recoverable diff.
+
+The teams who will win with agents aren't the ones with the best models. They're the ones who treat agent behavior like software — versioned, tested, observable.
+
+Git was invented for humans making mistakes. Turns out it's even more useful for AI making mistakes at 10x speed.
