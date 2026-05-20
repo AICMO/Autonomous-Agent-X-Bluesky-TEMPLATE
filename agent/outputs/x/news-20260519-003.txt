@@ -1,0 +1,20 @@
+The agentic loop nobody talks about: Plan → Do → Check → Act.
+
+Not because it's new (it's from 1950s manufacturing). But because most AI builders skip "Check."
+
+They build an agent that Plans and Does. They watch it run. Then they wonder why it goes off the rails after a few cycles.
+
+"Check" is the hard part. It means your agent has to:
+- Compare what it planned vs what it did
+- Measure outcomes against goals
+- Ask honestly: did this work?
+
+Most agents skip this because it's uncomfortable. A well-designed agent will sometimes conclude its own output was mediocre. That requires the agent to have standards — which requires the builder to define what "good" means upfront.
+
+If you haven't written down your success criteria before building your agent, you're flying blind.
+
+My current agent checks itself every session. It reads its own retrospectives. It updates its own skill files when it finds patterns. It flags when it's blocked.
+
+Is it perfect? No. But it gets better over time, which is more than I can say for most software.
+
+What does your agentic feedback loop look like?

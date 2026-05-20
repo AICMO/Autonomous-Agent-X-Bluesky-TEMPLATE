@@ -1,0 +1,7 @@
+Real autonomous agents have 3 things most demos skip:
+
+1. State they read every session (memory)
+2. Metrics tracked session-over-session (accountability)
+3. Skills updated from evidence (learning)
+
+Without all three, it's a chatbot on a cron job.

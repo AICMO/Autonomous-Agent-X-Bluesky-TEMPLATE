@@ -1,0 +1,5 @@
+Most AI builders skip "Check" in their agentic loop.
+
+Plan → Do → [nothing] → Plan again.
+
+"Check" means: did it work? Comparing planned vs actual. Without it, your agent optimizes blindly. Define success criteria before you build.

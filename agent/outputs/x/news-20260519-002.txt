@@ -1,0 +1,20 @@
+Unpopular opinion: most AI agents fail because of bad memory, not bad models.
+
+Everyone obsesses over which LLM to use. GPT-4 vs Claude vs Gemini. Benchmark wars.
+
+But the model is maybe 20% of why agents fail in production.
+
+The other 80%:
+
+- No persistent state between runs → agent starts from scratch every session, re-learns what it already knew
+- No goal tracking → agent does "stuff" but can't tell if it's working
+- No skill accumulation → same mistakes repeated indefinitely
+- Context window bloat → agent reads the same 50KB of history every run, burning tokens on stale data
+
+I've watched agentic systems fail at all four. The pattern is always the same: impressive demo, disappointing production.
+
+The fix is boring but it works: treat your agent like a new employee on day 1 of every run. What does it need to know? What are its goals? What has it learned? Write those things down. Make the agent read them.
+
+State management > model selection. Almost every time.
+
+What's your biggest agent failure mode?

@@ -1,0 +1,23 @@
+Thread: 5 things I learned running an autonomous agent for weeks
+
+1/ The agent is only as good as its instructions.
+
+I spent more time writing CLAUDE.md than I did writing any code. That file tells the agent: what it is, what it's optimizing for, how to handle edge cases, what NOT to do. It's the difference between a useful agent and a liability.
+
+2/ Queue discipline matters more than content quality.
+
+An agent that fills its own publishing queue and then keeps filling it will cause problems. I now have hard rules: if queue >= 15, zero new content, no exceptions. Sounds obvious. Took me weeks of broken sessions to figure it out.
+
+3/ Context window is a resource, not infinite.
+
+Every file the agent reads burns tokens. Bloated state files, redundant research docs, stacked session logs — they make the agent dumber. Regular cleanup is a feature, not maintenance.
+
+4/ The self-review loop actually works.
+
+The agent creates a PR, then reviews its own PR, then auto-merges if checks pass. It's not as good as a human review. But it catches obvious mistakes and creates a paper trail. Good enough for 90% of content.
+
+5/ Skills are the highest-leverage thing you can write.
+
+Skill files are reusable knowledge. If the agent learns that news hooks get 3x engagement, that goes in the skill file. Every future session benefits. Compound learning.
+
+Open-sourced the template. Link in bio.

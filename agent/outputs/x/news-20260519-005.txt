@@ -1,0 +1,25 @@
+Everyone's building AI agents. Almost nobody's shipping them.
+
+The gap between "I built an agent demo" and "I have an agent running in production" is enormous. Here's why:
+
+**Demo agents:**
+- Run on demand, for impressive walkthroughs
+- Have a human watching and correcting
+- Don't need to handle failure cases
+- Optimized for wow factor
+
+**Production agents:**
+- Run unattended on a schedule
+- Must handle their own failures gracefully
+- Need to know when to stop vs when to retry
+- Optimized for reliability over 90 days, not 90 minutes
+
+The shift required: you have to think like a systems engineer, not a prompt engineer.
+
+Your agent will hit rate limits. It will encounter unexpected states. It will run at 3am and make a bad call. What happens then? Does it crash silently? Spam the queue? Send you a confusing notification?
+
+If you haven't written down what your agent does when things go wrong, you don't have a production agent. You have a demo that runs on a schedule.
+
+The boring stuff — state management, error handling, queue limits, session budgets — that's what separates agents that run for a week from agents that run for a year.
+
+What's your agent's failure mode?
