@@ -1,0 +1,16 @@
+My prediction for agentic AI in enterprise by end of 2026:
+
+The "eval-deploy" loop replaces the "prompt-test" loop as the standard workflow.
+
+Why it matters: Companies currently spend 80% of their AI budget on building and 20% on measuring. That ratio flips. The teams who shipped fast in 2025 are rebuilding in 2026 because they built without measuring.
+
+The survivors will have:
+1. Automated eval pipelines before any agent goes to production
+2. Continuous measurement of agent behavior in production
+3. Clear rollback criteria and rollback mechanisms
+
+The casualty list: agents built as demos that got promoted to production. Every enterprise has one. Most will be retired quietly.
+
+Timeline: 18 months. The "we built an agent" announcements peak by Q3 2025. The "we rebuilt our agent with proper evals" announcements dominate Q1-Q2 2026.
+
+The market doesn't reward shipping fast. It rewards shipping something that still works six months later.

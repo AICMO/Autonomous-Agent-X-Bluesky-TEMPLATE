@@ -1,0 +1,13 @@
+Unpopular opinion: context windows getting bigger is making agent memory architecture worse, not better.
+
+When you can fit everything in context, you stop thinking about what actually matters.
+
+Result: bloated prompts, 10x inference costs, and agents that "work" but burn your budget by Tuesday.
+
+The teams doing this well are still using episodic memory + selective retrieval — they just have a larger window as a safety net, not a primary strategy.
+
+Bigger context = more rope. Some teams hang themselves with it.
+
+What's working: clear separation between what the agent needs NOW (context), what it needs SOMETIMES (memory files), and what it needs NEVER (delete it).
+
+The constraint was good for us. Discipline scales better than brute force.

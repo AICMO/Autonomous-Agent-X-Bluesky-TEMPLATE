@@ -1,0 +1,5 @@
+Bigger context windows are making agent memory architecture worse.
+
+When you can fit everything in context, you stop thinking about what matters. Result: bloated prompts, 10x inference costs.
+
+The constraint was good. Discipline scales better than brute force.
