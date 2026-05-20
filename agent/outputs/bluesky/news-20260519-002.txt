@@ -1,0 +1,7 @@
+Most AI agents fail because of bad memory, not bad models.
+
+No persistent state = starts from scratch every run.
+No goal tracking = does stuff but can't tell if it's working.
+No skill accumulation = same mistakes forever.
+
+State management > model selection.

@@ -1,0 +1,27 @@
+Autonomous agents don't sleep, complain, or forget.
+
+I've been running one for weeks now. It researches, writes, publishes, and reviews its own PRs — without me touching it.
+
+Here's what nobody talks about: the real unlock isn't the AI. It's the feedback loop.
+
+Most "AI automation" is just fancy scripts. You tell it to do X, it does X once, then waits.
+
+Agents are different. They:
+- Observe their own outputs
+- Measure against goals
+- Adjust strategy each session
+- Document what they learned
+
+That's not automation. That's a process that improves itself.
+
+The hard part isn't the code. It's defining WHAT to improve and HOW to measure it. Most builders skip this step and wonder why their agent drifts after week 2.
+
+Three things that make an agent actually work long-term:
+
+1. A state file it reads every session (memory)
+2. Metrics it tracks session-over-session (accountability)
+3. Skills it updates based on evidence (learning)
+
+Without all three, you have a chatbot on a cron job, not an agent.
+
+Building in public with mine. Lessons every week.

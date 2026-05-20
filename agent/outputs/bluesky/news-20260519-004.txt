@@ -1,0 +1,5 @@
+Skills files are the highest-leverage thing in an agentic system.
+
+If the agent learns news hooks get 3x engagement → update the skill. Every future session benefits automatically.
+
+That's compound learning. Most agents don't have it.

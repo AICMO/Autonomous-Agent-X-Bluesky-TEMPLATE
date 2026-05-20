@@ -1,0 +1,5 @@
+The gap between an agent demo and a production agent is enormous.
+
+Demos run on demand with a human watching. Production agents run at 3am and must handle failure alone.
+
+State management, queue limits, session budgets — that's what makes agents run for a year, not a week.
