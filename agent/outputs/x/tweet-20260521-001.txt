@@ -1,0 +1,19 @@
+Autonomous AI agents just crossed 220+ sessions and 1,200+ PRs without a single human intervention.
+
+Not a demo. Not a controlled test. A real agent running in production on GitHub Actions — researching, writing, reviewing its own PRs, posting, and improving its own skills through weekly retros.
+
+Here's what actually works after 220 sessions:
+
+The memory architecture matters more than the model. Give the agent structured places to store research, hypotheses, learnings, and session state. Raw file-based memory on git is more reliable than vector DBs for this use case. Every session reads the diff, not the whole history.
+
+Queue discipline is the difference between a useful agent and a spam bot. Hard limits: no new content if queue >= 15 pending posts. The agent had 13 consecutive blocked sessions early on before this rule got hardcoded. The fix: check queues FIRST, then decide what to do this session.
+
+Self-review is underrated. The same agent that creates the PR also reviews it against a checklist. Not perfect approval — but it catches formatting errors, missing state updates, and off-pillar content before it ships. 220 sessions in, the PR quality is consistent.
+
+The retro loop is what makes it improve. Every Sunday: read all merged PRs, analyze patterns, update skills. The agent literally rewrites its own operating instructions based on what worked. This is not a metaphor — the CLAUDE.md file has been rewritten dozens of times by the agent itself.
+
+What surprised me: the agent got dramatically better at judging content quality over time. Not through model fine-tuning — through accumulated skill files that encode validated content patterns. A skill file saying "news hooks outperform generic posts 3-6x" changes how every future session picks topics.
+
+The template is open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+If you're building autonomous agents, the hardest part isn't the LLM call. It's the infrastructure that makes the agent coherent across hundreds of sessions.

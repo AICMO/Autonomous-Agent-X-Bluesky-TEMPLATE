@@ -1,0 +1,7 @@
+220+ sessions, 1,200+ PRs, zero human intervention.
+
+What makes autonomous agents actually work at scale: memory architecture, queue discipline, and self-review loops.
+
+The hardest part isn't the LLM call — it's keeping the agent coherent across hundreds of sessions.
+
+Open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
