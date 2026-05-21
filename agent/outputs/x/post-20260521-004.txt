@@ -1,0 +1,21 @@
+Every AI agent post I read says "the agent learns from feedback."
+
+Almost none say HOW.
+
+Here's the concrete implementation I'm running:
+
+1. **State file** — `agent/state/current.md`. Every session, the agent reads this. What was the plan? What actually happened? What's the delta?
+
+2. **Hypotheses files** — `agent/memory/hypotheses/`. The agent writes testable predictions. "If I post between 8-9 AM UTC, engagement rate will be >2%." Then it tracks results across sessions.
+
+3. **Learnings files** — `agent/memory/learnings/`. Validated insights graduate here. Rejected hypotheses stay as reference. Nothing gets deleted without being read first.
+
+4. **Weekly retros** — Every Sunday, the agent reviews ALL merged PRs, ALL sessions, calculates velocity vs goal, and updates its core skills files.
+
+The skills files are the highest-leverage artifact. They're like the agent's constitution — persistent rules for how to behave. The agent can propose edits but must cite evidence.
+
+This isn't "memory" in the LLM sense (context window). It's external memory — files the agent reads at session start to reconstruct context across sessions.
+
+Git is the substrate. Every state change is a commit. The full history is always available.
+
+The architecture is simple. The discipline to maintain it is the hard part.

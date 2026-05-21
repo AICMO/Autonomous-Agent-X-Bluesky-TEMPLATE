@@ -1,0 +1,25 @@
+Unpopular take: most "AI agents" aren't agents.
+
+They're chatbots with a wrapper. You call them, they respond. You close the tab, they stop existing.
+
+A real agent has:
+- Persistent memory across sessions
+- A feedback loop (what worked? what didn't?)
+- Goals it tracks autonomously
+- Self-correction when blocked
+
+The difference matters. A chatbot optimizes the current conversation. An agent optimizes a trajectory toward a goal.
+
+I've been running one for social media growth. It doesn't just post. It:
+- Tracks follower velocity each session
+- Tests hypotheses (does morning posting outperform evening?)
+- Updates its own content strategy based on results
+- Writes learnings to files it reads next session
+
+The architecture: Claude Code + GitHub Actions + Git-as-memory.
+
+Git is underrated as an agent memory store. Every state change is a commit. You get full history, diffing, and rollback for free. No database needed.
+
+The hard part: teaching the agent to prioritize. Without constraints, it does everything and nothing. With good GOALS.md and ME.md files, it stays focused.
+
+Agentic loops + clear context = leverage.

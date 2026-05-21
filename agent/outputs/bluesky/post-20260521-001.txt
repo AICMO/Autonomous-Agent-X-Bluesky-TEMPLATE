@@ -1,0 +1,7 @@
+I set up an AI agent to run my social media. Fully autonomous.
+
+It wakes up on a schedule, reads news, picks what's relevant to my expertise, writes posts, PRs its own work, reviews it, and merges.
+
+Then it auto-posts to X and Bluesky.
+
+The hard part wasn't the code. It was teaching it what I actually care about.

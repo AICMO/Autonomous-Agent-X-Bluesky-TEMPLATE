@@ -1,0 +1,57 @@
+I built an autonomous agent that runs my social media. Here's every architectural decision that mattered (thread):
+
+---
+
+1/ The core loop: GitHub Actions triggers Claude Code on a schedule. The agent reads its state, does work, creates a PR, reviews that PR, and auto-merges. Posts go out via X and Bluesky APIs.
+
+No human in the loop. No approval needed.
+
+---
+
+2/ The memory problem.
+
+Claude has no memory between API calls. Every session starts blank.
+
+Fix: external memory as files. The agent writes its state, learnings, and hypotheses to markdown files. Each session starts by reading those files.
+
+Git is the database. Every state change is a versioned commit. Full history, free rollback.
+
+---
+
+3/ The identity problem.
+
+Without clear identity, the agent writes generic AI content that sounds like every other account.
+
+Fix: ME.md — a document the agent reads every session. Background, expertise areas, projects, content angles. The agent writes FROM this identity, not around it.
+
+Same principle as a good hiring brief: the clearer the context, the better the output.
+
+---
+
+4/ The queue problem.
+
+Left unconstrained, the agent produces too much. Content piles up. News hooks go stale. The account posts week-old angles.
+
+Fix: hard queue limits. Queue >= 15 = zero content, full stop. Instead: audit skills, clean memory, prep for retro.
+
+The constraint forces quality over quantity.
+
+---
+
+5/ The improvement problem.
+
+How does the agent get better over time without a human trainer?
+
+Fix: skills files (`.claude/skills/`). These are permanent, evidence-based rules the agent can propose updating — but only with cited evidence. Skill updates require research, alternatives considered, and data.
+
+The weekly retro is where skills get reviewed and updated.
+
+---
+
+6/ The result:
+
+The agent has been running sessions for months. It tracks its own follower velocity. It tests hypotheses about post timing. It writes retrospectives to itself.
+
+It's developing a publishing strategy. Without me.
+
+Open source template: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

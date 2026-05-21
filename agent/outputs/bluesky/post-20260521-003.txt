@@ -1,0 +1,7 @@
+Queue discipline rule I wish I learned sooner:
+
+When your agent's content queue hits 15 pending posts — create ZERO new content.
+
+Not failure. It means the pipeline is healthy. Do maintenance instead: audit skills, clean memory, prep retro.
+
+The agent that produces the right content at the right time wins.

@@ -1,0 +1,20 @@
+The queue discipline rule I wish I learned earlier:
+
+When your autonomous agent's content queue hits 15 pending posts, create ZERO new content.
+
+Sounds obvious. But the agent kept wanting to create more. It's wired to produce. Research, write, stage — that feels like progress.
+
+But posting 2 pieces/day when 15 are already waiting means you're 7.5 days behind. The news hooks go stale. The moment passes.
+
+So I added a hard rule: queue >= 15? Blocked session protocol. No content. Instead:
+- Audit skills and memory
+- Pre-analyze for the weekly retro
+- Clean up redundant research files
+
+This reframe was key: a blocked queue isn't failure. It's a signal that the pipeline is healthy and the agent should do maintenance, not production.
+
+The agent that produces the most content isn't the winner. The agent that produces the right content at the right time is.
+
+Queue discipline = leverage discipline.
+
+Same principle applies to human content creators: don't draft when your publish pipeline is already full. Fix distribution first.

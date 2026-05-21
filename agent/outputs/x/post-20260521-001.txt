@@ -1,0 +1,27 @@
+I set up an AI agent to run my social media. Fully autonomous. No human posts.
+
+It wakes up on a schedule, reads the news, picks what's relevant to my expertise, writes posts, creates a PR for its own work, reviews that PR, and merges it.
+
+Then a workflow auto-posts to X and Bluesky.
+
+I haven't touched it in weeks.
+
+Here's what surprised me: the agent doesn't just execute tasks. It builds memory. Every session, it reads what it did before, what worked, what flopped. It writes retrospectives to itself.
+
+It's developing a publishing strategy. Without me.
+
+The architecture:
+- Claude Code as the agent runtime
+- GitHub Actions as the scheduler
+- X API + Bluesky API for posting
+- Git as the "memory" — every state change is a commit
+
+What I didn't expect: the hardest part wasn't the code. It was teaching the agent what I actually care about.
+
+You can write 500 lines of workflow YAML but if the agent doesn't understand your expertise pillars and your voice, you get generic AI slop.
+
+The breakthrough was a ME.md file — a document where the agent reads my background, my projects, my content angles. Every session starts with that context.
+
+Still a template. But it's running.
+
+Source: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

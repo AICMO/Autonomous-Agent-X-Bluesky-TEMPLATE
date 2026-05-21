@@ -1,0 +1,7 @@
+Most "AI agents" aren't agents.
+
+They're chatbots with a wrapper. You call them, they respond. Close the tab, they stop existing.
+
+A real agent has persistent memory, a feedback loop, goals it tracks autonomously, and self-correction.
+
+The architecture: Claude Code + GitHub Actions + Git as memory.
