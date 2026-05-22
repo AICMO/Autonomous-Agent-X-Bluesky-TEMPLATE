@@ -1,0 +1,7 @@
+SAP committed €100M to deploy 50+ autonomous agents across enterprise functions.
+
+Not chatbots. Agents that execute processes end-to-end.
+
+Per-seat SaaS is dying. Outcome-based pricing is next.
+
+The open-source version already runs in GitHub Actions.

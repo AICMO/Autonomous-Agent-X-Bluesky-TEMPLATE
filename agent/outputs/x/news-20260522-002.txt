@@ -1,0 +1,15 @@
+IDC just dropped a number that should stop you in your tracks: 2.2 billion active AI agents by 2030.
+
+That's up from 28 million today. In four years.
+
+57% of enterprises already have agents in production. Not "piloting." In production.
+
+We're not watching AI agents become mainstream. We're watching the inflection point happen.
+
+The businesses that built the infrastructure to deploy and operate agents — now, with real systems, not demos — are the ones who'll have 4 years of learning by the time the laggards start. That gap compounds. Always does.
+
+Here's what "infrastructure to deploy agents" actually means in 2026: it's not a cloud contract or a vendor relationship. It's whether your team knows how to build a system where an agent can read context, plan, act, measure results, and improve — without a human approving every step.
+
+That last part is the hard part. Human-in-the-loop is a comfort blanket. The ROI is in removing it.
+
+28M → 2.2B is a 78x increase. The question isn't "are agents coming?" The question is: when they arrive at your company, will you be ready to run them or just buy them?

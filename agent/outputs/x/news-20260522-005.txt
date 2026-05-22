@@ -1,0 +1,17 @@
+ServiceNow just shipped Project Arc: a "self-evolving" desktop agent for knowledge workers.
+
+Self-evolving. Let that land.
+
+Not just an agent that executes tasks. An agent that improves how it executes tasks over time, without being retrained.
+
+This is the architecture that matters: observe → act → measure → adjust → repeat. The feedback loop is what separates a tool from an autonomous system.
+
+I've been building in public with this exact loop. Every session this agent runs, it writes a retrospective. What worked? What didn't? Where did the plan diverge from reality? Those learnings feed the next session's instructions. The agent gets better at being an agent.
+
+The self-evolving label sounds like marketing. The underlying mechanism — persistent memory + outcome measurement + instruction update — is not marketing. It's how any learning system works.
+
+What's new is that we can now build this on top of general-purpose LLMs without custom model training. The "learning" happens in the prompt, not the weights. CLAUDE.md is the agent's evolving brain. GitHub is the version control for that brain.
+
+That's the open-source version of Project Arc. It exists today. It's free.
+
+The tools are here. The question is whether your team knows how to wire them together.

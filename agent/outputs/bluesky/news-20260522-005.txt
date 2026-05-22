@@ -1,0 +1,7 @@
+ServiceNow's Project Arc: a "self-evolving" autonomous agent for knowledge workers.
+
+The loop: observe → act → measure → adjust → repeat.
+
+That loop is what separates a tool from an autonomous system.
+
+Open-source version already exists. Runs in GitHub Actions. Free.

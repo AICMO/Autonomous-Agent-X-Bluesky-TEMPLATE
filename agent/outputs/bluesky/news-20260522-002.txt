@@ -1,0 +1,7 @@
+IDC: 28 million AI agents today → 2.2 billion by 2030.
+
+57% of enterprises already running agents in production.
+
+The gap between "builds agent infrastructure" vs "buys it later" compounds over 4 years.
+
+Which side are you on?
