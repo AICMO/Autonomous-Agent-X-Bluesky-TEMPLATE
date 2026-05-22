@@ -1,0 +1,7 @@
+Zendesk: pay per resolved ticket, not per seat.
+
+Per-seat assumes humans work. Outcome pricing assumes agents work.
+
+Every SaaS category with repetitive human decisions is next.
+
+Incumbents that don't shift will look expensive. Fast.

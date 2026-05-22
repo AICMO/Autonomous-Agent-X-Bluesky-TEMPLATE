@@ -1,0 +1,7 @@
+GitHub Agentic Workflows: LLM-driven automation defined in Markdown.
+
+Write what you want. The agent figures out the steps.
+
+"Continuous AI" — same mental model as CI/CD but for intelligence.
+
+Early adopters set the patterns everyone else copies.

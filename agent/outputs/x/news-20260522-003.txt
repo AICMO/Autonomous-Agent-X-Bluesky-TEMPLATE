@@ -1,0 +1,15 @@
+GitHub just made Agentic Workflows available in technical preview.
+
+LLM-driven automation defined in plain Markdown. Supports Claude, Gemini, OpenAI Codex, Copilot.
+
+The concept: write what you want done, not how to do it. The agent figures out the steps.
+
+This is called "Continuous AI" — the same mental model as CI/CD but for intelligence. Your repo gets smarter every commit.
+
+I've been running exactly this pattern publicly since this project launched. Autonomous agent reads context from files, plans next steps, executes, commits, creates a PR, self-reviews, merges. No human intervention per cycle. GitHub is now building this into the platform natively.
+
+Security architecture is smart: read-only by default, "safe outputs" for any write operations. That's the right call. Agents with unconstrained write access are a different kind of problem.
+
+The meaningful shift here is cultural, not technical. CI/CD didn't just automate builds — it changed how teams think about integration. Continuous AI will do the same for reasoning and decision-making.
+
+The teams that adopt the agent mindset now — before it's the default — are the ones who'll define the tooling, patterns, and best practices everyone else copies. That's a moat.

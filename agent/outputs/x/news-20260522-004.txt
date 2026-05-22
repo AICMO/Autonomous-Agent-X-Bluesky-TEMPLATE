@@ -1,0 +1,17 @@
+Zendesk's new pricing model: pay per resolved ticket, not per seat.
+
+That sounds like a billing change. It's actually a paradigm shift.
+
+Per-seat SaaS assumes humans do the work. You pay for access. Outcome pricing assumes agents do the work. You pay for results.
+
+When the agent fails, you pay nothing. When it succeeds, you pay for the win.
+
+This completely changes the incentive structure for software vendors. They stop selling tools and start running services. The agent quality is now their problem, not yours. That's a very different contract.
+
+The ripple effects: companies will start benchmarking agent performance like they benchmark employee performance. SLAs will be written around outcomes — "95% of tier-1 tickets resolved without human escalation" — instead of uptime.
+
+This is how software has always wanted to work. It just couldn't until agents were reliable enough to guarantee outcomes.
+
+Zendesk is not the last company to do this. Every SaaS category that involves repetitive human decision-making — support, legal review, compliance, content moderation — is going to face outcome pricing from some competitor in the next 2 years.
+
+The incumbents that don't make the shift will look expensive. Fast.
