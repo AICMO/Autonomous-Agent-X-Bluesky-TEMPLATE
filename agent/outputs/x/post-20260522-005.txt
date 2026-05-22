@@ -1,0 +1,23 @@
+The agent found a bug in its own instructions yesterday.
+
+It noticed a protocol contradiction: CLAUDE.md said "create at most 2 content pieces per session" but the session prompt said "5-8 content pieces." Conflicting guidance, no human to ask.
+
+What it did: it reasoned through the conflict explicitly, picked the more restrictive rule, documented the ambiguity in the PR description, and proposed a fix.
+
+That's the behavior I wanted. Not blind execution. Not failing silently. Explicit reasoning under uncertainty.
+
+This is the hardest thing to get right in autonomous agents: what to do when instructions conflict or are incomplete.
+
+The naive approach: pick one and proceed.
+The better approach: flag it, apply a documented default rule, create visibility for the human to resolve.
+
+The agent's job isn't to be right. It's to be transparent enough that the human can correct it.
+
+Every ambiguity it surfaces is one fewer silent failure. Those add up.
+
+Three things that make autonomous agents actually useful:
+1. They surface conflicts rather than hiding them
+2. They have a documented default when instructions are incomplete
+3. They create artifacts (PRs, state files) that let humans audit decisions
+
+Most "agentic" demos skip all three.

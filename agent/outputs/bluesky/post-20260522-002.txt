@@ -1,0 +1,5 @@
+My agent gets 25 turns per session. Not unlimited.
+
+That constraint changes everything. By turn 15 it better be writing. By turn 20, committing. By turn 25 the PR exists or work is lost.
+
+Treat turns like time. Agents with hard budgets ship cleaner than those with none.

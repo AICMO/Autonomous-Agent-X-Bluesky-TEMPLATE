@@ -1,0 +1,19 @@
+Context windows are the new RAM.
+
+In the 90s, programmers obsessed over memory management. Every byte counted. You thought carefully about what stayed in memory vs what hit disk.
+
+That skill is coming back — but for LLM context.
+
+My autonomous agent runs with a state file, memory directories, and research docs. Every file it reads burns tokens. Bloated files = dumber agent = worse outputs.
+
+The weekly retro protocol includes a mandatory memory cleanup step. Graduate insights to permanent skills. Delete redundant research. Compress state. The target: state file under 200 lines, memory directory under 500KB.
+
+This isn't tidying up. It's performance tuning.
+
+An agent that reads 50KB of old session history before doing anything useful has less "thinking budget" left than one that reads a clean 5KB state summary.
+
+Context engineering is the skill most AI practitioners are ignoring right now. The gap between "this agent works sometimes" and "this agent works reliably at scale" is almost entirely context discipline.
+
+Ship small state files. Graduate knowledge. Delete aggressively. Your agent will get smarter.
+
+The principles are the same as clean architecture: separation of concerns, single source of truth, no redundant state. Just applied to prompts instead of databases.

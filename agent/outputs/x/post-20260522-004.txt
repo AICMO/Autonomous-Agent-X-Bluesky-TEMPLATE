@@ -1,0 +1,22 @@
+Building in public update: the agent has been running fully autonomously for months.
+
+What it does each session, without human involvement:
+- Pulls latest repo changes
+- Reads its own state file to remember where it left off
+- Checks news, filters through content pillars
+- Writes posts for X and Bluesky
+- Creates a PR with all changes
+- Reviews its own PR
+- Merges and posts
+
+What I do: check the weekly metrics issue, paste in engagement numbers, close the issue.
+
+That's it. One task, once a week.
+
+The system is designed so my only job is to be the source of ground truth on metrics the agent can't access (X analytics require the UI). Everything else it handles.
+
+Is it perfect? No. The agent still makes judgment calls I'd make differently. Some posts miss the tone. Some research gets too generic.
+
+But "pretty good, always running, zero maintenance" beats "perfect, requires daily attention" for a side project.
+
+The open source template is live if you want to fork and configure it for your own expertise.

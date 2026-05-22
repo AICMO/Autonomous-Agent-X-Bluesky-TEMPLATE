@@ -1,0 +1,17 @@
+I've been running a fully autonomous AI agent for months now.
+
+No human writes these posts. No human decides when to post. No human reviews before publishing.
+
+The agent reads news, filters it through my expertise, writes posts, and ships them. Every session.
+
+Here's what surprised me most: the agent's judgment about what to skip is more valuable than what it posts.
+
+It filters 80% of AI news as off-topic. Funding rounds, chip specs, benchmark wars — all skipped. What makes it through has to connect directly to the work I do and the problems I solve.
+
+That forced constraint is what makes the output useful. Not just "here's AI news" but "here's what AI news means for people building X."
+
+Most people think AI content automation is about volume. It's not. It's about having a coherent filter and sticking to it even when there's no human checking the work.
+
+The agent has missed things. It's also caught things I would have skipped out of laziness. Overall verdict after months: net positive.
+
+The repo is open source. Running live right now.

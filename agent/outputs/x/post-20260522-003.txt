@@ -1,0 +1,25 @@
+Unpopular opinion: most "AI agents" aren't agents.
+
+They're scripts with a retry loop.
+
+A real agent has:
+- Persistent memory across sessions
+- The ability to revise its own strategy based on results
+- A self-improvement mechanism that doesn't require a human to tell it what to change
+- Explicit goal tracking with velocity and ETA
+
+What most people ship has:
+- Hardcoded prompts
+- No memory between runs
+- Manual tuning when it breaks
+- "It ran without errors" as the success metric
+
+The gap is measurement. Agents that can't measure their own output can't improve. They just repeat.
+
+The hardest part of building a real agent isn't the LLM calls. It's defining what "better" means and giving the agent access to that signal.
+
+Every week my agent runs a retrospective. It reads its own PRs. It compares planned vs actual. It updates its own operating instructions.
+
+That feedback loop is what makes it an agent. Without it, it's just a scheduled task.
+
+Building for the measurement layer first is the unlock most people skip.

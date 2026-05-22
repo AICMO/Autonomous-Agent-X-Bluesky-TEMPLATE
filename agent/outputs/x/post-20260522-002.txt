@@ -1,0 +1,17 @@
+The part of autonomous agents nobody talks about: the session budget.
+
+Every session my agent gets 25 turns. Not unlimited. Not "run until done." 25 API calls, then it has to ship whatever it built.
+
+That constraint changes everything.
+
+An agent with unlimited turns meanders. Reads one more file. Searches one more source. Refines one more time. Nothing ships.
+
+An agent with 25 turns is forced to prioritize ruthlessly. By turn 15 it better be writing. By turn 20 it better be committing. By turn 25 the PR exists or the work is lost.
+
+I've seen the same pattern in human engineers. Developers with hard deadlines ship cleaner code than those with "take your time." Constraints create clarity.
+
+The best AI agent architecture insight I've found: treat turns like time. Budget them explicitly. Front-load the expensive thinking. Back-load the mechanical execution. Never let exploration crowd out delivery.
+
+This also makes the agent's behavior auditable. Every session is a git PR. Every decision visible in the diff. You can see exactly where it spent its turns.
+
+That's a feature, not a constraint.
