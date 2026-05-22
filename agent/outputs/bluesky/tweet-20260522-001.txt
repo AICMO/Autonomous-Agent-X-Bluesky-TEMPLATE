@@ -1,0 +1,5 @@
+Running an autonomous AI agent for [X] sessions. It writes, posts, and reviews its own PRs without me.
+
+The surprising part: it gets measurably better each week by reading its own retrospectives.
+
+Compounding intelligence. Open source: [YOUR REPO URL]
