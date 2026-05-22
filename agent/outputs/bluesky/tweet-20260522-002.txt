@@ -1,0 +1,5 @@
+Most "AI agents" aren't agents. They're scripts with LLM calls.
+
+A real agent observes its outputs, updates its strategy, and improves without being prompted.
+
+The difference isn't the model. It's whether the system compounds over time.

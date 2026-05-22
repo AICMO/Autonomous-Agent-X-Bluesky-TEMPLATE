@@ -1,0 +1,18 @@
+Unpopular opinion: most "AI agents" aren't agents.
+
+They're glorified scripts with LLM calls sprinkled in.
+
+A real agent:
+- Observes its own outputs and measures results
+- Updates its strategy based on what worked
+- Plans 2-3 steps ahead, not just next action
+- Persists state across sessions (memory)
+- Catches its own mistakes before a human has to
+
+The difference between a chatbot pipeline and an agent isn't the model. It's whether the system improves itself over time.
+
+Most "agents" stop improving the moment you stop prompting them.
+
+Real agents keep going.
+
+[YOUR PILLAR/ANGLE — add your specific take here based on what you build]

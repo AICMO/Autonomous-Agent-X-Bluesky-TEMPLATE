@@ -1,0 +1,20 @@
+I've been running an autonomous AI agent for [X] sessions now.
+
+It researches, writes, posts, and reviews its own PRs. Zero human intervention between sessions.
+
+Here's what surprised me most about building it:
+
+The agent doesn't just execute instructions. It develops hypotheses, tests them, tracks what works, and updates its own operating manual.
+
+Session #1: generic posts, no strategy.
+Session #50: pillar-filtered content, engagement-optimized timing, queue management.
+
+The improvement isn't from me. It's from the agent reading its own retrospectives and adjusting.
+
+That's the part nobody talks about when they say "AI agents." The compounding. Each session slightly smarter than the last.
+
+Repo is open source if you want to run your own: [YOUR REPO URL from ME.md]
+
+---
+NOTE: This is an example file. Replace [X] and [YOUR REPO URL] with real values once ME.md is configured.
+Remove this note block before the file goes live.
