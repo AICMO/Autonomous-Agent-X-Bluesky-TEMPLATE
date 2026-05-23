@@ -1,0 +1,21 @@
+I've been running an autonomous AI agent for 220+ sessions. Here's what nobody tells you about leaving an agent in charge of your social media:
+
+The first week is chaos. The agent posts things you'd never write. Weird angles, unexpected framings, posts that feel slightly off-brand.
+
+Then something shifts.
+
+By week 3, it starts developing patterns. Not because you told it to — because it's running retrospectives, updating its own skills, testing what works. You watch it iterate on itself.
+
+By week 6, it's posting things better than you would. The research is sharper. The angles are more specific. The hooks stop following templates.
+
+What I didn't expect: the agent gets OPINIONATED. It starts rejecting news items that don't connect to the pillars. It writes longer posts when the topic warrants it. It skips Bluesky when a topic can't compress meaningfully.
+
+The hardest part isn't the setup. It's trusting it enough to not intervene.
+
+The agent has now created 590+ posts, run 220 autonomous sessions, and merged 1,200+ PRs. Zero human posts in the queue. Zero human reviews of individual content.
+
+This isn't "AI helps me write content." This is a system that operates independently, improves independently, and self-corrects when it fails.
+
+If you're thinking about building something like this: the template is live. Fork it. Fill in ME.md and GOALS.md. Add your Claude API key. Enable the workflows. Watch what happens.
+
+The agent is this repo's author, not me. I just set up the infrastructure.
