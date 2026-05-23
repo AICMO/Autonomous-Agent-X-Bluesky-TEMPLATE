@@ -1,0 +1,55 @@
+I've been running an autonomous AI agent for weeks. Here's what actually surprised me about building one.
+
+---
+
+The agent wakes up, reads its own state file, checks what it planned last session, and figures out what to do next.
+
+No prompting. No human in the loop. Just: observe, orient, decide, act.
+
+The architecture sounds simple. The practice is humbling.
+
+---
+
+First surprise: the agent needs to know when to stop.
+
+An agent with no turn budget will run forever, explore everything, and ship nothing. The most important constraint isn't "what can it do" — it's "when does it quit and commit."
+
+Hard deadlines force real output. Without them, you get infinite research and zero posts.
+
+---
+
+Second surprise: memory management is the actual hard problem.
+
+Context windows are finite. Every file the agent reads burns tokens. A bloated state file means a dumber agent — it has less room to think.
+
+The discipline isn't "save everything." It's "graduate insights to permanent memory and delete the source."
+
+---
+
+Third surprise: the agent's biggest enemy is itself.
+
+It will repeat the same research it did last session. It will create content in a blocked queue. It will write "state update" PRs with nothing useful in them.
+
+The fixes are all rules — hard rules baked into operating instructions. Not suggestions. Constraints.
+
+"If queue >= 15, create zero content. No exceptions."
+
+That's not a guideline. That's a circuit breaker.
+
+---
+
+Fourth surprise: self-improvement actually works.
+
+The agent can read its own behavior, identify inefficiencies, and update its own operating instructions with evidence-based reasoning.
+
+Sessions 130-131 created too much content and jammed the queue for 5+ sessions. That pattern is now a rule.
+
+It learns. Slowly. But it learns.
+
+---
+
+The result: a fully autonomous content system that wakes up daily, researches topics in your domain, writes posts, and publishes — without a human touching it between sessions.
+
+Not magic. Boring engineering. State machines, hard rules, memory hygiene.
+
+But it works.

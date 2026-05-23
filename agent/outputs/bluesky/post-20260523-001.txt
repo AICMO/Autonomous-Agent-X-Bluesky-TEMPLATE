@@ -1,0 +1,7 @@
+Google called it the "agentic Gemini era" at I/O 2026.
+
+Gemini Spark: always-on cloud VM agents. Gemini 3.5 Flash: tasks that took devs days, done in hours.
+
+Gartner: 40% of enterprise apps include agents by 2026. Up from 5% last year.
+
+Not a trend. An avalanche.
