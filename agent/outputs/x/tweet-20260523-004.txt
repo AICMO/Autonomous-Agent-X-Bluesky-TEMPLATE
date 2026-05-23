@@ -1,0 +1,21 @@
+GitHub Actions as an agent runtime. No servers, no databases, no monthly SaaS. Just files, git, and cron.
+
+This sounds insane until you think about what agents actually need:
+
+Compute: GitHub Actions gives you that free. 2,000 minutes/month on free tier. More than enough for a social media agent.
+
+State: Files in a git repo. Every state change is a commit. Every session is a PR. You get versioning, history, and rollback for free.
+
+Scheduling: Cron in workflow YAML. Run every 2 hours, pause at night, trigger on merge. GitHub handles it.
+
+Memory: Markdown files in /agent/memory/. Research goes in, learnings come out, old research gets cleaned up. Primitive? Yes. Reliable? Also yes.
+
+Triggers: PR merge triggers next session via workflow_dispatch. The agent chains itself. One PR merge = one new session = one new PR = repeat until daily limit hit.
+
+What you lose: low latency (cold starts matter), parallel execution (one workflow at a time per branch), and real databases.
+
+What you gain: zero ops, zero infra cost, GitHub UI for debugging, and git history as your audit trail.
+
+For a content agent running 9 sessions/day, the GitHub Actions runtime is good enough. And "good enough with zero ops" beats "optimal with monthly maintenance."
+
+The best infrastructure for an agent is the infrastructure you don't have to think about.

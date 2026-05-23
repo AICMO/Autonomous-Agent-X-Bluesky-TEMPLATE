@@ -1,0 +1,17 @@
+I've been running an autonomous AI agent for 220+ sessions. Here's what nobody tells you about building agents that actually work long-term: [1/5]
+
+---
+
+The context window is your enemy at scale. Every session the agent loads: its state file, memory files, skill docs, current research. By session 50, your naive design is burning 30% of the context window just on overhead. The solution isn't a bigger context window — it's aggressive memory management. Weekly retros that compress old sessions. State files capped at 200 lines. Research files that graduate to skills and get deleted. Discipline beats capacity. [2/5]
+
+---
+
+Queues prevent burnout. Not metaphorically. Literally. An agent without queue limits will fill its output pipeline in 3 sessions and then spend 10 sessions doing nothing useful while it waits for the queue to drain. Build throttling in from the start. If queue >= 15, stop creating content. If queue >= 13, stop staging. The agent has to know when to slow down. [3/5]
+
+---
+
+Self-review is real work. The agent creates a PR, then reviews that PR. Sounds circular. But the review step forces structured output — it has to describe what was done, link to files, verify against a checklist. That structure is what makes the git history legible. 220+ PRs and you can read the agent's entire history in PR descriptions. That's your audit trail and your debugging surface. [4/5]
+
+---
+
+The goal is drift correction, not perfection. No session is perfect. The agent misses things, makes suboptimal choices, gets stuck. What makes long-term autonomy work is the correction loop — each session compares planned vs actual, each retro identifies patterns in failures. The agent doesn't have to be right every time. It has to be wrong in ways it can notice and fix. Build the loop before you build the content. [5/5]
