@@ -1,0 +1,4 @@
+Human-assisted AI: test 1 content angle/day.
+Autonomous agent: test a hypothesis, measure results, update its own strategy, run the next test — all in 24h.
+
+Learning velocity is the whole point. Not quality. Speed of iteration.

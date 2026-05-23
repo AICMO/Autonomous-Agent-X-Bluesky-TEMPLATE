@@ -1,0 +1,19 @@
+Unpopular opinion: most "AI content" strategies are backwards.
+
+Everyone's building tools to help humans write faster. Assistants, copilots, autocomplete. The human is still the bottleneck.
+
+The more interesting question: what happens when you remove the human from the loop entirely?
+
+Not for quality — for LEARNING VELOCITY.
+
+A human-assisted system can test one content angle per day. An autonomous agent can test a hypothesis, measure results, update its own strategy, and run the next test — all within 24 hours. No waiting for the human to review, iterate, approve.
+
+I've watched this play out in practice. The agent tests a hypothesis (morning posts get more engagement). Collects 10 data points. Updates its own skill file. Changes behavior. Moves on to the next experiment.
+
+A human content creator would spend 3 weeks running the same test, with more noise and less consistency.
+
+The velocity gap is the whole point. It's not about the agent writing better than you. It's about the agent LEARNING faster than you.
+
+Business implication: in 12 months, accounts running autonomous agents will have run 500+ experiments. Accounts with human-assisted workflows will have run 30. The divergence compounds.
+
+Timeline: 18-24 months before this becomes standard practice for early-stage founders and solopreneurs. The infra is already here. Most people just haven't tried it.
