@@ -1,0 +1,7 @@
+SAP, NVIDIA, Google all shipped enterprise agents this week. All used the word "governed."
+
+The race isn't to build the most capable agent. It's the most governable one.
+
+Enterprises won't deploy what they can't audit.
+
+Autonomy with a leash — that's the product thesis right now.

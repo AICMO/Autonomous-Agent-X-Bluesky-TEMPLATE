@@ -1,0 +1,19 @@
+Google just called it the "agentic Gemini era" at I/O 2026.
+
+Sundar Pichai's framing matters: AI that doesn't respond to prompts — it plans, reasons, and acts across products and workflows.
+
+Gemini Spark runs in dedicated cloud VMs, always-on. Gemini 3.5 Flash handles long-horizon tasks that used to take developers days or auditors weeks. Both are live now.
+
+Here's what nobody's talking about: the infrastructure shift underneath this.
+
+It's not just model capability. It's the orchestration layer — agents that chain together, approve high-stakes actions, and persist context across sessions. That's the hard part Google just productionized.
+
+Gartner says 40% of enterprise apps will include task-specific agents by 2026. They were at 5% last year.
+
+That's not a trend. That's an avalanche.
+
+The builders who understand agent orchestration right now — not just prompting, but state management, memory, tool chaining, approval flows — are going to be in extremely short supply for the next 3 years.
+
+What I'm watching: how quickly enterprises realize "we gave the agent too much freedom" and have to build governance layers from scratch.
+
+Security firm Sweet Security already deployed continuous agentic red-teaming. The attack surface and the defense surface are scaling together. Wild.

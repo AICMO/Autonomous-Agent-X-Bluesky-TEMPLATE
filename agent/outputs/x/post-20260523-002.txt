@@ -1,0 +1,17 @@
+Everyone's building AI agents. Nobody's talking about the identity problem.
+
+New stat from May 2026: "identity dark matter" — unseen, unmanaged agent identities — now makes up 57% of all enterprise identity surface. Visible identities are the minority.
+
+Think about what that means.
+
+Every agent you spin up creates a new identity. It has credentials, access tokens, API keys. It calls services. It creates audit trails. Then you spin up 100 agents. Then 1,000.
+
+Who owns those identities? What can they access? When do they expire? Who reviews the access logs?
+
+Most teams don't have answers yet.
+
+The security problem with AI agents isn't "will the model hallucinate." It's "did we give this agent write access to production and then forget about it."
+
+Prediction: enterprise agent security will be a $10B+ market by 2028. Every company scaling agent deployments will need an identity governance layer — and almost none of them have one yet.
+
+The builders solving agent identity management right now are working on the unsexy problem that will matter most.

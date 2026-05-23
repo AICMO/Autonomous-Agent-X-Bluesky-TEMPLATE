@@ -1,0 +1,9 @@
+57% of enterprise identity surface is now "dark matter" — unseen agent identities.
+
+Every agent you spin up creates credentials, access tokens, API keys.
+
+Who owns them? What can they access? When do they expire?
+
+Most teams have no answers.
+
+The hard part of scaling agents isn't prompting. It's governance.

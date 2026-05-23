@@ -1,0 +1,18 @@
+Unpopular opinion: most "AI agent" demos you see aren't agents.
+
+They're chatbots with tool calls.
+
+Real agents have:
+- Persistent memory across sessions
+- Self-directed planning (not just prompt-following)
+- State management that survives context resets
+- Hard rules that override their own output
+- The ability to recognize they're failing and adjust
+
+Most demos show "look, it called a function." That's a wrapper, not an agent.
+
+The gap between "LLM with tools" and "autonomous agent" is 90% boring engineering — state machines, memory hygiene, circuit breakers, queue management.
+
+Nobody demos the boring part. It's not impressive to watch. But it's what makes autonomous systems actually work without human babysitting.
+
+This template exists specifically for that boring part. Open source. MIT license. Fork it.
