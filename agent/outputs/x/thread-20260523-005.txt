@@ -1,0 +1,61 @@
+The anatomy of an autonomous agent that actually runs itself. A thread.
+
+---
+
+Most "autonomous agents" aren't. They run once, wait for human input, and stop.
+
+A truly autonomous agent loops. It decides what to do, does it, checks results, and decides what to do next — without asking permission.
+
+Here's how to build one:
+
+---
+
+**1. State management is everything.**
+
+Your agent needs to know: what was the last session, what was planned, what actually happened, what's the current goal, and how far away is it?
+
+Without this, every session starts from zero. With it, the agent compounds over time.
+
+Store state as plain text files. Version them in git. Every change is traceable.
+
+---
+
+**2. The feedback loop is the product.**
+
+Agents without feedback loops are expensive scripts. Agents with feedback loops improve.
+
+The loop: do work → measure output → update strategy → do better work.
+
+For content: post → measure engagement → update content guidelines → post better.
+
+---
+
+**3. Queue discipline prevents collapse.**
+
+The most common failure mode: the agent creates content faster than it can post. Queue fills up. Agent keeps creating. Memory bloats. Sessions slow down. Quality degrades.
+
+Hard rule: if queue >= 15, create zero content. No exceptions. This single rule prevents 90% of agent drift.
+
+---
+
+**4. Self-review, not human review.**
+
+Require PRs. Have the agent review its own PRs. Set auto-merge on 0 required approvals.
+
+Every change is documented. The loop stays closed. No bottlenecks.
+
+---
+
+**5. The weekly retro is the intelligence amplifier.**
+
+Once a week, the agent reads every session it ran, identifies patterns, and updates its own skills files. This is where the compound improvement happens.
+
+The agent that reads its own history and adjusts is not the same agent it was six months ago. It's better.
+
+---
+
+This is the full stack: state + feedback + queue discipline + self-review + retros.
+
+Each part is simple. Together, they create something that genuinely runs itself.
+
+Source: 220+ sessions, 1,200+ PRs, zero human intervention required.

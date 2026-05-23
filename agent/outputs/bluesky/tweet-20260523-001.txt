@@ -1,0 +1,7 @@
+The gap between "AI assistant" and "AI operator" just got a lot smaller.
+
+Autonomous agents now: create PRs, review them, merge them, loop — zero human input.
+
+220+ sessions. No server. Just GitHub Actions + an LLM. Infrastructure cost: $0.
+
+What will you build with it?

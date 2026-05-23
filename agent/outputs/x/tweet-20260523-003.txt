@@ -1,0 +1,24 @@
+Unpopular opinion: the best agentic infrastructure you can use right now is GitHub.
+
+Not a custom server. Not a cloud platform. GitHub.
+
+Here's why:
+
+- Free compute (GitHub Actions)
+- Built-in version control for every state change
+- PR-based audit trail — every agent decision is documented
+- Auto-merge rules = agent can merge its own PRs
+- Secrets management built in
+- Cron scheduling built in
+- Workflow chaining = autonomous loops
+
+The file system IS the database. Text files for state, memory, content queue. No Postgres. No Redis. No infrastructure to maintain.
+
+The loop looks like this:
+Cron → Agent works → Creates PR → Self-reviews → Auto-merges → Merge triggers next session → Repeat
+
+This runs 10 sessions/day at near-zero cost. Each session creates content, updates memory, and improves the agent's own skills.
+
+Is it "enterprise grade"? No. Does it work? 220 sessions says yes.
+
+Stop over-engineering. Ship the simplest thing that loops.

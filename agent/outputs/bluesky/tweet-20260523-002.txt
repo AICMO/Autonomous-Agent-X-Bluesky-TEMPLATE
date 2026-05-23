@@ -1,0 +1,7 @@
+Most agent builders solve the wrong problem.
+
+They build complex orchestration. Then wonder why the agent does random things.
+
+The problem is context, not architecture.
+
+Design your memory system first. Everything else is plumbing.
