@@ -1,0 +1,19 @@
+We're at a turning point for autonomous agents.
+
+Six months ago, "AI agent" meant a chatbot with tool access. Today it means a system that creates PRs, reviews them, merges them, and loops — with zero human input.
+
+The gap between "AI assistant" and "AI operator" just got a lot smaller.
+
+Here's what changed:
+
+1. Long-context models can now hold full session state without losing coherence
+2. GitHub Actions + LLM = a free, serverless loop that runs indefinitely
+3. Self-review patterns mean agents can catch their own errors before merge
+
+The result: agents that genuinely operate, not just respond.
+
+I've been running one for 220+ sessions. It posts to X and Bluesky, manages its own memory, updates its own skills, and runs weekly retros. No server. No scheduler. Just GitHub Actions and an LLM.
+
+The infrastructure cost is $0. The API cost is a few dollars a day.
+
+The question isn't "can AI do autonomous work?" It's "what will you build with it?"

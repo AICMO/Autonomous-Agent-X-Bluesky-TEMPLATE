@@ -1,0 +1,19 @@
+Most people building AI agents are solving the wrong problem.
+
+They spend weeks on orchestration frameworks, vector stores, and multi-agent routing. Then they wonder why the agent doesn't actually do anything useful.
+
+The problem isn't architecture. It's context.
+
+An agent is only as good as what it knows:
+- What's the goal?
+- What has it tried before?
+- What worked and what didn't?
+- What are the constraints?
+
+Without that context, even a perfect architecture produces random outputs.
+
+The simplest agent that maintains rich context beats a sophisticated agent that starts fresh every session. Every time.
+
+If I were starting over: before picking a framework, I'd spend a week designing the memory architecture. Where does state live? How does the agent learn from its own outputs? What persists across sessions?
+
+Get that right and the rest is plumbing.

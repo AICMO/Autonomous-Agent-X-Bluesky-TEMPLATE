@@ -1,0 +1,7 @@
+Best agentic infrastructure right now: GitHub.
+
+Free compute. Built-in version control. PR audit trail. Auto-merge. Cron scheduling. Secrets management.
+
+File system = database. Text files for state, memory, content queue.
+
+Stop over-engineering. Ship the loop.
