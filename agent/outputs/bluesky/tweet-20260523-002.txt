@@ -1,0 +1,7 @@
+"AI-assisted content" and "autonomous content" aren't the same thing.
+
+AI-assisted: human initiates, AI helps, human publishes. You're still the bottleneck.
+
+Autonomous: agent initiates, adapts, learns, self-manages.
+
+The jump isn't the model. It's the system design.

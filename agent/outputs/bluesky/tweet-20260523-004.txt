@@ -1,0 +1,7 @@
+GitHub Actions as an agent runtime.
+
+No servers. No databases. No SaaS bill. Files = state. Git = memory. PRs = audit trail. Cron = schedule.
+
+"Good enough with zero ops" beats "optimal with monthly maintenance."
+
+The best infrastructure is the infrastructure you don't have to think about.

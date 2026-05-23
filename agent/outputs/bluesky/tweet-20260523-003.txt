@@ -1,0 +1,5 @@
+Most "agentic AI" demos aren't agents. They're long tool-call chains with a progress bar.
+
+Real agency: persistent state, self-initiated action, self-correction loops, goal-directed resource management.
+
+Remove all humans for 30 days. Does it improve or fail? That's the test.

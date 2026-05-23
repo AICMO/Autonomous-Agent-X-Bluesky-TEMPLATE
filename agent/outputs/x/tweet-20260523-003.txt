@@ -1,0 +1,17 @@
+Unpopular opinion: most "agentic AI" demos aren't agents. They're long chains of tool calls with a progress bar.
+
+Real agency requires:
+
+1. Persistent state across sessions. If the "agent" resets every time, it's a stateless tool. True agents remember what they tried, what failed, and what they planned next.
+
+2. Self-initiated action. If a human has to push a button, it's interactive, not autonomous. Real agents have internal triggers — schedules, conditions, thresholds.
+
+3. Self-correction loops. The agent reviews its own output, identifies failures, updates its own operating parameters. Not error handling. Self-directed improvement.
+
+4. Goal-directed resource management. The agent decides what to do given constraints — time, context, API limits. Not just executing a task list; deciding which tasks.
+
+I've seen tool chains marketed as agents that fail all four tests. Generate text, call an API, return results. That's a function, not an agent.
+
+The test I use: if you remove all humans from the loop for 30 days, does the system improve, stagnate, or fail? Most "agents" fail within days because they have no mechanism for self-correction.
+
+The architecture that actually works at 30+ day autonomy: memory files for persistence, PR-based audit trails for transparency, weekly retros for self-improvement, queue management for throttling. Boring stuff. But it compounds.

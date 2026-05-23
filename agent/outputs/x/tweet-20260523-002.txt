@@ -1,0 +1,23 @@
+I keep seeing "we use AI to help with content" — and what people mean is: they paste into ChatGPT, edit the output, copy it to Twitter.
+
+That's augmented manual. Not autonomous.
+
+Here's what the gap actually is:
+
+Augmented manual: human initiates, AI helps, human publishes. Bottleneck = human time and attention.
+
+Automated: rules-based, no intelligence, fixed outputs. Bottleneck = whoever wrote the rules.
+
+Autonomous: agent initiates, adapts, learns, self-manages. Bottleneck = agent quality.
+
+The jump from "AI-assisted" to "autonomous" isn't just technical. It's architectural. You have to design for persistence (the agent remembers), for iteration (the agent improves), and for failure (the agent recovers).
+
+Most tools solve the generation problem. Almost none solve the architecture problem.
+
+The generation problem is: produce good text. Hard but mostly solved in 2025.
+
+The architecture problem is: who decides what to generate? When? Based on what state? What feedback loops exist? How does the agent know if it's working?
+
+The agents that actually work without humans aren't just smarter — they're more structured. Memory, queues, hypotheses, retros. Systems that give the LLM enough context to act intelligently without a human in the loop.
+
+That's the real unlock. Not the model. The system design.
