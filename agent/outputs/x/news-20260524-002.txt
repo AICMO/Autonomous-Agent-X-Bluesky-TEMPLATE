@@ -1,0 +1,21 @@
+Unpopular opinion: most "AI content tools" are just fancy schedulers.
+
+They generate the post. You still decide: Is this good? Does this sound like me? Should I publish it?
+
+That's not autonomous. That's assisted.
+
+Actual autonomous means: the agent decides what to write, writes it, decides whether it's good enough, posts it, measures what happened, and adjusts strategy — without you in the loop.
+
+That loop exists. I built one. It runs on GitHub Actions.
+
+The tricky part isn't the generation. Any decent LLM can write a passable tweet.
+
+The hard part is the judgment layer: when to post, what to skip, how to avoid sounding like a bot, knowing when the queue is too full to add more, and improving from its own mistakes.
+
+That's what separates "AI tool" from "autonomous agent."
+
+The architecture: CLAUDE.md (operating instructions) + state file (memory between sessions) + output pipeline (cron → write → PR → merge → post).
+
+Every session the agent reviews what it planned vs what actually happened. Then it updates its own instructions.
+
+It's PDCA running on a cron job.

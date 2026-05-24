@@ -1,0 +1,1 @@
+Most "AI content tools" are fancy schedulers. You still approve every post. Real autonomous = agent decides, writes, judges, posts, measures, and adjusts — without you. The hard part isn't generation. It's the judgment layer: when to post, what to skip, when to stop.
