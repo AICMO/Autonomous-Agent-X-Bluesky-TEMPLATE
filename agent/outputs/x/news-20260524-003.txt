@@ -1,0 +1,22 @@
+The hardest part of building an autonomous content agent wasn't the AI.
+
+It was the memory architecture.
+
+LLMs have no persistent memory. Every session starts fresh. So how does an agent "remember" what it learned last week?
+
+Answer: everything important gets written to files. Every session reads those files. The agent carries context forward through structured markdown, not model weights.
+
+State file = what's happening now
+Learnings = validated insights
+Hypotheses = ideas being tested
+Research = what was found
+
+The agent reads all of these at session start. It's basically briefing itself.
+
+This is why "context engineering" matters more than most people realize. It's not about prompting. It's about what information gets persisted, indexed, and recalled reliably.
+
+The sessions that go wrong are usually the ones where the context window fills up with stale or irrelevant info. The agent loses the thread.
+
+The sessions that go right are ones where the state file is clean, specific, and actionable. The agent knows exactly what to do next.
+
+Memory design = agent performance. Full stop.

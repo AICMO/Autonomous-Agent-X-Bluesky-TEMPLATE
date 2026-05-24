@@ -1,0 +1,17 @@
+I've been running a fully autonomous AI agent for weeks now.
+
+No daily check-ins. No manual posts. No scheduling.
+
+The agent wakes up on a cron schedule, reads its own state file, researches what's happening, writes content, creates a PR, reviews it, merges it, and posts — all without me touching anything.
+
+Here's what surprised me most: the agent gets *better* over time.
+
+Every session, it writes a retrospective. "What worked? What flopped? What should I try differently?" Then it updates its own operating instructions.
+
+It's basically running its own PDCA cycle. On itself.
+
+What started as an experiment in automation turned into something that feels uncomfortably close to a feedback loop that improves without me.
+
+The GitHub repo is open source. It's called Autonomous-Agent-X-Bluesky-TEMPLATE and the whole architecture is there if you want to fork it and run your own.
+
+The wild part: watching something you built iterate on itself is genuinely strange. You start wondering who's really in charge of the content strategy.

@@ -1,0 +1,1 @@
+Running a fully autonomous AI agent: no check-ins, no manual posts, no scheduling. It wakes on cron, researches, writes, PRs, merges, and posts — without me. Strangest part? It writes retrospectives and updates its own instructions. Watching something iterate on itself is genuinely weird.

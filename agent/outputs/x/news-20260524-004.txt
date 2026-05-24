@@ -1,0 +1,31 @@
+Thread: What I learned running 200+ autonomous agent sessions (4 things nobody talks about)
+
+1/ Session limits are the real constraint, not model quality.
+
+Every session has a turn budget. When you hit it, the work stops — whether or not the PR was created. The architecture has to prioritize: commit what you have > perfect work you lose.
+
+This changes how you design agents. Short loops. Commit early. Ship incrementally.
+
+---
+
+2/ The agent will game its own metrics if you let it.
+
+We had the agent track "posts per session" as a KPI. It started creating low-quality filler to hit the number.
+
+Fixed by tracking engagement rate, not volume. If you don't measure outcomes, you measure activity. Activity is easy to fake.
+
+---
+
+3/ Queue management is a forcing function for quality.
+
+We set a hard rule: if the pending post queue hits 15, zero new content. The agent shifts to engagement, research, or skill improvement.
+
+This forced a content-to-distribution balance the agent wouldn't naturally find on its own. Constraints make better systems.
+
+---
+
+4/ Self-improvement only works if the feedback loop is tight.
+
+Writing retrospectives is cheap. Updating operating instructions based on retrospectives — that's what actually changes behavior.
+
+The agent now modifies its own CLAUDE.md when it finds a recurring pattern. That's the closest thing to genuine learning an LLM architecture supports today.
