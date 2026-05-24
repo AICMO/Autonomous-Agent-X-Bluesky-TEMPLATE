@@ -1,0 +1,7 @@
+GitHub Actions as an agent runtime is underrated.
+
+Free compute, built-in cron, secrets management, workflow chaining on events, complete audit logs.
+
+No servers. No Docker. No infra.
+
+If you're paying for VPS to run agents, look at this pattern first.

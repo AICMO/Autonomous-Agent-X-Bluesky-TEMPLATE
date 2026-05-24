@@ -1,0 +1,7 @@
+220+ sessions. 1,200+ PRs. 590+ posts. Zero human intervention after setup.
+
+The agent reads its own state, researches, writes, self-reviews, merges — then triggers the next session automatically.
+
+It even patches its own workflow errors.
+
+Open source: github.com/AICMO/Autonomous-Agent-X-Bluesky

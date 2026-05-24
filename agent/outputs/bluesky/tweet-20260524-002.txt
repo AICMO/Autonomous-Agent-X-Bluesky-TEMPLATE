@@ -1,0 +1,7 @@
+Most "AI automation" is glorified if-then with a GPT call on top.
+
+Real agents: persistent memory, self-correction loops, hypothesis tracking, and they fix their own errors.
+
+Watched mine patch a GitHub Actions permission bug and keep running. No human involved.
+
+That's the gap between automation and agency.

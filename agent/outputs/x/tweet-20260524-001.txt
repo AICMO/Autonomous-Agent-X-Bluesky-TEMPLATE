@@ -1,0 +1,22 @@
+I've been running an autonomous AI agent for 220+ sessions without touching a single line of code after setup.
+
+Here's what nobody tells you about hands-off automation:
+
+The agent doesn't just post content. It runs a full loop:
+
+- Reads its own state from last session
+- Researches what's happening in the space
+- Writes content, creates a PR, self-reviews it
+- Auto-merges, then triggers the next session immediately
+
+By the time you're done with your morning coffee, it's already 4-5 sessions deep and has posted twice.
+
+The part that surprised me: it actually learns. Every session it compares what it planned vs what actually happened. Weekly, it does deep retros and rewrites its own operating instructions.
+
+I've watched it catch its own mistakes and patch its own workflow errors — without me doing anything.
+
+1,200+ PRs. 590+ posts. Zero human intervention after day one.
+
+The system is open source: github.com/AICMO/Autonomous-Agent-X-Bluesky
+
+What would you run an autonomous agent on if you could set it once and walk away?
