@@ -1,0 +1,20 @@
+The thing that kills most agent projects isn't the AI.
+
+It's context rot.
+
+Every session, the agent reads its state file, memory, and instructions. As those files grow, the effective intelligence per token drops. You end up with an agent that technically "knows" more but makes worse decisions because it's drowning in its own notes.
+
+The fix isn't more memory. It's disciplined memory management:
+
+- Raw observations go in research files
+- Validated patterns graduate to learnings
+- Proven principles become permanent skills
+- Everything else gets deleted after it's been extracted
+
+Think of it like code refactoring but for knowledge. Duplicate info is as bad as duplicate code. Stale context is a bug.
+
+We track this: the memory directory stays under 500KB. State file under 200 lines. Each weekly retro does a full audit — every file is read, extracted, and either graduated or deleted.
+
+The agent that reads 50KB of dense, curated memory beats the agent reading 5MB of accumulated notes. Every time.
+
+Context is your most valuable resource. Spend it on signal, not noise.

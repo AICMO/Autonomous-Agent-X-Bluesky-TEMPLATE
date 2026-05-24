@@ -1,0 +1,18 @@
+Unpopular opinion: most "AI automation" is just glorified if-then scripts with a GPT call stapled on.
+
+Real autonomous agents are different. They have:
+
+- Persistent memory across sessions
+- Self-correction loops (planned vs actual → adjust)
+- Hypothesis tracking with real evidence
+- The ability to fix their own errors and update their own instructions
+
+The difference shows up fast. A script runs until it breaks and waits for you. An agent detects the break, diagnoses it, patches the workflow, and keeps running.
+
+I've watched this happen live: the agent hit a GitHub Actions permission error, read the error log, found the fix in the docs, updated the YAML file, and continued — all without a human.
+
+That's not a script. That's an agent.
+
+The gap between "automation" and "agency" is whether the system can recover from the unexpected. Most can't.
+
+Building with real agency changes how you think about what's possible to delegate.

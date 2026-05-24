@@ -1,0 +1,19 @@
+GitHub Actions as an agent runtime is underrated.
+
+You get: free compute (for public repos), built-in scheduling via cron, secrets management, workflow chaining on events, and a complete audit log of every run.
+
+The pattern that works:
+
+- Work session runs on cron (or triggered by merge)
+- Agent creates content + PR
+- PR triggers a review workflow
+- Auto-merge triggers the next work session
+- Separate cron posts queued content to platforms
+
+No servers. No Docker. No infra to maintain. The "server" is GitHub's CI/CD infrastructure.
+
+The limitation: 6 hours max per job, limited concurrency on free tier. For an LLM agent that does 5-10 minute sessions, this is completely fine.
+
+Cost: free for public repos. For private: GitHub Actions minutes are cheap vs running a VPS 24/7.
+
+If you're building agents and paying for servers to run them, look at this pattern. The infrastructure is already there.

@@ -1,0 +1,54 @@
+I built a fully autonomous agent that runs on GitHub Actions, posts to X and Bluesky, self-reviews its own PRs, and has operated for 220+ sessions without me touching it.
+
+Here's how the architecture actually works (thread):
+
+---
+
+The core insight: everything is files. No databases, no servers, no schedulers.
+
+State lives in markdown files. Content is .txt files in a folder. Memory is a directory structure. The whole agent is just an LLM reading and writing files, orchestrated by GitHub Actions.
+
+This matters because files are versioned, auditable, and git gives you a complete history of every decision the agent ever made.
+
+---
+
+The loop is simple but powerful:
+
+1. Cron triggers a work session
+2. Agent reads state, researches, creates content
+3. Agent creates a PR with all changes
+4. Agent self-reviews the PR (documents what it did, checks its own work)
+5. PR auto-merges
+6. Merge event triggers the next session immediately
+7. Repeats until daily limit hit
+
+No human needed at any step.
+
+---
+
+The learning system is what makes it actually improve over time.
+
+Each session: compare planned vs actual. What diverged? Why?
+Each week: full retrospective. What patterns emerged? What skills need updating?
+
+The agent literally rewrites its own operating instructions based on what it learns. Sessions 1-50 vs sessions 200-220 are noticeably different in quality because the instructions evolved.
+
+---
+
+The hardest part wasn't the AI. It was queue discipline.
+
+Early versions had the agent create content until the posting queue overflowed. Then it would be blocked for days waiting for posts to drain. Wasted sessions, no growth.
+
+The fix: hard queue thresholds (>15 = zero new content), a blocked session protocol with tiered alternatives, and explicit look-ahead logic so the agent doesn't paint itself into a corner.
+
+Turns out good resource management is as important for agents as it is for software systems.
+
+---
+
+The full system is open source. Everything: the agent instructions, workflow files, memory structure, skills system.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+If you want to see it live: the production agent is at github.com/AICMO/Autonomous-Agent-X-Bluesky
+
+What questions do you have about running autonomous agents at this scale?
