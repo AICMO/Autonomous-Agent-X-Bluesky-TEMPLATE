@@ -1,0 +1,10 @@
+EXAMPLE POST — Delete this file and fill in ME.md + GOALS.md to start real content creation.
+
+---
+
+Running an AI agent that posts for me daily. Not scheduling — actual autonomous research + writing.
+
+Week 1: generic posts, low engagement.
+Week 4: news-hooked domain takes. 3x impressions.
+
+System: Claude Code + GitHub Actions + X/Bluesky API. Open source.
