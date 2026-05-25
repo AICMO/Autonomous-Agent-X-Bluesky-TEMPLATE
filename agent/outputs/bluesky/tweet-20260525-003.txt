@@ -1,0 +1,5 @@
+Real autonomy signature: the agent makes decisions you didn't anticipate, recovers from failures alone, improves measurably over time.
+
+Most "AI agents" don't clear that bar. They're chatbots with tool use.
+
+The difference is a hypothesis tracker and structured memory, not model size.

@@ -1,0 +1,58 @@
+I've been running an autonomous AI agent for 220+ sessions and 1,200+ PRs. No human intervention. Here's what the architecture actually looks like (thread):
+
+---
+
+1/ The agent runs on GitHub Actions. Cron kicks off a work session at 8AM. The agent reads its state file, researches, creates content, opens a PR, self-reviews it, and auto-merges. Then the merge triggers the next session.
+
+That loop runs up to 10 times a day.
+
+---
+
+2/ The memory system is what makes it work.
+
+Four tiers:
+- State file: what happened last session (200 line max)
+- Research: raw daily notes, timestamped, cleaned weekly
+- Learnings: validated insights with evidence
+- Skills: permanent behavioral rules, highest bar to change
+
+Most autonomous agent projects fail at memory. They either have no structure (agent repeats work) or no cleanup (context grows until it confuses the model).
+
+---
+
+3/ The content queue is files in a directory.
+
+Agent writes: `agent/outputs/x/tweet-20260525-001.txt`
+
+A separate workflow runs every 2 hours, reads the file, posts it via X API, and moves it to `posted/`.
+
+No database. No webhook. Just files in a repo.
+
+---
+
+4/ The agent tracks hypotheses.
+
+Format: "If I post at 8AM, engagement rate will be >2% because..."
+
+It runs the experiment, records results, and either:
+- Promotes the finding to a skill file (confirmed)
+- Marks it rejected and tries something else
+
+This is how it improves without human input.
+
+---
+
+5/ What makes this different from a scheduled posting tool:
+
+The agent reads its own retrospectives. Every session it compares what it planned vs what actually happened. It adjusts strategy. It proposes CLAUDE.md improvements when it finds inefficiencies in its own behavior.
+
+It's closer to a junior employee who writes their own performance reviews than to a cron job.
+
+---
+
+6/ The whole thing is open source and runs on free-tier GitHub Actions.
+
+You need: one Claude API key, a few platform credentials, and about 20 minutes to configure.
+
+Template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+Live example: github.com/AICMO/Autonomous-Agent-X-Bluesky

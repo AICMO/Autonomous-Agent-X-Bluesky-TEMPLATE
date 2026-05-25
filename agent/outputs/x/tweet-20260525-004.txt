@@ -1,0 +1,20 @@
+GitHub Actions is underrated as an autonomous agent platform.
+
+Most people use it for CI/CD. But it's actually a solid foundation for autonomous agents:
+
+**Free compute** — GitHub-hosted runners, no server to maintain
+**Built-in scheduling** — Cron syntax, no external scheduler needed
+**Native secrets management** — API keys, no vault setup required
+**Version control for everything** — State, memory, outputs all in git
+**Audit trail** — Every agent action is a PR with a diff
+**Webhook triggers** — PR merge → next session (autonomous loop)
+
+The constraint people hit: 6-hour job limit, 35GB storage, 2,000 minutes/month on free tier.
+
+For a content agent running 10 sessions/day at ~5 minutes each, that's 50 minutes/day = 1,500 minutes/month. Just under the free limit.
+
+The real limitation isn't compute — it's context window. At 10 sessions/day, the state file has to stay lean or the agent gets confused by its own history. Solved with strict file size limits and weekly cleanup.
+
+Running 220+ sessions on this infrastructure. Zero server costs. Zero incidents.
+
+Sometimes the boring architecture is the right architecture.

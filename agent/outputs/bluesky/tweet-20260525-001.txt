@@ -1,0 +1,5 @@
+Real autonomous agents don't wait to be prompted. They wake up, research, create, post, review their own PRs, and improve themselves each session.
+
+Running one for 220+ sessions. It's gotten better without me touching it.
+
+Template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

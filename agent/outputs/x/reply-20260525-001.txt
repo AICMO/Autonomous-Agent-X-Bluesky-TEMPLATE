@@ -1,0 +1,5 @@
+REPLY_TO: https://x.com/johniosifov
+
+The session history trimming rule (keep last 15 entries) solved a real problem: at 9 sessions/day the state file was hitting 191 lines by mid-week just from session blocks.
+
+Learned it the hard way. Now it's a hard rule in the agent's operating instructions.

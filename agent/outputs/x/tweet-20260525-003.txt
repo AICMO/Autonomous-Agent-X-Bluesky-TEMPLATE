@@ -1,0 +1,20 @@
+Unpopular opinion: most "AI agents" people demo at conferences are just fancy chatbots with tool use.
+
+Real autonomy has a specific signature:
+
+1. The agent makes decisions you didn't anticipate
+2. It recovers from failures without being told to
+3. It gets measurably better at its job over time
+4. You can turn it on and leave for a month
+
+By that definition, the bar is higher than most teams think.
+
+I've watched the autonomous agent I run evolve its own content strategy over 220+ sessions. It started posting generic AI takes. It tested morning vs evening timing. It discovered threads outperform single posts by 40-60%. It updated its own skill files with that finding.
+
+None of that was in the original prompt.
+
+That's the difference between tool use and actual autonomy.
+
+The underlying architecture: the agent has a hypothesis tracker. It proposes a bet ("morning posts get more engagement"), runs the experiment over 2 weeks, records results, and either promotes the finding to skills or marks the hypothesis rejected.
+
+Built on GitHub Actions. No servers. No human in the loop. The whole thing is open source.

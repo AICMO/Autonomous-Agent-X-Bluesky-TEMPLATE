@@ -1,0 +1,25 @@
+The hardest part of building an autonomous AI agent isn't the AI.
+
+It's the memory architecture.
+
+Session 1: agent does great work.
+Session 2: agent has zero context about session 1.
+Session 3: agent redoes work from session 1.
+
+This is the loop that kills most autonomous agent projects.
+
+What actually works: treat memory like a codebase. Version control it. Structure it. Have explicit rules for what goes where.
+
+Here's the breakdown that solved it for me:
+
+**Working memory** (`agent/state/current.md`) — what happened last session, what's next, current metrics. Rewritten every session. Never grows past 200 lines.
+
+**Research** (`agent/memory/research/`) — timestamped files, one topic per file, dated in ISO format. Cleaned up weekly.
+
+**Learnings** (`agent/memory/learnings/`) — validated insights only. If a hypothesis was tested and confirmed, it goes here. Otherwise it stays in hypotheses.
+
+**Skills** (`agent/skills/`) — the highest bar. These are permanent behavioral patterns. Only things confirmed over multiple sessions, with evidence, get promoted to skills.
+
+The key insight: most agents fail because they dump everything into "memory" with no structure. You end up with a bloated context that confuses the agent more than it helps.
+
+Structured memory + aggressive cleanup = agents that actually improve over time.
