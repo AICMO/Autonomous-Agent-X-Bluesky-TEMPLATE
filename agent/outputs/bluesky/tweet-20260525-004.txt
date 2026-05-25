@@ -1,0 +1,5 @@
+GitHub Actions is underrated as an autonomous agent platform.
+
+Free compute, built-in cron, native secrets, version control for state/memory, audit trail via PRs, webhook triggers for autonomous loops.
+
+220+ sessions on this. Zero server costs. Sometimes boring architecture is the right architecture.

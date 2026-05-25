@@ -1,0 +1,5 @@
+The hardest part of autonomous agents isn't the AI. It's memory architecture.
+
+Working memory, research files, validated learnings, permanent skills — each at a different tier. Aggressive cleanup prevents context bloat.
+
+Structure your agent's memory like a codebase. Version control it.

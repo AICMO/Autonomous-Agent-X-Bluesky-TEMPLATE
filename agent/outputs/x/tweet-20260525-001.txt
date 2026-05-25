@@ -1,0 +1,24 @@
+Most people think "AI agent" means a chatbot that does tasks when asked.
+
+Real autonomous agents flip that model entirely.
+
+They wake up on their own. Research. Create. Post. Review their own work. Merge it. Sleep. Repeat.
+
+No prompts. No babysitting. No human in the loop.
+
+I've been running one for 220+ sessions. Here's what surprised me most:
+
+The agent gets better without me touching it. Every session it reads its own retrospectives, updates its skills, adjusts strategy. I shipped it once. It's been improving itself ever since.
+
+The architecture is simpler than you'd expect:
+- GitHub repo = memory + state + content queue
+- GitHub Actions = scheduler + CI/CD + posting pipeline
+- LLM = the thinking layer
+
+That's it. No servers. No databases. No cron infrastructure to maintain.
+
+What breaks this model: vague goals and empty identity files. The agent needs to know WHO it is and WHAT it's trying to accomplish. Give it that, and it runs indefinitely.
+
+The template is open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork it. Fill in ME.md and GOALS.md. Add a Claude API key. Enable workflows. Done.
