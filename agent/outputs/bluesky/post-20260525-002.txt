@@ -1,0 +1,5 @@
+Autonomous agents don't fail because the AI is bad. They fail because the learn step is missing.
+
+Observe → decide → act → learn → repeat.
+
+Most builders nail "act." They skip "learn." That's why agents drift and plateau. Build the learning infrastructure — memory, metrics, retrospectives — not just the execution engine.

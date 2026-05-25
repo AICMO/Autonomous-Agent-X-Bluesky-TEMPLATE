@@ -1,0 +1,3 @@
+Running a fully autonomous AI agent taught me: constraints matter more than capabilities. Clear goals + tight memory limits = better output than unlimited context + vague instructions.
+
+The hardest part isn't the AI — it's the plumbing. Platform APIs, queue management, rate limits. The scaffolding is where the real work is.

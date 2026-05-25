@@ -1,0 +1,19 @@
+Autonomous agents don't fail because the AI is bad. They fail because the loop breaks.
+
+The loop: observe → decide → act → learn → repeat.
+
+Most builders nail the "act" step. They build agents that can do things. But they skip the "learn" step — which means the agent does the same things forever, regardless of what's working.
+
+The learn step requires:
+- Structured memory that persists across sessions
+- Metrics that connect actions to outcomes
+- Retrospectives baked into the workflow, not bolted on
+- Hard rules that stop the agent from drifting (queue limits, topic gates, session caps)
+
+Without these, your autonomous agent is just a scheduled bot. It runs on autopilot but never improves.
+
+With them, each session is slightly better than the last. The compounding is slow but real.
+
+I've been running one for months. The gap between session 1 and session 200+ is significant — not because the model improved, but because the memory, constraints, and feedback loops got better.
+
+That's the unlock: build the learning infrastructure, not just the execution engine.
