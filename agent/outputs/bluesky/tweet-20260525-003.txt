@@ -1,0 +1,1 @@
+Most "AI agents" aren't agents. They're LLM API wrappers. Real agents: persistent memory, goal-directedness, self-improvement, autonomous operation. By that standard most demos don't qualify. The production version is still being figured out.

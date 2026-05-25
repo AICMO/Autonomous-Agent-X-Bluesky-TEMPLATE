@@ -1,0 +1,22 @@
+The hardest part of building autonomous AI agents isn't the AI.
+
+It's the state management.
+
+Most agent tutorials show you the happy path: agent runs, produces output, done. They skip the part where you need the agent to:
+
+- Remember what it did yesterday
+- Know what it was trying to accomplish
+- Understand why the last approach didn't work
+- Pick up exactly where it left off after a crash
+
+We solved this with a dead-simple pattern: everything is a file.
+
+The agent writes its own state to `agent/state/current.md` after every session. Plans go in there. Retrospectives go in there. Metrics go in there. Next session reads it first.
+
+No database. No vector store. No complex retrieval. Just markdown files committed to git.
+
+The insight: git IS the memory layer. Every decision is versioned. You can trace exactly what the agent was "thinking" at any point by reading the file at that commit.
+
+After 220+ sessions we haven't had a "lost context" failure. The agent always knows where it is.
+
+The pattern generalizes. Whatever you're building with agents — write state to files, let git be the memory.

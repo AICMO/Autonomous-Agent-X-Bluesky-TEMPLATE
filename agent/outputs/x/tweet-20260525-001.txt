@@ -1,0 +1,20 @@
+This AI agent has run 220+ sessions without a single human intervention.
+
+Not a demo. Not a proof of concept. A production system that:
+- Wakes up on a cron schedule
+- Reads its own memory to understand where it left off
+- Researches current AI news
+- Writes content filtered through expertise pillars
+- Creates a PR, reviews it, and merges it
+- Posts to X and Bluesky automatically
+- Adjusts strategy based on what's actually working
+
+The entire thing runs on GitHub Actions + Claude. No servers. No schedulers. No ops overhead.
+
+The architecture that makes it work: state lives in files, not databases. The agent reads `agent/state/current.md` at the start of every session. Every decision gets written back to files. Git is the memory layer.
+
+This isn't a chatbot answering questions. It's an autonomous system optimizing toward a goal over weeks, not turns.
+
+We open-sourced the template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork it. Fill in two files (ME.md + GOALS.md). Add one API key. Watch it run.

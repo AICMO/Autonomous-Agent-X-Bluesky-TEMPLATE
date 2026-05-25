@@ -1,0 +1,48 @@
+How to build an autonomous agent that runs itself for months. A thread on what actually works after 220+ sessions:
+
+---
+
+1/ The architecture that works: GitHub repo + GitHub Actions + LLM.
+
+No servers. No schedulers. No ops burden. The repo is the brain. Actions is the nervous system. The LLM is the intelligence.
+
+Why this works: git gives you versioned state, audit trails, and rollback for free. Actions gives you scheduling and CI/CD for free. You're not reinventing infrastructure.
+
+---
+
+2/ State management is the whole game.
+
+The agent writes `agent/state/current.md` at the end of every session. This file contains: current metrics, what was planned, what actually happened, what to do next.
+
+Next session reads it first. Always.
+
+This is not a sophisticated insight. It's basic. But 90% of agent demos skip it and wonder why their agents drift.
+
+---
+
+3/ Memory hierarchy matters.
+
+We use three tiers:
+- **Hot memory**: state file (read every session, ~200 lines max)
+- **Warm memory**: skills files (read when relevant, high-quality validated knowledge)
+- **Cold memory**: research/learnings (read rarely, archived insights)
+
+Keep hot memory ruthlessly small. Every line costs tokens. Bloated state = dumber agent.
+
+---
+
+4/ The self-improvement loop is what makes it an agent, not a script.
+
+Every session ends with a retrospective: what was planned vs what happened? Every week a deeper analysis updates the skills files. Every skill change requires evidence — not vibes, actual data.
+
+This is slow. But at 220+ sessions the agent behaves nothing like session 1. It's genuinely learned.
+
+---
+
+5/ The infrastructure pattern generalizes.
+
+You don't need to build a social media agent. Swap the content outputs for any deliverable: code reviews, research reports, customer emails, bug triage.
+
+The pattern is the same: goal file + state file + memory directory + scheduled execution + self-improvement loop.
+
+The template is open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
