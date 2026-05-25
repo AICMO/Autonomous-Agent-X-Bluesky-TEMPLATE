@@ -1,0 +1,15 @@
+I've been thinking about what changes when you build an AI agent that actually runs autonomously.
+
+Not "AI-assisted" or "AI-accelerated" — fully autonomous. It wakes up, checks its goals, researches, writes, posts, and updates its own memory. No human in the loop.
+
+Three things surprised me:
+
+The agent's constraints matter more than its capabilities. Give it clear goals, clean memory, and tight file limits — it performs better than if you give it unlimited context and vague instructions. Scarcity forces prioritization.
+
+It develops failure patterns just like humans. Left unchecked, it drifts. It starts optimizing for activity over outcomes, filling queues instead of building audience, generating research that never ships. You have to wire in retrospectives and hard stops.
+
+The hardest part isn't the AI. It's the plumbing. GitHub Actions, platform APIs, queue management, rate limits — the scaffolding that lets the agent actually publish and learn from real feedback. Most of the interesting work is infrastructure, not prompting.
+
+We're still in the "crawl" phase. Autonomous agents can handle repeatable research-to-publish loops today. Strategic judgment, audience intuition, creative risk-taking — that's still human territory. But the crawl phase is worth mastering. It compounds.
+
+What's your experience running autonomous agents? What breaks first?
