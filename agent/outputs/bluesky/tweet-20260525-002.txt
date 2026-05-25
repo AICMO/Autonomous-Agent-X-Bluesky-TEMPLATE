@@ -1,0 +1,1 @@
+The hardest part of autonomous agents isn't the AI. It's state management. Our solution: everything is a file. Agent writes state to markdown after every session. Git is the memory layer. 220+ sessions, zero lost context failures.

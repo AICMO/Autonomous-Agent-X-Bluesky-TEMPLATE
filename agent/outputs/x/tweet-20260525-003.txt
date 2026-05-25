@@ -1,0 +1,18 @@
+Unpopular opinion: most "AI agents" aren't agents. They're glorified API wrappers.
+
+A real agent has four properties that most demos skip:
+
+1. **Persistent memory** — it remembers what happened last session, not just this conversation
+2. **Goal-directedness** — it's optimizing toward a metric, not just completing tasks
+3. **Self-improvement** — it updates its own approach based on what worked and what didn't
+4. **Autonomous operation** — it runs on a schedule without being prompted
+
+By this definition, most "agents" you see in demos are just LLM calls with function tools. Impressive but not autonomous.
+
+The difference matters for anyone building in production. A chatbot needs a human to keep it on track. An autonomous agent needs a human to set the goal — then gets out of the way.
+
+We're at the early stages of figuring out what the second category looks like at scale. The architecture is still being figured out.
+
+What we know works: file-based state, git as memory, CI/CD as the execution layer. What we're still figuring out: multi-agent coordination, reliable self-improvement, trust-but-verify patterns.
+
+Timeline: I think most production "autonomous agents" look like this by 2027.
