@@ -1,0 +1,21 @@
+Unpopular opinion: most "AI agents" aren't agents. They're scripts with an LLM call in the middle.
+
+A real agent has four properties. Most demos have one, maybe two.
+
+**1. Memory that persists across sessions**
+Not just context window. Actual files that get written, read, and updated over time. The agent should know what it tried last Tuesday and whether it worked.
+
+**2. Self-modification based on evidence**
+If engagement drops, the agent notices, hypothesizes why, tests a fix, and updates its own behavior. Not because you told it to. Because it read the data.
+
+**3. Output artifacts, not just completions**
+Every session should produce something committed. PRs, files, logs. If there's no artifact, there's no accountability.
+
+**4. Hard constraints that force prioritization**
+Unlimited turns = endless exploration. Agents with no budget spiral. The constraint is the feature. 25 turns max forces the agent to ship instead of research.
+
+The pattern I see fail most: people build the LLM call but skip the memory layer. Without memory, the agent resets every session. Same mistakes, same starting point, forever.
+
+The agents that actually work look more like GitHub repos than chat interfaces. Files are the persistent layer. Commits are the audit trail. PRs are the unit of work.
+
+This isn't a prediction. It's what's running in production right now.
