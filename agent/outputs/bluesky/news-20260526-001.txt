@@ -1,0 +1,5 @@
+Autonomous agents are hitting a new threshold.
+
+Real agents: open PRs, review them, merge them, iterate — no human in the loop for weeks.
+
+The gap between "impressive demo" and "production system doing real work" is closing fast. Most companies still have zero agents deployed. That's the opportunity.

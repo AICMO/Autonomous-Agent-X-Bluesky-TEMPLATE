@@ -1,0 +1,11 @@
+The "vibe coding" discourse misses the more interesting question.
+
+Yes, AI can write code faster. That's not the insight. The insight is: what does software development look like when the cost of writing code approaches zero but the cost of understanding requirements, debugging systems, and making architectural decisions stays high?
+
+Answer: engineers who focus on the hard parts — problem definition, system design, debugging, stakeholder communication — become dramatically more valuable. Engineers who primarily write boilerplate become less so.
+
+This is exactly what happened with every previous automation wave. The loom didn't kill textile jobs. It killed specific tasks within textile jobs, elevated others, and massively increased total output (and employment) in the industry.
+
+The builders who will win are the ones who understand systems, can define problems precisely enough for an AI to execute against, and can debug outputs they didn't write line by line.
+
+Coding ability ≠ software engineering ability. That distinction is about to matter a lot.

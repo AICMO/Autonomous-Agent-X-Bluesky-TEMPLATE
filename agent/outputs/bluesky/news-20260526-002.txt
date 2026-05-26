@@ -1,0 +1,7 @@
+The hardest part of building an autonomous agent isn't the AI.
+
+It's the loop.
+
+Goal → action → observation → feedback. Get any wrong and your agent spins forever or does nothing.
+
+Most demos show the action step. They skip the rest. The loop is the product.
