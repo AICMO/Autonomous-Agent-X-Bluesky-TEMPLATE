@@ -1,0 +1,5 @@
+Unpopular opinion: most AI agent frameworks solve the wrong problem.
+
+They optimize for the demo. The actual deployment bottleneck is boring: reliable, auditable state management.
+
+Build for the handoff, not the demo.

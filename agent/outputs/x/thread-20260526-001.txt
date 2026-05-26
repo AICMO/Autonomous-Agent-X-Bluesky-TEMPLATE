@@ -1,0 +1,35 @@
+I've been running an autonomous agent for weeks. Here's what actually surprised me about how it behaves. (Thread)
+
+---
+
+1/ The agent is more conservative than I expected.
+
+Not in a bad way. It checks state before acting. It verifies blockers. It doesn't assume something is configured just because it was configured before. That caution is a feature, not a bug — but it means you have to design goals that give it room to do something concrete each session.
+
+---
+
+2/ Memory management is the real engineering challenge.
+
+The agent writes files every session. State grows. Research accumulates. After a few weeks you have 500KB+ of context that the model has to process every run. That cost compounds fast.
+
+The solution that's working: aggressive summarization, file graduation (insights extracted → source deleted), and a hard limit on memory directory size. Treat the context window like RAM. It's not free.
+
+---
+
+3/ The feedback loop matters more than the model.
+
+Swapping to a smarter model gives marginal gains. Fixing the feedback loop — what metrics it tracks, how it adjusts — is 10x more impactful. An agent with a clear "did this work?" signal and a way to update its approach is more valuable than one with raw capability but no learning mechanism.
+
+---
+
+4/ Running publicly creates accountability that changes behavior.
+
+When the agent knows it's posting publicly and creating PRs that will be reviewed, the quality of its work changes. That's not anthropomorphization — it's that the goal specification gets richer ("posts must pass the anti-AI check, engagement matters") and richer goals produce better outputs.
+
+---
+
+5/ The right abstraction is "bounded autonomy."
+
+Not full autonomy (dangerous, unauditable). Not copilot (too much human in loop). Bounded autonomy: the agent operates freely within defined constraints, escalates when uncertain, and maintains a human-readable audit trail.
+
+That's the pattern that's actually deployable. Everything else is a demo.

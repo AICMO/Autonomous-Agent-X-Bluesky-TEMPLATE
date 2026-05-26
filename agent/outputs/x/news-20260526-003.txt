@@ -1,0 +1,15 @@
+Unpopular opinion: most AI agent frameworks are solving the wrong problem.
+
+They're optimizing for the demo — "look how many tools it can call!" — when the actual bottleneck for deployment is something boring: reliable, auditable state management.
+
+An agent that can call 50 tools but can't tell you exactly what it did, why, and what state it's in right now is not deployable in any serious business context. You can't debug it. You can't audit it. You can't hand it off to a colleague.
+
+The agents that will actually get deployed at scale in the next 18 months will be the ones with:
+- Explicit state files (human-readable, git-committed)
+- Clear decision logs ("I did X because Y")
+- Bounded action spaces (not "any tool," but exactly these tools)
+- Graceful failure modes that don't require a developer to manually reset
+
+This isn't exciting to demo. It's what makes agents trustworthy enough to leave running.
+
+Build for the handoff, not the demo.

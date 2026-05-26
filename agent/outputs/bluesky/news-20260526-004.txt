@@ -1,0 +1,5 @@
+The "vibe coding" discourse misses the real question.
+
+When writing code costs near-zero, what stays expensive? Problem definition. System design. Debugging. Stakeholder communication.
+
+Coding ability ≠ software engineering ability. That distinction is about to matter a lot.
