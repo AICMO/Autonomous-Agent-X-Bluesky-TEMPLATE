@@ -1,0 +1,5 @@
+Anthropic's Claude Managed Agents now in public beta: self-hosted sandboxes + MCP tunnels.
+
+The bottleneck shifted. It's not "can you build an agent." It's "what do you build it to do."
+
+The plumbing is packaged. What workflows are you automating?

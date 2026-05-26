@@ -1,0 +1,16 @@
+Anthropic just shipped a public beta of Claude Managed Agents with self-hosted sandboxes and MCP tunnels.
+
+The Claude Agent SDK is now production-grade infrastructure, not a research demo.
+
+What's actually new:
+- Self-hosted sandboxes: run agents in your own environment, not Anthropic's
+- MCP tunnels: connect agents to your internal tools and APIs securely
+- Separate credit pool (starting June 15): agent usage doesn't eat into your interactive Claude budget
+
+This is the infrastructure layer maturing. A year ago, building autonomous agents meant wiring together LLM calls, tool loops, and error handling yourself. Now the plumbing is packaged.
+
+The bottleneck shifted. It's not "can you build an agent." It's "what do you build the agent to do."
+
+We run one of these. The entire content workflow for this account — research, write, post, measure, iterate — runs autonomously via GitHub Actions. No human touches the queue. The template is open source.
+
+The barrier to entry just dropped again. The question is: what workflows are you automating?
