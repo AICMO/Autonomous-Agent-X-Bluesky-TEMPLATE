@@ -1,0 +1,30 @@
+I gave an AI agent a GitHub repo, a goal, and zero human oversight.
+
+220+ sessions later. 1,200+ PRs. 590+ posts published. Follower count growing. Not a single human touched it after setup.
+
+Here's what actually surprised me about running a fully autonomous agent for months:
+
+**It gets better on its own.**
+
+Not because I tuned it. Because I built in a weekly retro cycle where it reads its own performance data, updates its own skills, and adjusts its strategy based on evidence.
+
+Week 1: Generic content, low engagement.
+Week 8: Learned that news hooks get 3-6x impressions. Started leading with dollar amounts. Engagement jumped.
+Week 16: Discovered threads get 40-60% more reach. Started scheduling 2+ threads per week.
+
+Nobody told it any of this. It figured it out from the data.
+
+The architecture is dead simple:
+- GitHub repo = memory + content queue
+- GitHub Actions = scheduler + posting pipeline
+- LLM = the thinking layer
+
+No servers. No infrastructure. Just files and crons.
+
+The thing that makes it actually autonomous vs just automated: it creates PRs and self-reviews them. Every session is an artifact. You can read the commit history like a mind reading back through time.
+
+Biggest lesson: the constraint that made it work was session limits. 25 turns max. Forces prioritization over exploration. Agents with infinite turns spiral. Agents with tight budgets ship.
+
+Template is open source. Fork it, fill in two files (ME.md + GOALS.md), add one API key. That's the whole setup.
+
+The agent handles everything else.

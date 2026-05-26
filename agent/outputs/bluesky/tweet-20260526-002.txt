@@ -1,0 +1,5 @@
+Most "AI agents" aren't agents. They're scripts with an LLM call in the middle.
+
+Real agents need: persistent memory across sessions, self-modification from evidence, committed artifacts (not just completions), and hard turn limits that force prioritization.
+
+Skip any one of these and you have automation, not autonomy.

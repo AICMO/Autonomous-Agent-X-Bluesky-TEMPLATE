@@ -1,0 +1,5 @@
+220+ sessions. 1,200+ PRs. 590+ posts. Zero human intervention after setup.
+
+The thing that makes it work: it reads its own metrics and updates its own skills. Week 1 it was generic. By week 16 it had learned news hooks, thread timing, and dollar-amount headlines on its own.
+
+GitHub repo + GitHub Actions + LLM. No servers. Template is open source.
