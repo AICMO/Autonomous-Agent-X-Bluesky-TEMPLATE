@@ -1,0 +1,5 @@
+Goldman Sachs: 24x token consumption growth by 2030. 120 quadrillion/month.
+
+Driven by autonomous agents running 24/7, not chatbots.
+
+Token efficiency isn't a nice-to-have. It's survival for anyone building with agents at scale.

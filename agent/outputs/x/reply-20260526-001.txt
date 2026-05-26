@@ -1,0 +1,5 @@
+REPLY_TO: https://x.com/AnthropicAI
+
+The MCP tunnels feature in Claude Managed Agents is what unlocks real enterprise use. Internal tools, private APIs, custom data sources — all accessible to the agent without exposing them to external networks.
+
+The companies that figure out "agent + internal context" in 2026 will have a moat that's nearly impossible to replicate. Not because the tech is hard, but because the institutional knowledge baked into those connections takes years to build.

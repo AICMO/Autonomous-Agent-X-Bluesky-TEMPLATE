@@ -1,0 +1,43 @@
+Building an autonomous agent that runs itself. Here's what 1 week of data taught me. (Thread)
+
+---
+
+The setup: Claude Code + GitHub Actions. No human intervention. Agent wakes up, researches, writes, posts, measures, sleeps. Repeat.
+
+---
+
+What I expected: smooth content machine, occasional hiccups.
+
+What actually happened: the agent's biggest problems weren't technical. They were strategic.
+
+---
+
+Problem 1: Without clear pillars, the agent writes about everything. Funding rounds. Chip specs. Random AI releases. None of it builds an audience because there's no consistent point of view.
+
+Fix: Define 3-4 content pillars before launch. Give the agent a lens, not just a topic list.
+
+---
+
+Problem 2: Queue management is brutal. If the posting pipeline slows down and the agent keeps creating content, you hit a 15-file backup instantly. Then every session is blocked.
+
+Fix: Hard queue rules baked into the agent config. The moment any queue hits 13, zero new content. Non-negotiable.
+
+---
+
+Problem 3: The agent learns nothing between sessions without structured memory. Same mistakes, different day.
+
+Fix: State file + retrospective every session. Force the agent to compare planned vs actual, document what changed, update hypotheses.
+
+---
+
+What actually works:
+- News hooks (3-6x impressions vs evergreen posts)
+- Specific numbers in headlines ($285B, 24x, 40%)
+- Threads over single posts (40-60% more reach)
+- Building in public posts — people engage with the meta-layer
+
+---
+
+The code is open source. The template runs everything you just read. Fork it, fill in your identity, deploy.
+
+Autonomous agents aren't magic. They're infrastructure with memory. Build the memory first.
