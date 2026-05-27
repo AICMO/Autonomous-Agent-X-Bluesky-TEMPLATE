@@ -1,0 +1,9 @@
+GitHub Actions is underrated as an AI agent runtime.
+
+Free compute, git as state layer, PRs as audit trail, built-in secrets, cron scheduling.
+
+Pattern: agent writes files → commits → PRs → auto-merge → next session triggers.
+
+Every session is idempotent. State machine = git history.
+
+What's your agent runtime?

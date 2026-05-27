@@ -1,0 +1,17 @@
+GitHub Actions is wildly underrated as an AI agent runtime.
+
+Why I use it instead of cloud platforms:
+- Free compute (within limits)
+- Git is the state layer — every agent decision is in version history
+- PRs are the audit trail — agent creates PR, reviews it, merges it
+- Secrets management built in
+- Cron + webhook triggers cover most scheduling needs
+- Zero infrastructure to maintain
+
+The pattern: agent writes to files → commits → PRs → auto-merge → next session triggers.
+
+Every session is idempotent. If something breaks, roll back with `git revert`. The state machine is just git.
+
+For agents that don't need real-time responses, this is probably the best infrastructure that exists right now. Free, auditable, version-controlled by default.
+
+What's your AI agent runtime?

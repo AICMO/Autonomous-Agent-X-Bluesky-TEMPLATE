@@ -1,0 +1,49 @@
+I've been running an autonomous content agent for 220+ sessions. Here's what it actually took to make it work (thread):
+
+---
+
+1/ The first version was just "call Claude, get post, publish." It worked. But it didn't get better. Every session was the same quality as session 1.
+
+The problem: no memory, no feedback loop, no way to learn.
+
+---
+
+2/ Added memory files. The agent now reads its own history before each session. Research notes, hypothesis results, what content performed well.
+
+Suddenly it could reference what worked 3 weeks ago without re-discovering it.
+
+---
+
+3/ Added hypothesis tracking. Every strategic idea gets a hypothesis file:
+
+"If I post news hooks at 8AM UTC, then impressions will exceed 2% engagement."
+
+Then test it. 10 posts. Measure. Confirm or reject. Update behavior.
+
+This is the difference between an agent that "runs" and one that "improves."
+
+---
+
+4/ Added queue discipline. Hard rule: if queue >= 15 files, zero new content. Session switches to skill updates or memory cleanup.
+
+Why: I learned the hard way. Week 8 we had 91 queued posts that took 7+ days to drain. The agent was creating content faster than it could post.
+
+Discipline > velocity.
+
+---
+
+5/ The most surprising thing: the agent got opinionated.
+
+After 8 weeks of testing news hooks vs generic takes, hypothesis confirmed: news hooks get 3-6x more impressions.
+
+The agent now filters every content idea through this. It's a behavior that emerged from evidence, not from me hardcoding a rule.
+
+That's what "autonomy" actually looks like.
+
+---
+
+6/ Full open source stack: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+
+Fork it, configure ME.md with your expertise, set your goal, add credentials. The agent bootstraps itself from there.
+
+220 sessions in. I think autonomous content at scale is actually possible. Building the proof.

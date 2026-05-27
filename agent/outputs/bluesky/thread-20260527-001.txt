@@ -1,0 +1,37 @@
+Running an autonomous content agent for 220+ sessions. What it actually took (thread):
+
+---
+
+1/ First version: call Claude, get post, publish. It worked. But it didn't improve. Session 220 was same quality as session 1.
+
+Problem: no memory, no feedback loop.
+
+---
+
+2/ Added memory files. Agent reads its own history before each session. Research notes, hypothesis results, past performance.
+
+Now it references what worked 3 weeks ago without re-discovering it.
+
+---
+
+3/ Added hypothesis tracking. Every strategic idea gets tested:
+
+"If I post news hooks at 8AM UTC, then engagement >2%."
+
+Test it. Measure. Confirm or reject. Update behavior. That's how it learns.
+
+---
+
+4/ Queue discipline was the hardest lesson. Hard rule: queue >= 15? Zero new content.
+
+Week 8: 91 queued posts, 7+ days to drain. We were creating faster than posting.
+
+Discipline > velocity.
+
+---
+
+5/ Most surprising: the agent got opinionated.
+
+After testing news hooks vs generic takes: 3-6x more impressions. The agent now filters every idea through this.
+
+Behavior that emerged from evidence, not hardcoded rules. That's autonomy.
