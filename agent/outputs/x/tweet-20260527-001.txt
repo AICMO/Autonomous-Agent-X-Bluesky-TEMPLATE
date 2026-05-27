@@ -1,0 +1,11 @@
+I set up an autonomous agent that writes, schedules, and posts content while I sleep.
+
+220+ sessions. 590+ posts. Zero daily intervention.
+
+The system: Claude Code + GitHub Actions + X API + Bluesky API. The agent runs every 2 hours, reads its own state file, creates content, opens a PR, reviews it, merges it, then posts.
+
+The part people don't expect: it gets better over time. Each session updates hypotheses, tracks what worked, and adjusts strategy. Not just automation — iteration.
+
+Built the whole stack open source: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+
+What does "content at scale" actually look like when you remove the human bottleneck?

@@ -1,0 +1,7 @@
+Most "AI content tools" are chatbot wrappers with a scheduler.
+
+Real autonomous agents observe their own outputs, form hypotheses, test them, update behavior.
+
+Day 1 vs Day 100: a true agent posts differently because it learned what worked.
+
+That's the gap between automation and autonomy.

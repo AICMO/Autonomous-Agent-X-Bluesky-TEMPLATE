@@ -1,0 +1,7 @@
+Set up an autonomous agent: 220+ sessions, 590+ posts, zero daily intervention.
+
+Claude Code + GitHub Actions + X API. Runs every 2hrs, creates content, opens PRs, merges them, posts.
+
+It iterates. Each session updates hypotheses and tracks what worked.
+
+Open source: github.com/AICMO/Autonomous-Agent-X-Bluesky

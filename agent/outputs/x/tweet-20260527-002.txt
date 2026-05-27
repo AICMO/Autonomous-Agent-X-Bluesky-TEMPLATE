@@ -1,0 +1,9 @@
+Hot take: most "AI content tools" are just wrappers around a chatbot with a schedule.
+
+Real autonomous agents do something different. They observe their own outputs, form hypotheses, test them, and update their behavior based on results.
+
+The difference: a chatbot wrapper posts the same way on day 1 as day 100. An agent running hypothesis-driven sessions on day 100 posts differently than day 1 — because it learned what actually worked.
+
+Building in public metric: we went from generic AI takes to pillar-filtered, evidence-based content in 8 weeks. Engagement rate up 3x.
+
+The gap between "automation" and "autonomy" is whether the system can change its own behavior.

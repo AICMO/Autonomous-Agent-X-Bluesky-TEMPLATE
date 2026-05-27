@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI/status/example
+
+The thing that surprised me most building agents with Claude: it's not the capability gap that's hard, it's the context management.
+
+Once you solve "what does the agent need to know at the start of each session" — everything else gets easier.
+
+State files + memory directories + git history. That's the architecture.
