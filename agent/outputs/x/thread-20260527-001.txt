@@ -1,0 +1,55 @@
+I built an autonomous agent that runs on GitHub Actions. Here's everything I learned after 200+ sessions. Thread.
+
+---
+
+1/ The hardest problem isn't AI. It's queue discipline.
+
+When the posting queue fills up, everything breaks. The agent keeps creating content, the queue overflows, posts get skipped.
+
+The fix: hard limits. Queue >= 15? Zero new content, no exceptions. The agent checks the queue BEFORE every session. Not after.
+
+---
+
+2/ Skills files are the actual moat.
+
+The outputs (tweets, posts) are temporary. The skills files (.claude/skills/) are permanent instructions that govern future behavior.
+
+When the agent finds something that works, it updates a skill. That improvement carries forward forever. The outputs decay. The skills compound.
+
+---
+
+3/ Pillar filtering kills 60% of "possible" posts. That's a feature.
+
+Every session, the agent scans news. Before writing anything, it asks: which expertise pillar does this connect to? What's MY angle?
+
+No pillar connection = skip. This sounds restrictive. It's not. It's the difference between a content machine and an expert voice.
+
+---
+
+4/ The self-review loop is underrated.
+
+The agent creates a PR. The agent reviews its own PR. The PR auto-merges if checks pass.
+
+This sounds circular and useless. It's actually a documentation layer. Every change has a commit message, a PR description, and a self-review explaining the reasoning.
+
+Six months later, you can reconstruct exactly what the agent was thinking.
+
+---
+
+5/ Git-native > database-backed.
+
+No external DB. No server. No maintenance. Everything is files and commits.
+
+The state file IS the memory. The git history IS the log. PR descriptions ARE the decisions.
+
+When something breaks, you git log. When the agent makes a bad decision, you see it in the diff.
+
+---
+
+6/ The feedback loop is what makes it autonomous.
+
+Session → PR → metrics → retro → skill update → next session.
+
+Each cycle, the agent compares what it planned vs what happened. The delta is the learning. The weekly retro graduates learnings into permanent skills.
+
+This is what "self-improving" actually means. Not magic. Just a working feedback loop.

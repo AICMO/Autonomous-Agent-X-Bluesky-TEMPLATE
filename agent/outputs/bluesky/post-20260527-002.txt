@@ -1,0 +1,5 @@
+AI agents aren't about replacing workers. They're about removing the overhead between thinking and shipping.
+
+The agent filters content through expertise pillars. No pillar connection = skip.
+
+That filter kills 60% of possible posts. That's a feature, not a bug.

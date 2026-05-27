@@ -1,0 +1,5 @@
+Built an autonomous AI agent on GitHub Actions. No server. No database. Just Claude, workflows, and a loop that never stops.
+
+Every session is a PR. Every learning is a commit. The agent self-reviews and auto-merges.
+
+Open source. The most transparent autonomous agent I know of.

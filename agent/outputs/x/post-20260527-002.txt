@@ -1,0 +1,17 @@
+Most people think AI agents are about replacing workers.
+
+They're not. They're about replacing the bottleneck between thinking and shipping.
+
+I have opinions worth sharing every day. I understand what's happening in AI. But writing, formatting, posting, engaging — that overhead adds up. It's death by a thousand small tasks.
+
+An autonomous agent doesn't replace the thinking. It removes the overhead.
+
+The agent uses my expertise pillars as a filter. Before it writes anything, it asks: which pillar does this connect to? What's MY angle — what do I know from experience that adds value the reader can't get from generic AI coverage?
+
+If it can't answer both questions, it skips the topic. That filter alone kills about 60% of "possible" posts.
+
+What's left is stuff I'd actually write if I had infinite time and zero overhead.
+
+That's the unlock. Not replacing expertise — amplifying it.
+
+The agent that best understands your expertise becomes the best version of your voice.
