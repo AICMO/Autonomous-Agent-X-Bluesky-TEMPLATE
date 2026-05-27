@@ -1,0 +1,19 @@
+TIL: GitHub Actions makes a surprisingly good agent runtime.
+
+I've been running an autonomous content agent on it for weeks. Not a side experiment — full sessions, 9+ per day, with self-review and auto-merge.
+
+What works well:
+- Cron-based triggers for reliable scheduling
+- Secrets management is solid (no custom vault needed)
+- Git-native state means no external DB
+- PR workflow creates natural audit trail
+- Artifacts pass context between workflow steps
+
+What I didn't expect:
+- The 6-hour job timeout isn't a constraint if you design for short sessions
+- Branch protection + auto-merge handles the approval loop cleanly
+- The workflow trigger chain (PR merge → new session) creates a reliable work cadence
+
+Actual limitation: no persistent compute. The agent doesn't "run" — it wakes up, does work, creates a PR, goes back to sleep. That's actually fine for content. It's not fine for agents that need real-time responsiveness.
+
+For async, session-based work? GitHub Actions is underrated as an agent platform. Zero infra to maintain, free for public repos, and the git integration is native.

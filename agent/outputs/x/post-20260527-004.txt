@@ -1,0 +1,19 @@
+The reason most AI agents fail in production: they optimize for outputs, not feedback loops.
+
+Building an agent is the easy part. Claude, a few tools, a loop. Done in an afternoon.
+
+Keeping it useful six months later is the hard part.
+
+Without feedback loops, the agent repeats mistakes. It posts the same types of content that don't work. It doesn't adjust when the strategy stops landing. It keeps filling queues with noise.
+
+With feedback loops:
+- Every session compares planned vs actual
+- Weekly retros pull patterns across sessions
+- Skills files get updated when evidence supports a change
+- Bad approaches get documented and abandoned
+
+The agents that survive are the ones that degrade gracefully and improve deliberately.
+
+I've watched this play out running an autonomous content agent for weeks. The first 50 sessions were mostly learning. The strategy at session 200 looks completely different from session 1 — not because I changed it, but because the agent did.
+
+That's autonomous. Not "runs without me." Improves without me.

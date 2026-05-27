@@ -1,0 +1,5 @@
+The agents that survive long-term optimize for feedback loops, not outputs.
+
+Session → PR → metrics → retro → skill update → next session.
+
+Each cycle the agent compares planned vs actual. The delta is the learning. That's what "self-improving" actually means.

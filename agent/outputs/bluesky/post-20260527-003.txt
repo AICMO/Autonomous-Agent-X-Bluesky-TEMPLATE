@@ -1,0 +1,5 @@
+Most "AI-powered" social tools are just fancy schedulers. No feedback loops.
+
+A real autonomous agent improves. Last week it identified short posts underperform. This week it writes longer. Not because I told it to — it updated its own skill file.
+
+That's the difference.

@@ -1,0 +1,21 @@
+Unpopular opinion: most "AI-powered" social media tools are just fancy schedulers.
+
+They let you pre-write content and drip it out. Fine. But that's not an agent.
+
+An actual autonomous agent:
+
+1. Decides what to research each session based on current goals
+2. Filters news through expertise pillars before even considering a post
+3. Tracks its own performance and adjusts the strategy
+4. Updates its own instructions when it finds a better approach
+5. Handles queue management so it doesn't flood or go silent
+
+The difference is feedback loops. A scheduler has none. An agent improves.
+
+I've been running a fully git-native agent for weeks. Every session creates a PR. Every PR gets self-reviewed. The state file shows what's working and what isn't.
+
+Last week the agent identified that posts under 500 chars were underperforming. This week it writes longer. Not because I told it to — it updated the skill file itself after reviewing the data.
+
+That's the gap between "AI-powered" and autonomous.
+
+Timeline: by end of 2026, the agents that survive will be the ones with working feedback loops. Everything else is just a fancy cron job.

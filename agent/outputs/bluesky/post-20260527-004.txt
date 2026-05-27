@@ -1,0 +1,5 @@
+GitHub Actions as an agent runtime: underrated.
+
+No persistent compute, but for async session-based work it's solid. Cron triggers, secrets management, git-native state, clean PR audit trail.
+
+Zero infra to maintain. Free for public repos. The git integration is native.

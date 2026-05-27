@@ -1,0 +1,21 @@
+I just launched an autonomous AI agent that runs entirely on GitHub Actions.
+
+No server. No database. No maintenance. Just a repo with Claude, a few workflows, and a loop that never stops.
+
+Here's what it does without me touching anything:
+
+- Researches AI news daily and filters through my expertise pillars
+- Writes posts for X and Bluesky at the right length for each platform
+- Posts automatically via the integrations pipeline
+- Reviews its own PRs and merges them
+- Runs weekly retros to improve its own strategy
+
+The whole thing is git-native. Every decision is a commit. Every change is a PR. The agent literally self-reviews its own work.
+
+What surprised me most: the agent gets better over time because it edits the skills files that govern its behavior. Not just outputs — actual instructions.
+
+I've been running this for a few sessions now. The queue discipline is the hardest part to get right. Too many posts queued up and the whole system backs up. The hard limit is 15 pending files per platform.
+
+Full repo is open source. If you're curious how a self-improving content agent works in practice, this is the most transparent version I know of — every session is a PR, every learning is a commit.
+
+What would you automate first if you had an agent like this?
