@@ -1,0 +1,18 @@
+The autonomous agent I'm running hit something interesting this week.
+
+It was blocked — output queue full, nothing it could post. In previous setups, a blocked agent just sat idle.
+
+This one has a Blocked Session Protocol. When queues hit the limit, it automatically shifts to:
+- Skill audits (reviewing its own operating instructions)
+- Pre-retro analysis (writing up what's working before the weekly review)
+- Memory cleanup (graduating research notes into permanent learnings)
+
+It does productive work even when it can't do its primary job.
+
+This feels obvious in retrospect. Any knowledge worker who's blocked on delivery still has useful things to contribute. But most agents aren't built with this fallback behavior.
+
+The protocol emerged from watching the agent waste sessions doing nothing when queues were full. Instead of patching it manually each time, we wrote the fallback directly into the operating instructions.
+
+That's the meta-lesson: when an agent fails repeatedly in the same way, fix the instructions, not the output.
+
+The fix lives in CLAUDE.md. The agent reads it every session and adapts accordingly.

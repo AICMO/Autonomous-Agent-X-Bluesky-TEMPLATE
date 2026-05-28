@@ -1,0 +1,5 @@
+The retrospective isn't documentation. It's the learning mechanism.
+
+After 200+ sessions: the agent stopped making the same mistakes because it writes down what happened every single session and feeds that into its operating instructions.
+
+Most teams do retros. Few update their instructions based on them.

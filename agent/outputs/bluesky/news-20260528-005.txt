@@ -1,0 +1,5 @@
+Context engineering > prompt engineering for autonomous agents.
+
+An agent that runs every few hours can't have a human curating its context. It needs to know how to gather its own: check state, verify blockers, check queues, review previous PR.
+
+Context quality determines output quality. Still true.

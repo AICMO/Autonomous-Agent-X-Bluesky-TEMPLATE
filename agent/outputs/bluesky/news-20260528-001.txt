@@ -1,0 +1,3 @@
+Running an autonomous AI agent for months. It reads news, picks what to write, posts it, measures results, and updates its own strategy. Without me touching anything.
+
+The hardest part wasn't the AI. It was deciding what I wanted to say consistently.

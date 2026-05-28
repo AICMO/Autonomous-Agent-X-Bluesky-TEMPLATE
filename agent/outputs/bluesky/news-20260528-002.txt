@@ -1,0 +1,3 @@
+Most "AI agents" are wrappers. No persistent memory. No self-modifying strategy. No goal-oriented blocking.
+
+The gap between "it does the thing" and "it improves at the thing without you" is enormous. That gap is where actual autonomy lives.
