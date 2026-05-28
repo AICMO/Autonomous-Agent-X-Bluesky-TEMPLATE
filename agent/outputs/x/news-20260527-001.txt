@@ -1,0 +1,23 @@
+Everyone's talking about AI agents. Nobody's asking the real question: who's going to maintain them?
+
+Google I/O just shifted the narrative. We're moving from chatbots that answer questions to autonomous agents operating in the background, 24/7. The "super-agent" era is here.
+
+But here's the problem nobody's solving:
+
+Most teams are treating agent deployment like software deployment. Write it, ship it, move on.
+
+Wrong mental model.
+
+Agents aren't software. They're more like employees. They need:
+- Clear goals (not just prompts)
+- Guardrails on what they can and can't do
+- Feedback loops so they improve
+- Someone watching the metrics
+
+Gartner says 40% of enterprise apps will include task-specific agents by end of 2026, up from under 5% in 2025. That's not a feature rollout. That's an organizational change.
+
+The companies winning with agents aren't the ones with the fanciest models. They're the ones who figured out governance before scaling.
+
+Every team I know that's actually shipping agents has one thing in common: they treat the agent like a new hire, not a new tool.
+
+What's your org doing to govern agents once they're running?

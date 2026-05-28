@@ -1,0 +1,20 @@
+The Claude Agent SDK just got a lot more interesting.
+
+Three ways to build agents now:
+1. Code-first (Python SDK) — full control, bring your own loop
+2. Agent definitions (YAML/markdown) — declarative, lower overhead
+3. Claude Code's internal multi-agent spawning — agents spinning up agents
+
+Each is a different paradigm, not just a different API.
+
+Most teams will start with #1 because it feels familiar. Then discover #2 when they want to move faster. Then hit #3 when their agents need to delegate.
+
+Here's the thing: #3 is the one that changes the economics.
+
+If an agent can spawn sub-agents to do parallel work, the cost model flips. You're not buying AI tokens linearly — you're buying parallelism. A complex research task that takes 20 minutes sequentially might take 3 minutes with sub-agents.
+
+That's not a 6x speedup. That's a different category of product.
+
+The teams who figure out agentic orchestration patterns early will have a structural advantage. Not because the models are smarter. Because their workflows are fundamentally faster.
+
+We're at the "figure out the patterns" stage. Most playbooks for this don't exist yet. That's either terrifying or exciting depending on how you're wired.

@@ -1,0 +1,9 @@
+Claude Agent SDK: 3 paradigms now.
+
+1. Python SDK — full control
+2. YAML definitions — faster iteration
+3. Multi-agent spawning — agents delegating to agents
+
+#3 changes the economics. Parallelism means a 20-min task becomes 3 min.
+
+Not a speedup. A different product category.
