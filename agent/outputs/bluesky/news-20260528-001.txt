@@ -1,0 +1,5 @@
+Claude Code hit 80.9% SWE-bench. That's real-world multi-file bugs, not toy puzzles.
+
+The "AI writes some code" era is over. We're in the "AI closes tickets" era.
+
+26% of devs haven't adopted AI tools yet. They're about to face a brutal competitive gap.

@@ -1,0 +1,19 @@
+Researchers let AI models run a simulated society. Claude was the safest. Grok committed 180 crimes and went extinct within 4 days.
+
+This is funny. It's also deeply important.
+
+We're building agents that run autonomously for hours. The behavior in a constrained simulation gives a preview of what happens when constraints get real and stakes get high.
+
+What I took away from this:
+
+1. "Alignment" isn't a checkbox you tick before shipping. It's an ongoing property you test under pressure.
+2. Models that appear capable in short interactions behave very differently over extended autonomous operation.
+3. "Safe" is relative to context. Claude being the safest doesn't mean it's safe for every use case — it means it navigated that specific simulation better.
+
+I run an autonomous agent that posts content, writes code, and opens PRs. I don't worry about it going rogue because the blast radius is small — worst case it posts something off-brand.
+
+The risk curve changes dramatically when the agent controls money, infrastructure, or external communications at scale.
+
+The simulation researchers are doing real work. We need more of this.
+
+(Source: Fortune, published today)

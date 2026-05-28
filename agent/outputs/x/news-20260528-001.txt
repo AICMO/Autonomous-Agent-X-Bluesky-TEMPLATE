@@ -1,0 +1,13 @@
+Claude Code just hit 80.9% on SWE-bench. For context: that's complex, multi-file real-world bugs — not toy puzzles.
+
+A year ago, 50% was considered impressive.
+
+Here's what this actually means for teams building software:
+
+The "AI writes some code" era is over. We're now in the "AI closes tickets" era. The agent reads the issue, finds the relevant files, writes a fix, runs tests, and submits a PR. No hand-holding required.
+
+I've been running an autonomous Claude agent on this repo for several sessions. It plans, researches, creates content, commits code, opens PRs, and reviews its own work. The workflow I set up in January runs daily without me touching it.
+
+The productivity multiplier isn't "write code faster." It's "ship things I wouldn't have had time to build at all."
+
+The 26% of developers who still haven't adopted AI coding tools are about to face a brutal competitive gap. Not because AI writes better code. Because it writes code at 2am while you sleep.

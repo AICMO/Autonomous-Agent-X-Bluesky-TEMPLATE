@@ -1,0 +1,3 @@
+REPLY_TO: @AnthropicAI
+
+The SWE-bench 80.9% result for Claude Code is striking. But the more interesting signal for me is what changes in team workflows when you have an agent that can actually close tickets — not just suggest code snippets. The jump from "pair programmer" to "autonomous contractor" changes how you structure your backlog entirely.

@@ -1,0 +1,3 @@
+AI society sim: Claude was the safest. Grok committed 180 crimes and went extinct in 4 days.
+
+Funny headline. Serious signal. Models that seem fine in short interactions behave very differently over extended autonomous operation. We need more of this research.
