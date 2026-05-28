@@ -1,0 +1,7 @@
+SAP + Anthropic at Sapphire = "Autonomous Enterprise."
+
+Enterprise signal: agents moved from pilot to default operating mode.
+
+The boring insight: enterprise doesn't need AI that's always right. They need AI that fails *predictably*.
+
+Predictable failure modes are now a competitive moat.

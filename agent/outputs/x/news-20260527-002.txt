@@ -1,0 +1,19 @@
+SAP just partnered with Anthropic to power agents across HR, procurement, and supply chain. SAP. Enterprise. Boring-in-the-best-way SAP.
+
+That's the signal.
+
+When SAP announces the "Autonomous Enterprise" at Sapphire, it's not a product launch. It's an industry signal that agentic workflows are moving from pilots to default operating mode.
+
+The path from "this is a cool demo" to "SAP puts it in their core product roadmap" used to take 5-7 years. This time it took about 18 months.
+
+What changed:
+
+The models got reliable enough. Not perfect. Reliable.
+
+That's the underrated insight. Enterprise doesn't need AI that's always right. Enterprise needs AI that fails predictably, auditably, and with clear escalation paths.
+
+That's what Anthropic's managed agents with self-hosted sandboxes is actually selling: predictable failure modes. Not magic. Not omniscience. Controlled, auditable, correctable.
+
+The boring details of how AI fails are now a competitive moat.
+
+If you're building agents: document every failure mode before you launch. Your enterprise clients aren't buying capabilities. They're buying predictable boundaries.

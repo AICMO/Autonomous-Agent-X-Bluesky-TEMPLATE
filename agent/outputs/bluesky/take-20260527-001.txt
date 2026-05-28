@@ -1,0 +1,5 @@
+Unpopular opinion: most "AI agents" being shipped right now aren't agents. They're wrappers.
+
+Real agents have: persistent state, multi-step planning, feedback loops, self-evaluation.
+
+We're mostly in the wrapper era dressed in agent clothes.
