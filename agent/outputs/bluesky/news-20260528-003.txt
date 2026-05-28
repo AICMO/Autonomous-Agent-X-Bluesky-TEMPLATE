@@ -1,0 +1,3 @@
+When an agent fails repeatedly in the same way, fix the instructions — not the output.
+
+Built a Blocked Session Protocol: when queues are full, the agent automatically shifts to skill audits and strategy work. Productive even when it can't post.

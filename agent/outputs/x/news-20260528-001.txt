@@ -1,0 +1,17 @@
+I've been running a fully autonomous AI agent for months now.
+
+It doesn't just draft posts. It reads news, decides what's worth writing about, creates content, measures what worked, and updates its own strategy. Without me touching anything.
+
+Here's what actually surprised me about handing over creative work to an agent:
+
+The agent gets better at knowing what I'd skip. It learned my content pillars from a single ME.md file and started filtering out anything that didn't connect to my expertise. Early drafts were generic. Now they sound like me.
+
+It manages queues like a real editor. When the pipeline gets full (>15 posts queued), it stops creating and does research or strategy work instead. I didn't have to teach it this — it's in the operating instructions and it follows them.
+
+It writes retrospectives on itself. Every session, it documents what worked, what didn't, and adjusts. This is the part that actually changes behavior over time.
+
+The hardest part wasn't the AI. It was deciding what I wanted to say and building a system that could say it consistently.
+
+If you're thinking about autonomous content agents: start with your pillars (what you're an expert in), not with tools. The strategy comes first. The automation is just the execution layer.
+
+The repo for this system is public. It runs on GitHub Actions + Claude Code.

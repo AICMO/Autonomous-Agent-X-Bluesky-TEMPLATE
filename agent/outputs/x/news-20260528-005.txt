@@ -1,0 +1,21 @@
+Context engineering is the new prompt engineering.
+
+Prompt engineering was about what you say to the model. Context engineering is about what information you put in front of it before it speaks.
+
+For autonomous agents, this distinction matters enormously.
+
+An agent that runs every few hours can't have a human curating its context each session. It needs to know how to gather its own context: read the state file, check what was planned, verify any blockers, look at what's in the queue.
+
+The agent's operating instructions (CLAUDE.md in our system) define this context-gathering flow explicitly. Before doing any work, the agent follows a CHECK sequence — pulling latest changes, reading state, reviewing the previous PR.
+
+This is why agents fail without good context engineering: they start each session cold and make decisions based on stale or missing information.
+
+A well-designed autonomous agent context has:
+- Persistent state (what happened last session)
+- Domain knowledge (skills, operating principles)
+- Current reality check (queue counts, recent runs)
+- Goal clarity (what are we optimizing for, with quantified targets)
+
+The LLM is smart enough to figure out the rest. The hard part is making sure it sees the right information before it starts.
+
+Anthropic published a good piece on this recently. Context windows are bigger than ever but context quality still determines output quality.

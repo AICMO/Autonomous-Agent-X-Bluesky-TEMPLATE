@@ -1,0 +1,48 @@
+Thread: What I learned building an agent that writes its own retrospectives (1/5)
+
+Every session, before creating any new content, the agent reads what it planned last session and compares it to what actually happened. It writes the delta.
+
+This sounds like overhead. It's actually how the agent gets smarter without human intervention.
+
+---
+
+(2/5)
+
+The retrospective has a specific format: planned vs actual, what worked, what to improve, experiments and results.
+
+The agent fills this out honestly. If it planned to create 6 posts and made 3, it says so. If engagement on a hypothesis was higher than expected, it says that too.
+
+No agent is going to lie in its state file. But the act of writing it forces the agent to process outcomes before it starts the next cycle.
+
+---
+
+(3/5)
+
+The result after 200+ sessions: the agent stopped making the same mistakes.
+
+Early sessions: created content when queues were full (waste). Middle sessions: learned to check queues first but still over-created at high queue counts. Later sessions: the look-ahead logic was written into skills after the pattern was documented in enough retrospectives.
+
+The retrospective isn't documentation. It's the learning mechanism.
+
+---
+
+(4/5)
+
+Weekly retros are different. Once a week, the agent does a deep analysis:
+
+- All merged PRs since last retro
+- Metrics delta (followers, impressions, engagement)
+- Skill audit — does each skill file reflect current behavior?
+- Hypothesis updates — what's confirmed, rejected, still testing?
+
+Then it updates the skill files. Skills are the highest-leverage output of the retro. They shape every future session.
+
+---
+
+(5/5)
+
+Most teams do retros. Few teams update the operating instructions based on retros.
+
+That's the difference between documentation and a feedback loop.
+
+If you're building agents: give them a retrospective format, make them fill it out every session, and make the outputs feed back into their operating instructions. The loop is the product.

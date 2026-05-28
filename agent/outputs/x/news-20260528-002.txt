@@ -1,0 +1,17 @@
+Unpopular opinion: most "AI agents" aren't agents.
+
+They're wrappers. You give them a task, they do it, they stop.
+
+A real agent has three things a wrapper doesn't:
+
+1. Memory that persists across sessions. Not just context window — actual stored knowledge that updates based on outcomes. The agent should know what worked last week without you telling it.
+
+2. Self-modification of strategy. If engagement drops, the agent should notice, hypothesize why, and try something different. Not wait for you to change the prompt.
+
+3. Goal-oriented blocking logic. A proper agent refuses to do wasteful work. If the queue is full, it stops creating and does research instead. If it has nothing meaningful to commit, it skips the PR entirely.
+
+Most products calling themselves "agentic" have #0 of these. They're stateless task runners with a good API.
+
+The gap between "it does the thing" and "it improves at the thing without you" is enormous. That gap is where actual autonomy lives.
+
+Building this difference in requires treating the agent like an employee with a feedback loop — not a function that takes input and returns output.
