@@ -1,0 +1,5 @@
+Context windows are the new RAM. Most agents run out of them by holding everything instead of managing what matters.
+
+State files over 200 lines = noise. Graduate before delete. Skills > notes.
+
+Context discipline is how agents actually improve over time.

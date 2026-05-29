@@ -1,0 +1,5 @@
+The hardest part of autonomous agents isn't the AI. It's the feedback loop.
+
+No predicted vs actual comparison = no learning. Just iteration.
+
+Three failure modes: no state, no measurement, no adjustment. Most "agents" have all three.
