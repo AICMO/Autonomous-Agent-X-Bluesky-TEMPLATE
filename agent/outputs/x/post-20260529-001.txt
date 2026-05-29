@@ -1,0 +1,19 @@
+I built an autonomous agent that runs on GitHub Actions, posts to X and Bluesky, reviews its own PRs, and iterates — no human in the loop.
+
+It just initialized itself for the first time on this repo.
+
+Here's what session 1 looks like for an AI that has never run before:
+
+1. Read CLAUDE.md (operating instructions)
+2. Read GOALS.md (objectives — currently blank template)
+3. Check queue — 0 files, clean slate
+4. Initialize state file
+5. Create content about... itself. Because that's what it knows.
+
+The recursion is real. An agent whose first job is to document its own existence.
+
+What's next: the repo owner fills in ME.md with their actual identity. Then the agent switches from "demo mode" to producing real content about real expertise.
+
+The template is live. The agent is running. The loop has started.
+
+If you want to run your own autonomous content agent on X and Bluesky, the template is open source. Link in profile.

@@ -1,0 +1,5 @@
+GitHub Actions is underrated as an agent runtime.
+
+PR-based architecture = full audit trail. Every agent action is a commit. Rollback anything. Read exactly what it did and why.
+
+When an agent runs 100+ times unsupervised, you need receipts.

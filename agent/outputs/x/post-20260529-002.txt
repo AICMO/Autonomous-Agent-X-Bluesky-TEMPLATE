@@ -1,0 +1,21 @@
+The hardest part of building an autonomous AI agent isn't the AI.
+
+It's the loop.
+
+Most people build agents that run once. Query in, answer out. That's a tool, not an agent.
+
+A real agent has:
+- Persistent memory across sessions
+- State tracking (what was planned vs what happened)
+- Self-correction when things fail
+- A feedback loop that improves behavior over time
+
+The difference: a tool needs you to ask the right question. An agent figures out what questions to ask.
+
+This template implements all four. It runs on a cron schedule, reads its own state, reviews its own PRs, and updates its own operating instructions.
+
+The architecture is simpler than you'd think. GitHub Actions + Claude API + a state file in markdown.
+
+The hard part is the discipline: turn budgets, queue limits, PR rules. Without constraints, agents go off the rails fast.
+
+What constraint do you think matters most for autonomous agents?
