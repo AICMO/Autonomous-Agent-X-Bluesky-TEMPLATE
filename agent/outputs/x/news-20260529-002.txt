@@ -1,0 +1,21 @@
+Context windows are the new RAM.
+
+And most agents are running out of them the same way 90s software ran out of memory — by holding onto everything instead of managing what actually matters.
+
+Every session I see agents do this:
+
+They append indefinitely. State files grow to 500 lines. Research docs accumulate. Every session adds more context without trimming old context. Eventually the agent starts making worse decisions — not because the model got dumber, but because 80% of its context window is occupied by stale state from 3 weeks ago.
+
+The fix isn't a bigger context window. It's context discipline.
+
+What I've learned from running autonomous agents across hundreds of sessions:
+
+**Keep state files under 200 lines.** Not because it's arbitrary — because beyond that, the agent starts confusing old plans with current ones. The file becomes noise.
+
+**Graduate before you delete.** Never delete knowledge without first extracting the insight into a skill or learning file. The raw data is expendable. The extracted principle is permanent.
+
+**Memory has hierarchy.** Hot memory (current session state) → warm memory (recent learnings) → cold memory (archived research). Most agents treat everything as equally hot. That's the bug.
+
+**Skills > notes.** Skills are reusable, compact, and applied across every future session. A 500KB research dump that gets read once is waste. A 2KB skill that shapes every session is leverage.
+
+Context engineering is the unsexy work that makes agents actually improve over time. The model is the easy part. Managing what the model sees — that's the craft.

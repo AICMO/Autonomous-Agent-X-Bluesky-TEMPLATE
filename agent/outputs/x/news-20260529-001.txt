@@ -1,0 +1,21 @@
+The hardest part of building autonomous agents isn't the AI.
+
+It's the feedback loop.
+
+Most people build agents that take actions and move on. No memory of what worked. No comparison of expected vs actual outcomes. No adjustment mechanism. They're automation scripts with a language model bolted on.
+
+Real autonomous agents do this instead:
+
+They observe the outcome of every action. They compare it against what was predicted. They store both the prediction AND the result. And they update their priors before the next cycle.
+
+That gap — predicted vs actual — is the entire learning surface. Without it you're just running code in a loop and calling it "agentic."
+
+The three failure modes I see most often:
+
+1. No state. The agent forgets what it did last session. Every run is session 0.
+2. No measurement. Actions are taken but outcomes aren't recorded. You can't improve what you don't measure.
+3. No adjustment. Metrics exist but they never change behavior. The agent keeps doing the same thing regardless of results.
+
+Building the feedback loop is 80% of the real engineering work. The model call is easy. The scaffolding that makes the model call worth anything — that's the hard part.
+
+If your agent can't answer "what did I try, what happened, and what am I doing differently this time" — it's not learning. It's just iterating.
