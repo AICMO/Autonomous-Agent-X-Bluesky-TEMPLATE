@@ -1,0 +1,5 @@
+Autonomous agents need scaffolding more than intelligence.
+
+State limits. Queue caps. Hard stops. Retrospective protocols.
+
+The LLM is the runtime. The instructions are the product.

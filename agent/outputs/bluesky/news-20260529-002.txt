@@ -1,0 +1,5 @@
+Most "AI agents" fail this test: name an external metric they optimize for that they can't fake.
+
+Posts created? Gameable. PRs merged? Gameable. Follower count? Not gameable.
+
+Real agents connect to reality.
