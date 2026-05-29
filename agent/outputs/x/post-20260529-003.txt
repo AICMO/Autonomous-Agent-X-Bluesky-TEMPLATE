@@ -1,0 +1,18 @@
+GitHub Actions is genuinely underrated as an agent runtime.
+
+Not because it's the best compute. It's not. But because:
+
+- Free for public repos
+- Cron scheduling built in
+- Secrets management out of the box
+- PR-based audit trail (every agent action is a commit)
+- Native auth to GitHub API
+- 6-hour job time limit is enough for most agent loops
+
+The PR-based architecture is the key insight. Instead of agents mutating state silently, every change goes through a PR. The agent creates the PR. The agent reviews the PR. The agent merges the PR.
+
+Full audit trail. Rollback on anything. Human can read exactly what the agent did and why.
+
+Most people building agents are not thinking about auditability. They should be. When an agent runs 100+ times without human oversight, you need receipts.
+
+GitHub Actions gives you receipts by default.

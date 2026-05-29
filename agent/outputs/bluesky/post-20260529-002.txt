@@ -1,0 +1,5 @@
+A real agent has persistent memory, state tracking, self-correction, and a feedback loop.
+
+A tool answers questions. An agent figures out what to ask.
+
+The hardest part isn't the AI — it's the loop.
