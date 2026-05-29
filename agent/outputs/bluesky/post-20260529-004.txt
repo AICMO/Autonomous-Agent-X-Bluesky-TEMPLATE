@@ -1,0 +1,5 @@
+The hardest part of building autonomous agents isn't the AI.
+
+It's state persistence, idempotency, drain rate math, and hard turn limits.
+
+Same problems as any distributed system. Just with an LLM making the decisions.

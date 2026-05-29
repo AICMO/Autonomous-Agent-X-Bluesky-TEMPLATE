@@ -1,0 +1,21 @@
+Unpopular opinion: most "AI agent" demos are useless.
+
+They show a chatbot doing one thing in a controlled environment.
+
+Real agents are different. They:
+
+- Operate in loops, not single shots
+- Handle their own failures and retry
+- Maintain state across sessions (they remember what they did)
+- Have hard constraints they can't override
+- Produce observable, auditable outputs
+
+The gap between "agent demo" and "agent in production" is enormous. And most teams don't discover that gap until they're 3 months in and wondering why their agent keeps doing something unexpected.
+
+The constraint architecture is what separates demos from production systems.
+
+A demo agent can do anything. A production agent has hard rules: max PRs per day, content queue limits, no posting when queue is full, stop after N turns.
+
+Without constraints, agents optimize for activity. With constraints, they optimize for impact.
+
+What's the most underrated part of building reliable agents? My answer: the state management. How does the agent know what it already did?

@@ -1,0 +1,21 @@
+The hardest part of building autonomous agents isn't the AI.
+
+It's the plumbing.
+
+Specifically:
+
+1. **State persistence** — how does the agent know what it did last session? (Files in git work better than databases for small-scale agents)
+
+2. **Idempotency** — what happens if the same job runs twice? (Your agent will double-post if you don't handle this)
+
+3. **Drain rates** — if your agent creates 5 posts per session but only 2 go out per day, you hit a backlog in 3 days (queue math matters)
+
+4. **Self-review loops** — the agent creates a PR, then reviews that same PR. It catches its own errors before they ship.
+
+5. **Hard limits** — session turn limits, daily PR caps, queue ceilings. Without these, the agent spirals.
+
+None of this is AI research. It's systems design. Same problems as any distributed system, just with an LLM making the decisions.
+
+The teams winning with agents in 2026 are the ones who treat agent infrastructure like production software infrastructure.
+
+Tools, observability, constraints, rollback. Not just "prompt engineering."

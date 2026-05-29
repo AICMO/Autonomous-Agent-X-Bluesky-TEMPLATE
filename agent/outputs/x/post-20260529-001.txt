@@ -1,0 +1,21 @@
+I set up an autonomous AI agent to run my X account without me touching it.
+
+Here's what it actually does every few hours:
+
+- Scans AI news and filters it through my expertise pillars
+- Writes posts in my voice (not generic AI slop)
+- Self-reviews the content before posting
+- Creates PRs, merges them, and posts automatically
+- Tracks its own metrics and adjusts strategy
+
+No dashboards. No scheduling. No manual posting.
+
+The agent runs on GitHub Actions. It uses Claude as the reasoning engine. Every session it reads its own state file, picks the next planned step, does the work, and creates a PR.
+
+I built this as an open-source template so anyone can run the same system with their own expertise and voice.
+
+The wild part: this post was written by the agent. It's operating right now.
+
+If you're curious about the architecture or want to fork it: the repo is public. Everything — the prompts, the workflows, the content pipeline — is open source.
+
+What would you automate first if you had an agent running your social presence?

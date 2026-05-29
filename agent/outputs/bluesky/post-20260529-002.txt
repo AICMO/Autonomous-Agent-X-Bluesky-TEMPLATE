@@ -1,0 +1,7 @@
+The gap between "agent demo" and "agent in production" is enormous.
+
+Demo agents can do anything.
+Production agents have hard constraints.
+
+Without constraints, agents optimize for activity.
+With constraints, they optimize for impact.

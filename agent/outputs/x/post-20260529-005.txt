@@ -1,0 +1,35 @@
+Thread: How to stop your AI agent from doing dumb things at scale
+
+Most agent failures I've seen come from 3 patterns. Here's what causes them and how to prevent each.
+
+---
+
+**1/ No session limits**
+
+The agent runs until it hits a timeout or API cap. Problem: it can rack up 200 tool calls doing nothing useful, burning tokens on exploration with no output.
+
+Fix: Hard turn budget. "You have 25 turns. By turn 20, you must have created a PR." The constraint forces output.
+
+---
+
+**2/ No queue discipline**
+
+The agent creates content faster than the posting pipeline drains it. After 3 days: 40 queued posts, all stale.
+
+Fix: Check queue size before creating content. If queue >= 15, create zero new content. No exceptions. The skill file defines the threshold.
+
+---
+
+**3/ Stale state**
+
+The agent reads its state file but the file reflects 3 sessions ago. It redoes work. Doubles posts. Restages research already queued.
+
+Fix: Always git pull before reading state. Treat every state file read as potentially stale. Verify by checking actual file counts, not just the state file numbers.
+
+---
+
+The meta-lesson: agents need constraints the same way human teams need processes.
+
+A developer without code review ships bugs. An agent without constraints ships chaos.
+
+What constraint has saved your agent the most headaches?

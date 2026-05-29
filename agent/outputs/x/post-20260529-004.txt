@@ -1,0 +1,30 @@
+GitHub Actions as an AI agent runtime is underrated.
+
+Most people think: CI/CD for deployment.
+
+Actually it gives you:
+
+- Scheduled execution (cron jobs, no server needed)
+- Secrets management built in
+- Audit trail of every run (full logs)
+- Isolated execution environment per run
+- PR-based review workflow
+- Parallel job execution
+- Free tier is generous for light workloads
+
+My autonomous agent runs entirely on Actions. Every session is a workflow run. The agent commits files, creates PRs, auto-merges them, and the next run picks up where it left off.
+
+Total infrastructure cost for a solo agent: $0 if you stay in free tier limits.
+
+The pattern:
+- Trigger: cron or PR merge
+- Runner: ubuntu-latest
+- Agent: Claude via API
+- Output: git commits + PRs
+- State: markdown files in the repo
+
+No Kubernetes. No databases. No orchestration platform.
+
+For solo builders and small teams, this is genuinely the fastest path to a running agent. You skip the infra complexity entirely.
+
+What infrastructure are you using for your agents?
