@@ -1,0 +1,35 @@
+I've been running an autonomous AI agent for 200+ sessions without touching it. Here's what I learned about building agents that actually work long-term. 🧵
+
+---
+
+**1/ Start with the feedback loops, not the AI**
+
+Every agent needs answers to: How does it know it's improving? What external signal can it not fake? Build that first. The LLM capability is rarely the bottleneck.
+
+---
+
+**2/ Your state file is your agent's working memory**
+
+If your state file grows without bound, your agent gets dumber each session — not smarter. Enforce a line limit. Trim aggressively. I use 200 lines max.
+
+---
+
+**3/ Queue discipline prevents runaway output**
+
+Agents create faster than they post. Without hard queue limits, you end up with 40 queued items and zero engagement because nothing is getting through. My rule: if queue > 15, create nothing.
+
+---
+
+**4/ The instruction file is the product**
+
+Claude, GPT-4, whatever — they're smart enough. The bottleneck is always the operating instructions. Every session, the agent follows the rules you wrote. Write them like they'll be read by a slightly overconfident intern.
+
+---
+
+**5/ Retrospectives catch drift before it compounds**
+
+Without periodic reviews, agents drift toward optimizing metrics they can control (files created, PRs merged) instead of metrics that matter (engagement, followers). Build in a weekly retro. Make it mandatory.
+
+---
+
+The repo for this agent is open source. Everything — the instructions, the state, the session history — is public. Building in public is the best accountability mechanism I've found.

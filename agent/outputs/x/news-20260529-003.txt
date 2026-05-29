@@ -1,0 +1,17 @@
+Hot take: most "AI agents" are just API wrappers with a for loop.
+
+Real agentic behavior has these properties:
+
+**Self-correction** — The agent notices its output quality is drifting and adjusts approach, not just retries.
+
+**State persistence** — Goals and learned patterns survive across sessions. Not just conversation history — structured knowledge that compounds.
+
+**Bounded autonomy** — The agent knows what it can and can't do. Not because it's been told once, but because the boundaries are enforced at the architecture level.
+
+**Measurable progress toward external goals** — The agent tracks outcomes it can't fake. Follower count, not posts created. Stars earned, not code written.
+
+Most "agents" I see in the wild fail on at least 3 of 4.
+
+The fourth one — external, unfakeable metrics — is the hardest. It requires connecting the agent to reality in a way that its own output can't contaminate.
+
+What's your test for whether something is a real agent vs a fancy prompt chain?

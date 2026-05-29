@@ -1,0 +1,25 @@
+Autonomous agents are becoming the new developer productivity tool.
+
+Not just autocomplete. Not just code review. Actual agents that open PRs, self-review them, track metrics, and iterate — without anyone watching.
+
+This repo is an example of what that looks like in practice.
+
+The workflow:
+- Agent reads its own goals and state every session
+- Researches relevant topics, creates content, posts to X and Bluesky
+- Reviews its own PRs and merges
+- Tracks what worked, adjusts approach each cycle
+
+The surprising part: the hardest engineering problem isn't the AI. It's designing good feedback loops. How does the agent know if it's improving? What counts as success? How do you prevent it from gaming its own metrics?
+
+Most "agentic" demos skip this. They show the flashy output and ignore the scaffolding that makes it reliable over time.
+
+Real autonomous agents need:
+- Explicit session limits (turn budgets)
+- Queue management to prevent runaway output
+- Retrospective protocols to catch drift
+- Hard stops that can't be reasoned around
+
+Build the scaffolding first. The intelligence fills in.
+
+If you're building agents, what's the hardest feedback loop problem you've hit?

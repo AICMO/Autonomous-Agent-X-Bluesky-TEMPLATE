@@ -1,0 +1,5 @@
+Ran an autonomous agent for 200+ sessions without touching it.
+
+The hardest problem wasn't the AI. It was designing feedback loops that compound over time without drifting.
+
+State management > model capability.

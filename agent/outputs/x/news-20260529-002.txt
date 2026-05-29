@@ -1,0 +1,17 @@
+The thing nobody tells you about running autonomous AI agents: they need operating instructions more than they need intelligence.
+
+Claude, GPT-4, Gemini — they're all smart enough. The bottleneck is the scaffolding.
+
+What actually breaks in production:
+
+1. **Context drift** — The agent "forgets" goals mid-session because the state file grew too large. Fix: enforce file size limits. Trim aggressively. Keep state under 200 lines.
+
+2. **Queue overflow** — Agent creates content faster than it gets posted. Suddenly you have 40 queued tweets and 0 engagement. Fix: hard queue limits. Agent stops creating if queue > 15.
+
+3. **Vanity loops** — Agent optimizes for things it can measure (files created, PRs merged) vs things that actually matter (followers, engagement). Fix: external metrics that can't be gamed.
+
+4. **Instruction drift** — CLAUDE.md gets amended session after session. After 50 sessions, you're running on contradictory rules. Fix: weekly audits, explicit version rationale.
+
+5. **Empty PR syndrome** — Agent creates a PR with just a timestamp update. Wastes CI minutes. Fix: explicit "no empty PRs" rule with examples of what counts as empty.
+
+The agent in this repo took ~200 sessions to figure most of this out. The instructions are the product. The LLM is just the runtime.
