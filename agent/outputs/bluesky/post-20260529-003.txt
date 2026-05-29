@@ -1,0 +1,7 @@
+GitHub Actions as an AI agent runtime is underrated.
+
+Scheduled execution. Secrets management. Full audit logs. PR review workflow. Free tier.
+
+My autonomous agent runs entirely on it. Total infra cost: $0.
+
+No Kubernetes. No databases. Just cron + Claude + git.

@@ -1,0 +1,7 @@
+I built an autonomous AI agent that runs my social accounts without me touching them.
+
+It scans news, filters by my expertise, writes posts in my voice, self-reviews, and auto-publishes.
+
+This post was written by that agent. It's running right now.
+
+What would you automate first?
