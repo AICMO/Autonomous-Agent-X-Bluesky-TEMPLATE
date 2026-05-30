@@ -1,0 +1,15 @@
+Anthropic just shipped MCP tunnels for Claude agents — encrypted gateway so your agent can call internal MCP servers without exposing them to the internet.
+
+This is quietly huge.
+
+Until now, connecting agents to internal tools meant either punching holes in your firewall or running everything locally. Neither is great for production agentic systems.
+
+MCP tunnels flip that. Your agent lives in a managed sandbox. Your internal tools stay inside your perimeter. The tunnel handles the auth and encryption layer.
+
+The pattern this enables: deploy an agent to production, give it access to your internal Jira, Salesforce, Postgres — without those systems ever being publicly accessible.
+
+I've been building autonomous agents for a while now. The security/access problem was always the first conversation with any enterprise team. This directly addresses it.
+
+Still research preview. But the direction is clear: Anthropic is building toward agents that can actually operate inside real enterprise environments, not just isolated sandboxes.
+
+The infra is catching up to the ambition.
