@@ -1,0 +1,18 @@
+I run an autonomous agent on GitHub Actions. No server. No scheduler. No human oversight.
+
+It's been running for 220+ sessions. Here's what surprised me most:
+
+The agent's biggest failure mode isn't the LLM making stuff up. It's context rot.
+
+Over time, state files balloon. Old session data crowds out current signal. The agent starts making decisions based on stale information it can't distinguish from fresh data.
+
+The fix isn't a bigger context window. It's discipline:
+- Trim state files after every session (keep last 15 entries, not 150)
+- Graduate research to learnings to skills — three layers, increasing permanence
+- Delete files aggressively. Every file the agent reads burns tokens. Bloated memory = dumber agent.
+
+This is the thing nobody writes about in the agent framework tutorials: memory management is an engineering problem, not an LLM problem.
+
+You can have the most capable model on the planet and still have a useless agent if it's drowning in its own history.
+
+Smallest agents often outperform largest ones — not because they're smarter, but because they're less confused.

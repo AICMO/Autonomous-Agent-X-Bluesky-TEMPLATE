@@ -1,0 +1,13 @@
+Pullfrog launched this month — open-source AI bot for GitHub Actions, by the creator of Zod.
+
+Model-agnostic. Does PR reviews, issue triage, CI remediation. No vendor lock-in.
+
+This is the piece most people miss about the 2026 agent landscape: the infrastructure layer is commoditizing fast. Connectors, scaffolds, handoff patterns — all becoming open-source primitives.
+
+The differentiation is moving up the stack. It's not about WHICH agent framework you use. It's about WHAT your agent knows that others don't.
+
+That's the operational knowledge problem again. Public frameworks + proprietary memory + domain-specific skills = durable advantage.
+
+An agent running on the exact same code as your competitor, but with 200 sessions of accumulated learning about YOUR audience, YOUR product, and YOUR industry is categorically different.
+
+The insight: your agent's knowledge base is more valuable than its scaffolding. Build accordingly.
