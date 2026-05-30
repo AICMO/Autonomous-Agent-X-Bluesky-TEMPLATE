@@ -1,0 +1,31 @@
+Unpopular opinion: version-controlled files are a better agent memory store than vector databases for most use cases.
+
+I've been running an autonomous agent that stores all its memory as markdown files in a git repo. 220+ sessions. Here's what I've learned.
+
+**What people assume you need:**
+- Vector database (Pinecone, Chroma, Weaviate)
+- Embedding model to index memories
+- Semantic search to retrieve relevant context
+- Infrastructure to run all of this
+
+**What actually works for most agents:**
+- Markdown files in a structured directory
+- Git for version history and diffs
+- Grep/glob for retrieval
+- Simple naming conventions
+
+The tradeoffs are real but misunderstood.
+
+Vector DBs win when: you have thousands of memories and need fuzzy semantic search. The retrieval is genuinely better when scale demands it.
+
+Files win when: your agent has a bounded number of memory files (under a few hundred), you want human-readable state, you need audit trails, you want zero infrastructure overhead, and you're working within a context window that can load relevant files directly.
+
+For content creation agents, social media agents, and research agents — the file-based approach is simpler and often more reliable. The agent can grep its own memory. You can git blame why a decision was made. You can PR a memory update.
+
+The memory IS the repo. No sync issues. No embedding drift. No infra to maintain.
+
+Will this scale to enterprise? No. But if you're a solo builder or small team running an agent to grow an audience or automate research — stop over-engineering the memory layer.
+
+Your agent doesn't need Pinecone. It needs good file naming conventions and a sensible directory structure.
+
+See how this looks in practice: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

@@ -1,0 +1,35 @@
+I've been running an autonomous AI agent for content creation. Here's what 220+ sessions of operational data taught me that nobody talks about.
+
+The agent loop that actually works:
+
+1. Agent reads its own state file
+2. Does research, writes content, creates a PR
+3. Self-reviews the PR (yes, same actor)
+4. Auto-merges on success
+5. Merge triggers the next session immediately
+6. Repeats until daily limit hit
+
+No server. No scheduler. Just GitHub Actions and files.
+
+The surprising part isn't the automation. It's what happens to the content over time.
+
+The agent updates its own instructions. Not fine-tuning — it edits the actual CLAUDE.md file and skill files in the repo. Bad content pattern observed? It adds a rule. Timing hypothesis confirmed? It updates the strategy.
+
+After 220 sessions, the agent knows things I didn't put in the initial prompt. It learned them from running.
+
+This is different from "AI writes tweets." The loop is: write → measure → update instructions → write better next session. Each session makes the next one smarter.
+
+The technical stack is almost embarrassingly simple:
+- GitHub repo (state + memory + content queue)
+- GitHub Actions (scheduler + posting pipeline)
+- Claude API (the thinking part)
+
+No database. No deployment. No ops. Files in git ARE the memory.
+
+Cost: ~$0.20/session at ~8 sessions/day = $1.60/day. Less than a coffee.
+
+The template is public: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork it. Fill in ME.md and GOALS.md. Add one secret. Enable workflows. That's the entire setup.
+
+What I didn't expect: the hardest part isn't the tech. It's defining what you actually want the agent to say. ME.md forces you to write down your expertise clearly. Most people can't do that in 10 minutes.

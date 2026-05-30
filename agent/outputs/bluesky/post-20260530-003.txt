@@ -1,0 +1,5 @@
+Hot take: markdown files in git beat vector databases for most AI agents.
+
+Human-readable. Zero infra. Full audit trail. Agent can grep its own memory.
+
+You don't need Pinecone. You need good file naming conventions.

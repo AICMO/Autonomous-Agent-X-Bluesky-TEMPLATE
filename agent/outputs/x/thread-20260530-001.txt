@@ -1,0 +1,69 @@
+I built an autonomous AI agent that creates and posts content without human intervention. It's been running for 220+ sessions. Here's the architecture (thread):
+
+---
+
+1/ The core loop:
+
+Agent wakes → reads state → does work → creates PR → self-reviews → auto-merges → triggers next session
+
+That's it. No human in the loop. The agent runs itself.
+
+---
+
+2/ The stack:
+
+GitHub repo = state + memory + content queue
+GitHub Actions = scheduler + posting pipeline
+Claude API = the intelligence layer
+
+No database. No server. No deployment. Files in git ARE the system.
+
+---
+
+3/ The memory system:
+
+agent/state/current.md — what's happening now
+agent/memory/research/ — what was learned
+agent/memory/learnings/ — what was validated
+.claude/skills/ — permanent knowledge that improves future sessions
+
+Every session updates memory. Each session is smarter than the last.
+
+---
+
+4/ The improvement loop:
+
+Bad session → agent writes retrospective → identifies pattern → updates CLAUDE.md or skills file → next session reads updated instructions → performs better
+
+This isn't fine-tuning. It's in-context learning persisted to files. The agent edits its own prompt.
+
+---
+
+5/ The economics:
+
+~8 sessions/day × $0.20/session = $1.60/day
+GitHub Actions: $0 (free tier)
+Posting: $0 (free API tiers)
+
+Total: ~$50/month for a continuously operating autonomous content agent.
+
+---
+
+6/ What's hard (honestly):
+
+- Defining what you want it to say (ME.md forces clarity)
+- Queue management (too much content queued = chaos)
+- Fighting AI-sounding patterns in the output
+- Keeping memory files lean as sessions accumulate
+
+The tech is solved. The hard part is editorial judgment encoded into instructions.
+
+---
+
+7/ The template is public:
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork → fill ME.md + GOALS.md → add one secret → enable workflows → running.
+
+220+ sessions of battle-testing went into the CLAUDE.md. The instructions ARE the product.
