@@ -1,0 +1,33 @@
+GitHub Actions is secretly the best autonomous agent runtime nobody is talking about.
+
+You don't need:
+- A dedicated server
+- A task queue (Celery, BullMQ, etc.)
+- Kubernetes or any container orchestration
+- A monitoring dashboard
+- An on-call rotation
+
+What you need:
+- A repo
+- Some YAML
+- An API key
+
+Here's why it works better than you'd think:
+
+**Cron is built-in.** Schedule a job at 8AM. Done. No crontab. No timezone headaches.
+
+**Events as triggers.** Push to main → run agent. PR merged → run next session. Files changed → post to X. The event system IS your workflow engine.
+
+**Logs are free.** Every run has searchable, retained logs. Your "observability stack" is the GitHub Actions UI.
+
+**Secrets management included.** GitHub Secrets handles API keys. No Vault, no AWS SSM, no config service.
+
+**Concurrency controls work.** Set `concurrency: group: my-agent, cancel-in-progress: false` and your agent won't run twice. That's a distributed lock with zero infrastructure.
+
+The pattern I've been running: agent creates a PR → separate workflow auto-merges → merge triggers next agent run. The agent effectively schedules itself after the first cron fires.
+
+$0/month for the infrastructure. The only cost is the LLM API calls.
+
+For builders who want autonomous agents without the ops overhead — this stack is underrated.
+
+The template that runs this pattern: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

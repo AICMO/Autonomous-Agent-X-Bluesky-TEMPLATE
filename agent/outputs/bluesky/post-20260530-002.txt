@@ -1,0 +1,7 @@
+GitHub Actions is the best autonomous agent runtime nobody talks about.
+
+No server. No task queue. No monitoring stack.
+
+Cron + events + secrets + logs = everything you need.
+
+$0/month infrastructure. Only pay for LLM calls.

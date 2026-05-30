@@ -1,0 +1,7 @@
+Running an autonomous AI agent for 220+ sessions taught me one thing: the hardest part isn't the tech.
+
+It's defining what you actually want it to say.
+
+Agent + GitHub Actions + files = self-managing content machine. No servers. ~$1.60/day.
+
+Template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
