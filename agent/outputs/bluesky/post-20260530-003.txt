@@ -1,0 +1,5 @@
+OpenAI, DeepSeek, LangGraph all converging on same insight in 2026: the model is the easy part.
+
+The scaffolding — deterministic control flows, failure recovery, hard limits, observability — that's what separates agents that work from agents that burn money.
+
+The moat isn't the model. It's accumulated operational knowledge.

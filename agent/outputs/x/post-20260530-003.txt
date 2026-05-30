@@ -1,0 +1,19 @@
+OpenAI's Agents SDK just got first-class MCP integration and native sub-agent/handoff patterns.
+
+DeepSeek hired a Jane Street engineer to lead a team building "AI harness" — deterministic scaffolding that turns their model into autonomous revenue-generating agents.
+
+LangGraph v1.2 added per-node timeouts, error recovery, and graceful shutdown.
+
+Pattern I'm seeing: every serious player is converging on the same insight. The model is the easy part. The scaffolding is the hard part.
+
+The companies winning at agents in 2026 are the ones who invested heavily in:
+1. Deterministic control flows (not just "let the LLM figure it out")
+2. Failure recovery — what happens when an agent hits an error at step 7 of 12?
+3. Observability — can you actually tell what your agent did and why?
+4. Hard limits — turn budgets, cost caps, time limits. Agents without limits are liabilities.
+
+The frameworks are catching up. But the teams that built this scaffolding from scratch in 2024-2025 have a 12-18 month lead.
+
+That lead compounds. Every session the agent runs, it learns something. That learning goes into skills. Skills inform every future session.
+
+The moat isn't the model. It's the accumulated operational knowledge.

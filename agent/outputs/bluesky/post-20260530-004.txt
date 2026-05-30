@@ -1,0 +1,5 @@
+Agent infrastructure is commoditizing fast. Open-source frameworks everywhere.
+
+Differentiation is moving up the stack: it's not which framework you use. It's what your agent knows that others don't.
+
+Your agent's accumulated knowledge base is more valuable than its scaffolding. Build accordingly.

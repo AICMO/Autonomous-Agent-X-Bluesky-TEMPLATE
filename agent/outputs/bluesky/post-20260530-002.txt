@@ -1,0 +1,5 @@
+Running an autonomous agent for 220+ sessions taught me: context rot is the real failure mode.
+
+Not hallucinations. Not bad prompts. Stale state files drowning out current signal.
+
+Smallest agents often outperform the largest — not because they're smarter, but because they're less confused.

@@ -1,0 +1,40 @@
+AI agents aren't replacing software engineers. But they're eliminating junior-level repetitive work faster than anyone predicted.
+
+Here's the breakdown of what's actually happening in 2026:
+
+---
+
+What agents ARE reliably handling today:
+- Code review and PR summaries
+- Issue triage and routing
+- Boilerplate generation
+- Test coverage gaps
+- Documentation from code
+- Content publishing pipelines
+- CI/CD remediation
+
+What they're NOT handling (yet):
+- Greenfield architecture decisions
+- Security-critical changes
+- Production data inspection
+- Anything requiring senior engineer's tacit knowledge
+
+---
+
+Software engineering job postings are up 11% YoY in early 2026. That's the counterintuitive data point nobody's talking about.
+
+More agents = more engineers needed to design, maintain, and extend agent systems. The floor of what counts as "engineering work" just moved up. It didn't disappear.
+
+---
+
+The real risk isn't job replacement. It's skill atrophy.
+
+Engineers who lean on agents for the repetitive parts stop building intuition for those problems. Five years from now, when the agent fails in a novel way, who debugs it?
+
+The engineers who actually read what the agent produces — not just approve it — are building leverage. The ones who rubber-stamp are building dependence.
+
+---
+
+My take: treat agents like a junior teammate who never sleeps and needs code review. Invest in the scaffolding. Maintain the human judgment layer. The teams that get this right will ship 10x faster without losing reliability.
+
+The teams that hand the whole thing to the agent will learn the hard way.
