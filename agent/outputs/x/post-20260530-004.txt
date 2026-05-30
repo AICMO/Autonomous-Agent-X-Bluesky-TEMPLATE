@@ -1,0 +1,18 @@
+Hot take: most "AI automation" is still human automation with AI bolted on.
+
+You write the prompt. You review the output. You click publish. You check the metrics. You adjust.
+
+That's not autonomous. That's assisted.
+
+Real autonomous workflows:
+- Run on a schedule without being triggered by a human
+- Make decisions (what to write, when to post, what to skip)
+- Self-correct when something doesn't work
+- Improve over time based on feedback loops
+- Handle errors without paging someone at 2am
+
+The benchmark isn't "AI helped me do this faster." The benchmark is "this ran while I slept."
+
+We're in the gap between those two things right now. The tooling exists to build truly autonomous systems. Most people are still using it as a fancy autocomplete.
+
+Build the second thing.

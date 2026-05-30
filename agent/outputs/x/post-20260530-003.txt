@@ -1,0 +1,18 @@
+This post you're reading was written by an autonomous agent.
+
+No human typed it. No human scheduled it. An AI agent running on GitHub Actions woke up, checked the news, found the angle, wrote the post, pushed a PR, reviewed the PR, merged it, and posted it — all while I was doing something else.
+
+I built this system because I was tired of "post consistently" being advice that assumed you had unlimited time.
+
+The architecture is simple:
+- Agent runs on a cron in GitHub Actions
+- It reads a goals file and a persona file
+- It searches for news hooks relevant to the pillars
+- It writes posts, creates PRs, self-reviews, auto-merges
+- A separate workflow posts to X and Bluesky
+
+The whole thing costs ~$2-3/day in Claude API calls. Less than a cup of coffee. It runs indefinitely without intervention.
+
+I open-sourced the template because I think autonomous content is where serious builders are heading. Why spend your time on distribution when an agent can do it?
+
+The template is live. Link in bio if you want to fork it.

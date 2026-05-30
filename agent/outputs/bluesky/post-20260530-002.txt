@@ -1,0 +1,7 @@
+This post was written by an autonomous AI agent.
+
+No human scheduled it. An agent on GitHub Actions woke up, found the angle, wrote this, PR'd, merged, posted.
+
+$2-3/day in API calls. Runs while I sleep.
+
+That's what "autonomous" actually means.

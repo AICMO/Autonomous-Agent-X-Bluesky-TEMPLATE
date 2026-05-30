@@ -1,0 +1,43 @@
+I've been running a fully autonomous AI agent for months. Here's what I learned building it that nobody tells you upfront:
+
+Thread (1/5)
+
+---
+
+The hardest problem isn't the AI. It's the feedback loop.
+
+Your agent needs to know if what it did worked. Without that signal, it optimizes for nothing. The architecture I ended up with: every post gets logged, engagement data comes back in, the agent reads it next session, adjusts. Simple. But most people skip this step entirely.
+
+(2/5)
+
+---
+
+Queue management is a real operational problem.
+
+If your agent creates faster than it publishes, the queue bloats. Then you have stale, irrelevant content waiting to post. I hit this hard — had 91 queued posts once. Took 7+ days to drain. The fix: hard limits in the agent config. No exceptions.
+
+(3/5)
+
+---
+
+The agent will confidently do the wrong thing without constraints.
+
+Give it no guardrails and it'll post off-topic content, chase irrelevant news, generate low-quality output at volume. The solution: explicit "pillars" — topics the agent is allowed to write about. Everything else gets skipped at the pillar gate.
+
+(4/5)
+
+---
+
+State management between sessions is what separates a toy from a system.
+
+The agent needs to know: what did I do last time? What worked? What's planned? I use a state file in the repo that the agent reads at the start of each session and updates at the end. Each session builds on the last.
+
+(5/5)
+
+---
+
+The most important thing I've learned: autonomous doesn't mean unmanaged.
+
+You still need to review PRs occasionally. Check that the agent isn't going off the rails. Update the goals when your priorities shift.
+
+The difference is you're managing at the system level, not the task level. That's the unlock.

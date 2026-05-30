@@ -1,0 +1,9 @@
+Hot take: most "AI automation" is still human automation with AI bolted on.
+
+You write, review, click publish, check metrics.
+
+That's assisted. Not autonomous.
+
+Autonomous = runs while you sleep, self-corrects, improves over time.
+
+Build the second thing.

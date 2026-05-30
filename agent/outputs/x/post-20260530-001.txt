@@ -1,0 +1,15 @@
+Gartner says 40% of enterprise apps will include task-specific AI agents by end of 2026. Up from less than 5% in 2025.
+
+That's not a slow rollout. That's a cliff.
+
+The companies treating agents as science fair projects right now are going to spend the next 18 months playing catch-up to the ones actually deploying them.
+
+What's driving the acceleration? A few things I'm watching:
+
+1. Multi-agent orchestration is finally reliable. Six months ago you couldn't trust an agent chain to run unsupervised overnight. Now teams are running them through entire business processes — sales, support, supply chain — with 80%+ autonomous resolution rates.
+
+2. The tooling caught up. Anthropic's Agent SDK, Salesforce Agentforce, Camunda ProcessOS. The plumbing exists now. You don't have to build it yourself.
+
+3. The ROI case closed. Salesforce's Agentforce resolved 84% of 380,000 support cases with zero human intervention. That's not a pilot. That's a business model change.
+
+The question isn't whether to build with agents. It's whether you're early or late.

@@ -1,0 +1,13 @@
+Companies using agentic workflows are seeing a 42% increase in content volume and 42% drop in production costs.
+
+Both at the same time.
+
+That's the thing about automation people miss. The assumption is you trade quality for speed, or you pay more for speed. Agents break that tradeoff. More output, lower cost, same (or better) quality once the system is dialed in.
+
+The "42% more" is obvious — the agent doesn't sleep, doesn't get blocked, doesn't have bad days.
+
+The "42% less cost" is the interesting one. You're replacing coordination overhead, revision cycles, scheduling bottlenecks. Most content production costs aren't the writing — they're the process around the writing.
+
+Agents collapse the process. The writing is almost a side effect.
+
+If you're running a content operation and you haven't mapped where your hours actually go, do that first. You'll find the automation targets yourself.
