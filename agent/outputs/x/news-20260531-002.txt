@@ -1,0 +1,26 @@
+Agentic AI is the most misunderstood term in tech right now.
+
+Everyone's calling their chatbot an "agent." It's not.
+
+Here's the actual difference:
+
+A chatbot responds to you. An agent acts toward a goal.
+
+Chatbot: You ask → It answers → Done.
+Agent: Goal set → Plans steps → Executes → Checks results → Adjusts → Repeats.
+
+The key ingredients most "agents" are missing:
+
+1. **Persistent memory** — it needs to remember what worked and what didn't. Not just this session. Across sessions.
+
+2. **Self-evaluation** — can it look at its own outputs and say "that was bad, here's why"? Without human input?
+
+3. **Goal decomposition** — can it break a fuzzy goal ("grow my audience") into concrete next actions ("post 3 threads this week on topic X based on last week's engagement")?
+
+4. **Course correction** — when the plan fails, does it update the plan or just keep executing the original?
+
+Most "AI agents" in 2026 nail #1 and partially do #3. Almost none do #2 or #4 without human prompting.
+
+The ones that do? That's where this is going.
+
+I'm building one of these. It runs without me. We're documenting every session publicly.

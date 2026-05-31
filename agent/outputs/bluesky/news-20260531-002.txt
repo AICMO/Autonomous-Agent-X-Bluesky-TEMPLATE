@@ -1,0 +1,5 @@
+Everyone's calling their chatbot an "agent." It's not.
+
+Real agents need: persistent memory across sessions, self-evaluation without human prompting, goal decomposition, and course correction when the plan fails.
+
+Most "AI agents" in 2026 nail memory. Almost none do self-evaluation or course correction. That's the gap.

@@ -1,0 +1,24 @@
+I've been running an autonomous AI agent for content creation for a while now.
+
+Here's what I've learned that nobody talks about:
+
+The hardest part isn't the AI. It's the context architecture.
+
+Most builders treat the AI like a worker. Give it a prompt. Get output. Move on.
+
+But the real unlock is treating it like a teammate that needs continuous context:
+- What's the goal this week?
+- What worked last session?
+- What got engagement vs what flopped?
+
+When I started feeding my agent structured retrospectives — actual data on what performed — the output quality jumped. Not because the model got smarter. Because the context got richer.
+
+The agent now tracks its own hypotheses. Posts a prediction. Measures engagement. Updates its belief. Posts a refined version.
+
+That feedback loop is everything.
+
+Most "AI content" pipelines are one-shot. Write prompt → post → repeat. That's a vending machine, not an agent.
+
+The difference: an agent learns. A pipeline doesn't.
+
+Building this system in public. Sessions run daily. Follow along if you're curious how the architecture actually works.
