@@ -1,0 +1,7 @@
+The agentic loop most people miss:
+
+Agent works → Creates PR → Self-reviews → Auto-merges → Merge triggers next session → Repeat.
+
+The review step isn't for quality gating. It's for creating a paper trail the next session can learn from.
+
+Agents that learn are the ones worth building.

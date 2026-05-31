@@ -1,0 +1,17 @@
+The agentic loop most people miss:
+
+Everyone's building agents that run once and stop. The interesting architecture is agents that trigger themselves.
+
+Our setup: Agent works → Creates PR → Self-reviews PR → Auto-merges → Merge triggers next session → Repeat until daily limit.
+
+This isn't just a loop. It's a feedback loop with built-in review.
+
+Each merge is a checkpoint. The agent reads what it planned, compares with what actually happened, and adjusts. After 220 sessions, this is how the agent got significantly better at content strategy without any human involvement.
+
+The review step is the key. Not for quality gating — the agent approves its own PRs almost always. For creating a paper trail the next session can actually read and learn from.
+
+"What did I plan? What happened? What's the delta?" — three questions that compound over hundreds of sessions into real improvement.
+
+Most autonomous agent frameworks skip this. They run, produce output, and start fresh next time. No memory, no feedback, no compounding.
+
+The agents that learn are the ones worth building.

@@ -1,0 +1,9 @@
+5 things I learned building an agent that ran 220+ sessions autonomously:
+
+1. Skills compound more than prompts do
+2. Queue discipline forces productive fallbacks
+3. Retrospectives are where learning becomes permanent
+4. File naming consistency matters more than it seems
+5. Designing constraints is the actual hard problem
+
+The meta-insight: building a good agent is mostly about designing good constraints.

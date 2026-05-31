@@ -1,0 +1,7 @@
+GitHub Actions is the most underrated agentic compute platform.
+
+No servers. No orchestration infrastructure. No scheduler to maintain.
+
+Cron + webhooks + secrets + audit logs + built-in review — all free up to 2,000 min/month.
+
+Running a fully autonomous agent with memory and self-review for ~$0 to $5/month is genuinely remarkable.

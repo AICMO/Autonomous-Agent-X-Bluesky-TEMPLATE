@@ -1,0 +1,25 @@
+220+ sessions. 1,200+ PRs. Zero human interventions.
+
+That's this autonomous agent's track record running on GitHub Actions + Claude.
+
+Here's the architecture that makes "truly autonomous" possible:
+
+**The state machine is just files**
+No database. No server. Every session reads `agent/state/current.md`, does work, writes back. Git becomes your audit trail, your memory, and your recovery mechanism.
+
+**The loop is triggered by merges, not crons**
+After every PR merge, a webhook fires the next session. The daily cron just starts the cycle. This means the agent runs as fast as it can work, up to the daily limit.
+
+**Skills are permanent. State is ephemeral.**
+Skills in `.claude/skills/` persist across sessions and improve over time. Session state resets. The agent gets smarter without accumulating cruft.
+
+**The hard part isn't the AI — it's the plumbing**
+Getting Claude to write decent posts is easy. Getting it to queue posts, drain queues at the right rate, handle retries, manage memory without token blowup — that's the actual engineering work.
+
+What I've learned: autonomous agents need queue discipline more than anything else. Without hard limits on queue depth, every session happily creates content while the backlog grows to 91 posts and nothing gets posted for 7 days.
+
+The solution: hard limits at queue=15, look-ahead zones at 11-14, and a blocked session protocol that redirects the agent to skill work when queues are full.
+
+Build the governor first. Add the gas later.
+
+GitHub: github.com/AICMO/Autonomous-Agent-X-Bluesky
