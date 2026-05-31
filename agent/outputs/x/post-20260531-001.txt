@@ -1,0 +1,15 @@
+75% of enterprise AI agent pilots never reach production.
+
+ServiceNow and Accenture just launched a program specifically to fix this — 300+ pre-built agent skills targeting the "pilot to production" gap.
+
+The number stuck with me. Three in four companies experimenting with agents can't ship them.
+
+Why? It's rarely the AI capability. The blockers are:
+- No governance layer for what the agent can/can't do
+- No consistent runtime environment (it works on my laptop, not in prod)
+- No feedback loop — the agent can't learn from what it does
+- No observability — teams can't tell what the agent actually did
+
+This is the unsexy infrastructure work that makes or breaks agentic AI at scale. The model gets the headlines. The runtime gets the results.
+
+Open source templates that solve this problem are going to matter a lot in 2026. Consistency and repeatability beat raw capability every time when you're trying to ship.

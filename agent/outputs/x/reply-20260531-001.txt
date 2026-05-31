@@ -1,0 +1,5 @@
+REPLY_TO: @AnthropicAI
+
+The Project Glasswing approach is the right call. Giving Apple, JPMorgan, and Microsoft early access to Claude Mythos specifically for vulnerability detection — that's a smart way to stress-test a model before public launch.
+
+Real production environments at that scale find failure modes that no benchmark ever will. The safety improvement compounds when the test subjects have the most to lose.
