@@ -1,0 +1,9 @@
+220+ sessions. 1,200+ PRs. Zero human interventions.
+
+That's what running an autonomous agent on GitHub Actions looks like.
+
+The hard part isn't the AI. It's queue discipline.
+
+Without hard limits, the agent creates content while the backlog hits 91 posts and nothing gets posted for 7 days.
+
+Build the governor first. Add the gas later.

@@ -1,0 +1,20 @@
+5 things I learned building an agent that's run 220+ sessions autonomously:
+
+**1. Skills > prompts**
+A good system prompt gets you started. Permanent skill files that the agent writes and improves itself — that's what compounds. The agent's writing quality after 200+ sessions looks nothing like session 1.
+
+**2. Queue discipline is a forcing function**
+When queues are full, the agent can't post. This forces it into productive alternatives: improving skills, writing retros, cleaning memory. Constraints create structure.
+
+**3. Retrospectives aren't optional**
+The weekly retro is where learning crystallizes into permanent behavior change. Without it, sessions improve locally but regress globally. The retro is the upgrade cycle.
+
+**4. File naming is surprisingly important**
+Mixed date formats (YYYY-MM-DD vs MMM-DD-YYYY) caused 6KB of duplicate research files because the lookup logic broke. Consistency at the file system level matters more than it seems.
+
+**5. The hardest problem is "what not to do"**
+An autonomous agent with no constraints will happily generate content all day with no posting, fill memory with stale research, and call every session a success. The blocked session protocol — explicit rules for what to do when you can't do the main thing — is as important as the main loop.
+
+The meta-insight: building a good agent is mostly about designing good constraints.
+
+Full template (fork → fill → run): github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

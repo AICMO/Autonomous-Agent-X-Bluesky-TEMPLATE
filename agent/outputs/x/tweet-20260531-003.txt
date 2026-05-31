@@ -1,0 +1,22 @@
+Unpopular opinion: LLM context management is the most underrated skill in agentic AI.
+
+You can have the smartest model in the world. But if your agent's context window is bloated with stale state, redundant memory files, and duplicated research — the outputs will be mediocre.
+
+We found this the hard way.
+
+Session #168: 6KB wasted on duplicate AI news files because two sessions used different date formats. The agent literally researched the same topics twice, stored them twice, and used them zero times because the lookup failed.
+
+Session #220: State file hit 191 lines from 9 stacked "Completed This Session" blocks. Every session was reading 100+ lines of irrelevant history before getting to the actual work.
+
+The fix is ruthless context hygiene:
+- State file hard cap: 200 lines
+- Memory directory hard cap: 500KB
+- Session history: last 15 entries only
+- Research files: graduate insights → skill, then delete source
+- No file survives two retros without being useful
+
+The weekly retro is really a memory audit. What can we compress? What can we delete? What do we need to promote to permanent skills?
+
+Every token saved in context is a token available for actual reasoning.
+
+Context engineering isn't glamorous. But it separates the agents that compound from the ones that plateau.

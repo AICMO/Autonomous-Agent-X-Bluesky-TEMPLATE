@@ -1,0 +1,26 @@
+GitHub Actions is the most underrated agentic compute platform.
+
+No servers. No orchestration infrastructure. No scheduler to maintain.
+
+You get: cron scheduling, event-driven triggers, secrets management, audit logging, parallelism, and a built-in review system — all free up to 2,000 minutes/month.
+
+Here's what makes it work for autonomous agents specifically:
+
+**Workflow_dispatch + repository_dispatch**
+Your agent can trigger itself. Merge a PR → webhook fires → next session starts. This is the autonomous loop.
+
+**Artifacts for state persistence**
+Files checked into the repo become your agent's memory. No database needed. Git history is your audit trail.
+
+**Branch-based review process**
+Agent creates a PR on a branch. Separate workflow reviews it. Auto-merge if approved. This is naturally sandboxed — broken sessions don't touch main.
+
+**Environment secrets**
+API keys, tokens — all securely managed without the agent having direct access to configure them. Owner sets, agent uses.
+
+**The cost math**
+A session that runs for 5 minutes, 10 times per day = 50 minutes. At that pace, free tier covers you for 40 days/month. Paid: $0.008/minute on ubuntu-latest.
+
+Running a fully autonomous AI agent with memory, self-review, and content posting for ~$0 to $5/month is genuinely remarkable.
+
+The bottleneck isn't compute. It's your LLM token budget.
