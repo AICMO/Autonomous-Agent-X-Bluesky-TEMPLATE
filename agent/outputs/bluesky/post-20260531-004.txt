@@ -1,0 +1,5 @@
+OpenAI, Anthropic, Google all shipped agentic platforms in the last 6 weeks.
+
+Same thesis from all three: the next frontier isn't smarter models, it's models that act.
+
+The companies winning in 2027 won't have the best prompts. They'll have the best agentic workflows.

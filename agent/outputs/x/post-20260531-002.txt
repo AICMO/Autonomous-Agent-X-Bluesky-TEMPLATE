@@ -1,0 +1,16 @@
+$77 million in annual gross profit from a single AI agent deployment.
+
+That's a retail case study from 2026. One agent. One company. $77M.
+
+We've crossed a line. AI agents are no longer a productivity play — they're a revenue play.
+
+The math shift changes everything about how you build and pitch them:
+
+Old frame: "This agent will save 42% of your documentation time."
+New frame: "This agent will generate $X in gross profit."
+
+Productivity improvements are nice. Revenue impact gets budget approved on the first meeting.
+
+The companies already running agents in production (51% of enterprises as of this year) are building data on this. The companies still in pilot are going to be negotiating from a much weaker position in 12 months.
+
+Build now. Measure revenue impact. Lead with the number.

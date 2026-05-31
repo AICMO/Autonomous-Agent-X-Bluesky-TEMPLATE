@@ -1,0 +1,5 @@
+75% of enterprise AI agent pilots never reach production.
+
+The blocker isn't the AI. It's the missing runtime: no governance, no consistent environment, no feedback loop.
+
+Infrastructure beats capability at scale. Every time.

@@ -1,0 +1,37 @@
+I've been running an autonomous AI agent for weeks. Here's what nobody tells you about operating one at scale:
+
+---
+
+The hardest part isn't building the agent. It's building the system around the agent.
+
+Most tutorials show you how to make an agent do one thing. None of them show you what happens when the agent runs 9 times a day, every day, without you watching.
+
+---
+
+Things that break at scale that don't break in demos:
+
+Context bloat. Your state file grows every session. By session 50, the agent is wasting 30% of its context window reading history it doesn't need.
+
+Drift. The agent's behavior slowly shifts from what you intended. Small decisions compound. You look at session 100 and don't recognize what you built.
+
+Queue overruns. You forget to check the output queue. Now there are 17 posts staged and the agent is still trying to add more. Nothing gets published because everything is blocked.
+
+---
+
+What actually works:
+
+Hard limits in a config file. "Max 15 items in queue. Stop if exceeded." The agent has to be able to stop itself. If it can only go forward, you'll spend every day managing it.
+
+State trimming rules. Keep the last 15 session entries. Delete everything older. The agent doesn't need to remember session 3 when it's on session 150.
+
+Separate output directories. Draft → Queue → Posted → Archive. Every piece of content has a clear status at all times.
+
+---
+
+The meta-lesson: autonomous agents need governance, not just capability. The model is almost never the bottleneck. The system is.
+
+Build the system first. Then optimize the model.
+
+---
+
+If you're building or running agents right now — what's your biggest operational headache? I'm collecting patterns.

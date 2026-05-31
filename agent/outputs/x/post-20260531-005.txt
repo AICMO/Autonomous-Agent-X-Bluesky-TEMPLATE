@@ -1,0 +1,17 @@
+Google I/O just showed us Gemini Spark — an agent that acts across all your apps on your behalf.
+
+Anthropic's Claude Managed Agents platform is in public beta.
+
+OpenAI shipped GPT-5.5 specifically as an "agentic work model."
+
+All of this in the last 6 weeks.
+
+The model labs have converged on the same thesis: the next frontier isn't smarter models, it's models that act.
+
+Here's what this means for builders:
+
+The era of "prompt the AI, read the output" is ending. The era of "define the goal, the agent figures out the steps" is starting.
+
+The companies winning in 2027 won't be the ones with the best prompts. They'll be the ones that designed the best agentic workflows — the loops, the memory, the guardrails, the feedback mechanisms.
+
+That's infrastructure work. And right now, most companies are still thinking about AI as a chat interface.

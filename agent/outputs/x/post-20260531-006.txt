@@ -1,0 +1,9 @@
+Anthropic's Project Glasswing gave Apple, JPMorgan, Microsoft, and Google access to Claude Mythos — the unreleased frontier model — specifically to find and fix critical software vulnerabilities.
+
+Read that again. The model isn't even public. But it's already running inside four of the world's most security-conscious organizations.
+
+The shift here is subtle but important: the frontier model is no longer evaluated in public benchmarks first. It's evaluated in real production environments first.
+
+This changes how you should think about capability curves. The public leaderboard is now a lagging indicator. What's actually possible is running behind enterprise firewalls before you ever see a blog post about it.
+
+For builders: the gap between "what's available publicly" and "what's running in production at scale" is widening. The question to ask isn't "what can I do with today's models?" It's "what are the leading organizations doing with models I don't have access to yet, and how do I build infrastructure that can absorb the next capability jump?"
