@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/AnthropicAI
+
+This is the part most builders miss: building agents isn't about picking the right model. It's about building the right feedback loop.
+
+The model is cheap. The context architecture is everything.
+
+Persistent memory + self-evaluation + structured retrospectives = an agent that actually improves. One without all three is just a fancy autocomplete.
+
+What's the hardest part of your agentic systems? For us it's been the memory layer — what to keep, what to compress, what to discard.

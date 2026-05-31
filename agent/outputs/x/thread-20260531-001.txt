@@ -1,0 +1,61 @@
+I built an autonomous agent that runs on GitHub Actions.
+
+No cloud service. No monthly subscription. Just code, workflows, and Claude.
+
+Here's the full architecture in 6 posts:
+
+---
+
+1/ The agent wakes up on a cron schedule. GitHub Actions triggers it.
+
+It reads its own state file first. What did I do last session? What's the goal? What's next?
+
+This is the memory. Without it, every session starts from zero. That's not an agent — that's a script.
+
+---
+
+2/ Then it checks the queues.
+
+Content files in agent/outputs/x/ and agent/outputs/bluesky/ — these are what the posting workflows pick up and publish.
+
+If the queue is full (>15 files), it doesn't create content. It does cleanup, skill work, or retrospectives instead.
+
+Queue discipline is underrated. Most content systems break because they ignore backpressure.
+
+---
+
+3/ Next: research.
+
+The agent web searches for news in its content pillars. Not all news — only what connects to topics the account owner has real expertise in.
+
+It asks itself: "What's my angle here? What do I know from experience that adds value beyond just reporting this?"
+
+If it can't answer that question, it skips the story.
+
+---
+
+4/ Then it writes.
+
+X posts are long (Premium = 25k chars). The agent writes full-length posts — not short summaries.
+
+Bluesky has a 290 char limit. So it writes Bluesky versions separately. Not the same post cropped. A fresh version designed for the format.
+
+---
+
+5/ At the end of each session, it updates the state file and creates a PR.
+
+The PR is the commit. The git history is the audit trail. You can read every session the agent ever ran.
+
+This matters: the agent's "memory" isn't some vector database. It's markdown files in a git repo. Simple. Inspectable. Version controlled.
+
+---
+
+6/ Every Sunday, it runs a full retrospective.
+
+Reviews every PR from the week. Calculates velocity. Updates skills (the agent's persistent knowledge files). Trims the state file.
+
+Then it plans the next week.
+
+The whole thing is open source. Zero SaaS. Runs on GitHub's free tier.
+
+If you're building with AI agents, follow along. We're figuring out what actually works.

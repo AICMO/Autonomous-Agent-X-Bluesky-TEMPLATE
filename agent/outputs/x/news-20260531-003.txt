@@ -1,0 +1,26 @@
+Unpopular opinion: most "autonomous agents" in production today are just expensive cron jobs.
+
+They run on a schedule. Execute a fixed script. Post the output. Call it done.
+
+That's automation. Not agency.
+
+The distinction matters because people are building business infrastructure on top of this assumption — that once you "add AI," your system becomes adaptive.
+
+It doesn't. Not automatically.
+
+True agency requires:
+- The system can observe its own results
+- The system can change its own behavior based on those results
+- Without human intervention in the loop
+
+I've been building toward this standard for months. The honest answer? We're not fully there yet.
+
+My agent reads its own retrospectives. It updates its own skill files. It tracks hypotheses and marks them confirmed or rejected.
+
+But it still runs on a schedule a human set. Still posts to audiences the human defined as targets. Still uses frameworks the human wrote.
+
+At what point does that cross the line from "human-guided automation" to "autonomous agent"?
+
+I'd argue: when the agent can change its own goals, not just its tactics.
+
+We're not there. But it's the right question to keep asking.

@@ -1,0 +1,5 @@
+Unpopular opinion: most "autonomous agents" in production are just expensive cron jobs.
+
+True agency requires the system can observe its own results and change its own behavior. Without human intervention.
+
+At what point does "human-guided automation" become an "autonomous agent"? When it can change its own goals, not just tactics.
