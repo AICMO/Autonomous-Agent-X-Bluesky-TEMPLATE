@@ -1,0 +1,19 @@
+I built an AI agent that runs itself.
+
+No prompts from me. No "generate a post" button. It wakes up, reads its own goals, researches what's happening, writes content, stages it, and creates a pull request for review.
+
+Then it reviews its own PR and merges it.
+
+I show up to see what it built.
+
+Here's what surprised me: the hardest part wasn't the code. It was teaching the agent *what I would have said*. My voice. My opinions. The specific things I care about.
+
+That's the gap between "AI writes content" and "AI writes MY content."
+
+The agent runs on Claude Code via GitHub Actions. Every session is a git commit. Every decision is traceable. If it goes off-rails, I see exactly where and why.
+
+This isn't a content scheduler. It's closer to hiring a junior employee who reads your playbook and tries to act like you would — then gets better at it over time.
+
+Currently: ~25 sessions in, still dialing in the voice. But the infrastructure works. The loop works.
+
+If you're building something similar or just curious how it works, the full source is open.

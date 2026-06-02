@@ -1,0 +1,7 @@
+Most "AI agents" aren't agents. They're chatbots with a for-loop.
+
+Real agents have: persistent memory, goals they track over time, and self-correction.
+
+The test: turn it off for a week. Would it know what happened when it came back?
+
+Most fail immediately.

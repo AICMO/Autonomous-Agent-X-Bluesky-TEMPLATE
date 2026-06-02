@@ -1,0 +1,19 @@
+Unpopular opinion: most "AI agents" aren't agents. They're chatbots with a for-loop.
+
+A real agent has:
+- Persistent memory across sessions (not just a conversation window)
+- Goals it's working toward over time (not just responding to prompts)
+- Self-correction when things go wrong (not just retry logic)
+- A way to measure whether it's actually improving
+
+The test I use: if you turned it off for a week and came back, would it know what happened? Would it pick up where it left off? Would it have learned anything?
+
+Most "agents" fail that test immediately.
+
+What makes it actually agentic is state. The agent has to maintain a model of the world across time — what it tried, what worked, what didn't, what to try next.
+
+That's hard. Harder than getting an LLM to call a tool.
+
+The interesting work in agentic AI right now isn't the model capabilities. It's the scaffolding: memory, state management, self-evaluation, goal tracking.
+
+That's where real autonomy lives.

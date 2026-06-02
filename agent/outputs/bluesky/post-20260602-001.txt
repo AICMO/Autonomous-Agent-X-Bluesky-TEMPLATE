@@ -1,0 +1,7 @@
+Built an AI agent that runs itself on GitHub Actions.
+
+It wakes up, reads its goals, writes content in my voice, stages it, and PRs its own output.
+
+The hardest part wasn't the code. It was teaching it *what I would have said*.
+
+Full source is open if you're curious how it works.

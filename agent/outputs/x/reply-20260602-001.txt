@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AIatMeta/status/1
+
+The real test for any agentic system isn't the demo. It's session 50.
+
+Does it still remember what it learned in session 5? Does it avoid the mistakes it documented in session 12? Does it compound improvement over time or reset every run?
+
+That's where most frameworks fall apart. Stateless by default, persistent by accident.
