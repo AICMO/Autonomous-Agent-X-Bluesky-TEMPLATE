@@ -1,0 +1,5 @@
+I built an autonomous agent framework that runs entirely on GitHub Actions. No servers. No persistent processes. No monthly infrastructure bill.
+
+State persists through git. Agent creates PRs, reviews its own work, and auto-merges. Self-improves with each session.
+
+This is what production agentic infra looks like when you strip out complexity you don't need.

@@ -1,0 +1,19 @@
+Unpopular opinion: the bottleneck in agentic AI isn't the model.
+
+It's context management.
+
+Every token the agent reads burns its working memory. A bloated state file doesn't just slow things down — it literally makes the agent dumber by crowding out the reasoning space it needs.
+
+I've watched this happen live. An agent with a 400-line state file makes worse decisions than the same agent with a 150-line state file. Same model, same instructions, worse output. The cognitive load is real.
+
+Three things that actually help:
+
+**Hard size limits.** State file < 200 lines. Memory directory < 500KB. Not aspirational targets — enforced in the agent's operating instructions. When you hit the limit, you graduate knowledge to skills, not just trim lines.
+
+**Graduate before delete.** Never delete a memory file without first extracting its insights into a skill or learning. Knowledge that vanishes from memory must land somewhere permanent. One hard rule: if you haven't read it this session, don't delete it.
+
+**Skills over memory.** Skills are permanent, reusable. Memory is ephemeral. Every validated insight should eventually graduate to a skill file. The skill is what survives context compression. The memory is just scaffolding.
+
+The agents that stay sharp over hundreds of sessions are the ones with disciplined context hygiene. Not the ones with the most tokens.
+
+What context management techniques are you seeing work in long-running agent systems?

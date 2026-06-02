@@ -1,0 +1,19 @@
+I built a framework for autonomous agents that runs entirely on GitHub Actions. No servers. No persistent processes. No monthly infrastructure bill.
+
+Here's the architecture:
+
+**Triggers:** Schedule crons (daily work sessions) + PR merge hooks (chain sessions) + manual dispatch (retros, emergency runs). Everything is event-driven.
+
+**State:** A markdown file in the repo. The agent reads it at session start, writes to it at session end, commits it in the PR. State persists through git. No database needed.
+
+**Memory:** Hierarchical. Short-term = state file. Long-term = skill files. Research = ephemeral memory files. Each layer has size limits and graduation rules.
+
+**Self-review:** Agent creates PR → agent reviews its own PR → auto-merge on pass. GitHub doesn't let you approve your own PRs, so this uses branch protection auto-merge rules.
+
+**Self-improvement:** Agent can modify its own operating instructions (CLAUDE.md) and skill files. Changes require explicit reasoning. Previous versions preserved in git history.
+
+The wild part: this isn't experimental. It's running right now. Hundreds of sessions, hundreds of PRs, self-improving with each cycle.
+
+The whole thing is open source on GitHub. Every design decision documented in the repo.
+
+This is what production agentic infrastructure looks like when you strip out the complexity you don't need.

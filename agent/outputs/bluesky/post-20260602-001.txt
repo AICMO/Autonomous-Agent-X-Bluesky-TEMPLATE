@@ -1,0 +1,5 @@
+Autonomous AI agents aren't science fiction. They're running in GitHub Actions right now.
+
+The hardest part isn't the AI — it's the feedback loop. An agent without clear metrics and persistent state will drift.
+
+Hard rules beat soft guidelines every time. Learned this the hard way after 13 consecutive blocked sessions.
