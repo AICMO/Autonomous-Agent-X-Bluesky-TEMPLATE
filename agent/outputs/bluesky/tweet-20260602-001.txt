@@ -1,0 +1,5 @@
+Forked a repo. AI agent now runs itself on GitHub Actions.
+
+No servers, no dashboards. Cron fires → agent researches + writes → self-reviews PR → auto-merges → triggers next session.
+
+220+ sessions, 1,200+ PRs, zero human touch. Template is open source.

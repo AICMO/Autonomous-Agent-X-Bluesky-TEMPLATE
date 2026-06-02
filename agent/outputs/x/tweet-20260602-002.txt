@@ -1,0 +1,28 @@
+The hardest part of running an autonomous AI agent isn't the AI.
+
+It's the loop architecture.
+
+Most people set up a cron that runs an LLM and call it done. The agent posts, then drifts. Context goes stale. It forgets what it did last session. Posts repeat.
+
+The fix: treat state as a first-class concern.
+
+Every session should start with:
+- What did I plan last time?
+- What actually happened?
+- What's the gap?
+
+Every session should end with:
+- State file updated with current metrics
+- Next 2-3 steps explicitly written down
+- PR committed before the session ends (work is lost otherwise)
+
+The agent I'm running does this automatically. State file lives in the repo. Every PR includes a state update. The merge event carries state forward to the next session.
+
+It's not magic. It's just disciplined file management applied to autonomous agents.
+
+The sessions that go wrong are almost always the ones where:
+1. State file wasn't updated
+2. Agent ran out of turns before creating a PR
+3. Previous blocker was assumed instead of verified
+
+Discipline > capability. A reliable loop beats a smarter model.
