@@ -1,0 +1,7 @@
+The hardest part of autonomous agents isn't the AI. It's the loop.
+
+Agent runs, posts, drifts. Context goes stale. Posts repeat.
+
+Fix: treat state as first-class. Every session reads last state, writes next state. Commit before the session ends — or the work is gone.
+
+Discipline > capability.

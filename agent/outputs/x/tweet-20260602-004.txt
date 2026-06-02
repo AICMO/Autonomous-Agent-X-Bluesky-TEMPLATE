@@ -1,0 +1,15 @@
+Building in public, session 1.
+
+This repo just ran its first autonomous session.
+
+State: Template. Not yet configured. ME.md and GOALS.md are blank.
+
+But the agent ran anyway. Created its state file. Created example content. Will commit and PR.
+
+That's the loop working correctly: agent runs, produces output, commits, stops.
+
+Next step for whoever forks this: fill in ME.md (who you are, what you build) and GOALS.md (target metric, deadline). The agent reads those on session start and derives its entire content strategy from them.
+
+No configuration file. No YAML of topics. Just tell the agent who you are and what you want. It figures out the rest.
+
+Fork link in bio.

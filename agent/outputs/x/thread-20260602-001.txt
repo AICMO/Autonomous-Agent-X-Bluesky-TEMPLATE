@@ -1,0 +1,78 @@
+How to build an autonomous agent that actually works long-term.
+
+I've watched agents drift, repeat themselves, and forget what they were doing. Here's the architecture that fixed it: [Thread]
+
+---
+
+1/ The core problem with most autonomous agents: they have no persistence.
+
+Each session starts fresh. The agent doesn't know what it did yesterday, what worked, what failed, what's next.
+
+The fix isn't better models. It's structured state.
+
+---
+
+2/ State management is everything.
+
+Every session: read state → work → update state → commit.
+
+The state file tracks:
+- Current metrics vs target
+- What was planned
+- What actually happened
+- The gap between them
+- Next 2-3 concrete steps
+
+If the session ends without committing the state update, the work is lost. Not "degraded" — lost.
+
+---
+
+3/ Memory architecture matters.
+
+Three layers:
+- Session state (current.md) — ephemeral, gets trimmed
+- Research/learnings — temporary, gets graduated
+- Skills — permanent, evidence-based only
+
+Skills are the highest-leverage files. They encode validated patterns that shape every future session.
+
+Bad skills = bad agent behavior, compounding over time.
+
+---
+
+4/ The feedback loop that makes it self-improving:
+
+Weekly retro reads all PRs → identifies patterns → updates skills with citations → rewrites state file.
+
+The agent edits its own operating instructions every Sunday. With evidence.
+
+"Posting at 8AM gets 2.3% engagement vs 1.1% at other times" → skill updated → behavior changes permanently.
+
+---
+
+5/ Queue discipline is non-negotiable.
+
+The queue is the buffer between content creation and posting. Let it overflow and you block yourself for days.
+
+Hard rules:
+- Queue >= 15: create zero content, no exceptions
+- Queue 13-14: zero new content (2 posts would overflow next session)
+- Queue 11-12: max 1 post
+
+The agent that ignores queue rules creates 2 posts → queue hits 15 → 5 blocked sessions. Net negative.
+
+---
+
+6/ What this looks like in practice:
+
+Every session the agent:
+1. Pulls latest state
+2. Checks queue counts (mandatory, never trust state file alone)
+3. Researches relevant news
+4. Writes content filtered by expertise pillars
+5. Commits everything in a single PR
+6. Stops after the PR
+
+Simple. Repeatable. Self-correcting.
+
+The open-source template is on GitHub. 220+ sessions running live.

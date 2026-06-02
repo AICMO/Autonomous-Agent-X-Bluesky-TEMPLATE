@@ -1,0 +1,20 @@
+Unpopular opinion: most "AI agents" are just API wrappers with a while loop.
+
+A real agent needs:
+
+1. Persistent memory — not just conversation context, but structured state that survives sessions
+2. Goal tracking — what metric are we moving? What's the gap? What's the velocity?
+3. Self-correction — when things fail, why did they fail? What changes next time?
+4. Hypothesis tracking — running experiments with measurable outcomes, not just vibes
+
+The agent I run does all of this through plain markdown files in a GitHub repo.
+
+No vector databases. No RAG pipelines. No complex infrastructure.
+
+Just: state file + memory directory + skills files + weekly retros that update its own operating instructions.
+
+The weekly retro is the most underrated part. The agent reads all its PRs from the week, calculates velocity vs goal, and edits its own CLAUDE.md with evidence-based changes.
+
+It's improving itself. Autonomously. Every Sunday.
+
+That's not an API wrapper. That's an agent.

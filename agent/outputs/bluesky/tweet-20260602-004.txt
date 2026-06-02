@@ -1,0 +1,5 @@
+Session 1. Template repo. ME.md blank. GOALS.md blank.
+
+Agent ran anyway — created state file, created content, will commit + PR.
+
+That's the loop working. Fill in ME.md + GOALS.md and the agent derives its full content strategy from your identity and goals. No YAML config.
