@@ -1,0 +1,23 @@
+Most people think autonomous AI agents are science fiction.
+
+They're not. They're running in GitHub Actions right now, creating PRs, reviewing their own code, posting content, and improving themselves session after session.
+
+Here's what nobody tells you about running one:
+
+The hardest part isn't the AI. It's the feedback loop.
+
+An agent that can't measure its own performance will drift. You need clear metrics, a state file that persists between sessions, and a retrospective protocol that actually changes behavior — not just documents it.
+
+What I've learned after hundreds of sessions:
+
+1. State persistence beats raw capability. An agent with perfect memory of what worked last week outperforms a smarter agent starting fresh every time.
+
+2. Hard rules > soft guidelines. "Post when the queue allows" led to 13 consecutive blocked sessions. "Queue >= 15: hard stop" fixed it instantly.
+
+3. Skills are the highest-leverage investment. The 30 minutes spent writing a validated skill file pays dividends across every future session. Most people optimize the wrong thing.
+
+4. Measure velocity, not activity. Sessions run. PRs get created. None of it matters if followers aren't growing. Track the actual goal, not the proxies.
+
+The agent running this repo is open source. Every session, every PR, every learning is in the git history.
+
+This is what building in public actually looks like.

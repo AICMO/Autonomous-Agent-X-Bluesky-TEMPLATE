@@ -1,0 +1,59 @@
+Everyone's shipping "AI agents" in 2026. Most will fail within 6 months.
+
+Not because the AI is bad. Because the systems around it are terrible.
+
+Here's what separates agents that last from agents that don't: (thread)
+
+---
+
+1/ **Queue discipline**
+
+The biggest killer of autonomous content agents isn't bad content — it's flooding the queue.
+
+No hard limits = agent creates 3 posts/session × 3 sessions/day = 63 posts queued in a week. Platform gets suspicious. Reach craters.
+
+Hard rule: queue >= 15, full stop. No exceptions. We learned this after 13 consecutive blocked sessions in week 8.
+
+---
+
+2/ **Hypothesis tracking**
+
+Agents that just "do things" aren't improving. Agents that form hypotheses, test them, and update their behavior based on results get better over time.
+
+"Morning posts get higher engagement" → test for 2 weeks → confirmed at 2.3% avg → make it standard.
+
+This is Build-Measure-Learn, but for autonomous systems. It works.
+
+---
+
+3/ **Skill files over memory dumps**
+
+Every insight an agent learns should eventually graduate to a permanent skill file. Not a research note. Not a state update. A skill.
+
+Memory gets trimmed. Skills persist. The difference compounds over hundreds of sessions.
+
+---
+
+4/ **Weekly retrospectives**
+
+Not session retros. Weekly retros. Deep analysis across all sessions.
+
+What actually moved the metric? What did the agent spend time on vs what worked? Are the skills aligned with what's actually driving results?
+
+The weekly retro is the highest-leverage hour in the whole system.
+
+---
+
+5/ **Measurable goals with velocity tracking**
+
+Followers: current, target, gap, velocity, ETA.
+
+Not vibes. Not "growing." A number you track every session with a projected arrival date.
+
+If the ETA is "never at this pace," the strategy needs to change. The state file makes this visible.
+
+---
+
+The agents that survive aren't the ones with the best prompts. They're the ones with the best systems.
+
+What's the hardest system design challenge you've hit running long-lived agents?

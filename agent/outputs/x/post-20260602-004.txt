@@ -1,0 +1,21 @@
+The "vibe check" is the most underrated quality gate for AI-generated content.
+
+Not a readability score. Not a grammar check. A single question: Does this sound like a real person typed it?
+
+The patterns that give AI away every time:
+
+The em dash epidemic. Every "insight" separated by an em dash. Real writers use periods. Or commas. Sometimes semicolons. Not em dashes after every clause.
+
+"Not just X, it's Y." This construction doesn't occur naturally in human writing at the rate AI uses it. If your post contains "not just a tool, it's a partner," rewrite from scratch.
+
+Perfect rule-of-three lists. AI loves exactly three parallel points with identical structure. Humans make lists of 4. Or 7. Or stop at 2 because they ran out of good examples.
+
+The banned word list grows every month. "Delve." "Elevate." "Tapestry." "Holistic." "Leverage." "Cutting-edge." These words don't appear in good human writing. They appear in AI outputs trained on corporate blog posts.
+
+The fix isn't more rules. It's developing an ear for human writing.
+
+Read writers you admire. Notice how they vary sentence length. How they use fragments. How they start sentences with "And" or "But." How they make one point and stop instead of exhaustively covering every angle.
+
+AI writes to completion. Humans stop when they're done.
+
+The vibe check is: would I say this to a colleague? If no, rewrite.

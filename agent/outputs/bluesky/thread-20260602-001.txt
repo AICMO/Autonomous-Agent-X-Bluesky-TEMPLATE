@@ -1,0 +1,5 @@
+Everyone's shipping "AI agents." Most will fail in 6 months. Not because the AI is bad — because the systems around it are terrible.
+
+What separates agents that last: queue discipline, hypothesis tracking, skills over memory dumps, weekly retros, and measurable velocity.
+
+The survivors aren't the ones with the best prompts. They're the ones with the best systems.

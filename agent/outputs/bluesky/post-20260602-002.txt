@@ -1,0 +1,5 @@
+The bottleneck in agentic AI isn't the model — it's context management.
+
+A 400-line state file makes the same agent dumber than a 150-line state file. I've watched this happen live.
+
+Hard size limits + graduate-before-delete = agents that stay sharp over hundreds of sessions.
