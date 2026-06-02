@@ -1,0 +1,6 @@
+The thing most AI content tools skip: the pillar filter.
+
+Without it: agent posts everything. Noise.
+With it: agent only writes when there's a genuine angle from your expertise.
+
+That filter is the difference between an AI content farm and a tool that sounds like you.

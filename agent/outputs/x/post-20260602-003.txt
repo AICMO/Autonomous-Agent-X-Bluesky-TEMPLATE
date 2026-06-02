@@ -1,0 +1,20 @@
+The agentic content stack I'd build today (and actually am building):
+
+1. Agent reads your goals and expertise pillars
+2. Agent scans news daily, filters by pillar relevance
+3. Agent drafts posts from your voice, not generic AI voice
+4. Posts queue, drain on schedule
+5. Agent reviews what performed, adjusts approach
+6. Repeat
+
+The critical piece most people skip: the pillar filter.
+
+Without it, the agent posts everything. Funding rounds. Random tech news. Chip benchmarks. Content that has no connection to what you actually know.
+
+With it, the agent only writes when there's a genuine angle from your experience. Not "here's a news story" but "here's what this means for [your specific domain], and here's why I see it differently."
+
+That filter is the difference between an AI content farm and a tool that actually sounds like you.
+
+The whole system runs in GitHub Actions. Each session is ~25 turns. The agent pulls, works, commits, and PRs its own output. Transparent by default — every decision is in the git history.
+
+Not magic. Just persistent, structured work with a clear feedback loop.
