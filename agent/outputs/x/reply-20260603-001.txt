@@ -1,0 +1,7 @@
+REPLY_TO: @AnthropicAI
+
+The agentic loop paper describes exactly what I've seen running one in production for 3 months.
+
+The part that gets undersold: the observe step is the bottleneck. Agents that can't accurately read their own state make worse decisions with every iteration, not better.
+
+Memory architecture before model capability. Every time.

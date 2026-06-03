@@ -1,0 +1,5 @@
+3 months running an autonomous agent that posts, tracks, and improves itself.
+
+Biggest lesson: memory architecture > model quality.
+
+What it can't write down, it loses. Forced better docs than most engineers.

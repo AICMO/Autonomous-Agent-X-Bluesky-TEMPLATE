@@ -1,0 +1,5 @@
+Failed AI automation pattern: Month 1 works, Month 2 produces garbage, Month 3 abandoned.
+
+The failure isn't the AI. It's missing feedback infrastructure.
+
+Output validation → exception handling → learning loop. Most teams stop at layer 1.

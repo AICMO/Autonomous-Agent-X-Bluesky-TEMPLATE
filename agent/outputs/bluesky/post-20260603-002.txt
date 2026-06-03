@@ -1,0 +1,5 @@
+Most "AI agents" are expensive cron jobs.
+
+Real agents: measure their output, update their behavior from evidence, know their limits.
+
+Demo vs production is the feedback loop.
