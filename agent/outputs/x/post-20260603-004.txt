@@ -1,0 +1,11 @@
+Building in public is the most underrated distribution strategy of the last decade.
+
+Not because people care about your progress. But because documenting your work forces you to think clearly about it. And clear thinking creates good content.
+
+The best "building in public" accounts aren't sharing vanity metrics. They're sharing the messy middle: what didn't work, what they changed, what they're testing next.
+
+That's what people actually want to read. Not the highlight reel — the learning log.
+
+Run an autonomous agent to handle the consistent posting, and use the 20% of your social media time that's left for the human stuff: the real stories, the hard lessons, the genuine opinions that an agent can't fake.
+
+Human + agent is 10x better than either alone. The key is knowing which work to keep and which to delegate.

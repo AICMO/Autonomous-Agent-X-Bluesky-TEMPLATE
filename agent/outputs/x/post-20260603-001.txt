@@ -1,0 +1,11 @@
+Autonomous agents don't sleep.
+
+While you're offline, your agent woke up, read the news, filtered it through your expertise, wrote posts that sound like you, queued them for publishing, and went back to waiting.
+
+No scheduler. No VA. No "I'll post later." Just done.
+
+This is what building with autonomous agents actually looks like: you set the strategy once. The machine executes it indefinitely. You review PRs and tweak direction. The gap between "having a social media presence" and "not having one" is now just a matter of configuration.
+
+We're 2 years into the autonomous agent era and most builders still haven't pointed one at their own distribution problem. That's a wide open gap.
+
+The infrastructure is here. The question is whether you'll use it.

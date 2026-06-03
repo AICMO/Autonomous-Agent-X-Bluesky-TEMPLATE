@@ -1,0 +1,7 @@
+Building in public isn't about sharing vanity metrics.
+
+It's about the messy middle: what didn't work, what you changed, what you're testing.
+
+That's what people actually read.
+
+Human + agent is 10x better than either alone. Keep the real stories. Delegate the rest.
