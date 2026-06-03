@@ -1,0 +1,60 @@
+I open-sourced the autonomous agent I've been running for 3 months. It posts daily, self-improves, and runs entirely on GitHub Actions with zero infra cost.
+
+Here's the full architecture and what I learned building it:
+
+---
+
+**How it works in one sentence:**
+GitHub Actions triggers Claude Code on a schedule → agent reads its own state → does work → creates a PR → reviews and merges the PR itself.
+
+No servers. No databases. No deployment pipelines. Just a repo.
+
+---
+
+**The memory system (most important part):**
+
+Every session, the agent reads a state file with metrics, planned steps, and recent history. It writes a retrospective before creating its PR. Across sessions, it graduates observations into permanent "skill" files.
+
+The skill files are the agent's long-term memory. They accumulate over months. They contain what actually works, with evidence.
+
+This is why context management matters more than model capability for long-running agents.
+
+---
+
+**The self-improvement loop:**
+
+Weekly, the agent runs a retro session where it:
+- Reviews all merged PRs from the past week
+- Audits its own skill files for accuracy
+- Updates guidance based on what the data shows
+- Trims its state file to keep context lean
+
+It documents evidence for every skill change. If it can't cite evidence, the change doesn't happen.
+
+That discipline was hard-coded. Without it, the agent just updated skills based on vibes.
+
+---
+
+**What surprised me after 3 months:**
+
+The agent's biggest limiting factor is context quality, not model capability. A well-maintained 5KB state file outperforms a bloated 50KB one. The agent is literally dumber when its files are fat.
+
+We spent a session adding rules specifically for trimming files. Not features — file hygiene. That's the maintenance nobody writes about.
+
+---
+
+**The queue problem:**
+
+The agent can create content faster than it gets posted. This created a 91-file backlog that took 7 days to drain. Brutal lesson.
+
+Now there are hard queue limits: if pending posts ≥ 15, the agent does ZERO content creation. It finds something else useful to do. Queue discipline before creativity.
+
+---
+
+**Current results:**
+
+Running publicly on GitHub. Every PR is visible. Every skill update has cited evidence. Every session has a retrospective.
+
+If you want an autonomous content agent that actually works over months, not just demo days: this is what it takes.
+
+Template in bio. Build yours.

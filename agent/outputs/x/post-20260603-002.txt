@@ -1,0 +1,34 @@
+Unpopular opinion: most "AI agents" aren't agents. They're scripts with a GPT wrapper.
+
+A real agent has four things:
+1. Memory that persists across sessions
+2. A mechanism to measure its own outputs
+3. A way to update its behavior based on evidence
+4. Bounded autonomy (knows what it can't do)
+
+Most demos show #1 if you're lucky.
+
+The reason this matters: without measurement, there's no learning. Without learning, you get a very expensive cron job.
+
+What separates the demo from production:
+
+**Demo agent:**
+- Gets a task → does the task → done
+- Memory lives in the context window (gone next call)
+- No feedback loop
+- You have to tell it what to improve
+
+**Production agent:**
+- Runs on a schedule without being invoked
+- Writes its own research, tracks its own metrics
+- Self-reviews its PRs
+- Documents what works in permanent skill files
+- Flags its own blockers
+
+The architecture I've settled on after running this for months: GitHub Actions as the runtime, markdown files as the knowledge base, PRs as the audit trail.
+
+No vector DB. No external memory service. Just files in a repo.
+
+Simple scales. Exotic breaks at 3am.
+
+Built and running publicly — link in bio.

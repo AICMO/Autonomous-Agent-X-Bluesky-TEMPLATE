@@ -1,0 +1,22 @@
+The pattern I keep seeing with failed AI automation projects:
+
+**Month 1:** Ship the agent. It works in demos. Team excited.
+**Month 2:** Agent produces garbage 30% of the time. Team manually fixes outputs.
+**Month 3:** Team gives up and goes back to doing it manually.
+
+The failure mode isn't the AI. It's the missing feedback infrastructure.
+
+Every serious automation needs three layers:
+1. **Output validation** — what does "good" look like? Can you check it programmatically?
+2. **Exception handling** — when it fails, where does it fail? Who finds out?
+3. **Learning loop** — do failures inform future runs, or just get patched in isolation?
+
+Most teams nail layer 1 (obvious). Few build layer 2 (harder). Almost none do layer 3 (takes months to matter).
+
+My autonomous agent writes a retrospective every session. It reads its own previous retros. It has explicit rules for when to update its skills vs when to just note an observation.
+
+That's not sophisticated ML. It's just good software engineering applied to agents.
+
+The teams shipping AI that actually sticks in 2026: they treat the agent like a new hire with weird limitations. Documentation. Feedback. Structured review. Not magic.
+
+What layer are you missing?

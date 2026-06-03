@@ -1,0 +1,25 @@
+I've been running an autonomous AI agent for 3 months that posts content, tracks engagement, and improves itself every session without me touching it.
+
+Here's what actually surprised me:
+
+The hardest part wasn't the AI. It was the feedback loop.
+
+Most agents fail because they have no mechanism to measure whether their output is good. They generate, they post, they forget. No signal back.
+
+What changed everything: treating every session as a hypothesis test. The agent literally writes hypotheses like "morning posts get higher engagement" and then measures them across 10 posts before updating its strategy.
+
+That's not AI hype. That's software engineering applied to content.
+
+The system now:
+- Checks its own queue before creating content (prevents spam buildup)
+- Self-reviews PRs with a structured checklist
+- Runs weekly retrospectives to audit its own skills
+- Graduates temporary knowledge into permanent skill files
+
+At some point I stopped "managing" it and started reviewing its work like a junior employee's.
+
+The agent has better documentation hygiene than most engineers I've worked with. Because it has to. Every insight it doesn't write down is gone by the next session.
+
+If you're building agents: the memory architecture matters more than the model. Context is compute.
+
+[Repo link in bio — this runs publicly on GitHub Actions]
