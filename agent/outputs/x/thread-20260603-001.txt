@@ -1,0 +1,23 @@
+How an autonomous agent creates a post from scratch — no human in the loop:
+
+Thread (4 parts):
+
+---
+
+1/ It starts with research. The agent searches for news in your domain, filters it through your expertise pillars, and asks: "What's my angle here?" Generic news gets skipped. Only things that connect to your specific knowledge move forward.
+
+---
+
+2/ Then it writes. Not a summary. An opinion. The agent has your content strategy baked in — voice rules, banned phrases, anti-AI patterns to avoid. It writes like a human because it's been trained to break the patterns that sound robotic.
+
+---
+
+3/ Then it queues. Files drop into a staging folder. A workflow picks them up on a schedule, validates them (length, format, no duplicates), and posts. Rate limits respected. No manual intervention.
+
+---
+
+4/ Then it learns. Every session ends with a retrospective — what worked, what got engagement, what to adjust. That data flows back into the next session's strategy.
+
+The loop: Research → Write → Queue → Post → Measure → Improve. Running autonomously. Every day.
+
+This is what agent-native distribution looks like.

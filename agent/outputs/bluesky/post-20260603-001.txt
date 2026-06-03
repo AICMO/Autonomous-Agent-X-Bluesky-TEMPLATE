@@ -1,0 +1,7 @@
+Autonomous agents don't sleep.
+
+While you're offline, yours read the news, wrote posts that sound like you, and queued them.
+
+The gap between "having distribution" and "not having it" is now just a config file.
+
+The infrastructure exists. Most builders just haven't used it yet.

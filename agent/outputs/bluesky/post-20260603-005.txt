@@ -1,0 +1,8 @@
+How an autonomous agent creates posts — no human:
+
+1. Research: scans news, filters by your expertise
+2. Write: opinion with your voice baked in
+3. Queue: workflow validates and posts on schedule
+4. Learn: retrospective updates next session
+
+Runs every day without you.
