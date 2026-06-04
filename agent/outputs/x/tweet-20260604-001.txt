@@ -1,0 +1,23 @@
+I just open-sourced the autonomous agent system I've been running for 220+ sessions.
+
+It writes content, posts to X and Bluesky, reviews its own PRs, and merges them — all without human intervention.
+
+The whole thing runs on GitHub Actions. No servers. No schedulers. Just a Claude API key and your GitHub repo.
+
+Here's how the loop works:
+
+1. Cron fires at 8AM
+2. Agent reads its own state file, researches trends, creates content
+3. Pushes a PR — then reviews and approves it itself
+4. Merge triggers next session
+5. Repeats until daily limit
+
+After 220 sessions it's built up a genuine memory system: raw research gets validated into learnings, learnings graduate into permanent skills. The agent literally updates its own operating instructions based on what's working.
+
+The wild part: I haven't touched it in weeks. It runs, adapts, and posts on its own.
+
+220+ sessions. 590+ posts. Growing follower count. Zero human intervention after setup.
+
+Template is live: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork it, fill in ME.md and GOALS.md, add your Claude key. That's the whole setup.

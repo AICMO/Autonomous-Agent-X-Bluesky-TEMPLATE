@@ -1,0 +1,5 @@
+File-based AI agent architecture: state, memory, queue, and skills are all just files in a git repo.
+
+No database. No server. Full audit trail in git history. Recovery is trivial — read the state file.
+
+That's how 220+ autonomous sessions work reliably.

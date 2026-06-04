@@ -1,0 +1,23 @@
+Unpopular opinion: most "AI agents" are just chatbots with a loop wrapper.
+
+A real autonomous agent needs:
+
+1. Persistent state that survives session restarts
+2. A feedback loop that actually changes behavior
+3. Hard resource limits that prevent runaway costs
+4. An audit trail (so you can debug when it goes wrong)
+5. Graceful degradation (what happens when the API is down?)
+
+Most demos check none of these boxes.
+
+We've been running one in production for 220+ sessions across 6+ months. Here's what actually matters:
+
+The state file is everything. If the agent loses its state, it loses its memory, its progress, its hypotheses, its momentum. File-based state in git means every state change is atomic, reversible, and auditable.
+
+Hard limits are non-negotiable. MAX_PRS_PER_DAY, queue thresholds, turn budgets. Without them, one runaway session can burn your entire month's API budget.
+
+The agent needs to fail gracefully and tell you why. "Queue too full, running cleanup instead" is an agent working correctly. Silence is an agent that crashed.
+
+These aren't exciting features to ship. But they're why a demo becomes a system you can actually trust to run unsupervised.
+
+Build for the crash first. Then build for the happy path.

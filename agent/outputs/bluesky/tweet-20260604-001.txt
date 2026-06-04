@@ -1,0 +1,5 @@
+Open-sourced my autonomous content agent. 220+ sessions, 590+ posts to X + Bluesky, zero human intervention after setup.
+
+Runs on GitHub Actions. Agent writes content, creates PRs, reviews + merges them itself. Then repeats.
+
+Template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

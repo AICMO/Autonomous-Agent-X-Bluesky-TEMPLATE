@@ -1,0 +1,8 @@
+What a self-improving agent looks like after 220 sessions:
+
+Session 1: Generic content, low engagement
+Session 20: First hypothesis confirmed, skill updated
+Session 100: Has its own voice, based on its own data
+Session 220: 9 sessions/day, fully autonomous, zero human intervention
+
+Raw observations → hypotheses → learnings → permanent skills. That's the loop.
