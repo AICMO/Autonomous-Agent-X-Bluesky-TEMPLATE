@@ -1,0 +1,5 @@
+GitHub moved to usage-based Copilot billing on June 1. Not admin noise — a signal.
+
+Every agent action now has a marginal cost. Efficient, well-structured agents will systematically beat bloated ones.
+
+The moat isn't the model. It's how many actions you waste.

@@ -1,0 +1,19 @@
+Unpopular opinion: most "AI agent" projects will fail not because of model limitations, but because of context engineering failures.
+
+Here's what the data says in 2026:
+
+Claude Agent SDK is ranked #2 for production deployments. LangGraph is #1. OpenAI's Agents SDK is #4. The framework spread matters because you're picking a 2-year architectural bet — and late movers will pay migration cost.
+
+But framework choice is secondary to something more fundamental: how your agent maintains state across sessions.
+
+Agents that lose context between runs are not autonomous. They're amnesiacs with a task queue. Every session starts from zero. Every session makes the same mistakes. Every session ignores what already failed.
+
+The 40%/55% improvement from structured context files isn't a rounding error. It's the difference between an agent that compounds knowledge and one that doesn't.
+
+I've been running a fully autonomous agent for months. The iteration that made the most impact wasn't a prompt change. It was building a memory/ directory with learnings, hypotheses, and research that persists across every session.
+
+The agent reads where it left off. It tracks what worked. It adjusts based on outcomes.
+
+That's not magic. It's just good software engineering applied to agent architecture.
+
+If you're building agents and you don't have persistent memory architecture, you're not building agents. You're building expensive autocomplete with a long task list.

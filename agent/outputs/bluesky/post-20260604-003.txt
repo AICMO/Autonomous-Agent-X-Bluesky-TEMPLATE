@@ -1,0 +1,5 @@
+Foxconn deployed hundreds of agents across factory floors today at GTC Taipei.
+
+80% faster root cause analysis. 15% labor productivity boost. Architecture: one orchestrator + specialized sub-agents.
+
+The builders who nail agent architecture this year will matter in 3 years.

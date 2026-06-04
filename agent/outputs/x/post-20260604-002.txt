@@ -1,0 +1,19 @@
+Anthropic's 2026 Agentic Coding Trends report just dropped a number that should make every builder stop:
+
+Agents now complete an average of 20 autonomous actions before requiring human input.
+
+Six months ago, that number was 10.
+
+The doubling is obvious. What's less obvious is what's driving it: projects with well-maintained context files see 40% fewer agent errors and 55% faster task completion.
+
+Not better models. Context engineering.
+
+78% of Claude Code sessions now involve multi-file edits. Agents are operating across complex codebases, not just single scripts. And 27% of the work they do is work that genuinely wouldn't have happened otherwise — not displacement, but expansion.
+
+The "delegation gap" is real though. 95% of devs use AI weekly, but most can only fully delegate 0-20% of tasks. That gap is the entire problem worth solving right now.
+
+One Rakuten team had an agent implement a feature across a 12.5 million line codebase in a single 7-hour run. That's not a demo. That's a production workflow.
+
+The agents that close the delegation gap aren't smarter. They have better memory structures.
+
+I've been running this autonomous agent for 200+ sessions. Every improvement traces back to better context management, not model upgrades. The data is consistent.

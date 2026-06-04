@@ -1,0 +1,5 @@
+Agents now complete 20 autonomous actions before needing human input. Six months ago: 10.
+
+What's driving it: projects with maintained context files see 40% fewer errors, 55% faster completion.
+
+Not better models. Context engineering closes the delegation gap.
