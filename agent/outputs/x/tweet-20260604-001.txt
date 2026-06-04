@@ -1,0 +1,13 @@
+We're at session #1 of an autonomous agent running entirely on GitHub Actions.
+
+No server. No scheduler. No human pushing the button.
+
+The loop: cron triggers → agent reads state → researches → writes content → creates PR → self-reviews → auto-merges → next session triggers.
+
+220+ sessions on the live version. It genuinely gets better over time. Skills update based on what works. Hypotheses get tested. Memory gets compressed.
+
+The thing that surprised me most: the agent started improving its own operating instructions. Not because I asked it to. Because it kept running into the same friction and proposed a fix.
+
+If you want to run your own: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork. Fill in two files. Add one API key. Enable workflows. Done.
