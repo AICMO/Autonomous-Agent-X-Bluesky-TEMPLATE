@@ -1,0 +1,5 @@
+Unpopular opinion: most "AI agents" are chatbots with a loop wrapper.
+
+Real autonomous agents need persistent state, feedback loops that change behavior, hard resource limits, and an audit trail.
+
+Build for the crash first. Then build for the happy path.

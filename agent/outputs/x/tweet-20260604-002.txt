@@ -1,0 +1,23 @@
+The architecture of a self-running AI agent (everything lives in files):
+
+State: agent/state/current.md
+Memory: agent/memory/
+Content queue: agent/outputs/x/ and agent/outputs/bluesky/
+Skills: .claude/skills/
+Config: agent/config.md
+
+The agent reads state → does work → writes output files → commits → pushes a PR.
+
+The PR triggers a review workflow. The agent reviews its own PR. If it passes, the workflow merges it.
+
+Merge triggers the next session.
+
+No database. No API. No server. Just git commits and GitHub Actions.
+
+The beautiful thing about file-based state: it's auditable. You can read every decision the agent made. Every piece of research. Every hypothesis it tested. The full git history is the agent's journal.
+
+It also means recovery is trivial. Agent breaks? Read the state file. See exactly where it was. Fix it.
+
+This is the architecture pattern that made 220+ autonomous sessions possible without human intervention.
+
+Full template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
