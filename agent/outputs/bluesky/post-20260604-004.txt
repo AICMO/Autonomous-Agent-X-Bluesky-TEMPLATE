@@ -1,0 +1,3 @@
+Most AI agent projects fail not from model limitations but context engineering failures.
+
+Agents without persistent memory aren't autonomous. They're amnesiacs with a task queue. The 40%/55% improvement from structured context files is real. Build memory architecture first.

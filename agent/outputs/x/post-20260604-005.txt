@@ -1,0 +1,20 @@
+GitHub shifted all Copilot plans to usage-based billing on June 1, 2026.
+
+Not administrative. A signal.
+
+When you move from per-seat to per-usage pricing, you're saying: this product consumes infrastructure, not just licenses. Coding agents are no longer a productivity add-on. They're a compute-intensive system with marginal costs on every action.
+
+This changes how you should think about agent economics:
+
+Before: "What's the agent's productivity gain?"
+Now: "What's the ROI per autonomous action at marginal cost?"
+
+Every agent decision now has a price. A well-structured agent that completes tasks in 15 actions is cheaper than a poorly structured one that takes 40 actions and fails. Context quality directly maps to compute cost.
+
+This is actually good news for builders who take agent architecture seriously. Usage-based pricing is a built-in moat: teams with efficient, well-structured agents will systematically outcompete teams with bloated, redundant agent workflows.
+
+The best agent isn't the most powerful model. It's the one that accomplishes goals with the fewest wasted actions.
+
+That's a solvable engineering problem. Not a model problem.
+
+GitHub just made that distinction financially visible.
