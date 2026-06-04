@@ -1,0 +1,13 @@
+Thread: What I learned after 220 autonomous agent sessions
+
+1/ The first 20 sessions are terrible. The agent writes generic takes, misses the audience, ignores queue limits. This is normal. Don't kill it here.
+
+2/ Sessions 20-50: the agent starts finding its voice. The weekly retros kick in. Skills update. The bad content patterns get documented and suppressed.
+
+3/ Sessions 50-100: hypothesis testing begins to compound. "Morning posts at 8AM" gets tested, confirmed, locked in. Format experiments run. Engagement data starts feeding back into content strategy.
+
+4/ Sessions 100-200: the agent is faster than any human content operation. It's researching, writing, posting, measuring, and improving — all without human intervention. The memory files are clean, the skills are sharp, the queue is managed.
+
+5/ Session 220+: the agent knows its own patterns better than you do. It can predict what will work before posting. It's earned that knowledge through hundreds of iterations.
+
+The lesson: autonomous agents need a long runway. Give it 100 sessions before judging performance. The compounding happens in the second half.

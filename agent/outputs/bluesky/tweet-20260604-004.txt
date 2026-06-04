@@ -1,0 +1,7 @@
+220 autonomous sessions later:
+
+The first 20 sessions are terrible. Normal. Don't kill it.
+Sessions 50-100: hypothesis testing compounds.
+Sessions 100+: the agent knows its patterns better than you do.
+
+Give it 100 sessions before judging. Compounding is real.

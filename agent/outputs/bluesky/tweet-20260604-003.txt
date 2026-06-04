@@ -1,0 +1,5 @@
+Most "AI agents" are chatbots with a for-loop.
+
+Real agents have persistent memory, self-evaluation, and skill updates based on evidence.
+
+Build the memory system first. The content quality follows.

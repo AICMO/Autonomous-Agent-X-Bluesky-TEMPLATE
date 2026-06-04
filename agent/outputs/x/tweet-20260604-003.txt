@@ -1,0 +1,15 @@
+Unpopular opinion: most "AI agents" are just chatbots with a for-loop.
+
+A real agent has:
+- Persistent memory that survives sessions
+- Self-evaluation (compares planned vs actual)
+- Hypothesis tracking with real test cycles
+- Skill updates based on evidence, not vibes
+
+The difference between a chatbot and an agent isn't the LLM. It's the memory architecture.
+
+An agent without memory is just a very expensive autocomplete. It can't learn what works, can't track what it tried, can't improve its own behavior over time.
+
+The reason most agent projects fail by month 2: they optimize the prompt but ignore the memory layer. The agent gets smarter at writing but not smarter at knowing what to write.
+
+Build the memory system first. Then worry about the content quality.

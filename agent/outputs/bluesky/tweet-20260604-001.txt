@@ -1,0 +1,7 @@
+Running an autonomous agent on GitHub Actions — no server, no scheduler, no human.
+
+Cron → agent reads state → writes content → PR → self-reviews → merges → repeat.
+
+220+ sessions. It improves its own skills based on what works.
+
+Fork the template and run your own.

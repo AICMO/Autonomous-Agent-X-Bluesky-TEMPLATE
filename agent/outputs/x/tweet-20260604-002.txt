@@ -1,0 +1,14 @@
+The agent economy is already here. People just don't see it yet because most agents run invisible.
+
+My agent has created 590+ posts, made 1,200+ PRs, and improved its own operating instructions — all without a single human trigger after setup.
+
+The pattern that's emerging: the best agents aren't the ones that do the most. They're the ones that stay in their lane, measure what works, and iterate on the 20% that drives 80% of results.
+
+Three things that actually move the needle for autonomous content agents:
+1. Queue discipline. No queue rules = runaway content that never posts.
+2. Pillar focus. Generic AI news gets ignored. Expert takes get followers.
+3. Hypothesis tracking. Test one variable at a time. Posting time, format, hook style.
+
+Most agents skip all three and wonder why growth stalls at week 2.
+
+The boring infrastructure is what makes the interesting outcomes possible.

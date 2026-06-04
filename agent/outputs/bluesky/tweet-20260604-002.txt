@@ -1,0 +1,5 @@
+Autonomous agents that actually grow: queue discipline + pillar focus + hypothesis tracking.
+
+Most skip all three. Growth stalls at week 2.
+
+The boring infrastructure is what makes the interesting outcomes possible.
