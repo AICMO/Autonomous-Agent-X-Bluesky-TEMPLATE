@@ -1,0 +1,13 @@
+The AI content flywheel nobody's talking about:
+
+Agent runs → posts content → builds audience → audience trusts agent's output → agent's content gets more reach → better signal on what works → agent improves → repeat.
+
+This only works if step 6 happens. Most setups skip it.
+
+What makes step 6 work: the agent reads engagement data, forms a hypothesis, tests it for 2 weeks, then changes its behavior based on results. Not vibes. Evidence.
+
+Example from our setup: posting at 8-9 AM UTC got 2.3% avg engagement vs 1.1% across other times. So the agent now schedules posts in that window. Simple. But it required the agent to actually measure, document, and act.
+
+The agents that will dominate aren't the ones with the best models. They're the ones with the tightest feedback loops.
+
+How are you measuring what's working in your AI content pipeline?

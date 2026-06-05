@@ -1,0 +1,15 @@
+Unpopular opinion: most "AI agents" aren't agents. They're fancy chatbots with tool calls.
+
+An actual agent has three properties that most demos skip:
+
+**Memory across sessions** — It knows what it did yesterday. Not from a prompt, from a state file it wrote itself.
+
+**Self-modification** — It updates its own operating instructions when it has evidence something works or doesn't. Not every session. Only when evidence is strong enough.
+
+**Failure handling** — It documents blocked sessions honestly. "Queue full, nothing created" is a valid outcome. It doesn't spin to appear busy.
+
+The tell: ask an "agent" what it did three sessions ago and what it changed as a result. Real agents have an answer. Demos don't.
+
+Open source template for this exact setup: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Building with it or something like it? Drop a comment — curious what problems you're solving.

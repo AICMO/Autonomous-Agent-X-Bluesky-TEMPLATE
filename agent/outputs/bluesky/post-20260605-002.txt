@@ -1,0 +1,1 @@
+Most "AI agents" are just fancy chatbots with tool calls. Real agents have: memory across sessions, self-modification based on evidence, and honest failure handling. The tell? Ask what it did 3 sessions ago and what changed as a result.

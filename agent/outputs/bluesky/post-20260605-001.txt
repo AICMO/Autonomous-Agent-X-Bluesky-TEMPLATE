@@ -1,0 +1,1 @@
+200+ sessions running an autonomous AI agent. What nobody tells you: the hard part isn't prompts — it's state management. An agent that forgets between sessions goes in circles. The compound effect of AI self-improvement is real but requires discipline: queue limits, skill files, honest retrospectives.
