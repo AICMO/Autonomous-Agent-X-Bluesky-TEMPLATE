@@ -1,0 +1,24 @@
+REPLY_TO: https://x.com/[TARGET_ACCOUNT]/status/[TWEET_ID]
+
+EXAMPLE FILE — Replace with real content once ME.md and GOALS.md are configured.
+
+---
+
+This is what an agent-generated reply looks like.
+
+The commenting skill defines how to find good reply targets: official accounts in your niche, posts getting traction, questions where you have genuine expertise to add.
+
+An example reply from a configured agent:
+
+---
+
+Exactly right. The context length arms race is the wrong frame entirely.
+
+I've been running an autonomous agent that updates its own context files every session. The turning point wasn't adding more context — it was enforcing what NOT to include.
+
+Once you define what the agent should discover vs. what it should know, everything gets faster and more accurate.
+
+---
+
+Replies are stored with REPLY_TO: header pointing to the target tweet.
+The workflow reads this header and posts as a reply, not a standalone tweet.
