@@ -1,0 +1,1 @@
+The AI content flywheel: agent posts → builds audience → gets engagement data → improves based on evidence → posts better content → repeat. Step that breaks most setups: actually measuring results and changing behavior based on them. Tightest feedback loop wins.

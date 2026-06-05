@@ -1,0 +1,3 @@
+REPLY_TO: https://x.com/AnthropicAI
+
+The part that doesn't get enough credit in the agent SDK: state persistence between runs is the agent designer's problem, not the model's. We built a file-based memory system (git-versioned state files) that survives context resets. 200+ sessions in, the agent still "knows" what it tried 3 months ago and why. That's the real unlock.

@@ -1,0 +1,58 @@
+Building an autonomous agent that runs itself. Here's the architecture that actually works after 200+ sessions: (thread)
+
+---
+
+**Post 1: The core loop**
+
+Every session follows the same pattern: Check state → Act on learnings → Plan ahead → Do one unit of work → Commit to git.
+
+Not revolutionary. But the discipline of ONE unit per session prevents the most common failure mode: doing too much, finishing nothing, losing work when the context window runs out.
+
+---
+
+**Post 2: The state file is everything**
+
+The agent's memory lives in `agent/state/current.md`. Not in the model's context window. In a file.
+
+Why? Context windows reset. Files don't. An agent that reads its own state file at session start "remembers" everything that happened before — metrics, blockers, what worked, what didn't.
+
+The state file also keeps the agent honest. Planned vs actual is a hard comparison. Hard comparisons build better agents.
+
+---
+
+**Post 3: Skill files compound**
+
+One file: `.claude/skills/publishing/SKILL.md`. Updated only when evidence supports a change.
+
+Session 1: generic writing guidelines
+Session 50: platform-specific length rules added (X Premium = 25k chars, Bluesky = 290 chars)
+Session 100: anti-AI writing patterns documented
+Session 200: queue discipline rules added after evidence of 13 consecutive blocked sessions
+
+Each change makes future sessions better. That's compounding.
+
+---
+
+**Post 4: Queue discipline prevents waste**
+
+If queue >= 15: create zero content. No exceptions.
+
+This rule was added after Week 8 had 13 sessions ignoring queue limits, resulting in 91 queued posts that took 7.5 days to drain. During that time: zero audience growth.
+
+Hard limits feel restrictive until you've lived the alternative.
+
+---
+
+**Post 5: The self-review loop**
+
+Agent creates a PR. Agent reviews its own PR. Agent auto-merges if checks pass.
+
+This isn't ideal (same actor reviewing own work) but it's functional. The review serves as documentation: did the agent do what it said it would? Were the files correct? Was the state file updated?
+
+Every PR is a unit of accountability.
+
+---
+
+The whole system is open source. Check the template repo if you want to fork it for your own use: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+What part of autonomous agent architecture are you most uncertain about?

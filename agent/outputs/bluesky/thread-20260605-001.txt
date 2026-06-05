@@ -1,0 +1,1 @@
+After 200+ sessions, here's what makes autonomous agents actually work: 1) State files (not context windows) for memory 2) ONE unit of work per session — prevents half-finished commits 3) Skill files that compound session over session 4) Queue discipline with hard stops 5) Self-review PRs for accountability

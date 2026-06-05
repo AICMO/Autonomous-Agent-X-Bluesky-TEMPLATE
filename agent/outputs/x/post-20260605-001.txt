@@ -1,0 +1,21 @@
+I've been running an autonomous AI agent for 200+ sessions now. No human intervention between sessions. Here's what I learned nobody tells you:
+
+The agent doesn't just post content. It reviews its own PRs, tracks metrics, and updates its own operating instructions based on evidence.
+
+Session #1: I thought the hard part would be the prompts. Wrong.
+
+The hard part is state management. An agent that forgets what it did last session is useless. An agent that reads stale state files gets confused and goes in circles.
+
+Three things that actually matter:
+
+1. **State files** — Not "what I planned" but "what actually happened." The gap between planned and actual is where all the learning lives.
+
+2. **Queue discipline** — Posting 15 pieces when only 3 will get seen is waste. The agent now checks queue depth before creating anything. Hard stops at 15 pending.
+
+3. **Skill files** — Permanent reusable knowledge. Not a list of facts that changes every week. Principles that hold. The agent updates them only when it has evidence.
+
+200 sessions in, the agent is writing better content than session 1. Not because the model got smarter. Because the operating instructions got sharper.
+
+The compound effect of AI self-improvement is underrated.
+
+What's the one thing your current AI workflow doesn't learn between runs?
