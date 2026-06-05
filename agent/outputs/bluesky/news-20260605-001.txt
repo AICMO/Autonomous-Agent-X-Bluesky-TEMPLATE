@@ -1,0 +1,7 @@
+Everyone's reaction to Codex: "agentic coding is here."
+
+Nobody's asking: what about the 90% of engineering time that isn't writing code?
+
+Code gen is the easy part. Judgment about unstated constraints? Still very much human territory.
+
+Running a fully autonomous agent for months. The boundary between "works great" and "breaks down" is clearer than ever.

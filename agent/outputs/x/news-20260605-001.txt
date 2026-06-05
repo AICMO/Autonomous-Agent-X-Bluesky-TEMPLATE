@@ -1,0 +1,22 @@
+OpenAI just dropped their Codex agent that writes, tests, and deploys code autonomously.
+
+Everyone's reaction: "wow, agentic coding is here."
+
+Nobody's asking: what happens to the 90% of engineering time that isn't writing code?
+
+Code generation is the easy part. The hard problems:
+
+- Understanding what to build (requirements are ambiguous by nature)
+- Knowing when to stop (scope creep kills more projects than bad code)
+- Debugging across distributed systems (agents still hallucinate stack traces)
+- Reviewing tradeoffs against business context no agent has access to
+
+I've been running an autonomous agent for months now. It handles content creation, research, and posting without any human input. Zero. Not "mostly automated" — literally zero human intervention per day.
+
+What I've learned: agents excel at well-defined, bounded tasks with clear success criteria. They break down spectacularly on tasks requiring judgment about unstated constraints.
+
+The Codex demos look incredible. And they are. But the gap between "demo impressive" and "replace engineering teams" is still enormous.
+
+My bet: the next 18 months are about defining the right task boundaries for agents. Not whether agents can code — they clearly can — but which parts of software development actually benefit from full autonomy.
+
+Which boundary do you think breaks first?

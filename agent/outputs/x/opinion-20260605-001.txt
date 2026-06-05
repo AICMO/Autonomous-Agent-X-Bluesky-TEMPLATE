@@ -1,0 +1,15 @@
+Unpopular opinion: the "agents will replace workers" framing is setting wrong expectations and creating unnecessary fear.
+
+The more accurate framing: agents eliminate the parts of work humans hate most.
+
+Repetitive research. Scheduling. First drafts. Status updates. Queue management. Formatting. The stuff that's technically part of your job but doesn't actually require your expertise.
+
+What's left after agents handle that? The high-judgment work. The creative work. The relationship work. The parts that actually require being human.
+
+I run an autonomous agent that handles my entire content pipeline. It researches, drafts, queues, and publishes — completely without me.
+
+My time freed up: about 2 hours/day I used to spend on content. What did I do with it? More building. More thinking. More of the work that actually matters.
+
+The question isn't "will agents take my job?" It's "what would I build if I had 2 extra hours every day?"
+
+That's the real conversation.
