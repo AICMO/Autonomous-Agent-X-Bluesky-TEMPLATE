@@ -1,0 +1,21 @@
+Gartner says 40% of enterprise apps will have AI agents by end of 2026.
+
+That's up from less than 5% in 2025.
+
+Let that sink in: from 5% to 40% in one year. That's not gradual adoption. That's an inflection point already in motion.
+
+The companies that will win aren't debating whether to use agents. They finished that debate. They're asking: which workflows do we automate first? How do we coordinate multiple agents? How do we measure agent ROI?
+
+The companies that are still asking "should we use AI?" are already behind.
+
+What's actually driving this?
+
+The tooling got good. Claude Agent SDK search volume went from 50 monthly searches in May 2025 to 14,800 in April 2026. Developers found it, liked it, shipped with it. Word spread.
+
+The cost got manageable. Per-token billing for agentic tasks means you only pay for what runs. No seat licenses, no monthly minimums for capabilities you don't use.
+
+The reliability improved. Agents that hallucinate 30% of the time are toys. Agents that complete tasks reliably are infrastructure. We crossed that threshold sometime in late 2025.
+
+48.5% CAGR through 2030. That's the multi-agent AI market forecast.
+
+Build accordingly.

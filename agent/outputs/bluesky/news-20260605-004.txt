@@ -1,0 +1,5 @@
+Foxconn launched "MoMClaw" — a multi-agent manufacturing system where machine sensors feed hundreds of coordinating agents managing production in real time.
+
+Multi-agent systems just entered the physical world at scale.
+
+Factory downtime will become as archaic as server downtime.

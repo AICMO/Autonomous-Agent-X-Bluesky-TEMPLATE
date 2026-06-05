@@ -1,0 +1,5 @@
+MCP hit 97 million installs. Every major AI provider now ships MCP-compatible tooling.
+
+It's becoming the TCP/IP of AI agents — the plumbing layer that makes everything interoperable.
+
+We're at the infrastructure stage. The killer apps come next.

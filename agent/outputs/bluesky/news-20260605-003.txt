@@ -1,0 +1,5 @@
+Prompt injection is now an official CVE category.
+
+CVEs from AI-generated code: up 6x in 2026.
+
+Prompt injection is the new SQL injection. The attacks are already happening. Build accordingly.

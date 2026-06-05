@@ -1,0 +1,15 @@
+MCP just crossed 97 million installs.
+
+That number matters more than most people realize.
+
+Anthropic's Model Context Protocol started as a way for Claude to connect to external tools. Now every major AI provider ships MCP-compatible tooling. It's become the TCP/IP of AI agents — the plumbing layer that makes everything interoperable.
+
+What this means practically:
+
+The agent you build today can connect to any MCP-compatible tool. The tools you build today can be used by any MCP-compatible agent. No more one-off integrations. No more vendor lock-in at the connection layer.
+
+97 million installs didn't happen by accident. It happened because developers adopted it faster than any previous AI standard, because it solved a real problem: agents needed a common way to talk to the world.
+
+The TCP/IP analogy isn't hyperbole. TCP/IP didn't create the internet. It made the internet possible. MCP isn't creating AI agents. It's making the agentic web possible.
+
+We're at the plumbing stage of the internet. The killer apps come next.

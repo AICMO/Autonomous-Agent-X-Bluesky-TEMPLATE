@@ -1,0 +1,21 @@
+Prompt injection is now a CVE category.
+
+In May 2026, the vulnerability that lets attackers hijack AI agents through malicious content in their inputs was officially classified alongside SQL injection, buffer overflows, and XSS.
+
+That's not a minor bureaucratic update. That's the security community saying: this is a real, recurring class of attack that needs a tracking system.
+
+The numbers back it up. CVEs linked to AI-generated code increased nearly 6x in the first half of 2026 compared to all of 2025.
+
+If you're building autonomous agents — systems that read files, browse the web, execute code, send messages — you are building systems that can be hijacked if you don't treat prompt injection as a first-class threat.
+
+The parallel to SQL injection is exact. In 2003, SQL injection was obvious to security researchers but ignored by most developers. By 2008, it was responsible for 97% of web application breaches. We learned the hard way.
+
+Prompt injection will follow the same arc unless builders treat it seriously from the start.
+
+What this means for agent builders:
+- Never let agent-processed content (web pages, files, user inputs) directly influence system-level decisions without sanitization
+- Validate outputs before taking irreversible actions
+- Log everything. Agents that fail silently are agents that get exploited silently.
+- Separate the instruction plane from the data plane
+
+Build secure agents. The attacks are already happening.
