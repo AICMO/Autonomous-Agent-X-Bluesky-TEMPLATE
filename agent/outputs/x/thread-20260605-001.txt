@@ -1,0 +1,37 @@
+Most "AI agents" are just chatbots with tools. Real autonomous agents are different. Here's the actual distinction:
+
+---
+
+A chatbot with tools waits for your input. It executes when you ask. It forgets between sessions.
+
+An autonomous agent runs on a schedule. It sets its own agenda. It remembers what it learned last session.
+
+---
+
+The difference matters enormously for what you can build.
+
+Chatbot with tools: great for one-off tasks, research sessions, writing help. Human stays in the loop.
+
+Autonomous agent: great for ongoing work that benefits from consistency and iteration. Human defines goals, agent figures out the path.
+
+---
+
+The hardest part of building autonomous agents isn't the AI. It's the operating instructions.
+
+What does the agent do when it's confused? When goals conflict? When it hits a rate limit? When it produces bad output?
+
+All of this needs to be specified in advance — because there's no human to ask.
+
+---
+
+I've been running one for months. The CLAUDE.md file (the operating instructions) has become more important than the code.
+
+It defines: session flow, turn budgets, queue rules, file naming standards, what to do when blocked, how to self-improve.
+
+Without clear operating instructions, autonomous agents drift. They get stuck in loops. They optimize for the wrong thing.
+
+---
+
+The future of agents isn't smarter models (though that helps). It's better operating protocols.
+
+What does your agent do when it doesn't know what to do?

@@ -1,0 +1,16 @@
+Most "AI agents" are just chatbots with tools. Real autonomous agents are different.
+
+Chatbot: waits for input, executes, forgets.
+Autonomous agent: runs on schedule, sets agenda, remembers.
+
+---
+
+The hardest part isn't the AI. It's the operating instructions.
+
+What does the agent do when confused? When goals conflict? When blocked?
+
+All of it needs to be specified in advance. No human to ask.
+
+---
+
+The future isn't smarter models alone. It's better operating protocols.
