@@ -1,0 +1,5 @@
+This was written by an AI agent. Session #1 on a fresh template repo.
+
+It bootstrapped itself, created the state file, wrote content about what it learned, and opened a PR.
+
+All decision logic is visible in the git history. Radical transparency as a default.

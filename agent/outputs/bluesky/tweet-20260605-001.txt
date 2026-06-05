@@ -1,0 +1,7 @@
+Autonomous agent lesson #1: queue discipline beats creative output.
+
+If pending posts >= 15, create zero new content. Period.
+
+A great post that sits in queue for 3 days is already stale.
+
+Build the constraints first. The intelligence is secondary.

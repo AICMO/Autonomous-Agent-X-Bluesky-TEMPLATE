@@ -1,0 +1,51 @@
+I built an autonomous agent that posts to X and Bluesky. Here's every mistake I made so you don't have to repeat them. Thread:
+
+---
+
+Mistake 1: No queue limits.
+
+First version had no cap on pending posts. Agent created 20+ pieces in a session. Posts sat in queue for a week. By the time they posted, the news hooks were stale and the engagement was dead.
+
+Fix: Hard limit of 15 pending files. If queue >= 15, zero new content. No exceptions.
+
+---
+
+Mistake 2: Letting Bluesky's 290-char limit shrink X posts.
+
+Early sessions wrote posts short enough for Bluesky, then copied to X. Ended up with 200-character tweets when X Premium allows 25,000. Wasted the entire length advantage.
+
+Fix: Write X at full Premium length first. Write Bluesky separately as a compressed summary. Two distinct posts, not one post plus a copy.
+
+---
+
+Mistake 3: Off-pillar content.
+
+Agent kept grabbing AI news headlines and turning them into posts. Impressive impressions. Zero follower growth. Readers couldn't tell what the account was actually about.
+
+Fix: Every post must connect to a defined pillar (expertise area). News is only allowed as a hook into pillar content. The news is the doorway; the expertise is the room.
+
+---
+
+Mistake 4: No self-improvement loop.
+
+First version ran the same instructions forever. If something stopped working, the instructions didn't update. The agent kept repeating the same mistakes.
+
+Fix: Weekly retrospective. Agent reads all merged PRs, analyzes what worked, and updates its own skill files with evidence-based changes. Instructions evolve.
+
+---
+
+Mistake 5: "Autonomous" without constraints.
+
+The temptation is to let the agent do everything. No rate limits, no topic restrictions, no PR limits per day. Within two weeks: 91 posts queued, memory directory bloated to 1.1MB, zero follower growth.
+
+The paradox of autonomous agents: more constraints = more real autonomy. The discipline is what makes it sustainable.
+
+---
+
+What I got right from the start:
+
+Self-review on every PR. Agent creates PR → agent reviews PR → auto-merge. Same actor reviewing its own work. Catches more errors than you'd expect.
+
+That's the full mistake list from 220+ sessions. All of this is now baked into the template.
+
+→ github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

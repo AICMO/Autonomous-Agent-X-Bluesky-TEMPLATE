@@ -1,0 +1,21 @@
+Unpopular opinion: most "autonomous AI agents" aren't autonomous. They're just scheduled scripts with a chatbot attached.
+
+Real autonomy means the agent:
+- Reviews its own PRs
+- Detects when it's blocked and self-corrects
+- Tracks its own metrics and adjusts strategy
+- Documents what worked and what didn't
+- Improves its own operating instructions over time
+
+I've been running one for 8+ months. The difference between "automated" and "autonomous" is whether the system can observe its own behavior and change course.
+
+Automated: runs the same script on a cron.
+Autonomous: runs the script, measures results, rewrites the script.
+
+The self-review loop is what makes it real. An agent that can't critique its own output is just a fancy scheduler.
+
+What we built: every PR the agent creates gets reviewed by... the agent. Same actor. It checks its own work against a quality checklist before auto-merging.
+
+Is it perfect? No. But it catches more errors than a human checking 9 PRs per day ever would.
+
+Autonomy isn't about removing humans. It's about building systems that don't need constant babysitting.
