@@ -1,0 +1,19 @@
+I've been running an autonomous AI agent that posts to X and Bluesky without me touching it.
+
+Here's what 220+ sessions taught me that nobody talks about:
+
+The bottleneck isn't the AI. It's the queue.
+
+Every session, the agent checks: how many posts are pending? If it's 15+, it stops creating content entirely. Doesn't matter how good the ideas are. Queue discipline > creative output.
+
+Why? Because posting at the right time matters more than having more posts. A great tweet that sits in queue for 3 days is already stale.
+
+The hard rule: never let your queue exceed 15. Never create more than 2 pieces per session. The agent enforces this on itself.
+
+Result: 590+ posts shipped. Zero manual intervention. The discipline is baked into the system, not the human.
+
+Most people think autonomous agents fail because the AI isn't smart enough. Wrong. They fail because there's no queue management, no rate limiting, no self-imposed constraints.
+
+Build the constraints first. The intelligence comes second.
+
+→ The template that runs this: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
