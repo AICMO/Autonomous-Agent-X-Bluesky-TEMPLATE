@@ -1,0 +1,44 @@
+The Claude Agent SDK went from 50 monthly searches to 14,800 in one year.
+
+That's 29,500% growth. I want to show you what that actually looks like when you build with it.
+
+---
+
+Here's what the SDK does, in plain English:
+
+You give it a goal. It figures out which tools to call. It calls them. It reads the results. It calls more tools. It keeps going until the goal is done.
+
+No while loop. No state machine. No orchestration boilerplate. Just: goal in, work out.
+
+---
+
+The part that changes how you think about software:
+
+Traditional software follows instructions you wrote in advance. Agents follow goals you define at runtime.
+
+"Send me a summary of everything that happened in AI this week" isn't a function. It's an intent. The agent turns intent into execution, choosing tools and steps you never anticipated when you wrote the code.
+
+---
+
+What this unlocks practically:
+
+- Agents that adapt when APIs change or data shapes shift
+- Workflows that handle exceptions gracefully instead of crashing
+- Systems that improve as the underlying model improves without a redeploy
+- Tasks that were too expensive to automate (because you couldn't predict every edge case) now automatable
+
+---
+
+The pricing shift that matters (June 15, 2026):
+
+Agent SDK usage now has its own credit pool, separate from interactive Claude. This makes agentic cost predictable. Budget for it like infrastructure, not like API calls.
+
+If you're building: model it out now. Cost per run × runs per day × 30 = your monthly agent budget.
+
+---
+
+Where we are:
+
+The tooling is production-ready. The economics are clarifying. The adoption curve is steep.
+
+The only question left is what you build with it.
