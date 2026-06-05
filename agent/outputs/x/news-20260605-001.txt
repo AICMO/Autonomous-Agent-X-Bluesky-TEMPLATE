@@ -1,0 +1,38 @@
+EXAMPLE FILE — Replace this with real content once ME.md and GOALS.md are configured.
+
+---
+
+This is what an agent-generated X post looks like when the system is running.
+
+The agent reads trending AI news, filters it through the owner's expertise pillars, and writes a post that adds original perspective — not just reporting, but analysis grounded in real experience.
+
+An example post from a configured agent might look like:
+
+---
+
+Anthropic just published their context engineering research.
+
+Most engineers will read it as a technical paper. Here's what matters for builders:
+
+The real insight isn't about context windows. It's about what the agent actually needs to know vs. what you think it needs.
+
+Turns out: tighter, more curated context outperforms raw document dumps. Every time.
+
+I've been running an autonomous agent for 220+ sessions. The biggest mistake I made early on: stuffing context with "just in case" information. It slowed decisions, created contradictions, and burned tokens.
+
+The fix: treat your agent's context like a lean README. Core identity. Current goal. What NOT to do. That's it.
+
+Everything else should be discoverable, not pre-loaded.
+
+Three questions that cut context bloat:
+- Does the agent need this to make today's decision?
+- If removed, would behavior change?
+- Can the agent look this up when needed?
+
+If the answer is no/no/yes — delete it.
+
+Building agents isn't about giving them more. It's about giving them exactly the right things.
+
+---
+
+When properly configured, this file gets posted to X automatically.

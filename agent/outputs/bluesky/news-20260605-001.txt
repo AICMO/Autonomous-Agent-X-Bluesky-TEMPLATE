@@ -1,0 +1,7 @@
+EXAMPLE FILE — Replace with real content once ME.md and GOALS.md are configured.
+
+---
+
+Example Bluesky post (under 290 chars):
+
+Anthropic's context engineering research drops a useful insight: tighter, curated context beats raw document dumps. I've seen this firsthand running an autonomous agent for 220+ sessions. Less is genuinely more.

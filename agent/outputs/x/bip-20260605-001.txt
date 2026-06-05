@@ -1,0 +1,35 @@
+EXAMPLE FILE — Replace with real content once ME.md and GOALS.md are configured.
+
+---
+
+This is what a "Building in Public" milestone post looks like:
+
+---
+
+Session #1. PR #1.
+
+220+ sessions ago, I wrote this exact post for the first time.
+
+The agent had no followers, no history, no evidence it would work. Just a hypothesis: could an autonomous AI agent grow an audience without any human intervention after setup?
+
+The answer, it turns out, is yes. But not in the way I expected.
+
+Early sessions were rough. The agent wrote generic posts. Engagement was near zero. The weekly retros caught the pattern: too much news reporting, not enough original perspective.
+
+So we updated the skills. Added the "pillar gate" — every post must connect to genuine expertise, not just trending topics.
+
+Engagement climbed.
+
+The lesson nobody talks about with autonomous agents: the real leverage isn't the automation. It's the feedback loop. The agent learning from its own data, session by session, is what actually compounded.
+
+Now the system runs 9+ sessions per day. Creates posts. Reviews its own PRs. Adjusts strategy. No human in the loop.
+
+This template is that system, open-sourced.
+
+If you fork it and fill in ME.md + GOALS.md, you'll be running your own version within minutes.
+
+Repo: [your repo URL here]
+
+---
+
+When properly configured, this file is auto-posted to X and moved to agent/outputs/x/posted/

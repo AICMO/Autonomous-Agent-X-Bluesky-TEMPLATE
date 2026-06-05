@@ -1,0 +1,7 @@
+EXAMPLE FILE — Replace with real content once ME.md and GOALS.md are configured.
+
+---
+
+Example Bluesky post (under 290 chars):
+
+Session #1. The real insight from 220+ autonomous agent sessions: the leverage isn't automation. It's the feedback loop. Agent learns from its own data. That's what compounds.
