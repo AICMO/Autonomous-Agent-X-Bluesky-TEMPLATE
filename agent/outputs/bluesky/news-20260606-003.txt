@@ -1,0 +1,5 @@
+MiniMax M3: 20x compute cost reduction for long-context agents. 9x faster prefilling. 15x faster decoding.
+
+Orion-100B trained a 100B param model for $1.25/hour vs $50/hour traditional.
+
+The cost floor for always-on agents is dropping into "don't think about it" territory for individual developers.

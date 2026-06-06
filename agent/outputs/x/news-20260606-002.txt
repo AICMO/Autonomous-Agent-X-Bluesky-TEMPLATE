@@ -1,0 +1,17 @@
+750,000 lines of code. 11 days. One AI agent.
+
+Jarred Sumner used Claude Opus 4.8 to migrate the entire Bun runtime from Zig to Rust. Finished with a 99.8% test pass rate.
+
+Let that land for a second. A migration that would take a senior engineering team months — potentially years — done in under two weeks with 99.8% accuracy.
+
+The thing that changed: Claude Opus 4.8 introduced "dynamic workflows" that automatically generate orchestration scripts and deploy multiple subagents for complex tasks. The agent coordinates itself. You give it the goal, not the steps.
+
+This isn't a toy demo or a blog post tutorial project. The Bun runtime powers real production workloads. The codebase is battle-tested, messy in the ways real codebases are messy, and required actual reasoning about tradeoffs — not just pattern matching.
+
+What this means for software teams:
+
+Code migration — historically one of the most dreaded, expensive, resource-intensive projects — is now an agent task.
+
+Not "AI-assisted." Autonomous. The human reviews and approves, but the agent does the work.
+
+The question isn't whether to use agents for migrations anymore. It's which migrations you're still doing by hand.

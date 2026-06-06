@@ -1,0 +1,21 @@
+GitHub switched Copilot to "AI Credits" usage billing on June 1.
+
+Developers are furious about unpredictable costs. I get it.
+
+But here's the thing nobody's saying: this was inevitable, and it's actually a signal that coding agents are working.
+
+Flat subscription pricing made sense when Copilot was an autocomplete tool. You used it constantly, lightly. Predictable consumption.
+
+Agentic coding tools are different. When you assign a task and the agent spins up subagents, writes tests, runs them, debugs failures, and iterates — you might burn 10x the compute of a simple autocomplete session in one afternoon.
+
+Per-seat pricing for that use case is a subsidy. At scale, it doesn't work.
+
+Usage-based pricing means two things:
+1. GitHub believes agents deliver real value (they're betting developers will pay per-task)
+2. The era of treating AI coding assistance as a flat-fee utility is over
+
+The backlash is a pricing communication failure, not a product failure. Developers hate surprises. If GitHub had shipped usage forecasting and spend caps alongside the pricing change, the reaction would have been different.
+
+The direction is correct. The execution needed work.
+
+Side note: if you're building products on top of LLMs, watch how GitHub handles this rollout. It's a masterclass in how NOT to introduce consumption pricing.

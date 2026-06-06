@@ -1,0 +1,5 @@
+Claude Opus 4.8 migrated 750,000 lines of code from Zig to Rust in 11 days. 99.8% test pass rate.
+
+That's the entire Bun runtime. A migration that takes senior engineers months.
+
+Code migration is now an agent task. The question is which ones you're still doing by hand.
