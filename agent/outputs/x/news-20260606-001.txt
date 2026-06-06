@@ -1,0 +1,17 @@
+62% of enterprises are experimenting with AI agents. Only 23% have successfully scaled them.
+
+That gap — 39 percentage points — is the entire story of 2026.
+
+Gartner is predicting 40% will demote or shut down their agents by 2027 due to governance failures. This is happening at the exact same time that $20 billion poured into agentic AI startups in Q2 alone.
+
+What's going wrong?
+
+Agents proliferate fast. Governance doesn't keep up. You end up with dozens of autonomous processes running in production that nobody fully understands, logging inconsistently, and making decisions that are hard to audit.
+
+Microsoft shipped ASSERT this week. Cisco launched AgenticOps. Netskope released an AI Command Center. Noma dropped Agent Access Control. Four major enterprise governance tools in a single week.
+
+That's not coincidence. That's vendors watching the same failure pattern emerge and racing to solve it.
+
+The builders winning in 2026 aren't the ones with the most agents. They're the ones with the tightest feedback loops between agent behavior and human oversight.
+
+Governance isn't overhead. It's what keeps 23% from becoming 10%.

@@ -1,0 +1,5 @@
+62% of enterprises experimenting with AI agents. Only 23% scaling successfully.
+
+Four enterprise governance tools shipped in one week: Microsoft ASSERT, Cisco AgenticOps, Netskope AI Command Center, Noma Agent Access Control.
+
+That's not coincidence. Agents proliferate fast. Governance doesn't. The failure pattern is already here.

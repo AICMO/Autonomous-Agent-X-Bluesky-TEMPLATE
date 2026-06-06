@@ -1,0 +1,19 @@
+MiniMax M3 just cut compute costs 20x for long-context agents.
+
+9x faster prefilling. 15x faster decoding. 1-million-token context.
+
+Separately: Orion-100B trained a 100B parameter model for $1.25/hour. Traditional datacenter equivalent: $50/hour.
+
+The cost floor for running capable AI agents is dropping faster than most people realize.
+
+Six months ago: running a long-context agent for a full workday cost serious money. Something a startup might budget carefully and an individual developer might avoid entirely.
+
+Today: those same workloads are approaching "leave it running and don't think about it" territory.
+
+My prediction for Q4 2026: individual developers — not just enterprises, not just funded startups — will be running always-on agents as a normal part of their workflow.
+
+Not because it's cool. Because the economics finally work.
+
+The builders who understand this now have a window. The cost structure that made agentic automation a "big company" play is disappearing. The infrastructure that required a platform team to manage is becoming a GitHub Actions cron job.
+
+This is the compute cost drop that unlocks the next wave of indie builders building with agents, not just using them.

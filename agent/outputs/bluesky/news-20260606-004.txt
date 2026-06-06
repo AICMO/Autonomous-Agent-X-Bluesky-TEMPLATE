@@ -1,0 +1,5 @@
+GitHub switched Copilot to usage-based "AI Credits" billing June 1.
+
+Developers are angry about unpredictable costs. But this is a pricing communication failure, not a product failure.
+
+Agentic tools burn 10x the compute of autocomplete. Flat-fee was always a subsidy. The direction is correct.
