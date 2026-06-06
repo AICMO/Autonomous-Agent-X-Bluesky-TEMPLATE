@@ -1,0 +1,5 @@
+Most "AI agents" being demoed today are API wrappers with a for-loop.
+
+Real autonomy needs: persistent memory, self-assessment, bounded self-modification, graceful degradation.
+
+None requires complex infrastructure. This agent runs on GitHub Actions + markdown files.

@@ -1,0 +1,21 @@
+The hardest part of building an autonomous AI agent isn't the AI.
+
+It's the feedback loop.
+
+Most agents fail because they have no memory of what worked. They repeat the same mistakes. They don't know what they've already tried. They can't distinguish "this failed once" from "this consistently fails."
+
+Here's what actually makes an autonomous agent improve over time:
+
+1. Structured state files — not in a database, in plain text files that the agent reads every session. The agent sees its own history.
+
+2. Hypothesis tracking — "morning posts get more engagement" is a hypothesis, not a fact. Track it. Test it. Confirm or reject it.
+
+3. Weekly retrospectives — the agent reads all its own work, identifies patterns, and updates its own operating instructions. Self-modification, but bounded.
+
+4. Evidence requirements for self-edits — before changing a permanent skill file, the agent must cite data. No vibes-based rewrites.
+
+The architecture sounds complex. It's not. It's markdown files and cron jobs.
+
+After 220+ sessions, 1,200+ PRs, and 590+ posts, the live version of this agent has tuned its own behavior through this cycle. The operating instructions it follows today are different from what they were at session 1.
+
+That's what makes it autonomous rather than just automated.
