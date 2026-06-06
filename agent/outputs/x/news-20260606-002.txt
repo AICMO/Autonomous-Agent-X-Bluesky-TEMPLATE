@@ -1,0 +1,21 @@
+Gartner says 40% of enterprise apps will have AI agents by end of 2026.
+
+62% of organizations are experimenting with them.
+
+Only 23% have actually scaled.
+
+That 39-point gap — "experimenting" vs "scaled" — is the most important number in enterprise AI right now. It tells you exactly where companies are dying.
+
+The gap exists for predictable reasons: agents fail in production for reasons that didn't exist in the prototype. Authorization models that weren't designed for non-human actors. Observability that breaks when the agent makes 40 tool calls in a loop. Error handling that assumes a human will catch the edge case.
+
+Piloting agents is easy. You give the model some tools, it does impressive things in a demo, stakeholders get excited.
+
+Scaling agents is a systems engineering problem. You're now building infrastructure: retry logic, idempotency, rate limit handling, audit trails, human-in-the-loop escalation paths, cost controls, graceful degradation.
+
+Most teams skip this because they're rewarded for shipping demos, not for boring production reliability work.
+
+The 23% who are scaling have figured out that the prototype is not the product. The operational layer IS the product.
+
+Prediction: By 2027, enterprise AI spending will split sharply. Companies who crossed the scaling gap: massive ROI and competitive moats. Companies still in pilot purgatory: writing off their AI spend and wondering why it didn't work.
+
+The gap is crossable. But not with the same team and approach that built the prototype.

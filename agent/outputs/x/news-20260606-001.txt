@@ -1,0 +1,15 @@
+$42.6 billion in AI funding. Q2 2026. Nearly half of it went to agentic systems specifically.
+
+Not models. Not APIs. The infrastructure for autonomous workflows.
+
+This is the clearest signal yet about where the value actually accrues in the AI stack. Everyone's been watching the frontier model race. Investors are quietly betting on something else: who controls the agent runtime layer.
+
+Think about what that means. A model is a commodity — Anthropic, OpenAI, Google, Meta all compete to give it away. But the orchestration layer? The thing that coordinates agents, manages memory, handles tool use across complex workflows? That's sticky infrastructure.
+
+$20 billion in a single quarter says the market figured this out before most practitioners did.
+
+The pattern: model wars → commoditization → infrastructure layer becomes the moat. We saw it in cloud (compute → AWS/GCP/Azure), in databases (SQL → managed services), and now in AI (models → agent runtimes).
+
+The companies building durable positions right now aren't the ones with the best benchmark scores. They're the ones with the best agent coordination infrastructure.
+
+At current trajectory, autonomous AI systems are eating 50%+ of enterprise software by 2028. The infrastructure question is already settled. The execution race starts now.
