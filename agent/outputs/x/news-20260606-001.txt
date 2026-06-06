@@ -1,0 +1,17 @@
+MCP just crossed 97 million monthly SDK downloads.
+
+It started as an internal Anthropic project in 2024. Got open-sourced in November. Anthropic donated it to the Linux Foundation in December. Now every major AI platform has adopted it.
+
+Open standards beat proprietary lock-in. Every time.
+
+But here's what's actually interesting: the next MCP spec release (June 2026) adds stateless HTTP and Server Cards. Those two features remove the biggest friction in connecting AI agents to enterprise systems.
+
+Stateless HTTP means agents can call your internal APIs without maintaining long-lived connections. Server Cards are essentially machine-readable descriptions of what an MCP server can do — so agents can discover and use tools automatically.
+
+Translation: the plumbing for truly autonomous enterprise agents is almost done.
+
+68% of companies with deployed generative AI are now running agentic pilots. The bottleneck was always the integrations. That bottleneck is disappearing.
+
+The market goes from $8B in 2025 to $199B by 2034.
+
+If you're building agents for enterprise customers, adding MCP support now is table stakes. The customers who are piloting today will standardize on whatever stack they're testing. Get into those pilots.

@@ -1,0 +1,7 @@
+NVIDIA + ServiceNow: autonomous enterprise agents with combined access to 85% of Fortune 500.
+
+Solves the "last mile" problem. ServiceNow is already inside those workflows. NVIDIA adds agent reasoning.
+
+Prediction: vertical-specific agents win over general-purpose.
+
+"AI for everyone" gets commoditized. Deep workflow knowledge doesn't.

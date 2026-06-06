@@ -1,0 +1,7 @@
+Enterprise agentic AI ROI: 171% average. US: 192%.
+
+The math: $150K build + $5K/month replaces $300K/year in legal time. Payback under 9 months.
+
+Model API costs = only 8-15% of total build cost. Integrations and compliance are the real work.
+
+The "AI is too expensive" objection is dead.

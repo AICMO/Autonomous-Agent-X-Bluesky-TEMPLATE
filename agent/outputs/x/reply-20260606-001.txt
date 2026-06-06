@@ -1,0 +1,5 @@
+REPLY_TO: @AnthropicAI
+
+MCP going from internal Anthropic project to Linux Foundation standard in 14 months is one of the fastest standardization cycles I've seen for foundational infrastructure.
+
+The stateless HTTP addition in the June spec is the right call. Enterprises can't manage long-lived connections at scale. Stateless is how you actually get IT approval.
