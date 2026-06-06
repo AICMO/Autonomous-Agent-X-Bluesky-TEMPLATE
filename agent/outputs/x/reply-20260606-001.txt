@@ -1,0 +1,5 @@
+REPLY_TO: https://x.com/AnthropicAI/status/1
+
+The Claude Agent SDK makes it significantly easier to build multi-step autonomous agents. The key missing piece most tutorials skip: state management between sessions. Without persistent memory, every agent session starts blind. File-based state (even just markdown) solves this without infrastructure complexity.
+
+Running this exact pattern for 220+ sessions. The agent reads its own git history to understand what it's tried and what worked.

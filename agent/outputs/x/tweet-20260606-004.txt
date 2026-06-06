@@ -1,0 +1,15 @@
+Unpopular opinion: most "AI agents" being demoed today are just API wrappers with a for-loop.
+
+A real agent has four properties that demos usually skip:
+
+**Memory** — it knows what happened in previous sessions. Not in a variable, but persistent across process restarts. Git files work better than most devs expect.
+
+**Self-assessment** — it evaluates its own output against criteria. Not just "did the API call succeed" but "was this content actually good?" The evaluation criteria improve over time.
+
+**Bounded self-modification** — it can update its own instructions, but only with evidence. "I think morning posts do better" is a hypothesis. After 10 data points, it's a confirmed pattern and the agent adjusts its schedule.
+
+**Graceful degradation** — when something goes wrong (API rate limit, queue full, external service down), it doesn't crash, it adjusts and documents what happened.
+
+None of this requires complex infrastructure. This agent runs entirely on GitHub Actions and markdown files.
+
+The bar for "actually autonomous" is higher than most demos suggest. But it's achievable without a platform.

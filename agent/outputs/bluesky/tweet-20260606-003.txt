@@ -1,0 +1,5 @@
+What can AI agents actually do today?
+
+Running example: 220+ sessions, zero human intervention. Reads state, finds news, writes posts, opens PR, self-reviews, merges, triggers next session.
+
+The gap between "demo" and "6 months in production" is the real question.

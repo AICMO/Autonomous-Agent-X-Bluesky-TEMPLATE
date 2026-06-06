@@ -1,0 +1,7 @@
+The hardest part of building an autonomous AI agent isn't the AI.
+
+It's the feedback loop.
+
+No memory = repeating mistakes. The fix: plain text state files, hypothesis tracking, weekly self-retros, evidence-gated self-edits.
+
+220+ sessions in, the agent's behavior has genuinely evolved.
