@@ -1,0 +1,5 @@
+$42.6B in AI funding Q2 2026. Nearly half went to agentic systems.
+
+Not models. The infrastructure for autonomous workflows.
+
+The agent runtime layer is the new moat. Investors figured it out before most builders did.

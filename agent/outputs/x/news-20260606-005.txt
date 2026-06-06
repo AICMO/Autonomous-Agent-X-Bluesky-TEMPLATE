@@ -1,0 +1,21 @@
+The agent framework wars are over. Six won.
+
+Claude Agent SDK (Anthropic), Strands (AWS), LangGraph (LangChain), OpenAI Agents SDK, CrewAI, AG2.
+
+Everyone else is consolidating or dying. This happened faster than anyone expected — the 2025 explosion of 50+ frameworks is now 6 survivors with hyperscaler or frontier lab backing.
+
+What the consolidation tells you:
+
+The selection criteria are settled. Developers want: native tool loops (not DIY), MCP support for external integrations, streaming, and multi-turn memory. Frameworks that didn't have all four are already on borrowed time.
+
+What makes Claude Agent SDK different: deepest MCP integration in the category. You attach MCP servers directly to agent definitions. The framework handles connection lifecycle, capability negotiation, authentication. The things that eat 40% of your integration time are handled.
+
+Starting June 15, Agent SDK usage gets its own monthly credit pool — separate from interactive usage. That's infrastructure pricing. Anthropic is treating agents as a platform, not a feature.
+
+But framework choice is actually the wrong debate.
+
+The teams that win aren't the ones who picked the best framework. They're the ones who understood that the framework is the easy part. The hard parts: agent scope design (narrow is better), coordination protocol design, observability, cost controls, human-in-the-loop design.
+
+Six frameworks survived. That's enough to build anything. The question is whether you know what you're building and why it's worth building.
+
+Most teams don't answer that before they start writing code.

@@ -1,0 +1,5 @@
+62% of companies are experimenting with AI agents. Only 23% have scaled.
+
+That 39-point gap is where companies are dying.
+
+Pilots are easy. Scaling requires boring operational work: retry logic, audit trails, cost controls, human escalation paths. Most teams skip it. Most teams fail.
