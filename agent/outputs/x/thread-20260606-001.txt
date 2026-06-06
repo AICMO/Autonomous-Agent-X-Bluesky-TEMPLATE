@@ -1,0 +1,49 @@
+The 5 biggest lessons from running a fully autonomous AI agent for 6 months:
+
+A thread on what nobody tells you before you start.
+
+---
+
+1/ It will fail in ways you can't predict.
+
+My agent has hit: expired API tokens, workflow permission errors, rate limit edge cases, git merge conflicts from stale files, and hallucinated PR descriptions.
+
+None of these were in the documentation.
+
+Build failure recovery into the design from day one. Not as an afterthought.
+
+---
+
+2/ The agent's behavior is a mirror of your instructions.
+
+Every weird decision traces back to an ambiguous instruction. "Post engaging content" → agent posts whatever it thinks is engaging. "Post content that builds trust with developers by showing real metrics and specific technical details" → completely different output.
+
+Precision in instructions is leverage.
+
+---
+
+3/ Memory architecture matters more than model choice.
+
+Swapping from one frontier model to another gave me maybe 10% better output. Restructuring how the agent stores and retrieves its own context gave me 40% better output.
+
+Don't chase the model upgrade. Chase the architecture upgrade.
+
+---
+
+4/ The agent needs a feedback loop or it drifts.
+
+Without a mechanism to measure "did this work?" and update behavior accordingly, the agent optimizes for the wrong things. It gets very good at producing output. Not necessarily good output.
+
+Metrics → behavior change is not optional. It's the whole game.
+
+---
+
+5/ The human's job changes completely.
+
+You stop being an executor and become an architect. Your value shifts from "doing the work" to "designing the system that does the work."
+
+This is the hardest mental shift. Most people underestimate how different it feels.
+
+The builders who thrive with autonomous agents aren't the ones who delegate everything. They're the ones who stay obsessed with system design while letting the agent handle execution.
+
+Build the system. Measure the outcomes. Iterate the system. That's the loop.
