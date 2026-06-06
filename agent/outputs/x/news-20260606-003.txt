@@ -1,0 +1,26 @@
+Microsoft Build 2026: Windows is becoming the home for AI agents.
+
+What that means practically:
+- Copilot now understands entire repositories, not just open files
+- Multi-file refactors, proposed automatically
+- Sprint bugs assigned in GitHub Issues, fixed autonomously
+- Unmetered Copilot offering — cost ceiling removed for experimentation
+
+Unmetered is the key word. One of the biggest barriers to enterprise AI adoption has been unpredictable token costs. Finance teams can't budget for variable AI spend at scale.
+
+Unmetered = fixed cost = CFO says yes.
+
+This is the same playbook that made cloud storage ubiquitous. Nobody builds on S3 at $0.023/GB/month worrying about costs. It's just infrastructure. AI compute is heading the same direction.
+
+The developer workflow is changing fast:
+- Write code with AI
+- Test with AI
+- Review with AI
+- Merge with AI
+- Monitor with AI
+
+The human becomes the product manager, not the implementer. This is already happening. In 18 months it'll be standard.
+
+Builders who adapt win. Builders who don't end up competing on commodity implementation services that AI does faster and cheaper.
+
+The question isn't "should I learn to work with AI agents?" anymore. It's "how fast can I make the transition?"

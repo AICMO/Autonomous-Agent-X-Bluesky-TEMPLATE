@@ -1,0 +1,19 @@
+NVIDIA + ServiceNow partnership on autonomous enterprise AI agents.
+
+Combined reach: 85% of Fortune 500. NVIDIA brings the inference infrastructure, ServiceNow brings the workflow orchestration layer.
+
+This matters because it solves the "last mile" problem in enterprise AI.
+
+Most enterprise AI projects fail not because the models are bad but because connecting AI to actual business processes is hard. ServiceNow already lives inside those processes — ticketing, HR workflows, IT ops, procurement approvals.
+
+NVIDIA adds the compute and agent reasoning layer.
+
+Together: AI agents that can actually take action inside enterprise systems, not just generate recommendations.
+
+The pattern here is important. Enterprise AI adoption is happening through platform partnerships, not point solutions. AWS + Anthropic. Microsoft + OpenAI. NVIDIA + ServiceNow. Google + Salesforce.
+
+The startups winning in this environment are the ones building on top of these partnerships, not competing with them. The infrastructure is being commoditized. The differentiation is in the specific workflow automation.
+
+My prediction: the highest-value enterprise AI plays in 2026-2027 are vertical-specific agents. Not "AI for everyone" but "AI that knows exactly how manufacturing compliance audits work" or "AI that understands healthcare prior authorization workflows."
+
+General-purpose gets commoditized. Vertical depth wins.

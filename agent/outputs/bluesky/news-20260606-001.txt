@@ -1,0 +1,7 @@
+MCP hit 97M monthly SDK downloads. Started as internal Anthropic, now a Linux Foundation open standard.
+
+June 2026 spec adds stateless HTTP + Server Cards — removes the last enterprise integration friction.
+
+68% of companies with gen AI are running agentic pilots. The bottleneck was always integrations.
+
+That bottleneck is gone.

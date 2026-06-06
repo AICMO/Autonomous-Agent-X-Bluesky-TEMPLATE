@@ -1,0 +1,20 @@
+Enterprise agentic AI is returning 171% average ROI. US enterprises: 192%.
+
+And payback periods are compressing fast. Early adopters report measurable ROI in 4-6 weeks vs 6-12 months for in-house builds.
+
+Here's the math on why this is real, not hype:
+
+A contract review agent costs $150K to build + $5K/month to run. It replaces 3 hours/contract × $200/hr × 500 contracts/year = $300K in legal time. Payback in under 9 months.
+
+But the more interesting number: model API costs are only 8-15% of total enterprise build cost. The rest is integrations, security, compliance, monitoring.
+
+That's where the value is actually created. And that's why enterprise AI builders who solve integrations win.
+
+This also means the "AI is too expensive" objection is dead. The cost structure is:
+- Build: $50K-$200K one-time
+- Run: $1K-$5K/month API costs
+- Replace: $300K+ in annual labor
+
+The math works. The question now is execution.
+
+$139B market by 2034. The winners are being decided in the next 18 months.

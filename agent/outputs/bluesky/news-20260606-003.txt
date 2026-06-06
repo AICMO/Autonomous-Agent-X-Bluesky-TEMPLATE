@@ -1,0 +1,7 @@
+Microsoft Build 2026: Copilot now understands entire repos, proposes multi-file refactors, fixes sprint bugs autonomously.
+
+Plus: unmetered offering removes cost ceiling for experimentation.
+
+Fixed cost = CFO says yes. Same playbook that made cloud storage ubiquitous.
+
+AI compute is becoming infrastructure.
