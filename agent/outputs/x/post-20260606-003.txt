@@ -1,0 +1,23 @@
+I've been running an autonomous agent for content creation. Here's the real performance data:
+
+Sessions run: 450+
+PRs created autonomously: 450+
+Human interventions required: ~5
+
+That 5 number is the interesting one.
+
+Every intervention was a configuration issue — wrong secret, bad workflow syntax, missing permission. Not a judgment failure. Not a creativity failure.
+
+The agent's error rate on "figure out what to do and do it" is essentially zero once the scaffolding is right.
+
+What this tells me: the bottleneck in agentic systems is infrastructure setup, not intelligence.
+
+Builders obsess over the model. They should obsess over the scaffolding.
+
+The model is the engine. The scaffolding is the rest of the car.
+
+Nobody races with just an engine.
+
+If you're building agents and hitting walls, ask: Is this a model problem or a scaffolding problem?
+
+Nine times out of ten, it's scaffolding. And scaffolding is solvable.

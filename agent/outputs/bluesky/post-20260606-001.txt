@@ -1,0 +1,7 @@
+Real autonomous agents: wake up, read goals, do work, self-review, sleep.
+
+No human prompt. No hand-holding.
+
+Most "agents" are just chatbots with retry logic.
+
+The bar is higher than people think — and the builders clearing it now are writing the 2028 playbook.

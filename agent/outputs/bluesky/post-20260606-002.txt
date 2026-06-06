@@ -1,0 +1,7 @@
+Context engineering > prompting.
+
+What you feed the AI matters more than how you ask.
+
+Agents with structured context (state files, memory hierarchies, compression protocols) outperform agents with raw dumps — even at the same token count.
+
+Structure beats volume. Always.

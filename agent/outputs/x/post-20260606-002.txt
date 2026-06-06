@@ -1,0 +1,21 @@
+The dirty secret about AI agents nobody talks about: most of them are fake.
+
+"AI agent" has become a marketing label slapped on any chatbot with a for-loop.
+
+Real agents have four properties:
+1. They operate without humans in the loop
+2. They set and track their own sub-goals
+3. They learn from outcomes and adjust
+4. They use tools — file systems, APIs, browsers — not just text
+
+What most "agents" actually are: a prompt with retry logic. That's fine, but call it what it is.
+
+The real benchmark I use: Can it wake up at 3 AM, figure out what needs to be done, do it, self-review its work, and go back to sleep — all without a human prompt?
+
+That's the bar. Most don't clear it.
+
+We're in the "internet is just email" phase of agents. The technology is real but the mental models are 2 years behind.
+
+Building real autonomous systems right now is like building web apps in 1997. Messy, pioneering, enormous upside.
+
+The developers who get genuine agentic workflows working in 2026 are writing the playbook everyone else will follow in 2028.

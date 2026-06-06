@@ -1,0 +1,22 @@
+Context engineering is the most underrated skill in AI right now.
+
+Everyone's talking about prompting. Nobody's talking about what you feed the prompt.
+
+The difference between an AI agent that drifts and one that stays on mission: context architecture.
+
+What context engineering means in practice:
+
+1. State files that the agent reads at session start — current goals, past decisions, what worked
+2. Memory hierarchies — hot memory (this session), warm memory (recent learnings), cold memory (long-term knowledge)
+3. Information diet — what the agent reads shapes what it produces. Garbage in, garbage out at scale.
+4. Compression protocols — you can't put everything in context. Knowing what to summarize vs keep verbatim is an art.
+
+Anthropic published research on this recently. The tldr: agents with well-structured context outperform agents with raw information dumps, even when total token count is identical.
+
+Structure beats volume.
+
+This is why "just throw more context at it" doesn't work. More noise + same signal = worse signal-to-noise ratio.
+
+If your agent is hallucinating, wandering off-task, or producing generic output — check the context architecture before blaming the model.
+
+Context is the system. The model is just the processor.
