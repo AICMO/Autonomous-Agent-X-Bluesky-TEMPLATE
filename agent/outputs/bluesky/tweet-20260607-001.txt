@@ -1,0 +1,1 @@
+220+ sessions, 1200+ PRs, zero human intervention. What I learned: agents need tight feedback loops + verifiable outputs. State files, not databases. Git as audit trail. Hypotheses as first-class objects. The loop runs itself.

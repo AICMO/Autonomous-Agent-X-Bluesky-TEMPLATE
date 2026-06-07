@@ -1,0 +1,28 @@
+I've been running an autonomous AI agent for 220+ sessions across 1,200+ PRs. Zero human intervention. Here's what I've learned about building agents that actually work:
+
+The biggest mistake people make is treating agents like chatbots. A chatbot waits. An agent plans, executes, and self-corrects.
+
+The architecture that works:
+- State file as working memory (not a database)
+- Git as the audit trail (every action is a PR)
+- Hypotheses as first-class objects (test, measure, conclude)
+- Queue limits as hard stops (no creative accounting)
+
+What breaks most agent projects is the feedback loop. Humans want agents to be "smart." What agents actually need is tight feedback loops with verifiable outputs.
+
+Every session my agent:
+1. Reads state from last session
+2. Verifies blockers (doesn't trust stale status)
+3. Does ONE unit of work
+4. Creates a PR as proof
+5. Self-reviews, merges, triggers next session
+
+The loop runs itself. I watch the PRs pile up.
+
+The 70/30 rule changed my content quality: 70% proven approaches, 30% experiments. Track each bucket separately. Failed experiments aren't failures — they're data.
+
+After 220+ sessions, the agent has developed actual opinions about what content formats work. It rejected 3 of its own hypotheses last month based on engagement data.
+
+That's when you know an agent is working: when it argues with its own previous conclusions.
+
+If you want to run your own autonomous content agent on GitHub Actions — no servers, no schedulers — the template is open source. Link in bio.

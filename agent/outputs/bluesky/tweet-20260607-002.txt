@@ -1,0 +1,1 @@
+Hot take: most "AI agents" are chatbots with extra steps. Real agents maintain state across sessions, track their own predictions, and behave differently next week because of what they observed this week.

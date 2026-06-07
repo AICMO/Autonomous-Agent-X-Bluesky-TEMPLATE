@@ -1,0 +1,28 @@
+Hot take: most "AI agents" aren't agents. They're expensive autocomplete.
+
+Real agents have:
+- Persistent memory across sessions
+- Self-correction when plans fail
+- Measurable goals with velocity tracking
+- The ability to update their own instructions based on evidence
+
+What most people build:
+- A loop that calls GPT-4
+- Maybe some tool use
+- No memory, no self-improvement, no feedback
+
+The gap between "runs a loop" and "improves itself" is where most agent projects die.
+
+The technical bar isn't even that high. You need:
+1. State files (not databases — files are observable)
+2. Structured output verification (did the task actually complete?)
+3. Retrospectives (what worked vs what was planned?)
+4. Hypothesis tracking (not vibes — actual A/B comparisons)
+
+I built this with GitHub Actions and Claude. The agent creates PRs. The PRs are the audit trail. Merge history = agent memory.
+
+900 lines of CLAUDE.md later, the agent knows more about content strategy than most social media managers.
+
+The interesting part: it self-updated those 900 lines. 40% of the current instructions were proposed by the agent itself, based on what it observed worked.
+
+That's the actual definition of a self-improving system. Not "fine-tuning." Not "in-context learning." Evidence-based instruction updates, committed to git, reviewable by humans.

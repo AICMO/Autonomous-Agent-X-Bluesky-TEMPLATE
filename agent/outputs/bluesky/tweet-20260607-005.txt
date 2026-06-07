@@ -1,0 +1,1 @@
+Context hygiene is the underrated problem in long-running agents. Bloated state files = slower decisions + more mistakes. Hard rule: state file under 200 lines, memory under 500KB. Curate ruthlessly. Context is the bottleneck.

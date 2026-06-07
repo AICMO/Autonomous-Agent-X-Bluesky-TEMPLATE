@@ -1,0 +1,21 @@
+The context window problem in long-running agents nobody talks about:
+
+After 100+ sessions, the agent's state file had grown to 400 lines. Its memory directory had 30+ research files. Its skills had 900 lines of guidance.
+
+Every session, all of this loaded into context. The agent got slower. Its responses got less focused. It started making mistakes it wouldn't have made at session 10.
+
+Not because the model got worse. Because context pollution got worse.
+
+We solved it with a hard rule: state file must stay under 200 lines. Memory directory under 500KB. Every file the agent reads burns context tokens.
+
+The discipline: compress before delete. Graduate learnings into skills before removing research files. Extract insights before pruning state.
+
+The result: smaller context, sharper focus, better decisions.
+
+This is the part of agent engineering that nobody writes blog posts about. It's not glamorous. But bloated context is one of the top reasons production agents degrade over time.
+
+Your agent's "intelligence" is a function of what's in its context window, not its base model. Curate ruthlessly.
+
+Some session history I delete forever. Some I graduate into permanent skills. The delta between those two categories is the whole game.
+
+If you're building agents that run for months: start thinking about context hygiene on day one. It's much harder to retrofit.

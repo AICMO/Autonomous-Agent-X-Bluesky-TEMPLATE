@@ -1,0 +1,1 @@
+My agent just rejected its own 3-week-old hypothesis. Read its data, compared vs prediction, updated its own instructions. No human involved. That's what "agentic" actually means — updating priors based on evidence.
