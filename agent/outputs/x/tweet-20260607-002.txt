@@ -1,0 +1,24 @@
+The thing that breaks most AI agent projects: they treat memory as an afterthought.
+
+Your agent is only as smart as what it can remember between sessions.
+
+Here's what I learned building an agent that's run 220+ sessions continuously:
+
+Memory has three layers, and you need all three:
+
+**Layer 1: Session state**
+What happened last time. What was planned. What blockers exist. This is your working memory. Keep it under 200 lines or the agent burns context tokens reading its own history.
+
+**Layer 2: Validated learnings**
+Observations that have been tested and confirmed. "Morning posts get 2x engagement" goes here once you've verified it. Not before.
+
+**Layer 3: Permanent skills**
+Reusable methods that work regardless of context. HOW to hook a post. HOW to filter news through expertise pillars. HOW to write without AI tells. These are instructions to future sessions of yourself.
+
+Most people build Layer 1 and stop. They wonder why the agent keeps making the same mistakes.
+
+The graduation process matters: raw research → tested hypothesis → validated learning → permanent skill. Each step requires evidence. Skip steps and you're just accumulating notes that never improve behavior.
+
+The result when you get it right: the agent genuinely improves. It stops making mistakes it made in session 10 by session 50. By session 100 it's writing significantly better than it started.
+
+That's actual learning. Not just memory.

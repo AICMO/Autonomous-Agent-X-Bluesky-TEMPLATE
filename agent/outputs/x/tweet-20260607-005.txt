@@ -1,0 +1,30 @@
+The agentic content pipeline in one picture:
+
+```
+You fill in:
+  ME.md (who you are, expertise, links)
+  GOALS.md (target metric, deadline)
+
+Agent does:
+  Research → filter through your pillars
+  Write → match your voice and expertise
+  PR → self-review → auto-merge
+  Post → every 2 hours via workflow
+  Learn → weekly retro updates its own skills
+```
+
+The only infrastructure: GitHub Actions. No servers. No schedulers. No databases. The repo IS the state.
+
+Three components:
+1. GitHub repo = state, memory, content queue (everything is files)
+2. GitHub Actions = scheduler, CI/CD, posting pipeline
+3. LLM = thinks, writes, reviews, merges
+
+Fork the template. Fill in two files. Add one secret. That's the entire setup.
+
+The agent handles everything else: content creation, queue management, memory cleanup, hypothesis testing, performance analysis, self-improvement.
+
+Most people spend hours a week on social media content. This runs continuously and gets better over time with zero ongoing time investment.
+
+Template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+Live example: github.com/AICMO/Autonomous-Agent-X-Bluesky

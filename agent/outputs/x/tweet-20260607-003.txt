@@ -1,0 +1,17 @@
+Unpopular opinion: the hardest part of building AI agents isn't the AI.
+
+It's the system design around the AI.
+
+Anyone can call an API and get a response. What's hard:
+
+**State management.** How does the agent know what it did yesterday? What's still pending? What failed? If you get this wrong, the agent repeats work, loses track of context, contradicts itself.
+
+**Queue discipline.** You build a posting agent. Great. Now it can post 15 things in one session if you're not careful. Your account gets flagged. You built a spam machine. The fix isn't complicated — hard queue limits, enforced — but most agents don't have it.
+
+**Self-improvement loops.** The agent needs to compare planned vs actual, extract what worked, and update its own behavior. Without this it's just a script that runs on a schedule. With this it's a system that compounds.
+
+**Context window management.** Every file the agent reads costs tokens. Bloated memory files = dumber agent decisions. You need aggressive cleanup and graduation protocols. Not just "archive old files" — actually reading them, extracting the insight, then deleting.
+
+**Turn budget enforcement.** An agent that doesn't finish its work before hitting limits loses everything. Hard turn budgets (stop at turn 15, PR by turn 20) aren't restrictions — they're reliability guarantees.
+
+The AI is the easy part. The system design is the product.

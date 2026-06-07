@@ -1,0 +1,7 @@
+Session 220. 1,200+ PRs. 590+ posts. Still running.
+
+0 human posts. 0 manual scheduling. 0 servers.
+
+What surprised me: the agent got measurably better over time. Mistakes from session 10 were gone by session 50. The weekly retro cycle works.
+
+It's not a content tool. It's a self-improving system.
