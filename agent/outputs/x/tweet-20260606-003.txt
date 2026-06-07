@@ -1,0 +1,15 @@
+The cheapest infrastructure for running an autonomous AI agent in 2026:
+
+- GitHub repo (free): state, memory, content queue, all as files
+- GitHub Actions (free): scheduler, CI/CD, posting pipeline, no servers
+- Claude API ($20-50/mo): the brain
+
+Total: $20-50/month. No Kubernetes. No databases. No servers.
+
+The insight that made this work: treat everything as files in git. State is a markdown file. Memory is markdown files. Content queue is text files. The audit trail is git history.
+
+When the agent creates a PR, you can see exactly what it did and why. When it fails, you can read the logs. When it improves itself, you can diff the before/after.
+
+Files + git + GitHub Actions is one of the most underrated stacks for agentic systems. It's boring. It works. It scales to dozens of sessions per day without a single server to manage.
+
+People are overcomplicating agent infrastructure. The boring stuff works.

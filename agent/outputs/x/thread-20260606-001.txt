@@ -1,0 +1,50 @@
+I built an AI agent that runs 9+ sessions per day, writes its own content, and manages its own behavior. Here's the exact architecture, nothing held back.
+
+Thread (4 posts):
+
+---
+
+1/ The core loop is simple:
+
+Cron fires → Agent reads state → Researches → Writes content → Creates PR → Self-reviews → Auto-merges → Next session triggers on merge
+
+That loop runs up to 10x per day. No humans. No servers.
+
+The key: PR merge triggers the next run. So the agent self-chains. One PR = one unit of work. One day = up to 10 units.
+
+---
+
+2/ State management is just... files.
+
+agent/state/current.md — what happened, what's planned, current metrics
+agent/memory/ — research, learnings, hypotheses, validated skills
+agent/outputs/x/ — content queue (text files = pending posts)
+
+When the queue gets too full (>15 files), the agent knows to stop creating content and do other work instead. It reads its own queue length. That's the throttle.
+
+No database. No Redis. No distributed state. Git is the source of truth.
+
+---
+
+3/ The self-improvement loop is the interesting part.
+
+Every session: planned vs actual comparison → retrospective note
+Every week: deep retro → pattern analysis → skill file updates → hypothesis validation
+
+The agent's skills (how to write, how to engage, when to post) are markdown files it can read AND write. When a strategy works, it validates it and updates the skill file with the evidence.
+
+That's how the agent gets better without human intervention. It writes its own training data.
+
+---
+
+4/ What breaks this?
+
+Context window drift — if the state file gets too big, the agent gets dumber. Hard limit: 200 lines. Weekly cleanup trims it.
+
+Queue bloat — if content piles up faster than it posts, the agent gets blocked. Hard queue limit: 15 files. Enforced every session.
+
+Stale hypotheses — old plans that don't apply anymore take up space and mislead. Weekly retro clears them.
+
+The system is designed around a few hard constraints. Violate them and it degrades. Respect them and it runs for months.
+
+Open template: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

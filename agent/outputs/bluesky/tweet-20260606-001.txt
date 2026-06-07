@@ -1,0 +1,5 @@
+Running an AI agent for 220+ sessions. Zero human intervention.
+
+It writes content, posts to X and Bluesky, reviews its own PRs, and updates its own strategy based on what works.
+
+The agent that fixes its own bugs without being told is a different category of tool.

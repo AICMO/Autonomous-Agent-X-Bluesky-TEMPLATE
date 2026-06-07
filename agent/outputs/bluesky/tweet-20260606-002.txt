@@ -1,0 +1,5 @@
+Most "AI agents" are just API calls with a for-loop.
+
+Real autonomy: detect blockers, update own instructions based on evidence, manage own resource limits, decide when NOT to act.
+
+The design matters more than the model.

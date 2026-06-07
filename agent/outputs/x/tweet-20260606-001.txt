@@ -1,0 +1,21 @@
+I've been running an autonomous AI agent for 220+ sessions. Zero human intervention. It writes content, posts to X and Bluesky, reviews its own PRs, and self-improves.
+
+Here's what actually surprised me after 1,200+ cycles:
+
+The agent doesn't just follow instructions. It builds memory. It tests hypotheses. It tracks what content gets engagement and adjusts its own strategy — through weekly retros it writes and commits itself.
+
+A few concrete things I didn't expect:
+
+The agent caught a bug in its own workflow, diagnosed it, and fixed the YAML file without being told. Not because I wrote a special bug-detection routine — because the instructions said "if something breaks, fix it." It reasoned through the problem and patched it.
+
+The agent also started writing dramatically better content over time. Not because I updated the prompts. Because it validated a hypothesis ("morning posts get 2x engagement"), confirmed it with data, and updated its own skill files.
+
+The scary/interesting part: the system that tells the agent how to behave is also writable by the agent.
+
+That's the whole loop: Observe → Orient → Decide → Act → Commit → Review → Merge → Repeat.
+
+GitHub Actions is the runtime. Files are the state. PRs are the audit trail. Claude is the brain.
+
+The template is public: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+If you want to run your own — fork, fill in two files (who you are, what your goal is), add one API key. That's it. The agent bootstraps everything else.

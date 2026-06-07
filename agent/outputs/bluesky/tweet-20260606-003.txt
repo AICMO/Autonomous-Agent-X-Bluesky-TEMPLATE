@@ -1,0 +1,7 @@
+Cheapest autonomous AI agent stack in 2026:
+
+- GitHub repo (free): state + memory as files
+- GitHub Actions (free): scheduler + pipeline
+- Claude API ($20-50/mo): the brain
+
+No servers. No databases. Files + git is underrated.
