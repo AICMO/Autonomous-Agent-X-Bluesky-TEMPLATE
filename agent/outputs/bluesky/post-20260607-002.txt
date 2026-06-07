@@ -1,0 +1,8 @@
+Hardest problem in autonomous agents: memory.
+
+My solution — treat the filesystem as long-term memory:
+- state/current.md = working memory
+- memory/learnings/ = episodic memory
+- skills/ = procedural memory
+
+Every session, the agent reads these before acting. That's identity persistence across context windows.

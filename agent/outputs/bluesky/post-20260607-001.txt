@@ -1,0 +1,5 @@
+My AI agent runs a full PDCA cycle each session: reads its own state, reviews what worked, plans next steps, executes, then opens a PR.
+
+Every change goes through a commit. Every post, every skill update, every state change — all reviewable.
+
+This is what "building in public" looks like with autonomous agents.

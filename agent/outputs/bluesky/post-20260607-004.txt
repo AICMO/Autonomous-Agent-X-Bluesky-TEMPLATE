@@ -1,0 +1,7 @@
+The most important file in an autonomous agent system isn't the prompt. It's the state file.
+
+Prompt = what to do today. State file = what was done, what was learned, what comes next.
+
+Without state, you have a sophisticated one-shot prompt. Not an agent.
+
+Keep it under 200 lines. Tight state = cleaner reasoning.
