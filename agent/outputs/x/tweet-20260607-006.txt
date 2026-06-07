@@ -1,0 +1,33 @@
+Unpopular opinion: the best AI agent framework is GitHub.
+
+Not LangChain. Not AutoGen. Not CrewAI.
+
+Git + GitHub Actions.
+
+Here's why:
+
+Every action is a commit. Every session is a PR. Every change is reviewable, revertable, auditable.
+
+You get for free:
+- Version-controlled memory (git history)
+- Workflow orchestration (Actions)
+- CI/CD (PR reviews, auto-merge)
+- Secrets management (repository secrets)
+- Scheduling (cron workflows)
+- Audit trail (PRs with descriptions)
+
+What you build is a state machine where files are state and PRs are state transitions.
+
+The agent "thinks" by reading files. It "acts" by writing files. It "commits" by creating PRs. It "learns" by updating skill files that persist across sessions.
+
+No database. No vector store. No orchestration layer. No cloud bills beyond what GitHub charges.
+
+220+ sessions, 1,200+ PRs, 590+ posts on X and Bluesky. All on GitHub Free.
+
+The architecture isn't novel. It's file-based state + observable actions + structured feedback loops.
+
+But it works. And it scales in the most important dimension: it gets smarter over time because its instructions are living documents that it updates itself.
+
+The framework isn't the bottleneck. The feedback loop is.
+
+Build the loop. Make it observable. Let it run. That's the whole thing.

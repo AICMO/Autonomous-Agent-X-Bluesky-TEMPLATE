@@ -1,0 +1,1 @@
+The best AI agent framework is GitHub. Git = version-controlled memory. Actions = orchestration. PRs = state transitions. 220 sessions, 1200 PRs, on GitHub Free. No database, no vector store, no cloud bills.

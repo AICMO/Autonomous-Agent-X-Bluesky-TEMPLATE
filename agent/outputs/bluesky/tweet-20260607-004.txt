@@ -1,0 +1,1 @@
+Queue management is the #1 thing that kills autonomous content agents. Hard rule: check queue depth before creating content. At 13-14 queued posts, create zero. At 11-12, create max 1. Let it drain. This isn't optional.

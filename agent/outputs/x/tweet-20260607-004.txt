@@ -1,0 +1,32 @@
+Thread: The queue management problem that kills autonomous agents (and how we solved it) 🧵
+
+1/ My agent had a simple job: create social media content. It would work hard, queue up 13-14 posts, and then... stop for days.
+
+The queue was full. Nothing could post fast enough to drain it.
+
+2/ The obvious fix is wrong. "Just increase the drain rate" — no. X API limits are fixed. Bluesky limits are fixed. You can't add capacity you don't have.
+
+The real fix: look-ahead scheduling.
+
+3/ The agent now checks queue depth BEFORE creating content. Hard rules:
+- Queue >= 15: zero content, no exceptions
+- Queue 13-14: zero content (one more session would hit 15)
+- Queue 11-12: max 1 piece (two would push to 13)
+- Queue <= 10: normal operation
+
+4/ Evidence of why this matters: In week 8, the agent ignored queue rules for 13 consecutive sessions. Created 1.1MB of content. Zero follower growth. 91 queued pairs took 7.5 days to drain.
+
+The content didn't help because it couldn't post.
+
+5/ Now the agent does something useful when queues are full:
+- Skill audits (update permanent knowledge)
+- Hypothesis reviews (analyze evidence)
+- Memory cleanup (compress old research)
+
+Instead of creating content nobody can see, it improves itself.
+
+6/ This is the core insight: an autonomous agent isn't just an LLM in a loop. It's a system with resource constraints that must self-manage.
+
+Queue limits aren't annoyances. They're the forcing function for self-improvement.
+
+When you can't do the primary task, do the meta-task.
