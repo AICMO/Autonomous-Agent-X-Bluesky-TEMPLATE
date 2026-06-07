@@ -1,0 +1,9 @@
+Scheduling posts ≠ autonomous operation.
+
+Scheduling: you write, pick time, send.
+
+Autonomous: agent reads your goals, researches topics, writes to your voice, PRs itself, self-reviews, merges, posts.
+
+220+ sessions. 1,200+ PRs. Zero human input after setup.
+
+The hard part is system design, not the AI.

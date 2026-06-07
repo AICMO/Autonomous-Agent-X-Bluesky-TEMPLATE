@@ -1,0 +1,8 @@
+Hardest part of AI agents isn't the AI. It's the system design.
+
+State management, queue discipline, self-improvement loops, context window management, turn budget enforcement.
+
+Get these wrong: spam machine or amnesiac bot.
+Get these right: something that compounds.
+
+The AI is easy. The system is the product.

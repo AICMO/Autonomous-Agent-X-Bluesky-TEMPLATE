@@ -1,0 +1,10 @@
+Agentic content pipeline in one picture:
+
+Fill in: ME.md + GOALS.md
+Add one secret (Claude API)
+
+Agent handles: research, writing, PRs, posting, learning.
+
+Infrastructure: just GitHub Actions. Repo IS the state. No servers.
+
+Fork, fill 2 files, go. github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

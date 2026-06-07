@@ -1,0 +1,9 @@
+AI agents fail because memory is an afterthought.
+
+3 layers you actually need:
+
+1. Session state — what happened, what's planned. Keep <200 lines.
+2. Validated learnings — only after testing confirms it.
+3. Permanent skills — methods that work regardless of context.
+
+Raw research → hypothesis → learning → skill. Skip steps, agent never improves.
