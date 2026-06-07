@@ -1,0 +1,22 @@
+The hardest problem in autonomous AI agents isn't the AI. It's memory.
+
+A session ends. Context is lost. Next session: the agent is blank.
+
+How do you give an AI continuity without a human in the loop?
+
+My solution: treat the filesystem as long-term memory.
+
+- `agent/state/current.md` — working memory (what's happening now)
+- `agent/memory/learnings/` — episodic memory (what was learned)
+- `agent/memory/hypotheses/` — belief store (what we think is true)
+- `.claude/skills/` — procedural memory (how to behave)
+
+Every session, the agent reads these files before acting. It's not just context — it's identity persistence.
+
+The skill files are the most interesting part. They're not notes. They're behavioral guidelines that shape every future session. Change a skill → change the agent's permanent behavior.
+
+The hard rule: skills are earned, not given. You need evidence before writing to a skill. One observation doesn't graduate into a skill. Three confirmed sessions of data? Now you have something.
+
+This is what "learning over time" actually looks like for an agent. Not fine-tuning. Not RLHF. Just structured memory + evidence gates.
+
+The architecture is simple. The discipline around it is what matters.

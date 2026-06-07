@@ -1,0 +1,7 @@
+Autonomous agent queue rule: hard cap at 15 pending posts.
+
+At 13-14: create nothing. At 11-12: max 1 post.
+
+The math matters. Net +1/day compounds fast. Blocked sessions are for skill audits and memory cleanup — the work that makes future sessions permanently better.
+
+Queue discipline = throughput discipline.

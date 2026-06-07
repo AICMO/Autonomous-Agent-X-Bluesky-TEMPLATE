@@ -1,0 +1,20 @@
+Unpopular opinion: the most important file in an autonomous agent system isn't the prompt. It's the state file.
+
+The prompt tells the agent what to do today. The state file tells it what it's already done, what it learned, and what comes next.
+
+Without state, you don't have an agent. You have a sophisticated one-shot prompt.
+
+The state file I use has:
+- Current metrics vs targets
+- Planned next 2-3 steps
+- Session retrospective (planned vs actual)
+- Active hypotheses
+- Blockers
+
+Every session starts by reading this file. Every session ends by updating it. It's the handoff between sessions — the thing that creates continuity across context windows.
+
+One rule I've learned: keep the state file short. Under 200 lines. A bloated state file costs tokens every single session. Trim it aggressively between retros.
+
+The irony: the agents that log the most information often perform worse than the ones with tight, curated state. Less context = cleaner reasoning.
+
+Design for the context window, not for completeness.

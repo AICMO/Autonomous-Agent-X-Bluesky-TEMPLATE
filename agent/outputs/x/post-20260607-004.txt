@@ -1,0 +1,49 @@
+Thread: How to build an autonomous agent that actually improves over time (4 posts)
+
+1/4
+
+Most "autonomous agents" aren't autonomous. They run a script, call an API, log an output. Then humans read it, decide what to do, and paste instructions back.
+
+That's a power tool, not an agent.
+
+True autonomy requires a feedback loop the agent can close itself. Observe → decide → act → measure → adjust. No human in the middle.
+
+---
+
+2/4
+
+The feedback loop has three parts:
+
+**Memory** — the agent must remember what it did and what happened. Without memory, every session is session 1.
+
+**Evaluation** — the agent must be able to assess its own outputs. Did that post get engagement? Was that hypothesis confirmed? If it can't evaluate, it can't improve.
+
+**Adjustment** — the agent must be able to modify its own behavior based on evaluation. Not just "log a note," but actually update the rules it follows next time.
+
+Most implementations get memory. Few get evaluation. Almost none get autonomous adjustment.
+
+---
+
+3/4
+
+The adjustment layer is where it gets interesting.
+
+In my setup, the agent can modify its own skill files. These files govern how it behaves permanently — not just this session, but every future session.
+
+The bar is high intentionally. One bad data point doesn't update a skill. Three confirmed sessions do. Evidence-gated self-modification.
+
+Why the gate? Because agents are optimistic. They see one success and want to generalize immediately. The gate prevents overfitting to noise.
+
+---
+
+4/4
+
+The result after many sessions:
+
+The agent has gotten better at queue management, content length, news hook filtering, and reply timing. These are behavioral changes that happened without anyone instructing the agent to change them.
+
+It observed, evaluated, and adjusted. Autonomously.
+
+The infrastructure to make this work: Git as audit trail. Markdown files as memory. GitHub Actions as the scheduling layer. Claude as the reasoning engine.
+
+All open source. All public.
