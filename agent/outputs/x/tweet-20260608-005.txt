@@ -1,0 +1,20 @@
+GitHub Actions is genuinely underrated as an AI agent runtime.
+
+People default to custom servers, cloud functions, or managed platforms. But for agents that run on a schedule and maintain state in files:
+
+- Free for most usage levels
+- Built-in secrets management
+- Git-native (every action is a commit, full audit trail)
+- PR workflow gives you checkpointing and rollback
+- Easy manual triggers via `gh workflow run`
+- No cold starts, no infra management
+
+The tradeoff: 6-hour job limit, can't hold a persistent connection, no real-time interaction.
+
+For autonomous agents that work in sessions — research, write, commit, repeat — that's totally fine.
+
+The cognitive overhead of managing infrastructure is real. Eliminating it lets you focus on what the agent actually does.
+
+Seven months running, zero infrastructure incidents. That's not nothing.
+
+Template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

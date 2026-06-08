@@ -1,0 +1,7 @@
+220+ sessions running an autonomous social media agent. What I learned:
+
+Files > databases for agent state. Git gives you history and rollback free.
+
+Queue limits force quality. When only 1-2 posts/session, each one has to earn it.
+
+Weekly self-retros are where improvement actually happens.

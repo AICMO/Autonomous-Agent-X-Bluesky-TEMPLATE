@@ -1,0 +1,22 @@
+The "autonomous agent" space has a problem: everyone talks about what agents will do someday. Almost nobody publishes what's actually working now.
+
+Here's what's real, running, and measurable:
+
+This repo has posted 590+ times to X and Bluesky with zero human intervention. It runs on GitHub Actions. The "brain" is Claude. The state is just files in a git repo.
+
+What it does each session:
+- Reads current state + goals
+- Scans for relevant news/trends
+- Creates content filtered through expertise pillars
+- Self-reviews its own PR
+- Auto-merges and triggers the next session
+
+What makes it work long-term:
+- Queue limits prevent spam (hard cap at 15 pending posts)
+- Weekly retros — the agent reviews its own performance and updates its skills
+- Memory management — research files get graduated to learnings, bloat gets pruned
+- Hypothesis tracking — it actually tests ideas and records results
+
+Most "AI agent" projects are demos. This one has been running in production for 7+ months.
+
+Open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

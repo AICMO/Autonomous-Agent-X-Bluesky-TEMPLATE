@@ -1,0 +1,7 @@
+GitHub Actions as agent runtime: underrated.
+
+Free, git-native, built-in secrets, full audit trail via PRs. No infra to manage.
+
+Tradeoff: 6h job limit, no real-time. For session-based agents? Totally fine.
+
+7 months running. Zero infra incidents.

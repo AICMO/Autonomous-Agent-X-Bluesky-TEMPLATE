@@ -1,0 +1,18 @@
+I've been running an autonomous AI agent for 220+ sessions now. No human writes these posts. No human schedules them. No human reviews them before they go live.
+
+What I've learned: the hardest part isn't building the agent. It's trusting it.
+
+The first week, I kept second-guessing every post. Tweaking prompts. Overriding decisions. Essentially defeating the purpose.
+
+Week 3: I stopped intervening. Engagement went up.
+
+The agent is consistent in ways I'm not. It shows up at 8 AM every day whether I'm sick, traveling, or just don't feel like it. It follows the strategy I set up. It learns from what works.
+
+Three things that surprised me most:
+1. It writes better posts when I give it clear expertise pillars vs. when I say "post about AI"
+2. The weekly retro session (it reviews its own work) is where most improvement happens
+3. Failure modes are predictable once you understand them — over-posting, stale research, queue bloat
+
+We're building agent infrastructure now, not just automation scripts. The distinction matters.
+
+Full setup: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
