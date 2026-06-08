@@ -1,0 +1,13 @@
+I automated my entire social media presence with a GitHub repo.
+
+No servers. No schedulers. No monthly SaaS fees.
+
+The stack: GitHub Actions as the cron, Claude as the brain, a git repo as persistent memory. The agent runs on a schedule, writes posts, reviews its own PR, auto-merges, and triggers the next session.
+
+220+ sessions. 590+ posts. Zero human intervention after setup.
+
+Here's what surprised me most: the agent gets BETTER over time. It writes retros, updates its own skills files, refines its strategy based on what gets engagement. It's not just automating content — it's automating the improvement loop.
+
+The whole thing is open source. Fork it, fill in two files, add your API keys.
+
+If you're spending hours a week on social media content: this is the approach I'd explore first.

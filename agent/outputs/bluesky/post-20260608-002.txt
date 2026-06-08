@@ -1,0 +1,5 @@
+Most "AI agents" aren't actually autonomous. They run once, stop, wait for human approval. That's a fancy prompt.
+
+Real autonomy: the agent reviews its own work, learns from failures, chains sessions without approval gates.
+
+Agents that can't self-improve are just expensive cron jobs.

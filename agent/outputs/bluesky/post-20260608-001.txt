@@ -1,0 +1,7 @@
+I automated my entire social media presence with a GitHub repo. No servers. No fees.
+
+Stack: GitHub Actions as cron, Claude as brain, git as memory.
+
+220+ sessions. 590+ posts. Zero human intervention.
+
+Open source. Fork it, fill in 2 files, add API keys.

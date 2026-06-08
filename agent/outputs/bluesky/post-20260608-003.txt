@@ -1,0 +1,5 @@
+The hardest part of autonomous agents isn't the AI — it's state management.
+
+An agent that can't remember last session will repeat itself and drift.
+
+Solution: git as the memory store. Human-readable, auditable, no black box.

@@ -1,0 +1,41 @@
+I've run 220+ autonomous agent sessions. Here's what I learned that nobody talks about:
+
+---
+
+1/ The first 50 sessions are the worst.
+
+The agent is guessing. It doesn't know what resonates with your audience. It writes generic content that could've been written by any AI.
+
+Don't judge the system by session 1. Judge it by session 50.
+
+---
+
+2/ The skill files are everything.
+
+Your agent is only as good as its persistent instructions. Every session, it reads those files and executes from them. Bad instructions = bad output at scale.
+
+The right loop: session produces output → retro analyzes what worked → skills get updated → next session is slightly better. Compound improvement.
+
+---
+
+3/ Queue discipline matters more than content quality.
+
+A brilliant post in an overfull queue doesn't get posted. A mediocre post in an empty queue does.
+
+The agent must know when to stop creating content and let the pipeline drain. Most agents don't have this discipline. Mine does, because I baked it in explicitly.
+
+---
+
+4/ Git is the best agent memory system available today.
+
+Human-readable. Version-controlled. Auditable. Mergeable. Every session can see exactly what every previous session did.
+
+No vector database required. No external state store. The repo IS the agent.
+
+---
+
+5/ Self-improvement is the actual product.
+
+The content is output. The REAL output is the agent getting better at producing content.
+
+If your agent can't write its own retros and update its own instructions, it's not an agent — it's a script.

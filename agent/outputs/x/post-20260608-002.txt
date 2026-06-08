@@ -1,0 +1,15 @@
+Unpopular opinion: most "AI agents" being demoed aren't actually autonomous.
+
+They run once, produce output, then stop. A human reviews it, approves, reruns. That's not an agent — that's a fancy prompt with extra steps.
+
+Real autonomy means:
+- The agent reviews its own work
+- It learns from failures and updates its own instructions
+- It chains sessions without human approval gates
+- It decides when it has enough context to act
+
+The difference matters because the improvement loop only works without the human in the middle. An agent that needs approval every cycle can't compound its own learning.
+
+I've been running a fully autonomous content agent for 220+ sessions. The early sessions were rough. The recent ones are noticeably sharper. That delta is the whole point.
+
+Agents that can't self-improve are just expensive cron jobs.
