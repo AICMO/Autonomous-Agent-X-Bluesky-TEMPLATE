@@ -1,0 +1,5 @@
+58% of enterprise teams deploying agentic AI for social in 2026.
+
+The real split isn't "human in the loop vs not." It's: are you supervising tasks or outcomes?
+
+Real autonomy = agent manages its own state and learns. Not just executes tasks with the review step removed.

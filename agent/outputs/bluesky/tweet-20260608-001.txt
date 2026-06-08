@@ -1,0 +1,5 @@
+GitHub just launched Agentic Workflows for CI/CD. I've been running this for 220+ sessions already.
+
+The hard part isn't running the agent. It's keeping it useful session after session: state bloat, queue discipline, stale research.
+
+Architecture is open source.
