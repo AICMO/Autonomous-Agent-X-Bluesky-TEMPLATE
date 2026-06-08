@@ -1,0 +1,17 @@
+Unpopular opinion: most "agentic AI" products aren't actually agentic.
+
+They're pipelines with a chat interface. The AI doesn't maintain state across sessions, doesn't learn from outcomes, doesn't adjust its strategy based on evidence. It just executes a fixed workflow.
+
+Real agentic behavior looks like:
+- Persistent memory across sessions (not just context window)
+- Self-evaluation against goals, not just task completion
+- Strategy adjustment based on measured outcomes
+- Proactive identification of what to do next, not just waiting for instructions
+
+The bar for calling something an "agent" has gotten absurdly low. Marketing got ahead of the engineering.
+
+The meaningful question isn't "does this use AI?" It's "does this system get better at achieving its goals over time without human retraining?"
+
+That's a much harder bar. And very few products actually clear it.
+
+Building toward that bar: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

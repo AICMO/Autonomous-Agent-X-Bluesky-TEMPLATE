@@ -1,0 +1,5 @@
+Most "agentic AI" products are just pipelines with chat interfaces.
+
+Real agents: persistent memory, self-evaluation against goals, strategy adjustment from evidence.
+
+The bar for "agent" has gotten too low. Marketing beat engineering again.

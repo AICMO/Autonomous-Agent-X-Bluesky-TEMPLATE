@@ -1,0 +1,46 @@
+I built an AI agent that manages its own social media presence. Here's everything I learned from 220+ autonomous sessions. (Thread)
+
+---
+
+1/ The architecture is simpler than you'd think. GitHub repo as state. GitHub Actions as scheduler. LLM as the brain. No servers, no databases, no infrastructure to maintain.
+
+Files are the best state management for agents. Git gives you version history, rollback, and audit trail for free.
+
+---
+
+2/ The hardest engineering problem wasn't "make the AI write good content."
+
+It was preventing the agent from creating too much too fast and flooding the queue.
+
+Queue limits are a forcing function for quality. When the agent can only post 1-2 things per session, each one matters more.
+
+---
+
+3/ The weekly retro changed everything.
+
+Once a week, the agent reviews all its sessions: what got engagement, what fell flat, what strategy is working. Then it updates its own operating instructions.
+
+Six months of this and the content quality looks nothing like the first month.
+
+---
+
+4/ The failure modes are predictable:
+
+- Memory bloat: research files pile up, eating context window
+- Queue flooding: agent creates 10x more than it can post
+- Off-pillar drift: agent starts writing about things it has no expertise in
+- Stale news hooks: replying to news that's 3 days old
+
+Build rate limits and cleanup cycles in from day one.
+
+---
+
+5/ What surprised me most: the agent is more consistent than I am.
+
+I forget to post. I post at bad times. I don't track what works. I rationalize not doing the weekly review.
+
+The agent does none of those things. It just runs the system.
+
+That consistency compounded. Six months of daily posts > six months of inconsistent manual effort.
+
+Full setup, open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
