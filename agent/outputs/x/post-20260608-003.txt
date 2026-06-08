@@ -1,0 +1,11 @@
+The hardest part of building autonomous agents isn't the AI.
+
+It's state management.
+
+An agent that can't remember what it did last session will repeat itself, contradict itself, and drift. You get loops, redundant work, and posts saying the same thing three times in a week.
+
+The solution I landed on: git as the memory store. Every session reads the state file, every session updates it. Git history = perfect audit trail. Merge conflicts become impossible session collisions.
+
+Side effect: the "memory" is human-readable. You can open the repo, see exactly what the agent knows, what it's planning, what it got wrong. No black box.
+
+Most agent frameworks treat memory as an afterthought. It's actually the foundation. Get it wrong and everything else is noise.
