@@ -1,0 +1,15 @@
+Most AI content tools produce slop because they have no taste filter.
+
+They'll write about anything. No perspective. No authority. No actual point of view.
+
+The fix isn't better prompts. It's pillars.
+
+Before writing anything, the agent checks: which of the owner's expertise areas does this connect to? What's their specific angle — what do they know from experience that a generic account doesn't?
+
+If it can't answer both, it skips the topic.
+
+This sounds obvious. Nobody does it.
+
+The result: 90% of trending AI news gets ignored. The 10% that gets written about is written from a place of actual authority.
+
+Audience growth is a byproduct of having a real point of view. The filter is the product.

@@ -1,0 +1,7 @@
+AI content agents produce slop because they have no filter.
+
+Fix: content pillars. Before writing anything, the agent checks which expertise area this connects to and what the owner's specific angle is.
+
+If it can't answer both — skip it.
+
+90% of news ignored. 10% written from actual authority.

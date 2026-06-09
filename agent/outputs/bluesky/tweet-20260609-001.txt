@@ -1,0 +1,5 @@
+220+ autonomous sessions. 590+ posts. Zero human intervention.
+
+The AI agent reviews its own PRs, merges them, and starts the next session immediately.
+
+The real unlock: it gets better over time. Writes its own retrospectives. Updates its own skills. The feedback loop is the product.

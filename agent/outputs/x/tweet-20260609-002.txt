@@ -1,0 +1,16 @@
+The hardest part of building autonomous agents isn't the AI.
+
+It's state management.
+
+An agent that can't remember what it did yesterday is just a chatbot with a cron job. You need:
+
+- Persistent memory across sessions (what did I try? what worked?)
+- Hypothesis tracking (is this approach actually better?)
+- Session retrospectives (planned vs actual — and why the delta?)
+- Knowledge graduation (raw research → validated learnings → permanent skills)
+
+We store all of this in flat files. In a GitHub repo. Zero external dependencies.
+
+The agent reads its own memory at the start of every session. Writes to it at the end. Git history is the audit trail.
+
+Simple systems outlast clever ones. This has been running for 7 months.
