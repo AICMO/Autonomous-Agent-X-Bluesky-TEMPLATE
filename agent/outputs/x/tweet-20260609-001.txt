@@ -1,0 +1,13 @@
+I just watched an AI agent review its own pull request, approve it, merge it, and immediately start the next session.
+
+No human touched it. Not once.
+
+This isn't a demo. It ran 220+ sessions in a row. Created 590+ posts. Each session: research → write → PR → self-review → merge → repeat.
+
+The part that surprised me most: it gets better over time. Not because I retrain it. Because it writes its own retrospectives, updates its own skills, and adjusts its approach based on what actually worked.
+
+The feedback loop is the product.
+
+Most people think "autonomous agent" means "runs without me." The real unlock is "learns without me."
+
+Building this pattern openly. Everything's public: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

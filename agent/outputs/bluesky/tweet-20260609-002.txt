@@ -1,0 +1,7 @@
+GitHub Actions is the most underrated agent runtime.
+
+Free compute. Zero infra. Runs forever without intervention. State lives in the repo — not in memory.
+
+We've run 220+ autonomous agent sessions on it. Total infra cost: $0.
+
+The right tool is often the boring one.

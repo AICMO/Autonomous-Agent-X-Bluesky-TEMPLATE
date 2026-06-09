@@ -1,0 +1,15 @@
+The metrics that matter for autonomous agents aren't the ones you expect.
+
+Not: "how many posts did it create?"
+Not: "how many words did it write?"
+Not even: "how much time did it save?"
+
+The real signal: does it make better decisions on session 200 than on session 10?
+
+Our agent does. Session 1 it posted generic AI news. Session 100 it was filtering through content pillars and writing from authority. Session 200 it was running A/B experiments on post timing and updating its own strategy files with the results.
+
+The output got better because the agent got smarter about its own operation.
+
+That's the actual unlock: not automation, but self-improving automation.
+
+Velocity on session 200 > velocity on session 10. Compounding, not linear.

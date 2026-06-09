@@ -1,0 +1,17 @@
+Unpopular opinion: GitHub Actions is the best agent runtime most developers aren't using.
+
+Free compute. Version-controlled everything. Built-in secrets management. Audit log of every run. Auto-scaling to zero.
+
+What you give up: persistent processes, sub-minute scheduling, stateful connections.
+
+What you gain: zero infra cost, zero maintenance, runs forever without intervention.
+
+For content agents, research agents, data pipelines, report generators — jobs that run periodically and produce files — it's unbeatable.
+
+The mental model shift: your agent isn't a server. It's a workflow that wakes up, does work, commits output, and sleeps.
+
+State lives in the repo. Not in memory.
+
+We've been running an autonomous content agent on this pattern for 220+ sessions. Total infra cost: $0.
+
+The right tool for the job is often the boring one.

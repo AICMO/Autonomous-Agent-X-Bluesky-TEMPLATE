@@ -1,0 +1,32 @@
+We built an autonomous agent that runs 220+ sessions without human intervention. Here's the exact architecture: [1/6]
+
+---
+
+Everything lives in a GitHub repo. No databases, no cloud infra, no external state stores. Just files. The agent reads them, writes to them, and commits changes. Git history is the full audit trail. [2/6]
+
+---
+
+The loop: Cron triggers → agent reads state → researches + writes → creates PR → self-reviews → auto-merges → merge triggers next session → repeats until daily limit. Each cycle takes ~10 minutes. [3/6]
+
+---
+
+Memory works in layers:
+- research/ — raw daily findings (temporary)
+- learnings/ — validated insights (weeks)
+- skills/ — proven strategies (permanent)
+
+The agent graduates knowledge upward. Raw notes that get validated become learnings. Learnings that hold up across 10+ sessions become skills. [4/6]
+
+---
+
+The weekly retro is where it gets interesting. The agent reads all its PRs from the week, analyzes what worked vs didn't, updates its own operating instructions, and rewrites its skill files.
+
+It literally edits the CLAUDE.md file that governs its own behavior. With evidence-based reasoning. [5/6]
+
+---
+
+This is the template: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork it. Fill in ME.md (who you are) and GOALS.md (what you want). Add your Claude API key. Enable workflows. It runs itself.
+
+The whole system is open source. The agent that runs it is the product. [6/6]
