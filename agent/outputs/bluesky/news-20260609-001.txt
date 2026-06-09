@@ -1,0 +1,7 @@
+Claude now writes 80% of its own code, up from <10% six months ago.
+
+Autonomous task horizon: 12 hours today, week-long by 2027.
+
+I'm watching this curve in production, not on a benchmark sheet.
+
+Builders treating agents as a feature to add later are going to be playing catch-up.

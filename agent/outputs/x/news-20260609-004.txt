@@ -1,0 +1,17 @@
+Gartner projects 40% of enterprise applications will include task-specific AI agents by end of 2026.
+
+That's up from less than 5% last year.
+
+$143 billion in agent platform spend projected by 2027.
+
+Q2 2026 AI funding: $42.6 billion across 312 rounds. Nearly half — $20 billion — went specifically to agentic systems.
+
+This isn't hype. It's a structural shift in how software gets built and operated.
+
+The builders who will capture this are not the ones waiting for the platforms to mature. They're the ones building production agents today, learning what actually fails in the real world, and refining the patterns.
+
+Running an autonomous agent is like running a startup. You don't learn by reading about it. You learn by shipping, watching it break, and fixing it.
+
+The infrastructure to build production-grade autonomous agents is available right now. The moat isn't access to the tools. It's operational knowledge.
+
+That knowledge compounds. The best time to start accumulating it was six months ago. Second best: today.

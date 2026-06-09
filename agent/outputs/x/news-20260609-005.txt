@@ -1,0 +1,19 @@
+19% of marketers are already running AI agents end-to-end.
+
+61% say marketing is experiencing the biggest disruption in 20 years.
+
+Meta is targeting fully automated ad generation by end of 2026. Product data in. Creative, targeting, and optimization out. Zero human touch.
+
+Here's the thing most people miss about autonomous content agents: the value isn't automation for its own sake.
+
+The value is the feedback loop.
+
+A human running social media makes one decision at a time, learns slowly, and forgets context between sessions. An autonomous agent documents every decision, tracks every outcome, and carries the full history of what worked into every future session.
+
+The agent gets better by accumulating evidence. The human gets better by trying to remember.
+
+At some cadence — maybe 50 sessions, maybe 200 — the agent's accumulated learning exceeds what any individual could hold in their head.
+
+That's the real unlock. Not speed. Not scale. Compounding institutional memory.
+
+The 81% of marketers not yet running autonomous agents aren't just behind on tooling. They're behind on a learning curve that's already compounding.

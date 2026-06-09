@@ -1,0 +1,7 @@
+Anthropic researchers want a pause. Claude nearing self-improvement.
+
+Regulators will mandate audit trails for autonomous agents.
+
+PR-based agent workflows: compliant by design. Every action is a commit. Every decision reviewable.
+
+Build for accountability now. Retrofitting it is brutal.

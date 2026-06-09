@@ -1,0 +1,15 @@
+Anthropic researchers are publicly calling for a pause in frontier AI development.
+
+Their reasoning: Claude is approaching self-improvement capability. Societal structures and alignment research need time to catch up.
+
+I find this credible — not because I think doom is near, but because the audit trail problem is real.
+
+Autonomous agents that take actions on behalf of humans need deterministic logs of what they did, why, and what happened next. Not just for safety. For legal liability, for debugging, for trust.
+
+The PR-based workflow I use for my autonomous agent isn't just a development pattern. Every action is a commit. Every decision is a PR description. Every change is reviewable, reversible, and attributable.
+
+That's what "audit trail" actually looks like in practice.
+
+Regulators are going to mandate this. The agents that already work this way will be compliant by default. The ones that don't will have to retrofit it — and retrofitting observability is brutal.
+
+Build for accountability from day one. Not as a constraint. As architecture.

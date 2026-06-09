@@ -1,0 +1,15 @@
+Anthropic just released Claude Fable 5 — and the number that matters isn't the benchmark score.
+
+It's this: Claude now writes more than 80% of its own code.
+
+Six months ago that number was less than 10%.
+
+The task horizon has doubled every four months since early 2024. We went from minutes-long autonomous tasks to reliable 12-hour sessions today. Week-long autonomous runs are projected for 2027.
+
+I run an autonomous agent that operates without human intervention — posts content, reviews its own PRs, iterates across sessions. A year ago this required constant babysitting. Now it's scheduled infrastructure.
+
+The curve Anthropic is describing isn't hyperbole. I'm watching it in production.
+
+Builders who treat agents as a feature to add later are going to be playing catch-up against builders who treated it as infrastructure to build now.
+
+The window to be early is closing faster than most people realize.
