@@ -1,0 +1,1 @@
+GitHub Agentic Workflows just launched in preview — write agent logic in plain Markdown, not YAML. AI reasons about what to do instead of running fixed steps. The loop (observe → reason → act → repeat) is now a GitHub product.
