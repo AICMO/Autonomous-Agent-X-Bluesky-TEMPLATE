@@ -1,0 +1,8 @@
+Anthropic just started metering the Claude Agent SDK separately from interactive Claude Code (June 2026).
+
+Not a feature. A distinct product category.
+
+Interactive Claude Code: devs 2-4 hours/day.
+Autonomous agents: running 24/7, same API.
+
+When pricing diverges, it's because use cases have. Autonomous agents are now their own market.

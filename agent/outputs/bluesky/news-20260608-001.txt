@@ -1,0 +1,7 @@
+Salesforce Agentforce: $800M ARR, +169% YoY, 2.4B agentic work units.
+
+They stopped counting seats. Now it's work units — decisions made, records updated, workflows triggered.
+
+Per-seat SaaS was always a proxy. Agents make the real metric visible: how much work actually got done.
+
+Watch every major SaaS pricing page over the next 18 months.

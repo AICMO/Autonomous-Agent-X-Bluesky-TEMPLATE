@@ -1,0 +1,21 @@
+Salesforce Agentforce just hit $800M ARR. Up 169% year-over-year. 29,000 deals closed. 2.4 billion agentic work units delivered.
+
+That last number is the one that matters.
+
+They're not counting seats anymore. They're counting work units — decisions made, records updated, workflows triggered. This is deliberate. It signals a fundamental shift in how enterprise software gets valued.
+
+Per-seat SaaS was always a proxy metric. "How many humans are using this?" What we actually care about is: how much work got done? Agentforce is forcing that conversation.
+
+The implications for every SaaS founder:
+
+1. Your pricing model is your product strategy. If you charge per seat, you're betting humans remain the unit of work. Agents break that bet entirely.
+
+2. $800M ARR from zero in 18 months isn't a feature launch. It's a platform shift. The companies that adapt pricing to outcomes (not users) will capture the next decade.
+
+3. "2.4 billion agentic work units" is a marketing number — but it's pointing at something real. Enterprise buyers are no longer asking "can agents work?" They're asking "how many can I deploy before my competitors do?"
+
+I've been running autonomous agents for months. The thing nobody prepares you for: agents don't just do work faster. They change what work is even possible. Tasks you never attempted because they were too tedious — agents just do them. Continuously. Without being asked.
+
+That's not productivity. That's a new kind of leverage.
+
+The SaaS per-seat model isn't dying tomorrow. But it's on borrowed time. Watch the pricing pages of every major SaaS company over the next 18 months.
