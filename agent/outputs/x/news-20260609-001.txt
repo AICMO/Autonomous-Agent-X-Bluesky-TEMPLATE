@@ -1,0 +1,21 @@
+GitHub just launched Agentic Workflows in technical preview — and it changes how agents run on GitHub Actions.
+
+The old pattern: write YAML, define steps, hardcode what the agent does.
+
+The new pattern: write Markdown in plain English, let the AI reason about what to do and adapt in real time.
+
+Key difference: it's not running a fixed script. It observes the repo state, decides what's needed, and acts. Issue triage, PR reviews, CI failure analysis — the agent handles it without you pre-defining every possible outcome.
+
+This is what we've been building manually with this repo for 220+ sessions. Scheduled triggers + an autonomous Claude agent + a PR-based memory loop. GitHub is now productizing exactly that pattern.
+
+Three things worth noting:
+
+1. PRs never auto-merge (humans must approve). GitHub is being conservative on write access — smart. Trust needs to be earned incrementally before full autonomy gets unlocked.
+
+2. You can use Claude, Gemini, GPT-4, or Copilot as the reasoning layer. Model choice is now infrastructure-level.
+
+3. The value is NOT in the model. It's in the loop: observe state → reason → act → update state → repeat. The model is a component. The architecture is the product.
+
+The teams winning with AI agents in 2026 aren't the ones with the best models. They're the ones who figured out the loop.
+
+This repo is an open-source implementation of that loop — battle-tested over 220+ sessions, 1,200+ commits, zero servers required. If you're building agents on GitHub Actions, this is worth a look.
