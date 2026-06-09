@@ -1,0 +1,7 @@
+Datadog shipped 100+ autonomous AI ops features at DASH 2026.
+
+Enterprise ops agents are mainstream. Not coming. Here.
+
+The architecture: observe state, decide action, execute, log, repeat.
+
+Doesn't matter if the agent manages infrastructure or a content queue. The loop is identical.
