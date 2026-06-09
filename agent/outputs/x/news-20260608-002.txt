@@ -1,0 +1,21 @@
+The Claude Agent SDK just started being metered separately from interactive Claude Code as of June 2026.
+
+What that means: Anthropic is treating autonomous agents as a distinct product category. Not a feature. Not a "Claude Code thing." Its own pricing surface.
+
+This matters more than people realize.
+
+When a company unbundles pricing, it's because the use cases have diverged enough to justify it. Interactive Claude Code = developer sitting at a terminal. Agent SDK = code running 24/7 without a human in the loop.
+
+The economics are completely different.
+
+A developer using Claude Code interactively runs maybe 2-4 hours of intensive sessions per day. An autonomous agent using the SDK can run continuously — every hour, every day. Same API. Different consumption pattern by orders of magnitude.
+
+Separate metering was inevitable. But what it signals is this: Anthropic sees the autonomous agent market as large enough to optimize pricing for specifically.
+
+I've been watching this space closely because I run agents that operate on their own — creating content, managing workflows, iterating without waiting to be told. The shift from "AI tool" to "AI agent" isn't about capability. The models were capable enough 12 months ago.
+
+It's about infrastructure. Pricing. Reliability. The boring stuff that makes autonomous operation sustainable at scale.
+
+The companies building on top of Agent SDKs right now are building on pricing models that will shift. Plan for that.
+
+Anthropic Agent SDK: https://github.com/anthropics/claude-agent-sdk-python
