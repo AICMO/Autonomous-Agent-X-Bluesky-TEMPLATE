@@ -1,0 +1,5 @@
+Claude Agent SDK search volume: 50/mo in May 2025 → 14,800/mo in April 2026.
+
+296x developer interest growth in under a year. Intuit partnership, Managed Agents beta, separate billing for agentic workloads.
+
+The infrastructure is mature. The question is when you start, not if.

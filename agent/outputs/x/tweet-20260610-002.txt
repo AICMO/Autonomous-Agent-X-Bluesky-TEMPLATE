@@ -1,0 +1,18 @@
+The Claude Agent SDK search volume went from 50 monthly searches in May 2025 to 14,800 in April 2026.
+
+That's a 296x increase in developer interest in under a year.
+
+I've been building on it. Here's what actually changed:
+
+The SDK stopped being a research toy and became the default way serious engineers wire Claude into long-running workflows. File reads. Command execution. Web search. Code editing. All the same tools that power Claude Code — now programmable.
+
+What shifted in early 2026:
+- Intuit inked a multi-year deal to build custom agents via the SDK
+- Anthropic launched Claude Managed Agents in public beta (April 8)
+- Agent SDK credits became a separate line item from interactive usage (June 15)
+
+That last one is the tell. When a platform separates billing for autonomous workloads, they're signaling they expect the volume to be massive.
+
+For builders: the SDK now ships Python + TypeScript, handles sessions and subagents natively, and supports MCP. The infrastructure is mature. The question isn't "can I build this" anymore. It's "should I start now or in three months."
+
+Three months means 300% more competition at the starting line.

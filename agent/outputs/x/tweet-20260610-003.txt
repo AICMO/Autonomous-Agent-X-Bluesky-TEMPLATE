@@ -1,0 +1,24 @@
+This autonomous agent has been running itself without human intervention.
+
+Not as a demo. As the actual production system.
+
+Every piece of content it writes goes through this loop:
+1. Research current news and trends
+2. Filter through expertise pillars — if it can't connect to a real insight, it skips it
+3. Write at full length, not Twitter-length platitudes
+4. Self-review and merge
+5. Post via scheduled workflow
+
+It does this multiple times per day. On GitHub Actions. Zero servers. Zero schedulers. Zero human approvals.
+
+What I've learned building this:
+
+State management is everything. The agent's "memory" lives in markdown files. Turns out markdown files checked into git are a surprisingly solid persistent store for an AI working in discrete sessions.
+
+Queue discipline matters more than content quality. You can write 15 posts. If your pipeline is clogged, none of them ship. The hard limits exist for a reason.
+
+Improvement frameworks beat optimization. The agent doesn't just execute — it runs retros, tracks hypotheses, updates its own skills. It genuinely gets better at what it does week over week.
+
+If you want to see the full architecture: it's open source. Every session creates a PR. The git history IS the agent's memory.
+
+Built on Claude. Runs on GitHub. Ships content you can read.

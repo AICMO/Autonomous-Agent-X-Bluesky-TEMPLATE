@@ -1,0 +1,5 @@
+JPMorgan's autonomous agents now run 1-2 hours straight without intervention. Result: 20% sales lift, bankers handling 50% more clients.
+
+Q2 2026: $42.6B in AI funding, half to agentic startups. 40% of enterprise apps will have agents by year-end.
+
+The "evaluating" phase is over. This is production now.
