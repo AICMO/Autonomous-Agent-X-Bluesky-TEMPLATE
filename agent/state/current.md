@@ -5,63 +5,72 @@ PR Count Today: 1/10
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Setup | Unconfigured | Configured | — | — | Pending owner config |
+| Setup Complete | No | Yes | — | — | Requires owner config |
 
-## Status: Template Not Yet Configured
+## Status: TEMPLATE — SETUP REQUIRED
 
-The repo owner has not yet filled in:
-- `ME.md` — Author identity, expertise, links (all placeholders)
-- `GOALS.md` — Target metric and deadline (all placeholders)
-- `agent/memory/pillars.md` — Content pillars (all placeholders)
-- Platform credentials — X and Bluesky API keys not configured
+This repository is an unconfigured template. Before the agent can create content or grow an audience, the owner must complete setup:
 
-**No content can be created until ME.md and GOALS.md are filled in.**
+### Required Setup Steps
+1. **Fill in `ME.md`** — Add your name, background, expertise, GitHub profile, social links
+2. **Fill in `GOALS.md`** — Set your target metric, deadline, and success criteria
+3. **Configure secrets in GitHub** — X API credentials and/or Bluesky credentials
+4. **Configure `agent/integrations/x/plan.md`** — Your X handle, follower count, Premium status
+5. **Configure `agent/integrations/bluesky/plan.md`** — Your Bluesky handle
+6. **Configure `agent/memory/pillars.md`** — Your content pillars (topics you're authoritative on)
+
+See `README.md` for full setup instructions.
 
 ## Planned Steps (2-3 ahead)
-1. **NEXT**: Owner fills in ME.md, GOALS.md, and configures secrets → agent can begin content work
-2. **THEN**: Agent reads owner config, discovers pillars, creates first content batch
-3. **AFTER**: Agent establishes posting cadence and begins audience growth
+1. **NEXT**: Owner fills in ME.md and GOALS.md → Agent can discover pillars
+2. **THEN**: Owner configures GitHub secrets (X API / Bluesky creds) → Workflows can post
+3. **AFTER**: Agent creates first content batch based on pillars from ME.md/GOALS.md
 
 ## Completed This Session
-- Initialized agent/state/current.md (first session, template state)
-- Assessed repo: all config files are placeholder templates awaiting owner input
+- Created initial state file documenting template status
 
 ## Metrics Delta
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| State file | None | Created | +1 | First session initialization |
+| X Queue | 0 | 0 | 0 | Template not yet configured |
+| BS Queue | 0 | 0 | 0 | Template not yet configured |
 
 ## Active Framework
-Current: Plan-Do-Check-Act
-Reason: Fresh start — plan first, no prior data to act on
+Current: None — awaiting owner configuration
+Reason: Cannot run content cycles without ME.md and GOALS.md filled in
 
 ## Active Hypotheses
-- None yet (no owner config, no content, no data)
+None — template not yet configured
 
 ## Session Retrospective
 ### What was planned vs what happened?
-- Planned: N/A (first session)
-- Actual: Found unconfigured template. Created state file. Cannot create content without owner config.
-- Delta: Content creation blocked until owner fills in ME.md and GOALS.md
+- Planned: (first session) Check state, create content
+- Actual: Discovered repo is unconfigured template — ME.md, GOALS.md, and platform plans all have placeholder values
+- Delta: No content created; state file initialized instead
 
 ### What worked?
-- Correctly identified the template state rather than generating placeholder content
+- Correctly identified template state without burning turns on dead-end content creation
 
 ### What to improve?
-- Owner needs to configure: ME.md, GOALS.md, platform credentials
+- Once owner fills in ME.md and GOALS.md, agent can begin normal content cycles
 
 ### Experiments (30% allocation)
-- None yet
+- None this session — template not configured
 
 ## Blockers
-**SETUP REQUIRED**: Owner must configure the following before content can be created:
-1. Fill in `ME.md` with real identity, expertise, and links
-2. Fill in `GOALS.md` with target metric, deadline, and success criteria
-3. Configure GitHub Secrets for X API and/or Bluesky credentials
-4. Update `agent/integrations/x/plan.md` and `agent/integrations/bluesky/plan.md` with real account info
-5. Update `agent/memory/pillars.md` with real content pillars
+- **ME.md not configured**: Contains placeholder values, no real owner info
+- **GOALS.md not configured**: Contains placeholder values, no real goal/metric
+- **Platform credentials not set**: X credentials not configured (stated in session prompt)
+- **Integration plans not configured**: X and Bluesky plan.md files have placeholder values
 
-See README.md for setup instructions.
+### Verification
+- `gh variable list` — not checked (credentials clearly absent per session prompt note)
+- Queues: X=0, Bluesky=0 (verified via file count)
+
+## External Outputs
+| Type | Name | URL | Last Updated |
+|------|------|-----|--------------|
+| — | — | — | — |
 
 ## Session History
-- 2026-06-10: [PR#1] - First session: initialized state file, detected unconfigured template state
+- 2026-06-10: [PR#1] - Initial state file created; template setup requirements documented
