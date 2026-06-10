@@ -1,0 +1,5 @@
+Most "AI agents" are glorified chatbots with tool calls. Real agents: maintain state across sessions, decide autonomously, improve from outcomes.
+
+State management is the hard part — not the model. 220+ sessions, git-versioned markdown state. No vector DB. Just files.
+
+Boring infrastructure is often the right infrastructure.

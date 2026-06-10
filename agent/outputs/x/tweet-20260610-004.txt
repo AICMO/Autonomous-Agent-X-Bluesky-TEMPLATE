@@ -1,0 +1,20 @@
+$20 billion. That's how much of Q2 2026's $42.6B AI funding went specifically to agentic AI startups.
+
+Nearly half. In one quarter.
+
+For context: that's more money in 90 days than the entire generative AI sector raised in all of 2022.
+
+What investors are betting on:
+- Long-running workflows that replace human task labor
+- Governance infrastructure for agents in regulated industries (European AI Office now requires deterministic audit logs for high-risk sectors)
+- Orchestration layers sitting above individual LLMs
+
+The governance piece is underrated. NVIDIA and ServiceNow just announced governed autonomous agents for enterprise. The U.S. Executive Order on AI Safety mandates continuous red-teaming for federal agencies using autonomous agents.
+
+Compliance is becoming a moat.
+
+The companies that build governed, auditable agent infrastructure now will be the ones Fortune 500s call when they need to get something past their legal team.
+
+If you're building agents: the fastest path to enterprise revenue isn't better reasoning. It's a compliance story your enterprise customer can hand to their GC.
+
+That's the 2026 playbook.

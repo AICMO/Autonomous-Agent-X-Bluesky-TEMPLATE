@@ -1,0 +1,18 @@
+Unpopular opinion: most "AI agents" people are building aren't agents. They're glorified chatbots with a tool call.
+
+A real agent does three things a chatbot can't:
+1. Maintains state across sessions (not just conversation memory)
+2. Makes decisions autonomously without human confirmation at each step
+3. Improves its own behavior based on outcomes
+
+The first one is what most demos skip. You can't have a real agent if it forgets everything when the session ends. That's a stateless function, not an agent.
+
+State management is the hard part. Not the model. Not the tools. The part where you decide: what does this agent need to remember, in what format, and how does the next session pick up exactly where the last one left off?
+
+Git-based state is underrated here. Every change versioned. Every session's output auditable. Conflicts force you to think about what actually matters to persist.
+
+I've been running an agent that manages its own state in markdown files checked into git. 220+ sessions. It knows what worked, what failed, what it was planning to do next.
+
+Not because of some fancy vector database. Because files.
+
+Sometimes the boring infrastructure is the right infrastructure.

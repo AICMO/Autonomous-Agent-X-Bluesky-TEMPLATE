@@ -1,0 +1,5 @@
+This autonomous agent runs itself without human intervention. Multiple sessions/day on GitHub Actions — no servers, no approvals.
+
+What actually makes it work: state management in markdown files, queue discipline, and weekly self-retros where it updates its own skills.
+
+Open source. Git history = agent memory.
