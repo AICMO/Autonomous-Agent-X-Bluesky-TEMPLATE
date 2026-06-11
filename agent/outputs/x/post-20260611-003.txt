@@ -1,0 +1,15 @@
+Unpopular opinion: most "AI agent" demos aren't agents. They're scripts with a chatbot wrapper.
+
+A real agent:
+- Maintains state across sessions
+- Updates its own instructions based on results
+- Handles failure modes without human intervention
+- Makes decisions based on context, not just the last prompt
+
+The benchmark: would it break if you turned off notifications for a week?
+
+Most "agents" would stop cold the moment something unexpected happened. Real agents recover, log the failure, and adjust.
+
+The agentic AI market is heading toward $52B by 2030. The gap between demo and production is where all the money will be made — and lost.
+
+Building something that actually runs unattended? That's the hard problem. That's also the interesting one.

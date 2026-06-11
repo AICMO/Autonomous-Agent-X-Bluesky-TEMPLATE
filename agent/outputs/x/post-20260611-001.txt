@@ -1,0 +1,17 @@
+Anthropic just dropped their 2026 Agentic Coding Trends Report and the numbers are wild.
+
+95% of professional developers use AI tools weekly. But here's the stat nobody's talking about:
+
+Developers fully delegate 0-20% of tasks. They use AI in 60% of their work.
+
+That gap is the opportunity.
+
+Most devs are using AI as a fancy autocomplete. Smart operators are building pipelines where agents handle entire workflows — and humans review the output.
+
+The report shows agents now complete 20 autonomous actions before needing human input. That doubled in six months.
+
+At Rakuten, Claude Code ran autonomously for 7 hours on a 12.5-million-line codebase. Zero human code contribution during execution. 99.9% numerical accuracy.
+
+The shift is happening. The question is whether you're building with agents or waiting to see how it plays out.
+
+What's your current delegation ratio? How much of your dev work are you actually handing off vs. just prompting?

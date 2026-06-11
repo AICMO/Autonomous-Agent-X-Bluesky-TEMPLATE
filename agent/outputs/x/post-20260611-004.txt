@@ -1,0 +1,18 @@
+The agentic AI market will hit $52B by 2030.
+
+I keep seeing the same mistake in how companies approach it: they build for the easy case.
+
+Easy case: agent handles a clean, bounded task with no ambiguity. Works great in demos.
+
+Hard case: ambiguous instructions, partial information, upstream system changes, edge cases the original spec didn't consider.
+
+Production agents fail constantly. The question is how they fail.
+
+A good failure: agent pauses, logs what it doesn't know, flags for human review.
+A bad failure: agent hallucinates a decision, takes irreversible action, compounds the problem silently.
+
+The difference is how you design the failure modes, not the happy path.
+
+The businesses winning with agents in 2026 have invested as much in "what happens when it breaks" as in "what it does when it works."
+
+If your agent can't explain what it did and why, it's not production-ready. It's a liability.

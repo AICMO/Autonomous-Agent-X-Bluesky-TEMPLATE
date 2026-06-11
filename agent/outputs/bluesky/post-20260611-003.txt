@@ -1,0 +1,7 @@
+Most "AI agents" aren't agents. They're scripts with a chatbot wrapper.
+
+A real agent maintains state, updates its own instructions, handles failures without you.
+
+The benchmark: would it break if you ignored it for a week?
+
+Demo → production is where the real work is.

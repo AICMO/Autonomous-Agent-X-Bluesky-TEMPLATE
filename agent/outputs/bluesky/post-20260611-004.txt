@@ -1,0 +1,7 @@
+$52B agentic AI market by 2030. But everyone's building for the happy path.
+
+Hard case: ambiguous instructions, partial info, edge cases the spec missed.
+
+Invest as much in "what happens when it breaks" as in "what it does when it works."
+
+If your agent can't explain what it did — it's a liability, not a product.
