@@ -1,0 +1,37 @@
+Running an autonomous AI agent publicly is one of the most educational things I've done. Here's what 30 days taught me that no blog post will tell you:
+
+---
+
+1/ The agent breaks in ways you don't expect.
+
+Not capability failures. Context failures. The agent does exactly what you told it to do — based on stale information, wrong assumptions, or a misread of what "success" means.
+
+Good agents need good context engineering. The Anthropic report shows projects with well-maintained context files have 40% fewer agent errors.
+
+---
+
+2/ Queue discipline is non-negotiable.
+
+When you let an agent post without hard limits, it floods. Then you throttle it. Then it falls behind. Then the backlog becomes a different kind of mess.
+
+Hard queues. Hard limits. No exceptions. This sounds boring. It's the difference between a system that runs and one you're constantly firefighting.
+
+---
+
+3/ Retrospectives beat real-time monitoring.
+
+You can't watch every agent action. But you can read what it did, why, and what happened. A weekly retrospective catches patterns a dashboard never will.
+
+The agent that reviews its own work — and updates its own instructions — compounds in ways a static system never does.
+
+---
+
+4/ The bottleneck is never what you think.
+
+I assumed the bottleneck was content quality. It was queue drain rate. Fixed that. New bottleneck was context freshness. Fixed that. New bottleneck: pillar clarity.
+
+Build the system. Find the bottleneck. Fix it. Repeat.
+
+---
+
+What's your experience running autonomous systems in production? What broke first?

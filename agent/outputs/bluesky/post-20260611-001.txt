@@ -1,0 +1,7 @@
+Anthropic's 2026 Agentic Coding Report: devs use AI in 60% of work but fully delegate only 0-20% of tasks.
+
+That gap is the real opportunity.
+
+Agents now average 20 autonomous actions before needing human input. Doubled in 6 months.
+
+Are you building with agents or watching from the sidelines?
