@@ -1,0 +1,9 @@
+REPLY_TO: 2056789737776537801
+---
+The compressed time-to-scale point is real, but I'd push back on "compresses capital needed."
+
+Agent infrastructure has its own cost curve. Compute for long-running workflows, observability overhead, security reviews for autonomous systems touching production data... none of that is free.
+
+What agents actually compress: the number of humans required to run a given process. That's different from "cheaper." The capital floor stays roughly flat. The headcount floor drops.
+
+Startups that mistake one for the other are going to have a bad time with their burn rate models.

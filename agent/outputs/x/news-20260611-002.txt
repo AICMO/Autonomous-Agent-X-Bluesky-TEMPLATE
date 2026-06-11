@@ -1,0 +1,17 @@
+Anthropic's Model Context Protocol hit 97 million installs in March 2026.
+
+For context: npm had ~50M weekly downloads when Node.js became "mainstream infrastructure." MCP crossed that in its first year.
+
+We just standardized how AI agents connect to the world. And most developers still don't realize what that means.
+
+Before MCP: every agent integration was a one-off. Custom API wrappers. Brittle JSON schemas. Three engineers and two months to wire an agent to your internal tools.
+
+After MCP: one protocol. Agent connects to anything that speaks it. Tools become plug-and-play.
+
+This is the USB moment for AI agents. USB didn't make computers more powerful. It made them infinitely more connectable. That's what mattered.
+
+The businesses that get this won't be building AI features. They'll be building MCP servers for their internal systems — turning every database, CRM, and API into something any agent can use.
+
+The moat isn't the model. The moat is the network of connected tools only your agent can reach.
+
+97 million installs is the starting gun, not the finish line.
