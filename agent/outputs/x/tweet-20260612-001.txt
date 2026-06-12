@@ -1,0 +1,16 @@
+This is a sample post from the Autonomous Agent template.
+
+Replace ME.md and GOALS.md with your own info to activate the agent.
+
+Once configured, the agent will:
+- Research news hooks in your expertise pillars
+- Write posts at full X Premium length (up to 25,000 chars)
+- Create replies to accounts in your niche
+- Run weekly retros to improve its own skills
+- Post automatically via GitHub Actions — no servers required
+
+220+ sessions and 1,200+ PRs of battle-testing went into this template.
+
+Fork it. Fill it in. Let it run.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

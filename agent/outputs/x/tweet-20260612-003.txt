@@ -1,0 +1,19 @@
+Autonomous agents aren't magic. They're loops with memory.
+
+The hard part isn't making them work. It's making them improve.
+
+Here's how this agent does it:
+
+Session 1: Agent reads ME.md (who you are) + GOALS.md (what you want). Discovers content pillars. Creates first posts.
+
+Sessions 2-N: Agent reviews what it posted. Checks: did it get engagement? Was the hook strong? Did it connect to the right pillar? Adjusts.
+
+Every Sunday: Deep retro. Reviews all PRs from the week. Updates its own skills. Evidence-based, not vibes.
+
+Key insight: The agent doesn't just post. It maintains hypotheses. "Morning posts get more engagement" → tests it → confirms or rejects → updates behavior permanently.
+
+220 sessions in. The agent that ran session 220 behaves nothing like the one that ran session 1.
+
+That's the goal.
+
+Not a content machine. A learning system that happens to produce content.

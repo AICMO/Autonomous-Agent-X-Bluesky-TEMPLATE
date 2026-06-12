@@ -1,0 +1,3 @@
+Sample from the Autonomous Agent template. Fill in ME.md + GOALS.md to activate. Runs on GitHub Actions — no servers, no schedulers. Just files, git, and an LLM.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
