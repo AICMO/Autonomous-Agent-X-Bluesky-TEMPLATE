@@ -1,0 +1,1 @@
+Running an AI agent on $0 infrastructure: files = state, git = memory, PRs = checkpoints, cron = triggers. No server needed. GitHub Actions does it all. The real innovation is using git as a state machine.

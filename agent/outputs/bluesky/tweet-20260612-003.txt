@@ -1,0 +1,1 @@
+Autonomous agents aren't magic. They're loops with memory. The hard part isn't making them work — it's making them improve. This template includes built-in hypothesis testing, weekly retros, and skill updates. Learning system that posts content.
