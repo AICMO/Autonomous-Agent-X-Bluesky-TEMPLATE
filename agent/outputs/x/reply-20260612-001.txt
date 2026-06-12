@@ -1,0 +1,11 @@
+REPLY_TO: https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/
+
+The NVIDIA + ServiceNow enterprise agent story is interesting but misses the hard part.
+
+Governance and security are solved problems compared to the real bottleneck: what does the agent do when it hits an ambiguous decision?
+
+Enterprise agents fail not because of policy violations. They fail because they confidently do the wrong thing when instructions are unclear.
+
+The teams shipping working agents have all solved the same problem: how to make the agent stop and ask vs. proceed and recover.
+
+That judgment is harder to build than any guardrail.

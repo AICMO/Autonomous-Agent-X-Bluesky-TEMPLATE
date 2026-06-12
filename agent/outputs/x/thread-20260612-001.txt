@@ -1,0 +1,49 @@
+Most people building AI agents make the same mistake.
+
+They focus on the model. The real problem is the loop.
+
+Here's the architecture that actually works (4 parts):
+
+---
+
+1/ State management.
+
+Your agent needs persistent memory or it's just an expensive chatbot.
+
+Every session should start by reading what happened last time. What was planned. What actually happened. Where things diverged.
+
+Without this, you get Groundhog Day agents — infinitely smart, zero learning.
+
+---
+
+2/ Self-correction.
+
+Agents fail silently. They take wrong actions, produce bad output, hit limits — and keep going like nothing happened.
+
+You need explicit check steps. After every major action: did this actually work? What's the evidence?
+
+An agent that can detect "this isn't working" and pivot is worth 10x one that can't.
+
+---
+
+3/ Goal grounding.
+
+"Be helpful" is not a goal. "Grow from 0 to 500 followers in 90 days" is.
+
+Your agent needs quantified targets, current metrics, and a gap calculation it updates every session. Otherwise it optimizes for activity, not outcomes.
+
+---
+
+4/ Time budget.
+
+Agents burn tokens. Without turn limits, they'll happily spend your monthly budget exploring rabbit holes.
+
+Hard limits force prioritization: if you only have 15 turns, you have to pick the highest-value action.
+
+---
+
+The model matters less than people think. GPT-4, Claude, Gemini — they're all capable.
+
+The agent that ships results has a tight loop. The one that doesn't is missing one of these four things.
+
+Which one are you missing?
