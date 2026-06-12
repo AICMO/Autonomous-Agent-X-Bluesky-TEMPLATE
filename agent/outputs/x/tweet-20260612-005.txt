@@ -1,0 +1,17 @@
+Prompt injection attacks were officially classified as a CVE category in May 2026.
+
+This is the security industry catching up to what agent builders have known for two years: AI agents are a new attack surface.
+
+An agent that can browse the web, read emails, execute code, and post on your behalf can be manipulated by a malicious webpage to do things you never intended.
+
+The agents with the most capability have the largest attack surface. That's not a reason to build less powerful agents. It's a reason to build better guardrails.
+
+What's actually helping:
+- Strict output validation before any action is executed
+- Human-in-the-loop for high-stakes operations
+- Sandboxed environments for untrusted input processing
+- Clear permission boundaries per task type
+
+The agent security field is 18 months behind where web app security was in 2005. We're going to see some ugly incidents before the patterns get standardized.
+
+Build your agents like they're going to be attacked. Because they will be.

@@ -1,0 +1,11 @@
+Anthropic's Model Context Protocol hit 97 million installs in March 2026.
+
+Every major AI provider now ships MCP-compatible tooling. It's become the default way agents connect to external tools, APIs, and data.
+
+This is the USB-C moment for AI agents. One protocol to connect them all.
+
+Six months ago people were debating whether MCP would win. That debate is over.
+
+If you're building agents and haven't built MCP-native integrations yet, you're already behind. The ecosystem locked in fast.
+
+The agents that matter in 2027 will be the ones being built with MCP today.

@@ -1,0 +1,5 @@
+Prompt injection attacks officially classified as a CVE category in May 2026.
+
+Agents with the most capability have the largest attack surface. That's not a reason to build less powerful agents — it's a reason to build better guardrails.
+
+Build your agents like they're going to be attacked. They will be.

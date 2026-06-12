@@ -1,0 +1,5 @@
+Anthropic's MCP hit 97M installs in March. Every major AI provider now ships MCP-compatible tooling.
+
+This is the USB-C moment for AI agents. One protocol to connect them all.
+
+That debate about whether MCP would win? It's over.

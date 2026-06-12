@@ -1,0 +1,11 @@
+JPMorgan is deploying AI agents that work autonomously for hours at a time.
+
+Gartner says 40% of enterprise apps will have task-specific agents by end of year. Up from <5% last year.
+
+This isn't experimentation anymore. It's deployment.
+
+The companies still "evaluating" AI agents in Q4 2026 will be the same ones that were "evaluating" cloud in 2015.
+
+The window to build institutional knowledge before this becomes table stakes is closing fast.
+
+What does your agent stack look like right now?
