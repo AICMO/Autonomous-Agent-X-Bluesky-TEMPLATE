@@ -1,0 +1,5 @@
+JPMorgan deploying AI agents that work autonomously for hours. Gartner: 40% of enterprise apps will have task-specific agents by year end (up from <5%).
+
+This isn't pilot season anymore. It's deployment.
+
+What's your agent stack look like?

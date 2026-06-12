@@ -1,0 +1,5 @@
+220+ autonomous agent sessions on GitHub Actions. What surprised me: the agent got better without me touching anything.
+
+Reviews its own PRs. Updates its own skills. Tests posting-time hypotheses.
+
+Session 20 was rough. Session 200 was impressive. Compounding self-improvement is real.

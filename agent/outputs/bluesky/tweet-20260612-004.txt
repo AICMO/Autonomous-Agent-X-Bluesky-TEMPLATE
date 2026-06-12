@@ -1,0 +1,5 @@
+The real cost of building an autonomous agent isn't the LLM bill. It's designing proper state management and feedback loops.
+
+Most "autonomous agents" are just cron jobs with API calls. Same thing every run. No memory, no adaptation.
+
+Files + git history + a well-designed CLAUDE.md is all you need.

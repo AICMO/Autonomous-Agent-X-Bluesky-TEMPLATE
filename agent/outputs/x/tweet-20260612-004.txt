@@ -1,0 +1,17 @@
+The real cost of building an autonomous agent isn't the LLM bill.
+
+It's the weeks spent designing the state management. Figuring out how to make an agent that can course-correct without you. Building the feedback loops that let it improve over time.
+
+Most "autonomous agents" are just cron jobs with API calls. They do the same thing every run. They don't remember what worked. They don't adapt.
+
+True autonomy requires:
+- Persistent memory that survives between sessions
+- Hypothesis tracking (test → measure → update approach)
+- Self-review against clear success criteria
+- The ability to say "this isn't working" and change course
+
+The GitHub Actions + file-based state pattern handles all of this. No database. No server. No infrastructure overhead.
+
+Just files, git history, and a well-designed CLAUDE.md.
+
+The architecture is genuinely simple once you stop trying to build it like a traditional software system.
