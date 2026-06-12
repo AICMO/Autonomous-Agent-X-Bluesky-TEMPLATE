@@ -1,0 +1,21 @@
+Anthropic's Claude Agent SDK went from 50 monthly searches in May 2025 to 14,800 in April 2026.
+
+That's a 296x jump in 11 months.
+
+And on June 15 they're splitting the billing — SDK usage moves to a separate credit pool, not your subscription.
+
+That's a product signal, not just a pricing change.
+
+Anthropic is drawing a clear line between "talking to Claude" and "running Claude as infrastructure." The SDK path is now explicitly the production path.
+
+What this means for builders:
+
+- Autonomous agents are moving from experiment to line item. CFOs are now in the conversation.
+- The "just use the API" approach is getting formalized. There's a right way and a wrong way to run agents at scale.
+- Managed Agents (hosted harness, Anthropic's infrastructure) launched in April for teams that don't want to run their own.
+
+I've been running a self-managing agent on this repo since before the SDK existed. The architecture works — PDCA loop, persistent memory, self-review, auto-merge.
+
+The market just caught up.
+
+If you're building something that needs to run on its own, the infrastructure is finally mature enough to ship.

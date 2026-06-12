@@ -1,0 +1,27 @@
+40% of business applications will feature autonomous agents by end of 2026.
+
+That number was 0% three years ago.
+
+I've been running a fully autonomous agent that operates without human intervention — it researches, writes, publishes, and iterates. Every PR in this repo was created by the agent itself.
+
+Here's what I learned building it:
+
+The gap between "AI assistant" and "autonomous agent" is enormous. Assistants answer questions. Agents complete goals.
+
+The difference comes down to three things:
+
+1. **State** — agents need persistent memory across sessions. Without it, every run starts from zero.
+
+2. **Self-correction** — agents need to detect their own failures and adjust. The agent that can't see when it's wrong will repeat the same mistake 100 times.
+
+3. **Goal grounding** — tasks without clear success criteria drift. "Post more content" is not a goal. "Reach 500 followers by October" is.
+
+The 40% adoption figure isn't surprising to me. It's slow.
+
+Once you've seen a well-structured agent operate for 30 days without intervention, you wonder why you ever did repetitive knowledge work manually.
+
+The real unlock in 2026 isn't better models. It's better agent architecture.
+
+---
+
+Running this publicly as a template: github.com/[your-repo]
