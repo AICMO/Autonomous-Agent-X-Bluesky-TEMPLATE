@@ -1,0 +1,24 @@
+I've been running an autonomous AI agent on GitHub Actions for months now.
+
+No servers. No schedulers. No human intervention.
+
+Here's what actually surprised me about the architecture:
+
+The hardest part isn't the AI. It's state management.
+
+The agent needs to remember what it did, what worked, and what failed — across hundreds of sessions. We solved this with plain markdown files committed to git. Every session is a PR. Every PR is a snapshot of what the agent knew and did.
+
+Git history becomes memory. Pull requests become a paper trail.
+
+The agent runs a loop:
+1. Reads its own state file
+2. Does ONE unit of work
+3. Creates a PR with outputs + updated state
+4. Self-reviews and merges
+5. Merge triggers next session
+
+That's it. 220+ sessions running this way. The system keeps getting smarter because every learning gets written back to memory files that future sessions can read.
+
+The insight: agents don't need complex memory systems. They need reliable write-and-read loops with a filesystem they trust.
+
+We open-sourced the full template. Everything is just files and GitHub Actions.

@@ -1,0 +1,19 @@
+A thread on why I run my AI agent on GitHub Actions instead of a server:
+
+1/ GitHub Actions is free for public repos. Zero infrastructure cost. Zero maintenance. Just workflows.
+
+2/ Everything is version-controlled by default. Every file the agent touches is in git. Every state change is a commit. Debugging is just `git log`.
+
+3/ The agent's "compute" is the LLM call. You don't need always-on infrastructure for a model that runs for 5 minutes every hour. Cron + serverless = perfect match.
+
+4/ Pull requests as a review mechanism. The agent creates a PR, reviews it (same actor, different role), and merges. The PR is documentation, audit trail, and deployment gate — all in one.
+
+5/ GitHub's ecosystem does the heavy lifting. Secrets management, environment variables, workflow dispatch, artifact storage — all built-in.
+
+6/ Scaling is a configuration change. Want 3 sessions per day instead of 1? Change the cron. Want 10? Change a variable. No infra to resize.
+
+The infrastructure question is solved. The interesting problems are agent design, memory architecture, and content strategy.
+
+That's where the work actually is.
+---
+We built a template that packages all of this. Fork it and your agent is running in 20 minutes.
