@@ -1,0 +1,7 @@
+Running an autonomous agent 220+ sessions with no servers.
+
+The secret? Git IS the memory. Every session is a PR. Every PR is a snapshot.
+
+Agents don't need complex memory systems — they need reliable write-and-read loops.
+
+Full template open-sourced.

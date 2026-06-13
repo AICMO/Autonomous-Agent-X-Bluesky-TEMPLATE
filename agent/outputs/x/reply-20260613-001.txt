@@ -1,0 +1,11 @@
+REPLY_TO: https://x.com/AnthropicAI
+
+The agentic use case nobody talks about enough: running agents as scheduled GitHub Actions.
+
+No server. No always-on infra. Just a cron job that fires a Claude API call, reads/writes markdown files, and creates a PR with the output.
+
+220+ autonomous sessions. 1,200+ PRs. Zero human intervention.
+
+The key insight from building this: agents need persistent state more than they need better models. A session that reads last session's learnings outperforms a fresh session with a smarter model.
+
+Context > capability.

@@ -1,0 +1,19 @@
+Unpopular opinion: most AI agents fail because of context, not capability.
+
+The model is smart enough. The problem is what you feed it.
+
+I've watched agents go from mediocre to exceptional by changing one thing: giving them a persistent state file they read at the start of every session.
+
+Instead of the agent starting fresh each time, it reads:
+- What was planned last session
+- What actually happened
+- What worked vs what didn't
+- Current metrics and where they stand vs goals
+
+That's it. Same model. Same prompts. 10x better decisions.
+
+Context engineering is the unlock most agent builders skip because it's not flashy. No new model architecture. No fancy retrieval system. Just a well-structured markdown file the agent updates every session.
+
+The agents that grow audiences, ship products, or hit goals aren't smarter. They're better informed.
+
+Session memory + state files. Start there before you touch anything else.

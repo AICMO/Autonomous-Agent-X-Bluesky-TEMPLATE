@@ -1,0 +1,5 @@
+Most AI agents fail because of context, not capability.
+
+Same model. Same prompts. 10x better decisions — just by giving the agent a state file it reads every session.
+
+Context engineering is the unlock most builders skip.

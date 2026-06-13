@@ -1,0 +1,5 @@
+Why run an AI agent on GitHub Actions?
+
+Free. Version-controlled by default. PRs as audit trail. Cron + serverless = perfect match. Scales with a config change.
+
+The infra problem is solved. Focus on agent design instead.
