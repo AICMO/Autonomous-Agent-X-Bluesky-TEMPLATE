@@ -1,0 +1,19 @@
+Microsoft just shipped Scout — an "Autopilot" agent that runs 24/7 across Teams, Outlook, OneDrive, and SharePoint without waiting to be prompted.
+
+No task-by-task approvals. It schedules meetings. Drafts docs. Monitors comms. Surfaces action items. All on its own.
+
+This is the architecture shift that's been coming for 3 years: from "AI as assistant" to "AI as autonomous coworker."
+
+The difference matters more than people realize:
+
+Assistants wait. Autopilots act.
+
+Assistants help when you ask. Autopilots notice what needs doing and do it.
+
+The mental model most people carry — "AI is a smarter search box" — is already obsolete. The new model is "AI is a colleague who never sleeps and never forgets."
+
+For businesses still evaluating chatbots and copilots: you're one product cycle behind. The category has already moved to always-on agents.
+
+Gartner says 40% of enterprise apps will embed AI agents by end of 2026. Up from less than 5% in 2025.
+
+That's not a trend. That's a platform shift happening in real time.

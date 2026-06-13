@@ -1,0 +1,5 @@
+Gartner: AI agents in enterprise apps going from <5% to 40% in 12 months. 8x in one year.
+
+The window to build agent fluency in your org is ~18 months. After that, the gap is structural.
+
+This isn't a productivity tool. It's infrastructure. Treat it like cloud in 2012.
