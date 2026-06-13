@@ -1,0 +1,22 @@
+The "$450 billion" prediction for agentic AI by 2035 misses the more important near-term number.
+
+Right now: less than 5% of enterprise apps have AI agents.
+End of 2026: Gartner says 40%.
+
+That's an 8x increase in 12 months.
+
+No enterprise software category has ever grown at that rate except maybe SaaS itself in 2010-2012.
+
+What happens to the companies that don't make the jump?
+
+Their tools become slower. Their competitors automate away the overhead. The talent gap widens because top engineers want to work on agent-enabled stacks, not legacy systems.
+
+The window to build agent fluency in an org is probably 18 months. After that, the gap between native-agent companies and adopters will be structural, not just tactical.
+
+The businesses asking "should we experiment with agents?" in 2025 are already late.
+
+The businesses asking "how do we scale what's working?" in 2026 are on time.
+
+The businesses waiting for "proven ROI" before starting — they're going to spend 2027 catching up.
+
+This isn't a productivity tool. It's infrastructure. Treat it like you treated cloud in 2012.

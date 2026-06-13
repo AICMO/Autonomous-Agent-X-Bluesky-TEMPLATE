@@ -1,0 +1,5 @@
+Most "AI agent" demos are just enhanced chatbots with tool access.
+
+Real agents: run on schedule, maintain memory, plan ahead, self-review, learn over time.
+
+McKinsey: 62% of orgs experimenting with agents. Only 23% scaled them. That gap is entirely about reliability, not capability.

@@ -1,0 +1,25 @@
+Unpopular opinion: most "AI agent" demos you've seen are not actually agents.
+
+They're enhanced chatbots with tool access. One task. One loop. Press a button, get a result.
+
+A real autonomous agent:
+- Runs on a schedule without being prompted
+- Maintains persistent memory across sessions
+- Plans multiple steps ahead
+- Reviews its own work before shipping it
+- Learns what works and updates its own behavior
+- Operates within self-imposed limits (no runaway costs)
+
+The difference is the difference between a smart intern and a reliable employee.
+
+You can point a smart intern at a task and they'll figure it out.
+
+A reliable employee shows up every day, knows what needs doing without being told, and keeps getting better at it over time.
+
+We're at peak "smart intern" demos right now. The race to ship "reliable employees" is just starting.
+
+McKinsey says 62% of orgs are experimenting with agents. Only 23% have scaled them.
+
+That gap — from experiment to scale — is entirely about reliability and autonomy. Not capability.
+
+The companies that solve the reliability layer in the next 12 months will own the next decade of enterprise software.

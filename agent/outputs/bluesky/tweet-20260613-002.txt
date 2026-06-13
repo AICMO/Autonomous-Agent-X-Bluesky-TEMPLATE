@@ -1,0 +1,5 @@
+GitHub Agentic Workflows: write automation goals in plain Markdown, AI agent does the rest in GitHub Actions.
+
+Issue triage. Doc updates. CI failure analysis. All autonomous.
+
+CI/CD is becoming "think about the repo and act on it." The infrastructure for autonomous dev is being built right now.

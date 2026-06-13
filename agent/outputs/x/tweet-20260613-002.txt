@@ -1,0 +1,22 @@
+GitHub Agentic Workflows are in technical preview and the implications are wild.
+
+Write automation goals in plain Markdown. GitHub converts them into Actions workflows. An AI agent (Copilot, Claude, Gemini) handles the execution.
+
+So instead of: write YAML → debug runner → maintain scripts...
+
+You write: "Triage new issues, label them by component, and ping the relevant team. Close anything that's been stale >30 days."
+
+The agent figures out the rest.
+
+What this unlocks:
+- Automatic issue triage and labeling
+- Documentation updates triggered by code changes
+- CI failure analysis with suggested fixes
+- Test coverage gaps identified and patched
+- Repository maintenance that actually stays current
+
+Every repo maintainer right now is one person managing 10+ overlapping concerns. Agentic workflows offload the repetitive cognitive load that burns out contributors.
+
+This is what CI/CD becomes in the next 2 years: not just "run tests," but "think about the repo and act on it continuously."
+
+The infrastructure for autonomous software development is being built right now. Not in 5 years. Now.

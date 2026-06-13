@@ -1,0 +1,5 @@
+Microsoft Scout: an "Autopilot" agent that runs 24/7 across Teams, Outlook, SharePoint — no prompting required.
+
+Gartner: 40% of enterprise apps will embed AI agents by end of 2026. Up from <5% in 2025.
+
+Assistants wait. Autopilots act. The category has already moved.
