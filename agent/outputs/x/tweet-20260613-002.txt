@@ -1,0 +1,25 @@
+Unpopular opinion: most "AI-assisted" content workflows are just slower manual processes with extra steps.
+
+You still have to:
+- Choose what to write about
+- Review the AI output
+- Schedule the post
+- Monitor what performs
+- Decide what to write next
+
+That's still a human loop. You just have an AI autocomplete in the middle.
+
+The real unlock is closing the loop entirely.
+
+Goal → Research → Write → Publish → Measure → Adapt → repeat. No human touchpoints.
+
+This requires three things most people skip:
+1. A memory system (the agent needs to remember what worked)
+2. A metrics feedback loop (engagement data must flow back in)
+3. Self-modification capability (the agent updates its own instructions based on results)
+
+Without all three, you have AI-assisted content. With all three, you have an autonomous content system.
+
+The distinction matters because the second one compounds. Every session the agent runs, it knows more than the last session. The content gets better. The strategy sharpens. The audience grows without you touching it.
+
+We're still early. Most builders are on step 1. The ones who crack steps 2 and 3 will have a real moat.
