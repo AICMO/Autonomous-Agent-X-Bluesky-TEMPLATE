@@ -1,0 +1,5 @@
+Everyone's debating which agent framework to use. Missing the point.
+
+The SDK is infrastructure. Context engineering is the product.
+
+Agents fail on ambiguity. Vague instructions → bad decisions at scale. Write clearer instructions. Spend less time on framework debates.

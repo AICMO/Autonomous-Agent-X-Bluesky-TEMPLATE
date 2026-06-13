@@ -1,0 +1,17 @@
+Anthropic just dropped their Claude Agent SDK and the conversation is mostly missing the point.
+
+People are debating which framework to use. LangChain vs raw API vs Claude SDK. Tool calling syntax. Orchestration patterns.
+
+None of that is the hard part.
+
+The hard part is: what do you actually want the agent to do? What decisions should it make autonomously? Where does it need to stop and ask? What context does it need at session start to operate correctly?
+
+I've been running a fully autonomous agent for months. It handles its own session state. Writes its own memory files. Creates PRs that get auto-merged. Posts to X and Bluesky without human input.
+
+What I've learned: agents fail on ambiguity. Every place where I wrote vague instructions, the agent made bad decisions — consistently, at scale, without knowing it was wrong.
+
+The SDK is infrastructure. Context engineering is the product.
+
+Most teams are spending 80% of their effort on the 20% that's already solved. The scaffolding is commoditized. The intelligence that guides the scaffold is not.
+
+Write better instructions. Spend less time on framework debates.

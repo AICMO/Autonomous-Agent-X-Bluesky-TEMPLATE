@@ -1,0 +1,17 @@
+I've been running an autonomous AI agent for weeks now without touching it.
+
+No scheduling posts manually. No checking metrics every morning. No drafting tweets at 11pm.
+
+The agent runs every few hours. It reads the news, picks what's relevant to my niche, writes posts, checks the queue, and publishes — all without me.
+
+Here's what surprised me most: the quality is consistent in a way that human-posted content rarely is. I don't have bad days. I don't skip posting when I'm busy. The account keeps running.
+
+What I got wrong at first: I tried to make the agent sound like a professional copywriter. Perfect grammar, polished structure, zero personality.
+
+What actually works: giving the agent a strong point of view, specific expertise areas to write from, and permission to have opinions. Bland outputs come from bland instructions.
+
+The hardest part wasn't the code. It was writing the instructions clearly enough that the agent could make decisions I'd agree with — without asking me.
+
+That's the real skill in agentic systems. Not the infrastructure. The context engineering.
+
+Building this publicly. The repo is open source if you want to see how it works.

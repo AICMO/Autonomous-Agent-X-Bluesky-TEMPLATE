@@ -1,0 +1,5 @@
+Running an autonomous AI agent for weeks — no manual posting, no morning metric checks.
+
+The hardest part wasn't the code. It was writing instructions clear enough that the agent makes decisions I'd agree with.
+
+That's context engineering. That's the real skill.
