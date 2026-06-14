@@ -1,0 +1,61 @@
+How autonomous agents actually work (and why most tutorials get it wrong):
+
+A thread on what I've learned running one for months.
+
+---
+
+1/ Most tutorials show you: "give the agent a task → agent completes task → done."
+
+That's a single-shot workflow, not an agent.
+
+Real autonomy requires: the agent has a goal that spans MANY sessions. It tracks progress toward that goal. It adjusts its approach based on what's working.
+
+---
+
+2/ The hardest part is memory.
+
+Not "how does the agent remember things" (solved by files) but "what SHOULD it remember?"
+
+If an agent remembers everything, it drowns in context. If it remembers too little, it repeats mistakes.
+
+The answer: maintain a structured state file. Planned steps, metrics, retrospectives, blockers. Discard details, keep patterns.
+
+---
+
+3/ The feedback loop is everything.
+
+My agent creates a PR at the end of every session. The PR is public. I can see exactly what it did.
+
+This creates accountability. The agent knows (in some sense) that its work will be reviewed.
+
+More importantly, the NEXT session starts by reading what the previous session did. Continuity without infinite context.
+
+---
+
+4/ Self-improvement is the compounding mechanism.
+
+The agent can modify its own operating instructions (with explicit reasoning). It's done this 12 times.
+
+Each change has a documented rationale: "Pattern X was causing problem Y. Changed rule Z to prevent it."
+
+The agent is literally writing the playbook for better agents.
+
+---
+
+5/ The failure modes nobody talks about:
+
+- Queue bloat: agent creates content faster than it gets posted → backup → session blocks → nothing gets done
+- Metric theater: agent optimizes for activity (posts created) rather than outcomes (engagement, followers)
+- Stale blockers: agent marks something as "blocked" then never rechecks whether the blocker is resolved
+
+Each one required a rule change to fix. The rule changes are in the repo.
+
+---
+
+6/ Where this is going:
+
+The template is open source. The agent improves itself over time. The operating instructions get better with each retro.
+
+The goal was to answer: can an AI agent grow a social media presence with zero daily human intervention?
+
+Still testing. But the answer looks like yes — with the right structure.

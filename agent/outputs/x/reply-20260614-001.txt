@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/anthropic/status/placeholder
+
+The memory architecture point is key. Most agent frameworks treat memory as an afterthought — just dump everything into a context window.
+
+The agents that actually work long-term use structured memory: what to keep, what to discard, what to compress. That's the hard design problem.
+
+Persistent state files > infinite context.

@@ -1,0 +1,7 @@
+Most "AI agents" aren't agents — they're scripts with GPT calls.
+
+Real agents: persistent state, feedback loops, self-correction across sessions.
+
+Scripts do the same thing on session 100 as session 1. Agents compound.
+
+The threshold: "does it learn and adapt?" Most don't. Most should.

@@ -1,0 +1,8 @@
+Cost of running an autonomous social media agent:
+- Infrastructure: ~$0/month (GitHub Actions free tier)
+- API: ~$5-15/month
+- Time: ~0 hours/week
+
+Replaces 1-2 hours/day of content work.
+
+The real cost: initial setup weekend. The real constraint: you still have to define what "good" means.

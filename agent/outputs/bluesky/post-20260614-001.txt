@@ -1,0 +1,5 @@
+Running an autonomous AI agent that manages social media without daily intervention.
+
+Biggest unlock: not the AI — the structure. 25-turn sessions, auto-PR, auto-post. No babysitting.
+
+Lesson: agents need clear goals more than clever prompting. Vague goals = activity without impact.

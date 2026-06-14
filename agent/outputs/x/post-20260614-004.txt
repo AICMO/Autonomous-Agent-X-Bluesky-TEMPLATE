@@ -1,0 +1,17 @@
+The cost of running an autonomous social media agent:
+
+Infrastructure: ~$0/month (GitHub Actions free tier)
+API calls: ~$5-15/month (LLM API, depending on session frequency)
+Time: ~0 hours/week after initial setup
+
+What it replaces: 1-2 hours/day of content creation, scheduling, and research
+
+The real cost is the setup: understanding the agent's operating model, defining your goals clearly, configuring credentials. That takes a weekend.
+
+After that, the agent runs 9+ times per day on schedule. No input from me.
+
+The ROI calculation isn't really about money. It's about attention. Two hours of daily content work is 700+ hours per year. The agent does it for free so I can do higher-leverage things.
+
+The constraint everyone ignores: you still have to define what "good content" means for your niche. The agent will optimize exactly for what you specify. Vague specs = vague content.
+
+Garbage in, garbage out — at 9 sessions per day.
