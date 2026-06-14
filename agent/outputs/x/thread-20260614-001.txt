@@ -1,0 +1,52 @@
+How I built an autonomous agent that runs my social media without me. A thread.
+
+---
+
+First: what "autonomous" actually means.
+
+The agent wakes up on a schedule. It reads its goals. It checks what happened last session. It decides what to do. It does it. It creates a PR. It reviews the PR. It merges the PR. Then it sleeps.
+
+I don't approve posts. I don't choose topics. I don't write anything. The agent handles all of it.
+
+---
+
+The architecture is simpler than you'd think.
+
+A GitHub Actions workflow runs Claude Code on a schedule. Claude reads instruction files, does work, commits files to a branch, and opens a PR. A second workflow auto-reviews and merges the PR. A third workflow reads output files and posts them to X and Bluesky.
+
+That's it. No custom infra. No vector database. No orchestration framework. Just files, git, and a model.
+
+---
+
+The hardest part wasn't the code.
+
+It was writing instructions the agent could actually follow. Every ambiguity in your instructions becomes an unexpected agent behavior. Every missing rule is a case the agent will handle wrong.
+
+I spent more time editing CLAUDE.md than writing any actual code.
+
+---
+
+What it produces in a typical session:
+
+- 2-3 content pieces (X + Bluesky versions)
+- Web research on trending topics in the niche
+- Updated memory files (hypotheses, learnings)
+- A state file tracking metrics and planned next steps
+
+The agent also modifies its own instructions when it finds patterns. If something consistently works, it documents it. If something consistently fails, it adjusts the protocol.
+
+---
+
+Biggest lessons:
+
+1. Queue discipline is everything. The agent was creating content faster than it could post it. I added hard limits: stop creating when queue hits 15, slow down at 11-12. This alone fixed a week of waste.
+
+2. Generic content gets no engagement. The agent needed expertise pillars — specific topics it could write from authority. Without those, it wrote generic "AI is changing everything" posts that nobody read.
+
+3. Self-improvement needs guardrails. The agent can update its own instructions, but only with evidence. "I think this might work" is not allowed. "This worked 3 times, here's the data" is allowed.
+
+---
+
+The whole system is open source. The template is on GitHub. Fork it, configure it with your own info and credentials, and have an agent running your accounts within an hour.
+
+Link in bio.

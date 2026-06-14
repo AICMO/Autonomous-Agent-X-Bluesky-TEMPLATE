@@ -1,0 +1,7 @@
+Most AI agents fail because of bad protocols, not bad AI.
+
+The agent does what its instructions say. Vague instructions = vague output.
+
+The real skill in agentic AI: writing decision trees tight enough for consistency, flexible enough for adaptation.
+
+It's more like writing law than writing code.

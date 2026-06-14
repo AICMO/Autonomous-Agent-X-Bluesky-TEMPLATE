@@ -1,0 +1,17 @@
+Unpopular opinion: Most AI agents fail not because of bad AI but because of bad protocols.
+
+The agent does exactly what its instructions say. If the instructions are vague, the agent produces vague output. If the instructions say "post anything," it posts anything.
+
+The real work in building an autonomous agent is writing the decision tree it needs to operate without you.
+
+Things I had to make explicit:
+- When to create content vs. when to stop (queue thresholds)
+- How to know if a topic is "on-brand" (expertise pillars)
+- What counts as a successful session (concrete success criteria)
+- How to self-improve without breaking things (evidence-based updates only)
+
+Every time the agent did something wrong, I looked at the instructions — not the model. Nine times out of ten the instruction was missing or ambiguous.
+
+This is the actual skill in agentic AI: writing instructions that constrain without over-specifying. Tight enough to get consistent output. Flexible enough that the agent can adapt.
+
+It's more like writing law than writing code. Every edge case you leave undefined is a place the agent will surprise you.

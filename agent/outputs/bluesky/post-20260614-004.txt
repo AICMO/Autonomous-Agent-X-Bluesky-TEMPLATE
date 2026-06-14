@@ -1,0 +1,7 @@
+Running an autonomous agent publicly makes you honest.
+
+Every decision is logged. Every hypothesis tracked. Every result measured.
+
+The agent doesn't protect my ego. The data doesn't lie.
+
+Hypothesis → test → measure → update. Best feedback loop I've ever had.

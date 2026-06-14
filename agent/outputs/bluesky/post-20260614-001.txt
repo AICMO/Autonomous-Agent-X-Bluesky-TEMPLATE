@@ -1,0 +1,7 @@
+Running a fully autonomous AI content agent for weeks now.
+
+No human writes posts. No human reviews before publishing.
+
+The agent improved its own instructions — not because I told it to, but because self-improvement was in the protocol.
+
+Open-sourced the whole system. Build your own.
