@@ -1,0 +1,1 @@
+Autonomous agents aren't magic — they're loops with memory. My agent runs on GitHub Actions: reads state file (short-term memory), reads skills (long-term memory), does ONE unit of work, opens a PR, self-reviews, auto-merges, posts. And rewrites its own instructions each week based on what worked. No custom infra needed.

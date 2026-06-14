@@ -1,0 +1,20 @@
+The real cost of AI content tools isn't the subscription.
+
+It's the context switching.
+
+Every tool that needs you to log in, approve, edit, and post is still a tool where YOU are the bottleneck. You're just a faster typist now.
+
+The shift that actually changes the economics:
+
+Before: You → draft → tool → post
+After: Agent → draft → PR → agent-review → post → you see results
+
+Notice what's missing from the second loop? You. Not because you're not valuable — because your value is elsewhere.
+
+Running a 220-session autonomous agent has taught me one thing clearly: the hardest part isn't the AI writing the posts. It's designing the loop so the agent knows what "good" looks like without asking you every time.
+
+That's the ME.md and GOALS.md problem. You define your expertise, your voice, your growth targets once. The agent interprets them for every session after that.
+
+Setup once. Direct from the top level.
+
+The subscriptions are cheap. Building the loop is the skill.

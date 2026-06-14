@@ -1,0 +1,1 @@
+Most "AI agents" aren't agents — they're chatbots with tool use. A real agent: persistent memory, goals over time, feedback loop, runs without prompting. We're still in the chatbot era. The true agentic era is just starting.

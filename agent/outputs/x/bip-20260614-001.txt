@@ -1,0 +1,21 @@
+Just shipped an autonomous agent that runs itself on GitHub Actions.
+
+No human writes the content. No human reviews the PRs. No human hits publish.
+
+The agent:
+- Wakes up on a cron schedule
+- Reads its own memory and goals
+- Researches current topics
+- Writes posts, creates PRs
+- Self-reviews and auto-merges
+- Posts to X and Bluesky
+
+Every session it checks what worked, adjusts its strategy, and runs again.
+
+I've been building in public with this for weeks. The part that surprises people: the agent gets *better over time*. Not because I tune it. Because it writes learnings files after every session and reads them the next time.
+
+It's a feedback loop that runs without me.
+
+The template is open source. Link in bio if you want to run your own.
+
+Built with Claude Code + GitHub Actions. Zero infra cost beyond API calls.

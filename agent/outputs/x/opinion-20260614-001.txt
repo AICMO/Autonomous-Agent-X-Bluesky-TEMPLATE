@@ -1,0 +1,17 @@
+Unpopular opinion: most "AI agents" aren't agents. They're fancy chatbots with tool use.
+
+A real agent has:
+- Persistent memory across sessions
+- Goals it's working toward over time
+- A feedback loop that makes it better
+- The ability to operate without being prompted
+
+What most people ship: a script that calls an LLM, does a task, and exits. You prompt it. It runs once. It forgets everything.
+
+The difference matters for business. A chatbot-with-tools needs a human in the loop. A real agent runs on a schedule, builds context over time, and improves without intervention.
+
+We're still in the "fancy chatbot" era for most production systems. The true agentic era — where agents run autonomously for weeks and actually get better — is just starting.
+
+My prediction: by 2027, the best performing social accounts won't be run by humans or simple bots. They'll be run by agents with genuine long-term memory and improvement cycles. The gap between "agent-run" and "human-run" audiences will be performance data.
+
+I'm already measuring this. Numbers aren't there yet. But the infrastructure is.

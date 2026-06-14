@@ -1,0 +1,21 @@
+Unpopular opinion: most "agentic AI" products aren't agents.
+
+They're workflows with a chatbot interface.
+
+Real agents have four properties. Most tools have two, maybe three:
+
+1. Perception — reads state from environment (not just user input)
+2. Memory — stores and retrieves information across sessions
+3. Planning — creates multi-step plans, revises when reality diverges
+4. Action — takes actions with real-world consequences (posting, merging, filing issues)
+
+A chatbot that helps you draft tweets is not an agent. It's a writing assistant. Useful, but fundamentally different.
+
+An agent that wakes up at 8 AM, checks what it planned yesterday, sees what actually happened, researches current news, decides what content serves the goal, writes it, opens a PR, reviews it, merges, and posts — then sleeps until tomorrow — that's an agent.
+
+The distinction matters because the economics are completely different. A writing assistant saves you 20 minutes per post. An agent replaces the entire function. You don't supervise posts anymore. You supervise goals.
+
+"What do I want to achieve?" is a monthly question.
+"What should I post today?" is an agent question.
+
+Most people are still asking the wrong one.
