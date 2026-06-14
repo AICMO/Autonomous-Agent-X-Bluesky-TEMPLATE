@@ -1,0 +1,7 @@
+AI social media market: $2.69B → $11.37B by 2031.
+
+But most "AI tools" are just fancy schedulers. Real autonomous agents research, write, PR, self-review, merge, post, and learn — all without you.
+
+I built one on GitHub Actions. 220+ sessions. 1,200+ PRs. Zero human intervention.
+
+Hammer vs contractor.

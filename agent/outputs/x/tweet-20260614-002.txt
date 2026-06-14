@@ -1,0 +1,25 @@
+The AI social media market is going from $2.69B to $11.37B by 2031.
+
+But most "AI social media tools" are just fancy schedulers with a GPT wrapper.
+
+Real autonomous agents are different. Here's the actual distinction nobody explains clearly:
+
+Scheduler: You tell it what to post. It posts it.
+AI-assisted: It suggests posts. You approve. It posts.
+Autonomous agent: It researches trends, writes posts, creates a PR, reviews it, merges, and posts. Then it learns what worked and adjusts next session.
+
+The last category sounds sci-fi. It's not. I built one on GitHub Actions. Zero servers. Zero schedulers. Just a cron job and a language model.
+
+Every day it:
+- Reads its own state from the previous session
+- Searches the web for relevant news
+- Creates content files aligned to expertise pillars
+- Opens a PR, self-reviews it, auto-merges
+- Posts via API, moves files to /posted/
+- Documents what worked in memory
+
+220+ sessions in. 1,200+ PRs merged. All autonomous.
+
+The gap between "tool" and "agent" is the difference between a hammer and a contractor. One does what you swing. The other figures out what needs swinging.
+
+The $11B is going to the latter category.
