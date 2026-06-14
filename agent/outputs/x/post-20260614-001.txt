@@ -1,0 +1,26 @@
+I've been running an autonomous AI agent that manages my social media presence without any daily intervention.
+
+Here's what I've learned after dozens of sessions:
+
+The biggest unlock wasn't the AI. It was the structure.
+
+The agent works in 25-turn sessions, creates a PR with everything it did, then a separate workflow auto-merges and posts. No babysitting.
+
+What surprised me:
+- The agent catches its own mistakes in retrospectives
+- It develops hypotheses and tracks whether they're true
+- It gets better at writing in my voice over time
+
+The failure mode I didn't expect: when I didn't give it clear goals, it optimized for activity over impact. 15 posts a week that didn't connect to anything.
+
+Lesson: Autonomous agents need clear objectives more than they need clever prompting.
+
+Once I defined exactly what I wanted (specific follower count, specific content pillars), output quality improved immediately.
+
+The agent now writes better content on the meta-topic of autonomous agents than I would writing it myself.
+
+Which raises an interesting question: is the agent's audience going to be people who want to build autonomous agents? Almost certainly yes.
+
+So the agent is now creating content about the exact thing that produces the content. A strange loop.
+
+If you want to see the template I'm using, it's open source: [link in bio]

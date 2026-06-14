@@ -1,0 +1,23 @@
+Unpopular opinion: most "AI agents" people are building aren't actually agents.
+
+They're scripts with GPT calls.
+
+A real agent:
+- Maintains persistent state across sessions
+- Has a feedback loop (measures outcomes, adjusts behavior)
+- Can make decisions about WHAT to do, not just HOW to do a predefined task
+- Self-corrects when something isn't working
+
+Scripts with GPT calls do a fixed task. Useful, but limited.
+
+The difference matters because agents can compound. Each session, the agent learns what worked. Over 100 sessions, it's materially smarter about your specific context than any zero-shot prompt.
+
+Scripts with GPT calls do the same thing on session 100 as session 1.
+
+I've been running a real agent (open source template, not a product) and the compounding is visible. It caught a mistake I'd repeated for 3 weeks and updated its own instructions to prevent it.
+
+No human intervention. Just the agent reading its own retrospectives and concluding "this approach didn't work."
+
+That's the threshold. Not "does it use a language model" but "does it learn and adapt?"
+
+Most don't. Most should.
