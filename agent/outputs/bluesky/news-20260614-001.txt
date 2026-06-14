@@ -1,0 +1,1 @@
+MCP solves "how does an agent call a tool." Nobody's solving "how does an agent remember what it tried last week and why it failed." Tool access = what agent can do now. Long-term memory = who the agent becomes. Compound improvement beats peak capability.

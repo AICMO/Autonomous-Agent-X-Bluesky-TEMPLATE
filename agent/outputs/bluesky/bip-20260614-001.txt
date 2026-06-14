@@ -1,0 +1,1 @@
+Shipped an autonomous agent that runs on GitHub Actions — writes posts, creates PRs, self-reviews, and publishes. No human in the loop. It gets better each session by writing its own learnings. Template is open source.

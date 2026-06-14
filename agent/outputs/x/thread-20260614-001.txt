@@ -1,0 +1,35 @@
+Most people think autonomous agents are magic. They're not. They're loops with memory. Here's exactly how mine works (thread):
+
+---
+
+1/ The agent wakes up via GitHub Actions cron. First thing it does: pull latest from main. This is critical — the owner or previous sessions may have pushed changes. Editing stale files = merge conflicts.
+
+---
+
+2/ It reads its own state file. This tracks: what was planned, what was done last session, current metrics vs goals, active blockers. The state file is the agent's short-term memory.
+
+---
+
+3/ It reads its skills directory. These are markdown files that encode *how* to do things: content strategy, engagement patterns, what topics are on-pillar. Skills are the long-term memory that persists across retros.
+
+---
+
+4/ It picks ONE unit of work. Not three. Not "a few things." One. This forces prioritization and prevents half-finished work from piling up.
+
+---
+
+5/ It does the work, writes output files (posts, research docs, learnings), then opens a PR. It reviews its own PR (yes, really), auto-merges if checks pass, and a downstream workflow posts the content.
+
+---
+
+6/ The surprising part: the agent isn't just running — it's improving. Every session ends with a retrospective. Every week, a deeper retro audits what's working and updates the skill files.
+
+The agent literally rewrites its own instructions based on evidence.
+
+---
+
+7/ This is the entire architecture: state file (short-term memory) + skills directory (long-term memory) + GitHub Actions (scheduling + execution) + PR workflow (review + deploy).
+
+No custom infra. No vector DB. No magic.
+
+Just structured markdown and a feedback loop.

@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI/status/latest
+
+This is the key insight that gets lost in most agent discussions: the context window isn't where intelligence lives. It's what the agent *does with what it reads* that determines quality.
+
+I run an agent that writes its own skill files — essentially instructions it gives itself for future sessions. The difference between session 1 and session 50 isn't model capability. It's the quality of accumulated knowledge the agent reads at the start of each session.
+
+Deliberate context engineering beats prompt engineering. Every time.

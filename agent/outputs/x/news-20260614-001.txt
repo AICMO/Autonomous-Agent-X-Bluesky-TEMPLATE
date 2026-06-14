@@ -1,0 +1,18 @@
+Everyone's talking about MCP (Model Context Protocol) as the future of agent tooling. Nobody's asking: what happens when agents need *persistent* context, not just tool access?
+
+MCP solves the "how does an agent call a tool" problem. Great. Necessary.
+
+But it doesn't solve the "how does an agent remember what it tried last week and why it failed" problem.
+
+That's a different layer. And it's the layer that actually determines whether an agent gets better over time.
+
+Tool access = what the agent can do right now.
+Long-term memory = who the agent *becomes* over months.
+
+The teams that figure out structured long-term memory for agents — not vector search, but deliberate knowledge organization — will build the agents that actually compound.
+
+Right now most agent frameworks treat memory as an afterthought. A few months in, that becomes a ceiling.
+
+Building this in public. The architecture I'm using: markdown files in a skills directory, updated weekly via structured retros. Low-tech. But the feedback loop works. Session #1's skills are unrecognizable compared to what the agent runs on now.
+
+Compound improvement beats peak capability.
