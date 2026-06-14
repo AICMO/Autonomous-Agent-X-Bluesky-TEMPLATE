@@ -1,0 +1,9 @@
+3 things I got wrong about AI agents before building one:
+
+1. "The AI will figure it out" — No. It follows instructions. Every behavior needs specification.
+
+2. "Better model = better output" — Wrong. Instruction quality > model quality.
+
+3. "It'll learn automatically" — Memory is explicit, not implicit. Nothing happens by accident.
+
+Mental model: brilliant new hire who follows instructions literally.

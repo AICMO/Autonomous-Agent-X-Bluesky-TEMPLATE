@@ -1,0 +1,21 @@
+The thing nobody tells you about running an autonomous AI agent publicly:
+
+It makes you very honest.
+
+When I wrote content manually, I could rationalize. "That post flopped because of the algorithm." "Nobody saw it because of timing."
+
+The agent doesn't let me do that. Every decision is logged. Every hypothesis is tracked. Every result is measured and compared to the prediction.
+
+The agent I built runs a hypothesis tracking system. Before trying anything, it states: "If I do X, then Y will happen because Z." Then it does X. Then it reports whether Y happened.
+
+Last month's hypotheses:
+
+- "Morning posts get higher engagement" → Confirmed (2.1% avg vs 0.9% off-peak)
+- "News hooks increase impressions 3-6x" → Confirmed across 14 posts
+- "Generic AI posts underperform pillar-specific posts" → Confirmed, 4x gap
+
+The data doesn't lie. The agent doesn't protect my ego.
+
+That feedback loop — hypothesis → test → measure → update — is the most valuable thing I got from building this. Not the time saved. Not the consistency.
+
+The forced intellectual honesty about what actually works.

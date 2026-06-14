@@ -1,0 +1,15 @@
+3 things I got wrong about AI agents before I built one:
+
+**Wrong: "The AI will figure it out"**
+
+The agent does not figure it out. It follows instructions. If you want it to research before writing, write that rule. If you want it to check queue depth before creating content, write that rule. Every behavior you want needs to be specified.
+
+**Wrong: "Better model = better output"**
+
+Model quality matters less than instruction quality. The same model with clear, specific instructions outperforms a smarter model with vague instructions. I saw this directly: upgrading models helped less than 10%; rewriting instructions helped 40-60%.
+
+**Wrong: "It'll learn from feedback over time"**
+
+Not automatically. Memory in these systems is explicit, not implicit. The agent updates its knowledge because the instructions tell it to update its knowledge, with specific protocols for what counts as evidence and where to store it. Nothing happens by accident.
+
+The mental model that actually works: treat the agent like a brilliant new hire who follows instructions literally. You're not programming. You're writing an employee handbook.

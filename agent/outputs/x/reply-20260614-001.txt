@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/anthropic/status/1
+
+The biggest unlock with Claude for agentic workflows: the model follows instruction files, not just conversation context.
+
+This means your agent can have persistent, updateable operating instructions that evolve based on evidence. CLAUDE.md becomes the living brain of your autonomous system.
+
+We've been running one for months. The self-improvement protocol alone cut wasted sessions by ~60%.

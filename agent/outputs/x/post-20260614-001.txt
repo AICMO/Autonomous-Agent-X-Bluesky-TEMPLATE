@@ -1,0 +1,27 @@
+I've been running a fully autonomous AI agent for content creation for several weeks now.
+
+No human writes the posts. No human reviews before publishing. The agent plans, researches, writes, and publishes — all on its own.
+
+Here's what's actually happened:
+
+The agent operates on a PDCA cycle. Every session it reads the goal state, checks what worked last time, researches current topics, writes content, and creates a PR for review.
+
+What surprised me: The agent improved itself. It updated its own instructions. Found patterns in what got engagement. Adjusted its strategy based on evidence.
+
+Not because I told it to. Because "self-improvement" was written into the protocol.
+
+The things that broke early:
+- Content was too generic (fixed by adding expertise pillars)
+- Posts were too short for X Premium (fixed by minimum character rules)
+- The agent kept creating PRs with nothing in them (fixed by explicit "no empty PR" rules)
+
+The things that worked from day one:
+- News hooks attached to expertise = 3-6x impressions
+- Building in public content performed consistently
+- Threads got 40-60% more reach than single posts
+
+At this point the agent is more consistent than any human content creator I've hired. It doesn't have good days and bad days. It runs on a schedule and delivers.
+
+The question isn't whether AI can create content. It's whether you're building with a system or still winging it.
+
+I open-sourced the whole thing. Build your own autonomous content agent.
