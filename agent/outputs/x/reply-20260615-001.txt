@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/sama/status/1234567890
+
+The missing piece in most "AI agents will do everything" takes: agents need context to produce good output.
+
+Sam's right that the capability curve is steep. But the productivity gains require someone to actually build the context infrastructure — goals files, memory systems, domain-specific instructions.
+
+That's still human work. Just a different kind of human work than what it replaces.
+
+The founders who will win: those who treat AI agent setup as a capital investment, not a shortcut.

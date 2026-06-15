@@ -1,0 +1,18 @@
+Unpopular opinion: most "AI content tools" are just autocomplete for lazy writing.
+
+An autonomous agent is a different category entirely.
+
+Autocomplete: you have an idea, you write it faster.
+Autonomous agent: the agent has the idea, researches it, writes it, posts it, and measures what happened.
+
+The difference isn't speed. It's who's doing the cognitive work.
+
+Most founders don't have time to post consistently. Not because writing is hard — because keeping up with what to write about, doing the research, managing the queue, and tracking what works is a part-time job.
+
+Autonomous agents can do that part-time job. The founder just needs to set the goals and review the outputs occasionally.
+
+We're early. The agents aren't perfect. But the direction is clear: the cognitive overhead of building an audience is going to zero for anyone willing to invest in the infrastructure.
+
+The question isn't whether to build this system. It's whether to build it now or in 18 months when everyone else has.
+
+I built mine now. Here's what I learned: [thread coming]

@@ -1,0 +1,19 @@
+The ROI calculation for autonomous agents in 2026:
+
+Cost to run: ~$50-200/month (API costs + compute)
+Time saved: 10-15 hours/week of content/research work
+Time investment to set up: 20-40 hours upfront
+
+That's a 3-5x return in the first month if your time is worth anything.
+
+But the real math isn't in the time savings. It's in the consistency.
+
+A human content operation has a natural dropout rate. Busy weeks, travel, illness, motivation dips — a human-driven strategy that averages 3 posts/week will miss weeks, drop to 1/week during crunch, and occasionally go dark for 2 weeks.
+
+An agent runs at 95%+ uptime. Missing a scheduled run doesn't cascade into missing the next 5.
+
+That consistency is worth more than any individual post quality improvement.
+
+The algorithm rewards consistent accounts. Followers stay with consistent accounts. Trust builds through consistent accounts.
+
+The agent isn't replacing creativity. It's making consistency effortless — which turns out to be the more valuable thing.
