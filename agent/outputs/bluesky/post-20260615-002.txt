@@ -1,0 +1,7 @@
+Autonomous agents fail constantly. But silently.
+
+The difference: with human ops, every failure costs attention and momentum.
+
+With an agent: it logs the failure, next session tries again. No emotional cost.
+
+30 sessions at 40% beats 10 sessions at 100%. Every time.

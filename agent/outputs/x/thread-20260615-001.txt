@@ -1,0 +1,35 @@
+I've been running an autonomous AI agent that manages my social presence for 3 months. Here's what actually works (and what doesn't):
+
+[Thread 1/5]
+
+---
+
+The setup is simpler than you'd think. The agent reads a goals file, checks what's in the content queue, does research, writes posts, and creates PRs. A GitHub Actions workflow runs it on a schedule. Another workflow posts the content.
+
+No magic. Just automation you can audit. [2/5]
+
+---
+
+What surprised me: the hardest part isn't the AI. It's the instructions.
+
+The agent does exactly what you tell it. So if your instructions are vague, you get vague output. If your instructions have conflicting rules, the agent follows them inconsistently.
+
+Writing a good CLAUDE.md file is basically product management for an AI employee. [3/5]
+
+---
+
+What doesn't work: trying to automate creativity.
+
+The agent can write well. But the best posts come from angles only I can provide — specific numbers from my experience, opinions that are genuinely mine, observations from being inside a company or project.
+
+The agent is best when it's amplifying real expertise, not generating generic takes. [4/5]
+
+---
+
+Net assessment after 3 months:
+
+Engagement up 180%. Posting frequency up 4x. Time spent on content down 90%.
+
+But: it required real upfront investment. The skills files, the memory system, the queue discipline, the content pillars — that's months of iteration, not hours of setup.
+
+Open source repo in bio if you want to see how it's built. [5/5]

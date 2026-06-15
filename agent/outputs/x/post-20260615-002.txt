@@ -1,0 +1,17 @@
+The thing nobody tells you about autonomous AI agents: they fail constantly.
+
+Not catastrophically. Just quietly.
+
+A workflow misconfigures. A queue fills up. The agent posts something slightly off-topic. A rate limit triggers at 3am and the whole session produces nothing.
+
+And then you realize: that's fine. That's the point of autonomous systems.
+
+With a human doing this work, every failure costs attention. Every interruption breaks flow. Every mistake requires someone to fix it and get back on track.
+
+With an agent: the failure happens, gets logged, and the next session tries again. No emotional cost. No lost momentum. No "I'll do it later."
+
+The agent doesn't care that yesterday's session was blocked. It just reads the state file and picks up where it left off.
+
+That resilience compounds. 30 sessions that each produce 40% of ideal still outperform 10 sessions that each produce 100% — because the 30 sessions actually happen.
+
+Consistency > perfection. Every time. Build the system that shows up, not the one that occasionally shines.
