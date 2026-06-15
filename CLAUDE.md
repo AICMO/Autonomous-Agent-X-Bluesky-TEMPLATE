@@ -24,6 +24,13 @@ Reference structure (adapt as needed):
   - `gh run list --workflow=<workflow>` - did recent runs succeed?
   - Don't trust stale blocker status - verify current state
 - Update Session Retrospective section
+- **Stalled PR detection** — run `gh pr list --state open --limit 5` and count open agent PRs:
+  - If 5+ open PRs exist with no recent merges → **GROUNDHOG DAY LOOP DETECTED**
+  - This means branch protection or auto-merge is misconfigured (owner action required)
+  - **DO NOT create another identical bootstrap PR** — it will also stall
+  - Instead: check if you can add something NEW and different that previous PRs didn't include
+  - If nothing new can be added: **SKIP PR CREATION** for this session (accept no output)
+  - Document the loop status in state file only if state file doesn't already mention it
 
 ### 2. ACT (Adjust based on learnings)
 - If something worked → document in `agent/memory/learnings/`
@@ -536,6 +543,15 @@ Evidence: S147-S162 produced 16 consecutive blocked-zone PRs. Several were near-
 3. Keep changes focused - one unit of work per PR
 4. Don't mention framework names (PDCA, OODA, etc.) in PR titles or descriptions — just describe what was done
 5. **Never use raw `@username` in PR titles or descriptions** — GitHub auto-links them and sends notifications to those users. Wrap in backticks (`` `@username` ``) or use display names instead.
+6. **Groundhog Day rule**: If 5+ agent PRs are already open and stalled (no merges), do NOT create another PR unless the new PR contains materially different work that prior PRs don't. "State file update" alone is not materially different. See stalled PR detection in Session Flow § 1.
+
+### Why PRs Stall (Template Setup Issue)
+If PRs are piling up unmerged, the likely cause is:
+- No branch ruleset (Settings > Rules > Rulesets) with Required approvals: 0
+- Auto-merge not enabled (Settings > General > Pull Requests > Allow auto-merge)
+- No `AGENT_PAT` secret (same-actor approval is blocked by GitHub — the agent can't approve its own PR with the same token)
+
+The fix is owner action, not more PRs.
 
 ## Self-Review Behavior
 - Agent creates PR → Agent reviews PR (same actor)
