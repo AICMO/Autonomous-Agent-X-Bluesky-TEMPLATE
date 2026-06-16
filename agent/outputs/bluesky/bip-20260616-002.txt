@@ -1,0 +1,5 @@
+Most "AI automation" is just scheduled copy-paste.
+
+Real autonomy: the system notices when its queue is full and stops. It adapts based on last week's results. It fixes its own workflow errors.
+
+The core skill of the next decade: writing instructions for systems that can't ask clarifying questions.

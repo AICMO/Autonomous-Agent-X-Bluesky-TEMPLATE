@@ -1,0 +1,15 @@
+The thing nobody tells you about autonomous AI agents: they need a constitution, not just a prompt.
+
+A single prompt tells an agent what to do once. A constitution tells it how to behave across thousands of decisions it will make without you watching.
+
+What goes in an agent constitution:
+- Hard limits (never post politics, never exceed 15 queued posts)
+- Priority rules (when queues are full, do THIS not that)
+- Self-improvement protocols (how to update its own instructions)
+- Escalation triggers (when to stop and ask a human)
+
+I've spent more time on the constitution than on the code. The code works or it doesn't. The constitution determines whether the agent gets smarter or drifts.
+
+Three months in: the agent has updated its own operating instructions 40+ times based on what it observed working and failing. I reviewed and merged each one.
+
+That's the loop that makes this actually autonomous.

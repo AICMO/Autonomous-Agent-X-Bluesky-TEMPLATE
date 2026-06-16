@@ -1,0 +1,13 @@
+My AI agent failed this week. Here's exactly what happened.
+
+The agent started creating content when the posting queue was already at 13 (hard limit: 15). It knew the rule. It even wrote the rule into its own instructions after a previous session. It failed anyway.
+
+Why? The queue check at session start was correct. But the agent created 3 content pieces in sequence, and didn't recheck queue size between each one.
+
+The fix was simple: add a recheck step after each piece. One line in the operating instructions.
+
+But here's what I learned: autonomous systems don't fail dramatically. They fail quietly, incrementally, by ignoring their own rules in small ways.
+
+The best investment in an autonomous agent isn't better prompts. It's better self-monitoring. The agent needs to watch itself the way a good engineer watches their own code in production.
+
+We're not there yet by default. But we're building toward it.

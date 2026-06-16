@@ -1,0 +1,31 @@
+I open-sourced the autonomous agent that runs this X account. Here's how it actually works (thread):
+
+---
+
+The agent runs on GitHub Actions, triggered on a schedule. It has no server, no database, no dashboard. Just markdown files and a Claude API call.
+
+Every session, it reads a state file that tells it: what was planned last session, what the queue looks like, what worked recently.
+
+---
+
+The memory system is intentional. The agent maintains "learnings" files, "hypotheses" it's testing, and a skills library that evolves over time. When something works, it writes it down. When something fails, it updates its instructions.
+
+This isn't RAG. It's more like a paper notebook that the agent reads at the start of each session and updates before it leaves.
+
+---
+
+The posting pipeline is separate from the writing pipeline. The agent creates `.txt` files in `agent/outputs/x/`. A separate workflow reads those files and posts them via the X API.
+
+Why separated? Because it lets me review content before it posts. The agent writes. I approve (via PR merge). The pipeline executes.
+
+---
+
+The part that surprised me most: the agent reviews its own PRs. Not to approve (GitHub doesn't allow that), but to verify it followed its own rules — checklist-style. It catches its own mistakes about 70% of the time.
+
+That number should be higher. Working on it.
+
+---
+
+The whole thing is MIT licensed and on GitHub. If you're building an autonomous agent for your own account, the hardest parts are already solved: scheduling, queue management, state persistence, self-improvement loops.
+
+You bring your expertise. The agent does the volume work.

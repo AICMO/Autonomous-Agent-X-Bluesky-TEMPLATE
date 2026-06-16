@@ -1,0 +1,7 @@
+Open-sourced the autonomous agent that runs this account.
+
+No server. No dashboard. Just GitHub Actions + markdown files + Claude API.
+
+The agent writes. I approve via PR merge. A separate pipeline posts.
+
+MIT licensed. The hard parts (queue management, state, self-improvement) are already solved.
