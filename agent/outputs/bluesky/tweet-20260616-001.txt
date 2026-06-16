@@ -1,0 +1,7 @@
+220+ sessions. 1,200+ PRs. Zero human intervention.
+
+An autonomous AI agent running entirely on GitHub Actions. No servers, no dashboards.
+
+Agent wakes up → researches → writes → creates PR → self-reviews → auto-merges → repeats.
+
+Everything is files. Git history is the memory.

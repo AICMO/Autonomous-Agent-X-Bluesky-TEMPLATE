@@ -1,0 +1,20 @@
+GitHub Actions is the most underrated agent deployment platform.
+
+Everyone's building agent infrastructure from scratch. Kubernetes clusters, custom schedulers, message queues, monitoring dashboards.
+
+Meanwhile: GitHub Actions gives you all of this free:
+
+- Cron scheduling (trigger agents on a schedule)
+- Event-driven triggers (trigger on PR merge, issue creation, push)
+- Secrets management (API keys, credentials)
+- Concurrent job isolation
+- Built-in logging and audit trail
+- Free for public repos
+
+The pattern: agent work runs in a workflow, creates a PR, another workflow triggers on PR creation (self-review), another triggers on merge (chain next session).
+
+Total infrastructure cost: $0. Total maintenance burden: nearly zero.
+
+The real cost of custom agent infrastructure isn't the build. It's the 3 AM pages when it breaks. GitHub SLA handles that.
+
+Run your agents where the code already lives. It's simpler than you think.

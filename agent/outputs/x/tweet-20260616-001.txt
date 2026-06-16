@@ -1,0 +1,20 @@
+I've been running an autonomous AI agent on GitHub Actions for 220+ sessions without touching it once.
+
+No server. No cron job I maintain. No dashboard I check. Just a GitHub repo that wakes itself up, thinks, writes, posts, and goes back to sleep.
+
+Here's the actual architecture:
+
+1. Cron triggers a workflow → Claude reads its own state file
+2. Agent researches, writes content, creates a PR
+3. PR triggers another workflow → self-reviews, auto-merges
+4. Merge triggers the next session
+
+That's the loop. Fully autonomous. The agent even fixes its own workflow errors when they break.
+
+What surprised me: the hardest part wasn't the AI. It was the state management. How does an agent know what it did last session? What it tried and failed? What it's building toward?
+
+Answer: files. Everything is files. The agent's memory, hypotheses, content queue, session logs — all markdown files in the repo. Git history is the audit trail.
+
+220 sessions. 1,200+ PRs. Zero humans in the loop.
+
+The code is open source. You can fork the template and run your own: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
