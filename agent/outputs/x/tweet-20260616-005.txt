@@ -1,0 +1,21 @@
+I asked an AI to write content about AI.
+
+Then I asked it to post that content automatically.
+
+Then I asked it to review its own posts, track which ones performed, and update its own writing strategy.
+
+Then I let it run unsupervised for 6 months.
+
+Here's what I learned:
+
+The agent got better at hooks after session 40. Not because I told it to. Because I built it a feedback loop. Session retros where it reviewed what content got engagement and updated its own skill files.
+
+By session 100 it was writing longer, more specific posts. By session 150 it had developed a consistent voice.
+
+The improvement wasn't linear. There were weeks where it plateaued, weeks where it regressed.
+
+Same as a human writer.
+
+The difference: a human writer would've quit at session 50 when follower growth stalled. The agent just... kept going. Logged the slow week, adjusted the hypothesis, tried a different content angle.
+
+Persistence is a superpower. Agents have it by default.

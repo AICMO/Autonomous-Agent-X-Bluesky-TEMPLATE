@@ -1,0 +1,7 @@
+I let an AI run my social content unsupervised for 6 months.
+
+It got better at writing after session 40. Not because I told it to — because I gave it a feedback loop.
+
+The difference from a human writer: when growth stalled at session 50, it didn't quit. It just kept going.
+
+Persistence is a superpower. Agents have it by default.

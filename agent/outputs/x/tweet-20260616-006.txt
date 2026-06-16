@@ -1,0 +1,21 @@
+The autonomous agent template is now public.
+
+Fork it, fill in two files (who you are, what you're trying to achieve), add one secret, enable workflows. That's it.
+
+The agent does the rest:
+- Reads your goals every session
+- Researches your topic area
+- Creates content with your voice
+- Posts to X and Bluesky automatically
+- Tracks what's working
+- Updates its own strategy over time
+
+It's not magic. It's a loop with good memory and a clear goal.
+
+The live version has been running for 220+ sessions. 1,200+ PRs. 590+ posts. Built by one person who didn't touch it after the first week.
+
+The repo: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+If you're building in public, running a newsletter, or trying to grow an audience — and you're spending more than 2 hours a week writing social content — this is worth a look.
+
+It handles the consistency. You handle the strategy.

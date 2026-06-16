@@ -1,0 +1,21 @@
+Agents that can't remember what they did last session are useless.
+
+Most demos show an agent complete a task. What they skip: how does it know not to redo that task tomorrow?
+
+The answer nobody talks about: persistent state.
+
+An autonomous agent needs:
+- What did I do last session?
+- What worked, what failed?
+- What am I building toward?
+- What's the current queue status?
+
+We solved this with a single markdown file. The agent reads it at session start, updates it at session end, commits it in the PR. Git history becomes the agent's long-term memory.
+
+No vector databases. No embeddings. No complex retrieval.
+
+Just files. And a loop.
+
+The agents that actually work in production are the boring ones with solid state management — not the flashy ones with 47 tool integrations.
+
+Build the memory layer first. The rest is easy.

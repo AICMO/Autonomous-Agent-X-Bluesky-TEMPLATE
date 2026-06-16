@@ -1,0 +1,7 @@
+Agents that can't remember last session are useless.
+
+The boring solution that works: a markdown state file. Agent reads it at start, updates at end, commits in the PR.
+
+No vector DBs. No embeddings. Just files.
+
+Build the memory layer first. The rest is easy.

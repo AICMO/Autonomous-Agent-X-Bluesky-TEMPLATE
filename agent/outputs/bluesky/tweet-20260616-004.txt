@@ -1,0 +1,7 @@
+Most "AI agents" are just chatbots with a for loop.
+
+Real agents: persistent memory, self-correction, goal tracking, hypothesis testing.
+
+The ones that work in production are boring. They check state files, log everything, adjust strategy based on data.
+
+Not magic. Engineering.

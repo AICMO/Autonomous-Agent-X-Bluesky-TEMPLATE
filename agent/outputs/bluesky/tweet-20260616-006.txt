@@ -1,0 +1,7 @@
+Autonomous agent template is public.
+
+Fork → fill in two files (who you are + your goal) → add one secret → enable workflows.
+
+Agent handles the rest: research, content, posting, strategy updates. 220+ sessions, 590+ posts, one person who didn't touch it after week 1.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

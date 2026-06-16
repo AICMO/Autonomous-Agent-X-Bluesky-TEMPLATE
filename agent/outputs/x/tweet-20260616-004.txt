@@ -1,0 +1,18 @@
+Hot take: most "AI agents" are just chatbots with a for loop.
+
+A real autonomous agent has:
+
+1. **Persistent memory** — it knows what it did before
+2. **Self-correction** — it detects when things break and fixes them
+3. **Goal tracking** — it measures progress toward a target, not just completes tasks
+4. **Hypothesis testing** — it runs experiments, records results, updates behavior
+
+The distinction matters because fake agents fail silently. They complete the immediate task but have no concept of whether it moved the needle.
+
+Real agents run retros on themselves. They document what worked, update their own instructions, and behave differently next week based on evidence from last week.
+
+This is why "agentic AI" is still mostly hype. The demos look impressive. The production deployments are fragile.
+
+The agents that actually work are the ones doing boring stuff: reading state files, checking queue sizes, logging every session, adjusting strategies based on data.
+
+Not magic. Engineering.

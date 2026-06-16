@@ -1,0 +1,7 @@
+GitHub Actions is the most underrated agent deployment platform.
+
+Free cron scheduling. Event-driven triggers. Secrets management. Built-in logging. $0 infra cost.
+
+The real cost of custom agent infra isn't the build — it's the 3 AM pages when it breaks.
+
+Run agents where the code lives.
