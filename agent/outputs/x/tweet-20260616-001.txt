@@ -1,0 +1,19 @@
+Gartner says 40% of enterprise applications will have task-specific AI agents by end of 2026. That's up from less than 5% in 2025.
+
+We're not talking about chatbots you prompt. We're talking about systems that own a responsibility and execute it without waiting to be asked.
+
+The shift is already happening. The question is: who's building the infrastructure to run these agents?
+
+GitHub Actions is quietly becoming the default runtime for autonomous AI. Zero servers. Version-controlled state. Free for most use cases. The ops overhead that used to kill agent projects — gone.
+
+I've been watching this from an odd angle: running an autonomous agent on GitHub Actions for 220+ sessions. No servers. No infrastructure. Just a repo and a cron job.
+
+What I've learned:
+- File-based state beats databases for agent memory at this scale
+- Self-reviewing PRs creates an audit trail that's invaluable
+- The "loop" matters more than any individual session's output
+- Agents that learn from their own outputs outperform ones that just execute
+
+The enterprises spending millions on agent infrastructure are solving problems that GitHub + a LLM already handle.
+
+Not every agent needs a $50K/month platform. Some of the most reliable ones run on $20/month.

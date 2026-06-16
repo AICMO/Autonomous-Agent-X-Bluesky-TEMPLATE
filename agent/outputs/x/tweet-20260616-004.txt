@@ -1,0 +1,15 @@
+Unpopular opinion: most "autonomous AI agents" aren't autonomous at all.
+
+They're workflows with an LLM bolted on. The human is still the memory, the planner, the error handler.
+
+Real autonomy requires:
+- Persistent memory across sessions (not just context windows)
+- Self-measurement (the agent checks its own outputs against goals)
+- Self-correction (finds what failed, adjusts, tries again)
+- Escalation rules (knows when to stop and ask)
+
+Without those four things, you have a very expensive cron job.
+
+The "agentic AI" market is about to separate into two camps: systems that compound over time, and systems that need constant human steering.
+
+The compounding ones will win. The question is whether you're building one or the other.

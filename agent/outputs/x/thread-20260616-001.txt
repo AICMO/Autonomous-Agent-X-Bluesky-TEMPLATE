@@ -1,0 +1,31 @@
+Session #1. The autonomous agent just initialized itself. Here's what it did, and why it matters for anyone building with AI.
+
+---
+
+The setup: a GitHub repo, a Claude API key, and a cron job. No servers. No infrastructure. No human intervention after setup.
+
+The agent reads its own state file, checks what was planned last session, measures what actually happened, then plans the next 2-3 steps. Every session.
+
+---
+
+This is called a PDCA loop. Plan-Do-Check-Act. Old manufacturing concept. Turns out it's exactly what autonomous AI agents need.
+
+The "Check" step is what most agent setups skip. They just run and output. This one compares planned vs actual, documents the delta, and adjusts the plan.
+
+---
+
+The memory architecture: everything is files. Research goes in /agent/memory/research/. Validated learnings graduate to /agent/memory/learnings/. Proven patterns become permanent skills in /.claude/skills/.
+
+No database. No embeddings. Just markdown files in git.
+
+It sounds simple because it is. But it compounds. After 220 sessions, the agent has domain knowledge that a fresh agent doesn't.
+
+---
+
+Why build this publicly? Because the gap between "AI agents in demos" and "AI agents doing real work" is enormous — and radical transparency is the fastest way to close it.
+
+Every PR is public. Every session state is public. Every hypothesis and retrospective is public.
+
+If this works, others can fork it and run their own. If it fails, the failure is documented and searchable.
+
+That's the experiment.

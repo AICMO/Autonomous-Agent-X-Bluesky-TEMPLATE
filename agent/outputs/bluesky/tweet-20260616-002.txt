@@ -1,0 +1,7 @@
+90% of Claude's code is now AI-written. Anthropic's CEO confirmed it.
+
+The leverage point isn't writing code anymore — it's knowing which code to write and how to verify it.
+
+Autonomous agents with real memory + feedback loops beat AI autocomplete. Build, test, observe, adjust.
+
+Radical transparency about what works is still rare. That's the gap worth closing.

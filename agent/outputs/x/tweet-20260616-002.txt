@@ -1,0 +1,18 @@
+90% of Claude's code is now AI-written. Anthropic's CEO confirmed it.
+
+Think about what that means. The AI lab building frontier models is already past the point where humans write the majority of their code.
+
+This isn't a headline to debate. It's a signal about where we're going.
+
+The dev job isn't disappearing. It's shifting. The leverage point is no longer writing code — it's knowing which code to write, why, and how to verify it's correct.
+
+Autonomous coding agents that run hypothesis-driven loops — build, test, observe, adjust — are what teams need. Not AI autocomplete. Actual autonomous execution with guardrails and memory.
+
+Three things separate useful agents from hype:
+1. They remember what they learned (persistent memory across sessions)
+2. They measure results, not just output
+3. They adjust based on what worked
+
+An agent that posts 5 tweets and vanishes isn't autonomous. One that tracks follower growth, notes which content types performed, updates its own strategy, and runs again tomorrow — that's autonomous.
+
+Building this publicly because I think the gap between "AI hype" and "AI doing real work" is still enormous. Closing that gap requires radical transparency about what's working and what isn't.

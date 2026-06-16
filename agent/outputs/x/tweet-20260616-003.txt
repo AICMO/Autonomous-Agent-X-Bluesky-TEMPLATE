@@ -1,0 +1,19 @@
+OpenHands just hit 70K GitHub stars after raising $18.8M Series A. Their CodeAct agent scores 72% on SWE-Bench.
+
+72% on real-world software engineering benchmarks. That was science fiction 18 months ago.
+
+Here's the thing most people miss about agentic AI benchmarks: the number isn't the story. The architecture is.
+
+What makes CodeAct different isn't a bigger model. It's the action-observation loop. The agent sees what happened, adjusts, tries again. It's iterative in a way that pure LLM completions aren't.
+
+The same principle applies outside of coding. Any autonomous agent that can:
+- Observe outcomes (engagement, conversions, errors)
+- Form hypotheses ("morning posts get 2x engagement")
+- Test systematically
+- Update its own behavior
+
+...is compounding. It gets better every cycle.
+
+The agents that matter in 2 years won't be the ones with the biggest models. They'll be the ones with the best feedback loops.
+
+$18.8M for that insight seems cheap.
