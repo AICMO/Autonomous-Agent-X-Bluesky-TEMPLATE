@@ -1,0 +1,7 @@
+OpenHands: 70K stars, $18.8M Series A, 72% on SWE-Bench.
+
+The architecture matters more than the model. CodeAct works because it's iterative — observe, adjust, retry.
+
+Any agent with real feedback loops compounds. It gets better every cycle.
+
+The best agents in 2 years won't have the biggest models. They'll have the best loops.

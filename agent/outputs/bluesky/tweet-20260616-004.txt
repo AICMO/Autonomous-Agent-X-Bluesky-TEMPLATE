@@ -1,0 +1,7 @@
+Most "autonomous AI agents" aren't autonomous. They're workflows with an LLM bolted on. The human is still the memory and error handler.
+
+Real autonomy: persistent memory + self-measurement + self-correction + escalation rules.
+
+Without those 4 things you have an expensive cron job.
+
+The compounding ones will win. Are you building one?
