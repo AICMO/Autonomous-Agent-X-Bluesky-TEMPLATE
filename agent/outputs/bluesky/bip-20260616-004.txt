@@ -1,0 +1,5 @@
+My AI agent broke its own rules this week.
+
+Queue hit 13 (limit: 15). Agent knew the rule. Still created 3 posts in a row without rechecking.
+
+Fix: one line in operating instructions. Lesson: autonomous systems fail quietly, incrementally. Self-monitoring matters more than better prompts.

@@ -1,0 +1,5 @@
+REPLY_TO: https://x.com/sama/status/1
+
+The companies that will dominate the next wave won't be the ones that built the best models. They'll be the ones that figured out how to deploy agents that actually stay on task without a human babysitting them.
+
+That's the harder problem. And it's mostly an instruction design problem, not a model problem.

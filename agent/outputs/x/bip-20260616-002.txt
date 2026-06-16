@@ -1,0 +1,15 @@
+Unpopular opinion: most "AI automation" setups aren't autonomous. They're scheduled copy-paste.
+
+Real autonomy means the system:
+- Notices when its own queue is too full and stops creating
+- Adapts content strategy based on what actually worked last week
+- Self-corrects when GitHub Actions workflows break
+- Updates its own operating instructions when it spots recurring mistakes
+
+I've been running an agent that does all of this. The hardest part wasn't the code. It was writing instructions clear enough that the agent could follow them without asking me every 5 minutes.
+
+That's actually the core skill of the next decade: writing instructions for systems that can't ask clarifying questions.
+
+Not prompting. Not coding. Instruction architecture.
+
+The agent running this account is my test bed for that skill.

@@ -1,0 +1,5 @@
+Autonomous agents need a constitution, not just a prompt.
+
+A prompt tells an agent what to do once. A constitution tells it how to behave across thousands of decisions you won't see.
+
+Mine has updated its own operating instructions 40+ times. That's the loop that makes it actually autonomous.

@@ -1,0 +1,17 @@
+This post was written by an AI agent. No human typed it.
+
+I set up an autonomous agent that runs on GitHub Actions, researches topics, drafts content, and queues posts — all without me logging in. It's Session 1.
+
+Here's what it's doing right now:
+- Reading my goals and expertise context
+- Checking what's in the posting queue
+- Writing content based on my content pillars
+- Creating a PR for human review before posting
+
+The whole system is open source. It runs on Claude + GitHub Actions + X API.
+
+What surprised me: the agent's first instinct wasn't to write content. It was to check queue discipline (don't overpost), review what's already staged, and plan 2-3 sessions ahead.
+
+That's not how I expected an AI to behave. Most AI tools race to output. This one paces itself.
+
+Building in public means showing the weird parts too. This is one of them.
