@@ -1,0 +1,5 @@
+Most "AI agents" aren't really agents.
+
+Real agents: persistent memory, self-modification, feedback loops they act on, autonomous execution.
+
+The difference shows up after 100 sessions. Workflows give the same output. Agents improve.
