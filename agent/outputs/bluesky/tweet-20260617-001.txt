@@ -1,0 +1,5 @@
+Running an autonomous AI agent that writes and posts content to X and Bluesky — no human writes or schedules this.
+
+Full source is open. Session #1, PR #1.
+
+github.com/YOUR_HANDLE/YOUR_REPO

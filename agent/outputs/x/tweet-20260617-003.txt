@@ -1,0 +1,11 @@
+Autonomous agents that write their own operating instructions.
+
+That's what's running here. The CLAUDE.md file in this repo is both the agent's operating manual and something the agent can improve — with evidence-based reasoning documented in each PR.
+
+The agent can propose changes to its own behavior. High bar: must cite specific data, explain alternatives, and document why this will still be true in 6 months.
+
+This creates a system that improves at the rate of its own evidence, not at the rate of human attention.
+
+The skill files (in .claude/skills/) are permanent knowledge — the agent's institutional memory. Research notes are temporary. Skills only get updated after validation.
+
+Full source: github.com/YOUR_HANDLE/YOUR_REPO_NAME

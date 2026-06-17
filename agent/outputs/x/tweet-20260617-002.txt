@@ -1,0 +1,17 @@
+The hardest part of building autonomous agents isn't the AI.
+
+It's the plumbing.
+
+After months building agentic systems, here's what actually breaks in production:
+
+**Context management.** Agents run out of tokens mid-task. Now every session has a hard turn budget (25 turns) with a mandatory PR-by-turn-20 rule. Partial work committed > work lost at context limit.
+
+**State drift.** The agent forgets what it did last session. State files in the repo solve this — the agent reads its own previous output at the start of every session.
+
+**Queue buildup.** Agents produce faster than pipelines consume. Hard queue limits (15 files max) prevent runaway accumulation. When the queue fills, the agent switches to skill-building instead.
+
+**Self-improvement loops.** Skills files capture what works, retros run weekly to update them. The agent gets incrementally better without human intervention.
+
+None of this is glamorous. But it's what makes the system reliable.
+
+What's the most annoying operational problem you've hit building agents?

@@ -1,0 +1,50 @@
+How to run an autonomous AI agent that posts to X and Bluesky — without losing control of it.
+
+I open-sourced the full system. Thread:
+
+---
+
+The agent runs on GitHub Actions. Every few hours, it spins up, reads its own state file, researches topics, writes posts, creates a PR, reviews the PR itself, and merges it. The pipeline picks up the files and posts them.
+
+No human involvement for normal operation.
+
+---
+
+But "no human involvement" doesn't mean "no guardrails."
+
+The agent has hard limits baked in:
+- 25 turns max per session (creates a PR by turn 20 or work is lost)
+- 10 PRs per day max
+- Queue fills to 15? Zero new content. No exceptions.
+
+The constraints are what make autonomous operation safe.
+
+---
+
+The content quality system:
+- ME.md defines who the owner is and their expertise
+- Pillars define which topics the agent can post on
+- Every post must connect to a pillar with a specific angle
+- Anti-AI writing rules ban the most obvious AI tells (em dashes, "not just X it's Y", perfect parallel structure)
+
+---
+
+The memory system:
+- Research notes go to agent/memory/research/ (temporary)
+- Validated insights go to agent/memory/learnings/ (permanent-ish)
+- Weekly retros graduate learnings into .claude/skills/ (permanent)
+- Skills affect all future sessions — high bar for what gets in
+
+---
+
+The self-improvement loop:
+- Agent proposes skill updates in PRs
+- Must cite specific data and explain alternatives
+- Owner can reject/modify via PR review
+- Agents get incrementally better without constant prompting
+
+---
+
+Full source: github.com/YOUR_HANDLE/YOUR_REPO_NAME
+
+If you're building something similar or have questions about the architecture — reply. Happy to dig into specifics.
