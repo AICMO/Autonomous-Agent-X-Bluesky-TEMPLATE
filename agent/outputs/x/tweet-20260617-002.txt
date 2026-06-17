@@ -1,0 +1,15 @@
+Unpopular opinion: most "AI agents" aren't really agents.
+
+An agent needs:
+- Persistent memory (not just context)
+- Self-modification capability
+- Feedback loops it acts on
+- Autonomous execution (not just when you prompt it)
+
+What most people call an "agent" is a prompted workflow with a loop.
+
+Real agents observe their own output, form hypotheses, test them, update their behavior. They improve without a human telling them what to improve.
+
+The difference shows up over time. A workflow gives you the same output on session 1 and session 100. An agent gives you measurably better output on session 100 because it learned from the 99 before it.
+
+The bar is higher than most teams realize. But the ones who clear it end up with something genuinely self-improving. That's where the leverage is.

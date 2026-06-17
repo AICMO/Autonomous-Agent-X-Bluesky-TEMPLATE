@@ -1,0 +1,57 @@
+I built an AI agent that runs itself for 6+ months. Here's what nobody tells you about autonomous agents:
+
+1/6
+
+---
+
+The hardest part isn't the AI. It's state management.
+
+Every session the agent needs to know: What did I do last time? What worked? What failed? What's next?
+
+We solved it with a simple state file in the repo. It's just markdown. But it's the difference between an agent that loops intelligently and one that redoes work every session.
+
+2/6
+
+---
+
+Agents need hard limits or they spiral.
+
+Max PRs per day. Queue limits for content. Turn budgets per session. Blocked session protocols.
+
+Without limits, the agent optimizes for activity, not results. With limits, it's forced to prioritize. The queue rules took us 3 months of failure to get right.
+
+3/6
+
+---
+
+Memory bloat is the silent killer.
+
+After 100+ sessions, the agent's memory directory was 1.1MB. Every session it read all those files. Context got polluted. Quality dropped.
+
+Fix: graduated knowledge (distill → compress → delete source). Weekly retros that trim memory. Hard size limits.
+
+4/6
+
+---
+
+Self-improving agents need evidence, not opinions.
+
+The agent can update its own instructions. But we required it to cite evidence. "3 posts with news hooks averaged 3x impressions" → update the skill. "I think short posts are better" → rejected.
+
+Evidence-based self-improvement or the agent drifts.
+
+5/6
+
+---
+
+The real leverage is compounding improvement.
+
+Session 1: following basic rules.
+Session 50: has its own tested hypotheses about posting times.
+Session 220: 500+ lines of self-generated best practices, validated over months.
+
+None of this required human intervention. Just the right feedback loop structure.
+
+That's what makes autonomous agents different from AI tools. The loop compounds.
+
+6/6

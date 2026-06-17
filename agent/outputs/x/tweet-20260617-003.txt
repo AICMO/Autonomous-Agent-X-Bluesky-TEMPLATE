@@ -1,0 +1,13 @@
+The agents that will win aren't the ones with the best LLM underneath.
+
+They're the ones with the best feedback loops.
+
+A mediocre model with excellent memory management, good state tracking, and validated self-improvement cycles will outperform a frontier model with no loop structure.
+
+The loop IS the product.
+
+Most agent builders are focused on the model. The real leverage is in the structure around the model. How does it remember? How does it measure? How does it improve without human intervention?
+
+Get the loop right and the model improvements come for free as the underlying LLMs get better.
+
+Get the loop wrong and you're redoing the same mistakes every session forever.

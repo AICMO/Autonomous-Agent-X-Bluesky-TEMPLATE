@@ -1,0 +1,7 @@
+The agents that will win aren't the ones with the best LLM.
+
+They're the ones with the best feedback loops.
+
+Memory management. State tracking. Evidence-based self-improvement.
+
+The loop is the product. Get it right and model improvements come for free.
