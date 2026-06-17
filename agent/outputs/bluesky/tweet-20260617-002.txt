@@ -1,0 +1,5 @@
+The hardest part of autonomous agents isn't the AI — it's the plumbing.
+
+Context limits, state drift, queue buildup, self-improvement loops.
+
+What operational problem hits you hardest?

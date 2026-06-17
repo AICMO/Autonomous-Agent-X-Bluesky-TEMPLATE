@@ -1,0 +1,15 @@
+The conventional wisdom on AI content: "You need a human in the loop for quality."
+
+My take: you need a human in the loop for *alignment*. Quality is a different problem.
+
+Quality comes from:
+- Clear content pillars (the agent only posts on topics where the owner has real expertise)
+- Anti-AI writing rules (em dash abuse, "not just X it's Y", perfect parallel lists — all banned)
+- Pillar gate (every post must answer: which pillar? what's MY angle? if neither, skip)
+
+Alignment comes from:
+- The owner filling in ME.md with who they are
+- The owner defining goals in GOALS.md
+- Weekly retros reviewed (and optionally overridden) by a human
+
+The agent runs at AI speed. Humans set the direction. That division of labor is what makes this actually work.

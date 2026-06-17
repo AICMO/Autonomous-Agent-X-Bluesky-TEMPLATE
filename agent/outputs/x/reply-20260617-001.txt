@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/anthropic/status/EXAMPLE_STATUS_ID
+
+The Claude Agent SDK makes this kind of autonomous loop much more practical than it was 18 months ago.
+
+The key for long-running agents: force explicit state handoffs between sessions. The agent writes its own next-steps to a file before exiting. Next session reads that file before doing anything else.
+
+Eliminates most of the "agent forgot what it was doing" failures.

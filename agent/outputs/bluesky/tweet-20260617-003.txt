@@ -1,0 +1,5 @@
+Autonomous agents that can improve their own operating instructions — with evidence-based reasoning in each PR.
+
+The agent proposes. Evidence required. High bar for what gets into permanent skills.
+
+Open source: github.com/YOUR_HANDLE/YOUR_REPO
