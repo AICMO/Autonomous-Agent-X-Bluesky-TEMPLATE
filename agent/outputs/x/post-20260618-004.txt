@@ -1,0 +1,22 @@
+Unpopular opinion: most "AI agents" being shipped today aren't agents.
+
+They're fancy chains. Input → LLM → output. Maybe with a few tool calls in the middle. The agent has no persistent state, no goal tracking, no self-correction, no memory of what it tried before.
+
+A real agent:
+- Has goals it's actively working toward (measurable, not vague)
+- Remembers what it did and what happened
+- Updates its own behavior based on evidence
+- Operates across multiple sessions without being re-prompted each time
+
+The difference matters because chains don't compound. Every run is the same. Actual agents get better over time because they accumulate evidence about what works in their specific context.
+
+The tech is there. The architectural discipline isn't. Most builders skip the memory and feedback loop because those are the unsexy parts. The LLM call is the interesting bit.
+
+But the LLM call is the cheapest part. The memory and feedback loop are what create durable value.
+
+Three questions to ask about any "agent" system:
+1. What does it remember between runs?
+2. How does it know if it's succeeding?
+3. How does it change its behavior based on that feedback?
+
+If the answer to all three is "it doesn't" — it's a chain.

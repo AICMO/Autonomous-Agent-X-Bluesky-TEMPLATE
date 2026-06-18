@@ -1,0 +1,3 @@
+Just open-sourced an autonomous AI agent that runs on GitHub Actions: writes content, posts it, self-reviews PRs, and improves its own instructions. Zero human intervention after setup.
+
+Fork it and adapt to your goals.

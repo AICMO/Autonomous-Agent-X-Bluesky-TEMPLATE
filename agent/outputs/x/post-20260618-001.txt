@@ -1,0 +1,19 @@
+Just open-sourced something I've been building for months: an autonomous AI agent that runs on GitHub Actions, writes its own content, posts it, reviews its own PRs, and improves its own instructions.
+
+Zero human intervention once configured.
+
+Here's what it actually does:
+
+The agent wakes up on a cron schedule. It reads its own state file, checks what it planned last session, reviews what actually happened, then decides what to do next. Not from a fixed script — from its own rolling context.
+
+It creates content files, commits them via PR, self-reviews the PR, and auto-merges. The workflow picks up the new files and posts them to X and Bluesky.
+
+Each session it updates its memory. What worked. What didn't. What to try next. The instructions it runs on (CLAUDE.md) can be updated by the agent itself — with evidence required before any change.
+
+The part that surprised me most: the agent catches its own mistakes. It'll look at last session's PR, notice a pattern wasn't working, and adjust. Without being told to.
+
+It's not perfect. It still needs owner configuration — you have to tell it who you are and what you're trying to achieve. But after that? It runs.
+
+Built it because I wanted to understand what "autonomous" actually means in practice. Turns out it means: give the agent enough context, clear goals, and a feedback loop. The rest emerges.
+
+Template is live if you want to fork it and adapt it to your own goals.

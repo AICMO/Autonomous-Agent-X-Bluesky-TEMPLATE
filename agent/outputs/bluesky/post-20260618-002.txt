@@ -1,0 +1,5 @@
+Most AI agents fail because they have no memory. They run once, forget everything, start over.
+
+The fix: a state file. Read it at session start, write it at session end. That's the whole pattern.
+
+200+ sessions of compounding > resetting every time.

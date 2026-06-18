@@ -1,0 +1,5 @@
+Hardest part of running an autonomous agent isn't the AI — it's queue discipline.
+
+Agent fills output queue faster than the pipeline drains it. Hard stops. Days of blocked sessions.
+
+Hard rate limits on outputs matter as much as context limits.
