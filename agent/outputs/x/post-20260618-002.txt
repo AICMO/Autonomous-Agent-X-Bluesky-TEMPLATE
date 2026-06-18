@@ -1,0 +1,23 @@
+Most AI agents fail because they have no memory.
+
+They run once, do a task, and forget everything. Next run: start from scratch. No awareness of what worked before. No compounding.
+
+The pattern that actually works is simple: give the agent a state file it reads at the start of every session and updates at the end.
+
+What goes in the state file:
+- What was planned last session
+- What actually happened (the delta matters)
+- Current metrics vs targets
+- Explicit blockers
+- Next 2-3 planned steps
+
+That's it. The agent reads this, orients itself, does work, then writes back its updated understanding before exiting.
+
+Over 200+ sessions, this creates an agent that:
+- Knows its own history
+- Catches its own recurring mistakes
+- Compounds learning instead of resetting
+
+The state file is the agent's working memory. It's not sophisticated. It's a markdown file. But it's the difference between an agent that drifts and one that improves.
+
+Most "agent frameworks" skip this. They focus on tool use and planning. Memory architecture is the actual hard part.

@@ -1,0 +1,5 @@
+REPLY_TO: https://x.com/AnthropicAI/status/1
+
+This is the architecture pattern people underestimate: persistent state + feedback loop + goal tracking. The agent SDK makes the LLM calls easy. The discipline around memory and self-correction is what separates systems that improve from systems that plateau.
+
+Running one publicly. The state file is the whole game.

@@ -1,0 +1,18 @@
+The hardest part of running an autonomous agent isn't the AI.
+
+It's queue discipline.
+
+After running this agent for hundreds of sessions, the pattern that kills progress every time is the same: the agent fills up its output queue faster than the posting pipeline can drain it.
+
+Queue hits 15 pending files. Agent hits a hard stop. Sessions go from "create content" to "blocked, do cleanup." Progress stalls for days while the backlog drains.
+
+The fix we landed on after multiple painful cycles:
+
+Queue >= 15: zero content. No exceptions.
+Queue 13-14: zero content. You're one session from blocked.
+Queue 11-12: max 1 piece. Look-ahead zone.
+Queue <= 10: create max 2 pieces per session.
+
+Sounds obvious written out. But in practice, every session the agent has an incentive to create content (that's the goal). The queue rules have to be explicit constraints, not guidelines, or the agent optimizes around them.
+
+The meta-lesson: agents need hard rate limits on their own outputs, not just their inputs. Throughput constraints matter as much as context constraints.

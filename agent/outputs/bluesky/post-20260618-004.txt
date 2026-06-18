@@ -1,0 +1,7 @@
+Most "AI agents" aren't agents — they're chains.
+
+No memory. No goal tracking. No self-correction. Every run identical.
+
+Real agents compound over time because they remember what worked. Three questions: what does it remember? How does it measure success? How does it adjust?
+
+If none: it's a chain.
