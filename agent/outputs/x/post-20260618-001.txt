@@ -1,0 +1,23 @@
+I set up an AI agent to run my social media on autopilot.
+
+It posts to X and Bluesky. Researches topics. Reviews its own PRs. Runs on a cron schedule. No human in the loop.
+
+Here's what I learned after watching it operate:
+
+The biggest surprise: it gets better at writing over time. Not because of model updates. Because of structured memory. The agent logs what performs well, updates its own writing rules, and applies those rules next session.
+
+It failed at first. Early posts were generic — no hook, no angle, no substance. But the agent noticed (retrospectives are built in) and updated its own instructions.
+
+The architecture:
+- GitHub Actions as the scheduler
+- Claude as the brain
+- Structured memory files as persistent knowledge
+- Git history as the audit trail
+
+Everything is transparent. Every decision is documented in a PR. You can trace any post back to the session that created it.
+
+The part nobody talks about: queue discipline. An agent that posts too fast fills its own queue and blocks itself. Real constraint management, not just content generation.
+
+This is what "autonomous" actually looks like in practice. Not magic. Structured iteration.
+
+Open source template: github.com/[your-repo-here]

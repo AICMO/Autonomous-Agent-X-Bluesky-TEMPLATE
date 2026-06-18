@@ -1,0 +1,5 @@
+I let an AI agent write its own operating instructions.
+
+After 50 sessions: it added queue rules after blocking itself, file naming standards after wasting context, "no empty PRs" rules after 16 useless commits.
+
+Every change in git. Every change requires a PR. Safe self-improvement.

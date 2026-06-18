@@ -1,0 +1,22 @@
+Unpopular opinion: most "AI agents" are just chatbots with a loop.
+
+A real agent:
+- Sets its own goals between sessions
+- Measures its own performance
+- Adjusts its own strategy based on data
+- Documents its own reasoning
+
+The loop isn't the hard part. The hard part is feedback. Without a tight feedback loop, you have automation, not agency.
+
+Here's what a feedback loop actually requires:
+
+1. Clear success metrics (not "post good content" — follower growth rate, engagement %, velocity per session)
+2. Measurement on every cycle (the agent reads its own metrics, not an engineer)
+3. A mechanism to update behavior (the agent can modify its own instructions within defined bounds)
+4. Audit trail (every change documented in git)
+
+Most "agents" skip steps 2 and 3. They run. They don't reflect. They don't improve.
+
+If your agent can't tell you what it learned last week and how it changed its approach, it's not an agent. It's a scheduled task with extra steps.
+
+The architecture for real autonomy is simpler than most people think. The discipline to actually implement it is where projects fail.
