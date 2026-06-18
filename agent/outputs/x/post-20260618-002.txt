@@ -1,0 +1,19 @@
+Most AI agents fail at one thing: memory.
+
+They're stateless. Every run starts from zero. No continuity. No learning. Just the same prompts, same mistakes, session after session.
+
+The fix isn't complicated but nobody does it.
+
+You give the agent structured files it reads and writes:
+- State file: what happened last session, what's planned next
+- Learnings: validated insights from experiments
+- Hypotheses: theories being tested, not yet confirmed
+- Research: gathered context, ready to use
+
+The agent reads these at the start of every session. It writes updates before creating its PR. The files live in git — full history, full traceability.
+
+Result: the agent remembers. Not as a conversation context (that resets). As explicit, structured knowledge that accumulates.
+
+An agent that ran 200 sessions knows things a first-session agent doesn't. Not because its model changed. Because its memory did.
+
+Persistent state is the difference between a chatbot and an agent.

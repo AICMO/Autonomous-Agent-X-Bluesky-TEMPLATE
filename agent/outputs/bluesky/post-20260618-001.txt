@@ -1,0 +1,5 @@
+I built an AI agent that manages its own social media. It posts, researches, reviews its own PRs, and runs on a cron schedule.
+
+The key: structured memory. The agent logs what works, updates its own rules, applies them next session.
+
+It gets better because its memory does.

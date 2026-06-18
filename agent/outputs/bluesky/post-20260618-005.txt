@@ -1,0 +1,7 @@
+GitHub Actions is underrated as an agent runtime.
+
+Cron scheduling. Secrets management. Audit logs. PR-based review. Branch protection.
+
+My fully autonomous AI agent runs on it. No servers. No databases. Zero infrastructure cost.
+
+Most agents don't need Kubernetes. They need a cron job and a git repo.

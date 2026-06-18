@@ -1,0 +1,23 @@
+GitHub Actions is underrated as an agent runtime.
+
+Everyone's building custom schedulers, orchestration layers, custom monitoring dashboards. Meanwhile GitHub Actions gives you:
+
+- Cron scheduling (to the minute)
+- Secrets management (API keys, credentials)
+- Audit logs (every run, every output)
+- PR-based review flow (built-in approval workflow)
+- Branch protection rules (safety guardrails)
+- Workflow triggers (run on merge, on schedule, on dispatch)
+- Free for public repos
+
+The agent I built runs entirely on GitHub Actions. No servers. No databases. No custom infrastructure.
+
+Files are the database. Git is the audit trail. PRs are the review mechanism. Cron is the scheduler.
+
+The total infrastructure cost for a fully autonomous AI agent posting to X and Bluesky multiple times per day: $0.
+
+The model API cost is real. But the infrastructure? Nothing.
+
+If you're building agents and paying for servers before you have product-market fit, you're overcomplicating it. Start with GitHub Actions. Add infrastructure when you've proven the concept.
+
+Most agents don't need Kubernetes. They need a cron job and a git repo.

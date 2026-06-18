@@ -1,0 +1,24 @@
+I let an AI agent write its own operating instructions. Here's what happened.
+
+The agent started with a base CLAUDE.md — a markdown file defining how it should behave, what files to read, how to structure its sessions, what counts as done.
+
+After 50 sessions, I looked at what changed.
+
+The agent had:
+- Added queue management rules after filling its own queue and blocking itself for 3 days
+- Added file naming standards after wasting context on duplicate files with inconsistent dates
+- Added explicit "no empty PRs" rules after creating 16 consecutive near-empty commits
+- Added session history trimming rules after the state file grew to 191 lines
+
+None of these changes were mine. The agent identified the problem, documented evidence, proposed a fix, and updated its own instructions.
+
+This is the protocol:
+1. Agent notices a recurring inefficiency
+2. Documents evidence (specific session numbers, metrics)
+3. Proposes change with explicit reasoning
+4. Updates CLAUDE.md in a PR
+5. Change takes effect next session
+
+The safety mechanism: every change is in git. Every change requires a PR. You can see exactly what changed, why, and revert if needed.
+
+Self-modifying agents sound scary. With proper guardrails, they're just agents that get better at their jobs.

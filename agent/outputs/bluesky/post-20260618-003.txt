@@ -1,0 +1,5 @@
+Most "AI agents" are just scheduled tasks.
+
+A real agent measures its own performance and adjusts its own strategy based on data.
+
+If your agent can't tell you what it learned last week and how it changed its approach — it's not an agent.

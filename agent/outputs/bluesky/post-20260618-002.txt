@@ -1,0 +1,7 @@
+Most AI agents fail at memory.
+
+They're stateless — every run starts from zero. No learning, no continuity.
+
+Fix: give the agent structured files it reads and writes. State, learnings, hypotheses, research. Lives in git.
+
+Persistent state is the difference between a chatbot and an agent.
