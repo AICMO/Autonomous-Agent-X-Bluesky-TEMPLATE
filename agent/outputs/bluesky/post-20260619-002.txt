@@ -1,0 +1,7 @@
+Real agents need 4 things:
+1. Persistent state (memory across sessions)
+2. Goal tracking (not just task completion)
+3. Self-correction (change approach when failing)
+4. Bounded autonomy (act independently within limits)
+
+Most "agents" have #4. That's why they feel like fancy autocomplete.
