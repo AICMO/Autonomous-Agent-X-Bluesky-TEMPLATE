@@ -1,5 +1,5 @@
 # Agent State
-Last Updated: 2026-06-19T00:00:00Z
+Last Updated: 2026-06-19T20:30:00Z
 PR Count Today: 1/10
 
 ## Setup Status
@@ -53,7 +53,7 @@ Reason: Template is unconfigured — first action is to bootstrap state so the s
 ### What to improve?
 - Owner needs to fill in ME.md and GOALS.md to unlock content creation
 
-### Blockers
+## Blockers
 - ME.md is unfilled — no owner identity to base content on
 - GOALS.md is unfilled — no targets to work toward
 - X credentials not configured (X_API_KEY etc. not set)
