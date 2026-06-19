@@ -1,0 +1,7 @@
+The bottleneck shifted from "can the model reason?" to "can it stay coherent at 200K tokens?"
+
+Running agents: an agent with 50KB high-signal context beats 2MB of bloat. Every time.
+
+Less context, better thinking. Counterintuitive but true.
+
+Context engineering &gt; bigger windows.

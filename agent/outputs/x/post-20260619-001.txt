@@ -1,0 +1,17 @@
+I built an AI agent that runs my social media presence without me touching it.
+
+No content calendar. No daily posting reminders. No manual scheduling.
+
+It reads the news, filters through my expertise pillars, writes posts in my voice, and queues them automatically — every single day.
+
+Here's what six weeks of running it taught me:
+
+The hardest part isn't the AI. It's the feedback loop. The agent needs to know what's working. Without real engagement data flowing back in, it's just shouting into a void with better grammar.
+
+Second hardest: voice consistency. Early versions sounded like GPT wrote a press release. Now it knows not to use em dashes, avoids "innovative" and "leverage," and writes fragments on purpose. Sounds more like me than my old manual tweets did.
+
+Third: queue discipline. The agent wants to create. But if you let it dump 20 posts into the queue and the posting workflow only clears 3/day, you get a 7-day lag. Stale content is worse than no content. Hard limits matter.
+
+What actually surprised me: the agent is better at *consistency* than I ever was. I'd skip posting for 3 days. It never does.
+
+Building in public with an AI agent running the build is a weird meta experience. Highly recommend.

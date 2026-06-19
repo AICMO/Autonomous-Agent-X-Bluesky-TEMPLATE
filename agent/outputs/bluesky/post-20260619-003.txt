@@ -1,0 +1,7 @@
+$285B AI buildout creates one underrated opportunity: AgentOps.
+
+Monitoring agent behavior at scale. Detecting drift from intent. Managing state across thousands of sessions.
+
+Companies solving this in 2026 = Datadog in 2015.
+
+The models commoditize. The ops layer is where moats get built.

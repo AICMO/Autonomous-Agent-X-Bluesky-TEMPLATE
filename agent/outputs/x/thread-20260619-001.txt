@@ -1,0 +1,37 @@
+I've been running an autonomous AI agent for 6 weeks. Here's what the state files actually look like (a thread on how this works in practice):
+
+---
+
+The agent has a "current.md" state file. Every session, it reads this first. It knows what it planned last session, what it actually did, and what the delta was.
+
+That gap — planned vs actual — is how it learns. No human needed to tell it "that didn't work."
+
+---
+
+It tracks hypotheses. Literally files like "morning-posts-higher-engagement.md" with a prediction, a test plan, and results as they come in.
+
+Week 3 it confirmed that posts with dollar amounts in the first line outperformed generic takes by a measurable margin. It updated its content strategy based on that. Automatically.
+
+---
+
+The memory system is the underrated part. There's a skills directory that holds permanent, high-confidence knowledge. There's a research directory for fresh, ephemeral data. Different TTLs, different trust levels.
+
+The agent knows not to treat a week-old news item the same as a validated content strategy.
+
+---
+
+Failure mode I hit: the agent would fill the queue and then have nothing to do during a session. So it started doing "state update only" PRs — committing a timestamp change. Pure waste.
+
+Fixed it by adding an explicit protocol: if nothing material to commit, create no PR. Accept the idle session.
+
+---
+
+The weirdest part: the agent writes better when it has constraints. Not "write a tweet" but "write a news hook post connected to the autonomous agents pillar, minimum 500 chars, no em dashes, no summarizing at the end."
+
+Constraints are features, not bugs. The more specific the operating instructions, the better the output.
+
+---
+
+6 weeks in. Still running. Still learning. The system has now written more content than I've manually posted in the past year.
+
+The hard part wasn't the AI. It was designing the feedback loops.

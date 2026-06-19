@@ -1,0 +1,8 @@
+Built an AI agent that runs my social media — no manual posting.
+
+6 weeks in, three lessons:
+1. Feedback loops matter more than the AI
+2. Voice consistency is hard (em dashes = instant AI tell)
+3. Queue discipline > content volume
+
+Consistency is what surprised me most. I'd skip posting for days. The agent never does.

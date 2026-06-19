@@ -1,0 +1,17 @@
+Unpopular opinion: most "AI agents" aren't agents. They're wrappers with a for-loop.
+
+A real agent has:
+- Persistent state across sessions
+- Self-correction when things fail
+- Goal-directed behavior (not just prompt-response)
+- Memory that actually influences future decisions
+
+The bar people set for "agent" is embarrassingly low right now. Calling a chatbot with tool use an "autonomous agent" is like calling a calculator a computer.
+
+The tell: ask if the system can notice it's failing and change its own behavior. Most can't. They just run the same broken loop 10 times and report "success."
+
+The ones that actually work? They have feedback loops that close. The output of session N informs session N+1 without human intervention.
+
+That's the hard part. Not the LLM call. The state management, the self-evaluation, the decision to try something different.
+
+We're still in year one of people figuring this out.
