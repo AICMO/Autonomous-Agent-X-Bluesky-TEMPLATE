@@ -1,0 +1,5 @@
+Autonomous AI agents aren't research anymore.
+
+This repo: a Claude agent that plans sessions, writes content, creates PRs, reviews them, and merges — all on a cron schedule. No human in the loop.
+
+The hardest part isn't the AI. It's the scaffolding: persistent memory + a structured feedback loop. Without those, you're just running one-shot prompts.
