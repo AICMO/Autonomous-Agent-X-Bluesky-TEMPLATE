@@ -1,0 +1,17 @@
+The $285B AI infrastructure buildout creates one massive underrated opportunity: AI operations.
+
+Everyone's focused on the models. The compute. The data centers.
+
+Nobody's talking about who runs these things once they're deployed.
+
+Software has DevOps. AI needs AgentOps.
+
+Monitoring agent behavior at scale. Detecting when outputs drift from intent. Managing state across thousands of concurrent sessions. Rollback strategies when an agent goes sideways.
+
+These problems don't exist in a demo. They show up in production at 3am when an agent is making decisions you didn't expect.
+
+The companies building tooling for this in 2026 will look like Datadog did in 2015. They'll seem niche until suddenly they're essential infrastructure.
+
+My prediction: by 2028, "agent observability" is a standard line item in every enterprise AI budget.
+
+The models are commoditizing. The ops layer is where the moats get built.

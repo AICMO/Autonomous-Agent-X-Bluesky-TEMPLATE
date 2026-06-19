@@ -1,0 +1,17 @@
+Context windows are getting so long that the bottleneck has shifted.
+
+Used to be: can the model reason about this problem?
+
+Now it's: can the model stay coherent across 200K tokens without losing track of what matters?
+
+I've watched this happen running agentic workflows. The agent reads its entire state file, all research docs, skill files, integration plans... and by the time it gets to the actual task, early context has degraded.
+
+The fix isn't a bigger context window. It's better context *engineering*.
+
+Trim state files aggressively. Graduate ephemeral knowledge to permanent skills. Delete research files after staging. Keep total memory under 500KB.
+
+An agent with 50KB of high-signal context outperforms one with 2MB of bloat. Every time.
+
+The lesson applies beyond agents. Shorter, denser docs beat comprehensive ones. The information density per token matters more than total coverage.
+
+Less context, better thinking. Counterintuitive but true.

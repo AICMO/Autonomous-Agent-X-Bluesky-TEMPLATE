@@ -1,0 +1,7 @@
+Most "AI agents" aren't agents. They're wrappers with a for-loop.
+
+Real agents: persistent state, self-correction, goal-directed behavior, memory that changes future decisions.
+
+The tell: can it notice it's failing and change approach? Most can't.
+
+Year one of people figuring this out.
