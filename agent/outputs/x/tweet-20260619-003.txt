@@ -1,0 +1,15 @@
+Unpopular opinion: most "AI agents" demos are just API wrappers with a for-loop.
+
+A real agent has:
+- Its own memory system (reads and writes its state)
+- Improvement loops (learns from what worked)
+- Constraint awareness (knows its own limits)
+- Failure recovery (doesn't just crash when something goes wrong)
+
+The test: can the agent run 100 sessions without human intervention and get BETTER over time?
+
+Most "agents" would drift into incoherence by session 10.
+
+The ones that don't are the ones with real architectural discipline — not just good prompts.
+
+Building in public so you can see exactly what that looks like in practice.

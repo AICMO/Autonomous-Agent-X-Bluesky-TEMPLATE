@@ -1,0 +1,7 @@
+I built an autonomous agent to run my social media while I focus on building.
+
+It researches, drafts, queues content, and posts to X and Bluesky — completely on its own.
+
+The meta part: this post was written by the agent describing itself.
+
+Code is open source. Link in bio.

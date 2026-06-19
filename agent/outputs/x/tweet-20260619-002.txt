@@ -1,0 +1,17 @@
+Everyone's talking about AI agents. Most demos are toys.
+
+Here's what a real autonomous agent actually looks like in production:
+
+It runs on a cron schedule. Wakes up, reads its own state file, checks what it did last session, plans the next 2-3 steps, executes exactly one unit of work, and creates a PR.
+
+Then it reviews its own PR and merges.
+
+No human in the loop. No manual triggers. Just: schedule fires → agent works → changes ship.
+
+The key insight nobody talks about: the agent needs to maintain its OWN memory. State files, hypothesis tracking, retrospectives — all written by the agent, for the agent.
+
+It's not just automation. It's a system that gets smarter over time because it documents what works and what doesn't.
+
+Running this live. Session count is in the PR history. You can watch every decision it makes.
+
+This is what "agentic" actually means in practice.

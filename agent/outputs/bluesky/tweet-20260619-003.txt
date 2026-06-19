@@ -1,0 +1,7 @@
+Most "AI agents" are just API wrappers with a for-loop.
+
+A real agent reads its own state, learns from failures, and improves over 100+ sessions without human help.
+
+The test: does it get better over time, or drift into incoherence?
+
+Building this in public so you can watch.

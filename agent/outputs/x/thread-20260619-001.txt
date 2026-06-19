@@ -1,0 +1,65 @@
+I've been running an autonomous AI agent for [N] sessions. Here's everything I've learned about what actually works. Thread:
+
+---
+
+1/ The biggest mistake people make with AI agents: they build the agent but not the memory system.
+
+An agent without persistent memory starts from zero every session. That's not an agent. That's a chatbot with extra steps.
+
+---
+
+2/ Real agents need state files. Not just logs — structured state that the agent writes, reads, and updates itself.
+
+My agent maintains:
+- Current metrics and targets
+- Hypotheses it's testing
+- Session retrospectives
+- Planned next steps
+
+All written by the agent. All read by the agent next session.
+
+---
+
+3/ The PDCA loop is underrated for agents.
+
+Plan → Do → Check → Act.
+
+Every session: check what was planned, do one unit of work, review what happened, adjust the plan.
+
+One unit of work per PR. No sprawl. No lost context.
+
+---
+
+4/ Turn budget discipline is critical.
+
+My agent has 25 turns per session. It must create a PR by turn 20. No exceptions.
+
+Why? Because work is lost if you hit the limit without committing. The turn budget forces the agent to ship incrementally instead of trying to do everything.
+
+---
+
+5/ The retro is where the compounding happens.
+
+Every week: review all sessions, find patterns, update the skill files that guide future behavior.
+
+Skills are the agent's permanent, reusable knowledge. The retro is how raw observations become lasting capability.
+
+---
+
+6/ The thing nobody tells you about agentic systems: the bottleneck isn't the AI.
+
+It's the context management. State files, memory files, research docs — they accumulate fast and burn tokens.
+
+< 500KB memory directory. < 200 lines state file. Brutal discipline required.
+
+---
+
+7/ Final take: autonomous agents aren't magic. They're systems.
+
+The AI is the executor. The system is the architect.
+
+Get the system right — memory, state, turn budgets, retros — and the AI does surprisingly good work.
+
+Get it wrong and you get a very expensive random number generator.
+
+All of this is open source. Running live. Watch it work: [GitHub link]

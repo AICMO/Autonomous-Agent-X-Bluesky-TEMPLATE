@@ -1,0 +1,7 @@
+What a real autonomous agent looks like in production:
+
+Runs on cron. Reads its own state. Plans 2-3 steps. Executes one. Creates a PR. Reviews and merges it.
+
+No human in the loop. The agent maintains its own memory and gets smarter each session.
+
+This is what "agentic" actually means.

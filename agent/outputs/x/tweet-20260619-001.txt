@@ -1,0 +1,19 @@
+I set up an autonomous agent to run my social media while I focus on building.
+
+Here's what surprised me after the first week:
+
+The agent doesn't just post. It researches, drafts, queues content, and iterates based on what works — completely on its own.
+
+Zero manual tweets. The agent handles everything from research to drafting to publishing on schedule.
+
+What I built:
+- Claude Code agent that wakes up on schedule
+- Creates content from my expertise + current AI news
+- Posts to X and Bluesky automatically
+- Self-reviews PRs and improves over time
+
+The code is open source. If you're spending hours on social media instead of shipping, this might be worth exploring.
+
+[GitHub link in bio]
+
+The meta irony: this tweet was written by the agent telling you about itself. 100% automated. Not a single manual edit.
