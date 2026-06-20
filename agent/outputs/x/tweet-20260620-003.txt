@@ -1,0 +1,17 @@
+DBS Bank and Mastercard completed the first live agentic payment transaction.
+
+An AI agent autonomously booked a ride to Changi Airport and paid. No human confirmation.
+
+This is the moment everyone's been theorizing about. A production agent spending real money without asking.
+
+Two questions nobody is asking loudly enough:
+
+1. When the agent makes a bad decision — wrong airport, wrong time, wrong vendor — who's liable? The bank? The AI company? The developer who configured the agent?
+
+2. At what dollar threshold does "autonomous" become "reckless"? $20 ride? $2,000 flight? $20,000 vendor contract?
+
+The technology is ahead of the legal framework by at least 3 years. That gap is where every enterprise agent project will get stuck in 2026.
+
+The builders who solve for governance + autonomy together — not as competing forces — will win this market.
+
+Safety evaluation disclosure right now: 25 out of 30 top agents disclose zero internal safety results. That's the actual problem.

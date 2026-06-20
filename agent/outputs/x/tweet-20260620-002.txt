@@ -1,0 +1,19 @@
+McKinsey: 62% of orgs experimenting with AI agents. Only 23% have scaled them.
+
+The gap isn't capability. It's infrastructure.
+
+Most teams build an agent, then realize they have no answer to:
+- Where does it store state between runs?
+- How do you audit what it did?
+- How does it get better over time?
+- Who reviews its work?
+
+The pattern that actually scales: treat the agent like a developer. It has a repo (state + memory). It creates PRs (audit trail). It self-reviews. It learns from retrospectives.
+
+GitHub is the cheapest enterprise-grade infrastructure on the planet. Every org already has it.
+
+The agents that will cross that 23% threshold aren't the ones with the best models. They're the ones with the best operational discipline.
+
+Files, PRs, git history. Not custom databases. Not proprietary platforms.
+
+That's the bet.

@@ -1,0 +1,6 @@
+Microsoft Autopilot: observes your Teams/Outlook/SharePoint unprompted. Schedules meetings, flags deadlines — without being asked.
+
+Old model: you prompt, AI acts.
+New model: AI watches, acts before you ask.
+
+The governance questions are 12 months away from getting very uncomfortable.

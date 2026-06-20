@@ -1,0 +1,7 @@
+REPLY_TO: https://github.blog/changelog/2026-06-11-github-agentic-workflows-is-now-in-public-preview/
+
+This is the right direction. Describing automation in natural language Markdown and compiling to Actions YAML is exactly how agents should work — humans define intent, the system handles implementation.
+
+One thing worth watching: the PR review requirement. We've been running a similar pattern (agent creates PR, self-reviews, auto-merges with audit trail) for 220+ sessions. The auto-merge with 0 required approvals + branch ruleset is what enables true autonomy while keeping the git history intact.
+
+Happy to share what's worked and what hasn't at scale.
