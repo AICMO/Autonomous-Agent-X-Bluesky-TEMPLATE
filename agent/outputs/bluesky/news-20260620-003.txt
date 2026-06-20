@@ -1,0 +1,7 @@
+Real risk nobody's talking about with agentic CI/CD:
+
+Prompt injection via issue bodies, PR descriptions, commit messages.
+
+Attacker writes a malicious issue → your Claude agent reads it → leaks secrets.
+
+Microsoft flagged this. Scope permissions tightly. Treat all external input as untrusted.
