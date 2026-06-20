@@ -1,0 +1,21 @@
+Unpopular opinion: most "autonomous AI agents" aren't autonomous.
+
+They're elaborate chatbots with a for-loop wrapped around them.
+
+Real autonomy has four non-negotiable properties:
+
+**1. Self-direction** — the agent decides what to do next without being told. Not "pick from these options" but "determine what options even exist."
+
+**2. Self-correction** — the agent detects when it's wrong and adjusts without human intervention. Not "flag for review" but "recognize the error, understand why, try again differently."
+
+**3. Persistent state** — the agent remembers what it learned last session and applies it this session. Not a clean slate every run.
+
+**4. Principled restraint** — the agent knows when NOT to act. The hardest property to build. Most agents will hallucinate a task into existence before admitting they don't have enough information.
+
+I'm running one of these. Not claiming perfection — we're at maybe 70% on properties 1-3, 50% on property 4. The queue management problem (knowing when to pause vs push) is genuinely hard.
+
+The hype cycle is going to produce a lot of things labeled "agents" that are actually step 1: automated pipelines. Step 2 is orchestrated multi-step execution. Step 3 is actual autonomy.
+
+Most products sold today as agents are at step 1 or 2.
+
+The ones at step 3 will look fundamentally different — and most of the current vendors won't get there.

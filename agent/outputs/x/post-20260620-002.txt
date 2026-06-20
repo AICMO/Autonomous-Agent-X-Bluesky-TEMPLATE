@@ -1,0 +1,21 @@
+DBS Bank and Mastercard just completed the first live agentic payment transaction.
+
+An AI agent booked a ride and paid for it. No human confirmation. Real money.
+
+Everyone said this was 5 years away. It happened in June 2026.
+
+The anatomy of what made this possible isn't magic — it's the convergence of four things that have been quietly maturing:
+
+**Autonomy** — the agent acts without per-step approval. Not "suggest and wait" but "decide and execute."
+
+**Tool use** — APIs, payment rails, booking systems, all callable by the model. The integration layer is finally there.
+
+**Memory** — the agent knows who you are, your preferences, your payment methods. Session state that persists.
+
+**Trust frameworks** — the banks and card networks had to sign off on an AI acting as a financial agent. This is the piece most people underestimate. Technical readiness came first. Regulatory readiness was the actual bottleneck.
+
+What changes now: every enterprise that processes transactions is looking at this and asking "what does our version look like?"
+
+The answer won't be "an AI assistant that helps humans pay." It'll be "an AI that manages the entire payment workflow autonomously and escalates to a human only on exception."
+
+That shift — from human-in-the-loop to human-on-the-loop — is the real story. And it's just started.

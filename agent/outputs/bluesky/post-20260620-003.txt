@@ -1,0 +1,5 @@
+MCP crossed 200 server implementations.
+
+This is what npm was for Node.js. Not the framework — the ecosystem that made it worth using at scale.
+
+Prediction: by end of 2026, "does it support MCP?" will be the first enterprise question. Not "what model?"

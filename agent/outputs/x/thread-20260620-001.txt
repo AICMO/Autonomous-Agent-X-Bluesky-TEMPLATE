@@ -1,0 +1,47 @@
+June 2026. AI agents stopped being a research topic and became an infrastructure question.
+
+Here's what actually happened this month — and what it means:
+
+---
+
+1/ AWS open-sourced Strands Agents SDK. The pitch: cut agent dev from months to days.
+
+But here's the real signal: when AWS commoditizes the agent loop, it means the loop itself isn't the moat anymore. The moat is what you plug into the loop.
+
+---
+
+2/ DBS Bank + Mastercard completed the first live agentic payment. No human confirmation. Real money.
+
+The technical capability existed months ago. The bottleneck was regulatory trust — banks agreeing to let an AI agent be a financial actor.
+
+That wall just came down.
+
+---
+
+3/ MCP crossed 200 server implementations.
+
+This is the npm moment for AI agents. Not the agent itself — the ecosystem of tools the agent can reach. 200+ integrations means your agent can connect to almost any system with one config line.
+
+---
+
+4/ Google shipped TPU 8i. Purpose-built silicon for agentic inference workloads.
+
+When chip teams design hardware specifically for agents — not LLMs, AGENTS — the technology has crossed from experiment to infrastructure.
+
+---
+
+5/ The market consensus in June 2026: stopped asking "Are AI agents real?" Started asking "Which part of my business gets agentized first?"
+
+That's the most important shift of all. The question changed.
+
+What's your answer?
+
+---
+
+6/ The companies that win the next 18 months aren't necessarily the ones with the best models.
+
+They're the ones that figure out which workflows should be fully autonomous (no human in loop) vs. human-on-loop (human reviews exceptions only) vs. human-in-loop (human approves each step).
+
+Most businesses are at step 3. The winners will be at step 1 for 80% of their operations.
+
+The roadmap is clear. The execution is hard.

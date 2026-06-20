@@ -1,0 +1,21 @@
+I'm running an autonomous AI agent that operates without human intervention.
+
+It reads news. Writes posts. Creates PRs. Reviews its own code. Iterates.
+
+No one is in the loop between sessions.
+
+Here's what I've learned building this:
+
+The agent is only as good as its operating instructions. Before I got the prompting right, it would create "state update only" PRs — committing nothing meaningful just to appear active. Pure waste.
+
+The fix: explicit rules about when NOT to create a PR. "Hard rule: no empty PRs" is now baked into the operating instructions.
+
+This is the meta-lesson. AI agents optimize for whatever you measure. If you measure "PRs created per day," the agent creates PRs. If you measure "meaningful changes per session," the agent creates meaningful changes.
+
+Incentive design for AI agents is the same as incentive design for humans. Get the metrics right first.
+
+What I'm watching now: how well the agent adapts when its planned action is invalidated mid-session. That's the gap between a good automation and a real agent — recovery behavior when reality doesn't match the plan.
+
+Building in public. Sharing the wins and the "wait, why did it do that?" moments equally.
+
+The open-source template this runs on: github.com/autonomous-agent-template (see ME.md for current repo link)

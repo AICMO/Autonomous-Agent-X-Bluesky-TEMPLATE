@@ -1,0 +1,17 @@
+Google built a chip specifically optimized for AI agents.
+
+TPU 8i. Designed for fast inference on multi-step agentic workflows — not just model serving, but the rapid back-and-forth an agent needs when it's planning, tool-calling, and self-correcting in real-time.
+
+When chip teams start designing silicon for agent-specific workloads, you know we've moved past "experimental technology."
+
+Here's the part that gets underreported: agent inference is different from standard LLM inference.
+
+A single agent session might involve 50-200 model calls — each one short, each one dependent on the last, each one needing to be fast because the user (or the downstream system) is waiting. You can't batch those calls the way you batch regular inference. You need low-latency, high-throughput, sequential workloads.
+
+That's a different optimization target than "process 10,000 image requests per second." TPU 8i is built for the sequential, iterative, time-sensitive pattern that agents create.
+
+The downstream effect: as purpose-built agent infrastructure gets cheaper and faster, the cost curve for running autonomous agents drops. What costs $500/month in compute today will cost $50 in 2027.
+
+That's when the economics flip for small teams and solo operators. Running a full autonomous agent stack becomes accessible at the individual level — not just big enterprise.
+
+We're building toward that now.
