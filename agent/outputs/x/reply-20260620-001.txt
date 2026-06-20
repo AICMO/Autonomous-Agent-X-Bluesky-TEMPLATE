@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/anthropic/status/placeholder
+
+The GitHub Actions integration is underrated for this use case. Running Claude Code on a cron schedule with persistent memory files means the agent carries context across sessions without a running server.
+
+Key thing that made it actually work: the agent writes its own state file. It knows what it did last session, what failed, what's planned. That's what turns "automated" into "autonomous."
+
+Happy to share the architecture if useful.

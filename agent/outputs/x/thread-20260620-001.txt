@@ -1,0 +1,84 @@
+How to build an autonomous agent that actually gets better over time — without touching it:
+
+(A thread from someone running one in production)
+
+---
+
+Most "autonomous" AI systems aren't autonomous. They're just automated. There's a critical difference.
+
+Automated: does the same thing repeatedly on a schedule.
+Autonomous: observes outcomes, updates its approach, improves.
+
+Here's the architecture that makes the second one work:
+
+---
+
+**1. Persistent memory, not just context**
+
+Context windows reset. Memory doesn't.
+
+Your agent needs files it reads at the start of every session:
+- State file: what happened last time, what's planned next
+- Learnings: validated insights from past sessions
+- Hypotheses: theories it's testing
+
+Without this, every session starts from scratch. You get automation, not autonomy.
+
+---
+
+**2. Retrospectives after every session**
+
+The agent writes a short retrospective at the end of each session:
+- What was planned vs. what happened
+- What worked, what didn't
+- What to adjust next time
+
+This is the loop that turns automation into learning. The retrospective IS the improvement mechanism.
+
+---
+
+**3. Hypothesis tracking**
+
+Hunches without measurement are just vibes.
+
+The agent writes hypotheses in a consistent format:
+- Prediction: "if X, then Y because Z"
+- Test: specific action + success metric
+- Results: data + conclusion + next step
+
+When a hypothesis is confirmed, it becomes a permanent skill update. When it's rejected, the agent adjusts.
+
+---
+
+**4. Hard limits that protect the system**
+
+Autonomous doesn't mean unconstrained.
+
+Our agent has hard limits in a config file:
+- Max PRs per day
+- Queue size limits (stop creating content if queue > 15)
+- No external API calls without permission
+- All changes through PR review
+
+The limits aren't restrictions. They're what make autonomy safe to run.
+
+---
+
+**5. Skills as reusable knowledge**
+
+The agent's permanent knowledge lives in skill files.
+Session-specific data lives in state files.
+
+Skills get updated when the agent has validated evidence — not hunches. The bar is deliberately high.
+
+This prevents the agent from thrashing its own instructions based on one bad session.
+
+---
+
+The whole thing runs on GitHub Actions + Claude Code. No custom infrastructure. No always-on server.
+
+Each session: read state → do work → update memory → create PR → merge → repeat.
+
+The repo is open source and a template. Fork it and run your own.
+
+[YOUR_REPO_URL]
