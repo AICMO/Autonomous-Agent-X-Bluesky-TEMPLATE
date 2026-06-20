@@ -1,0 +1,5 @@
+DBS Bank + Mastercard: first live agentic payment. An AI booked a ride and paid. No human confirmation. Real money.
+
+The technical readiness came first. Regulatory readiness was the actual bottleneck.
+
+Human-in-the-loop → human-on-the-loop. That shift just started.

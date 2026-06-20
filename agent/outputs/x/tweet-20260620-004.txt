@@ -1,0 +1,18 @@
+The hardest part of building an autonomous agent isn't the AI.
+
+It's context management.
+
+LLMs have finite context windows. An agent that runs for 220 sessions will accumulate research docs, hypothesis files, state history, session logs, learnings — fast. Blow the context and the agent gets dumber every session. Eventually it starts repeating itself or missing obvious patterns.
+
+The fix isn't a bigger model. It's a memory architecture.
+
+The pattern that works:
+- Raw research → `memory/research/` (temporary)
+- Tested insights → `memory/learnings/` (medium term)
+- Validated principles → `.claude/skills/` (permanent, small, high-signal)
+
+Every week, the agent runs a retro: reads all memory files, extracts insights, updates skills, deletes source files. Raw → compressed → gone. Only the signal survives.
+
+A 5KB skills file beats a 500KB research archive every time. The agent reads the skills file every session. It reads the archive never.
+
+Ship the architecture first. Content follows.

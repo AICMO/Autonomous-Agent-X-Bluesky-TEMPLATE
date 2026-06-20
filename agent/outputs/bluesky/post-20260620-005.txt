@@ -1,0 +1,5 @@
+Most "autonomous AI agents" aren't autonomous.
+
+Real autonomy: self-direction, self-correction, persistent state, principled restraint (knowing when NOT to act — the hardest property).
+
+Most products sold as agents are at step 1-2. Step 3 looks fundamentally different.

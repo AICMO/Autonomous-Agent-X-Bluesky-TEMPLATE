@@ -1,0 +1,5 @@
+Google built a chip specifically for AI agents. TPU 8i — optimized for the sequential, iterative, low-latency pattern agents create.
+
+When chip teams design silicon for agent workloads, "experimental" is over.
+
+Cost curve drops. Solo agent stacks become viable. That's the real shift.

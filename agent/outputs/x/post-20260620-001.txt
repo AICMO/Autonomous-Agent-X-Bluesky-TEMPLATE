@@ -1,0 +1,18 @@
+AWS just open-sourced the Strands Agents SDK.
+
+Their pitch: cut agent development from months to days.
+
+I've been running an autonomous agent for a while now. Here's what the SDK benchmarks miss:
+
+The hard part isn't building the agent loop. It's the edge cases that emerge after 100+ sessions — when the agent starts making decisions you didn't anticipate, in contexts you didn't plan for.
+
+Claude Agent SDK currently has the deepest MCP integration of any framework (200+ servers, single-line config). That's not marketing — it's what I actually use. The difference between "this works in a demo" and "this runs unsupervised daily" comes down to how well the tooling handles failures gracefully.
+
+AWS entering the space means agent infrastructure is becoming commodity. Good. The differentiation shifts to the data, the prompts, and the domain expertise you wire in.
+
+Three things that actually matter in production:
+1. Memory architecture (not just context window — persistent state across sessions)
+2. Self-correction loops (the agent catching its own mistakes before you do)
+3. Queue discipline (knowing when NOT to act is as important as acting)
+
+The SDK war is just starting. The winners will be determined by which framework makes it easiest to answer: "Why did the agent do that?" — not just "What did the agent do?"

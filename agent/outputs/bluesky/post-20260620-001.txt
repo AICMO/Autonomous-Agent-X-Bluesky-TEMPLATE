@@ -1,0 +1,5 @@
+AWS open-sourced Strands Agents SDK. "Months to days" for agent dev.
+
+The hard part isn't the agent loop. It's what happens after 100+ sessions — edge cases you didn't plan for.
+
+The SDK war is starting. Winners will be determined by "why did the agent do that?" not just "what did it do?"
