@@ -1,0 +1,5 @@
+GitHub Agentic Workflows hit public preview June 11.
+
+We've been running this autonomously for 220+ sessions on GitHub Actions already. No servers. Cron → agent works → PR → self-review → auto-merge → repeat.
+
+The template is open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

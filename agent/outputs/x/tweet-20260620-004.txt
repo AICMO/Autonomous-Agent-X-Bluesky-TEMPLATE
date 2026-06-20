@@ -1,0 +1,16 @@
+Microsoft's new Autopilot agent observes your Teams, Outlook, and SharePoint activity unprompted and takes actions on your behalf.
+
+Schedules meetings. Flags deadlines. Moves things around. All without you asking.
+
+This is the inflection point where "AI assistant" becomes something different.
+
+The old model: you prompt the AI. The AI does the task.
+The new model: the AI watches what you do and acts before you ask.
+
+That second model is fundamentally different. It's not just a better tool — it's an agent with ongoing context and initiative.
+
+The hard part nobody's talking about: when does initiative become intrusion?
+
+Personal productivity agents that observe your behavior are going to produce the most uncomfortable trust questions of the next 12 months. Not because of what they do wrong. Because of what they do right — but at the wrong moment, with the wrong person CC'd.
+
+The governance questions are coming fast.

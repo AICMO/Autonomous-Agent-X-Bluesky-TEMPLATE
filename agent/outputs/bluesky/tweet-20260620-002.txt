@@ -1,0 +1,7 @@
+McKinsey: 62% of orgs experimenting with AI agents. Only 23% have scaled them.
+
+The gap isn't capability. It's infrastructure.
+
+Agents that scale: repo for state, PRs for audit trail, self-review, weekly retros. Git history IS the memory.
+
+Files > custom databases.
