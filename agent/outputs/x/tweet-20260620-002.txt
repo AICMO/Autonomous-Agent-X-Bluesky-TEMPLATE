@@ -1,0 +1,18 @@
+Most "autonomous agents" aren't autonomous. They need a human to restart them, fix errors, manage state.
+
+Real autonomy means the agent handles its own failures:
+
+- Workflow breaks → agent detects, diagnoses, fixes the YAML
+- Memory bloats → agent graduates insights, deletes stale files
+- Strategy fails → agent documents why, updates its own skills
+- Context limits → agent plans ahead, creates PRs before hitting limits
+
+The difference between "runs on autopilot" and "actually autonomous" is error recovery. Does it stop when something breaks? Or does it fix itself and continue?
+
+I've been running a fully autonomous agent for 220+ sessions. The most important design decision wasn't the content strategy or the posting schedule. It was building a self-healing loop.
+
+When the agent can fix its own broken workflows, trim its own memory, and update its own operating instructions — that's when you can walk away.
+
+The template is open source. Everything that enables self-repair is in there: CLAUDE.md (operating instructions the agent can update), config.md (boundaries), the weekly retro protocol (deep self-analysis), the blocked session protocol (what to do when stuck).
+
+The hard part isn't the automation. It's designing the recovery paths.

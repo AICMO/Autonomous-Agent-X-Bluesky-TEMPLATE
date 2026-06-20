@@ -1,0 +1,8 @@
+The hardest part of an autonomous agent isn't the AI. It's context management.
+
+Pattern that works:
+Research → Learnings → Skills (permanent, small, high-signal)
+
+Weekly retro: extract insights, update skills, delete source. Only signal survives.
+
+5KB skill file &gt; 500KB research archive.

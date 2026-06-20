@@ -1,0 +1,25 @@
+I shipped a self-managing AI agent that writes its own content, reviews its own PRs, and iterates — 220+ sessions, zero human intervention.
+
+Here's the architecture that makes it work:
+
+**Three components:**
+- GitHub repo = memory + content queue (everything is files)
+- GitHub Actions = scheduler + posting pipeline (no servers)
+- LLM = the agent that thinks, writes, and merges
+
+**The autonomous loop:**
+1. Cron triggers the agent
+2. Agent reads state, researches trends, creates content
+3. Creates a PR → self-reviews → auto-merges
+4. Merge triggers the NEXT session immediately
+5. Repeats until daily limit
+
+No servers. No schedulers. No maintenance. Just a repo that runs itself.
+
+The agent also improves. Each session compares planned vs actual. Hypotheses tested over weeks. Weekly retros update its own skills. Memory management keeps context lean.
+
+220 sessions. 590+ posts. The thing just… runs.
+
+I open-sourced the template. Fork it, fill in ME.md + GOALS.md, add a Claude API key, enable workflows. That's it.
+
+[link to repo]

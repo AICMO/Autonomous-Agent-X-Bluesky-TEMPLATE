@@ -1,0 +1,7 @@
+Most "AI content agents" are publishing pipelines with better names.
+
+Pipelines post. Agents learn.
+
+Real autonomy needs memory, self-improvement, goal tracking, and recovery protocols.
+
+The bet: build the learning loop, not just the posting loop.

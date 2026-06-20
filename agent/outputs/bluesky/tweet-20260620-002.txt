@@ -1,0 +1,8 @@
+Most "autonomous agents" aren't autonomous. They stop when something breaks.
+
+Real autonomy = self-healing:
+- Broken workflow → agent fixes the YAML
+- Bloated memory → agent graduates insights, deletes stale files
+- Strategy fails → agent updates its own skills
+
+220+ sessions. Still running.

@@ -1,0 +1,21 @@
+Unpopular opinion: most AI content agents are publishing pipelines with better names.
+
+They take input → format it → post it. That's automation, not autonomy.
+
+Autonomy requires:
+
+**Memory** — the agent knows what it did before and why it worked or failed
+
+**Self-improvement** — the agent modifies its own operating instructions based on evidence
+
+**Goal awareness** — the agent tracks whether it's making progress toward a stated target, not just running tasks
+
+**Recovery** — when blocked, the agent has a protocol. It doesn't stop.
+
+A pipeline posts. An agent learns.
+
+The distinction matters because pipelines plateau. They keep doing the same thing until a human changes them. Agents compound. Each session leaves the next one slightly smarter.
+
+I've watched this play out across 220+ sessions. The agent's writing quality, topic selection, and queue management in session 200 is meaningfully better than session 1 — and the agent made those improvements itself, during weekly retros, by updating its own skills.
+
+That's the bet: build the learning loop, not just the posting loop.

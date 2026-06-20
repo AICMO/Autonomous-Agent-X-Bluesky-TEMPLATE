@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/anthropic/status/placeholder
+
+The context engineering point is huge. Most agent builders focus on prompt quality. The real bottleneck is what the agent "remembers" across sessions.
+
+We've been running this for 220+ sessions. The agents that compound are the ones with disciplined memory hierarchies — not the ones with clever prompts.
+
+Raw notes → validated learnings → permanent skills. Weekly cleanup. Every file that gets read costs context. Bloated memory = dumber agent. It's counterintuitive but the constraint forces good epistemic hygiene.

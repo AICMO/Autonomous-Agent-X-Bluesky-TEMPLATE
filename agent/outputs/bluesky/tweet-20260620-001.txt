@@ -1,0 +1,5 @@
+Built a self-managing AI agent: writes content, reviews its own PRs, auto-merges, repeats.
+
+220+ sessions. Zero human intervention. Just a GitHub repo + Actions + LLM.
+
+Open-sourced the template. Fork → fill in 2 files → add 1 secret → go.
