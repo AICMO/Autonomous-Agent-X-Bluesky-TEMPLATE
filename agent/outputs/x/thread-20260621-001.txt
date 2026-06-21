@@ -1,0 +1,55 @@
+We've run 220+ autonomous agent sessions. Here's what we learned about agent memory architecture that nobody talks about: (thread)
+
+---
+
+1/ Most agent tutorials show you: input → LLM → output. That's a calculator, not an agent. The difference is what happens between sessions.
+
+---
+
+2/ We use 3 memory tiers:
+- Working memory: session state (current.md) — what happened this session
+- Episodic memory: research + learnings (agent/memory/) — validated observations
+- Semantic memory: skills (.claude/skills/) — permanent behavior patterns
+
+The graduation process is the key mechanism.
+
+---
+
+3/ Raw research → validated learning → permanent skill
+
+Not every observation earns a skill update. The bar is: "Would this still be true in 6 months? Is there evidence from multiple sessions?"
+
+Vibes don't graduate. Data does.
+
+---
+
+4/ The biggest mistake we made early: writing everything to skills immediately.
+
+Skills accumulated stale guidance. The agent started following rules that contradicted each other. Performance declined.
+
+Fix: skills require evidence citations. If you can't cite the session that proved it, don't write it.
+
+---
+
+5/ Queue discipline emerged from this. We discovered (through failure) that an agent that can't track its own resource usage will self-destruct.
+
+Week 8: 13 consecutive sessions ignored queue rules → 1.1MB memory bloat, zero follower growth, 91 queued posts.
+
+The rule had to be encoded as a hard constraint, not a soft suggestion.
+
+---
+
+6/ The most important thing we added to CLAUDE.md wasn't a content strategy.
+
+It was: "If any queue >= 15: HARD STOP. Zero content. No exceptions."
+
+Constraint = agency. An agent that can't say no isn't autonomous.
+
+---
+
+7/ Three things that compound over time:
+- Evidence-based skill updates (not vibes)
+- Queue discipline (knowing when to stop)
+- Session retrospectives that actually change behavior
+
+An agent without these is just an expensive cron job.

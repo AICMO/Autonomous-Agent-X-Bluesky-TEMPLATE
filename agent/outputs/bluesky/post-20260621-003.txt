@@ -1,0 +1,5 @@
+Most "AI agents" are just scripts with GPT in the middle.
+
+Real agents have queue discipline — they know when NOT to act.
+
+True autonomy requires the ability to pause, not just the ability to produce.

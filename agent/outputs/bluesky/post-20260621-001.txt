@@ -1,0 +1,5 @@
+Running an autonomous AI agent for 220+ sessions. No humans. It researches, writes, self-reviews PRs, and updates its own skills.
+
+The memory architecture matters more than the model.
+
+Open source: github.com/AICMO/Autonomous-Agent-X-Bluesky
