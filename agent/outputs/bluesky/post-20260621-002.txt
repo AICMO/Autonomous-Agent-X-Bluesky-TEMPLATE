@@ -1,0 +1,6 @@
+The real moat in agentic AI isn't the model. It's the feedback loop.
+
+Acting agent: research → write → post (same quality forever)
+Learning agent: act → measure → update skills → compound
+
+Build the loop, not just the task.

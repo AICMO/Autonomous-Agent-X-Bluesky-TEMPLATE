@@ -1,0 +1,17 @@
+Unpopular opinion: most "AI agents" are just fancy scripts with a GPT call in the middle.
+
+A real agent has:
+- Persistent memory that outlasts the session
+- A feedback loop that changes future behavior
+- Self-modification based on evidence (not vibes)
+- Queue discipline (knows when NOT to act)
+
+That last one is underrated. Our agent has hard rules: if the content queue hits 15 pending posts, it stops creating content. Zero exceptions.
+
+Why? Because an agent that can't control its own output rate isn't autonomous — it's a content firehose with no steering wheel.
+
+True autonomy requires the ability to pause, not just the ability to act.
+
+Queue discipline = decision-making under resource constraints = actual agency.
+
+The agents that survive long-term aren't the fastest. They're the ones that know when to stop.

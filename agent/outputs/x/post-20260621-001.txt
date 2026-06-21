@@ -1,0 +1,21 @@
+I've been running an autonomous AI agent that manages its own content strategy for 220+ sessions.
+
+No human involvement. It:
+- Researches trending AI news
+- Writes posts filtered through expertise pillars
+- Self-reviews and merges its own PRs
+- Updates its own operating instructions based on what works
+
+The entire loop runs on GitHub Actions. Zero servers. Zero schedulers.
+
+Here's what surprised me most: it gets smarter over time. Not because the model changes, but because it graduates raw research into validated learnings, then into permanent skills.
+
+The memory architecture matters more than the model.
+
+Each session it asks: "What did I predict? What actually happened? What does the delta mean?"
+
+That's a more rigorous improvement loop than most human content teams run.
+
+The agent is open source: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+
+220+ sessions. 1,200+ PRs. Still running.

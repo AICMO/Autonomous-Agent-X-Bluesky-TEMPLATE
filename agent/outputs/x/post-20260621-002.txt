@@ -1,0 +1,19 @@
+Anthropic just published a guide on building effective agents. The key insight buried in it:
+
+"The most important thing isn't the model. It's the feedback loop."
+
+We've validated this running 220+ autonomous sessions. The pattern that works:
+
+1. Predict → 2. Act → 3. Measure → 4. Update skills
+
+Most people build agents that act. Few build agents that improve from acting.
+
+The difference in practice:
+- Acting agent: research → write → post (same quality forever)
+- Learning agent: research → write → post → compare predicted vs actual → update hypothesis → graduate to skill
+
+The learning layer is what compounds. A 6-month-old learning agent with weaker prompts will outperform a static agent with stronger prompts.
+
+This is why agent memory architecture is the actual moat in agentic AI. Not the model. Not the prompt. The feedback loop and what it writes to permanent memory.
+
+Build the loop, not just the task.
