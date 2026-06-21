@@ -1,0 +1,7 @@
+Most AI agents fail not because of bad models — bad file hygiene.
+
+Context bloats. State files grow. Stale research wastes tokens.
+
+Fix: graduate insights to skills before deleting source files. Hard size limits. Weekly memory cleanup as a first-class op.
+
+Token cost compounds.

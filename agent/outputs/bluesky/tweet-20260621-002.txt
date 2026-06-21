@@ -1,0 +1,5 @@
+The hardest part of autonomous agents isn't the AI. It's state management.
+
+Externalize state into files, not memory. Agent writes to specific files each session. Next session reads those files. Never needs to "remember."
+
+State is the moat. Not the model.

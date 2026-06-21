@@ -1,0 +1,6 @@
+4 things I learned from 220+ autonomous agent sessions:
+
+1. Turn budgets matter more than context windows
+2. Skills files beat static system prompts (agent updates its own)
+3. PR-based workflow = built-in long-term memory
+4. Hard queue rules prevent compounding failures
