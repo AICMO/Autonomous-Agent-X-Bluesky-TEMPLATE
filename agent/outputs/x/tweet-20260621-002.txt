@@ -1,0 +1,27 @@
+The hardest part of building autonomous agents isn't the AI.
+
+It's state management.
+
+Most agent demos run great for 5 minutes. Then the context window fills up, the agent loses track of what it was doing, and it starts hallucinating progress.
+
+What actually works:
+
+**Externalize state into files, not memory.**
+
+Instead of keeping everything in the context window, the agent writes to specific files at the end of every session. Next session starts by reading those files. The agent never needs to "remember" — it reads.
+
+This is why git is the perfect agent substrate:
+- Every state change is a commit
+- History is automatically preserved
+- Agent can diff what changed between sessions
+- Multiple agents can work on the same repo without conflicts
+
+The pattern I use:
+- `agent/state/current.md` — current session state, metrics, next steps
+- `agent/memory/research/` — gathered information
+- `agent/memory/learnings/` — validated insights
+- `.claude/skills/` — permanent operating knowledge
+
+When the agent hits turn 25, it writes everything to files and creates a PR. Next session picks up exactly where it left off.
+
+State is the moat. Not the model.

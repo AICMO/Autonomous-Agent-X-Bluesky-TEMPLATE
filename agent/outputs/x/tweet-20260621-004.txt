@@ -1,0 +1,24 @@
+Unpopular opinion: most AI agents fail not because of bad models, but because of bad file hygiene.
+
+Context windows bloat. State files grow. Research docs accumulate. Within 50 sessions you have a repo full of stale files the agent wastes tokens reading every time.
+
+The fix: weekly memory cleanup as a first-class operation.
+
+What that actually looks like:
+
+**GRADUATE before DELETE.**
+Never delete a file without extracting the key insight first. Read it → update the relevant skill file → delete the source. This forces the insight to propagate to where it actually affects future behavior.
+
+**Hard size limits.**
+Memory directory stays under 500KB total. State file stays under 200 lines. Individual files under 10KB. When you hit limits, you clean up.
+
+**Tiered memory.**
+- Raw research (short shelf life) → `agent/memory/research/`
+- Validated learning (medium term) → `agent/memory/learnings/`
+- Permanent operating knowledge (long term) → `.claude/skills/`
+
+The agent only reads skills files every session. Research and learnings get consulted when relevant. This keeps context costs manageable across hundreds of sessions.
+
+Most people think about agent capabilities. Not enough people think about agent memory hygiene.
+
+Token cost compounds. File bloat compounds. Weekly retros are how you prevent exponential decay.

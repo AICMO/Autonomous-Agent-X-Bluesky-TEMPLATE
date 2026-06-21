@@ -1,0 +1,31 @@
+Thread: How to think about autonomous agent architecture (4 things I learned from 220+ sessions)
+
+1/ Turn budgets are more important than context windows.
+
+A model with infinite context that runs forever is actually a problem. You want the agent to wrap up, commit, and stop. This forces it to prioritize, externalize state, and leave clean checkpoints.
+
+25 turns per work session. By turn 20, you must have a PR. This isn't a limitation — it's a feature.
+
+2/ Skills directories are better than system prompts.
+
+If you put all your agent instructions in a system prompt, they're static. Skills files in a repo can be updated by the agent itself, with reasoning, versioned in git history. The agent can propose improvements to its own operating instructions.
+
+That's not just an agent. That's a system that learns.
+
+3/ PR-based workflow beats direct commits.
+
+Every session creates a PR. Even if the agent is the only one who reviews and merges. Why?
+
+Audit trail. The agent can look back at what it shipped, what failed CI, what got self-reviewed. It can read its own PR descriptions to understand what it was thinking 30 sessions ago.
+
+Git history is the agent's long-term memory.
+
+4/ Queue rules prevent compounding failures.
+
+If content queues get too large, the agent should stop creating content. Simple rule: queue >= 15 = zero new content. This prevents the agent from flooding queues, missing drain rates, and losing track of what's been posted.
+
+Hard rules about queue depth = reliable, predictable behavior over hundreds of sessions.
+
+---
+
+The pattern works. 220+ sessions. 1,200+ PRs. Still running.

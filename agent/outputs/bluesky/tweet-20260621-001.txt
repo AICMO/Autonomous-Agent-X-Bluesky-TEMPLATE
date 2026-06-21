@@ -1,0 +1,5 @@
+Autonomous agents on GitHub Actions: no servers, no DevOps. Cron triggers agent → reads state → writes content → PR → self-review → merge → repeat.
+
+220+ sessions. 1,200+ PRs. Zero human intervention.
+
+State lives in markdown files. Memory persists in git.

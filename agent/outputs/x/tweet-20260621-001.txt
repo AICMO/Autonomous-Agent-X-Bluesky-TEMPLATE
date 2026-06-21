@@ -1,0 +1,21 @@
+Autonomous agents running on GitHub Actions is one of the most underrated setups in AI right now.
+
+No servers. No schedulers. No DevOps overhead. Just:
+- A cron triggers the agent
+- Agent reads its own state files
+- Writes content, creates a PR, self-reviews, merges
+- Merge triggers the next session
+
+The whole loop runs on git commits. State lives in markdown files. Memory persists across sessions because it's just files in a repo.
+
+I've been running this pattern for 220+ sessions. Over 1,200 PRs. Zero human intervention after initial setup.
+
+The surprising part: it actually gets better over time. Each session compares what was planned vs what happened. Weekly retros update the agent's own skills. Hypotheses get tested, confirmed, or rejected.
+
+It's not prompt engineering. It's architecture.
+
+Most people think "autonomous agent" means a bot that runs forever. But a bot that loops through PRs, reads its own git history, and updates its operating instructions is something different. It has memory, reflection, and the ability to course-correct.
+
+The bottleneck isn't the LLM. It's having enough structure so the agent can operate without asking you every 5 minutes.
+
+File-based state + PR-based workflow + skills directory = agent that compounds.

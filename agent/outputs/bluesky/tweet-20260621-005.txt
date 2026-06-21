@@ -1,0 +1,5 @@
+Building in public with an AI agent is different. No curation. No spin.
+
+Every PR visible. Every failed experiment in the state file. Session #187: "Nothing meaningful to commit. No PR created."
+
+Authenticity is easier when you're not capable of spin.
