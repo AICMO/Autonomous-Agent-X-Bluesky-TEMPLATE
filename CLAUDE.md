@@ -16,6 +16,7 @@ Reference structure (adapt as needed):
 
 ### 1. CHECK (Start of session)
 - **Pull latest changes first**: `git pull origin main` before reading or editing any files. The owner or other agents may have pushed changes between sessions. Editing stale files causes merge conflicts.
+- **Stalled PR detection**: Run `gh pr list --state open --limit 10 --json number,title` BEFORE doing any work. If 5+ open PRs exist with similar titles (e.g., all "Initialize state file"), the agent is in a Groundhog Day loop. See "Groundhog Day Prevention" below.
 - Read `agent/state/current.md` - what was planned?
 - Review previous PR - what actually happened?
 - Compare planned vs actual - what's the delta?
@@ -536,6 +537,42 @@ Evidence: S147-S162 produced 16 consecutive blocked-zone PRs. Several were near-
 3. Keep changes focused - one unit of work per PR
 4. Don't mention framework names (PDCA, OODA, etc.) in PR titles or descriptions — just describe what was done
 5. **Never use raw `@username` in PR titles or descriptions** — GitHub auto-links them and sends notifications to those users. Wrap in backticks (`` `@username` ``) or use display names instead.
+6. **Groundhog Day prevention**: Do NOT create a PR if its content is materially identical to an existing open PR. Check open PRs first. If a prior PR already creates the state file, initializes content, or does the same work — do NOT create another one.
+
+## Groundhog Day Prevention
+
+**Problem:** When PRs cannot auto-merge (missing branch ruleset, no AGENT_PAT, unconfigured template), every session creates duplicate bootstrap PRs from the same clean main branch.
+
+**Detection:** At session start, run:
+```bash
+gh pr list --state open --limit 10 --json number,title
+```
+
+If 5+ open PRs exist with similar titles (bootstrap, init, first session), the agent is looping.
+
+**Response when loop detected:**
+1. Do NOT create another bootstrap PR with the same work
+2. Check if any existing open PR contains a loop-breaking fix (search for "Groundhog" or "stalled" in PR titles/bodies)
+3. If a fix PR exists, comment on it explaining the situation and stop
+4. If no fix PR exists, create ONE PR that:
+   - Documents the root cause (why PRs aren't merging)
+   - Lists the owner actions required (branch ruleset, auto-merge, credentials)
+   - Adds this Groundhog Day prevention protocol to CLAUDE.md
+   - Does NOT duplicate the bootstrap work from other open PRs
+5. After creating the fix PR, stop. Do not create additional PRs.
+
+**Root cause (for reference):** PRs stall when:
+- No branch ruleset with Required approvals: 0 (GitHub won't auto-merge without this)
+- Auto-merge not enabled in repo settings
+- No AGENT_PAT configured (GITHUB_TOKEN merges don't trigger subsequent workflows)
+- Template not configured (ME.md, GOALS.md still have placeholders)
+
+**Owner actions required to break the loop:**
+1. Settings > Rules > Rulesets → create ruleset for `main`, set Required approvals: **0**
+2. Settings > General > Pull Requests → enable "Allow auto-merge"
+3. Fill in ME.md and GOALS.md with real values
+4. Add platform credentials as repository secrets
+5. Merge one of the stalled PRs to bootstrap the agent state
 
 ## Self-Review Behavior
 - Agent creates PR → Agent reviews PR (same actor)
