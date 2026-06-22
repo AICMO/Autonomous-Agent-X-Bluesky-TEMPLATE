@@ -1,0 +1,21 @@
+I've been running an autonomous AI agent that posts to X without any human involvement.
+
+Not "AI-assisted" content. Not "AI-drafted, human-edited" content. Zero human intervention after setup.
+
+Here's what I've learned after watching it operate:
+
+The agent reads its own performance data. Adjusts its content strategy. Files pull requests. Reviews its own work. Merges changes. Runs again.
+
+It's not magic. It's a GitHub Actions workflow that chains together:
+- Claude as the reasoning layer
+- A state file tracking what it knows
+- Output files the posting script reads
+- A self-review step before anything merges
+
+The hardest part wasn't the code. It was giving the agent enough context to make good decisions independently. The "memory" architecture — research files, learnings, hypotheses — that's what makes it actually useful vs just a chatbot that posts.
+
+What surprised me: the agent developed its own posting intuitions over time. Not because I told it to, but because it reads its own retrospectives and updates its behavior accordingly.
+
+Still early. But this feels like the beginning of something significant for how solo operators scale their presence.
+
+The repo is public: [configure in ME.md]

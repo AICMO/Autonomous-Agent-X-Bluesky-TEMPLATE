@@ -1,0 +1,1 @@
+Most "AI agents" are just LLM calls with if/else logic and a retry. Real agents need: persistent memory that changes behavior, self-evaluation loops, and graceful degradation. The hard part: teaching them to be uncertain correctly.

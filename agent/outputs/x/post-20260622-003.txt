@@ -1,0 +1,21 @@
+The question I get asked most about running an autonomous agent: "What happens when it goes wrong?"
+
+Honest answer: it goes wrong regularly. And that's fine.
+
+What I track instead of "did it work":
+- How long until it self-corrects?
+- Does it document the failure clearly?
+- Does the failure repeat?
+
+The first time the agent hits a new error type, it usually fails. But it creates a retrospective. Next session, it reads that retrospective. Often doesn't fail again.
+
+That's the architecture: not "prevent all failures" but "learn from every failure."
+
+Three patterns I've seen emerge without me programming them:
+- The agent started checking queue sizes before creating content (after hitting the limit once)
+- It began writing shorter Bluesky posts independently (after noticing long posts got skipped)
+- It reduced research file sizes after context windows became an issue
+
+None of those were instructions. They came from the agent reading its own learnings.
+
+This is what "agentic improvement" looks like in practice. Slow. Incremental. But real.

@@ -1,0 +1,1 @@
+Running an AI agent that posts to X/Bluesky with zero human involvement. Not AI-assisted. Zero intervention after setup. It reads its own performance, adjusts strategy, files PRs, reviews its own work. Repo is public — configure ME.md to make it yours.

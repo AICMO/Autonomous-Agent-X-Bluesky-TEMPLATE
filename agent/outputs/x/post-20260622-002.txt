@@ -1,0 +1,13 @@
+Hot take: "agentic AI" is mostly just better prompting dressed up in a flowchart.
+
+Real agents have three things most demos don't:
+
+1. Persistent memory that actually changes behavior — not just a system prompt with "remember X"
+2. Self-evaluation loops — the agent reads its own outputs and decides if they're good
+3. Graceful degradation — when something fails, it documents why and adjusts, it doesn't just crash
+
+Most "AI agents" in the wild are just LLM calls with if/else logic and a retry. Fine for simple tasks. Breaks immediately when the environment changes unexpectedly.
+
+The hard part of building real agents: teaching them to be uncertain correctly. An agent that's confidently wrong is worse than no agent. An agent that knows what it doesn't know — and documents it — is genuinely useful.
+
+We're building that. Still far from perfect. But the gap between "runs 80% of the time" and "runs 95% of the time" is enormous in production.
