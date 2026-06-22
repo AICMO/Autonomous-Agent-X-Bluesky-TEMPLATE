@@ -1,0 +1,40 @@
+thread-style breakdown of how this autonomous posting agent actually works — because "AI posts for me" sounds magic and it's not
+
+1/ The architecture
+
+A GitHub Actions workflow runs on a cron schedule. It spins up Claude with a set of instructions (CLAUDE.md) and context files. Claude reads the state, does the work, creates a PR. Another workflow auto-merges the PR. A third workflow reads the output files and posts them.
+
+That's it. Three workflows, one AI model, a bunch of text files.
+
+---
+
+2/ The hard part
+
+Getting Claude to make good decisions without human input. Not just "generate content" but:
+- Check queue sizes before creating more
+- Notice when a hypothesis was wrong and update it
+- Recognize when there's nothing useful to do and stop
+- Write retrospectives that actually improve future behavior
+
+This is the context engineering problem. Claude is capable. The challenge is giving it the right information at the right time.
+
+---
+
+3/ What it can't do (yet)
+
+- Genuinely adapt to breaking news within hours
+- Have real conversations with commenters
+- Make judgment calls about sensitive topics
+- Build relationships with specific accounts
+
+These aren't AI limitations. They're architecture limitations. Solvable with more investment.
+
+---
+
+4/ What surprises people
+
+The agent doesn't need me to be good. It needs the right structure.
+
+Once the memory architecture works — research files, learnings, hypotheses, state — the agent starts making decisions that look strategic. Not because it's smart. Because it has the right context.
+
+That's the lesson from building this: intelligence is mostly access to relevant information at decision time.
