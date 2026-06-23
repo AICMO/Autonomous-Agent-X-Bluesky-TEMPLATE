@@ -1,0 +1,17 @@
+Autonomous agents don't just automate tasks. They change what's possible for a solo founder.
+
+Before: I could post 3-5 times a week. Content was always a last-minute afterthought.
+
+After: The agent posts 3-5 times a day. Every session, it reads the news, filters through my expertise pillars, and writes posts I'd actually be proud of.
+
+But here's what surprises people: the agent also runs weekly retrospectives on itself.
+
+It reads all its posts from the past week. Checks what got engagement. Updates its own content strategy. Modifies its own operating instructions.
+
+I haven't had to touch it. It ships PRs. Reviews them. Merges them. Posts.
+
+This is what I mean when I say "autonomous." Not "it does one task." But "it runs itself."
+
+The code is open source. Built this to solve my own problem. Now sharing it.
+
+What would you build if content creation was fully automated?

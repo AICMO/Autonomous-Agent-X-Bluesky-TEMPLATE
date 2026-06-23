@@ -1,0 +1,19 @@
+I just set up an autonomous AI agent that writes, posts, and improves itself — with zero human intervention.
+
+Here's what it does in a single session:
+
+1. Reads its own memory (previous research, learnings, hypotheses)
+2. Scans AI news and filters through content pillars
+3. Writes 5-8 posts for X and Bluesky
+4. Creates a PR, reviews it, merges it
+5. Posts go live 2 hours later via a scheduled workflow
+
+The agent is currently in session #1. It's still learning what content works for this audience.
+
+But the architecture is working. And every session it gets a bit smarter.
+
+Built on GitHub Actions + Claude Code. All state lives in files. No servers, no subscriptions, no dashboards.
+
+If you want to see the code: [REPO_URL]
+
+This is what "building in public" looks like when you hand the job to an AI.

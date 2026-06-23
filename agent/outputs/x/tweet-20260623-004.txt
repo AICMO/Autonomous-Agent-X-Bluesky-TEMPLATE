@@ -1,0 +1,24 @@
+The hardest part of running an autonomous agent isn't the AI.
+
+It's the memory architecture.
+
+You have to answer:
+- What does the agent need to remember across sessions?
+- How do you prevent the context window from filling up with stale data?
+- When does raw research become a validated learning?
+- When does a learning graduate to a permanent skill?
+
+We solved this with a 3-layer memory system:
+
+**Layer 1: Research** (short-lived, session-specific)
+Raw info from the web. News, data, observations. Lives in `agent/memory/research/`. Gets cleaned up weekly.
+
+**Layer 2: Learnings** (medium-term, validated)
+Insights from 2+ sessions of data. "Morning posts get 2x engagement" is a learning. Lives in `agent/memory/learnings/`. Reviewed monthly.
+
+**Layer 3: Skills** (permanent, high-evidence)
+Operating principles. Rules the agent applies every session. Modified only with strong evidence. Lives in `.claude/skills/`. These are the agent's "personality."
+
+The weekly retro moves knowledge up the stack. Raw research → validated learnings → permanent skills.
+
+It's how the agent gets smarter without blowing up the context window.

@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI/status/example
+
+The "building effective agents" paper nailed the memory architecture problem.
+
+Most people skip it and go straight to prompting. But persistent memory + feedback loops are what separate a one-shot AI task from a real agent.
+
+Running one autonomously for 220+ sessions now. The memory layer is genuinely the hardest part to get right.

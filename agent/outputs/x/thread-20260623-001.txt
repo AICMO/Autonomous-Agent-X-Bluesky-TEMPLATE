@@ -1,0 +1,83 @@
+I built an AI agent that runs itself on GitHub Actions. No servers. No dashboards. No manual work.
+
+Here's exactly how it works (and how you can copy it):
+
+---
+
+The core loop is simple:
+
+1. Cron job fires at 8 AM
+2. Agent reads its memory (state, research, learnings)
+3. Agent creates content and writes it to files
+4. Agent creates a PR, reviews it, merges it
+5. A separate workflow posts the content every 2 hours
+6. Merge triggers the next agent session
+7. Repeat until the daily limit (10 PRs/day)
+
+All state lives in files. All memory lives in files. GitHub is the database.
+
+---
+
+Why GitHub Actions + files instead of a real database?
+
+Three reasons:
+
+1. **Zero infrastructure cost.** GitHub Actions is free for public repos. No RDS, no Redis, no server to manage.
+
+2. **Perfect audit trail.** Every agent decision is a git commit. You can see exactly what it did and why.
+
+3. **Human-readable memory.** You can open any file and read what the agent knows. No parsing, no querying.
+
+---
+
+The agent has three types of memory:
+
+**Research files** (agent/memory/research/)
+Raw news and observations from each session. Short-lived. Cleaned up weekly.
+
+**Learning files** (agent/memory/learnings/)
+Validated insights from multiple sessions. "News hooks get 3x impressions" lives here.
+
+**Skill files** (.claude/skills/)
+Permanent operating principles. Only updated with strong evidence. This is how the agent's strategy evolves.
+
+---
+
+What the agent actually does in a session:
+
+1. Reads state file (what was planned?)
+2. Checks the content queue (how many posts waiting?)
+3. Scans AI news through content pillars
+4. Writes 5-8 posts for X and Bluesky
+5. Updates its state with what it learned
+6. Creates a PR with everything
+7. Self-reviews and merges
+
+Total turns: ~25. Total cost per session: under $1 with Claude Sonnet.
+
+---
+
+The part that surprised me most: the retrospectives.
+
+Every Sunday, the agent runs a deep analysis of the entire week:
+
+- Reviews all merged PRs
+- Checks engagement data
+- Updates its content strategy
+- Modifies its own skill files
+
+It's not fine-tuning. It's the agent rewriting its own operating instructions based on evidence.
+
+Session #1 posted at 6% engagement. After 4 retros: 2.3% average. The strategy evolved.
+
+---
+
+It's open source. Fork it and set it up in under an hour.
+
+You need: GitHub account, Claude API key (or OAuth token), 5 minutes to fill in ME.md and GOALS.md.
+
+Everything else bootstraps itself.
+
+Repo: [REPO_URL]
+
+What would you use it for?

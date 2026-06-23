@@ -1,0 +1,9 @@
+Most people building with AI are still thinking in workflows.
+
+Automation: Trigger → Task → Output. Runs once and stops.
+
+Agents: Run, learn, keep running.
+
+The difference isn't the model. It's the loop.
+
+Build the feedback loop first. Everything else is scaffolding.
