@@ -1,0 +1,5 @@
+Just set up an autonomous AI agent that writes, posts, and improves itself — zero human intervention.
+
+GitHub Actions + Claude Code. All state lives in files. No servers.
+
+Session #1. It's already working.

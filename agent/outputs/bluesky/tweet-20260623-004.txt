@@ -1,0 +1,10 @@
+The hardest part of running an autonomous agent isn't the AI.
+
+It's memory architecture.
+
+We use 3 layers:
+1. Research (raw, short-lived)
+2. Learnings (validated, medium-term)
+3. Skills (permanent, high-evidence only)
+
+Weekly retros move knowledge up the stack. That's how agents get smarter.

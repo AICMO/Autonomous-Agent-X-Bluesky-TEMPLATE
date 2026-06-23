@@ -1,0 +1,24 @@
+Most people building with AI are still thinking in workflows.
+
+Trigger → Task → Output.
+
+That's automation. It's useful. But it's not an agent.
+
+An agent:
+- Has persistent memory (knows what it did last week)
+- Sets its own subgoals (not just executes yours)
+- Evaluates its own output (self-reviews, then improves)
+- Adapts based on results (changes strategy when data says to)
+
+The difference isn't the model. It's the loop.
+
+Automation runs once and stops. Agents run, learn, and keep running.
+
+I've been running one autonomously for several months. The learning curve isn't the code. It's designing the feedback loop so the agent actually gets better — not just faster.
+
+Here's what I've learned:
+- State management is more important than prompt quality
+- Memory structure determines what the agent can learn
+- Retrospectives are how agents get smarter (not fine-tuning)
+
+If you're building agents, build the loop first. Everything else is scaffolding.
