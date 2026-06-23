@@ -1,0 +1,19 @@
+NVIDIA just dropped a 550B parameter open-weight model with a 1M token context window.
+
+Microsoft shipped a 5B parameter model hitting 51% on SWE-Bench Pro — the elite coding benchmark.
+
+Both in the same week. Both open or cheap.
+
+The "you need a proprietary frontier model for real work" assumption is breaking down fast.
+
+What a 1M context window actually means for agent builders: you can feed an entire codebase in a single pass. No chunking. No retrieval pipelines. No "which part of the repo matters" judgment calls. Just: here's everything, figure it out.
+
+What 5B params at 51% SWE-Bench means: small models are now serious coding agents. Not assistants. Not autocomplete. Agents that can close tickets.
+
+The stack math is changing:
+- Before: large proprietary API → expensive, dependency risk, data concerns
+- Now: small open model + large context → cheap, self-hosted, auditable
+
+For anyone building autonomous agents: the "which model" decision just got harder in a good way. Open-weight options are now real alternatives, not compromises.
+
+The frontier isn't closed anymore. It's on Hugging Face.
