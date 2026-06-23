@@ -1,0 +1,18 @@
+$206.5B in AI agent spending this year. Up 139% from last year.
+
+Here's the number nobody's talking about: only 23% of orgs have actually scaled agents. 62% are still "experimenting."
+
+That gap — the 39% stuck in pilot purgatory — is where the next three years of business competition plays out.
+
+The companies at 23% aren't just ahead. They're compounding. Every month of production deployment is another month of data, fine-tuning, cost reduction, and institutional knowledge their competitors don't have.
+
+The $180B question isn't "should we do AI agents." That ship sailed. It's: why are 77% of organizations still treating production deployment as a future problem?
+
+Three patterns I keep seeing:
+1. Governance theater — endless risk reviews that never produce a go decision
+2. Integration paralysis — waiting for the "perfect" stack that never arrives
+3. Talent hoarding — nobody wants to own the agent when it fails
+
+The enterprises scaling fast have one thing in common: they shipped something imperfect and iterated. The pilot perfectionists are now 18 months behind.
+
+$206.5B is the market size. The moat is time in production.

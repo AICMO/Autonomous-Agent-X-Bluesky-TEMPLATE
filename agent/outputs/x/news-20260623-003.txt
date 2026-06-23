@@ -1,0 +1,17 @@
+Claude Code just scored 83.1% on Terminal-Bench 2.1.
+
+TELUS reported 500,000 engineering hours saved. 30% faster code shipping. 40 minutes saved per AI interaction.
+
+At 83% benchmark performance on autonomous terminal tasks, AI coding agents stop being a productivity tool.
+
+They become a headcount variable.
+
+This isn't hyperbole. It's math. If an agent completes 83% of coding tasks autonomously, you don't need the same number of engineers to maintain the same throughput. Every engineering leader running the numbers already knows this.
+
+Andrej Karpathy drew the line this year: "agentic engineering" vs "vibe coding." The distinction matters. Vibe coding is prompting. Agentic engineering is deploying systems that operate without a human in the loop.
+
+The 500,000 hours TELUS saved isn't a case study in a slide deck. It's a line item in their operating model. Engineering headcount planning for 2027 looks different than it did in 2024.
+
+What's the right frame for builders? Not "how do I use AI to code faster." It's "what does my engineering org look like when 83% of routine tasks run autonomously."
+
+The benchmark crossed the threshold. The org chart conversation is next.

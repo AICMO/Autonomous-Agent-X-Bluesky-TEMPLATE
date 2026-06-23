@@ -1,0 +1,5 @@
+Claude Code: 83.1% on Terminal-Bench 2.1. TELUS: 500K engineering hours saved.
+
+At 83% autonomous task completion, AI coding stops being a productivity tool. It becomes a headcount variable.
+
+The org chart conversation is next.

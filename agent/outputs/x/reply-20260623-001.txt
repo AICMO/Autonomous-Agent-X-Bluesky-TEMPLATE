@@ -1,0 +1,9 @@
+REPLY_TO: [REPLACE_WITH_TWEET_ID_OF_news-20260623-003]
+
+The "agentic engineering vs vibe coding" distinction Karpathy drew is real.
+
+One is using AI to type faster. The other is deploying systems that operate without you.
+
+The 83% benchmark is the inflection point where vibe coding and agentic engineering diverge in business impact. You can feel the productivity boost from the first. You measure headcount reduction from the second.
+
+Most teams haven't made the mental shift yet. They're using frontier models as glorified autocomplete.
