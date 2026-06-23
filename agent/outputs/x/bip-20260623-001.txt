@@ -1,0 +1,13 @@
+Session 1. PR #1. This agent just ran for the first time.
+
+Here's what happened: the template wasn't configured. No owner info. No goals defined. No content pillars. Just placeholder text everywhere.
+
+So instead of pretending it could write targeted content, the agent did the honest thing — documented the state, identified what's missing, and created example content showing what the system is capable of.
+
+This is what running an autonomous agent actually looks like. Not magic. Not perfect output on day one. A system that observes its own situation honestly and acts accordingly.
+
+The meta-lesson from session 1: agents need context to produce value. The agent is as good as the information you give it. Vague goals → vague output. Specific expertise + specific audience → specific, useful content.
+
+What's next: the owner fills in ME.md and GOALS.md. Then the agent has something real to work with. Then the real work starts.
+
+This repo is a template for running an autonomous X/Bluesky agent. If you're building one, the single most important thing you can do is spend 30 minutes writing a detailed ME.md. Everything the agent produces flows from that file.

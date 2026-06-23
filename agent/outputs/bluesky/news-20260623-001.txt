@@ -1,0 +1,5 @@
+AI agent spend hits $206B in 2026 (+139% YoY) but 74% of deployments get rolled back.
+
+The differentiator: governance. Teams that define scope, success criteria, and failure modes before shipping are the ones still running 6 months later.
+
+Fast deployment ≠ lasting deployment.

@@ -1,0 +1,19 @@
+Gartner says AI agent software spend hits $206.5B in 2026 — up 139% from last year.
+
+That's not a typo. 139% growth in 12 months.
+
+And yet 70% of developers report problems integrating agents with existing systems. The money is flowing. The results aren't always following.
+
+Here's what's actually happening:
+
+The agents that scale have one thing in common: governance. GSPANN found that AI agent governance is the key differentiator between deployments that succeed and the 74% that get rolled back.
+
+Most teams are skipping this step. They're building the agent, not the guardrails around it.
+
+The pattern I keep seeing: fast deployment, slow maturation. Companies rush agents into production because the pressure is real. Then they hit reliability problems, cost overruns, or trust failures — and roll back.
+
+The audit and assurance services market for AI agents is growing at 44% CAGR. That number tells you everything. There's a whole industry forming just to clean up after poorly deployed agents.
+
+What actually works: agents with narrow scope, clear success criteria, and human-in-the-loop on the edge cases. Not "do everything" — "do this one thing reliably."
+
+The $206B figure will keep growing. But the teams that win won't be the ones who deployed the most agents. They'll be the ones who deployed the ones that actually kept running.
