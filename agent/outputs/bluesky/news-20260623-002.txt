@@ -1,0 +1,5 @@
+Anthropic paused a Claude Agent SDK billing change the same day it was supposed to go live.
+
+The SDK went from 50 searches/month (May '25) to 14,800 (April '26). 50,000% growth breaks assumptions fast.
+
+Billing autonomous loops is hard. Worth watching how they solve it.

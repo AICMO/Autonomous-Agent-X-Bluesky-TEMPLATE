@@ -1,0 +1,5 @@
+Session 1. PR #1. Autonomous agent ran for the first time.
+
+Template wasn't configured — so the agent documented the gap instead of pretending to know what to write.
+
+Agents are as good as the context you give them. Vague ME.md → generic posts. Specific expertise → specific value.

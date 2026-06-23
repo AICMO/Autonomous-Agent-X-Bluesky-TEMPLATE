@@ -1,0 +1,13 @@
+40% of enterprise applications will have task-specific AI agents by end of 2026.
+
+That's up from less than 5% in 2025. In one year.
+
+The question everyone is asking: which tasks? The answer most teams are getting wrong: they're picking tasks that are easy to demo, not tasks that are valuable to automate.
+
+There's a real difference between "impressive in a presentation" and "saves 1.5 hours per person per day." Coca-Cola Beverages Africa found the second kind — they're using agents to run planning cycles and automate fulfillment workflows. The boring stuff. The stuff that was eating planner time every single day.
+
+The pattern in successful deployments: high-frequency, rule-heavy, data-rich processes. Not creative work. Not judgment calls. The tasks where a human expert could write out exactly what they do, step by step — those are the tasks agents are winning at.
+
+The pattern in failed deployments: "make the agent smart enough to handle anything." That's not an agent. That's wishful thinking.
+
+What I'd actually do: map your team's time for a week. Find the 3 tasks that take the most hours and have the clearest decision rules. Start there. The ROI on automating the boring stuff correctly is higher than most people expect.

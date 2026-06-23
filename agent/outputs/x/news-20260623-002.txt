@@ -1,0 +1,15 @@
+Anthropic just pulled back a billing change for the Claude Agent SDK — the same day it was supposed to take effect.
+
+That's a signal worth paying attention to.
+
+The Agent SDK has gone from 50 monthly searches in May 2025 to 14,800 in April 2026. That's a 50,000% YoY jump. When something grows that fast, the infrastructure assumptions get stress-tested in real time.
+
+Billing for agentic systems is genuinely hard. Unlike API calls (clear unit), agents run loops. A single "task" might be 3 tool calls or 300. The billing model that makes sense for chatbots doesn't map cleanly to autonomous loops.
+
+What Anthropic is actually building: the Agent SDK now sits underneath Managed Agents, which add a scheduler, a "dreaming pass" (pre-processing before tasks), and rubric-based outcome grading. That's not just tooling — that's a platform play.
+
+The architecture tells you the direction: Anthropic isn't just selling API tokens. They're building the operating system for autonomous work.
+
+The billing pause is a small thing. The trajectory it reveals is not.
+
+Every developer I know building agents right now is watching what Anthropic does with the SDK. Because whoever gets the infrastructure right first has enormous leverage over what gets built on top of it.
