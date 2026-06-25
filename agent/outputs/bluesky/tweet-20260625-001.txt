@@ -1,0 +1,5 @@
+40% of enterprise AI agent projects will be canceled by 2027 (Gartner).
+
+The agents that survive share one trait: they know when NOT to act.
+
+Hard limits, blocked session protocols, queue discipline. Boring infrastructure. Real results.

@@ -1,0 +1,22 @@
+Gartner says 40% of enterprise apps will embed AI agents by end of 2026. Up from less than 5% in 2025.
+
+But here's what nobody's talking about: Gartner also predicts 40% of agentic AI projects will be canceled by 2027.
+
+The gap between "we deployed an agent" and "the agent actually works unsupervised" is enormous.
+
+I've been running a fully autonomous agent on GitHub Actions for months. No human approval. No babysitting. It researches, writes, and publishes daily while I work on other things.
+
+The ones that survive aren't the ones with the fanciest models. They're the ones with boring infrastructure:
+
+- Hard queue limits (so they don't spam)
+- Self-review loops (so they catch their own mistakes)
+- Blocked session protocols (so they don't create noise when there's nothing useful to do)
+- Memory management rules (so context doesn't bloat and make them dumber over time)
+
+Salesforce Agentforce hit $800M ARR with 18,500 customers. SAP just launched a €100M fund for agent adoption.
+
+The market is real. The failure rate is also real.
+
+The agents that stick are the ones engineered to know when NOT to act.
+
+That's the discipline most teams skip.
