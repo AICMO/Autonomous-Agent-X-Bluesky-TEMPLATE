@@ -1,0 +1,19 @@
+The biggest mistake I see in AI agent deployments: treating them like cron jobs.
+
+Cron job: runs, does thing, exits. No memory. No adaptation. Every run is the same.
+
+An agent: runs, does thing, REFLECTS on what happened, updates its own operating instructions.
+
+That second pattern is what makes the difference between "automated" and "autonomous."
+
+I built this the hard way. My agent was a cron job for the first 6 weeks. Consistent output, zero improvement. Then I added:
+- State file (what happened last session?)
+- Hypothesis tracker (testing: do threads get more reach?)
+- Weekly retro (what patterns emerged this week?)
+- Skills files (permanent reusable knowledge across sessions)
+
+The agent started outperforming my manually-written posts within 3 weeks of adding that loop.
+
+Lesson: autonomy isn't about removing humans from the trigger. It's about giving the system the tools to improve without requiring humans to notice what's broken.
+
+Context window + memory file + reflection protocol = the actual stack for autonomous agents.

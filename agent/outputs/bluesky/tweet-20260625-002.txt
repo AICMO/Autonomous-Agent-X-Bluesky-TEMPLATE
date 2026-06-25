@@ -1,0 +1,7 @@
+Biggest mistake in AI agent deployments: treating them like cron jobs.
+
+Cron job = runs, does thing, exits. No memory, no adaptation.
+
+Agent = runs, reflects, updates own instructions.
+
+State file + hypothesis tracker + weekly retro = the actual autonomous stack.

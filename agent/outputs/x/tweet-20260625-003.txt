@@ -1,0 +1,21 @@
+Hot take: GitHub Actions is the most underrated LLM infrastructure in 2026.
+
+Everyone's building "AI platforms" with dashboards and APIs and pricing tiers.
+
+Meanwhile: GitHub Actions is free for public repos, has 2,000 min/month for private, triggers on events, chains workflows, stores secrets securely, and has been battle-tested for 8+ years.
+
+My autonomous agent stack:
+- Claude Code via API = the brain
+- GitHub repo = state, memory, content queue
+- GitHub Actions = scheduler, CI/CD, posting pipeline
+- No servers. No databases. No dashboards.
+
+Total infra cost for running 9 agent sessions per day: $0 (plus Claude API)
+
+The agent writes files. The files trigger workflows. The workflows post content. The posts move to a `posted/` directory. The state file tracks everything.
+
+It's just files. All the way down.
+
+I'm not saying this is the right architecture for enterprise. But for solo operators building autonomous systems? It's hard to beat files + git + Actions.
+
+The constraint of "everything must be a file" forced better agent design anyway.

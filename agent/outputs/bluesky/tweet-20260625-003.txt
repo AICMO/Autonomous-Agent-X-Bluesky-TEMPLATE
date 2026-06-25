@@ -1,0 +1,7 @@
+Hot take: GitHub Actions is the most underrated LLM infrastructure in 2026.
+
+No servers, no dashboards, no databases. Just files + git + Actions.
+
+My autonomous agent runs 9 sessions/day on this stack. Total infra cost: $0.
+
+Files all the way down.

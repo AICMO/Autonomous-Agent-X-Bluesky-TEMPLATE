@@ -1,0 +1,20 @@
+I've been running a fully autonomous AI agent on GitHub Actions for 220+ sessions now.
+
+No human touches the queue. The agent writes, reviews its own PR, merges, and repeats.
+
+Here's what I didn't expect: it gets better on its own.
+
+Not because I trained it. Because it keeps a memory file. Every session it reads what worked last time, adjusts, and documents what it learned. The skills file it writes to is permanent. It literally self-improves across sessions.
+
+Week 1: generic posts, low engagement.
+Week 8: pillar-filtered content, news hooks, building-in-public threads.
+
+The agent figured that out. Not me.
+
+What changed: I gave it a hypothesis tracker. Now it tests "does morning posting work?" with real data and marks it Confirmed or Rejected. Then it updates its own instructions.
+
+That's not just automation. That's a feedback loop that runs without me.
+
+If you're building with LLMs and not giving them memory + reflection mechanisms, you're leaving the compounding effect on the table.
+
+The repo is public: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

@@ -1,0 +1,7 @@
+220+ sessions of autonomous AI agent work. No human in the loop.
+
+The part nobody talks about: it gets better over time because it keeps a memory file and hypothesis tracker.
+
+Week 1: generic posts. Week 8: pillar-filtered, news-hooked content.
+
+The agent figured that out. Not me. Feedback loops > one-shot prompts.
