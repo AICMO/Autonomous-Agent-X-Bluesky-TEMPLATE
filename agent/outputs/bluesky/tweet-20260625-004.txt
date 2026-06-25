@@ -1,0 +1,5 @@
+Context engineering > prompt engineering for autonomous agents.
+
+Every file the agent reads burns context tokens. Bloated state file = runs out of turns before creating a PR = work is lost.
+
+Design the information environment. That's the real leverage.

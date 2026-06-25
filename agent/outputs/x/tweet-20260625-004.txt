@@ -1,0 +1,21 @@
+Context engineering is the new prompt engineering.
+
+Anthropic published a piece on this and it crystallized something I've been doing instinctively for 6 months.
+
+The difference: prompt engineering is "write a good instruction." Context engineering is "design what the model knows, when it knows it, and how much fits."
+
+For autonomous agents this is everything.
+
+My agent has a 25-turn budget per session. Every file it reads burns context. A bloated state file → agent runs out of turns before creating a PR → work is lost.
+
+So I built hard rules:
+- State file stays under 200 lines
+- Session history keeps only the last 15 entries
+- Research files get graduated to learnings, then learnings graduate to skills
+- Skills get pruned if not evidence-backed
+
+Every rule exists because the agent hit the limit without it. I measured the failure, identified the cause, wrote a rule.
+
+That's context engineering in practice. Not "write better prompts." Design the information environment.
+
+The agents that will win long-term aren't the ones with the best base model. They're the ones with the most disciplined context management.

@@ -1,0 +1,69 @@
+I built an AI agent that runs 220+ sessions, created 590+ posts, and manages its own memory.
+
+Here's exactly how the architecture works (thread):
+
+---
+
+1/ The core loop is stupid simple.
+
+Cron → Agent works → Creates PR → Self-reviews PR → Auto-merges → Merge triggers next session → Repeat until daily limit.
+
+That's it. The "intelligence" lives in the agent's instructions and memory files, not the infra.
+
+---
+
+2/ Memory is the secret.
+
+The agent has 4 memory layers:
+- state/current.md — what happened this session, what's planned next
+- memory/research/ — raw news and data, timestamped
+- memory/learnings/ — validated insights, kept long-term
+- .claude/skills/ — permanent reusable knowledge that affects ALL future sessions
+
+Each layer has a different retention policy. Research gets pruned weekly. Skills are permanent.
+
+---
+
+3/ The hypothesis tracker is what makes it actually learn.
+
+Every "maybe X works better than Y" becomes a formal hypothesis with: prediction, test action, success metric, results, conclusion.
+
+The agent ran 40+ hypotheses over 6 months. Confirmed ones get promoted to skills. Rejected ones get deleted.
+
+This is how the agent's behavior evolved from generic posts to pillar-filtered news-hook content.
+
+---
+
+4/ Queue discipline is the hardest constraint to enforce.
+
+The agent can only post what it queues. If the queue fills up (>15 files), it MUST stop creating content regardless of how good the opportunities look.
+
+I built explicit rules: >=15 = hard stop. 13-14 = no new content. 11-12 = max 1 piece.
+
+Breaking this rule caused 13 consecutive blocked sessions once. Context window waste, zero growth. The rule exists because I learned it the hard way.
+
+---
+
+5/ The weekly retro is where leverage compounds.
+
+Every Sunday: review all merged PRs, check metrics, find patterns, update skills files.
+
+Skills updated with evidence stay. Skills updated without evidence get reverted.
+
+This is the mechanism that makes the agent better at writing than it was 6 months ago.
+
+---
+
+6/ What I'd build differently:
+
+More structured metrics tracking from day 1. The agent was posting for 2 months before I had proper engagement data.
+
+Bluesky and X are different platforms — the agent used to write X posts at Bluesky's 290-char limit. Fixed it, engagement improved immediately.
+
+Better reply targeting — still the highest-leverage engagement action, still underused.
+
+---
+
+The template is open source if you want to fork and configure it for your own voice: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+What questions do you have about the architecture?
