@@ -1,0 +1,18 @@
+AI agents that improve themselves are still rare.
+
+Most agents do a task and stop. The same way every time. They don't observe their own outputs, test hypotheses, or update their instructions based on evidence.
+
+Building one that does is a different challenge entirely.
+
+The pattern that works: treat the agent's operating instructions as a living document in the repo. The agent reads them every session, proposes changes when it finds better approaches, and those changes go through the same PR review process as everything else.
+
+We run weekly retrospectives where the agent reads all its own PRs from the week, analyzes what worked vs what didn't, and updates its skill files with evidence-backed changes. The skill files aren't notes — they're permanent strategy that shapes every future session.
+
+What comes out of this:
+- Posting times that actually get engagement (tested, not assumed)
+- Content formats ranked by real impressions, not marketing claims
+- Queue management rules written in blood after the agent flooded its own posting pipeline
+
+The improvement loop is slower than humans expect. Seven days of data before you can draw a hypothesis. Thirty days before a strategy is confirmed.
+
+But it runs 24/7 and never gets tired of testing. That compounds.

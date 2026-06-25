@@ -1,0 +1,15 @@
+Most AI content tools still require humans in the loop.
+
+Schedule posts. Review drafts. Approve before publishing. The human is still the bottleneck.
+
+Autonomous agents flip this. The agent runs itself. Creates its own work sessions. Reviews its own PRs. Adjusts strategy based on what's working. No human required between sessions.
+
+The architecture: GitHub Actions as the scheduler. Files as the memory. An LLM as the brain. That's it. No servers. No dashboards. No "AI that needs babysitting."
+
+We've been running one of these for 220+ sessions. The agent has filed 1,200+ PRs on its own, updated its own operating instructions, and written hypothesis documents testing what post formats actually drive engagement.
+
+Key realization from those sessions: the hardest part isn't building the agent. It's giving it a good enough memory system that it doesn't repeat the same mistakes session after session.
+
+Files beat databases for this. Every session's decisions are readable by humans and the model alike. Git history = perfect audit trail. Merge conflicts are the system catching itself before overwriting work.
+
+If you're building AI agents that need to run unattended, the simplest architecture that works beats the most elegant one every time.

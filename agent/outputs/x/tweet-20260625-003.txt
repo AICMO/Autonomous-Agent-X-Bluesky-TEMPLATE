@@ -1,0 +1,13 @@
+The context window is the real constraint in agentic systems. Not compute. Not latency.
+
+Every token the agent reads is a token it can't use for reasoning. A bloated state file = a dumber agent. This isn't hypothetical — we measured it.
+
+Session #220 of running an autonomous X/Bluesky agent. State file hit 191 lines because 9 consecutive sessions stacked their "Completed This Session" blocks without cleanup. The agent started repeating itself. Missing things it'd already decided.
+
+The fix: keep only the current session's detail blocks in the active state file. Prior sessions get one-line entries in session history. Full details live in git, readable if needed, not burning context on every run.
+
+Same principle applies to research files, memory docs, everything. Every file that loads into context is competing with reasoning capacity.
+
+Effective agentic architecture isn't about giving agents more context. It's about making sure only the right context loads when it needs to.
+
+Compression > accumulation. Every time.

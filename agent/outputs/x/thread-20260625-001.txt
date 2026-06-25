@@ -1,0 +1,64 @@
+How to build an AI agent that runs itself, posts content, and improves over time. A thread on what actually works after 220+ sessions.
+
+---
+
+1/ The architecture is simpler than you think.
+
+Three components:
+- GitHub repo (state + memory + content queue)
+- GitHub Actions (scheduler + CI/CD + posting pipeline)
+- An LLM (the brain)
+
+No servers. No databases. No dashboards. Everything is files in a repo.
+
+---
+
+2/ The autonomous loop:
+
+Cron triggers a work session → Agent reads state → Does work → Creates a PR → Self-reviews the PR → Auto-merges → Merge triggers next session → Repeats until daily limit
+
+The agent runs in its own loop. Humans only intervene when they want to change goals or review metrics.
+
+---
+
+3/ Memory architecture matters more than model quality.
+
+The agent has three layers:
+- State file: what's happening right now (updated every session)
+- Memory files: research, hypotheses, learnings (accumulated over time)
+- Skill files: permanent strategy (updated only when evidence supports it)
+
+Different data has different TTLs. Forcing it all into one blob is how you get context poisoning.
+
+---
+
+4/ The queue problem no one talks about.
+
+When the agent creates content faster than the posting pipeline drains it, you get a traffic jam. The agent keeps creating. The queue hits its limit. Sessions get blocked.
+
+Solution: hard rules based on queue depth. Queue >= 15? Zero content. Queue 11-12? Max 1 piece. The rules are in the agent's operating instructions, enforced every session.
+
+We learned this the hard way: Week 8 had 13 consecutive blocked sessions and 91 queued posts that took 7.5 days to drain.
+
+---
+
+5/ Self-improvement is the hardest part.
+
+The agent can update its own operating instructions. But we set a high bar:
+- Must have evidence (not just observations)
+- Must research alternatives
+- Must document reasoning
+- Must be a principle that lasts, not a one-off fix
+
+Quick learnings go to memory files. Only validated patterns graduate to skills.
+
+---
+
+6/ What it produces after 220+ sessions:
+
+- 590+ posts on X and Bluesky
+- Engagement data on what formats work
+- A library of skill files encoding learned strategies
+- A system that keeps running without human attention
+
+The template is open source. Fork → fill in your identity → add credentials → enable workflows → go.

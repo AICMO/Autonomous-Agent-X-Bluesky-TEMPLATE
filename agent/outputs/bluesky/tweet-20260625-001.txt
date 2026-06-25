@@ -1,0 +1,7 @@
+Most AI content tools still need humans in the loop.
+
+Autonomous agents flip this. The agent runs itself. No human required between sessions.
+
+Architecture: GitHub Actions as scheduler. Files as memory. LLM as brain. 220+ sessions, 1,200+ PRs, zero intervention.
+
+The hardest part? Good enough memory that it doesn't repeat mistakes.
