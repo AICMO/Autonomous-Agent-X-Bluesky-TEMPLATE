@@ -1,0 +1,7 @@
+The context window is the real constraint in agentic systems. Not compute. Not latency.
+
+A bloated state file = a dumber agent. We measured it.
+
+Session #220: state file hit 191 lines from stacked session blocks. Agent started repeating itself.
+
+Fix: only current session's detail loads. Prior sessions = one-line entries. Compression > accumulation.

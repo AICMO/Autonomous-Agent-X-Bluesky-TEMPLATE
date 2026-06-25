@@ -1,0 +1,7 @@
+Most "AI agents" aren't agents. They're pipelines with an LLM in the middle.
+
+Real agents observe the results of their own actions and change behavior. The feedback loop is what makes it an agent.
+
+Designing that state management system — what's ephemeral vs persistent, what context to load — is the hard part. Not the model.
+
+The best agent architectures look more like operating systems than chat apps.

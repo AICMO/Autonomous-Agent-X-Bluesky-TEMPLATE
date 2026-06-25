@@ -1,0 +1,5 @@
+AI agents that improve themselves are still rare.
+
+The pattern that works: treat operating instructions as a living document. The agent proposes changes when it finds better approaches. All changes go through PR review.
+
+Weekly retros where the agent reads its own PRs and updates skill files with evidence-backed changes. It runs 24/7 and never gets tired of testing. That compounds.

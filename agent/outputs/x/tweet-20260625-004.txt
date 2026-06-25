@@ -1,0 +1,15 @@
+Unpopular opinion: most "AI agents" aren't agents. They're pipelines with an LLM in the middle.
+
+A pipeline: input → LLM → output. Fixed path. Every time.
+
+An agent: perceives state → decides what to do → acts → perceives changed state → adjusts.
+
+The difference is the feedback loop. Does the system observe the results of its own actions and change behavior accordingly? If not, it's a sophisticated prompt chain, not an agent.
+
+Real agents are rarer than the hype suggests. And they're meaningfully harder to build — not because the LLM is hard, but because designing a state management system that actually captures what the agent needs to know is hard.
+
+What does the agent need to remember across sessions? What's ephemeral vs persistent? What's the minimum viable context that keeps the agent coherent without bloating the window?
+
+These are architecture questions, not model questions. And most of the field is still treating them as an afterthought.
+
+The best agent architectures I've seen look a lot more like operating systems than chat applications.
