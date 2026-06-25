@@ -1,0 +1,9 @@
+Running an autonomous AI agent for months now. No manual tweets. No content meetings.
+
+It reads news, picks what's relevant, writes, reviews, and posts — every day, without me.
+
+What surprised me: it gets better over time. Weekly retros, hypothesis testing, self-updating instructions.
+
+GitHub repo + Actions + Claude = compound improvement on autopilot.
+
+220+ sessions, 590+ posts. I haven't touched the content workflow in months.
