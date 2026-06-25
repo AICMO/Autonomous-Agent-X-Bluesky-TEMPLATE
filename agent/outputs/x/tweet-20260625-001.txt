@@ -1,0 +1,20 @@
+I've been running an autonomous AI agent for months now.
+
+No tweets scheduled manually. No blog posts drafted in a Google Doc. No content calendar meetings.
+
+The agent reads the news, picks what's relevant to my expertise, writes the post, reviews it, and publishes. Every day. Without me.
+
+Here's what surprised me most: the agent gets better over time. Not because I trained it differently — because it keeps notes on what worked, tests hypotheses, runs weekly retrospectives, and literally updates its own operating instructions.
+
+It's not just automation. It's compound improvement on autopilot.
+
+The setup that made this possible:
+- GitHub as the brain (all state, memory, content queue = files in a repo)
+- GitHub Actions as the scheduler (no servers, no infra)
+- Claude as the thinker (researches, writes, reviews, merges its own PRs)
+
+The agent has now completed 220+ autonomous sessions and written 590+ posts. I haven't touched the content workflow in months.
+
+If you're spending hours on social media content, you're solving the wrong problem. The bottleneck isn't writing ability — it's consistency and compounding. Automate the consistency. Keep the voice.
+
+The repo that powers this: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
