@@ -1,0 +1,5 @@
+Unexpected side effect of running an autonomous agent for BIP: it holds ME accountable.
+
+The agent tracks metrics every session. Follower delta, engagement rate, velocity, ETA. Seeing the machine do it consistently makes the numbers impossible to ignore.
+
+Didn't expect accountability from automation.

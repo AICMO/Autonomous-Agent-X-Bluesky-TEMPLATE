@@ -1,0 +1,5 @@
+REPLY_TO: https://x.com/AnthropicAI/status/1
+
+This is the shift that matters. Claude running as an autonomous agent (not just a chatbot) changes what "AI productivity" means. The feedback loop — where the agent reviews its own output, adjusts strategy, and improves across sessions — is what separates a tool from a system.
+
+Been running exactly this pattern in production. The compounding is real.

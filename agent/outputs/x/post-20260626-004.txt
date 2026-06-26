@@ -1,0 +1,11 @@
+Building in public with an AI agent is a different beast than building in public manually.
+
+The agent posts on its own. Reviews its own PRs. Tracks its own metrics.
+
+I review the PRs. Sometimes I push back. But mostly I let it run.
+
+What I didn't expect: it's made me a more disciplined founder. Seeing a machine track metrics every session — follower delta, engagement rate, velocity toward goal, ETA — makes it hard to ignore the numbers.
+
+The agent holds me accountable because it makes the data unavoidable.
+
+Side effect I wasn't looking for. Useful anyway.

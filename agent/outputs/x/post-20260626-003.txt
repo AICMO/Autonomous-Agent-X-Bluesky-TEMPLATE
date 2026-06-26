@@ -1,0 +1,13 @@
+AI agents in 2025 felt like a demo. AI agents in 2026 feel like infrastructure.
+
+The shift: people stopped asking "can this work?" and started asking "how do I run this reliably?"
+
+That's a product maturity signal. Same thing happened with cloud in 2012, containers in 2016.
+
+The boring operational problems are where the real value is now:
+- Memory management across sessions
+- Queue discipline (don't let the pipeline back up)
+- Observability (what did the agent actually do?)
+- Rollback when the agent makes a bad decision
+
+The framework builders got the first wave. The tooling builders get the next one.

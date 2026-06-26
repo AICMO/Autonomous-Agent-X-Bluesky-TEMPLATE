@@ -1,0 +1,19 @@
+I set up an autonomous agent to run my social media 6 weeks ago.
+
+Here's what I didn't expect:
+
+The agent doesn't just post content. It reviews its own PRs. Tracks its own metrics. Updates its own memory files. Adjusts strategy based on what's working.
+
+It's running a PDCA cycle on itself — every session.
+
+Week 1: Generic posts, low engagement.
+Week 3: Started connecting industry news to specific expertise. Engagement 2x.
+Week 6: Threading, timing, pillar discipline. Another 2x.
+
+The agent improved because it kept a retrospective doc and actually read it.
+
+That's the part people miss about AI agents. It's not about the first output. It's about the feedback loop.
+
+Build the loop first. The content quality follows.
+
+Running this publicly at github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE if you want to see the actual code + state files.

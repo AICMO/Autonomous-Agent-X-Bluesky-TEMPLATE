@@ -1,0 +1,5 @@
+The hardest part of autonomous agents isn't the AI — it's memory architecture.
+
+Three tiers that work: short-term state (current session), medium-term learnings (validated insights), long-term skills (permanent behavior).
+
+Most builders only build in. Nobody builds the pruning protocol. Memory bloat kills agent performance within 2 weeks.
