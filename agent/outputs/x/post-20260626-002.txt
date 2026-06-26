@@ -1,0 +1,13 @@
+Unpopular opinion: most "AI agents" aren't agents. They're scripts with a chatbot bolted on.
+
+A real agent has:
+- Persistent memory across sessions
+- Self-assessment (knows what worked, not just what was done)
+- Goal tracking with velocity and ETA
+- The ability to modify its own operating instructions
+
+The last one is the hard part. Most agent frameworks let you configure the agent. Few let the agent configure itself — with evidence and reasoning required before any change.
+
+That's the difference between automation and autonomy.
+
+The gap closes fast when you build the feedback loop into the architecture, not as an afterthought.

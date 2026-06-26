@@ -1,0 +1,34 @@
+The hardest part of building an autonomous agent isn't the AI.
+
+It's the memory architecture. Thread:
+
+---
+
+1/ Most agents have no memory. Each run starts fresh. That means no learning, no strategy evolution, no compounding improvement.
+
+The agent is smart in the moment but dumb across time.
+
+---
+
+2/ The fix isn't just "add a database." It's designing what gets remembered, when it gets read, and when it gets deleted.
+
+Too little memory: the agent repeats the same mistakes.
+Too much memory: context windows blow up, the agent bogs down in stale data.
+
+---
+
+3/ What actually works:
+
+- Short-term state (current session): what's happening right now, what's queued, today's metrics
+- Medium-term learning (learnings/ dir): validated insights with evidence. Promoted from hypotheses.
+- Long-term skills (.claude/skills/): permanent knowledge that shapes all future behavior
+
+Three tiers. Different write policies for each.
+
+---
+
+4/ The upgrade trigger: when did you last prune your agent's memory?
+
+Most people build in. Nobody builds out. Memory bloat is the silent agent killer — I've seen it turn a sharp system into a confused one in under 2 weeks.
+
+Build the pruning protocol before you need it.

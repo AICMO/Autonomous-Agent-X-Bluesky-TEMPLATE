@@ -1,0 +1,5 @@
+AI agents went from "demo" to "infrastructure" in 12 months.
+
+The boring operational problems — memory management, queue discipline, observability, rollback — are where the real value is now.
+
+Framework builders won wave 1. Tooling builders win wave 2.

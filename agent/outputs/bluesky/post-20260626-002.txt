@@ -1,0 +1,5 @@
+Most "AI agents" aren't agents — they're scripts with a chatbot bolted on.
+
+Real agents have persistent memory, self-assessment, and can modify their own operating instructions (with evidence required).
+
+That last part is what separates automation from autonomy.

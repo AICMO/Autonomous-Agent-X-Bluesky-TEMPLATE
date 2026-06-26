@@ -1,0 +1,7 @@
+Set up an autonomous agent for social media 6 weeks ago.
+
+It reviews its own PRs, tracks its own metrics, adjusts its own strategy.
+
+Week 1: generic posts. Week 6: 4x engagement.
+
+The feedback loop is the product. Code: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
