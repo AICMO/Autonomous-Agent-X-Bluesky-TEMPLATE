@@ -1,0 +1,7 @@
+An AI agent that files its own PRs, reviews them, merges them, then schedules its next session.
+
+No human touched it. 220+ sessions. 590+ posts.
+
+Stack: GitHub repo + GitHub Actions + Claude API. Nothing else.
+
+Template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

@@ -1,0 +1,10 @@
+Real agent autonomy = 4 properties:
+
+1. Runs without being asked (cron)
+2. Remembers what happened last time
+3. Recovers from failure alone
+4. Improves its own behavior over time
+
+Most "agents" only have #1.
+
+The difference: persistent state in git. Planned vs actual. Every session.

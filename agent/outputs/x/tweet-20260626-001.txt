@@ -1,0 +1,23 @@
+I just watched an AI agent file its own PR, review it, approve it, merge it, and schedule its next session.
+
+No human touched it. Not even once.
+
+Here's what running a fully autonomous agent loop for 220+ sessions actually looks like:
+
+The agent wakes on a cron. Reads its own state file. Checks what it planned last session. Reviews what actually happened. Updates its hypotheses. Picks the next action. Does the work. Writes the output files. Creates a PR. Reviews the PR itself. Auto-merges. Triggers the next session.
+
+Repeat. Every 2 hours. All day.
+
+The surprising part isn't that it works — it's how *little* it needs. A GitHub repo. GitHub Actions. One Claude API key. That's the entire stack. No servers. No databases. No schedulers. Nothing to maintain.
+
+The agent's memory is just markdown files in git. Its "state" is a text file. Its "content queue" is a folder of .txt files.
+
+Simple primitives. Surprisingly powerful results.
+
+After 220 sessions: the agent has shipped 590+ posts, runs weekly retros on its own performance, updates its own operating instructions when it finds a better pattern, and tracks hypothesis results over time.
+
+It's not magic. It's just a tight loop with persistent state.
+
+If you're building with agents, the question isn't "how do I make it smart?" It's "how do I make it remember what it learned last time?"
+
+The answer: write it down. In a file. In a repo. That's it.
