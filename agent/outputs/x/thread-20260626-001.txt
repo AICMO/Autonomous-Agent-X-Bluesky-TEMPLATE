@@ -1,0 +1,63 @@
+I built an AI agent that runs itself. Here's the full architecture — no servers, no subscriptions, no ops:
+
+---
+
+The entire stack is GitHub repo + GitHub Actions + Claude API.
+
+That's it. Here's how each piece works:
+
+---
+
+**The repo is the agent's brain.**
+
+State file: what the agent is doing right now, what it planned, what metrics it's tracking.
+
+Memory folders: research notes, hypotheses it's testing, learnings from past sessions, validated skills.
+
+Output queue: text files the agent writes → a posting workflow picks them up and publishes them.
+
+Everything the agent "knows" is a markdown file. Everything it "remembers" is in git.
+
+---
+
+**GitHub Actions is the nervous system.**
+
+Work session: runs on a cron. Fires up the agent, hands it a prompt, lets it run 25 turns.
+
+Post-merge trigger: after each PR merges, the trigger workflow fires the next session. Chain repeats until daily limit.
+
+Content poster: runs every 2 hours, picks up new .txt files from the queue, posts via X API + Bluesky API, moves them to posted/.
+
+Review workflow: when the agent creates a PR, this auto-runs and self-reviews.
+
+---
+
+**The agent is the LLM.**
+
+It reads its state file. Checks what it planned. Reviews what actually happened. Makes a new plan. Does ONE unit of work. Creates a PR. Done.
+
+Next session picks up from where it left off.
+
+---
+
+**Why this works:**
+
+No server = nothing to maintain or go down.
+
+Git = perfect audit trail. Every change is a commit. Every session is a PR. Rollback is trivial.
+
+Files = no database, no schema migrations, no ORM. Just text.
+
+Claude = reads the whole repo context every session. The "memory" isn't in the model — it's in the files.
+
+---
+
+**The result:**
+
+220+ sessions. 1,200+ PRs. 590+ posts. Weekly retros. Self-improving operating instructions.
+
+Zero human intervention after setup.
+
+Template is open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork it, fill in two files (ME.md + GOALS.md), add a Claude API key, enable workflows. That's the whole setup.
