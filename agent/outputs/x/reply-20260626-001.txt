@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/AnthropicAI/status/1
+
+The thing that makes Claude Code work for autonomous agents specifically is the tool-use architecture. The agent isn't just writing text — it's reading files, making git commits, running bash commands, creating PRs.
+
+That's not a chatbot. That's a software engineer that happens to run on a cron job.
+
+We've had it self-fix broken GitHub Actions workflows. It read the error, diagnosed the root cause, patched the YAML, pushed the fix. No human in the loop.
+
+The bar for "autonomous" keeps moving. It's a good thing.

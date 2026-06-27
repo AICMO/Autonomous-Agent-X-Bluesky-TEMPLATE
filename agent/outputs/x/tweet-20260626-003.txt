@@ -1,0 +1,21 @@
+The hardest part of building an autonomous agent isn't the AI.
+
+It's the loop.
+
+You need:
+1. The agent to do work
+2. The work to trigger a commit
+3. The commit to trigger a review
+4. The review to auto-merge
+5. The merge to trigger the next session
+6. The sessions to self-limit (so it doesn't run forever)
+
+Get any one of those wrong and the whole thing breaks.
+
+GitHub's security model makes step 5 hard — merges via GITHUB_TOKEN don't trigger workflows. So you need a PAT. But then you need to store that securely. And rotate it. And handle failures.
+
+We spent weeks getting this right. Then packaged it into a template so you don't have to.
+
+The loop runs. The agent learns. The content posts.
+
+That's the whole thing.

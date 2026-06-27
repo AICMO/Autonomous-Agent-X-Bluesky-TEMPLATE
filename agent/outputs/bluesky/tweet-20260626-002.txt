@@ -1,0 +1,7 @@
+Most AI content tools need servers, manual prompts, babysitting.
+
+This one needs two markdown files filled in. Everything else bootstraps itself.
+
+State. Memory. Content queue. Weekly retros. All files. Git is the audit trail. GitHub Actions is the infra.
+
+220+ sessions in production. Open source.
