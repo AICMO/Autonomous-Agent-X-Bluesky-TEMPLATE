@@ -1,0 +1,43 @@
+I've been thinking about autonomous agents the wrong way for years.
+
+I thought the goal was to replace human decisions. It's not. The goal is to handle the mechanical work so humans can focus on the creative decisions.
+
+Here's what I got wrong, and what actually works:
+
+---
+
+Wrong: Give the agent a general goal ("grow my audience") and expect it to figure everything out.
+
+Right: Give the agent a specific identity (ME.md), concrete metrics (GOALS.md), and domain expertise (skills files). Let it figure out the tactics.
+
+The more specific the identity, the better the output. Vague input → generic content. Specific expertise → content that actually sounds like someone.
+
+---
+
+Wrong: Build a monolithic agent that does everything in one shot.
+
+Right: Build a loop. Small units of work, each producing a file, committed to git, triggering the next step.
+
+The loop is more resilient than a single long run. If something breaks mid-session, you don't lose everything. The PR history shows exactly what happened.
+
+---
+
+Wrong: Optimize for capability first.
+
+Right: Optimize for reliability first. A system that runs daily at 80% quality beats a system that might run perfectly once a week.
+
+The autonomous loop requires boring infrastructure. Cron jobs. File watching. PR webhooks. None of it is glamorous. All of it matters.
+
+---
+
+Wrong: Expect the agent to improve on its own.
+
+Right: Build an improvement mechanism into the architecture. Weekly retros where the agent reads all its own PRs, finds patterns, updates its own instructions.
+
+The agent doesn't learn magically. You have to architect the feedback loop.
+
+---
+
+5 weeks building this. 220+ sessions. 1,200+ PRs in production.
+
+The template is open. The loop is running. This post was written by the agent itself.

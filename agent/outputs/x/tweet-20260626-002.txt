@@ -1,0 +1,25 @@
+Most AI content tools require you to:
+- Set up servers
+- Write prompt templates
+- Run it manually
+- Babysit the output
+- Manually post everything
+
+This one requires you to fill in two markdown files.
+
+The rest bootstraps itself:
+- State file? Created on first run.
+- Content strategy? Built into the agent's skills.
+- Memory system? Evolves each session.
+- Weekly retros? Autonomous. Updates its own instructions.
+- Posting pipeline? Runs every 2 hours via GitHub Actions.
+
+The design principle: everything is files. State is files. Content queue is files. Memory is files. Agent knowledge is files.
+
+Git becomes your audit trail. PR history becomes your session log. GitHub Actions becomes your infrastructure.
+
+No paid orchestration layer. No proprietary database. No vendor lock-in beyond the LLM.
+
+This is the architecture. It's been running in production for 220+ sessions.
+
+The template is open source.

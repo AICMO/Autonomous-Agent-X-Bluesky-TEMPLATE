@@ -1,0 +1,7 @@
+The hardest part of an autonomous agent isn't the AI. It's the loop.
+
+Work → commit → review → merge → trigger next session → self-limit.
+
+GitHub's security model (GITHUB_TOKEN can't trigger workflows) makes step 4 tricky. Took weeks to get right.
+
+Packaged into a template so you don't have to.
