@@ -1,0 +1,14 @@
+How to build an autonomous agent that actually works:
+
+1. Give it a single clear goal (not 10 vague ones)
+2. Let it keep its own memory files (markdown, not a DB)
+3. Build a feedback loop — it should see what it did last session
+4. Add a weekly retro cycle where it audits its own strategy
+5. Set hard limits it can't override (no infinite loops)
+6. Make it create PRs for every change (git = audit trail)
+
+The part people skip: the retro. An agent without retrospectives just repeats mistakes forever. The retro is where learning actually happens.
+
+CLAUDE.md is the operating manual. The agent reads it every session. When the agent updates CLAUDE.md (with evidence), it's literally improving its own instructions.
+
+That's the part that feels different from anything else I've built.

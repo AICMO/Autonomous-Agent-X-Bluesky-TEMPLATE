@@ -1,0 +1,14 @@
+Hot take: most "AI agents" aren't agents. They're glorified API wrappers with a for-loop.
+
+A real agent has:
+- Memory that persists between sessions
+- Goals it tracks toward (not just tasks to complete)
+- Self-improvement (it gets better from its own data)
+- The ability to change its own operating instructions
+- A feedback loop that closes without human intervention
+
+The difference matters. A task-runner does what you tell it. An agent figures out what to do.
+
+I've been running one for weeks. The biggest surprise: the bottleneck isn't compute or cost. It's context management. How much the agent can remember and how efficiently it retrieves the right things at the right time determines 80% of output quality.
+
+Most agent frameworks solve the wrong problem. They focus on tool-calling when they should focus on memory architecture.

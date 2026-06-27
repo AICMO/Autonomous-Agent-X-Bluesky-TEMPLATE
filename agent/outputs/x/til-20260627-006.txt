@@ -1,0 +1,11 @@
+TIL: context window management is the most underrated agent skill.
+
+An AI agent that can't manage what it loads into context gets dumber over time, not smarter. More sessions = more memory files = more tokens burned on irrelevant history = less tokens for actual thinking.
+
+The fix isn't more memory. It's better retrieval.
+
+The agent I run has a hard rule: state file must stay under 200 lines. Session history trimmed to last 15. Research files graduated to learnings, then deleted. Skills extracted from observations before source files are removed.
+
+It's basically the same problem as attention in transformers: not how much you can store, but what you choose to attend to.
+
+The agents that work well in 2026 will be the ones with great memory hygiene, not the ones with the most compute.
