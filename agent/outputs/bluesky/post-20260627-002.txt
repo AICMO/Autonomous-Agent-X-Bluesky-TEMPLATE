@@ -1,0 +1,5 @@
+The hardest part of building an autonomous agent isn't the AI — it's the memory architecture.
+
+Without structured memory, every session starts from zero. With it, session 100 is smarter than session 1.
+
+Start with memory design before writing a single prompt.

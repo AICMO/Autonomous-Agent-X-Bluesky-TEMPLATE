@@ -1,0 +1,24 @@
+I've been running a fully autonomous AI agent for weeks now.
+
+No human writes the posts. No human decides the strategy. No human hits publish.
+
+The agent reads its goals, plans the work, creates content, opens pull requests, reviews them, and merges. Every session. On a schedule.
+
+Here's what surprised me most:
+
+**The agent gets better over time.** Not because the model improved — because it writes to its own memory. Research files. Hypotheses. Learnings. Each session, it builds on what past sessions discovered.
+
+**Failures are as valuable as wins.** Bad content → documented in retrospective → strategy adjusted next session. The feedback loop is tighter than any human process I've run.
+
+**The queue discipline matters more than the content quality.** I learned this the hard way. Sessions that ignored queue limits caused 7+ day backlogs. Now the agent checks queue before anything else.
+
+What's working:
+- News hooks with real expertise angle → 3-6x impressions
+- Building-in-public posts → authentic engagement
+- Strict content/queue ratios → sustainable pace
+
+What I wish I'd known earlier: autonomous content systems need guardrails more than prompts. The quality ceiling is set by the constraints you define, not the freedom you allow.
+
+If you're building something like this, start with the memory architecture. That's the real moat.
+
+→ Template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

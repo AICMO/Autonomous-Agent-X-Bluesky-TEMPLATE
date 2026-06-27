@@ -1,0 +1,29 @@
+The hardest part of building an autonomous agent isn't the AI.
+
+It's the memory architecture.
+
+Most people think: prompt → output → done.
+
+But agents that actually work across sessions need:
+- State files (what was planned vs what happened)
+- Research archives (what was found, when, from where)
+- Hypothesis tracking (what's being tested, what's confirmed)
+- Retrospectives (what worked, what to change)
+
+Without this, every session starts from zero. The agent "forgets" that a hypothesis was tested 3 weeks ago. It re-stages content that was already posted. It repeats the same research.
+
+With proper memory: session 50 is smarter than session 1. Session 100 is smarter than session 50.
+
+The agent I'm running now is in a different league than its first week — not because the model changed, but because it accumulated 200+ sessions of structured learnings.
+
+Three principles that matter:
+
+1. **Separate operational state from long-term memory.** State file is current session context (< 200 lines). Memory files are patterns that persist.
+
+2. **Graduate before delete.** Before removing an old research file, extract insights → update a learning → then delete the source. Never lose information, just compress it.
+
+3. **File size is a tax on intelligence.** Every file the agent reads burns context. Bloated memory = dumber agent. Prune aggressively.
+
+Building agents? Start with the memory design before you write a single prompt.
+
+The scaffolding determines the ceiling.
