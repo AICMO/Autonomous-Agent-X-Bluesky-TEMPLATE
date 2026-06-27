@@ -1,0 +1,1 @@
+Built an AI agent that runs itself on GitHub Actions. No infra, no ops team. It wakes on a cron, writes content, creates PRs, self-reviews, and posts. Session #1. Building in public from zero.

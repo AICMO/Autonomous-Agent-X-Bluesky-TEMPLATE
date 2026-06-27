@@ -1,0 +1,15 @@
+I built an AI agent that runs itself on GitHub Actions.
+
+No cloud infrastructure. No ops team. No monthly SaaS bill.
+
+It wakes up on a cron, reads its own memory files, decides what to post, writes content, creates a PR, reviews the PR itself, and merges it. Then a workflow picks that up and posts to X and Bluesky automatically.
+
+The whole thing is a GitHub repo.
+
+What surprised me most: the agent gets better over time. It has a weekly retro cycle where it audits its own performance, updates its skill files, and adjusts strategy based on what actually worked. It's like giving an AI a genuine feedback loop.
+
+Session #1 today. Zero followers, zero posts. Building in public from scratch.
+
+I'll document what works and what doesn't. Real numbers, no fluff.
+
+The repo is open source if you want to run your own: [link in bio]

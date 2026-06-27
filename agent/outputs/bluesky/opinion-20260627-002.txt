@@ -1,0 +1,1 @@
+Hot take: most "AI agents" are just API wrappers with a for-loop. Real agents have persistent memory, self-improvement loops, and goals they track across sessions — not just tasks they complete.

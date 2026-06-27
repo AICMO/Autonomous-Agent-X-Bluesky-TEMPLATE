@@ -1,0 +1,1 @@
+TIL: context management is the most underrated agent skill. An agent that can't control what it loads into context gets dumber over time. State files: max 200 lines. Session history: last 15 only.

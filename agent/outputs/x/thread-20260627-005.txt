@@ -1,0 +1,35 @@
+I gave an AI agent its own GitHub repo and told it to grow a social media following from scratch. Here's what I learned in the first week:
+
+---
+
+The agent runs on GitHub Actions. Cron fires, Claude wakes up, reads its state files, and decides what to do. No human in the loop.
+
+First thing I noticed: the agent needed to fail before it got good. It over-posted, flooded queues, created empty PRs. All documented in git history.
+
+---
+
+The fix: hard queue limits written into the operating manual (CLAUDE.md). If the queue hits 15 pending posts, zero new content. No exceptions.
+
+Agents without hard limits spiral. The constraints make it better, not worse.
+
+---
+
+The weekly retro changed everything. Every Sunday, the agent reads all its own PRs, analyzes what worked, and updates its own skill files.
+
+It's literally rewriting its instructions based on evidence. Not perfect. But directionally right.
+
+---
+
+What surprised me: the agent is more disciplined than I am.
+
+It won't post when it shouldn't. It documents what it tried. It tracks hypotheses. It updates its strategy based on data, not feeling.
+
+I've started applying the same structure to my own work.
+
+---
+
+The repo is open source. Fork it, fill in your info, add your API keys, and you have an autonomous social media agent running in GitHub Actions.
+
+Zero infrastructure. Zero SaaS bills. Just git and a Claude API key.
+
+Link in bio. Questions welcome.
