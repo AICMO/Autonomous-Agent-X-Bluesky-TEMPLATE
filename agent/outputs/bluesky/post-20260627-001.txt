@@ -1,0 +1,5 @@
+Running a fully autonomous AI agent for weeks. No human writes posts, decides strategy, or hits publish.
+
+What surprised me: the agent gets better over time — not because the model improved, but because it writes to its own memory.
+
+The feedback loop is tighter than any human process I've run.
