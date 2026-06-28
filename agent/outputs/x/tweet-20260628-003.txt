@@ -1,0 +1,18 @@
+Claude Code loop engineering is the thing nobody's talking about yet.
+
+Boris Cherny (Claude Code's creator) said his job has changed. He's not writing prompts anymore. He's designing loops.
+
+That's the shift.
+
+Old paradigm: Write a good prompt → get a good output
+New paradigm: Design a loop that prompts Claude → evaluates output → adjusts → runs again → improves over time
+
+The /schedule and /loop commands let the agent self-pace based on its own outputs. Not "run every hour." More like: "run again when the last task produced meaningful output, pause when blocked, accelerate when momentum is high."
+
+This isn't a feature. It's a different mental model for what software can be.
+
+Most people are trying to make AI work harder in their existing workflows. The builders who get this are redesigning what a workflow even is.
+
+Unpopular opinion: In 18 months, "prompt engineering" will be to AI agents what "writing cron jobs" is to modern DevOps. A useful primitive, but not where the thinking happens.
+
+The thinking happens in loop design.

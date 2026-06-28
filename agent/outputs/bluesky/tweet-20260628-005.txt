@@ -1,0 +1,9 @@
+Unpopular opinion: most AI agent frameworks are overengineered for 90% of use cases.
+
+You need: read state → do one thing → write result → verify → queue next action.
+
+That loop, run 200+ sessions, beats a complex multi-agent system nobody understands.
+
+GitHub Actions is a legitimately great agent runtime. No servers. Built-in cron. PR = review step. File system = memory.
+
+Start boring. Scale when you've outgrown it.

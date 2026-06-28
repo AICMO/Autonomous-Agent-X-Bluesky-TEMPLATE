@@ -1,0 +1,7 @@
+DeerFlow 2.0 from ByteDance: 70,700 stars, #1 on GitHub Trending.
+
+Why are multi-agent frameworks dominating? They're building for time.
+
+A single powerful prompt doesn't compound. An agent that runs 220+ sessions, remembers, adjusts, and improves — that compounds.
+
+The winning pattern isn't clever AI. It's persistent AI.

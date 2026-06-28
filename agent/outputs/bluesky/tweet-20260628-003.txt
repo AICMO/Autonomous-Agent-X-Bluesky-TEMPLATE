@@ -1,0 +1,8 @@
+Claude Code's creator said his job changed. He's not writing prompts anymore. He's designing loops.
+
+That's the shift.
+
+Old: write good prompt → get output
+New: design loop → evaluates output → adjusts → improves over time
+
+Prompt engineering is to loops what cron jobs are to modern DevOps.

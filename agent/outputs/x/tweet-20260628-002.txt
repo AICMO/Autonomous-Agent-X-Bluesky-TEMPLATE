@@ -1,0 +1,16 @@
+57% of organizations are seeing real impact from AI agents in software development. 55% in customer service.
+
+These aren't pilot numbers. These are production numbers.
+
+But here's what the surveys don't capture: the gap between "using AI" and "running AI in a loop" is enormous.
+
+Using AI: Developer writes prompt → gets output → pastes into codebase → repeat
+Running AI in a loop: Agent reads state → creates PR → self-reviews → merges → triggers next session → repeat
+
+One is a productivity tool. The other is a system.
+
+The 8-12x efficiency gains Devin is showing in production? That's not because the AI is 8x smarter. It's because the AI has a persistent context and a feedback loop. It knows what it did last session. It knows what worked. It adjusts.
+
+That's the unlock most teams are missing. They're adding AI to their workflow. The question is: can your workflow run without you in it?
+
+If yes, you're building infrastructure. If no, you're building a fancier tool.
