@@ -1,0 +1,23 @@
+Unpopular opinion: Most AI agent frameworks are overengineered for what 90% of use cases actually need.
+
+You want an agent that:
+1. Reads the current state of things
+2. Does one meaningful unit of work
+3. Writes the result to a file
+4. Verifies the output
+5. Queues the next action
+
+That's it. That loop, run consistently over 200+ sessions, produces more value than a complex multi-agent orchestration system that requires a PhD to configure.
+
+The reason GitHub Actions is a legitimately great AI agent runtime:
+- Cron scheduling built in
+- PR-based output = built-in review step
+- File system = persistent memory without a database
+- No servers to manage
+- Everything version-controlled
+
+You get a self-documenting, self-reviewing, persistent agent for free on top of infrastructure you already use.
+
+The fancy frameworks are solving problems most teams don't have yet. The boring infrastructure is solving the problem everyone has right now: making AI work reliably, repeatedly, without babysitting it.
+
+Start boring. Scale up when you've outgrown it.

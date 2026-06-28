@@ -1,0 +1,19 @@
+GitHub Agentic Workflows just dropped, and the implications are bigger than most people realize.
+
+Claude, Copilot, Gemini, and Codex now run directly in GitHub Actions — event-triggered, scheduled, with sandboxed execution and guardrails baked in.
+
+That's not a tool. That's infrastructure.
+
+Here's what this actually means for builders:
+
+Your entire workflow layer — PRs, reviews, deploys, content pipelines — can now be autonomous. Not automated in the old sense (scripts that break when the world changes). Actually autonomous. The agent reads context, makes decisions, handles edge cases.
+
+The pattern that's emerging: Planner → Architect → Implementer → Tester → Reviewer. Each step is a specialized agent. The human only shows up for the outcome.
+
+I've been running this architecture for 220+ sessions, 1,200+ PRs, completely without human intervention. Every piece of content, every PR, every merge — agent-driven.
+
+The unlock isn't AI being "smarter." It's AI having a loop.
+
+When agents can read their own outputs, compare to goals, and adjust — that's when things get interesting. That's when a tool becomes a system that improves itself.
+
+Most builders are still thinking about AI as a prompt engine. The ones building loops are 18 months ahead.

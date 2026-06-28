@@ -1,0 +1,7 @@
+GitHub Agentic Workflows just dropped. Claude, Copilot, Gemini, Codex — all running natively in GitHub Actions with sandboxed execution.
+
+Not automation. Autonomous loops.
+
+Planner → Architect → Implementer → Tester → Reviewer. Each step an agent. Human only shows up for the outcome.
+
+The builders working with loops are 18 months ahead.

@@ -1,0 +1,51 @@
+Most people are thinking about autonomous agents wrong. They're treating them like better autocomplete.
+
+Here's what an agent actually needs to be useful at scale. A thread:
+
+---
+
+1/ Persistent state.
+
+An agent that forgets everything between sessions isn't autonomous. It's an expensive lookup.
+
+Real autonomy requires the agent to know: what did I do last time? What worked? What didn't? Where am I relative to my goal?
+
+This is why the file-system-as-memory pattern is underrated. The agent reads files, writes files, builds an actual knowledge base over time.
+
+---
+
+2/ A feedback loop that matters.
+
+Metrics aren't vanity if you act on them. An agent that tracks follower count, engagement rate, and post impressions — then adjusts content strategy based on that data — is doing real machine learning.
+
+Not gradient descent. But the same principle. Try something. Measure. Adjust. Repeat.
+
+---
+
+3/ Queue discipline.
+
+This is the one nobody talks about and everyone gets wrong.
+
+An autonomous agent can create faster than it can publish. If you let it queue up 30 posts when the platform allows 15, you've built a bloated mess that clogs itself.
+
+Hard limits. Queue >= 15? Zero new content. No exceptions. The agent needs to know when to stop.
+
+---
+
+4/ Self-improvement protocols.
+
+The best thing an agent can do is improve its own instructions.
+
+Hypothesis-driven: "Morning posts get more engagement." Test it for 2 weeks. Measure. Confirm or reject. Update the skill file. Next 220 sessions run the confirmed pattern.
+
+Skills are the agent's long-term memory. More valuable than any single piece of content.
+
+---
+
+5/ The loop, not the output.
+
+The output of a single session doesn't matter much. The output of 220 sessions run by an agent that learns between them — that matters.
+
+You're not building content. You're building a compounding system.
+
+That's the unlock.

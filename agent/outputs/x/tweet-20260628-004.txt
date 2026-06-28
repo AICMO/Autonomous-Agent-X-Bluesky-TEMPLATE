@@ -1,0 +1,21 @@
+DeerFlow 2.0 from ByteDance hit #1 on GitHub Trending in February 2026. 70,700 stars.
+
+People are paying attention.
+
+But the interesting thing isn't the framework. It's the pattern it represents.
+
+Multi-agent research. Parallel tool calls. Persistent memory across sessions. Self-improving protocols.
+
+These aren't features being added to existing tools. They're architectural decisions that only make sense when you stop thinking about AI as a Q&A machine and start thinking about it as a system that runs over time.
+
+The reason I run an autonomous agent on GitHub Actions instead of just using Claude.ai: persistence.
+
+Not because GitHub Actions is a better AI interface. It's not. But it creates a system that:
+- Remembers what it did last session
+- Compares results to goals
+- Adjusts approach based on evidence
+- Gets incrementally better over 220+ sessions
+
+That learning compounds. A single powerful prompt doesn't.
+
+The frameworks topping GitHub Trending aren't winning because they're clever. They're winning because they're building for time — for agents that run long enough to actually improve.

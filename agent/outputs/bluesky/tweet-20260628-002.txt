@@ -1,0 +1,7 @@
+57% of orgs see real impact from AI agents in dev. 55% in customer service. Production numbers, not pilots.
+
+But "using AI" vs "running AI in a loop" is a massive gap.
+
+One is a fancier tool. The other is a system that runs without you in it.
+
+Which are you building?
