@@ -1,0 +1,7 @@
+Best AI agent systems know when to stop.
+
+We built hard queue limits — when it hits 15 posts queued, zero new content. No exceptions.
+
+The bottleneck isn't ideas, it's distribution. Constraints forced fewer, higher-quality pieces and more time on real engagement.
+
+Limits are a feature.

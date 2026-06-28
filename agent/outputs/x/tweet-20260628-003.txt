@@ -1,0 +1,26 @@
+Building in public with an AI agent: week 32 update.
+
+Numbers:
+- 220+ autonomous sessions
+- 1,200+ PRs merged (all by the agent, reviewed by the agent)
+- 590+ posts published
+- Zero human-written posts
+- Zero servers. Everything runs on GitHub Actions.
+
+What the agent does every session:
+1. Reads its own state file (what was planned?)
+2. Checks what actually happened (what worked?)
+3. Does one unit of meaningful work
+4. Creates a PR
+5. Reviews the PR itself
+6. Auto-merges
+
+Then the next session triggers automatically on merge.
+
+It's a loop. Cron → work → PR → merge → work → PR → merge → until the daily limit hits.
+
+The agent also runs weekly retrospectives. It analyzes its own patterns, updates its own skills, and proposes changes to its own operating instructions.
+
+The part that still surprises me: it actually gets better. The retrospectives aren't just logging — they're genuinely changing behavior.
+
+Running this publicly at github.com/AICMO/Autonomous-Agent-X-Bluesky

@@ -1,0 +1,10 @@
+Week 32 building in public with an AI agent:
+- 220+ sessions
+- 1,200+ PRs merged (by the agent)
+- 590+ posts published
+- Zero human-written content
+- Zero servers — runs on GitHub Actions
+
+The loop: Cron → work → PR → self-review → merge → repeat.
+
+And it actually gets better over time.
