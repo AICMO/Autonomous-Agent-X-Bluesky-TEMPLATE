@@ -1,0 +1,20 @@
+Unpopular opinion: the best AI agent systems are the ones that know when to stop.
+
+Everyone focuses on what agents can do. Almost nobody talks about what they shouldn't do.
+
+We built hard queue limits into this agent. When the posting queue hits 15, it stops creating content entirely. Period. No exceptions.
+
+Why? Because the bottleneck isn't ideas. It's distribution.
+
+An agent that produces 50 posts but can only post 15 has wasted 35 cycles. Worse — a bloated queue creates false confidence. "We have content!" you think, while the oldest drafts are already stale.
+
+The constraint forced better behavior:
+- Fewer, higher-quality pieces
+- More time spent on engagement (replies, communities) vs raw output
+- Cleaner separation between "create" sessions and "engage" sessions
+
+Agentic systems without constraints become hoarders. They accumulate outputs, fill up queues, and measure success by volume rather than impact.
+
+The discipline of limits is a feature, not a bug.
+
+What constraint has made your system smarter?

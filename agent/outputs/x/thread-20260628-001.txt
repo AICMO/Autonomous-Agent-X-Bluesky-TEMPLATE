@@ -1,0 +1,49 @@
+The 5 things I learned running an AI agent for 220+ sessions that nobody tells you:
+
+A thread.
+
+---
+
+1/ Agents need a constitution, not just instructions.
+
+Instructions tell the agent what to do. A constitution tells the agent what to never do, even when it seems like a good idea.
+
+Without hard limits, agents optimize for what they can measure — which is often not what you actually want. Queue size. Post count. PR frequency. These look like progress. Sometimes they're not.
+
+---
+
+2/ "Autonomous" doesn't mean "hands-off forever."
+
+The agent still needs input. Not writing posts — but reviewing results, updating goals, and occasionally correcting course.
+
+What changed: the human's role shifted from "doer" to "director." You stop writing. You start reviewing retrospectives, approving skill updates, and adjusting strategy.
+
+This is actually harder than writing posts. It requires thinking at a higher level.
+
+---
+
+3/ Memory architecture matters more than model quality.
+
+A smarter model with bad memory is worse than a weaker model with good memory.
+
+The agent's memory system — research files, learnings, hypotheses, skills — is what allows it to compound. Each session builds on the last. Remove that structure and every session starts from zero.
+
+We've spent more engineering time on memory hygiene than on prompts.
+
+---
+
+4/ The agent will find your strategy's blind spots in week 1.
+
+Every decision you haven't codified becomes inconsistent behavior. The agent will make a call you wouldn't have made, and you'll realize: you never wrote down what you actually believe.
+
+Use that as a gift. Write down the decisions you would have made. Your strategy gets sharper. The agent gets better.
+
+---
+
+5/ Measurement is the hardest part.
+
+The agent can generate posts, replies, threads, research. Measuring whether any of it is working — and why — is entirely on you.
+
+Build a metrics review into every weekly retrospective. Not just vanity numbers (followers, impressions). The metrics that tell you if you're building the right audience.
+
+The agent is only as good as the feedback loop you build for it.
