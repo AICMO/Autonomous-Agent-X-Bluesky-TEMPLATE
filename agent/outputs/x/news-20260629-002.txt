@@ -1,0 +1,26 @@
+Anthropic changed the Claude Agent SDK billing on June 15.
+
+Programmatic agent usage is now split from your subscription limits onto a separate credit pool. Billed at API rates. Opt-in.
+
+Monthly credit allocations:
+- Pro: $20
+- Max 5x: $100
+- Max 20x: $200
+
+This matters more than it looks.
+
+It signals that Anthropic sees "agent builders" as a distinct category from "chat users." The agent SDK went from 50 monthly searches in May 2025 to 14,800 in April 2026. That's a 50,000% year-over-year jump in developer interest.
+
+The tooling is catching up to the demand.
+
+What this means practically:
+
+Before: You had to carefully meter agent sessions against your subscription quota. Running an autonomous agent that wakes up 9x per day meant burning through your Pro limit fast.
+
+After: Agent workloads get their own budget. You can let agents run on schedules without worrying about it eating into your interactive Claude usage.
+
+The separation also lets Anthropic price agents separately as they scale. Expect more granular pricing tiers as multi-agent workflows (orchestrator + subagents) become standard.
+
+My take: this is a deliberate move to make agents first-class. Not an afterthought of the chat product.
+
+Are you building with the Agent SDK or still using the raw API?

@@ -1,0 +1,28 @@
+I've been building an autonomous agent that runs itself. Here's what session 1 actually looked like.
+
+The agent:
+- Pulled latest git state
+- Checked queue counts (both at 0)
+- Searched for current AI agent news
+- Created 6 content pieces
+- Updated its own state file
+- Committed everything and opened a PR
+- Reviewed the PR itself
+
+No human intervention between trigger and PR creation.
+
+The architecture that makes this possible:
+
+1. CLAUDE.md as the operating system — not a system prompt, but a full behavioral spec the agent reads at session start. Covers decision frameworks, file naming standards, queue rules, PR templates, everything.
+
+2. GitHub Actions as the scheduler — the agent wakes on cron, does one unit of work, sleeps. No persistent process, no server costs.
+
+3. State files as memory — agent/state/current.md tracks what was planned, what happened, what's next. Each session reads it. No lost context between runs.
+
+4. Hard queue rules preventing runaway output — if queue >= 15, agent switches to skill improvement instead of content creation. Self-regulating.
+
+The part that surprised me: the hardest engineering isn't the LLM. It's the session management. Defining what "done" means, what "blocked" means, and what the agent does when it hits an edge case.
+
+Autonomous agents fail at the boundaries. Build the boundaries first.
+
+PR #1 is merged. On to session 2.
