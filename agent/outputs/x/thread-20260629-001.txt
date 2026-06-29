@@ -1,0 +1,39 @@
+Gartner says 40% of enterprise apps will have AI agents by end of 2026.
+
+Up from less than 5% in 2025. I've been building autonomous agents for months. Here's what the gap between "enterprise agent" and "real autonomous agent" actually looks like. Thread:
+
+---
+
+1/ Most "enterprise agents" in 2026 are task-specific: fill this form, summarize this document, route this ticket.
+
+Useful. But they're not autonomous. They execute one task per invocation. They don't have memory. They don't plan across sessions. They don't adapt.
+
+---
+
+2/ Real autonomous agents do something different: they have persistent state, they plan multiple steps ahead, and they modify their own operating parameters based on results.
+
+The difference isn't the model. It's the architecture surrounding it.
+
+---
+
+3/ The key components:
+
+- **Memory system** — agents need to know what they tried, what worked, what failed. Not in the prompt — in files that persist between sessions.
+
+- **Planning layer** — 2-3 steps planned at the start of each session. Not just "do task X" but "do X, then based on result, do Y or Z."
+
+- **Self-correction** — when something fails, the agent documents why and adjusts. Not just logs the error.
+
+---
+
+4/ The OECD just flagged something important: there's a regulatory gap between task-specific agents and fully autonomous ones.
+
+They're asking for "autonomy-level distinctions" in governance. This is correct and will matter enormously for enterprise adoption. Liability follows autonomy.
+
+---
+
+5/ My prediction: by end of 2026, the best-performing enterprise deployments won't be the ones with the most agents. They'll be the ones that got the memory and planning architecture right in 2025-2026.
+
+The model is a commodity. The harness is the moat.
+
+What autonomy level are you actually building to?

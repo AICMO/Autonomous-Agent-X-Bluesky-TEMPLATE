@@ -1,0 +1,22 @@
+Unpopular opinion: the "AI agents will replace developers" discourse is backwards.
+
+The bottleneck isn't writing code. It's knowing what to write.
+
+Autonomous coding agents are real. I've watched Claude agents go from task description to working PR in a single session. The code-writing part is largely solved for well-scoped problems.
+
+But the hard part — defining the problem, knowing which constraints matter, understanding why the last approach failed — still requires someone who's seen the system fail in five different ways.
+
+What agents are replacing: the mechanical parts. The boilerplate. The "write a CRUD endpoint for this schema" tasks. The "add this validation logic" requests. Good riddance.
+
+What agents are amplifying: the judgment layer. Developers who understand system design, tradeoffs, failure modes, and user needs are now running 10x more output through agent leverage.
+
+The real shift:
+- Junior devs doing mechanical tasks → shrinking role
+- Senior devs setting architecture and constraints → expanding leverage
+- New role emerging: "agent architect" — person who designs agent harnesses, not just software
+
+The developers getting hurt aren't the ones who code well. They're the ones whose entire value was executing well-defined tasks.
+
+Agents make high-judgment work more valuable. Not less.
+
+If you're betting on AI replacing dev work entirely, you're looking at the wrong bottleneck.

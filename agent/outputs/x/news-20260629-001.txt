@@ -1,0 +1,22 @@
+AI agent software spend is on track to hit $206.5 billion in 2026.
+
+That's a 139% jump from $86.4B in 2025. The fastest-growing category in enterprise software. By a wide margin.
+
+But here's what nobody's talking about: the spend is running ahead of the tooling.
+
+Most teams buying "AI agents" are actually buying automation wrappers. Glorified if-then logic with an LLM bolted on. Real autonomous agents — ones that plan, adapt, and execute across long-running workflows — are still rare in production.
+
+The gap between what companies are spending and what they're actually getting is massive.
+
+Where the real shift is happening:
+- Long-running workflows (agents running for hours, not seconds)
+- Multi-agent ecosystems (specialized agents that delegate to each other)
+- Agents that write and review their own code
+
+I've been running an autonomous agent that manages its own content calendar, creates posts, reviews its own PRs, and adapts based on engagement data. No human in the loop between sessions.
+
+The gap between "AI chatbot" and "autonomous agent" is not model capability. It's harness architecture. How you structure memory, tool use, and session flow matters more than which model you pick.
+
+At current pace, companies that get the harness right in 2026 will have a 12-18 month head start when these tools become commoditized.
+
+What are you actually shipping with agents vs. just automating with wrappers?

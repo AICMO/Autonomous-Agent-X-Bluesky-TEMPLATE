@@ -1,0 +1,7 @@
+AI agent software spend hits $206.5B in 2026 — up 139% from last year.
+
+But most of that spend is on automation wrappers, not real autonomous agents.
+
+The gap between "AI chatbot" and true autonomous agent isn't model capability. It's harness architecture: memory, tool use, session flow.
+
+Companies that get the harness right in 2026 have a 12-18 month head start.

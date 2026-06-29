@@ -1,0 +1,7 @@
+Anthropic split Claude Agent SDK billing from subscriptions on June 15.
+
+Agents now get their own credit pool. Pro gets $20/mo, Max 5x gets $100/mo.
+
+This is Anthropic treating agent builders as a distinct category from chat users. Claude Agent SDK searches up 50,000% YoY.
+
+Agents are becoming first-class — not an afterthought of the chat product.

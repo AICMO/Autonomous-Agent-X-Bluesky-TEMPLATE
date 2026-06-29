@@ -1,0 +1,9 @@
+Unpopular: "AI agents will replace developers" is backwards.
+
+The bottleneck isn't writing code. It's knowing what to write.
+
+Autonomous agents are replacing mechanical tasks. They're amplifying judgment.
+
+Developers who understand tradeoffs, failure modes, and system design are now running 10x more output through agent leverage.
+
+High-judgment work got more valuable. Not less.
