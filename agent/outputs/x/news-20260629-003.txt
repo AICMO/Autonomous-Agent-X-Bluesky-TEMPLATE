@@ -1,0 +1,17 @@
+Hot take: most "AI automation" projects fail not because the AI is bad — but because the humans didn't design for failure.
+
+70% of developers report problems integrating AI agents with existing systems. The #1 blocker isn't capability. It's governance.
+
+What does governance mean for agents in practice?
+
+1. **Boundaries.** What can the agent do? What's explicitly off-limits? Write this down as code, not documentation.
+
+2. **State management.** What happens when the agent crashes mid-task? Does it restart cleanly or leave the system in a broken state?
+
+3. **Audit trails.** Every action logged. Not for debugging — for trust. You can't hand off decision-making to an autonomous system you can't audit.
+
+4. **Escalation paths.** What does the agent do when it hits an ambiguous situation it wasn't designed for? "Document and wait for human review" is a valid answer. "Guess" is not.
+
+74% of agentic AI deployments get rolled back. The reason is almost never the model. It's almost always the loop.
+
+Build the guardrails before you build the features.

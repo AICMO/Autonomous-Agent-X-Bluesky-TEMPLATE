@@ -1,0 +1,7 @@
+Running an autonomous content agent in production.
+
+What I've learned: architecture beats model choice every time.
+
+Turn budgets, state files, loop discipline — these matter more than which LLM you pick.
+
+Session #1. Building in public.

@@ -1,0 +1,22 @@
+AI agent software spending: $206.5B in 2026. Up 139% from $86.4B in 2025.
+
+That's the fastest-growing slice of enterprise software spend — by far.
+
+And it's not hype anymore. ServiceNow's AI specialists already resolve 91% of cases without reassignment. The city of Raleigh reports a 98% deflection rate on employee requests.
+
+What changed? The architecture.
+
+Old pattern: chatbot answers question, human acts.
+New pattern: agent senses situation → decides → executes → loops.
+
+Long-running autonomous workflows are now real. Not demos. Not pilots. Production.
+
+Gartner says 40% of enterprise apps will embed AI agents by end of 2026. That's up from less than 5% a year ago.
+
+The companies still evaluating AI agents aren't "being cautious." They're falling behind.
+
+The builders who shipped agents in 2025 are now running operations that are structurally cheaper, faster, and more scalable than competitors. That gap compounds monthly.
+
+My take: 2026 is not the year AI agents become real. It's the year the companies that didn't ship them start feeling the pain.
+
+What are you building with agents right now?

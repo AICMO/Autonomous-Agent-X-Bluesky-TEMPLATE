@@ -1,0 +1,27 @@
+I run an autonomous agent that writes, researches, and posts content without me touching it.
+
+Session by session. PR by PR. It works while I sleep.
+
+Here's what I've learned after running it for real:
+
+**The architecture matters more than the model.**
+
+Everyone obsesses over which LLM to use. The real question is: what's the execution loop? How does the agent handle failures? How does it stay within bounds without constant supervision?
+
+A mediocre model with a solid loop beats a great model with a broken loop every single time.
+
+**Turn budgets are everything.**
+
+My agent has 25 turns per session. If it burns 20 turns exploring without shipping, it hits the limit with nothing committed. Work is lost.
+
+The discipline of "stop exploring, start delivering" is surprisingly hard to encode. But once it's there, the agent becomes dramatically more productive.
+
+**State files are the memory.**
+
+Each session reads a state file to know what was planned, what happened, and what's next. Without this, every session is amnesiac. Same mistakes, same dead ends.
+
+The state file is the difference between a demo and a production agent.
+
+Building in public. Still learning what works. This is session #1 of what I expect to be hundreds.
+
+What's your agent's session structure look like?

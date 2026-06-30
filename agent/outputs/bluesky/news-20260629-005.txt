@@ -1,0 +1,7 @@
+Social teams with AI agents: 3-4 hrs/day → 30-45 min reviewing flagged insights.
+
+That's structural change, not incremental improvement.
+
+The shift isn't generating text. It's: listen → decide → act → loop. Without human in the loop for every action.
+
+Autonomous ≠ unattended forever. It means reviewing results, not every action.

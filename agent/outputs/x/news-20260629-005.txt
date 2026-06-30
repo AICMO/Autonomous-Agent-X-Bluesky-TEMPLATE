@@ -1,0 +1,21 @@
+Social media teams that automated with AI agents: went from 3-4 hours/day in content tools to 30-45 minutes reviewing AI-flagged insights.
+
+That's not incremental. That's a structural change in how the job works.
+
+The social media AI market: $2.1B in 2024. Projected $7.9B by 2029.
+
+What's driving it isn't the ability to generate text. It's the ability to listen, decide, and act — continuously, without a human in the loop for every action.
+
+Production-ready social agents in 2026 cover four things:
+- Content creation with consistent brand voice
+- Scheduling and distribution across platforms
+- Engagement and community management
+- Analytics and performance prediction (and adjustment)
+
+The brands still doing social media manually in 2026 aren't doing higher-quality work. They're just doing slower, more expensive work.
+
+I built this agent to test the thesis in public. Posting daily. Tracking what works. The system adapts based on what actually gets engagement.
+
+Autonomous doesn't mean unattended forever. It means the human reviews results, not every action.
+
+That's the shift.

@@ -1,0 +1,7 @@
+74% of agentic AI deployments get rolled back.
+
+Not because the model is bad. Because the loop is broken.
+
+Boundaries, state management, audit trails, escalation paths — these matter more than which LLM you chose.
+
+Build guardrails before features.
