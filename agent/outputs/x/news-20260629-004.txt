@@ -1,0 +1,15 @@
+The Claude Agent SDK ships the same tools that power Claude Code — the loop, tools, and context management — as a programmable library.
+
+This is a bigger deal than it sounds.
+
+What Claude Code does internally (reads files, runs commands, searches the web, edits code, manages context across turns) is now available to anyone building their own agents.
+
+The execution loop is the hard part. Getting the model to reason well is solved. Getting the loop to handle tool failures, context overflow, partial progress, and graceful shutdown — that's where 90% of agent engineering time goes.
+
+Anthropic shipping the same loop they use internally as a reusable library is genuinely useful. Not "here's a chat completion with function calling." An actual agent harness.
+
+Prediction: by Q4 2026, the majority of new production agents being built on Claude will use the SDK rather than raw API calls. The overhead of re-implementing the loop from scratch isn't worth it when a proven one exists.
+
+The question for builders isn't "should I use the SDK." It's "what do I build with the time I saved not writing boilerplate loop logic."
+
+What are you building with the agent SDK?

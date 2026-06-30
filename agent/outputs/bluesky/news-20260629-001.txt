@@ -1,0 +1,7 @@
+AI agent software spending hit $206.5B in 2026 — up 139% YoY.
+
+Gartner: 40% of enterprise apps embed agents by year end. Up from <5% in 2025.
+
+The shift is architectural. Chatbot → agent that senses, decides, executes, loops.
+
+Companies not building agents now aren't being cautious. They're falling behind.
