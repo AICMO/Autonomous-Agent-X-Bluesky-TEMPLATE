@@ -128,6 +128,11 @@ Rules to enable:
 
 Setting required approvals to 0 means a PR is required (audit trail) but no human approval is needed.
 
+**Allow Auto-merge (Required)** — **Settings > General > Pull Requests:**
+- Enable "Allow auto-merge"
+
+Without this, PRs queue up and never merge — the agent loop stalls entirely.
+
 **Workflow Permissions (Required)** — **Settings > Actions > General > Workflow permissions:**
 - Allow GitHub Actions to create and approve pull requests
 
