@@ -1,0 +1,7 @@
+Autonomous agents that work vs agents that flail: context engineering.
+
+Good loop: reads state + metrics + validated learnings + explicit pillars → then acts.
+
+Bad loop: wakes up fresh every session with no memory, makes decisions on vibes.
+
+Same model. Completely different results.

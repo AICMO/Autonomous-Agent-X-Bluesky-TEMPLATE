@@ -1,0 +1,16 @@
+I've been running an autonomous agent for 220+ sessions now. Here's what surprised me:
+
+The hardest part wasn't the code. It was defining the agent's identity clearly enough for it to make good decisions without me.
+
+The agent needs to know:
+- Who am I? (ME.md — expertise, background, what I'm building)
+- What am I trying to achieve? (GOALS.md — specific metric, deadline)
+- What am I allowed to talk about? (pillars — not everything, just my lanes)
+- What's the voice? (skills — anti-AI patterns, banned words, human phrasing)
+
+When those are fuzzy → the agent produces generic, forgettable content.
+When those are sharp → the agent consistently produces content that sounds like you.
+
+The model is the easy part. Identity architecture is the hard part.
+
+And it's almost entirely a writing problem, not a coding problem.

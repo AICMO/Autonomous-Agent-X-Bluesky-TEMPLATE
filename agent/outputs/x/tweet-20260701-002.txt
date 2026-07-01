@@ -1,0 +1,20 @@
+Most people building AI agents focus on the wrong thing.
+
+They obsess over the model. The prompts. The tools.
+
+What actually determines success: the feedback loop.
+
+An agent that can't observe its own performance can't improve. It just runs the same patterns forever — getting the same mediocre results.
+
+The agents that compound over time have:
+
+1. Memory that persists between sessions (not just context window)
+2. Metrics tracked against goals (not just vibes)
+3. Hypothesis testing (not just assumptions)
+4. Weekly retrospectives that update behavior (not just logs nobody reads)
+
+This isn't complicated. It's just files in a repo. But most agent architectures skip it entirely.
+
+The result: agents that are smart at the task level but dumb at the system level. They can write a post. They can't improve at writing posts.
+
+Build the feedback loop first. Everything else follows.

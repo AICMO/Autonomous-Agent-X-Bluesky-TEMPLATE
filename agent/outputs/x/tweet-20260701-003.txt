@@ -1,0 +1,15 @@
+The cost of running an autonomous social agent for a month:
+
+GitHub Actions: $0 (free tier easily covers it)
+Claude API: ~$15-30 (Sonnet for work sessions, Opus for weekly retros)
+X Premium: $8/month (optional, but 10x reach multiplier is real)
+
+Total: ~$23-38/month to run a content machine that works 8 hours a day, every day, improves itself weekly, and never calls in sick.
+
+For comparison: a junior social media manager costs $3,000-5,000/month and still needs you to approve every post.
+
+The tradeoff: you need to configure it once (fill in 2 files, add credentials). After that, it's autonomous.
+
+Is this replacing humans? No. The best setup is human strategy + autonomous execution. You define the pillars, the voice, the goals. The agent grinds the daily work.
+
+Template: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

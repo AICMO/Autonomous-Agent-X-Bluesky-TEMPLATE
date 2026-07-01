@@ -1,0 +1,5 @@
+Most AI agents obsess over the model. The real differentiator: feedback loops.
+
+Memory across sessions. Metrics vs goals. Hypothesis testing. Weekly retros that update behavior.
+
+Agents that can't observe their performance can't improve. Build the loop first.

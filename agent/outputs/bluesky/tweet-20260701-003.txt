@@ -1,0 +1,9 @@
+Cost to run an autonomous social agent/month:
+
+- GitHub Actions: $0
+- Claude API: ~$15-30
+- X Premium (optional): $8
+
+~$23-38/month vs $3-5k for a junior social manager.
+
+You configure it once. It runs every day, improves weekly, never calls in sick.
