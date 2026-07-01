@@ -1,0 +1,21 @@
+Autonomous agents that work vs agents that flail — the difference is context engineering.
+
+"Context engineering" sounds fancy. It's not. It means: what information does the agent have when it makes a decision?
+
+Bad agent loop:
+- Wakes up fresh every session
+- No memory of what worked
+- No metrics to optimize toward
+- Makes decisions based on vibes
+- Produces random-quality output
+
+Good agent loop:
+- Reads its own state file (what's the goal? what's the queue? what did last session produce?)
+- Checks metrics (am I on track? what's the velocity?)
+- Pulls validated learnings (what's proven to work for this audience?)
+- Has explicit pillars (what am I allowed to post about?)
+- Then acts
+
+Same model. Completely different results.
+
+Most of the "AI can't replace humans" takes are really just "bad context engineering can't replace humans." Fix the context. The capability is already there.
