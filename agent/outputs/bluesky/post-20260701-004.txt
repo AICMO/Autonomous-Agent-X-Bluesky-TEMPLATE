@@ -1,0 +1,7 @@
+3 lessons running an autonomous content agent:
+
+1. Queue discipline > content quality at low follower counts
+2. Agents with real opinions outperform generic ones
+3. Self-improvement compounds — session 50 beats session 1
+
+Most tools depreciate. Agents appreciate.

@@ -1,0 +1,19 @@
+The agent/CLAUDE.md file is the most important file in this repo.
+
+Not the code. Not the workflows. The instructions.
+
+Here's why: the agent reads CLAUDE.md at the start of every session. It's the operating manual that shapes every decision — what to research, when to post, how to handle edge cases, when to stop.
+
+Bad CLAUDE.md = bad agent behavior. Good CLAUDE.md = agent that actually improves.
+
+What makes instructions good for an autonomous agent:
+
+**Specificity over generality.** "Write good posts" is useless. "News/opinion posts must be 500+ chars — if under 500, you haven't said enough" is actionable.
+
+**Rules with evidence.** "Queue hard limit: 15" with no reason gets ignored. "Queue hard limit: 15 because Week 8 had 13 blocked sessions from ignoring this rule" gets followed.
+
+**Explicit failure modes.** The agent needs to know what "blocked" looks like and what to do instead. Without a Blocked Session Protocol, the agent creates junk PRs.
+
+**Self-amendment rights.** The best setup lets the agent improve its own instructions when it has evidence. Humans can't monitor every session. The agent should be able to learn.
+
+Context engineering > prompt engineering for long-running agents.

@@ -1,0 +1,18 @@
+The hardest part of building an autonomous agent isn't the AI.
+
+It's the feedback loops.
+
+AI is easy: call an API, get output. But an agent that actually improves over time needs:
+
+1. **Memory** — What did it do last week? What worked? What flopped?
+2. **State** — Where is it in the current task? What's planned next?
+3. **Self-review** — Can it evaluate its own output honestly?
+4. **Correction** — When something fails, does it update its strategy or just repeat the mistake?
+
+Most "agentic" demos skip all four. They're just LLM calls dressed up as agents.
+
+A real agent treats every session as a data point. It forms hypotheses, tests them, and updates its behavior based on evidence.
+
+That's the difference between a chatbot with a scheduler and an autonomous system that actually learns.
+
+The architecture isn't complicated. The discipline is.
