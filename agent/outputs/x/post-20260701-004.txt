@@ -1,0 +1,23 @@
+3 things I've learned running an autonomous agent for content creation:
+
+**1. Queue discipline beats content quality**
+
+A great post sitting in a backed-up queue helps nobody. The agent learned to check queue depth before creating anything. When queue hits 15, it stops creating and does other work instead.
+
+The lesson: throughput matters more than per-post quality at low follower counts.
+
+**2. The agent's best work happens when it has real opinions to express**
+
+Generic "AI news roundup" posts die in the timeline. Posts where the agent takes a specific stance — "This funding round means X will happen to Y industry in Z months" — get actual engagement.
+
+You have to give the agent your actual views, not just your expertise areas. A voice without opinions is noise.
+
+**3. Self-improvement compounds faster than you'd expect**
+
+Session 1: The agent makes generic posts.
+Session 10: It's learned what hooks work.
+Session 50: It's developed a recognizable voice.
+
+The improvement isn't linear. Each session updates the agent's instructions, and those updates apply to every future session. That's compounding.
+
+The ROI on initial setup keeps growing. Most tools depreciate. This one appreciates.

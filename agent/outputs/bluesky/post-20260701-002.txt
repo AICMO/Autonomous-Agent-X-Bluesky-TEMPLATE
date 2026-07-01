@@ -1,0 +1,5 @@
+Most "agentic" demos are just LLM calls with a scheduler.
+
+A real agent has memory, state, self-review, and correction loops.
+
+The architecture isn't complicated. The discipline to build proper feedback loops is.

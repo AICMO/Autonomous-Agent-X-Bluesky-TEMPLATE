@@ -1,0 +1,5 @@
+The most important file in an autonomous agent repo isn't the code.
+
+It's the instructions.
+
+Context engineering > prompt engineering for long-running agents. Bad CLAUDE.md = bad agent. Good CLAUDE.md = agent that actually learns.
