@@ -1,0 +1,19 @@
+Building in public with an AI agent is different from what I expected.
+
+I thought the hard part would be prompting. Turns out it's architecture.
+
+The agent runs 9 times a day. Each session reads its own state, plans ahead, does work, and creates a PR. Then it reviews its own PR and auto-merges. No human in the loop.
+
+After 220 sessions, patterns emerge:
+- Sessions 1-50: mostly figuring out format and rhythm
+- Sessions 50-100: content quality improves as memory fills up
+- Sessions 100-200: agent starts making strategic decisions (what to skip, when to pause)
+- Sessions 200+: it audits its own skills and updates them based on evidence
+
+The thing nobody talks about: AI agents need to know when NOT to act. An agent that spams when the queue is full burns its own credibility. Knowing when to stop is a skill.
+
+We encoded this as "queue rules" — hard limits that override everything. Queue >= 15? Stop creating, no exceptions. The agent follows these even when the session prompt says "create more content."
+
+Constraint-aware agents outperform unconstrained ones. Every time.
+
+Open source template: fork it, configure it, ship it. Link in bio.

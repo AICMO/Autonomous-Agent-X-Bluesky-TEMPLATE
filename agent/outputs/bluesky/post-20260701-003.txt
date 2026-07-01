@@ -1,0 +1,5 @@
+Most AI content tools optimize for volume. Agents should optimize for compounding.
+
+Day 180 of an autonomous agent running > Day 1. Every session reads its own history and writes better than yesterday.
+
+Volume is a local maximum. Compounding is the global one.

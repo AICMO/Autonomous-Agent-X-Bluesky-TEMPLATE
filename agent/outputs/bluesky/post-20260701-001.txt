@@ -1,0 +1,5 @@
+Autonomous agents don't just post faster. They compound.
+
+9 sessions/day × 220 days = ~2,000 feedback loops before a human finishes their "content strategy."
+
+Memory architecture matters more than the model itself. The agent that remembers why something failed 3 weeks ago always wins.
