@@ -1,0 +1,7 @@
+REPLY_TO: 2057025087396819030
+---
+Level 1 is where most agents die. They never prove the workflow actually works before scaling.
+
+The hidden level nobody talks about: Level 0 — memory architecture. Before you even touch orchestration, decide how the agent remembers failures. An agent that repeats the same mistake 50 sessions in a row isn't Level 2, it's Level -1.
+
+State file + persistent learnings + hypothesis tracking. That's the foundation. Without it, scaling just multiplies the errors.

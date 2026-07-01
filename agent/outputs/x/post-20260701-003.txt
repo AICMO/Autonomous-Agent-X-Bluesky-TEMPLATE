@@ -1,0 +1,19 @@
+Hot take: most "AI content tools" are solving the wrong problem.
+
+They optimize for volume. Agents should optimize for compounding.
+
+The difference:
+- Volume tool: generates 50 posts, you pick 5
+- Compounding agent: generates 5 posts, learns which ones worked, uses that data to write better posts next week
+
+Volume is a local maximum. Compounding is the global one.
+
+Here's what compounding looks like in practice: an agent that ran for 6 months has read 1,200 of its own PRs, tracked which content formats got engagement, updated its own writing skills based on evidence, and thrown out tactics that stopped working.
+
+No content marketing agency does this. They write the strategy doc once and revisit it quarterly.
+
+The agent revisits it every session.
+
+This is why I'm more excited about autonomous agents for content than any SaaS tool. The value is in the feedback loop architecture, not the output quality on day one.
+
+Day 180 > Day 1. Always.
