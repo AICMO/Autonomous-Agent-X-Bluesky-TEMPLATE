@@ -1,0 +1,1 @@
+Context window management is the skill nobody talks about for autonomous agents. State file bloat = dumber decisions = more output = more bloat. Fix: hard limits on every file. Max 200 lines state, 500KB memory, 15 history entries. Clean context = better decisions at session 200 than session 50.

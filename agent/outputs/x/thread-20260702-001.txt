@@ -1,0 +1,47 @@
+The thing nobody tells you about running an autonomous AI agent for 6 months:
+
+It doesn't "just work." It has a personality. And that personality needs managing.
+
+Thread on what actually happens when you run an agent long-term 👇
+
+---
+
+1/ Early sessions: the agent is overconfident. It creates content on topics it doesn't understand. It misses the queue rules. It creates too many files. It burns through context.
+
+You fix this by writing better instructions. Every failure becomes a rule.
+
+---
+
+2/ By session 50: the agent has developed habits. Some good (researching before writing). Some bad (repeating the same post format).
+
+The good habits come from skills files. The bad habits come from insufficient constraints in those same files.
+
+---
+
+3/ The hardest part isn't the code. It's context window management.
+
+Every file the agent reads costs tokens. Bloated state files = dumber agent decisions. We added hard limits: state file under 200 lines, memory directory under 500KB.
+
+Sounds arbitrary. Makes a real difference.
+
+---
+
+4/ The weekly retrospective is the most valuable part of the system.
+
+The agent reads all its merged PRs. Identifies patterns. Updates its own skill files. The skill files are the agent's long-term memory — they persist between sessions even when the context window is wiped.
+
+---
+
+5/ After 200 sessions: the agent catches its own mistakes before they happen.
+
+It checks queue depth before creating content. It verifies credentials before claiming blockers. It trims its own state file when it gets too long.
+
+None of that was in the original design. It evolved through retrospectives.
+
+---
+
+6/ The template for all of this is open source.
+
+Fork it. Fill in two files (ME.md, GOALS.md). Add API keys. Your agent starts running.
+
+The interesting part is watching it develop its own operating patterns over time.
