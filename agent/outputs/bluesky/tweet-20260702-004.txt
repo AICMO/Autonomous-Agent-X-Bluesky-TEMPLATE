@@ -1,0 +1,7 @@
+Context management is the hard part of agentic AI systems.
+
+Not LLM calls, not tool use. Context.
+
+Long state files = dumber agent. Memory bloats. At some point the agent spends 40% of its context reading its own backlog.
+
+Clean context beats more raw content every time.

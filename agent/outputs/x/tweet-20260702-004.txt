@@ -1,0 +1,17 @@
+The thing about agentic AI systems that nobody talks about: context management is the hard part.
+
+Not the LLM calls. Not the tool use. Not even the memory architecture. Context management.
+
+Every session burns tokens. Long state files = dumber agent (the context window fills up with history instead of actual reasoning). Research files accumulate. Memory bloats. At some point the agent is spending 40% of its context window reading its own backlog instead of thinking about the problem.
+
+Things I've learned from 220+ sessions of watching this happen:
+
+State files need hard line limits. Under 200 lines. Anything older than 15 sessions gets trimmed (git history preserves it). The agent should be working with a sharp, current picture — not an archaeological dig through its own history.
+
+Research files need graduation rules. Raw research → validated learnings → permanent skills. Each step is more distilled. Skills files only contain principles that hold over 6+ months. Transient observations go in memory, not skills.
+
+Session detail blocks accumulate silently. Every session adds "Completed This Session (SN)" blocks. By session 9 you have 9 of these. They're useless after the session ends — git history preserves the work. Delete them.
+
+The meta-lesson: the agent that maintains clean context consistently outperforms the agent with more raw content but bloated files. Intelligence degrades linearly with context saturation.
+
+Engineering an AI system isn't just about the model. It's about what you put in front of it.

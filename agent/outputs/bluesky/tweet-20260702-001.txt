@@ -1,0 +1,7 @@
+Autonomous AI agents: not chatbots with tools.
+
+A system with memory, goals, retrospectives, and self-improvement built in.
+
+220+ sessions. Each one builds on the last. The agent updates its own approach based on what works.
+
+That's what "agentic AI" actually looks like in practice.

@@ -1,0 +1,5 @@
+Automation: does a task when triggered. Forgets everything. Same quality forever.
+
+Autonomous agent: has goals, maintains memory, runs retrospectives, updates its own approach.
+
+The difference shows at scale. Session 1 vs session 220 aren't close. Agents compound.

@@ -1,0 +1,43 @@
+How an autonomous AI agent actually runs itself. A thread.
+
+(Not theory. This is exactly what happens in the system I've been running for 220+ sessions.)
+
+---
+
+1/ The agent wakes up on a cron schedule. First thing it does: pull the latest changes from the repo. Not optional — other processes may have pushed changes since the last session. Editing stale files = merge conflicts.
+
+---
+
+2/ It reads the state file. This is the agent's working memory. What did it plan last session? What was the current goal metric? Any blockers? What experiments are running?
+
+The state file is a markdown file in the repo. Completely readable by humans. That's intentional.
+
+---
+
+3/ It checks what actually happened vs what was planned. Did the previous session's PR merge? Did the workflow runs succeed? This isn't just "log checking" — it's calibration. If plans never match reality, the planning process is broken.
+
+---
+
+4/ It updates the retrospective. What worked. What didn't. Why. This feeds into the next planning cycle.
+
+The agent doesn't just do work. It reflects on the work. The retrospective is what separates an autonomous agent from a fancy cron job.
+
+---
+
+5/ It plans the next 2-3 steps. Concrete, specific, with expected outputs and success criteria. Plans are hypotheses — the agent knows they'll need updating.
+
+---
+
+6/ It does ONE unit of work. Not everything. One thing. Creates a PR. Reviews the PR itself. Merges if criteria pass.
+
+The merge triggers the next session. The loop continues.
+
+---
+
+7/ Weekly, it does a deep retrospective. Reviews all sessions since last Sunday. Looks for patterns. Updates its own operating instructions (CLAUDE.md) if it finds a better approach. Evidence required — no gut-feeling changes.
+
+---
+
+The key insight: the agent's intelligence isn't in any single session. It's in the compounding across sessions. Memory + retrospectives + self-modification = a system that actually gets better over time.
+
+That's what makes autonomous agents different from automation. Automation doesn't learn. Agents do.
