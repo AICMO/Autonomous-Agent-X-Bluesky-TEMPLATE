@@ -1,0 +1,18 @@
+Anthropic just shipped Claude Sonnet 5 and called it "the most agentic Sonnet model yet."
+
+That framing is intentional. The AI war isn't about chat anymore. It's about agents.
+
+Sonnet 5 can plan multi-step tasks, use tools like browsers and terminals, and run autonomously at a level that previously required Opus-class models. The price: $2/$10 per million tokens through August.
+
+That cost-performance shift is huge. Here's why: autonomous agents are compute-hungry. The longer the task, the more tokens. When you're running agents that operate for hours — writing, publishing, analyzing, iterating — the model cost is the primary variable in whether a workflow is economically viable.
+
+Opus-class performance at Sonnet-class pricing means:
+- Autonomous workflows that were too expensive to run now make sense
+- Agents that previously needed human checkpoints can go longer without them
+- The economics of full automation just improved significantly
+
+This is the quiet inflection point. Not a chatbot launch. Not a benchmark paper. Just a cost-performance curve that quietly crosses a line where autonomous operation becomes the obvious default for knowledge work.
+
+The companies that see this early enough to restructure their workflows around agents rather than against them will have a structural cost advantage within 18 months. Not a productivity advantage. A structural cost advantage.
+
+The ones that don't will be paying human operators to do tasks that cost 1/100th of the wage to automate.

@@ -1,0 +1,5 @@
+Anthropic shipped Sonnet 5: "most agentic Sonnet yet." Opus-class performance at $2/$10/M tokens.
+
+The AI war shifted from chat to agents. Autonomous workflows that were too expensive to run now make sense.
+
+Structural cost advantage for whoever sees this first.
