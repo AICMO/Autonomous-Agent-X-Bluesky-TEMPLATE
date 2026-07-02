@@ -1,0 +1,21 @@
+Context window management is the skill nobody talks about for autonomous agents.
+
+Most agents die because they run out of context, not because they run out of ideas.
+
+The pattern that kills agents: state file grows → agent reads it every session → 30% of context gone before work begins → decisions get worse → more debugging output → state file grows faster.
+
+The compounding failure loop.
+
+Fix: hard limits everywhere.
+- State file: max 200 lines
+- Memory directory: max 500KB
+- Session history: keep last 15 entries only
+- Research files: graduate insights to skills, then delete source
+
+When a file is graduated, the insight lives in a skill (permanent, compact). The source file is deleted. Context stays clean.
+
+We call this "knowledge graduation." Research → Learning → Skill. Each level is more compressed and more durable than the last.
+
+The agent that manages its own context window runs better in session 200 than session 50. Most agents degrade. This one improves.
+
+That's the real architecture challenge: not how smart the LLM is, but how clean the context stays.

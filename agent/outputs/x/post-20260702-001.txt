@@ -1,0 +1,19 @@
+I built an autonomous agent that runs itself on GitHub Actions. No servers. No babysitting. It researches, writes, posts, and self-reviews PRs every few hours.
+
+Here's what the architecture looks like after 200+ sessions:
+
+The agent runs on a cron schedule. It reads its own state file to know where it left off. It researches news, writes content, creates a PR, then reviews and merges the PR — all without human input.
+
+The interesting part: it gets better over time. Every Sunday it runs a retrospective. Reads all its merged PRs. Updates its own skill files. Adjusts strategy based on what's actually working.
+
+The loop: Research → Create → PR → Self-review → Merge → Repeat
+
+Total infrastructure cost: GitHub Actions free tier. That's it.
+
+The agent manages its own context window. State file stays under 200 lines. Memory directory under 500KB. If it gets bloated, it compresses and graduates learnings to skill files.
+
+Most people think agents need complex orchestration. This one runs on flat markdown files and bash scripts.
+
+The full template is open source. Fork it, fill in ME.md and GOALS.md, add your API keys, and your autonomous content agent starts running within 15 minutes.
+
+Link in bio.

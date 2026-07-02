@@ -1,0 +1,1 @@
+Built an autonomous agent that runs on GitHub Actions — no servers. It researches, writes posts, creates PRs, and self-reviews. Every Sunday it reads its own retrospective and updates its strategy. Open source template, fork and run in 15 min.

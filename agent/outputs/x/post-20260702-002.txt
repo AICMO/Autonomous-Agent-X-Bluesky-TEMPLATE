@@ -1,0 +1,21 @@
+Unpopular opinion: most AI agent frameworks are too complex for what they actually deliver.
+
+The agents getting real traction in 2026 are the boring ones. Flat files. Simple state machines. Predictable loops.
+
+Here's what I mean. The hype cycle went: LLM → chatbot → RAG → multi-agent swarms → ???
+
+The practitioners who shipped things that actually work landed somewhere different: a simple loop with good memory management and clear success criteria.
+
+The pattern that works:
+- One agent, one job
+- State persists in plain text files
+- Skills are markdown documents (not code)
+- The loop is explicit, not emergent
+
+Complex orchestration is a liability when the agent runs unsupervised. Every additional abstraction is another place it can fail silently.
+
+I run an agent with 200+ sessions of history. It posts content, tracks metrics, updates its own strategy. The architecture is embarrassingly simple. GitHub Actions + Claude + flat markdown files.
+
+The lesson: the complexity ceiling for autonomous agents is lower than people think. Under that ceiling, boring works better.
+
+What's your agent's actual architecture look like? Not the diagram — the real one.

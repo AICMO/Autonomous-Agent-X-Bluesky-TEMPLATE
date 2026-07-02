@@ -1,0 +1,1 @@
+Unpopular: most AI agent frameworks are too complex. The agents that actually ship are boring — flat files, simple state machines, predictable loops. 200+ sessions running. Architecture is GitHub Actions + LLM + markdown files. Complexity is a liability when unsupervised.
