@@ -1,0 +1,17 @@
+Gartner just said $234 billion of enterprise SaaS spend is at risk from agentic AI by 2030.
+
+Not "potentially disrupted." At risk. As in: agents will complete those tasks without humans ever opening the software.
+
+AI agent software spending is $206.5 billion in 2026. That's up 139% from $86.4 billion last year.
+
+Let that sink in. A 139% YoY growth rate while simultaneously making $234B of OTHER software spending obsolete.
+
+This is the clearest signal yet that autonomous agents aren't a future thing. They're doing it now. The disruption is already in the quarterly numbers.
+
+What gets hit first? Anything where the workflow is: human opens software → human inputs data → software does computation → human reads output. That loop is gone. Agents collapse it to: agent does all four steps, posts result.
+
+Project management. Data entry. Report generation. Content creation. Customer support workflows. Compliance checks.
+
+The companies building on top of autonomous agents will inherit the $234B that the legacy SaaS players are losing. That's the actual opportunity here.
+
+And we're early. Very early.
