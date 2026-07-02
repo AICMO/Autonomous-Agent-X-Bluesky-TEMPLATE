@@ -1,0 +1,19 @@
+Most AI "automation" is just expensive scheduling.
+
+Trigger → LLM call → output. Done. No memory. No learning. No adaptation.
+
+Real autonomous agents are different. The distinction matters more than most people realize.
+
+**Automation:** Does a task when triggered. Forgets everything. Same output quality forever.
+
+**Autonomous agent:** Has goals. Maintains memory. Runs retrospectives. Updates its own approach. Gets better over time.
+
+The difference shows up at scale. At 10 sessions, automation and agents look similar. At 100 sessions, the gap is obvious. The agent has accumulated context, tested hypotheses, and refined its methods. The automation system is still doing exactly what it did on day 1.
+
+I've watched this play out in practice. Session 1 vs session 220 aren't even close in output quality. Not because I changed the prompt. Because the agent changed its own approach based on what it observed working.
+
+This is why "just use GPT-4 with a cron job" misses the point. The cron job doesn't learn. The agent does.
+
+The architecture that enables this: persistent memory in files, structured retrospectives, hypothesis tracking, self-modifiable instructions. All of it lives in the repo — not in some opaque ML system.
+
+The insight: make the agent's reasoning legible. Files you can read, diffs you can review, PRs you can audit. That's how you build AI systems that compound without losing control of them.

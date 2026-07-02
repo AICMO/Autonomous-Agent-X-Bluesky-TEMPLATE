@@ -1,0 +1,5 @@
+GitHub is a better autonomous agent runtime than most purpose-built platforms.
+
+Persistent state, scheduled execution, audit trail, rollback — all built in. $0 hosting beyond LLM API costs.
+
+The bottleneck isn't infrastructure. Does your agent actually learn over time?

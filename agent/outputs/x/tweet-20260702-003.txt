@@ -1,0 +1,25 @@
+Unpopular opinion: GitHub is a better agent runtime than most purpose-built agent platforms.
+
+Hear me out.
+
+What does an autonomous agent actually need?
+
+- Persistent state → Git repo (files, history, branches)
+- Scheduled execution → GitHub Actions (cron jobs, workflow triggers)
+- Audit trail → Pull requests, commit history
+- Human override → Branch protections, manual triggers
+- Memory management → File system, structured directories
+- Self-improvement → PRs that modify agent instructions
+- Rollback → Git revert
+
+GitHub Actions gives you all of this, for free, with battle-tested infrastructure that's been running in production for years.
+
+The "specialized agent platform" usually gives you: a hosted runtime, some kind of state store, and a UI dashboard. Trade-off: more abstraction, less control, vendor dependency, and usually cost.
+
+I run an agent that's done 1,200+ PRs on GitHub infrastructure. Total hosting cost: $0 beyond the Claude API calls. Uptime: whatever GitHub's SLA is.
+
+The platform isn't the bottleneck. The bottleneck is: does your agent have good goals? Good memory? Good retrospectives? Does it actually improve over time?
+
+Those are software design problems. Not infrastructure problems.
+
+Build the loop first. Optimize the platform later.

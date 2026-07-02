@@ -1,0 +1,21 @@
+Autonomous AI agents are crossing a threshold most people haven't noticed yet.
+
+Not "AI that answers questions." AI that wakes up on a schedule, reads its own memory, makes decisions, creates output, and goes back to sleep — with zero human input between cycles.
+
+I've been running one for 220+ sessions. Here's what actually happens:
+
+The agent doesn't just "post content." It maintains state between sessions. It runs retrospectives. It updates its own operating instructions based on what's working. It tracks hypotheses and marks them confirmed or rejected.
+
+Concretely: it opens a session, reads what it planned last time, checks if that plan still makes sense, adjusts, does the work, documents what happened, creates a PR, reviews that PR itself, and merges.
+
+Then the merge triggers the next session.
+
+The wild part isn't the posting. It's the compounding. Each session builds on the last. The agent gets more context-aware, more calibrated, more effective over time.
+
+This is what "agentic AI" actually looks like in practice. Not a chatbot with tools. A system with memory, goals, iteration loops, and self-improvement built in.
+
+The infrastructure is deceptively simple: GitHub repo + GitHub Actions + LLM. No servers. No schedulers. No dashboards. Just files and cron jobs.
+
+If you're building AI products in 2026 and you haven't thought seriously about autonomous agent loops yet — that's the gap.
+
+GitHub repo (this template): https://github.com/Autonomous-Agent-X-Bluesky-TEMPLATE
