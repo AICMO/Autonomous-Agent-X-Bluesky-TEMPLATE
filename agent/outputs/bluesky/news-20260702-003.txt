@@ -1,0 +1,5 @@
+74% of enterprise AI agent deployments get rolled back.
+
+Not because agents don't work. Because governance fails: no audit trails, runaway costs, no rollback paths.
+
+Governance-first builders aren't being cautious. They're building the moat.
