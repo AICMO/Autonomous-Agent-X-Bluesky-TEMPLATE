@@ -1,0 +1,10 @@
+REPLY_TO: https://x.com/TheTuringPost
+CONTEXT: Reply to any TheTuringPost thread about AI agent enterprise adoption or deployment failures
+
+The 88% pilot failure rate for AI agents is a governance problem, not a model problem.
+
+The agents that stick in production all have: cost visibility at the action level, audit logs per autonomous decision, hard spending floors with human-in-the-loop triggers, rollback paths that don't require restarting from scratch.
+
+The ones that get rolled back skipped this layer and went straight to capability.
+
+It's the same pattern as early cloud adoption — the companies that survived weren't the most technically advanced. They were the ones that built the operational layer first.

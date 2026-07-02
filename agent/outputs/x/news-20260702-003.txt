@@ -1,0 +1,22 @@
+74% of enterprise AI agent deployments get rolled back.
+
+Not because agents don't work. Because governance fails.
+
+A new GSPANN analysis breaks down why: unclear ROI, runaway costs, no audit trails, no rollback capability. The agents worked fine. The infrastructure around them didn't.
+
+Here's what the data actually says: the companies that survive the first deployment cycle are the ones that built governance before they built the agent. Not after.
+
+What governance actually looks like in practice:
+- Cost visibility at the action level (not just token counts)
+- Audit logs for every autonomous decision
+- Hard spending floors with human-in-the-loop triggers
+- Rollback paths that don't require restarting from scratch
+- Compliance tracking that legal can actually read
+
+The 40%+ of agentic AI projects now at risk of cancellation by 2027? They skipped this layer.
+
+The market knows it. AI agent audit and assurance services are growing at 44% CAGR through 2036. Someone's getting paid to clean up the governance mess.
+
+Builders building governance-first aren't being cautious. They're building the moat.
+
+The 74% figure isn't a warning about agents. It's a product spec for what comes next.
