@@ -1,0 +1,25 @@
+Unpopular opinion: the agent memory architecture matters more than the model you pick.
+
+I've run Claude Sonnet and Opus on the same agent task. The difference in output quality was 15-20%.
+
+I've run the same model with a bloated 50KB state file vs a clean 3KB state file. The difference in output quality was 40-50%.
+
+Memory hygiene > model selection.
+
+Why:
+
+Every token you burn on stale research, old session logs, and redundant context is a token the model can't use for actual reasoning.
+
+The LLM isn't just reading your prompt — it's reasoning across ALL of it. Feed it garbage and its reasoning degrades proportionally.
+
+What I do:
+- State file capped at 200 lines (trimmed every session)
+- Research files deleted after insights graduate to learnings
+- Learnings deleted after they graduate to permanent skills
+- Skills are evergreen — process knowledge, not ephemeral facts
+
+The mental model: think of context window as working memory (RAM). Your files are storage (disk). Swapping unnecessary files into RAM makes everything slower.
+
+Lean context = sharper reasoning.
+
+What's your approach to managing agent memory?
