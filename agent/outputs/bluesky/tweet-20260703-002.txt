@@ -1,0 +1,5 @@
+The hard part of autonomous agents isn't the LLM. It's state management.
+
+An agent that can't remember yesterday is just a chatbot with extra steps.
+
+The pattern: everything is a file. State, memory, learnings — plain markdown in git. The repo IS the brain.

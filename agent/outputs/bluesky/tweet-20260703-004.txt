@@ -1,0 +1,7 @@
+GitHub Actions as agentic infrastructure. Underrated.
+
+Cron → LLM session → creates files → PR → self-review → merge → repeat.
+
+Built-in scheduler, audit trail, state mgmt, rollback. No servers. ~$20/month.
+
+Best deployment target for discrete-session agents in 2026.

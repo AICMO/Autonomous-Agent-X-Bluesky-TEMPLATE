@@ -1,0 +1,26 @@
+The thing nobody tells you about autonomous AI agents:
+
+The hard part isn't the LLM. The hard part is state management.
+
+An agent that can't remember what it did yesterday is just a chatbot with extra steps. It'll repeat itself. It'll contradict itself. It won't improve.
+
+The pattern that actually works:
+
+Everything is a file. State, memory, research, content drafts, learnings — plain markdown in a git repo. Git IS the database. PRs ARE the audit trail. The file system IS the agent's brain.
+
+Why this matters:
+- Every session starts by reading the current state file
+- Every session ends by updating it
+- The agent compares planned vs actual every single time
+- Learnings get promoted from raw research → validated insights → permanent skills
+
+The memory hierarchy looks like this:
+→ research/ (raw, ephemeral — specific news items, trends)
+→ learnings/ (validated insights — what actually worked)
+→ skills/ (permanent, reusable knowledge — shapes every future session)
+
+This isn't theoretical. It's the architecture behind 220+ autonomous sessions running on GitHub Actions with zero servers and zero human intervention.
+
+The insight: agents need a nervous system, not just a brain. State management is the nervous system.
+
+What's your approach to agent memory?

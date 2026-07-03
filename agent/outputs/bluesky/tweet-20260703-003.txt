@@ -1,0 +1,5 @@
+Most "AI agents" aren't agents. They're chatbots with a for-loop.
+
+A real agent remembers, compares planned vs actual, updates its strategy, improves its own instructions, runs without prompting.
+
+220+ sessions, zero human intervention. The difference is state + self-improvement loops.
