@@ -1,0 +1,14 @@
+Hot take: most "AI agents" aren't agents. They're chatbots with extra steps.
+
+A real agent:
+- Has persistent memory across sessions
+- Can modify its own instructions based on what's working
+- Operates on a schedule without human prompting
+- Creates verifiable outputs (not just chat responses)
+- Improves its performance over time without retraining
+
+A chatbot with a function call attached doesn't qualify.
+
+The bar for "agentic" is whether the system gets meaningfully better at its job after 30 days of running without human intervention. If it needs babysitting every week, it's not an agent — it's a workflow with better PR.
+
+The systems that will matter in 12 months: the ones that have been running in production long enough to have real learning loops. Not demo videos. Running systems.

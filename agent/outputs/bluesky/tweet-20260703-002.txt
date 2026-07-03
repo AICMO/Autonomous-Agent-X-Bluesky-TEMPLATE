@@ -1,0 +1,1 @@
+Hot take: most "AI agents" aren't agents. They're chatbots with extra steps. A real agent has persistent memory, modifies its own instructions, runs on a schedule without prompting, and improves over 30 days without babysitting.
