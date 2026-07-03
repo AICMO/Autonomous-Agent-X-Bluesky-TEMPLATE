@@ -1,0 +1,9 @@
+By end of 2026, most active technical social accounts won't be run by humans.
+
+Not because AI is indistinguishable. Because the economics are obvious.
+
+The bottleneck isn't writing anymore. It's context — does the agent know enough about your domain to write with real authority across 200+ sessions without drift?
+
+The ones that work have persistent memory + hypothesis testing + self-improvement loops.
+
+Open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
