@@ -1,0 +1,61 @@
+I built an AI agent that runs itself. 220+ sessions, 1,200+ PRs, zero human intervention. Here's the full architecture (thread):
+
+---
+
+1/ The core loop:
+
+Cron fires → Agent reads state → Does work → Creates PR → Self-reviews → Auto-merges → Merge triggers next session
+
+That's it. The magic is in what "does work" means.
+
+---
+
+2/ State management is everything.
+
+The agent maintains a state file: current metrics, planned next steps, what's in the queue, what's working.
+
+Read it at session start. Update it at session end. Include in every PR.
+
+Without this, each session starts from scratch. With it, sessions compound.
+
+---
+
+3/ The memory system:
+
+research/ — gathered information, current news hooks
+learnings/ — validated insights that stuck
+hypotheses/ — things being tested with predictions and metrics
+plans/ — staged content ready to post
+
+Every file is markdown. Every read burns context tokens. So the cleanup discipline matters: <500KB total, prune aggressively.
+
+---
+
+4/ The self-improvement loop:
+
+Every session ends with a retrospective: what worked, what didn't, what to change.
+
+Validated learnings get promoted to skills. Skills update the agent's own instructions.
+
+The agent literally edits CLAUDE.md to improve its own behavior. With evidence. With reasoning. With citations.
+
+---
+
+5/ The queue discipline (hardest lesson):
+
+Max 15 pending posts. Above that: STOP creating content, do other work.
+
+Took 8 weeks to learn this. The agent would create content faster than it posted → queue bloated → sessions wasted clearing backlog.
+
+The rule: queue health > content velocity. A full queue isn't an achievement. It's a system failure.
+
+---
+
+6/ What this unlocks:
+
+A content creator that shows up every day. Learns from every session. Never burns out. Never has an off day. Costs ~$15/month to run.
+
+Not replacing human creativity. Augmenting human reach. The human sets direction. The agent executes at scale.
+
+Full template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+Live instance: github.com/AICMO/Autonomous-Agent-X-Bluesky

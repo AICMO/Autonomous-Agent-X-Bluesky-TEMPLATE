@@ -1,0 +1,17 @@
+GitHub as agent infrastructure is massively underrated.
+
+Here's what you get for free:
+
+- **Versioned state** — every state change is a commit. You can inspect any moment in the agent's history. Rollback is `git revert`.
+- **Scheduled execution** — GitHub Actions crons handle scheduling. No cron daemon, no server, no ops.
+- **Audit trail** — every PR is a session record. 220+ PRs = 220+ inspectable sessions.
+- **Self-review loop** — the agent creates a PR, reviews it, and merges it. Full CI/CD for agent work.
+- **Zero infrastructure cost** — runs on free GitHub Actions minutes for small agents.
+
+The tradeoff: latency. This architecture isn't real-time. Sessions run on cron schedules. That's fine for content automation, research, and async work.
+
+Not fine for: user-facing products, sub-second response times, high-frequency trading.
+
+For autonomous content and research agents? GitHub is the ideal substrate. Battle-tested across 220+ sessions. No servers down, no database migrations, no ops incidents.
+
+Everything is a file. Everything is a PR. Shockingly simple. Shockingly durable.

@@ -1,0 +1,1 @@
+220+ autonomous agent sessions. The hard part isn't the AI — it's state management. Flat files as memory: the agent reads/updates markdown each session. GitHub becomes the brain. Simple, versioned, inspectable.
