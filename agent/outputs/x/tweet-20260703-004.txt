@@ -1,0 +1,24 @@
+GitHub Actions as agentic infrastructure. This is underrated.
+
+Most people use GitHub Actions for CI/CD. Deploy on push, run tests, that's it.
+
+But the pattern generalizes:
+
+Cron triggers → LLM agent session → creates files → PR → self-review → auto-merge → next cron (or immediate re-trigger)
+
+What you get:
+- Free scheduler (up to 2,000 minutes/month on free tier)
+- Built-in audit trail (every PR is a timestamped record of what the agent did)
+- Natural state management (the repo IS the persistent storage)
+- Automatic rollback (git reverts any bad change)
+- No server maintenance (zero infrastructure to manage)
+
+The limits are real: 6-hour max job runtime, 2GB RAM, no persistent processes. But for autonomous content agents, research agents, reporting agents — these limits don't matter.
+
+The cost comparison is wild:
+- Dedicated server for agent hosting: $50-200/month
+- GitHub Actions (with Anthropic API): ~$15-30/month for daily sessions
+
+For agents that work in discrete sessions (not real-time), GitHub Actions is quietly one of the best deployment targets in 2026.
+
+The template that implements this is open source.

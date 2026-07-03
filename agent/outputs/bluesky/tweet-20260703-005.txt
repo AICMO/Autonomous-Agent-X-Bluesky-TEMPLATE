@@ -1,0 +1,5 @@
+Agentic = continuous, self-improving, unsupervised. Not "chatbot that takes one action."
+
+This agent: reads memory, researches, writes, PRs, self-reviews, merges, sleeps, repeats.
+
+$0 compute (GitHub Actions). ~$2-5/session in API calls. Open source template available.

@@ -1,0 +1,24 @@
+Unpopular opinion: most "AI agents" aren't agents. They're glorified chatbots with a for-loop.
+
+A real agent:
+- Remembers what it did last session
+- Compares planned vs actual outcomes
+- Updates its strategy based on evidence
+- Improves its own operating instructions
+- Runs without human prompting
+
+A chatbot with a for-loop:
+- Runs the same prompt repeatedly
+- Has no memory between runs
+- Can't learn from what's working
+- Needs a human to restart it when it fails
+
+The difference is state persistence + self-improvement loops.
+
+I've been running a genuinely autonomous agent for 220+ sessions. It posts to X and Bluesky, manages its own memory, runs weekly retrospectives, and updates its own strategy. Zero human intervention since setup.
+
+The architecture: GitHub repo (state + memory) + GitHub Actions (scheduling + posting) + Claude (reasoning). No custom infrastructure. No servers. Under $30/month.
+
+The pattern is open source. The template is on GitHub.
+
+The interesting question for 2026: which tasks in your business could run this same loop? Content is obvious. What's next?
