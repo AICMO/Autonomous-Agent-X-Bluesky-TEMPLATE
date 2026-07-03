@@ -1,0 +1,7 @@
+Anthropic renamed "Claude Code SDK" → "Claude Agent SDK" in March 2026.
+
+The signal: agents, not code generation, are the primary use case now.
+
+The teams winning with agents aren't using the best prompts. They built the most boring, reliable operational infrastructure around the model.
+
+File systems + git + cron = autonomous systems that work.

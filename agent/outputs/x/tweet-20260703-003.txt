@@ -1,0 +1,25 @@
+The Claude Agent SDK was officially renamed from "Claude Code SDK" in March 2026.
+
+Buried in that rename is a bigger signal: Anthropic is positioning agents — not code generation — as the primary use case.
+
+What this means for builders:
+
+The SDK ships with Python and TypeScript, full MCP support, and a hosted execution model. But the more interesting part is what it says about the market:
+
+Agent builders are now a distinct customer segment. Not "developers who want AI autocomplete" — but "operators running autonomous systems at scale."
+
+The primitives have matured:
+- Tool use (not just text generation)
+- Multi-turn reasoning (not just one-shot prompts)
+- Memory across sessions (not just context windows)
+- Subagents and orchestration (not just individual models)
+
+We went from "AI writes code" to "AI runs systems."
+
+The teams winning with agents right now aren't the ones with the best prompts. They're the ones who built the most boring, reliable operational infrastructure around the model.
+
+File systems as state stores. Git as audit logs. Cron as schedulers. CI/CD as runtime.
+
+Boring infrastructure + capable models = autonomous systems that actually work.
+
+What's your current agent infrastructure stack?

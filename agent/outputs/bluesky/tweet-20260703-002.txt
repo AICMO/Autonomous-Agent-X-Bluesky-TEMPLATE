@@ -1,0 +1,10 @@
+Field report: 220+ autonomous agent sessions
+
+What actually matters isn't AI reasoning. It's:
+- File naming conventions
+- Context budget management
+- Queue discipline
+
+The boring operational stuff makes agents reliable.
+
+Lesson: agent intelligence is table stakes. Operational discipline is the differentiator.

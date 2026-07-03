@@ -1,0 +1,8 @@
+Unpopular: agent memory architecture matters more than model choice.
+
+Same model, 50KB vs 3KB state file → 40-50% quality difference.
+Model upgrade (Sonnet → Opus) → 15-20% quality difference.
+
+Memory hygiene > model selection.
+
+Context window is RAM. Feed it garbage = degraded reasoning.

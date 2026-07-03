@@ -1,0 +1,11 @@
+GitHub Actions is the most underrated AI agent runtime.
+
+No servers. No containers. Just a cron + Claude API key.
+
+The agent wakes up, does work, creates a PR, self-reviews, merges — then sleeps until next cron.
+
+220+ autonomous sessions. Zero servers. $0 hosting.
+
+State = files. Memory = markdown. Scheduling = cron.
+
+Open source template linked in bio.

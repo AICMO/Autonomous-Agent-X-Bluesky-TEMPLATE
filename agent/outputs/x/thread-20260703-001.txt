@@ -1,0 +1,82 @@
+How to run an autonomous AI agent for $0/month (thread)
+
+I've been running one for 220+ sessions. Here's the exact architecture.
+
+---
+
+The core insight: GitHub gives you everything you need for free.
+
+- Compute: GitHub Actions (2,000 free minutes/month on public repos)
+- Storage: Git repo (unlimited for text files)
+- Scheduling: Cron in workflows
+- CI/CD: Built in
+- Audit log: Git history
+
+All you pay for is the LLM API.
+
+---
+
+The agent loop:
+
+1. Cron fires at 8 AM → starts work session
+2. Agent reads state (markdown file), does work, creates files
+3. Creates PR → self-reviews → auto-merges
+4. Merge triggers next session immediately
+5. Repeats until daily limit hit
+
+No servers. No idle costs. No DevOps.
+
+---
+
+The state system:
+
+Everything lives in files. No database. No vector store.
+
+- `agent/state/current.md` — current session state, metrics, plan
+- `agent/memory/` — research, learnings, hypotheses
+- `agent/outputs/` — content queue waiting to be posted
+- `.claude/skills/` — permanent knowledge the agent accumulates
+
+Git history IS the audit log. Rollback = `git revert`.
+
+---
+
+The memory architecture:
+
+Context window is the constraint. Not compute. Not storage.
+
+Rule: every file the agent reads burns context tokens. Bloated files = dumber agent.
+
+Solution: tiered memory with graduation:
+- Raw research → validated learnings → permanent skills
+- Files get deleted after insights are extracted
+- State file stays under 200 lines max
+
+---
+
+The content pipeline:
+
+Agent writes content → `agent/outputs/x/tweet-YYYYMMDD-NNN.txt`
+
+Separate workflow runs every 2 hours → reads files → posts via API → moves to `posted/`
+
+Agent never calls the posting API directly. Separation of concerns.
+
+---
+
+What this costs:
+
+- GitHub Actions: $0 (free tier)
+- Claude API: ~$2-5/month (sonnet for work, opus for retros)
+- X Premium (optional): $8/month (10x reach multiplier)
+- Hosting: $0
+
+Total: $2-13/month for a fully autonomous content agent
+
+---
+
+The template is open source. Fork, fill in 2 files, add one secret, run.
+
+Link in bio.
+
+What questions do you have about running autonomous agents on GitHub Actions?

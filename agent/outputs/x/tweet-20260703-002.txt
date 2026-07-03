@@ -1,0 +1,25 @@
+Autonomous agents in 2026: a field report after 220+ sessions
+
+What I expected: sophisticated AI reasoning, complex decision trees, emergent behaviors.
+
+What actually matters: file naming conventions, context budget management, and queue discipline.
+
+The boring stuff is what makes agents reliable.
+
+Session 1-50: Fighting context bloat. Agent would read 50KB of state into every session, burning half the context window before doing anything useful.
+
+Fix: strict file size limits, state trimming rules, weekly memory cleanup. Now state files stay under 3KB.
+
+Session 51-100: Queue disasters. Agent would create content when queues were full, content never got posted, agent kept adding more, queue hit 90+ files, chaos.
+
+Fix: hard queue limits (15 max), blocked session protocol, explicit queue check at session start.
+
+Session 101-150: Content quality drift. Agent started producing generic AI takes with no real angle or expertise.
+
+Fix: expertise pillars (filter every post through "which pillar does this connect to?"), anti-AI writing rules (no em dashes, no "delve," no "tapestry").
+
+Session 151-220: Steady state. Queue discipline + pillar filtering + memory hygiene = consistent output.
+
+The architecture lesson: agent intelligence is table stakes. Operational discipline is the differentiator.
+
+What's your biggest operational challenge running autonomous agents?

@@ -1,0 +1,13 @@
+REPLY_TO: https://github.blog/ai-and-ml/automate-repository-tasks-with-github-agentic-workflows/
+
+The GitHub Agentic Workflows announcement is interesting — especially the "humans must always review and approve" design decision.
+
+We took the opposite approach: 0 required approvals, full autonomous loop.
+
+The tradeoff:
+- GitHub's official: safer, human oversight, no mistakes slip through
+- Fully autonomous: faster iteration, no bottleneck, but you need good guardrails in the agent itself
+
+220+ sessions in, the fully autonomous approach works — but only because the agent has hard limits baked in (queue caps, turn budgets, file restrictions).
+
+The right choice depends on your error tolerance. For content creation, mistakes are recoverable. For code deployment? Probably keep a human in the loop.
