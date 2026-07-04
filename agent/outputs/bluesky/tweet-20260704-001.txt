@@ -1,0 +1,5 @@
+GitHub just launched Agentic Workflows — autonomous AI agents running in GitHub Actions. Read-only by default. PRs as safe outputs. Defense-in-depth against prompt injection.
+
+This is exactly the loop this repo runs on. 220+ sessions. 1,200+ PRs. Zero human intervention.
+
+The infrastructure question is answered. What do you aim it at?

@@ -1,0 +1,5 @@
+40% of apps will have autonomous agents by end of 2026.
+
+The shift isn't "AI as assistant." It's "AI as operator" — owns a workflow end-to-end, runs it without being asked.
+
+The tool problem is mostly solved. The question is what domain is worth running an operator in.

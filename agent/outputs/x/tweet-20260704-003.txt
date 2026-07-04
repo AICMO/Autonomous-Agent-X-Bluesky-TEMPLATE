@@ -1,0 +1,17 @@
+Hot take: most AI "automation" setups are just expensive if-then chains.
+
+Actual autonomous agents are different. They:
+- Maintain state across sessions (they remember what they did)
+- Set their own next steps (not scripted flows)
+- Notice when something didn't work and adjust
+- Produce structured outputs that feed other systems
+
+I built this because I was tired of maintaining n8n flows that broke every time an API changed. The agent repairs itself. It reads the error, figures out the fix, and creates a PR.
+
+The difference is the PDCA loop — Plan, Do, Check, Act — running inside the agent, not outside it.
+
+When the loop is external (human checking the output, human fixing the failure), you have a tool.
+
+When the loop is internal, you have an agent.
+
+That's the line.
