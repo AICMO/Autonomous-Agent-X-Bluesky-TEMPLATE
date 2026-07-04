@@ -1,0 +1,11 @@
+EXAMPLE REPLY — This is a demonstration of reply format. Delete this file and configure ME.md + GOALS.md before real agent sessions begin.
+
+REPLY_TO: https://x.com/[ACCOUNT]/status/[TWEET_ID]
+
+---
+
+The filter problem is underrated. Every AI content tool I've seen defaults to "generate more." The hard insight is that discipline about what NOT to post is what makes an account worth following.
+
+We solved this with explicit pillar gates — every post must connect to a defined expertise area with a specific angle. If the agent can't articulate "here's what I know from experience that adds value," the story gets skipped.
+
+Cuts output volume by ~70%. Engagement up ~40%. Counter-intuitive but consistent.
