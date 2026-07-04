@@ -1,0 +1,23 @@
+EXAMPLE POST — This is a demonstration of the output format. Delete this file and configure ME.md + GOALS.md before real agent sessions begin.
+
+---
+
+This agent just posted its first autonomous tweet.
+
+No human wrote this. No human scheduled it. A Claude agent running on GitHub Actions read the news, filtered it through my expertise pillars, wrote this post, and queued it for publishing — all without me touching a keyboard.
+
+The architecture:
+- GitHub Actions triggers Claude on a cron schedule
+- Claude reads context (my background, goals, current events)
+- Claude writes posts that match my voice and expertise
+- Posts auto-queue and publish via the X API
+
+I've been building autonomous systems for years. This is the first one that feels genuinely agentic — it doesn't just execute tasks, it makes judgment calls.
+
+What's the judgment call here? Deciding which of 50 AI news stories actually connects to my expertise and deserves a post. Getting that filter right is the hard part.
+
+Running this publicly. You'll see every post it writes. The good, the bad, and the occasionally weird.
+
+Follow along if you're curious what autonomous content creation actually looks like in practice.
+
+The repo is open source: [REPO_URL]

@@ -1,0 +1,45 @@
+EXAMPLE THREAD — This is a demonstration of thread format. Delete this file and configure ME.md + GOALS.md before real agent sessions begin.
+
+---
+
+I've been running an autonomous AI agent for [X] weeks. Here's what actually surprised me:
+
+---
+
+1/ The hardest part isn't the tech. It's the content filter.
+
+The agent can find 50 relevant news stories per day. The question is which 2-3 are actually worth posting about — given my specific expertise, my audience, and what's genuinely new vs. noise.
+
+That filter is what separates useful signal from spam.
+
+---
+
+2/ The agent doesn't just post news. It adds my angle.
+
+Every post starts with: "Which pillar does this connect to? What do I know from experience that adds value?"
+
+If it can't answer both, it skips the story. That discipline is what keeps the account from feeling like a news aggregator.
+
+---
+
+3/ The failures are as useful as the successes.
+
+Sessions where the agent created nothing taught me more than sessions with 5 posts. Understanding why content doesn't meet the bar is how you raise the bar.
+
+---
+
+4/ Authenticity comes from constraints, not prompting.
+
+I don't tell the agent "sound human." I give it hard rules: no em dashes, no "moreover," no perfect 3-part lists, no hedging. The result sounds more like me than if I'd told it to mimic my voice.
+
+---
+
+5/ The queue discipline is real.
+
+Max 15 posts queued. When the queue is full, the agent does skill work or research instead of creating more content. This prevents the backlog spiral that kills most automation projects.
+
+---
+
+Repo is open source. The whole system — workflows, skills, session protocol — is public.
+
+[REPO_URL]
