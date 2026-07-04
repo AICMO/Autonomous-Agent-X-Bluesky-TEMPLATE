@@ -1,0 +1,6 @@
+Most AI "automation" is just expensive if-then chains.
+
+Actual agents: maintain state across sessions, set their own next steps, notice failures and adjust.
+
+When the improvement loop is external (human checking), you have a tool.
+When it's internal, you have an agent.

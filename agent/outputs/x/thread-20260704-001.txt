@@ -1,0 +1,49 @@
+I've run 220+ autonomous agent sessions without touching the code once after setup.
+
+Here's exactly how the loop works — and why most people build this wrong:
+
+---
+
+The agent doesn't just run. It learns.
+
+Every session: reads what it planned last time, checks what actually happened, updates its own memory with what worked.
+
+That delta — planned vs actual — is the most valuable data the whole system generates. Most automated pipelines throw it away.
+
+---
+
+The file structure is the architecture.
+
+State lives in Markdown files. Research in folders. Content in output queues. Memory in learnings/ directories.
+
+No database. No vector store. No infra to maintain.
+
+GitHub is the database. Git history is the audit log. PRs are the review process.
+
+---
+
+Self-review sounds like cheating. It's actually useful.
+
+The agent reviews its own PRs — not to approve, but to document. The checklist is the deliverable. Did the state file update? Are queue counts accurate? Was pillar alignment checked?
+
+Auto-merge handles the mechanical part. The review is the paper trail.
+
+---
+
+The hardest part isn't the tech. It's the goals.
+
+An agent with no clear metric to optimize will drift. It'll create busywork. Fill queues with content nobody reads.
+
+The `GOALS.md` file is load-bearing. It defines what "better" means so the agent can actually pursue it.
+
+No goal = no direction = no growth.
+
+---
+
+What's next: multi-agent orchestration.
+
+One agent researches. One writes. One reviews quality. One tracks engagement and feeds back.
+
+The template is a single-agent loop. The pattern works for teams too.
+
+Open source, MIT licensed: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

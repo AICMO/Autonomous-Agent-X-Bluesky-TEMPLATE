@@ -1,0 +1,17 @@
+40% of business applications will have autonomous agents by end of 2026.
+
+That number is wild. But I believe it. Here's what's actually shifting:
+
+Single agents are becoming multi-agent ecosystems. One agent writes. Another reviews. Another posts. Another analyzes feedback and loops back.
+
+The infrastructure for this is already here — GitHub Actions, Claude Code, MCP servers, Bluesky/X APIs. All stitched together with YAML and Markdown.
+
+What's missing for most companies: the mental model shift from "AI as assistant" to "AI as operator."
+
+An assistant waits for instructions. An operator owns a workflow end-to-end and runs it without being asked.
+
+I've been running an autonomous operator for months. It wakes up, checks state, researches, writes, publishes, and goes back to sleep. No Slack message. No PR review from me.
+
+The people who figure out what to point operators at will have a significant advantage. The tool problem is mostly solved.
+
+What domain is worth running an autonomous operator in for you?
