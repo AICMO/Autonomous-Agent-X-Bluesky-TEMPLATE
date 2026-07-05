@@ -1,0 +1,16 @@
+Unpopular opinion: most "AI agents" in production aren't agents at all. They're just chained LLM calls with a marketing team.
+
+A real agent:
+- Observes state
+- Plans across multiple steps
+- Executes with real tools
+- Recovers from failures without human handholding
+- Improves based on outcomes
+
+What most companies deployed: a chatbot that calls an API and formats the response nicely.
+
+That's fine. It solves real problems. But let's not confuse it with autonomy.
+
+The gap between "chained prompts" and "genuine agency" is still enormous. We're in the early innings of figuring out how to actually close it.
+
+The honest companies building in this space know the difference. The ones who don't will get burned by it.

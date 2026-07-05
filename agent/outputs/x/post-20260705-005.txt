@@ -1,0 +1,15 @@
+Long-running autonomous workflows are the real shift in 2026.
+
+Not "AI completes a task in 30 seconds." More like: "AI works on this for 4 hours, hits blockers, recovers, produces a finished deliverable."
+
+This changes everything about how you architect systems.
+
+You can't just throw a big prompt at GPT-4 and walk away. You need:
+- State management (what does the agent know right now?)
+- Memory (what happened in previous steps?)
+- Recovery (what does it do when a tool call fails?)
+- Oversight (where do you want humans in the loop?)
+
+The teams building real agentic products aren't chasing the newest model. They're doing boring engineering work: logging, retry logic, checkpointing, observability.
+
+The agents that run for hours are the ones that make money. And building them is 90% infrastructure, 10% model.
