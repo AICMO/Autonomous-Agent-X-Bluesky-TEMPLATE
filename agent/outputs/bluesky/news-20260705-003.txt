@@ -1,0 +1,7 @@
+The context window is the new moat.
+
+Not the model. The context architecture.
+
+What goes in, at what point, in what order — that determines quality more than model choice.
+
+Context engineering is the underrated skill of 2026.

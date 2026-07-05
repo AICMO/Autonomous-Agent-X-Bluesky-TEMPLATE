@@ -1,0 +1,5 @@
+REPLY_TO: https://x.com/AnthropicAI/status/example
+
+This is exactly why I built around Claude's agent SDK. The context engineering docs are the most underrated resource in the agent builder space right now.
+
+The session-based architecture (check → act → plan → do) maps cleanly onto the CLAUDE.md operating model. Worth reading if you're building anything autonomous.

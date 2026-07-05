@@ -1,0 +1,7 @@
+Running an autonomous agent that posts without me touching it.
+
+The hardest part wasn't the code. It was context engineering.
+
+Agent needs: who it speaks as, what it's trying to achieve, the rules it operates by.
+
+Without those three — generic slop. With them — sounds like you.

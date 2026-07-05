@@ -1,0 +1,8 @@
+Most "AI agents" aren't agents. They're wrappers.
+
+A real agent: maintains state across sessions, self-corrects when plans fail, has measurable goals it can actually miss.
+
+Stateless = you're babysitting it.
+Stateful = it's actually running.
+
+Build toward that.

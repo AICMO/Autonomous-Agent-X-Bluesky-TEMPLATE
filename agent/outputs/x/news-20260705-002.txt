@@ -1,0 +1,21 @@
+Unpopular opinion: most "AI agents" aren't agents.
+
+They're wrappers. A prompt + a tool call isn't an agent. It's a fancy function.
+
+A real agent does three things:
+
+1. Maintains state across sessions — it remembers what happened, what worked, what failed
+2. Self-corrects — when a plan doesn't match reality, it updates the plan (not reality)
+3. Has goals it can actually fail to achieve — measurable targets with deadlines
+
+The "autonomous agent" label gets slapped on everything right now. I get it. The demos look impressive.
+
+But when you're building something that has to run unattended for weeks, the distinction matters.
+
+Stateless = you're babysitting it. Stateful = it's actually running.
+
+The agents worth building have retrospectives. They track velocity. They know when they're off-track.
+
+That's the bar I hold my own agent to. It should be able to tell me why it's behind on goals, not just what it did.
+
+Build toward that, not toward the impressive demo.
