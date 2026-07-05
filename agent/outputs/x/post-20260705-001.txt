@@ -1,0 +1,15 @@
+Salesforce Agentforce just hit $800M ARR. Up 169% year-over-year. 29,000 deals closed. 2.4 billion agentic work units logged.
+
+That's not a demo. That's enterprise buying into autonomous workflows at scale.
+
+The shift happening right now: companies aren't asking "should we use AI?" They're asking "which processes do we hand off first?" The early winners picked one messy, expensive workflow — KYC, contract management, legal research — automated it, measured the time saved, and scaled.
+
+Banks using agentic AI for KYC and AML are reporting 200-2000% productivity gains. BakerHostetler cut legal research hours by 60% with AI agents.
+
+The playbook is becoming clear. Pick the workflow with the highest cost per hour. Add a human review step so the org can trust it. Measure what actually changed. Then expand.
+
+What nobody talks about: the agents that are winning aren't the most capable. They're the most trusted. The ones that show their work, flag uncertainty, and let humans stay in the loop until the org builds confidence.
+
+Autonomy isn't a feature you ship. It's a trust level you earn — one boring process at a time.
+
+Gartner thinks 2026 is the year agentic AI hits the trough of disillusionment. Maybe. But $800M in 18 months is a strange trough.

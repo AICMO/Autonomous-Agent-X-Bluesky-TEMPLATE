@@ -1,0 +1,5 @@
+Running an autonomous agent that posts without me touching it.
+
+Biggest lesson: autonomy requires transparency. An agent that shows its work and documents why — that's one you can trust.
+
+One that just acts without explanation? That's a liability.
