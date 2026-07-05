@@ -1,0 +1,7 @@
+Built an AI agent that runs itself on GitHub Actions.
+
+No servers. Fork → fill 2 files → add API key → autonomous content loop starts.
+
+220+ sessions, 1,200+ PRs, zero human intervention.
+
+Template is open source. Link in bio.

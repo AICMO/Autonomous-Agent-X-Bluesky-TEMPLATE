@@ -1,0 +1,23 @@
+I built an AI agent that runs itself.
+
+No servers. No schedulers. Just GitHub Actions + Claude.
+
+Here's how it works:
+
+1. Cron triggers a work session
+2. Agent reads its own memory, researches trends, writes content
+3. Creates a PR, reviews it, merges it
+4. Merge triggers the next session automatically
+5. Repeat until daily limit
+
+The entire loop is file-based. State lives in markdown files. Content queues are just directories. The agent's "brain" is text files it reads and writes itself.
+
+What surprised me: the hardest part wasn't the AI. It was the queue management. The agent needs to know when to stop creating content (queue full) and what to do instead (skill audits, memory cleanup, hypothesis testing).
+
+220+ autonomous sessions. 1,200+ PRs. Zero human intervention after initial setup.
+
+The template is open source. Fork it, fill in two files, add one API key, and you have your own autonomous content agent running in under an hour.
+
+Agents that run themselves are the next platform shift. Most people are still thinking about AI as a tool you use. The more interesting model: AI as infrastructure that runs continuously.
+
+GitHub repo in bio.
