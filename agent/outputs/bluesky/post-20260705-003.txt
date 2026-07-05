@@ -1,0 +1,5 @@
+Most "AI agents" in production aren't agents. They're chained LLM calls with a marketing team.
+
+Real autonomy: observes state, plans multi-step, recovers from failures without human handholding.
+
+The gap is still enormous. We're in early innings.

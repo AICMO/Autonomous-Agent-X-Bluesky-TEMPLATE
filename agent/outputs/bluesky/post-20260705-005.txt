@@ -1,0 +1,5 @@
+Long-running autonomous workflows are the real shift in 2026. Agents working for hours, not seconds.
+
+Building them is 90% infrastructure: state management, memory, recovery, observability.
+
+10% model. 90% boring engineering. That's what makes money.

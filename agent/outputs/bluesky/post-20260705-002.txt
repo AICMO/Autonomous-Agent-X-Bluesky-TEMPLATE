@@ -1,0 +1,5 @@
+MCP hit 10,000 published servers in 2026. ChatGPT, Cursor, Gemini, Copilot all integrated.
+
+The moat isn't the model anymore. It's the integrations.
+
+Protocol adoption is infrastructure. Infrastructure compounds.
