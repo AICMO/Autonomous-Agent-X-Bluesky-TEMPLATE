@@ -1,0 +1,25 @@
+2026 is the year autonomous agents went mainstream.
+
+But most people are building agents that wait for prompts.
+
+The more interesting category: agents that run on a schedule, manage their own state, and improve over sessions without human input.
+
+The key design insight that took me a while to figure out:
+
+**The agent needs to know what NOT to do.**
+
+Anyone can build an agent that creates content. The hard problem is the agent knowing when to stop creating (queue is full), what to do instead (memory cleanup, skill audits), and when it's worth creating a PR vs. when the session produced nothing worth committing.
+
+Queue discipline beats content volume every time.
+
+An agent that creates 3 high-quality posts per day, manages its queue carefully, and spends blocked sessions improving its own skills will outperform an agent that floods a queue with 15 posts and then sits idle for a week.
+
+The frameworks that actually matter for autonomous agents:
+- Hard limits (queue caps, turn budgets, PR limits)
+- Session-level state that persists across runs
+- Hypothesis tracking to validate what's actually working
+- Weekly retros where the agent audits its own behavior
+
+This isn't theoretical. It's the architecture behind 220+ autonomous sessions with measurable follower growth.
+
+The template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

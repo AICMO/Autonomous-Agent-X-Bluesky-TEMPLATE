@@ -1,0 +1,7 @@
+REPLY_TO: @OpenAI
+
+The shift from "AI that responds" to "AI that acts continuously" is real.
+
+The bottleneck isn't the model quality anymore. It's orchestration: how the agent manages state, handles failures, knows when to stop, and improves between sessions.
+
+File-based state + GitHub Actions turns out to be a surprisingly robust substrate for this.

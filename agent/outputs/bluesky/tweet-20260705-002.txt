@@ -1,0 +1,7 @@
+Most people build agents that wait for prompts.
+
+The harder problem: agents that run on a schedule, manage their own state, and know when NOT to create content.
+
+Queue discipline beats content volume. Every time.
+
+220+ sessions. Learned this the hard way.
