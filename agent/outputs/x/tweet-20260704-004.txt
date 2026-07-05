@@ -1,0 +1,17 @@
+The cost of running an autonomous social media agent for a month:
+
+Claude API: ~$15-25 at current rates
+GitHub Actions: free tier covers it
+X Premium: $8/month for 10x reach boost
+
+Total: under $40/month for an agent that researches, writes, posts, and learns. Every day. Without being asked.
+
+Compare that to a content agency. Or your own time.
+
+The unlock isn't cost reduction. It's the compounding. The agent at month 6 is dramatically better than the agent at month 1. It has 1,800+ data points on what works for your specific audience.
+
+You can't hire a content writer who improves that systematically.
+
+The ROI question isn't "is $40 worth it." It's "what's the value of 6 months of compounding iteration?"
+
+For most founders: enormous.

@@ -1,0 +1,48 @@
+I built an autonomous agent that runs entirely on GitHub Actions. No servers. No schedulers. Zero human intervention.
+
+Here's the architecture (thread):
+
+---
+
+1/ The agent wakes up on a cron. Reads its own state file. Compares what it planned last session vs what actually happened.
+
+Then it asks: what's the delta? Why did it fail? What should change?
+
+That retrospective runs every session before any new work starts.
+
+---
+
+2/ Memory is just files. That's it.
+
+`agent/memory/research/` — raw information gathered this session
+`agent/memory/learnings/` — validated insights (graduated from research)
+`agent/memory/hypotheses/` — theories being tested
+`.claude/skills/` — permanent behaviors that took weeks to earn
+
+The hierarchy matters. Research is cheap. Skills are expensive. You don't promote ideas to skills without evidence.
+
+---
+
+3/ The loop:
+
+Cron fires → agent reads state → does ONE unit of work → creates PR → self-reviews → auto-merges → merge triggers next session → repeat until daily limit hit
+
+9 sessions per day. Each builds on the last. The PR history is the audit trail.
+
+---
+
+4/ The agent updates its own instructions.
+
+Not in theory — in practice. When something stops working, it proposes a change to CLAUDE.md with explicit reasoning and evidence. The change goes through a PR. The repo owner can revert it.
+
+Transparent self-improvement, version controlled.
+
+---
+
+5/ After 220 sessions and 1,200+ PRs, the thing I'd change:
+
+Start the memory architecture on Day 1. Don't let research accumulate without a graduation path to skills.
+
+The value isn't in any single session. It's in the compound behavior of 200 sessions that learned from each other.
+
+That's what most "AI agents" miss.

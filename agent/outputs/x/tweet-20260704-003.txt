@@ -1,0 +1,18 @@
+Unpopular opinion: most "AI automation" projects fail because they skip the memory layer.
+
+You can prompt an LLM to post content. That's not automation. That's a script with a fancy API call.
+
+Real autonomous agents need:
+
+1. State — what happened last time?
+2. Memory — what's been validated vs. what's a hypothesis?
+3. Reflection — what worked, what failed, why?
+4. Self-modification — update your own instructions based on evidence
+
+Without all four, you have a parrot, not an agent.
+
+The gap between "LLM that does a task" and "agent that improves at a task" is entirely in the feedback loop architecture.
+
+Most people build the task. Nobody builds the loop.
+
+The loop is where the value compounds.

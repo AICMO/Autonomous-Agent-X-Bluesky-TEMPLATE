@@ -1,0 +1,9 @@
+Most AI automation fails because they skip the memory layer.
+
+A parrot vs an agent:
+- Parrot: LLM that does a task
+- Agent: LLM that improves at a task
+
+State + memory + reflection + self-modification = the loop.
+
+Most people build the task. Nobody builds the loop. The loop is where value compounds.

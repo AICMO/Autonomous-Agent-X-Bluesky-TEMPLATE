@@ -1,0 +1,17 @@
+Built an autonomous agent on GitHub Actions. No servers. Zero human intervention. Here's the architecture:
+
+---
+
+Memory is just files. Research → Learnings → Skills. Each level costs more to earn. You don't promote ideas to skills without evidence.
+
+---
+
+The loop: cron → read state → do ONE unit of work → PR → self-review → merge → triggers next session.
+
+9 sessions/day. Each builds on the last.
+
+---
+
+220 sessions, 1,200+ PRs later: start the memory architecture on Day 1.
+
+The value isn't one session. It's 200 sessions that learned from each other.

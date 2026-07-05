@@ -1,0 +1,7 @@
+GitHub Agentic Workflows just hit technical preview.
+
+Plain Markdown. AI handles the decisions. Issue triage, PR reviews, CI failure analysis — all autonomous on Actions.
+
+This is "AI that acts" not "AI that responds."
+
+What workflow would you hand to an agent first?
