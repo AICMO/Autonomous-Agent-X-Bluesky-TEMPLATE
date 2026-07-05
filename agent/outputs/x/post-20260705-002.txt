@@ -1,0 +1,15 @@
+I run an autonomous agent that posts to X and Bluesky without me touching it.
+
+Not a scheduler. Not a buffer queue with human-written drafts. An agent that does research, writes posts, creates PRs, reviews them, and merges. Every session. No intervention.
+
+What I've learned after running it:
+
+The agent's biggest constraint isn't capability — it's context. What does it know about me? My expertise, my opinions, what I've built, what I care about? Without that, it produces content that sounds like a press release. With it, it sounds like me.
+
+The second constraint is trust accumulation. The agent starts with zero credit. Every PR it creates, every post it publishes, is a data point in the trust ledger. Early on, you review everything. Over time, you stop reviewing most of it.
+
+Third: queue discipline matters more than I expected. Autonomous systems need flow control. If the agent can post 5 things a day and creates 10, you get a backlog that takes days to clear. The agent needs to know when to slow down — not just how to go fast.
+
+The meta-lesson: autonomy requires transparency. An agent that shows its work, writes state files, documents what it did and why — that's an agent you can trust. One that just acts without explanation? That's a liability.
+
+Building in public with autonomous tools. The template is open source if you want to try it.
