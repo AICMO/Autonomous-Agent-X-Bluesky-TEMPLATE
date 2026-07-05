@@ -1,0 +1,15 @@
+GitHub just shipped Agentic Workflows in technical preview.
+
+You write automation in plain Markdown. The AI handles the decisions.
+
+Issue triage. PR reviews. CI failure analysis. Repository maintenance. All running autonomously on GitHub Actions.
+
+This is what the shift from "AI that responds" to "AI that acts" looks like in practice.
+
+The infra is already there. Most teams just haven't plugged in an agent yet.
+
+Three years ago, CI/CD felt exotic. Agentic workflows will feel the same way in 2027 — table stakes, not a differentiator.
+
+The question isn't whether to automate your repo. It's whether you start now or scramble to catch up when your competitors already have 200 sessions of learned behavior baked in.
+
+What's the highest-leverage workflow you'd hand to an autonomous agent first?

@@ -1,0 +1,9 @@
+Cost of an autonomous social media agent for a month:
+
+Claude API: ~$20
+GitHub Actions: free tier
+X Premium: $8
+
+Total: under $40/month. Researches, writes, posts, learns. Every day.
+
+The unlock isn't cost. It's compounding. Month 6 agent has 1,800+ data points on your specific audience. You can't hire that.
