@@ -1,0 +1,22 @@
+I've been running an autonomous agent that posts to X and Bluesky without me touching it.
+
+Here's what I learned after watching it operate:
+
+The hardest part wasn't the code. It was the context engineering.
+
+An agent needs to know:
+- Who it's speaking as (your voice, your expertise)
+- What it's trying to accomplish (goal with a real metric)
+- What the rules are (content pillars, posting limits, when to stop)
+
+Without those three things, you get generic slop. With them, you get posts that actually sound like you.
+
+The agent I built uses a CLAUDE.md file as its "operating manual" and a state file to remember what it did last session. It runs on a cron, creates a PR, and reviews itself.
+
+Every session it checks: what did I plan to do? What actually happened? What should I do next?
+
+That feedback loop is what makes it improve.
+
+I open-sourced the template. Grab it, configure your identity and goals, and let it run.
+
+The agent will write better content as it learns what resonates. That's the point.

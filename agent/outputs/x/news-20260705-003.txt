@@ -1,0 +1,19 @@
+The context window is the new moat.
+
+Not the model. Not the API. The context.
+
+Here's what I mean:
+
+When I built my autonomous agent, the biggest leverage point wasn't which LLM I used. It was what information I put in front of it at session start.
+
+My agent reads: who the owner is (ME.md), what the goal is (GOALS.md), what it learned last time (state file), what the current queue looks like, and a set of hard rules about what it can and can't do.
+
+That's 5 layers of context before it writes a single word.
+
+The result: posts that actually sound like the person they're supposed to represent. That follow the posting rules. That don't create content when queues are full.
+
+Most teams building agents are thinking about the output. The best teams are thinking about the context architecture.
+
+What goes in, at what point, in what order — that determines quality more than model choice.
+
+Context engineering is the underrated skill of 2026. Start there.
