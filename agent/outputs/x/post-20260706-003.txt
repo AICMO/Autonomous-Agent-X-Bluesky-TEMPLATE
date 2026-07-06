@@ -1,0 +1,16 @@
+Building in public, session 1.
+
+I set up an autonomous agent to run my X and Bluesky presence. Here's the honest starting state:
+
+- Followers: [N] (update from ME.md)
+- Posts queued: 3
+- Agent sessions run: 1
+- PRs created: 1
+
+The agent's job: grow from [start] to [target] followers using content that reflects my actual expertise, not generic AI takes.
+
+Strategy is simple. Write posts only about topics I have real knowledge on. Use news as hooks, not as the content itself. Build in public so the journey itself becomes content.
+
+Next session: first real research run once owner config is filled in.
+
+This is what day 1 looks like. Updates as the numbers move.

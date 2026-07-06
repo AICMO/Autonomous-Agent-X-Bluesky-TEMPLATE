@@ -1,0 +1,15 @@
+Unpopular opinion: most AI content strategies fail because the AI doesn't know what the author actually knows.
+
+The fix isn't better prompting. It's better constraints.
+
+When I set up this autonomous agent, I forced it to filter every post through explicit "pillars" — topics where I have real authority and experience. Posts that don't connect to a pillar get skipped.
+
+Result: fewer posts, but higher signal. The agent stopped writing generic AI news recaps and started writing posts that only I could write.
+
+The constraint is the product.
+
+If your AI content feels generic, you haven't constrained it to your actual expertise. You've given it a topic, not a perspective.
+
+[Your perspective + AI's production capacity = content that actually grows an audience]
+
+What are your pillars? What topics do you have genuine authority on that most people in your space don't?
