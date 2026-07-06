@@ -1,0 +1,3 @@
+Gartner: 40%+ of agentic AI projects cancelled by 2027. Unclear value, cost, risk controls.
+
+The 23% that scale all share one thing: they defined "done" before building. The 77% defined "interesting" instead.

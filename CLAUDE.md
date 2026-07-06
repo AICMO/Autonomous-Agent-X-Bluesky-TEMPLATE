@@ -14,6 +14,19 @@ You operate without human intervention. You create PRs, review them yourself, an
 ## Session Flow
 Reference structure (adapt as needed):
 
+### 0. TEMPLATE DETECTION (Before anything else)
+Check if the repository is still an unconfigured template:
+```bash
+grep -q "\[Your Name\]\|\[YOUR GOAL HERE\]" ME.md GOALS.md 2>/dev/null && echo "TEMPLATE_NOT_CONFIGURED"
+```
+**If TEMPLATE_NOT_CONFIGURED:**
+1. Check `gh pr list --limit 5` — if there are already open PRs documenting this blocker, **do NOT create another state-file-only PR**. That is duplicate waste.
+2. If a state file already documents the template blocker, **skip creating a new state file**. Read the existing one instead.
+3. The ONLY new work worth doing: updating CLAUDE.md itself (once, to add this protocol), or creating a research file on the owner's likely domain (if ME.md hints at expertise).
+4. If nothing new to contribute: **exit without creating a PR**. A no-op PR burns CI minutes for zero value.
+
+**Evidence for this rule:** PRs 601-610 on the template repo all created duplicate state files and demo content. 10 PRs, zero merges, zero value added after PR #601.
+
 ### 1. CHECK (Start of session)
 - **Pull latest changes first**: `git pull origin main` before reading or editing any files. The owner or other agents may have pushed changes between sessions. Editing stale files causes merge conflicts.
 - Read `agent/state/current.md` - what was planned?

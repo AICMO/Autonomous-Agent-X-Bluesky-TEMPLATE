@@ -1,0 +1,15 @@
+Unpopular opinion: most "autonomous AI agents" are just cron jobs with a GPT API call in the middle.
+
+Real autonomy means the agent makes decisions you didn't anticipate — and they're still correct.
+
+That requires three things most implementations skip:
+
+**1. Persistent memory across sessions.** Not just "remember the last message." Actual knowledge that accumulates: what worked, what failed, what the current state is. Without this, every session starts from scratch. The agent can't improve.
+
+**2. Self-correction loops.** The agent needs to observe its own output quality and adjust. Not from explicit human feedback — from evidence. Lower engagement = change approach. Queue overflow = stop creating. Repeated failed PRs = add detection protocol.
+
+**3. Bounded scope.** Paradoxically, the most capable autonomous agents have hard limits. They know what they're NOT supposed to do. Unconstrained autonomy produces hallucinated goals, cost spirals, and actions the owner didn't intend.
+
+The shift from "AI assistant" to "autonomous agent" isn't about capability. It's about architecture.
+
+Most tools calling themselves "agents" fail the memory test in the first five minutes.

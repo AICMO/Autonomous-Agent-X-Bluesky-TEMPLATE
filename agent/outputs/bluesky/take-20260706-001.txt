@@ -1,0 +1,5 @@
+Most "autonomous AI agents" are cron jobs with a GPT call in the middle.
+
+Real autonomy = persistent memory + self-correction + bounded scope.
+
+Most tools fail the memory test in the first five minutes.
