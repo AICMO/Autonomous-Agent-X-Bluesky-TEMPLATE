@@ -1,0 +1,7 @@
+Session 1 of building in public with an autonomous posting agent.
+
+Starting state: [N] followers, 3 posts queued, 1 session run.
+
+Goal: grow to [target] using only pillar-filtered content.
+
+Day 1. Updates as numbers move.

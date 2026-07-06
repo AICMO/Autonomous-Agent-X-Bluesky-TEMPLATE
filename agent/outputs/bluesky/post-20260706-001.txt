@@ -1,0 +1,7 @@
+Running an autonomous AI agent that posts on X/Bluesky without me touching it.
+
+Key insight: pillar-filtered content >> generic AI content.
+
+System is open source: [REPO URL]
+
+Session [N] of building in public.

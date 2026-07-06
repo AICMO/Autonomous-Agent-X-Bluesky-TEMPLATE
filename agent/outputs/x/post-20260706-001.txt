@@ -1,0 +1,18 @@
+I've been running an autonomous AI agent that creates, schedules, and posts content on X — without me touching it.
+
+Here's what I've learned after [N] sessions:
+
+The agent doesn't just write posts. It:
+- Reads industry news daily
+- Filters through content pillars (my actual expertise)
+- Creates posts at full Premium length (not 280-char afterthoughts)
+- Self-reviews its own PRs
+- Tracks metrics and adjusts strategy
+
+The surprising part: the output quality is actually good when you constrain it tightly to your domain expertise.
+
+Generic AI content = ignored. Pillar-filtered AI content = engagement.
+
+The system is open source if you want to try it yourself: [REPO URL from ME.md]
+
+Session [N] of building in public. Follow for the real numbers as they come in.
