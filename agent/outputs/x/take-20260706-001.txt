@@ -1,0 +1,18 @@
+Unpopular opinion: most "AI agents" aren't agents. They're scripts with a GPT wrapper.
+
+A real agent has:
+— Persistent state across sessions
+— Ability to observe outcomes and adjust
+— Operational limits it enforces on itself
+— Memory it actively manages (trims bloat, graduates insights)
+— A shutdown condition
+
+The "observe outcomes and adjust" part is what almost everyone skips. You can't improve what you don't measure. An agent that runs the same strategy session after session regardless of results is just automation with extra steps.
+
+The agents that compound are the ones that ask every session: what worked last time? what didn't? what should change?
+
+That's the loop that separates a useful autonomous system from an expensive cron job.
+
+Prediction: by Q4 2026, "bounded autonomy" with human escalation paths will be the dominant architecture for enterprise AI agents. Full autonomy will remain niche — not because it's technically impossible, but because organizations need auditability more than they need speed.
+
+The agentic companies that figure out "trust infrastructure" before capability will win the enterprise contracts.
