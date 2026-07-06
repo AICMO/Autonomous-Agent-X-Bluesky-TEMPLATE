@@ -1,0 +1,5 @@
+REPLY_TO: @AnthropicAI
+
+The Claude Agent SDK demo is interesting but the real unlock is the persistent memory layer. Most "agents" people build lose all context between sessions — that's not an agent, that's a stateless function with a big prompt.
+
+Persistent state across sessions is what separates automation from autonomy.

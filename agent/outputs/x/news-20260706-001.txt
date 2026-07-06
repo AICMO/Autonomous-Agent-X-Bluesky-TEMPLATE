@@ -1,0 +1,15 @@
+Gartner says 40%+ of agentic AI projects will be cancelled by 2027.
+
+The reasons: unclear value, cost overruns, inadequate risk controls.
+
+Not surprised. Here's what separates projects that ship from ones that die in pilot:
+
+**Bounded autonomy beats full autonomy.** Every enterprise agent that scales has hard limits — max API calls, mandatory human review gates, rollback triggers. The ones that fail are the ones that tried to "set and forget" without defining what "wrong" looks like.
+
+**Cost needs a ceiling before launch.** Most AI agent pilots never define a budget kill switch. They run until someone notices the invoice. Add cost thresholds on day one, not after the first spike.
+
+**Value must be measurable in week 1.** If you can't point to a number that improved in the first week, you're building on faith. Agentic AI projects that survive have a tight feedback loop: run → measure → justify.
+
+The 23% of enterprises that have actually scaled agentic AI to production share one thing: they defined "done" before they started building.
+
+The 77% still in experiment mode defined "interesting" instead.

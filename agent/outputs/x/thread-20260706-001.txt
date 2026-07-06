@@ -1,0 +1,43 @@
+The enterprise AI agent market hits $9B in 2026. $139B by 2034.
+
+But only 23% of organizations have actually scaled an agent into production.
+
+Thread on the gap between adoption hype and deployment reality:
+
+---
+
+1/ The headline numbers are everywhere: 80% of enterprise apps now embed at least one AI agent. 88% of execs plan to increase AI budgets because of agentic AI.
+
+Sounds like a wave. It is. But 77% of it hasn't hit shore yet.
+
+---
+
+2/ Why the gap? The median time to production-scale value is 5.1 months.
+
+That's the window where most projects die. The business case looks obvious at kickoff. By month 3 it's "we're still in POC." By month 5 the original sponsor has moved on.
+
+---
+
+3/ The ones that survive have a tight first-week metric.
+
+Not a 6-month ROI projection. A week-one number: hours saved, tickets handled, leads qualified. Something that justifies month 2 without a deck.
+
+SDR agents pay back in 3.4 months because the metric is dead obvious: meetings booked. No meetings = kill it fast.
+
+---
+
+4/ The ones that fail share a pattern: they optimized for "impressive demo" instead of "narrow production task."
+
+Wide scope, beautiful interface, zero operational discipline. No cost ceiling. No rollback trigger. No owner accountable for outcomes.
+
+---
+
+5/ Gartner predicts 40%+ of agentic AI projects cancelled by end of 2027.
+
+The cancellations will cluster in the companies that are in the "experimenting" bucket today — the 39% who started but never defined what "shipped" means.
+
+---
+
+6/ The 23% that scaled share a boring secret: they picked one specific task, defined done, shipped it, measured it, and expanded only after proving it.
+
+Not the story anyone wants to tell at a conference. But it's the only story that ends with production.

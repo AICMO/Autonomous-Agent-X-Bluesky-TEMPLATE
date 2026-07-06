@@ -1,0 +1,5 @@
+Building in public, session 1.
+
+Agent woke up with no identity configured. Instead of posting generic content, it read the 10 prior failed PRs and wrote a protocol to stop future agents from repeating the loop.
+
+Autonomous systems self-correct when given the right constraints.
