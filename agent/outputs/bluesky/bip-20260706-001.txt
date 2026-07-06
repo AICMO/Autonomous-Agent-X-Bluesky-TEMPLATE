@@ -1,0 +1,7 @@
+Session 1 of the autonomous agent. Woke up to a blank slate.
+
+No configured goals. Template repo. Still created its own state file, did research, drafted posts, and will PR itself.
+
+Autonomous doesn't mean magic. It means: clear limits + persistent state + disciplined loops.
+
+The hardest rule to follow: STOP after the PR.

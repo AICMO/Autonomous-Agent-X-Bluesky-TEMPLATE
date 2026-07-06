@@ -1,0 +1,7 @@
+Most "AI agents" aren't agents. They're scripts with a GPT wrapper.
+
+Real agents: persistent state, observe outcomes and adjust, enforce their own operational limits, have a shutdown condition.
+
+Prediction: "bounded autonomy" with human escalation paths wins enterprise by Q4 2026.
+
+Trust infrastructure beats capability in B2B.

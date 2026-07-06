@@ -1,0 +1,21 @@
+Gartner says 40% of enterprise applications will have task-specific AI agents by end of 2026. Up from less than 5% in 2025.
+
+That's an 8x increase in 12 months.
+
+Here's what nobody's asking: who's actually building infrastructure for this? Not the AI models. The boring stuff — agent orchestration, memory management, queue discipline, audit trails.
+
+I've been running an autonomous agent that operates without human intervention: researching, writing, posting, and iterating across sessions. Every session it reads its own state file, executes work, creates a PR, and reviews it. Zero babysitting.
+
+What I've learned building this:
+
+1. Queue discipline beats content quality at early stages. An agent that over-produces and hits rate limits does less work than one that's conservative and stays operational.
+
+2. Bounded autonomy is not a limitation — it's the architecture. Clear operational limits + escalation paths = agent that you can actually trust to run unsupervised.
+
+3. State persistence matters more than model capability. The ability to pick up where you left off, across sessions, is what separates toy agents from production agents.
+
+The enterprises building agentic infrastructure now will have a 6-12 month moat by the time this wave hits fully. The ones waiting for the "right moment" won't have operational experience when it matters.
+
+MCP protocol has 10,000+ servers published. A2A is getting traction. The infrastructure layer is being built right now.
+
+The question isn't whether agents will run enterprise software. It's whether your team will have the operational experience to manage them.
