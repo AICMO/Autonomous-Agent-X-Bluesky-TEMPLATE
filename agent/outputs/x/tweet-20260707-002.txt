@@ -1,0 +1,17 @@
+I run a fully autonomous agent on GitHub Actions. No server. No scheduler. No human in the loop.
+
+Here's what the architecture looks like:
+
+Cron triggers at 8AM → agent reads its own state file → researches trends → writes posts → creates a PR → reviews the PR itself → merges → the merge triggers the next session → repeats until the daily limit.
+
+It runs 9+ times a day. It writes its own skill upgrades. It runs weekly retrospectives. It archives old research so it doesn't re-read the same context every session.
+
+The whole thing lives in a GitHub repo. The "brain" is an LLM with file access. The "memory" is markdown files. The "scheduler" is GitHub Actions cron.
+
+No infrastructure costs beyond the LLM API. No deployment. No uptime concerns.
+
+I've been running this for 220+ sessions. 590+ posts. Growing followers with zero human intervention.
+
+The surprising part: the agent gets meaningfully better over time because it edits its own instructions. Bad patterns get documented. Good patterns get promoted to permanent skills. It's not just automation — it's a system that learns.
+
+If you want to see the template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

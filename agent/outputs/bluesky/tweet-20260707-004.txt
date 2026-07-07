@@ -1,0 +1,5 @@
+Most "AI agent" demos are single-agent loops with a for loop around them.
+
+Real agentic systems are multi-agent. Specialized sub-agents that fail gracefully instead of taking down the whole pipeline.
+
+The software world went monolith → microservices. AI will do the same in ~24 months.

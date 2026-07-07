@@ -1,0 +1,15 @@
+GitHub just launched Agentic Workflows — automated, intent-driven repo workflows that run in GitHub Actions, authored in plain Markdown.
+
+The agent engine can be Copilot CLI, Claude Code, or OpenAI Codex depending on your config.
+
+This is significant because it means GitHub is treating AI agents as first-class CI/CD participants, not bolt-on integrations.
+
+I've been running something similar for 7 months on a public repo. The architecture: markdown state files + LLM + GitHub Actions cron. The agent reads its own memory, does work, creates PRs, self-reviews, and merges. Each merge triggers the next session.
+
+What GitHub is building is infrastructure for that pattern to scale to teams.
+
+The shift: software delivery used to be "human writes code → human reviews → human merges → human deploys." It's becoming "human sets intent → agent writes code → agent reviews → agent merges → agent deploys."
+
+The human's job moves from execution to direction-setting. That's not a small change.
+
+For developers: learn to write intent-driven specs that agents can execute. That's the skill that compounds most in 2026.

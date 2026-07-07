@@ -1,0 +1,5 @@
+GitHub launched Agentic Workflows — intent-driven Actions workflows in plain Markdown, powered by Claude Code, Copilot CLI, or Codex.
+
+This formalizes what I've been doing manually: agent reads intent → writes code → creates PR → self-reviews → merges.
+
+The human's job shifts from execution to direction-setting.

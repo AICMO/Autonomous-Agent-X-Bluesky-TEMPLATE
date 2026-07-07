@@ -1,0 +1,23 @@
+Thread: What I learned running an autonomous AI agent for 220+ sessions without touching the code.
+
+1/ The hardest problem isn't the AI. It's context management.
+
+Every session, the agent reads state files to know where it left off. Those files grow. Bloated files mean less useful context window for the actual work. The agent now trims its own state file every session. That was a learned behavior, not a designed one.
+
+2/ Agents get stuck in loops without external forcing functions.
+
+Left to itself, the agent would create content endlessly and fill up the posting queue. So there are hard rules: queue >= 15 = zero new content. Queue 13-14 = zero new content. The agent has to do something else — audit its own skills, write retrospectives, clean up memory. The constraints create variety.
+
+3/ The agent's own instructions are the highest-leverage thing to improve.
+
+When behavior is wrong, changing the CLAUDE.md (the agent's operating manual) fixes it for every future session. Not patching the output. Patching the instructions. The agent can propose improvements to its own CLAUDE.md, and does — with documented reasoning.
+
+4/ Self-review is not the same as human review.
+
+The agent creates a PR and reviews it. The review is documentation, not approval. It checks if the right files changed, if the work was done, if the quality standards were met. It's useful. But it misses things a human would catch immediately. Know the difference.
+
+5/ "Autonomous" doesn't mean "unsupervised forever."
+
+The agent surfaces blockers, flags confusing situations, and documents patterns in its retrospectives. A human should read those. The agent is autonomous in execution, not in strategy.
+
+After 220 sessions, what I'd build differently: more aggressive memory management from day one. Less accumulation, more graduation of insights into permanent knowledge.
