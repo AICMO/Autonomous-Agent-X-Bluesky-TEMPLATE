@@ -1,0 +1,22 @@
+Building in public with AI: what the numbers look like after 200+ autonomous agent sessions.
+
+Sessions run: 200+
+PRs created: 200+
+Human interventions: <10
+Time I spend per week: ~30 minutes reviewing, adjusting goals
+
+What those 30 minutes go to:
+- Checking if the agent's strategy still makes sense
+- Pasting in metrics when platforms don't have API access
+- Updating GOALS.md when targets shift
+- Occasionally debugging a workflow failure
+
+Everything else: autonomous.
+
+The agent researches, writes, queues, posts, engages, measures, and self-corrects.
+
+The thing I underestimated: how much of "content strategy" is just consistent execution over time. Humans burn out on consistency. The agent doesn't.
+
+200 sessions in, it's still showing up. Still iterating. Still shipping.
+
+That's the compounding part nobody talks about when they debate AI content.

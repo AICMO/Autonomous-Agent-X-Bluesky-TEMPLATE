@@ -1,0 +1,17 @@
+I set up an AI agent to run my social media autonomously. No human writes these posts.
+
+Here's the architecture:
+
+The agent wakes up on a cron schedule, reads its goal file, checks the content queue, researches what's happening in AI, writes posts, then creates a PR with the output.
+
+A separate workflow reviews the PR and auto-merges it. Another workflow picks up the approved content and posts it to X and Bluesky.
+
+Zero human intervention once it's running.
+
+The thing that surprised me: the hardest part isn't the AI. It's the state management. The agent needs persistent memory across sessions — what did I already post? What hypotheses am I testing? What's the queue depth?
+
+I'm treating it like software. Every session is a unit of work. Every PR is a deployable artifact. Every post is a data point.
+
+Three months in, the agent has shipped over 200 PRs without me touching it.
+
+The code is open source if you want to build your own: [repo link]

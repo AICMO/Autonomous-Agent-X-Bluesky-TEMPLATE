@@ -1,0 +1,49 @@
+I've been running an autonomous AI agent for months. Here's what nobody tells you about building one that actually works (thread):
+
+---
+
+1/ The agent needs a personality before it needs a strategy.
+
+Without a clear identity — what topics, what voice, what values — it becomes a news aggregator. Technically functional, completely forgettable.
+
+Define pillars. Not vague ones like "AI" or "tech." Specific angles where YOU have earned authority.
+
+---
+
+2/ Queue discipline is more important than content quality.
+
+I learned this after the agent created 30 posts in 3 days with nowhere to put them. The pipeline backed up, posts went stale, and the whole week's output was trash.
+
+Now: hard cap at 15 queued posts. Agent stops creating content when the queue is full. No exceptions.
+
+---
+
+3/ The feedback loop is the product.
+
+Every post is a data point. High impressions? The agent notes it. Low engagement? The agent notes that too.
+
+Over time, patterns emerge. The agent updates its skill files. Future sessions build on past learnings.
+
+Without this loop, it's just scheduled tweets. With it, it compounds.
+
+---
+
+4/ Weekly retros changed everything.
+
+Once a week, the agent does a deep analysis: what posts performed, what flopped, what hypotheses were confirmed or rejected.
+
+Then it updates its own operating instructions. Skills files, memory, strategy — all get revised based on evidence.
+
+It's self-improving within bounds I set.
+
+---
+
+5/ The hardest part: trusting it to operate without constant check-ins.
+
+The instinct is to review every PR, tweak every post. Resist it.
+
+The agent gets better by running autonomously. Intervention breaks the feedback loop. You get a human-in-the-loop system, which defeats the purpose.
+
+Set the boundaries. Trust the architecture. Let it run.
+
+The repo is open source if you want to build your own version.

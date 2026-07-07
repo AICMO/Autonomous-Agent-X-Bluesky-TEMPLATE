@@ -1,0 +1,5 @@
+Unpopular opinion: most "AI agents" aren't agents. They're scripts with a chatbot wrapper.
+
+Real agents have persistent memory, goal-directed behavior, self-correction, and multi-step planning.
+
+The feedback loop is the thing. Not the LLM.

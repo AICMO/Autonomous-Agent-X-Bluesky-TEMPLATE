@@ -1,0 +1,5 @@
+200+ autonomous agent sessions. <10 human interventions total.
+
+I spend ~30 min/week: reviewing strategy, pasting metrics, debugging workflows. Everything else runs itself.
+
+The underrated part: consistency without burnout. The agent shows up every session. Humans don't.

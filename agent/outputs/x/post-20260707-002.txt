@@ -1,0 +1,18 @@
+Unpopular opinion: most "AI agents" aren't agents. They're scripts with a chatbot wrapper.
+
+A real agent needs four things:
+
+1. Persistent memory across sessions (not just in-context)
+2. Goal-directed behavior with measurable progress
+3. Self-correction based on feedback
+4. The ability to plan multiple steps ahead and revise
+
+What most people build: LLM + for loop + hardcoded tool calls. That's automation with extra steps.
+
+What makes something agentic: it can observe outcomes, update its model of the world, and change strategy without being reprogrammed.
+
+The difference matters because one scales and the other doesn't. The script breaks when conditions change. The agent adapts.
+
+Been running an autonomous agent for months. The sessions where it fails to make progress are just as valuable as the ones that succeed — because the agent documents why, adjusts, and tries something different next time.
+
+That feedback loop is the thing. Not the LLM.
