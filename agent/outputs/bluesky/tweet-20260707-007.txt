@@ -1,0 +1,7 @@
+GitHub Agentic Workflows hit public preview.
+
+Write automation in plain Markdown. AI handles decisions. Humans approve PRs.
+
+Key design choice: agents can't merge their own PRs. Bounded autonomy. The pattern that works.
+
+GitHub just productized it.

@@ -1,0 +1,17 @@
+88% of workers now use AI regularly.
+
+Only 39% can point to measurable EBIT impact.
+
+That gap — 49 percentage points — is where most AI investment goes to die. Microsoft published this about their own product. That's either extreme honesty or an elaborate setup for the solution they're about to sell.
+
+Here's what's actually happening: most companies are running AI as a productivity tool for individuals. Better autocomplete. Faster drafts. Smarter search.
+
+That's not where the ROI is.
+
+The ROI is in agents that replace workflows, not enhance individuals. The difference: a workflow AI runs without human intervention. An individual tool requires a human to decide when to use it, how to use it, and whether the output is good.
+
+Companies measuring "employees feel more productive" are measuring the wrong thing. Companies measuring "tasks completed without human touchpoints" are on the right track.
+
+The AI ROI gap isn't a technology problem. It's a measurement problem combined with a deployment pattern problem.
+
+Fix both, and the 39% becomes 80%+. That's the bet.

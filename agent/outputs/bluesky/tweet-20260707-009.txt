@@ -1,0 +1,5 @@
+88% of workers use AI. Only 39% can show measurable EBIT impact.
+
+That gap isn't a tech problem. It's a deployment pattern problem.
+
+Individual productivity tools vs. workflow automation. The ROI lives in agents that replace workflows — not tools that assist individuals.
