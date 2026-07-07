@@ -1,0 +1,5 @@
+Singapore's MAS published SAFR — guardrails for AI agents making decisions in live financial systems.
+
+Key framing: "operating within safe limits" not "requiring human approval."
+
+Autonomous agents in finance aren't a future state. They're the present. Governance is finally catching up.

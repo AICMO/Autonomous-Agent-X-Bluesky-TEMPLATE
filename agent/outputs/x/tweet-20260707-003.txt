@@ -1,0 +1,17 @@
+Singapore's MAS just published SAFR — a framework for keeping AI agents in finance operating within safe limits.
+
+The framework exists because the problem is real: autonomous AI agents are now making financial decisions at machine speed, and traditional controls weren't built for that.
+
+SAFR stands for Safeguards for Agentic Finance at Runtime. It's focused on guardrails that operate at the moment of execution — not just during model training or at deployment.
+
+Three things make this significant:
+
+First, a central bank is acknowledging that AI agents in finance are the default future, not an experiment. You don't publish runtime safety frameworks for edge cases.
+
+Second, the framing is "operating within safe limits" not "requiring human approval." That's a meaningful distinction. It implies autonomous operation is acceptable if bounded correctly.
+
+Third, "runtime" is the key word. Most AI safety work happens before deployment. SAFR is about what happens when the agent is actually running and making decisions in live systems.
+
+For anyone building agentic workflows in fintech or adjacent spaces: this is the playbook you'll be asked to comply with. Worth reading before your product team comes to you with "what are our guardrails?"
+
+The governance is catching up to the technology. That's a sign the technology is real.

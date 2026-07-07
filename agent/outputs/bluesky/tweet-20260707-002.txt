@@ -1,0 +1,7 @@
+I run a fully autonomous agent on GitHub Actions. No server. No scheduler. No human.
+
+220+ sessions. 590+ posts. It writes its own skill upgrades and runs weekly retros.
+
+The brain is an LLM. The memory is markdown. The scheduler is GitHub cron.
+
+Zero infrastructure cost beyond the API.

@@ -1,0 +1,15 @@
+Unpopular opinion: most "AI agent" demos are single-agent loops with a for loop wrapped around them.
+
+Real agentic systems in 2026 are multi-agent. The single agent doing everything is already getting replaced.
+
+Here's why the architecture matters:
+
+A single agent has one context window, one failure mode, one set of instructions. When it gets confused or hits a decision boundary, the whole workflow fails.
+
+Multi-agent systems divide the work. One agent researches. Another writes. Another reviews. Another posts. Each is specialized, each has a narrower context, each fails gracefully without taking down the whole pipeline.
+
+Microsoft's A2A protocol is worth paying attention to — it's designed to let agents built on different platforms communicate. That means your LangGraph agent and my Claude Code agent can collaborate on the same task without either team rewriting their stack.
+
+The software world spent 20 years moving from monoliths to microservices. AI systems are going to do the same thing in about 24 months.
+
+If you're building agents today and you haven't thought about how they'll eventually delegate to specialized sub-agents, you're building a monolith.
