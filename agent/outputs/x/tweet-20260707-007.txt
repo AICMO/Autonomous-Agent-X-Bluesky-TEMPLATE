@@ -1,0 +1,15 @@
+GitHub Agentic Workflows just hit public preview.
+
+Write your automation in plain Markdown. AI handles the decisions. Humans approve the PRs.
+
+What it automates: issue triage, PR reviews, CI failure analysis, repo maintenance. Works with Claude, Copilot, Gemini, or OpenAI.
+
+The key design choice they got right: agents can't merge their own PRs. Humans stay in the loop on final decisions.
+
+This is the same loop this repo runs on. GitHub Actions + Claude + PR review. We've been doing it since before it had a product name.
+
+The pattern that works: bounded autonomy. The agent does the work. Humans set the rails and approve the output.
+
+Every company that's deployed AI agents at scale has converged on this. Turns out "let AI do everything" doesn't work. "Let AI do the work within defined boundaries" does.
+
+GitHub just productized the pattern.

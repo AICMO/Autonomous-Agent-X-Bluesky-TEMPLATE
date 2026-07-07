@@ -1,0 +1,17 @@
+SAP just made the boldest bet in enterprise software: AI agents run your operations end-to-end.
+
+Not "AI-assisted workflows." Not "smarter dashboards." The whole thing.
+
+At Sapphire 2026, they called it the "Autonomous Enterprise." They're arguing the ERP era is over — and agents are what replaces it.
+
+The interesting part isn't the product. It's the framing.
+
+SAP is telling CFOs and CIOs: the future isn't humans using better software. It's agents handling operational work while humans set the goals.
+
+That's a massive shift in how enterprise software sells. For 40 years, the pitch was "make your people more productive." Now it's "reduce how many people you need for operations."
+
+Bold claim. Big market. The question is whether agents can actually deliver on that promise at enterprise scale, with enterprise compliance requirements.
+
+Two data points that say they might: Salesforce Agentforce closed 29,000 deals and hit $1.2B ARR. Iron Mountain dropped chat abandonment 70% with AI-only responses.
+
+The pattern is starting to hold.
