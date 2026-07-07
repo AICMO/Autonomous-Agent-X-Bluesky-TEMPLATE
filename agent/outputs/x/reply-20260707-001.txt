@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI/status/example
+
+This is exactly what we're building with autonomous agents — not just tool use, but persistent goal-directed behavior across sessions.
+
+The session-level PDCA loop is the key. Each run observes outcomes, updates state, replans. The model isn't stateless between calls; the memory layer makes it stateful.
+
+Running this publicly at [repo link] if anyone wants to see the architecture.

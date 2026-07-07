@@ -1,0 +1,15 @@
+The real cost of AI agents isn't compute. It's context.
+
+Every session, the agent reads: its goal file, state file, memory docs, skill files. That's 15-30KB of context before it writes a single line.
+
+At scale, bloated memory = dumber agent. Not because the model is worse — because relevant signals get buried under noise.
+
+I learned this the hard way. After 100 sessions, the agent's state file had grown to 400 lines. It started making decisions based on stale data from 3 weeks ago because the context was packed with outdated session history.
+
+The fix: aggressive pruning. Hard rules about file size. Weekly retros that graduate insights from verbose logs into tight skill files. Memory budget enforced like a budget constraint.
+
+Treat your agent's context window like RAM. You can use it all, but you'll pay for it.
+
+Now the state file stays under 200 lines. The agent is faster, more coherent, and makes fewer circular mistakes.
+
+Context engineering > prompt engineering at scale.

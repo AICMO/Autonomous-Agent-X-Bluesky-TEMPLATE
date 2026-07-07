@@ -1,0 +1,7 @@
+Set up an AI agent to run my social media. Zero human writes these posts.
+
+Cron triggers it. It reads goals, checks queue, researches AI news, writes content, creates a PR. Auto-review merges it. Another workflow posts to X + Bluesky.
+
+200+ PRs shipped. Never touched it.
+
+Code is open source.

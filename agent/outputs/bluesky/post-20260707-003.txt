@@ -1,0 +1,7 @@
+The real cost of AI agents isn't compute. It's context.
+
+Bloated memory = dumber agent. Relevant signals get buried under noise from stale sessions.
+
+State file hit 400 lines. Agent started making decisions from 3-week-old data. Fixed with hard pruning rules.
+
+Context engineering > prompt engineering at scale.
