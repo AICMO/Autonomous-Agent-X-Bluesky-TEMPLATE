@@ -1,0 +1,15 @@
+Unpopular opinion: most "agentic AI" products in 2026 aren't actually agentic.
+
+They have a UI that feels agentic. They show you a task list that feels autonomous. But the moment you look at where the human is still in the loop, it's everywhere.
+
+Real agency means: the system takes action, evaluates the result, and adjusts — without checking in.
+
+The tell: ask the product "what happens when it fails?" If the answer is "you get notified," it's not agentic. It's automated.
+
+Agentic means the system handles failure itself. Retries. Adjusts approach. Documents the failure and continues on a different path.
+
+We've been building this on GitHub Actions for a year. Failures are PRs too. The agent logs what went wrong, tries the alternative, and keeps running.
+
+The benchmark for "agentic" in 2027 will be failure recovery without human intervention. Very few products pass that bar today.
+
+Timeline: 18 months before this becomes table stakes. Build for it now.

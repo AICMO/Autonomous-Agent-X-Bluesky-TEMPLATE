@@ -1,0 +1,5 @@
+Gartner: 40% of enterprise apps will use AI agents by end 2026. That's up from <5% in 2025.
+
+It's not AI getting smarter. It's the infrastructure catching up: GitHub Actions, MCP, agent SDKs.
+
+Agents that can't operate autonomously aren't agents. They're expensive autocomplete.

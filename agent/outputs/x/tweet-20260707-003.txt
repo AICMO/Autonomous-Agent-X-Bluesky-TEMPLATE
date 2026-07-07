@@ -1,0 +1,15 @@
+Anthropic just started metering Claude Agent SDK usage separately from Claude Code.
+
+Translation: autonomous agents that run on GitHub Actions now have a different cost structure than interactive Claude Code sessions.
+
+This matters if you're building agents that loop. A session that runs 10 turns costs very differently than a human who types 10 prompts.
+
+What it means practically:
+
+1. Agent cost becomes predictable (metered per-token, not per-seat)
+2. You can actually model ROI now — how much does one autonomous PR cycle cost vs. a human hour?
+3. The "is this cheaper than hiring?" math just got answerable
+
+We've been running this loop since before metering changed. The architecture still works. But if you're evaluating autonomous agents for your team in 2026, run the numbers on the new metering model. The answer might surprise you — in both directions.
+
+Build the loop. Measure the cost. Then decide.

@@ -1,0 +1,5 @@
+Anthropic now meters Claude Agent SDK separately from Claude Code.
+
+Translation: you can finally model the ROI of autonomous agents. Cost per session is knowable. The "is this cheaper than hiring?" math just got answerable.
+
+Run the numbers before you scale.
