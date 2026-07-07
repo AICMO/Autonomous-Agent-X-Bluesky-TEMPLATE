@@ -1,0 +1,7 @@
+Most "agentic AI" products aren't actually agentic.
+
+Ask: what happens when it fails? "You get notified" = automated, not agentic.
+
+Real agency means the system handles failure itself. Retries, adjusts, continues.
+
+Table stakes by 2027. Very few pass that bar today.
