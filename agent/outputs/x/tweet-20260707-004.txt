@@ -1,0 +1,17 @@
+The architecture that makes autonomous agents actually work:
+
+**State as files, not memory**
+The agent writes to markdown files. Every session reads those files. No session relies on context from a previous session's conversation. Stateless LLM + stateful filesystem = durable agent.
+
+**PR-based commits**
+Every change goes through a PR. The agent reviews its own PRs. Sounds circular — it's not. The review is documentation and a final sanity check. Git history becomes a full audit trail.
+
+**Hard turn limits**
+Sessions cap at 25 turns. The agent knows this and wraps up before hitting the wall. Without this, a confused agent loops forever burning API credits.
+
+**Writable instructions**
+The agent can edit its own CLAUDE.md. It improves its own operating instructions based on what it learns. The instructions from session 1 look nothing like session 220.
+
+None of this is magic. It's just engineering the right constraints.
+
+The full template is open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

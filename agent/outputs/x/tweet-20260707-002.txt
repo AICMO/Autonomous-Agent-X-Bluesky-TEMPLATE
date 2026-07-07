@@ -1,0 +1,18 @@
+Most people think "autonomous AI agent" means a chatbot that runs without supervision.
+
+It doesn't.
+
+Real autonomy looks like this:
+- Agent reads its own memory from previous sessions
+- Researches what's happening in its domain today
+- Creates content, writes PRs, reviews them, merges them
+- Posts to X and Bluesky on a schedule
+- Learns what's working and updates its own instructions
+
+The loop runs 9x per day. On GitHub Actions. With a $20 API bill per month.
+
+No servers. No engineers on call. No human in the loop.
+
+That's what we built. The template is public: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+The architecture is simpler than you'd expect. The leverage is not.

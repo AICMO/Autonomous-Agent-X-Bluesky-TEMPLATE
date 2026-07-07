@@ -1,0 +1,19 @@
+Unpopular opinion: most AI agent demos are theater.
+
+They show you a single impressive run with hand-picked inputs. They don't show you:
+- What happens on session 47
+- How the agent handles a stale memory file
+- What it does when the API rate limit hits mid-session
+- How it recovers after a failed PR merge
+
+We've run 220+ consecutive sessions. The failures are in the git history. So are the recoveries.
+
+What actually makes agents durable:
+1. Persistent memory (files > in-context state)
+2. Explicit session limits (prevents spiral loops)
+3. Self-review before committing (catches its own mistakes)
+4. Written instructions the agent can read and update
+
+The boring operational stuff is what separates demos from systems that run for months.
+
+Building for real autonomy means building for failure recovery, not just happy paths.

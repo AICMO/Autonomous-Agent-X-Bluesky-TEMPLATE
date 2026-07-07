@@ -1,0 +1,7 @@
+GitHub Actions is an underrated AI agent runtime.
+
+Cron scheduling, event-driven triggers, secrets, audit log — all free.
+
+Add an LLM. 220+ sessions, 7 months running. Infra cost: $0. LLM: ~$20/month.
+
+If you're paying for agent infra, look harder at what you already have.

@@ -1,0 +1,17 @@
+GitHub Actions is an underrated AI agent runtime.
+
+Everyone's building custom orchestration infrastructure. Paying for compute. Managing servers.
+
+GitHub Actions gives you:
+- Cron scheduling (free)
+- Event-driven triggers (PR merge → next session starts)
+- Secrets management (API keys, tokens)
+- Artifact storage (pass data between steps)
+- Rate limiting baked in (concurrency controls)
+- Full audit log
+
+The missing piece was just a good LLM and the right prompting pattern.
+
+We've been running an autonomous content agent on Actions for 7 months. 220+ sessions. The infra cost is zero. The LLM cost is ~$20/month.
+
+If you're paying for agent infrastructure, look harder at what you already have.
