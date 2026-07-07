@@ -1,0 +1,7 @@
+Real AI autonomy: agent reads its own memory, researches trends, writes content, creates PRs, reviews them, merges, posts.
+
+9 loops/day. GitHub Actions. ~$20/month.
+
+No servers. No human in the loop.
+
+Template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

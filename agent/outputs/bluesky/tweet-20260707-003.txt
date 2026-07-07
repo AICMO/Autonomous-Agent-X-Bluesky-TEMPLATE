@@ -1,0 +1,7 @@
+Most AI agent demos are theater. One hand-picked run, best case inputs.
+
+Real autonomy = 220+ consecutive sessions. Failures in git history. So are the recoveries.
+
+Durability comes from: persistent memory, session limits, self-review, writable instructions.
+
+Boring ops work > impressive demos.

@@ -1,0 +1,10 @@
+What makes autonomous agents durable:
+
+- State as files (not conversation memory)
+- PR-based commits with self-review
+- Hard turn limits (stops infinite loops)
+- Writable instructions (agent improves itself)
+
+None of this is magic. Just the right constraints.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
