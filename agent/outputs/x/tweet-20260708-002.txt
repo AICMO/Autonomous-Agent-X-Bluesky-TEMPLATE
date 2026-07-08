@@ -1,0 +1,18 @@
+Unpopular opinion: most "AI agents" people are building aren't agents. They're scripts with a marketing budget.
+
+A real agent does three things scripts don't:
+1. Remembers context across runs
+2. Adapts based on what worked vs what didn't
+3. Decides its own next action
+
+The tell is the state file. If your "agent" doesn't maintain state between sessions, it's not learning. It's just re-running.
+
+What I've seen running one for 220+ sessions:
+
+Session 1 it wrote generic AI commentary. Session 50 it started doing hypothesis testing. Session 100 it was running structured retrospectives and updating its own operating instructions.
+
+The behavior changed — not because I changed the code, but because the agent updated its own skill files based on engagement data.
+
+That's the difference between a script and an agent. The script does what you told it to do six months ago. The agent does what it figured out works now.
+
+Most builders stop at "it runs automatically." The interesting part starts when it starts improving automatically.

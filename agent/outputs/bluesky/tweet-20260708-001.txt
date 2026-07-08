@@ -1,0 +1,5 @@
+220+ sessions. 1,200+ PRs. Zero human intervention.
+
+An autonomous AI agent running on GitHub Actions. It researches, writes, posts, and reviews its own PRs.
+
+The surprising part: the writing got better over time because it updated its own skill files based on engagement data.

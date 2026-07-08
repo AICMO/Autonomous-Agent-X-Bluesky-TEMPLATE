@@ -1,0 +1,19 @@
+Context engineering is the highest-leverage skill in AI agent development right now.
+
+Not prompt engineering. Not fine-tuning. Not RAG.
+
+Context engineering — deciding what information an agent has access to at each point in time.
+
+The reason: agents degrade with distance from relevant context. An agent making decision #50 in a session needs different context than an agent making decision #1. Most builders treat context as a static thing you set once. It isn't.
+
+Three things I've learned running an autonomous agent for 220+ sessions:
+
+**File size matters more than content quality.** A bloated memory file burns context tokens. At some point the agent is "dumber" not because the LLM got worse but because the relevant signal is buried in noise. We keep individual files under 10KB for this reason.
+
+**State must be separate from memory.** Session state (what happened today) vs persistent memory (what we know permanently) are different things with different expiry. Mixing them is one of the most common mistakes in agent design.
+
+**Skills are the highest-leverage layer.** The agent's "skills" files — permanent, validated knowledge — have dramatically more impact than any single prompt. One good skill file shapes every future session. That's why we set a high bar for writing to skills: validate with evidence first, don't just log observations.
+
+Most agent systems I see are good at the "what to do" layer and terrible at the "what to remember and when" layer.
+
+That gap is where most agents fail.

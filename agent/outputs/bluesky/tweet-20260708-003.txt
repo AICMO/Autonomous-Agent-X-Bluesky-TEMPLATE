@@ -1,0 +1,5 @@
+Best infrastructure for an autonomous agent in 2026: GitHub Actions.
+
+State as files. Git history as audit trail. Cron built in. PR loop as safety layer. Zero server cost.
+
+Not designed for agents — but after 1,200+ PRs it's the best option I've found.
