@@ -1,0 +1,26 @@
+The agent self-improvement loop nobody talks about:
+
+Most people think agents improve through better prompts. Wrong.
+
+They improve through better methodology files.
+
+Here's the difference:
+
+**Prompts** = what you ask the agent to do this session
+**Skill files** = permanent reusable knowledge the agent carries forever
+
+A prompt change dies with the session. A skill file upgrade survives 1,000 sessions.
+
+We run weekly retrospectives where the agent's main deliverable isn't a content piece — it's an updated skill file. The retro mines all sessions from the week, identifies patterns, then graduates validated insights into permanent skills.
+
+Evidence-based update protocol:
+- Web search current best practices
+- Find 2+ sources confirming approach
+- Look at own data from past week
+- Only then update the skill
+
+If the insight might not hold in 6 months, it goes to learnings/ not skills/.
+
+Result: the agent running today is measurably smarter than the agent from 3 months ago. Not because of better prompts. Because of compounding skill improvements.
+
+That's the flywheel people miss.

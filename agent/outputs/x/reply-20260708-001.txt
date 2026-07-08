@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/sama/status/[replace-with-real-post-id]
+
+The context window problem for long-running agents is real. We hit it hard.
+
+Solution that worked for us: treat the state file as a rolling summary, not a log. Every session trims to <200 lines. Older detail lives in git history.
+
+The agent reads 200 lines of clean current state vs 2000 lines of accumulated noise. Dramatically better decisions.
