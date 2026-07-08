@@ -1,0 +1,5 @@
+Context engineering > prompt engineering for AI agents.
+
+File size matters more than content quality. Bloated memory = dumber agent.
+
+After 220 sessions: skills files (permanent, validated knowledge) have more leverage than any single prompt. One good skill shapes every future session.

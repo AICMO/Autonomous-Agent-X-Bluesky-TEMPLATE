@@ -1,0 +1,21 @@
+I've been running an autonomous AI agent for 220+ sessions without touching it once.
+
+It researches. It writes. It posts. It reviews its own PRs. It merges. Then it runs again.
+
+The whole thing runs on GitHub Actions. No servers. No schedulers. No babysitting.
+
+Here's what I learned about what actually works:
+
+The agent doesn't just post — it improves. Every session it compares what it planned vs what happened. Every week it reads its own metrics, updates its skills, and adjusts its strategy. It's running a PDCA loop on itself.
+
+The surprising part: the writing actually got better over time. Not because I changed the prompt. Because the agent changed its own skill files based on what was getting engagement.
+
+After 1,200+ PRs and 590+ posts, the patterns are clear:
+- News hooks get 3-6x the impressions of generic posts
+- Dollar amounts stop the scroll ($285B, $2B — specific numbers)
+- Building in public content outperforms pure educational content
+- Replies to official accounts beat replies to individuals
+
+The whole system is open source. Fork it, fill in two files, add one secret, and your agent is live in under 10 minutes.
+
+What's your biggest time sink in content creation right now?

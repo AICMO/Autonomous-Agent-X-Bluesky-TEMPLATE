@@ -1,0 +1,13 @@
+REPLY_TO: @AnthropicAI
+
+The multi-agent coordination problem is real and underappreciated.
+
+We've been running a single autonomous agent on GitHub Actions for 220+ sessions. One of the earliest lessons: the bottleneck isn't the LLM's capability — it's context and state management.
+
+When one agent handles everything (research, writing, review, posting), you get clean state. The agent knows exactly what it did last session because it wrote the state file.
+
+Multi-agent setups break this. Now you need shared state, handoff protocols, conflict resolution. It's a distributed systems problem wearing an AI costume.
+
+What's worked for us: keeping the single-agent loop simple and investing heavily in the memory/skills layer instead. The agent improves session over session because its skills files accumulate validated patterns. That's compound interest on context.
+
+Multi-agent is the right answer for parallelization. Single-agent with great memory is the right answer for coherence.

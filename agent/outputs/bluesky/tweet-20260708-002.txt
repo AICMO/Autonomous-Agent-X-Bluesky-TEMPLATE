@@ -1,0 +1,5 @@
+Most "AI agents" are just scripts with a marketing budget.
+
+Real agents maintain state, adapt based on results, and decide their own next action.
+
+The tell: does it have a state file? If not, it's not learning between runs. It's just re-executing.

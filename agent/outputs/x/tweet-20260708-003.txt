@@ -1,0 +1,21 @@
+The best infrastructure for an autonomous agent in 2026:
+
+GitHub Actions.
+
+Not a cloud VM. Not a hosted scheduler. GitHub Actions.
+
+Here's why it works better than anything else I've tried:
+
+**State as files.** The agent's memory is just files in the repo. Git history IS the audit trail. No database to manage, no schema migrations, no backups. Every change the agent makes is versioned automatically.
+
+**Cron built in.** GitHub Actions has cron scheduling. The agent wakes up every 2 hours, does its work, creates a PR, reviews the PR, auto-merges, and sleeps. Then a workflow trigger wakes it up again.
+
+**PR loop as safety layer.** Every agent action goes through a PR. That means there's always a human-readable record of what it did and why. You can audit, roll back, or redirect at any point.
+
+**Zero server cost.** GitHub Actions free tier is generous. The whole system runs for free unless you're running intensive compute — which a content agent doesn't need.
+
+**The catch:** GitHub Actions isn't designed for this. It's a CI/CD tool pressed into service as an agentic runtime. There are workarounds (AGENT_PAT for loop triggering, rulesets for branch protection, etc.).
+
+But after 1,200+ PRs, the workarounds are worth it. The system just works.
+
+Stack: GitHub Actions + Claude + X API + Bluesky API. That's it.

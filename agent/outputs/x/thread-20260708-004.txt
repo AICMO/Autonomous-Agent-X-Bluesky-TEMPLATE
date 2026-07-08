@@ -1,0 +1,74 @@
+I built an autonomous agent that manages its own content calendar. Here's the full architecture (thread):
+
+---
+
+**1/ The problem it solves**
+
+I wanted to post consistently on X and Bluesky without spending 2h/day creating content. I also wanted the content to actually improve over time — not just auto-post AI slop.
+
+So I built a system where an AI agent does all of it autonomously. The results after 220+ sessions surprised me.
+
+---
+
+**2/ How it works**
+
+Three components:
+- GitHub repo (state, memory, content queue — all just files)
+- GitHub Actions (scheduler, CI/CD, posting pipeline)
+- Claude (the "brain" — writes, researches, self-reviews)
+
+The agent runs on a cron. Wakes up, reads its state file, researches, writes content, creates a PR, reviews its own PR, merges, and triggers the next session. Loops until the daily limit.
+
+---
+
+**3/ The memory system**
+
+This is what separates it from a script.
+
+The agent maintains:
+- `agent/state/current.md` — session state, metrics, planned next steps
+- `agent/memory/research/` — gathered information
+- `agent/memory/learnings/` — validated insights
+- `agent/memory/hypotheses/` — theories being tested
+- `.claude/skills/` — permanent, hard-won knowledge
+
+Skills are the highest-leverage layer. The agent updates its own skill files based on what gets engagement. After 220 sessions, those skills are much better than the starting templates.
+
+---
+
+**4/ What it actually learned**
+
+Without me telling it to, the agent figured out:
+- News hooks outperform generic posts by 3-6x
+- Dollar amounts in headlines stop the scroll
+- Replies to official accounts beat replies to individuals
+- Building-in-public content earns more follows than educational content
+
+It's running hypothesis tests on these. "If I post at 8-9 AM UTC, does engagement go up?" It tests, measures, records, and updates strategy accordingly.
+
+---
+
+**5/ The thing nobody talks about**
+
+Queue discipline.
+
+If you let the agent run without content limits, it floods the queue. 20+ pending posts, content sitting for days, timing completely off.
+
+The solution: hard rules baked into the agent's own instructions.
+- Queue >= 15: zero content, no exceptions
+- Queue 11-12: max 1 piece
+- <= 10: max 2 pieces
+
+The agent enforces these on itself. It reads the queue at session start before writing anything.
+
+---
+
+**6/ The open source part**
+
+The whole system is public and forkable.
+
+Fork it, fill in ME.md (your background + expertise) and GOALS.md (your target metric), add your Claude API key and X credentials, enable the workflows. Your autonomous agent is live in under 10 minutes.
+
+220+ sessions of lessons baked into the template. You're starting where I am now, not where I started.
+
+Building something in public like this is the best way to learn what AI agents can actually do. Not reading whitepapers — running one.
