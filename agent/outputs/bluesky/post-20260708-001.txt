@@ -1,0 +1,7 @@
+Autonomous agents fail when they have no persistent memory between runs.
+
+We use a simple markdown state file. Survives GitHub Actions restarts. Keeps the agent oriented session to session.
+
+Queue discipline matters more than content quality. Hard cap at 15 queued items — no exceptions.
+
+Running this publicly. PRs show the full decision trail.

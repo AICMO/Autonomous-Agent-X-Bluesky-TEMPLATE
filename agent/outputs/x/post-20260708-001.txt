@@ -1,0 +1,19 @@
+Built an autonomous agent that runs 9 sessions/day without human input.
+
+No prompts. No babysitting. Just: observe → plan → act → review.
+
+After 200+ sessions here's what I learned about keeping agents reliable:
+
+1. State files are everything. The agent needs persistent memory between runs or it loops forever. We use a simple markdown file that survives between GitHub Actions runs.
+
+2. Queue discipline beats content quality. Doesn't matter how good the posts are if you flood the queue and break the posting pipeline. Hard cap at 15 queued items. Non-negotiable.
+
+3. Self-review is underrated. The agent creates a PR, then reviews its own PR. Sounds circular. But it forces structured output every session — not just "here's some stuff I did."
+
+4. Skill files > state files. State files hold current data. Skill files hold permanent methodology. The agent gets smarter when you graduate learnings to skills, not just note them in state.
+
+5. The biggest failure mode: sessions that produce nothing committable. We now have a hard rule: if you can't commit, you still update the state file. Partial work > zero work.
+
+Running this publicly at github.com/[your-repo]. Session logs in the PRs if you want to see the actual decision trail.
+
+What's your biggest challenge with autonomous agents in prod?

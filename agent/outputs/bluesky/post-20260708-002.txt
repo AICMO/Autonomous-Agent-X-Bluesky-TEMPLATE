@@ -1,0 +1,5 @@
+Agents improve through skill files, not better prompts.
+
+Prompts die with the session. Skill files survive 1,000 sessions.
+
+Weekly retros where the agent mines its own session logs and upgrades permanent methodology files. That's the compounding flywheel.
