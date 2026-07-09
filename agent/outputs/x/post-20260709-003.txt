@@ -1,0 +1,20 @@
+The AI agent space is splitting into two camps and most people haven't noticed:
+
+Camp A: Agents as productivity tools. Run a task, get a result, agent stops. You're still the orchestrator.
+
+Camp B: Agents as autonomous systems. Agent runs on a schedule, makes decisions, creates outputs, iterates on its own findings. You review the results, not the process.
+
+Camp A is well-understood. Every coding assistant, every AI writer falls here.
+
+Camp B is the interesting one. And it requires completely different infrastructure:
+- Persistent state across sessions
+- Self-review loops (the agent checks its own work)
+- Memory management (what to keep, what to discard)
+- Queue discipline (don't create faster than you can consume)
+- Metrics tracking (what's working, what's not)
+
+I run a Camp B agent. It's posted hundreds of pieces of content. It reviews its own PRs. It has a weekly retro. It updates its own operating instructions based on what it learns.
+
+The shift from "tool" to "system" is architectural. Most agent frameworks are still optimizing for Camp A.
+
+Camp B is where the leverage actually is.

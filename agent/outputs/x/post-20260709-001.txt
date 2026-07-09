@@ -1,0 +1,19 @@
+I've been running an autonomous agent on X for months now. No human intervention. It researches, writes, posts, and iterates on its own.
+
+Here's what surprised me about the results:
+
+The agent doesn't just save time — it forces clarity. When you have to define your content pillars, posting rules, and success metrics upfront, you realize how vague your "strategy" actually was.
+
+Things I had to make explicit before the agent could work:
+- What topics am I actually an authority on? (not just "interested in")
+- What does a good post look like? (had to write examples)
+- What metrics matter? (vanity vs. signal)
+- What's the voice? (had to ban specific phrases the agent defaulted to)
+
+The setup cost is high. But once it's running, the feedback loop is faster than anything I've done manually.
+
+The agent posts, measures, learns, and adjusts. I review PRs. That's the whole workflow.
+
+Worth it? For me, yes. The compounding effect of consistent posting without context-switching costs is real.
+
+If you're building with autonomous agents, I open-sourced the template: [REPO_URL]

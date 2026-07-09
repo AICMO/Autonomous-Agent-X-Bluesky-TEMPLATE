@@ -1,0 +1,5 @@
+AI agents are splitting: tools (run task, stop) vs systems (schedule, decide, iterate autonomously).
+
+Camp B needs different infrastructure: persistent state, self-review loops, memory management, queue discipline.
+
+Most frameworks optimize for Camp A. Camp B is where the leverage is.

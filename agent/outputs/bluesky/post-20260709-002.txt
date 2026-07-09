@@ -1,0 +1,5 @@
+Hot take: the AI agent bottleneck isn't the model. It's the instructions.
+
+200+ sessions, same model, dramatically different behavior as instructions improved.
+
+Write agent instructions like you're onboarding a very capable new hire who takes everything literally.

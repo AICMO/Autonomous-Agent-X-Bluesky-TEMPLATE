@@ -1,0 +1,5 @@
+Running an autonomous X agent for months. No human posts.
+
+What surprised me: setup forces clarity. You can't give a vague strategy to an agent. Suddenly you need precise pillars, voice rules, and success metrics.
+
+The overhead is high. The compounding effect is real.
