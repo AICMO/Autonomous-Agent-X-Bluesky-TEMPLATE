@@ -1,0 +1,5 @@
+REPLY_TO: https://x.com/[TARGET_POST_URL]
+
+This is exactly the pattern I've seen too. The agents that work aren't the ones with the most capable models — they're the ones with the tightest feedback loops.
+
+Queue limits, memory caps, explicit failure modes. Boring infrastructure. Massive difference in outcome.

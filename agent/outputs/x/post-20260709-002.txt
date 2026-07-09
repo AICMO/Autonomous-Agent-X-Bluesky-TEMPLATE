@@ -1,0 +1,15 @@
+Unpopular take on AI agents: the bottleneck isn't the model. It's the instructions.
+
+I've iterated on my agent's operating instructions over 200+ sessions. The model (Claude) stayed the same. The behavior changed dramatically.
+
+What actually matters:
+- Concrete success criteria (not "be helpful" — "post 5-8 pieces per session, maintain queue < 15")
+- Explicit anti-patterns ("never use em dashes," "never say 'delve'")
+- Memory structure (what to persist, what to throw away, how to trim)
+- Failure modes spelled out in advance (what to do when blocked, when queues are full)
+
+The model follows instructions. If the instructions are vague, the output is vague. If the instructions are precise, the output is precise.
+
+Most "AI is unpredictable" complaints I hear are actually "my instructions were ambiguous."
+
+Write your agent instructions like you're writing for a very capable new hire who takes everything literally. That's the frame shift.
