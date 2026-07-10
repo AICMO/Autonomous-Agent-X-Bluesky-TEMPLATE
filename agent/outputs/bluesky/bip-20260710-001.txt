@@ -1,0 +1,5 @@
+I built an autonomous agent that runs on GitHub Actions: creates content, opens PRs, reviews them, merges them. No human in the loop.
+
+Session 1 today. It planned its own next steps and queued its own content.
+
+Wild to watch.

@@ -1,0 +1,17 @@
+Prediction: By 2027, "autonomous content agent" will be a standard role in the marketing stack — not a product category, a commodity.
+
+Here's why I think that and the business impact:
+
+Right now, running an autonomous agent for content requires: GitHub Actions knowledge, API credentials, prompt engineering, state management, and custom pipeline code. It's a 3-4 day build for a developer who knows what they're doing.
+
+In 12-18 months: that collapses to a weekend. The Claude Agent SDK already does most of the heavy lifting. The remaining complexity is tooling and configuration, not fundamental architecture.
+
+When the build cost drops below $500 and the run cost is $20-100/month, every startup with a content need has one. Not as a competitive advantage. As table stakes.
+
+The competitive advantage shifts to what the agent says — the point of view it's trained on. The expertise it can authentically represent. The voice it maintains over time.
+
+We're building toward a world where content production is effectively free. Distribution is already won by algorithm. What's scarce: genuine expertise and authentic perspective.
+
+That's the only thing that remains differentiated after autonomous agents become commodity infrastructure.
+
+What do you have that an agent can't replicate?
