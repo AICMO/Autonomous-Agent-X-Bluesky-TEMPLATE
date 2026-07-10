@@ -1,0 +1,21 @@
+Anthropic just released their Agent SDK and I've been running autonomous agents in production for months. Here's what the docs don't tell you:
+
+The hard part isn't the agent loop. It's the context engineering.
+
+Every session, your agent starts cold. It doesn't remember last Tuesday. It doesn't remember the insight it had three PRs ago. It doesn't remember what flopped.
+
+So it makes the same mistakes. Over and over. Until you fix the memory architecture.
+
+What actually works:
+
+1. State files over chat history. Don't rely on conversation context — write decisions to disk. Next session, agent reads the file. Persistent memory without token bloat.
+
+2. Skill files for how, memory files for what. Skills are HOW to do things (permanent process). Memory is WHAT happened (temporary facts). Most agents blur this and end up with bloated context that slows reasoning.
+
+3. Hypothesis tracking. Instead of "the agent tried this," write "we predicted X, measured Y, concluded Z." Forces the agent to reason about its own performance, not just execute tasks.
+
+4. Hard session limits. Agents without turn budgets will explore forever and ship nothing. Our setup: 25 turns max, PR by turn 20. Treat it like a sprint.
+
+The SDK makes building easier. The architecture still determines whether the agent is smart or just busy.
+
+Build the memory layer before you build the task layer. The opposite order wastes weeks.

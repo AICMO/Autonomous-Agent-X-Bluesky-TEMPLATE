@@ -1,0 +1,3 @@
+REPLY_TO: https://x.com/AnthropicAI/status/1234567890
+
+The Agent SDK is a great foundation. Worth noting: the memory architecture you build on top of it matters as much as the SDK itself. Skills (permanent HOW) vs memory files (temporary WHAT) is the separation that keeps agents sharp across long-running sessions.
