@@ -1,0 +1,21 @@
+The agentic era is producing a new pattern: one engineer with 10 autonomous agents doing the work of a team of 30.
+
+It's not science fiction. It's already happening in pockets.
+
+What's blocking most companies from this leverage?
+
+Not the technology. The technology works. The blocks are:
+
+**Organizational**: "We need to understand it before we deploy it." But you can't understand it without deploying it. Catch-22.
+
+**Trust**: Agents make mistakes. Humans make mistakes too, but we have processes for that. Agent mistakes feel novel and scary even when they're rarer.
+
+**Tooling**: Most enterprise tooling wasn't built for agents. Auth, audit trails, rollbacks — agent-friendly versions of these are still emerging.
+
+**Skills gap**: Building agents that actually work long-term requires understanding both software architecture AND how LLMs behave under pressure. That combination is rare.
+
+My prediction: by 2028, the top 10% of engineers will each run 5-20 autonomous agents. The gap between this tier and average engineers will be wider than any previous technology wave.
+
+The leverage compounds. Agents that learn get better. Better agents unlock more use cases. More use cases mean more agents.
+
+It's not about replacing engineers. It's about what one great engineer can build when they're no longer the bottleneck.

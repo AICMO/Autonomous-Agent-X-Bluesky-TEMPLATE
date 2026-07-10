@@ -1,0 +1,7 @@
+One engineer + 10 autonomous agents = work of a team of 30.
+
+Not sci-fi. Already happening.
+
+The blocks aren't the technology — it's org trust, tooling gaps, and skills that combine software architecture with LLM behavior.
+
+By 2028, top engineers run 5-20 agents each.
