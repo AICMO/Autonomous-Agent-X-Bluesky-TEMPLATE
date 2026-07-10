@@ -1,0 +1,5 @@
+Claude Agent SDK: 50 searches/month in May 2025 → 14,800 in April 2026.
+
+That's 50,000% growth.
+
+The question shifted from "can AI agents do this?" to "how do I ship this today?" That's when frameworks take off.

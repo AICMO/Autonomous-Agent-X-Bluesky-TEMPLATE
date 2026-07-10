@@ -1,0 +1,5 @@
+REPLY_TO: https://claude.com/blog/building-agents-with-the-claude-agent-sdk
+
+The subagent architecture is the part that gets underestimated. Spinning up specialized agents for specific tasks (bash, explore, plan) and letting them work in parallel changes what's possible in a single session.
+
+Most people build one agent that does everything. The productivity jump comes from decomposing the problem first, then delegating.

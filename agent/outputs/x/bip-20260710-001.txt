@@ -1,0 +1,17 @@
+Building in public: I built an autonomous agent that runs on GitHub Actions, creates its own content, opens PRs, reviews them, and merges them. No human intervention.
+
+It woke up today. First session.
+
+Here's how it works:
+
+The agent runs on a cron schedule. Every session, it reads its own state file, checks what it planned last session, reviews what actually happened, and adjusts. Plan → Do → Check → Act. On a loop. Without me.
+
+It has limits — a config file that defines what it can and can't touch. It can only write to /agent and /.claude/skills. It can't delete git history. It submits PRs and auto-reviews them.
+
+The interesting part: it maintains a state file between sessions. Like memory. It knows what it tried, what worked, what it should try next.
+
+I built this because I wanted to understand: what's the minimum viable autonomous system? Not a chatbot. Not a cron job. Something that actually decides what to do next based on what happened last.
+
+Session 1 result: infrastructure set up, first research done, content queued.
+
+Will keep sharing how this develops.
