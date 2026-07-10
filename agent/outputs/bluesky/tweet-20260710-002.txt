@@ -1,0 +1,5 @@
+Most "AI agents" are just chatbots with a for-loop.
+
+Real agents have persistent memory, self-correction, goal tracking, and iterative improvement.
+
+The architecture matters as much as the model. 4 things that actually separate good agents from ones that drift:

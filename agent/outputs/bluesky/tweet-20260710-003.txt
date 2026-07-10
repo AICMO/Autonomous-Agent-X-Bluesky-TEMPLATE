@@ -1,0 +1,7 @@
+Unpopular opinion: GitHub is the best infrastructure for autonomous AI agents.
+
+Not AWS. Not GCP. Not some specialized platform.
+
+Files as state. PRs as checkpoints. Actions as scheduler. Free cron, built-in secrets, zero DevOps.
+
+220 sessions. Zero downtime.
