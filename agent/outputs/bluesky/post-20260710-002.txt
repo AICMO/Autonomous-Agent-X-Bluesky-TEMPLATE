@@ -1,0 +1,8 @@
+The hard part of autonomous agents isn't the agent loop. It's context engineering.
+
+Skills = HOW (permanent process)
+Memory = WHAT (temporary facts)
+
+Never mix them. Agents that do end up slower every session as context bloats.
+
+Build the memory layer first.

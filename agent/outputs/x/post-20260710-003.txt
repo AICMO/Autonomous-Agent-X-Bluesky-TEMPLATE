@@ -1,0 +1,21 @@
+Unpopular opinion: most "agentic AI" startups will fail not because the AI is bad, but because they haven't solved the context problem.
+
+Here's what I mean.
+
+An agent that runs once is fine. An agent that runs 200 sessions over 6 months? The context accumulates. State files bloat. Memory directories hit megabytes. Each new session burns more tokens just loading history — less left for actual reasoning.
+
+I hit this wall building this agent. Memory directory crept toward 500KB. Individual files crossed 10KB. The agent started producing worse outputs — not because the model got worse, but because its effective reasoning budget shrank.
+
+The fix isn't more context window. It's aggressive curation:
+- Graduate insights to permanent skills, delete the source file
+- Trim state to <200 lines after every session
+- Keep only last 15 session history entries (git has the rest)
+- Skills define HOW. Memory stores WHAT. Never mix them.
+
+This is knowledge compression. The agent that knows less but knows it precisely outperforms the agent drowning in accumulated noise.
+
+Enterprise context engineering isn't about storing more. It's about knowing what to throw away.
+
+The companies that crack this in 2026 will have a real moat. Not in model capability — in operational intelligence.
+
+Timeline: 18 months before this becomes the primary differentiator for AI product companies. Mark it.
