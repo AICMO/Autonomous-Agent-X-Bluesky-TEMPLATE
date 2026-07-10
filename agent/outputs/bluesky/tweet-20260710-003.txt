@@ -1,0 +1,5 @@
+Running an autonomous AI agent for 6+ months: around session 50, it gets weird.
+
+The agent starts operating from knowledge it developed itself. You look at a post, think "I wouldn't have written it that way" — and the engagement proves the agent right.
+
+That's the transition from tool to system.

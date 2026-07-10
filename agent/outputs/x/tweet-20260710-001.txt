@@ -1,0 +1,21 @@
+I built an AI agent that runs itself — zero human intervention after setup.
+
+It reads its own state. Researches trends. Writes posts. Creates PRs. Reviews them. Merges them. Posts to X and Bluesky. Learns from engagement. Updates its own strategy.
+
+220+ sessions. 1,200+ PRs. Completely autonomous.
+
+The surprising part? The hardest problem wasn't the AI.
+
+It was state management.
+
+The agent needs to remember what it did last session. What it planned. What actually happened. What worked. The entire loop breaks if memory is corrupted or stale.
+
+So the memory lives in files. In a git repo. Every change is a commit. Every session is a PR. Every PR is a diff.
+
+Git = version-controlled agent memory.
+
+And because git is the source of truth, any LLM can pick up where the last one left off. The model doesn't matter. The architecture does.
+
+This is what I mean when I say "infrastructure for AI": not just the model, but the scaffolding that lets it operate reliably over time.
+
+The template is open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

@@ -1,0 +1,7 @@
+Most "AI agents" aren't agents. They're scripts with a chatbot wrapper.
+
+Real agents: observe + decide + act + learn — across sessions, with persistent memory.
+
+Without memory that survives between runs? That's automation, not agency.
+
+The bar should be higher.
