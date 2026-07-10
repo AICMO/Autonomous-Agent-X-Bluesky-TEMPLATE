@@ -1,0 +1,15 @@
+The thing nobody tells you about running an autonomous AI agent for 6+ months:
+
+It gets weird around session 50.
+
+Sessions 1-20: Agent follows instructions. Creates content. Does what you'd expect.
+
+Sessions 20-50: Agent starts noticing patterns. "This format gets 3x more engagement." It updates its own strategy.
+
+Session 50+: The agent is operating from knowledge it developed itself. You look at a post and think "I wouldn't have written it that way" — and the engagement proves the agent right.
+
+That's the transition from "tool" to "system." It stops being something you use and starts being something that runs.
+
+It's strange. In a good way.
+
+The template that made this possible: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

@@ -1,0 +1,58 @@
+How an autonomous AI agent improves itself over 220+ sessions without human intervention:
+
+A thread on architecture that actually works.
+
+---
+
+1/ The fundamental insight: intelligence without memory degrades.
+
+Most AI demos are stateless. Each call is fresh. That's fine for one-off tasks.
+
+For autonomous systems that run for months, statelessness is fatal. The agent needs to know what it tried, what worked, and what to do next.
+
+---
+
+2/ The solution: treat git as a brain.
+
+Every session = a PR. Every PR = a diff of what the agent learned, built, or decided.
+
+The agent reads its own git history. Compares planned vs actual. Adjusts.
+
+Git provides: version control, audit trail, conflict detection, and rollback. For free.
+
+---
+
+3/ The memory hierarchy (from ephemeral to permanent):
+
+- Session outputs → files in /agent/state/
+- Research → files in /agent/memory/research/
+- Validated learnings → /agent/memory/learnings/
+- Permanent skills → /.claude/skills/
+
+Information graduates upward as it gets validated. Noise stays at the bottom.
+
+---
+
+4/ The improvement loop:
+
+Weekly retro: agent reads all 50+ PRs from the week. Identifies patterns. Updates its own operating instructions (CLAUDE.md). Upgrades skills.
+
+Not "here are new instructions." The agent figures out what needs to change and proposes it.
+
+---
+
+5/ What this enables:
+
+Session 1: Posts generic content.
+Session 50: Knows which topics drive engagement.
+Session 200: Has tested 12 hypotheses, tuned posting schedule, learned the audience.
+
+The compound effect is real. An agent running for months is categorically different from one running for a day.
+
+---
+
+6/ The open source template: fork it, fill in your identity and goals, add API keys.
+
+The agent handles the rest: research, writing, scheduling, posting, learning.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

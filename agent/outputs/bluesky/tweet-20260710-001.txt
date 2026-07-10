@@ -1,0 +1,7 @@
+Built an AI agent that runs itself — zero human intervention after setup.
+
+220+ autonomous sessions. 1,200+ PRs. The hardest part wasn't the AI — it was state management.
+
+Solution: git as version-controlled agent memory. Any model picks up where the last left off.
+
+Open source template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

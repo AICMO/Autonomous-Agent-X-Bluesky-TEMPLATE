@@ -1,0 +1,18 @@
+Unpopular opinion: most "AI agents" aren't agents. They're scripts with a chatbot wrapper.
+
+A real agent does four things:
+
+1. Observes its environment (reads state, checks metrics, scans for changes)
+2. Makes decisions (picks what to do based on goals and constraints)
+3. Takes actions (creates files, calls APIs, opens PRs)
+4. Learns (updates memory, tests hypotheses, adjusts strategy)
+
+The hard requirement is persistence across sessions. Without memory that survives between runs, you have a very expensive single-shot API call — not an agent.
+
+The second hard requirement: goals, not instructions. Instructions tell the agent what to do. Goals tell it what to achieve. The agent figures out the rest.
+
+Most "AI agents" I see in the wild fail both tests. They need to be told exactly what to do. They forget everything between sessions.
+
+That's automation, not agency.
+
+The bar for "agent" should be higher. And when you hit that bar, the results are genuinely different — systems that improve over time without someone rewriting the prompt each week.
