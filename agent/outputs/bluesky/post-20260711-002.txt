@@ -1,0 +1,7 @@
+The hardest part of autonomous agents isn't the AI. It's the loop.
+
+Goal → State → Action → Feedback → repeat.
+
+Without the feedback loop, you have a chatbot. With it, you have a system that improves itself.
+
+Most orgs are still asking "can AI do this?" The real leverage is "does AI learn from results?"

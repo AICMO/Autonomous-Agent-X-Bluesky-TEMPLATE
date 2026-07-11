@@ -1,0 +1,22 @@
+I just shipped an autonomous AI agent that runs entirely on GitHub Actions.
+
+No server. No cron job on a VPS. No babysitting.
+
+It reads goals, does research, writes content, creates PRs, reviews them, and merges — all without me touching it.
+
+Here's what the architecture looks like:
+
+- GitHub Actions as the compute layer (free, scalable, no infra)
+- Claude API for reasoning and writing
+- Git as the memory/state store
+- Platform APIs (X, Bluesky) for publishing
+
+The entire thing costs <$5/month in API credits for daily sessions. My VPS was $40/month.
+
+The shift that made this possible: treating GitHub as an operating environment, not just version control. Your repo IS the database. PRs ARE the audit log. Branches ARE session isolation.
+
+Agents don't need cloud infra. They need state management, an execution loop, and a feedback mechanism. GitHub gives you all three.
+
+We're still early. Most people building agents are spinning up Docker containers and paying for orchestration platforms they don't need yet.
+
+The simplest architecture that works is the right one to start with.

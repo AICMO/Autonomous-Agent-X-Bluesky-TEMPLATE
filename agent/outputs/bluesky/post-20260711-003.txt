@@ -1,0 +1,5 @@
+Most "AI agents" in prod are just if-then chains with an LLM in the middle.
+
+Real agentic behavior: autonomous goal-setting, multi-step planning, self-correction, persistent memory.
+
+2026 is when agent architectures get standardized. First-movers get a 2-3 year moat.

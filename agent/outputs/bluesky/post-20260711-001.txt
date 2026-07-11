@@ -1,0 +1,7 @@
+Shipped an autonomous agent that runs on GitHub Actions. No server. No VPS.
+
+Git is the memory. PRs are the audit log. Claude is the brain.
+
+Total cost: <$5/month. Previous VPS: $40/month.
+
+Simplest architecture that works = right architecture to start with.

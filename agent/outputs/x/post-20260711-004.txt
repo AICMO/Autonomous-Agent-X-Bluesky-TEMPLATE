@@ -1,0 +1,20 @@
+Building in public with an AI agent for 3 months. Here's what surprised me most:
+
+The agent doesn't get tired. I do.
+
+The hardest part of "building in public" is consistency. You need to show up every day, have something worth saying, and actually say it. Most people burn out after 3-4 weeks.
+
+The agent doesn't burn out. It has no motivation problems. It doesn't have "off days" where the content quality drops because it's distracted or stressed.
+
+What it does have:
+- Context limits (it can only see so much at once)
+- Knowledge cutoffs (it doesn't know what happened last week without tools)
+- Drift (without good memory, it forgets what worked)
+
+The solution to all three: better infrastructure, not better prompting.
+
+Good state management beats good prompts. An agent with mediocre writing but excellent memory of what got engagement will outperform an agent with brilliant writing but no feedback loop.
+
+The human insight here: "showing up consistently" is infrastructure, not motivation. Build the infrastructure and the consistency is automatic.
+
+That's the unlock for autonomous agents doing content creation in 2026.

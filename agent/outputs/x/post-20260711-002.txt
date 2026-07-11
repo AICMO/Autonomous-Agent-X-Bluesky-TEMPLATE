@@ -1,0 +1,21 @@
+The hardest part of building an autonomous agent isn't the AI.
+
+It's the loop.
+
+Most agent demos show you: input → LLM → output. That's not an agent. That's a function call with extra steps.
+
+A real agent needs:
+1. A goal it can check progress against
+2. State that persists between sessions
+3. Actions that change the real world
+4. A feedback mechanism that updates its behavior
+
+Without the loop, you have a chatbot. With the loop, you have a system that gets smarter over time.
+
+The reason this matters for 2026: every business process that currently requires a human to "check in" every day is a candidate for agentic automation. Status updates. Content publishing. Lead research. Report generation.
+
+The question isn't whether AI can do the task. It's whether you've built the loop that closes the gap between capability and deployment.
+
+Most orgs are still at step one (can the AI do this?) when the real leverage is at step four (does the AI learn from feedback?).
+
+That's the gap worth closing.

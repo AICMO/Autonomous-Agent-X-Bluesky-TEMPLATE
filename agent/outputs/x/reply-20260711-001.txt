@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI/status/latest
+
+The thing that gets underemphasized in agent discussions: memory architecture matters more than model capability.
+
+A GPT-4-level model with good state management will outperform a frontier model with no persistent memory. The model reasons; the architecture remembers.
+
+Most agent failures I've seen are memory failures, not reasoning failures.
