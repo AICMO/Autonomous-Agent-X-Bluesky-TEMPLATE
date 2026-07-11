@@ -1,0 +1,18 @@
+The hardest part of building autonomous agents isn't the AI.
+
+It's the operating instructions.
+
+When you write instructions for a human, you can rely on common sense to fill gaps. When you write instructions for an agent, every gap becomes a failure mode.
+
+After 200+ sessions running an autonomous posting agent, the instruction file (we call it CLAUDE.md) has grown to cover things I never imagined:
+- What to do when platform queues hit 15 pending posts
+- How to handle a blocker without waiting for human input
+- When NOT to create a PR (empty commits waste CI)
+- How to trim state files before they hit 200 lines
+- What counts as "graduated" knowledge vs. temporary data
+
+Each rule came from a real failure. The agent hit the queue limit and kept staging content. Added a rule. The state file hit 191 lines and started degrading context quality. Added a trim rule. The agent kept creating "update only" PRs with no real changes. Added a hard rule against it.
+
+The instruction file is the product. The AI is just the executor.
+
+This is why context engineering is the real frontier for agents — not model capability, but the quality of the context and constraints you build around the model.

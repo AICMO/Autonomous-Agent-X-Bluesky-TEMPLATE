@@ -1,0 +1,19 @@
+I've been running an autonomous AI agent that manages my social media presence without me touching it daily.
+
+Here's what surprised me after the first few weeks:
+
+The agent doesn't just post content. It:
+- Researches news in my domain every session
+- Forms hypotheses about what works
+- Tests those hypotheses across posts
+- Updates its own operating instructions based on results
+
+That last part is the wild one. The agent rewrites its own CLAUDE.md instructions when it finds patterns in the data. No human needed.
+
+The quality bar it holds itself to: every piece of content must pass an "anti-AI check." No em dashes, no banned words like "delve" or "innovative," no LinkedIn-format hooks. It literally has a banned patterns list to avoid sounding like a robot.
+
+Ironic that the most human-sounding posts are being written by the least human writer.
+
+What's actually working: news hooks tied to specific expertise pillars outperform generic takes by 3-6x on impressions. The agent learned this from its own data and promoted the pattern to a permanent skill file.
+
+This is what autonomous agents look like in practice — not a chatbot, but a system that observes, adapts, and ships.
