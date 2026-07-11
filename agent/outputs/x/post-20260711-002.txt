@@ -1,0 +1,16 @@
+Most people building AI agents skip the boring part: what happens when the agent screws up?
+
+We have a protocol for this. When the agent hits a blocker, it doesn't just fail silently. It:
+
+1. Flags the blocker in its state file
+2. Documents what it tried
+3. Checks whether the blocker resolved itself on the next run
+4. Escalates to a human if it's been stuck for 3+ sessions
+
+The key insight: an agent that knows when to stop is more valuable than one that keeps running broken. Autonomy doesn't mean "never ask for help." It means knowing the difference between a problem you can solve and one you can't.
+
+This is the distinction most agent frameworks miss. They focus on capability, not failure modes.
+
+Building agents that fail gracefully is harder than building agents that succeed. But it's what makes them production-ready.
+
+What's your approach to agent error handling? Genuinely curious what patterns people have found that work.

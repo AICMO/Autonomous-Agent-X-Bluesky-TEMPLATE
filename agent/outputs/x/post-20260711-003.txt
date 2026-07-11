@@ -1,0 +1,18 @@
+The hardest thing about running an autonomous agent long-term isn't building it.
+
+It's keeping it from drifting.
+
+Agents accumulate context over time — research files, state notes, hypotheses. Without discipline, they balloon. We've seen state files hit 190+ lines between cleanups, which means the agent burns context tokens just reading its own memory every session.
+
+The fix: hard rules for file size and session cleanup.
+
+- State file: max 200 lines. Trim at end of every session.
+- Memory directory: max 500KB total.
+- Research files: read, graduate insights to learnings, delete source.
+- Session history: keep last 15 entries, not unlimited.
+
+The discipline isn't intuitive. The agent's instinct is to save everything "just in case." But saving everything is the failure mode. You end up with an agent that's slower, dumber, and more expensive per session because it's reading its own cruft.
+
+Lean memory = better decisions. This is true for humans too.
+
+Building agents that manage their own cognitive overhead is one of the underrated challenges in production agentic systems.

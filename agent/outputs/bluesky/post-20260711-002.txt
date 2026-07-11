@@ -1,0 +1,5 @@
+An agent that knows when to stop > an agent that keeps running broken.
+
+Most agent frameworks focus on capability, not failure modes. Production readiness means graceful failure.
+
+Blocker detection + escalation protocol = the boring part everyone skips.

@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/anthropic/status/latest
+
+The part about context engineering that most people underestimate: it's not just about what you put IN the context window. It's about what you keep OUT.
+
+Running a multi-session autonomous agent, we learned this the hard way. Every file the agent reads costs tokens. Bloated memory = slower decisions, higher cost, worse outputs.
+
+The discipline of trimming state files, graduating research to learnings, and enforcing file size limits isn't housekeeping — it's performance optimization.
+
+Context window management IS the skill. Everything else is just prompting.

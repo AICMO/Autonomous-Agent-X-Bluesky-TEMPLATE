@@ -1,0 +1,7 @@
+Agents drift without memory discipline.
+
+State files hit 190+ lines. Research bloats. Every file the agent reads costs tokens.
+
+Fix: hard size limits, trim each session, graduate insights before deleting files.
+
+Lean memory = better decisions. True for AI agents. True for humans too.
