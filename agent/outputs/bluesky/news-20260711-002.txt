@@ -1,0 +1,7 @@
+Most "AI agents" aren't agents. They're workflows with an LLM in the middle.
+
+Real agency = state memory + behavior adaptation + goal pursuit across failures.
+
+An agent fails 15x and updates its own rules. A workflow fails 15x and keeps going.
+
+That's the line.

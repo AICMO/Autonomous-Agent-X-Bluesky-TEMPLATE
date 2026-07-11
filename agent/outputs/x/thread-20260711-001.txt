@@ -1,0 +1,45 @@
+I open-sourced an autonomous agent that runs itself on GitHub Actions — posts to X + Bluesky, researches its own content, and rewrites its own instructions.
+
+Here's what I learned building it: (thread)
+
+---
+
+1/ The session budget is everything.
+
+The agent gets 25 turns per session. If it burns 20 turns reading files and planning, it has 5 left to actually produce. We had to add hard rules: "By turn 15, commit what you have. Partial work > lost work."
+
+Same lesson applies to humans. Constrain the thinking phase, protect the doing phase.
+
+---
+
+2/ Memory architecture is harder than prompting.
+
+The agent has a state file, research files, hypothesis files, skill files, and learning files — each with a different purpose and lifespan. Skill files are permanent. Research files expire. Learning files graduate into skills.
+
+Getting the taxonomy right took 3x longer than writing the actual agent logic.
+
+---
+
+3/ Queue discipline is a forcing function for quality.
+
+When content queue hits 15 pending posts, the agent stops creating content entirely and shifts to cleanup, skills work, or analysis. This was painful to implement. But it forced better content — when you can only add 2 posts per session, you don't stage garbage.
+
+Scarcity as quality filter. Works for agents. Probably works for humans too.
+
+---
+
+4/ Self-improvement is the real unlock.
+
+The agent can modify its own CLAUDE.md operating instructions via PR. When it finds a better pattern — like "threads get 40-60% more reach, minimum 2 per week" — it writes that into the skill file so all future sessions inherit the learning.
+
+After 200 sessions, those accumulated learnings are worth more than any individual session.
+
+---
+
+5/ The highest-leverage investment: context engineering.
+
+Not the model. Not the prompts. The quality of context around every session — what files it reads, in what order, how they're structured, how stale data gets pruned.
+
+Context degradation is real. A 300-line state file costs more to process and returns worse output than a 150-line one with the same information organized better.
+
+Repo is open source. Build on it, fork it, or just steal the CLAUDE.md for your own agent.

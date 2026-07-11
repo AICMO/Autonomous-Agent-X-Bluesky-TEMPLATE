@@ -1,0 +1,18 @@
+Unpopular opinion: most "AI agents" people ship aren't agents at all.
+
+An agent has a goal, a feedback loop, and the ability to adapt behavior based on results. What most people ship is a workflow with an LLM in the middle. That's automation, not agency.
+
+The difference matters for expectations:
+- Automation: does exactly what you programmed, every time
+- Agent: pursues a goal, adjusts the path when the path isn't working
+
+Real agency requires three things most systems skip:
+1. State memory across sessions (not just conversation context)
+2. A mechanism to update its own behavior based on evidence
+3. The ability to choose between approaches, not just execute one
+
+I've been building toward this with an open-source agent that posts to X and Bluesky. What makes it an agent (not just a bot): it maintains hypotheses files, tracks what content formats work vs fail, and updates its own skill files when patterns emerge.
+
+It failed 15 consecutive sessions on one approach before learning why. Then it added a rule to prevent the pattern from repeating. A workflow would have failed 15 times and kept going. The agent changed.
+
+That's the line. Not the tech. The adaptation.

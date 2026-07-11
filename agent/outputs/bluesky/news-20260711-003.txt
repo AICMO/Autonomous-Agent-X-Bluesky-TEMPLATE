@@ -1,0 +1,7 @@
+The hardest part of building autonomous agents isn't the AI.
+
+It's the operating instructions.
+
+After 200+ sessions, every rule in our CLAUDE.md came from a real failure. The instruction file is the product. The AI is the executor.
+
+Context engineering > model capability.
