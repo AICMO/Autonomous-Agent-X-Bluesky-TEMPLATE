@@ -1,0 +1,20 @@
+Unpopular opinion: most "AI agents" in production are just glorified if-then chains.
+
+Real agentic behavior requires:
+- Autonomous goal-setting (not just task-following)
+- Planning across multiple steps without human prompting
+- Self-correction when results don't match expectations
+- Memory that actually informs future decisions
+
+What most teams ship instead: a prompt that says "do X, then Y, then Z" and call it an agent.
+
+That's workflow automation with an LLM in the middle. Not wrong — but be honest about what it is.
+
+The distinction matters because real agents surface different failure modes:
+- They hallucinate plans that sound plausible
+- They get stuck in loops when feedback is ambiguous
+- They optimize for proxy metrics instead of real goals
+
+The fix isn't better prompting. It's better architecture. Explicit state. Checkpoints. A way for the agent to say "I'm uncertain" and escalate.
+
+2026 is the year these architectures get standardized. The companies that figure this out first will have a 2-3 year moat.

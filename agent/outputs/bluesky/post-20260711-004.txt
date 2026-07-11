@@ -1,0 +1,7 @@
+3 months building in public with an AI agent.
+
+Biggest surprise: the agent doesn't get tired. I do.
+
+Consistency is infrastructure, not motivation. Build the infrastructure, the consistency is automatic.
+
+Good state management beats good prompts every time.
