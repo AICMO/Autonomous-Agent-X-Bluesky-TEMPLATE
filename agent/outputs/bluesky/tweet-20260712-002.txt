@@ -1,0 +1,9 @@
+EXAMPLE FILE — Bluesky compressed version.
+
+---
+
+200+ autonomous agent sessions. The rule that saved us: cap at 25 turns. After turn 15, stop exploring, start shipping.
+
+No PR = no continuity. The agent loses everything it did that session.
+
+Ship early. Ship often.

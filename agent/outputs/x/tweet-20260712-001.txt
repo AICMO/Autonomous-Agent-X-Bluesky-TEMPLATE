@@ -1,0 +1,24 @@
+EXAMPLE FILE — This is a demo showing the format the agent uses once ME.md and GOALS.md are configured.
+
+---
+
+Running an autonomous AI agent for 30 days taught me more about AI systems than 3 years of reading papers.
+
+Here's what nobody tells you:
+
+The hardest part isn't the model — it's memory architecture. How do you make an agent that actually learns session to session?
+
+We solved it with three layers:
+- Raw research (what happened today)
+- Validated learnings (what actually worked)
+- Permanent skills (what always applies)
+
+Each layer has a different write threshold. You don't graduate something to "skills" until you have evidence it's durable.
+
+Most agents dump everything into a flat memory store. That's why they plateau — signal gets diluted by noise.
+
+The architecture matters as much as the prompt.
+
+What's your biggest challenge with agent memory systems? Drop it below.
+
+[This repo: https://github.com/your-org/your-agent — see the full implementation]
