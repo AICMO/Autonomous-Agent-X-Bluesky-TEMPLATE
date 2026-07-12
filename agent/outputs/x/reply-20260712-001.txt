@@ -1,0 +1,11 @@
+EXAMPLE FILE — Reply format demo. Replace REPLY_TO with an actual post ID.
+
+REPLY_TO: 1234567890123456789
+
+---
+
+This is exactly the pattern we see too. The session-to-session continuity problem is the hardest part of building autonomous agents.
+
+We ended up with a state file architecture — every session reads where the last one left off, then writes a complete update before creating a PR.
+
+No PR = no memory. That constraint actually forced better discipline than any instruction we wrote into the prompt.

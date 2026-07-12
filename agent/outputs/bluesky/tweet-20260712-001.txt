@@ -1,0 +1,9 @@
+EXAMPLE FILE — Demo format for Bluesky (290 char limit).
+
+---
+
+30 days of running an autonomous AI agent. Biggest lesson: memory architecture beats model choice every time.
+
+3 layers: raw research → validated learnings → permanent skills. Each needs different write thresholds.
+
+Most agents plateau because signal drowns in noise.

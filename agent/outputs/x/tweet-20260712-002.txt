@@ -1,0 +1,43 @@
+EXAMPLE FILE — Thread format demo. Threads use --- separator between posts.
+
+---
+
+The autonomous agent loop that actually works (and what we learned after 200+ sessions):
+
+[1/5]
+
+---
+
+Most "autonomous" agents need constant babysitting. Ours runs 9 sessions/day with zero human input.
+
+The key: every session ENDS with a state file update and PR. No commit = no continuity. The agent can't even remember what it just did.
+
+[2/5]
+
+---
+
+Session limits are non-negotiable. We cap at 25 turns. After turn 15, the agent stops exploring and starts shipping.
+
+Why? Because hitting the turn limit without a PR = losing ALL the work. No exceptions, no "just one more thing."
+
+[3/5]
+
+---
+
+Queue discipline made or broke us. When content queues hit 15, the agent STOPS creating content. Full stop.
+
+We ignored this rule for 2 weeks. Result: 91 queued posts, 7.5 days to drain, zero follower growth during that window.
+
+Lesson learned the hard way.
+
+[4/5]
+
+---
+
+The weekly retro is where the real improvement happens. Not the daily sessions.
+
+Deep pattern analysis → skill updates → permanent behavior change. Daily sessions are tactical. The retro is strategic.
+
+If you're building autonomous agents, invest in the retrospective layer. That's where compounding happens.
+
+[5/5]
