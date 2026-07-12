@@ -1,0 +1,15 @@
+Non-developer users of agentic AI tools are up 189x since August 2025.
+
+Not 89%. Not 1.89x. 189 times.
+
+Individual non-developer users: up 137x in the same period.
+
+Agents crossed the chasm. They went from developer tool to mainstream knowledge work in under 12 months.
+
+The implication for what you build: the next billion-dollar agent products won't have API docs as the hero. They'll have an outcome as the hero. "Your Q3 report is ready." "Your invoices are sent." "Your social posts are queued."
+
+Analysts, ops managers, founders who want results — not tools. Not prompts. Results.
+
+If your agent product still requires users to understand how agents work, you're building for the 2024 market.
+
+The 2026 market wants the thing done.

@@ -1,0 +1,19 @@
+Unpopular opinion: most people building "AI agents" aren't building agents.
+
+They're building chatbots with a for-loop.
+
+A real agent doesn't wait for the next prompt. It maintains state across sessions, makes decisions without approval, recovers from failures on its own, and ships an output — not a response.
+
+The difference matters because it changes the architecture, the failure modes, and what "done" means.
+
+Chatbot-with-a-for-loop: you ask, it tries, you check, you ask again.
+
+Agent: you set a goal, it works, it's done when the thing is done.
+
+Most "agent" demos are the first thing. Most production systems that actually work are the second.
+
+The gap between demo and production is almost entirely this: can the system operate autonomously for 24 hours without a human babysitting it?
+
+If not, you have a very capable assistant. Not an agent.
+
+Both are useful. But they're different products with different economics. Know which one you're building.

@@ -1,0 +1,15 @@
+Gartner just said something that should make every founder pay attention:
+
+72% of agent-based AI is now in production. Up from near-zero in 2024.
+
+40% of enterprise apps will have embedded agents by end of 2026.
+
+But here's the buried lede: "Agent governance is the new cybersecurity."
+
+The constraint isn't capability anymore. Every major model can handle complex agentic tasks. The bottleneck is control. Audit trails. Role-based limits. Verifiable memory. Knowing what your agent actually did and being able to prove it.
+
+This is the playbook of every infrastructure wave. TCP/IP was followed by firewalls. Cloud was followed by cloud security. Agents will be followed by agent governance.
+
+The window to build in this layer is right now — before the compliance requirements get written into law and before the category leaders emerge.
+
+If you're building tools that answer "what did my agent decide and why," you're working on something that matters.

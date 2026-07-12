@@ -1,0 +1,13 @@
+OpenAI just shipped ChatGPT Work. Not "ChatGPT that helps you work." An agent that takes a goal and finishes the job.
+
+You tell it what you need. It gathers context across your apps and files, breaks it into steps, and delivers: spreadsheets, slides, docs, web apps. Done.
+
+This is the line everyone's been waiting to cross. AI goes from answering questions to shipping deliverables.
+
+The architecture is interesting too. GPT-5.6 now runs concurrent subagents in a single request via the Responses API. Multi-agent by default. The era of single-model sessions is over.
+
+For anyone building on top of these models: the user expectation just shifted. They don't want "help." They want the output. Design accordingly.
+
+Pricing if you're evaluating: Sol tier at $5/$30 per 1M tokens. Luna at $1/$6. Zero Data Retention compatible for enterprise.
+
+The agents era isn't coming. It shipped July 9th.
