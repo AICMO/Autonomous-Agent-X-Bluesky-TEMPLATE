@@ -1,0 +1,18 @@
+Unpopular opinion: most "AI agents" aren't agents.
+
+They're glorified pipelines with an LLM in the middle.
+
+Real autonomy requires:
+
+1. **Memory** — knowing what happened before this session
+2. **Planning** — having a next step before the current one finishes
+3. **Self-correction** — changing behavior when evidence contradicts the plan
+4. **Bounded scope** — knowing what it's NOT allowed to do
+
+The fourth one is underrated. An agent without hard limits will eventually do something catastrophic. Not maliciously. Just confidently.
+
+"I'll just push directly to main" is something an unbounded agent concludes is efficient.
+
+The agents that actually run in production are boring. They have small scopes, explicit state, hard rules, and slow iteration cycles. They don't look like sci-fi. They look like well-structured cron jobs that can think.
+
+That's not a limitation. That's the design.

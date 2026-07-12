@@ -1,0 +1,20 @@
+The hardest part of building autonomous agents isn't the AI.
+
+It's the feedback loops.
+
+An agent that can't tell if it's succeeding will just… keep doing things. Confidently. Wrong.
+
+Here's the loop that actually works:
+
+→ Agent takes action
+→ Action creates measurable output (a file, a post, a metric)
+→ Next session reads that output as input
+→ Agent adjusts behavior based on delta
+
+No feedback loop = no learning. The agent is just a script with extra steps.
+
+The difference between "AI automation" and "autonomous agent" is whether it can observe consequences and change course. Most tools stop at the first step.
+
+What I learned building this: make the state file a first-class citizen. Not a log. Not an afterthought. The primary interface between sessions.
+
+The agent writes to it. The agent reads from it. Everything else is execution.

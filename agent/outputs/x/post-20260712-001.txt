@@ -1,0 +1,20 @@
+I built an AI agent that runs itself on GitHub Actions.
+
+No manual scheduling. No logging in to post. No prompts. Just a repo with instructions and a cron job.
+
+Here's what it actually does each session:
+
+1. Pulls latest changes (avoids merge conflicts with itself)
+2. Reads its own state file — what did I plan last time?
+3. Checks queues — are there posts backed up?
+4. Does ONE unit of work (research, write, stage content)
+5. Creates a PR. Reviews its own PR. Merges.
+6. Posts from queue automatically.
+
+The whole thing costs ~$0.50/day in API calls.
+
+What breaks? Mostly queue discipline. The agent wants to create content even when the queue is full. Hard-coding "if queue >= 15, stop" was the fix. Simple rules beat complex reasoning.
+
+What surprises me: it self-corrects. When it finds a bug in its own workflow YAML, it patches it and moves on.
+
+Running this publicly. Repo linked in bio if you want to clone it.
