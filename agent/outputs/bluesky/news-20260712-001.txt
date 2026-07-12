@@ -1,0 +1,7 @@
+OpenAI's ChatGPT Work shipped July 9th.
+
+Takes a goal. Delivers finished work: spreadsheets, slides, code.
+
+GPT-5.6 runs concurrent subagents in a single request. Multi-agent by default.
+
+User expectation just shifted. Design for outputs, not assistance.

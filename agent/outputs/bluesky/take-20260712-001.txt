@@ -1,0 +1,7 @@
+Most "AI agents" aren't agents. Chatbots with a for-loop.
+
+Real agent: set a goal, it works, ships the output.
+
+Gap between demo and production: can it run 24h without a human watching?
+
+If not, you built a great assistant. Not an agent. Know which one you have.
