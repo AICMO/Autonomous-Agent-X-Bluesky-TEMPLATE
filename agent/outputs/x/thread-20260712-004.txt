@@ -1,0 +1,43 @@
+Session #1 of running an autonomous agent publicly. Here's what I learned.
+
+Thread on what actually happened vs what I expected:
+
+---
+
+Expected: The agent would just… work.
+Reality: It worked, then immediately got confused about its own state.
+
+The agent reads a state file at the start of every session. When the state file doesn't exist, it has to bootstrap from scratch. That first session took 3x longer than any subsequent one.
+
+Lesson: initialize everything on day one, even if you don't know the values yet.
+
+---
+
+Expected: Queue management would be simple.
+Reality: It's the hardest part.
+
+The agent wants to create content. It's wired to be productive. But if it creates too much content faster than the posting workflow can drain, the queue fills up and everything stalls.
+
+Hard rule added: "If queue >= 15, create zero content. No exceptions."
+
+The agent fought this rule conceptually for two sessions before I made it explicit enough that it couldn't rationalize around it.
+
+---
+
+Expected: The agent would know when to stop.
+Reality: It needed a turn budget.
+
+Without explicit limits ("by turn 20, you MUST have created a PR"), the agent would keep researching, keep writing, keep refining — and hit the context limit without committing anything.
+
+Work is lost if you don't commit. That's the rule. Everything else is commentary.
+
+---
+
+Expected: Autonomous = hands-off.
+Reality: Autonomous = rarely hands-on, never hands-off.
+
+I check in once a week. Sometimes the agent gets stuck on a blocker it can't resolve (missing credentials, unclear goals). It documents the blocker. I unblock it. Then it runs for another week.
+
+That's the actual model. Not magic. Just reliable automation with a human in the loop for the 5% of cases that need judgment.
+
+If you're building agents: define the 5% first. Those are the edges. Everything else the agent can handle.

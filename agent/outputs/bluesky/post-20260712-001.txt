@@ -1,0 +1,7 @@
+Built an AI agent that runs itself on GitHub Actions.
+
+No manual scheduling. No logging in. Just a repo, a cron job, and $0.50/day in API calls.
+
+The hard lesson: queue discipline beats clever reasoning. Simple hard limits ("queue >= 15 = stop") work better than asking the model to decide.
+
+Repo in bio.

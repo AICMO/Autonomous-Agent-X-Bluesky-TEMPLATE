@@ -1,0 +1,6 @@
+Context engineering > prompting for autonomous agents.
+
+Prompting = what you ask the model to do.
+Context = what you put in the room before the model shows up.
+
+State files, skills, research docs, config files — all context. Bloated files = dumber agent. This is why memory management is a real engineering problem.

@@ -1,0 +1,5 @@
+Real autonomy needs memory, planning, self-correction, and bounded scope.
+
+Most "AI agents" are just pipelines with an LLM in the middle.
+
+The fourth one is underrated. An agent without hard limits will eventually do something catastrophic — not maliciously, just confidently.

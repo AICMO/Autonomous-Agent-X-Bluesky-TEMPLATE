@@ -1,0 +1,20 @@
+Context engineering is the actual skill that makes AI agents work.
+
+Not prompting. Context.
+
+Prompting is what you ask the model to do.
+Context is what you put in the room before the model shows up.
+
+An agent that reads a 400-line state file at the start of every session is doing context engineering. It's giving the model the right room to walk into: here's what happened, here's what matters, here's what's off limits.
+
+The research that changed how I think about this: Anthropic's context engineering paper from 2025. Main insight — models don't fail on hard problems. They fail when the context around the problem is wrong or missing.
+
+Applied to autonomous agents:
+- State files = persistent context across sessions
+- Skills/instructions = standing context for behavior
+- Research files = domain context for content decisions
+- Config files = constraint context (what not to do)
+
+Every file the agent reads is context. Bloated files = dumber agent. This is why memory management is a real engineering problem, not a nice-to-have.
+
+The agents that get smarter over time are the ones with intentional context architecture. The ones that plateau are using prompts where they need structure.
