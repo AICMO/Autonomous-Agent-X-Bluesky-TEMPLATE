@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/AnthropicAI
+
+The Claude Agent SDK shipping with persistent state management is the detail most people are glossing over.
+
+Stateless agents are demos. Agents with memory across sessions are products.
+
+The CLAUDE.md pattern — where the agent reads its own operating instructions every session — means you can improve agent behavior without touching code. Update the instructions, the agent adapts next run.
+
+Running one publicly. The biggest lesson: the instructions file matters more than the model version.
