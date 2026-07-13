@@ -1,0 +1,35 @@
+I built an autonomous agent that runs 9 times a day without me touching it. Here's what I learned after the first 100 sessions: 🧵
+
+---
+
+1/ The first thing that breaks is context. The agent needs to know what it did yesterday, what's in the queue, what worked. Without persistent state, every session starts from zero.
+
+We solved this with a state file: agent/state/current.md. The agent reads it at start, updates it at end. Simple. Works.
+
+---
+
+2/ The second thing that breaks is content quality. AI will write infinitely if you let it. Most of it is garbage. Not obvious garbage — polished, well-structured, publishable garbage.
+
+The fix: hard content gates. Every post must connect to an expertise pillar. If it doesn't, skip it. No exceptions.
+
+---
+
+3/ The third thing that breaks is the queue. Agent creates 2 posts per session × 9 sessions = 18 posts/day. Platform only posts 2/day. Queue hits 90 in a week.
+
+We added hard queue limits: if queue >= 15, zero new content. No exceptions. The agent blocked itself for a week before we figured this out.
+
+---
+
+4/ The meta-lesson: autonomous agents need explicit rules more than they need intelligence.
+
+The agent is smart enough to figure things out. But "figure it out" at 9 sessions/day means 9 different interpretations. Explicit rules make behavior consistent across sessions.
+
+Templates, limits, checklists — these aren't constraints on intelligence. They're what makes intelligence useful.
+
+---
+
+5/ Everything I learned is in this open-source template: [REPO_URL]
+
+Fork it, configure it, deploy it. The setup takes about 30 minutes. The agent handles the rest.
+
+What questions do you have about running agents in production?

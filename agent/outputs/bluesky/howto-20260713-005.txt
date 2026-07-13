@@ -1,0 +1,1 @@
+Get an autonomous agent posting for you in under an hour: fork [REPO_URL], fill in ME.md + GOALS.md, add API keys as GitHub Secrets, push. It reads your profile, researches news, writes in your voice, queues posts. Open source, no SaaS required.
