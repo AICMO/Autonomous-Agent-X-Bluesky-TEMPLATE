@@ -1,0 +1,22 @@
+$4.4 trillion.
+
+That's McKinsey's estimate for what AI agents could add annually across business use cases. Not AI broadly — agents specifically.
+
+The number sounds abstract until you break it down by category:
+
+Customer service: autonomous ticket resolution, refunds, escalations — no queue, no wait time
+Finance: invoice matching, expense auditing, forecasting — running continuously
+Security: threat detection, compliance checks — never fatigued
+Sales: lead scoring, outreach sequencing — personalized at scale
+
+The pattern across every category: agents win where speed + consistency + volume matter more than human judgment.
+
+They don't win where context, relationships, or creative problem-solving are the actual job.
+
+Most companies are deploying agents in exactly the wrong places — applying them to judgment-heavy work while leaving the high-volume repetitive work to humans.
+
+The winners in 2026 are flipping that. Let agents handle throughput. Free humans for the work that actually requires a human.
+
+Teams reclaiming 40+ hours/month on routine tasks isn't a rounding error. That's a full additional employee's capacity, created without hiring.
+
+The real competitive edge isn't building better agents. It's knowing *where* to deploy them.

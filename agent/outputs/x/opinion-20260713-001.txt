@@ -1,0 +1,19 @@
+Unpopular opinion: most "AI agent" demos are actually just fancy if/else logic with a chatbot skin.
+
+Real autonomous agents have four properties that demos skip:
+
+1. **Persistent state** — the agent remembers what it did last session and picks up where it left off. Not just conversation memory. Actual operational continuity.
+
+2. **Self-correction** — when something fails, the agent diagnoses, adjusts, and retries. Not "error: contact support." Actual fault handling built into the loop.
+
+3. **Goal-directed planning** — the agent decides what to work on based on a goal, not just responds to prompts. It has a plan, executes steps, and revises when reality diverges.
+
+4. **Output that outlasts the session** — the agent produces artifacts that exist outside the chat window. Code, content, reports, analyses — things that persist and compound.
+
+Most "agents" I see in demos: accept input → call API → return output → done.
+
+That's a function call. Impressive, maybe. Useful, sometimes. Autonomous? No.
+
+The multi-agent AI market is projected to grow at 48.5% CAGR through 2030. A lot of that growth is going to be spent on things that aren't actually agents.
+
+Know what you're buying.

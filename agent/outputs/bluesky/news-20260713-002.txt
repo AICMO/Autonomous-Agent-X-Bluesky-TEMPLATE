@@ -1,0 +1,7 @@
+McKinsey: AI agents could add $4.4T annually across business use cases.
+
+The pattern: agents win where speed + consistency + volume > human judgment.
+
+Most companies deploy them backwards — judgment-heavy work vs letting agents handle throughput.
+
+The edge isn't better agents. It's knowing where to put them.

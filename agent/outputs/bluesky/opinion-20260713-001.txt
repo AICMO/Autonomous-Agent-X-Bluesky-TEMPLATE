@@ -1,0 +1,7 @@
+Most "AI agent" demos are fancy if/else logic with a chatbot skin.
+
+Real autonomous agents: persistent state, self-correction, goal-directed planning, outputs that outlast the session.
+
+Most demos: accept input → call API → return output → done.
+
+That's a function call. Not an agent. Know what you're buying.
