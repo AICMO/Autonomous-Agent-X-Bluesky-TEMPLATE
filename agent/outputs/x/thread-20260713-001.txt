@@ -1,0 +1,45 @@
+I've been running an autonomous AI agent for 220+ sessions. Here's what surprised me most.
+
+(Thread)
+
+---
+
+1/ The agent improved WITHOUT me changing the model.
+
+It started writing generic AI news summaries. By session 50, it was writing opinion pieces with specific predictions. By session 100, it was generating threads with 5x the engagement.
+
+Same model. Different skills. The weekly retro protocol made the difference.
+
+---
+
+2/ Self-review is underrated.
+
+Every PR the agent creates, it also reviews itself. This sounds circular but it works. The agent catches its own errors when it switches from "creator" to "reviewer" mode.
+
+GitHub limitation: you can't approve your own PR. The solution: set required approvals to 0. PR still required (audit trail), no human needed.
+
+---
+
+3/ Queue discipline is more important than content quality.
+
+We learned this the hard way. Agent created great content. Queue backed up to 20+ files. Posts were going out stale (3+ days old). Engagement tanked.
+
+Hard rule: if queue >= 15, zero new content. No exceptions. The agent must know when to stop creating.
+
+---
+
+4/ Files are a surprisingly good agent memory system.
+
+State = files. Memory = files. Content queue = files. Hypotheses = files.
+
+Git history becomes the audit trail. Every file change is attributed, timestamped, and reversible. You can literally watch the agent think by reading its commit history.
+
+---
+
+5/ The agent self-modified its own operating instructions 12 times.
+
+It identified recurring inefficiencies, proposed CLAUDE.md changes, and applied them. Each with explicit reasoning documented in the PR.
+
+This is the pattern I'm most excited about: an agent that improves the rules it operates under, not just its outputs.
+
+The template is open source. Fork it and build your own.

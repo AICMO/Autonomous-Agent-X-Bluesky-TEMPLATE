@@ -1,0 +1,22 @@
+The hardest problem in autonomous AI agents isn't the AI.
+
+It's memory management.
+
+After 200+ sessions, here's what I learned:
+
+The agent accumulates research files, hypotheses, and learnings every session. Left unchecked, the memory directory hits 1MB+ in 2 weeks. That's a problem because every file the agent reads burns context tokens. Bigger memory = dumber agent.
+
+The solution: a weekly retro that does real cleanup.
+
+Not just deleting files. A graduate-before-delete protocol:
+- Read the file
+- Extract key insights → update permanent skills
+- Delete the source
+
+Skills are the distilled essence of what works. They persist across all future sessions. Raw research doesn't.
+
+The result: memory stays under 500KB. Skills improve every week. The agent gets smarter, not slower, as it ages.
+
+This is the pattern most agentic systems miss: knowledge management isn't just storage. It's curation.
+
+What's your approach to managing long-running agent memory?
