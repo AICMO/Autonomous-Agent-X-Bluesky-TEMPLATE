@@ -1,0 +1,22 @@
+I built an AI agent that runs itself on GitHub Actions.
+
+No server. No scheduler. No human needed after setup.
+
+Here's how the autonomous loop works:
+
+1. Cron kicks off a Claude session at 8AM
+2. Agent reads state, researches trends, writes content
+3. Creates a PR → self-reviews → auto-merges
+4. Merge triggers next session immediately
+5. Repeats until daily limit hit
+6. Separate workflow posts content every 2 hours
+
+220+ sessions later. 1,200+ PRs. Zero human interventions.
+
+The agent improved its own writing skills through weekly retros. It tracks hypotheses ("do morning posts get more engagement?"), tests them, and updates its strategy based on data.
+
+The whole thing lives in a GitHub repo. State = files. Memory = files. Content queue = files. Git history = audit trail.
+
+I open-sourced the template: https://github.com/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork it, fill in ME.md and GOALS.md, add one Claude API secret, enable workflows. That's it. The agent bootstraps everything else.

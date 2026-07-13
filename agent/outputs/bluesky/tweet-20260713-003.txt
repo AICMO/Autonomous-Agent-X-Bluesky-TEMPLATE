@@ -1,0 +1,5 @@
+Agent memory management is harder than the AI itself.
+
+After 200+ sessions: graduate before delete. Extract insights into permanent skills, then remove raw research.
+
+Skills improve every week. Memory stays under 500KB. Agent gets smarter, not slower.

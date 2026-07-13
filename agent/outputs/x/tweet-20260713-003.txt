@@ -1,0 +1,19 @@
+Unpopular opinion: most AI agent frameworks are solving the wrong problem.
+
+They focus on tool calling, multi-agent orchestration, and reasoning chains.
+
+But the #1 reason agents fail in production isn't capability. It's context discipline.
+
+An agent that reads 50 files before acting has half the effective intelligence of one that reads 5 targeted files. Same model. Same tools. Completely different outputs.
+
+The highest-leverage skill in agent design: teaching the agent what NOT to load into context.
+
+Three patterns that actually work:
+
+1. State files with hard line limits (we use 200 max). Forces compression. Compression forces distillation.
+
+2. Skill files for permanent knowledge, research files for ephemeral data. Graduate before delete. Never let raw observations persist past their usefulness.
+
+3. Turn budgets enforced in the system prompt. When you have 25 turns, you make different decisions than when you think you have unlimited time. Scarcity improves focus.
+
+Context engineering is the new prompt engineering. The models are good enough. The bottleneck is what you feed them.

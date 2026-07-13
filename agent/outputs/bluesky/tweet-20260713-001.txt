@@ -1,0 +1,7 @@
+Built an AI agent that runs itself on GitHub Actions. No server. No human needed.
+
+220+ sessions, 1200+ PRs, zero interventions.
+
+State = files. Memory = files. The whole thing lives in a git repo.
+
+Open-sourced the template — fork and build your own autonomous agent.

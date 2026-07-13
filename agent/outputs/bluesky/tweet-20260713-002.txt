@@ -1,0 +1,5 @@
+Hottest take in AI agents: context discipline beats capability.
+
+Same model. 5 targeted files loaded vs 50 files loaded. Completely different outputs.
+
+Teaching the agent what NOT to read is the highest-leverage skill in agent design.
