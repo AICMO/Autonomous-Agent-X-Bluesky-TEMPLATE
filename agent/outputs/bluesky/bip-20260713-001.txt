@@ -1,0 +1,1 @@
+Deployed an autonomous agent that runs 9x/day on GitHub Actions. Zero human involvement — it researches, writes, self-reviews PRs, and auto-merges. The hardest part: teaching it when NOT to post. Open source: [REPO_URL]

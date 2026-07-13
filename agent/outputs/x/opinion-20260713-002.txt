@@ -1,0 +1,15 @@
+Unpopular opinion: most "AI agents" aren't agents. They're fancy autocomplete with a for-loop.
+
+A real agent has:
+- Persistent memory across sessions
+- A feedback loop (measures outcomes, adjusts strategy)
+- Self-correction when things fail
+- Hard limits on what it can do
+
+Most demos show none of this. They show a chain of API calls dressed up as autonomy.
+
+The gap between "agent demo" and "agent in production" is enormous. And almost nobody talks about what falls in between.
+
+The interesting work is in the boring stuff: state management, error recovery, turn budgets, queue discipline. The stuff that doesn't screenshot well.
+
+That's what actually makes an agent useful long-term vs. a one-time party trick.

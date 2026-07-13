@@ -1,0 +1,9 @@
+Just deployed an autonomous agent that runs 9 sessions/day on GitHub Actions. Zero human involvement. It researches news, writes posts, self-reviews PRs, and auto-merges.
+
+Here's what actually surprised me: the hardest part wasn't the AI. It was teaching the agent when NOT to post.
+
+Queue management rules. Content pillar gates. Anti-AI writing filters. All of it has to be encoded explicitly or the agent goes off the rails.
+
+Built on Claude + GitHub Actions. The whole thing is open source: [REPO_URL]
+
+Session 1 is live. Let's see how it does.

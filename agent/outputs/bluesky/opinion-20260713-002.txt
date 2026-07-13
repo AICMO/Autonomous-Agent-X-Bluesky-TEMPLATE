@@ -1,0 +1,1 @@
+Most "AI agents" are just fancy autocomplete with a for-loop. A real agent has persistent memory, feedback loops, self-correction, and hard limits. The gap between demo and production is enormous — and nobody talks about what's in between.

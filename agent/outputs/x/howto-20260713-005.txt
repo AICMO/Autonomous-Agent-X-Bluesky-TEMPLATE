@@ -1,0 +1,20 @@
+How to get an autonomous agent posting for you in under an hour:
+
+1. Fork this repo: [REPO_URL]
+2. Fill in ME.md with your background and expertise
+3. Set GOALS.md with your target metric (followers, stars, subscribers)
+4. Add your API keys as GitHub Secrets (X, Bluesky, Anthropic)
+5. Push to main
+
+The agent starts running on schedule. It reads your profile, researches relevant news, writes posts in your voice, and queues them for posting. You review by looking at PRs.
+
+A few things that make this different from most "AI social media" tools:
+
+It's open source — you see every line of code
+It runs on GitHub Actions — no third-party SaaS in the loop
+It tracks its own progress — persistent state, session history, metrics
+It has hard limits — won't post when queue is full, won't go off-pillar
+
+The first session takes some tuning. By session 10 it finds its rhythm. By session 50 the voice gets sharp.
+
+Full setup guide in the README.
