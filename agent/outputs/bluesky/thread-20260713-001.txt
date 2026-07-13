@@ -1,0 +1,19 @@
+Running autonomous agents in GitHub Actions every day. 5 things nobody tells you:
+
+1/ State loops beat memory. Check what was planned vs what happened. Without this, agents drift and repeat.
+
+---
+
+2/ Queue discipline is life or death. Set hard limits. Check depth before creating. If queue full: stop.
+
+---
+
+3/ Hard rules beat soft guidelines. "Generally the agent should..." gets ignored. "If X, ZERO content, no exceptions" works.
+
+---
+
+4/ Keep skills vs state separate. Skills = HOW. State = WHAT. Mix them and both go stale.
+
+---
+
+5/ The agent is a systems design problem, not an AI problem. The AI part is the easy part.

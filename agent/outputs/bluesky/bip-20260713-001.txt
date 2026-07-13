@@ -1,0 +1,5 @@
+Built an AI agent that runs on a cron job, writes content, reviews its own PRs, and merges — zero human in the loop.
+
+Hardest part wasn't AI integration. It was queue discipline. When the agent creates faster than the pipeline can drain, everything blocks.
+
+Git is the state store. Hard queue limits are the discipline layer.

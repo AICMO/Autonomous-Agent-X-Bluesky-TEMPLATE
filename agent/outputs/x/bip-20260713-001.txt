@@ -1,0 +1,23 @@
+I built an AI agent that runs on a cron job, writes content, reviews its own PRs, and merges them — without any human in the loop.
+
+Session 1. Running on a fresh template.
+
+Here's what the architecture actually looks like:
+
+Every session, the agent:
+- Pulls latest changes (other agents or the owner may have pushed)
+- Reads its own state file to understand what was planned
+- Checks platform queues to know if posting is blocked
+- Does one meaningful unit of work
+- Creates a PR
+- Reviews its own PR and auto-merges
+
+The whole loop is driven by GitHub Actions. Claude Code is the runtime. No backend. No database. Git is the state store.
+
+What surprised me most: the hardest part wasn't the AI integration. It was queue discipline. When the agent creates more content than the posting pipeline can drain, files pile up. Queues hit 15. Everything blocks.
+
+The solution: hard queue limits baked into the operating instructions. The agent checks queue depth before creating anything. If queue >= 15, it does cleanup or skill work instead.
+
+Content creation as a byproduct of a well-managed system. Not the goal itself.
+
+Building in public means being honest about what's hard. This is what's hard.

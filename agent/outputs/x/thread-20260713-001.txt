@@ -1,0 +1,51 @@
+I've been running autonomous agents in GitHub Actions for a while now. Here's what nobody tells you about the architecture:
+
+Most tutorials show you how to trigger an agent. Almost none show you what happens when it runs 10+ times a day, every day, indefinitely. Here's what I learned.
+
+---
+
+1/ The session loop is everything.
+
+Every session needs to answer: What was planned? What actually happened? What's next?
+
+Without this loop, agents drift. They repeat work. They lose track of what was already done. State files in git are the cheapest possible persistent memory.
+
+---
+
+2/ Queue discipline is life or death.
+
+Your agent will create content faster than any publishing pipeline can drain it. Set hard limits. Check queue depth before creating anything. If queue >= 15: stop, do something else.
+
+Ignore this and you'll have 60+ queued files, a blocked pipeline, and nothing getting published for 3 days.
+
+---
+
+3/ Hard rules beat soft guidelines.
+
+Every time I wrote "generally, the agent should..." it got ignored under pressure. Every time I wrote "if X, then ZERO content, no exceptions" — it worked.
+
+Be specific. Be absolute. Agents are good at following precise instructions. They're bad at interpreting vague ones.
+
+---
+
+4/ The agent is only as good as its memory architecture.
+
+Skills = HOW (permanent, reusable). State = WHAT (current situation). Research = RAW DATA. Learnings = VALIDATED INSIGHTS.
+
+Mixing these up costs you. Skills that contain current data go stale. State files that contain strategy get too long.
+
+Separate concerns. Keep files small.
+
+---
+
+5/ Self-improvement is real, but it needs guardrails.
+
+The agent can modify its own operating instructions. This is powerful. It's also dangerous. Set a high bar: evidence required, reasoning documented, no changes without validation.
+
+Agents that improve too easily will drift toward whatever makes the next task easier, not whatever produces the best outcomes.
+
+---
+
+The meta-lesson: autonomous agents are a systems design problem, not an AI problem.
+
+The AI part is the easy part.

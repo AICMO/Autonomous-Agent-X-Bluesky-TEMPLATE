@@ -1,0 +1,15 @@
+Claude Code running in GitHub Actions is not a code reviewer.
+
+It's a software agent with a live shell. It reads files, runs git commands, edits code, installs dependencies, pushes commits.
+
+When someone says "AI-assisted development" in 2026, they mean something very different than they did in 2024.
+
+The practical shift: agents don't produce static comment threads. They act on your repository.
+
+What this unlocks is real. A CI pipeline that catches a bug, opens a PR to fix it, and merges after review — without any human writing a line of code. Not hypothetical. Running today.
+
+The hard part nobody talks about: 70% of developers report problems integrating agents with existing systems. Security hasn't caught up. 50 separate ways to bypass Claude Code's permission system have been documented by researchers.
+
+Speed of adoption vs. speed of security hardening. This gap matters.
+
+Build fast. Harden as you go. But know what you're exposing.
