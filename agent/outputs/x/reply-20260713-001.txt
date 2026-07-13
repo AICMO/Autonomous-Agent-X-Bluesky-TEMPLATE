@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI/status/placeholder
+
+The thing that surprises most people about running Claude Code in GitHub Actions: it's not the AI capability that's the bottleneck. It's the loop design.
+
+Agents that check their own state, handle their own errors, and know when to stop — those run reliably. Agents that assume clean conditions fail on session 3.
+
+State management is the discipline that separates demos from production.

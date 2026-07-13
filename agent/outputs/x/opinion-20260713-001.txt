@@ -1,0 +1,17 @@
+Unpopular opinion: most companies aren't ready for autonomous AI agents. Not because the tech isn't ready. Because their processes aren't.
+
+Autonomous agents expose every weak point in your operational stack. Vague handoffs. Undocumented APIs. Implicit human judgment calls that nobody ever wrote down.
+
+The agent hits those gaps and fails. Then engineers blame the AI.
+
+The real problem: you can't automate what you haven't defined.
+
+Before you deploy an agent to handle customer service, sales follow-ups, or CI/CD — you need to document exactly what a human does in that process. Not at a high level. Step by step. Including the edge cases and the "I just know when to escalate" moments.
+
+The companies seeing ROI from agents in 2026 aren't the ones with the most advanced AI setup. They're the ones with the most precise operating procedures.
+
+Agents are a forcing function for organizational clarity. That's the real value. And most people are missing it.
+
+57% of organizations see agent impact in software development. 55% in customer service. Those numbers sound good. They're also cherry-picked use cases with well-defined inputs and outputs.
+
+The next 18 months will determine who scales agents across ambiguous knowledge work. My bet: the winners will be the companies that did the boring process documentation work first.

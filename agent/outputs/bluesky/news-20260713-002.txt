@@ -1,0 +1,5 @@
+Claude Code in GitHub Actions isn't a reviewer. It's an agent with a live shell — reads files, edits code, pushes commits.
+
+A CI pipeline that catches bugs and opens PRs without a human writing code. Running today.
+
+But 70% of devs report integration problems. Security hasn't caught up. Build fast. Harden as you go.

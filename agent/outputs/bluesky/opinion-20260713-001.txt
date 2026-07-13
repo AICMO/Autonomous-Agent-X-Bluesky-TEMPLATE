@@ -1,0 +1,5 @@
+Unpopular opinion: most companies aren't ready for autonomous agents. Not because the tech isn't ready. Because their processes aren't.
+
+Agents expose every gap in your operational stack. Vague handoffs. Undocumented judgment calls.
+
+You can't automate what you haven't defined.
