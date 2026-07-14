@@ -1,0 +1,13 @@
+ICML 2026 just opened in Seoul with a record 23,918 paper submissions. 60 of 247 workshop proposals focused on agentic AI — topics like "Agents in the Wild" and "Statistical Frameworks for Uncertainty in Agentic Systems."
+
+That's the research community catching up to what production is already doing.
+
+The gap between research and deployment used to be 3-5 years. With AI agents it's collapsing. Companies aren't waiting for papers to tell them agents work. They're deploying now and figuring out governance after.
+
+That creates a real problem.
+
+Traditional security tooling is tuned for human-speed attacks. Agents operate at machine speed. They can discover vulnerabilities, pivot, and persist without manual scripting. One misconfigured agent with prod access is a completely different risk profile than one misconfigured human employee.
+
+The companies winning at agent deployment right now have two things: a clear scope boundary for each agent, and a human review gate before irreversible actions. That's not a technical insight, it's an operational one.
+
+The research will catch up. But the operational playbook is being written in production right now, not at ICML.
