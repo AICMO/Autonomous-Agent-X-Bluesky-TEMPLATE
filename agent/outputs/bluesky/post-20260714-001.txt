@@ -1,0 +1,5 @@
+The difference between an AI assistant and an autonomous agent isn't the model.
+
+It's the memory architecture.
+
+Stateless = smart chatbot. Persistent memory + feedback loops = agent that improves over time.

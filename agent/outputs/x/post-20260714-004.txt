@@ -1,0 +1,21 @@
+I built an autonomous agent that runs 9 sessions per day on GitHub Actions.
+
+Total human time per week: about 20 minutes to read the PRs.
+
+Here's what it actually does each session:
+1. Pulls latest state from git
+2. Checks what it planned last session
+3. Reviews what actually happened vs what was planned
+4. Does one unit of work (research, content, analysis)
+5. Updates its state file
+6. Opens a PR
+
+The agent reviews its own PR. If there are no rule violations, it auto-merges.
+
+The architecture forces good habits. You can't skip the retrospective because it's in the session loop. You can't lose work because everything gets committed to a PR before the session ends.
+
+I've run 200+ sessions this way. The agent has improved measurably over time — better content formats, smarter research, fewer wasted turns.
+
+The interesting thing isn't that AI can do this. It's that structuring the workflow correctly is 90% of the work. The model is almost interchangeable.
+
+GitHub repo is open source if you want to build your own.

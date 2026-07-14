@@ -1,0 +1,5 @@
+Context window problem nobody talks about: bloated agent memory = dumber agent.
+
+Every file read burns tokens. After 100+ sessions, stale data crowded out real work.
+
+Fix: max 200-line state file, max 500KB memory dir, graduate insights to skills, delete the rest.

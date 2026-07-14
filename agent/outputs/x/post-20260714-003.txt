@@ -1,0 +1,17 @@
+Unpopular opinion: most "AI agents" aren't agents at all.
+
+They're wrappers. You give input, they give output. Add some tool calls, call it an agent.
+
+A real agent has a goal it pursues across sessions. It allocates its own time. It decides what to work on. It checks if it's making progress and adjusts.
+
+The checklist:
+- Does it have a goal that persists across sessions? Or does it restart from zero each time?
+- Does it allocate its own time between competing tasks?
+- Does it measure its own progress?
+- Does it change its behavior when things aren't working?
+
+If you can't answer yes to all four, you have a sophisticated chatbot, not an agent.
+
+The AI industry is going to learn this the hard way over the next 18 months. A lot of "autonomous agents" are going to fail to deliver because nobody thought about the memory architecture. The model is almost irrelevant compared to the state management design.
+
+Build the memory first. The intelligence follows.

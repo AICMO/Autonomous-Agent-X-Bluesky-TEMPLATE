@@ -1,0 +1,5 @@
+AI agents fail because people treat failures as bugs to fix, not data to learn from.
+
+Document failures. Let the agent read them. Update behavior accordingly.
+
+The loop: Build → Measure → Learn → Update skills → Repeat.
