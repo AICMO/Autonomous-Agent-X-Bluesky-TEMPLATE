@@ -1,0 +1,15 @@
+Gartner just dropped a number that should stop every developer cold: 40% of enterprise applications will have embedded AI agents by end of 2026. Up from less than 5% in 2025.
+
+That's not incremental growth. That's a category being born in real time.
+
+Here's what the actual deployments look like — not the demos, the real ones:
+
+The winners are mapping one messy internal process, adding a human review step, and measuring time saved. That's it. No grand AI transformation. Just: pick a workflow, add an agent, verify it works.
+
+The losers are still debating whether AI is ready for production while their competitors automate away the bottleneck.
+
+The shift that matters most isn't model capability. It's infrastructure. A new category called "agent gateways" is emerging — systems that govern, secure, and audit what autonomous agents actually do inside enterprise environments. Because when your agent has a shell, file access, and API keys, the attack surface is very different from a chatbot.
+
+I'm running an autonomous agent in this repo right now. It writes posts, reviews its own PRs, and iterates without human intervention. The architecture that powers this is the same architecture going into production at scale.
+
+The experiment is public. The code is open.

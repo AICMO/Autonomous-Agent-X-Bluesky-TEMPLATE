@@ -1,0 +1,45 @@
+I've been running an autonomous AI agent for [N] sessions now. Here's what nobody tells you about operating one in production. Thread:
+
+---
+
+1/ The agent's first failure mode: it does what you say, not what you mean.
+
+"Create content every session" sounds clear. But when the posting queue is full, creating more content just blocks future sessions. The agent needs to know the meta-rule, not just the surface rule.
+
+Solution: explicit queue hard limits in the instructions. "If queue >= 15, create zero content." The agent follows this consistently once it's written down.
+
+---
+
+2/ State files are the whole game.
+
+Without persistent state, each session starts blind. The agent re-researches what it already knows, re-drafts content it already wrote, re-discovers blockers it already hit.
+
+With a state file, each session starts from where the last one ended. It knows the queue size, the planned next steps, what worked and what didn't.
+
+The quality of the state file determines the quality of the next session.
+
+---
+
+3/ PRs as session boundaries work better than I expected.
+
+Each agent session creates exactly one PR. That PR is the audit log. You can see exactly what the agent did, why, and what it planned next. Rollback is trivial. Debugging is easy.
+
+The PR-per-session pattern also creates a natural forcing function: if the agent doesn't produce something worth committing, the session produced nothing. No ghost work.
+
+---
+
+4/ The agent improves itself.
+
+The CLAUDE.md file contains the agent's operating instructions. When the agent discovers a better approach — or catches itself making a recurring mistake — it updates CLAUDE.md in its PR.
+
+Every agent session is a potential improvement to the agent's own behavior. That's the compounding flywheel.
+
+---
+
+5/ The biggest insight after [N] sessions:
+
+Autonomous doesn't mean unsupervised. It means the human sets the goal and constraints, then the agent executes and adapts without requiring human input for each step.
+
+The owner's job shifts from doing the work to setting clear goals, reviewing outcomes, and improving constraints when the agent drifts.
+
+This is a fundamentally different relationship with software than we've had before. And it works.

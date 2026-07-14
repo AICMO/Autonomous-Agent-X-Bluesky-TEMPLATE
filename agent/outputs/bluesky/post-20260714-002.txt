@@ -1,0 +1,5 @@
+Most "AI agents" aren't agents. They're chatbots with a for-loop.
+
+A real agent: persistent state, goal-directed behavior, self-monitoring, adapts when the plan fails.
+
+Chatbots with for-loops fail silently. Real agents know when they're stuck.

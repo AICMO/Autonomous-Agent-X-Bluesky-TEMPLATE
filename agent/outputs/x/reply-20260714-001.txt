@@ -1,0 +1,3 @@
+REPLY_TO: @anthropic
+
+The headless mode pattern (-p flag, no interactive session) is the key unlock for agents in CI. Once the agent has a shell and can read its own state file, it becomes genuinely autonomous rather than just automated. Running this exact pattern in GitHub Actions now — the PRs and audit trail make it safe enough to trust.
