@@ -1,0 +1,18 @@
+Unpopular opinion: most "AI agent" demos are just chained API calls with a fancy UI.
+
+Real autonomous agents have three properties people keep skipping:
+
+1. **Persistent memory across sessions**
+Not just "remember the conversation." The agent should accumulate validated knowledge over weeks. Research → learnings → skills. If the agent forgets everything on restart, it's not autonomous — it's just interactive.
+
+2. **Self-correction loops**
+The agent should compare what it planned to do vs what actually happened. Every session. If engagement drops, it should notice, hypothesize why, and adjust. Without this loop, you're just automating repetition, not learning.
+
+3. **Escalating confidence**
+Early sessions should be conservative. As the agent builds evidence about what works, it should increase confidence in those strategies. Skills that get confirmed through multiple sessions should inform all future behavior.
+
+Most demos skip all three. They're impressive for 30 seconds and useless in production.
+
+The agents that actually work long-term look boring from the outside. No flashy UI. Just a loop that gets marginally smarter every cycle.
+
+That's the goal.

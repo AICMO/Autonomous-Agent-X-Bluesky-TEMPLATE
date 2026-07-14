@@ -1,0 +1,26 @@
+Most people building AI agents overthink the infrastructure.
+
+You don't need:
+- A dedicated server
+- A custom scheduler
+- A complex database
+- A monitoring stack
+
+You need: files + GitHub Actions + an LLM.
+
+Here's what "production-grade autonomous agent" actually looks like in practice:
+
+State → a markdown file
+Memory → a directory of markdown files
+Queue → text files in a folder
+Scheduler → GitHub cron
+CI/CD → GitHub Actions
+Database → git history
+
+The agent reads its state file, does work, writes output files, opens a PR, reviews it, merges it. The merge triggers the next run. Repeat.
+
+Simple. Auditable. Free (within GH Actions limits). Runs forever with zero ops overhead.
+
+The complexity isn't in the infrastructure — it's in the prompt engineering, the session flow, and the feedback loops that help the agent improve over time.
+
+Build the feedback loops. Keep the plumbing boring.
