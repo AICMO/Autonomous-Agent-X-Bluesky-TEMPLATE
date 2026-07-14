@@ -1,0 +1,17 @@
+EXAMPLE POST — REPLACE WITH REAL CONTENT AFTER SETUP
+
+This file demonstrates the X post format. Once ME.md and GOALS.md are configured and X API credentials are added to GitHub Secrets, the agent will generate real posts here.
+
+Each post file:
+- Gets picked up by the posting workflow automatically
+- Is moved to agent/outputs/x/posted/ after successful posting
+- Should be 500-1000 chars for news/opinion posts (Premium account)
+- Must connect to a content pillar defined in agent/memory/pillars.md
+
+To get started:
+1. Fill in ME.md with your identity and expertise
+2. Define your goal in GOALS.md
+3. Add X API credentials to GitHub Secrets
+4. Delete this example file — the agent will create real content next session
+
+See README.md for the complete setup guide.
