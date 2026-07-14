@@ -1,0 +1,9 @@
+TIL: The hardest part of autonomous agents isn't the AI.
+
+It's state management.
+
+How does the agent know what to do next? Remember what it did? Avoid repeating mistakes?
+
+That's the state file. I spent more time on that schema than on any prompt.
+
+Get memory right. Everything else follows.

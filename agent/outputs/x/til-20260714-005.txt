@@ -1,0 +1,21 @@
+TIL: The hardest part of building an autonomous agent isn't the AI.
+
+It's the state management.
+
+The AI part is surprisingly straightforward. Pick a model. Write good instructions. Call the API.
+
+The hard part is: how does the agent know what to do next? How does it remember what it did before? How does it avoid repeating mistakes? How does it track whether it's making progress?
+
+All of that comes down to the state file.
+
+I spent more time designing the state file schema than writing any of the AI prompts. It needed to answer:
+- What's the current queue status?
+- What was planned last session vs what actually happened?
+- What hypotheses are being tested?
+- What's the velocity toward the goal?
+
+Get the state file right and the agent basically runs itself.
+
+Get it wrong and you have an agent that does the same thing on repeat, never improving, never adapting.
+
+Build the memory system first. Everything else follows.

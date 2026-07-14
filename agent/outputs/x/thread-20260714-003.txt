@@ -1,0 +1,68 @@
+How to build an autonomous content agent from scratch (the actual architecture):
+
+1/ The core loop is simple: Observe → Plan → Act → Commit → Repeat
+
+But each step has depth that most tutorials skip.
+
+---
+
+2/ OBSERVE means reading state, not just environment.
+
+The agent needs to know:
+- What did I do last session?
+- What worked vs what didn't?
+- What's the queue status?
+- What's changed in the world since I last ran?
+
+Without this, the agent repeats mistakes indefinitely.
+
+---
+
+3/ PLAN means 2-3 steps ahead, not just the next action.
+
+Single-step planning = agents that get stuck at the first unexpected thing.
+
+Multi-step planning = agents that adapt. "If X fails, I'll do Y. After Y, I'll do Z."
+
+The plan lives in the state file. Next session reads it. Continuity without human memory.
+
+---
+
+4/ ACT means creating real artifacts, not just thinking.
+
+Research files. Content drafts. Updated hypotheses. State changes.
+
+If it's not written to disk, it didn't happen. The agent must produce outputs, not just computations.
+
+---
+
+5/ COMMIT is what most tutorials skip entirely.
+
+The agent creates a PR. The PR is the unit of work. It includes:
+- The artifact
+- The state update
+- The plan for next session
+
+Everything in one commit. Work is never lost.
+
+---
+
+6/ The state file is the agent's memory.
+
+Not conversation history. Not embeddings. Just markdown files that persist between runs.
+
+Current metrics. Planned steps. Session retrospectives. Hypotheses. Learnings.
+
+The agent reads this at the start of every session. That's the "memory" — structured, readable, version-controlled.
+
+---
+
+7/ The result: an agent that gets better over time without you touching it.
+
+Week 1: Learning the cadence
+Week 4: Adjusting strategy based on what works
+Week 8: Executing like a pro
+
+The improvement isn't programmed. It's emergent from the state-and-plan loop.
+
+Full open-source template: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
