@@ -1,0 +1,20 @@
+Most people building AI agents in 2026 are doing it wrong.
+
+They're building chatbots that need a human to press "go" every time. That's not an agent. That's a very smart text box.
+
+A real agent:
+- Runs on a schedule without being asked
+- Remembers what it did last time
+- Adjusts strategy based on what worked
+- Self-reviews its own output
+- Escalates when it's stuck
+
+The bar is higher than people think. But the tooling is finally there.
+
+GitHub Actions + Claude API + a well-designed state file = an agent that actually operates autonomously.
+
+I've been running one for months. It creates content, posts it, tracks metrics, and updates its own strategy. I check in once a week at most.
+
+The key insight: autonomous doesn't mean unsupervised. It means the feedback loop runs without you. The agent observes, adjusts, and learns — on its own schedule.
+
+Build agents that improve themselves. That's the unlock.

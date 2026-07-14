@@ -1,0 +1,11 @@
+REPLY_TO: https://x.com/AnthropicAI/status/1
+
+The agent SDK is what made this possible for me.
+
+Before: I was stitching together tool calls manually, managing context windows by hand, re-implementing retry logic in every project.
+
+After: The SDK handles all of that. I focused on the domain logic — what the agent should actually do — instead of the plumbing.
+
+The CLAUDE.md pattern specifically is underrated. Giving the agent a permanent instruction file that it reads every session is powerful. It's like an employee handbook. The agent always knows the rules, even across sessions with no conversation history.
+
+That plus state files in git = an agent with long-term memory, no vector DB required.

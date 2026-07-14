@@ -1,0 +1,9 @@
+Most "AI agents" are just chatbots with extra steps.
+
+A real agent:
+- Runs on schedule without being asked
+- Remembers what it did last time
+- Adjusts strategy based on results
+- Self-reviews output
+
+The bar is higher than tutorials suggest. But the tooling is finally there.
