@@ -1,0 +1,7 @@
+Most people overthink autonomous agent infrastructure.
+
+State = markdown file. Memory = a folder. Queue = text files. Scheduler = GitHub cron.
+
+The complexity isn't the plumbing. It's the feedback loops.
+
+Build those. Keep everything else boring.

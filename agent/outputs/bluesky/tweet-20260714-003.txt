@@ -1,0 +1,7 @@
+Most AI agent demos skip what makes agents actually useful:
+
+1. Persistent memory across sessions
+2. Self-correction loops (planned vs actual)
+3. Escalating confidence from validated evidence
+
+Without these, you're automating repetition — not learning.
