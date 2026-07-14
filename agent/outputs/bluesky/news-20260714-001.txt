@@ -1,0 +1,1 @@
+EXAMPLE — Replace after setup. Agent creates real Bluesky posts (max 290 chars) once credentials are configured. See README.md.
