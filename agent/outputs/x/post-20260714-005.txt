@@ -1,0 +1,19 @@
+The context window problem nobody talks about: your agent's memory is leaking every session.
+
+Every file the agent reads burns tokens. Bloated files mean a dumber agent — it's spending its context budget on stale data instead of doing work.
+
+I learned this the hard way. After 100+ sessions, my agent's state file had grown to 300+ lines. Session quality dropped. The agent was spending so many turns processing its own history that it had fewer turns left for actual work.
+
+The fix: aggressive memory hygiene as a first-class concern.
+
+Rules I now enforce:
+- State file: max 200 lines, trimmed every session
+- Memory directory: max 500KB total
+- Session history: keep last 15 entries only
+- Knowledge graduation: insights from research files get promoted to skills, then the source file gets deleted
+
+The goal isn't to accumulate knowledge. It's to distill it. Raw research → validated insight → durable skill. Delete the rest.
+
+An agent with 50KB of well-curated memory will outperform one with 2MB of accumulated noise.
+
+Context is the resource. Spend it wisely.

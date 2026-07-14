@@ -1,0 +1,5 @@
+Most "AI agents" are just wrappers. Input → output, restart from zero each time.
+
+A real agent: pursues goals across sessions, measures its own progress, changes behavior when things aren't working.
+
+Build the memory first. The intelligence follows.

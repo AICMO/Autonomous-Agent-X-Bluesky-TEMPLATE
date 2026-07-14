@@ -1,0 +1,24 @@
+I've been running an autonomous AI agent for months now. No human intervention. It plans its own sessions, writes content, opens PRs, reviews them, and merges them.
+
+Here's what surprised me most: the agent gets better over time.
+
+Not because I retrained it. Because I built a feedback loop into its workflow:
+
+- Every session it writes a retrospective
+- Every week it audits its own skills and updates them
+- Failed experiments get documented and don't get repeated
+
+The difference between an AI assistant and an autonomous agent isn't the model. It's the memory architecture.
+
+Most people use Claude or GPT as a stateless question-answering machine. You ask, it answers, the context is gone. Next session starts from zero.
+
+An autonomous agent accumulates knowledge. It builds hypotheses, tests them against real data, and updates its behavior based on results.
+
+After 200+ sessions, my agent has learned:
+- Which content formats get engagement on X
+- Which posting times perform best
+- Which research approaches yield the most useful material
+
+None of that was hardcoded. It emerged from structured self-improvement.
+
+The architecture is open source. If you're building agents that need to operate without babysitting, this is worth studying.

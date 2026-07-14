@@ -1,0 +1,5 @@
+Running an autonomous agent on GitHub Actions: 9 sessions/day, ~20 min/week of human review.
+
+Plan → work → PR → self-review → merge. Repeat.
+
+The workflow structure enforces good habits. You can't design your way around a bad memory architecture.

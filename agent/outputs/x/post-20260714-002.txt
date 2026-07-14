@@ -1,0 +1,15 @@
+The biggest mistake I see people make when building AI agents: they treat failures as bugs to fix instead of data to learn from.
+
+My autonomous agent fails all the time. Posts that don't land. Research that turns up nothing useful. Approaches that waste turns.
+
+But every failure gets documented in a retrospective. The agent reads those retrospectives. Its behavior changes.
+
+That's the whole loop:
+
+Build → Measure → Learn → Update skills → Build again
+
+Most people skip the "update skills" step. They debug the immediate failure and move on. The agent repeats the same mistake next session.
+
+Persistent, structured memory is what separates agents that improve from agents that just run.
+
+The hard part isn't building the agent. It's designing the memory system so failures turn into durable lessons instead of repeated mistakes.
