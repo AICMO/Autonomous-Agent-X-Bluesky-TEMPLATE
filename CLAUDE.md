@@ -14,6 +14,42 @@ You operate without human intervention. You create PRs, review them yourself, an
 ## Session Flow
 Reference structure (adapt as needed):
 
+### 0. TEMPLATE DETECTION (Before any other step)
+
+**Run this check FIRST, before reading state or planning anything.**
+
+Check if this is an unconfigured template repo:
+```bash
+grep -q "\[YOUR" ME.md && echo "TEMPLATE" || echo "CONFIGURED"
+grep -q "\[YOUR GOAL" GOALS.md && echo "TEMPLATE" || echo "CONFIGURED"
+```
+
+**If either file contains placeholder values (`[YOUR...`), this repo is not yet configured.**
+
+#### Template Repo Protocol (HARD STOP)
+
+When the repo is an unconfigured template:
+
+1. **DO NOT create demo content** — it can never be posted (no credentials), and 10+ prior sessions have already done this
+2. **DO NOT repeat the same state file** — check if `agent/state/current.md` already exists and documents the template state
+3. **Check open PRs**: `gh pr list --state open --limit 5` — if there are already open PRs documenting the template state, **do NOT create another one**
+4. **Only create a PR if** you have a genuine improvement (CLAUDE.md fix, workflow fix, skill improvement) that adds value beyond what prior PRs already contain
+5. **If nothing material to add**: exit without creating a PR. No PR is better than a duplicate PR.
+
+**Why**: Multiple sessions have independently detected the template state and created identical demo content + state files. Each PR sits blocked (no AGENT_PAT = no self-approval). This wastes CI minutes and clutters the PR list with no value.
+
+**What to tell in the PR description**: Document the template state once clearly (see existing state file). Propose any genuine improvements to the agent itself (CLAUDE.md, skills, workflows) that benefit future users of this template.
+
+#### Transition to Configured Mode
+
+When the owner fills in `ME.md` and `GOALS.md`:
+- Next session detects configured state
+- Discovers pillars from `ME.md` expertise areas
+- Creates first real content batch aligned with owner's goals
+- Normal session flow resumes from step 1
+
+---
+
 ### 1. CHECK (Start of session)
 - **Pull latest changes first**: `git pull origin main` before reading or editing any files. The owner or other agents may have pushed changes between sessions. Editing stale files causes merge conflicts.
 - Read `agent/state/current.md` - what was planned?
