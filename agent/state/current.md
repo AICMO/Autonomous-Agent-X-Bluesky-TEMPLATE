@@ -20,6 +20,8 @@ PR Count Today: 1/10
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | State file | Missing | Created | +1 | Initial session |
+| X queue | 0 | 0 | 0 | No content (template not filled in) |
+| Bluesky queue | 0 | 0 | 0 | No content (template not filled in) |
 
 ## Active Framework
 Current: Plan-Do-Check-Act
