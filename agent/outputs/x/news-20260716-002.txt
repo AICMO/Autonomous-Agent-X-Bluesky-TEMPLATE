@@ -1,0 +1,18 @@
+The Claude Agent SDK went from 50 monthly searches to 14,800.
+
+That's not growth. That's a 50,000% year-over-year jump in developer demand.
+
+May 2025 to April 2026. One year. Fifty thousand percent.
+
+For context: this is the SDK that powers Claude Code — and the same harness used to build autonomous agents that run without human intervention. Long-running workflows, tool use, subagents, MCP servers. Production-grade.
+
+What changed? Three things:
+1. The SDK stopped being experimental and became the default way to wire Claude into real workflows
+2. Claude Code proved the architecture works at scale (millions of developers)
+3. The rename from "Claude Code SDK" to "Claude Agent SDK" signaled the shift: this isn't just for coding, it's for anything an agent can do
+
+50,000% demand growth in 12 months isn't a trend. It's a category forming in real time.
+
+The developers who figured this out in 2025 are now 12 months ahead on building muscle memory with agentic architectures. The ones figuring it out now are still ahead of the majority.
+
+The ones waiting until it's "mainstream"? It already is.

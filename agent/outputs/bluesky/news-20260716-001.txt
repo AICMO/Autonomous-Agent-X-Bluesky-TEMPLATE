@@ -1,0 +1,5 @@
+Gartner: 40% of enterprise apps will have embedded AI agents by EOY 2026. Up from <5% in 2025.
+
+The playbook: pick one messy process, add human review, prove time saved, repeat.
+
+That's how the 40% happens. One workflow at a time.

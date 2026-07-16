@@ -1,0 +1,21 @@
+An insurance company just shipped an autonomous agent that takes a broker submission from intake to decision-ready — inside each carrier's pricing, appetite, and authority controls.
+
+Hyperexponential launched hyperoperator on July 8.
+
+Nobody's talking about this but they should be.
+
+Commercial P&C insurance underwriting is one of those workflows that looks simple from the outside (evaluate risk, set price) but is actually dense with domain logic, relationship context, and carrier-specific rules. The kind of thing AI has struggled to crack for years.
+
+This is what the July 2026 inflection looks like. Not generic "AI assistant" features bolted onto existing software. Autonomous agents replacing the actual messy, domain-specific workflow.
+
+The pattern:
+1. One workflow that's high-value but painful
+2. Agent handles the intake → analysis → decision-ready prep
+3. Human reviews and approves
+4. Carrier-specific rules baked in, not bolted on
+
+Underwriting was supposed to be years away from automation. It shipped in July 2026.
+
+Every industry has that "this is too complex, too specialized, too relationship-driven for AI" workflow. Those are now the targets.
+
+Which one in your industry just became viable?

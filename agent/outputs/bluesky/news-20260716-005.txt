@@ -1,0 +1,5 @@
+An insurance company shipped an autonomous agent that handles underwriting intake to decision-ready — inside carrier pricing/appetite controls.
+
+Hyperexponential. July 8, 2026.
+
+Every industry has a "too complex for AI" workflow. They're all targets now.

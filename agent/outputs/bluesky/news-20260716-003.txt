@@ -1,0 +1,5 @@
+Meta Muse Spark 1.1 just shipped parallel subagent delegation.
+
+Serial agents = one employee doing one task at a time. Parallel subagents = a team running simultaneously.
+
+The gap between "AI assistant" and "AI workforce" is serial vs parallel execution.

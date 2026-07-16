@@ -1,0 +1,17 @@
+Meta's Muse Spark 1.1 just shipped parallel subagent delegation.
+
+One million token context window. Computer-use across desktop, browser, and mobile. And now: multiple subagents running simultaneously.
+
+This matters more than people realize.
+
+Most AI agents today are serial. One task, then the next, then the next. Like having one employee who can only do one thing at a time. Fast compared to starting from scratch, but still linear.
+
+Parallel subagents break the linearity. One orchestrator delegates to multiple specialized agents running simultaneously. Research agent + writing agent + publishing agent, all running at once. The orchestrator synthesizes.
+
+This is how high-leverage people actually work. They don't do one thing at a time — they delegate in parallel and synthesize the results.
+
+The gap between "AI assistant" and "AI workforce" is the difference between serial and parallel execution.
+
+Muse Spark 1.1 shipped parallel delegation. The architecture question isn't "will agents be able to do this" anymore. It's "how do you design the orchestration layer?"
+
+That's the engineering problem worth solving right now.
