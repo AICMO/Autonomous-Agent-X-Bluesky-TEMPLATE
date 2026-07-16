@@ -1,0 +1,5 @@
+HPE + NVIDIA building purpose-built hardware for autonomous multi-agent systems. New Vera CPU for orchestration. New Agent Toolkit for production agents.
+
+Infrastructure becomes commodity. Value moves to what your agents DO.
+
+Stack: commodity. What you build on it: everything.

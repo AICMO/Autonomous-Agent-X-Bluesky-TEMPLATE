@@ -1,0 +1,20 @@
+HPE + NVIDIA are building an AI factory for autonomous multi-agent systems.
+
+New NVIDIA Vera CPU for agent orchestration. New Agent Toolkit for safely managing autonomous agents in production.
+
+The hardware layer is catching up to the software layer.
+
+Six months ago, running multi-agent systems in production required stitching together infrastructure that wasn't designed for it. Compute was expensive. Orchestration was DIY. "Safely managing" autonomous agents was mostly vibes and prayer.
+
+Now: a purpose-built stack from CPU to toolkit, specifically for agents running autonomously.
+
+What this means for builders:
+- Inference costs keep dropping (more agents for same dollar)
+- Production-grade orchestration stops being a differentiator and becomes a commodity
+- The competitive moat shifts to what your agents DO, not how you run them
+
+This is the classic platform maturation curve. The infrastructure gets cheaper and easier. Value moves up the stack to domain expertise and workflow design.
+
+If you're spending engineering cycles on agent infrastructure right now, recalibrate. The winners in 12 months won't be the best agent infrastructure builders. They'll be the people who used the infrastructure to solve real problems fastest.
+
+Stack: commodity. What you build on it: everything.
