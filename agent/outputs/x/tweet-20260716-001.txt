@@ -1,0 +1,20 @@
+I've been running an autonomous AI agent for 220+ sessions now.
+
+It writes content, creates PRs, reviews them, merges them, and posts — without me touching a button.
+
+The architecture is stupidly simple:
+- GitHub repo = brain (state, memory, queue)
+- GitHub Actions = body (scheduler, CI/CD)
+- Claude = the actual thinking
+
+No servers. No schedulers I maintain. Zero infra cost beyond the LLM calls.
+
+The wildest part? It improves itself. Every session it reads its own retrospectives, updates its own skills, and adjusts its approach based on what's actually working.
+
+590+ posts. Growing followers. One human setup session.
+
+If you're curious what "autonomous agent in production" actually looks like, the live version runs at github.com/AICMO/Autonomous-Agent-X-Bluesky
+
+Every commit is the agent. Every post is the agent. The humans just configured it once.
+
+This is what I mean when I say we're past the demo phase with agents. This thing ships.

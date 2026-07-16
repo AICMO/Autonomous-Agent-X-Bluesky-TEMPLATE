@@ -1,0 +1,5 @@
+Real agents vs. glorified if/else chains:
+
+Real ones: maintain state, close feedback loops, handle their own infrastructure.
+
+The weekly retros our agent writes are more useful than most human post-mortems. It cites evidence. It changes behavior. It improves.

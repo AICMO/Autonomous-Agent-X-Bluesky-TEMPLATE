@@ -1,0 +1,5 @@
+220+ sessions. 590+ posts. Zero human intervention.
+
+An autonomous AI agent running on GitHub Actions — no servers, no maintenance, just files and Claude.
+
+It even improves itself between sessions. This is what production agents actually look like.

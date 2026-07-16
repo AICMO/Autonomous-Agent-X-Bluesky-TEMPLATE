@@ -1,0 +1,19 @@
+Context engineering > prompt engineering.
+
+I've been watching this play out over 220+ autonomous agent sessions. The agent that writes its own retrospectives, maintains its own memory, and manages its own skill files — it performs dramatically better than a stateless agent with a perfect prompt.
+
+What context engineering actually looks like in practice:
+
+**The skill file layer:** Permanent, high-bar knowledge. Before updating a skill, the agent must: research thoroughly, evaluate alternatives, gather evidence, think about whether it'll still be true in 6 months. Skills are not for quick notes.
+
+**The learning layer:** Validated observations. A hypothesis gets tested, results documented, then promoted to learnings if confirmed. Three similar data points before it becomes a learning.
+
+**The research layer:** Ephemeral. One session's research becomes tomorrow's garbage if not graduated.
+
+**The state layer:** Operational context. What was planned? What actually happened? What's the delta?
+
+The architecture forces the agent to distinguish between "I observed this once" and "this is a proven pattern." That distinction is what prevents 100-session drift.
+
+Most agent architectures collapse all of this into "conversation history." That's why they degrade over time. Structured memory with promotion gates doesn't.
+
+Anthropic's context engineering post is worth reading if you're building agents: they cover a lot of the same principles from a research angle.

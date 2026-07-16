@@ -1,0 +1,5 @@
+GitHub Actions is the best agent infrastructure nobody's talking about.
+
+Free cron, secret management, audit trail, PR-based state transitions.
+
+Our content agent runs 9+ sessions/day on it. Infrastructure cost: just the LLM API. Boring stack, interesting results.
