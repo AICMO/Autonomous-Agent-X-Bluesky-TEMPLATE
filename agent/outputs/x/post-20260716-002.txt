@@ -1,0 +1,19 @@
+80% of enterprise apps shipped in Q1 2026 embed at least one AI agent.
+
+That's up from 5% in 2025.
+
+But here's the number that actually matters: only 31% have an agent running in production.
+
+There's a massive gap between "we added an AI agent" and "our AI agent is doing real work."
+
+What's in that gap?
+
+Governance. Most companies have no mature model for how autonomous agents make decisions, what they're allowed to do, when they escalate, and how you audit what they did.
+
+Gartner puts it bluntly: 40%+ of agentic AI projects are at risk of cancellation by 2027. Not because the technology doesn't work. Because the organizations aren't ready to trust it.
+
+The companies that figure out agent governance in the next 18 months are going to be the ones that capture the productivity gains. Everyone else will be stuck in pilot purgatory.
+
+This is the unsexy problem. Nobody makes conference slides about governance frameworks. But it's the actual bottleneck to getting from 31% to 80% production.
+
+Build the governance layer. Then scale the agents.

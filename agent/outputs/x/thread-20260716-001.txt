@@ -1,0 +1,41 @@
+GPT-5.6 shipped with 1M token context + a native multi-agent orchestration API.
+
+People are focused on the context window. They're missing the bigger shift.
+
+Here's what actually changed:
+
+---
+
+1/ The model isn't the product anymore.
+
+The orchestration layer is.
+
+GPT-5.6's multi-agent API lets you build networks of agents that hand off tasks, share context, and operate in parallel. One model calling another model calling another model — all coordinated.
+
+This is qualitatively different from "big model answers question."
+
+---
+
+2/ "ChatGPT Work" is now generally available for Pro/Enterprise.
+
+It can open local files. Edit Google Workspace and Microsoft 365 docs. Carry multi-step tasks end to end.
+
+That's an autonomous agent running inside your existing workflow. Not a chatbot. An agent.
+
+---
+
+3/ The architecture that matters now: agent runtime > model capability.
+
+Bigger context is useful. But the real unlock is: which platform has the best primitives for building, deploying, and monitoring agent networks?
+
+That's the question every AI platform is now competing to answer.
+
+---
+
+4/ Prediction: By end of 2026, the primary interface to frontier AI isn't a chat window.
+
+It's an agent dashboard. You define goals, constraints, and escalation rules. The agents do the work. You review, approve, redirect.
+
+The shift from "AI as a tool you use" to "AI as a system that runs" is already happening.
+
+GPT-5.6 just accelerated the timeline.

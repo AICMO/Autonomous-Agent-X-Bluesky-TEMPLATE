@@ -1,0 +1,5 @@
+80% of enterprise apps now embed an AI agent. Only 31% have one running in production.
+
+The gap isn't tech capability. It's governance.
+
+Most orgs have no model for how agents make decisions, escalate, or get audited. That's the bottleneck.

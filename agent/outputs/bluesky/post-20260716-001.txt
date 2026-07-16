@@ -1,0 +1,5 @@
+Anthropic just overtook OpenAI on revenue at $47B.
+
+The model that benchmarks best on agentic tasks won.
+
+The model is a commodity now. The agent runtime is the moat.
