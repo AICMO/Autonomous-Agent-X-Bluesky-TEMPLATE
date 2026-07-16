@@ -1,0 +1,5 @@
+Most AI agent failures I've seen follow the same pattern: plug agent into a process designed for human judgment, hit an edge case, conclude "AI isn't ready."
+
+Wrong conclusion. The process wasn't ready.
+
+Companies winning with agents redesigned the workflow first. The agent is the last step, not the first.

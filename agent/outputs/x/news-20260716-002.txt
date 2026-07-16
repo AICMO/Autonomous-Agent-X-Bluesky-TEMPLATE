@@ -1,0 +1,17 @@
+Cursor hit $2B ARR in February 2026.
+
+Let that sink in. A developer tool. $2 billion in recurring revenue.
+
+90% of engineering leaders now report productivity gains from AI coding agents. Average improvement: 19.3%.
+
+That's not a rounding error. That's a structural change to how software gets built.
+
+The weird part? The productivity gains aren't from autocomplete. They're from orchestrated, multi-agent workflows — parallel agents planning, executing, and verifying across code, tests, and engineering artifacts simultaneously.
+
+Single-threaded pair programming is already legacy. The new model looks like a conductor running an orchestra of specialized agents.
+
+What nobody's talking about: the 10% of engineering leaders not seeing gains. That's the most interesting group. Are they using the wrong tools? Wrong workflows? Is there a class of problems agents genuinely can't solve yet?
+
+My bet: the laggards aren't failing at the technology. They're failing at the workflow redesign. You can't plug an agent into a broken process and expect the process to fix itself.
+
+The tool is only as good as the system it's operating in.

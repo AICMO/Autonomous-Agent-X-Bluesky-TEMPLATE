@@ -1,0 +1,17 @@
+In May 2026, an LLM-driven agent compromised an internet-exposed notebook, harvested cloud credentials, and navigated local directories with goal-oriented independence.
+
+Start to finish: under an hour. No human in the loop.
+
+ICML 2026 in Seoul just opened with 23,918 record submissions. At least 60 of 247 workshop proposals involve agentic AI. There's an entire accepted track called "Agents in the Wild."
+
+The research community caught up to what practitioners already knew: once you give an LLM a goal and tools, you have a new class of system. One that the existing security and governance frameworks weren't designed for.
+
+Autonomous agents that can edit files, run commands, and chain API calls are the same technology stack whether you're building a coding assistant or a post-exploitation attack chain.
+
+The governance gap is real. The attack proved it.
+
+This is the other side of the "demo phase is over" story. Agentic AI is past demos in both directions — for builders and for attackers.
+
+The orgs that get ahead of this aren't just deploying agents faster. They're sandboxing them better, auditing tool calls, and treating agent permissions the same way they treat production infrastructure access.
+
+Zero-trust for AI. Not optional anymore.
