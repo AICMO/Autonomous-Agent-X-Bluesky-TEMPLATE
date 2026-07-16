@@ -1,0 +1,5 @@
+Gartner: 40% of enterprise apps will embed AI agents by end of 2026. Up from <5% in 2025.
+
+The demo phase is over. Agents that edit real files, run real tests, and push real code are now table stakes.
+
+Which workflow in your org gets replaced first?

@@ -1,0 +1,26 @@
+Unpopular opinion: most companies deploying AI agents in 2026 are doing it wrong.
+
+Not because the technology is bad. Because they're deploying it into systems that were never designed for automation.
+
+Every enterprise AI failure story I've seen in the past year has the same pattern:
+
+1. Company has a manual process that's slow and expensive
+2. Company plugs an agent into that process
+3. Agent hits an edge case the process wasn't designed to handle
+4. Humans scramble to fix it
+5. Someone concludes "AI isn't ready"
+
+Wrong conclusion. The process wasn't ready.
+
+Processes designed for human judgment — implicit knowledge, informal communication, exception handling via "just call Dave" — collapse under automation. Agents need:
+
+- Explicit success criteria (not "use your judgment")
+- Tool access scoped to what's actually needed (not "can you figure it out?")
+- Defined escalation paths (not "loop in the team if confused")
+- Observable outputs at every step
+
+The companies winning with agents in 2026 didn't just buy better AI. They redesigned the workflows first. The agent is the last step, not the first.
+
+AI readiness isn't about the model. It's about the system.
+
+What workflow has your org made "agent-ready" that you wish you'd redesigned earlier?

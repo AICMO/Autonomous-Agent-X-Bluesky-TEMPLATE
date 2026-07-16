@@ -1,0 +1,5 @@
+REPLY_TO: [OWNER: Set target — find a recent post from an AI/agents account in your target community. Search for posts about agentic AI, autonomous agents, or AI productivity from accounts with >5k followers. Reply within 6h of their post for max visibility.]
+
+The single-threaded assistance era is already past. The question now isn't "can an agent help me code?" It's "which parts of this workflow should I even keep humans in the loop for?"
+
+The answers are more aggressive than most people are publicly admitting.
