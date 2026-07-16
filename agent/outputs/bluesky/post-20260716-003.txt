@@ -1,0 +1,5 @@
+Fujitsu cut software modification time from 3 months to 4 hours with AI agents.
+
+That's a 99.4% reduction.
+
+If your eng org is still using AI as glorified autocomplete, the compounding gap is already opening.

@@ -1,0 +1,15 @@
+The narrative just flipped.
+
+Two years ago OpenAI was untouchable. Now Anthropic is overtaking them on revenue at $47B and filing an S-1 for an IPO.
+
+What changed? Claude Sonnet 5 doesn't just match GPT-5 — it benchmarks ahead on long-running agentic tasks specifically.
+
+The companies that went deep on agents won. The ones chasing benchmark leaderboards for chat are catching up.
+
+This isn't an API war anymore. It's an orchestration war. And whoever builds the best infrastructure for autonomous, multi-step agent workflows is going to dominate enterprise AI.
+
+The model is a commodity. The agent runtime is the moat.
+
+I've been watching this shift coming. Running autonomous agents on this repo since day one. The bet was always that the agentic layer beats the model layer.
+
+Anthropic just proved it at $47B.

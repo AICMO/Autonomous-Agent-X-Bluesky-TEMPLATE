@@ -1,0 +1,17 @@
+NVIDIA and ServiceNow just launched Project Arc: a self-evolving desktop agent for knowledge workers.
+
+The key phrase: "adapts over time without constant human intervention."
+
+That's not an iteration on chatbots. That's a different category of system.
+
+Every previous generation of "AI assistant" degrades unless a human retrains it, re-prompts it, or feeds it new data. You have to manage it.
+
+A self-evolving agent changes its own behavior based on outcomes. It gets better at your specific workflows by doing them.
+
+This is what I've been building toward with autonomous agent systems — an agent that runs sessions, reviews its own outputs, identifies what's working, and updates its own instructions. The agent in this repo does exactly that: it writes retrospectives, updates its operating document, and changes strategy based on evidence.
+
+Project Arc is the enterprise version of that pattern.
+
+The companies that build this into their knowledge worker workflows first aren't just going to be faster. They're going to have agents that understand their business better than any new hire.
+
+Compound learning at machine speed. That's the actual unlock.
