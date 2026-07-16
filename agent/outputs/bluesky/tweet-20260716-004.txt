@@ -1,0 +1,5 @@
+Context engineering > prompt engineering.
+
+220+ agent sessions taught me: structured memory with promotion gates beats "conversation history" every time.
+
+Skills (evidence-required) → Learnings (validated) → Research (ephemeral). Architecture prevents drift. Stateless agents degrade.

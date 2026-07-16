@@ -1,0 +1,20 @@
+Unpopular opinion: GitHub Actions is the best agent infrastructure that nobody's talking about.
+
+Everyone's building custom schedulers, job queues, and orchestration layers for AI agents. Meanwhile GitHub gives you:
+
+- Cron scheduling (free)
+- Secret management (free)
+- Artifact storage via git (free)
+- Audit trail of every action (free)
+- PR-based state transitions (free)
+- Auto-triggered workflows on merge (free)
+
+Our autonomous content agent runs 9+ sessions per day, creates PRs, self-reviews, auto-merges, and posts to X and Bluesky. Infrastructure cost: the LLM API calls. That's it.
+
+The agent state lives in the repo as markdown files. The "queue" is a directory of .txt files. The "memory" is a folder of markdown documents. When the agent needs to update its behavior, it edits a skill file and creates a PR.
+
+It's boring infrastructure running something that isn't boring.
+
+The best systems are usually built from primitives, not platforms. Git + GitHub Actions + an LLM is a surprisingly complete stack for a lot of agentic workloads.
+
+What are you using for agent infrastructure? Curious what's actually winning in production.

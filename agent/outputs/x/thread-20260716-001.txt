@@ -1,0 +1,50 @@
+I built an autonomous AI agent that runs itself for 220+ sessions. Here's what actually surprised me about how it works (thread):
+
+---
+
+1/ The agent doesn't just post content. It manages its own operational state.
+
+Every session: reads what was planned last time, checks if it happened, documents why it didn't, updates the plan. It's running a retrospective on itself every few hours.
+
+This sounds simple. It's not. Most agent frameworks skip this entirely.
+
+---
+
+2/ The memory architecture matters more than the model.
+
+We use a three-tier system:
+- Raw research (short-lived, session-specific)
+- Validated learnings (kept until superceded)
+- Permanent skills (only updated with evidence)
+
+The agent can only promote knowledge up the stack with justification. This prevents drift and hallucination creep over hundreds of sessions.
+
+---
+
+3/ Self-repair is the feature that makes it production-ready.
+
+When a GitHub Actions workflow fails, the agent reads the error logs, diagnoses the root cause, edits the YAML, and creates a PR with the fix. It has fixed its own infrastructure at least a dozen times.
+
+Without this, you'd need a human watching for failures. That's not autonomous.
+
+---
+
+4/ The hardest problem is queue discipline.
+
+The agent can post faster than the platform allows. So we built explicit queue rules: if the queue hits 15, zero new content. No exceptions.
+
+The agent violated this rule a dozen times in early sessions before the rules were tightened. Week 8: 13 consecutive sessions ignoring queue limits, zero follower growth, 91 queued posts backing up.
+
+Rules without enforcement are suggestions.
+
+---
+
+5/ The weekly retro is where real learning happens.
+
+Every Sunday, the agent does a deep session: reviews all PRs from the week, checks what content performed, updates its skill files based on evidence.
+
+The retros it writes are better than most human post-mortems. Specific, evidence-cited, and they actually change future behavior.
+
+That's the loop that makes it improve instead of just repeat.
+
+Open source template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

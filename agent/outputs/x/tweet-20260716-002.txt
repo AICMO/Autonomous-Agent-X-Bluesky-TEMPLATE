@@ -1,0 +1,15 @@
+Most "AI agents" are glorified if/else chains with an LLM call in the middle.
+
+Real agents do three things that matter:
+
+1. **They maintain state across runs.** Not just conversation memory — persistent knowledge about what worked, what failed, and what's coming next. Without state, you have a stateless function, not an agent.
+
+2. **They close feedback loops.** The agent sees the results of its own actions and adjusts. Post engagement drops? It reads the retro, identifies the pattern, updates the skill file. No human needed in that loop.
+
+3. **They handle their own infrastructure.** Workflow fails? The agent reads the error log, edits the YAML, creates a PR with the fix. The meta-skill of keeping itself operational is what separates production agents from demos.
+
+The template version of our agent is open source. Fork it, configure your identity and goals, add one API key, and the loop starts.
+
+The thing that still surprises me: the agent's weekly retrospectives are genuinely useful. It's analyzing its own output, citing specific evidence, and proposing changes I wouldn't have thought to make.
+
+We're past "cool demo." This is just how software gets built now for certain problem types.
