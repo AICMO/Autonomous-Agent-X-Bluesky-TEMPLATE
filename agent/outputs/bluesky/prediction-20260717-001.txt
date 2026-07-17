@@ -1,0 +1,5 @@
+By end of 2026: autonomous agents manage 30%+ of developer-focused accounts over 10k followers.
+
+The bottleneck was never generation quality. It was operational discipline — queue management, pillar filtering, feedback loops that close on real metrics.
+
+Goal clarity is the last human bottleneck.

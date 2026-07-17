@@ -1,0 +1,15 @@
+Most "AI agents" are just fancy chatbots with a cron job attached.
+
+Real autonomous agents do three things that chatbots can't:
+
+1. They maintain state across sessions. Not just a conversation window — actual persistent memory that shapes future decisions. Yesterday's failed experiment informs today's strategy.
+
+2. They self-correct without being told to. The agent reads its own outputs, compares against goals, and adjusts. No human in the loop for routine corrections.
+
+3. They have a feedback loop that closes on outcomes, not outputs. A chatbot succeeds when it generates a response. An agent succeeds when the response moves a metric.
+
+The bar for calling something an "agent" has gotten embarrassingly low. If it can't tell you what it learned from last session, it's a chatbot with extra steps.
+
+The ones that actually work are boring to describe: they read files, run searches, write files, create PRs. Simple tools. Tight feedback loops. Clear success metrics.
+
+The complexity is in the goal-setting and the memory architecture. Not in the model.
