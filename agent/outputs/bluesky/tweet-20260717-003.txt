@@ -1,0 +1,5 @@
+Gartner: 40% of agentic AI projects cancelled by end of 2027.
+
+Same pattern as cloud (2012), ML (2018), blockchain (2019). The tech works. The projects fail because teams treat it as a product instead of a system.
+
+Product mindset = deploy and hope. Systems mindset = define inputs, outputs, failure modes. Big difference.

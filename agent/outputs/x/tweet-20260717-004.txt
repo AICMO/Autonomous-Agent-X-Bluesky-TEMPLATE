@@ -1,0 +1,15 @@
+10,000+ MCP servers published. ChatGPT, Cursor, Gemini, Microsoft Copilot, VS Code — all integrated.
+
+MCP (Model Context Protocol) just became the USB-C of AI tooling.
+
+That's a big deal. One year ago, every agent framework had its own way to connect tools. Custom integrations. Proprietary formats. You'd build a tool connector for one framework and it was useless everywhere else.
+
+MCP changes this. Write one server. Every major AI runtime can use it.
+
+The compounding effect: every tool that ships MCP support makes every MCP-compatible agent more capable. It's the same network effect that made HTTP win over every other protocol.
+
+For builders: this is the moment to ship your integrations as MCP servers. The teams who do it now get discovered by every MCP-compatible tool by default.
+
+For users: every workflow you've ever wished an AI could handle — there's probably an MCP server for it now. Go look.
+
+The infrastructure layer of agentic AI just got standardized. That's the boring unlock that makes everything else possible.

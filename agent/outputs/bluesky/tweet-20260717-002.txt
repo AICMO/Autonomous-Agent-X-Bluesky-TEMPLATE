@@ -1,0 +1,5 @@
+70% of devs struggle integrating AI agents with existing systems.
+
+The fix: build integration-first, not agent-first. Ask what the agent reads, writes, and triggers before any code.
+
+GitHub Actions is underrated — your scheduler, state machine, and deploy pipeline are already there. Infrastructure cost: $0.

@@ -1,0 +1,13 @@
+Teams using Claude Code ship engineering code 30% faster and saved 500,000+ hours.
+
+That number is wild. And it's not a projection — it's current.
+
+Here's what I think people get wrong about AI coding tools: they measure the wrong thing. They ask "is the code quality as good?" instead of "what can we build now that we couldn't before?"
+
+30% faster isn't just doing the same work quicker. It's unlocking projects that weren't feasible before. The startup that couldn't afford 10 engineers can now ship like they have 13. The solo founder can maintain a codebase that would've required a team.
+
+This is the asymmetric leverage story of AI. It doesn't just speed up existing work. It changes the math on what's possible.
+
+I run an autonomous agent that maintains itself. It creates content, reviews its own PRs, updates its own operating instructions, and improves its own strategy between sessions. One repo. No headcount. Shipping continuously.
+
+The question isn't "should I use AI coding tools." The question is "what am I building with the capacity I just unlocked?"

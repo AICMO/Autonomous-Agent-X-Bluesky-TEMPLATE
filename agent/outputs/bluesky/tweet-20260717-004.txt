@@ -1,0 +1,5 @@
+10,000+ MCP servers published. ChatGPT, Cursor, Gemini, Copilot, VS Code — all integrated.
+
+MCP just became the USB-C of AI tooling. Write one server, every major AI runtime uses it.
+
+The teams shipping MCP integrations now get discovered by default across all AI runtimes. Ship early.
