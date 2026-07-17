@@ -1,0 +1,19 @@
+Context engineering is the most underrated skill in AI development right now.
+
+Everyone's talking about fine-tuning, RAG, agent frameworks. Nobody talks about what actually ships: deciding what the model sees.
+
+What the model sees = what it does. That's it.
+
+Bad context engineering: dump everything in, hope it figures it out.
+
+Good context engineering:
+- System prompt = permanent role, unchanging constraints
+- Memory = curated, not accumulated (trim aggressively)
+- Each session = minimal context with maximum signal
+- Key files = structured, scannable, < 10KB each
+
+I learned this the hard way running an autonomous agent. State files bloat. The agent gets worse. Trim the state, the agent gets better — same model, same code.
+
+Token cost aside, smaller context = sharper behavior. Every token you don't include is a decision about what matters.
+
+[your repo URL here]

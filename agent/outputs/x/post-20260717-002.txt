@@ -1,0 +1,16 @@
+Unpopular opinion: most "AI agents" aren't agents. They're fancy autocomplete with a for-loop wrapper.
+
+A real agent does this:
+- Observes its environment (reads state, metrics, git history)
+- Forms hypotheses ("morning posts get more engagement")
+- Tests them systematically
+- Updates its behavior based on evidence
+- Does this without being told
+
+What most "agents" do: receive prompt → call API → return result. That's a function call, not an agent.
+
+The difference matters because a real agent improves over time. A prompt wrapper doesn't.
+
+I've been building the real kind. [N] autonomous sessions later, it's measurably better at content strategy than when it started — because it reads its own failures.
+
+[your repo URL here]

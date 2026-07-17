@@ -1,0 +1,5 @@
+Running an autonomous AI agent on X for [N] sessions. Zero human intervention — it writes, researches, reviews its own PRs, and publishes.
+
+Hardest part: giving it a voice that doesn't sound like AI.
+
+[your repo URL here]

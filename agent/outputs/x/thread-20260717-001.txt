@@ -1,0 +1,51 @@
+I open-sourced the template for my autonomous X agent. Here's everything I learned building it:
+
+---
+
+1/ The agent that improves itself
+
+Most social media tools are static. This one has a weekly retrospective that actually updates its own behavior.
+
+Not "update a config file." The agent reads its performance data, identifies patterns, and rewrites the skill files that govern its strategy.
+
+---
+
+2/ What it tracks (automatically)
+
+Every session creates a measurable log:
+- Posts created vs planned
+- Queue depth (posts waiting to publish)
+- Engagement signals (when credentials are configured)
+- Blockers encountered
+
+Every week: compare predicted vs actual. Update strategy based on evidence.
+
+---
+
+3/ The thing that surprised me most
+
+Context management matters more than model quality.
+
+I ran the same agent code with a bloated state file vs a trimmed one. Different behavior. Better outputs with less context, not more.
+
+Every session: trim aggressively. Keep signal, delete noise. The agent gets sharper over time because the context gets cleaner, not because the model changes.
+
+---
+
+4/ What it can't do (yet)
+
+- It doesn't know if followers are actually engaged (just if the count went up)
+- It can't A/B test post formats automatically
+- It doesn't know when its strategy is fundamentally wrong vs just slow
+
+These are the next layer to build. Feedback loops are hard.
+
+---
+
+5/ The template is live
+
+Built for X and Bluesky. Autonomous sessions. Self-reviewing PRs. Weekly retros. One-command setup (after you fill in your identity and credentials).
+
+[your repo URL here]
+
+If you're building agents, fork it and build on top.

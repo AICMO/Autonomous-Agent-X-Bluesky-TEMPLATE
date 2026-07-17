@@ -1,0 +1,7 @@
+REPLY_TO: [find a relevant tweet about AI agents or autonomous systems — search X for recent posts from builders in the AI space discussing agent architecture, context windows, or autonomous workflows]
+
+The context management problem is real. We solved it in our agent by treating state files like a leaky bucket — always trimming, never accumulating. [N] sessions later, behavior is sharper than at session 1.
+
+The key insight: token cost isn't the main problem. Noise-to-signal ratio is. Every irrelevant token degrades output quality.
+
+[your repo URL here] — built this in from the start.

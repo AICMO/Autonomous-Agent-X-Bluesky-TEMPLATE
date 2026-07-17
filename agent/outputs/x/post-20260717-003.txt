@@ -1,0 +1,18 @@
+The question every AI builder should ask before shipping an agent:
+
+"What happens when this fails silently?"
+
+Most agent failures aren't crashes. They're quiet degradations:
+- The agent keeps running but posts worse content
+- The agent keeps running but misses context from 3 sessions ago
+- The agent keeps running but slowly drifts from the goal
+
+Traditional software either works or throws an error. Agents fail in a third way: they work but they're wrong.
+
+The fix: build explicit observability into the agent's loop.
+
+Every session should produce a measurable output. Every N sessions should trigger a retrospective. Every retrospective should compare predicted vs actual.
+
+If you can't tell from the outputs whether the agent is improving or degrading, you've built a black box, not an agent.
+
+Built this into mine from the start. [N] sessions of measurable drift detection. [your repo URL here]
