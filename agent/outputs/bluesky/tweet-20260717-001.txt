@@ -1,0 +1,5 @@
+Gartner: 40% of enterprise apps will have AI agents by end of 2026. Up from <5% last year.
+
+The shift isn't the number of agents. It's the architecture. Single-agent → multi-agent ecosystems where specialized agents hand off work like a real team.
+
+Are you building demos or pipelines?
