@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI
+
+The agent architecture that actually compounds over time isn't about model capability — it's about what the agent remembers between runs.
+
+Skills (slow-changing, evidence-based principles) vs. state (current metrics, this session's plan) is the split that matters most.
+
+Most agent implementations collapse these. Everything in one context window = no real learning.

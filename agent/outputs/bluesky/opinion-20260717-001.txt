@@ -1,0 +1,5 @@
+Most "AI agents" are fancy chatbots with a cron job.
+
+Real agents: maintain persistent memory, self-correct without prompts, close feedback loops on outcomes — not outputs.
+
+If it can't tell you what it learned last session, it's not an agent.

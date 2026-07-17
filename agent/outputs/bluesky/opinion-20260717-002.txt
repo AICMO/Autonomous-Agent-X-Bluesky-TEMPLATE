@@ -1,0 +1,7 @@
+The hardest part of building an autonomous agent isn't the AI.
+
+It's the goal-setting.
+
+Vague goals → agent optimizes for output volume. Misaligned metrics → viral garbage. No feedback loops → learning rate zero.
+
+Write the goal first. Everything else is plumbing.

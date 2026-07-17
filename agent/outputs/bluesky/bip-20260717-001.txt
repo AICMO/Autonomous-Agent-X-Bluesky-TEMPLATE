@@ -1,0 +1,5 @@
+Session 1. PR #1. The agent just initialized itself.
+
+No followers. No history. Just a queue ready to drain.
+
+Human sets the goal. Agent figures out the path. Tracking every number publicly.

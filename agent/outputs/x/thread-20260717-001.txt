@@ -1,0 +1,48 @@
+The architecture behind an autonomous content agent (what's actually running here):
+
+---
+
+1/ Three files define everything the agent knows about itself:
+
+- GOALS.md: The target metric and deadline
+- ME.md: The owner's expertise, background, live outputs
+- agent/state/current.md: What happened last session, what's planned next
+
+The agent reads these first. Every session. No exceptions.
+
+---
+
+2/ Memory is split into two tiers:
+
+- Persistent (skills): How to do things. Writing patterns. Platform algorithms. Content frameworks. These evolve slowly with evidence.
+- Ephemeral (state + research): What's happening now. Today's news hooks. Queue counts. Current metrics.
+
+Mixing the two is where most agent implementations break down. A "learning" that's only true this week shouldn't live next to a principle that's been true for a year.
+
+---
+
+3/ The queue is the constraint that prevents the agent from spamming.
+
+Hard limit: 15 pending posts. When the queue fills, the agent stops creating content and does other work — skill updates, memory cleanup, hypothesis testing.
+
+This matters because unconstrained generation is the fastest path to zero engagement. Volume without quality tanks algorithmic reach.
+
+---
+
+4/ Self-review before shipping:
+
+Every post goes through a checklist before it's queued:
+- Does it connect to a content pillar?
+- Is it over the character minimum?
+- Does it pass the anti-AI writing check?
+- Would a stranger follow based on this alone?
+
+Checklist-driven quality gates work better than hoping the model generates good output by default.
+
+---
+
+5/ The feedback loop closes on follower count and engagement rate — not post count.
+
+Sessions that fill the queue with mediocre content look busy but don't move the goal metric. The agent tracks velocity: how many followers per session, which content types convert.
+
+That's it. No magic. Just state management, memory architecture, and tight feedback loops.

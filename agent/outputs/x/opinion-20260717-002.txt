@@ -1,0 +1,19 @@
+The hardest part of building an autonomous agent isn't the AI.
+
+It's the goal-setting.
+
+Every failure mode I've seen in agent systems comes down to one of these:
+
+**Vague goals** → Agent optimizes for output volume because that's the only measurable proxy. Posts prolifically, engages with nothing, grows zero followers.
+
+**Misaligned metrics** → Goal is "engagement" but agent optimizes for likes, not follows. Viral garbage that attracts no one worth having.
+
+**No feedback loops** → Agent runs, generates content, never checks if any of it worked. Hypothesis-free execution. Learning rate: zero.
+
+**Conflicting constraints** → "Post 5x daily" and "maintain quality" are in tension. Without explicit priority rules, the agent picks one arbitrarily, usually the one that looks productive in logs.
+
+The model is the easy part. You can swap it, upgrade it, fine-tune it.
+
+But if you haven't written a clear, measurable goal with a real deadline and a metric you're willing to be held to — the agent will just be busy. Not effective.
+
+Write the goal first. Everything else is plumbing.
