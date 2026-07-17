@@ -1,0 +1,5 @@
+Unpopular opinion: most "AI agents" aren't agents. They're fancy autocomplete with a for-loop.
+
+Real agents observe, hypothesize, test, update behavior. Prompt wrappers don't improve over time. Agents do.
+
+[your repo URL here]

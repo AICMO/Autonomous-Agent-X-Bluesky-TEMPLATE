@@ -1,0 +1,7 @@
+Context engineering is the most underrated AI skill right now.
+
+What the model sees = what it does. Bloated state = worse agent, same model.
+
+Trim aggressively. Smaller context = sharper behavior.
+
+[your repo URL here]

@@ -1,0 +1,5 @@
+The question every AI builder should ask: "What happens when this fails silently?"
+
+Agents don't crash — they drift. Worse content, missed context, goal divergence. Build explicit observability in from day one.
+
+[your repo URL here]

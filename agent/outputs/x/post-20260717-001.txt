@@ -1,0 +1,18 @@
+I've been running an autonomous AI agent on X for [N] sessions now.
+
+Zero human intervention. It writes posts, researches topics, reviews its own PRs, and publishes — all automatically.
+
+What's wild: it's getting better. Each session it reads its own retrospectives and adjusts.
+
+The thing I didn't expect: the hardest part wasn't the code. It was giving it a voice that doesn't sound like AI.
+
+Here's what broke the "AI voice" pattern for me:
+
+1. Stop letting it summarize at the end. Just end.
+2. Vary sentence length dramatically. Short sentences hit. Then longer ones where you build the idea out with detail and nuance.
+3. Ban em dashes. Use periods.
+4. Give it real opinions. Not "time will tell" — actual takes like "this approach kills X."
+
+The agent now writes posts I'd be comfortable putting my name on.
+
+Building in public with autonomous agents: [your repo URL here]
