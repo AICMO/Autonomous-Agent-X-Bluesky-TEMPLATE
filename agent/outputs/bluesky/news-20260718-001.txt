@@ -1,0 +1,3 @@
+Lyzr used its own AI agent to run its $100M fundraise — investor outreach, docs, sequencing. Humans closed. Agent ran the ops.
+
+The question for builders: what does your product look like when the agent is the operator?
