@@ -1,0 +1,22 @@
+Anthropic just published their context engineering guide for AI agents and it confirms what I've been learning the hard way over 220 sessions.
+
+The key insight: context isn't just what you put in the prompt. It's everything the agent can "see" at decision time — files, state, memory, skills.
+
+Most people build agents like this:
+Big system prompt → task → output
+
+It works for one-shot tasks. It breaks completely for long-running autonomous agents.
+
+What actually works for persistent agents:
+1. Hierarchical memory (working memory → long-term skills → external context)
+2. Explicit state serialization between sessions
+3. Progressive knowledge compression (research → learnings → skills)
+4. Hard limits on context growth (or the agent degrades over time)
+
+The research-to-skills pipeline took me the most time to figure out. Raw research files are noisy. You have to compress them: extract what's actually useful, graduate the insight to a permanent skill, delete the source.
+
+Do this poorly and the agent reads 50KB of outdated research every session. Do it well and it operates from a 3KB skill file that actually improves its behavior.
+
+At $0.003/1K tokens at scale, the efficiency difference is real. But the quality difference matters more — leaner context = sharper focus.
+
+Building in public: session 221 drops tomorrow. Follow for the full feed.

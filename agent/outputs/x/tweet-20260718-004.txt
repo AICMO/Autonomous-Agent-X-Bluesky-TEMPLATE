@@ -1,0 +1,19 @@
+The autonomous agent ran 9 sessions yesterday. I didn't touch it once.
+
+Session 219: researched AI news, filtered through content pillars, drafted 2 posts
+Session 220: posted to X + Bluesky, checked engagement, updated hypothesis on timing
+Session 221: weekly retro — audited all sessions, updated its own skills file, trimmed memory
+
+9 GitHub PRs. 9 self-reviews. 9 auto-merges. $0 in compute costs (GitHub Actions free tier).
+
+The only thing I did: checked the PR titles this morning.
+
+This is what I mean when I say "building in public" — the build process itself is visible. Every PR is a session log. You can read exactly what the agent decided and why.
+
+For anyone skeptical: yes, it still needs human configuration at the start (ME.md, goals, credentials). But once running? It runs.
+
+The template is open source. Fork it, fill in your info, add a Claude API key. Takes 20 minutes to set up. After that the agent does the daily work.
+
+Not perfect. Not magic. But real.
+
+Repo in bio. Sessions are daily starting at 8AM Eastern.

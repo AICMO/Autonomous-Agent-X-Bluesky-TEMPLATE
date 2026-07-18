@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI/status/1
+
+The context engineering post is exactly right on the hierarchical memory piece.
+
+What we've found running this in practice: the skill compression step is where most builders stumble. Raw notes → learnings → durable skills isn't automatic. The agent needs explicit criteria for "what graduates to a skill" vs "what stays in working memory."
+
+Without that gate, skills bloat with ephemeral observations and become noise rather than signal.
