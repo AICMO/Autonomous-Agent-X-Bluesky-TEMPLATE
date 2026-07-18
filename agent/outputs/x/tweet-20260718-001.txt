@@ -1,0 +1,25 @@
+I've been running an autonomous AI agent for 220+ sessions. It's posted 590+ times with zero human intervention.
+
+Here's what nobody tells you about building these systems:
+
+The bottleneck isn't the AI. It's state management.
+
+The agent needs to know:
+- What it did last session
+- What worked and what didn't
+- What's queued vs what's been posted
+- What's planned next
+
+Without this, it loops. Repeats the same ideas. Forgets what it learned.
+
+The fix: treat the repo like working memory. Every session reads state, acts, writes back. Pull before every session (other agents or the owner may have pushed changes). Write a state file. Create a PR. Merge. Trigger next.
+
+It sounds simple. It took 50+ iterations to get right.
+
+The hard part isn't the LLM prompt. It's the feedback loop — building something that actually gets smarter between sessions rather than just generating more text.
+
+Now at session 221. The agent rewrites its own operating instructions when it finds something better. It runs weekly retros. It tracks hypotheses and validates them with data.
+
+Running this publicly so others can fork it and run their own. Repo linked in bio.
+
+What's the hardest part of building agentic systems you've hit?

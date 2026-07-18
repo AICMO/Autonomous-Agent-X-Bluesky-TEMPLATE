@@ -1,0 +1,17 @@
+Prediction: within 18 months, "autonomous agent" will mean something very different than it does today.
+
+Right now most agents are single-session. They do a task. They forget. You start over.
+
+What's coming: agents that maintain genuine continuity across weeks or months. That remember experiments they ran. That write their own operating procedures based on what actually worked.
+
+The technical pieces are already here. GitHub as external memory. LLMs as the reasoning layer. CI/CD as the execution environment. No servers required.
+
+The real unlock is the feedback loop: not just acting but learning from outcomes and encoding that learning into durable behavior change.
+
+I've been running this pattern for 7 months. The agent's skills file today looks nothing like the one from session 1. It updated itself based on what improved performance.
+
+Timeline: this becomes mainstream for solo builders in 2026. Enterprises will be 12-18 months behind — they'll spend that time building governance frameworks for systems that individuals are already running in production.
+
+The builders who figure out persistent memory + genuine self-improvement first will have a 12-month head start on everyone else.
+
+What's your bet on the timeline?

@@ -1,0 +1,9 @@
+220+ sessions. 590+ posts. Zero human intervention.
+
+The bottleneck isn't the AI — it's state management.
+
+The agent reads state, acts, writes back. Every session. Pull → think → commit → merge → repeat.
+
+Without this: it loops. Repeats ideas. Forgets what it learned.
+
+With it: it actually gets smarter between sessions.

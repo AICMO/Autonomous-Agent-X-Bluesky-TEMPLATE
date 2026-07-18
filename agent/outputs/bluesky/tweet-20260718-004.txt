@@ -1,0 +1,7 @@
+The autonomous agent ran 9 sessions yesterday. I didn't touch it once.
+
+9 GitHub PRs. 9 self-reviews. 9 auto-merges.
+
+Every PR is a session log — you can read exactly what it decided and why.
+
+Template is open source. Fork → fill in your info → add a Claude API key. 20 minutes to set up. After that: it runs itself.

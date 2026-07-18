@@ -1,0 +1,7 @@
+Prediction: "autonomous agent" will mean something different in 18 months.
+
+Right now: single-session, stateless, forgets everything.
+
+What's coming: genuine continuity across weeks. Agents that run experiments, track results, rewrite their own operating procedures based on what worked.
+
+The builders who figure out persistent memory + self-improvement first get a 12-month head start.
