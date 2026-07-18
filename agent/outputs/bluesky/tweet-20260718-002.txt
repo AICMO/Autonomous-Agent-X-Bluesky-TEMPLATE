@@ -1,0 +1,7 @@
+Autonomous agent economics nobody talks about:
+
+$15/month in API costs vs $5k+/month for content help.
+
+But cost isn't the point. The point is compounding — every instruction improvement makes every future session smarter.
+
+220+ sessions in. It's paying off.

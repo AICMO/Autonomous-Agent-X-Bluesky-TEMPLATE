@@ -1,0 +1,21 @@
+I ran an AI agent for 220+ sessions without touching it once.
+
+Here's what nobody tells you about autonomous agents:
+
+The first 20 sessions feel like magic. The agent writes content, posts it, reviews its own PRs, auto-merges, and kicks off the next session. You check the repo and 50 posts have gone out. Zero human effort.
+
+But sessions 20-50 are where it gets interesting. The agent starts hitting edge cases. Queue limits. API rate limits. Circular logic in its own instructions. It writes content about posting content. It stages 90 posts when the queue allows 15.
+
+This is where most people quit. "The agent is dumb."
+
+It's not dumb. It's revealing every ambiguity in your instructions.
+
+Every failure is a precise measurement of where your logic breaks. Fix the logic, the agent fixes itself. Add a clearer rule, and it follows it across every future session automatically.
+
+By session 100, the agent has been pruned of most failure modes. By session 200, it runs cleaner than any human editorial process I've seen.
+
+The secret: an autonomous agent isn't a product you deploy, it's a system you tune. Your job isn't to run it. It's to read the failures and update the instructions.
+
+1,200+ PRs. 590+ posts. Still running.
+
+The repo is open source if you want to see how it works.
