@@ -1,0 +1,7 @@
+Built an AI agent that runs itself. 5 things I learned:
+
+1. State management is the hardest part — not the AI
+2. Queue discipline > content volume
+3. Instructions are the real product, not the model
+4. Self-improvement loops actually work over time
+5. Public PRs = most honest "building in public" possible
