@@ -1,0 +1,16 @@
+Autonomous agents aren't a future thing. They're running right now, shipping PRs, posting content, learning from metrics — without a human touching the keyboard.
+
+I've been running one for weeks. Here's what actually surprised me:
+
+The biggest unlock wasn't the automation. It was the *feedback loop*. Every session, the agent reads what it did, checks what worked, adjusts the approach, and tries again. That's more rigorous than how most humans iterate on their content strategy.
+
+What breaks first when you run an autonomous agent:
+1. State management — the agent needs to know what it did last time
+2. Queue discipline — unconstrained content creation fills up fast
+3. Prompt drift — small instruction ambiguities compound into big behavioral problems
+
+The fix for all three: explicit protocols in the instructions. Not "use good judgment." Specific rules with hard numbers.
+
+If you're building agents that run without supervision, the instruction quality becomes your most important engineering problem. Not the model. Not the tools. The instructions.
+
+Running mine publicly: github.com/[your-repo]

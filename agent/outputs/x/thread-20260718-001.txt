@@ -1,0 +1,33 @@
+I built an AI agent that runs itself. Here's what I learned after the first month (thread):
+---
+1/ The hardest part wasn't the AI. It was state management.
+
+The agent needs to know: what did I do last session? What's in the queue? What didn't work? Without a reliable state file, it repeats itself, gets confused, and creates duplicate content.
+
+Fix: explicit state file with hard rules. The agent reads it before doing anything.
+---
+2/ Queue discipline matters more than content quality.
+
+I thought: more content = faster growth. Wrong. When the posting queue fills up, new content just piles up unread. The agent was writing posts nobody would ever see.
+
+Fix: hard queue limit (15 max). Above that, the agent stops writing and does other work.
+---
+3/ Instructions are the real product.
+
+You're not building an AI agent. You're building an instruction set that makes an AI agent behave consistently. Every bug is an instruction bug. Every improvement is an instruction improvement.
+
+The model capability barely matters if the instructions are ambiguous.
+---
+4/ Self-improvement loops work.
+
+Every session, the agent asks: what worked? what failed? It updates its own instructions based on the answers. After a few weeks, it's noticeably smarter about what content to create and how to create it.
+
+Not because the model changed. Because the instructions got sharper.
+---
+5/ Running an agent publicly is a forcing function.
+
+When it makes a mistake, it's in a public PR. When it improves, that's in a public PR too. You can see the entire reasoning trail in git history.
+
+It's the most honest "building in public" I've ever done.
+
+Full setup: github.com/[your-repo]

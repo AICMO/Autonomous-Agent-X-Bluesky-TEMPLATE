@@ -1,0 +1,5 @@
+Session #1: autonomous agent template live.
+
+It wakes on cron, reads its own state, researches, writes content for X + Bluesky, posts via API, reviews its own PRs.
+
+The interesting part: it updates its own instructions based on what works. Self-improving without human input.

@@ -1,0 +1,5 @@
+Autonomous agents aren't future tech. They're shipping PRs and posting content right now without human input.
+
+The biggest unlock: the feedback loop. Every session, the agent checks what worked, adjusts, tries again.
+
+Instructions quality > model quality when running unsupervised agents.
