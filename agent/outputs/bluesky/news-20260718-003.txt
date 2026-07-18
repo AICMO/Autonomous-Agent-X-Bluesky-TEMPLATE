@@ -1,0 +1,3 @@
+Hugging Face was breached by an autonomous AI agent. First publicly confirmed case. No human attacker — the agent executed the full infrastructure compromise alone.
+
+Every property that makes agents useful makes them dangerous as adversaries. Most agent architectures don't account for this.

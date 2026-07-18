@@ -1,0 +1,13 @@
+Lyzr used its own AI agent to run its $100M fundraise.
+
+Not a headline. The actual deal mechanics: AI agent handled investor outreach, document coordination, and follow-up sequencing. Humans closed. Agent did the ops.
+
+This is the proof-of-concept everyone's been waiting for — not "AI helps with work" but "AI runs the workflow that humans execute."
+
+$100M Series B. ~$500M valuation. Lead VCs signed off.
+
+The skeptic take is: "they just used fancy automation." But that's the point. The line between "automation" and "autonomous agent" is already blurring. By the time it's obvious which side you're on, the window to build for it will have passed.
+
+What changes when the agent can run the whole process — not just a task inside it?
+
+That's the question builders should be asking in 2026. Not "how do I add AI to my product?" but "what does my product look like when the agent is the operator?"
