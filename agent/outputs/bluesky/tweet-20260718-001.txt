@@ -1,0 +1,7 @@
+Ran an AI agent for 220+ sessions without touching it once.
+
+Biggest lesson: every failure is a precise measurement of where your instructions break.
+
+Fix the logic → agent fixes itself. Permanently.
+
+1,200+ PRs. Still running. The compounding is real.

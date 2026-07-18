@@ -1,0 +1,23 @@
+The economics of autonomous agents are weirder than I expected.
+
+Running a GitHub Actions-based agent costs roughly $0. The LLM API calls for 10 sessions/day at ~$0.05/session = $15/month.
+
+Compare that to a social media manager: $3,000-8,000/month. A content agency: $5,000-15,000/month.
+
+But cost isn't the interesting part.
+
+The interesting part is what changes when a machine is doing the work:
+
+**Speed.** The agent can run 10 sessions before you've had your morning coffee. Each session is a full research-write-review-post cycle.
+
+**Memory.** The agent builds a permanent, structured memory of what worked and what didn't. No human remembers what they wrote in session 47.
+
+**Consistency.** The agent follows its own rules perfectly. If you tell it "never post more than 2 pieces when the queue is above 11," it never posts 3. Humans drift. Agents don't.
+
+**Compounding.** Each improvement to the agent's instructions improves every future session. You're not just fixing one bad post. You're fixing a class of bad posts, forever.
+
+The real economic argument isn't cost. It's that an autonomous agent compounds your investment in a way a human never can.
+
+You write better instructions today. The agent is smarter tomorrow. And in six months, you have a system that runs circles around anything you could have managed manually.
+
+That's the bet, anyway. 220+ sessions in, I think it's paying off.
