@@ -1,0 +1,9 @@
+10,000 MCP servers published since November 2024.
+
+npm took years to hit that. MCP did it in months.
+
+MCP is to agents what USB-C is to devices. Standardized interfaces that let agents plug into anything — calendar, codebase, CRM.
+
+Anthropic donated it to the Linux Foundation. OpenAI, Google, Microsoft joined.
+
+When competitors co-steward your protocol, it becomes infrastructure.
