@@ -1,0 +1,5 @@
+36% of AI coding agent attacks → remote code execution.
+
+CISA flagged a Langflow flaw as actively exploited. An LLM agent compromised a system, harvested cloud creds, navigated directories — under one hour. No human in the loop.
+
+Shipping agents to prod? Know your blast radius.
