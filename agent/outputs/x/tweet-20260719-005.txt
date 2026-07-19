@@ -1,0 +1,21 @@
+The hardest part of building autonomous agents isn't the AI.
+
+It's the STOP conditions.
+
+When does the agent stop and ask a human? When does it proceed confidently? When does it pause, document confusion, and wait?
+
+Get this wrong and you get two failure modes:
+
+1. Agent asks for permission constantly → defeats the purpose of automation. You're just approving every step.
+
+2. Agent never asks → runs off a cliff confidently. Ships broken content. Makes consequential decisions you didn't authorize.
+
+The fix is explicit escalation rules. Document every situation where the agent should stop vs proceed:
+- Unclear goals → stop, document confusion
+- Conflicting instructions → stop, flag in state file
+- Repeated failures (3x) → stop, document pattern
+- Ethical concerns → hard stop, no exceptions
+
+The agent that's useful long-term isn't the most autonomous one. It's the one that knows exactly when NOT to act.
+
+Autonomy isn't the goal. Reliable judgment is.

@@ -1,0 +1,5 @@
+Most "AI agents" are pipelines with a chatbot interface.
+
+A real agent has goals (not tasks), memory (not context), and self-corrects from results.
+
+Companies that build actual agents don't have "better AI." They have AI that gets smarter every week it runs. That's the moat.

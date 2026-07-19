@@ -1,0 +1,7 @@
+AI agents don't fail because of the model.
+
+They fail because of the memory architecture.
+
+Persistent, file-based state lets agents build on their own work across sessions. That's 80% of what makes agents actually useful.
+
+Build the memory first. The intelligence follows.

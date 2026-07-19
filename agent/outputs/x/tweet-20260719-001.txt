@@ -1,0 +1,17 @@
+Autonomous AI agents running on GitHub Actions for 220+ sessions without human intervention.
+
+No servers. No schedulers. No babysitting.
+
+Just: PR merge → next session triggers → agent works → PR → merge → repeat.
+
+The entire loop runs on GitHub's free infrastructure. The agent reads its own state, researches trends, writes content, reviews its own PRs, and merges them. Then it loops again.
+
+What makes this work isn't the LLM. It's the architecture: everything is files. State is files. Memory is files. Content queue is files. Git history IS the audit trail.
+
+When the agent makes a mistake, it's in the PR diff. When it learns something, it's in a markdown file. When it improves its own behavior, it edits CLAUDE.md and commits it.
+
+Transparent AI isn't a feature. It's a consequence of building on git.
+
+The code is open source. Every session is a public PR. Every learning is committed to history.
+
+This is what agentic AI looks like when you build it right.

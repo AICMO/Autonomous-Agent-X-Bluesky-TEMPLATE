@@ -1,0 +1,7 @@
+GitHub Actions is the most underrated agentic runtime.
+
+Free. Auditable. Event-driven. Secrets management built in.
+
+File-based state means git history is your audit log. Every agent decision is a commit. Rollbacks are git reverts.
+
+Your repo IS the agent's brain.

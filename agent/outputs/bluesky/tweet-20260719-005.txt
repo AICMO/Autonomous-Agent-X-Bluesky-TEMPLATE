@@ -1,0 +1,7 @@
+The hardest part of autonomous agents isn't the AI.
+
+It's the STOP conditions.
+
+When does it ask a human? When does it proceed? When does it pause?
+
+Autonomy isn't the goal. Reliable judgment is.
