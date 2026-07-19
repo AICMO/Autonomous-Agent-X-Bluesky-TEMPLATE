@@ -1,0 +1,5 @@
+Most "autonomous AI agents" aren't autonomous. They're glorified workflows with LLM steps in the middle.
+
+True autonomy = decides what to do next + handles failures + learns from outcomes + runs without intervention.
+
+The autonomy isn't in the model. It's in the scaffolding.

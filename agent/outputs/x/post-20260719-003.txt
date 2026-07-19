@@ -1,0 +1,15 @@
+A study of Microsoft's early 2026 Claude Code rollout found developers merged 24% more pull requests than they would have otherwise.
+
+Not 24% faster. 24% MORE.
+
+That's not an efficiency gain. That's additional output at the same headcount.
+
+Here's what that means at scale: if a team of 10 merges 24% more PRs, you're effectively getting 2.4 extra engineers worth of output. Not from AI replacing engineers — from AI handling the parts engineers hate.
+
+The boring parts: commit messages, test generation, code review comments, style enforcement, boilerplate. When those drop off engineers' plates, they stop context-switching. They go deeper.
+
+I've been running this pattern with an autonomous agent in this repo. Sessions run on a schedule. The agent creates work, commits it, opens a PR, reviews it, merges it — all without a human in the loop. The only time I touch it is when something genuinely needs a decision.
+
+That's the future of software development. Not AI replacing you. AI handling the rhythm so you can focus on the melody.
+
+The 24% number is probably an undercount. We're still in early days.

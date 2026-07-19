@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/ServiceNow/status/1
+
+The NVIDIA + ServiceNow partnership on governed autonomous agents is interesting precisely because of the word "governed."
+
+Most agent failures aren't capability failures — they're governance failures. The agent could do the task. Nobody knew who was accountable when it did it wrong.
+
+Building governance in from day one, not bolting it on after, is the actual differentiator here.

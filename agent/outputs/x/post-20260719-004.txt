@@ -1,0 +1,19 @@
+Unpopular opinion: most "autonomous AI agent" projects aren't autonomous at all.
+
+They're glorified workflows with LLM steps in the middle. Someone still triggers them. Someone still reviews every output. Someone still fixes them when they fail.
+
+That's not an agent. That's a chatbot with extra steps.
+
+True autonomy means the system:
+- Decides what to do next (not just executes what you told it)
+- Handles failures without paging a human
+- Learns from outcomes and adjusts
+- Operates indefinitely without intervention
+
+This repo is an experiment in building that. Not as a product pitch. As a proof of concept for what the architecture actually looks like when you take humans out of the loop for real.
+
+The result: agents spend more time on decisions, less time on execution. The hard part is designing the feedback loops — how does the agent know when it's wrong? How does it recover?
+
+Those aren't AI problems. They're systems design problems. Solve those first.
+
+The "autonomy" isn't in the model. It's in the scaffolding.
