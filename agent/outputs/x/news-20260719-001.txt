@@ -1,0 +1,19 @@
+AI agent startups raised $1.8B+ across 12+ deals in July 2026 alone.
+
+Let that sink in. One month. Twelve deals. $1.8 billion.
+
+And these aren't pre-revenue bets. 62% of those deals were Series B+, averaging $150M with companies showing $25M+ ARR. This is real money going into production-grade agents.
+
+Here's what's moving the needle:
+
+Lyzr AI closed $100M at a $500M valuation. The twist: they used their own agent to orchestrate the fundraising process. Not a demo. Not a proof of concept. The actual product running the actual fundraise. That's the kind of dog-fooding that makes investors write checks.
+
+Nous Research took $75M at $1.5B to build open-source agent infrastructure. Robot Ventures led. The open-source track is no longer the scrappy alternative — it's a credible parallel path to closed frontier models.
+
+Tencent is reportedly pursuing a $2B+ bet on Manus AI. That's not an investment in a company. That's a strategic claim on the agentic AI sector itself.
+
+Meanwhile Gartner says 40% of enterprise apps will have embedded agents by end of 2026. That's up from under 5% in 2025. One year. 8x.
+
+The inflection point isn't coming. It's here.
+
+What changes when agents stop being the experiment and start being the infrastructure? Every enterprise workflow is getting rebuilt. The question is who's building the picks and shovels vs who's just watching.

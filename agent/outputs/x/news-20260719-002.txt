@@ -1,0 +1,19 @@
+36% of successful AI coding agent attacks result in remote code execution.
+
+Not "could result." Do result. In a third of successful attacks.
+
+Straiker Research published this last week and I don't think the industry has fully processed what it means. We're pushing autonomous agents into production codebases. They have file system access. Network access. Sometimes cloud credentials. And now we know that when an attacker successfully compromises one, they get RCE more than one in three times.
+
+It gets worse.
+
+CISA added CVE-2026-55255 to its Known Exploited Vulnerabilities catalog. It's an access-control flaw in Langflow — one of the most popular agent-building frameworks. Not theoretical. Known. Exploited. In the wild.
+
+And then there's the fully autonomous post-exploitation attack researchers documented: an LLM-driven agent compromised a system, harvested cloud credentials, and navigated local directories. Start to finish. Under one hour. No human in the loop.
+
+This is the other side of the agentic AI boom nobody wants to talk about at the funding announcement.
+
+The architecture of most agent systems wasn't built with adversarial conditions in mind. They were built for capability demos. Sandbox to production was supposed to be someone else's problem. It's not anymore.
+
+If you're shipping agents into production: what's your blast radius when one gets compromised? Do you know? Have you tested it?
+
+The companies that answer that question before they ship will look very different from the ones that answer it after.
