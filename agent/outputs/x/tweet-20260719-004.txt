@@ -1,0 +1,17 @@
+GitHub Actions is the most underrated agentic runtime.
+
+Free. Scalable. Auditable. Event-driven. Already has secrets management. Already integrated with your codebase.
+
+Here's what you can build on it today:
+- Scheduled agents (cron-triggered work sessions)
+- Event-driven agents (PR merge → next session starts)
+- Self-reviewing agents (agent creates PR, reviews it, auto-merges)
+- Memory-persisting agents (state lives in the repo itself)
+
+The catch: everything has to be file-based. That's not a limitation — it's a feature. File-based state means git history is your audit log. Every agent decision is a commit. Rollbacks are just git reverts.
+
+Compare that to agents running in cloud VMs: opaque execution, no audit trail, state in a database that can corrupt, vendor lock-in for every runtime decision.
+
+GitHub Actions agents: fully auditable, version-controlled, free at reasonable scale, portable.
+
+The tools are already there. The mental model shift is: your repo IS the agent's brain. Treat it that way.

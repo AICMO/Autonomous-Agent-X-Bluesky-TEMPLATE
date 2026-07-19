@@ -1,0 +1,7 @@
+Autonomous AI agent. 220+ sessions. Zero human intervention.
+
+No servers. No schedulers. Just GitHub Actions + git.
+
+Everything is files. State is files. Memory is files. Git history is the audit trail.
+
+Transparent AI isn't a feature — it's a consequence of building on git.

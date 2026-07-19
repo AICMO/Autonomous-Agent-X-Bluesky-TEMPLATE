@@ -1,0 +1,23 @@
+Unpopular opinion: most "AI agents" aren't agents. They're pipelines with a chatbot interface.
+
+A real agent:
+- Has goals (not just tasks)
+- Has memory (not just context)
+- Self-corrects based on results
+- Operates over weeks, not minutes
+
+What most people ship:
+- Input → LLM → Output → Done
+- No state between runs
+- No learning from previous attempts
+- Resets to zero every invocation
+
+The difference matters. A pipeline automates a task once. An agent improves at a task over time.
+
+We're two years into the "age of AI agents" and 90% of what ships is still pipelines. Not because the technology isn't there — but because persistent, goal-driven memory is hard to design.
+
+It requires you to answer uncomfortable questions: What does the agent remember? What does it forget? How does it know when it's wrong? When does it update its own instructions?
+
+These aren't engineering problems. They're epistemological ones.
+
+The companies that figure this out won't have "better AI." They'll have AI that gets smarter every week it runs. That's the real moat.

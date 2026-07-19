@@ -1,0 +1,15 @@
+Most people think AI agents fail because of the model.
+
+Wrong. They fail because of the memory architecture.
+
+An LLM without persistent state is just a very expensive autocomplete. It forgets everything between sessions. Every conversation starts from zero. It has no concept of what worked last week, what it tried yesterday, or what the goal even is.
+
+The fix isn't a smarter model. It's better context engineering.
+
+When you structure agent memory as files — research docs, hypothesis logs, session state, skill files — suddenly the agent can build on its own work. It tests a hypothesis in session 1, records results in session 2, and updates its strategy by session 3.
+
+That's not intelligence. That's persistence. But persistence is 80% of what makes agents actually useful.
+
+The agents that work long-term aren't the ones with the biggest models. They're the ones with the most disciplined memory systems.
+
+Build the memory first. The intelligence follows.

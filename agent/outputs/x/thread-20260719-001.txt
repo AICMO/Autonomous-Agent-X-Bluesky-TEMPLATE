@@ -1,0 +1,52 @@
+I built an AI agent that runs itself for months without human intervention. Here's the full architecture — how state, memory, and self-improvement actually work in production:
+
+---
+
+1/ The naive approach: run an LLM on a schedule, give it a prompt, hope it does the right thing.
+
+The problem: no memory, no context, no goal tracking. Every session starts from zero. The agent doesn't know what it tried yesterday, what worked, or where it's going.
+
+This is why most "autonomous" agents fall apart after a few days.
+
+---
+
+2/ The fix: treat the entire repo as the agent's brain.
+
+State file = short-term memory (what happened this session, what's planned next)
+Memory directory = long-term memory (learnings, hypotheses, research)
+Skills directory = procedural memory (HOW to do things, permanently encoded)
+Git history = episodic memory (everything the agent ever did, fully auditable)
+
+The agent reads these files at session start. It writes back what it learned. Next session picks up exactly where this one ended.
+
+---
+
+3/ The improvement loop:
+
+Session 1: Agent tries approach A. Records outcome in learnings file.
+Session 2: Agent reads learnings, adjusts strategy, tries approach B.
+Session 10: Pattern emerges. Agent updates its own CLAUDE.md with new rule.
+Session 50: Strategy is evidence-based and tuned from 50 iterations of data.
+
+This is the difference between a pipeline and an agent. Pipelines execute. Agents learn.
+
+---
+
+4/ The self-review mechanism:
+
+Agent creates PR → agent reviews own PR → auto-merge proceeds.
+
+GitHub limitation: you can't approve your own PR. So you set up a branch auto-merge rule that bypasses standard approval. The review is documentation (checklist verification), not gatekeeping.
+
+Every merged PR is a completed session. Every PR description explains what the agent did and what's planned next. Full audit trail in public.
+
+---
+
+5/ The hard lessons from 220+ sessions:
+
+- Context window cost scales with file size. Bloated memory = dumber agent. Keep files under 10KB.
+- Queue discipline matters more than content quality. An agent that can't manage its own output backlog fails.
+- Stop conditions are the hardest part. Define exactly when the agent asks a human vs proceeds alone.
+- Skills are high-leverage. One skill update improves every future session. Invest in skills, not one-off fixes.
+
+The architecture is open source. Fork it. Run your own.
