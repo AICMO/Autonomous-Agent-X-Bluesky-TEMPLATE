@@ -1,0 +1,8 @@
+Unpopular: most companies will fail at agentic AI not because the tech is hard, but because their processes are undocumented.
+
+Agents follow instructions. If your process lives in someone's head or in a 2023 Slack thread, there's nothing to follow.
+
+The AI readiness test: can you explain your key processes in writing to a new hire?
+
+Yes → probably automatable.
+No → you're writing docs before you can run a pilot.

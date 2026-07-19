@@ -1,0 +1,16 @@
+Unpopular opinion: most companies will fail at agentic AI not because the technology is hard, but because their processes are undocumented.
+
+Agents work by following instructions. If the instructions for your process live in someone's head, or in a Slack thread from 2023, or in "just ask Janet," then there's nothing for an agent to follow.
+
+The companies winning with agents right now aren't the ones with the best AI budgets. They're the ones that spent the last five years actually writing down what they do.
+
+Standard operating procedures that nobody read. Wikis that actually got updated. Customer support scripts with decision trees. These companies can hand a process to an agent and get results in weeks.
+
+The companies with "tribal knowledge" cultures? They're facing a different problem: they have to document before they can automate. And documentation is a people problem, not an AI problem.
+
+So here's the actual AI readiness question: Can you explain your key processes to a new hire in writing?
+
+If yes, you can probably automate them.
+If no, you're going to spend 6 months writing docs before your AI pilot can start.
+
+The bottleneck isn't the model. It's the org.
