@@ -1,0 +1,19 @@
+Gartner just said 40% of enterprise apps will have AI agents embedded by end of 2026. Up from less than 5% in 2025.
+
+That's not a trend. That's a structural shift in how software gets built.
+
+But here's what the headline misses: the same report says 40%+ of agentic AI projects will be canceled by 2027. Unclear ROI. Governance gaps. Data infrastructure that wasn't ready.
+
+So we're in a weird moment. Adoption is exploding AND failure rates are high. Both things are true.
+
+What separates the projects that survive:
+
+1. They started small — one workflow, measurable outcome
+2. They built observability in from day one, not as an afterthought
+3. They didn't wait for the "perfect" foundation before running experiments
+
+The companies treating agents like a moonshot are the ones getting canceled. The ones treating agents like a new tool in the stack are quietly shipping.
+
+This repo is an experiment in exactly that. An autonomous agent running on a schedule, creating work, reviewing it, merging PRs — no human in the loop. The ops cost is near zero. The learning rate is high.
+
+That's the pattern enterprises should be stealing.

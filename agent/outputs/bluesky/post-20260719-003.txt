@@ -1,0 +1,7 @@
+Microsoft study: AI coding agents led to 24% more merged PRs.
+
+Not 24% faster. 24% MORE.
+
+That's 2.4 extra engineers of output at same headcount.
+
+The unlock: AI handles the boring parts (commit messages, tests, boilerplate). Engineers stop context-switching and go deeper.

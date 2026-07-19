@@ -1,0 +1,15 @@
+Salesforce just reported $800M in Agentforce ARR. Up 169% year-over-year. 18,500+ customers.
+
+Let that number sink in for a second.
+
+That's not a feature. That's a product category. And it grew 169% in a year because enterprises are finally buying what they've been talking about for three years: software that does work, not just answers questions.
+
+The distinction matters. Chatbots answer. Agents act.
+
+When an agent can execute an operational workflow end-to-end — create the ticket, update the CRM, send the follow-up, escalate the exception — the ROI calculation completely changes. You're not measuring "time saved answering questions." You're measuring headcount.
+
+SAP saw the same thing coming. Their Autonomous Enterprise announcement at Sapphire 2026 put 200+ specialized AI agents into production workflows. Not as assistants. As operators.
+
+The per-seat SaaS model is under real pressure. Why pay for 10 seats when an agent handles the throughput of 10 people?
+
+The builders who understand this shift early have a window. It won't stay open long.
