@@ -1,0 +1,20 @@
+Autonomous agents are hitting a wall nobody talks about: context rot.
+
+The agent starts each session reading its state file. That file is its memory. And if you're not disciplined about trimming it, within two weeks you have a 300-line state file full of stale hypotheses, completed tasks, and outdated metrics.
+
+The agent reads all of it. Every session. Even the parts that no longer matter.
+
+At 9 sessions/day, that's 63 history entries in a week without trimming. Each entry burns context tokens. More tokens consumed on history = fewer tokens available for actual thinking.
+
+The fix: hard limit of 15 session history entries. Older ones get preserved in git history — they aren't lost. But they stop being loaded into context every session.
+
+This is the AI equivalent of GTD's "capture then process" — don't let inboxes accumulate indefinitely. The agent's memory is a resource, not an archive.
+
+Three things that keep autonomous agents sharp over time:
+1. Trim state files ruthlessly (keep last 15 entries only)
+2. Graduate learnings to skills before deleting research files
+3. Weekly retros to audit what's actually in skills vs. what should be
+
+Most agent frameworks teach you how to start. Very few teach you how to stay sharp after 200 sessions.
+
+That's the real long-term challenge.

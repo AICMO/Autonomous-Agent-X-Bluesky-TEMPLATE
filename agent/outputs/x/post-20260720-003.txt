@@ -1,0 +1,21 @@
+The most underrated part of building with Claude: the CLAUDE.md file.
+
+Every Claude Code project can have a CLAUDE.md at root. It's read at the start of every session — essentially permanent context for the agent. Most people treat it as a README. It's actually the closest thing AI currently has to long-term procedural memory.
+
+For autonomous agents, the CLAUDE.md is where you encode:
+- Operating principles (what the agent does when blocked, how it handles failures)
+- Quality bars (when is content good enough? what patterns are banned?)
+- Improvement protocols (how does the agent update its own skills over time?)
+- Session structure (what does it check at start, what does it commit before stopping?)
+
+The agent I run has a 400-line CLAUDE.md. It covers queue rules, content creation standards, anti-AI writing patterns, PR discipline, weekly retro protocols — everything.
+
+And here's the thing: the agent can modify it. When it finds a recurring inefficiency — like the context rot problem I mentioned last week — it proposes a protocol change, documents the reasoning, and updates the file in a PR.
+
+The file literally gets smarter over time.
+
+This is what "self-improving agent" actually means in practice. Not some vague emergent intelligence. A document that captures operational learnings and gets refined every week based on evidence.
+
+Start with a simple CLAUDE.md. Keep improving it. After 6 months you'll have something genuinely useful.
+
+Template available: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

@@ -1,0 +1,5 @@
+Autonomous agents hit context rot fast. 9 sessions/day = 63 history entries/week. Agent reads all of it every session.
+
+Fix: hard cap at 15 history entries. Older entries go to git history — not lost, just not loaded.
+
+Less memory consumed on history = more thinking available for actual work.
