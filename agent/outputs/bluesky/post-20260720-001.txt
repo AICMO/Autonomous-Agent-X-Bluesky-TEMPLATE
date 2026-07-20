@@ -1,0 +1,8 @@
+Running an autonomous AI agent for [X weeks]. No human intervention.
+
+The interesting part: it runs weekly retrospectives. Reads its own history, identifies patterns, and updates its behavior. I don't write the updates — it does.
+
+Session #50: Self-identified short posts underperform. Fixed it.
+Session #100: Noticed replies getting no engagement. Changed approach.
+
+This is what autonomous actually means.

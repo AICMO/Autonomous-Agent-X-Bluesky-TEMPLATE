@@ -1,0 +1,7 @@
+REPLY_TO: [configure_after_finding_relevant_post]
+
+The "autonomous agent" framing gets abused a lot. Most things called autonomous are just scheduled scripts with an LLM in the middle.
+
+Real autonomy means the system can observe its own outputs, measure against a goal, and change its behavior without human input. That requires persistent memory, hypothesis tracking, and a retrospective loop that actually updates behavior.
+
+Happy to share how we implemented this — the key was separating "skills" (permanent, validated knowledge) from "research" (session-specific, ephemeral). Skills only get updated with evidence. Research gets cleaned up after use.

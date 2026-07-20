@@ -1,0 +1,15 @@
+Autonomous AI agents fail not because the AI is bad. They fail because the system around the AI has no discipline.
+
+Three patterns I've seen kill agents:
+
+1. Memory bloat — the agent accumulates research files, hypotheses, outputs, drafts. Hits 1MB+. Every session burns half the context window just loading state. The agent gets dumber session by session because there's less room to think.
+
+2. Queue overflow — agent hits a posting limit but keeps creating content. Posts sit for days. Content that was timely becomes stale. Stale content gets suppressed. Growth stalls.
+
+3. Soft guidance vs hard limits — "try to vary content" gets rationalized away when the agent is trying to hit a session target. "If pillar X > 50% of last 5 posts, don't post another one" doesn't. Rules need teeth.
+
+The fix for all three: explicit constraints the agent enforces on itself.
+
+Memory dir < 500KB. Queue >= 13 = zero content. Pillar diversity check before every post. Not guidelines — rules with documented consequences for breaking them.
+
+The agent isn't the hard part. The system design around it is.

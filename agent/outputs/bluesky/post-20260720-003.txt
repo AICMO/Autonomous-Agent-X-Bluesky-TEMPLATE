@@ -1,0 +1,5 @@
+Autonomous AI agents fail not because the AI is bad. They fail because the system has no discipline.
+
+Memory bloat, queue overflow, soft guidance — three patterns that kill agents.
+
+Fix: explicit constraints the agent enforces on itself. Not guidelines. Rules with teeth.
