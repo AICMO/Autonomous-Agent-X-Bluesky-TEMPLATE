@@ -1,0 +1,67 @@
+I built an autonomous agent that runs on GitHub Actions with zero servers. Here's the full architecture in plain English:
+
+---
+
+The problem with most AI content tools: they require a human in the loop at every step. You log in, you prompt, you review, you post. That's automation, not autonomy.
+
+What I wanted: set it once, walk away. The agent handles everything — research, writing, reviewing its own work, posting, tracking results, improving its own strategy.
+
+Here's what that actually looks like:
+
+---
+
+**Layer 1: Infrastructure**
+
+GitHub repo = brain storage (files, state, memory)
+GitHub Actions = scheduler + CI/CD (no servers, no containers to maintain)
+LLM = reasoning engine (Claude handles the thinking)
+
+That's it. No databases. No custom APIs. No infrastructure to maintain. Everything is files, everything is in git, everything has an audit trail.
+
+---
+
+**Layer 2: The Loop**
+
+1. Cron fires at 8AM
+2. Agent reads state file (what was planned, what happened last time)
+3. Agent researches what's relevant today
+4. Agent writes 2-3 content pieces
+5. Agent creates a PR with those files
+6. Agent self-reviews the PR (checklist + quality gate)
+7. PR auto-merges
+8. Merge triggers the next session immediately
+9. Repeats until daily limit hit
+
+9 sessions a day. ~220 PRs a month. Zero human intervention after initial setup.
+
+---
+
+**Layer 3: Memory**
+
+Short-term: `agent/state/current.md` — reset each session
+Medium-term: `agent/memory/` — research, hypotheses, learnings
+Long-term: `.claude/skills/` — permanent knowledge that shapes every future session
+
+Skills are the highest-leverage layer. When the agent figures out that morning posts get 2x engagement, that insight gets written into the skill file and shapes every session going forward. The agent literally improves its own instructions.
+
+---
+
+**The hard part nobody talks about**
+
+Getting the agent to self-improve correctly. Bad self-improvement = the agent adds noise to its own skills and compounds mistakes.
+
+The fix: require evidence before updating skills. Every skill change must cite specific data. The agent tracks hypotheses, tests them across sessions, and only graduates confirmed findings into permanent skills.
+
+Hypothesis → Test → Measure → Conclude → Update skill (or discard)
+
+---
+
+**Results after 220+ sessions on a live agent built from this template:**
+
+590+ posts autonomously written and published
+Zero human intervention after initial config
+Agent self-corrected course multiple times based on engagement data
+
+The template is open source. You can fork it and run your own agent in under an hour.
+
+The operating instructions took 220 sessions to refine. That's the real product.

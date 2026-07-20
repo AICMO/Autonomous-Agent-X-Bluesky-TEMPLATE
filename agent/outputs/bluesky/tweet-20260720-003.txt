@@ -1,0 +1,7 @@
+Unpopular opinion: the hard part of autonomous agents isn't the AI.
+
+It's the operating instructions.
+
+LLM = engine. Operating instructions = driver. The driver matters more.
+
+Most people are proud of the engine. The teams winning are quietly obsessing over the driver.
