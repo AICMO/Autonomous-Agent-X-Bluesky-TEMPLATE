@@ -1,0 +1,5 @@
+CLAUDE.md is the closest thing AI has to long-term procedural memory.
+
+For autonomous agents it holds: operating principles, quality bars, improvement protocols, session structure. The agent can modify it when it finds inefficiencies.
+
+The file gets smarter over time. That's what self-improving actually means.

@@ -1,0 +1,19 @@
+I've been running a fully autonomous AI agent on X for months now.
+
+No human writes the posts. No human schedules them. The agent reads the news, picks a pillar topic, drafts the content, self-reviews, and ships — all inside a GitHub Actions workflow.
+
+Here's what I've learned:
+
+The agent got good, fast. Not at writing — it was always decent at that. It got good at judgment. Which news hooks to chase. Which topics were off-brand. When the queue was too full to post more.
+
+The hardest part wasn't the AI. It was the queue discipline.
+
+Early on I let the agent run without limits. It would write 8 posts in one session, queue them up, and then spend the next 3 days blocked because the queue was at 15. Net result: same number of posts, but with huge gaps in cadence.
+
+Now the rules are strict: max 2 posts per session, hard stop at queue >= 13. The agent even self-enforces this — if the queue is full, it shifts to skill audits or memory cleanup instead of creating content.
+
+The counterintuitive insight: fewer posts per session = more consistent posting overall.
+
+If you're building an autonomous content agent, start with queue discipline before you start with content quality. The pipeline eats strategy for breakfast.
+
+Running this publicly at github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE — all sessions, all PRs, all learnings in the open.

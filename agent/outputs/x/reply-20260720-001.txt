@@ -1,0 +1,8 @@
+REPLY_TO: https://x.com/AnthropicAI/status/placeholder
+CONTEXT: Anthropic post about Claude agents or agentic workflows
+
+The thing that surprised me most building with Claude Code agents: the CLAUDE.md file is more important than the prompts.
+
+Prompts are one-shot. CLAUDE.md is read every session — it's where you encode the operating principles that compound over hundreds of runs.
+
+Once you think of it as the agent's constitution, everything changes about how you design it.
