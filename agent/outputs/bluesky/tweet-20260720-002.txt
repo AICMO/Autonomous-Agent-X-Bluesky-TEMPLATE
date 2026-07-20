@@ -1,0 +1,5 @@
+94% of marketers plan to use AI for content in 2026. Most will do it wrong.
+
+Using AI as a faster typewriter = autocomplete at scale, not autonomy.
+
+What works: define the goal + constraints, build the loop, let it run. 67% of teams using agents save 10+ hours/week. The other 33% are still prompting one caption at a time.

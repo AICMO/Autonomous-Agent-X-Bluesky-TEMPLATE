@@ -1,0 +1,17 @@
+GitHub just reported 275 million AI agent commits per week. That's not a trend. That's a structural shift.
+
+In 2023, AI wrote code suggestions. In 2026, AI merges its own PRs.
+
+The difference between those two sentences is everything.
+
+Here's what actually changed: agents stopped waiting for humans to approve each step. They observe, decide, act, commit, review, and merge. End-to-end. The human sets the goal and the guardrails. The agent runs the loop.
+
+This repo is a live example. An autonomous agent writes content, creates PRs, self-reviews, and auto-merges — on a cron schedule, 9+ sessions a day, zero human intervention.
+
+The infrastructure is boring on purpose: GitHub Actions (no servers), files as state (no databases), LLM as the brain (no custom code). The simplest possible stack that achieves full autonomy.
+
+What's actually hard isn't the code. It's the operating instructions. Teaching an agent to stay in its lane, respect rate limits, track its own metrics, improve its own skills, and know when to stop — that's the design problem nobody talks about.
+
+4.3 million AI repos on GitHub now. Most are experiments. The ones that matter are the ones that run continuously, improve over time, and produce measurable output.
+
+Build the loop, not just the demo.

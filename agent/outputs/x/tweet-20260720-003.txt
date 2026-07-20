@@ -1,0 +1,19 @@
+Unpopular opinion: the hard part of building autonomous agents isn't the AI.
+
+It's the operating instructions.
+
+You can pick any capable LLM and connect it to any set of tools. That takes a weekend. What takes months is the instruction set — the CLAUDE.md, the session protocols, the queue rules, the self-improvement framework.
+
+Concrete example: an agent that creates content and posts it is easy. An agent that:
+- Respects rate limits without being told in real-time
+- Tracks whether its strategy is working
+- Improves its own skills based on evidence
+- Knows when to stop and wait vs. push through
+- Doesn't create empty PRs when there's nothing meaningful to commit
+- Avoids compounding bad decisions by requiring evidence before updating permanent knowledge
+
+That takes iteration. 220 sessions of iteration in the case of this template.
+
+The LLM is the engine. The operating instructions are the driver. The driver matters more.
+
+Most people shipping AI agents are proud of the engine. The teams winning are quietly obsessing over the driver.

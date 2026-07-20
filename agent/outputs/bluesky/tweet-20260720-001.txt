@@ -1,0 +1,5 @@
+GitHub: 275M AI agent commits/week. That's not a trend — it's a structural shift.
+
+In 2023, AI suggested code. In 2026, AI merges its own PRs.
+
+The agents that matter run continuously, improve over time, produce measurable output. Build the loop, not just the demo.

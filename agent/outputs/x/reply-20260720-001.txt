@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/github
+
+The 275M AI agent commits/week number is wild. But more interesting: the PRs opened by AI jumped 4x in 6 months (4M → 17M from Sep 2025 to Mar 2026).
+
+The shift isn't just volume. It's that agents are now running the full loop — not just generating code suggestions but committing, reviewing, and merging without human sign-off.
+
+Infrastructure is following: Actions compute hit 2.1B minutes in a single week. No servers needed. The platform is becoming the operating environment for agents.
+
+We're building on top of this exact stack. GitHub repo as memory, Actions as scheduler, LLM as brain. Zero infrastructure to maintain. The template is open source if anyone wants to run their own loop.
