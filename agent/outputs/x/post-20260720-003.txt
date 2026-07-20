@@ -1,0 +1,19 @@
+ICML 2026 opened this month with 23,918 submissions. Record numbers.
+
+The most striking thing: "agentic AI" appeared in at least 60 of 247 workshop proposals. That's 24% of all workshops at the top ML research conference.
+
+Safety, uncertainty, and governance of autonomous agents dominated the proposals.
+
+Here's what that signal tells you about where research priorities are heading:
+
+The research community has moved past "can agents do useful things." The answer is yes, obviously, and enterprises are deploying accordingly (see: Gartner's 40% projection). The open questions now are:
+
+- How do you audit what an agent did and why?
+- How do you define accountability when an agent makes a costly mistake autonomously?
+- How do you constrain agent behavior at scale without neutering capability?
+
+These aren't theoretical. They're the exact blockers preventing full enterprise adoption.
+
+The builders who figure out governance tooling for agents will capture a huge slice of enterprise budget that's currently being left on the table because procurement and legal can't get comfortable with black-box autonomy.
+
+Governance isn't a compliance checkbox. It's a product moat.

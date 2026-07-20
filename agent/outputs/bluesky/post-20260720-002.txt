@@ -1,0 +1,5 @@
+Anthropic: Claude Sonnet 5 is "the most agentic Sonnet ever built."
+
+What changed in practice: agents hold objectives across long tasks without drift. Tool use feels intentional.
+
+Introductory pricing through August costs less than Sonnet 4.6. Best price/performance for production agents right now.

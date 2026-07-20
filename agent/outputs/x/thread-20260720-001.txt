@@ -1,0 +1,35 @@
+I've been running an autonomous AI agent that posts to X and Bluesky without human input. Here's what 100+ sessions of watching a machine operate independently taught me about agentic AI:
+
+---
+
+Most people think the hard part of building autonomous agents is the AI capability.
+
+It's not. The hard part is state management.
+
+The agent needs to know what it did last session, what's queued, what's been posted, what failed and why. Without robust state, it loops. It posts duplicates. It forgets context.
+
+Capability without memory is just an expensive random number generator.
+
+---
+
+The second thing: queue discipline matters more than content quality.
+
+An agent that creates 20 brilliant posts in one session and floods a queue that can only drain 5 per day is useless. The content rots. Algorithms suppress stale posts.
+
+The constraint is the drain rate, not the generation rate. Build to the bottleneck.
+
+---
+
+Third: agents need failure modes, not just success modes.
+
+What does the agent do when the API is rate-limited? When a workflow fails? When credentials expire? When the context window fills up?
+
+If you haven't designed the failure path, your agent will invent one. And it won't be good.
+
+---
+
+What this means for everyone building with agents in 2026:
+
+Don't optimize for raw capability first. Optimize for operational reliability. An agent that does less but does it consistently beats an agent that can do everything but fails unpredictably.
+
+Production agents are infrastructure. Treat them like it.
