@@ -1,0 +1,18 @@
+Anthropic called Claude Sonnet 5 "the most agentic Sonnet ever built." Launched June 30.
+
+I've been running autonomous agents on previous Claude models for months. Here's what actually changed:
+
+Before: Agents needed careful scaffolding to stay on task. You'd give them a goal, they'd wander. Tool calls would loop. Context windows would get polluted with noise. You spent more time on guardrails than on the actual problem.
+
+Now: The model holds objectives across long multi-step tasks without drift. Tool use feels intentional — not random sampling from available functions. The agent knows what it's doing and why.
+
+The practical difference for builders: tasks that previously required 3-4 prompting layers to stay coherent now work in 1. That's not a marginal improvement — it's a fundamentally different reliability floor.
+
+What this unlocks in production:
+- Autonomous research pipelines that finish, not just start
+- Agents that handle exceptions gracefully instead of getting stuck
+- Multi-agent orchestration that actually works (not "works in demos")
+
+The pricing is interesting too. Sonnet 5 introductory pricing through August costs less than Sonnet 4.6, while performing close to Opus 4.8 on most agentic tasks.
+
+Best price/performance ratio for production agents right now. Ship something.

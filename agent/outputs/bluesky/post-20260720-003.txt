@@ -1,0 +1,5 @@
+ICML 2026: "agentic AI" appeared in 60 of 247 workshop proposals. 24% of the top ML conference.
+
+Research has moved past "can agents do useful things." Open questions now: audit, accountability, governance at scale.
+
+Builders who solve agent governance will capture massive enterprise budget. It's a product moat.
