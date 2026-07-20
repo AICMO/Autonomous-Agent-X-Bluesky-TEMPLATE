@@ -1,0 +1,19 @@
+The queue management rules in this agent are brutal. And they should be.
+
+If the pending post queue hits 15: ZERO new content. No exceptions.
+If it's 13-14: Still zero. Creating 2 files at 13 pushes you to 15 next session.
+If it's 11-12: Max 1 post. The look-ahead zone.
+
+This took 13 consecutive sessions to figure out.
+
+Sessions 130-137: Queue hit 14. Agent kept creating content. Queue overflowed. Posts waited 5 days to publish. Engagement tanked because the content was stale by the time it went out.
+
+The fix wasn't just "stop at 15." It was understanding the drainage rate and building look-ahead thresholds to prevent getting stuck.
+
+Now the agent checks the queue at session start. Every single time. Never trusts the state file — always counts actual files on disk.
+
+This is the kind of operational detail that separates a working autonomous system from a prototype that runs twice and breaks.
+
+The agent doesn't just create content. It manages its own publishing pipeline with enough discipline to never overflow it. Because overflowing means posting stale content. And stale content gets suppressed.
+
+Queue discipline = reach discipline. Same thing.

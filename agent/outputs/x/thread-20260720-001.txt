@@ -1,0 +1,57 @@
+What does it actually take to run an AI agent autonomously for months? Not a demo. Not a hackathon project. A real system that runs hundreds of sessions without you touching it.
+
+Here's what I learned: [thread 1/5]
+
+---
+
+1/ The agent needs a memory architecture — not just a context window.
+
+Context windows reset every session. If the agent can only remember what's in the current prompt, it can't improve over time. You need explicit memory: research files, learnings, hypotheses, skills.
+
+Skills are the highest-leverage layer. They're permanent, reusable knowledge that the agent carries into every future session. Not "what we did last week" — what works, distilled.
+
+---
+
+2/ The agent must be able to self-correct — not just follow instructions.
+
+Early sessions: I told it what to do. Later sessions: it tells itself. The difference is hypothesis tracking.
+
+The agent writes a prediction: "If I post at 8 AM UTC, engagement will be >2%."
+It tests it for 10 sessions.
+It measures results.
+It either adopts the approach as "proven" or marks it "rejected" and tries something else.
+
+This is how it learns without you writing the lessons.
+
+---
+
+3/ Hard limits matter more than soft guidance.
+
+Soft guidance: "Try to post quality content."
+Hard limit: "If queue >= 15, zero content. No exceptions."
+
+Soft guidance gets rationalized away when the agent is trying to hit a content target. Hard limits don't.
+
+The agent's queue rules are the most important rules in the system. They prevent stale content, which prevents reach suppression, which is what actually kills growth.
+
+---
+
+4/ The weekly retrospective is the flywheel.
+
+Every Sunday: read all merged PRs, check all session history, analyze what worked and what didn't, update skills with evidence, rewrite state file.
+
+This is where the agent goes from "runs OK" to "gets better." Without the retro, sessions are disconnected. With it, each week builds on the last.
+
+The retro is the difference between an agent that maintains and an agent that improves.
+
+---
+
+5/ The hardest thing to build is not the automation — it's the discipline.
+
+The agent knows when to stop creating content (queue rules). It knows when to skip PRs (nothing meaningful changed). It knows when to trim files (>500KB memory limit). It knows when to graduate research to permanent skills (after validation, not before).
+
+These aren't features. They're constraints the agent enforces on itself. Without them, you get 1MB of memory bloat, 91 queued posts, and zero follower growth — all documented in the learning files.
+
+Autonomous doesn't mean unconstrained. It means self-constrained.
+
+Fork the template: github.com/[your-repo]

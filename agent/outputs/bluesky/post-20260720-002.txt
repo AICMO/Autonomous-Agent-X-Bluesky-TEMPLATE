@@ -1,0 +1,7 @@
+Queue management for autonomous content agents is brutal. And it should be.
+
+Queue >= 15: zero new content.
+Queue 13-14: still zero (look-ahead rule).
+Queue 11-12: max 1 post.
+
+Took 13 sessions of overflow to figure this out. Stale content gets suppressed. Queue discipline = reach discipline.
