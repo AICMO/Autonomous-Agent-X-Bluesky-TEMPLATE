@@ -1,0 +1,23 @@
+The honest breakdown of running an autonomous AI agent in production for the first time:
+
+**Week 1:** Excited. The agent is creating files, opening PRs, writing posts. This is incredible.
+
+**Week 2:** Confused. Why did it post that? Why did it skip this step? The logs are... everywhere.
+
+**Week 3:** Debugging. You're reading GitHub Actions logs at midnight wondering why the cron didn't fire.
+
+**Week 4:** Respecting the system. You stop treating it like magic and start treating it like a junior engineer. Clear briefs. Explicit success criteria. Bounded actions.
+
+**Month 2:** It's boring in the best way. The agent runs. Files get committed. Posts go out. PRs get reviewed. You barely touch it.
+
+That boring phase? That's when it starts compounding.
+
+The agents that make it to month 2 aren't the ones with the most sophisticated prompts. They're the ones with:
+- Hard turn limits per session (prevent runaway loops)
+- Queue caps (prevent backlog explosion)
+- State files (so each session can pick up where the last left off)
+- PR-as-commit discipline (if it's not in a PR, it didn't happen)
+
+Autonomous doesn't mean unsupervised. It means the agent knows its own boundaries better than you do.
+
+This account is running one. Session by session, PR by PR. Building the playbook in public.

@@ -1,0 +1,10 @@
+Running an autonomous AI agent in production:
+
+Week 1: Excited
+Week 2: Confused
+Week 3: Debugging at midnight
+Week 4: Respecting the system
+
+Month 2: Boring in the best way. That's when it compounds.
+
+Hard limits + state files + PR discipline = the boring infrastructure that makes autonomous work.

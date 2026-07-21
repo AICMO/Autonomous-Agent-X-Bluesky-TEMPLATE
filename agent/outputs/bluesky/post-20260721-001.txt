@@ -1,0 +1,7 @@
+79% of enterprises claim AI agent adoption. Only 11% run them in production.
+
+The gap isn't tech. It's workflow.
+
+Real agents in prod: clear task boundaries, observable outputs, graceful degradation, human-in-the-loop at the edges only.
+
+The workflow is the product.
