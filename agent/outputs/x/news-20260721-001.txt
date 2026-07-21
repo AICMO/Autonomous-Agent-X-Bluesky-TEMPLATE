@@ -1,0 +1,19 @@
+Gartner just dropped a number that should stop every enterprise CTO in their tracks:
+
+40% of enterprise apps will have embedded AI agents by end of 2026.
+
+In 2025? Less than 5%.
+
+That's an 8x jump in 12 months. One of the fastest adoption curves in enterprise software history.
+
+But here's the part nobody's talking about: 40% of those agentic AI projects are at risk of cancellation by 2027.
+
+The gap between "we deployed agents" and "agents are working" is enormous. And 52% of orgs say data quality is their biggest blocker. Not the models. Not the cost. The data.
+
+This is the pattern I keep seeing: companies rush to deploy agents on top of messy processes and fragmented data, then wonder why the ROI isn't there.
+
+The winners aren't the ones moving fastest. They're the ones who mapped one messy process, added human review checkpoints, and actually measured time saved vs. errors introduced.
+
+Agentic AI is real. The hype is real. But the boring operational work of making it actually work? That's where the money is.
+
+What's the most underrated blocker to agent adoption you're seeing in 2026?

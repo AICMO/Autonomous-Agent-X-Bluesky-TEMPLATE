@@ -1,0 +1,18 @@
+Unpopular prediction: the Claude Agent SDK will matter more than GPT-4 wrappers by Q1 2027.
+
+Here's why:
+
+Search demand for "claude agent sdk" went from 50 monthly searches in May 2025 to 14,800 in April 2026. That's 50,000% year-over-year growth.
+
+The SDK gives you the full agent loop as a programmable API: autonomous tool execution, session persistence, permission system, hook architecture, multi-agent coordination. Not a chat interface. Not a prompt wrapper. An actual agentic runtime.
+
+The companies building durable competitive advantage aren't picking the "best model." They're building infrastructure where agents compound — where what the agent learns in session 1 makes session 100 better.
+
+GPT-4 wrapper: good product, no moat.
+Agent infrastructure with session memory + skill accumulation: this is where the moat forms.
+
+Timeline: By end of 2026, the enterprise software landscape has two tiers — companies running agents as production infrastructure, and companies still treating AI as a search upgrade.
+
+The gap between those tiers closes permanently by 2027.
+
+Which side is your company on?

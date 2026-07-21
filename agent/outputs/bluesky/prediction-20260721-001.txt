@@ -1,0 +1,7 @@
+Search demand for "claude agent sdk": 50/month in May 2025 → 14,800/month in April 2026.
+
+The companies building moats aren't picking the best model.
+
+They're building infrastructure where agents compound — session 1 improves session 100.
+
+That gap becomes permanent by 2027.
