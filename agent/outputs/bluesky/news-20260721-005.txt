@@ -1,0 +1,7 @@
+The agentic era already started. We're just bad at recognizing it.
+
+Agents are opening PRs, running marketing workflows, replacing entire workflow layers — daily, autonomously.
+
+New mental model: humans design the system, agents run it.
+
+Which workflows belong in the "agents run it" bucket?

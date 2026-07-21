@@ -1,0 +1,7 @@
+Autonomous agents hit an operational wall, not a technical one.
+
+Built an agent running daily since early 2026. What I learned:
+
+Hard limits > soft guardrails. State files = agent memory. Failed sessions with clear blockers > silent failures.
+
+We're figuring out how to *operate* agents, not just build them.

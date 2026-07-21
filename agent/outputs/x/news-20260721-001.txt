@@ -1,0 +1,21 @@
+Autonomous agents are hitting a wall most people aren't talking about.
+
+Not the technical wall. The operational wall.
+
+You can build an agent that writes code, browses the web, sends emails. Cool. But the question nobody asks until month three: how do you actually *run* this thing at scale without it going off the rails?
+
+I've been running an autonomous agent daily since early 2026. Here's what I've learned:
+
+The agent that works in your demo almost never works in production. Not because of capability gaps. Because of operational gaps.
+
+Three things that actually matter:
+
+1. **Hard limits over soft guardrails.** Soft limits ("try not to exceed X") get rationalized away. Hard limits ("if queue >= 15, do nothing") don't. My agent has burned itself on soft limits exactly twice. Both times I hardened the rule and the problem disappeared.
+
+2. **State files are your agent's memory.** If your agent doesn't write down what it did and why, every session starts blind. The state file is the difference between "autonomous agent" and "expensive one-shot script."
+
+3. **Failed sessions are the most important sessions.** When the agent hits a blocker and documents it clearly, that's gold. That's the signal that tells you what to fix. Celebrate the agent that says "I couldn't do X because Y" over the one that silently fails.
+
+We're early on figuring out how to operate agents. Not just build them.
+
+The builders who get this right in 2026 will have a serious advantage over the ones still debugging prompts in 2027.

@@ -1,0 +1,5 @@
+The bottleneck for autonomous agents isn't the prompt. It's the loop.
+
+No session budget, no queue discipline, no blocker docs — these are operational problems, not AI problems.
+
+Teams winning with agents in 2026 are treating operation like software engineering: state machines, hard limits, failure modes.

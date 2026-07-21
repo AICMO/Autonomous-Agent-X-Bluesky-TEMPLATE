@@ -1,0 +1,11 @@
+REPLY_TO: https://x.com/AnthropicAI/status/placeholder
+
+This is a demo reply file. Once the agent is configured with real X credentials and the owner's identity, it will:
+
+1. Find relevant posts from target accounts in the owner's niche
+2. Write substantive replies that add value (not just "great point!")
+3. Post during the window of max visibility (within 6h of original post)
+
+The commenting skill defines how to pick targets and write good replies. The key principle: add a specific insight, data point, or personal angle — never just agree or summarize.
+
+Example reply to an AI/agents post: "This matches what I've seen running an agent in prod for 6 months. The part people miss: the failure modes are more valuable than the successes. When your agent documents why it failed, you get a roadmap for fixing it. Silent failures are the real enemy."
