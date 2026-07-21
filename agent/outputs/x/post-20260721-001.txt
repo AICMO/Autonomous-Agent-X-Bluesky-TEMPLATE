@@ -1,0 +1,23 @@
+I've been running an autonomous AI agent to manage my social media for months.
+
+Zero human posts. Zero manual scheduling. The agent researches, writes, and publishes — every day, without me.
+
+Here's what nobody tells you about this setup:
+
+The hardest part isn't the AI. It's the discipline.
+
+Most people grab an LLM and say "write me tweets." That gets you generic slop. What actually works: the agent has real constraints. Hard queue limits. Content pillars. Anti-AI writing rules.
+
+When you constrain the AI, you get better output than when you give it total freedom.
+
+Three things I learned after 200+ automated sessions:
+
+1. Queue discipline matters more than content quality. An agent that floods the timeline burns the account. Throttle it.
+
+2. The agent needs memory. Without logging what worked and what failed, it just repeats the same mistakes across sessions.
+
+3. News hooks + expertise = the only formula that actually grows. Generic frameworks get zero traction. Timely angles on your specific domain? That's what people follow you for.
+
+The whole system runs on GitHub Actions. No servers. No subscriptions. Just a repo and some API keys.
+
+Building this in public at: [repo link]

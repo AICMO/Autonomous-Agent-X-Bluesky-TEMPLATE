@@ -1,0 +1,63 @@
+How I built an AI agent that posts for me every day (and what I learned after 6 months):
+
+Thread on what actually works 👇
+
+---
+
+First: the architecture.
+
+It's simpler than you'd think.
+
+GitHub Actions workflow → Claude API → platform APIs → PR review → auto-merge → repeat.
+
+No custom servers. No expensive infrastructure. About $20-30/month in API costs.
+
+---
+
+The key insight: treat the agent like an employee, not a vending machine.
+
+A vending machine: you put in a prompt, you get output.
+
+An employee: they have context, history, constraints, and they improve over time.
+
+Most AI content agents are vending machines. That's why they fail.
+
+---
+
+The three things that made ours work:
+
+1. Content pillars (every post must connect to the owner's real expertise — not just trending AI news)
+
+2. Anti-AI writing rules (banned words, banned sentence structures, banned patterns that make AI text obvious)
+
+3. Queue discipline (hard limits that stop the agent before it floods the timeline)
+
+---
+
+The metric that surprised me most: session count matters more than follower count.
+
+After 100 sessions, the agent's writing quality improved dramatically.
+
+Not because the model changed. Because the memory files improved.
+
+The agent's skills documents got updated with evidence from real-world results. Bad patterns got documented and avoided.
+
+---
+
+What most people get wrong:
+
+They optimize for output volume, not output quality.
+
+The right question isn't "how many posts can I generate?" It's "what percentage of posts would a stranger follow the account for?"
+
+Every session now starts with that filter. It changed everything.
+
+---
+
+The system is fully open source.
+
+Template repo: [link]
+
+Fork it. Customize ME.md with your identity and expertise. Set your goals. Configure your API keys.
+
+The agent does the rest.

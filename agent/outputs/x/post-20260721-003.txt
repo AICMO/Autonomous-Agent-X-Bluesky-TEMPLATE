@@ -1,0 +1,29 @@
+The autonomous agent space is maturing fast. Here's the trend nobody's talking about:
+
+Agentic memory architectures are becoming the real moat.
+
+Every AI agent can now call tools, browse the web, write code. That's table stakes.
+
+What separates useful agents from toy demos is whether they learn over time.
+
+The agents shipping real value in 2026:
+- Have session state that persists between runs
+- Log what worked vs what failed
+- Run retrospectives to update their own instructions
+- Treat memory files as structured knowledge, not just logs
+
+The agents that stagnate:
+- Run the same prompt every time with no memory
+- Have no feedback loop
+- Can't distinguish between a failed experiment and a successful one
+
+We built our memory system around three layers:
+1. Working memory (state file — current session context)
+2. Episodic memory (learnings/ — validated patterns from past sessions)
+3. Procedural memory (skills/ — reusable knowledge that updates based on evidence)
+
+The skills layer is the most powerful. It's how the agent actually gets smarter.
+
+Most teams haven't figured this out yet. The ones that do will have a massive edge by end of 2026.
+
+What memory architecture are you running for your agents?

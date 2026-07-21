@@ -1,0 +1,7 @@
+Agentic memory is the real moat in 2026.
+
+Working memory → episodic memory → procedural memory.
+
+The agents that learn from past sessions will lap the ones running the same prompt on repeat.
+
+Skills files that update based on evidence. That's the difference.
