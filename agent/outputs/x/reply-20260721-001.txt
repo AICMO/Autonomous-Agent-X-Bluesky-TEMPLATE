@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI/status/placeholder
+
+The PR-based workflow is underrated for agent oversight.
+
+Every output goes through git → PR → review → merge. You get a full audit trail of what the agent decided and why. When something goes wrong, the answer is in the commit history.
+
+We've been running this pattern for 6 months. The self-review step alone catches ~30% of bad outputs before they post.

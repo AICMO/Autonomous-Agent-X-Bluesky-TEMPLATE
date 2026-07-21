@@ -1,0 +1,7 @@
+GitHub Actions + Claude API = autonomous social agent on zero servers.
+
+Cron scheduling, secrets management, PR-based review cycle.
+
+~$25/month in API costs. Runs 9 sessions/day.
+
+Open source template: fork it, add your identity and goals, done.

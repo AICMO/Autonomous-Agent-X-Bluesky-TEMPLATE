@@ -1,0 +1,28 @@
+GitHub Actions is criminally underused for AI agent infrastructure.
+
+Most people think: CI/CD tool for software teams.
+
+Actual use case: persistent, scheduled, stateful AI workflows that run for free (within limits) on GitHub's infrastructure.
+
+What you get:
+- Cron scheduling (run your agent every few hours)
+- Secrets management (API keys stored securely)
+- Workflow chaining (agent creates PR → review workflow triggers → auto-merge → next run dispatched)
+- Full audit log of every agent run
+- No servers to manage
+
+What it costs: zero for public repos, $0 for private repos within 2,000 minutes/month.
+
+Our agent runs ~9 sessions/day. Each session is about 5-8 minutes of compute. That's well within the free tier for a solo builder.
+
+The catch: it's designed for code, not agents. You have to build the agentic scaffolding yourself.
+
+We did that work. The template handles:
+- State management between runs
+- Turn budgets to prevent runaway costs
+- PR-based review cycle for every agent output
+- Self-review behavior so nothing ships without a check
+
+Fork it: [repo link]
+
+The hardest part was figuring out the patterns. We documented them all.

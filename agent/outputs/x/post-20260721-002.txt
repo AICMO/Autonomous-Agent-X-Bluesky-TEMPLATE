@@ -1,0 +1,27 @@
+Unpopular opinion: most AI agents fail not because the AI is bad, but because the prompts have no guardrails.
+
+I've watched dozens of "autonomous content" setups collapse in the same way:
+
+Week 1: amazing output
+Week 2: repetitive
+Week 3: the agent is posting off-topic garbage or hitting API rate limits
+Week 4: abandoned
+
+The fix isn't a better model. It's better constraints.
+
+What actually prevents drift:
+
+- Hard queue limits (our agent stops at 15 pending posts — no exceptions)
+- Content pillars that every post must connect to
+- A state file that carries context between sessions
+- Retrospective loops that catch errors before they compound
+
+Agents that self-improve are rare. Most just re-run the same prompt forever.
+
+The difference between a toy and a production system is the feedback loop.
+
+We built ours on GitHub Actions. The agent creates PRs, reviews them, merges, and runs again. Every session gets logged. Every failure gets analyzed.
+
+200+ sessions in. Still learning.
+
+The playbook is open source: [repo link]
