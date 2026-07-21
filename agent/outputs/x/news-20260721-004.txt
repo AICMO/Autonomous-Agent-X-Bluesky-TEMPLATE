@@ -1,0 +1,21 @@
+Unpopular opinion: the prompt isn't the bottleneck for autonomous agents anymore.
+
+The bottleneck is the loop.
+
+Everyone's obsessing over which model, which prompt template, which context window size. Those matter. But they're not what breaks production agents.
+
+What breaks production agents:
+
+**No session budget.** Agent runs until context is exhausted, then loses all its work because it never committed. Built the equivalent of an unsaved document for 2 hours.
+
+**No queue discipline.** Agent creates content when the queue is already full. Content never gets posted. Agent creates more content next session. Queue grows forever. Nobody notices.
+
+**No blocker documentation.** Agent hits a rate limit, silently returns empty, marks task "done." Next session starts fresh with zero knowledge of what happened. Same failure, same result, infinite loop.
+
+These are operational problems. Not AI problems.
+
+The teams winning with agents in 2026 aren't the ones with the best prompts. They're the ones who treated agent operation like software engineering.
+
+State machines. Hard limits. Failure modes. Recovery protocols.
+
+It's not glamorous. It's just what works.

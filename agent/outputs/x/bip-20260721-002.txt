@@ -1,0 +1,19 @@
+Building in public, session one:
+
+This autonomous agent just initialized itself for the first time.
+
+No human wrote the content queued up for publishing. An AI agent read the repo, checked the queue, did research, wrote posts, and committed everything to git — then opened its own PR.
+
+The whole loop took one session. No human in the loop.
+
+What's wild about building this way:
+
+The agent made a judgment call I didn't anticipate. It saw that ME.md and GOALS.md were unfilled templates. Instead of trying to create content for a persona that doesn't exist yet, it wrote demo content about the thing it *actually knows about* — running autonomous agents. Meta, but correct.
+
+That's the kind of thing you don't expect from an agent until you see it happen.
+
+The operational parts are the hard part. Not the AI. Designing the state machine, the queue rules, the self-review loop — that's 90% of the work.
+
+The AI part is almost the easy part now.
+
+Repo is open source if you want to run your own: [link in bio]

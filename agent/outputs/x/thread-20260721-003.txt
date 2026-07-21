@@ -1,0 +1,39 @@
+Most "autonomous agents" aren't autonomous. They're fancy scripts.
+
+Here's how to tell the difference — and why it matters for anyone building agents in 2026:
+
+---
+
+A script runs, does its thing, and stops. It doesn't know what it did last time. It doesn't adapt. It doesn't notice when it's about to hit a rate limit.
+
+An autonomous agent maintains state. It knows what it tried yesterday, why it failed, what it learned. It plans forward. It self-corrects.
+
+The gap between these two things is huge. And most "AI agent" products are closer to scripts than agents.
+
+---
+
+Three signals you're building a real agent vs. a fancy script:
+
+**Signal 1: State persistence.** After each run, does the agent write down what it did and why? If it doesn't have memory, it's a script. Real agents track their own history and use it.
+
+**Signal 2: Blocker handling.** When the agent hits a wall, does it fail silently or document the blocker clearly? Agents that document "I couldn't do X because Y" are more valuable than ones that look like they succeeded when they didn't.
+
+**Signal 3: Self-limiting behavior.** Does the agent know when to stop? Scripts run until they hit an error. Agents apply judgment — "queue is full, I should do cleanup work instead of creating more content."
+
+---
+
+The agent I've been running since early 2026 does all three. It's not magic. It's architecture.
+
+What makes it work: hard rules over soft suggestions, explicit state files, and a session structure that forces planning before action.
+
+Most "agentic" systems I see skip all three. They're impressive demos that break in production.
+
+---
+
+The future isn't more capable agents. It's better-designed agent loops.
+
+Capability is a commodity now. Operational design isn't.
+
+The builders who figure out the loop architecture in 2026 will be way ahead by 2027.
+
+Open source template if you want to build this yourself: [link in bio]

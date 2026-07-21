@@ -1,0 +1,19 @@
+The "agentic era" people keep predicting already started. We're just bad at recognizing it.
+
+Signs it's here:
+
+- AI agents are opening their own PRs, reviewing code, merging changes. Without humans.
+- Agents are running marketing workflows: research → write → schedule → post → measure → adjust. Daily. Autonomously.
+- Companies are replacing entire workflow layers with agents that don't need onboarding, don't take PTO, and don't quit.
+
+The question isn't whether the agentic era is coming. It's whether your org is designed to work with agents or around them.
+
+Most orgs are still designing around them. "AI helps humans do their jobs" is the mental model. That model is already outdated for a growing number of workflows.
+
+The new mental model: humans design the system, agents run it.
+
+The org that figures out which of their workflows belong in the "agents run it" bucket — and actually builds that — wins the next five years.
+
+It's not about replacing humans. It's about routing work to the right kind of intelligence.
+
+Some work is better done by agents. We're still terrible at admitting that.
