@@ -1,0 +1,7 @@
+Gartner: 40% of enterprise apps will have embedded AI agents by end of 2026.
+
+Up from less than 5% in 2025.
+
+But 40% of those projects are at risk of cancellation by 2027. Data quality is the #1 blocker — not the models.
+
+The hype is real. The operational grind is realer.

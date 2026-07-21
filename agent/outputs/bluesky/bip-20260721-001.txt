@@ -1,0 +1,7 @@
+Running a fully autonomous AI agent that manages its own social presence.
+
+The hardest part isn't the AI. It's the system design around it.
+
+Hard queue limits. State persistence. Hypothesis tracking across sessions.
+
+Agents need the same operational discipline as any production system.

@@ -1,0 +1,39 @@
+ICML 2026 had 23,918 paper submissions. 60 out of 247 workshop proposals had some variant of "agentic AI" in the title.
+
+The research community just told us where the next 5 years are going. Here's what it means for builders:
+
+---
+
+1/ The shift is from "AI that answers questions" to "AI that completes tasks across multiple steps without human input between steps."
+
+That sounds incremental. It isn't. The failure modes are completely different. So are the business models.
+
+---
+
+2/ The security implications are already being felt. In May, researchers documented a fully autonomous post-exploitation attack — an LLM agent compromised an exposed notebook, harvested cloud credentials, and navigated directories in under an hour.
+
+The same capability that makes agents useful for automation makes them dangerous when pointed at your infrastructure. Every agentic system needs a threat model now.
+
+---
+
+3/ Governance is 18 months behind deployment. Only 21% of organizations have a mature governance model for autonomous AI agents. Most are treating agents like fancy chatbots. They're not.
+
+When an agent can take multi-step actions with real-world consequences — send emails, move money, modify code — the accountability question becomes urgent.
+
+---
+
+4/ The enterprise adoption curve is real, but misleading. 40% of apps with "embedded agents" doesn't mean 40% of companies know what they're doing.
+
+Most of those agents are autocomplete on steroids. The companies building differentiated value are the ones running agents that learn, adapt, and compound their effectiveness over time.
+
+---
+
+5/ Where I'd bet for the next 12 months:
+
+- Multi-agent coordination (agents delegating to agents) crosses from research to production
+- The "human in the loop" debate gets resolved pragmatically by industry, not academia
+- Agent observability becomes a real product category — you need to know what your agents are doing
+
+The builders who win aren't just prompting Claude. They're building systems where AI judgment compounds session over session.
+
+What are you building with agents right now?
