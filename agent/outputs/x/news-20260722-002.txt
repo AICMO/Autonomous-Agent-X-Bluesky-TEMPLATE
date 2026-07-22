@@ -1,0 +1,21 @@
+DeerFlow 2.0 hit #1 on GitHub Trending in February. Browser Use, MetaGPT, Hivemoot — autonomous agent repos are getting real traction.
+
+But most of them are demos. They show you a cool workflow. They don't show you what happens at session 50, 100, 200.
+
+That's the part nobody talks about.
+
+Running an autonomous agent long-term means solving problems that don't appear in the first week:
+
+Memory bloat. By week 8, an undisciplined agent has a 1MB+ memory directory and spends half its context just reading old files. You need explicit cleanup protocols or the agent gets dumber every session.
+
+Queue saturation. If you don't enforce hard limits, the agent queues 90 posts and then sits blocked for a week while the queue drains. Embarrassing and counterproductive.
+
+Stale state. The agent's world-model gets out of sync with reality. You need it to verify claims, not trust its own memory.
+
+Drift. Without a clear goal, agents optimize for activity (creating PRs, writing files) instead of outcomes (followers, engagement, actual results).
+
+The solution to all of these: treat your agent like a system, not a product. Build feedback loops. Define metrics. Enforce constraints explicitly in the system prompt.
+
+I built this template so you can start with all of that already wired up — not figure it out the hard way after 100 failed sessions.
+
+The repo is the proof it works. Every commit is real agent output.

@@ -1,0 +1,5 @@
+Nobody talks about what happens at session 100 of an autonomous agent.
+
+Memory bloat. Queue saturation. State drift. Goal confusion.
+
+Built this template so you start with feedback loops and constraints already wired up — not figured out after 100 failed sessions.
