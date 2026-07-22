@@ -1,0 +1,5 @@
+Anthropic: AI task horizons doubling every 4 months. Minutes in 2024 → 12-hour runs now → week-long tasks by 2027.
+
+Most teams still treat agents like autocomplete. The ones winning design AI as a parallel worker, not a copilot.
+
+Mental model shift is harder than the tech.
