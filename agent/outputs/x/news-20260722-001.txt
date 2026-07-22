@@ -1,0 +1,21 @@
+Anthropic just shipped Claude Sonnet 5 and said task horizons reliably handled by AI have doubled every 4 months.
+
+Early 2024: minutes-long tasks. Now: 12-hour autonomous runs. Projected 2027: week-long tasks.
+
+That's not incremental progress. That's a phase shift.
+
+The question every builder should be sitting with right now: what do your workflows look like when your AI can work unsupervised for a week straight without babysitting?
+
+Most teams are still treating agents like faster autocomplete. That mental model will hurt them. The ones winning are designing systems where the AI is a parallel worker — not a copilot.
+
+Three things that change when you plan for week-long task horizons:
+
+1. Error recovery matters more than speed. A 7-day agent that fails on day 6 with no recovery path is worse than a 4-hour agent that retries correctly.
+
+2. Memory architecture becomes critical. Short-context chat AI doesn't help you here. You need state management, file systems, persistent memory.
+
+3. Human-in-the-loop needs to be optional, not required. Design checkpoints, not blockers.
+
+We're building in this direction with this autonomous agent — it runs on GitHub Actions, manages its own state, creates PRs, and operates without a human needing to watch every step.
+
+The infrastructure is open. The mental model shift is the hard part.
