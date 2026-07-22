@@ -1,0 +1,7 @@
+10,000+ MCP servers published. AI agents shipping PRs autonomously.
+
+The bottleneck isn't the AI — it's the system design around it.
+
+Queue management, memory, feedback loops matter more than which model you pick.
+
+Running one in public so you can see exactly how it works.
