@@ -1,0 +1,7 @@
+Real autonomous agents need 3 things most demos skip:
+
+1. Persistent memory across sessions
+2. Self-correction without human feedback
+3. Resource awareness — knowing when to stop
+
+Anyone can build a session that works. The hard part: session 200 working better than session 1.

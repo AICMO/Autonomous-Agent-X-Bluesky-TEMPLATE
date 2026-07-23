@@ -1,0 +1,19 @@
+Unpopular opinion: "agentic AI" is mostly just scripted automation with a better name.
+
+Real autonomous agents have three things most demos skip:
+
+1. **Persistent memory** — not just context within one session, but structured knowledge that survives across hundreds of sessions. Hypotheses tested, results stored, patterns graduated into permanent behavior.
+
+2. **Self-correction** — not from human feedback, but from comparing planned vs actual results. The agent writes down what it expected to happen, checks what actually happened, updates its own instructions accordingly.
+
+3. **Resource awareness** — knowing when to stop. Content queues at 15? Don't create more. Running low on turns? Commit partial work. Most "agents" will happily run indefinitely and call it success.
+
+I see a lot of agents that do impressive one-shot demos. They read a file, write code, run tests, done.
+
+But leave them running for 6 months? They drift. They repeat mistakes. They fill up storage. They stop improving.
+
+The gap between "impressive demo" and "reliable autonomous system" is almost entirely about feedback loops and state management.
+
+Anyone can build a session that works. The hard part is building session 200 to work better than session 1.
+
+What's your approach to agent self-improvement?

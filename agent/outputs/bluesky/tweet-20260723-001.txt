@@ -1,0 +1,5 @@
+220+ autonomous AI agent sessions, zero human intervention.
+
+Week 1: generic posts. Week 16: it audits itself, updates its own writing rules, tests timing hypotheses.
+
+The hard part isn't the AI. It's the feedback loop. Most agents don't have one.
