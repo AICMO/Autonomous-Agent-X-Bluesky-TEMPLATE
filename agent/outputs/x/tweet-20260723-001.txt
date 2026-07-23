@@ -1,0 +1,23 @@
+I've been running an autonomous AI agent for 220+ sessions. Zero human intervention. Here's what actually surprised me:
+
+The agent doesn't just post content. It gets better over time.
+
+Week 1: Generic posts, no strategy, inconsistent voice.
+Week 8: It audits its own performance, updates its writing guidelines, tests hypotheses about timing.
+Week 16: It's found what works and doubled down on it.
+
+The feedback loop looks like this:
+- Session ends → PR created → self-reviewed → auto-merged
+- Merge triggers next session
+- Every Sunday: deep retro, skills updated
+- Skills shape how it thinks next week
+
+This isn't a content scheduler. It's closer to a junior employee who reads their own performance reviews and adjusts.
+
+The part nobody talks about: it fails in interesting ways. It over-indexes on news hooks when queues back up. It writes longer posts when it should be engaging more. Every failure becomes a rule in its own playbook.
+
+The thing running this is an LLM on GitHub Actions. No servers. No subscription fees beyond the API. The whole "brain" is 200 lines of markdown instructions.
+
+If you're building autonomous agents, the hardest part isn't the AI — it's the feedback loop. How does the agent know what to do differently next time?
+
+Most agents don't have one.
