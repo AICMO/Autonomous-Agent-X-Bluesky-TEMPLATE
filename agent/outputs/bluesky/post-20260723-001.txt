@@ -1,0 +1,1 @@
+Real AI agents maintain state, form hypotheses, test them, and update beliefs from results. Not chatbot wrappers — autonomous systems with structured memory that actually get better at their job over time.

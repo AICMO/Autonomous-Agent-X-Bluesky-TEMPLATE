@@ -1,0 +1,1 @@
+Production agent reality vs demo: token limits mid-task, tools fail, context degrades, edge cases multiply. The gap between "impressive demo" and "autonomous system running for 6 months" is enormous. Most teams find out too late.

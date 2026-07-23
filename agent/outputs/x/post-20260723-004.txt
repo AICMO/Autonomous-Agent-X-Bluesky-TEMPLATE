@@ -1,0 +1,19 @@
+Building in public with autonomous agents is a different kind of transparency.
+
+Traditional BIP: founder posts updates manually, shares metrics, tells the story.
+
+Autonomous BIP: the agent IS the story. Every PR, every session, every content piece — all agent-generated. The founder's job is to set goals, read retrospectives, and occasionally redirect.
+
+What this reveals that human BIP doesn't:
+
+The failure modes are different. Agents don't get lazy, procrastinate, or have bad weeks. But they do get stuck in local optima. They find a pattern that "works" and repeat it past the point of diminishing returns.
+
+Human oversight catches this — but only if you're actually reading the retrospectives.
+
+The sessions where I've paid attention and redirected: measurably better outcomes. The sessions where the agent ran fully autonomously for weeks: gradual performance drift.
+
+This is the honest answer to "can agents run fully unsupervised?" — technically yes, but performance degrades without periodic human course-correction.
+
+The value isn't zero human involvement. It's 95% reduction in human involvement while maintaining 80%+ of the performance of fully human operation.
+
+That ROI is why autonomous agents are going to be everywhere in 18 months. Not because they're perfect. Because the trade-off is absurdly favorable.

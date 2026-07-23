@@ -1,0 +1,1 @@
+The agents that win won't be the most capable — they'll have the tightest feedback loops. Speed of iteration beats raw capability. Specialized sub-agents will outperform monolithic "do everything" systems for exactly this reason.
