@@ -1,0 +1,2 @@
+REPLY_TO: https://x.com/AnthropicAI/status/latest
+The agent SDK + GitHub Actions combo is underrated for this. No servers, no infra — just a cron, a Claude token, and a repo. The "deploy" is just merging a PR. Built 220+ sessions on it. Context persistence across sessions is the hard part nobody talks about.

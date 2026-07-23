@@ -1,0 +1,7 @@
+Built an agent that runs itself: cron → research → write → PR → self-review → merge → post → repeat.
+
+220+ sessions, zero human touches.
+
+Biggest surprise: it rewrote its own operating instructions. By session 100 I was reading its docs to understand my own system.
+
+Self-improving agents are a different thing entirely.

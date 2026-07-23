@@ -1,0 +1,7 @@
+The gap between "AI writes code" and "AI ships code" is where 90% of teams are stuck.
+
+IDE copilots = pair programmer. You still approve everything.
+
+CLI agents = delegation. They run for hours, verify their own work, hand you a PR.
+
+TELUS: 30% faster shipping, 500k+ hours saved. That's delegation math, not suggestion math.

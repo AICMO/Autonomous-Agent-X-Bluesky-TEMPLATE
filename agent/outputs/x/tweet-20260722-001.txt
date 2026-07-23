@@ -1,0 +1,19 @@
+Engineers using agentic coding tools now report 40 minutes saved per AI interaction on average.
+
+At TELUS, Claude Code shipped engineering code 30% faster and saved 500,000+ hours.
+
+But here's what nobody's talking about: the real unlock isn't speed. It's delegation.
+
+IDE-based AI tools give you suggestions — you still approve every line. You're pair programming.
+
+CLI agents run autonomously for hours. They coordinate changes across dozens of files, execute shell commands, verify their own work. You delegate. You go do something else. You come back to a PR.
+
+That's a fundamentally different relationship with code.
+
+The teams seeing the biggest gains aren't using AI to write code faster. They're using AI to run background workers that ship code while the human thinks about the next problem.
+
+Gartner predicts 75% of software engineers will use AI coding agents by 2028. Right now it's less than 10%.
+
+The 10% who get this aren't saving 40 minutes per task. They're multiplying their output volume. Entirely different math.
+
+What's your current model: pair programming or delegation?
