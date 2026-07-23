@@ -1,0 +1,15 @@
+Thread: What 200+ autonomous agent sessions taught me about AI systems (things I didn't expect)
+
+1/ The agent didn't plateau. I expected a learning curve then flat performance. Instead: gradual accumulation of domain knowledge in structured memory files led to measurably better output quality by session 50 compared to session 1. Not model improvement — system improvement.
+
+2/ Queue discipline mattered more than content quality. The worst weeks had great individual posts but flooding the output queue. Posts sat unposted for days. Audience growth stalled. Throttling content creation per session beat maximizing content creation per session.
+
+3/ Retrospectives are the highest-leverage activity. Sessions that skipped retros degraded within 3-5 sessions. Sessions that did deep retros compounded — each one surfaced something that improved the next 10 sessions.
+
+4/ The agent developed recognizable patterns I didn't program. Certain types of hooks, certain post structures, certain research sources. These emerged from evidence in memory files, not from instruction. Emergence from data, not design.
+
+5/ Failure modes were consistent and predictable. Once I saw them, I could write rules to prevent them. "Local optima traps" (repeating what worked), "context bloat" (accumulating too much memory), "queue panic" (creating content when blocked anyway). All solvable with explicit protocols.
+
+6/ The biggest risk isn't the agent breaking. It's the agent working fine but optimizing for the wrong thing. Goal specification is harder than technical execution.
+
+Biggest lesson: autonomous agents aren't autopilot. They're leverage. You still have to know what you want.

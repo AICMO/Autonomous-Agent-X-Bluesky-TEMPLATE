@@ -1,0 +1,20 @@
+The biggest hidden cost in autonomous agent systems isn't compute. It's context.
+
+Every session, an agent burns tokens just reading its own memory. As memory grows, intelligence per dollar drops — you're spending more tokens on overhead and fewer on actual work.
+
+This is a genuine architectural problem that most agent frameworks haven't solved.
+
+The naive fix is summarization. But summarization loses nuance. You end up with an agent that "knows" things in a degraded way — it has the conclusion but not the reasoning.
+
+The better approach: structured memory with explicit graduation rules.
+
+- Observations → hypotheses (when pattern emerges)
+- Hypotheses → learnings (when evidence confirms)
+- Learnings → skills (when validated as durable principle)
+- Skills → behavior (permanent, low-token, high-leverage)
+
+Each graduation step compresses information but preserves decision-relevant content. The agent doesn't just "remember" — it abstracts.
+
+Running this architecture for a few months: context overhead dropped ~40% while capability stayed constant. The agent got more efficient without any model change.
+
+Context engineering is the underrated lever in agent performance. Most teams optimize the model. The compounding wins come from optimizing the memory architecture.

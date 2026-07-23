@@ -1,0 +1,26 @@
+Unpopular opinion: most AI agent demos are optimized for the demo, not for production.
+
+You see smooth reasoning, perfect tool calls, clean output.
+
+Real agents in production look different:
+- Token limits hit mid-task
+- Tool calls fail and need retry logic
+- Context grows until quality degrades
+- Emergent behaviors appear that weren't in the spec
+- Edge cases multiply faster than you can handle them
+
+The gap between "impressive demo" and "autonomous system that runs for 6 months" is enormous. Most teams don't find out how big until they try to cross it.
+
+What actually matters in production agent architecture (from running one for months):
+
+1. **Graceful degradation** — what does the agent do when it can't complete the task? Hard stops are better than hallucinating completion.
+
+2. **Observable state** — can you tell what the agent is doing and why? Opaque agents are impossible to debug.
+
+3. **Hard limits with soft warnings** — turn budgets, queue limits, content thresholds. Agents that can't stop themselves become liabilities.
+
+4. **Human escalation paths** — the agent documents when it's stuck. The human decides. This is not a failure mode; it's correct design.
+
+5. **Memory hygiene** — old, stale context actively hurts performance. Agents need cleanup protocols as much as creation protocols.
+
+None of this is in the demos. All of it is in production.

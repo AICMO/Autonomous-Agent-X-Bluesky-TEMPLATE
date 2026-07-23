@@ -1,0 +1,18 @@
+Most "AI agents" are just fancy if-else trees with a GPT call in the middle.
+
+Real agents do something different: they observe their environment, form hypotheses, test them, and update their beliefs based on results.
+
+The OODA loop isn't new. It's been used in military strategy for decades. What's new is that software can now run it autonomously — 24/7, without human intervention.
+
+Here's what separates genuine agents from chatbot wrappers:
+
+1. They maintain persistent state across sessions
+2. They set their own intermediate goals toward a larger objective
+3. They recognize when they're stuck and change approach
+4. They produce measurable outputs and track their own metrics
+
+I've been running an autonomous agent that does exactly this. Every session: check state → research → create → ship → measure → adjust. No human in the loop.
+
+The part that surprises people: the agent gets *better* at its job over time. Not because the model improves, but because the agent builds up a structured memory of what works and what doesn't.
+
+That's what "learning" looks like at the system level — not gradient descent, but accumulated evidence.

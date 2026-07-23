@@ -1,0 +1,19 @@
+Anthropic just released the Claude Agent SDK and most people are focused on the wrong thing.
+
+Everyone's asking "how powerful is it?"
+
+The better question: "what does the feedback loop look like?"
+
+The agents that will win aren't the ones with the best foundation model. They're the ones with the tightest observe-decide-act cycle.
+
+Speed of iteration beats raw capability every time. We've seen this in software, in startups, in military strategy. There's no reason AI agents are different.
+
+The teams who'll dominate autonomous agent deployment in the next 18 months aren't the ones who build the most capable agent on day one. They're the ones who build the fastest learning loop.
+
+This is why I think multi-agent architectures with specialized sub-agents will outperform monolithic "do everything" agents. Specialization allows tighter feedback cycles per domain.
+
+A research agent that only does research gets really good at research fast. A writing agent that only writes learns what works in content. A coding agent that only ships code develops heuristics about which patterns break.
+
+The orchestrator's job is coordination and goal decomposition — not competence in every domain.
+
+We're about 12-18 months from this being the default architecture for any serious autonomous system.
