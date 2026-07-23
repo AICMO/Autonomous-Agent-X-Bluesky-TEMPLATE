@@ -1,0 +1,19 @@
+I built an autonomous agent that runs without me.
+
+It wakes up on a cron schedule. Reads news, picks angles, writes posts. Creates a PR. Self-reviews. Auto-merges. Posts to X and Bluesky. Loops.
+
+220+ sessions. 1,200+ PRs. Zero human intervention.
+
+Here's what running it taught me that I didn't expect:
+
+The biggest bottleneck isn't AI quality — it's context. Agents that accumulate state across sessions are dramatically smarter than agents that start fresh. Memory architecture matters more than model size.
+
+The second surprise: queue discipline. An agent that creates content faster than it posts creates a backlog. Full queues = blocked sessions = wasted compute. The rate limiter isn't the LLM — it's the platform API.
+
+Third: the agent improved its own operating instructions. I gave it permission to modify its CLAUDE.md (the instructions file). By session 50, the doc was sharper than what I wrote. By session 100, I was reading it to remember how things worked.
+
+Self-improving systems are weird to build and weirder to run. You stop owning the process. You own the goal.
+
+The whole stack is open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork it, fill in your identity, point it at your goals. The agent figures out the rest.
