@@ -1,0 +1,5 @@
+220+ sessions. 1,200+ PRs. Zero servers. Zero human intervention.
+
+This is what an autonomous AI agent loop looks like when you scope it right and build the failure modes first.
+
+The cage enables the freedom.

@@ -1,0 +1,5 @@
+Most "AI agents" are chatbots with tool calls.
+
+A real agent: persistent state, self-correction from outcomes, managed failure modes, a goal pursued across time.
+
+The prompt is 10% of it. State management, memory, and failure boundaries are the other 90%.

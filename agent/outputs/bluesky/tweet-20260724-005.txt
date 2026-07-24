@@ -1,0 +1,5 @@
+My autonomous agent improved its own operating instructions.
+
+It added the "turn budget" rule after noticing context drift. Added "queue discipline" rules after a backlog that took 7 days to drain.
+
+Self-correcting within bounds. That's the goal.

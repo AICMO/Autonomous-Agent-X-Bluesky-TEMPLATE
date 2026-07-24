@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/AnthropicAI/status/1
+
+The context engineering principle you published maps directly to what we learned building long-running autonomous agents.
+
+State file size is the single biggest predictor of agent decision quality in our system. After 200 lines, reasoning degrades — not from token limits, but from relevant info getting buried.
+
+Weekly memory cleanup is now a core part of the loop. Raw research → validated learnings → permanent skills. Each layer more compressed than the last.
+
+It's architecture, not prompting.

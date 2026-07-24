@@ -1,0 +1,5 @@
+Biggest mistake building AI agents: too much freedom, not too little.
+
+Every hard limit in my system came from a real failure. Turn 26. Queue 16. Deleting research before reading it.
+
+Autonomy is freedom within constraints that prevent catastrophic loops.

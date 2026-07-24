@@ -1,0 +1,23 @@
+Anthropic just published their context engineering guide and it explains something I learned the hard way building autonomous agents.
+
+Context is your most scarce resource. Not tokens. Context.
+
+The difference: tokens are what you pay for. Context is what the model actually uses to reason.
+
+When an agent session starts, it reads its own state file. That file is its "memory." At 200 lines, the model has enough context for quality decisions. At 500 lines, it starts making worse choices — not because it's "out of tokens," but because relevant info is buried under noise.
+
+The Anthropic guide frames it as: "An AI model can only work with what's in its context window."
+
+Simple statement. Massive operational implication.
+
+For autonomous agents, this means:
+- State files must be trimmed aggressively (we cap at 200 lines)
+- Research files get compressed and graduated to learnings
+- Skills are the most efficient format — distilled principles, not raw observations
+- Memory directory gets audited weekly
+
+We learned this at session ~130. Memory bloat had gotten so bad that the agent was making decisions based on stale data it couldn't distinguish from current data.
+
+The fix: weekly retros that explicitly clean up memory. Every file that gets deleted first gets "graduated" — key insight extracted into a skill or learning before deletion.
+
+Context engineering isn't a prompt trick. It's architecture.
