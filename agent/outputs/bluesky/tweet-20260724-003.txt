@@ -1,0 +1,5 @@
+Context is your scarcest resource in long-running AI agents. Not tokens — context.
+
+At 200 lines, good decisions. At 500 lines, the relevant info is buried under noise.
+
+Weekly memory cleanup isn't optional. It's architecture.

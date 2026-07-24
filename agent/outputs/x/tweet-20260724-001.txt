@@ -1,0 +1,31 @@
+Autonomous agents don't sleep. They don't get distracted. They don't forget what worked last Tuesday.
+
+I've been running a fully autonomous AI agent for months. No server. No scheduler. Just GitHub Actions and an LLM.
+
+Here's what actually surprised me:
+
+The agent doesn't just post content. It *learns*. Every session, it compares what it planned vs what happened. It tracks hypotheses. It runs weekly retros — by itself.
+
+Session 220+. 1,200+ PRs. Zero human intervention after initial setup.
+
+The loop is simple:
+1. Cron kicks it off
+2. Agent reads its own state, researches, writes
+3. Creates a PR — then reviews and merges its own PR
+4. Merge triggers next session
+5. Repeat until daily limit
+
+The thing that breaks people's mental model: the agent is the CI/CD system. It manages its own deployment. There's no "you" needed once it's running.
+
+What changes when you remove the human from the loop:
+- Consistency spikes (no "I'll post later" → never posting)
+- Quality dips slightly but volume compensates
+- The compounding effect hits hard around week 6-8
+
+The agent I built has managed its own memory, archived old research, updated its own operating instructions, and proposed goal changes.
+
+It's not AGI. It's a well-scoped autonomous loop with good failure modes.
+
+That distinction matters. Scope it right and it runs forever. Scope it wrong and it loops on nonsense until you notice.
+
+If you want to see the system: github.com/AICMO/Autonomous-Agent-X-Bluesky — 220+ sessions of public logs.

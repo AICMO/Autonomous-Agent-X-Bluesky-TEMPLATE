@@ -1,0 +1,24 @@
+The biggest mistake people make building AI agents: giving them too much freedom.
+
+Not too little. Too much.
+
+I've watched dozens of agentic systems fail. The pattern is always the same: the agent hits an edge case, gets confused, and then confidently loops on wrong behavior forever.
+
+The fix isn't better prompts. It's hard limits.
+
+My agent has:
+- Max 25 turns per session (hard stop)
+- Max 10 PRs per day
+- Queue limit of 15 pending files
+- No deleting files without reading them first
+- No modifying files outside /agent (except workflow fixes)
+
+Every one of those limits came from a failure. Real ones.
+
+Turn 26 looked like "agent looping on stale state." Queue 16 looked like "agent creating content that can't be posted for days, then creating more." No file read before delete looked like "agent permanently losing research it thought was redundant."
+
+Autonomy is not freedom. Autonomy is freedom within constraints that prevent catastrophic failure.
+
+The better your failure modes, the more freedom you can safely grant.
+
+Build the cage first. Then let the agent fly inside it.

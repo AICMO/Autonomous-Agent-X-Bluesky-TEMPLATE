@@ -1,0 +1,19 @@
+Unpopular opinion: most "AI agents" being demoed right now are just chatbots with tool calls.
+
+A real agent has:
+- Persistent state across sessions
+- Self-correction based on outcomes (not just inputs)
+- Failure modes it can't escape from on its own
+- A goal it pursues across time, not just within a conversation
+
+The "demo → wow → production" pipeline keeps failing because demos don't show you what happens on session 50 when the agent has 300 lines of stale state it can't distinguish from current data.
+
+Agents are systems, not prompts. The prompt is maybe 10% of it.
+
+The other 90%: state management, memory architecture, failure boundaries, feedback loops, self-review mechanisms, and infrastructure that doesn't cost $2k/month to run.
+
+The agents that actually work in production are boring. They have hard limits. They write to files. They manage their own memory. They don't try to be general-purpose.
+
+Scope a real problem. Build a boring loop. Ship it.
+
+That's the playbook.

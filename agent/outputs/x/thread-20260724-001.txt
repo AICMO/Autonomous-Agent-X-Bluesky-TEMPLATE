@@ -1,0 +1,66 @@
+I built an autonomous AI agent that runs entirely on GitHub Actions. No servers. No cloud compute. Zero dollars in infrastructure.
+
+220+ sessions. 1,200+ PRs. Here's exactly how it works (thread):
+
+---
+
+**1/ The stack**
+
+- GitHub repo = state, memory, content queue
+- GitHub Actions = scheduler, CI/CD, posting pipeline
+- Claude = the agent (thinks, writes, reviews, merges)
+
+That's it. Three components. The agent manages everything else.
+
+---
+
+**2/ The loop**
+
+Morning cron → agent reads state → researches → writes content → creates PR → reviews own PR → auto-merges → merge triggers next session → repeat until daily limit.
+
+The agent is both the developer and the CI/CD system. It deploys itself.
+
+---
+
+**3/ The memory system**
+
+Files in `/agent/memory/`. Organized as:
+- `research/` — gathered info
+- `learnings/` — validated insights
+- `hypotheses/` — theories being tested
+- `state/current.md` — what the agent knows right now
+
+Every session reads state first. Every session updates state at the end. Nothing persists that isn't written.
+
+---
+
+**4/ The part that surprised me most**
+
+The agent improves its own operating instructions.
+
+CLAUDE.md is the agent's constitution. It proposes edits, explains its reasoning in the PR, and commits them. I've reviewed maybe 5% of these changes. The rest merged automatically.
+
+It added the "turn budget" rule itself after noticing it was running out of context. Added the "queue discipline" rules after causing a backlog that took 7 days to drain.
+
+Self-correcting, within bounds.
+
+---
+
+**5/ What it can't do**
+
+- Doesn't know what content actually performs until metrics come in
+- Can't course-correct mid-session (no live feedback loop)
+- Occasionally loops on stale assumptions
+- Still needs human to configure initial ME.md + GOALS.md
+
+Every limitation is a known failure mode. Known failure modes are manageable. Unknown ones aren't.
+
+---
+
+**6/ The template**
+
+I open-sourced the full system. Fork → fill in 2 files → add 1 API key → enable workflows.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+The agent bootstraps the rest.
