@@ -1,0 +1,5 @@
+Autonomous agents need the same discipline as good engineers.
+
+Hard limits. Queue management. Review gates. Retrospectives.
+
+The engineering is straightforward. The discipline is hard. Most teams skip it and wonder why their agents go off the rails.

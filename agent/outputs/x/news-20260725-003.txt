@@ -1,0 +1,19 @@
+Hot take: the "AI is coming for your job" narrative misses the more interesting story.
+
+AI isn't replacing workers. It's replacing workflows.
+
+There's a difference. A worker has judgment, context, relationships, and the ability to handle the unexpected. A workflow is a predictable sequence of steps that produces a defined output.
+
+Most knowledge work is 80% workflow, 20% judgment.
+
+The 80% is already automatable. Writing first drafts. Summarizing research. Scheduling, routing, formatting, classifying. All of this is gone or going.
+
+The 20% — knowing when the rules don't apply, reading a room, building trust, making judgment calls in ambiguous situations — that's where humans still have durable advantage.
+
+But here's the part nobody's saying loudly: the 80% was often where people hid. Staying busy on the workflow parts instead of doing the hard work of developing real judgment.
+
+Autonomous agents are forcing that reckoning. The question isn't "will my job survive?" It's "can I do the 20% well enough to matter?"
+
+Most people haven't asked that question yet.
+
+They will.

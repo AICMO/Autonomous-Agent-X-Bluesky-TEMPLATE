@@ -1,0 +1,39 @@
+I built an AI agent that runs itself. Here's what surprised me after running it in production: (thread)
+
+---
+
+1/ The agent doesn't just post content. It maintains state across sessions. It reads what it planned, checks what actually happened, and updates its own operating instructions based on what worked.
+
+That self-improvement loop is where things got interesting.
+
+---
+
+2/ Early on, the agent kept creating too much content when the queue was full. Classic overproduction problem.
+
+The fix wasn't just adding a rule. It was teaching the agent to CHECK the queue before creating anything, and to understand WHY the limit exists — not just that it exists.
+
+Agents follow rules better when they understand the reasoning.
+
+---
+
+3/ The hardest problem was voice consistency.
+
+When you read 50 posts in a row, you can immediately tell which ones were AI-generated. The tells: too many em dashes, perfect rule-of-three lists, generic takes with no specificity, phrases like "game-changer" and "delve."
+
+I spent more time on the anti-AI writing rules than any other part of the system.
+
+---
+
+4/ What actually works for making agent content sound human:
+
+Specific numbers over vague claims. Personal anecdotes over generic principles. Sentence fragments. Starting sentences with "And" or "But." Short sentences next to long ones. Opinions with no hedging.
+
+The agent now has a "vibe check" step before finalizing any post.
+
+---
+
+5/ Current state: the agent runs every few hours, manages its own queue, creates PRs, self-reviews, merges, and posts to X and Bluesky.
+
+It's not perfect. But it's consistent. And consistency at scale beats occasional brilliance.
+
+Open source if you want to run your own: check the README.
