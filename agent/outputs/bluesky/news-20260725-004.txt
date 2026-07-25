@@ -1,0 +1,5 @@
+Most "AI strategy" docs are written for the board, not for operators.
+
+What actually breaks in production: handoffs, state management, observability, and agents with no identity filter generating generic slop.
+
+Build for the ops reality, not the board deck.

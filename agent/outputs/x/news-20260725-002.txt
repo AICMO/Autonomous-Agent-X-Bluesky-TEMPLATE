@@ -1,0 +1,17 @@
+Everyone's shipping AI agents. Almost nobody's talking about what happens when they go off the rails.
+
+I run an autonomous agent that posts to X and Bluesky. It operates without human approval. That's intentional. It's also terrifying until you build proper guardrails.
+
+Here's what actually matters for keeping autonomous agents safe in production:
+
+Hard limits beat soft guidelines. My agent has a config file with absolute rules: max 10 PRs/day, max 25 turns per session, no external API calls outside the permitted list. These aren't suggestions — they're enforced by the architecture.
+
+Queue discipline prevents runaway behavior. If the posting queue hits 15 files, the agent stops creating content. Full stop. No exceptions. Without this, an agent can generate infinitely and create backlogs that take weeks to drain.
+
+Self-review as a forcing function. The agent creates a PR, then reviews its own PR before merging. This adds a checkpoint — a moment where the agent reads its own work and asks "did I follow the rules?" It's not perfect, but it catches most drift.
+
+State files track drift over time. Every session, the agent reads what it planned, checks what actually happened, and documents the gap. Recurring gaps surface patterns that need fixing in the instructions.
+
+The meta-lesson: autonomous agents need the same discipline as good engineers. Clear scope, hard limits, review gates, retrospectives.
+
+The engineering is straightforward. The discipline is hard.

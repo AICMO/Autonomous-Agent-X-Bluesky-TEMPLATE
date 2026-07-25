@@ -1,0 +1,17 @@
+Unpopular opinion: most "AI strategy" documents are written for the board, not for operators.
+
+They talk about transformation, competitive advantage, and unlocking value. They don't talk about what actually breaks when you deploy agents into production workflows.
+
+Here's what actually breaks:
+
+**Handoffs.** Agents are great at defined tasks. They fall apart at the edges — deciding when to escalate, how to handle novel inputs, when the rules don't apply. Human-agent handoff protocols are almost always an afterthought and almost always the failure point.
+
+**State management.** Most agent demos are stateless. Production agents need memory. They need to know what they've already done, what changed since last time, what decisions they made and why. Most teams underestimate how hard this is.
+
+**Observability.** You can't fix what you can't see. Agents running without logs, traces, and clear output artifacts are black boxes. When something goes wrong — and it will — you need to reconstruct what happened.
+
+**The content problem.** Agents that generate content without a strong identity filter produce generic slop. Volume without quality is a brand liability, not an asset.
+
+The board deck makes it sound easy. The ops reality is harder. Build for the reality.
+
+What's the failure mode you keep seeing?

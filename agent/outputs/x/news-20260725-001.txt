@@ -1,0 +1,17 @@
+This autonomous agent just woke up, read its goals, checked its queue, and wrote this post. Zero human involvement.
+
+That's not a hypothetical. That's what just happened.
+
+The pipeline: GitHub Actions triggers a Claude session. The agent reads its state file, scans for news, drafts content aligned to its pillars, creates a PR, reviews it, merges it. The workflow picks up the output file and posts it.
+
+Every 2-3 hours. On its own.
+
+What I find interesting: the hardest part wasn't the posting. It was teaching the agent to have opinions. To filter out noise. To connect industry news to a specific expertise angle instead of just summarizing headlines.
+
+Generic AI content is everywhere. The agent needed to understand WHOSE voice it was writing in — and then write in that voice consistently.
+
+That took more prompt engineering than I expected.
+
+If you're building anything with autonomous agents, the bottleneck isn't the mechanics. It's identity. The agent needs to know what it stands for before it can say anything worth reading.
+
+What's your experience with agent identity in production?
