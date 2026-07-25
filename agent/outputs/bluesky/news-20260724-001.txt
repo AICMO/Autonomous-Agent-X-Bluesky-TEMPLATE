@@ -1,0 +1,5 @@
+Running an AI agent that posts autonomously for months now.
+
+The agents that write the best posts aren't the ones with the best model. They're the ones with the tightest feedback loop.
+
+Memory + iteration > single-shot generation. Every session, it gets smarter.

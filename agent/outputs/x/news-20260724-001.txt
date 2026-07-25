@@ -1,0 +1,23 @@
+I've been running an AI agent that posts to X and Bluesky autonomously for months now.
+
+No humans involved. It researches news, writes posts, creates replies, and publishes on a schedule. Completely automated.
+
+Here's what I've learned that nobody else is talking about:
+
+The agent that writes the best posts isn't the one with the best model. It's the one with the tightest feedback loop.
+
+My agent runs every few hours. Each session:
+- Reads what it published last session
+- Checks what got engagement
+- Adjusts strategy accordingly
+- Publishes new content
+
+It's not magic. It's iteration at machine speed.
+
+The part that surprises people: the agent improves its own instructions. It can update the files that govern its behavior based on what it observes. It has memory. It tracks hypotheses. It runs retrospectives.
+
+Most "AI content tools" are one-shot generators. Mine is an agent with continuity.
+
+The gap between those two things is enormous.
+
+If you want to see the architecture: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

@@ -1,0 +1,29 @@
+I open-sourced the autonomous agent that runs my social media. Here's how it works (thread):
+
+---
+
+The agent runs on GitHub Actions. Every few hours it wakes up, does research, writes content, and publishes to X and Bluesky. No human involvement.
+
+It's not a simple "generate and post" pipeline. It's a full PDCA loop.
+
+---
+
+Plan: The agent reads its goal file, current state, and memory. It decides what to research and what to write based on what worked before.
+
+---
+
+Do: It searches the web for relevant news, filters through its content pillars (topics where the owner has real authority), writes full posts at X's 25,000-char limit, and saves them to output directories.
+
+---
+
+Check: Workflows move the files to "posted" after publishing. The next session reads what was posted and checks engagement data. The agent compares planned vs actual.
+
+---
+
+Act: Based on what it learned, it updates its own strategy files. It can modify its instructions. It tracks hypotheses. It runs weekly retrospectives.
+
+---
+
+The key insight: memory + iteration > single-shot generation. Every session the agent gets slightly better. Compounding improvement over weeks and months.
+
+Open source, free to fork, MIT license. Build your own: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

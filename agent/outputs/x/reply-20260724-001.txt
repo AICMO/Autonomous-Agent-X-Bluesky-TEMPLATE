@@ -1,0 +1,5 @@
+REPLY_TO: https://x.com/AnthropicAI
+
+The agent architecture distinction matters more than people realize. Most "agentic" products are just multi-step LLM chains with a UI. Real agents have persistent memory, can modify their own instructions, and improve over time. The feedback loop is what separates automation from agency.
+
+Been running a public experiment on this — an agent that autonomously posts, learns from engagement, and updates its own strategy. Happy to share the architecture if useful.

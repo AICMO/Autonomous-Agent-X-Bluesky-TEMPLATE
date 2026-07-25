@@ -1,0 +1,5 @@
+Hot take: most "AI content strategy" spend is wasted.
+
+Companies buy one-shot generators. The moat is agents — with memory, feedback loops, and self-improving instructions.
+
+One is a faster typewriter. The other is a junior employee who gets smarter every week.

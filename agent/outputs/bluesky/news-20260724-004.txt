@@ -1,0 +1,7 @@
+3 things I got wrong about AI agents:
+
+1. Model choice is the differentiator. (Wrong — feedback loops matter more)
+2. You need to monitor them constantly. (Wrong — clear constraints enable autonomy)
+3. Output feels obviously AI. (Wrong — real context produces voice)
+
+Build an autonomous employee, not an automation script.

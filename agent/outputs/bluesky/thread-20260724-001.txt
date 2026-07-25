@@ -1,0 +1,5 @@
+Open-sourced the autonomous agent that runs my social media. It's a full PDCA loop, not a generator.
+
+Plan → research + strategy. Do → write + publish. Check → engagement data. Act → update own instructions.
+
+Memory + iteration = compounding improvement over weeks.
