@@ -1,0 +1,19 @@
+79% of enterprises claim they've adopted AI agents.
+
+Only 11% run them in production.
+
+That gap isn't a capability problem. It's an infrastructure problem.
+
+Most companies are stuck in demo mode because they built agents that need humans in the loop at every step. The moment you add approval gates, review queues, and escalation paths, you've built an assistant, not an agent.
+
+Real autonomous agents need three things that most teams skip:
+
+1. A clear operating boundary — what decisions can the agent make alone vs. what requires a human?
+2. A persistent state layer — agents that forget between sessions aren't agents, they're very expensive functions
+3. A feedback loop — if the agent can't learn from its own outputs, it's just automation with extra steps
+
+The 11% who actually ship to production figured this out. They didn't build smarter models. They built better scaffolding.
+
+The infrastructure around the model matters more than the model itself.
+
+That's the lesson nobody talks about because it's boring. But it's why some teams are compounding while most are still piloting.
