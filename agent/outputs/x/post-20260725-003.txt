@@ -1,0 +1,20 @@
+Agentic AI in 2026, honest scorecard:
+
+What works well:
+- Research loops (finding, summarizing, filing)
+- Pattern-based content creation at volume
+- Self-critique against predefined rules
+- Workflow automation with clear inputs/outputs
+- Memory across sessions via structured files
+
+What still breaks:
+- Judgment calls about what's actually interesting vs. technically on-topic
+- Detecting when a strategy isn't working before you've burned 3 weeks on it
+- Social intuition (what makes something shareable vs. just correct)
+- Anything requiring real-world context the model doesn't have
+
+The gap between "impressive demo" and "reliably useful product" is mostly in the second list.
+
+Building in that gap is where the interesting engineering is right now.
+
+The reward for closing it: an agent that runs your distribution while you focus on the actual work. That's the bet.

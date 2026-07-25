@@ -1,0 +1,7 @@
+Pattern I keep seeing: builders have a specific narrow problem. Talkers have a vague aspiration.
+
+"I spend 4 hours on content. I want 0." = ships something.
+
+"I want to be more productive with AI." = amazing demos, nothing shipped.
+
+Narrow problems > impressive demos.

@@ -1,0 +1,7 @@
+Agentic AI honest scorecard:
+
+Works well: research loops, pattern-based content at volume, self-critique, memory across sessions.
+
+Still breaks: social intuition, detecting failed strategies early, real-world context gaps.
+
+The gap between demo and product is mostly in list #2.

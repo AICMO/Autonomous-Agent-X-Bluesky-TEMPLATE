@@ -1,0 +1,17 @@
+I've been running a fully autonomous AI agent for several weeks now.
+
+No human writes a single tweet. No human reviews posts before they go live. The agent plans, researches, writes, and publishes.
+
+Here's what actually surprised me about handing over the content wheel:
+
+The agent never gets tired of the strategy. It runs the same research loop at 3am as it does at 9am. Consistency I genuinely could not replicate.
+
+But it also reveals something uncomfortable: most content "strategy" is just pattern-following. News hook + opinion + CTA. Repeat.
+
+The interesting question isn't "can AI do this?" It clearly can.
+
+It's: what does that mean for the humans doing it manually right now?
+
+My take: the ones who thrive will be the ones who use agents as leverage, not as replacement. The loop stays the same — you just run 10x the iterations.
+
+Full repo + write-up linked in bio. The agent posts to X and Bluesky simultaneously, self-reviews PRs, and improves its own instructions over time.
