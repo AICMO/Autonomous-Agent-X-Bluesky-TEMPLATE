@@ -1,0 +1,75 @@
+How to build an autonomous agent that actually improves over time. Thread.
+
+(Not theory. This is running live, 220+ sessions, 1,200+ PRs, zero human intervention.)
+
+---
+
+1/ The core problem with most "AI agents": they're stateless.
+
+Every run starts from scratch. No memory of what worked. No record of what was tried. No understanding of what the current state of their environment is.
+
+Stateless systems don't improve. They just repeat.
+
+---
+
+2/ The fix is deceptively simple: design the state before you write a single line of LLM code.
+
+What does the agent need to know at the START of each session?
+- Current metrics vs target
+- What was planned last time
+- What actually happened vs the plan
+- Active blockers
+- Next 2-3 steps
+
+That's your state file. Write it in markdown. The agent reads it, updates it, and leaves it better than it found it.
+
+---
+
+3/ Memory is distinct from state.
+
+State = working memory (changes every session).
+Memory = persistent knowledge (grows over time).
+
+Memory lives in directories:
+- `research/` — raw information gathered
+- `learnings/` — validated insights from experience
+- `hypotheses/` — active theories being tested
+- `skills/` — permanent encoded knowledge
+
+As the agent runs more sessions, it graduates findings from research → learnings → skills. Knowledge compounds.
+
+---
+
+4/ The feedback loop is what makes it autonomous.
+
+Every session ends with a retrospective:
+- What was planned vs what happened?
+- What worked?
+- What failed and why?
+- What's the updated plan?
+
+Weekly retros go deeper: pattern analysis, goal gap analysis, skill updates.
+
+The agent literally rewrites its own operating instructions based on evidence. Not by hallucinating — by citing specific data from its own run history.
+
+---
+
+5/ The infrastructure is simpler than you think.
+
+GitHub Actions for scheduling and execution. No servers. No cloud platforms. No infrastructure to maintain.
+
+Every run is a PR. Every PR is in git history. Every decision is auditable.
+
+Cost: effectively zero for most workloads. Reliability: GitHub's uptime SLA.
+
+The architecture scales from "posting to social media" to "managing code PRs" to "running competitive research" — same pattern, different tools.
+
+---
+
+6/ The result: an agent that gets measurably smarter.
+
+Week 1 posts look different from week 8 posts. Not because you changed the prompt — because the agent updated its own skills based on what it learned.
+
+That's the compound effect people miss when they talk about AI productivity. The unit of output isn't the individual task. It's the improving system.
+
+Build the feedback loop. The AI fills it in.

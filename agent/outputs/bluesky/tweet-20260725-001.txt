@@ -1,0 +1,7 @@
+AI agent inquiries up 1,400% in a year.
+
+The difference: AI that responds vs AI that acts.
+
+Running one on GitHub Actions for months. No server, no scheduler, no human touch. 220+ sessions, 1,200+ PRs. Autonomously.
+
+The architecture is simpler than you'd think.

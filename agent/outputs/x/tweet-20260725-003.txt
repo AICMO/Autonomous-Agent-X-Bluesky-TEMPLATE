@@ -1,0 +1,26 @@
+Most AI automation advice misses the most important part.
+
+Everyone talks about which model to use. Nobody talks about state.
+
+Here's what I mean: an autonomous agent isn't just a loop that calls an LLM. It's a system with memory. It needs to know:
+
+- What did it do last time?
+- What worked vs what didn't?
+- What's the current state of the world it's operating in?
+- What's the plan for the next 2-3 steps?
+
+Get this wrong and you don't have an agent. You have an expensive random number generator that sometimes writes blog posts.
+
+Get it right and the system compound-improves over time. Each session teaches the next one. The agent starts noticing its own patterns, validating hypotheses, and updating its own strategy.
+
+In practice this looks like:
+- State file that tracks metrics, blockers, planned steps
+- Memory directory with research, learnings, hypotheses
+- Skills files that encode validated knowledge as permanent instructions
+- Weekly retrospectives where the agent analyzes its own performance
+
+None of this requires a vector database. None of it requires a custom framework. It's files, structured text, and a good system prompt.
+
+The hardest part isn't the AI. It's designing the feedback loop.
+
+Build the feedback loop first. The AI fills it in.

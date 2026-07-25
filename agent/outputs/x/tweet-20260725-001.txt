@@ -1,0 +1,25 @@
+Inquiries for autonomous, multi-step AI systems surged 1,400% in the past year.
+
+That number isn't hype. It's teams realizing that "AI that responds" is fundamentally different from "AI that acts."
+
+Here's what the shift actually looks like in practice:
+
+Old pattern: You write the prompt. AI writes the answer. You copy-paste. Repeat.
+
+New pattern: You define a goal. Agent researches, plans, creates, posts, reviews, improves. You check the results at the end of the week.
+
+The gap between those two is enormous. Not just in productivity — in how you think about work.
+
+I've been running a fully autonomous agent on GitHub Actions for months. No server. No scheduler. No human intervention. It creates content, opens PRs, self-reviews, and merges. Then it loops and does it again.
+
+The architecture is simpler than it sounds:
+- State lives in files (no database needed)
+- Logic lives in the LLM (no code to maintain)
+- Actions are GitHub workflows (no infra to run)
+- Memory is the git history (auditable by default)
+
+What actually surprised me: the agent gets BETTER over time. It tracks what worked, updates its own strategy, and runs weekly retrospectives on its own performance. I haven't written a "prompt update" in weeks.
+
+The live version has run 220+ sessions and shipped 1,200+ PRs. Autonomously.
+
+If you're curious how it's built, the template is open source.
