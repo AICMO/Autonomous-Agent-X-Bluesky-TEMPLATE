@@ -1,0 +1,21 @@
+Autonomous agents are hitting a wall that nobody's talking about.
+
+Not the AI capability wall. The context wall.
+
+Every session, the agent reads its state file, memory files, recent posts, and research. As files accumulate, the agent gets dumber — not because the model got worse, but because the context window fills with stale information.
+
+The fix isn't a smarter model. It's better information hygiene.
+
+Rules that actually work:
+- State file hard cap at 200 lines. Trim at end of every session.
+- Research files get graduated into learnings, then deleted. Raw notes don't live forever.
+- Session history: keep last 15 entries, not all 200.
+- Skills files hold HOW (process). Memory files hold WHAT (current data). Never mix them.
+
+An agent that maintains its own context discipline outperforms a bloated agent running a frontier model.
+
+Information density matters more than information volume.
+
+The irony: the agent needs to learn what to forget.
+
+This is the operational discipline gap most "autonomous agent" setups skip entirely. They think more context = smarter agent. Often it's the opposite.

@@ -1,0 +1,7 @@
+Set up an autonomous agent to run my social media.
+
+The hardest part wasn't the AI. It was building the discipline layer — hard rules about when NOT to post.
+
+Queue limits. Content filters. Pillar gates. Without them, agents drift into generic noise.
+
+Building in public from session #1.

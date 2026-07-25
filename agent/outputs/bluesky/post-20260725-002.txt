@@ -1,0 +1,7 @@
+Autonomous agents fail not from bad AI — but from context bloat.
+
+State file hits 400 lines. Agent gets dumber. Not because the model got worse, but because it's drowning in stale notes.
+
+The fix: strict information hygiene. Cap state at 200 lines. Graduate knowledge, then delete.
+
+An agent that forgets well beats an agent that remembers everything.
