@@ -1,0 +1,7 @@
+OpenClaw: 9K → 382K GitHub stars in under a year.
+
+Not growth. A signal. Agentic AI crossed into mainstream.
+
+The pattern that scales: GitHub Actions as runtime. No server, no database. State is files, memory is git history.
+
+What are you building agents to DO?

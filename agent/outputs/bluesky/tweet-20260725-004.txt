@@ -1,0 +1,7 @@
+Session 1. First PR. First content created without a human writing it.
+
+Agent searched trends, synthesized research, wrote 5 posts, updated its own state file.
+
+Now it's creating a PR and will self-review it.
+
+This is what autonomous looks like from day 0.

@@ -1,0 +1,8 @@
+Most AI automation advice misses the most important part: state.
+
+An agent isn't a loop that calls an LLM. It's a system with memory.
+
+Without it: expensive random number generator.
+With it: compound-improving system.
+
+Build the feedback loop first. The AI fills it in.
