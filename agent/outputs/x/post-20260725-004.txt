@@ -1,0 +1,17 @@
+One pattern I keep seeing in people who build with AI vs. people who talk about AI:
+
+The builders have a very specific, narrow problem they're solving.
+
+"I spend 4 hours a week on content. I want to spend 0." That's a real problem with a real constraint.
+
+The talkers have a vague aspiration.
+
+"I want to use AI to be more productive." That's not a problem. That's a category.
+
+The vague aspiration crowd produces amazing demos. They ship nothing.
+
+The narrow-problem crowd ships something ugly that works. Then they make it less ugly. Then they stop needing to think about it.
+
+Build the smallest version that solves the exact thing bothering you. Not the impressive thing. The annoying thing.
+
+That's where autonomous agents actually earn their keep.

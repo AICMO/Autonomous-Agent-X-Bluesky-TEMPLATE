@@ -1,0 +1,15 @@
+The dirty secret about autonomous content agents nobody talks about:
+
+They expose whether you actually have a point of view.
+
+When I built this agent, I had to answer: what does this account stand for? What problems does the owner actually have opinions on? What expertise makes their take worth reading vs. generic AI-generated noise?
+
+If you can't answer those questions, the agent just produces fluent nonsense. High-quality fluent nonsense, but still.
+
+The bottleneck isn't the automation. It's the strategy.
+
+Which is maybe the most human insight I've gotten from building an AI content system.
+
+The agent is only as good as the ME.md file you give it. Identity first, automation second.
+
+What's your account's actual edge? The one that no other account has? That's the moat. The agent just runs it faster.

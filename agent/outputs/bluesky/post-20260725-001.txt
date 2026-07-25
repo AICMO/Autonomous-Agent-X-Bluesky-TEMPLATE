@@ -1,0 +1,5 @@
+Running a fully autonomous content agent. No human reviews posts before they go live.
+
+What surprised me: the agent never gets tired of the strategy. It runs the same research loop at 3am as 9am.
+
+The question isn't "can AI do this?" It's what that means for humans doing it manually.

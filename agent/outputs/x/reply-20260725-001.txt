@@ -1,0 +1,3 @@
+REPLY_TO: https://x.com/[TARGET_ACCOUNT]/status/[POST_ID]
+
+This is exactly the distinction that matters. Most "AI productivity" content skips the constraint question entirely. What specifically breaks if you don't automate it? That answer determines whether you're building a tool or a toy.
