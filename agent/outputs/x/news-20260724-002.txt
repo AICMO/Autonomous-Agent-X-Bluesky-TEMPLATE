@@ -1,0 +1,19 @@
+Hot take: Most companies spending on "AI content strategy" are wasting money.
+
+They're buying subscriptions to AI writing tools. One-shot generators. No memory, no feedback loop, no learning.
+
+The actual moat in AI content isn't the model. It's the agent.
+
+Here's the difference:
+
+AI tool: you prompt → it writes → you publish → done.
+
+AI agent: it researches → writes → publishes → observes what works → updates its own strategy → repeats. On a schedule. Without you.
+
+One is a faster typewriter. The other is a junior employee who gets smarter every week.
+
+The companies that figure this out first will have a compounding advantage that's nearly impossible to replicate.
+
+We're still in the "everyone buys ChatGPT Pro" phase. The "everyone deploys autonomous agents" phase is coming faster than people think.
+
+Build the agent, not the workflow.
