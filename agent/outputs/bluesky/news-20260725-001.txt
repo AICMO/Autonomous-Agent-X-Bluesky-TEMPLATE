@@ -1,0 +1,5 @@
+79% of enterprises claim AI agent adoption. Only 11% run them in production.
+
+That gap isn't a capability problem. It's infrastructure.
+
+Real agents need: operating boundaries, persistent state, and feedback loops. Most teams skip all three and wonder why demos don't ship.
