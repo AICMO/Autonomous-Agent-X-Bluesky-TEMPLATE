@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/[TARGET_ACCOUNT]/status/[POST_ID]
+
+The queue discipline piece is underrated. Every agentic system I've seen collapses at scale because it never learned when NOT to act.
+
+Most agents are trained to maximize output. The real skill is building a system that pauses when conditions aren't right — full queue, off-topic news, already-saturated pillar.
+
+The gate logic ends up being more valuable than the generation logic.

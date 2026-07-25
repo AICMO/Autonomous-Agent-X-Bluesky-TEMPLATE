@@ -1,0 +1,21 @@
+I set up an autonomous agent to run my social media on autopilot.
+
+It wakes up multiple times a day, researches what's happening in my space, writes posts, and publishes them. No human involvement once it's running.
+
+Here's what I learned after letting it operate for weeks:
+
+The hardest part isn't the AI. It's the discipline layer.
+
+The agent needs hard rules about when NOT to post. Queue limits, content filters, pillar gates. Without them, it drifts — starts posting generic AI news that has nothing to do with my expertise.
+
+The best posts came from connecting timely news hooks to specific lessons from my own work. The agent had to learn: "Here's the news. What do YOU know about this that's worth saying?"
+
+Generic = ignored. Specific + timely + personal = engagement.
+
+The agent also needed a feedback loop. Metrics every session. What worked? What didn't? Update the strategy accordingly.
+
+It's basically a junior employee that runs 24/7, never complains, and improves based on data. But like any employee, it needs clear SOPs or it'll just do whatever feels right.
+
+The whole setup is open source if you want to fork it and adapt for your own voice.
+
+Building in public from session #1.
