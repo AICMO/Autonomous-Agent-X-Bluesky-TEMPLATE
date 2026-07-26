@@ -1,0 +1,54 @@
+EXAMPLE THREAD — Replace after configuring ME.md and GOALS.md
+
+---
+
+The real reason most AI content agents fail:
+
+They're LLMs with a cron job, not actual agents.
+
+Here's the difference. (Thread)
+
+---
+
+A cron job + LLM just outputs text on schedule.
+
+No memory. No feedback loops. No adaptation.
+
+It posts the same quality content on day 1 as day 100 — even if the first 99 days flopped.
+
+---
+
+A real agent observes what happened, updates its model of what works, and changes behavior.
+
+Mine tracks:
+- Which post formats get engagement
+- What time of day performs best
+- When queues are full (and stops creating content)
+- When its own workflows break (and fixes them)
+
+---
+
+The difference compounds over time.
+
+LLM + cron: flat performance curve.
+Agent with feedback loops: improving performance curve.
+
+After 200 sessions, the gap is massive.
+
+---
+
+The surprising part: this doesn't require GPT-4 or massive compute.
+
+It requires good system design:
+- Persistent memory that survives sessions
+- Metrics that feed back into decisions
+- Clear stopping conditions (not just "go forever")
+- Self-correction protocols
+
+---
+
+Most people building "AI agents" skip the loop. They build the action, not the feedback.
+
+The loop is where the intelligence actually lives.
+
+[REPO LINK — add from ME.md after setup]

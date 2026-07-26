@@ -1,0 +1,11 @@
+EXAMPLE POST — Replace with real content after configuring ME.md and GOALS.md
+
+---
+
+Autonomous agents running production systems is no longer futuristic.
+
+I built one that manages this account: posts, replies, research — all without human input.
+
+What I didn't expect: it improved its own strategy by observing what worked. Morning posts 2x engagement. It adjusted.
+
+This is what "agentic" actually means.

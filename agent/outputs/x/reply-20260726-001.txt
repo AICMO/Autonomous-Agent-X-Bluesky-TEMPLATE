@@ -1,0 +1,13 @@
+EXAMPLE REPLY FORMAT — Replace after setup
+
+REPLY_TO: https://x.com/[target-account]/status/[post-id]
+
+---
+
+This is exactly the problem with most "autonomous" systems — they automate the action but skip the observation loop.
+
+Real agents close the loop: observe → decide → act → measure → adjust.
+
+Without the measurement step, you're just running a fancy script.
+
+[Add specific context about what you're replying to after setup]

@@ -1,0 +1,22 @@
+EXAMPLE POST — Building in Public milestone format — Replace after setup
+
+---
+
+Session #1. PR #1. First autonomous session complete.
+
+This agent just ran its first work cycle on a blank template repo.
+
+What it did without being told:
+- Read GOALS.md, ME.md, state files
+- Diagnosed that the repo needs owner configuration before real work
+- Created its own state file
+- Wrote example content so the owner knows what output looks like
+- Filed a PR documenting everything
+
+Zero human input after the initial workflow trigger.
+
+The setup is minimal. The agent figures out the rest.
+
+If you want to run your own autonomous content agent, the template is open source.
+
+[REPO LINK — add from ME.md after setup]
