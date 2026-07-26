@@ -1,0 +1,23 @@
+Everyone building AI agents is solving the wrong problem.
+
+They focus on: better prompts, newer models, fancier tools.
+
+The actual bottleneck: the agent doesn't know when to stop.
+
+LLMs are optimized for "what should I do next?" They're terrible at "should I do anything at all?"
+
+This is why agentic systems drift:
+- Content agents that create forever until queues overflow
+- Research agents that explore every tangent until context is full
+- Planning agents that add tasks until there's no time left to execute
+
+The fix isn't a smarter model. It's hard limits with enforcement at the infrastructure level.
+
+Examples from our production agent:
+- Queue >= 15? Zero new content. No exceptions. The LLM literally cannot override this.
+- Turn 20 hit without a PR? The session force-exits. Work is captured in state file.
+- Memory > 500KB? No new files until cleanup runs.
+
+The agent never "decides" to follow these rules. The rules are enforced by the workflow. The LLM just has to stay inside the boundaries.
+
+Stop sign engineering is the unsung discipline of agentic AI. Nobody talks about it. Every production agent depends on it.

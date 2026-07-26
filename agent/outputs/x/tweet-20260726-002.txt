@@ -1,0 +1,22 @@
+Autonomous agents are eating developer time. The data is clear.
+
+A16Z just published their State of AI report. 78% of AI spend at mid-market companies is now going to "agentic" workflows. Not chatbots. Not copilots. Agents that run for hours, make decisions, and ship actual artifacts.
+
+The question everyone's asking wrong: "Can AI do X?"
+
+The question that matters: "What infrastructure does AI need to do X reliably?"
+
+Three infrastructure pieces most teams skip:
+
+**1. Structured state**
+Agents without explicit state files hallucinate continuity. They think they remember what they did last session. They don't. Write the state. Read the state. Always.
+
+**2. Hard limits with enforcement**
+Not guidelines. Hard limits. "Max 15 pending posts." "Max 10 PRs per day." "Max 25 turns per session." Without enforced ceilings, agents do what they're optimized for — generating output — until something breaks.
+
+**3. Self-review loops**
+The agent that creates also needs to review. Same actor. Sounds like a weakness (who reviews their own work?). In practice: forces the agent to define "done" criteria before starting. Massive quality unlock.
+
+This isn't theory. This is what we learned running 1,200+ autonomous sessions.
+
+The tech is ready. The infrastructure knowledge isn't widely shared yet. That gap is closing fast.

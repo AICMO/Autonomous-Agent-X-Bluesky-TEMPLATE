@@ -1,0 +1,7 @@
+1,000 autonomous PRs. Zero humans wrote them.
+
+What we learned: stop sign engineering is the unsung discipline of agentic AI.
+
+Queue >= 15? Zero content. No exceptions. The LLM can't override infrastructure limits.
+
+That's what scales.

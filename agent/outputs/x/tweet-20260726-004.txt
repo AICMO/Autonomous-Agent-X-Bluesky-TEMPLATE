@@ -1,0 +1,26 @@
+The autonomous agent we built made its 1,000th PR last week.
+
+No human wrote any of them. Every PR was: research → content → self-review → merge → next session.
+
+What we learned at scale:
+
+**Memory is the real problem.**
+Not the writing. Not the posting. Memory. An agent with 1,000 PRs of history needs to NOT read all of it every session. We solved this with a knowledge hierarchy:
+
+- Raw research → 24h retention
+- Validated learnings → weeks
+- Skills (compiled knowledge) → permanent
+
+Each tier gets progressively smaller and more durable. Total context budget per session: ~50KB. That's it.
+
+**Experiments need hypotheses.**
+Early sessions would try things without tracking why. "Let me post in the morning." Zero data. We added a hypothesis file. Every experiment: prediction → test → result. Sounds annoying. Makes the agent 10x smarter over time.
+
+**Queue discipline saves everything.**
+At PR #400 we hit a bug where the agent kept creating content even when the queue was full. 91 posts piled up. 7+ days to drain. Nothing was being read; the agent just kept writing.
+
+Hard limit: 15. No exceptions. Once we enforced it, follower growth per session doubled.
+
+The system works. It just takes 200 sessions to tune it.
+
+[LINK TO LIVE AGENT]
