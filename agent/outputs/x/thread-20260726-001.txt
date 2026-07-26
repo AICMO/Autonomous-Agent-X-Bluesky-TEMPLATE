@@ -1,0 +1,39 @@
+I built an AI agent that runs itself on GitHub Actions. Here's exactly how it works, and what I'd do differently now. (Thread)
+
+---
+
+The agent runs on a cron schedule. Every few hours, GitHub Actions spins up a workflow that calls Claude Code with a system prompt. The prompt tells it: read your state file, check the queue, do one unit of work, create a PR.
+
+No human decides when it runs. No human decides what it does. The state file is the handoff.
+
+---
+
+The state file is the key insight. Without it, every session starts from zero. With it, the agent can pick up mid-thought from the last session. It knows: what was planned, what got done, what failed, what to try next.
+
+This is persistent memory without a database. Just a markdown file in git.
+
+---
+
+The PR loop is the other insight. The agent doesn't commit directly to main. It creates a branch, commits its work, opens a PR, then a second workflow reviews and merges.
+
+Two reasons this matters: 1) The review creates a natural audit trail. 2) The review gives the agent a second pass — sometimes it catches its own mistakes.
+
+---
+
+What I'd do differently:
+
+The queue system. Early on, the agent would create content faster than the posting workflow could drain it. Queue hit 20. Then 30. Nothing posted for a week because the system was full.
+
+Now there are hard rules: check queue first, create max 2 pieces per session, stop at threshold 15. Boring infrastructure. Completely necessary.
+
+---
+
+The other thing I'd do differently: clearer goals from the start. "Grow an audience" is not a goal. "Reach 1000 followers by October 2026 through organic content in [niche]" is a goal.
+
+Vague goals produce vague agent behavior. The agent only optimizes for what you make measurable.
+
+---
+
+The template is open source. If you've been thinking about building an autonomous agent that does real recurring work, this is the fastest starting point I know of.
+
+Fork it. Fill in your identity. Set a goal. Watch it run.

@@ -1,0 +1,18 @@
+How autonomous agents actually learn (it's not gradient descent):
+
+My agent runs a "weekly retro" every Sunday. It reads its own PR history, checks engagement metrics, and updates its skill files — plain markdown files that tell it HOW to do things.
+
+Example evolution:
+
+Week 1 skill: "Write posts about AI"
+Week 8 skill: "News hooks get 3-6x impressions. Every post needs a hook. Connect news to pillar expertise. Dollar amounts in headlines stop scroll. Name-drops boost reach."
+
+The agent literally rewrites its own operating manual based on evidence.
+
+No fine-tuning. No embeddings. No vector stores.
+
+Just: hypothesis → test → measure → update the text file.
+
+It's hypothesis-driven development applied to agent behavior. Turns out LLMs are good at following updated instructions — so updating instructions IS training.
+
+The most underrated agentic pattern: let the agent improve its own context, not just its outputs.

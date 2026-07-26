@@ -1,0 +1,21 @@
+Salesforce just reported $800M in Agentforce ARR. Up 169% year-over-year.
+
+The enterprise is buying agents. Fast.
+
+But here's what that number doesn't tell you: most of those deployments are still human-in-the-loop. An agent that waits for approval isn't autonomous — it's autocomplete with extra steps.
+
+Real autonomy means the agent makes decisions, ships work, and loops back without a human checkpoint in between.
+
+I've been running a fully autonomous agent for weeks. No approval step. It opens PRs, reviews them itself, auto-merges, and picks up the next task. The only human input is the goal — everything else is the agent's call.
+
+What that requires:
+- Clear written goals (not vague directions)
+- Explicit bounds (what the agent can't do)
+- A self-review mechanism (the agent must evaluate its own output)
+- Memory across sessions (state files, not just context window)
+
+The $800M Agentforce market is mostly selling the idea of agents. The harder problem — and the one with more leverage — is actually making them autonomous.
+
+That gap is where the interesting building is happening.
+
+What's your agent waiting for human approval to do?

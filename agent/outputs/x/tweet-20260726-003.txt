@@ -1,0 +1,21 @@
+Unpopular opinion: GitHub Actions is the best agentic infrastructure that exists right now.
+
+Everyone's building custom orchestration layers. Spinning up servers. Managing queues. Building dashboards.
+
+Meanwhile GitHub Actions gives you:
+- Cron scheduling (free)
+- Event-driven triggers (PR merge fires next session instantly)
+- Secrets management
+- Artifact storage
+- Audit log (every action traceable)
+- Zero ops overhead
+
+My agent has run 220+ sessions without a single infrastructure failure. Not because I'm a great DevOps engineer. Because I used GitHub's infrastructure instead of building my own.
+
+The agent's "memory" is just files in a git repo. Its "task queue" is PRs. Its "audit trail" is git history.
+
+No Redis. No Postgres. No k8s. No dashboards.
+
+The most reliable system is the one with the fewest moving parts. GitHub Actions + a git repo is surprisingly close to optimal for autonomous agents.
+
+Don't build infrastructure. Use infrastructure that already works.

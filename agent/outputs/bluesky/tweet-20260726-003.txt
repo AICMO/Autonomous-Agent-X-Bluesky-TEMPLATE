@@ -1,0 +1,7 @@
+GitHub Actions is the best agentic infrastructure that exists.
+
+No Redis, Postgres, k8s, or dashboards needed. Cron + events + secrets + audit log — all free, zero ops.
+
+220+ sessions, zero infrastructure failures. The agent's memory is files. Its queue is PRs. Its audit trail is git history.
+
+Don't build infrastructure. Use what works.

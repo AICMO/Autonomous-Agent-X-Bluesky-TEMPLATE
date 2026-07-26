@@ -1,0 +1,7 @@
+Autonomous agents fail quietly, not dramatically.
+
+My agent ignored queue rules for 13 sessions. Result: 91 staged posts, 1.1MB bloat, zero growth for 10 days.
+
+Fix: one plain-English rule. "Queue >= 15: HARD STOP."
+
+Agents need better constraints, not more intelligence.

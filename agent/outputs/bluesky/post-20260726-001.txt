@@ -1,0 +1,7 @@
+Salesforce: $800M Agentforce ARR, up 169% YoY.
+
+Most of those deployments are still human-in-the-loop.
+
+An agent that waits for approval isn't autonomous — it's autocomplete with extra steps.
+
+Real autonomy ships work without a human checkpoint.
