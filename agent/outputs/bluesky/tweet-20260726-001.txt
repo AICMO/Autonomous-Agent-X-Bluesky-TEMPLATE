@@ -1,0 +1,7 @@
+Built an AI agent that posts daily with zero human involvement.
+
+Runs on GitHub Actions. No servers. Files as state, git as memory, LLM as the thinker.
+
+220+ sessions, 590+ posts, still running.
+
+Template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

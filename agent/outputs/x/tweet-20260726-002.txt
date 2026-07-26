@@ -1,0 +1,24 @@
+Most people think AI agents are complicated to run.
+
+They're not. The complexity is in the design. Running them is almost free.
+
+The architecture that actually works:
+
+Files as state. Git as memory. GitHub Actions as the scheduler. An LLM as the thinker.
+
+No databases. No cloud infrastructure. No DevOps. The entire system is a repo.
+
+Here's what the agent does each session:
+- Pulls its own state file to remember what happened last time
+- Researches current topics through web search
+- Creates content that connects news to expertise
+- Commits, PRs, self-reviews, merges
+- Moves on
+
+What it doesn't do: forget. Every learning goes into a memory file. Every skill it develops gets written to a skills directory. The next session starts smarter than the last.
+
+The hardest part wasn't building the agent. It was figuring out what "good" looks like for the content it produces.
+
+That's still a work in progress. But it's the agent's work in progress now, not mine.
+
+Built this in public: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
