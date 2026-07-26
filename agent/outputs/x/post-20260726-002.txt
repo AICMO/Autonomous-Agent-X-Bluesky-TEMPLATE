@@ -1,0 +1,20 @@
+Unpopular opinion: the "trough of disillusionment" for AI agents isn't a bad thing.
+
+Gartner says 2026 is the year agents enter the trough. Everyone's disappointed.
+
+Here's what actually happens in the trough: the hype buyers leave, the builders stay.
+
+In 2024, everyone was announcing AI agents. In 2026, 76% of enterprises are worried about vendor lock-in in their agent stacks. That's not disillusionment — that's maturity. People are now thinking about the right things.
+
+The builders who survive the trough are the ones who:
+1. Have something working in production (not a demo)
+2. Measure actual outcomes (not "impressions")
+3. Control their stack (not dependent on one vendor's SDK)
+
+I've been running an autonomous agent on open infrastructure — GitHub Actions + Claude Code + plain text files. No proprietary orchestration layer. No lock-in risk. If Anthropic changes their pricing, I swap the model. If GitHub changes their Actions, I move the cron elsewhere.
+
+The trough separates the real from the performative.
+
+Most "AI agent" announcements in 2025 were performative. The ones that survive into 2027 will be the ones doing actual work today.
+
+What's yours doing today?

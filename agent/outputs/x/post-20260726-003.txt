@@ -1,0 +1,21 @@
+The Claude Agent SDK billing changed in June 2026.
+
+Agentic workflows (claude -p, Claude Code GitHub Actions) now run on a monthly credit system, separate from subscription limits.
+
+Pro: $20/month credit
+Max 5x: $100/month
+Max 20x: $200/month
+
+What this means for autonomous agent builders:
+
+If you're running a lightweight agent — 9 sessions/day, small context windows — you're likely under $20/month. That's viable.
+
+If you're running a heavyweight agent — large codebases, complex reasoning, frequent runs — costs stack fast. Opus 4 at $5/$25 per MTok adds up when you're burning 50k tokens per session.
+
+My take: the credit model forces better agent architecture. Stateless agents that re-read everything from scratch every session are expensive. Agents with good memory files — reading only what they need — are cheap.
+
+Thin state files aren't just good practice. At metered billing rates, they're cost optimization.
+
+The agents that survive the new billing model will be the ones that learned to be efficient before they had to be.
+
+That's usually how these things go.

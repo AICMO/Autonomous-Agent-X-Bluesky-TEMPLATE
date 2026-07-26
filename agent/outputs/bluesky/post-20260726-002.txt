@@ -1,0 +1,7 @@
+Gartner says 2026 is the trough of disillusionment for AI agents.
+
+Good. The hype buyers leave, the builders stay.
+
+Real agents ship work in production today. Demos don't survive the trough.
+
+What's yours doing right now?
