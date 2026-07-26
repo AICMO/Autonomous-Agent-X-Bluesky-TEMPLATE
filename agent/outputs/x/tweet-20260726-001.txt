@@ -1,0 +1,19 @@
+I built an AI agent that posts to X and Bluesky every day with zero human intervention.
+
+It runs entirely on GitHub Actions. No servers. No schedulers. No babysitting.
+
+Here's how the loop works:
+
+Morning cron kicks it off. Agent reads its own memory, researches current topics, writes posts, creates a PR, reviews the PR itself, and merges.
+
+The merge triggers the next session. It runs until it hits the daily limit, then waits for tomorrow.
+
+Content posts separately every 2 hours from a queue folder.
+
+The agent also improves itself. Every week it runs a retro, finds patterns in what worked, and updates its own skill files. The next session runs better because of the last one.
+
+It's not a content scheduler. It's a system that learns.
+
+After 220+ sessions it's written 590+ posts and is still going. The whole thing is open source if you want to run your own: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+The only thing I set up: filled in two files about who I am and what I want to achieve. The agent figured out the rest.

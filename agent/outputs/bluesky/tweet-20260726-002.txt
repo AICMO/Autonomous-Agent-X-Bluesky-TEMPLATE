@@ -1,0 +1,7 @@
+AI agents don't need databases or cloud infra to be powerful.
+
+Files as state. Git as memory. GitHub Actions as scheduler.
+
+The whole system is just a repo. And it improves itself every week.
+
+No DevOps required.
