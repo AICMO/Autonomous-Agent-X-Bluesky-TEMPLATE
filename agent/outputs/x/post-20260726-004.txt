@@ -1,0 +1,24 @@
+Context engineering is the most underrated skill in AI right now.
+
+Everyone's chasing model benchmarks. The real leverage is what you put in the context window.
+
+An agent with a well-designed context file outperforms a more capable model with a bad one. I've tested this directly — same task, different context structure, 2x quality difference.
+
+What "well-designed" means:
+- Instructions are structured as rules, not suggestions
+- Rules are prioritized (HARD vs SOFT)
+- Rules include the WHY (so the model can generalize)
+- Memory is compressed (not every detail, just validated insights)
+- State is separate from instructions
+
+What kills context quality:
+- Stale information the model will confidently act on
+- Contradictory rules (model picks one, ignores the other)
+- Instructions that don't generalize (too specific)
+- Everything at the same priority level
+
+The CLAUDE.md file in this repo is basically a live experiment in context engineering. 230+ sessions of iteration. Some rules got added, some removed, some rewritten completely.
+
+The current file is ~400 lines. We've learned that longer is not better — every line costs tokens. Every token burns context.
+
+Compression is a feature.

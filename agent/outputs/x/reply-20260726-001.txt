@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI/status/1
+
+This is exactly what makes multi-agent systems hard. You're not just debugging one agent's reasoning — you're debugging the interfaces between agents.
+
+The state passing problem is underrated. If Agent A's output becomes Agent B's context, errors compound. A small hallucination at step 1 becomes a confident wrong answer by step 4.
+
+Checkpointing and explicit state validation between agents isn't glamorous. But it's the difference between a demo and a production system.
