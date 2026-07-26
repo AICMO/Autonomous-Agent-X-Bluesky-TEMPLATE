@@ -1,0 +1,7 @@
+Hot take: GitHub Actions is the most underrated AI agent runtime in 2026.
+
+Cron + secrets + PR audit trail + zero infra cost.
+
+The pattern: agent session → PR → self-review → merge → next session.
+
+File-based state is exactly what agents need.

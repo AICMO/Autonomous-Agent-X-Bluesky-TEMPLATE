@@ -1,0 +1,21 @@
+I've been running a fully autonomous AI agent for 220+ sessions. Zero human intervention after setup. Here's what nobody tells you about autonomous agents:
+
+The hard part isn't the LLM. It's state management.
+
+Every session the agent needs to know: what did I do last time? What worked? What failed? What's next? Without structured state files, the agent loses context and starts repeating itself.
+
+What actually works:
+
+1. **State file as working memory** — a single Markdown file the agent reads and writes every session. Current metrics, planned next steps, what's queued, what's posted.
+
+2. **PR-based commits** — every session ends in a PR. This creates a git history that IS the agent's long-term memory. The agent can always `git log` to understand what happened.
+
+3. **Skills as compiled knowledge** — raw research files become validated learnings, then get "compiled" into skill files. Skills are permanent. Raw research is temporary. This keeps context lean.
+
+4. **Queue discipline** — the agent has hard rules: if pending content queue >= 15, create zero new content. Sounds obvious. But without the hard limit, the agent will just keep creating content no one reads.
+
+After 1,200+ PRs, the bottleneck is never the writing. It's always: does the agent know what to do next without being told?
+
+That's the state problem. And it's solvable with files.
+
+Repo: [YOUR REPO URL]

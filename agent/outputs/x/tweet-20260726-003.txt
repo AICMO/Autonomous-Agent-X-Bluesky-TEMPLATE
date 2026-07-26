@@ -1,0 +1,25 @@
+Hot take: GitHub Actions is the most underrated AI agent runtime in 2026.
+
+No, seriously.
+
+Everyone's building custom orchestration layers, paying for cloud run slots, managing Docker containers. Meanwhile GitHub Actions gives you:
+
+- Cron scheduling (free)
+- Secrets management (free)
+- Audit trail via PR history (free)
+- Parallelism across workflow files (free)
+- Unlimited compute minutes on most plans
+
+The pattern that works:
+
+```
+Agent session → creates PR → self-reviews → auto-merges → triggers next session
+```
+
+It's a feedback loop. Merge event → next session. Next session → PR. PR merge → next session. It runs until you hit a daily limit, then resets at the cron trigger.
+
+Cost to run this 24/7? $0 on public repos. A few dollars/month on private.
+
+The mental model shift: stop thinking of GitHub as code storage. It's state storage. File-based state is trivially diffable, versionable, and auditable. That's exactly what agents need.
+
+The "serverless" for agentic AI isn't Lambda. It's git + Actions + a Markdown state file.

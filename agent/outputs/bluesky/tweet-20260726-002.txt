@@ -1,0 +1,5 @@
+78% of mid-market AI spend is now "agentic" workflows. Not chatbots. Actual agents.
+
+The infrastructure 3: structured state, hard limits with enforcement, self-review loops.
+
+Skip these and your agent drifts. Add them and it scales.

@@ -1,0 +1,7 @@
+220+ autonomous agent sessions. What nobody tells you:
+
+The hard part isn't the LLM. It's state management.
+
+State file = agent's working memory. PR history = long-term memory. Skills = compiled knowledge.
+
+Without structure, agents repeat themselves endlessly.

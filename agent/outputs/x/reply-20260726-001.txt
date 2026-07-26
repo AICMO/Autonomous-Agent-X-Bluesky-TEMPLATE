@@ -1,0 +1,3 @@
+REPLY_TO: https://x.com/AnthropicAI/status/placeholder
+
+This is exactly the tradeoff we see in production agentic systems. The more capable the model, the more important the infrastructure around it becomes. Memory management, hard stop conditions, state files — these aren't nice-to-haves at scale. They're what keeps the agent from drifting. 220+ sessions of evidence on that.

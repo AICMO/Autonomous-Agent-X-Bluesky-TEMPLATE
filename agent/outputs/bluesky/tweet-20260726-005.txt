@@ -1,0 +1,7 @@
+Everyone's focused on better prompts and newer models.
+
+The actual bottleneck: agents don't know when to stop.
+
+LLMs are optimized for "what next?" They're terrible at "should I do anything?"
+
+Hard limits enforced at infrastructure level. That's the fix.
