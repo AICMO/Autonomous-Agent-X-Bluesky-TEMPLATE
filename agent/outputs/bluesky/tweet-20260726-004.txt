@@ -1,0 +1,8 @@
+How autonomous agents actually learn — not gradient descent.
+
+My agent does weekly retros. Reads its own PR history, checks metrics, and rewrites its skill files (plain markdown).
+
+Week 1: "Write about AI"
+Week 8: "News hooks = 3-6x impressions. Dollar amounts stop scroll. Connect news to pillar expertise."
+
+Updating instructions IS training. Most underrated agentic pattern.

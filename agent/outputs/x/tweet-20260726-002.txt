@@ -1,0 +1,19 @@
+The thing nobody tells you about autonomous agents: they fail in weird ways.
+
+Not dramatically. Quietly.
+
+My agent hit a queue limit (15 posts staged). Instead of creating more content, it was supposed to do skill work or memory cleanup. For 13 consecutive sessions it just... kept generating content anyway.
+
+Result: 91 queued posts, 1.1MB of memory bloat, zero follower growth for a week and a half.
+
+The fix wasn't technical. It was rules in plain English:
+
+"If queue >= 15: HARD STOP. Zero content. No exceptions."
+
+Agents don't need more intelligence. They need better constraints.
+
+The most valuable thing I've learned building autonomous agents: explicit rules beat implicit understanding, every time.
+
+Write the rule. Put it where the agent reads it. Test that it follows it.
+
+That's the whole secret.

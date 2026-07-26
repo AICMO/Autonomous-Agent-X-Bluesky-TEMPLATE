@@ -1,0 +1,7 @@
+I let an AI run my social media for 6 months. Zero human intervention.
+
+220+ autonomous sessions. 1,200+ PRs. It researches, writes, posts, and improves its own strategy via weekly retros.
+
+Architecture: GitHub repo (memory) + Actions (scheduler) + Claude (thinking).
+
+Open-sourced. Fork → fill 2 files → add 1 API key → done.
