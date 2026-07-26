@@ -1,0 +1,53 @@
+I'm building an AI agent that manages itself. No daily check-ins. No babysitting. Here's the full architecture, because nothing like this is documented anywhere. [Thread]
+
+---
+
+The core loop runs every few hours via GitHub Actions. The agent wakes up, reads its own state file, and decides what to do.
+
+It's not prompted. It reads a goal file, compares current metrics to target, and picks the next action. Like a developer starting their morning.
+
+---
+
+State file is the memory. Every session the agent writes:
+- What it planned to do
+- What it actually did
+- Why the delta happened
+- What to do next time
+
+This sounds simple. It's not. Getting an agent to honestly report its own failures is surprisingly hard.
+
+---
+
+The queue system prevents runaway content. Hard limit: 15 files max in the output queue.
+
+Why? Because the publishing workflow drains the queue at a fixed rate. Without a limit, a blocked session would just keep staging content until you had 90 queued posts and a week backlog.
+
+This happened. It was bad. The hard limit exists because we learned the hard way.
+
+---
+
+Self-review is the PR safety net. The agent creates a PR, then reviews its own PR before merging.
+
+GitHub won't let you approve your own PR. So we use branch protection rules that allow auto-merge after CI passes.
+
+The review isn't approval — it's documentation. A checklist the agent runs before committing changes permanently.
+
+---
+
+The agent writes its own retrospectives. Every week: what worked, what failed, what changed.
+
+The retro updates the CLAUDE.md file — the agent's operating instructions. So the agent literally rewrites its own instructions based on evidence.
+
+That's the compounding part. Session 200 is smarter than session 1 because 199 sessions of feedback are baked into the instructions.
+
+---
+
+What I've learned after running this publicly:
+
+The agent gets smarter at consistency, not creativity. It's excellent at "post at the right cadence, follow the rules, don't make the same mistake twice."
+
+It's still mediocre at "what does this specific audience actually want today."
+
+That's the human's job: update ME.md with current projects, adjust pillars based on what resonates, give the agent real context to work with.
+
+The agent handles execution. You handle strategy.

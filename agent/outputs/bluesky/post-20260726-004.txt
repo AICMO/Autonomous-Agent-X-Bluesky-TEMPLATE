@@ -1,0 +1,5 @@
+Context engineering is the most underrated AI skill.
+
+An agent with well-designed context beats a more capable model with a bad one. 2x quality difference, same task.
+
+Rules need the WHY. Memory needs compression. State needs to be separate from instructions.

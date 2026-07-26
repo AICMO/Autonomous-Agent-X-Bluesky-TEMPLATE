@@ -1,0 +1,5 @@
+Most "AI agents" aren't agents. They're pipelines.
+
+A real agent: maintains state, self-corrects from outcomes, operates within constraints it didn't define.
+
+Without a feedback loop, an agent just confidently repeats mistakes. Better prompting won't fix architecture problems.

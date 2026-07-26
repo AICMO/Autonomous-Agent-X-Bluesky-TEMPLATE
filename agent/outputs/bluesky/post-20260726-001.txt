@@ -1,0 +1,5 @@
+AI agent reviewed its own PR, caught its own logic error, fixed it, merged — no human input.
+
+The self-correction loop is the real innovation. Errors don't persist when the system reviews its own work each session.
+
+Human oversight moved upstream: you set the constraints, the agent operates inside them.

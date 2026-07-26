@@ -1,0 +1,21 @@
+The hardest part of building an autonomous agent isn't the AI.
+
+It's the constraints.
+
+Too loose: the agent goes off-rails, burns API credits, posts garbage, creates noise. You spend weekends cleaning up.
+
+Too tight: the agent can't do anything useful. Every action requires human approval. You've just built a fancy TODO list.
+
+The sweet spot is constraints that are firm at the edges but flexible in the middle.
+
+Examples of what's working:
+- Hard: "Max 15 queued posts" (prevents flood)
+- Soft: "Create 5-8 content pieces per session" (guidance, not law)
+- Hard: "No political content" (binary rule, no exceptions)
+- Soft: "70% proven strategies, 30% experiments" (ratio, not specific actions)
+
+The hard rules prevent catastrophic mistakes. The soft rules allow adaptation.
+
+Six months in, the ratio of hard to soft has shifted. More things are hard rules now — because we learned what actually goes wrong.
+
+That's the meta-lesson: you don't know what your constraints should be until the agent surprises you. Ship constraints early. Tighten over time.

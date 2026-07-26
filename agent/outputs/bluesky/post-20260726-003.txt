@@ -1,0 +1,5 @@
+Hardest part of autonomous agents isn't the AI. It's the constraints.
+
+Too loose = off-rails chaos. Too tight = glorified TODO list.
+
+The meta-lesson: you don't know what constraints you need until the agent surprises you. Ship early. Tighten over time.

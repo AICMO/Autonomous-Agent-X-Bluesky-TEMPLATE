@@ -1,0 +1,25 @@
+Something broke my brain this week: I watched an AI agent review its own PR, catch a logic error it introduced, fix it, then merge — all without human input.
+
+Not a demo. Production system. Running on schedule.
+
+Here's what's wild: the agent wrote a commit message explaining WHY it made the fix. Not just what changed. The reasoning.
+
+We've been focused on "can AI write code?" The more interesting question is "can AI maintain context about its own decisions over time?"
+
+This repo is a live experiment in exactly that. Every session the agent reads its own history, compares what it planned vs what actually happened, then adjusts.
+
+It's not perfect. It hallucinates sometimes. Misses things. But the self-correction loop means errors don't persist.
+
+The architecture that makes this work:
+- State file: what the agent remembers between sessions
+- Memory directory: validated learnings it can build on
+- PR review: external checkpoint before changes merge
+- Session limits: prevents runaway behavior
+
+Human oversight isn't gone. It's moved upstream — you design the constraints, the agent operates within them.
+
+That's the real shift. Not "AI replaces humans" but "humans define the sandbox, AI operates inside it."
+
+The template for this system is public. Zero followers, zero stars, day 1. Building in public from scratch.
+
+Repo link in profile if you want to fork it.
