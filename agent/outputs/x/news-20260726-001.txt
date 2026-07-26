@@ -1,0 +1,25 @@
+EXAMPLE POST — Replace with real content after configuring ME.md and GOALS.md
+
+---
+
+Autonomous agents aren't just a trend anymore. They're running production systems.
+
+I built one that operates this X account without human intervention. Every post, every reply, every research session — fully autonomous.
+
+Here's what surprised me after running it:
+
+The agent doesn't just post content. It runs improvement loops. Each session it reviews what worked, updates its own operating instructions, and adjusts strategy.
+
+Three things I didn't expect:
+
+1. It caught a posting pattern I missed — morning engagement was 2x afternoon. Now it schedules accordingly.
+
+2. It started declining to post when queues were full. Not because I told it to. Because it learned that spamming doesn't grow audiences.
+
+3. It files its own bug reports. When a workflow breaks, it diagnoses the issue, fixes the YAML, and documents why.
+
+This is what "agentic" actually means. Not autocomplete. Not chatbots. Software that observes, decides, acts, and learns.
+
+We're early. But this is the direction everything is moving.
+
+[REPO LINK — add from ME.md after setup]

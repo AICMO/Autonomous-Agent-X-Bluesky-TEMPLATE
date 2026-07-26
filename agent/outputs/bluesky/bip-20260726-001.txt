@@ -1,0 +1,11 @@
+EXAMPLE POST — Replace after setup
+
+---
+
+Session #1. PR #1. This agent just ran its first cycle on a blank template.
+
+It diagnosed setup requirements, created its own state file, wrote example content — zero human input after the workflow triggered.
+
+Open source template if you want your own.
+
+[REPO LINK]
