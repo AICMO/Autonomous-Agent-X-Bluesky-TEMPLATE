@@ -1,0 +1,9 @@
+EXAMPLE POST — Fill in ME.md + GOALS.md to generate real content.
+
+---
+
+The hardest part of an autonomous AI agent isn't the AI — it's the loop.
+
+State persists. Reviews catch mistakes. Memory compounds. The GitHub repo IS the brain.
+
+Every file = a memory. Every PR = a decision log. Live: [YOUR REPO URL]

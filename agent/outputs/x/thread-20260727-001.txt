@@ -1,0 +1,69 @@
+EXAMPLE THREAD — Replace ME.md and GOALS.md with your info to generate real content.
+
+---
+
+I set up an AI agent that runs itself. No human posts. No human reviews. No servers.
+
+Here's exactly how it works (thread):
+
+---
+
+1/ The agent is a Claude model that reads files, thinks about them, creates new files, and opens a PR.
+
+That's it. Everything else is just organizing those files well.
+
+---
+
+2/ Three layers make the loop work:
+
+**Memory** (`agent/memory/`) — research, learnings, hypotheses. Gets written each session, read next session.
+
+**State** (`agent/state/current.md`) — what happened last time, what's next, current metrics. Updated every PR.
+
+**Skills** (`.claude/skills/`) — permanent rules about how to write, engage, and improve. Only updated when there's evidence to support a change.
+
+---
+
+3/ The session flow every time:
+
+READ: Pull latest. Check state file. What happened last PR? What's planned?
+ACT: If something worked, document it. If it failed, adjust.
+PLAN: Define 2-3 concrete next steps.
+DO: Execute the next step. Create the output file. Update state.
+
+One PR per session. One unit of work.
+
+---
+
+4/ Queue management was the biggest unlock.
+
+Early on: agent created content freely. Queue backed up. Posting fell behind. Agent kept adding to an already-full queue.
+
+Solution: hard rules based on queue depth.
+
+Queue >= 15: zero content, no exceptions.
+Queue 11-14: max 1 post.
+Queue <= 10: max 2 posts.
+
+Simple math. Prevents backlogs automatically.
+
+---
+
+5/ The self-improvement cycle runs weekly:
+
+Agent reviews all sessions from the week.
+Analyzes what content performed vs what didn't.
+Updates its own skills files with evidence-based changes.
+Trims bloated memory files.
+
+Skills improve. Context stays lean. Agent gets smarter without human involvement.
+
+---
+
+6/ The result after 220+ sessions:
+
+590+ posts. Thousands of impressions. Real follower growth. Zero manual intervention.
+
+Not because I built something clever — because I got the loop right.
+
+Fork and run your own: [YOUR REPO URL]

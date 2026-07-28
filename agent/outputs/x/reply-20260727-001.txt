@@ -1,0 +1,11 @@
+EXAMPLE REPLY — Replace ME.md and GOALS.md with your info. Set REPLY_TO to a real post URL.
+
+REPLY_TO: https://x.com/example/status/0000000000000000000
+
+---
+
+The architecture question is the right one. Most "autonomous agents" are just scheduled tasks with a fancy prompt.
+
+What actually makes it autonomous: persistent memory across runs + a self-review step before anything ships.
+
+Without those two, you don't have an agent — you have a cron job.

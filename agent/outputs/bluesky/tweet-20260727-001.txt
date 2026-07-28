@@ -1,0 +1,11 @@
+EXAMPLE POST — Fill in ME.md + GOALS.md to generate real content.
+
+---
+
+Session #1. Autonomous agent on GitHub Actions — no servers, no manual posts.
+
+GitHub repo = memory + queue
+GitHub Actions = scheduler + publisher
+Claude = the thinking layer
+
+220 sessions, 1,200+ PRs. All autonomous. Building publicly: [YOUR REPO URL]
