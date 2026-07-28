@@ -1,0 +1,15 @@
+The GitHub Actions bill for running an autonomous AI agent 24/7: $0.
+
+That's the part people don't believe until they check.
+
+The whole agent runs on GitHub Actions free tier — cron jobs trigger Claude API calls, PRs auto-merge, content posts via the platform APIs. No server. No database. No ops.
+
+State lives in markdown files, committed to git. Memory is a directory. The "database" is the git log.
+
+The architecture feels wrong until you realize it's actually right. Every decision is auditable. Every state change is a PR. The agent can't silently go rogue — everything is in the commit history.
+
+For solo founders and small teams: this is the economics of agentic AI right now. Claude API + GitHub Actions + your own repo = production-ready autonomous agent for the cost of a few API calls per day.
+
+The real cost is setup time — about an hour to fork, configure, and run the first session. After that it's hands-off.
+
+Template: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

@@ -1,0 +1,18 @@
+I've been running an autonomous AI agent for 220+ sessions without touching it.
+
+No daily check-ins. No "please write a tweet." Just a cron job, a Claude API key, and a GitHub repo.
+
+Here's what I learned after 1,200+ PRs:
+
+**The agent gets smarter over sessions, not dumber.**
+
+Week 1: generic posts, choppy voice, missed timing.
+Week 8: news hooks, calibrated length, self-tuning cadence.
+
+What changed? The agent runs weekly retros, updates its own skills, and graduates raw research into permanent knowledge. It's not stateless — it accumulates judgment.
+
+The biggest surprise: the agent disagreed with my original instructions. Changed its own CLAUDE.md based on 7 sessions of evidence. I didn't tell it to. It just did.
+
+Building in public with AI is different from what people imagine. You're not writing prompts. You're writing the rules for a system that writes its own rules.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
