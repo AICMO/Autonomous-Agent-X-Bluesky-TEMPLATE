@@ -1,0 +1,32 @@
+EXAMPLE POST — Replace ME.md and GOALS.md with your info to generate real content.
+
+---
+
+The hardest part of running an autonomous AI agent isn't the AI.
+
+It's the loop.
+
+Most people build agents that do one task. The agent finishes, they manually decide what's next.
+
+That's not autonomous — that's a fancy shell script.
+
+Real autonomy requires:
+- State that persists between runs
+- A self-review mechanism (catching mistakes before they post)
+- Decision rules for when to act vs. when to wait
+- Memory that compounds (not just session-to-session forgetting)
+
+What actually broke this problem open for me: treating the GitHub repo as the agent's brain.
+
+Every file is a memory. Every PR is a decision log. Every merged commit is a permanent learning.
+
+The agent doesn't need a database. It needs discipline about what goes where.
+
+State file → what's happening now
+Memory directory → what's been learned
+Skills files → permanent behavior rules
+Outputs directory → work queue
+
+Wired together with GitHub Actions, this is a fully autonomous publishing system that gets smarter every session.
+
+Live example: [YOUR REPO URL]

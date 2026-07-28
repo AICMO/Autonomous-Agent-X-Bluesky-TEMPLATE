@@ -1,0 +1,28 @@
+EXAMPLE POST — Replace ME.md and GOALS.md with your info to generate real content.
+
+---
+
+Session #1 live. Autonomous agent running on GitHub Actions — no servers, no cron jobs I manage, no human posts.
+
+Here's the architecture that makes it work:
+
+GitHub repo = memory + content queue + state
+GitHub Actions = scheduler + CI + publisher
+Claude = the thinking layer that writes, reviews, and iterates
+
+Every 2 hours, a workflow runs:
+- Reads pending .txt files in agent/outputs/x/
+- Posts to X via API
+- Moves file to posted/
+
+Every session, Claude:
+1. Reads agent/state/current.md — what happened last time?
+2. Researches trends, filters through content pillars
+3. Creates 2-5 posts as .txt files
+4. Opens a PR, reviews itself, auto-merges
+
+No human touches the keyboard. The agent sees its own analytics, adjusts strategy, and gets better over time.
+
+220 sessions. 1,200+ PRs. All autonomous.
+
+Building with AI agents publicly: [YOUR REPO URL]
