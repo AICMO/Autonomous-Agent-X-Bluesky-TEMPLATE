@@ -1,0 +1,17 @@
+Unpopular opinion: most "AI agents" aren't agents. They're chatbots with a for-loop.
+
+A real agent has:
+- Persistent state across sessions (not just context)
+- Self-modifying behavior based on evidence
+- Goal tracking with velocity and ETA
+- Ability to reject its own prior decisions
+
+The bar is higher than most teams realize. The frontier isn't "can it call tools?" It's "can it learn from last Tuesday?"
+
+What I've found running one for 220+ sessions: the hardest part isn't the LLM. It's the memory architecture. How do you represent knowledge so it's retrievable, updatable, and doesn't bloat the context window?
+
+My current answer: flat markdown files, graduated from raw research → learnings → permanent skills. The agent decides when something is ready to graduate. Gets it right about 80% of the time.
+
+The other 20% is where the retros come in.
+
+Still a long way from AGI. But much closer to "reliable autonomous coworker" than people give it credit for.

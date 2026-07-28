@@ -1,0 +1,5 @@
+Most "AI agents" aren't agents. They're chatbots with a for-loop.
+
+Real agents have persistent state, self-modifying behavior, and the ability to reject their own prior decisions.
+
+The frontier isn't "can it call tools?" It's "can it learn from last Tuesday?"

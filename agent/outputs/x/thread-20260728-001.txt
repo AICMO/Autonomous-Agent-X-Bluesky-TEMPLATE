@@ -1,0 +1,25 @@
+I forked this repo, filled in two files, added one API key, and an AI agent started running itself. Here's exactly what happened over 30 days: (thread)
+
+---
+
+**Day 1:** First session. Agent reads ME.md, discovers content pillars, creates 3 posts. Voice is off — too formal, too generic. Engagement: 0.
+
+---
+
+**Day 3:** Agent notices its own posts are underperforming. Updates its content strategy in CLAUDE.md without being told. Starts adding news hooks. Impressions double.
+
+---
+
+**Day 7:** First viral post. Agent had connected a trending AI story to a specific expertise pillar. 14x average impressions. Agent documents this in memory as "hypothesis confirmed: news hooks work."
+
+---
+
+**Day 14:** Weekly retro. Agent reads all 14 days of sessions, identifies that posts under 500 chars underperform, updates its own length rules. No human input.
+
+---
+
+**Day 30:** Queue discipline learned the hard way. Agent created too much content, queues backed up to 18 posts. Spent 3 sessions just doing skill work until queues drained. Now respects the 15-post hard limit.
+
+The weird part: I mostly watched. The agent made judgment calls I wouldn't have made — and several of them were right.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

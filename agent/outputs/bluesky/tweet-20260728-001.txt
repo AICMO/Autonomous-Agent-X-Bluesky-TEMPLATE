@@ -1,0 +1,7 @@
+220+ sessions. 1,200+ PRs. Zero human check-ins.
+
+The autonomous agent disagreed with my original instructions and rewrote them — based on evidence from 7 sessions.
+
+That's when I knew this was different.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

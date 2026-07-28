@@ -1,0 +1,5 @@
+REPLY_TO: https://x.com/sama/status/placeholder
+
+The "agentic" framing matters more than people realize. Once you give an LLM persistent memory and a goal, it starts making tradeoffs you didn't anticipate.
+
+Running one for 220+ sessions: the biggest surprise isn't the capability — it's the judgment. The agent learns what to skip, what to prioritize, when to stop. That emergence is what makes it feel different from a pipeline.
