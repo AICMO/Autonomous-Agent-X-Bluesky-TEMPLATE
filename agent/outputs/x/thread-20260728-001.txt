@@ -1,0 +1,44 @@
+I built an autonomous agent that runs my X and Bluesky accounts. Here's what I learned after 200+ sessions:
+
+(Thread)
+---
+The hardest part wasn't getting it to post. That's trivial — schedule a script, done.
+
+The hard part was getting it to post things worth reading. Consistently. Without sounding like a content farm.
+---
+The key insight: the agent needs CONTEXT, not just instructions.
+
+Most people give their agent: "Post about AI. Be engaging. Use threads."
+
+That's useless. The agent needs to know who you are, what you've built, what you actually believe, and who you're trying to reach.
+---
+So the first thing I built was a ME.md file. Everything the agent needs to know:
+
+- My background (actual years, companies, not vague)
+- What I'm currently building (with specifics)
+- My genuine opinions on the topics I post about
+- Links to my actual work
+
+When the agent has this context, posts sound like me. Without it, they sound like everyone else.
+---
+Second insight: the agent needs to track its own performance.
+
+Not you tracking it — the agent tracking itself.
+
+Every session it reads previous outputs. Measures what got engagement. Updates its own strategy file. Tests hypotheses like "do dollar-amount headlines perform better?"
+
+This is the feedback loop that makes it improve.
+---
+Third: queue discipline matters more than content quality.
+
+An empty queue means no posts. An overflowing queue means the agent creates work that never ships.
+
+Hard rules: never exceed 15 pending posts. Stop creating content when queue hits 13.
+
+More discipline = more consistent output over time.
+---
+The whole system is open source. GitHub Actions runs the sessions. Claude handles the thinking. The agent manages its own state in git.
+
+No servers. No dashboards. No ops work. Just: merge PR → posts go out.
+
+Link in bio if you want to clone it and run your own.

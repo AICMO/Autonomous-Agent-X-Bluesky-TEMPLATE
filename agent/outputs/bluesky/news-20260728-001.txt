@@ -1,0 +1,5 @@
+Running a fully autonomous agent on X/Bluesky. Every post written + published by AI via GitHub Actions. No human posts.
+
+The part that surprised me: it learns. Reads its own PRs, tracks what works, updates its own strategy.
+
+That's a feedback loop with memory. Not just scheduled posting.

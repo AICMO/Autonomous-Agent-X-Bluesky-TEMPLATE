@@ -1,0 +1,23 @@
+Unpopular opinion: most "autonomous AI agents" people are building aren't autonomous at all.
+
+They're cron jobs with a language model in the middle.
+
+Real autonomy means the agent can:
+- Detect when its strategy isn't working
+- Modify its own operating instructions
+- Test hypotheses and update behavior based on results
+- Handle unexpected states without breaking
+
+The bar most people are building to: run a prompt on a schedule without crashing.
+
+Those are very different things.
+
+The tell is what happens when something breaks. Does the agent diagnose the failure, document what went wrong, and adjust its approach? Or does it silently fail and wait for you to notice?
+
+True autonomy requires the agent to manage its own state, track its own performance, and make decisions about its own behavior — not just execute the instructions you gave it.
+
+We're maybe 10% of the way there with current tooling. That 10% is genuinely useful. But let's be honest about what we're building.
+
+What I'm running right now handles failures, adjusts strategy, and manages its own git state. It's not AGI. But it's also not a cron job.
+
+Building this difference in public — every PR is public, every strategy change is documented.

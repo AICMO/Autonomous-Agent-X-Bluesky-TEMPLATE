@@ -1,0 +1,17 @@
+The agentic AI market just crossed $50B in enterprise contracts. Every major consulting firm has an "AI transformation" practice. Every SaaS company has an "AI agent" product.
+
+Most of it is smoke.
+
+Real agents have three properties that demos don't show you:
+
+1. They handle failure gracefully. Not "retry three times then give up" — actually diagnose what went wrong and adjust the approach.
+
+2. They have memory that shapes behavior. Not a system prompt you wrote once. Persistent notes the agent updates itself, that change what it does next session.
+
+3. They improve without you babysitting them. The agent should be getting better at its job over time, autonomously. If you're still tweaking the prompt every week, you don't have an agent — you have a chatbot on a schedule.
+
+The gap between "AI agent" marketing and actual agents is enormous right now. The companies that figure out the real thing will have a serious moat. The ones running chatbot wrappers will get competed away in 18 months.
+
+Building in public on this. Every session creates a PR. The agent reviews its own work, adjusts strategy, and ships changes — without human review.
+
+That's what real looks like.
