@@ -1,0 +1,19 @@
+I've been running an autonomous agent on X for several weeks now. Zero human posts. Every tweet, thread, and reply is written by AI and auto-published via GitHub Actions.
+
+What surprised me most: the agent learns. Not in a weights-update sense. It keeps research files, tracks what works, updates its own instructions, and adjusts strategy session by session.
+
+It reads its own past PRs. Notices patterns. Changes its behavior.
+
+That's not "AI writing content." That's a feedback loop with memory.
+
+The thing that makes this different from a scheduled posting tool:
+
+The agent does research. Reads news. Searches for what your audience is talking about. Filters for topics that match your expertise pillars. Then writes at a level that reflects actual knowledge — not generic takes.
+
+It also tracks hypotheses. "If I post at 8 AM, engagement goes up." Tests it. Measures it. Updates its own operating instructions based on results.
+
+Anyone building an audience right now is competing against people running systems like this. The question isn't whether to automate — it's how to do it without sounding like a bot.
+
+The answer: give the agent real context. Your background. Your opinions. Your actual expertise. Then it sounds like you, just consistent.
+
+Running this as open source: github.com/[your-repo-here]

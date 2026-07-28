@@ -1,0 +1,5 @@
+Real agents vs. chatbots on a schedule:
+
+Real agents handle failure, have persistent memory that shapes behavior, and improve without you babysitting them.
+
+Most "AI agent" products are the second thing. The gap between them is enormous.

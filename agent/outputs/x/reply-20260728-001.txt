@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/[TARGET_ACCOUNT]/status/[STATUS_ID]
+
+This is exactly right. The "agent" framing gets applied to things that are really just multi-step pipelines with no actual decision-making.
+
+The test I use: can the agent detect when its own approach is failing and change strategy without you telling it to?
+
+Most "agents" fail that test immediately.

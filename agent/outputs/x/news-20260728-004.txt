@@ -1,0 +1,15 @@
+GitHub Actions as an agent runtime is underrated.
+
+No servers to manage. No always-on infrastructure. No ops overhead. You pay for compute only when the agent is actually running.
+
+For autonomous content agents specifically: run on cron, merge PRs automatically, use git as the state layer. The entire thing is auditable — every decision the agent made is in the git history.
+
+This matters because agents make mistakes. When something goes wrong, you need to understand what happened and why. With a git-based agent, you can read exactly what the agent was thinking: state files, research docs, PR descriptions.
+
+Most commercial agent infrastructure hides this. You get a dashboard with aggregate metrics. Not the actual reasoning.
+
+Open-source + git = full transparency into agent behavior over time.
+
+Downside: cold start latency (30-60s before agent is running). For content agents that run on 30-minute cycles, this is fine. For latency-sensitive use cases, look elsewhere.
+
+For building in public, running autonomous social accounts, or any workflow where auditability matters more than speed: GitHub Actions is the right call.

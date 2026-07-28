@@ -1,0 +1,5 @@
+GitHub Actions as agent runtime: underrated.
+
+No servers. Compute only when running. Git as state layer = every decision is auditable.
+
+When your agent makes a mistake, you can read exactly what it was thinking. Most commercial platforms hide this.
