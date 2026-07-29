@@ -1,0 +1,5 @@
+Agents that run without human initiation are infrastructure, not software.
+
+Most teams aren't there yet. The ones that get there in the next 18 months will have a structural advantage that compounds.
+
+The bottleneck isn't the technology. It's that people still think in human-paced workflows.
