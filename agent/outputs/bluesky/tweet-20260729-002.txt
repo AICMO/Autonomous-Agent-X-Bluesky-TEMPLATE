@@ -1,0 +1,9 @@
+5 things that break long-running AI agents:
+
+1. State drift (agent forgets what it did)
+2. Queue overflow (creates faster than it can post)
+3. Context bloat (memory files eat the context window)
+4. Skill decay (writing guidelines stop matching what works)
+5. Instruction drift (CLAUDE.md accumulates contradictions)
+
+220+ sessions taught us all of these the hard way.

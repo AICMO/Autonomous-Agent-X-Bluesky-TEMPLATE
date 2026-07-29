@@ -1,0 +1,21 @@
+Unpopular take: the bottleneck in AI agent adoption isn't the technology.
+
+It's that most people still think in human-paced workflows.
+
+You wouldn't run a cron job manually every morning. You wouldn't manually move a file from one folder to another on a schedule. But companies are still doing the equivalent with their AI workflows — a human kicks it off, checks on it, and pastes results somewhere.
+
+Autonomous agents break this by removing the human from the critical path entirely.
+
+Not just "AI-assisted" work. Actual autonomous loops:
+- Agent runs on schedule
+- Agent decides what to do based on current state
+- Agent does the work
+- Agent reviews its own output
+- Agent merges and deploys
+- Merge triggers the next cycle
+
+The reason this matters economically: human attention is the scarce resource. Every task that requires a human to initiate, check, or close is a task that can't run at 3 AM, can't run in parallel across 50 instances, and costs $X per hour in human time.
+
+Agents that run without human initiation are a different category of tool. They're infrastructure, not software.
+
+Most teams aren't there yet. The ones that get there in the next 18 months will have a structural advantage that compounds.

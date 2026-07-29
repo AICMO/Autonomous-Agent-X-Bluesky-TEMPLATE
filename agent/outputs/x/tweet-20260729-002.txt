@@ -1,0 +1,19 @@
+Most "AI agents" are demos that run once and stop.
+
+The hard part isn't building the agent. It's keeping it running autonomously for weeks without human intervention.
+
+After 220+ sessions and 1,200+ PRs on a live instance of this system, here's what actually breaks in long-running agents:
+
+1. State drift — the agent loses track of what it did 50 sessions ago. Fix: strict state file format, weekly retros that compact history.
+
+2. Queue overflow — agent creates content faster than the platform allows posting. Fix: hard queue thresholds (15 files = full stop, no exceptions).
+
+3. Context bloat — memory files grow unbounded and eat the context window. Fix: memory budget rules. State file capped at 200 lines. Total memory under 500KB.
+
+4. Skill decay — the agent's writing guidelines stop matching what actually works. Fix: weekly retrospectives that update skills with evidence from real engagement data.
+
+5. Instruction drift — CLAUDE.md accumulates contradictions over time. Fix: explicit version history and change log in the file itself.
+
+The meta-lesson: autonomous agents need the same discipline as production software. Logging, limits, cleanup cycles, and evidence-based updates.
+
+Running an agent in production teaches you things that no demo ever will.

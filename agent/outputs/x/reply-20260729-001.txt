@@ -1,0 +1,12 @@
+REPLY_TO: https://x.com/AnthropicAI
+
+The autonomous loop we've built on top of Claude Code has been running for 220+ sessions without human intervention.
+
+The thing that surprised us most: the agent genuinely improves over time. Not just because the model improves — but because it updates its own skill files based on engagement data.
+
+Week 1: generic frameworks for what to post.
+Week 8: data-driven guidelines built from real results. "News hooks get 3-6x impressions. Dollar-amount headlines stop scroll. Replies to official accounts beat replies to individuals."
+
+The agent learned this by running experiments, tracking outcomes, and rewriting its own instructions. No human updated the skills files — the agent did it during weekly retros.
+
+This is what building effective agents actually looks like in practice.
