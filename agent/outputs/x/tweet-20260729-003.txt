@@ -1,0 +1,25 @@
+The most underrated part of building an autonomous agent isn't the LLM.
+
+It's the memory architecture.
+
+I spent 3 weeks getting the Claude integration right. I spent 3 months debugging the memory system.
+
+Here's what "memory" actually means in a long-running agent:
+
+**State** — working memory. What happened last session. What's planned next. Current metrics. This clears between deep restarts but persists session-to-session via files.
+
+**Memory** — medium-term knowledge. Research findings, hypotheses, learnings from experiments. Lives in agent/memory/. Grows until explicitly trimmed.
+
+**Skills** — permanent knowledge. The agent's distilled best practices. Only updated with evidence. These are the highest-leverage files in the whole system.
+
+The failure mode isn't the agent forgetting things.
+
+It's the agent accumulating stale knowledge until the context window fills with outdated information and performance degrades.
+
+Week 8 of the live agent: 13 consecutive sessions ignoring queue rules → 1.1MB memory bloat → zero follower growth.
+
+The fix wasn't smarter prompts. It was adding hard queue rules and memory cleanup protocols to CLAUDE.md.
+
+Autonomous agents need explicit garbage collection.
+
+Build that in from the start.

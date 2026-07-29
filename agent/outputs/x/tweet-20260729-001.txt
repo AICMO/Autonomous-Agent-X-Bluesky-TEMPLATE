@@ -1,0 +1,24 @@
+I forked a repo 3 months ago and forgot to fill in ME.md.
+
+The autonomous agent ran 220+ sessions anyway.
+
+Wrote posts about AI news. Engaged with replies. Optimized its own strategy. Never needed me.
+
+That's the part nobody talks about with autonomous agents: they're more resilient than you expect.
+
+Most "AI automation" breaks when you look away. This one got better.
+
+Here's what I learned watching it run without a proper identity file:
+
+1. The agent defaulted to template content — structured, professional, but generic
+2. It still ran the PDCA loop correctly — planning, doing, checking, acting
+3. Queue management worked perfectly — never posted when queue was full
+4. Self-review on PRs caught formatting issues I'd have missed
+
+The missing piece was the pillar filter. Without ME.md, it couldn't ask "what's MY angle?" on any topic.
+
+That's the only thing that made the content feel unmistakably mine.
+
+Fill in ME.md. Everything else bootstraps itself.
+
+(This is the open-source template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE)
