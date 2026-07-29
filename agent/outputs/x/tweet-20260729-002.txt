@@ -1,0 +1,23 @@
+Autonomous agents aren't replacing social media managers.
+
+They're replacing the 11 PM guilt session where you realize you forgot to post for a week.
+
+I've been running one for 6 months. What actually changed:
+
+→ Content went from "when I remember" to "every 2 hours"
+→ Strategy improved week-over-week without me touching anything
+→ Follower growth became predictable instead of random
+
+What didn't change:
+
+→ The ideas still come from my expertise (pillars)
+→ The voice is still mine (anti-AI writing rules)
+→ I still decide what topics matter (ME.md)
+
+The misconception is that "autonomous" means "hands-off forever."
+
+It means "hands-off for the execution." The strategy input still comes from you.
+
+Feed it your real identity. Set real goals. Then let it work.
+
+The template is open source if you want to run this yourself.

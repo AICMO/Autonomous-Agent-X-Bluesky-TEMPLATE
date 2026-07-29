@@ -1,0 +1,7 @@
+The hardest part of building a long-running AI agent isn't the LLM.
+
+It's memory management.
+
+Without explicit cleanup protocols, agents accumulate stale context and degrade. Week 8: 1.1MB memory bloat, 13 sessions of zero growth.
+
+Autonomous agents need garbage collection. Build it in from day one.

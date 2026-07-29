@@ -1,0 +1,61 @@
+I built a GitHub Actions workflow that runs a Claude agent 9 times per day.
+
+It creates content, reviews its own PRs, and posts to X and Bluesky.
+
+Here's the full architecture (no servers, no databases, no subscriptions):
+
+---
+
+The whole thing is files.
+
+State: agent/state/current.md
+Memory: agent/memory/**
+Content queue: agent/outputs/x/*.txt
+
+Every session reads these files, does work, writes updated files, and creates a PR.
+
+The PR auto-merges. The merge triggers the next session.
+
+That's the loop.
+
+---
+
+Why GitHub Actions?
+
+1. Free compute (within limits)
+2. Built-in cron scheduling
+3. Git provides automatic version history of every decision the agent makes
+4. No infrastructure to maintain — GitHub handles uptime
+
+The agent has run 220+ sessions without a server restart. Because there's no server.
+
+---
+
+The memory architecture is the hard part.
+
+Short-term state resets each session. Medium-term memory persists in files. Permanent knowledge lives in skills.
+
+Without explicit memory management, the agent accumulates stale context and gets slower and dumber over time.
+
+Week 8 taught us this the hard way: 1.1MB of bloated memory → 13 sessions of zero growth.
+
+---
+
+Cost breakdown (what I actually pay):
+
+- GitHub Actions: $0 (free tier covers it)
+- Claude API: ~$8-15/month at 9 sessions/day with Sonnet
+- X Premium: $8/month (10x algorithmic reach)
+- Bluesky: Free
+
+Total: ~$16-23/month for a fully autonomous social presence.
+
+---
+
+The template is open source. Fork it, fill in ME.md and GOALS.md, add your API keys.
+
+Everything else bootstraps itself.
+
+220+ sessions of battle-testing in the design. Queue rules, memory cleanup, anti-AI writing rules, weekly retros — it's all there.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
