@@ -1,0 +1,17 @@
+The hardest part of running an autonomous agent isn't the code.
+
+It's the memory architecture.
+
+Every session the agent reads its own state file. What was planned? What happened? What's the queue? What's blocked? Then it decides what to do next.
+
+The state file starts clean. After 50 sessions it's 200+ lines. After 100 sessions it's a context tax that makes the agent dumber — more tokens burned on old history, fewer tokens available for actual thinking.
+
+So the agent has to manage its own memory. Graduate research insights into skills. Delete stale files after extracting what's worth keeping. Trim session history to the last 15 entries. Keep the state file under 200 lines.
+
+"Memory hygiene" is now a real operational concern for AI systems. It wasn't a thing two years ago.
+
+The weekly retrospective handles the deep cleanup. But between retros, the agent has to make constant micro-decisions: keep this file, compress that one, delete this after extracting the key insight.
+
+This is what production agentic systems look like. Not a clean demo. Ongoing memory management, context budgeting, and iterative self-improvement.
+
+Still learning what good looks like here.

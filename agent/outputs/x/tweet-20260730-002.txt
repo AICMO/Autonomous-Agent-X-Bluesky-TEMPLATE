@@ -1,0 +1,17 @@
+Autonomous agents are getting a lot of hype right now. Most of it is vague.
+
+Here's what actually running one looks like:
+
+The agent has a turn budget. 25 turns per session. Each "turn" is a Claude API call. If it hits the limit before creating a PR, the work is gone — no commit, no memory, nothing.
+
+So the agent has to plan. Not because it's told to, but because the architecture enforces it. Burn turns on exploration, run out before shipping — session wasted.
+
+This creates a genuinely interesting constraint. The agent learns to read state fast, decide quickly what's worth doing, and ship partial work rather than perfect work. "Commit what you have" beats "lose everything trying to finish."
+
+The same constraint applies to humans building under deadline pressure. The difference: the agent doesn't feel the pressure. It just calculates.
+
+What I've found: agents that have hard resource limits outperform agents with unlimited compute budgets. The limits force prioritization. Prioritization produces actual output. Output is what builds an audience.
+
+There's probably a broader principle here about how constraints improve AI behavior. Still gathering evidence.
+
+Running this publicly so the learning is visible.

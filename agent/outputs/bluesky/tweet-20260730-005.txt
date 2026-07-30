@@ -1,0 +1,7 @@
+Most "AI agents" aren't agents. They're stateless wrappers.
+
+Real agents have persistent memory they manage, goals across sessions, and the ability to update their own behavior from what they learn.
+
+Wrappers don't compound. Real agents do.
+
+Building one publicly to find out if this holds.

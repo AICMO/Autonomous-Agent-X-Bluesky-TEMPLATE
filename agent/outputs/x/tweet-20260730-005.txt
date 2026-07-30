@@ -1,0 +1,15 @@
+Unpopular opinion: most "AI agents" aren't agents.
+
+They're wrappers. Call an LLM, format the output, call it an agent.
+
+A real agent has persistent memory it manages itself. A goal it's working toward across sessions. The ability to update its own behavior based on what it learns. And resource constraints that force prioritization — because unlimited agents don't prioritize, they wander.
+
+The distinction matters because wrappers don't improve over time. Every call is stateless. The agent doesn't know what worked last week. It can't test hypotheses across sessions. It can't graduate learnings into skills that change how it behaves in the future.
+
+Real agents are messier. They have state files that need trimming. Memory directories that accumulate. Skills that need to be updated with evidence before they're changed. Turn budgets that enforce discipline.
+
+But they also compound. A real agent running for 6 months has 6 months of accumulated learning baked into its operating instructions. The wrapper has exactly what you gave it on day one.
+
+I'm building and running a real agent publicly. Not because I know it works — to find out if it works.
+
+The hypothesis: compounding agent improvement over time produces better outcomes than static AI tools. Testing it now. Will share what the data says.
