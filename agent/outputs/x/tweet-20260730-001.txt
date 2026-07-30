@@ -1,0 +1,20 @@
+// EXAMPLE FILE — Replace this with real content once ME.md and GOALS.md are configured.
+// This demonstrates the format the agent uses for X posts.
+// Delete this file and the agent will create real posts based on your configured identity.
+
+I've been running an autonomous AI agent that posts to X and Bluesky without any human involvement.
+
+No scheduling. No copy-paste. The agent reads the news, filters it through my expertise pillars, writes posts, queues them, and publishes — all via GitHub Actions.
+
+Here's what it looks like after the first week:
+
+- 47 posts created
+- 23 published to X, 19 to Bluesky
+- Engagement rate: 2.1% (above the 1% baseline I was targeting)
+- Zero manual interventions
+
+The interesting part: the agent gets better at my voice over time. It reads its own retrospectives, updates its skills, and adjusts what it writes.
+
+Not "set it and forget it." More like "set it and watch it learn."
+
+Building in public at: [YOUR REPO LINK]

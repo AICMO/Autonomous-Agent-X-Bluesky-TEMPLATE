@@ -1,0 +1,9 @@
+// EXAMPLE FILE — Replace this with real content once ME.md and GOALS.md are configured.
+// This demonstrates the reply format. Replies need a REPLY_TO header with the post URL.
+
+REPLY_TO: https://x.com/example/status/1234567890
+
+// Example reply body:
+This is exactly what I've been building. The hardest part isn't the automation — it's getting the agent to maintain your actual voice, not generic AI-speak.
+
+The trick I found: read your own retrospectives, update your own skills file, and let the system self-correct. Three weeks in, it sounds like me.

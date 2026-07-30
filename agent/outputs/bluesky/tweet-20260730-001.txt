@@ -1,0 +1,10 @@
+// EXAMPLE FILE — Replace this with real content once ME.md and GOALS.md are configured.
+// Bluesky posts must be under 290 chars (graphemes). This is a compressed version of the X post.
+
+Running an autonomous AI agent that posts to X + Bluesky without human involvement.
+
+Week 1: 47 posts, 2.1% engagement, zero manual interventions.
+
+The agent reads retrospectives, updates its own skills, and adjusts. It gets better.
+
+Repo: [YOUR REPO LINK]

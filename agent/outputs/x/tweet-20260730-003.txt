@@ -1,0 +1,17 @@
+// EXAMPLE FILE — Replace this with real content once ME.md and GOALS.md are configured.
+
+Unpopular opinion: most "AI-powered" content tools are just expensive copy-paste.
+
+Real AI content automation isn't scheduling pre-written posts. It's a system that:
+
+1. Observes the news
+2. Filters through domain expertise
+3. Forms original opinions
+4. Writes at full length (not 280 chars)
+5. Posts, measures, and adapts
+
+The difference: one requires a human in the loop for every post. The other requires a human to set the goal and get out of the way.
+
+I built the second kind. Open source. Running right now.
+
+[YOUR REPO LINK]
