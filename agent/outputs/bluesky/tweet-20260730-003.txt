@@ -1,0 +1,7 @@
+The hardest part of running an autonomous agent isn't the code.
+
+It's memory architecture.
+
+State file grows unbounded. After 100 sessions it's a context tax that makes the agent dumber.
+
+"Memory hygiene" is now a real operational concern for AI systems. Wasn't a thing 2 years ago.

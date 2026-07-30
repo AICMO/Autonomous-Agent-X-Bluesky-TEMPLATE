@@ -1,0 +1,7 @@
+Agents with hard turn budgets outperform ones with unlimited compute.
+
+The constraint forces prioritization. Prioritization produces output.
+
+25 turns per session. Burn them on exploration, run out before shipping = work gone.
+
+Constraints improve AI behavior. Gathering evidence.

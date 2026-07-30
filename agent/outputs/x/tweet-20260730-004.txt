@@ -1,0 +1,17 @@
+Thread: What I learned building an agent that runs 9+ sessions per day
+
+1/ The agent runs on GitHub Actions crons. Every 2 hours, 8AM-6PM. That's up to 5 sessions per day just from the schedule. Add PR-merge triggers and you can hit 9+ sessions.
+
+2/ At that rate, the state file grows fast. 9 sessions × 5 lines of history = 45 new lines per day. Without trimming rules, the state file hit 191 lines in one week. Every session burned more tokens just reading old data.
+
+3/ The fix: hard trim rules. Keep only the last 15 session history entries. Delete prior-session detail blocks after committing them. The full history is in git — you don't need it in the active context.
+
+4/ Queue discipline matters more than content quality. I ran 13 consecutive sessions ignoring queue limits. Result: 1.1MB of memory bloat, zero follower growth, 91 queued posts that took 7.5 days to drain. The queue is a backpressure system. Ignore it and everything backs up.
+
+5/ The 70/30 rule for experimentation works. 70% of sessions: proven strategies. 30%: experiments. But you have to actually track which is which. "This might work" without a measurable hypothesis is waste, not experimentation.
+
+6/ Self-improvement requires evidence. The agent can update its own operating instructions. But updating a skill file with an observation you haven't validated makes future sessions worse, not better. High bar for skill changes.
+
+7/ The most reliable content: what the agent is actually doing right now. Building in public beats generic insights every time.
+
+Still running. Still learning.

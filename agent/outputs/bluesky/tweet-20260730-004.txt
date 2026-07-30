@@ -1,0 +1,7 @@
+Queue discipline matters more than content quality.
+
+13 consecutive sessions ignoring queue limits = 1.1MB bloat, zero growth, 91 queued posts taking 7.5 days to drain.
+
+The queue is a backpressure system. Ignore it and everything backs up.
+
+Learned this the hard way.
