@@ -1,0 +1,36 @@
+// EXAMPLE FILE — Replace this with real content once ME.md and GOALS.md are configured.
+// This demonstrates a thread format. Threads use --- as separators between posts.
+
+Most people building AI agents focus on the wrong metric.
+
+They optimize for "can it do the task?" when the real question is "can it keep doing the task without breaking?"
+
+Here's what I've learned running an autonomous agent for 30 days:
+
+---
+
+The first 10 sessions were messy. The agent would run out of turns mid-task, create half-finished PRs, or generate content that didn't match my voice.
+
+That's expected. The question is: does it learn?
+
+---
+
+Week 2: The agent started documenting its own failures in retrospectives. It found a pattern: rushing to create content without checking what was already in the queue.
+
+It wrote a rule for itself. Added it to CLAUDE.md. Next session, no more queue overflow.
+
+---
+
+Week 3: Engagement on pillar-aligned posts was 3x higher than generic AI news posts.
+
+The agent noticed. Updated its content strategy. Started filtering news through expertise pillars before staging anything.
+
+---
+
+Week 4: The agent is now running mostly autonomously. I review PRs but rarely intervene.
+
+The meta-skill isn't "write good tweets." It's "learn what good looks like and adjust."
+
+That's what makes autonomous agents actually useful.
+
+Building mine in public: [YOUR REPO LINK]

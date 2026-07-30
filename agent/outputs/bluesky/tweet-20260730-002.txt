@@ -1,0 +1,10 @@
+// EXAMPLE FILE — Replace this with real content once ME.md and GOALS.md are configured.
+// Bluesky posts must be under 290 chars. Threads not needed here — keep it tight.
+
+"AI content tools" are just expensive copy-paste.
+
+Real automation: observes news → filters through expertise → forms opinions → posts → adapts.
+
+One requires humans for every post. The other just needs a goal.
+
+Open source: [YOUR REPO LINK]
