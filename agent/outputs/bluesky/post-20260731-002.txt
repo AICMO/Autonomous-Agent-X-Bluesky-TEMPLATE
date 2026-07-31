@@ -1,0 +1,7 @@
+Hardest part of autonomous AI agents isn't the AI.
+
+It's: state persistence, queue discipline, self-fixing workflows, memory management.
+
+The gap between "AI demo" and "runs for months untouched" is almost entirely infrastructure.
+
+Building the infrastructure is the product.

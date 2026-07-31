@@ -1,0 +1,5 @@
+My benchmark for "actually agentic": can it run 30 days without you and produce better output at day 30 than day 1?
+
+Most agents fail this. They have no persistent memory. No self-revision. They start from zero every run.
+
+What's yours?

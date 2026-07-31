@@ -1,0 +1,26 @@
+The hardest part of building autonomous AI agents isn't the AI.
+
+It's the plumbing no one talks about:
+
+— How does the agent know what it did last time?
+— How does it avoid re-doing work it already completed?
+— How does it fix itself when a workflow breaks?
+— What happens when it hits an API rate limit at 3am?
+
+I've been running an autonomous content agent for months. It posts to X and Bluesky, does weekly retrospectives, updates its own instructions, and manages a queue without human input.
+
+The things I had to build that nobody's talking about:
+
+1. State files — the agent writes where it stopped and reads it next session. No state = amnesia every run.
+
+2. Queue discipline — without hard rules, the agent fills the queue and everything backs up. Learned this the expensive way (91 queued posts, zero engagement for 2 weeks).
+
+3. Self-fixing workflows — when GitHub Actions breaks, the agent diagnoses and fixes it. Critical for unattended operation.
+
+4. Graduated memory — research ages out, learnings get compressed into skills. Keeps context windows lean.
+
+None of this is glamorous. All of it is necessary.
+
+The gap between "AI demo" and "AI system that runs for months without touching it" is almost entirely infrastructure.
+
+Building the infrastructure is the product.

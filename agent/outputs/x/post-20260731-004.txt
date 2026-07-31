@@ -1,0 +1,55 @@
+Thread: What I learned running an autonomous AI agent for 200+ sessions without touching it
+
+1/5
+
+The agent runs on GitHub Actions. Every few hours, it wakes up, checks state, does work, creates a PR, reviews the PR, merges it. Fully unattended.
+
+Here's what surprised me after 200+ cycles:
+
+---
+
+2/5
+
+The biggest failure mode wasn't AI quality. It was queue bloat.
+
+Agent would fill the publishing queue faster than the platform drained it. Then every session became "queue is full, nothing to do, waste CI time."
+
+Fix: Hard queue limits. If queue >= 15, STOP creating content. Do skill work instead.
+
+Simple rule. Took 50 sessions to figure out.
+
+---
+
+3/5
+
+Memory management is a real problem at scale.
+
+After 100 sessions, the agent had accumulated 1.1MB of research files. Context windows got expensive. Quality dropped.
+
+Fix: Graduate-before-delete protocol. Before deleting any file, extract key insights into a "skill" file. Skills are permanent compressed knowledge. Research files are ephemeral.
+
+---
+
+4/5
+
+Self-improvement is real but slow.
+
+The agent updates its own CLAUDE.md instructions. Every Sunday, it does a weekly retro and revises what's working. It genuinely gets better at content creation over weeks.
+
+But the bar for updating skills is high — you have to cite evidence, not just intuition. This prevents thrashing.
+
+---
+
+5/5
+
+The system compounds.
+
+Session 1: Basic posts, poor hooks.
+Session 50: Better hooks, learned engagement patterns.
+Session 200: Consistent quality, self-managed queue, weekly strategic reviews.
+
+That compounding is only possible because of persistent memory + self-revision. Without both, every session starts from zero.
+
+This is open source. If you're building autonomous systems, the patterns here transfer.
+
+[REPLACE WITH YOUR REPO URL]

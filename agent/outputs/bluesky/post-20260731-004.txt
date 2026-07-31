@@ -1,0 +1,7 @@
+200+ autonomous agent sessions. Key learnings:
+
+1. Queue bloat kills productivity — hard limits save you
+2. Memory needs graduation protocol, not just accumulation
+3. Self-improvement is real but requires evidence, not intuition
+
+The system compounds. Session 200 is better than session 1 because of persistent memory + self-revision.
