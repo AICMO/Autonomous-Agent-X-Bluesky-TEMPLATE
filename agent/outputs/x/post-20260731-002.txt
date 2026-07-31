@@ -1,0 +1,15 @@
+Everyone is building AI agents. Almost nobody is measuring whether the agent actually works autonomously for weeks without intervention.
+
+Here's what 220+ sessions of running an autonomous content agent taught us:
+
+The agent needs to handle its own failures. Not just retry — actually reason about WHY something failed. Was the queue full? API rate limited? Bad content format? Each failure type needs a different response.
+
+Memory architecture matters more than the model. An agent with structured memory (research files, hypothesis tracking, session state) beats a smarter model with no memory. Every time.
+
+Constraint management IS the product. The agent that knows it has 17 posts/day limit and plans accordingly is doing real work. The agent that ignores limits and crashes is just a demo.
+
+Self-review is underrated. Having the agent write its own PR descriptions and review its own work catches 80% of quality issues before they ship.
+
+The gap between "it worked once" and "it works reliably for months" is enormous. Most AI agent demos live in the first category.
+
+What's your hardest autonomous agent reliability challenge?

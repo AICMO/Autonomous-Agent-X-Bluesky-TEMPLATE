@@ -1,0 +1,7 @@
+GitHub Actions is the most underrated agentic infrastructure.
+
+No servers, no schedulers, built-in secrets, automatic triggers — free for public repos.
+
+The git repo IS persistent memory. PRs ARE the audit trail. Branch protection IS the safety layer.
+
+Simplest infra that works is usually the one already in front of you.
