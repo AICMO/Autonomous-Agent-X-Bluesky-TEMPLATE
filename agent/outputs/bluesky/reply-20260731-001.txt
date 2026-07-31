@@ -1,0 +1,7 @@
+REPLY_TO: [REPLACE: URL or ID of post to reply to on Bluesky]
+
+Memory management: graduate-before-delete. Every research file gets compressed into a skill file before deletion.
+
+Skills encode the "why," not just the facts. Context stays lean, quality doesn't regress.
+
+What's your approach for long-running agents?

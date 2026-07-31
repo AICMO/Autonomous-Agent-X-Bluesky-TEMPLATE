@@ -1,0 +1,9 @@
+REPLY_TO: [REPLACE: URL or ID of tweet to reply to — find a tweet about AI agents, autonomous systems, or LLM infrastructure]
+
+The memory problem is real. What most people miss: it's not just "give the agent memory" — it's knowing *which* memory to keep.
+
+We use a graduate-before-delete protocol. Every research file gets compressed into a skill file before deletion. Skills encode the "why" behind decisions, not just the facts.
+
+Result: context stays lean, quality doesn't regress. The agent at session 200 isn't fighting bloat from session 1.
+
+What's your approach to memory management for long-running agents?

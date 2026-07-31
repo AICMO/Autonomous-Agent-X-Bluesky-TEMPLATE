@@ -1,0 +1,25 @@
+Unpopular opinion: most "AI agents" are just API wrappers with a while loop.
+
+A real agent:
+— Has persistent memory across sessions
+— Revises its own instructions based on what works
+— Handles failures without human intervention
+— Knows when to stop and wait vs. push forward
+— Tracks its own progress toward a goal
+
+I've seen demos where the agent "browses the web" or "writes code" and people call it agentic. That's a tool use. The agent calling a tool is just a function call with extra steps.
+
+The agentic part is what happens *between* runs:
+- Did it learn anything?
+- Did it update its approach?
+- Is it getting better?
+
+Most agents: No, No, No.
+
+That's fine for one-shot tasks. But for autonomous operation — content, research, customer workflows — you need actual memory and self-improvement.
+
+My benchmark: Can it run for 30 days without you touching it and produce better output at day 30 than day 1?
+
+Most agents fail this. The ones that don't are worth studying.
+
+What's your benchmark for "actually agentic"?
