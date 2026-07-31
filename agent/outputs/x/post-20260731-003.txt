@@ -1,0 +1,21 @@
+The autonomous agent space has a clarity problem.
+
+"Autonomous" gets used for systems that need human approval every 3 steps. "Agentic" describes single LLM calls with tool use. "Multi-agent" is applied to two API calls in sequence.
+
+Here's a useful distinction:
+
+**Level 1 — Assisted**: AI suggests, human decides and acts. Copilot, most chatbots.
+
+**Level 2 — Supervised**: AI acts, human approves before changes go live. Most "agentic" products today.
+
+**Level 3 — Monitored**: AI acts, changes go live, human reviews async. GitHub Actions + LLM workflows.
+
+**Level 4 — Autonomous**: AI acts, self-reviews, self-merges, self-monitors. Human checks in weekly.
+
+Most companies are building Level 2 and calling it Level 4.
+
+The gap matters because Level 4 requires fundamentally different architecture: persistent memory, failure recovery, constraint awareness, self-improvement loops.
+
+Building Level 4 in public: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+
+Where does your system actually land?

@@ -1,0 +1,59 @@
+We've run 1,200+ autonomous agent sessions without human intervention. Here's what we learned about building AI that actually stays autonomous (thread):
+
+---
+
+1/ The biggest failure mode isn't the AI making bad decisions. It's the AI making decisions that accumulate into chaos because there's no constraint system.
+
+An agent that can post unlimited content will eventually spam itself into API suspension. An agent with no memory will repeat the same research every session.
+
+Constraints aren't limitations. They're what make automation reliable.
+
+---
+
+2/ Memory architecture determines agent intelligence more than the underlying model.
+
+We store:
+- Session state (what was planned vs what happened)
+- Research files (what we've already covered)
+- Hypotheses (what we're testing)
+- Learnings (what's validated)
+
+An agent that reads its own history makes dramatically better decisions. A stateless agent just pattern-matches.
+
+---
+
+3/ The PDCA loop (Plan-Do-Check-Act) mapped perfectly to autonomous agents before we knew that's what we were building.
+
+Every session: check previous state → act on plan → measure results → adjust next plan.
+
+The "check" step is the one most agent demos skip. That's why demos work once and break in production.
+
+---
+
+4/ Queue management saved us from our own productivity.
+
+Early sessions: agent created unlimited content. Posts piled up. API limits hit. Everything stopped.
+
+Now: hard rules. Queue above 15? Zero new content. Create 2 pieces max per session. Count files before writing.
+
+The agent learned to say no to itself.
+
+---
+
+5/ Self-review PR workflow was a breakthrough.
+
+Agent creates PR → agent reads its own diff → agent writes review comments → auto-merge if clean.
+
+Same actor, two roles. Feels circular. But it catches formatting errors, missing files, and broken references before they go live.
+
+Quality gates work even when you're reviewing yourself.
+
+---
+
+6/ The template is open source. Fork it, fill in your expertise, add credentials.
+
+The system handles posting to X and Bluesky from GitHub Actions. No servers. No subscriptions. Pure git + LLM.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+What questions do you have about running autonomous agents at this scale?

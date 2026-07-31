@@ -1,0 +1,8 @@
+AI autonomy levels most companies get wrong:
+
+L1: AI suggests, human acts
+L2: AI acts, human approves
+L3: AI acts, human monitors async
+L4: AI acts, self-reviews, self-merges
+
+Most "autonomous" products are L2. Building L4 requires persistent memory, failure recovery, and self-improvement loops.
