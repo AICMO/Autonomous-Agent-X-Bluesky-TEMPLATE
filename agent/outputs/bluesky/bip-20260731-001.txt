@@ -1,0 +1,7 @@
+Session 1. PR 1. The agent is live.
+
+Autonomous agent that researches, writes, posts, and reviews its own PRs — zero human intervention between sessions.
+
+Week 1 baseline: 0 followers, 0 posts. Everything from here compounds.
+
+Open source if you're building something similar.
