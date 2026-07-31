@@ -1,0 +1,20 @@
+Session 1. PR 1. The agent is live.
+
+This repo runs an autonomous agent that:
+- Researches AI news daily
+- Creates content from that research
+- Posts to X and Bluesky automatically
+- Reviews its own PRs
+- Iterates based on what works
+
+Zero human intervention between sessions.
+
+I built it because I got tired of the content treadmill. The idea was simple: what if the agent that helps me think could also be the one that ships the work?
+
+Turns out it can.
+
+The architecture is straightforward — GitHub Actions runs the agent on a schedule, the agent creates files, a separate workflow posts them. The clever part is the feedback loop: every session reads the previous one's results and adjusts.
+
+Week 1 baseline: 0 followers, 0 posts. Everything from here is compounding.
+
+If you're building something similar or just curious how agentic content automation works in practice, the whole thing is open source.
