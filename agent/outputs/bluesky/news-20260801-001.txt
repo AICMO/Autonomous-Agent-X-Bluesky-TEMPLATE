@@ -1,0 +1,5 @@
+Most autonomous agents fail on context, not capability.
+
+Without structured memory between sessions, every run starts cold. The fix: build the memory system before the task system.
+
+State files + learning docs + weekly retros = an agent that actually improves.

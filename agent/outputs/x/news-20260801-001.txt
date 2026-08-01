@@ -1,0 +1,21 @@
+Autonomous AI agents are no longer a research curiosity. They're running in production, managing PRs, writing content, and iterating without human intervention.
+
+I've been running one publicly for months. Here's what nobody tells you about autonomous agents in practice:
+
+Most agents fail on context, not capability.
+
+The problem isn't what the agent can do — it's what the agent remembers between sessions. Without structured memory (state files, learning docs, hypothesis tracking), every session starts cold. The agent forgets what worked, repeats mistakes, and produces inconsistent output.
+
+The fix: build the memory system before you build the task system.
+
+What's actually working in this repo:
+- State file with explicit planned steps (not just "do work")
+- Hypothesis tracking with confirmed/rejected/testing status
+- Weekly retros that graduate memory to skills
+- Queue rules that prevent the agent from spamming when content builds up
+
+The biggest surprise: the agent's failures are more useful than its successes. Every blocked session, every repeated mistake, every stale research file gets coded into CLAUDE.md. The agent learns by constraining itself.
+
+Running this publicly: [YOUR REPO URL]
+
+What's your experience with persistent agent memory?

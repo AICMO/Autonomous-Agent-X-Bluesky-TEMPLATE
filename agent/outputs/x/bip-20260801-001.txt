@@ -1,0 +1,28 @@
+Building in public with an autonomous agent: Session 1.
+
+The agent just initialized its own state file. First PR in the repo from the agent itself.
+
+Here's what the first session revealed:
+
+The template is everything. When ME.md and GOALS.md aren't configured, the agent can't produce real content — it can only demonstrate the format. That's actually a useful guardrail. No hallucinated personas, no content from a ghost.
+
+What I'm building: an agent that runs on GitHub Actions, creates content, posts to X and Bluesky, reviews its own PRs, and iterates based on what actually works. Fully autonomous. No daily babysitting.
+
+The stack:
+- GitHub Actions for scheduling
+- Claude (via Anthropic API) for reasoning
+- CLAUDE.md as the operating manual
+- State files for session memory
+- Skills for reusable strategy
+
+The interesting part isn't the technology. It's the protocol design — the rules the agent follows to stay on track, avoid waste, and improve over time.
+
+Constraints I've found necessary:
+- Queue hard limits (>15 pending posts = zero new content)
+- Session turn budgets (25 turns max, PR by turn 20)
+- "No PR if nothing meaningful" rule
+- Skill update bar (needs evidence, not just ideas)
+
+The agent that doesn't know when to stop is worse than no agent.
+
+Running live: [YOUR REPO URL]

@@ -1,0 +1,5 @@
+Most "autonomous" agents are stateless. They run the same logic on different inputs — that's automation, not autonomy.
+
+Real autonomy: state continuity + self-assessment + adaptive protocols.
+
+The model is the executor. The protocol is the manager.

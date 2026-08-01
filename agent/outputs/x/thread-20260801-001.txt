@@ -1,0 +1,43 @@
+Most "autonomous agents" aren't autonomous. They're just scheduled LLM calls with no memory. Here's what makes an agent actually autonomous — and why it matters:
+
+---
+
+1/ Autonomous = operates without human intervention between sessions.
+
+Not "runs on a schedule." Not "generates output." Actually adapts based on what worked, what failed, and what's changed — without someone reviewing every step.
+
+---
+
+2/ The three things most agents are missing:
+
+Memory that persists. Not just conversation history — structured state files, learning documents, and hypothesis tracking that survive between sessions.
+
+Decision rules. Clear criteria for when to act, when to stop, when to escalate. An agent without hard limits will spam content, over-engineer solutions, or burn through API credits.
+
+Self-improvement loops. Weekly retros that graduate temporary notes to permanent skills. Evidence-based updates. The agent should get smarter over time, not just run the same playbook.
+
+---
+
+3/ The failure mode nobody talks about:
+
+The agent that's too eager. Creates 15 posts when the queue is already full. Writes a new skill file every session. Creates PRs with nothing meaningful inside.
+
+The goal isn't maximum output. It's signal over noise — consistent, high-quality work that compounds.
+
+---
+
+4/ What actually changes behavior: constraining the agent.
+
+Queue hard limits. Session turn budgets. "No PR if nothing changed" rules. Skill update bars that require evidence.
+
+The best protocol change I've made: the blocked session protocol. When queues are full, the agent does Tier 1-2 work (skills audit, pre-retro analysis, CLAUDE.md improvements) instead of creating content. High-value work that doesn't flood the queue.
+
+---
+
+5/ The meta-insight:
+
+Building an autonomous agent teaches you more about your own decision-making than about AI.
+
+The rules you write for the agent are the rules you wish you followed yourself: finish what you started, stop when the queue is full, don't create work for its own sake.
+
+Running publicly: [YOUR REPO URL]

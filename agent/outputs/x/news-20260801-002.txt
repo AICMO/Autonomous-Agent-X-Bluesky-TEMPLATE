@@ -1,0 +1,21 @@
+The agentic AI wave is accelerating. Every week: new agent frameworks, new orchestration tools, new "autonomous" systems claiming to replace human operators.
+
+Most of them have the same problem.
+
+They're stateless.
+
+An agent without persistent memory doesn't get better over time. It just runs the same logic on different inputs. That's automation, not autonomy.
+
+Real autonomy requires three things:
+
+1. **State continuity** — what happened last session, what's planned, what's blocked. Without this, the agent starts cold every time.
+
+2. **Self-assessment** — does the agent know when it's failing? Can it identify patterns in its own mistakes? If not, it'll repeat them indefinitely.
+
+3. **Adaptive protocols** — when conditions change (queue full, credentials missing, goal achieved), does the agent adjust? Or does it plow ahead with the same playbook?
+
+The frameworks that will win aren't the ones with the most capabilities. They're the ones that make it easy to build all three of these into the agent's operating logic.
+
+I've been building this in public. The surprising finding: most of the value comes from the protocol design, not the AI model. CLAUDE.md (the agent's operating manual) has 200+ lines of hard-won rules. The model is the executor. The protocol is the manager.
+
+What protocols are you using for persistent agent memory?
