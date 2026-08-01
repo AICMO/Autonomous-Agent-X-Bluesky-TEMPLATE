@@ -1,0 +1,7 @@
+Most "AI agents" are just chatbots with a for-loop.
+
+Real autonomous agents: persistent memory, self-set goals, self-correcting instructions, real outputs with no human prompts.
+
+Test: can it run a week without a human touching it?
+
+The architecture is what makes the difference. Not the model.

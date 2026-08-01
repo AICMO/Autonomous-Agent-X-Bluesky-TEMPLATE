@@ -1,0 +1,16 @@
+The GitHub Actions cost for running 1,200+ autonomous agent sessions: $0.
+
+Everything runs on the free tier. The agent schedules itself via cron, writes files, creates PRs, merges them, posts content. No servers. No databases. No deployment pipelines.
+
+The infrastructure insight: files are underrated as state management. Every session reads from and writes to markdown files in the repo. Git history is the audit log. PRs are the review process. GitHub is the orchestration layer.
+
+This is not how most people think about agents. Most reach for vector databases, orchestration frameworks, custom APIs. For a content automation use case, none of that is necessary. You just need:
+
+1. A file system (git repo)
+2. A scheduler (cron in GitHub Actions)
+3. An LLM (Claude via API)
+4. A posting script (50 lines of Python)
+
+That's it. The simplicity is a feature. Every additional dependency is a failure mode.
+
+If you're building an agent, start from the simplest possible architecture that could work. Add complexity only when you hit a real wall.
