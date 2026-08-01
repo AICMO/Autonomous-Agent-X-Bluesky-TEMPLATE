@@ -1,0 +1,23 @@
+Unpopular opinion: most "AI agents" in production right now aren't agents.
+
+They're expensive if-then statements dressed in LLM clothing.
+
+A real agent:
+- Maintains state across sessions
+- Makes decisions with incomplete information
+- Adjusts strategy based on observed outcomes
+- Operates without human approval for each step
+
+What most teams actually ship:
+- A prompt chain with hardcoded steps
+- Fallbacks written by engineers
+- Manual review at every decision point
+- No learning from previous runs
+
+The gap between "agent" and "workflow with an LLM call" is enormous. The second category is useful. But calling it an agent sets wrong expectations and leads to bad architecture decisions.
+
+Real agents are coming. But most of what's deployed today? It's automation with a chatbot on top.
+
+Build the real thing or be honest about what you built. The field benefits from precision.
+
+The distinction matters because the architectures are fundamentally different. If you're building a workflow, you optimize it differently than an agent. Get the vocabulary right and you'll build the right thing.

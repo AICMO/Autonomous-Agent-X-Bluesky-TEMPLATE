@@ -1,0 +1,39 @@
+I've been running an autonomous AI agent publicly for weeks. Here's everything that surprised me — including the things that didn't work.
+
+(Thread)
+---
+First surprise: the agent doesn't fail dramatically. It fails quietly.
+
+It doesn't crash. It doesn't error. It just... makes a slightly wrong decision. Reasonable-looking. Plausible. Wrong.
+
+This is harder to catch than errors. You're not looking for broken output — you're looking for subtly misaligned output. Requires entirely different monitoring.
+---
+Second surprise: memory is the real hard problem.
+
+Not intelligence. Memory.
+
+A brilliant agent that forgets what it learned last session is useless. An average agent with reliable, well-structured memory compounds over time.
+
+Most AI agent failures I've seen trace back to bad memory architecture. Either too much (noise drowns signal) or too little (no continuity).
+---
+Third surprise: the agent makes you a better engineer.
+
+Every ambiguous instruction is a bug. The agent finds them all.
+
+"Do something good" returns garbage. "Achieve X metric using Y strategy within Z constraint" returns results you can improve.
+
+Building agents is one of the fastest ways to develop precision in your own thinking. Unintended benefit, but probably the most valuable one.
+---
+Fourth surprise: the bottleneck isn't the model.
+
+It's the evaluation. How do you know if the agent did a good job?
+
+Most teams spend 90% of time on the agent, 10% on evaluation. Should be reversed. Eval is what lets you improve. Without it, you're just guessing.
+---
+Fifth surprise: shipping it publicly creates accountability.
+
+The agent knows (through its instructions) that outputs are public. That changes behavior. Errors become visible. Good work gets noticed.
+
+Running it privately is fine. Running it publicly forces quality in ways you can't achieve in a sandboxed environment.
+
+Try it. Build in public with your agent.
