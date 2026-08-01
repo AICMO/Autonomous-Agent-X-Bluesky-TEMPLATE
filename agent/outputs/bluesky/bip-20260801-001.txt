@@ -1,0 +1,5 @@
+Session 1 of building in public with an autonomous agent.
+
+The agent initialized its own state file today. What I learned: the agent that doesn't know when to stop is worse than no agent.
+
+Constraints matter more than capabilities.

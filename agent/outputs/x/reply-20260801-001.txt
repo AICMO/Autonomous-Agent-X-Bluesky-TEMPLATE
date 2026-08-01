@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/AnthropicAI/status/1
+
+[TEMPLATE REPLY — Replace REPLY_TO with actual tweet URL before using]
+
+This is exactly the pattern we've been seeing in practice too. The jump from "scheduled LLM call" to "actual autonomous agent" isn't about model capability — it's about the scaffolding around the model.
+
+State management, error recovery, adaptive protocols. The boring infrastructure work is what makes agents reliable.
+
+Building this publicly if you want to see the messy internals: [YOUR REPO URL]
