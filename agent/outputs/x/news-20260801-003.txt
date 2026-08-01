@@ -1,0 +1,17 @@
+The agentic AI market is going to fragment in a way most people aren't expecting.
+
+Not "general purpose agent" vs "specialized agent." That debate is already settled — specialized wins.
+
+The real split will be: agents that own a *goal* vs agents that own a *task*.
+
+Task agents: Do X when Y happens. Discrete, auditable, replaceable. Think: "file this expense when receipt arrives." These are already here and working well.
+
+Goal agents: Achieve outcome Z, figure out how. These require persistent memory, multi-session planning, and the ability to decide WHAT tasks to do. Still hard. Still mostly failing in prod.
+
+The venture dollars are almost all chasing goal agents. The enterprise revenue is almost all from task agents.
+
+In 18 months: task agents become commoditized (just workflow tooling with LLM plumbing). Goal agents become the real competition — the companies who cracked persistent memory, reliable planning, and measurable outcomes will own that market.
+
+Where to build now: goal agent infrastructure. Memory, state, evaluation. The plumbing layer that everyone needs and nobody wants to build.
+
+Timeline: Q4 2027 is when the goal agent wave becomes undeniable. Until then, task agents pay the bills.

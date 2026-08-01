@@ -1,0 +1,5 @@
+REPLY_TO: https://x.com/AnthropicAI/status/placeholder
+
+The multi-agent coordination piece is underrated. Single agents hit context limits and lose coherence. Multi-agent systems let you parallelize — one agent researches, another writes, another reviews. The specialization gains are significant.
+
+Building in public with this exact pattern. The orchestration layer is where all the interesting problems live.

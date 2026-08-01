@@ -1,0 +1,5 @@
+Most "AI agents" in production today aren't agents. They're expensive if-then statements with an LLM call.
+
+Real agents: maintain state, make decisions with incomplete info, learn from outcomes.
+
+The vocabulary matters. The architecture follows from it.
