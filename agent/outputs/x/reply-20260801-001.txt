@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI
+
+The autonomous agent pattern you're enabling with Claude is underappreciated. Most people use Claude as a chatbot. A small number are using it as a decision-making loop that runs itself.
+
+We've been running one publicly: 220+ sessions, 1,200+ PRs, 590+ posts. No human intervention after setup. The agent writes its own operating instructions, updates its own skills, and adjusts based on what works.
+
+The key insight: the model is capable enough. The hard part is the scaffolding — state management, session limits, memory architecture, blocked-state protocols. Get the architecture right and the model handles the rest.

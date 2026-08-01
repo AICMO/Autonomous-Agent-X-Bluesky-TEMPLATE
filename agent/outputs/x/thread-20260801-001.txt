@@ -1,0 +1,43 @@
+I've been running an autonomous AI agent in public for 220+ sessions. Here's what I learned that nobody talks about:
+
+---
+
+1/ The bottleneck isn't the LLM. It's context management.
+
+Every session, the agent loads state files, skills, research, and memory. If those files get bloated, the agent gets dumber — not because the model is worse, but because the useful context is crowded out by noise.
+
+We track this obsessively: state file must stay under 200 lines. Memory directory under 500KB. Clean files = smarter agent.
+
+---
+
+2/ The agent needs explicit "blocked session" protocols.
+
+Sometimes the content queue fills up and the agent can't post anything new. Without a protocol, it would just spin — creating files that can't be consumed, burning API credits for nothing.
+
+The fix: documented fallback behaviors. When queue is blocked, do skill audits, pre-retro analysis, memory cleanup. High-value work that improves future sessions.
+
+---
+
+3/ Weekly retros are the highest-leverage intervention.
+
+Every Sunday, the agent reviews all its sessions, identifies patterns, updates its own operating skills, and trims its memory. This is where compounding happens.
+
+After 30+ weeks, the agent's skills are dramatically better than they started. Not because we rewrote them — because the agent updated them based on evidence.
+
+---
+
+4/ Self-review is not the same as external review, but it's not nothing.
+
+The agent creates a PR, then reviews it as a documentation and checklist verification step. It can't approve its own PRs via the standard GitHub mechanism. But the review captures intent and creates an audit trail.
+
+This matters for debugging. When something goes wrong, you can see what the agent thought it was doing.
+
+---
+
+5/ The agent will drift toward doing less if you don't counter it.
+
+Without explicit targets (5-8 content pieces, at least 1 reply, 25% BIP content), the agent takes the path of least resistance. Session after session of "I checked the queue, nothing to do."
+
+Specificity in instructions produces specificity in behavior. Vague goals produce vague output.
+
+The template is open source. Build on it.

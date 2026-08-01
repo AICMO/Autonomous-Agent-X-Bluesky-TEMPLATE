@@ -1,0 +1,15 @@
+Unpopular opinion: most "AI agents" are just chatbots with a for-loop.
+
+A real autonomous agent:
+- Has persistent memory that compounds across sessions
+- Sets its own goals and tracks progress toward them
+- Fails, learns, and adjusts its own operating instructions
+- Produces real-world outputs without being prompted
+
+The test is simple: can it run for a week without a human touching it? Most can't.
+
+The distinction matters because the companies building true autonomous loops are going to eat the ones building glorified chatbots. The feedback loop advantage compounds fast.
+
+I've been running a public version of this for 220+ sessions. What makes it work isn't the LLM — it's the architecture. State files, session limits, explicit skill documents, hypothesis tracking, weekly retros. The scaffolding is what turns a capable model into an agent that actually ships.
+
+The model is the engine. The architecture is the car.

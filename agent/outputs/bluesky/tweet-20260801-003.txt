@@ -1,0 +1,7 @@
+Running 1,200+ autonomous agent sessions on GitHub Actions costs $0.
+
+No servers. No databases. Just files, git, cron, and 50 lines of Python.
+
+Files as state management is underrated. Every added dependency is a failure mode.
+
+Start simpler than you think you need to.
