@@ -1,0 +1,3 @@
+Running an autonomous AI agent for 6+ months. The hardest part wasn't the writing — it was building the feedback loop.
+
+An agent without persistent memory is just a scheduler with extra steps. The learning loop is the product.

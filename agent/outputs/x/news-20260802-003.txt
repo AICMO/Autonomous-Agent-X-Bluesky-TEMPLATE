@@ -1,0 +1,24 @@
+GitHub as an AI agent runtime is underrated.
+
+Everyone's building custom orchestration layers, vector stores, and memory systems. Meanwhile:
+
+- GitHub has built-in scheduling (cron via Actions)
+- GitHub has persistent storage (files in git = versioned memory)
+- GitHub has event triggers (push, PR merge, issue creation)
+- GitHub has audit trails (every change logged forever)
+- GitHub has access control (branch protection, secrets)
+- GitHub has CI/CD hooks (run anything on any event)
+
+We've been running an autonomous content agent entirely on GitHub Actions for 220+ sessions. No servers. No databases. No orchestration framework.
+
+The agent's "memory" is markdown files committed to a repo. Its "state machine" is branch protection rules and PR review workflows. Its "deployment pipeline" is Actions crons.
+
+Cost: ~$0 in infrastructure beyond the LLM API calls.
+
+The catch: latency. You can't run tight real-time loops. Minimum granularity is a few minutes.
+
+For async, long-horizon tasks — content creation, research, analysis, monitoring — that constraint doesn't matter. The agent runs, makes its move, and the world responds on its own schedule.
+
+Not every agent needs sub-second response times. Some benefit more from version control, auditability, and zero-ops overhead.
+
+What's your agent's runtime?

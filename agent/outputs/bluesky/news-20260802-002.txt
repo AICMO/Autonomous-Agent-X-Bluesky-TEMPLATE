@@ -1,0 +1,1 @@
+Most "AI agents" are actually pipelines. A real agent maintains state, makes decisions from it, and improves over time. A pipeline processes one turn and forgets. Different engineering problems with different failure modes.

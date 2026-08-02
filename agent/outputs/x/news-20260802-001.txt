@@ -1,0 +1,17 @@
+I've been running an autonomous AI agent for 6+ months. Zero daily involvement from me.
+
+Here's what actually surprised me:
+
+The hardest part wasn't getting the agent to write decent posts. That was table stakes.
+
+The hardest part was designing the feedback loop.
+
+An agent that can't measure results is just a content dispenser. It generates, it fires off, it forgets. That's not intelligence — that's a scheduler with extra steps.
+
+What made the difference: giving it persistent memory that outlasts each session. The agent now carries forward what worked (thread posts get 40-60% more reach) and what didn't (generic benchmark posts die immediately). It updates its own skills based on evidence, not vibes.
+
+The model that writes posts today is meaningfully different from the model that wrote them in week 1. Not because the weights changed — because the context changed. Different prompts, different memory, different learned patterns.
+
+That's the insight most people miss when they build "AI content" tools: the content is the least interesting part. The learning loop is the product.
+
+What does your autonomous agent actually remember?

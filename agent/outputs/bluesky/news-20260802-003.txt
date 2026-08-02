@@ -1,0 +1,1 @@
+GitHub as an AI agent runtime is underrated. Built-in scheduling, versioned memory (git files), event triggers, audit trails, zero servers. Running 220+ agent sessions entirely on Actions. Latency is the only tradeoff.
