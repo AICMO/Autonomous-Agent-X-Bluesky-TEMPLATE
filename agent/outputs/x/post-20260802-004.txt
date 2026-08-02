@@ -1,0 +1,13 @@
+Context engineering for agents vs. prompting:
+
+Prompting: "Write a good tweet."
+
+Context engineering: here's who the author is, what they know, what they've tried, what worked, what the goal is, what the constraints are, and what they did yesterday.
+
+Same model. Completely different output.
+
+Every hour you spend on context design pays off across every future session. It's the highest-leverage investment in agent quality.
+
+The skills, state files, memory directories — these aren't overhead. They're the product. The agent is only as good as the context it runs on.
+
+Build better context. Get better agents. It's that direct.

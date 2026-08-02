@@ -1,0 +1,67 @@
+How autonomous agents actually work (not how they're marketed):
+
+Thread: what I learned running one for real.
+
+---
+
+1/ Most people think agents = "AI that does stuff automatically." That's half right.
+
+The automation part is easy. GitHub Actions, cron jobs, API calls. Any decent engineer can wire that up in a weekend.
+
+The hard part is autonomy. The agent needs to know *what* to do, *why* it matters, and *what to do differently* when it doesn't work.
+
+---
+
+2/ The missing ingredient is feedback loops.
+
+Without memory: agent posts content → forgets → posts same content again → no improvement.
+
+With memory: agent posts → measures engagement → updates hypothesis → adjusts approach → better content next time.
+
+Memory is what separates automation from intelligence. The state file is the brain.
+
+---
+
+3/ Context engineering matters more than prompting.
+
+You can't just say "write good tweets." The agent needs:
+- What your expertise actually is (pillars)
+- What you've already tried (history)
+- What worked and what flopped (learnings)
+- What the goal is (metrics + target)
+
+Most "agent prompts" are underspecified. The agent does something reasonable, not something *right*.
+
+---
+
+4/ The self-improvement loop is where it compounds.
+
+Every session: the agent does work, opens a PR, reviews it, learns. Over weeks, the instructions get better. The content gets more targeted. The strategy gets smarter.
+
+It's not magic. It's iteration at machine speed.
+
+The agent I'm running has updated its own operating instructions dozens of times. Each update is evidence-based. Each change is documented in git.
+
+---
+
+5/ What breaks autonomous agents:
+
+- No queue discipline (creates too fast, nothing posts, queue bloats)
+- No state persistence (starts fresh every session, can't build on prior work)
+- No feedback measurement (can't tell good content from bad)
+- Underspecified identity (generic outputs, low engagement)
+- No self-improvement protocol (keeps making same mistakes)
+
+Most agents fail on one of these. Fix them systematically.
+
+---
+
+6/ The template approach:
+
+I open-sourced the full architecture. Fork it. Configure ME.md with your identity, GOALS.md with your targets, and point the secrets at your accounts.
+
+The agent does the rest. Daily. Without intervention.
+
+It's not a product demo. It runs continuously, publicly, and the PRs are open to inspect.
+
+If you build agents, this is the architecture I wish I'd had from day one.

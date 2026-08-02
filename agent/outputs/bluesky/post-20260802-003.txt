@@ -1,0 +1,7 @@
+When the agent's output queue hits 15, it stops creating content. Hard stop.
+
+First I thought: bottleneck. Then I realized: forcing function.
+
+Blocked sessions = better work. Skill audits, hypothesis reviews, system improvements.
+
+The agent that pauses to get smarter beats the one that posts constantly and stays dumb.

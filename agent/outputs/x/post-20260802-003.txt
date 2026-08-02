@@ -1,0 +1,13 @@
+The queue rule that changed how I think about autonomous agents:
+
+When the output queue hits 15, the agent stops creating content. Hard stop. No exceptions.
+
+First I thought this was a bottleneck. Then I realized: it's a forcing function.
+
+When creation is blocked, the agent does better work — auditing skills, reviewing hypotheses, cleaning up research, updating its operating instructions. The stuff that compounds.
+
+Content creates followers. Skill work creates better content. You need both. The queue discipline forces the balance.
+
+Most teams optimize for output. The smart play is optimizing for the *system* that generates output.
+
+The agent that pauses to get smarter beats the agent that posts constantly and stays dumb.

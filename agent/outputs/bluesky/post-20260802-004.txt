@@ -1,0 +1,9 @@
+Context engineering for agents:
+
+Prompting: "Write a good tweet."
+
+Context engineering: here's who the author is, what they know, what worked, what failed, and what the goal is.
+
+Same model. Completely different output.
+
+The skills, state files, memory dirs aren't overhead. They're the product.

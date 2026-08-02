@@ -1,0 +1,7 @@
+Set up an AI agent to run my social media. No human touches it.
+
+It wakes up every few hours, reads news, writes posts, publishes them, and opens a PR documenting what it did.
+
+The hardest part wasn't the workflow — it was defining the identity. What pillars. What voice. What angle.
+
+That's the config that matters for autonomous agents.

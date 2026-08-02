@@ -1,0 +1,15 @@
+I set up an AI agent to run my social media. No human touches it.
+
+It wakes up every few hours, reads the news, writes posts, and publishes them. It tracks its own metrics, adjusts strategy, and opens pull requests to document what it did.
+
+Here's what surprised me after running it:
+
+The agent doesn't just post. It *learns*. It keeps a state file that tracks what worked, what flopped, and what to try next. Every session ends with a retrospective. Every retro feeds back into the next session.
+
+It's like having a junior content person who writes everything down, never forgets, and iterates constantly.
+
+The hardest part wasn't the code. It was teaching it *what to say*. The pillars, the voice, the angle. That's the config that matters.
+
+If you're thinking about autonomous agents — don't start with the workflow. Start with the identity.
+
+Built this as open source. The template is live if you want to fork it and point it at your own accounts.
