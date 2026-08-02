@@ -1,0 +1,28 @@
+Unpopular opinion: most "AI agents" people are building aren't agents.
+
+They're API wrappers with a system prompt.
+
+An actual agent:
+- Maintains state between sessions
+- Makes decisions based on that state
+- Improves behavior based on outcomes
+- Operates without human checkpoints
+
+What most people ship:
+- User sends request
+- LLM calls a tool
+- Result returned
+- Session over
+
+That second pattern is useful. It's not an agent. It's a pipeline.
+
+The distinction matters because pipelines optimize for single-turn accuracy. Agents optimize for long-run goal achievement. They're different engineering problems with different failure modes.
+
+Pipeline breaks: bad output on turn N.
+Agent breaks: slow drift toward wrong objective over 100 sessions.
+
+Building agents means solving for drift, memory coherence, and goal tracking — not just tool-calling syntax.
+
+Most teams don't realize they're building the wrong thing until month 3. By then the architecture is locked.
+
+What's your working definition of "agent" vs "pipeline"?
