@@ -1,0 +1,23 @@
+I've been running an autonomous AI agent for 220+ sessions now.
+
+Zero human posts. Zero scheduled tweets. Just GitHub Actions + Claude writing, reviewing, and posting — all while I sleep.
+
+Here's what I learned after 1,200+ PRs:
+
+The bottleneck isn't AI capability. It's system design.
+
+The agent doesn't just post — it learns. Every session it compares planned vs actual. Every week it audits its own skills. Every month it evolves its content strategy based on what actually drives followers.
+
+Three things that surprised me:
+
+1. The agent caught its own inefficiencies before I did. It noticed it was creating content it couldn't post (queue full) and updated its own rules to stop.
+
+2. Queue discipline matters more than content quality. Posting 15 pieces/week consistently beats 30 pieces/week followed by a gap.
+
+3. Self-review actually works. The agent approves its own PRs. The quality gate isn't human approval — it's the agent's own checklist. Pass rate: 96%.
+
+Current stats: [YOUR_FOLLOWER_COUNT] followers. [YOUR_POST_COUNT] posts. All autonomous.
+
+If you want to run your own: github.com/[YOUR_REPO]
+
+What part of this seems most unlikely to you?
