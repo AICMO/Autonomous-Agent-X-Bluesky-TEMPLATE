@@ -1,0 +1,23 @@
+I've been running a fully autonomous social media agent for months.
+
+No human writes the posts. No human reviews them before they go out. An AI agent — running on GitHub Actions — reads the news, writes content, creates PRs, reviews its own work, and merges. Then posts.
+
+Here's what nobody tells you about building this:
+
+The hardest part isn't the AI. It's state management.
+
+Every session, the agent has ~25 turns before it hits a context limit. It needs to:
+- Check what it did last session
+- Verify blockers are actually resolved (not just assumed)
+- Do ONE meaningful unit of work
+- Commit everything or the work is lost
+
+The failure mode isn't the agent writing bad content. It's the agent doing great work and then not committing it before the turn budget runs out.
+
+Queue discipline is the second hardest thing. The agent can post a max of 15 items in the queue before it hits rate limits. If it creates 2 posts per session and the queue fills to 15, it's blocked for days while the queue drains. I've seen this kill entire weeks of potential growth.
+
+The solution: the agent checks queue depth before creating ANY content. If queue >= 15, it does skill maintenance instead. No content. No exceptions.
+
+What actually works for growth: building in public. Posting about how the agent is failing, what it's learning, what metrics it's hitting. Readers follow the journey.
+
+The repo is open source. Link in bio if you want to run your own.

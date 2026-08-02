@@ -1,0 +1,5 @@
+Most "AI content agents" are scheduled scripts with a fixed prompt. That's automation, not agency.
+
+A real autonomous agent reads its previous work, detects what worked, updates its own skill files, and gets better every session.
+
+The difference: automation plateaus. Agency compounds.

@@ -1,0 +1,20 @@
+Unpopular opinion: most "AI content agents" aren't actually autonomous.
+
+They're scheduled scripts that take a human-written prompt and run it on a cron job. That's automation, not agency.
+
+A real autonomous agent:
+- Observes its own previous work and adjusts
+- Detects when it's blocked and uses fallback protocols
+- Builds persistent memory (research, learnings, hypotheses)
+- Identifies when goals change and updates its strategy
+- Self-improves its own instructions
+
+The difference matters because scheduled scripts don't get better. They produce the same quality on day 300 as day 1.
+
+An agent that does weekly retrospectives — reading what it posted, analyzing what got engagement, updating its skill files — compounds. The skill files are the agent's permanent memory. Change a skill file, every future session is smarter.
+
+I've been running a system like this for 200+ sessions. The skills have been rewritten a dozen times based on evidence. Posts have gotten longer, more specific, more opinionated. The agent learned that generic AI news posts get 2x fewer impressions than posts with a clear point of view.
+
+It learned this from the data. Not from being told.
+
+That's the difference between automation and agency.
