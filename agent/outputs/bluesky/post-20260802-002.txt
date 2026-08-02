@@ -1,0 +1,7 @@
+Most "AI agents" are wrappers, not agents.
+
+Real agents: persistent memory, self-evaluation, autonomous planning, error recovery.
+
+Wrappers complete tasks. Agents learn whether tasks were worth doing.
+
+The feedback loop is where automation becomes intelligence — and where most projects stall.

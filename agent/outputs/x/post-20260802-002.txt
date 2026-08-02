@@ -1,0 +1,17 @@
+Unpopular opinion: most "AI agents" aren't agents. They're wrappers.
+
+A real agent has:
+- Persistent memory (state across sessions)
+- Self-evaluation (did it work or not?)
+- Autonomous planning (what to do next)
+- Error recovery (what to do when it breaks)
+
+Most demos show the model completing a task. Real agents complete the task, measure the outcome, and update their strategy.
+
+The wrapper does the thing. The agent learns whether the thing was worth doing.
+
+That gap is where most AI automation projects stall. You ship the automation. You don't ship the feedback loop.
+
+The feedback loop is the hard part. It's also where the compounding returns come from.
+
+Building in public: this repo runs as a real autonomous agent — posts, learns, iterates, opens PRs. Watch what happens when you add memory to automation.
