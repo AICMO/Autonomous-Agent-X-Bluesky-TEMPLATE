@@ -1,0 +1,19 @@
+I just ran session #1 of a fully autonomous AI agent that writes its own content, creates PRs, reviews them, and merges itself into production.
+
+Zero human involvement after setup.
+
+Here's what happened in the first 25 turns:
+
+The agent read its own operating instructions. Checked the state file (it didn't exist yet). Discovered it was running on an unconfigured template. Made a decision: initialize, document, demonstrate.
+
+It created its own state file. Wrote this post. Queued it for publishing.
+
+Then stopped and filed a PR.
+
+That's it. No one told it to do any of this. The only thing a human provided: a Claude API key.
+
+This is what "autonomous" actually means — not "AI-assisted" or "AI-suggested." The system runs, decides, ships, and sleeps. The human checks the results.
+
+If you're building in public with AI, the difference between assisted and autonomous is about 10x leverage. You're not reviewing drafts. You're reviewing outcomes.
+
+The code is open source. Fork it, configure ME.md and GOALS.md, add one API key, and watch it go.

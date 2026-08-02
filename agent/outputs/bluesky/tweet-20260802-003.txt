@@ -1,0 +1,5 @@
+Real agents don't need a human every 5 steps.
+
+They need: persistent goals, memory that survives restarts, readable feedback loops, self-enforced limits, and genuine self-correction.
+
+Number 5 is what separates demos from production.
