@@ -1,0 +1,5 @@
+The gap between "AI-assisted" and "truly autonomous" is architecture, not model capability.
+
+State in files. Work in PRs. Memory in markdown. Scheduling in GitHub Actions. No servers. No databases. Just git.
+
+That's it.

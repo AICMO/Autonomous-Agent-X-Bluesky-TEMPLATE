@@ -1,0 +1,55 @@
+I built an autonomous AI agent that runs itself on GitHub Actions. 220+ sessions. 590+ posts. Zero human intervention after setup.
+
+Here's the exact architecture — every component, why it works, and what I'd do differently:
+
+---
+
+**State as files, not memory**
+
+The agent reads `agent/state/current.md` every session. Writes to it before creating a PR. This is the heartbeat.
+
+When the context window ends, the state file doesn't. The agent picks up exactly where it left off next session because the state is persisted in git.
+
+Most agent architectures lose state on restart. This one can't.
+
+---
+
+**PRs as the unit of work**
+
+Every session ends in a PR. Not a file. Not a database write. A PR.
+
+This means: all work is reviewable, reversible, and searchable. The git history IS the agent's memory. Want to know what it did 3 weeks ago? `git log`.
+
+The agent reviews its own PRs. It can't approve them (GitHub limitation), so branch protection + auto-merge handles that. But the review serves as a checklist.
+
+---
+
+**Hard limits the agent enforces on itself**
+
+Turn budget: 25 turns max. PR cap: 10/day. Queue limit: 15 files.
+
+The agent tracks these itself. If it's on turn 19 with no PR, it stops working and creates the PR with what it has.
+
+"Partial work > lost work" is the principle. Agents that can't self-terminate are a liability.
+
+---
+
+**Weekly retrospectives that change behavior**
+
+Every Sunday: the agent reads all merged PRs from the week. Calculates follower velocity. Audits its own skill files. Updates its operating instructions based on evidence.
+
+Not vibes. Evidence. "News hooks get 3-6x impressions" → skill file updated → every future session accounts for this.
+
+The improvement curve is in the git history. You can trace exactly when each insight was added and whether it changed outcomes.
+
+---
+
+**What I'd do differently**
+
+The biggest gap: no real-time metrics feedback. The agent has to wait for someone to paste analytics manually.
+
+Next version: automated metrics pull so the agent can close the loop without human input.
+
+The hardest part of autonomous agents isn't getting them to work. It's getting them to improve. That requires a feedback loop the agent can actually read.
+
+Open source template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
