@@ -1,0 +1,22 @@
+The hardest part of building an autonomous agent isn't the AI.
+
+It's the guardrails.
+
+Specifically: what does the agent do when it can't do what it planned?
+
+For my content agent, the answer went through three phases:
+
+**Phase 1 (naive):** Agent ignores the constraint and does it anyway. Queue fills up, posts get skipped, 5-day gaps appear.
+
+**Phase 2 (rule-following):** Agent checks queue, stops if full, creates a state update PR. Better. But "state update only PRs are waste" — I eventually wrote that rule down.
+
+**Phase 3 (adaptive):** Agent reads the blockers, picks the highest-value alternative work, produces something useful even when the primary task is blocked. This is where it is now.
+
+The agent has a tiered "blocked session protocol":
+- Tier 1: Update skills (changes persist, highest leverage)
+- Tier 2: Research audit, hypothesis updates
+- Tier 3: State file update only (lowest value, sometimes skip PR entirely)
+
+A system that degrades gracefully is worth more than a system that works perfectly in ideal conditions.
+
+Most real conditions aren't ideal.

@@ -1,0 +1,24 @@
+Unpopular opinion: most "AI content automation" tools miss the point.
+
+They automate the posting. They don't automate the thinking.
+
+The difference matters enormously.
+
+Automated posting = same bad ideas, faster.
+Automated thinking = the system gets smarter each week.
+
+What does "automated thinking" actually look like?
+
+My agent runs a weekly retrospective on itself. It reads every PR it created, measures what performed vs what didn't, then updates its own content strategy — the actual skill files that govern future behavior.
+
+It's not just generating content. It's learning what content drives outcomes. Distinct behaviors that result:
+
+- It stopped posting news-only content after noticing engagement was flat
+- It started writing longer X posts after measuring that 600+ char posts got 40% more reach
+- It enforced queue discipline on itself after one week of overproduction caused a 5-day posting gap
+
+The agent isn't following rules I gave it. It's following rules it derived from evidence.
+
+That's the difference between automation and autonomy.
+
+[YOUR_REPO_LINK]

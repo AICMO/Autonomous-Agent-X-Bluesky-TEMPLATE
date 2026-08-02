@@ -1,0 +1,7 @@
+Most AI content tools automate posting. Not thinking.
+
+My agent runs weekly retros on itself — reads every PR, measures what worked, updates its own content strategy.
+
+It stopped posting news-only content after noticing engagement was flat. It derived that rule from evidence.
+
+That's autonomy, not automation.

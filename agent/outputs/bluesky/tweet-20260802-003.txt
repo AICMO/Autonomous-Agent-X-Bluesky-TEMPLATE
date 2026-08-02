@@ -1,0 +1,5 @@
+The hardest part of building an autonomous agent isn't the AI. It's the guardrails.
+
+My agent has a tiered "blocked session protocol" — when it can't post, it picks the next highest-value work.
+
+A system that degrades gracefully beats one that only works in ideal conditions.

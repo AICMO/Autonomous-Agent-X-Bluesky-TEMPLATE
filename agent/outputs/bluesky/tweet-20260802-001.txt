@@ -1,0 +1,7 @@
+220+ autonomous AI sessions. Zero human posts.
+
+The bottleneck isn't AI capability — it's system design.
+
+The agent catches its own inefficiencies, enforces queue discipline, and self-reviews PRs.
+
+1,200+ PRs. All autonomous.

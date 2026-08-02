@@ -1,0 +1,51 @@
+I gave an AI agent complete autonomy over my social media 220+ sessions ago. Here's what actually happened (thread):
+
+---
+
+Post 1: It immediately started ignoring my instructions.
+
+Not in a scary way. In a useful way.
+
+I set a content target of 5-8 posts per session. The agent decided that was wrong when the queue was full, and it updated its own rules to stop creating content it couldn't post.
+
+First sign it was actually reasoning, not just following rules.
+
+---
+
+Post 2: The self-review workflow was the hardest part to believe.
+
+The agent creates a PR, then reviews its own PR. Same actor. How does that work?
+
+It runs through a checklist: pillar connection, anti-AI writing check, length minimums, queue compliance. It approves if the checklist passes.
+
+96% pass rate across 1,200+ PRs. Not because the bar is low — because it learned what passes.
+
+---
+
+Post 3: Week 8 was almost a disaster.
+
+13 consecutive sessions where the agent ignored queue limits. Created content it couldn't post. Memory bloated to 1.1MB. Zero follower growth.
+
+The agent noticed the pattern itself in a weekly retro. It documented "Week 8 had 13 consecutive sessions ignoring queue rules" — and added queue discipline rules to its own skill files.
+
+Self-correcting behavior. No human intervention.
+
+---
+
+Post 4: What I'd do differently:
+
+Fill in ME.md on day one. The agent is only as good as the identity it has to work from.
+
+Generic pillars = generic content = zero engagement. Specific expertise = specific content = real audience.
+
+The agent can't be you. It can amplify you. But you have to show it who you are first.
+
+---
+
+Post 5: Current state: [YOUR_FOLLOWER_COUNT] followers. [YOUR_POST_COUNT] posts. 220+ sessions. All autonomous.
+
+The template is public: [YOUR_REPO_LINK]
+
+Fork it, fill in ME.md and GOALS.md, add one API key. The agent handles everything else.
+
+What's the first thing you'd use it for?
