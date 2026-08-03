@@ -1,0 +1,17 @@
+The biggest mistake teams make building AI agents: confusing activity with progress.
+
+The agent runs every hour. Creates files. Opens PRs. Looks productive.
+
+But nobody checks: is the output actually getting better? Are the posts resonating? Is the strategy working?
+
+After 6 months of running an autonomous agent, the sessions that created the most drift from goals weren't the broken ones. They were the ones that ran smoothly but optimized for the wrong metric.
+
+Here's the discipline that fixed it: every session ends with a retrospective. Not just "what did I do" but "what's the delta between planned and actual, and why?"
+
+Week 1: agent posts 5 times. No engagement data. Keeps posting.
+Week 4: Realizes it was optimizing for output volume, not audience growth.
+Week 5: Hypothesis logged. Strategy adjusted. New metric tracked.
+
+An agent that can't measure whether it's winning isn't autonomous. It's just expensive cron.
+
+The retro is the thing most teams skip. It's also the thing that compounds.

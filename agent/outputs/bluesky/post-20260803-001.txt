@@ -1,0 +1,7 @@
+Real autonomy for AI agents isn't "runs on a schedule."
+
+It's: reads its own output, figures out what went wrong, updates its instructions, does better next session.
+
+Most "AI automation" is cron jobs with GPT calls. The model doesn't remember yesterday.
+
+The difference between automation and an agent: can it fire its own coach?

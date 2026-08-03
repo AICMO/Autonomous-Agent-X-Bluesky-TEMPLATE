@@ -1,0 +1,9 @@
+Biggest AI agent mistake: confusing activity with progress.
+
+The agent runs. Creates files. Opens PRs. Looks productive.
+
+But is the output actually getting better?
+
+The retro is what most teams skip. It's also what compounds.
+
+An agent that can't measure whether it's winning isn't autonomous. It's expensive cron.

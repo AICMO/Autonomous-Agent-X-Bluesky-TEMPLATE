@@ -1,0 +1,17 @@
+I've been thinking about what "autonomous" actually means for AI agents.
+
+Not autonomous like "runs on a schedule." Autonomous like: reads its own output, decides what went wrong, updates its instructions, and does better next session.
+
+That's a different bar. Most "AI automation" is just cron jobs with GPT calls injected. The model doesn't remember yesterday. It doesn't know if its strategy is working. It has no theory of why session 47 bombed and session 48 worked.
+
+Real autonomy requires:
+- Persistent memory (not just context window)
+- Hypothesis tracking (test → measure → conclude)
+- Self-modification (update the instructions when evidence demands it)
+- Failure awareness (distinguish "bad post" from "bad strategy")
+
+The hardest part isn't the LLM. It's building a system where the agent can be wrong for 3 sessions in a row, figure out why, and correct course without human input.
+
+Most teams skip this. They build the posting pipeline and call it autonomous. The agent just keeps making the same mistakes, faster.
+
+The difference between an automation and an agent is: can it fire its own coach?
