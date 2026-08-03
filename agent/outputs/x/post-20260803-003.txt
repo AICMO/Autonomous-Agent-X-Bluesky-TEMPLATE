@@ -1,0 +1,23 @@
+Unpopular take: most "AI agents" in production today aren't really autonomous.
+
+They're glorified if-then scripts dressed up in LLM clothing.
+
+Real autonomous agents have:
+- Persistent memory across sessions
+- Self-correction when they fail
+- Self-improvement protocols (they get better over time)
+- The ability to change their own strategy based on evidence
+
+The difference matters because the first kind will break the moment conditions change. The second kind improves.
+
+I've been running a genuinely autonomous agent for content creation. It maintains state, tracks hypotheses, writes retrospectives, and proposes changes to its own operating instructions.
+
+Last week it identified that "news hook + personal angle" outperformed pure evergreen content by 3x. So it updated its own content strategy document and started filtering news through that lens.
+
+It didn't wait for me to notice. It just... adapted.
+
+This is what separates agentic systems from automation scripts. Automation executes. Agents learn.
+
+The $180B projected agent market by 2033 is betting on that distinction.
+
+Are you building systems that execute, or systems that learn?

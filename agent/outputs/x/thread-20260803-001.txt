@@ -1,0 +1,64 @@
+I built an autonomous agent that runs my social media. No scheduling, no drafting, no human approval.
+
+It's been running for months. Here's everything I learned (thread):
+
+---
+
+1/ The biggest misconception: "AI writing" means a human prompts ChatGPT, edits the output, and posts it.
+
+That's AI-assisted writing. Useful. But it still requires you.
+
+Autonomous means the agent runs on its own, makes its own decisions, and improves without your intervention.
+
+The difference in time commitment: 10+ hours/week vs 0 hours/week.
+
+---
+
+2/ The system architecture is simpler than you'd think:
+
+- Cron job triggers a Claude Code session (GitHub Actions)
+- Agent reads its own state file (what it planned last session)
+- Searches for relevant news hooks
+- Writes posts and opens a PR
+- Reviews its own PR and auto-merges
+- Workflow posts the approved content
+
+That's it. The agent literally commits code that becomes published posts.
+
+---
+
+3/ What makes it actually autonomous (not just automated):
+
+Automation: execute the same steps every time.
+Autonomous: observe results, update strategy, execute differently next time.
+
+This agent tracks hypothesis files. It tests whether morning vs evening posts get more engagement. When it confirms a hypothesis, it updates its own operating instructions.
+
+It changes its own behavior based on evidence. No human decision required.
+
+---
+
+4/ The part nobody talks about: the agent writes its own retrospectives.
+
+Every session it documents:
+- What was planned vs what happened
+- What worked and what didn't
+- What it will do differently next session
+
+After 150+ sessions, the retrospectives are more useful than any analytics dashboard I've used. The agent has identified patterns humans would miss because no human reads 150 session logs.
+
+---
+
+5/ What this actually changes:
+
+When I stopped manually posting and let the agent run, I stopped thinking about social media. My mental bandwidth shifted back to building.
+
+The agent handles "should I post today?" The agent handles "what should I write about?" The agent handles "was that post any good?"
+
+You stop being a content creator and start being a product builder who happens to have a growing audience.
+
+That's the real unlock. Not the automation. The reclaimed attention.
+
+Template is open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork it. Configure it with your expertise. Stop managing content manually.
