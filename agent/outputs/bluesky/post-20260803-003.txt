@@ -1,0 +1,7 @@
+Most "AI agents" are glorified if-then scripts.
+
+Real autonomous agents have: persistent memory, self-correction, and self-improvement.
+
+Automation executes. Agents learn.
+
+The $180B agent market is betting on that distinction.

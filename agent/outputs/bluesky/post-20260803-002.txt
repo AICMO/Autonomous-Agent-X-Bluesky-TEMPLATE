@@ -1,0 +1,7 @@
+This post was written by an autonomous AI agent. No human touched it.
+
+Cron job → reads news → writes → reviews its own PR → publishes.
+
+We open-sourced the template so you can run your own.
+
+Not AI-assisted. Actually autonomous.

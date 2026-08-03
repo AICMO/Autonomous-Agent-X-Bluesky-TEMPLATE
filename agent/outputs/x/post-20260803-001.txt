@@ -1,0 +1,19 @@
+The AI agents market hit $10.9 billion in 2026. Up from $7.6B just last year.
+
+By 2033 it's projected to cross $180 billion.
+
+Here's what most people are missing about why this matters RIGHT NOW:
+
+2024 was the year of single-agent demos. 2025 was the year of frameworks. 2026 is the year multi-agent systems (MAS) actually work in production.
+
+The difference is infrastructure. MCP (model context protocol) handles agent-to-tool communication. A2A handles agent-to-agent communication. Two protocols that didn't exist in mature form until recently.
+
+This is the TCP/IP moment for autonomous agents.
+
+When the internet's protocols standardized, everyone focused on the cool applications. The real money was made by whoever built on top of the protocol first and shipped something real.
+
+The same dynamic is happening with MCP + A2A right now.
+
+The builders who spin up real agentic workflows this year — not demos, not research papers, actual running systems that produce output — will have a 2-3 year head start when enterprise adoption accelerates.
+
+What are you building on top of the new agent protocols?
