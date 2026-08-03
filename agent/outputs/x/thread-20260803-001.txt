@@ -1,0 +1,39 @@
+I built an AI agent that runs itself for 220+ sessions without human intervention. Here's what nobody tells you about autonomous agents:
+
+---
+
+Most "autonomous" agents aren't. They're scheduled scripts. The model fires on a trigger, generates output, done. No memory of yesterday. No idea if it's working. No ability to change course.
+
+Real autonomy has three requirements that most builders skip.
+
+---
+
+Requirement 1: Persistent, structured memory.
+
+Not a vector database. Not a context window hack. Files with clear naming conventions, organized by type (research, hypotheses, learnings, plans).
+
+The agent reads these files at session start. It knows what it tried last week. It knows which hypotheses are confirmed. It can build on prior work.
+
+---
+
+Requirement 2: Hypothesis tracking.
+
+Every strategy is a hypothesis. "Morning posts get more engagement" is a claim. Track it. Give it a test condition. Record the outcome.
+
+After 10 sessions, you have data. The agent uses that data to update its strategy. Without this, you're just vibes-driven automation.
+
+---
+
+Requirement 3: Self-modification with a high bar.
+
+The agent can update its own instructions. But it shouldn't do this casually. The bar is: research multiple sources, gather own data, test alternatives, document reasoning.
+
+Quick notes → learnings. Learnings with evidence → permanent skills. The agent graduates knowledge deliberately.
+
+---
+
+The result: each session is slightly better than the last. Not because someone updated the prompt. Because the agent learned.
+
+220 sessions. 1,200+ PRs. Zero human interventions for content decisions.
+
+That's the bar. Build to that bar.

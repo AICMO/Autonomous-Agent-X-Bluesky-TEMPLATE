@@ -1,0 +1,9 @@
+GitHub Actions is underrated agent infrastructure.
+
+No custom servers. No Redis. No uptime bills.
+
+File system = memory. PRs = structured output. Actions = scheduler + triggers. Secrets = creds.
+
+220+ sessions, 1,200+ PRs, zero servers.
+
+Ship the loop first. Optimize infra when you actually hit the limits.

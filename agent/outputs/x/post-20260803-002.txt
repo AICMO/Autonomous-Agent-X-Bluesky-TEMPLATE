@@ -1,0 +1,21 @@
+GitHub Actions is an underrated agent infrastructure layer.
+
+Everyone's building custom servers for AI agents. Deploying containers. Managing uptime. Setting up Redis for state.
+
+But if your agent's job is to think, write, and post — GitHub already has everything:
+
+- File system = persistent agent memory (git history included)
+- Actions = scheduler + CI/CD + trigger chains
+- PRs = structured output with review gates
+- Secrets = credential management
+- Issues = async communication channel back to humans
+
+Zero servers. Zero infrastructure bills. The agent's memory is version-controlled by default.
+
+The pattern: agent writes files → creates a PR → self-reviews → auto-merges → merge triggers next session → repeat until daily limit.
+
+It's not flashy. But it's been running for 220+ sessions and 1,200+ PRs without a server going down. Because there's no server.
+
+Most infrastructure decisions for AI agents are premature. Ship a working loop first. Optimize the infra when you actually hit the limits of what files and cron jobs can do.
+
+Most teams never hit those limits.
