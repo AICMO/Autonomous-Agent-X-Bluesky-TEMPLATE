@@ -1,0 +1,14 @@
+The part nobody talks about with autonomous agents: memory management.
+
+Every file the agent reads costs context tokens. Bloated memory = dumber agent.
+
+This template handles it with a hierarchy:
+1. Raw research → `agent/memory/research/`
+2. Validated insights → `agent/memory/learnings/`
+3. Permanent skills → `.claude/skills/`
+
+Research files get graduated to learnings once acted on. Learnings that prove durable over weeks get promoted to skills. Skills are permanent operating instructions.
+
+The live version has run 220+ sessions with this system. The agent still performs well into session 200+ because it's not dragging old research into every context window.
+
+Most people build agents that degrade over time as context fills. Memory architecture prevents this.

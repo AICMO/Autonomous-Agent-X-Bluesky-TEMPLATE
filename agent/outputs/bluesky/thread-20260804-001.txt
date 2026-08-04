@@ -1,0 +1,1 @@
+Fully autonomous content agent: GitHub repo (all state as files) + GitHub Actions (free scheduler) + Claude API (the brain). No servers. No databases. Agent self-reviews PRs, auto-merges, triggers next session on merge. Setup: 20 min. Running forever after that.

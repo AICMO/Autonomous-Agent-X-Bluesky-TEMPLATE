@@ -1,0 +1,1 @@
+Most people think autonomous AI agents need servers, schedulers, constant monitoring. This template needs: GitHub Actions (free) + Claude API + 2 markdown files. The agent self-reviews PRs, auto-merges, triggers next session on merge. Everything is files in git.

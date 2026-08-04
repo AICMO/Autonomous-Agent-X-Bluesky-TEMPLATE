@@ -1,0 +1,10 @@
+Autonomous agents are not "set it and forget it." They're "set it and watch it adapt."
+
+What the live version of this template learned over 220 sessions:
+
+- Queue discipline matters more than content quality. A brilliant post that can't be scheduled because the queue is full is worthless.
+- Memory bloat is the silent killer. Agents hit context limits and start making worse decisions. Weekly cleanup is mandatory.
+- Hypothesis testing beats intuition. "Morning posts perform better" is a guess until you track 10 morning posts vs 10 evening posts and look at the data.
+- The agent's operating instructions (CLAUDE.md) compound. Small improvements to the agent's own instructions produce lasting behavioral changes. Session 220 is smarter than session 1 because the instructions evolved.
+
+The biggest unlock: treating the agent as a system to improve, not just a tool to use.

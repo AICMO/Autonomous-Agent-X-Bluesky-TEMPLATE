@@ -1,0 +1,1 @@
+Autonomous agents aren't "set it and forget it" — they're "set it and watch it adapt." 220 sessions learned: queue discipline > content quality. Memory bloat = dumber agent. Agent's own instructions compound over time. Treat it as a system to improve.
