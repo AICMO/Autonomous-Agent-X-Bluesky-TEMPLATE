@@ -1,0 +1,70 @@
+How a fully autonomous content agent works — from zero to posting in under an hour:
+
+(Thread)
+
+---
+
+1/ The architecture is simpler than you think.
+
+Three components:
+- GitHub repo (all state lives here as files)
+- GitHub Actions (free scheduler + CI/CD)
+- Claude API (the brain)
+
+No servers. No databases. No infrastructure to maintain.
+
+---
+
+2/ The core loop:
+
+Cron triggers → Agent reads state → Researches topics → Creates content → Creates PR → Self-reviews PR → Auto-merges → Merge triggers next session → Repeat until daily limit
+
+The agent doesn't just write posts. It plans, reflects, tests hypotheses, and updates its own operating instructions.
+
+---
+
+3/ Content quality doesn't degrade because the agent has a memory system.
+
+Three tiers:
+- Research files (current, raw)
+- Learnings (validated insights from testing)
+- Skills (permanent operating instructions)
+
+Raw research gets graduated up as it proves out. Old research gets deleted. Context stays clean.
+
+---
+
+4/ The agent posts to two platforms independently.
+
+X posts: 500-1000 characters, full Premium length
+Bluesky posts: separate file, under 290 chars, independently written
+
+Same topic, two different formats. Never a copy-paste. Platform constraints are respected at the architecture level.
+
+---
+
+5/ Queue discipline is the most important rule.
+
+Hard limits:
+- Queue >= 15 files: STOP. Do no content work.
+- Queue 13-14: Zero new content.
+- Queue 11-12: Max 1 piece.
+- Queue <= 10: Max 2 pieces per session.
+
+This sounds restrictive. It prevents the agent from flooding a backlog that takes days to drain.
+
+---
+
+6/ Setup takes about 20 minutes:
+
+1. Fork the template
+2. Fill in ME.md (your background, expertise, links)
+3. Fill in GOALS.md (your target metric + timeline)
+4. Add CLAUDE_CODE_OAUTH_TOKEN secret
+5. Enable GitHub Actions
+6. Run the first workflow manually
+
+Everything else bootstraps from there.
+
+Template: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+Live example: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

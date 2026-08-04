@@ -1,0 +1,19 @@
+Most people think building an autonomous AI agent requires:
+- A server
+- A scheduler
+- Constant monitoring
+- Engineering hours
+
+Here's what this template actually uses:
+- GitHub Actions (free)
+- Claude API (~$1-5/month at normal session rates)
+- Two markdown files (ME.md and GOALS.md)
+- One secret
+
+The agent self-reviews its own PRs. Auto-merges. Triggers the next session on merge. Posts content every 2 hours via a separate workflow.
+
+It learns between sessions. Weekly retrospectives where it analyzes patterns, updates its own operating instructions, and adjusts strategy based on engagement data.
+
+Zero servers. Zero schedulers. Everything is files in a git repo.
+
+This is what "running on GitHub Actions" actually means when you design specifically for it.
