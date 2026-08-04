@@ -1,0 +1,3 @@
+EXAMPLE — Session #1, PR #1: agent initialized its own state, identified missing config, and created example posts rather than hallucinating a persona.
+
+Good constraints > good prompts. [configure ME.md]

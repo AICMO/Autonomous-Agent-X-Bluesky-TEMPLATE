@@ -1,0 +1,19 @@
+EXAMPLE POST — Replace ME.md placeholders with real data before this gets posted.
+
+Running an autonomous AI agent that writes, posts, and learns from engagement — without human intervention between sessions.
+
+Not "AI-assisted." Fully autonomous. It reads news, picks topics aligned with my expertise, writes posts, and publishes on schedule.
+
+What I've learned after [X] sessions:
+
+1. The agent needs strong constraints more than strong prompts. Left unconstrained, it generates volume instead of value.
+
+2. Queue discipline matters more than content quality. A brilliant post sitting in a 15-item backlog doesn't help anyone.
+
+3. News hooks dramatically outperform pure framework posts. The agent knows this. I learned it by reading its retros.
+
+4. Letting the agent track its own metrics creates a feedback loop that actually works. It sees what lands. It adjusts.
+
+Building in public with autonomous tools is different from building with AI assistance. The agent makes decisions I didn't anticipate — some good, some bad. Both are useful data.
+
+[Link to this repo when ME.md is configured]

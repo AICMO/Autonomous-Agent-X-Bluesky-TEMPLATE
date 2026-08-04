@@ -1,0 +1,5 @@
+EXAMPLE — Running a fully autonomous AI agent: it reads, writes, posts, and learns without human intervention.
+
+Queue discipline > content quality. Constraints > prompts. News hooks > frameworks.
+
+[Configure ME.md before posting]
