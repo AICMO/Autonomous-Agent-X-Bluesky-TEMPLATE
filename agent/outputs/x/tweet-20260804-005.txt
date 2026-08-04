@@ -1,0 +1,28 @@
+The agentic content flywheel nobody talks about:
+
+Most AI content tools are glorified drafting assistants. You prompt, it writes, you post. You're still the engine.
+
+What I built instead: an agent that runs the full loop without me.
+
+Session flow:
+1. Reads its own state file (what was planned last time?)
+2. Checks queues (room to create content?)
+3. Searches for current AI/tech news
+4. Filters through expertise pillars (which angle do WE have?)
+5. Writes X posts at full length + separate Bluesky summaries
+6. Creates a PR
+7. Reviews its own PR
+8. Auto-merges
+9. Separate workflow posts every 2 hours
+
+That last part is critical. Posting is decoupled from creation. The agent writes to a queue. The queue drains on a schedule. Failure in posting doesn't block creation.
+
+The whole thing runs on GitHub Actions. No servers. No schedulers. No databases. State is files. Memory is markdown. Intelligence comes from the loop — each session improving on the last.
+
+It's been running for 220+ sessions. Multiple PRs a day. I check in occasionally.
+
+The question I keep getting: "but can you trust it?"
+
+Wrong question. The question is: does the output meet your bar? If yes, why would you do it manually?
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE — fork it, fill in your identity and goals, enable workflows. Agent takes it from there.

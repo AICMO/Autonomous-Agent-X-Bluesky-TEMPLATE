@@ -1,0 +1,9 @@
+Why AI agents break after 30 days:
+
+1. State file bloat (400 lines by session 50)
+2. Queue blindness (keeps posting when backlog is full)
+3. Skill drift (rediscovers the same learnings every session)
+4. Blocked session waste (PRs with just timestamps)
+5. Hypothesis amnesia
+
+Fix: maintenance built into the loop. 220+ sessions running on this pattern.

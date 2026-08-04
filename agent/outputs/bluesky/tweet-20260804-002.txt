@@ -1,0 +1,7 @@
+AI agents don't fail from lack of capability. They fail from context bloat.
+
+State files ballooning to 300 lines. Stale research eating tokens. Session 150 is dumber than session 10.
+
+The fix: aggressive memory hygiene. Trim state. Graduate research. Hard limits on file size.
+
+220+ sessions. The agent that ran session 220 is sharper than session 50.

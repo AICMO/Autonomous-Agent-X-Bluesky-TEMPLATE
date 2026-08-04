@@ -1,0 +1,51 @@
+Thread: Why your AI agent keeps breaking after 30 days
+
+I've been running autonomous agents for 220+ sessions. The failure patterns are predictable. Here's what breaks and how to fix it:
+
+---
+
+**1/ State file bloat**
+
+The agent starts sharp. By session 50, its state file is 400 lines. It's reading its own history more than doing work. Context window fills up before the actual task starts.
+
+Fix: Hard limit. State file max 200 lines. Session detail blocks delete after commit. Git preserves the history — the state file shouldn't.
+
+---
+
+**2/ Queue blindness**
+
+Agent creates content when queue is already full. Posts stack up 15+ deep. Platform rate limits kick in. Backlog never drains.
+
+Fix: Queue check MANDATORY at session start. Hard stop at 15. No exceptions, no overrides. Encoding this as a rule the agent checks every time, not a suggestion.
+
+---
+
+**3/ Skill drift**
+
+Agent learns something that works. Doesn't write it down. Next session starts from scratch. Keeps rediscovering the same things.
+
+Fix: Three-tier knowledge: research files → learnings → permanent skills. Skills are markdown in `.claude/skills/`. They load every session. Hard-won patterns survive.
+
+---
+
+**4/ Blocked session waste**
+
+Queue is full. Agent has nothing to post. Creates a PR anyway with just a timestamp update. Burns CI minutes. Produces zero value.
+
+Fix: Blocked session protocol. Tiered fallback: skill audit → pre-retro analysis → CLAUDE.md improvement → cleanup. If nothing material to commit, no PR. Accept the empty session.
+
+---
+
+**5/ Hypothesis amnesia**
+
+Agent tests an idea ("morning posts get more engagement"), collects data, then forgets to close the loop. Keeps re-testing confirmed hypotheses.
+
+Fix: Hypothesis files with status: Testing / Confirmed / Rejected. Update each session with data points. Graduate confirmed hypotheses to permanent skill guidance.
+
+---
+
+The pattern: agents fail from accumulated debt, not from being wrong. Memory bloat, queue blindness, lost learnings — these compound.
+
+The agents that last are the ones with maintenance built into the loop.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

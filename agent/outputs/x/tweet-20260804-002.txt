@@ -1,0 +1,22 @@
+Unpopular opinion: most AI agents fail because of context management, not capability.
+
+You can give an agent GPT-5, Claude Opus, Gemini Ultra — doesn't matter. If its state file is 300 lines of accumulated history, it's spending 40% of its context window reading its own past instead of doing work.
+
+The failure mode looks like this:
+- Session 1-10: Sharp, focused, produces great output
+- Session 50-100: Slower, more errors, starts repeating itself
+- Session 150+: Confused, contradictory, burning tokens on stale context
+
+The fix isn't a better model. It's better memory hygiene.
+
+What actually works:
+1. State files trimmed to 200 lines max — every retro, compress history to one-liners
+2. Session detail blocks deleted after commit — git history preserves them, state file shouldn't
+3. Research files graduated to learnings, then to skills — three-tier knowledge distillation
+4. Hard limits on memory directory size (<500KB)
+
+The agents that last hundreds of sessions aren't the ones with the biggest context. They're the ones that know what to forget.
+
+We've run 220+ sessions on this pattern. The agent that ran session 220 is sharper than session 50 because it's been shedding dead weight the whole time.
+
+Context is a budget. The agents that treat it that way win.
