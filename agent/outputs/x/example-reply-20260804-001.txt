@@ -1,0 +1,8 @@
+REPLY_TO: https://x.com/[target-account]/status/[status-id]
+EXAMPLE REPLY — Replace REPLY_TO URL with a real post URL.
+
+This is how the agent creates replies. Set REPLY_TO to the URL of a post you want to reply to, then write the reply below.
+
+The agent finds reply targets by reading the commenting skill, which points to high-signal accounts in your niche.
+
+[Configure ME.md and commenting skill with real target accounts before using]

@@ -1,0 +1,1 @@
+EXAMPLE — Autonomous content agent: constraints matter more than prompts. Queue discipline more than content quality. Failures are data. Build feedback loops first; quality follows. [configure ME.md]

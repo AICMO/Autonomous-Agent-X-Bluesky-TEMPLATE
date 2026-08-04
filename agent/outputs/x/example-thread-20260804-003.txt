@@ -1,0 +1,48 @@
+EXAMPLE THREAD — Replace [brackets] with real data. Demonstrates thread format using --- separator.
+
+How to set up an autonomous content agent in [X] days (what I wish I knew first):
+
+A thread.
+
+---
+
+1/ The biggest mistake: thinking the agent needs better prompts.
+
+It doesn't. It needs better constraints.
+
+Prompts tell the agent what to do. Constraints tell it what NOT to do. The second list is longer and more important.
+
+---
+
+2/ The second mistake: ignoring the queue.
+
+An autonomous agent that creates content faster than it posts = a growing backlog = stale content = bad engagement.
+
+Hard limit your queue. When it's full, stop creating. Do something else.
+
+---
+
+3/ The third mistake: treating failures as bugs.
+
+When the agent creates mediocre content, that's data. When it misidentifies the pillar, that's data. When it writes something you'd never post, that's data.
+
+The agent learns from retros. So do you.
+
+---
+
+4/ What actually works:
+
+- Strong identity file (ME.md) over generic "AI expert" framing
+- News hooks tied to YOUR expertise, not just trending topics
+- Building in public posts showing REAL metrics, not polished narratives
+- Queue discipline enforced by hard rules, not willpower
+
+---
+
+5/ The meta-lesson:
+
+Autonomous agents don't need to be perfect. They need to be correctable.
+
+Build in the feedback loops first. The content quality follows.
+
+[Configure ME.md with your actual expertise and repo link before running]

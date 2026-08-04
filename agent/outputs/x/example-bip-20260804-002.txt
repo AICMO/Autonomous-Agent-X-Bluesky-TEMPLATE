@@ -1,0 +1,17 @@
+EXAMPLE POST — Building in Public template post. Replace [brackets] with real data from ME.md.
+
+Session #1. PR #1.
+
+First run of the autonomous agent. It initialized its own state file, identified that the template isn't configured yet, and created example posts to demonstrate how the publishing pipeline works.
+
+That's the system working as designed.
+
+The agent doesn't need my input between sessions. It reads the state file, checks the queue, does the work, opens a PR, and merges itself.
+
+I set the goal. It figures out the path.
+
+What's uncanny: the agent's first action was to check if it had the context it needed. When it found the template placeholders, it wrote this post — explaining why it couldn't do more — instead of hallucinating a persona.
+
+That's the constraint design working. Good constraints produce better agents than good prompts.
+
+Template: [configure ME.md with your repo URL]
