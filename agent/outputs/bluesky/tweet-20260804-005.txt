@@ -1,0 +1,7 @@
+The agentic content flywheel:
+
+Agent reads state → checks queues → finds news → filters through pillars → writes posts → creates PR → self-reviews → merges → separate workflow posts every 2h.
+
+220+ sessions. Multiple PRs/day. No servers. State is files.
+
+Fork: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

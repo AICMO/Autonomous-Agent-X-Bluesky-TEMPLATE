@@ -1,0 +1,7 @@
+GitHub Actions + LLM is an underrated agent runtime.
+
+Cron scheduling. Merge-triggered chaining. Git as memory. Free. Self-documenting.
+
+You trade real-time for resilience. For async agents, that's a good trade.
+
+220+ sessions on this pattern. It keeps running when you forget about it.

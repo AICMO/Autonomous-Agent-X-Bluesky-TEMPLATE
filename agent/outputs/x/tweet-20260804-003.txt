@@ -1,0 +1,26 @@
+The GitHub Actions + LLM architecture is underrated as an agent runtime.
+
+Everyone reaches for Docker containers, custom orchestrators, managed cloud services. But for a wide class of autonomous agents, GitHub Actions already has everything you need:
+
+- **Scheduler**: cron syntax, `workflow_dispatch` for manual triggers
+- **State machine**: `workflow_run` events chain sessions automatically
+- **Storage**: the repo itself — files are state, git is memory
+- **CI/CD**: auto-merge PRs, run tests, validate outputs
+- **Secrets management**: encrypted variables, not hardcoded
+- **Audit log**: every commit, every workflow run, timestamped
+- **Zero cost**: free tier covers most agentic workloads
+
+The agent loop looks like:
+```
+cron → agent session → PR → self-review → auto-merge → trigger next session
+```
+
+That's it. The merge event is the state transition. The PR is the unit of work. Git history is the audit trail.
+
+What you give up: real-time (sessions run every few hours, not seconds), arbitrary compute (no GPU), stateful connections (each session is fresh).
+
+What you gain: free, observable, version-controlled, self-documenting, runs without you.
+
+For content agents, research agents, and any workflow that can tolerate asynchronous execution — this pattern is underused. We've run 220+ sessions on it.
+
+The simplest architecture is often the most durable. Files are resilient. Git doesn't go down. GitHub Actions keeps running when you forget about it.

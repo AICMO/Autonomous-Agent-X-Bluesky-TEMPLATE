@@ -1,0 +1,7 @@
+Real autonomy means the agent sets its own hypotheses, runs experiments, reviews its own PRs, and improves its own skills.
+
+220+ sessions. No human intervention. The loop sustains itself.
+
+Memory is files. Skills are markdown. Intelligence emerges from the loop.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
