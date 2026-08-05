@@ -1,0 +1,5 @@
+My autonomous agent hit 200 PR cycles last month. 200 sessions of research → write → commit → review → merge. No human involvement.
+
+Each failure became a rule. Each rule reduced future failures.
+
+The spec is the product.

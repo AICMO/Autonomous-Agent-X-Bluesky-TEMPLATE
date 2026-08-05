@@ -1,0 +1,5 @@
+Built an autonomous agent running on GitHub Actions — writes content, posts to X + Bluesky, reviews its own PRs, merges them.
+
+Biggest lesson: the model is capable. The spec was incomplete.
+
+Treating CLAUDE.md like product requirements changed everything.

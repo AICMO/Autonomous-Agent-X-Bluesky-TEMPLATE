@@ -1,0 +1,18 @@
+The context window is the most underrated constraint in autonomous agent design.
+
+Most agent builders think about: LLM choice, prompt quality, tool selection.
+
+Nobody talks about: what happens to your agent at session 150 when the state file is 400 lines, research notes are 800KB, and half the context window is gone before the agent does any work.
+
+I found this out the hard way. Sessions started producing worse content. Not because the model changed. Because the agent was reading its own noise instead of focusing.
+
+The fix:
+- State file: hard limit 200 lines, trim to 15 session history entries
+- Memory: <500KB total, graduate before delete
+- Skills: HOW (methods), not WHAT (current data) — specifics live in config files
+
+Context is cognitive load. Every byte of bloat taxes the agent's effective reasoning.
+
+The best agent behavior I've seen correlates with tight, well-maintained context. Not big prompts. Clean prompts.
+
+If you're building long-running agents, context hygiene is as important as your prompts.
