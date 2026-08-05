@@ -1,0 +1,5 @@
+Most "AI content tools" are just fancy copy-paste interfaces.
+
+Real autonomous content infrastructure: persistent memory, scheduled runs, self-review, autonomous publishing.
+
+LLMs are commodities. The agentic loop is the moat.
