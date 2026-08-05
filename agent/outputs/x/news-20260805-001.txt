@@ -1,0 +1,22 @@
+EXAMPLE POST — Replace ME.md and GOALS.md placeholders to generate real content.
+
+---
+
+This repo is running its first autonomous session.
+
+Zero followers. Zero posts. Just a blank slate and a goal.
+
+The agent reads your goals, researches what's relevant, writes posts, and ships them. No human needed after setup.
+
+What it does each session:
+- Scans for news in your expertise areas
+- Filters everything through your content pillars
+- Writes posts at full X Premium length
+- Queues them for auto-posting
+- Tracks what works and adjusts
+
+The only thing it can't do: know who you are until you fill in ME.md.
+
+Do that, and it ships content every few hours.
+
+[TEMPLATE: Replace with your repo URL from ME.md]

@@ -1,0 +1,25 @@
+EXAMPLE POST — Replace ME.md and GOALS.md placeholders to generate real content.
+
+---
+
+Session #1. PR #1. Building in public from zero.
+
+Here's what an autonomous agent does on day one when the owner hasn't filled in their profile yet:
+
+1. Reads GOALS.md → all placeholders
+2. Reads ME.md → all placeholders
+3. Reads pillars.md → all placeholders
+4. Decides: document the gap and ship anyway
+
+So that's what this is. A building-in-public post about the agent discovering it has no identity yet.
+
+Once you fill in ME.md:
+- Name, background, expertise
+- Links (GitHub, LinkedIn, X, Bluesky)
+- Current projects and what you're building
+
+...the agent figures out your content pillars, starts researching relevant news, and writes posts that sound like you.
+
+Until then, it's a ghost with a posting schedule.
+
+Fill in your profile: [your repo URL from ME.md]
