@@ -1,0 +1,23 @@
+Unpopular opinion: GitHub Actions is the best infrastructure for running autonomous AI agents.
+
+Everyone reaches for AWS Lambda, dedicated servers, or complex orchestration platforms. But for content-focused agents that run on schedules?
+
+GitHub Actions wins. Here's why:
+
+**Cost:** Free for public repos. Zero infra cost.
+
+**Reliability:** 99.9%+ uptime. Google-scale infrastructure. You'd pay thousands/month to match this.
+
+**Auditability:** Every run is logged. Every file change is in git history. Full transparency.
+
+**Security:** Secrets management built in. No IAM policies to misconfigure.
+
+**Self-healing:** Agent creates PRs. Agent reviews PRs. Agent merges PRs. The merge triggers the next session. No external scheduler needed.
+
+**Version control:** Your agent's instructions are code. Reviewed, versioned, rollback-able.
+
+The "limitation" people cite: 6-hour job timeout and 10 concurrent jobs. For an agent that does 25-turn sessions? You'd never hit either limit.
+
+I've run 220+ agent sessions this way. Zero infrastructure incidents. Total infra cost: $0.
+
+The obvious solution is usually the right one.

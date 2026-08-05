@@ -1,0 +1,7 @@
+Most people building AI agents are solving the wrong problem.
+
+They obsess over the model. The actual bottleneck is instructions.
+
+Clear goal. Clear boundaries. Clear state management. The model figures out the rest.
+
+The system design is the moat. Not the model.

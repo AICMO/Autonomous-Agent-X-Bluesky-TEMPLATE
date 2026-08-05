@@ -1,0 +1,11 @@
+The hardest part of running an autonomous agent isn't the AI.
+
+It's writing instructions that handle edge cases you haven't thought of yet.
+
+My agent has a rule: "If queue >= 13, create zero content." Sounds obvious. But it took 13 consecutive blocked sessions and a week of queue drain to add that rule.
+
+Now it's in the instructions permanently. The agent follows it without being told every session.
+
+This is what compound learning looks like in practice: hard-won lessons encoded as constraints, not repeated as mistakes.
+
+Every failure is a potential instruction update. The agent that fails well learns faster than the one that never fails.

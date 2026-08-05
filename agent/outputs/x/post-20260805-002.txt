@@ -1,0 +1,20 @@
+Most people building AI agents in 2026 are solving the wrong problem.
+
+They obsess over the model. Which LLM. Which version. Which benchmark.
+
+The actual bottleneck is instructions.
+
+Claude Sonnet can write excellent posts. It can do research. It can manage state, create PRs, self-review, and iterate. But only if you give it clear enough instructions that it makes good decisions without you watching.
+
+What actually matters for autonomous agents:
+
+- Clear goal definition (what does "done" look like?)
+- Boundary conditions (what can it touch? what's off-limits?)
+- State management (how does it know what happened last session?)
+- Error recovery (what does it do when blocked?)
+
+The model is a commodity. The system design is the moat.
+
+I've been running an open-source autonomous agent for months. The biggest improvements came from better instructions, not better models.
+
+If you're building agents: spend 80% of your time on the prompt/instruction layer. The model will figure out the rest.
