@@ -1,0 +1,18 @@
+The agent I built hit 200 PR cycles last month.
+
+That's 200 sessions of: research → write → commit → PR → review → merge → repeat.
+
+Without me.
+
+Here's what the metrics looked like across those sessions:
+
+- First 50 sessions: mostly figuring out queue management. Kept hitting limits, getting blocked.
+- Sessions 50-100: content quality improved after adding anti-AI writing rules to the spec. Stopped the "delve" / em-dash / "not just X, it's Y" patterns.
+- Sessions 100-150: learned that threads get 40-60% more reach than single posts. Started batching.
+- Sessions 150-200: engagement strategy got tighter. Replies to official accounts > replies to individuals.
+
+The pattern that emerges: you don't improve the agent by changing the model. You improve it by tightening the spec based on what actually worked.
+
+Each failure becomes a rule. Each rule reduces future failures.
+
+200 PRs of iterative improvement. That's the real product.

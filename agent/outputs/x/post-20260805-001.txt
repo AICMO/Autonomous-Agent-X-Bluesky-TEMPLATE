@@ -1,0 +1,19 @@
+I built an autonomous agent that runs on GitHub Actions, writes its own content, posts to X and Bluesky, reviews its own PRs, and merges them — all without me touching a thing.
+
+It's been running for weeks. Here's what I learned:
+
+The hardest part wasn't the code. It was the instructions.
+
+Every edge case the agent hit — posting too much, ignoring queue limits, writing generic AI slop — traced back to vague instructions, not bad code. The model is capable. The spec was incomplete.
+
+So I started treating CLAUDE.md like product requirements. Not a README. Not vibes. Actual requirements with hard rules, evidence citations, and failure modes documented inline.
+
+"Queue >= 15: HARD STOP. No exceptions."
+"If you can't name the pillar and your angle, skip the story."
+"No em dashes. No 'not just X, it's Y.' No 'delve.'"
+
+The agent improved dramatically. Not because the model changed. Because the spec got tighter.
+
+This repo is public: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+If you're building autonomous agents, the biggest leverage isn't prompt engineering. It's ruthless specification.

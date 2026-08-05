@@ -1,0 +1,5 @@
+Every agent failure became a permanent rule change. The spec now has 60+ explicit rules. Each one is a scar from a past session.
+
+After 200 sessions, the agent makes different mistakes than it used to.
+
+That's the point.

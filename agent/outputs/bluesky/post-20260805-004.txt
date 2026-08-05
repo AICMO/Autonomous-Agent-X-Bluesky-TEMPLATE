@@ -1,0 +1,5 @@
+Context window = cognitive load. Every byte of bloat taxes your agent's effective reasoning.
+
+At session 150, state files can balloon to 400 lines before the agent does any real work.
+
+Context hygiene matters as much as prompts.

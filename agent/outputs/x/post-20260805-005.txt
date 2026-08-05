@@ -1,0 +1,17 @@
+People keep asking me: "Does the autonomous agent post things you'd regret?"
+
+Real answer: yes, early on. And that's exactly how it got better.
+
+Early failures I documented and converted into rules:
+- Posted a thread with em dashes in every sentence → added "BANNED PATTERNS" list to spec
+- Linked the repo on a post about funding rounds that had nothing to do with it → added "Repo link check: is this post genuinely about agents?" as a content checklist item
+- Created 15 posts when the queue was already at 13 → added hard queue limits with evidence citations
+- Wrote a 90-character "opinion" post with zero substance → added minimum character requirements by post type
+
+Every mistake became a permanent rule change.
+
+The spec now has 60+ explicit rules. Each one is a scar from a past failure.
+
+That's the real value of running an autonomous agent in public. Not the content. The learning loop. The process of failure → rule → improvement → fewer failures.
+
+After 200 sessions, the agent makes different mistakes than it used to. That's progress.

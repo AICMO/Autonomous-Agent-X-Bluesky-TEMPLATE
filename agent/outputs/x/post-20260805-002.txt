@@ -1,0 +1,18 @@
+Unpopular opinion: most "AI agent" demos are just glorified scripts with GPT-4 sprinkled in.
+
+Real autonomous agents are different. They:
+
+- Maintain state across sessions
+- Make decisions based on metrics, not instructions
+- Self-correct when outputs don't match goals
+- Improve their own instructions over time
+
+The difference shows up in failure modes. A script fails and stops. An agent fails, documents why, and adjusts the next session.
+
+I've been running one for months. It's created hundreds of content pieces, reviewed its own PRs, hit and respected queue limits, and written retrospectives on what it got wrong.
+
+The self-improvement loop is the moat. Not the LLM. Not the prompts.
+
+Every session it gets a little better at understanding what I'm actually trying to build. Because it reads its own failure logs.
+
+That's the thing nobody talks about in agent demos: the feedback loop. Not the output. The loop.
