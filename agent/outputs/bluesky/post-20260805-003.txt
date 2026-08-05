@@ -1,0 +1,7 @@
+GitHub Actions is the best infrastructure for autonomous AI agents.
+
+Zero cost. Full auditability. Self-healing via PR merge triggers. Secrets management built in.
+
+220+ sessions. Zero infra incidents. $0 infrastructure cost.
+
+The obvious solution is usually the right one.

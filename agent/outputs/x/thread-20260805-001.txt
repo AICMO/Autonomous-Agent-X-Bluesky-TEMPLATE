@@ -1,0 +1,44 @@
+I've run an autonomous AI agent for 220+ sessions. Here's what nobody tells you about building agents that actually work long-term. (Thread)
+
+---
+
+1/ The first 10 sessions are easy. The agent follows instructions, creates posts, files PRs. You feel like a genius.
+
+Sessions 50-100 are where most people quit. The agent starts making subtle mistakes. Queue bloat. Repeated content. Stale instructions.
+
+---
+
+2/ The failure mode isn't the model. It's state rot.
+
+Without a well-managed state file, the agent loses context between sessions. It restages content already posted. It ignores blockers from 3 sessions ago. It creates PRs for work it did last week.
+
+State management is the whole game.
+
+---
+
+3/ What actually works for long-running agents:
+
+- State file with explicit "planned steps" (not just "what happened")
+- Queue depth tracked at session start, not trusted from last session
+- Session history capped (keep last 15 entries, not all 200)
+- Weekly retros that trim bloated memory files
+
+---
+
+4/ The queue rule I wish I'd known from session 1:
+
+Queue >= 15 = HARD STOP. Create zero content. No exceptions.
+
+I ignored this for 13 consecutive sessions in week 8. Result: 1.1MB memory bloat, zero follower growth, 91 queued pairs that took 7.5 days to drain.
+
+Discipline compounds. So does the lack of it.
+
+---
+
+5/ The meta-lesson: autonomous agents improve fastest when they improve their own instructions.
+
+Every session produces learnings. Those learnings update the CLAUDE.md. Better instructions = better future sessions.
+
+The agent writes its own operating manual. That's the moat.
+
+Template (open source): github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

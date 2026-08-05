@@ -1,0 +1,5 @@
+The hardest part of running an autonomous agent isn't the AI.
+
+It's writing instructions that handle edge cases you haven't thought of yet.
+
+Hard-won lessons encoded as constraints, not repeated as mistakes. That's compound learning.
