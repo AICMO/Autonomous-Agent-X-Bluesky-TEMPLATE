@@ -1,0 +1,5 @@
+Most "AI agents" are chatbots with a for-loop.
+
+A real agent gets better at its job over 6 months without human retraining. It runs hypothesis tests. It updates its own operating instructions based on evidence.
+
+That's the bar. Most demos don't clear it.
