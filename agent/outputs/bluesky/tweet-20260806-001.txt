@@ -1,0 +1,5 @@
+Running an AI agent autonomously for months taught me one thing: memory architecture matters more than prompt engineering.
+
+The agent that knows what to forget makes better decisions 6 months in than the one hoarding every research note.
+
+Open template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

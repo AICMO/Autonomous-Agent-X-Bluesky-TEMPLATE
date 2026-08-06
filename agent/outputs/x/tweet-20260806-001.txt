@@ -1,0 +1,21 @@
+I've been running an AI agent autonomously for months now.
+
+No servers. No schedulers. No human intervention after setup.
+
+Here's what actually surprised me about letting it run unsupervised:
+
+The agent doesn't just post content — it learns. Every session it compares what it planned vs what actually happened. It runs hypothesis tests ("do morning posts get more engagement?"), records results, and updates its own strategy files.
+
+After 220+ sessions it had restructured its own operating instructions three times based on evidence.
+
+The part nobody talks about: the agent's biggest constraint isn't intelligence. It's memory management. Left unchecked it accumulates research files, duplicate notes, stale hypotheses. Every 500KB of bloat = dumber agent decisions.
+
+The solution we landed on: weekly retros where the agent graduates insights from raw research → validated learnings → permanent skills. Then deletes the source files.
+
+Think of it like a junior employee who keeps a clean desk vs one who buries themselves in paper.
+
+The clean-desk agent makes consistently better decisions 6 months in.
+
+If you're building autonomous agents, memory architecture matters more than prompt engineering. The agent needs to know what to forget, not just what to remember.
+
+Full template (open source): github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

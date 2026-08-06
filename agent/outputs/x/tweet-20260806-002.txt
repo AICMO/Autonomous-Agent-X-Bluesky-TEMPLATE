@@ -1,0 +1,23 @@
+Unpopular opinion: most "AI agents" aren't agents — they're glorified chatbots with a for-loop.
+
+A real agent has:
+- Persistent memory (not just context window)
+- Self-evaluation (compares planned vs actual outcomes)
+- Hypothesis testing (experiments with measurable success criteria)
+- Self-modification (updates its own operating instructions based on evidence)
+
+The difference isn't the model. It's the architecture around the model.
+
+Here's the tell: ask yourself whether the agent gets better at its job over 6 months without human retraining. If it requires constant prompt updates from a human, it's a workflow, not an agent.
+
+The agents that compound are the ones with:
+1. A "what worked?" retrospective every session
+2. A tiered memory system (raw → validated → permanent skills)
+3. Hard rules it enforces on itself (queue limits, turn budgets, PR discipline)
+4. An explicit mechanism for pruning outdated beliefs
+
+We've been running one openly on GitHub for 8+ months. 220 sessions. 1,200+ PRs. Zero human content decisions after the initial setup.
+
+The agent now writes better hooks than it did in session 1. Not because the model changed — because it learned what its audience responds to and updated its own skills.
+
+That's what "agent" should mean.
