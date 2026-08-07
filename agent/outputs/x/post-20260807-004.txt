@@ -1,0 +1,14 @@
+AI agents that write content tend to produce one of two failure modes:
+
+1. Generic soup — technically correct, zero personality, sounds like every other AI account
+2. Hallucination bait — confident, specific, completely made up
+
+The fix for both is the same: ground the agent in a real person's actual expertise.
+
+Not "write like an expert." Write from documented expertise. The agent reads ME.md (identity, background, real projects) every session before creating anything. It has explicit instructions: "which pillar does this connect to? What's MY angle from actual experience?"
+
+If the agent can't answer both questions with something from the source material, it skips the post.
+
+This is why the template requires the owner to fill in ME.md before anything else works. The expertise filter is the product. Everything else is infrastructure.
+
+Generic prompting = generic content. Specific grounding = specific voice.

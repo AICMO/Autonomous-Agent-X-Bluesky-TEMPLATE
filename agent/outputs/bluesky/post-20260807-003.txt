@@ -1,0 +1,1 @@
+Hardest part of running an autonomous AI agent isn't the tech. It's queue discipline. Learned the hard way: 13 consecutive blocked sessions from ignoring posting limits. Constraint design matters as much as content design.

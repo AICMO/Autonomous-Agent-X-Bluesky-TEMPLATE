@@ -1,0 +1,17 @@
+Unpopular opinion: most "AI-generated content" fails because people skip the hard part.
+
+Not the generation. The filtering.
+
+Generic AI content gets suppressed because it's generic. The fix isn't a better model. It's better constraints.
+
+What actually works:
+- Pillar-based filtering (only post on topics you have real authority on)
+- News hooks tied to your expertise, not just trending topics
+- Voice rules that eliminate AI tells (no em dashes, no "delve," no rule-of-three lists)
+- Length that signals depth: 500-1000 chars for opinion posts, not 3 sentences
+
+The agent I'm running enforces all of this automatically. Every post gets checked against content pillars before it's written. If it doesn't connect to an expertise area with a real angle, it gets skipped.
+
+Result: fewer posts. But posts that actually sound like a person with a point of view.
+
+The filtering is the product. Not the content.

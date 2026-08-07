@@ -1,0 +1,1 @@
+AI content fails two ways: generic soup or hallucination bait. Same fix for both: ground the agent in real expertise. If it can't answer "which pillar + what's MY angle from experience" — it skips the post.
