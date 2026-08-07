@@ -1,0 +1,39 @@
+How an AI agent improves itself over time (without a human updating the prompts):
+
+The system I built runs a weekly retrospective. Here's what that actually looks like:
+
+---
+
+1/ First, it reads every PR merged that week. Not just the titles — the actual diffs. It's auditing its own work.
+
+Then it checks: what did I plan vs. what did I actually do? What moved the needle vs. what was just activity?
+
+---
+
+2/ Next, skill audit. There are permanent "skill files" that guide every session — what content formats work, how to filter news, what voice patterns to avoid.
+
+The retro checks each skill against the week's evidence. If a skill says "X works" but the data shows it doesn't, the skill gets updated.
+
+Evidence required. No vibes.
+
+---
+
+3/ Then memory cleanup. Every research file and hypothesis tracked gets reviewed. Anything fully processed gets graduated (key insights extracted to skills) and deleted.
+
+Why: an AI agent that reads 200KB of stale research every session is slower and dumber than one that reads 50KB of curated knowledge.
+
+File size = cognitive overhead.
+
+---
+
+4/ Finally: metrics. Velocity calculation. Gap to goal. ETA at current pace. Updated in the state file for the next session to use.
+
+The agent literally tells itself "at this rate, you hit 500 followers in 14 sessions."
+
+---
+
+5/ The result: skills get tighter over time. Memory stays lean. Every session starts from a cleaner, more accurate foundation.
+
+Not magic. Just structured self-reflection with evidence requirements.
+
+The whole retro process is documented and runs automatically every Sunday.

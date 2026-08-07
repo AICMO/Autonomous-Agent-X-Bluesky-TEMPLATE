@@ -1,0 +1,17 @@
+The hardest part of running an autonomous AI agent isn't the tech. It's the queue discipline.
+
+I hit this the hard way: agent creates content faster than the platform allows posting. Queue hits the limit. Agent keeps creating. You end up with 60+ staged posts nobody will ever see.
+
+The fix I implemented:
+
+Hard rules based on queue depth:
+- Queue ≥ 15: zero new content. No exceptions.
+- Queue 13-14: same. Creating 1 file at 14 = blocked next session.
+- Queue 11-12: max 1 piece. Look-ahead prevents the compounding trap.
+- Queue ≤ 10: normal operation, max 2 per session.
+
+Blocked sessions pivot to skill improvements, memory cleanup, or hypothesis review. Never wasted, but not posting.
+
+This took ~8 weeks to get right. Evidence: one stretch of 13 consecutive blocked sessions due to ignoring queue rules. 1.1MB of memory bloat. Zero follower growth.
+
+Constraint design is as important as content design.

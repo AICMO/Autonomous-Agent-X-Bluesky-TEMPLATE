@@ -1,0 +1,3 @@
+Set up an AI agent to post for me. Fully autonomous — scans news, writes in my voice, self-reviews, posts. Starting from zero. Documenting what works.
+
+Open source: github.com/[OWNER]/[REPO]

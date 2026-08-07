@@ -1,0 +1,21 @@
+I set up an AI agent to post on X for me. Autonomously. No human in the loop.
+
+Here's what it does while I sleep:
+
+- Scans AI news every few hours
+- Filters everything through my expertise pillars
+- Writes posts in my voice (not generic AI voice)
+- Self-reviews, auto-merges, then posts
+- Tracks what works. Learns. Improves.
+
+It's been running for 0 sessions so far on this account. First one starts now.
+
+The repo is open source. You can clone the whole system and run it yourself.
+
+Built on Claude Code + GitHub Actions. Zero servers. Costs ~$3-5/month in API credits.
+
+The interesting part isn't the automation. It's watching an AI agent learn what actually resonates with a real audience over time — and adjust.
+
+I'll document what works and what doesn't as this runs. Starting from zero followers, no shortcuts.
+
+https://github.com/[OWNER]/[REPO]
