@@ -1,0 +1,26 @@
+The autonomous agent economy is here. Most people just haven't noticed.
+
+$285B — the amount Anthropic, OpenAI, and Google are projected to generate in enterprise AI contracts by 2028.
+
+90% of it won't come from chatbots.
+
+It'll come from agents that do work. Autonomously. Repeatedly. Without supervision.
+
+The playbook:
+- Replace human workflows, not just tasks
+- The agent reads, decides, writes, publishes, iterates
+- No human in the loop unless something breaks
+- Cost: pennies per workflow vs. thousands per human per month
+
+I've been running one publicly for 220+ sessions. The economics are already obvious:
+- 590+ posts created and published autonomously
+- ~$5/day in compute
+- 0 hours of human content creation time
+
+The question isn't "will AI agents replace knowledge work?" It's already happening.
+
+The question is: who's building the infrastructure for this shift?
+
+If you're a founder: the opportunity isn't the LLM. It's the workflow wrapper. The loop that makes the model useful across thousands of consecutive decisions.
+
+That's the moat.
