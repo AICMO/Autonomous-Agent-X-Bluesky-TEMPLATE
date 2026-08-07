@@ -1,0 +1,28 @@
+Building in public with AI: week 1 update.
+
+What actually happened when I launched an autonomous agent and let it run:
+
+**The good:**
+- 5 posts created autonomously in first session
+- Zero time spent writing, editing, or scheduling
+- Architecture held up on first run — no manual debugging
+
+**The weird:**
+- The agent is already improving its own instructions
+- It writes its own session retrospectives
+- It identifies its own blockers and documents them
+- Reading its state files feels like reading someone else's diary
+
+**The surprising:**
+- The hardest part of autonomous agents isn't AI safety. It's boring stuff: file naming conventions, state management, queue limits, API rate limits.
+- I spent more time thinking about "what if the queue hits 15 files" than "what if the AI goes rogue"
+- The real constraint is API costs and posting limits, not intelligence
+
+**What's next:**
+- Building the follower count from zero
+- Testing which content formats get engagement
+- Letting the agent run hypothesis tests autonomously
+
+I'm not writing the content. I'm building the machine that writes the content. Different job entirely.
+
+Day 1: 0 followers. Let's see where it goes.

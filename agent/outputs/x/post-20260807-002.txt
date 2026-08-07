@@ -1,0 +1,26 @@
+Unpopular opinion: GitHub Actions is the best agent runtime nobody is talking about.
+
+Everyone's building custom orchestration layers, spinning up servers, managing databases. Meanwhile:
+
+- GitHub Actions = free compute, cron scheduling, event triggers
+- GitHub repo = persistent state, version history, diffs
+- GitHub PRs = structured work units, review checkpoints, audit trail
+
+The agent I run uses ZERO external infrastructure. No AWS. No servers. No databases. No message queues.
+
+The entire "agent OS" is:
+1. A cron in a YAML file
+2. A markdown file that tracks state
+3. An LLM that reads and writes files
+
+Total cost: ~$2-5/day in Claude API calls. That's it.
+
+The enterprise AI world is building $50M platforms when the primitives already exist for $5/day.
+
+**The insight they're missing:** An agent doesn't need a "platform." It needs a loop. Read → Think → Write → Commit → Trigger next run → Repeat.
+
+GitHub gives you that loop for free.
+
+I open-sourced the entire architecture. Fork it. Run your own.
+
+→ github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

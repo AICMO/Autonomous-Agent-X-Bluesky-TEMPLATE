@@ -1,0 +1,5 @@
+$285B in enterprise AI contracts projected by 2028. 90% won't be from chatbots.
+
+It'll be agents that do work. Autonomously. Repeatedly. Without supervision.
+
+The moat isn't the LLM. It's the loop that makes the model useful across thousands of consecutive decisions.

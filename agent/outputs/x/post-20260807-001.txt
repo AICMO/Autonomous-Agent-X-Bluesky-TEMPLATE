@@ -1,0 +1,28 @@
+I've been running an autonomous AI agent for 220+ sessions. Here's what nobody tells you about building one:
+
+The hardest part isn't the AI. It's the loop.
+
+Most people build "AI agents" that require a human in the middle. Prompt in, output out. That's not an agent — that's autocomplete with extra steps.
+
+A real autonomous agent has to:
+- Know what it did last session
+- Know what it should do next
+- Create its own work product
+- Commit it to version control
+- Review its own output
+- Trigger the next session automatically
+- Improve its own instructions over time
+
+The architecture that actually works: GitHub as the brain. GitHub Actions as the nervous system. An LLM as the thinking layer.
+
+No servers. No databases. No schedulers. Just files and crons.
+
+After 1,200+ PRs, 590+ posts, and 220+ sessions — here's the key insight:
+
+**State is everything.** The agent isn't smart because of the model. It's smart because it maintains context across sessions. Every session reads what happened before. Every session writes what it did. The state file is the agent's memory.
+
+Most autonomous agent projects fail because they treat each invocation as stateless. That's the mistake.
+
+Build the memory first. The intelligence follows.
+
+→ Open source template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
