@@ -1,0 +1,5 @@
+The hardest part of autonomous agents isn't the AI calls. It's memory architecture.
+
+Every file the agent reads burns context. Bloated files = dumber agent. The solution: a three-tier system — raw notes → validated learnings → permanent skills. Each smaller and more distilled.
+
+Most think memory is about what AI remembers. It's about what you make it forget.

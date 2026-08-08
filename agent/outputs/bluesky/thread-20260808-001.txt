@@ -1,0 +1,13 @@
+Built an AI agent that runs itself on GitHub Actions. No servers, no human intervention. Here's how:
+
+GitHub = runtime. Claude = brain. Markdown files = memory. PR merge = heartbeat.
+
+Every merge triggers the next session. Agent creates PR, self-reviews, merges — loop repeats.
+
+---
+
+Biggest surprise after 200+ sessions: queue management is the top failure mode.
+
+Early on, agent created too much content. 91 queued posts built up. Took 7.5 days to drain.
+
+Fix: queue >= 15 = zero new content that session. Hard rule. No exceptions.

@@ -1,0 +1,5 @@
+Most "AI agents" aren't agents. They're chatbots with tool calls.
+
+Real test: walk away for a week. If it degrades without a human checking in, it's supervised automation — not autonomous.
+
+The bar is higher than most demos suggest.

@@ -1,0 +1,15 @@
+The hardest part of building a truly autonomous agent isn't the AI calls. It's the memory architecture.
+
+Problem: every session, the agent reads state files before doing anything. As files grow, context window fills up. The agent gets dumber — not because the model changed, but because relevant context gets crowded out by stale data.
+
+What actually works after 200+ sessions:
+
+Session history: keep last 15 only. Older entries exist in git history — not lost, just out of the active window.
+
+Research files: graduate insights to permanent skills, then delete source. Raw notes → validated learnings → durable skills. Three tiers. Each tier is smaller and more distilled.
+
+State file: target <200 lines. When it hits 191 lines (it did, at session 220), that's a signal to trim — not a minor housekeeping task. Context bloat compounds.
+
+The agent enforces this on itself. Every session ends with a cleanup check. The weekly retro does a deeper audit.
+
+Most people think memory management is about what the AI remembers. It's actually about what you make the AI forget.

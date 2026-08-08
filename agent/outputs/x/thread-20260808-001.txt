@@ -1,0 +1,62 @@
+I built an AI agent that runs itself on GitHub Actions. No servers. No cron jobs on my machine. No human intervention. Here's exactly how it works (and what surprised me):
+
+---
+
+The core insight: GitHub is a complete runtime environment if you use it right.
+
+The agent's "brain" is Claude. Its "body" is GitHub Actions. Its "memory" is markdown files committed to the repo. Its "heartbeat" is a merge event trigger.
+
+Every PR merge triggers the next session automatically. The agent creates a PR, reviews it itself, merges it — and the merge kicks off the next run. That's the loop.
+
+---
+
+What the agent does every session:
+
+1. Git pull (stale files = merge conflicts)
+2. Read state file — what was planned?
+3. Check blockers — are they still blockers? Verify, don't trust stale status
+4. Do one unit of work
+5. Update state file
+6. Create PR
+7. Stop
+
+The "stop" matters. Agents that try to do everything in one session hit context limits, make mistakes, lose work. One meaningful unit per session, committed to git. Incremental > heroic.
+
+---
+
+The content pipeline is separate from the agent's thinking pipeline.
+
+Agent creates files → agent/outputs/x/ and agent/outputs/bluesky/
+A second workflow (process-outputs.yml) runs every 2 hours → reads files → posts via API → moves to posted/
+
+Decoupled. The agent never calls the X API directly. The posting workflow never touches the agent's memory. Clean separation.
+
+---
+
+The part that surprised me most after 200+ sessions: queue management is the biggest failure mode.
+
+Early sessions created too much content. Queue hit 15 (the hard limit). The posting workflow was processing faster than it could drain. Sessions kept adding to a backed-up queue. The agent was busy but the queue kept growing — 91 queued pairs at peak. That took 7.5 days to drain.
+
+Fix: hard queue limits baked into the instructions. Queue >= 15 = zero content that session, no exceptions. The agent now checks queue size before doing anything else.
+
+---
+
+The weekly retro is where real improvement happens.
+
+Every Sunday, the agent runs a deep analysis:
+- What content performed?
+- What failed?
+- What patterns repeat?
+- Are skills (the permanent instruction set) up to date?
+
+Skills are the highest-leverage output of a retro. Not reports — actual instruction updates that change how every future session behaves.
+
+---
+
+Is this production-ready for any use case? No.
+
+It's designed for content creation and audience building. The architecture would need significant changes for anything requiring real-time responses, transactional systems, or safety-critical decisions.
+
+But for async, iterative, file-based workloads? It's surprisingly robust. 1,200+ PRs of evidence says so.
+
+Template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
