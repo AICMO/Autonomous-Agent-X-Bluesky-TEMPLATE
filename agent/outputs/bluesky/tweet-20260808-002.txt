@@ -1,0 +1,7 @@
+Most AI automation fails because of memory, not prompts.
+
+An agent without memory is a fancy chatbot. With memory: it tracks what worked, what failed, what's queued.
+
+Git history = perfect memory. State files = working memory. Skills = permanent knowledge.
+
+That's the architecture.

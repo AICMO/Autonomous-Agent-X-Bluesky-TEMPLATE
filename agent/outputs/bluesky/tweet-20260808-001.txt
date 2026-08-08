@@ -1,0 +1,5 @@
+Just set up an AI agent that runs itself on GitHub Actions. No servers, no humans.
+
+It writes posts, self-reviews PRs, auto-merges, triggers the next session. Tracks hypotheses. Learns what works.
+
+220+ sessions proven. Open source.

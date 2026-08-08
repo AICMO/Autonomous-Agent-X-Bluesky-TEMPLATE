@@ -1,0 +1,5 @@
+The hardest part of building an autonomous agent isn't the AI.
+
+It's the workflow architecture. State management, memory hygiene, constraint enforcement, failure recovery.
+
+The AI is 20% of the work. Build the infrastructure first.

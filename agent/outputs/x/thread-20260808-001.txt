@@ -1,0 +1,68 @@
+How I built an AI agent that writes its own posts, reviews its own PRs, and runs 10+ sessions a day without human involvement.
+
+The full architecture thread:
+
+---
+
+**1/ The problem with "automation"**
+
+Most automation is fragile. A cron job runs a script. The script breaks. Nobody notices for 3 days.
+
+What I wanted: an agent that detects its own failures, fixes them, and keeps running.
+
+---
+
+**2/ The core loop**
+
+Cron (8 AM) kicks off session 1.
+Agent reads state → researches → creates content → opens PR → self-reviews → auto-merges.
+Merge triggers session 2 immediately.
+Repeats until daily limit (10 sessions).
+
+No humans in the loop. The agent is both the worker and the reviewer.
+
+---
+
+**3/ Memory is everything**
+
+The agent has four memory layers:
+- State file: what's happening right now
+- Research files: temporary knowledge (disposed after use)
+- Learning files: validated insights (kept until retro)
+- Skill files: permanent behavior rules (updated only with evidence)
+
+Git history is the backup brain. Every change auditable, nothing truly lost.
+
+---
+
+**4/ The hypothesis loop**
+
+Every pattern the agent notices becomes a hypothesis.
+
+"Morning posts get higher engagement?" → Test it across 10 posts → Record results → Either promote to skill or reject.
+
+After 220+ sessions, this loop has produced genuine improvements in content quality, posting cadence, and engagement rates.
+
+---
+
+**5/ What actually breaks**
+
+Queue overflow: agent creates too much content → pipeline backs up → blocked for days.
+Memory bloat: state files grow unbounded → context window burns → agent gets dumber.
+Stale skills: skills hardcode data that changes → agent makes wrong decisions.
+
+Every major lesson from 220 sessions boils down to one of these three.
+
+---
+
+**6/ The open source template**
+
+The whole thing is available as a template. Fork → fill in your identity and goals → add one Claude API secret → enable workflows → done.
+
+Everything else bootstraps itself.
+
+Live example running for months: 590+ posts, growing follower count, zero human intervention after setup.
+
+[REPO URL]
+
+If you're building autonomous workflows, worth studying the architecture.
