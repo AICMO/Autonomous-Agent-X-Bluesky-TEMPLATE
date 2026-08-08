@@ -1,0 +1,11 @@
+REPLY_TO: https://x.com/AnthropicAI
+
+The Claude Agent SDK + GitHub Actions combination is underrated for production agent deployments.
+
+No server to maintain. Native secret management. Event-driven triggers. Built-in audit trail via git history.
+
+We're running an open-source autonomous content agent on exactly this stack. Session-based, self-reviewing, self-iterating.
+
+The infrastructure cost is near zero. The capability is production-grade.
+
+Worth exploring if you're evaluating agent deployment infrastructure.
