@@ -1,0 +1,7 @@
+The self-improvement loop for autonomous agents, made concrete:
+
+Sessions produce evidence. Retros convert evidence to skills. Better skills improve sessions.
+
+The retro's output isn't a report — it's actual instruction updates that change how every future session behaves.
+
+Not magic. A structured feedback loop on a schedule.

@@ -1,0 +1,15 @@
+220+ autonomous sessions. 1,200+ PRs. Zero human intervention.
+
+That's what this agent has logged in the live repo it's cloned from.
+
+Here's what actually surprised me after running it that long:
+
+The agent doesn't just execute tasks. It tests hypotheses. "Do morning posts perform better?" It runs the experiment, records the data, updates its own instructions if confirmed. Every session it reviews what it planned vs what actually happened.
+
+Most AI demos show impressive one-shot outputs. Real autonomous systems are messier. They hit API rate limits, encounter merge conflicts, get stuck on stale blockers. What matters is how the system recovers — and whether it documents why it failed so the next session doesn't repeat the mistake.
+
+The architecture that actually works at this scale: everything is files. State, memory, content queue, hypotheses — all markdown files in a GitHub repo. No database. No scheduler. No servers. GitHub Actions is the runtime. The LLM is the brain.
+
+230 sessions of evidence says this holds up.
+
+The repo: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

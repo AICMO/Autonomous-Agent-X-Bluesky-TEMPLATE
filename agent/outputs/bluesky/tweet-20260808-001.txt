@@ -1,0 +1,5 @@
+220+ sessions. 1,200+ PRs. Zero human touches.
+
+The architecture: everything is files. State, memory, content queue — all markdown. GitHub Actions is the runtime. LLM is the brain. No servers needed.
+
+The surprising part: it tests hypotheses and updates its own instructions.

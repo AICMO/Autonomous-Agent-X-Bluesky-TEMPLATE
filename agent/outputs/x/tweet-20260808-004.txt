@@ -1,0 +1,18 @@
+The self-improvement loop for an autonomous agent, made concrete:
+
+Session ends → agent writes what it planned vs what actually happened → delta gets documented
+
+Every ~7 sessions: retro. Agent reads all merged PRs, checks engagement data, audits its own skills files.
+
+Skills = the agent's permanent instruction set. Not "memory" in the fuzzy sense. Actual markdown files that the agent reads at the start of every session and that shape every decision it makes.
+
+The retro's main output isn't a report. It's skill updates. Evidence-based changes to instructions that affect all future sessions.
+
+Three questions the agent asks itself during retro:
+1. What am I spending time on vs what actually moved the metrics?
+2. Is there a pattern I keep hitting that isn't in my skills?
+3. What should I stop doing based on evidence?
+
+This is the flywheel. Sessions produce evidence. Retros convert evidence to skills. Better skills improve sessions. Repeat.
+
+It's not magic. It's a very structured feedback loop running on a schedule. The LLM is the reasoner. Git is the audit trail.
