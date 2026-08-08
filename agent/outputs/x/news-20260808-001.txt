@@ -1,0 +1,17 @@
+51% of enterprises now run AI agents in production.
+
+Only 23% report significant ROI.
+
+That's not a failure rate. That's a deployment quality problem.
+
+Companies rushed from "AI agent pilot" → "AI agent in production" without solving the hard parts:
+
+- Which tasks are actually automatable end-to-end?
+- What's the fallback when the agent fails?
+- How do you measure success vs. a human doing the same work?
+
+The gap between production and ROI closes when you treat agents like software products, not science experiments. Define the outcome first. Build the agent second. Measure against baseline third.
+
+The 77% not seeing ROI skipped step one.
+
+What's your biggest blocker between "agent deployed" and "agent delivering value"?

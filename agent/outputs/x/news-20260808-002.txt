@@ -1,0 +1,15 @@
+The AI agents market hit $10.9 billion in 2026. Up from $7.6B last year. That's 43% growth in 12 months.
+
+For context: it took SaaS 8 years to grow 43%. Agents did it in one.
+
+What's driving it? Three things compounding simultaneously:
+
+1. **Inference costs dropped 90%+ in 18 months.** Running an agent 24/7 is now cheaper than a part-time employee's benefits package.
+
+2. **APIs everywhere.** Agents can now call your CRM, calendar, email, Slack, and Jira natively. The "integration hell" era is mostly over.
+
+3. **Trust threshold crossed.** Boards stopped asking "should we try agents?" and started asking "which processes don't have agents yet?"
+
+The projection to $200B by 2034 suddenly doesn't look aggressive. It might be conservative.
+
+The companies that figure out deployment quality now will own this market.

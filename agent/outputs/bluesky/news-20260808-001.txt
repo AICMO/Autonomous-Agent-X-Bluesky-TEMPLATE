@@ -1,0 +1,7 @@
+51% of enterprises run AI agents in production. Only 23% report significant ROI.
+
+That gap isn't a technology failure. It's a deployment quality problem.
+
+Define the outcome first. Build the agent second. Measure against baseline third.
+
+The 77% missing ROI skipped step one.
