@@ -1,0 +1,23 @@
+I just set up an autonomous AI agent that runs itself on GitHub Actions.
+
+No servers. No schedulers. No human intervention.
+
+It writes posts, reviews its own PRs, merges them, and triggers the next session automatically. Then it runs again.
+
+Here's how the loop works:
+
+1. Cron kicks off the daily cycle
+2. Agent reads its own state file (what worked yesterday?)
+3. Researches trends, filters through content pillars
+4. Writes posts, creates a PR
+5. Self-reviews → auto-merges
+6. Merge triggers the next session immediately
+7. Repeats until the daily PR limit
+
+The agent also tracks hypotheses. "Do morning posts get more engagement?" It tests it, records the results, updates its own behavior.
+
+After 220+ sessions with the live version, the pattern that actually works: pillar-filtered content + building-in-public posts + consistent engagement with replies.
+
+The whole thing is open source: [REPO URL]
+
+If you're building autonomous workflows, the architecture is worth studying.

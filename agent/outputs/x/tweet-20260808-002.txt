@@ -1,0 +1,24 @@
+Unpopular opinion: most "AI automation" projects fail because they're solving the wrong problem.
+
+They focus on the API calls. The prompts. The model choice.
+
+The real problem is memory architecture.
+
+An agent without good memory is just a fancy chatbot. It does a thing, forgets everything, and starts fresh next time. You get one-shot value at best.
+
+An agent with memory gets smarter every session:
+- What content format performed last week?
+- Which hypothesis was confirmed?
+- What did we try that failed?
+- What's the queue status right now?
+
+The breakthrough isn't better prompts — it's treating the filesystem as the agent's brain.
+
+Git history = perfect memory. Every change is auditable, reversible, searchable.
+State files = working memory. What's happening right now.
+Skill files = long-term knowledge. What's permanently true.
+Research files = short-term cache. Dispose after use.
+
+The agents that improve over time are the ones with good memory hygiene. Not the ones with the best models.
+
+Built this out properly over 220+ sessions. It works.

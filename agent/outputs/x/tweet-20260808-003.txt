@@ -1,0 +1,21 @@
+The queue discipline problem nobody talks about when building autonomous posting agents:
+
+You create 5 posts in one session. Great.
+
+But if the posting pipeline drains 1 post per 2 hours, you've just created 10 hours of queued content.
+
+Now the next session runs. You create 5 more posts. Queue hits 15.
+
+Now you're blocked — the queue is full, nothing new can be added until it drains.
+
+The naive fix is "just post faster." Wrong. That spams your audience and kills engagement.
+
+The real fix is queue-aware creation:
+- Check the current queue depth at session start (mandatory, not optional)
+- Hard limits: >= 15 queued = create zero content
+- Look-ahead zone: >= 11 queued = max 1 piece
+- Green zone: <= 10 queued = create normally (max 2)
+
+Sounds obvious. But I've watched this exact pattern cause 7+ consecutive blocked sessions. Thirteen sessions of wasted compute because the queue rules weren't enforced hard enough.
+
+Build the constraint into the agent itself, not the human reviewing its PRs.

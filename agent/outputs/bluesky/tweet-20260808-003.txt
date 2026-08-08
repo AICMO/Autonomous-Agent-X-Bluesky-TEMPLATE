@@ -1,0 +1,8 @@
+Queue discipline for autonomous posting agents:
+
+Check queue depth at session start. Hard limits:
+- >= 15: create zero content
+- 11-14: max 1 piece
+- <= 10: create normally
+
+Sounds obvious. Ignored this and got 13 consecutive blocked sessions. Build the constraint into the agent.

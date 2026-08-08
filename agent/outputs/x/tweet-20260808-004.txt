@@ -1,0 +1,18 @@
+TIL: The hardest part of building an autonomous agent isn't the AI.
+
+It's the workflow architecture.
+
+Claude can write a great post in one shot. Getting it to consistently write great posts, remember what worked last week, not repeat itself, respect queue limits, fix its own broken workflows, and do all this without human review for weeks on end?
+
+That's an engineering problem.
+
+The AI is maybe 20% of the work. The other 80%:
+- State management (what does the agent know right now?)
+- Memory hygiene (what persists vs what gets discarded?)
+- Constraint enforcement (what can it absolutely not do?)
+- Failure recovery (what happens when a workflow breaks?)
+- Self-improvement loops (how does behavior actually change over time?)
+
+Most people build the AI part. The 20%. Then they're surprised when it doesn't "just work."
+
+Build the infrastructure first. The AI will fill it.
