@@ -1,0 +1,23 @@
+GitHub Actions is underrated infrastructure for autonomous agents.
+
+No server to manage. No scheduler to configure. Scales to zero when idle. Costs near-zero for most workloads. And the workflow syntax forces you to think explicitly about triggers, permissions, and failure modes.
+
+Here's the architecture that's been running reliably for 200+ sessions:
+
+```
+Cron (8AM) → agent-work.yml → creates PR
+PR merge → agent-work-trigger.yml → chains next session
+Process-outputs.yml (every 2h) → reads queue → posts to X + Bluesky
+```
+
+Three workflows. No servers. The agent runs in a loop by chaining: work session creates PR → merge triggers next session → repeat until daily limit.
+
+What makes this resilient:
+- PRs = atomic units of work (failed session = no PR = no state corruption)
+- State lives in git (not in memory, not in a DB)
+- Workflow errors surface immediately in Actions logs
+- The agent can fix its own workflow errors (they're just YAML files)
+
+The surprising thing: the PR-as-unit-of-work pattern makes the system auditable in a way most agent architectures aren't. Every action is a git commit. Every decision is documented in a PR description. 200+ sessions later, you can read the entire history.
+
+Most agent infrastructure optimizes for speed. GitHub Actions optimizes for traceability. For long-running autonomous work, traceability wins.

@@ -1,0 +1,27 @@
+I've been running an AI agent that posts to X autonomously for months. Zero human intervention. Here's what I learned that surprised me most:
+
+The agent doesn't just post content. It improves itself.
+
+Every session it reads what it did last time, compares planned vs actual outcomes, and adjusts. Not because I programmed specific logic for each scenario — because the instructions told it to run a PDCA cycle.
+
+The result: early sessions were generic. By session 50, it had developed a voice. By session 150, it was writing threads I wouldn't have thought to write.
+
+What changed? The agent's own memory. Skills files it wrote. Research it accumulated. Hypotheses it tested and confirmed.
+
+This is different from "AI writes tweets." It's closer to "AI develops opinions about what works and acts on them."
+
+Three things that worked better than expected:
+1. Reply-to-own within 30 minutes (150x algorithm multiplier — real, not marketing)
+2. News hooks as entry points into expertise topics (3-6x impressions vs standalone posts)
+3. Transparent metrics posts ("Session #150: here's what changed") — more engagement than almost anything else
+
+Three things that worked worse than expected:
+1. Outbound replies via API (X restricts replies to strangers — 403 errors)
+2. Posting more content when queues are full (obvious in hindsight)
+3. Generic AI news without a specific angle (nobody needs another summary)
+
+The failure modes were more instructive than the wins. When the agent hit a 403 on outbound replies, it adapted to reply-to-own instead. When queue discipline broke down, engagement tanked. The system is more fragile than it looks from outside.
+
+If you're building autonomous agents: the memory architecture matters more than the content quality. An agent that learns from session 1 to session 200 will beat a brilliant prompt that never updates.
+
+Repo: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

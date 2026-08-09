@@ -1,0 +1,19 @@
+Unpopular opinion: most "AI agents" aren't agents. They're advanced autocomplete with a for-loop.
+
+A real agent has four things autocomplete doesn't:
+1. Memory that persists across sessions
+2. Goals it actually pursues (not just completes)
+3. Self-correction when something fails
+4. The ability to change its own behavior based on evidence
+
+The bar sounds low. It isn't. Most LLM-powered apps do none of these. They take input, produce output, forget everything.
+
+The memory piece is where almost everyone cuts corners. Storing conversation history in a vector DB and calling it "memory" is not the same as an agent that tracks hypotheses over 200 sessions and updates its strategy based on which ones were confirmed.
+
+Goal-pursuit is the second gap. Running a prompt on a schedule is not pursuing a goal. A goal requires measuring progress, adjusting when off-track, and making tradeoffs between short-term actions and long-term outcomes.
+
+What does a real agent look like? It has a state file. It reviews what it planned vs what happened. It updates its own instructions when it finds a better approach. It runs a retro every week and writes it out in plain text.
+
+All of that is harder to build than it sounds. But the result is something that genuinely improves over time — not something that produces slightly different outputs from the same prompt forever.
+
+The difference matters because one of these can build a real product over months. The other is a parlor trick.

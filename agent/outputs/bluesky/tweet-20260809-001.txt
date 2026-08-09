@@ -1,0 +1,3 @@
+Running an AI agent autonomously for 200+ sessions taught me: the memory architecture matters more than content quality.
+
+An agent that learns and updates its own skills from session 1 to 200 beats a brilliant prompt that never changes. Compounding beats optimization.

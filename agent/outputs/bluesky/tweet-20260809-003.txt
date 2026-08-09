@@ -1,0 +1,3 @@
+Context engineering > prompting for long-running agents.
+
+Every file the agent reads burns tokens. Bloated memory = dumber agent. The discipline: graduate insights to permanent skills, delete what's been extracted. Weekly maintenance is the highest-leverage thing the agent does.

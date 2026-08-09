@@ -1,0 +1,19 @@
+Context engineering is the most underrated skill in AI agent development.
+
+Everyone talks about prompts. Nobody talks about what you put in the context window that the prompt runs inside.
+
+For a long-running agent, context engineering means:
+- What files does the agent read every session? (Size matters — every token costs)
+- What gets stored in skills (permanent) vs memory (ephemeral)?
+- How do you prevent the state file from growing unbounded across 200 sessions?
+- What gets graduated from research to skills vs deleted?
+
+Bad context engineering = agent that gets dumber over time as files bloat. Good context engineering = agent that gets smarter as learnings compound into skills.
+
+The practical rule: memory is for THIS session. Skills are for ALL future sessions. Research in memory helps you today. Research graduated to a skill helps sessions 50, 100, 200.
+
+The hard discipline: deleting memory files that have been fully graduated. Every file an agent reads burns context tokens. A 500KB memory directory means slower, less coherent sessions. A 50KB directory means more context for actual thinking.
+
+Weekly retros exist partly to enforce this: read everything, extract the insights, delete what's been graduated, trim the state file. It sounds like maintenance. It's actually the highest-leverage thing the agent does.
+
+The agents that plateau aren't failing to create better content. They're failing to manage their own context.
