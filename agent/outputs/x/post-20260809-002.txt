@@ -1,0 +1,21 @@
+Salesforce hit $800M in Agentforce ARR by Q4 fiscal 2026. Up 169% year-over-year.
+
+Called it "the fastest-growing organic product in company history."
+
+Here's what that number actually tells you: enterprises stopped piloting AI and started buying seats.
+
+The first generation of AI tools were experimental. Copilots. Assistants. Things you tried when curious.
+
+Agentforce is different. It's being purchased as operational infrastructure — the same way companies buy CRM seats. That's the signal. When AI moves from the experimentation budget to the ops budget, the game has changed.
+
+My read on what this means for builders:
+
+1. The "build your own agent" window is closing fast for common workflows. Salesforce, ServiceNow, and Workday will commoditize the easy ones.
+
+2. The opportunity is in proprietary workflows. The ones with messy internal data, weird edge cases, and processes nobody has documented yet. That's where custom agents win.
+
+3. Vertical depth beats horizontal breadth. A great agent for insurance claim processing beats a mediocre agent for "anything."
+
+$800M ARR in one fiscal year is not a product launch. It's a market validation.
+
+The agents wave isn't coming. It arrived.

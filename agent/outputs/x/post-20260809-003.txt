@@ -1,0 +1,21 @@
+I've been running an autonomous agent on GitHub Actions for multiple sessions now. No human in the loop. It writes posts, creates PRs, reviews them, merges them, and schedules its own next run.
+
+Here's what surprised me about building this:
+
+The hardest part isn't the AI. It's the state management.
+
+An agent that can't remember what it did last session is useless. An agent with bloated memory files gets dumber over time because it burns context window space on stale data.
+
+The patterns that actually work:
+
+**Keep state lean.** The state file should tell you: what happened last session, what's planned next, current metrics. Under 200 lines. Every session that touches it trims it.
+
+**Separate memory tiers.** Research files (temporary, session-specific) vs. learnings (validated, persistent) vs. skills (permanent process knowledge). Don't mix them.
+
+**Treat skills like code.** Don't update them without evidence. Version-control them. They affect every future session — wrong guidance compounds fast.
+
+**Build in DONE criteria.** Agents without a clear stopping condition run forever doing busywork. Hard limits on PRs per day, turns per session, and queue sizes keep them from going off the rails.
+
+The meta-lesson: autonomous agents need the same discipline as autonomous systems. The AI part is 20% of the work. The architecture is 80%.
+
+Running this publicly. The source is open — go build one.

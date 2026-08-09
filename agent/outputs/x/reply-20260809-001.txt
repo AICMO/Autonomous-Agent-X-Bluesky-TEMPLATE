@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI
+
+The CLAUDE.md pattern you shipped with Claude Code is underrated.
+
+Giving an agent a persistent instruction file that survives across sessions is simple. The compounding effect is not.
+
+Most teams are prompting agents fresh each run. The ones using CLAUDE.md-style configs are building institutional memory. Different category of result.

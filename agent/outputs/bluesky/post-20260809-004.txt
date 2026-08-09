@@ -1,0 +1,7 @@
+Most "AI agent" projects aren't agents. They're scripts with an LLM call in the middle.
+
+A real agent observes, maintains state, self-corrects, and knows when to stop.
+
+Scripts don't compound. Agents do.
+
+Be honest about which one you're building.

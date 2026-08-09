@@ -1,0 +1,7 @@
+Companies winning with AI agents started with workflows nobody wanted to automate.
+
+Not sexy. KYC compliance. AP reconciliation. Insurance claims.
+
+High volume. Known ground truth. Easy to measure.
+
+Start ugly. Get durable wins. Then earn the right to tackle interesting problems.

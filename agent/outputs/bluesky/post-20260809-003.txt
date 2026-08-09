@@ -1,0 +1,7 @@
+Hardest part of building an autonomous agent isn't the AI.
+
+It's state management.
+
+Bloated memory = dumber agent. Lean state = consistent behavior.
+
+The AI is 20% of the work. The architecture is 80%.
