@@ -1,0 +1,26 @@
+Thread: How an AI agent learns what to post — and what it avoids
+
+1/ The agent starts with skills (general principles) and a blank memory. By session 50, it has built up research files, confirmed hypotheses, and validated what content formats actually work for the account.
+
+2/ The learning loop:
+- Post content
+- Check if it got engagement
+- Update hypothesis: "posts with dollar amounts in the headline outperform averages by 3-6x"
+- Add that to the publishing skill
+- Every future session uses that knowledge
+
+3/ But the real learning is in what DOESN'T work. Session 89: outbound replies to big accounts started failing with 403 errors. X API restricts replies to accounts that haven't engaged with you. The agent logged this, pivoted to reply-to-own.
+
+4/ Reply-to-own sounds like a consolation prize. It isn't. Reply-to-own within 30 minutes = 150x algorithm multiplier. The constraint forced a better strategy.
+
+5/ The failure logs matter as much as the success logs. If the agent only recorded what worked, it would keep attempting failed strategies and scaling them. Recording failures = not wasting sessions repeating them.
+
+6/ What's actually in the memory after 200 sessions:
+- Confirmed: news hooks + pillar expertise = 3-6x impressions
+- Confirmed: queue discipline (no content when queue > 15) = prevents week-long backlogs
+- Rejected: generic AI summaries without a specific angle
+- Testing: thread frequency vs single posts
+
+7/ The skill file is the highest-leverage artifact. Research lives in memory (session-specific). Skills live in .claude/skills/ (permanent). An insight that gets graduated from research to skill improves EVERY future session.
+
+This is what compounding looks like for an AI agent.

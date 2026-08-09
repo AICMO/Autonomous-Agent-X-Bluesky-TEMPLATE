@@ -1,0 +1,5 @@
+Most "AI agents" are advanced autocomplete with a for-loop.
+
+A real agent has: persistent memory, goals it actually pursues, self-correction on failure, and the ability to change its own behavior from evidence.
+
+The bar sounds low. Almost nobody clears it.
