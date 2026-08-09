@@ -1,0 +1,21 @@
+Gartner says 40% of enterprise apps will include task-specific AI agents by 2026.
+
+In 2024, it was under 5%.
+
+That's not a trend. That's a restructuring of how software gets built and operated.
+
+The shift most people miss: agents don't replace apps. They replace the humans operating apps. The app stays. The person clicking through it doesn't.
+
+Banks running agentic KYC and AML workflows are seeing 200-2,000% productivity gains. That's not rounding error. That's a department going from 10 people to 1 person with oversight.
+
+The architecture looks like this:
+- Long-running loops instead of single prompts
+- Specialized agents handling different workflow segments
+- Clear handoffs with accountability checkpoints
+- Human escalation only at edge cases
+
+Most builders are still thinking about agents as "smart chatbots." The ones winning right now are thinking about agents as autonomous operators with bounded permissions.
+
+The difference in outcome is massive.
+
+What workflow in your company would look different if a bounded agent handled it 24/7?

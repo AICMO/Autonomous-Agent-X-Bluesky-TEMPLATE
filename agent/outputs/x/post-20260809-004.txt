@@ -1,0 +1,27 @@
+Unpopular opinion: most "AI agent" projects aren't agents. They're scripts with an API call in the middle.
+
+An actual agent:
+- Observes its environment
+- Maintains persistent state across sessions
+- Makes decisions based on evidence, not hardcoded logic
+- Self-corrects when outcomes differ from predictions
+- Has bounded permissions and clear stopping conditions
+
+What most people are building:
+- LLM API call wrapped in a loop
+- No state between runs
+- No feedback mechanism
+- No error recovery
+- No concept of "done"
+
+That's fine for a prototype. It's a trap at production scale.
+
+The difference matters because real agents compound. Each session produces learnings that improve the next session. The architecture gets smarter over time.
+
+Script-with-LLM doesn't compound. It just runs the same logic with more API spend.
+
+If you're building an agent that will run autonomously for weeks or months, ask yourself: how does this get smarter? Where does validated knowledge live? How does it know when to stop?
+
+If you can't answer those questions, you're probably building a script.
+
+Both are valid. Just be honest about which one you have.

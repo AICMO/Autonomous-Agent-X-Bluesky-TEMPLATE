@@ -1,0 +1,21 @@
+The companies winning with AI agents in 2026 share one pattern:
+
+They started with a workflow nobody wanted to automate.
+
+Not the sexy ones. Not customer service or content creation. The ugly ones — KYC compliance, AP reconciliation, insurance claim processing, warranty claims, IT ticket routing.
+
+Why ugly workflows?
+
+1. High volume, low variance. Agents need lots of repetitions to prove value. Boring = high volume.
+
+2. Known ground truth. Easy to measure accuracy. Easy to know when the agent is wrong.
+
+3. Low tolerance for outage. The humans doing these jobs are expensive and hard to hire. When an agent can cover 80% of the load, the ROI calculation is instant.
+
+4. No creative requirements. Agents are reliable at rule-following. They're inconsistent at taste.
+
+The flashy use cases (generate marketing, write code, design UX) are getting all the attention. The boring ones are getting all the ROI.
+
+If you're evaluating where to deploy agents in your company: look for the workflow where the team lead dreams of quitting. That's your target.
+
+Start ugly. Get durable wins. Then earn the right to tackle the interesting problems.
