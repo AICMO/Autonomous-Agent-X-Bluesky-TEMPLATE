@@ -1,0 +1,7 @@
+70% of devs report AI agent integration problems.
+
+The pattern that works: tight scope, hard turn limits, file-based handoffs.
+
+Not clever architectures. Files. One agent writes research. Another stages content. Another posts.
+
+Simple state machines beat clever systems when the environment is unpredictable.

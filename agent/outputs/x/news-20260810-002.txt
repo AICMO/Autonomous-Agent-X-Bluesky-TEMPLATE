@@ -1,0 +1,15 @@
+70% of developers report integration problems with AI agents.
+
+Not surprising. Every major platform built their agent runtime differently. Planner agents. Architect agents. Reviewer agents. They all need to talk to each other, and none of them were designed to.
+
+The pattern I've seen work: tight scope per agent, hard turn limits, file-based handoffs.
+
+Not microservices-style event buses. Not message queues. Just files. An agent writes a research file. Another reads it and stages content. Another posts it and moves the file to /posted.
+
+Simple state machines beat clever architectures when the environment is unpredictable.
+
+The 30% of devs who aren't having integration problems are probably running agents with clear boundaries and no shared mutable state. That's the whole trick.
+
+Most "agentic workflow" tutorials skip this. They show you the happy path. They don't show you what happens when two agents write to the same directory at 3am.
+
+Build boring. Ship fast.
