@@ -1,0 +1,15 @@
+Unpopular opinion: the "multi-agent team" trend is mostly premature complexity.
+
+Yes, Planner + Architect + Implementer + Tester + Reviewer sounds like a real engineering team. And for complex, long-running tasks — fine, maybe that's right.
+
+But 90% of the content creation, research, and automation workflows people are building don't need five specialized agents. They need one well-scoped agent with clear instructions and hard limits.
+
+Multi-agent systems add: coordination overhead, more failure surfaces, harder debugging, exponentially more tokens.
+
+Single-agent systems add: simplicity, predictability, lower cost, faster iteration.
+
+The enterprise world defaults to complexity because complexity justifies headcount and consulting contracts. Solo builders should default to simplicity because every failure is YOUR problem to debug at 2am.
+
+My prediction: by mid-2027, there will be a loud "multi-agent hangover" as teams realize they built distributed systems for problems that didn't need distribution.
+
+The teams winning in 2026 aren't the ones with 12 specialized agents. They're the ones who figured out what their agents actually need to do and stopped there.

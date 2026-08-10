@@ -1,0 +1,9 @@
+REPLY_TO: @AnthropicAI
+
+The Claude Agent SDK separate billing from June 15 is actually a smart move.
+
+Metering agent runs separately from interactive Claude forces you to think about cost per loop. That discipline is missing from most agentic projects right now.
+
+The teams burning through tokens are the ones who never defined a session budget. Hard turn limits per session, not soft "be efficient" suggestions in the system prompt.
+
+Real cost control = hard limits enforced by the runtime, not vibes.

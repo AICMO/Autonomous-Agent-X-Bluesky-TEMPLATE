@@ -1,0 +1,7 @@
+Unpopular opinion: the "multi-agent team" trend is mostly premature complexity.
+
+90% of workflows don't need 5 specialized agents. They need 1 well-scoped agent with hard limits.
+
+Multi-agent = more failure surfaces, more tokens, harder debugging.
+
+Predict: mid-2027 "multi-agent hangover" incoming.
