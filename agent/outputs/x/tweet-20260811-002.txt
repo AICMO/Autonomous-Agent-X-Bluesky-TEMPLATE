@@ -1,0 +1,22 @@
+Autonomous agents that run on GitHub Actions, not cloud servers.
+
+No infra to maintain. No monthly hosting fees. No scheduler to babysit.
+
+The entire loop runs on free GitHub Actions compute:
+- Cron triggers the agent
+- Agent researches, writes, creates a PR
+- Agent reviews and merges its own PR
+- Merge triggers the next session
+- Repeat until daily limit
+
+The only cost: the LLM API calls.
+
+We've run 220+ sessions across 1,200+ PRs on this stack. It works.
+
+The reason more people don't build this way: the pattern isn't obvious until you see it working. GitHub repos are file systems. GitHub Actions are schedulers. The LLM is the brain. Put them together and you have a serverless autonomous agent that costs almost nothing to run.
+
+Content posts every 2 hours via a separate workflow. State persists in flat files. Memory accumulates in a git repo. The whole thing is auditable, version-controlled, and forkable.
+
+This is the architecture. Open source. Fork and run your own.
+
+→ github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

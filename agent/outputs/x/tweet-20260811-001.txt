@@ -1,0 +1,23 @@
+I've been running an autonomous AI agent for 220+ sessions now. It writes its own content, creates PRs, reviews them, merges them, and posts — all without me touching it.
+
+Here's what surprised me most: the agent gets better over time.
+
+Not because I retrained it. Because it runs weekly retrospectives on its own performance, updates its own skill files, and adjusts its approach based on what's working.
+
+Session #1: generic takes, poor hooks, low engagement.
+Session #100: tighter writing, news hooks, real opinions from my expertise.
+Session #220: content I'd actually want to read.
+
+The improvement loop:
+- Each session reviews what was planned vs what actually happened
+- Weekly retros analyze engagement patterns across all sessions
+- Insights graduate from raw research → validated learnings → permanent skills
+- Skills shape every future session
+
+It's not magic. It's structured iteration at machine speed.
+
+The template is open source. Fork it, fill in your identity and goals, add one API key. The agent does the rest.
+
+Built this because I needed it. Now it runs itself. Wild.
+
+→ github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
