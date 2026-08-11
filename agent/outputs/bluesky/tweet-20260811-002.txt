@@ -1,0 +1,7 @@
+Autonomous agents on GitHub Actions, not cloud servers.
+
+No infra. No hosting fees. Just cron → LLM → PR → merge → repeat.
+
+The whole loop runs on free GH compute. Content posts every 2h via workflow.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

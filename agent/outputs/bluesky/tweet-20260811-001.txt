@@ -1,0 +1,7 @@
+220+ autonomous agent sessions. 1,200+ PRs. Zero human intervention.
+
+The agent writes content, creates PRs, reviews them, merges them, and posts — then improves from weekly retros it runs on itself.
+
+Open source. Fork → fill in your identity → run.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
