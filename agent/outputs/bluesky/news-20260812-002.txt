@@ -1,0 +1,7 @@
+MCP hit 10,000 servers. Now integrated into ChatGPT, Cursor, Gemini, Copilot, VS Code.
+
+MCP = agent-to-tool. A2A = agent-to-agent.
+
+That's the plumbing for every serious agentic system being built right now.
+
+Not "should I learn agents?" — the real question: what are you automating first?

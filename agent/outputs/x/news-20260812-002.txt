@@ -1,0 +1,13 @@
+MCP hit 10,000 published servers in early 2026. It's now integrated into ChatGPT, Cursor, Gemini, Microsoft Copilot, and VS Code.
+
+A year ago this was an Anthropic experiment. Today it's the default agent infrastructure layer.
+
+The pattern:
+- MCP = agent-to-tool communication
+- A2A = agent-to-agent communication
+
+Those two protocols are quietly becoming the plumbing for every serious agentic system being built right now.
+
+The developer who understands how to wire agents together through MCP and A2A isn't writing software anymore. They're orchestrating software that writes itself.
+
+I keep running into people asking "should I learn agents?" The question is already outdated. The better question: what are you automating first?
