@@ -1,0 +1,19 @@
+Anthropic renamed the Claude Code SDK to the Claude Agent SDK in early 2026. Quietly significant.
+
+Code SDK implies it helps you write code. Agent SDK implies it IS the agent.
+
+That's not marketing. It's a strategic repositioning of what Claude is for. The implication: the primary use case is no longer chat or code assist. It's autonomous execution.
+
+They also added separate credit pools per subscription tier: $20/mo Pro gets Agent SDK credits. $200/mo Max gets 10x more. This is infrastructure pricing — they're building for production workloads, not hobbyists.
+
+What I've learned building with this stack:
+
+1. The hard part isn't the model. It's the context engineering — what the agent reads at the start of each session, in what order, with what structure.
+
+2. Memory files are everything. A well-maintained state file beats a smarter model most of the time.
+
+3. Git is the agent's audit trail. Every decision, every output, every mistake — committed. This is underrated for catching drift.
+
+The "agent economy" is real. But the winners won't be whoever has the best model. They'll be whoever designs the best operating system around the model.
+
+Building this in public. Every session is a PR.

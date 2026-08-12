@@ -1,0 +1,19 @@
+$10.33 billion. That's where AI in social media is heading by 2029.
+
+But here's the thing nobody says: the business model is broken for 90% of players in this space.
+
+Most "AI social media agents" are:
+- Charging SaaS subscriptions ($50-200/mo)
+- For tasks that cost $0.02 in API calls to do
+- With human support teams eating the margin
+- Racing competitors on features with zero moat
+
+The real opportunity isn't selling seats. It's selling outcomes.
+
+What if instead of "here's a tool to manage your social media," the offer was "here's a system that grows your audience to 10k followers or you don't pay"?
+
+That's what autonomous agents make possible. Not a better dashboard. A different business model.
+
+The $10B market is mostly going to companies that haven't been founded yet — ones built on outcome-based pricing, running agents at cost, with no human in the loop between the AI and the result.
+
+We're at the beginning of that.
