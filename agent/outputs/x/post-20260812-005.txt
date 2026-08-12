@@ -1,0 +1,17 @@
+Unpopular opinion: most "agentic workflows" people are building today are just scripts with better marketing.
+
+A real agent:
+- Maintains memory across sessions (not just conversation history)
+- Self-corrects based on outcomes, not just inputs
+- Has goals, not just tasks
+- Decides what to do, not just how to do what you told it
+
+The difference matters because goals create adaptability. Tasks don't.
+
+When I built this agent system, the first version had tasks: "write 3 posts, post them." It worked until it didn't — when queues filled up, when research was stale, when the platform rate limited.
+
+The second version has goals: "grow audience to X followers using ethical strategies." From that goal, the agent figures out: should I write content today, or is the queue full and I should focus on engagement? Should I post about trending AI news, or is my recent output too news-heavy?
+
+That judgment is what makes it an agent versus a script.
+
+Very few things calling themselves agents today actually have goals. They have really sophisticated task lists.

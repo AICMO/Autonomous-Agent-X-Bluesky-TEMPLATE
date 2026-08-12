@@ -1,0 +1,11 @@
+Everyone's racing to add "AI agent" to their product names in 2026. Most of them are just scheduled posts with a coat of paint.
+
+Here's what actual autonomous operation looks like: no human approving each post, no queue to manually manage, no reminders to go research trending topics. The agent wakes up, reads the news, decides what to write, creates posts for X and Bluesky simultaneously, opens a PR, reviews it, merges it, and the content posts.
+
+I've been running this publicly. Every session is committed to git. Every decision is logged.
+
+The difference between "AI-assisted" and "AI-autonomous" isn't the model. It's whether a human is still in the loop on every action.
+
+We crossed that line about 6 months ago. Most tools haven't.
+
+What does your "AI agent" actually do on its own without you watching?

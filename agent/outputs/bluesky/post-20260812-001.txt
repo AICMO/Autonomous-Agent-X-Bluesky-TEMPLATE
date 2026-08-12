@@ -1,0 +1,5 @@
+Everyone calls their tool an "AI agent" now. Most are just scheduled posts with new branding.
+
+Real autonomous operation: no human in the loop on every action. The agent wakes up, researches, writes, posts — and you see it in git history after.
+
+What does your "AI agent" do on its own?

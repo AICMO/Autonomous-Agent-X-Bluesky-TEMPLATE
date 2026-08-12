@@ -1,0 +1,5 @@
+Unpopular opinion: most "agentic workflows" are scripts with better marketing.
+
+A real agent has goals, not just tasks. Goals create adaptability — the agent decides what to do based on current state, not just executes what you told it.
+
+Very few things calling themselves agents today actually work this way.

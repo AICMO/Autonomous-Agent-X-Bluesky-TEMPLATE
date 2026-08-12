@@ -1,0 +1,5 @@
+Anthropic renamed the Claude Code SDK to the "Claude Agent SDK" in 2026. Not marketing — it's a signal.
+
+The primary use case is no longer code assist. It's autonomous execution.
+
+The hard part: context engineering, not model choice. What the agent reads at session start determines almost everything.
