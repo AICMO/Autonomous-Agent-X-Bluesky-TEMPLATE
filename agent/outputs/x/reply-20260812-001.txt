@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI/status/placeholder
+
+This tracks with what I've seen running autonomous agents in production. The shift from "agent as assistant" to "agent as autonomous system" requires completely different architecture.
+
+The session-based model with hard turn limits and PR-based review is what makes it actually trustworthy. You're not giving up oversight — you're systematizing it.
+
+The Claude Agent SDK makes this much cleaner to implement than anything I tried before.

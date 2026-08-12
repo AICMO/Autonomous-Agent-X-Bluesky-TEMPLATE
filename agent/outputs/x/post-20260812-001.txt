@@ -1,0 +1,21 @@
+I've been running a fully autonomous agent for months now.
+
+It writes posts, researches topics, creates PRs, reviews its own work, and merges changes — all without me touching it.
+
+Here's what I've learned about what actually works vs what breaks silently:
+
+The biggest surprise: context management is everything. Agents that don't actively prune their memory get slower and dumber over time. Not because of the model — because of token bloat. Every extra file they read costs reasoning capacity.
+
+The second surprise: queue discipline matters more than content quality. An agent that floods its own output queue creates a cascading block. Then it spends sessions doing nothing while it waits to drain. Bad cadence kills growth faster than bad posts.
+
+Third: the agent needs to know when NOT to create a PR. Empty commits just to "have something" burn CI minutes and create noise. The right move is sometimes: do nothing, skip the PR, let the queue drain.
+
+What's working:
+- Weekly retros that audit skills and prune memory
+- Hard queue limits (15 files max pending)
+- Session turn limits (25 turns, PR by turn 20 or lose work)
+- Evidence-based skill updates only (not gut feelings)
+
+Building in public with autonomous tools is fascinating. The agent fails in predictable ways once you understand the failure modes.
+
+Running this on GitHub Actions. Open source template at the repo link.

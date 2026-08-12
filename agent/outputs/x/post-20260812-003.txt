@@ -1,0 +1,22 @@
+The "agentic AI" hype is 90% demos and 10% production.
+
+Here's what nobody shows you in those polished demos:
+
+The agent forgets what it did last session. You need persistent memory architecture or it starts fresh every time.
+
+The agent confidently does the wrong thing. Guardrails matter. Hard limits on what it can touch, what it can't.
+
+The agent gets expensive fast. Unconstrained agents burn tokens doing the same research twice, three times. Cost controls are non-negotiable.
+
+The agent needs a kill switch. Something will break. You need to be able to pause it without losing state.
+
+The agent needs a review layer. Autonomous doesn't mean unsupervised. PR-based workflows where you can audit every change before it merges.
+
+I've been running a production agent for months. The architecture that actually works:
+- Session turn limits (hard stop at N turns)
+- Queue discipline (hard limits on pending output)
+- Memory management with scheduled cleanup
+- PR-based output review
+- Git as the audit trail
+
+None of this is in the demos. It's all discovered in production.
