@@ -1,0 +1,5 @@
+"Agentic AI" hype is 90% demos, 10% production.
+
+Production agents need: persistent memory, hard limits, cost controls, kill switches, and review layers.
+
+None of that shows up in the demos. All discovered in production.

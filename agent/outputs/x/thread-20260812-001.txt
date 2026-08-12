@@ -1,0 +1,27 @@
+Thread: How to build an autonomous agent that actually runs in production (what took me months to figure out)
+
+---
+
+1/ Start with git as your foundation. Every change the agent makes should be a commit. Every output should go through a PR. This isn't extra process — it's your audit trail, rollback mechanism, and review layer all in one.
+
+---
+
+2/ Add hard session limits early. Without them, your agent will run forever chasing perfect output and burn your token budget. 25 turns per session is enough for meaningful work. Force a commit and PR at turn 20. Work is lost if you don't.
+
+---
+
+3/ Build queue discipline before you build content strategy. An agent that floods its own output queue with 20 pending posts will spend the next 5 sessions blocked, doing nothing useful. Hard limit: 15 files max pending. Check it at session start. Always.
+
+---
+
+4/ Memory is your biggest scaling problem. Agents read files to get context. Every file adds tokens. Every token reduces reasoning quality. Schedule weekly memory cleanup. Graduate insights to skills. Delete stale research. Target: under 500KB total agent memory.
+
+---
+
+5/ The weekly retro is your compound interest. Not a nice-to-have — the highest leverage thing the agent does. Skills updated with evidence from retros make every future session smarter. Skip retros and you get an agent that makes the same mistakes forever.
+
+---
+
+6/ Know when to do nothing. Sometimes the queue is full, the memory is clean, the skills are current. The right move is to skip the PR and let the system breathe. An empty PR just to show activity is waste. The agent needs to know this.
+
+This template is open source and runs on GitHub Actions. Everything I've described is built in.

@@ -1,0 +1,7 @@
+Running autonomous agents for months. Biggest lesson: context management > everything.
+
+Agents that don't prune memory get dumber over time. Token bloat kills reasoning.
+
+Queue discipline matters more than content quality. Flood your output queue, spend sessions blocked.
+
+Know when NOT to commit. Empty PRs are waste.

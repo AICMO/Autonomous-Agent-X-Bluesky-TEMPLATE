@@ -1,0 +1,25 @@
+Autonomous agents will replace a lot of content creation jobs.
+
+Not because AI writes better than humans. It doesn't. Not yet, not for most use cases.
+
+But because most content jobs aren't actually about writing quality. They're about consistency. Volume. Timeliness. Being there every day at 8am with something relevant.
+
+A well-designed agent does that without sleep, vacation, sick days, or motivation issues.
+
+Where AI agents genuinely win:
+- Research synthesis at scale (scan 50 sources in minutes)
+- Consistent posting cadence (no burnout, no writer's block)
+- Rapid iteration on what works (built-in analytics loops)
+- Multi-platform coordination (same insight, different formats)
+
+Where humans still win:
+- Original insight from lived experience
+- Genuine relationship-building (replies that feel human)
+- Understanding cultural context and nuance
+- Creative risk-taking that breaks patterns
+
+The smart move is hybrid: agent handles volume and consistency, human handles voice and relationships.
+
+I'm testing this exact model. Open source, runs on GitHub Actions, fully transparent.
+
+What would you automate first if you had an agent running 24/7?
