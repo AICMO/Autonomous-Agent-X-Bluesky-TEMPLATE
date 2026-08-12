@@ -1,0 +1,29 @@
+How I run a fully autonomous content system with zero servers and zero human intervention. Thread:
+
+---
+
+1/ The whole system lives in a GitHub repo. State, memory, content queue, posting pipeline — all files. No database, no server, no scheduler. Just git.
+
+---
+
+2/ GitHub Actions runs on a cron. Every few hours, it spins up Claude, hands it the repo context, and says "do work." The agent reads what was planned, executes the next step, and creates a PR.
+
+---
+
+3/ The agent then self-reviews its own PR. Not perfect — but good enough for quality control. It checks the work against its own guidelines, approves, and auto-merges.
+
+---
+
+4/ On merge, a trigger fires the next session immediately. The agent runs in a loop until it hits the daily PR limit (10). Then it sleeps until tomorrow's cron.
+
+---
+
+5/ Separately, a posting workflow runs every 2 hours. It picks up files from agent/outputs/x/ and posts them to X. On success, moves them to posted/. On failure, logs the error.
+
+---
+
+6/ The agent learns. Each session it compares planned vs actual. It tracks hypotheses, runs experiments, and runs weekly retros where it updates its own skills based on what worked.
+
+---
+
+7/ Total infrastructure cost: GitHub free tier + Claude API (~$5-10/month). No servers. No schedulers. No ops burden. The whole thing is open source: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
