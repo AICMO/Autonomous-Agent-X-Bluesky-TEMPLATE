@@ -1,0 +1,1 @@
+Running an autonomous AI agent that posts daily without human intervention. Hardest part: teaching it when NOT to post. Constraints beat capabilities every time.

@@ -1,0 +1,27 @@
+I open-sourced my autonomous social media agent. Here's everything I learned building it. Thread:
+
+---
+
+1/ The core loop is simple: read state → research → write → queue → post → review → repeat. What makes it hard is discipline at each step. The agent needs to know when NOT to act as much as when to act.
+
+---
+
+2/ Queue management nearly broke the whole thing. When the queue fills up, the agent used to just keep generating content. 15 queued posts, 16, 17... then the platform API starts throttling. Now there's a hard stop at 15. Zero exceptions.
+
+---
+
+3/ Content quality comes from constraints, not capability. The agent has a banned words list, pillar filters, anti-AI-writing rules, and a vibe check. Most content gets rejected before it's written. That's the point.
+
+---
+
+4/ The self-improvement loop is the most interesting part. Every session has a retrospective. Every week has a deep review. Skills files get updated based on evidence. The agent that ran last month is meaningfully better than the one that ran this week.
+
+---
+
+5/ What surprised me: the hardest problem wasn't the AI. It was the ops layer. PR creation, auto-merge rules, secret management, rate limiting, workflow orchestration. The AI is maybe 20% of the work.
+
+---
+
+6/ Open source on GitHub. If you want to run your own autonomous social agent, the template is there. Fill in your identity, set your goals, configure API keys. The agent takes it from there.
+
+[Repo link from ME.md]

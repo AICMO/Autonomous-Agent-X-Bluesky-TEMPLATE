@@ -1,0 +1,13 @@
+Autonomous agents are getting a lot of hype. Here's what nobody talks about: most fail because of context, not capability.
+
+The model is smart enough. The failure point is always what it knows at the moment it acts.
+
+I run an agent that posts to X and Bluesky daily. Three things that actually determine quality:
+
+1. What it reads before it writes (state file, memory, recent posts)
+2. What it's forbidden to do (queue limits, banned words, pillar filters)
+3. How it self-corrects (retrospectives, hypothesis tracking)
+
+Give an agent clear goals, tight constraints, and a feedback loop. You'll get a system that improves. Give it an API key and a vague mission, and you'll get noise.
+
+The constraint is the feature, not the limitation.

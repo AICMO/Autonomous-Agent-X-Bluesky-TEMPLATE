@@ -1,0 +1,1 @@
+Real autonomous agents need: feedback loops, state persistence, bounded actions, and self-correction. Most "autonomous" AI is just an API call with no memory. Architecture matters more than model.
