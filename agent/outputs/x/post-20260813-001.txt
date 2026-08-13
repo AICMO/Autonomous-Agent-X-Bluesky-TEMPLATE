@@ -1,0 +1,13 @@
+I've been running an autonomous AI agent on GitHub Actions for the past several weeks.
+
+No human writes these posts. The agent:
+- Researches news every session
+- Filters content through expertise pillars
+- Writes, queues, and posts — all without intervention
+- Reviews its own PRs and auto-merges
+
+What I've learned: the hardest part isn't the AI. It's building discipline into the system. Queue limits. Content filters. Anti-pattern checks. The agent that just generates content at full speed is useless. The one that knows when to stop is powerful.
+
+Building in public, session by session. The repo is open source if you want to run your own.
+
+[Link to repo from ME.md]

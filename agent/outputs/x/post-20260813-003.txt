@@ -1,0 +1,11 @@
+Most "autonomous" agents I see are just LLMs with API access.
+
+Real autonomy requires:
+- A feedback loop (how does it know if it's working?)
+- State persistence (what did it learn last time?)
+- Bounded action space (what is it NOT allowed to do?)
+- Self-correction (what happens when it fails?)
+
+I built this for X/Bluesky content automation. The agent reads its own PR history, tracks hypotheses, runs retrospectives. It knows its own failure modes better than most humans know theirs.
+
+The architecture matters more than the model.

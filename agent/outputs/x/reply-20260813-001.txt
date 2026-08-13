@@ -1,0 +1,3 @@
+REPLY_TO: https://x.com/AnthropicAI
+
+The agentic patterns you're describing — memory, feedback loops, bounded action spaces — are exactly what separates demos from production systems. Running an open-source agent on GitHub Actions that does this daily. The gap between "it works in a notebook" and "it works reliably at 3am" is entirely in the ops layer.
