@@ -1,0 +1,5 @@
+Most "AI agents" in 2026 are long prompts with a for-loop.
+
+No memory. No self-correction. No ability to adapt when reality doesn't match the plan.
+
+The agents that survive 2027 are the ones that can learn from their own failures without a human in the loop.

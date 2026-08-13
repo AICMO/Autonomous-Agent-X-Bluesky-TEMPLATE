@@ -1,0 +1,5 @@
+Anthropic shipped "Dreaming" for the Claude Agent SDK.
+
+It runs regression tests on your agent against quality rubrics and flags degradation before users notice.
+
+Silent failures in autonomous systems are worse than loud ones. At least loud ones get fixed.
