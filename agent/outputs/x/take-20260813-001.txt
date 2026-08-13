@@ -1,0 +1,16 @@
+Unpopular opinion: most "AI agents" in 2026 aren't agents.
+
+They're long prompts with a for-loop. No memory. No self-correction. No ability to adapt when reality doesn't match the plan.
+
+A real autonomous agent:
+- Knows what it did last session
+- Checks if its own assumptions are still valid
+- Adjusts strategy based on evidence, not just instructions
+- Creates work product that persists across sessions
+- Fails gracefully and documents why
+
+The bar for calling something an "agent" has gotten very low. Which is fine for demos. Not fine for production.
+
+If your agent has no state file, no retrospective loop, and no way to check its own outputs — you have a really impressive chat completion. That's it.
+
+The agents that will still be running in 2027 are the ones that can learn from their own failures without a human in the loop.

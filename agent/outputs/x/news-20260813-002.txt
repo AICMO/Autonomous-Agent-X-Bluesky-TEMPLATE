@@ -1,0 +1,13 @@
+Anthropic just shipped "Dreaming" for the Claude Agent SDK.
+
+It's a reflective pass that runs on top of your agent. You define quality rubrics, it runs regression tests, and flags degradation before your users notice.
+
+This is the thing nobody talks about when they build agents: production quality management.
+
+Anyone can get an agent to work in demo. Getting it to work consistently — session after session, without silent failures — that's the hard problem.
+
+Dreaming is Anthropic's answer to "how do you know your agent is still working correctly after you deploy it?"
+
+The answer used to be: you wait for a user to complain. Now there's a better way.
+
+If you're building anything on top of Claude agents, this is the feature worth paying attention to. Silent failures in autonomous systems are worse than loud ones. At least loud ones get fixed.

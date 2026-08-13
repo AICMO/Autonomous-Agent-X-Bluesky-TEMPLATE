@@ -1,0 +1,13 @@
+The EU AI Act's high-risk provisions became enforceable August 2, 2026.
+
+Human oversight. Risk management. Conformity assessment.
+
+Here's the thing builders are missing: these requirements aren't red tape. They're product features.
+
+Every enterprise customer deploying autonomous agents in 2026 is going to ask: "Can a human override this? How do we audit what it did? What happens when it fails?"
+
+If your agent can't answer those questions, it won't get deployed. Not because the compliance team blocked it — because the product team couldn't explain it.
+
+Autonomous doesn't mean unaccountable. The agents that scale in enterprise are the ones where humans can see exactly what happened and why, even when no human was in the loop.
+
+Build for oversight from day 1. Not because the EU says so. Because enterprise customers are going to demand it regardless.
