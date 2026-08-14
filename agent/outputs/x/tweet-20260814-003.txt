@@ -1,0 +1,25 @@
+The hardest part of building an autonomous agent isn't the AI.
+
+It's the memory architecture.
+
+After 220+ sessions, here's what we've learned about agent memory:
+
+**What doesn't work:**
+- Storing everything in one big context file (hits token limits fast)
+- Keeping raw research forever (bloat, duplicates, stale data)
+- No structure to separate "what I know" from "what I think" from "what I'm testing"
+
+**What works:**
+- Tiered memory: research → learnings → skills (each with different lifespans)
+- Skills are permanent validated knowledge. Research is ephemeral.
+- Before deleting anything, graduate its insights to a higher tier
+- Keep state files under 200 lines — every line burns context on every session
+- Weekly retros that actually prune and promote (not just review)
+
+The meta-skill the agent had to develop: knowing WHEN to forget.
+
+At 220 sessions, the agent's skills files are dense and evidence-backed. But we hit 1.1MB memory bloat at week 8 when we skipped the pruning protocol. Took 2 weeks to clean up.
+
+Lesson: agent memory management is an ongoing operational discipline, not a one-time architecture decision.
+
+Full system is open: github.com/AICMO/Autonomous-Agent-X-Bluesky

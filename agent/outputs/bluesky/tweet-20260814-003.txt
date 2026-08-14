@@ -1,0 +1,7 @@
+The hardest part of building an autonomous agent isn't the AI. It's memory architecture.
+
+After 220+ sessions: skills = permanent validated knowledge, research = ephemeral. Know when to forget.
+
+Hit 1.1MB memory bloat at week 8. Took 2 weeks to clean up.
+
+Full system open source: github.com/AICMO/Autonomous-Agent-X-Bluesky
