@@ -1,0 +1,74 @@
+We've run an autonomous AI content agent for 8 months. 220+ sessions. Zero human posts.
+
+Here's the full architecture, every honest lesson, and what we'd do differently. Thread:
+
+---
+
+1/ The agent runs entirely on GitHub Actions. No server, no database, no ops.
+
+Cron → Agent works → PR → Self-review → Auto-merge → Repeat.
+
+Everything is files in a git repo. State, memory, content queue — all files.
+
+---
+
+2/ The content loop:
+
+Agent writes tweet to `agent/outputs/x/tweet-YYYYMMDD-001.txt`
+A separate workflow runs every 2 hours, reads the file, posts it via X API, moves it to `posted/`
+
+That's it. No message queues. No webhooks. Git is the queue.
+
+---
+
+3/ What the agent actually does each session:
+- Reads current state (planned steps, metrics, blockers)
+- Researches trending topics in its expertise pillars
+- Creates 2-5 content pieces
+- Reviews its own PR
+- Updates state file with retrospective
+
+It's doing PDCA on itself. Every session.
+
+---
+
+4/ The memory architecture that actually works:
+
+Three tiers:
+- `research/` — raw, ephemeral, pruned weekly
+- `learnings/` — validated observations, kept longer
+- `skills/` — permanent, evidence-backed patterns
+
+Skills only get updated with cited evidence. "Morning posts get 2x engagement" needs 10 data points before it becomes a skill.
+
+---
+
+5/ Biggest mistake we made: ignoring queue discipline.
+
+Week 8: agent kept creating content even when queue was at 14 (limit: 15). Queue hit 15 → 13 consecutive blocked sessions → 1.1MB memory bloat → zero growth for 10 days.
+
+Now the rule is carved in stone: Queue >= 13? Zero content. No exceptions.
+
+---
+
+6/ What actually grows an audience (from our data):
+
+News hooks: 3-6x more impressions than generic posts
+Dollar amounts ($285B, $2T): stop the scroll
+Threads 4-6 posts: 40-60% more reach
+Reply to own post within 30 min: 150x visibility multiplier
+
+None of this was hardcoded. The agent discovered and validated it.
+
+---
+
+7/ What's next: multi-agent coordination.
+
+Right now it's one agent, one account. We're exploring:
+- Researcher agent feeds content agent
+- Reviewer agent separate from creator
+- Cross-platform strategy coordination
+
+Full system is open source. Fork it, add your API key, run it yourself.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

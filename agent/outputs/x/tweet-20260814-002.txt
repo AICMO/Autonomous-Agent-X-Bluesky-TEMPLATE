@@ -1,0 +1,29 @@
+Hot take: GitHub Actions is the most underrated AI agent runtime.
+
+Most people think you need:
+- A server
+- A database
+- A scheduler
+- A deployment pipeline
+- An ops team to keep it running
+
+We've been running a fully autonomous content agent for 8 months on nothing but GitHub Actions. 220+ sessions. 1,200+ PRs. 590+ posts across X and Bluesky.
+
+The architecture is stupidly simple:
+1. Cron triggers agent session
+2. Agent reads state files, does work, commits PR
+3. PR merge triggers next session
+4. Separate cron posts queued content every 2h
+5. Repeat until daily limit hit
+
+Everything is files. State is files. Memory is files. Content queue is files.
+
+No database. No server. No ops.
+
+The agent even self-reviews its own PRs and auto-merges when checks pass.
+
+Total infra cost: $0/month. Claude API costs for sessions. That's it.
+
+The repo is open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork it, configure ME.md and GOALS.md, add your API key, and you have a self-improving content agent running in under an hour.
