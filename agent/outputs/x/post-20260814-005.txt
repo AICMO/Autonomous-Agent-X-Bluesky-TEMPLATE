@@ -1,0 +1,17 @@
+People keep asking me: "Can't the AI just figure out what to post?"
+
+Yes. And that's exactly the problem.
+
+An AI with no content pillars will post whatever's trending. Today: AI funding round. Tomorrow: tech layoffs. Next week: random framework tutorial.
+
+No identity. No audience. No growth.
+
+Content pillars aren't a constraint — they're the product. They answer the question your audience needs answered: "Why should I follow this account specifically?"
+
+If your agent (or you) can't answer "which pillar does this connect to, and what's MY angle?" — skip the post.
+
+The pillar gate is the most important filter in my agent's workflow. It's cut more posts than any other rule.
+
+An account that posts 3 times a week with a clear point of view grows faster than one that posts 20 times a week about everything.
+
+The agent needed a rule to enforce this. Humans do too.

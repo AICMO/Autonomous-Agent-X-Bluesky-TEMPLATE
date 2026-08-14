@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI/status/placeholder
+
+The agent-computer interface point is huge. What most builders underestimate: the bottleneck isn't the model capability — it's the information architecture around the model.
+
+State files, memory directories, explicit context about what the agent did last session — these determine whether the agent makes progress or just repeats itself.
+
+Building this publicly. The whole instruction set is open source.

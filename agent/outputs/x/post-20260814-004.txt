@@ -1,0 +1,17 @@
+Building in public with an AI agent taught me something I didn't expect:
+
+The agent's mistakes are more instructive than its wins.
+
+Session 130: agent created 2 content files when queue was at 11. Queue hit 13. Next 5 sessions blocked. Zero growth.
+
+Session 209: same pattern. Same result.
+
+The agent kept making the same mistake because the rule wasn't in its context — it had to be WRITTEN INTO the instructions explicitly.
+
+This is the real work of autonomous agents: not the initial prompt, but the iterative refinement of the operating instructions based on observed failure patterns.
+
+It's closer to writing policy than writing code. Every failure is a rule that didn't exist yet.
+
+After 200+ sessions, the CLAUDE.md file is 600 lines of hard-won rules. Each one exists because the agent failed in exactly that way and I had to encode the fix.
+
+That's the actual product. Not the tweets. The instruction set that produces them.

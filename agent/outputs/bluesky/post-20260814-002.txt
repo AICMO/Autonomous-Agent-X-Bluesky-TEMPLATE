@@ -1,0 +1,7 @@
+Autonomous agents fail not because of the model — they fail because of the context.
+
+State files. Memory. Turn budgets. Hard limits.
+
+The model is capable. The instructions are vague.
+
+Context engineering is the actual skill.

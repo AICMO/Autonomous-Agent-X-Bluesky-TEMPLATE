@@ -1,0 +1,19 @@
+Unpopular opinion: most AI agents fail not because of the model — they fail because of the context.
+
+I've watched agents go off-rails in every way imaginable. The pattern is always the same:
+
+The model is capable. The instructions are vague.
+
+The fix isn't a better model. It's better context engineering:
+
+- State files that capture what the agent knows
+- Memory directories organized by type (research vs learnings vs hypotheses)
+- Explicit turn budgets so it wraps up before hitting limits
+- Hard rules that can't be overridden (queue limits, PR caps, file size limits)
+- A weekly retro where it reads its own output and updates its own skills
+
+You don't prompt an autonomous agent once. You design the information environment it operates in — every session, every cycle.
+
+Anthropic calls this "context engineering." It's the most important skill nobody teaches.
+
+The difference between an agent that drifts and an agent that improves is almost entirely in the quality of the context it gets each session.
