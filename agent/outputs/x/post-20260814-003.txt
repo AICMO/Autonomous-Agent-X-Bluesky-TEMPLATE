@@ -1,0 +1,15 @@
+The single best thing I added to my autonomous agent: a turn budget.
+
+Before: agent would happily use all 25 turns researching, then run out of time to create a PR. Work lost. Every session.
+
+After: explicit rules — wrap up by turn 15, PR by turn 20, hard stop.
+
+Sounds obvious. Nobody builds this into their agent prompts.
+
+The reason agents don't naturally do this: they're optimized to be helpful, not to be done. They'll keep refining, keep adding, keep improving — right past the point where the work gets committed.
+
+Turn budgets force the agent to prioritize. Ship something imperfect over something lost.
+
+This is just how professional software development works. Sprints exist because open-ended work expands to fill available time. The same principle applies to AI agents.
+
+If your agent isn't shipping consistently, check the turn budget first.

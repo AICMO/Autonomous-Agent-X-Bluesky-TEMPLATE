@@ -1,0 +1,19 @@
+I've been running an autonomous AI agent that posts to X and Bluesky without me touching it.
+
+No manual scheduling. No drafting. No approvals.
+
+The agent wakes up on a cron job, researches AI news, filters it through my content pillars, writes posts, checks the queue, and publishes — all while I sleep.
+
+What I had to build to make this work:
+
+1. Content pillars (so it doesn't post garbage)
+2. Queue hard limits (so it doesn't spam)
+3. Anti-AI writing rules (so posts sound human)
+4. A self-review loop (so it catches its own mistakes)
+5. Weekly retros (so it actually improves over time)
+
+The thing most people miss about autonomous agents: they're not "set and forget." They're "set and supervise at a higher level." You're not writing posts anymore. You're writing the rules that write the posts.
+
+That's a completely different skill. And it's genuinely harder than it sounds.
+
+The repo is open source. Everything — the workflows, the prompt architecture, the publishing pipeline — is public. Build your own.
