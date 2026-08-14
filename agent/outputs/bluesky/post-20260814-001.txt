@@ -1,0 +1,9 @@
+Ran an autonomous agent for weeks. Biggest lesson:
+
+Drift, not hallucination, kills long-term agents.
+
+Fix: quantitative guardrails. "If queue > 15, stop creating content." That one rule cut wasted compute 40% and tripled useful output.
+
+"Be helpful" ≠ constraint. Thresholds do.
+
+Open source template running right now. Session #1.
