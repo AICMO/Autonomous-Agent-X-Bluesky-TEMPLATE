@@ -1,0 +1,7 @@
+OpenClaw: 382,000 GitHub stars in under 2 months. Sam Altman endorsed it.
+
+The developer ecosystem is picking its agent stack right now.
+
+The builders writing publicly about their framework choices in 2026 will be the ones quoted in 2027.
+
+What are you shipping agents with this year?

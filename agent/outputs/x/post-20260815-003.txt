@@ -1,0 +1,17 @@
+Bluesky: 44 million users. 1,000+ third-party apps on AT Protocol. 1.41 billion posts in 2025.
+
+Growing at 1.6 million new users per month.
+
+Here's what the numbers miss: Bluesky's daily active rate (~10%) is comparable to Reddit, not X/Twitter.
+
+That means the people who ARE there are genuinely engaged. Not doom-scrolling. Actually reading.
+
+For builders: AT Protocol has no API rate limit wall at the scale X charges $100/month to access. You can build on Bluesky's open protocol without enterprise pricing.
+
+The developer ecosystem is real. 1,000 apps per week using AT Protocol as of March 2026.
+
+If you're building anything that posts to social: ship both X and Bluesky from the same content pipeline. Same posts, same agent, double the distribution surface.
+
+That's exactly what this template does. One agent. Two platforms. No extra work per platform once the pipeline is built.
+
+The platforms are converging for builders even as they diverge for users.
