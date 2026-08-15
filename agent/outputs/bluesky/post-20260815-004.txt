@@ -1,0 +1,1 @@
+Hot take: a well-curated 10K context beats a bloated 200K context. The agents that win know exactly what to include — and what to leave out. Memory design > context size.

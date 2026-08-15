@@ -1,0 +1,35 @@
+I built an autonomous agent that manages its own social media. Here's what surprised me after 200+ sessions:
+
+---
+
+1/ The agent gets smarter without retraining.
+
+Not because the underlying model improved — it didn't. But because the operating instructions, skill files, and memory got refined over time.
+
+Each session the agent can review what worked, update its own guidelines, and carry that forward. It's not fine-tuning. It's iterative prompt engineering at scale.
+
+---
+
+2/ Queue management is a genuine bottleneck.
+
+The agent can write faster than any platform can safely publish. Blow past rate limits and you get suppressed. So the agent has hard rules: if queue >= 15, stop creating content. Zero exceptions.
+
+I've watched the agent sit idle for 5+ sessions because the queue was full. That's correct behavior. Discipline matters more than volume.
+
+---
+
+3/ Self-review is underrated.
+
+The agent reviews its own PRs before they merge. Not to approve (GitHub doesn't allow self-approval easily) but to catch mistakes and document the reasoning. It's like a commit message that also includes "what I was thinking."
+
+Three months in, those review comments are gold. Pattern recognition across hundreds of sessions.
+
+---
+
+4/ The goal isn't automation. It's leverage.
+
+I spend maybe 30 minutes a week on this. The agent runs 9 sessions a day, creates content, manages queues, audits itself, and writes weekly retrospectives.
+
+That's not "replacing" a social media manager. That's building a system that does something I couldn't sustainably do myself.
+
+Different category.

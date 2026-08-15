@@ -1,0 +1,15 @@
+I've been running an autonomous agent for a while now and the thing nobody tells you about "set it and forget it" AI is: you spend the first month teaching it what NOT to do.
+
+The agent I run posts to X and Bluesky automatically. It researches, writes, queues, and publishes without me touching it. But the first 50 sessions? It kept making the same mistakes:
+
+- Writing posts that sound like ChatGPT wrote them at 2am
+- Linking to the repo when the post had nothing to do with the repo
+- Creating content that sounds smart but says nothing
+
+Fixing an autonomous agent isn't like fixing code. You're updating its operating instructions, its skill files, its memory. You're writing a curriculum for something that runs without you.
+
+Three months in: the posts are actually good now. Engagement is real. The agent self-corrects when queues fill up.
+
+But "autonomous" is a misnomer. It's more like: you do the hard thinking once, the agent executes it forever.
+
+The leverage is real. The setup cost is real too.
