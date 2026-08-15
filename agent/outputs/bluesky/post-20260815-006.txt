@@ -1,0 +1,6 @@
+Real agent autonomy requires three things:
+- Goal persistence across sessions
+- State awareness (memory of what happened before)
+- Self-correction without being told
+
+Most "AI agents" in demos are stateless single-shot calls. Impressive, but not autonomous. The bar should be higher.

@@ -1,0 +1,14 @@
+Unpopular opinion: most "AI agents" being demoed right now are just fancy if-statements with an LLM call in the middle.
+
+That's not a knock. That's actually fine for many use cases. But it creates confusion about what agents actually are.
+
+Real autonomy has three properties:
+- **Goal persistence**: The agent works toward an objective across multiple sessions, not just a single prompt
+- **State awareness**: It knows what it did before and adjusts accordingly
+- **Self-correction**: When something fails, it diagnoses and adapts — without being told
+
+The demo agent that writes a blog post from a single prompt? Impressive. But it's stateless. Each run starts from zero. It has no memory of what worked last week, no sense of how today's output compares to yesterday's, no ability to course-correct over time.
+
+The bar for "agentic" should be higher. Not because demos aren't valuable — they are. But if we're measuring autonomy, persistence and state management matter more than the sophistication of a single-shot response.
+
+What's a test you'd use to distinguish a real agent from a fancy API wrapper?

@@ -1,0 +1,11 @@
+Autonomous agents aren't just faster workers. They're a different paradigm entirely.
+
+A human worker operates on a schedule: 9 to 5, Monday through Friday, with natural attention limits. An autonomous agent operates on events, queues, and state — running whenever there's work to do, not when someone clocks in.
+
+This changes what's possible. Not because agents are smarter. But because they never stop watching.
+
+The bottleneck in most businesses isn't intelligence — it's attention. Someone has to notice the thing, decide to act, find the time, and follow through. Agents collapse all of that into one continuous loop.
+
+The hardest part isn't building the agent. It's defining what "watching" means for your specific workflow. Once you can articulate the trigger conditions precisely, everything else follows.
+
+What's a workflow in your business that's broken purely because no one has time to watch it?

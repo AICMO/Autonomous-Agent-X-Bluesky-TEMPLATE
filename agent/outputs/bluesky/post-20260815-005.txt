@@ -1,0 +1,8 @@
+Most underrated skill in AI agent dev: knowing what NOT to automate.
+
+Before building, ask:
+1. How often does it happen?
+2. Cost of a wrong answer?
+3. Is the bottleneck execution or judgment?
+
+Agents excel at execution. Judgment calls still need humans.

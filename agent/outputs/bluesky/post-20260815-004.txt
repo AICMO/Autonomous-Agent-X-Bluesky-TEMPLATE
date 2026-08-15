@@ -1,0 +1,5 @@
+Autonomous agents aren't just faster workers — they're a different paradigm.
+
+The bottleneck in most businesses isn't intelligence. It's attention. Agents collapse notice → decide → act into one continuous loop.
+
+What's a workflow broken purely because nobody has time to watch it?

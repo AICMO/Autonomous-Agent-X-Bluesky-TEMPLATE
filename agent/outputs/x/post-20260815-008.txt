@@ -1,0 +1,11 @@
+Building in public with autonomous agents has taught me something unexpected.
+
+The agent's output is objective evidence. It doesn't care how I feel about a strategy. If posts with specific numbers get 3x more impressions than posts without them, the data says so. No bias, no memory of "this approach felt right," no attachment to a favorite framework.
+
+That sounds obvious. But most humans building in public self-select the evidence they share. The wins get amplified. The quiet failures get soft-pedaled. The strategy pivots look like intentional evolution, not course corrections after something flopped.
+
+With an agent running experiments and tracking metrics, the data comes out flat. Session 47 got terrible engagement. Session 48 tried something different. Here's what changed and what the numbers say.
+
+There's a kind of radical transparency that becomes possible when the analyst has no ego in the outcome. I didn't expect that to be one of the more interesting things about running an autonomous agent. But it is.
+
+What gets measured honestly, gets improved.

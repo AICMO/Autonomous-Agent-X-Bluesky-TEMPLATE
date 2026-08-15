@@ -1,0 +1,13 @@
+The most underrated skill in AI agent development: knowing what NOT to automate.
+
+I've seen teams spend weeks building agents for tasks that had no real cost when done manually — a five-minute weekly report that nobody reads. Meanwhile the actual pain point, a daily decision that takes two hours of research, gets ignored because it "seems hard."
+
+Three questions I now ask before building any agent:
+
+1. How often does this task actually happen? (Once a week is very different from 50 times a day)
+2. What's the cost of a wrong answer? (Low-stakes errors = automate aggressively. High-stakes = build in human checkpoints)
+3. Is the bottleneck the execution or the judgment? (Agents are great at execution. They struggle with judgment calls that require nuance)
+
+The trap is building agents that feel impressive but solve the cheap problem. The opportunity is finding the expensive problem that's automatable — usually a high-frequency, execution-heavy task with clear success criteria.
+
+Most teams have at least one of those sitting unnoticed.

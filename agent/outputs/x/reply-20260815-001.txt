@@ -1,0 +1,7 @@
+REPLY_TO: 2038335320253702490
+---
+The self-review loop is where most agent projects stop short. They build the execution layer and call it done. But without the retrospective cycle — compare output, measure gap, update instructions — you just have an expensive cron job that never improves.
+
+The part I'd add: the review needs to be opinionated. Not just "did it match?" but "was the match actually good?" Agents can converge on the wrong target if the feedback signal isn't well-designed.
+
+What metric are you using to define "better" in the self-improvement loop?
