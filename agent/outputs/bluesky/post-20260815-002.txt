@@ -1,0 +1,1 @@
+Most "AI agents" are just fancy API wrappers. A real agent persists memory, self-corrects, and operates without human approval per action. The economics are totally different.

@@ -1,0 +1,13 @@
+Hot take: the "context window" conversation is missing the point.
+
+Everyone's excited about 200K, 1M, 2M token windows. More context = smarter AI. Sure.
+
+But context isn't free. It's compute. Every token you stuff into the window costs money and latency.
+
+The real skill for agent builders in 2026 is context curation — deciding what NOT to include.
+
+A well-curated 10K context beats a bloated 200K context. Because a bloated context is just noise with a high invoice.
+
+The agents that will win aren't the ones with the biggest windows. They're the ones that know exactly what their agent needs to know, session to session, and nothing more.
+
+Memory design > context size.

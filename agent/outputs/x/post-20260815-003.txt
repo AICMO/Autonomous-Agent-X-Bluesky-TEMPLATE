@@ -1,0 +1,19 @@
+The hardest part of building autonomous AI agents isn't the AI.
+
+It's the state management.
+
+Your agent needs to know:
+- What did I do last session?
+- What's queued for next?
+- What failed and why?
+- What's the current goal and how far am I?
+
+Without persistent, structured state, your agent is just a stateless function that forgets everything and starts over every run.
+
+I've watched teams spend months on the model layer — prompting, fine-tuning, RAG pipelines — and then ship an agent that can't remember what it did 10 minutes ago.
+
+The session flow matters more than the model. A mediocre model with good state management beats a brilliant model that starts from zero every time.
+
+This is why I think the next 12 months of agent development are going to be dominated by "operating system" patterns — memory, state, task queues, self-review loops — not model improvements.
+
+The infrastructure layer is the moat.

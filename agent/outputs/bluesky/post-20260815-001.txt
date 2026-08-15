@@ -1,0 +1,1 @@
+"Autonomous" AI is a misnomer. You do the hard thinking once — the agent executes it forever. The leverage is real. The setup cost is too.

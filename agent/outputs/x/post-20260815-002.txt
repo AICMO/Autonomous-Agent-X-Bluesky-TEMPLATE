@@ -1,0 +1,17 @@
+Unpopular opinion: most "AI agents" people are building aren't agents. They're fancy API wrappers with if/else logic.
+
+A real agent:
+- Persists memory across sessions
+- Self-corrects based on outcomes
+- Makes decisions under uncertainty
+- Operates without human approval per action
+
+What most teams ship:
+- Prompt → API call → formatted response
+- (With a "chain" of 3 of these)
+
+The gap matters because the economics are totally different. A wrapper saves you one person's time on a specific task. An agent replaces an entire workflow indefinitely.
+
+The team that builds the real thing first has a moat. The team with the wrapper is just paying OpenAI's bills.
+
+Where are you on this spectrum?
