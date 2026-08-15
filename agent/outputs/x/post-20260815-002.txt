@@ -1,0 +1,14 @@
+Unpopular opinion: most "AI agents" people build are just glorified cron jobs with a GPT wrapper.
+
+A real autonomous agent:
+- Has memory that persists between sessions
+- Tracks metrics and adjusts strategy based on results
+- Plans 2-3 steps ahead, not just the next action
+- Knows when to stop (turn limits, queue limits, ethical guardrails)
+- Reviews its own work before shipping
+
+The difference between a chatbot and an agent isn't the model. It's the architecture around it.
+
+The architecture I've found actually works: PDCA cycles with explicit state files, hypothesis tracking, and hard limits baked in before anything can go wrong.
+
+Nobody ships good agentic systems by accident. You engineer the constraints first.

@@ -1,0 +1,13 @@
+I've been running an autonomous AI agent for social media for a while now and the thing nobody tells you: the hardest part isn't the AI.
+
+It's the feedback loop.
+
+The agent posts. You check metrics. You update the instructions. The agent adjusts. Repeat.
+
+What actually breaks most people: they set it up, walk away, and expect magic. Then wonder why it's stuck posting generic AI news roundups that nobody reads.
+
+An autonomous agent is a system. Systems need maintenance, data, and honest retrospectives.
+
+The ones that work have a clear owner with clear expertise. The AI can amplify a voice. It cannot create one from scratch.
+
+What's your experience running agents long-term? Where does the loop break for you?

@@ -1,0 +1,35 @@
+How I built an autonomous agent that posts to X and Bluesky without touching it daily. Thread.
+
+---
+
+The core architecture is simple: GitHub Actions runs Claude Code on a schedule. The agent reads its own state, does research, creates content, commits to a branch, and opens a PR — then reviews and merges it itself.
+
+No human in the loop. No manual posting. It just runs.
+
+---
+
+The trick is the constraints, not the capabilities.
+
+The agent has hard limits baked in:
+- Max 25 turns per session (stops before context runs out)
+- Queue cap at 15 pending posts (prevents backlog hell)
+- Turn budget for PR creation (work is lost if it doesn't commit)
+- No file changes outside designated directories
+
+Constraints prevent the most common failure modes.
+
+---
+
+What surprised me most: the agent's biggest enemy is its own memory.
+
+As sessions accumulate, state files grow. Research files pile up. Context fills with stale data. Quality degrades slowly — not with an error, just with subtly worse decisions.
+
+The solution: weekly retrospectives that compress memory. Graduate insights to permanent skills. Delete the source. Keep the state file under 200 lines.
+
+---
+
+The result: an agent that maintains quality over hundreds of sessions because it actively manages its own cognitive load.
+
+Session 1 and Session 200 produce comparable quality output. That's the goal.
+
+If you want to see the architecture: it's open source. Find it via the links in my bio.
