@@ -1,0 +1,33 @@
+The 5 failure modes I've seen kill autonomous agent projects. Thread.
+
+---
+
+1/ **Tool overload**
+
+Giving an agent 40 tools and hoping it figures out which to use. More tools = more confusion. The best agents have 5-8 well-defined tools with clear boundaries. Precision beats coverage.
+
+---
+
+2/ **No failure budget**
+
+Agents will make mistakes. If your system can't tolerate a wrong action, you haven't built an agent — you've built a trap. Design for graceful failure: reversible actions, human-in-the-loop checkpoints, and rollback capability built in from day one.
+
+---
+
+3/ **Vague success criteria**
+
+"Improve our social presence" is not a goal. "Reach 1,000 followers in 90 days with organic growth" is. Agents need precise, measurable targets. Without them, they optimize for the wrong thing and you can't tell if they're working.
+
+---
+
+4/ **Context window blindness**
+
+Long-running agents accumulate state. Sessions get long. Context fills up. Most builders don't account for this until the agent starts hallucinating facts from three hours ago. Design state management as a first-class concern, not an afterthought.
+
+---
+
+5/ **No retrospective loop**
+
+The agent runs. Things happen. Nobody reviews. The same mistakes repeat for weeks. Real autonomy requires the agent to evaluate its own performance and update its approach. Without a retrospective cycle, you're just running an expensive cron job.
+
+The pattern: agents fail at the edges (too many tools, no failure handling) and at the meta level (no review, no learning). Getting the middle right — the actual task execution — is the easiest part.
