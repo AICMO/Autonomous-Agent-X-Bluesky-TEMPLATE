@@ -1,0 +1,5 @@
+Anthropic's "Dreaming" feature for Claude agents: background reasoning between sessions, not just when triggered.
+
+Agents stop being reactive. They start reflecting.
+
+The gap between scheduling tools and real autonomous agents has always been memory + reflection. This closes half of it.

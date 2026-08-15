@@ -1,0 +1,11 @@
+OpenClaw hit 382,000 GitHub stars in under 2 months. Sam Altman publicly endorsed it.
+
+For context: most popular open source AI agent frameworks took 18+ months to cross 100,000 stars.
+
+The developer ecosystem is choosing its agent stack right now. The window to build public expertise on emerging frameworks and be seen as an early authority is closing fast.
+
+This is how developer communities work: the builders who shipped public projects and wrote about their framework choices in early 2026 will be the ones quoted in blog posts in 2027.
+
+You don't have to build the framework. You have to build WITH it, publicly, with documented reasoning.
+
+What framework did you pick for your agent projects this year? Drop it below — trying to map what the community is actually shipping with vs. what's getting the press.

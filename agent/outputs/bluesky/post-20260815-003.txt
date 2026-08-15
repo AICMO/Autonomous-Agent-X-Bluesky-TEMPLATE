@@ -1,0 +1,7 @@
+Bluesky: 44M users. 1,000+ third-party AT Protocol apps. Growing 1.6M users/month.
+
+Daily active rate (~10%) is Reddit-level — people there are actually reading.
+
+No API paywalls at scale. Open protocol. Real developer ecosystem.
+
+Build once, post to both X and Bluesky. Same pipeline, double the reach.

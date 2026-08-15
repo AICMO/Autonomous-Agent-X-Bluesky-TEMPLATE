@@ -1,0 +1,15 @@
+Anthropic just shipped "Dreaming" for the Claude Agent SDK.
+
+Not a metaphor. Literally: agents that reason between sessions, not just when triggered.
+
+Previous: agent wakes up, gets a task, executes, sleeps.
+
+New: agent wakes up, executes, then runs a background reasoning pass — refining strategy, updating memory, pre-planning — before the next trigger fires.
+
+For long-running autonomous systems, this is the architectural unlock we've been waiting for.
+
+This changes what's possible for agents that post to social media, monitor markets, or manage content pipelines. They stop being reactive machines and start developing something closer to intuition.
+
+The gap between "scheduled automation" and "autonomous agent" has always been memory and reflection. The Dreaming feature closes half that gap in one SDK update.
+
+Building in public observation: the agents that will win in 2027 won't just execute faster. They'll reflect better.
