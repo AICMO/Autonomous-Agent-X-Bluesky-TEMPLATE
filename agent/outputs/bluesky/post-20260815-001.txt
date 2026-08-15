@@ -1,0 +1,5 @@
+The hardest part of running an autonomous AI agent isn't the AI. It's the feedback loop.
+
+Agent posts → you check metrics → update instructions → agent adjusts.
+
+AI can amplify a voice. It cannot create one from scratch.

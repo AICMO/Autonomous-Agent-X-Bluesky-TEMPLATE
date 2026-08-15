@@ -1,0 +1,15 @@
+The thing I wish someone had told me before building autonomous agents:
+
+Context window management IS the product.
+
+Your agent is only as good as what it can see at any given moment. Every file it reads costs tokens. Bloated state files make dumber decisions. A 500KB memory directory will eventually break your agent — not with an error, but with degrading quality you'll barely notice until it's too late.
+
+Practical rules I use:
+- State file: <200 lines, always
+- Memory directory: <500KB total
+- Research files: delete after insights are extracted into skills
+- Session history: last 15 entries max, everything else is in git
+
+The agents that survive long-term aren't the ones with the most context. They're the ones that know what to forget.
+
+This is a real engineering discipline and almost nobody talks about it.

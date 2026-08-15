@@ -1,0 +1,5 @@
+Context window management IS the product when building autonomous agents.
+
+Every file the agent reads costs tokens. Bloated memory = dumber decisions.
+
+The agents that survive long-term know what to forget. Almost nobody engineers this deliberately.

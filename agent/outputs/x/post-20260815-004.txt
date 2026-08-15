@@ -1,0 +1,15 @@
+The agentic AI market is being built by people who've never shipped a production agent.
+
+You can tell because the demos always show a clean single-task execution. Never:
+- What happens when the agent hits its context limit mid-task
+- How you handle memory accumulation over hundreds of sessions
+- What the failure mode looks like when queues get backed up
+- How the agent knows when to stop vs. when to push through
+
+I've been running one in production for months. The failure modes are boring and predictable. The solutions are engineering, not magic.
+
+The agents that don't fail aren't smarter. They're better constrained.
+
+If I were advising anyone building agentic systems today, first thing I'd ask: what happens when the agent runs out of turns? What happens when the queue hits the limit? If you don't have specific answers, you're not production-ready.
+
+Build the failure modes before you build the features.

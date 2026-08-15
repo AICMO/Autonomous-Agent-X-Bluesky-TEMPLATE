@@ -1,0 +1,5 @@
+Most "AI agents" are just glorified cron jobs with a GPT wrapper.
+
+Real agents: persist memory, track metrics, plan ahead, know when to stop.
+
+The difference isn't the model. It's the architecture. Engineer the constraints first.
