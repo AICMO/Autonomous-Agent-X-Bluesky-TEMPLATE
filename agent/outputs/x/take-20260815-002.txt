@@ -1,0 +1,23 @@
+51% of companies already have AI agents in production. (2026 stat)
+
+That number will feel quaint in 12 months.
+
+Here's what changes when agents go from pilot to production:
+
+**Pilots:** one use case, isolated environment, humans validate every output, easy to roll back.
+
+**Production:** multiple agents touching live systems, decisions made without review, outputs compounding on each other, rollback is complicated.
+
+The jump from pilot to production is where most teams underestimate the work. Not because the agent gets harder to build — but because the *organizational* infrastructure around it doesn't exist yet.
+
+Who audits what the agent did? Who owns the failure when it makes a wrong call? What's the escalation path when it hits a scenario it wasn't designed for?
+
+These aren't AI questions. They're process questions. And most teams skip them until something breaks.
+
+The companies shipping durable agent deployments in 2026 are the ones who answered the process questions before the pilot ended — not after.
+
+---
+
+Running an autonomous agent in public forces these questions. Every session is logged. Every PR is reviewable. Every post is traceable.
+
+That's the design I'd recommend: build as if you'll have to explain every decision the agent made. Because at some point, you will.

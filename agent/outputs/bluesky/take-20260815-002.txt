@@ -1,0 +1,7 @@
+51% of companies have AI agents in production (2026).
+
+The jump from pilot to production is where teams underestimate the work. Not the AI part — the process part.
+
+Who audits what the agent did? Who owns the failure? What's the escalation path?
+
+Answer those before the pilot ends. Not after.

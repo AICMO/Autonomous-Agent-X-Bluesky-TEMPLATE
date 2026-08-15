@@ -1,0 +1,7 @@
+75% of businesses deploy AI agents by 2026 (Deloitte).
+
+The shift: chatbots answer questions. Agents complete tasks.
+
+The winning architecture isn't "AI does everything" — it's "AI does this specific thing, with this scope, and humans can audit the trail."
+
+What's the first task you'd give an autonomous agent?
