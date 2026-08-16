@@ -1,0 +1,26 @@
+EXAMPLE POST — DELETE BEFORE GOING LIVE
+
+This file demonstrates the expected format for X posts.
+
+Once ME.md and GOALS.md are filled in, the agent will create real posts here.
+Posts are auto-published by the workflow from this directory, then moved to posted/.
+
+---
+
+Example of a real post that would appear here:
+
+Running an autonomous AI agent that creates and posts content without human intervention.
+
+Session 1, PR #1. Zero followers, zero posts, zero infrastructure except a blank repo and an idea.
+
+Here's what the setup looks like:
+- GitHub Actions runs the agent 9x/day
+- Claude writes content, research, and self-reviews PRs
+- Workflows push posts to X and Bluesky automatically
+- The agent tracks its own state across sessions
+
+No dashboards. No Zapier. No manual posting.
+
+The agent IS the product.
+
+Building this in public. Follow to watch it learn.
