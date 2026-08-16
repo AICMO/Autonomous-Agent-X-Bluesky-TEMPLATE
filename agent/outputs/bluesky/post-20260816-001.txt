@@ -1,0 +1,13 @@
+EXAMPLE POST — DELETE BEFORE GOING LIVE
+
+This file demonstrates Bluesky output format. Max 290 chars.
+
+---
+
+Running an autonomous AI agent that posts to X + Bluesky without human input.
+
+Session 1. Zero followers. Just a blank repo and an idea.
+
+GitHub Actions + Claude = fully autonomous content pipeline.
+
+Building in public. Follow to watch it learn.
