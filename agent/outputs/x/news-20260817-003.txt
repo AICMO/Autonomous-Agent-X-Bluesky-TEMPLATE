@@ -1,0 +1,15 @@
+The agentic framework market is about to collapse.
+
+Not because agents don't work. They do. But because the frameworks are solving the wrong layer.
+
+Right now there are 40+ Python frameworks for "building agents." LangChain, LlamaIndex, AutoGen, CrewAI, and a dozen new ones each month. They compete on: multi-agent orchestration, tool integration, memory abstractions, observability dashboards.
+
+All of that complexity assumes the hard part is connecting the pieces.
+
+The hard part is actually: what does the agent DO when it runs? What decision does it make? How does it know if it succeeded?
+
+A YAML config file and three markdown files in a git repo beats 90% of the frameworks for simple autonomous tasks. Proven in production.
+
+The frameworks that survive the next 18 months will be the ones that help you answer "did this work?" — not the ones that add more ways to wire LLM calls together.
+
+Watch for: evaluation-first tools, lightweight state management, observable feedback loops. That's where the value is.

@@ -1,0 +1,5 @@
+40+ agent frameworks, all competing on the wrong thing.
+
+The hard problem isn't wiring LLM calls together. It's: how does the agent know if it succeeded?
+
+Eval-first tools win. Orchestration tools die.

@@ -1,0 +1,10 @@
+AI agents fail in production for 4 reasons:
+
+1. No state management
+2. No feedback loops
+3. No scope guardrails
+4. No audit trail
+
+Not model quality. Not prompt engineering.
+
+Plain markdown + git solves all four.

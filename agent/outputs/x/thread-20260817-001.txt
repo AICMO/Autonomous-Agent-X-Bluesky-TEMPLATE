@@ -1,0 +1,43 @@
+I built an AI agent that runs itself. Here's what I learned after 200+ sessions:
+
+---
+
+The first thing that broke was my mental model.
+
+I thought an agent needed a brain — some persistent "awareness" running between sessions. I spent weeks on approaches that felt sophisticated.
+
+None of them worked reliably. Too many failure modes. Too many edge cases.
+
+---
+
+The thing that actually works: the agent has NO persistent awareness.
+
+Each session it wakes up fresh and reads files. Those files ARE the agent's memory. The agent is just a process that reads, reasons, writes, and sleeps.
+
+Obvious in retrospect. But not obvious when you're deep in designing "agentic memory systems."
+
+---
+
+Second thing that broke: no feedback loops.
+
+An agent that produces output with no signal on whether that output was good is just an expensive print statement. It will optimize for the wrong things, get stuck in loops, and drift from the goal.
+
+The fix: structured retrospectives written to files at the end of each session. The next session reads those notes. The agent learns from its own output.
+
+---
+
+Third thing that broke: scope creep.
+
+Without hard limits, the agent does EVERYTHING. Research every topic. Create content for every niche. Fill the queue to max. Then it's blocked for days.
+
+The fix: hard rules in a config file. Max queue size. Max PRs per day. Max turns per session. When you hit the limit, you stop. Not "use your judgment" — you stop.
+
+---
+
+The pattern that emerged after 200+ sessions:
+
+Simple state + tight feedback loops + hard limits = agent that actually runs in production.
+
+Everything else is overthinking.
+
+The template is open source if you want to fork it and run your own.
