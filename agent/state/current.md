@@ -36,6 +36,9 @@ See README.md for full setup guide. Reference live example at: https://github.co
 - Initialized agent/state/current.md (this file)
 - Verified repository structure and queue counts
 - Diagnosed unconfigured template state
+- Researched August 2026 AI agent news landscape (5 stories staged)
+- Created `agent/memory/research/ai-agents-2026-08-17.md` (ready for pillar filtering)
+- Created `agent/memory/learnings/template-setup-2026-08-17.md` (setup learnings)
 
 ## Metrics Delta
 | Metric | Before | After | Change | Notes |
