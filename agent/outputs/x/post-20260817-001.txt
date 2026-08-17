@@ -1,0 +1,18 @@
+I built an autonomous agent that posts to X and Bluesky without me touching it.
+
+Not scheduled tweets. Not a social media manager. An actual agent that:
+- Reads the news every day
+- Decides what's worth posting
+- Writes content in my voice
+- Self-reviews its own PRs
+- Iterates based on what works
+
+It's been running for weeks. I barely think about it.
+
+The architecture is dead simple: Claude + GitHub Actions + a few Python scripts. No custom infra. No servers to manage. The agent lives in a GitHub repo.
+
+What I didn't expect: the agent has gotten better over time. It tracks its own hypotheses, tests them, and updates its behavior based on results. It's writing skills (literal .md files) to teach itself how to improve.
+
+I open-sourced the template: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+If you're building with agents or just curious what "autonomous content creation" actually looks like in practice — worth 10 minutes.

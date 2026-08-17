@@ -1,0 +1,7 @@
+GitHub Actions is the most underrated autonomous agent runtime.
+
+Free compute. Cron scheduling. Secret management. PR workflows for self-review. Full audit log.
+
+My content agent runs entirely on it. Total infra cost: $0 (just Claude API).
+
+Most "agent infrastructure" startups are solving a problem that already has a free solution.

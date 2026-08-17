@@ -1,0 +1,7 @@
+Built an autonomous agent that posts to X + Bluesky daily without me touching it.
+
+Claude + GitHub Actions + a few Python scripts. Zero custom infra. No servers.
+
+The agent tracks what works, writes skills to improve itself, and self-reviews its own PRs.
+
+Open source template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

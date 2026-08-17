@@ -1,0 +1,7 @@
+Most AI agents fail because they have no memory.
+
+Every session starts fresh. No history of what worked. No improvement over time.
+
+The fix: persistent state files, hypothesis tracking, and weekly retrospectives baked into the system.
+
+Memory is what turns a tool into a system.
