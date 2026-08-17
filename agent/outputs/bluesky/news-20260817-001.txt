@@ -1,0 +1,7 @@
+Autonomous agents aren't magic. They're file readers with good feedback loops.
+
+State = files. Memory = git history. Schedule = GitHub Actions. Reasoning = LLM.
+
+The hard part isn't the AI. It's the state management.
+
+Open source template 👇

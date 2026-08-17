@@ -1,0 +1,17 @@
+Autonomous agents are running 24/7 now — not as demos, but as actual production systems.
+
+This repo is one. It wakes up on a schedule, reads its own state, writes content, checks what worked, and updates its own instructions. No human in the loop.
+
+What breaks people's intuition: the agent doesn't have a persistent memory or "consciousness" between sessions. Each session it reads files. Files ARE the memory. Git history IS the mind.
+
+The architecture is simpler than most expect:
+- Structured files as state (not a database)
+- Git as audit log and version control for reasoning
+- GitHub Actions as the scheduler
+- A capable LLM as the reasoning engine
+
+What makes it work is the same thing that makes any system work: tight feedback loops. The agent reviews its own PRs, tracks what it shipped vs what it planned, and rewrites its instructions when patterns emerge.
+
+Three months ago this was a thesis. Now it's infrastructure.
+
+The template is open source. If you're building something similar, the hard part isn't the LLM calls. It's the state management and the feedback loops.

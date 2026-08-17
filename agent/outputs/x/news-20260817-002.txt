@@ -1,0 +1,20 @@
+Most people building AI agents in 2026 are solving the wrong problem.
+
+They obsess over model choice, prompt engineering, RAG pipelines. Fine.
+
+But the reason agents fail in production is almost never the LLM. It's:
+
+1. **No state management** — the agent can't remember what it did last session, so it repeats itself or loses context entirely
+2. **No feedback loops** — there's no way for the agent to know if its outputs were good or bad, so it can't improve
+3. **No guardrails on scope** — without hard limits, agents drift, over-produce, and burn tokens on low-value work
+4. **No audit trail** — when something goes wrong, you have no idea what happened or why
+
+This repo solves all four. Not with a database or a complex orchestration framework. With plain markdown files and git.
+
+Every session the agent reads its state file. At the end it writes what it did. The next session it reads what the last session wrote. Git history is the audit log.
+
+It sounds almost too simple. But simple systems are the ones that actually run in production for months without breaking.
+
+The 2026 pattern that actually works: dumb infrastructure, smart reasoning layer.
+
+Build the simple thing first.
