@@ -1,0 +1,17 @@
+Most AI agents fail for the same reason: they have no memory.
+
+They start every session fresh. No context from last week. No tracking of what worked or failed. They're smart but amnesiac.
+
+The agents that actually produce results have persistent memory built in:
+- State files that carry forward between runs
+- Hypothesis tracking (test → measure → conclude)
+- Learnings that graduate from temporary notes to permanent skills
+- Retrospectives every session and every week
+
+An agent that can't remember its own history can't improve. It just repeats.
+
+Memory is the difference between a tool and a system.
+
+This is why autonomous agents living in git repos make so much sense. Every change is versioned. The agent's evolution is in the commit history. Nothing is lost.
+
+Built a template for exactly this: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

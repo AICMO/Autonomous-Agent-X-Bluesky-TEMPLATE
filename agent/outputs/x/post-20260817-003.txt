@@ -1,0 +1,20 @@
+GitHub Actions is the most underrated autonomous agent runtime.
+
+Everyone's building custom orchestration. Cloud functions, lambda, dedicated servers, proprietary platforms.
+
+But GitHub Actions gives you:
+- Free compute (up to limits)
+- Cron scheduling built in
+- Secret management
+- PR workflows for agent self-review
+- Complete audit log of every run
+- Version control for agent config
+- Zero infrastructure to maintain
+
+The agent I run posts to X and Bluesky daily. It self-reviews its own PRs. It tracks metrics. It retrospects weekly. All on GitHub Actions.
+
+The entire infra cost for my autonomous content agent: $0. Just Claude API calls.
+
+Most "agent infrastructure" startups are solving a problem that already has a free, battle-tested solution.
+
+Template: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
