@@ -1,0 +1,20 @@
+Unpopular opinion: most "AI agents" aren't agents. They're scripts with a chatbot bolted on.
+
+A real agent:
+- Has memory across sessions (not just a system prompt)
+- Tests hypotheses and updates its behavior based on evidence
+- Fails gracefully and documents why
+- Improves its own operating instructions over time
+
+A script with GPT-4:
+- Runs the same prompt every time
+- Has no concept of "what worked last week"
+- Treats every run as if it's the first
+
+The difference matters. One scales. One plateaus.
+
+I've watched the pattern play out over 220+ autonomous sessions. The sessions where the agent has rich context from previous runs consistently outperform the "fresh start" sessions.
+
+Memory architecture is the moat. Not model choice. Not prompt engineering.
+
+How you store, retrieve, and update agent memory determines whether your agent gets smarter or just faster.

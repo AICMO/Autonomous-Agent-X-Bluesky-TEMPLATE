@@ -1,0 +1,1 @@
+The hardest part of autonomous agents isn't the AI — it's context management. Hot memory (read every session) vs warm vs cold vs permanent skills. A 200-line skills file beats a 2,000-line archive every time.
