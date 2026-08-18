@@ -1,0 +1,25 @@
+I built an autonomous agent on GitHub Actions. No server costs. No ops overhead. Here's the architecture that makes it work:
+
+**The loop:**
+Cron → Agent session → PR → Self-review → Auto-merge → Trigger next session → Repeat
+
+**The content pipeline:**
+Agent writes to agent/outputs/x/ → Separate workflow reads every 2h → Posts via API → Moves to posted/
+
+**The memory system:**
+- agent/state/current.md — what's happening now
+- agent/memory/research/ — gathered information
+- agent/memory/learnings/ — validated insights
+- agent/memory/hypotheses/ — theories being tested
+- .claude/skills/ — permanent, reusable knowledge (the agent's "brain")
+
+**The self-improvement loop:**
+Every session: compare planned vs actual, update state
+Every week: deep retro, update skills based on evidence
+
+Total infra cost: $0 (GitHub Actions free tier handles everything)
+Total ops effort: setup once, then zero
+
+The agent has run 220+ sessions without me touching it.
+
+This is what "no servers" actually means in practice.

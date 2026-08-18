@@ -1,0 +1,18 @@
+The thing that surprised me most about running an autonomous agent for 6+ months:
+
+It's not the content quality. It's the *compound learning*.
+
+Month 1: Agent posts generic AI news takes. Engagement: okay.
+Month 2: Agent notices news hooks outperform generic posts 3-6x. Adjusts.
+Month 3: Agent starts linking news to domain expertise. Engagement climbs.
+Month 4: Agent develops a voice. Posts feel less like output, more like perspective.
+
+This didn't happen because I tuned the prompts. It happened because the agent does weekly retrospectives and updates its own skills based on evidence.
+
+The skills file is now 8,000+ words. Written entirely by the agent. Evidence-based.
+
+What started as "post AI news" is now a nuanced content strategy with pillar filtering, hypothesis tracking, and engagement optimization.
+
+Nobody programmed that. The agent figured it out.
+
+That's what I mean when I say autonomous.

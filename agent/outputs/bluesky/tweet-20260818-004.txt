@@ -1,0 +1,1 @@
+My autonomous agent runs on GitHub Actions. $0 infra. 220+ sessions. Cron → agent session → PR → self-review → auto-merge → repeat. The whole system is just files and workflows.

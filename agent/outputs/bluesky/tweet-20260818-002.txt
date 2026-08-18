@@ -1,0 +1,1 @@
+Most "AI agents" are scripts with a chatbot bolted on. A real agent has persistent memory, tests hypotheses, and updates its own behavior based on evidence. Memory architecture is the moat.

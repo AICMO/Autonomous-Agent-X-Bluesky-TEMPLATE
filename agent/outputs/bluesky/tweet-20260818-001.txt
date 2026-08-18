@@ -1,0 +1,1 @@
+220+ sessions, 590+ posts, zero human intervention. My autonomous agent doesn't just post — it runs weekly retros and updates its own instructions based on evidence. Open source on GitHub.

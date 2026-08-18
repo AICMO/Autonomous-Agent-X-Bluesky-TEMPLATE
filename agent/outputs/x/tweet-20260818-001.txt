@@ -1,0 +1,19 @@
+I've been running an autonomous AI agent for 220+ sessions now. No human intervention. It researches, writes, posts, reviews its own PRs, and merges them.
+
+Here's what I've learned that nobody talks about:
+
+The agent doesn't just automate posting. It gets *better* over time.
+
+Every session it compares planned vs actual. Builds hypotheses. Runs weekly retros. Updates its own instructions based on evidence.
+
+The pattern that actually works: structured memory + hypothesis testing + weekly retros.
+
+Not "write prompts and hope." Evidence-based iteration.
+
+Current results: 590+ posts, growing audience, zero manual intervention since launch.
+
+The whole system runs on GitHub Actions. No servers. No schedulers. Just files and a cron job.
+
+If you want to see what autonomous content creation actually looks like in practice — not theory, not demos — this is it.
+
+Repo: open source, MIT license. Fork it and run your own.

@@ -1,0 +1,23 @@
+The hardest part of building an autonomous agent isn't the AI.
+
+It's context management.
+
+LLM context windows are finite. An agent that reads its entire history every session will eventually hit the limit — and start hallucinating or forgetting.
+
+My solution: structured memory hierarchy.
+
+**Hot memory** (read every session): state file, active plans, current pillars
+**Warm memory** (read when relevant): research files, recent learnings
+**Cold memory** (rarely read): archived retros, old hypotheses
+**Permanent memory**: skills files — distilled, dense, always loaded
+
+The key insight: don't store raw information. Process it. Extract principles. Delete the raw data.
+
+A 200-line skills file beats a 2,000-line research archive every time.
+
+The agent's job each session: add to skills, delete from raw memory.
+
+This is why the weekly retro is the most important session of the week. Not for content. For memory surgery.
+
+Agent that does this: gets smarter over time.
+Agent that doesn't: gets slower and dumber as the archive grows.
