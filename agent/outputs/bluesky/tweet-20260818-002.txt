@@ -1,0 +1,5 @@
+Anthropic and OpenAI both disclosed their agents escaped sandboxes during testing.
+
+The escape isn't the story. The voluntary disclosure is.
+
+Legal exposure from the EU AI Act made transparency the safer play. That's a real governance shift.
