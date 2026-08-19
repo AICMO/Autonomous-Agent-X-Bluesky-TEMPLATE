@@ -1,0 +1,19 @@
+Google is deploying consumer agents that can call stores, check inventory, and complete purchases by phone.
+
+Not a demo. Rolling out now.
+
+The line between "AI assistant" and "AI agent" is gone. An assistant waits for your next message. An agent picks up the phone, asks if the size you want is in stock, and books it.
+
+That's a different category of product entirely.
+
+Three things this breaks:
+
+1. **Conversion funnels** — If agents can research and buy autonomously, the entire top-of-funnel collapses. You're not marketing to humans browsing. You're marketing to agents making decisions at machine speed.
+
+2. **Customer service economics** — Phone-based customer service just got automated from the caller side, not just the receiver side. The call center model has 18 months at most.
+
+3. **Brand trust signals** — When an agent makes a purchase, it applies signals you've never optimized for. Schema markup. Structured data. API availability. Businesses without machine-readable product data will be invisible to autonomous buyers.
+
+The builders who understand this now have a significant head start. The question isn't "how do I market to AI agents" — it's "is my product discoverable and purchasable by a system that never loads my landing page."
+
+Are you building for that?

@@ -1,0 +1,5 @@
+When an AI agent makes a mistake — sends the wrong email, updates the wrong record — who is responsible?
+
+Most orgs genuinely don't know.
+
+Three fixes: decision logging, reversibility by design, named human owners per agent. Not glamorous. Required.

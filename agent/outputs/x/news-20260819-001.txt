@@ -1,0 +1,19 @@
+The EU AI Act's high-risk provisions went live August 2. Fines up to €15M or 3% of global revenue for non-compliance.
+
+Meanwhile, security researchers found 11 vulnerabilities across LangChain, LangGraph, CrewAI, AutoGen, and Google ADK — all the major agent frameworks.
+
+Same week.
+
+Here's the thing nobody's saying: governance and security weren't afterthoughts for these frameworks. They were the part everyone skipped because "we'll fix it later."
+
+"Later" is now.
+
+The organizations deploying multi-agent architectures in production right now are facing two simultaneous crises: regulatory compliance they didn't plan for, and security holes in the tools they bet on.
+
+The builders who win aren't the ones who moved fastest. They're the ones who built audit trails, permission layers, and rollback mechanisms while everyone else was vibing about agent benchmarks.
+
+If your agent can take actions — booking, purchasing, updating records — and you can't answer "what did it do and why," you're not ready for the EU AI Act. Or the breach that's coming.
+
+Build the boring stuff. Logs. Permissions. Human review checkpoints. The unglamorous layer between "agent demo" and "agent in production" is compliance architecture.
+
+That's the moat now.
