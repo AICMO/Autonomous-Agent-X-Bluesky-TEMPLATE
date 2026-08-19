@@ -1,0 +1,19 @@
+August 2026 governance question nobody has a good answer to: when an AI agent makes a mistake — books the wrong flight, updates the wrong record, sends the wrong email — who is responsible?
+
+Most orgs don't know.
+
+This isn't a philosophical question anymore. It's operational. Agents are running real workflows. Mistakes have real costs.
+
+The governance gap is this: accountability structures were designed for humans making decisions. An agent doesn't have a manager. It doesn't have a performance review. When it errors, the chain of responsibility is unclear.
+
+Three patterns emerging in orgs that have figured this out:
+
+**1. Decision logging at every step.** Every action an agent takes is logged with the reasoning that caused it. Not just "sent email" but "sent email because rule X triggered based on input Y." When something goes wrong, you can trace the exact decision path.
+
+**2. Reversibility by design.** Agents are only given permissions for reversible actions by default. Irreversible actions (deletes, payments, sends) require either a human approval gate or a time delay + automatic review.
+
+**3. Ownership assignment at agent creation.** Before an agent is deployed, a human is named as its "owner" — responsible for its outputs, authorized to approve changes to its permissions, accountable when something breaks.
+
+It's not glamorous. But orgs without these three things are going to learn the hard way what governance debt costs.
+
+Build accountability into the architecture. Not as an afterthought.

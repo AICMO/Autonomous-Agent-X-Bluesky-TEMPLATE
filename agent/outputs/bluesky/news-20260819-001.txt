@@ -1,0 +1,5 @@
+EU AI Act fines go live: €15M or 3% of global revenue. Same week: 11 security vulns found across LangChain, CrewAI, AutoGen, and Google ADK.
+
+"We'll fix governance later" = later is now.
+
+Build the audit trails. Not optional anymore.

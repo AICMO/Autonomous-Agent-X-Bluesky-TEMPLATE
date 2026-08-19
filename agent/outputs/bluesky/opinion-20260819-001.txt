@@ -1,0 +1,5 @@
+Most "multi-agent systems" being demo'd are just one agent with a fancy coordinator layer and a marketing budget.
+
+Real multi-agent: each agent has one narrow job. Failure is isolated. Debugging is sane.
+
+Demo version: orchestrator does everything. Fails catastrophically. Good luck finding why.

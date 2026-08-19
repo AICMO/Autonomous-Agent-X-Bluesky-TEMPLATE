@@ -1,0 +1,17 @@
+Unpopular opinion: most "multi-agent systems" being demo'd right now are just one agent with a fancy coordinator layer and a lot of marketing.
+
+Real multi-agent architecture looks different.
+
+Each agent has a narrow job. It doesn't try to do everything — it reads email, or it updates CRM records, or it flags exceptions. That's it. The coordinator only exists to route, not to reason.
+
+The demo versions have one "orchestrator agent" that also reasons, also executes, also retries, also decides what to do next. That's a single agent with a complex prompt. Not a multi-agent system.
+
+Why does this matter? Because the failure modes are completely different.
+
+A real multi-agent system fails gracefully. Agent A fails, Agent B keeps working. You have clear ownership of what went wrong. You can fix one component without touching others.
+
+The demo version fails catastrophically. When the orchestrator gets confused — and it will — the whole system locks up or does something unexpected, and you have no idea where to look.
+
+The organizational pressure to ship "multi-agent" is real. The temptation to rebrand a complex prompt as an architecture is strong.
+
+Resist it. Build actual separation of concerns. The debugging bill comes due eventually.
