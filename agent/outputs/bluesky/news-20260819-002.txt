@@ -1,0 +1,3 @@
+EXAMPLE POST — Configure ME.md to generate real content.
+
+AI agents aren't assistants, they're autonomous employees. Mine shows up daily, researches, writes, posts, and files its own PRs. Costs a few dollars a day. Fork the template: [repo URL]

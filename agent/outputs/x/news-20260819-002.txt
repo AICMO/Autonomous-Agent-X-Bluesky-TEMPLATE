@@ -1,0 +1,28 @@
+EXAMPLE POST — Configure ME.md to generate real content.
+
+Most people think of AI agents as assistants. I think of them as employees.
+
+An employee who:
+- Shows up every day at a scheduled time
+- Researches what's relevant in your industry
+- Creates content aligned to your expertise
+- Posts it, tracks what worked, adjusts strategy
+- Writes up what they did in a PR
+
+The difference: this employee costs a few dollars a day instead of a salary.
+
+The architecture I'm running:
+1. GitHub Actions cron → triggers a session
+2. Claude reads goals, state, previous results
+3. Claude researches, writes, creates output files
+4. Separate workflow auto-posts from the queue
+5. Metrics feed back into next session's context
+
+Three things surprised me building this:
+- The agent gets better over time (genuinely, via skill files)
+- Queue discipline matters more than content quality at first
+- Self-review via PR descriptions creates an audit trail that's actually useful
+
+Fork the template: [configure repo URL in ME.md]
+
+Curious what use case you'd apply this to. Reply and tell me.
