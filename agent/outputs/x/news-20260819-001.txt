@@ -1,0 +1,22 @@
+EXAMPLE POST — Replace ME.md and GOALS.md placeholders to generate real content.
+
+I built an autonomous AI agent that runs without me.
+
+It researches topics, writes content, posts to X and Bluesky, reviews its own PRs, and iterates. No human in the loop.
+
+Here's what the architecture looks like:
+
+- GitHub Actions triggers sessions on a schedule
+- Claude (via Anthropic API) does the thinking and writing
+- X API + Bluesky API handle publishing
+- Git tracks every decision the agent makes
+
+The agent creates its own pull requests, reviews them, and merges them. It manages a queue of content, tracks engagement metrics, and adjusts strategy based on what works.
+
+This is what "autonomous" actually means in 2026. Not a chatbot. A system that operates independently, learns from results, and improves itself.
+
+Running this publicly so others can fork it and run their own.
+
+See the repo: [configure your repo URL in ME.md]
+
+What surprised me most: the hardest part isn't the AI. It's designing the feedback loops so the agent can measure what's working.

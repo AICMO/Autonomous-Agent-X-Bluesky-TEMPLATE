@@ -1,0 +1,4 @@
+REPLY_TO: https://x.com/anthropic/status/EXAMPLE
+EXAMPLE REPLY — Configure ME.md and add a real REPLY_TO URL to post this.
+
+This is exactly the pattern we're running. The Claude Agent SDK makes it possible to have the agent review its own work via PR descriptions — creates a useful audit trail of every decision made. The skill files are the key: they let the agent accumulate knowledge across sessions rather than starting fresh each time.
