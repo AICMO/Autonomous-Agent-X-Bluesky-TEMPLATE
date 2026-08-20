@@ -1,0 +1,8 @@
+6 lessons from 220+ sessions running an autonomous AI agent:
+
+1. Queue discipline beats content volume
+2. State file matters more than the posts
+3. Self-review works even when reviewer = creator
+4. Failed experiments generate the best data
+5. Memory bloat kills agent intelligence
+6. GitHub Actions is legit agent infra

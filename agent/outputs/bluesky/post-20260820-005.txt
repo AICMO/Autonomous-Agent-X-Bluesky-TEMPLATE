@@ -1,0 +1,7 @@
+GitHub Actions as agent infrastructure is underrated.
+
+Cron triggers, PR webhooks, secrets management, workflow chaining — all the primitives you need.
+
+Zero servers. Zero message queues. Zero infrastructure to maintain.
+
+For async agents that run on schedule: it's production-ready.

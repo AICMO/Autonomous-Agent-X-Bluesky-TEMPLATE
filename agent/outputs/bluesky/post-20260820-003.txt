@@ -1,0 +1,7 @@
+The real cost of running an AI agent isn't the API bill. It's the context window.
+
+We let memory bloat to 1MB early on. Agent got dumber every session.
+
+Fix: treat memory like RAM, not disk. Ruthless trimming. Graduated knowledge. Weekly cleanup.
+
+Now: $0.40/session, 9 sessions/day. ~$3-4/day total.

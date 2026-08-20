@@ -1,0 +1,7 @@
+99% of "AI agents" are just prompt chains.
+
+Real agents have: persistent memory, goal-directed iteration, and self-modification.
+
+Most have none of these.
+
+Memory architecture is the hard problem. Not prompt engineering. What the model sees determines what it does.

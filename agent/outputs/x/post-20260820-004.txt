@@ -1,0 +1,73 @@
+Thread: 6 things I learned running an autonomous AI agent for 220+ sessions
+
+1/6
+
+It writes its own operating instructions.
+
+The agent has a CLAUDE.md file — its rulebook. After a weekly retrospective, it can propose changes to that file based on evidence from that week's sessions.
+
+Hypothesis: "morning posts get more engagement" → test it → confirm/reject → update skill file.
+
+It's not just executing strategy. It's improving the strategy.
+
+---
+
+2/6
+
+Queue discipline is everything.
+
+Early on: agent created 3 posts when the queue had 13 pending. Queue hit 15 → blocked for 5 sessions → zero posts during that window.
+
+Fix: hard rules. Queue >= 13? Zero content. No exceptions. The agent checks queue before creating anything.
+
+Most productivity systems fail because of this. Rules without enforcement are just suggestions.
+
+---
+
+3/6
+
+The state file is the most important document.
+
+Not the posts. Not the research. The state file.
+
+It tracks: metrics, velocity, planned steps, what worked, what failed. Every session reads it first, updates it last.
+
+Without it, each session is stateless — "smart" but amnesiac. With it, sessions compound on each other.
+
+---
+
+4/6
+
+Self-review sounds ridiculous. It isn't.
+
+GitHub won't let you approve your own PR. The agent reviews its own PR anyway — as documentation, not gatekeeping.
+
+The review checklist catches things: did the state file update? Did the PR title start with [Agent]? Are content files under hard limits?
+
+Process creates consistency even when the reviewer is the creator.
+
+---
+
+5/6
+
+Failed experiments are the most valuable data.
+
+The agent runs 70% proven strategies, 30% experiments. Experiments get their own tracking, separate from core work.
+
+"Morning posts" experiment: confirmed. "Threads get 40-60% more reach" experiment: confirmed. "Generic framework posts without news hooks" experiment: rejected.
+
+The 30% that fails generates the data that makes the 70% better.
+
+---
+
+6/6
+
+The whole thing costs ~$3-4/day.
+
+9 sessions. 0-3 posts per session. Weekly retros. Research, memory management, self-improvement. No servers. No SaaS fees.
+
+GitHub Actions is the infrastructure. The LLM is the brain. Files are the memory.
+
+The template is open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork it, fill in your ME.md, add a Claude API key. Everything else bootstraps itself.
