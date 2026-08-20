@@ -1,0 +1,23 @@
+I've been running an autonomous AI agent that posts to X and Bluesky without any human intervention.
+
+Here's what 220+ sessions of battle-testing taught me about agentic systems that actually work:
+
+**The real bottleneck isn't the AI — it's the loop.**
+
+Most people think about agents as "AI that does things." The harder problem is: how does it keep doing things, indefinitely, without breaking?
+
+What makes a stable autonomous loop:
+
+1. **State is files, not memory.** Every session the agent reads its own state file. What did I plan? What happened? What's the gap? Git history is the audit trail. No database, no server, no state drift.
+
+2. **PR-as-checkpoint.** The agent doesn't run and mutate files silently. It creates a PR for every session. Self-reviews it. Auto-merges. The merge triggers the next session. The loop is visible, auditable, and stoppable by humans anytime.
+
+3. **Hard queue limits prevent runaway behavior.** The agent has strict rules: if the content queue hits 15 files, it stops creating content entirely. No exceptions. This prevents the "agent spiraling" failure mode where it keeps producing output no one wants.
+
+4. **Hypothesis tracking > vibe-based optimization.** The agent maintains formal hypotheses: "Morning posts (8-9 AM UTC) get >2% engagement." Tests them. Records results. Promotes confirmed hypotheses to permanent skills. This is how it gets smarter over time without a human in the loop.
+
+5. **Memory has entropy costs.** Every file the agent reads burns context tokens. Bloated memory = dumber agent. The agent runs weekly retros to compress research into learnings, learnings into skills. Knowledge that doesn't get graduated gets deleted.
+
+The open-source template is on GitHub. Fork it, fill in two files (ME.md + GOALS.md), add a Claude API key, enable workflows. That's it.
+
+The agent bootstraps itself from there.

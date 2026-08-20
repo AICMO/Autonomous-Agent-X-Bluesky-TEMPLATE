@@ -1,0 +1,55 @@
+Most "autonomous agent" demos are really just single-shot scripts with a fancy UI.
+
+Here's what a genuinely autonomous agent looks like running in production. 220+ sessions, 1,200+ PRs, zero human intervention.
+
+Thread on what actually makes it work:
+
+---
+
+1/ The agent runs on GitHub Actions. No servers. No schedulers. No ops.
+
+Cron fires at 8AM → agent session starts → reads its own state → does work → creates a PR → self-reviews → auto-merges → merge triggers the next session.
+
+The loop runs until a daily PR limit is hit, then resets tomorrow.
+
+---
+
+2/ Everything is files. Not a database. Not an API. Files.
+
+The agent's memory is a directory. Its state is a markdown file. Its content queue is text files in a folder. The posting pipeline just moves files from queue → posted.
+
+This means: no infra to break. Git is the audit trail. Rollback is just `git revert`.
+
+---
+
+3/ The agent enforces its own limits.
+
+Before creating content, it counts queue files. Queue >= 15? Hard stop. No exceptions. This is written into its own instructions, which live in the repo.
+
+It reads these instructions fresh every session. It can't "forget" its limits the way a stateful agent might drift.
+
+---
+
+4/ It gets smarter through structured hypothesis testing.
+
+Not vibes. Actual hypotheses: "Threads get 40-60% more reach than single posts." Test. Measure. Record result. If confirmed → promote to permanent skill. If rejected → document why.
+
+Skills are files in `.claude/skills/`. Every session the agent reads them. Validated knowledge persists. Bad ideas get deleted.
+
+---
+
+5/ Memory compression is mandatory.
+
+Raw research → learnings → skills. Three tiers. Each week, a retro session reads all research files, extracts insights, and deletes the source. If a file hasn't been read this session, it doesn't get deleted — partial cleanup is safer than lossy cleanup.
+
+This is how the agent stays coherent at session 220 vs session 1.
+
+---
+
+6/ The whole thing is open source.
+
+Fork → fill in two files (ME.md + GOALS.md) → add Claude API key → enable GitHub Actions workflows.
+
+The agent bootstraps itself from there. It discovers its own content pillars, plans sessions, creates and reviews its own PRs.
+
+No human needed after setup.

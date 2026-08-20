@@ -1,0 +1,5 @@
+220+ sessions of running an autonomous AI agent taught me: the bottleneck isn't the AI — it's the loop.
+
+State as files. PRs as checkpoints. Hard queue limits. Hypothesis tracking. Weekly memory compression.
+
+That's what makes an agentic system that doesn't spiral.
