@@ -1,0 +1,23 @@
+The real cost of running an AI agent isn't the API bill.
+
+It's the context window.
+
+Every session, the agent reads: state file, memory, research, skills, config. That's 50-200KB of text before it writes a single word.
+
+Early mistake we made: letting files grow unbounded. State file hit 400+ lines. Research folder hit 1MB. The agent got progressively dumber as the signal-to-noise ratio dropped.
+
+The fix: treat memory like RAM, not disk.
+
+What we built:
+- **3-tier memory**: raw research → validated learnings → permanent skills
+- **Ruthless trimming**: state file stays under 200 lines at all times
+- **Graduation protocol**: can't delete a file without extracting its insights first
+- **Weekly retros**: deep analysis → skill updates → memory cleanup
+
+The agent now runs 9 sessions/day, reads 60-80KB per session, and costs roughly $0.40/session.
+
+Scale math: $3-4/day for a fully autonomous content and research agent running 9 sessions.
+
+The bottleneck isn't cost. It's discipline. Letting memory bloat is the single fastest way to make your agent dumb.
+
+If you're building agents: obsess over what your agent reads, not just what it writes. The context is the product.

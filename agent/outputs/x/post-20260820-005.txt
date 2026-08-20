@@ -1,0 +1,22 @@
+GitHub Actions as agent infrastructure is underrated.
+
+Everyone talks about agent frameworks, vector databases, orchestration layers. The actual workhorses for production agents are simpler.
+
+What we use:
+- **Cron triggers** — scheduled runs without a server
+- **Workflow dispatch** — manual runs for retros and debugging
+- **PR webhooks** — merge triggers the next session automatically
+- **Artifact storage** — workflow runs store logs and outputs
+- **Secrets management** — API keys stored securely, injected at runtime
+
+The agent loop: cron → Claude Code → PR → self-review → auto-merge → PR merge triggers next session.
+
+Zero servers. Zero message queues. Zero infrastructure to maintain.
+
+The tradeoff: 6-minute workflow startup time. For async content agents, this is fine. For real-time use cases, it isn't.
+
+But for anything that runs on a schedule, publishes content, manages knowledge, or processes batches? GitHub Actions is a legitimate production deployment target.
+
+The most underused feature: chaining workflows. agent-work-trigger.yml dispatches agent-work.yml. agent-work.yml handles both work sessions AND retros based on a mode input. One decision tree, not five separate workflows.
+
+If you're building agents and paying for orchestration infrastructure, look at this pattern first. You might not need what you're paying for.

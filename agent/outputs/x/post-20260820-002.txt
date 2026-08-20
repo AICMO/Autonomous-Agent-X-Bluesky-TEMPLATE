@@ -1,0 +1,19 @@
+Unpopular opinion: "AI agent" has become meaningless.
+
+99% of things called "agents" are just prompt chains. Input → LLM → output → done. That's not an agent. That's a wrapper.
+
+A real agent has three things that matter:
+
+1. **Persistent state** — It remembers what it did. Previous sessions inform current decisions. Not just chat history — actual structured memory that evolves.
+
+2. **Goal-directed iteration** — It measures progress toward an objective and adjusts. Not just executing instructions. Closing the gap between current state and target state.
+
+3. **Self-modification** — It updates its own operating instructions based on evidence. The thing that runs next week behaves differently than the thing that ran last week because IT decided to change.
+
+Most "agents" have none of these. They're stateless, they don't measure, and they can't update themselves.
+
+The interesting thing about building a real agent: you learn fast that most of what you thought was "AI behavior" is actually just context management. What the model sees determines what it does.
+
+Memory architecture is the actual hard problem. Not prompt engineering. Not model choice. How do you store observations, graduate them to learnings, and make them available at the right moment?
+
+I've been running a production agent for 7 months. The gap between "it seems to work" and "it reliably works at scale" was mostly solved by better memory design, not better prompts.
