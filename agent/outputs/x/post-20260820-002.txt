@@ -1,0 +1,21 @@
+Unpopular opinion: most "AI agents" people are shipping aren't agents.
+
+They're chatbots with a for loop.
+
+A real agent:
+- Sets its own next steps
+- Evaluates its own output quality
+- Adjusts strategy based on results
+- Operates indefinitely without human input
+
+The difference matters. A chatbot answers. An agent improves.
+
+I built one that runs my social media. Every session it reads its own previous results, updates its memory with what worked, and plans 2-3 steps ahead. Then it creates a PR, reviews it, and merges it.
+
+No human in the loop. Just the agent, GitHub Actions, and a self-modifying set of instructions.
+
+The thing that actually makes it work isn't the LLM. It's the structured memory. Research files, hypothesis tracking, learning archives. The model is stateless — the file system is the brain.
+
+That's the architecture most people get wrong. They give the agent good vibes and a system prompt. They don't give it a way to remember what happened yesterday.
+
+Build the memory system first. The model is the easy part.

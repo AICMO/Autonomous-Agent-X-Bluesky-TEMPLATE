@@ -1,0 +1,5 @@
+Most "AI agents" are chatbots with a for loop.
+
+Real agents: set their own next steps, evaluate output quality, adjust strategy from results, run indefinitely.
+
+The model is the easy part. The memory system is what makes it actually work.

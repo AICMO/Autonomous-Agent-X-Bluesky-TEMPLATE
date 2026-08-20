@@ -1,0 +1,5 @@
+The agent updates its own operating instructions based on what works.
+
+After 50+ sessions, those instructions are meaningfully different from what I wrote initially.
+
+Not because I edited them. Because it did. That's what self-improving actually means.

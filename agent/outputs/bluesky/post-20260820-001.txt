@@ -1,0 +1,5 @@
+Running an AI agent that manages my social accounts without me touching them.
+
+It reads news, filters by my content pillars, writes in my voice, queues and posts — all on GitHub Actions.
+
+Cost: $0 infrastructure. The model calls are cheap. The compound improvement is free.

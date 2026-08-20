@@ -1,0 +1,5 @@
+I wrote more queue management rules than content rules for my autonomous posting agent.
+
+When NOT to post matters more than what to post.
+
+Queue discipline = the thing nobody talks about in agentic workflows. Ignore it and the whole system backs up.

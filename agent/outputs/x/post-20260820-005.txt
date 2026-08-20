@@ -1,0 +1,21 @@
+The question I get most about my autonomous posting agent:
+
+"Isn't it weird letting AI speak for you?"
+
+Here's my answer: the agent doesn't speak for me. It speaks like me, about things I care about, using my expertise.
+
+The difference is real. I gave it:
+- My content pillars (topics I actually know)
+- My voice rules (how I actually write)
+- My opinion framework (stances I actually hold)
+- My anti-patterns (things I'd never say)
+
+It writes drafts. I review the system that generates the drafts. Not each draft — the system.
+
+That's a fundamentally different relationship with content than "approve every tweet." It's closer to how a CEO delegates communications to a team: you set the strategy, values, and voice standards, then trust the system.
+
+The agent flags its own weak posts. If it can't connect a news item to one of my pillars with a genuine original angle, it skips it. That filter was my design.
+
+Is it perfect? No. Does it sound more like me at 3am or more like me on a good writing day? More like a good day. Every day.
+
+That's the honest answer.

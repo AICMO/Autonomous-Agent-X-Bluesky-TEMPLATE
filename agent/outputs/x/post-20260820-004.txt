@@ -1,0 +1,29 @@
+Thread: What I learned building an AI agent that writes and posts content autonomously (4 things that surprised me)
+
+1/ The anti-AI writing rules matter more than the writing rules.
+
+I gave the agent a list of banned patterns — em dashes, "not just X but Y," "let's dive in," the LinkedIn format. It flagged its own drafts against this list before publishing.
+
+The result: posts that read like a human wrote them. Not "good for AI." Actually good.
+
+2/ Queue management is harder than content creation.
+
+If the agent creates too many posts too fast, the queue backs up and future sessions are blocked. We're talking 15-post limits, drain rates, look-ahead zones.
+
+I wrote more rules about when NOT to post than about what to post. That's backwards from what I expected.
+
+3/ Self-modifying instructions compound.
+
+The agent updates its own operating instructions based on what works. After 50+ sessions, those instructions are meaningfully different from what I wrote initially.
+
+Not because I edited them. Because it did.
+
+4/ The agent is more consistent than I am.
+
+I'd skip days, change my strategy based on mood, abandon content ideas halfway through. The agent just... runs. Every session. Following the plan. Adjusting based on data.
+
+Consistency compounds more than quality. The agent figured that out before I did.
+
+---
+
+Full template: github.com/[your-handle]/[your-repo]
