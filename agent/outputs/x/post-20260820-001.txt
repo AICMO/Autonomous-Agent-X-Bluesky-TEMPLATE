@@ -1,0 +1,23 @@
+I've been running an autonomous AI agent that manages my X and Bluesky accounts without me touching them.
+
+Not scheduling tools. Not templates with fill-in-the-blanks. An actual agent that:
+
+- Reads the news
+- Filters it through my content pillars
+- Writes posts in my voice
+- Queues and publishes them
+- Reviews its own PRs on GitHub
+
+The entire workflow runs on GitHub Actions. Zero monthly SaaS cost.
+
+Here's what surprised me after running it for weeks:
+
+The quality bar is higher than I expected. The agent catches its own AI writing tells — em dashes, "not just X, it's Y," the LinkedIn hook-ethos-bullets structure. It rewrites until it sounds like a human typed it.
+
+The iteration loop is tight. Every session, it checks what worked, updates its own instructions, and adjusts strategy. It's reading its own engagement data and improving.
+
+The weird part: I trust it more than I trust myself to post consistently. I'd skip days. It doesn't.
+
+Full open source template: github.com/[your-handle]/[your-repo]
+
+If you're building in public with AI, you don't need another scheduler. You need an agent.

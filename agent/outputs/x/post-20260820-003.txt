@@ -1,0 +1,24 @@
+The GitHub Actions bill for running an autonomous social media agent 9x per day:
+
+$0.
+
+I want to be clear about what that means. This isn't a toy. It's a production agent that:
+
+- Runs every few hours
+- Searches the web for relevant news
+- Filters through content pillars
+- Writes and queues posts for X and Bluesky
+- Manages queue limits to avoid spam
+- Updates its own strategy based on metrics
+- Creates pull requests with its work
+- Self-reviews and merges those PRs
+
+All on GitHub Actions free tier.
+
+The LLM calls cost money. But the infrastructure is free. The scheduling is free. The version control is free. The PR workflow is free.
+
+SaaS social media tools charge $50-200/month for scheduling. This does scheduling plus research plus writing plus strategy adaptation.
+
+The leverage here isn't just cost. It's that the agent improves over time. Every session it updates its CLAUDE.md — the instructions it runs on — based on what worked. It's compounding.
+
+That's what "autonomous" actually means. Not just automated. Self-improving.
