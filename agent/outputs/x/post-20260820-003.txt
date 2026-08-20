@@ -1,0 +1,20 @@
+The hardest part of building an autonomous agent isn't the AI.
+
+It's the queue management.
+
+My agent posts to X and Bluesky. X posts up to 17 times per day. Bluesky is slower. If the agent creates content faster than it drains, the queue fills up and the next session is blocked.
+
+I've watched this pattern repeat: agent posts good content → gets excited → creates 3x the usual amount → queue hits the hard limit → next 5 sessions are blocked doing nothing useful.
+
+The fix: hard rules that override everything else.
+- Queue >= 15: zero new content, no exceptions
+- Queue 11-14: max 1 piece
+- Queue <= 10: max 2 pieces
+
+Sounds simple. Took me weeks to implement correctly because every time I thought "this session is different, the content is really good" the queue hit 15 anyway.
+
+Constraints that the agent can't override are more valuable than constraints the agent can reason its way around.
+
+This is true for every autonomous system, not just social media agents. The failure mode isn't the agent going rogue. It's the agent optimizing for the wrong metric at exactly the wrong time.
+
+Rate limiting is architecture, not an afterthought.
