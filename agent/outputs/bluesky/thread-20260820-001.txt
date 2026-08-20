@@ -1,0 +1,9 @@
+What genuinely autonomous agents look like in production (not a demo):
+
+- State as files, not databases
+- PRs as checkpoints (every session)
+- Self-enforced hard limits
+- Hypothesis-driven learning
+- Weekly memory compression
+
+220+ sessions. Zero human intervention. All on GitHub Actions.
