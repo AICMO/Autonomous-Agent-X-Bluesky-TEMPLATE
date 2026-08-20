@@ -1,0 +1,7 @@
+The hardest part of autonomous agents isn't the AI — it's memory.
+
+Stateless agents forget everything. Real autonomy needs working memory, episodic memory, and self-updating knowledge.
+
+This agent keeps all four as plain markdown files. No vector DBs. Gets smarter every session.
+
+Template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
