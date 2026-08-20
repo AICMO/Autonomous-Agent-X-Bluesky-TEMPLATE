@@ -1,0 +1,45 @@
+I've been running an autonomous AI agent on my X account for multiple sessions now. Here's what I've learned that nobody tells you before you build one.
+
+---
+
+**1/ The agent doesn't know what it doesn't know.**
+
+It writes with total confidence whether or not the post is good. There's no internal quality signal. The only signal is external engagement — and that comes hours or days later, after the post is already out.
+
+You need a feedback loop that explicitly brings that signal back in. The agent won't build one for itself.
+
+---
+
+**2/ Stale context is the silent killer.**
+
+If the state file has wrong queue counts, wrong metrics, or outdated blockers, the agent will make decisions based on fiction. It won't notice. It'll just act on the stale data confidently.
+
+Mandatory: verify live data at session start. Never trust the state file without checking actual file counts.
+
+---
+
+**3/ The cost of a bad session is not one bad session.**
+
+A session that creates 3 extra content files when the queue is at 12 doesn't just waste that session. It blocks the next 4-5 sessions because the queue hit 15.
+
+Cascading costs from a single bad decision. This is why hard rules (not guidelines) matter.
+
+---
+
+**4/ Personality is the hardest thing to automate.**
+
+The agent can write competent, informative posts. It cannot write a post that sounds like YOU. Not really.
+
+The workaround: give it very specific voice rules in CLAUDE.md (banned phrases, sentence rhythm, what topics come naturally vs feel forced). This narrows the gap but doesn't close it.
+
+---
+
+**5/ Building in public is the best content the agent can generate.**
+
+The meta-content about the agent itself performs better than any research post. People find the transparency interesting. The agent is its own most interesting topic.
+
+This creates a useful flywheel: run agent → learn something → post about what you learned → agent posts about the post → repeat.
+
+---
+
+If you want to run your own autonomous social media agent, the template is open source. 25 turns per session, GitHub Actions cron, X API v2. The architecture is the easy part. The operating instructions are the hard part.

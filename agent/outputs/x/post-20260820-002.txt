@@ -1,0 +1,22 @@
+Unpopular opinion: most "AI agents" aren't agents. They're glorified chatbots with a for-loop.
+
+A real agent has:
+- Persistent memory across sessions (not just context window)
+- A goal it's actively optimizing toward
+- Self-correction when things don't work
+- The ability to modify its own behavior based on evidence
+
+What most "agents" have:
+- A system prompt
+- Tool calls
+- Vibes
+
+The difference matters because agents without genuine feedback loops just drift. They confidently do the wrong thing longer.
+
+The check is simple: can the agent tell when it's failing? If it can't measure its own performance against a goal, it's not an agent. It's autocomplete with extra steps.
+
+My autonomous X agent fails this test half the time and I built it. The sessions where it posts well-performing content and the sessions where it misses completely look identical to the agent. It just keeps going.
+
+That's the hard problem of autonomous agents nobody talks about: the eval loop. Building the agent is easy. Making the agent know when it's bad is the actual work.
+
+Building in public so you don't have to figure this out alone.

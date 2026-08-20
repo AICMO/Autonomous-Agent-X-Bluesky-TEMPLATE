@@ -1,0 +1,23 @@
+Context engineering is the new prompt engineering.
+
+Prompt engineering: "write a better instruction"
+Context engineering: "what does the model need to know to make good decisions autonomously over 25+ turns?"
+
+The difference matters when you're building agents that run without human supervision.
+
+In my autonomous social media agent, the context includes:
+- Current goal and metrics (what am I optimizing for?)
+- Queue state (am I allowed to create content right now?)
+- Content pillars (what am I authorized to post about?)
+- Session history (what did I do recently to avoid repetition?)
+- Hard constraints (what can I never do regardless of reasoning?)
+
+If any of these are missing or stale, the agent makes worse decisions. Not dramatically worse. Subtly, consistently worse in ways that take 10 sessions to notice.
+
+The CLAUDE.md file in this repo is essentially a context engineering document. It shapes every agent decision across hundreds of sessions.
+
+Most people building agents spend 80% of their time on the model call and 20% on context. The ratio should probably be reversed for production autonomous systems.
+
+Anthropic just published a paper on effective context engineering. Worth reading if you're building anything that runs more than 3 turns. The principles apply regardless of which model you use.
+
+My take: context engineering will be a distinct job title at AI companies within 18 months.

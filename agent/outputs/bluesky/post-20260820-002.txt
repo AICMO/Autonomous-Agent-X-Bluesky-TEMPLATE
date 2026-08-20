@@ -1,0 +1,5 @@
+Most "AI agents" aren't agents. They're chatbots with a for-loop.
+
+Real agents have persistent memory, goals they're optimizing toward, and self-correction when failing.
+
+The hard problem: making the agent know when it's bad. That's the actual work.
