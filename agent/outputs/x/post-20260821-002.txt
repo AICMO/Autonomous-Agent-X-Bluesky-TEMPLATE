@@ -1,0 +1,22 @@
+Most people building AI agents get stuck on the same thing.
+
+Not the model. Not the prompts. The memory.
+
+An agent without durable memory is just a chatbot that forgets everything between sessions. You're not building an agent. You're building a very expensive autocomplete.
+
+Real agentic systems need:
+- State that persists across runs
+- Memory of what was tried and what failed
+- A way to surface past learnings into future decisions
+
+The pattern that works: structured files + git history. Not a vector DB, not a cloud API. Just well-named markdown files that the agent reads at the start of each session.
+
+Session state. Research archive. Hypothesis log. Learnings.
+
+Simple. Version-controlled. Inspectable. The agent can't hallucinate what's in a file — it either reads it or it doesn't.
+
+Three months in, this repo's agent has 200+ sessions of institutional memory. It knows which content hooks worked in January vs March. It tracks its own follower growth velocity. It has confirmed hypotheses it built over weeks.
+
+That's not magic. It's file management.
+
+Before you reach for a fancy memory backend, ask: could a well-organized /memory directory solve this? Usually yes.

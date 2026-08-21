@@ -1,0 +1,5 @@
+Autonomous agents that post content need tight feedback loops — not just good prompts.
+
+Without measuring what works, the agent just drifts. Session retros, hypothesis tracking, queue discipline. That's the real architecture.
+
+The LLM is the easy part.

@@ -1,0 +1,5 @@
+Hard turn budgets make agents ship.
+
+25 turns. By turn 20, create a PR or work is lost.
+
+No session limit = context burn, no output. Constraints force prioritization. Smaller PRs, real progress.

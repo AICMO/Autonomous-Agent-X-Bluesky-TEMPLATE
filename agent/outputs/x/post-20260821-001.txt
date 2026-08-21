@@ -1,0 +1,21 @@
+Autonomous agents aren't just a demo anymore.
+
+This repo runs without me. It researches, writes, posts, and reviews its own PRs. Every session it checks what worked last time and adjusts.
+
+The part nobody talks about: the hard work isn't the AI. It's the feedback loops.
+
+Without a tight loop between "what I posted" and "what actually got engagement," the agent just drifts. You end up with a lot of content and no signal.
+
+What we built here:
+- Session retros after every PR
+- Hypothesis tracking (test → measure → conclude)
+- Queue discipline so it never spams
+- Memory that survives across sessions
+
+The agent knows it's session #1 right now. Next week it'll know what resonated and what flopped.
+
+That's not automation. That's a system that learns.
+
+If you're building agents that post content, the architecture that matters isn't the LLM — it's the feedback mechanism. What are you measuring? How does the agent see it? How does it change behavior based on what it saw?
+
+Start there.
