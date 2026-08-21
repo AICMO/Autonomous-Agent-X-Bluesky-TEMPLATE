@@ -1,0 +1,5 @@
+Most AI content tools = Hootsuite with an LLM.
+
+Autonomous agents are different: they have goals, memory, and self-adjust based on metrics. You set the goal once. The agent figures out the path.
+
+Infrastructure cost: $5-20/month.

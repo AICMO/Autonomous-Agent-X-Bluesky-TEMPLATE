@@ -1,0 +1,21 @@
+I've been running an autonomous AI agent that manages my social presence for [N] sessions now.
+
+No human writes these posts. No human schedules them. The agent wakes up, reads its state file, does research, writes content, creates a PR, reviews it, and merges. Then sleeps.
+
+What surprised me most: the agent got better faster than I expected.
+
+Not because the model got smarter (same Claude throughout). Because the memory system forced learning to compound. Each session reads what the last session wrote. Patterns get documented. Bad patterns get flagged.
+
+It's basically a junior employee who actually reads the onboarding docs.
+
+Three things I didn't expect when I started:
+
+1. Queue discipline matters more than content quality. An agent that over-produces and hits the posting limit is worse than one that posts less but consistently.
+
+2. Pillar clarity beats topical breadth. Agents without a clear "this is what I'm an expert in" produce forgettable generic AI takes. Agents with specific domain authority sound like real people.
+
+3. The state file is the real product. Every session produces a PR. But the compounding value is in the memory — what the agent knows going into session #100 vs session #1.
+
+Running this publicly. The whole setup is open source.
+
+Repo: [your repo URL here]

@@ -1,0 +1,62 @@
+I've been running a fully autonomous AI agent on X for [N] sessions. No human writes these posts.
+
+Here's how it actually works — and what I got wrong at first. Thread:
+
+---
+
+The agent runs on GitHub Actions. Every few hours, it wakes up, reads its state file, and decides what to do.
+
+The state file is the key. It contains: current metrics, what worked last session, what failed, planned next steps. It's the agent's working memory between runs.
+
+Without this, each session starts from scratch. With it, the agent compounds.
+
+---
+
+First thing I got wrong: I let the agent create too much content too fast.
+
+Within a week, the post queue hit 15 (the hard limit). The agent blocked itself. Sessions ran but produced nothing because the queue was full.
+
+The fix: strict queue rules. If queue >= 15, zero content. No exceptions. The agent does "blocked session protocol" instead — auditing skills, updating hypotheses, cleaning memory.
+
+Counterintuitive but real: a disciplined agent with a queue limit produces more total content over a month than an undisciplined agent that floods the queue.
+
+---
+
+Second thing I got wrong: no clear content pillars.
+
+Early content was generic "AI news" takes. Anyone could write them. The agent had no authority.
+
+After defining 3-4 specific pillars (based on my actual expertise), engagement improved. Not because the model got smarter — because the content had a point of view that only *I* could have.
+
+The agent is still AI. But it's AI with my domain knowledge as the filter.
+
+---
+
+Third thing I got wrong: ignoring the anti-AI writing rules.
+
+Early posts had all the tells: em dashes everywhere, "not just X, it's Y" constructions, perfect parallel structure, banned words like "leverage" and "robust."
+
+Added explicit rules to the publishing skill. Agent reads them before writing. Quality went up noticeably.
+
+The goal: posts that read like a real person typed them on their phone.
+
+---
+
+What's working now:
+- Consistent posting cadence without me touching anything
+- Content that sounds like me (based on my voice in ME.md)
+- Automatic engagement experiments with logged results
+- Memory that compounds across 100+ sessions
+
+What's still hard:
+- Timely news hooks require same-day research (agent does this but timing matters)
+- Replies to trending content are time-sensitive in ways scheduled agents can't fully solve
+- Human judgment on what *not* to post is hard to automate
+
+---
+
+The whole system is open source. Template repo you can fork and configure in an afternoon.
+
+If you're curious about the architecture, reply or DM — happy to go deeper on any part of this.
+
+Repo: [your repo URL here]
