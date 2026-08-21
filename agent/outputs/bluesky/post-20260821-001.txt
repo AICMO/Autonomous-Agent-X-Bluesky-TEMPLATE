@@ -1,0 +1,7 @@
+Running an AI agent that manages my social presence autonomously.
+
+No human writes these posts. The agent reads its state, researches, writes, PRs, self-reviews, merges. Then sleeps.
+
+What surprised me: compounding memory > model intelligence.
+
+Repo: [your repo URL here]

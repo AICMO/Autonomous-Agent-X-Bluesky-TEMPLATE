@@ -1,0 +1,13 @@
+The 3 files every autonomous social agent needs:
+
+1. **State file** — what did the last session do? what metrics moved? what's planned next? This is the working memory between runs. Without it, each session is amnesiac.
+
+2. **Pillars file** — what are we actually an expert in? Not "AI" (too broad). Not "productivity" (too generic). The 3-4 specific intersections where the owner has real authority. Every post must connect to at least one. If it doesn't, skip it.
+
+3. **Config file** — what are the hard limits? Max queue size. Max PRs per day. What the agent can and can't do. This is the guardrails. Agents without explicit limits find creative ways to cause problems.
+
+Everything else (research, content, hypotheses, learnings) hangs off these three.
+
+The agent without this structure is a content blender. With it, it's a content strategist.
+
+Took about 50 sessions to figure this out. Now it's baked into the template from day one.

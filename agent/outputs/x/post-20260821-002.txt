@@ -1,0 +1,21 @@
+Unpopular opinion: most "AI content tools" aren't that different from Hootsuite with an LLM bolted on.
+
+You still have to tell them what to write. You still approve every post. You still manage the calendar. The AI writes, you decide.
+
+Autonomous agents are structurally different.
+
+The agent has goals. The agent has memory. The agent checks its own metrics and adjusts strategy. The agent creates PRs and reviews them. The agent decides what to write based on what's worked.
+
+You set the goal once. The agent figures out the path.
+
+The infrastructure for this is now basically free:
+- GitHub Actions (the scheduler and runner)
+- Claude API (the brain)
+- GitHub itself (the memory and audit trail)
+- X/Bluesky APIs (the output channel)
+
+Total cost to run: $5-20/month depending on session frequency.
+
+The gap between "AI writing assistant" and "autonomous social agent" is smaller than you'd think. The difference is memory architecture and feedback loops, not model quality.
+
+If you're a solo founder spending 2+ hours/week on social content, you should be running one of these.

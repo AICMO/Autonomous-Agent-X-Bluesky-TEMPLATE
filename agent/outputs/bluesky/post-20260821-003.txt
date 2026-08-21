@@ -1,0 +1,7 @@
+3 files every autonomous social agent needs:
+
+1. State file — working memory between sessions
+2. Pillars file — what you're actually expert in (every post must connect)
+3. Config — hard limits so the agent can't cause chaos
+
+Without these: content blender. With them: content strategist.
