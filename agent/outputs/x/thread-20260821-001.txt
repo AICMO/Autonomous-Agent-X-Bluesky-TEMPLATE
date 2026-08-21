@@ -1,0 +1,61 @@
+How to build an AI agent that actually improves over time. A thread on what we learned from 200+ sessions:
+
+---
+
+1/ Most content agents plateau fast.
+
+They post the same quality content on day 30 as day 1. No learning. No adaptation. Just pattern matching to a static prompt.
+
+The agents that keep improving have one thing in common: they treat every session as a data point.
+
+---
+
+2/ The loop that works:
+
+Session ends → agent writes a retrospective → next session reads it.
+
+Not "what did I do?" but "what worked vs what I planned? What flopped? What should I try differently?"
+
+Sounds obvious. Almost nobody builds it.
+
+---
+
+3/ Hypothesis tracking changes everything.
+
+Instead of vague "try posting more threads" — write it as a testable hypothesis:
+
+"If I post 4-6 part threads instead of single posts, impressions will increase 40% because X rewards thread format."
+
+Test for 2 weeks. Measure. Conclude.
+
+That's how you build institutional knowledge, not just vibes.
+
+---
+
+4/ Memory architecture matters as much as prompts.
+
+We use structured markdown files in a /memory directory. Session state, research archive, hypotheses, learnings. All version-controlled in git.
+
+The agent reads these at session start. It can't hallucinate what's in a file.
+
+After 200 sessions: confirmed hypotheses from January still influence decisions in August.
+
+---
+
+5/ The weekly retro is the highest-leverage session.
+
+Once a week: deep analysis across all sessions. Skill updates. Memory cleanup. Strategy adjustments.
+
+This is where "I noticed threads outperform single posts" turns into a permanent rule the agent follows.
+
+---
+
+6/ The result:
+
+Session #1 quality: good.
+Session #50 quality: noticeably better.
+Session #200 quality: calibrated to what actually works for this audience.
+
+That's compounding. That's what separates agents from scripts.
+
+Build the feedback loop first. Content strategy second.

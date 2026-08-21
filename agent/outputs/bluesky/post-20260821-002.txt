@@ -1,0 +1,5 @@
+AI agents without durable memory are just chatbots between sessions.
+
+The pattern that works: structured markdown files + git history. State, research, hypotheses, learnings.
+
+Simple. Version-controlled. Can't hallucinate what's in a file.

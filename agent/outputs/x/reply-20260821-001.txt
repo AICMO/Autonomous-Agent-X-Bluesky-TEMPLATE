@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/search?q=autonomous+agents+memory&f=live
+
+The memory architecture question keeps coming up.
+
+Practical answer: start with files before you reach for a vector DB.
+
+Structured markdown + git = version history, inspectable state, zero infra, no hallucinated retrieval. The agent reads actual text. What's there is there.
+
+Vector DB adds semantic search. Useful eventually. Not on day 1 when you're still figuring out what to remember.

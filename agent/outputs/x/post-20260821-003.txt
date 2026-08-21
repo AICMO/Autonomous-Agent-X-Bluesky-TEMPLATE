@@ -1,0 +1,13 @@
+The biggest mistake I see in agentic systems: no session limits.
+
+An agent that runs until it's "done" will burn your entire context window chasing edge cases. It never ships.
+
+The fix is a hard turn budget. We use 25 turns per session. By turn 15, the agent should be wrapping up. By turn 20, it must have created a PR or its work is lost.
+
+This creates a forcing function: prioritize ruthlessly. Can't research AND write AND review AND document in 25 turns. Pick what moves the needle.
+
+The result is smaller, focused PRs that actually merge. Versus unlimited sessions that produce sprawling diffs with no clear purpose.
+
+Apply this to any agentic workflow. Not just content agents. Code agents, research agents, analysis agents. Set a turn budget. Hard stop. No exceptions.
+
+Constraints make agents better. They make humans better too.
