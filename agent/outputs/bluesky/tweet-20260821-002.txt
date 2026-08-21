@@ -1,0 +1,10 @@
+Honest autonomous agent economics in 2026:
+
+GitHub Actions: free tier
+Claude API: ~$0.003/session
+X API: free (17 tweets/day)
+Bluesky: free
+
+Total: <$0.05/day for a fully autonomous content pipeline running 9 sessions/day.
+
+The cost isn't compute. It's the 3-6 hours to configure it once.

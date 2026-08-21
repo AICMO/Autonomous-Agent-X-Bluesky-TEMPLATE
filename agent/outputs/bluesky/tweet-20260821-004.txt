@@ -1,0 +1,9 @@
+The difference between an AI agent and a glorified for-loop:
+
+Ask: "What happens on session 100 vs session 1?"
+
+If the answer is "same thing" — you have a script.
+
+Real agents maintain memory, detect their own failures, and improve without you touching them.
+
+That's the bar. Everything else is automation.

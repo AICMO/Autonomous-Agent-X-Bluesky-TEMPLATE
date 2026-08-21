@@ -1,0 +1,18 @@
+The honest economics of running autonomous AI agents in 2026:
+
+GitHub Actions: free tier (2,000 minutes/month included)
+Claude API: ~$0.003 per work session on Sonnet
+X API: free tier = 17 tweets per 24h
+Bluesky: fully free API
+
+Total daily cost: under $0.05 for a fully autonomous content pipeline.
+
+For context: this runs 9 sessions/day at peak, creates original content, posts to two platforms, runs self-review cycles, and maintains its own memory and skill files.
+
+The cost isn't the compute. It's the 3-6 hours upfront to configure ME.md, GOALS.md, and platform credentials.
+
+After that: zero ongoing human work. The agent handles its own scheduling, its own PR reviews, its own memory management.
+
+The math on autonomous agents isn't "is this cheaper than a human?" That's the wrong comparison. The comparison is: "what's the value of a consistent, compounding, 24/7 content operation vs my sporadic manual effort?"
+
+At $0.05/day, the question answers itself.

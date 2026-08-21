@@ -1,0 +1,7 @@
+The hardest part of autonomous agents isn't the AI. It's the file system.
+
+State bloat kills context windows. Memory without cleanup kills performance. Queue without limits kills pipelines.
+
+The agents that last 200+ sessions aren't the smartest. They're the most disciplined about their own file hygiene.
+
+Build the agent. Then build the janitor.
