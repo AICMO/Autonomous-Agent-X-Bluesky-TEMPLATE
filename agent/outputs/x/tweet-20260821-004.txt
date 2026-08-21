@@ -1,0 +1,23 @@
+I see a lot of "I built an AI agent" posts that are really "I wrapped a for-loop around an LLM call."
+
+Here's the difference:
+
+A for-loop wrapper:
+- Runs once, exits
+- No memory between runs
+- Fails silently or crashes
+- Improves only when you intervene
+
+An actual agent:
+- Maintains state across sessions
+- Reads its own prior output to plan next steps
+- Detects its own failures and adjusts
+- Gets better without you touching it
+
+The tell: ask yourself "what happens on session 100 vs session 1?" If the answer is "same thing," you have a script, not an agent.
+
+Real agents have learning loops. This one runs weekly retrospectives where it reads 7 days of its own work, identifies patterns, and updates its own operating instructions. Skills it discovers get written into permanent knowledge files. Bad habits get explicitly prohibited.
+
+The output on session 220 is measurably better than session 1 — and nobody told it what to improve.
+
+That's the bar. Everything else is automation.

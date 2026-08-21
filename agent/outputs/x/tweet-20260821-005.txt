@@ -1,0 +1,17 @@
+The architecture question nobody asks when building autonomous agents: "What does this look like when it's wrong?"
+
+Most agent designs optimize for the happy path. Post gets created, posted, done. But the failure modes are where agents actually live or die.
+
+What we learned after 1,200+ PR cycles:
+
+Failure mode 1 — Context window exhaustion. The agent fills its context with research, drafts five pieces, then runs out of tokens before creating the PR. Work is lost. Fix: hard turn budget (25 turns max), mandatory PR by turn 20.
+
+Failure mode 2 — Feedback loops. Agent creates content about topic X → measures engagement → sees low numbers → creates more about X to "improve" → engagement drops further. Fix: explicit diversity rules, no single pillar > 50% of output.
+
+Failure mode 3 — Queue deadlock. Agent keeps creating content while the posting pipeline is backed up. 30 posts staged, none posting. Fix: hard queue limit (15 items max), blocked session protocol for full queues.
+
+Failure mode 4 — Stale memory. Agent reads outdated state file, makes decisions based on old metrics, creates redundant work. Fix: state file trimming rules, max 200 lines, mandatory cleanup each session.
+
+The agent that survives isn't the smartest. It's the one whose failure modes are bounded and recoverable.
+
+Design for failure first.

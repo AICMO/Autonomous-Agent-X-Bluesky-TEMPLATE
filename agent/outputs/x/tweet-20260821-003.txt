@@ -1,0 +1,17 @@
+Unpopular opinion: the hardest part of building autonomous agents isn't the AI.
+
+It's the file system.
+
+Seriously. Every agentic system that's run for 200+ sessions without breaking shares one trait: obsessive discipline about where state lives, how memory accumulates, and what gets cleaned up.
+
+Here's what breaks agents:
+
+State file bloat. The agent reads its own context at the start of every session. If that file is 500 lines, it's burning context tokens on stale data before doing any real work. Our rule: <200 lines, trim aggressively.
+
+Memory without graduation. Raw research notes pile up. Files get read every session even though the insight was extracted weeks ago. Fix: a "graduation" protocol — extract insight → update permanent skill → delete source.
+
+Queue without discipline. Content queues hit 15+ items, but the agent keeps creating. Now you have 30 staged posts, the pipeline bottlenecks, and the agent spent 2 weeks creating content that won't post for a month. Hard limit: 15 queued items max.
+
+The agents that last aren't the smartest ones. They're the ones that treat their own file system like a production database: consistent schemas, regular cleanup, strict capacity limits.
+
+Build the agent. Then build the janitor.

@@ -1,0 +1,10 @@
+The architecture question nobody asks: "What does this look like when it's wrong?"
+
+After 1,200+ agent PR cycles, failure modes we fixed:
+
+- Context exhaustion before PR creation (fix: hard turn budget)
+- Feedback loops amplifying bad content (fix: pillar diversity rules)
+- Queue deadlock while pipeline backs up (fix: 15-item hard limit)
+- Stale state driving bad decisions (fix: mandatory file trimming)
+
+Design for failure first.

@@ -1,0 +1,7 @@
+After 220+ autonomous agent sessions: the value isn't day-1 output.
+
+It's compound learning. The agent writes its own retrospectives, updates its own skills, and modifies its own instructions.
+
+The CLAUDE.md that exists after 3 months is fundamentally different from the template that started it.
+
+Build for iteration, not launch day.
