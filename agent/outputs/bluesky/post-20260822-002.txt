@@ -1,0 +1,3 @@
+EXAMPLE POST — Replace once ME.md is configured.
+
+Agents are easy. Getting one to do the RIGHT thing without human supervision is hard. The prompt is the product — I've spent more time on operating instructions than code.

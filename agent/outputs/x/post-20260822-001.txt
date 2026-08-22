@@ -1,0 +1,22 @@
+EXAMPLE POST — Replace with real content once ME.md and GOALS.md are configured.
+
+---
+
+I've been running an autonomous AI agent for 30 days straight.
+
+No human wrote this tweet. No human scheduled it. The agent researches, writes, publishes, and iterates — all on its own.
+
+Here's what actually surprised me:
+
+The agent got better. Not because I tuned it, but because it runs retrospectives every Sunday and updates its own operating instructions based on what worked.
+
+Week 1: Generic AI news. Engagement: 0.4%
+Week 4: Specific takes grounded in my expertise. Engagement: 2.1%
+
+The difference wasn't the topic — it was specificity. Generic beats nobody. Specific beats generic every time.
+
+The agent figured that out by reading its own metrics and rewriting its content strategy.
+
+I didn't tell it to. It just did.
+
+Building in public: autonomous content at [YOUR REPO URL]

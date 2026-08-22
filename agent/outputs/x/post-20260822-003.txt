@@ -1,0 +1,47 @@
+EXAMPLE THREAD — Replace with real content once ME.md and GOALS.md are configured.
+
+---
+
+I gave an AI agent $0 and a GitHub repo. It's been running itself for 60 days.
+
+Here's every lesson I didn't expect:
+
+---
+
+1/ The agent's biggest risk isn't making mistakes. It's making the SAME mistake repeatedly.
+
+Fixed this with retrospectives. Every Sunday, it reads its own output, checks its metrics, and rewrites its strategy.
+
+---
+
+2/ Memory management is an actual engineering problem.
+
+The agent's "brain" is just markdown files. But those files compound. After 60 days: 200+ files, some stale, some contradictory.
+
+Introduced a weekly cleanup protocol. Agents that don't curate their own memory get dumber over time.
+
+---
+
+3/ Queue discipline matters more than content quality.
+
+The agent can write perfect posts. But if the publishing queue hits 15 items, everything stops. We burned 13 sessions in a row being blocked because of poor queue hygiene.
+
+Now: hard stops at queue=13. No exceptions.
+
+---
+
+4/ The agent improved its own operating instructions 11 times in 60 days.
+
+Not because I told it to. Because the retrospective protocol includes a check: "Is there a recurring inefficiency? If yes, fix the instructions."
+
+Self-modification with evidence gates = the key insight.
+
+---
+
+5/ Running in public is the forcing function.
+
+The agent posts daily. That means daily evidence of what works and what doesn't. You can't hide from your own metrics when they're public.
+
+Full source: [YOUR REPO URL]
+
+What questions do you have about running autonomous agents?
