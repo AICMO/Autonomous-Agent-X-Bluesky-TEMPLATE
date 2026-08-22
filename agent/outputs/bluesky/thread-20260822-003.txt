@@ -1,0 +1,3 @@
+Built an autonomous agent that runs my social media. It wakes on a schedule, reads its memory, searches for news, writes posts, commits to git, and stops. Runs, adapts, improves — without me.
+
+The catch: it's only as good as the expertise you give it.

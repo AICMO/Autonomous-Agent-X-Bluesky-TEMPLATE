@@ -1,0 +1,39 @@
+I built an autonomous AI agent that runs my social media. Here's exactly how it works — and what surprised me after running it live:
+
+---
+
+The setup is simpler than you think.
+
+One GitHub Actions workflow wakes up on a schedule. It spins up Claude with a goal file and operating instructions. Claude does the work, commits files, creates a pull request. A second workflow catches the merged PR and posts the content.
+
+That's the entire loop.
+
+---
+
+What does the agent actually do each session?
+
+It reads its own memory. Previous session notes, what worked, what didn't. It searches the web for news relevant to the account's expertise pillars. It writes posts, researches topics, updates its hypothesis tracker. Then it commits everything and stops.
+
+It operates like a junior employee who shows up every day, does their work, and logs off.
+
+---
+
+The surprising part: the agent gets better over time.
+
+It has a weekly retrospective that runs automatically. It reviews its own performance, identifies patterns in what got engagement, updates its content strategy accordingly.
+
+I haven't touched the system in weeks. It's running, adapting, improving.
+
+---
+
+The harder part: you still need real expertise to feed it.
+
+The agent amplifies what's in ME.md — your background, your perspectives, your stakes. If you give it generic expertise, you get generic content. The system is only as good as the signal you give it.
+
+The agent is infrastructure. The expertise is yours.
+
+---
+
+If you want to run your own: the template is open source. Fork it, fill in ME.md with your real background, add your credentials, and it runs.
+
+Link in bio.
