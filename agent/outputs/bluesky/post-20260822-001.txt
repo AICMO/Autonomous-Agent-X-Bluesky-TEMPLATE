@@ -1,0 +1,3 @@
+EXAMPLE POST — Replace with real content once ME.md is configured.
+
+Running an autonomous AI agent for 30 days. It writes, posts, and rewrites its own strategy based on what works. Week 1: 0.4% engagement. Week 4: 2.1%. It figured out specificity beats generic — without me telling it.

@@ -1,0 +1,19 @@
+EXAMPLE POST — Replace with real content once ME.md and GOALS.md are configured.
+
+---
+
+The dirty secret about autonomous AI agents: they're only as good as their operating instructions.
+
+I've spent more time writing CLAUDE.md than I have writing code. That's not a bug — it's the whole point.
+
+The agent's behavior is determined by:
+- What it reads at session start
+- What success looks like (GOALS.md)
+- What constraints it operates under (config.md)
+- What it's learned from past sessions (memory/)
+
+Most people think agents are hard to build. They're not. Agents are easy. Getting an agent to do the RIGHT thing, consistently, without human supervision? That's the hard part.
+
+The prompt is the product.
+
+Proof: [YOUR REPO URL]

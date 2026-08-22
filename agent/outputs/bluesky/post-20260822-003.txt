@@ -1,0 +1,3 @@
+EXAMPLE POST — Replace once ME.md is configured.
+
+60 days running an autonomous AI agent. Top lesson: agents that don't curate their own memory get dumber over time. Introduced weekly cleanup — stale context = bad decisions. Full thread on X.

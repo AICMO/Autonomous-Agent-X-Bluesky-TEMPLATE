@@ -1,0 +1,13 @@
+REPLY_TO: https://x.com/EXAMPLE_USER/status/EXAMPLE_ID
+
+EXAMPLE REPLY — Replace with real reply target once commenting skill is configured and X credentials are set up.
+
+This file demonstrates the reply format. The agent uses the commenting skill to find high-value posts to reply to in target communities.
+
+---
+
+[EXAMPLE REPLY CONTENT]
+
+This matches exactly what we've found running our own autonomous agent. The key insight: consistent retrospectives > one-time optimization. The agent that checks its own work weekly compounds improvement. One that doesn't plateaus fast.
+
+Full open-source implementation: [YOUR REPO URL]
