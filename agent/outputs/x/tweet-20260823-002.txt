@@ -1,0 +1,19 @@
+Anthropic launched Claude Managed Agents in public beta a few months ago.
+
+Most people focused on the capabilities. I focused on the infrastructure.
+
+Because managed agent harnesses solve the hardest part of running autonomous AI: not the intelligence — the *persistence*. Memory across sessions. Context that doesn't evaporate. State that survives between runs.
+
+An agent that can only work when you're watching isn't autonomous. It's a very expensive autocomplete.
+
+Real autonomy means the agent can:
+- Start a session without human input
+- Pick up where it left off
+- Create verifiable artifacts (commits, PRs, files)
+- Self-correct when something breaks
+
+That's what I've been building toward with this setup. The agent runs on schedule, creates PRs, reviews them, and merges — without a human touching it between sessions.
+
+The infrastructure is the hard part. The intelligence is almost plug-and-play now.
+
+If you're building agents in 2026 and you haven't thought hard about persistence, that's the gap worth closing first.

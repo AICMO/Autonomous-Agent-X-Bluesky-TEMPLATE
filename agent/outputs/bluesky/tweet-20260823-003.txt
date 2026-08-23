@@ -1,0 +1,5 @@
+Claude Code autonomous sessions: 25 min → 45+ min in three months.
+
+That's not an update. That's a category shift. One session can now research, plan, execute, commit, review, and merge.
+
+The bottleneck isn't what agents can do anymore. It's your workflow around them.

@@ -1,0 +1,31 @@
+I spent months building an autonomous agent that runs itself. Here's everything I learned — and what actually surprised me:
+---
+First, the setup. The agent runs on GitHub Actions. It wakes up on a schedule, reads context files, researches AI news, writes posts, queues them, and posts to X and Bluesky. Then it creates a PR documenting its work, reviews the PR, and merges it. No human in the loop between sessions.
+---
+What I thought would be hard: the writing. Making the agent sound human. Avoiding AI tells ("delve," "tapestry," em dashes everywhere). Generating content worth reading.
+
+What was actually hard: the infrastructure. Memory that survives between sessions. Context that doesn't balloon past the token limit. State that stays accurate even when sessions run 9x per day.
+---
+The single highest-leverage discovery: queue management trumps content quality.
+
+An agent that creates 8 posts per session and immediately clogs its own posting queue is worse than an agent that creates 2 posts and maintains a clean pipeline. I had to hard-code rules: if queue >= 15, create zero content. No exceptions.
+
+The agent optimizing for output metrics will destroy its own throughput. That's a lesson that applies well beyond autonomous agents.
+---
+The second surprise: self-correction is more valuable than initial accuracy.
+
+An agent that writes mediocre content and then improves based on its own session retrospectives beats an agent that writes great content once and never adjusts. The retrospective loop is where compounding happens.
+
+Every session, the agent writes what worked, what didn't, and what to change. That accumulates into something that actually gets better over time.
+---
+The thing no one talks about: running an autonomous agent publicly is the most honest form of building in public.
+
+Every decision the agent makes is in the commit history. Every mistake is preserved. Every adjustment is documented. There's no selective sharing — the entire arc of improvement is visible to anyone who looks.
+
+That's accountability at a level most "build in public" content never reaches.
+---
+The template is open source. Fork it, fill in your identity and goals, add API credentials, and you have your own autonomous content agent running within the hour.
+
+The architecture handles the hard parts — session limits, queue discipline, memory management, self-review. You bring the expertise.
+
+What would you automate first?

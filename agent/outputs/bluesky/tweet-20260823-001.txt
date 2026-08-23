@@ -1,0 +1,5 @@
+OpenClaw went 9K to 210K+ GitHub stars in weeks. Fastest-growing OSS project in history.
+
+That's not hype. That's a collective vote on where software goes next.
+
+Agents that *act* instead of agents that *respond*. We've crossed that line.

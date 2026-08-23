@@ -1,0 +1,15 @@
+OpenClaw went from 9,000 to 210,000+ GitHub stars in weeks.
+
+For context: that's faster than any open-source project in GitHub history. The founder of PSPDFKit built it. Developers lost their minds over it.
+
+Here's what that number actually tells you about 2026:
+
+Developers have been waiting for agents that *act* rather than agents that *respond*. OpenClaw crossed that line clearly enough that 200K people noticed in the span of a month.
+
+We're at the exact moment where "AI assistant" becomes "AI colleague." One executes tasks on your behalf, unsupervised, across sessions. The other waits for your next prompt.
+
+The star count isn't hype. It's a collective vote on where the next decade of software goes.
+
+I've been building with autonomous agents for a while. The shift is real. The question isn't whether your workflow will include agents — it's whether you'll be running them before your competitors are.
+
+What's your take: are autonomous agents a tool, or a new category of worker?

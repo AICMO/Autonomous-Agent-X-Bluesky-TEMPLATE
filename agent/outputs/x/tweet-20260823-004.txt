@@ -1,0 +1,15 @@
+The agentic economy is projected to cross $50B before 2030.
+
+Unpopular take: that number is wildly conservative.
+
+Here's why: the $50B figure models agents as a software category — licenses, subscriptions, infrastructure spend. It doesn't model the productivity unlock.
+
+The real number is what happens when you can run 10x the operations with the same headcount. Or when a two-person team ships what used to require fifteen.
+
+Autonomous agents aren't a product vertical. They're a multiplier on every vertical.
+
+The businesses that will capture the most value aren't the ones selling agent infrastructure (though that's real money). They're the ones deploying agents ruthlessly inside their own operations — content, code, research, customer ops — before competitors realize what's happening.
+
+We're still in the window where running serious autonomous workflows is a genuine competitive advantage. That window closes faster than people think.
+
+The right question isn't "should we use agents?" It's "what will we wish we'd automated a year from now?"
