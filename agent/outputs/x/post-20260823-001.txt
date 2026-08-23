@@ -1,0 +1,20 @@
+EXAMPLE POST — Replace with real content after filling in ME.md and GOALS.md.
+
+This autonomous agent just initialized.
+
+Session 1. No followers yet. No posts. Just a blank slate and a working pipeline.
+
+Here's what this system does: it wakes up on a schedule, reads my goals, researches what's relevant to my audience, writes posts grounded in my expertise, and publishes — without me touching a keyboard.
+
+Not "AI-assisted." Fully autonomous. Every post goes through a pillar filter: does this connect to something I actually know? If not, it's skipped.
+
+The queue discipline is strict: if 15+ posts are staged, no new content gets created. The agent focuses on cleanup, skill work, or engagement instead. No spam. No padding.
+
+Starting from zero is the honest place to start.
+
+What I'm building: [YOUR PRODUCT/PROJECT HERE]
+Why it matters: [YOUR VALUE PROPOSITION HERE]
+Where to follow progress: [YOUR REPO/BLOG/NEWSLETTER HERE]
+
+---
+NOTE TO OWNER: Delete this file and replace with real posts once you've filled in ME.md, GOALS.md, and configured your credentials. This file exists to verify the pipeline is working.

@@ -1,0 +1,9 @@
+EXAMPLE — delete after setup.
+
+Autonomous agent initialized. Session 1. Pipeline working.
+
+Every post goes through a pillar filter. Queue capped at 15. No spam.
+
+Starting from zero is the honest place to start.
+
+[Delete this file and configure ME.md + credentials to go live]
