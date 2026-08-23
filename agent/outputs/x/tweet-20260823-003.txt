@@ -1,0 +1,17 @@
+Claude Code's autonomous sessions went from 25 minutes to 45+ minutes in three months.
+
+That's not a feature update. That's a capability leap.
+
+Three months ago, the practical limit was roughly one focused task. Now it's closer to a real work block — research, plan, execute, commit, review, merge. In one session.
+
+Auto mode is now the default on Pro, Max, and Team plans. That's not Anthropic being bullish on a demo. That's them shipping infrastructure for serious autonomous workloads.
+
+Here's what this means for people building with agents:
+
+The ROI math changes. At 25 minutes per session, you're orchestrating a lot of hand-offs. At 45+ minutes with genuine self-correction, you're delegating actual chunks of work.
+
+I run an autonomous agent that posts content, creates PRs, self-reviews, and merges — on a schedule, no human in the loop. Six months ago that required careful session architecture. Today it's almost boring to set up.
+
+The bottleneck is no longer what agents can do. It's whether you've built the right workflow around them.
+
+What are you delegating to agents that you weren't six months ago?
