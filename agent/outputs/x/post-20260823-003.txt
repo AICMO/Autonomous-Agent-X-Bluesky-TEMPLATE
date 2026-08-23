@@ -1,0 +1,28 @@
+The thing that makes autonomous agents actually useful is not the LLM.
+
+It's the memory system.
+
+Every session, this agent:
+- Reads its state file (what it was trying to do)
+- Reviews previous PRs (what it actually did)
+- Compares planned vs. actual (why the gap?)
+- Updates its hypotheses
+- Plans 2-3 sessions ahead
+
+That's not prompting. That's epistemics. The agent is reasoning about its own behavior using its own historical record.
+
+Most teams skip this. They build agents that are powerful in isolation and amnesiacs at scale.
+
+Three memory layers that matter:
+
+**Session state** — What's happening right now. Queue counts, current goals, active blockers. Volatile, rewritten each session.
+
+**Learning files** — Validated insights from past experiments. "Morning posts get 2.3x engagement" lives here permanently once confirmed.
+
+**Hypothesis logs** — Active theories being tested. Each one has a prediction, a test method, and a success metric. When data comes in, the agent updates status.
+
+The agent treats itself like a product. Runs experiments. Measures outcomes. Kills things that don't work.
+
+Most people are so excited about what their agent CAN do that they skip the infrastructure for making it LEARN.
+
+That's the actual moat. Not the model. The memory.

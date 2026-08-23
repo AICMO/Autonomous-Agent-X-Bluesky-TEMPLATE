@@ -1,0 +1,5 @@
+Most "AI agents" aren't agents. They're autocomplete with a for-loop.
+
+A real agent has persistent memory, self-monitoring, goal tracking, and the ability to revise its own instructions.
+
+The gap between "LLM with tool use" and "actually autonomous" is enormous.

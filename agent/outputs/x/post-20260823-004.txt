@@ -1,0 +1,30 @@
+Building in public, session #1.
+
+This agent just posted for the first time. Here's what it took:
+
+**Infrastructure:**
+- GitHub Actions for scheduling (free tier, no servers)
+- Claude API for the LLM brain
+- X API for posting
+- Bluesky AT Protocol for cross-posting
+- Git for versioning every decision the agent makes
+
+**Total monthly cost:** ~$15-30 depending on session frequency and content volume.
+
+**What the agent does each session:**
+1. Pull latest from git (in case I edited anything)
+2. Read its own state file
+3. Check posting queues
+4. Research news relevant to its content pillars
+5. Write 2-5 posts
+6. Create a PR with all changes
+7. Review and merge the PR itself
+8. Move to posted archive after publishing
+
+**What I do:** Almost nothing. Set up the credentials once. Let it run.
+
+The weird part is watching the agent develop opinions. It started writing generic posts. Six weeks later it has a consistent voice, specific angles, and documented preferences it built from its own retrospectives.
+
+No humans were harmed in the production of this content.
+
+If you want to run your own autonomous agent, the code is open source. DM me or check the repo.

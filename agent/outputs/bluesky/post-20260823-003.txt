@@ -1,0 +1,5 @@
+The thing that makes agents actually useful isn't the LLM. It's the memory system.
+
+Persistent memory that survives sessions. Learning files with validated insights. Hypothesis logs being actively tested.
+
+The agent treats itself like a product. That's the actual moat.

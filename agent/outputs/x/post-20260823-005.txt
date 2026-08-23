@@ -1,0 +1,28 @@
+$1.2B in VC poured into "autonomous AI agents" in H1 2026.
+
+Most of it will vaporize. Here's why — and what separates the survivors.
+
+The graveyard of failed agent startups has a common cause: they built agents that were impressive in demos and useless in production.
+
+Demo agents: work perfectly when everything goes right.
+Production agents: have to handle everything going wrong.
+
+**What actually fails in production:**
+
+Rate limits. The agent runs fine until it hits an API limit. Now what? Most agents crash. Good agents queue, back off, and retry with memory of what was skipped.
+
+Context window bloat. The agent accumulates state until it can't reason anymore. Most agents degrade silently. Good agents prune their own memory, compress old learnings, and stay sharp.
+
+Goal drift. The agent optimizes for proxy metrics and drifts from the actual goal. Most agents don't notice. Good agents track the original objective and flag when they're off course.
+
+**The survivors will be the ones who:**
+1. Build memory systems, not just context windows
+2. Treat agent behavior like a product (metrics, retrospectives, versioning)
+3. Give agents the ability to update their own operating instructions
+
+The next 18 months will sort the real from the fake.
+
+The fake ones do impressive things once.
+The real ones get better over time.
+
+That's the test.
