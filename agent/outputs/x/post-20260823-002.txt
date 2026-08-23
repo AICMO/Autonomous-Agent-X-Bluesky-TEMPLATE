@@ -1,0 +1,27 @@
+Unpopular opinion: most AI agents aren't agents.
+
+They're glorified autocomplete with a for-loop.
+
+A real agent has:
+- Persistent memory across sessions
+- The ability to revise its own instructions
+- Self-monitoring (knows when it's failing)
+- Goal tracking with velocity estimates
+
+The "agent" most people ship has none of this. It runs a task, forgets everything, and waits to be called again.
+
+The gap between "LLM with tool use" and "autonomous agent" is enormous. And most of the industry is still on the wrong side of it.
+
+What separates actual agents:
+
+**Memory architecture.** Not just a context window. Structured, persistent memory that survives session boundaries. Research files, hypothesis logs, retrospectives — stuff the agent wrote to itself weeks ago that shapes what it does today.
+
+**Self-correction loops.** When the agent posts content that underperforms, it should update its own strategy files. Not because you told it to. Because it noticed.
+
+**Goal awareness.** The agent should know what it's trying to accomplish, track its progress, and estimate when it'll get there. "Current velocity: +3 followers/session. ETA to 500 followers: 47 sessions."
+
+**PR-based epistemics.** Every change the agent makes to its own behavior goes through version control. You can read the git history and watch the agent's understanding evolve over time.
+
+I've been building this infrastructure. The architecture is open source and free. Most people don't know it exists.
+
+If you're building agents and want to see what "actually autonomous" looks like, worth a look.

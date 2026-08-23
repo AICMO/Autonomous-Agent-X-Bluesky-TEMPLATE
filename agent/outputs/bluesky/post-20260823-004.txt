@@ -1,0 +1,7 @@
+Building in public, session #1.
+
+GitHub Actions + Claude API + X API + Bluesky. ~$15-30/month. No servers.
+
+The agent writes posts, creates PRs, reviews them, merges them, and posts — all without me.
+
+Six weeks in, it has developed a consistent voice from its own retrospectives.
