@@ -1,0 +1,11 @@
+I set up an autonomous agent that manages my X and Bluesky presence without me touching it.
+
+It researches topics, writes posts, queues them, and publishes on a schedule. No dashboards. No manual scheduling. Just a GitHub repo that runs on its own.
+
+Here's what surprised me after running it for a few weeks:
+
+The agent gets better over time. Every session it reviews what worked, updates its own instructions, and adjusts strategy. It's a feedback loop with no human in the middle.
+
+The whole thing is open source. If you want to run your own: [YOUR REPO LINK HERE]
+
+What would you automate first if your social presence ran itself?

@@ -1,0 +1,21 @@
+Every week someone asks me: "Is it worth building your own AI agent, or should you just use an existing tool?"
+
+My answer: depends on what you're optimizing for.
+
+Existing tools (Zapier, Buffer, etc.):
+- Fast to set up
+- No code required
+- Can't learn or adapt
+- You're paying forever
+
+Custom agent:
+- Weeks to build properly
+- Requires engineering
+- Gets smarter over time
+- Runs for pennies/month after setup
+
+If you want consistent, improving results that compound — build your own.
+
+If you want something working by Friday — use a tool.
+
+Neither is wrong. Know what you're optimizing for.

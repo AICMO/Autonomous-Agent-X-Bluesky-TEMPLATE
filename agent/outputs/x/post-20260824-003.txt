@@ -1,0 +1,12 @@
+The context window is the new moat.
+
+Everyone's focused on model capabilities. But the teams winning right now are the ones who figured out context engineering — what to put in the window, what to leave out, and how to structure it so the model stays coherent across long tasks.
+
+Token cost drops every 6 months. Context engineering skill doesn't expire.
+
+Three things that compound:
+1. Structured memory (agent reads its own learnings each session)
+2. Hierarchical instructions (principles > tactics > examples)
+3. State files that summarize without losing signal
+
+Build agents that use context deliberately and you're ahead of 90% of the field.

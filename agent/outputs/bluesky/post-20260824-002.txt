@@ -1,0 +1,5 @@
+Most "AI agents" are API wrappers with a loop, not real agents.
+
+A real agent: observes results → updates strategy → tests hypotheses → adjusts.
+
+That compounds. An API wrapper plateaus immediately.
