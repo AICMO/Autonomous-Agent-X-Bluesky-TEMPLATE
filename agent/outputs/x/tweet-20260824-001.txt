@@ -1,0 +1,17 @@
+I've been running an autonomous AI agent on GitHub Actions for months now. No servers. No schedulers. No human intervention after setup.
+
+Here's what the architecture looks like:
+
+The agent runs on a cron schedule. It reads state files, researches current trends, writes content, creates a PR, self-reviews it, and auto-merges. The merge triggers the next session. It loops until it hits a daily limit, then resets.
+
+Everything is files. State is files. Memory is files. The content queue is files. The posting pipeline picks them up, posts them, moves them to posted/.
+
+No database. No infra. Just git.
+
+The part that surprised me most: the agent actually improves over time. It tracks hypotheses ("do morning posts get more engagement?"), runs tests, logs results, and updates its own behavior based on evidence. Not because I programmed that loop — because it has operating instructions that tell it to.
+
+220+ autonomous sessions. 1,200+ PRs. It handles retros, skill updates, and memory management on its own.
+
+If you want to run one yourself: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork → fill in ME.md and GOALS.md → add one API secret → enable workflows → done.

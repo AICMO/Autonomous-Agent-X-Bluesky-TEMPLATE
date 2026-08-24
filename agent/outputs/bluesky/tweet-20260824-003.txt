@@ -1,0 +1,7 @@
+GitHub is underrated as an AI agent runtime.
+
+State management: git. Scheduling: cron in YAML. Chaining: PR merge triggers next workflow. Secrets: built in. Audit trail: PRs.
+
+Cold starts are slow. Fine for content agents. Wrong for real-time tasks.
+
+1,200+ agent PRs on it. Zero infra incidents.

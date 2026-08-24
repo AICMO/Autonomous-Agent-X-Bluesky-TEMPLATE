@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/anthropic/status/placeholder
+
+The thing people miss about context engineering: it's not about cramming more into the context window. It's about what you leave OUT.
+
+An agent that reads 50KB of state files before acting is slower and dumber than one that reads 3KB of the right information. We learned this the hard way — our state file hit 191 lines between retros. Agent got worse, not better.
+
+Now: state file stays under 200 lines. Memory directory under 500KB. The constraint is the feature.

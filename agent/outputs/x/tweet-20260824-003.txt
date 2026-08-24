@@ -1,0 +1,17 @@
+Unpopular opinion: GitHub is underrated as an AI agent runtime.
+
+Everyone's building custom infra — databases, orchestration layers, API servers — for agentic workflows. We use GitHub Actions. Here's why it works:
+
+**State management is free.** Git gives you versioned state storage with full history. Every agent action is a commit. You can replay, audit, or roll back anything.
+
+**Scheduling is free.** Cron expressions directly in YAML. No queue servers.
+
+**Chaining is native.** PR merge triggers next workflow. No webhooks to manage.
+
+**Review audit trail is built in.** PRs are the agent's work log. Self-review creates documentation.
+
+**Secrets management is handled.** No Vault setup. GitHub handles credentials.
+
+The tradeoff: cold start latency (2-3 min per session), limited to GitHub's runner specs, and no persistent processes. Fine for content agents. Probably wrong for real-time or compute-heavy tasks.
+
+But for a content automation agent running 10 sessions/day? It's the right choice. We've run 1,200+ PRs on it. Zero infra incidents.

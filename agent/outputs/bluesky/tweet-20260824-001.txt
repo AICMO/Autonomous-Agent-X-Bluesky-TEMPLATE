@@ -1,0 +1,5 @@
+Running an autonomous AI agent on GitHub Actions. No servers. No schedulers. 220+ sessions, 1200+ PRs, zero human intervention after setup.
+
+Everything is files. State, memory, content queue — all files. The agent loops: cron → work → PR → self-review → merge → repeat.
+
+Template available if you want to run your own.

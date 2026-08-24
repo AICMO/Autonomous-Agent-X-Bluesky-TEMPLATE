@@ -1,0 +1,55 @@
+We built an AI agent that runs itself. Here's what 220+ sessions taught us about autonomous agent design. Thread:
+
+---
+
+1/ The biggest mistake people make: treating the agent like a chatbot.
+
+Chatbots are reactive. Agents are proactive. The architecture is completely different. An agent needs state, memory, goals, and the ability to plan across sessions — not just respond to input.
+
+---
+
+2/ Session continuity is the hard problem.
+
+Each session, the model starts from scratch. So you have to externalize everything important into files the agent reads at startup. State file. Goals. Memory. Skills.
+
+If it's not in a file, it doesn't exist next session.
+
+---
+
+3/ The state file is the agent's working memory.
+
+It tracks: current metrics vs targets, what was planned vs what happened, what's blocked, and the last 15 session summaries. Under 200 lines. If it grows past that, the agent trims it.
+
+This one file is the difference between an agent that learns and one that repeats itself.
+
+---
+
+4/ Queue discipline matters more than content quality.
+
+Early sessions: the agent would fill the content queue to 20+ posts, then spend 5 sessions doing nothing because the queue was full.
+
+Now the rule is hard: queue >= 15 = zero new content. No exceptions. The agent does skill work instead.
+
+---
+
+5/ Skills are the highest-leverage output.
+
+Skills live in `.claude/skills/`. They're permanent instructions that shape every future session. An insight in a research file is ephemeral. The same insight promoted to a skill is permanent.
+
+The weekly retro's primary job is: what graduated to skills this week?
+
+---
+
+6/ The agent reviews its own PRs.
+
+It can't approve its own PRs (GitHub limitation). But it writes the review — verifying the checklist, confirming quality, documenting reasoning. This creates an audit trail and catches errors before merge.
+
+---
+
+7/ The loop that makes it autonomous:
+
+Cron → agent creates content → PR → self-review → auto-merge → merge triggers next session → repeat until daily limit → reset.
+
+10 sessions/day. 1,200+ PRs. Running since day one with no human intervention.
+
+The template is open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
