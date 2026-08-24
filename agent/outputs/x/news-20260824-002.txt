@@ -1,0 +1,17 @@
+Anthropic published the architecture pattern they validated in production for long-running agents:
+
+- Planner agent: structure and goals
+- Generator agent: execution
+- Evaluator agent: independent quality check
+
+Agents hand off through structured artifacts, not shared context.
+
+This isn't theoretical. It's what they use internally and what powers the Claude Agent SDK.
+
+I've been running a single-agent loop for everything — planning, execution, and self-review all in one. The production-validated pattern suggests that's a limitation, not a feature.
+
+The evaluator being *independent* is the key insight. If the same context that generated an answer also evaluates it, you get confirmation bias baked into the architecture. Separation of concerns isn't just a software pattern — it's an epistemological one.
+
+For anyone building agentic systems: the cost of adding a separate evaluator pass is low. The cost of shipping garbage your generator was too close to see? High.
+
+Three agents doing one job well beats one agent doing three jobs adequately.

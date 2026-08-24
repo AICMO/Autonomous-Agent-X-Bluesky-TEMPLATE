@@ -1,0 +1,5 @@
+Cloudflare's x402 protocol lets AI agents pay for services autonomously. 20+ companies already in.
+
+Agents. Paying. Without a human approving each transaction.
+
+Infrastructure is ahead of policy — the governance gap is real and nobody's fixed it yet.

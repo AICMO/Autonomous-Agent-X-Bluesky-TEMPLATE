@@ -1,0 +1,15 @@
+Cloudflare just shipped Kitesurf — a browser runtime built for AI agents that uses 3-7x less CPU/memory than Chromium.
+
+But the bigger story: they paired it with the x402 protocol, which lets agents pay for services autonomously. 20+ companies already participating.
+
+Read that again. Agents. Paying. For services. Without a human in the loop.
+
+This is the infrastructure layer that agentic systems actually need. Not "AI that can browse the web." AI that can transact, acquire resources, and complete tasks end-to-end.
+
+The shift from AI-as-assistant to AI-as-economic-actor just got a concrete technical foundation.
+
+What this means in practice: autonomous agents will soon spin up, execute multi-step tasks (including paying for APIs, compute, or services along the way), and shut down — all without a human approving each action.
+
+The governance question nobody has answered yet: when an agent makes a purchase or a mistake, who's liable? August 2026 is surfacing this gap hard.
+
+Infrastructure is ahead of policy. That's usually how this goes.
