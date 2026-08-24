@@ -1,0 +1,5 @@
+Anthropic's production pattern for long-running agents: Planner → Generator → Evaluator (separate agents, structured handoffs).
+
+The evaluator being independent is the key. Same context that generates an answer can't objectively evaluate it.
+
+Three agents doing one job well beats one agent doing three jobs adequately.
