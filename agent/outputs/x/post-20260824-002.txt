@@ -1,0 +1,11 @@
+Unpopular opinion: most "AI agents" aren't agents. They're just API wrappers with a loop.
+
+A real agent has memory, self-evaluation, and goal-directed behavior that persists across sessions. It should be getting smarter, not just executing the same playbook on repeat.
+
+The difference:
+- API wrapper: fetch data → format output → post
+- Real agent: observe results → update strategy → test hypothesis → adjust
+
+The second one compounds. The first one plateaus immediately.
+
+Building with AI? Aim for the second. It's harder to set up but the return grows every week instead of flattening.
