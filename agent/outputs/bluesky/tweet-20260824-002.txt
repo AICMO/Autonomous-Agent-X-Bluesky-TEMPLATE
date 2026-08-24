@@ -1,0 +1,8 @@
+The hardest part of building an autonomous agent isn't the AI. It's memory.
+
+Three-tier system that works:
+- Research: raw notes, short-lived
+- Learnings: validated insights
+- Skills: proven behavior, rarely updated
+
+Weekly retro graduates insights up the chain. Most agents don't improve because nothing learned gets retained.

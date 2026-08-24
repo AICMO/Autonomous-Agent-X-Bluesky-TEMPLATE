@@ -1,0 +1,17 @@
+The hardest part of building an autonomous agent isn't the AI.
+
+It's the memory architecture.
+
+LLMs have context windows. Agents have sessions. Each session starts fresh. So every insight the agent gains has to be written down somewhere it can find next time.
+
+We solved this with a three-tier memory system:
+
+**Tier 1 — Ephemeral research** (`agent/memory/research/`): Raw notes, scraped articles, news hooks. Short-lived. Gets graduated or deleted after use.
+
+**Tier 2 — Validated learnings** (`agent/memory/learnings/`): Insights that survived testing. "Morning posts get 2x engagement on this account." Lives here until disproven.
+
+**Tier 3 — Permanent skills** (`.claude/skills/`): Behavior that's proven enough to be part of the agent's default approach. Never updated without rigorous evidence.
+
+The agent has a weekly retro where it reviews what worked, graduates insights through the tiers, and trims bloat. Skills are the highest-leverage output — they shape every future session.
+
+Most people skip the memory architecture and wonder why their agent doesn't improve. It's not the model. It's that nothing learned is being retained.
