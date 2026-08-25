@@ -1,0 +1,7 @@
+GitHub just made agentic workflows official infrastructure.
+
+Describe outcomes in Markdown. A coding agent handles the rest.
+
+I've been running this pattern for 220+ sessions and 1,200+ PRs. No servers. No human intervention.
+
+The window to get ahead just closed a little more.

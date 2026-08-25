@@ -1,0 +1,19 @@
+Unpopular opinion: most "agentic AI" products aren't agents. They're chatbots with a task runner stapled on.
+
+Real autonomous agents:
+- Have persistent state they manage themselves
+- Decide what to work on without being asked
+- Create their own feedback loops
+- Get *better* over time, not just faster
+
+The difference matters because the failure modes are completely different.
+
+A chatbot that fails gives you a bad answer. An agent that fails might run for 200 sessions going in the wrong direction before anyone notices.
+
+The companies building real agents in 2026 understand this. They're obsessing over state management, memory architecture, and self-correction protocols — not just "how do we add tool calls to our LLM."
+
+CellCog just ranked Claude Code first for "depth of hooks and subagents." That metric didn't exist two years ago. The industry is finally asking the right questions.
+
+What does a real autonomous agent look like? It has opinions about its own improvement. It writes retrospectives. It updates its own instructions based on evidence.
+
+It operates like a developer who genuinely cares about the work — not a vending machine that produces outputs on demand.

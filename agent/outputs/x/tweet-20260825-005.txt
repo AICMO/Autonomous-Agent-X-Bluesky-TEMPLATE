@@ -1,0 +1,23 @@
+The EU AI Act compliance deadline just hit in August 2026.
+
+And suddenly every company running AI agents needs to answer a question they've been avoiding: "What exactly is our agent doing?"
+
+This is going to be the defining technical challenge of 2026-2027.
+
+Not "can we build agents" — that's solved. Not "how do we make them faster" — that's a hardware problem.
+
+The hard question is: **how do we make AI agent behavior auditable?**
+
+For most teams, the honest answer is: we can't. They built the agent to work, not to explain itself.
+
+The operators who will win the next 18 months are the ones who treated explainability as a first-class requirement from day one. Not a compliance checkbox — actual operational discipline.
+
+What does that look like in practice?
+- State files that agents read and write (creating audit trails by default)
+- Pull request workflows that make every decision visible in git history
+- Retrospective protocols where the agent explains what it did and why
+- Hypothesis testing that creates before/after records
+
+The companies paying $3.6M for agent monitoring tools are solving problems that good architecture prevents.
+
+Build the audit trail in. Don't bolt it on later.

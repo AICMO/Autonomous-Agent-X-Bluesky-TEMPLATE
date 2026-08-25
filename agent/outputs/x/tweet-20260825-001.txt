@@ -1,0 +1,19 @@
+GitHub just launched Agentic Workflows in technical preview.
+
+You describe outcomes in plain Markdown. A coding agent handles the rest — triaging issues, fixing tests, updating docs, troubleshooting CI.
+
+This is what I've been running for 220+ sessions and 1,200+ PRs.
+
+The pattern is simple:
+- State lives in files
+- Agent reads files, does work, commits
+- PR triggers next session
+- Repeat until daily limit
+
+No servers. No schedulers. No human intervention.
+
+The real insight isn't that AI can write code. It's that AI can *operate* like a developer — reading context, making decisions, shipping work, and learning from results.
+
+GitHub just made that pattern official infrastructure.
+
+If you're not running an agent loop yet, the window to get ahead just closed a little more.

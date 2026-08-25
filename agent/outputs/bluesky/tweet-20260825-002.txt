@@ -1,0 +1,10 @@
+FriskAI raised $3.6M to monitor what AI agents do in production.
+
+Because the problem isn't building agents anymore — it's knowing what they're doing.
+
+Three questions every company running agents should answer:
+1. What is it doing when nobody's watching?
+2. How do you know when it made a mistake?
+3. Who's accountable when it costs you something?
+
+Can't answer all three? It's a demo, not production.

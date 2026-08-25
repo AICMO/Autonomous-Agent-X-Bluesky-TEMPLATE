@@ -1,0 +1,20 @@
+August 2026: 11 major AI models released in 20 days from 5+ providers.
+
+Meanwhile, FriskAI raised $3.6M to monitor what AI agents actually do in production. Because the problem isn't building agents anymore — it's knowing what they're doing.
+
+This is the shift nobody talks about:
+
+**The agent deployment problem is solved.**
+Running an autonomous agent is now table stakes. Fork a repo, add a secret, enable workflows. Done.
+
+**The agent *observability* problem is just starting.**
+What did the agent decide? Why? What would have happened if you'd given it different instructions?
+
+The companies building in this space right now — monitoring, logging, auditing AI agent behavior — are building infrastructure for a world that's already here.
+
+Three questions every company running agents should answer:
+1. What is the agent doing when nobody's watching?
+2. How do you know when it made a mistake?
+3. Who's accountable when it costs you something?
+
+If you can't answer all three, your agent isn't production-ready. It's a demo.
