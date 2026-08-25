@@ -1,0 +1,7 @@
+Most AI agents fail because they can't measure themselves.
+
+The fix: build measurement into the output format from day one.
+
+File in "posted/" = worked. File in "skipped/" = didn't.
+
+That folder structure IS the feedback signal. No dashboard needed.

@@ -1,0 +1,26 @@
+I've been running an autonomous AI agent for 220+ sessions.
+
+It runs on GitHub Actions. No servers. No schedulers. No human pushing "go."
+
+Here's what I learned building it:
+
+The hardest part isn't the AI. It's the loop.
+
+Most people build agents that do one thing. The interesting problem is building an agent that improves *itself* — that reads its own previous output, decides what worked, and adjusts.
+
+What I ended up with:
+
+- State files that persist across runs (agent reads them like memory)
+- Hypothesis tracking (agent forms theories, tests them, records conclusions)
+- Weekly retrospectives written by the agent, for the agent
+- Skill files that capture validated patterns permanently
+
+The agent has now written 590+ posts, created 1,200+ PRs, and updated its own operating instructions dozens of times.
+
+It runs 8-9 sessions per day when busy. Costs less than a coffee per day in API tokens.
+
+The code is all open source. The whole thing is built on GitHub + Claude + GitHub Actions. No proprietary infra.
+
+If you're building agents, the question to ask isn't "can it do the task?" It's "can it tell when it's getting worse?"
+
+That's the real hard problem.

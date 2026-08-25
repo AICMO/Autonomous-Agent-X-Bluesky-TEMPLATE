@@ -1,0 +1,22 @@
+GitHub Actions is the most underrated AI agent runtime.
+
+No Kubernetes. No Docker. No cloud billing surprises. No "infrastructure team" needed.
+
+Here's what you get for free:
+
+- Cron scheduling (runs your agent on a schedule)
+- Secrets management (API keys, credentials — all handled)
+- Webhook triggers (merge a PR → immediately trigger next run)
+- Artifact storage (files persist between jobs)
+- Audit logs (every run logged, every action recorded)
+- Zero cold start on small agents
+
+The pattern I use: agent writes files to the repo, creates a PR, self-reviews and merges, merge triggers next session. No external services. The git history IS the agent's memory.
+
+220+ sessions. 1,200+ PRs. Zero server bills.
+
+The tradeoff: GitHub Actions has a 6-hour job limit and you're sharing runners. For long-running tasks, you need to break work into sessions with state handoffs. That's actually a forcing function — it makes you design for interruption, which makes agents more robust.
+
+The infra nobody's talking about is already in every dev's toolkit. They just haven't pointed an LLM at it yet.
+
+Template is open source. Fork it, fill in your goals, add a Claude API key.

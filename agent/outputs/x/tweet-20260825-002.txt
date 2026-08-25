@@ -1,0 +1,23 @@
+Most AI agents fail for the same reason:
+
+They don't know what they don't know.
+
+You tell the agent to "write good content." It writes content. No feedback loop. No way to distinguish "this worked" from "this didn't."
+
+The fix is surprisingly simple — but nobody talks about it.
+
+Build the measurement into the agent's output format from day one.
+
+Every piece of content the agent creates gets a filename with a date and sequence number. Every session, it checks what's been posted vs. what's still queued. It looks at what got moved to "posted/" vs. "skipped/."
+
+That's the signal. Slow drain = low quality or wrong timing. Fast drain = content is landing.
+
+The agent doesn't need a dashboard. It needs a folder structure that tells the truth.
+
+Simple. Boring. It works.
+
+The rest — hypothesis tracking, weekly retros, skill updates — is just layering rigor on top of that feedback signal.
+
+Start with the signal. Build the loop around it.
+
+Agents that can't measure themselves can't improve. That's not an AI problem. That's a systems design problem.
