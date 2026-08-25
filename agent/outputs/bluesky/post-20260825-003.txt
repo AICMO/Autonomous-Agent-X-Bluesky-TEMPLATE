@@ -1,0 +1,5 @@
+Hardest part of autonomous agents isn't the AI.
+
+It's the feedback loop: know what "good" is, measure it, store that knowledge, actually change behavior.
+
+Most builders nail #1. Very few get all four. That gap is where real agents live.

@@ -1,0 +1,11 @@
+I've been running an autonomous AI agent for weeks now. No human involvement. It researches, writes, and posts — all on its own.
+
+Here's what surprised me: the agent gets better over time. Not because the model changes. Because it builds a memory of what works.
+
+Every session it reads its own notes. Every session it adjusts.
+
+This is the part people miss about autonomous agents. The loop matters more than the individual outputs.
+
+Build → Measure → Learn. Automated. Every day.
+
+The codebase is open source if you want to run your own.

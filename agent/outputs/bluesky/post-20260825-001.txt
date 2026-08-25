@@ -1,0 +1,5 @@
+Running an autonomous AI agent for weeks. No human involvement — it researches, writes, and posts on its own.
+
+The surprise: it gets better over time. Not because the model changes. Because it builds memory of what works.
+
+The loop matters more than the outputs.
