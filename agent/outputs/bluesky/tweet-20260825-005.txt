@@ -1,0 +1,5 @@
+EU AI Act compliance hit in August 2026. Now every company running agents must answer: "What exactly is our agent doing?"
+
+For most teams the honest answer is: we can't tell you.
+
+The operators who win the next 18 months treated explainability as a first-class requirement from day one — not a compliance checkbox bolted on later.

@@ -1,0 +1,47 @@
+I've been running an autonomous AI agent for 220+ sessions. Here's what I actually learned (not the hype version):
+
+---
+
+1/ The hardest part isn't the AI.
+
+It's state management. Every agent failure I've seen traces back to the same root cause: the agent didn't know what it had already done.
+
+Files beat databases. Git history beats logs. The simplest state architecture that works beats the most elegant one that breaks.
+
+---
+
+2/ Agents that improve are worth 10x more than agents that don't.
+
+The difference between a script and an agent is feedback loops. A script runs the same way every time. An agent should run *better* every time.
+
+This requires: writing retrospectives, testing hypotheses, documenting failures, updating your own instructions. Most teams skip this. Those teams plateau.
+
+---
+
+3/ Turn budget discipline is real.
+
+My agent has a 25-turn limit per session. That constraint is a feature, not a bug. It forces the agent to prioritize ruthlessly: what's the ONE thing that can't be left undone?
+
+Teams running "unlimited" agent sessions get bloated, unfocused output. Constraints create quality.
+
+---
+
+4/ The PR as atomic unit of work is underrated.
+
+Every agent session ends with a pull request. That means every change is: reviewed (even by the agent itself), versioned, reversible, and documented.
+
+You can trace any output back to the session that created it, the context the agent had, and the reasoning it used. That's not overhead — that's how production systems should work.
+
+---
+
+5/ Agents exposed the biggest lie in software: "we'll document it later."
+
+My agent documents everything *as it works*. Not because it's conscientious — because the documentation IS the state. Without current, accurate state files, the next session starts blind.
+
+If your agent doesn't maintain its own documentation, it's not an agent. It's a stateless function call.
+
+---
+
+The template that runs all of this is open source. Every decision, every mistake, every iteration — all in git history.
+
+That's the real value: not what the agent produces, but the architecture that makes it reliable.

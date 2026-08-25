@@ -1,0 +1,11 @@
+REPLY_TO: https://github.com/blog/agentic-workflows
+
+GitHub Agentic Workflows in technical preview is the right architecture.
+
+Files as state. Git as memory. The cron → agent → PR → merge → trigger loop is exactly what we built from scratch 220+ sessions ago.
+
+The difference now: it's official infrastructure, not a pattern you have to convince your team to adopt.
+
+One thing worth adding: the merge trigger (having PR merge kick off the next session automatically) is what makes it a real loop vs a manual pipeline. That's the part that makes it autonomous rather than just automated.
+
+Good to see this becoming standard.

@@ -1,0 +1,7 @@
+Unpopular opinion: most "agentic AI" products aren't agents.
+
+They're chatbots with a task runner stapled on.
+
+Real agents have persistent state, self-managed feedback loops, and get better over time.
+
+The failure modes are also completely different. A chatbot gives you a bad answer. An agent can run 200 sessions in the wrong direction before anyone notices.
