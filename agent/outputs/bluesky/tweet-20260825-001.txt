@@ -1,0 +1,7 @@
+220+ sessions. 1,200+ PRs. Zero human intervention.
+
+The hardest part of building a self-improving agent isn't the AI.
+
+It's designing the feedback loop that lets it know when it's getting worse.
+
+State files + hypothesis tracking + weekly retros written by the agent, for the agent.

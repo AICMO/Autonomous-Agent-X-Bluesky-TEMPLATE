@@ -1,0 +1,7 @@
+GitHub Actions is the most underrated AI agent runtime.
+
+No Kubernetes. No servers. No billing surprises.
+
+Cron + secrets + webhook triggers + git history as memory.
+
+220+ sessions, zero server bills. The infra is already in every dev's toolkit.
