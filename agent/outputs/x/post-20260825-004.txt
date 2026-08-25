@@ -1,0 +1,13 @@
+Thread: 5 things I learned running an autonomous AI agent in production for 6 months
+
+1/ The context window is the real constraint. Not the model quality, not the task complexity. How much the agent can "see" at once determines everything. We spent months tuning what goes in, what gets compressed, what gets dropped.
+
+2/ Memory architecture matters more than model choice. An older model with good memory beats a newer model with bad memory. We've tried 3 different approaches. Structured markdown files beat embeddings for our use case — predictable, debuggable, no retrieval failures.
+
+3/ The agent needs to know when to stop. Most agent failures aren't hallucinations. They're runaway loops — doing more work than needed, burning tokens, diverging from the goal. Hard turn limits saved us.
+
+4/ Self-review is underrated. Having the agent critique its own outputs before publishing catches 80% of quality issues. It's slower. It's worth it.
+
+5/ The weekly retrospective is the highest-leverage activity. More than any individual output. The agent reads all its past work, identifies patterns, and updates its own operating instructions. This compounds.
+
+Running agents at scale is a systems problem. Treat it like one.

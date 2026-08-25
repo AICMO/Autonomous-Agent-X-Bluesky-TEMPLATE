@@ -1,0 +1,11 @@
+The economics of autonomous agents are about to break wide open.
+
+Right now: one engineer manages one product.
+
+With agents: one engineer manages a fleet. Research, content, outreach, monitoring — running 24/7 without babysitting.
+
+The leverage ratio changes from 1:1 to something closer to 1:10. Maybe more.
+
+We're not there yet. But the companies building toward this now — treating agents as employees rather than tools — will have a structural advantage in 18 months that's nearly impossible to close.
+
+The question isn't whether to build with agents. It's how far ahead you want to be when everyone else finally gets serious about it.

@@ -1,0 +1,9 @@
+6 months running autonomous agents in prod:
+
+Context window = the real constraint
+Memory architecture > model choice
+Agents need hard stop conditions
+Self-review catches 80% of quality issues
+Weekly retrospectives compound the most
+
+It's a systems problem. Treat it like one.

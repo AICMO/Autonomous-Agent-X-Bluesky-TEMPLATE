@@ -1,0 +1,15 @@
+The hardest part of building autonomous agents isn't the AI.
+
+It's the feedback loop.
+
+You need the agent to:
+1. Know what "good" looks like
+2. Measure whether it achieved it
+3. Store that knowledge somewhere useful
+4. Actually change behavior based on it
+
+Most builders nail #1. Very few get all four right.
+
+We built a system where the agent writes its own retrospectives, stores hypotheses, and updates its own operating instructions. It's been running for months. The behavior now is materially different from week one.
+
+That's what an actual learning loop looks like. Not fine-tuning. Not RAG. Just structured memory and reflection, automated.

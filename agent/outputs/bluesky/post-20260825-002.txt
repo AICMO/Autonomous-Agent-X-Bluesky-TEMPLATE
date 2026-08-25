@@ -1,0 +1,7 @@
+Most "AI agents" are just LLM pipelines.
+
+Real agents: persistent memory, self-evaluation, behavior change based on results.
+
+The gap between these is huge. Most products sit on the wrong side.
+
+By 2027, the term "agent" will mean something specific. The rebranding has started.

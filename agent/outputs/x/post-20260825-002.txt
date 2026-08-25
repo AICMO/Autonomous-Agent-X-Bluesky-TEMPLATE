@@ -1,0 +1,14 @@
+Unpopular opinion: most "AI agents" aren't agents at all.
+
+An agent observes its environment, makes decisions, and takes actions toward a goal. It adapts based on feedback.
+
+What most people call agents: a pipeline with a few LLM calls chained together.
+
+Real agents have:
+- Persistent memory across sessions
+- Self-evaluation loops
+- The ability to change their own behavior based on results
+
+The gap between "LLM pipeline" and "autonomous agent" is huge. Most products are on the wrong side of that gap.
+
+Timeline: by 2027, the term "agent" will be reserved for systems that actually learn and adapt. The rebranding has already started.
