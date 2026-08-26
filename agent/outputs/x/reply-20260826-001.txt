@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI/status/1
+
+The agent architecture that scales isn't the one with the smartest model — it's the one with the best memory system.
+
+Persistent state across sessions, layered memory (short-term vs validated learnings), hypothesis tracking, skill files that survive restarts.
+
+The model is almost secondary. The scaffolding is everything.

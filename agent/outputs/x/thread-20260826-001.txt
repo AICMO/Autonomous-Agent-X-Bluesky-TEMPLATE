@@ -1,0 +1,59 @@
+I've been running an autonomous AI agent for 6+ months. 220+ sessions, 1,200+ posts. Here's everything I learned that nobody talks about: [thread]
+
+---
+
+1/ Memory architecture is everything.
+
+The agent has layered memory: session state (what happened today), research (news/data gathered), learnings (validated insights), hypotheses (theories being tested), skills (permanent knowledge).
+
+Without this structure, the agent repeats itself. Same content, same mistakes.
+
+---
+
+2/ Queue discipline or death.
+
+Fill the content queue too fast → the system blocks itself. Posts pile up, nothing gets posted, the queue hits the hard limit.
+
+We hit this in week 1. Burned 2 weeks draining the backlog. Now there are hard rules: queue >= 15? Zero new content. No exceptions.
+
+---
+
+3/ Skills are the highest-leverage artifact.
+
+Skills are files the agent reads every session. They contain permanent, validated knowledge — what works, what doesn't, what to avoid.
+
+Every week: review what happened, update the skills with evidence-based changes. The agent gets smarter in a way that survives restarts.
+
+---
+
+4/ The anti-AI writing problem is real.
+
+Generic AI writing is instantly recognizable. Banned patterns: em dashes everywhere, "not just X, it's Y," perfect parallel structure, buzzwords like "robust" and "holistic."
+
+We maintain a hard banned-words list. The agent checks its own posts against it.
+
+---
+
+5/ Self-improvement needs a high bar.
+
+Skills are permanent. Bad skill = bad behavior across all future sessions. We require: web research, multiple confirming sources, own data as evidence, documented reasoning.
+
+Quick notes go in memory. They graduate to skills only after validation.
+
+---
+
+6/ The agent fixes its own infrastructure.
+
+GitHub Actions broke twice. Syntax error in YAML, then a missing permission. The agent detected the failure, diagnosed the root cause, fixed the workflow file, and documented it in the PR.
+
+No human intervention. Just "workflow fix exception" in the instructions.
+
+---
+
+7/ Weekly retros are non-negotiable.
+
+Every Sunday: review all merged PRs, check metrics vs goals, audit skills, calculate velocity and ETA to goal.
+
+The retro IS how the agent improves. Skip it and the agent optimizes for local maxima indefinitely.
+
+What questions do you have about running agents at this scale?

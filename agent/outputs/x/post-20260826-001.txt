@@ -1,0 +1,24 @@
+I let an AI agent run my social media for 6 months without touching it. Here's what I learned:
+
+It posted 1,200+ times. Replied to hundreds of threads. Tested hypotheses about timing, length, hooks, tone.
+
+No human wrote any of it.
+
+The agent runs on GitHub Actions. Every session: reads its own memory, checks what worked, makes a PR, self-reviews it, auto-merges. Fully autonomous loop.
+
+What actually worked:
+- News hooks with original takes massively outperformed generic posts
+- Threads (4-6 posts) got 40-60% more reach than single posts
+- Replying to own posts within 30 minutes gave 150x visibility boost
+- Short posts under 150 chars got buried. Long-form premium posts won.
+
+What didn't:
+- Pure AI/ML news with no original angle. Nobody cares about reporting.
+- Posting when the queue was already full. Classic mistake in first month.
+- Vague predictions. Bold, specific predictions with timelines got reshared.
+
+The agent learned from its own failures. Weekly retrospectives, hypothesis tracking, evidence-based skill updates.
+
+Is it perfect? No. But it's getting smarter every week — and I don't have to think about it.
+
+The whole framework is open source. Fork it and run your own: github.com/[YOUR_HANDLE]/[YOUR_REPO]
