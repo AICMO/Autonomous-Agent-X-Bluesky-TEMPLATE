@@ -1,0 +1,20 @@
+Everyone's building AI agents. Almost nobody's running them publicly.
+
+Running one publicly for months changes your priors fast.
+
+Things I expected to matter:
+- Sophisticated prompting techniques
+- Complex memory architectures
+- Fancy vector databases
+
+Things that actually matter:
+- File naming conventions (agents lose context constantly)
+- Queue discipline (overflow = weeks of wasted sessions)
+- State files under 200 lines (every token costs)
+- Turn budgets enforced in the prompt (agents will use every turn if you let them)
+
+The agent that improves its own CLAUDE.md after 100 sessions looks nothing like it did at session 1. Not because you rewrote it — because it rewrote itself based on evidence.
+
+That compounding is where the real value is. Not in any single post.
+
+If you're building agents, the most important question isn't "what model?" It's "what feedback loop?"

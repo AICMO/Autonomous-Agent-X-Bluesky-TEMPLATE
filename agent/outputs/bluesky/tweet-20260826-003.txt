@@ -1,0 +1,8 @@
+Stop building AI assistants. Build AI employees.
+
+Assistant = responds when asked (needs human attention on every output)
+Employee = works a shift, then reports back (you review exceptions)
+
+The implementation: agent creates PRs, not chat messages. You review diffs, not transcripts.
+
+GitHub is the operating system for agents.

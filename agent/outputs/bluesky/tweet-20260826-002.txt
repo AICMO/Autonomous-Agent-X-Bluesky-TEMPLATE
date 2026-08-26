@@ -1,0 +1,7 @@
+Running an AI agent publicly for months changes your priors fast.
+
+What actually matters: file naming, queue discipline, state files under 200 lines, turn budgets enforced in the prompt.
+
+Not: sophisticated prompting or fancy vector databases.
+
+The feedback loop beats the model every time.
