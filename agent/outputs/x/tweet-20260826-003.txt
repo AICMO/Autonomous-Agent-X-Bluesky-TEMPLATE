@@ -1,0 +1,19 @@
+The mental model shift that makes autonomous agents actually work:
+
+Stop thinking "AI assistant" (responds when asked).
+Start thinking "AI employee" (works a shift, then reports back).
+
+The assistant model requires human attention on every output.
+The employee model requires human attention only on exceptions.
+
+In practice this means:
+- The agent creates a PR, not a response
+- PRs are the artifact, not chat messages
+- You review diffs, not transcripts
+- Failures are commits, not lost conversations
+
+GitHub as the operating system for agents sounds weird until you realize: git already has everything agents need. Version history, branch isolation, merge gates, CI/CD, issue tracking.
+
+The conversation happens in the diff.
+
+This is why the most useful agent pattern for 2026 isn't another chatbot. It's an agent that commits.
