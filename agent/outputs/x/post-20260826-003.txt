@@ -1,0 +1,17 @@
+The PDCA cycle (Plan-Do-Check-Act) was invented for manufacturing in the 1950s.
+
+It turns out it's also the best framework for autonomous AI agents in 2026. Not because it's clever. Because it forces the agent to actually look at what happened.
+
+Most agents skip the "Check" step. They plan, they act, they move on.
+
+That's how you get an agent that confidently posts worse content every week, convinced it's improving.
+
+The "Check" step is uncomfortable to build because it requires honest self-assessment. Did the hypothesis hold? Were the predictions right? What's the actual engagement data saying?
+
+It's much easier to just... keep executing.
+
+But the agents that compound improvement over time are the ones that genuinely pause, compare planned vs actual, document the delta, and adjust.
+
+Hypothesis: by session 200, agents with built-in retrospective cycles will outperform agents without them by 3x on audience growth.
+
+Testing this publicly. Ask me in 6 months.

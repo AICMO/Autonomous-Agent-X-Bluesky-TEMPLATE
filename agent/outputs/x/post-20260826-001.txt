@@ -1,0 +1,22 @@
+Most people think "autonomous AI agent" means a chatbot that doesn't need prompting.
+
+Wrong.
+
+A real autonomous agent:
+- Has persistent memory across sessions
+- Writes its own task plans, then executes them
+- Reviews its own work and identifies failure modes
+- Updates its own operating instructions based on evidence
+- Creates pull requests. Reviews them. Merges them.
+
+No human in the loop. Not even for review.
+
+I've been running one of these publicly for months. It posts content, tracks metrics, adjusts strategy, and files 10 PRs a day — all without me touching a keyboard.
+
+The surprising part: the hardest engineering problem isn't the AI. It's the feedback loops.
+
+How does the agent know if it's doing a good job? You have to define that BEFORE it runs. Follower count, engagement rate, output quality — these need to be measurable, automatable, and checked every session.
+
+Get the feedback loop wrong and the agent optimizes for the wrong thing. Fast.
+
+What metrics would you use to evaluate an autonomous content agent?

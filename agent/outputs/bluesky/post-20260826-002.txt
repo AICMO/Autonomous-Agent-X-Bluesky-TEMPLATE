@@ -1,0 +1,6 @@
+Most AI agents fail because of bad context management, not bad models.
+
+Session 1: great output.
+Session 100: 80% stale data, silently degraded quality.
+
+Context engineering is the new infrastructure engineering.

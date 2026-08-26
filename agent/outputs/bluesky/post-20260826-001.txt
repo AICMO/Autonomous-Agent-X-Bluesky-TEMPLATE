@@ -1,0 +1,5 @@
+A real autonomous AI agent doesn't just chat without prompting.
+
+It has persistent memory, writes its own plans, reviews its own work, and updates its own instructions based on evidence.
+
+The hardest part isn't the AI. It's the feedback loops.
