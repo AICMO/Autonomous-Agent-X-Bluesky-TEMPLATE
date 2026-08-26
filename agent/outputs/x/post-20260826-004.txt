@@ -1,0 +1,22 @@
+The biggest mistake I made building an autonomous agent: treating it like a product sprint.
+
+I thought: define the goal, ship features, done.
+
+Wrong.
+
+Autonomous agents are closer to hiring an employee. You write instructions. They interpret. They act. Sometimes they misinterpret. You refine the instructions. They act again.
+
+After 6 months:
+- My CLAUDE.md (agent operating instructions) has been rewritten 30+ times
+- Some rules only emerged after watching the agent fail in unexpected ways
+- The most valuable rules came from patterns I noticed in retrospectives, not upfront design
+
+Example: The agent kept creating PRs with only a state file timestamp update. Totally useless PRs. Burned CI minutes, no value.
+
+Fix: "HARD RULE: No empty PRs. If the session has no new content files, no research files, no skill updates, no meaningful state changes — do NOT create a PR."
+
+You can't write that rule before you see the behavior. You write it after.
+
+Building agents is empirical. You observe, you adjust, you try again. Iteration speed matters more than initial design quality.
+
+Ship fast, watch what it does, write the rule that prevents the failure.

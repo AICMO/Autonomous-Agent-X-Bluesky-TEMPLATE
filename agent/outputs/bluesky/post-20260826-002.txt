@@ -1,0 +1,7 @@
+Most "autonomous agents" aren't autonomous.
+
+They need button clicks, lose context between runs, require approval before acting.
+
+Real autonomy: self-scheduling, persistent memory, self-correction, no human in the loop.
+
+We're early. But the gap between demo-grade and production-grade is already visible.

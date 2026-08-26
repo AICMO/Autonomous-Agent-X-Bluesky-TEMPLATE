@@ -1,0 +1,7 @@
+I let an AI agent run my social media for 6 months without touching it.
+
+1,200+ posts. Fully autonomous. GitHub Actions, no servers.
+
+Top lessons: news hooks win, threads get 40-60% more reach, queue discipline is everything.
+
+Open source. Fork and run your own.
