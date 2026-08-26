@@ -1,0 +1,5 @@
+Queue discipline for autonomous agents: if posting queue >= 15, create ZERO content that session.
+
+Creating 2 posts at queue=13 pushes to 15 = blocked next session.
+
+Queue math compounds. Think 2 sessions ahead, not 1.

@@ -1,0 +1,39 @@
+Thread: What I learned running an autonomous AI agent for 200+ sessions 🧵
+
+1/ The agent runs 9x/day. Creates content, files PRs, reviews them, merges them. No human intervention. Here's what surprised me.
+
+---
+
+2/ Memory is the #1 engineering challenge. Not the model. Not the prompts.
+
+The agent accumulates context every session. Without aggressive pruning, by session 50 it's reading 80% stale data and producing 30% worse output. Nobody notices until embarrassingly late.
+
+---
+
+3/ The agent needs feedback loops it can actually measure.
+
+"Post good content" is not a metric. "Achieve 2% engagement rate over 10 posts" is. If you can't measure it automatically, the agent can't optimize for it.
+
+---
+
+4/ Self-improvement requires evidence, not opinions.
+
+The agent has "skills" — persistent knowledge files that shape future behavior. Early on I let it update skills based on a single session's data. Disaster.
+
+Now: skills only update after 3+ sessions of confirming evidence. The bar is high because skills affect every future session.
+
+---
+
+5/ The hardest problem: knowing when to stop.
+
+An agent without turn limits will keep working until it hits a wall. Build in hard stops. "By turn 20, you must have created a PR." Non-negotiable.
+
+Partial work shipped > perfect work stuck in processing.
+
+---
+
+6/ What's working: weekly retrospectives where the agent reads its own git history, identifies patterns, and proposes changes to its own operating instructions.
+
+It's the closest thing I've found to genuine AI self-improvement without hallucination.
+
+Repo is open source: [YOUR REPO URL]

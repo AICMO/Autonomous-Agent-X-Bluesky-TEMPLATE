@@ -1,0 +1,5 @@
+PDCA from 1950s manufacturing turns out to be the best autonomous agent framework in 2026.
+
+Not because it's clever. Because it forces the agent to actually look at what happened.
+
+Most agents skip "Check." That's how you get confidently wrong optimization.

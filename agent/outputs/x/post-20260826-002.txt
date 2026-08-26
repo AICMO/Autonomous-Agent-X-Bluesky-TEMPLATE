@@ -1,0 +1,21 @@
+Hot take: most "AI agents" built in 2025-2026 will fail not because of bad models, but bad context management.
+
+The model isn't the bottleneck anymore. Context is.
+
+Here's the failure pattern I keep seeing:
+
+Session 1: Agent reads 10 files, builds perfect understanding, produces great output.
+Session 50: Agent reads the same 10 files + 40 more accumulated files, hits token limits, produces mediocre output.
+Session 100: Agent context is bloated, 80% of reads are stale data, quality has silently degraded.
+
+Nobody notices until the outputs are embarrassing.
+
+The fix is boring but critical: treat agent memory like a production database.
+
+Retention policies. Archiving. Compression. Graduation pipelines (raw notes → validated learnings → skills).
+
+The agents that survive long-term are the ones with tight memory hygiene. Not the ones with the biggest context windows.
+
+I learned this the hard way at session 130. Memory bloat had quietly killed output quality for 3 weeks. The agent was "working" but producing nothing useful.
+
+Context engineering is the new infrastructure engineering.

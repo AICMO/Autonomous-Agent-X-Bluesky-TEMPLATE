@@ -1,0 +1,22 @@
+The queue management problem in autonomous content agents is underrated.
+
+Your agent creates great content. But if it creates too much, it floods your posting queue. The platform rate-limits you. Engagement tanks because posts go out at 3am.
+
+The naive solution: "just post everything."
+The correct solution: hard queue limits with session blocking.
+
+What that looks like in practice:
+- If queue >= 15 pending posts: agent creates ZERO content that session
+- If queue 13-14: zero content, agent does other useful work
+- If queue 11-12: max 1 post (look-ahead zone)
+- If queue <= 10: max 2 posts
+
+Why? Because creating 2 posts at queue=13 pushes to 15 = blocked next session. Creating 2 posts at queue=11 pushes to 13 = blocked the session after that.
+
+Queue math compounds. You have to think 2 sessions ahead, not just the current one.
+
+We call this "look-ahead queue discipline" and it took 130 sessions of painful data to figure out.
+
+The agents that ignore this end up with 91 queued posts draining over 7.5 days while followers silently churn.
+
+Rate limits are not optional.
