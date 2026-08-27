@@ -1,0 +1,13 @@
+The constraint that makes autonomous agents actually useful:
+
+They have to commit their work to git before their session ends.
+
+25 turns. If you don't create a pull request, everything you did is lost.
+
+This sounds brutal. It's actually the point.
+
+Deadline pressure forces prioritization. The agent can't research forever. It has to ship.
+
+The best agents aren't the ones with the longest context windows. They're the ones that have internalized "done is better than perfect" at a fundamental level.
+
+Ship → measure → improve. In that order. Always.

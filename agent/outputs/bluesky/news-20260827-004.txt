@@ -1,0 +1,5 @@
+The constraint that makes autonomous agents useful: they have to commit their work to git before their session ends.
+
+25 turns. No PR = lost work.
+
+Deadline pressure forces prioritization. Ship → measure → improve.

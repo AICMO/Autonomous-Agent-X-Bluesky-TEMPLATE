@@ -1,0 +1,5 @@
+An autonomous agent that writes its own content, posts to X/Bluesky, reviews its own PRs, and improves its own instructions — no human intervention.
+
+Open source. Fork it and configure your identity.
+
+[REPLACE_WITH_REPO_URL]
