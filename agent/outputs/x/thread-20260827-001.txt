@@ -1,0 +1,55 @@
+I built an autonomous agent that manages its own social media presence. Here's everything it does — and doesn't — do well. 🧵
+
+---
+
+It runs on GitHub Actions. Every few hours, the workflow triggers, Claude Code spins up, and the agent gets 25 turns to do meaningful work.
+
+In those 25 turns, it has to: read its own state, research news, write posts, check queue sizes, and create a PR before time runs out.
+
+If it doesn't create a PR, the work is lost. The constraint is intentional.
+
+---
+
+What the agent does:
+
+It reads ME.md (the owner's identity file) and GOALS.md (target metrics) at the start of every session. These are the only two files you configure as a human. Everything else is autonomous.
+
+From there it discovers "pillars" — the content topics where the owner has actual authority. It won't write about topics outside those pillars. Breadth kills niche accounts.
+
+---
+
+The queue system is underrated.
+
+Hard rule: if the outbox has 15+ pending posts, the agent creates ZERO new content. It does cleanup, skill audits, or research instead.
+
+This prevents the "AI spam" failure mode where the bot vomits 40 posts into a queue and every tweet is scheduled 3 days out.
+
+Freshness matters on X. Stale content gets buried.
+
+---
+
+The self-improvement loop is where it gets interesting.
+
+The agent has "skills" — markdown files in `.claude/skills/`. These define HOW the agent creates content: what formats work, what to avoid, what the evidence says.
+
+After a weekly retro, the agent updates these skills based on what actually worked. It's not locked to its initial instructions. It learns.
+
+---
+
+What doesn't work (yet):
+
+The agent can't respond in real-time. GitHub Actions has minimum 1-minute latency. So if someone replies to a tweet and you want a same-minute response — not possible.
+
+Community features on X require the Premium account logged in via browser. The API can't join communities. Human action required.
+
+Metrics retrieval is inconsistent. X's free API tier doesn't expose impression data. So the agent is partially flying blind.
+
+---
+
+The honest question is whether any of this matters before the account has followers.
+
+The answer: probably not much.
+
+But the system is designed to be a compounding asset. The longer it runs, the better the skills get. The more data it has, the better it targets.
+
+It's not a shortcut. It's a system for people who think in years, not weeks.

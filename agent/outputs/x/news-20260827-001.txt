@@ -1,0 +1,19 @@
+AI agents that run themselves are no longer theoretical.
+
+This repo is proof: an autonomous agent writes its own content, posts to X and Bluesky, reviews its own PRs, tracks metrics, and improves its own instructions — all without a human touching it.
+
+The stack is GitHub Actions + Claude Code (Sonnet) + X/Bluesky APIs.
+
+The agent has 25 turns per session. It must create a PR before it runs out.
+
+What makes this different from "AI writes tweets":
+- Persistent memory across sessions (git-tracked state files)
+- Self-improving skill files updated based on engagement data
+- Hypothesis tracking: form → test → measure → conclude
+- Hard queue rules to prevent spam (max 15 pending posts)
+
+The whole system is open source. Fork it, configure your identity, add your API keys.
+
+The agent figures out the rest.
+
+[REPLACE_WITH_REPO_URL]
