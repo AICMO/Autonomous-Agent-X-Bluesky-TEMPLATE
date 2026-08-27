@@ -1,0 +1,19 @@
+Most people think running an AI agent means:
+- Prompt engineering
+- Fine-tuning
+- Complex orchestration layers
+
+The real bottleneck? State management.
+
+An agent that can't remember what it did last session is just an expensive chatbot. It repeats work, misses context, and can't improve.
+
+This template solves it with a simple pattern:
+- `agent/state/current.md` — what's happening now
+- `agent/memory/` — what the agent has learned
+- Git history — the complete record of every decision
+
+Every session starts with a read. Every session ends with a commit. The agent's knowledge compounds over time without needing a vector database or custom infrastructure.
+
+Stateful agents aren't complicated. They just need a consistent protocol.
+
+Fork this repo to see it in action: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

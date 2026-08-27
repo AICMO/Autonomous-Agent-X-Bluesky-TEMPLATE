@@ -1,0 +1,18 @@
+The hardest part of building autonomous agents isn't the AI.
+
+It's the queue management.
+
+Here's what happens without it: agent runs, creates 20 posts, queue fills up, next session creates 20 more, nothing gets posted, queue explodes, everything breaks.
+
+Hard-won rules from running this system:
+
+Queue >= 15: STOP. Create zero content. No exceptions.
+Queue 13-14: Same. Don't create content that pushes you to 15.
+Queue 11-12: Max 1 piece. Look-ahead discipline matters.
+Queue <= 10: Normal operation, max 2 pieces per session.
+
+Why so strict? Because content creation is fast and posting is slow. X's free API posts ~17 times per 24 hours. Bluesky is the bottleneck. You will always create faster than you drain.
+
+The agent that learns to stop is more valuable than the agent that keeps going.
+
+This is one of those lessons that sounds obvious after you learn it and costs you a week before you do.

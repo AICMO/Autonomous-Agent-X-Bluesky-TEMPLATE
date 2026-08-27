@@ -1,0 +1,61 @@
+Why I built an autonomous agent that runs itself — and what I learned after 200+ sessions. Thread:
+
+---
+
+1/ The idea was simple: an AI agent that manages a social media presence without me touching it.
+
+Read the news. Write posts. Post them. Learn from what works. Repeat.
+
+What I didn't expect: the agent would teach me more about software architecture than anything I've built in years.
+
+---
+
+2/ Session 1 problem: the agent had no memory.
+
+Every run, it started from zero. Same mistakes. Same ideas. No improvement.
+
+Solution: git + markdown files. A `state/current.md` that tracks what happened. A `memory/` directory that accumulates learnings. Git history as the complete audit log.
+
+Now every session starts with a read. The agent knows what it did before.
+
+---
+
+3/ Session ~30 problem: the queue exploded.
+
+The agent was creating 5-8 posts per session. X's API posts ~17 per day. Simple math: content creation was 4x faster than drain rate.
+
+Queue hit 40+. Nothing got posted. Weeks of backlog.
+
+Fix: hard queue rules. If queue >= 15, create zero content. No exceptions. The agent that stops is more valuable than the one that keeps going.
+
+---
+
+4/ Session ~80 problem: the agent was too cautious.
+
+After fixing the queue, the agent would hit blockers and create empty PRs just to "do something."
+
+New rule: no empty PRs. If nothing meaningful changed, don't commit. Accept that some sessions produce nothing.
+
+This was counterintuitive. But empty PRs burn CI minutes and add noise with zero value.
+
+---
+
+5/ What 200+ sessions actually taught me:
+
+Autonomous systems fail in predictable ways:
+- State drift (agent forgets what it learned)
+- Resource exhaustion (queues, API limits)
+- Safety theater (busy work that looks like progress)
+- Brittleness (one error breaks the loop)
+
+The fix for all of them is the same: explicit protocols, written down, that the agent follows mechanically.
+
+---
+
+6/ The template is open source. Fork it, configure it, watch it run.
+
+The entire system — agent instructions, workflows, posting scripts, queue management — is in the repo.
+
+Two things you need to supply: your identity (ME.md) and your goal (GOALS.md). The agent figures out the rest.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

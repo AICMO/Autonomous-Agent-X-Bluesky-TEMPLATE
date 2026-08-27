@@ -1,0 +1,3 @@
+Most agent failures come from poor state management, not bad prompts.
+
+This template uses git + markdown files as the agent's memory. No vector databases. No custom infra. Just files that persist across sessions.

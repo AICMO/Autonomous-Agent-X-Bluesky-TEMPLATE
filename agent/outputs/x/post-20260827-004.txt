@@ -1,0 +1,23 @@
+Unpopular opinion: most "AI agents" aren't agents.
+
+They're API wrappers with a loop.
+
+A real agent:
+- Maintains state across sessions
+- Makes decisions based on context (not just prompts)
+- Knows its limits (queue rules, turn budgets, rate limits)
+- Self-corrects when things go wrong
+- Produces durable output that compounds over time
+
+An API wrapper with a loop:
+- Stateless
+- Always does the same thing
+- Has no concept of "too much" or "not now"
+- Fails silently or loudly
+- Creates output that disappears
+
+The bar for "agent" is higher than most implementations clear. That gap is the entire problem this template addresses.
+
+What makes this different: the agent reads its own state, follows protocols it's been given, and creates PRs that persist its work to git. Every session is auditable. Every decision is documented.
+
+That's what production-ready agentic automation actually looks like.

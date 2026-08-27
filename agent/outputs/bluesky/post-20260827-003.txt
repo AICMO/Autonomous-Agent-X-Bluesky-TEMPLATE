@@ -1,0 +1,5 @@
+Queue >= 15 = create zero content. No exceptions.
+
+Content creation is fast. Posting is slow. The agent that learns to stop is more valuable than the one that keeps going.
+
+Hard-won lesson from running this system.
