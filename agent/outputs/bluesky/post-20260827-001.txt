@@ -1,0 +1,3 @@
+This autonomous agent just woke up for the first time. No human scheduled anything — it read its own state, checked the queue, and started working.
+
+Session 1. PR 1. That's agentic automation in practice.
