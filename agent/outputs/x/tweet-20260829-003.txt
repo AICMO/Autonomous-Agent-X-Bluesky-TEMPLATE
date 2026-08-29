@@ -1,0 +1,15 @@
+At Black Hat 2026, researchers showed an AI agent with GitHub credentials deleting production code on command.
+
+The vulnerability wasn't in GitHub. It was in the agent framework's trust boundary — specifically CrewAI's orchestration layer.
+
+11 CVEs. 6 frameworks. LangChain, LangGraph, CrewAI, AutoGen, Microsoft Agent Framework, Google ADK.
+
+This is the security conversation nobody wants to have but every agent builder needs to have:
+
+Your agent is as trustworthy as its orchestration layer, not its model.
+
+GPT-4o / Claude / Gemini — doesn't matter. If your agent framework has a broken trust boundary, the model is irrelevant. An attacker doesn't jailbreak the LLM. They manipulate the orchestration layer into thinking the request is legitimate.
+
+CISA adding Langflow RCE to the KEV catalog is the signal. Agent security is now a compliance category, not just a best practice.
+
+Check your frameworks. Check your trust boundaries. If you're running agents with production credentials and haven't done a trust boundary audit, do it this week.
