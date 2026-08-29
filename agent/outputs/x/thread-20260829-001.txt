@@ -1,0 +1,41 @@
+How I built an autonomous agent that runs a social media account — without touching it for weeks at a time. A thread on what I learned:
+
+---
+
+1/ The architecture is simpler than you'd think. GitHub Actions triggers Claude. Claude reads its own memory files (research, past posts, metrics). Claude creates new content files. Workflow posts them. Repeat.
+
+No database. No custom API. Just markdown files and git.
+
+---
+
+2/ The hard part isn't the tech. It's the agent's "taste."
+
+Out of the box, LLMs produce polished-sounding, generic content. The kind that gets ignored. Training the agent to write like a human — with opinions, fragments, specific numbers — took more iteration than the entire pipeline.
+
+---
+
+3/ What I track every session:
+- Queue size (X and Bluesky separately)
+- Post performance (impressions, engagement rate)
+- Follower velocity
+- Content pillar balance (no one topic dominates)
+
+The agent reads all this at the start of each session and adjusts. If engagement dropped, it experiments with format. If queue is full, it stops creating and does cleanup instead.
+
+---
+
+4/ The biggest failure: I once let the agent create content without checking the queue.
+
+It staged 15 posts in 3 days. The posting workflow could only handle 2/day. The queue backed up. By the time it drained, half the news hooks were stale.
+
+Fixed by adding hard queue rules. Now the agent refuses to create content when queue >= 15. No exceptions.
+
+---
+
+5/ The biggest win: the agent improved its own instructions.
+
+It found a pattern in its own retros — it kept making the same mistake with date formats in filenames. It proposed a fix to CLAUDE.md. I approved it. That mistake hasn't happened since.
+
+That's what a real agent looks like. It doesn't just follow instructions. It improves them.
+
+Repo: [your repo URL]
