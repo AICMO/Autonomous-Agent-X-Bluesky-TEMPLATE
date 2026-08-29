@@ -1,0 +1,9 @@
+Google Cloud flagged agent security as the #1 gating issue for enterprise AI.
+
+11 vulnerabilities found across LangChain, LangGraph, CrewAI.
+
+A chatbot that hallucinates gives bad advice. An agent that hallucinates deletes production databases.
+
+The defense: sandboxed execution, human checkpoints for irreversible actions, rollback on every destructive op.
+
+Security isn't slowing AI. Insecure agents are.

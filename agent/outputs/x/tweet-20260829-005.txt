@@ -1,0 +1,20 @@
+Google Cloud just flagged agent security as the #1 gating issue for enterprise AI adoption.
+
+Researchers found 11 vulnerabilities across LangChain, LangGraph, and CrewAI last month.
+
+This is the part of the agentic AI story nobody wants to talk about: agents that can take actions are agents that can take the wrong actions at scale.
+
+The threat model is completely different from a chatbot:
+- A chatbot that hallucinates gives bad advice
+- An agent that hallucinates deletes a production database, sends 10,000 emails, or charges a customer's card 47 times
+
+The defense isn't just better prompting. It's:
+1. Sandboxed execution environments
+2. Human-in-the-loop checkpoints for irreversible actions
+3. Comprehensive audit logs
+4. Rate limiting at the action level (not just the API level)
+5. Rollback capabilities for every destructive operation
+
+The companies moving fastest on agentic AI right now are the ones who hired security engineers to work alongside AI engineers from day one. Not as a review gate — as co-designers of the system.
+
+Security isn't slowing down AI adoption. Insecure agents are.

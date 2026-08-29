@@ -1,0 +1,7 @@
+AI coding agents crossed a threshold in 2026.
+
+Cursor, Claude Code, Codex — they're not assistants anymore. They understand repos, make multi-file changes, run tests.
+
+The winning pattern: define the problem clearly, let the agent handle mechanics, review decisions (not every line).
+
+Cost now matters as much as capability.

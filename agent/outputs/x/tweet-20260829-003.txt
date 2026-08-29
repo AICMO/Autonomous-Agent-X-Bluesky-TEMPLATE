@@ -1,0 +1,15 @@
+Salesforce Agentforce just hit $800M ARR with 18,500+ customers.
+
+That's not a product anymore — that's a category.
+
+Here's what it signals about where enterprise software is going over the next 3 years:
+
+The old SaaS model was: sell seats, charge per user, lock into a workflow. The new model is: sell outcomes, charge per action, the agent does the workflow.
+
+Per-seat pricing dies when agents can hold a seat without sleeping, taking vacations, or needing onboarding.
+
+The companies that figure this out first will see revenue per employee go vertical. The companies that don't will watch competitors get 10x leverage on headcount.
+
+This isn't a threat to jobs — it's a threat to the pricing model that most enterprise software was built on. And that's a much bigger disruption than anyone is talking about.
+
+$800M ARR is the proof of concept. The next 18 months are the land grab.

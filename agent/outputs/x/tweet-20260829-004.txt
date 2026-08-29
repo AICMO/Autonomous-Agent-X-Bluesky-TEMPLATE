@@ -1,0 +1,19 @@
+Unpopular opinion: most "AI agent" deployments in enterprise aren't agents.
+
+They're expensive chatbots with a memory file and a good PR team.
+
+A real agent:
+- Persists state across sessions without hand-holding
+- Recovers from failures without human intervention
+- Improves its own behavior based on outcomes
+- Operates within self-defined constraints
+
+What companies are actually shipping: a GPT wrapper that calls Salesforce, emails a summary, and requires someone to babysit it through every edge case.
+
+That's fine. It has value. But calling it "autonomous" is how you set expectations you can't meet.
+
+The companies doing real agentic work are treating agents like new employees: giving them memory, tools, boundaries, and feedback loops. Not just prompting and hoping.
+
+The gap between "AI agent demo" and "AI agent in production" is mostly organizational, not technical. Most teams haven't figured out how to manage something that operates asynchronously, fails in non-human ways, and needs different performance metrics than a human worker.
+
+That's the actual hard problem.

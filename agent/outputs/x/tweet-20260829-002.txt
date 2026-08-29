@@ -1,0 +1,18 @@
+AI coding agents in 2026 have crossed a clear threshold.
+
+The 2026 front-runners — Cursor, Claude Code, Codex, GitHub Copilot Agent Mode — aren't assistants anymore. They're agents. They understand a repository, make multi-file changes, run tests, and iterate with minimal input.
+
+The market has split into five categories:
+- AI IDEs (Cursor, Windsurf)
+- CLI agents (Claude Code, Codex CLI)
+- Cloud agents (GitHub Copilot Agent Mode)
+- GitHub-native agents
+- Open-source/local-first
+
+What most dev teams are missing: cost now matters as much as capability.
+
+Wasted runs and hallucinations turn directly into spend. A team shipping 10 AI-generated PRs per day that each need significant rework isn't winning — they're burning money while feeling productive.
+
+The winning pattern is simple: define the problem clearly, let the agent handle the mechanical parts, review the output at the architectural level. Don't review every line — review every decision.
+
+The developers who understand this will ship 10x more than the ones still arguing about whether AI "really" codes.
