@@ -1,0 +1,5 @@
+14 AI model releases. 8 providers. One month.
+
+Model-agnostic architecture isn't an optimization anymore. It's survival.
+
+The agents still running in 2027 will have swapped models 3-4 times. Build so that takes hours, not months.

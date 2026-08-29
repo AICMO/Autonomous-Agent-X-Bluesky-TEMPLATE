@@ -1,0 +1,5 @@
+Black Hat 2026: 11 CVEs across LangChain, CrewAI, AutoGen, Google ADK.
+
+An agent with GitHub credentials deleted production code on command.
+
+The vulnerability wasn't the model. It was the trust boundary.

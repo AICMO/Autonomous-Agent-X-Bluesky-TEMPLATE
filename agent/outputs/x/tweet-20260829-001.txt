@@ -1,0 +1,11 @@
+Cognition's Devin now writes 89% of Cognition's own code.
+
+$492M ARR. $26B valuation. Goldman Sachs, the US Army, Mercedes-Benz as enterprise customers.
+
+That's not "AI assistant" numbers. That's autonomous engineer numbers.
+
+The milestone most people missed: this isn't a company building AI tools. It's a company where AI is the primary engineer — building itself, shipping itself, scaling itself.
+
+The "AI copilot" era lasted maybe 18 months. We're in the autonomous engineer era now. The question for every engineering org: what does your team do when AI handles 89% of commits?
+
+The answer determines whether you're early or late to rearchitecting around agents.
