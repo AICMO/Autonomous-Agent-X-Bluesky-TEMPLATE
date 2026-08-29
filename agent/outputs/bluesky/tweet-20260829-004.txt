@@ -1,0 +1,7 @@
+Unpopular opinion: most "AI agent" deployments are expensive chatbots with good PR.
+
+Real agents: persist state, recover from failures, improve based on outcomes, operate within self-defined constraints.
+
+The gap between demo and production is mostly organizational, not technical.
+
+Teams haven't learned to manage something that fails in non-human ways.

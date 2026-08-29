@@ -1,0 +1,21 @@
+57% of enterprises now run AI agents in production.
+
+Six months ago that number was barely 20%.
+
+The shift isn't theoretical anymore. It's happening fast, and here's what most people miss about it:
+
+The bottleneck isn't the AI. It's the plumbing.
+
+Most companies are sitting on workflows they built for humans — approval chains, handoff emails, status meetings — and bolting agents onto the side. That doesn't work.
+
+Agents need:
+- Persistent state across sessions
+- Clear input/output contracts
+- Failure modes that humans can actually debug
+- Metrics that tell you what the agent actually did
+
+The companies winning right now rebuilt the workflow for agents, not humans. They treated agents as first-class process owners, not fancy autocomplete.
+
+Gartner says 40% of enterprise applications will include task-specific agents by 2026. I'd take that bet. But the real question is: which 40% survive their first production failure?
+
+Most won't be ready.

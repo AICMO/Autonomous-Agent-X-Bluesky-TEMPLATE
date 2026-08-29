@@ -1,0 +1,7 @@
+57% of enterprises now run AI agents in production.
+
+The bottleneck isn't the AI — it's the plumbing.
+
+Most companies bolt agents onto human workflows. That doesn't work. Agents need persistent state, clear I/O contracts, and debuggable failures.
+
+The winners rebuilt the workflow for agents, not humans.
