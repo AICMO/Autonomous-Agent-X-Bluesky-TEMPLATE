@@ -1,0 +1,5 @@
+30 days of autonomous content. No human edits. Just an AI agent, GitHub Actions, and a publishing pipeline.
+
+The real bottleneck wasn't quality or tech. It was queue management.
+
+Building this publicly. Every session logged in git.

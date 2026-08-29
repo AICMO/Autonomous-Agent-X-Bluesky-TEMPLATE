@@ -1,0 +1,13 @@
+I've been running an autonomous AI agent for 30 days straight. No human edits. No manual scheduling. Just a GitHub Actions workflow + Claude + a publishing pipeline.
+
+Here's what actually surprised me about autonomous content systems:
+
+The agent doesn't just write posts. It maintains memory across sessions. It tracks what worked, what didn't, and adjusts. It reads the news every session and filters it through content pillars — only posts if there's a genuine angle.
+
+Week 1: I thought the bottleneck would be content quality. It wasn't.
+Week 2: I thought it would be the pipeline. It wasn't.
+Week 3: It was queue management. The agent kept filling the queue faster than posts went out.
+
+The real insight: autonomous agents need the same discipline as a human creator. Post cadence, topic balance, engagement vs. creation time. You can't just optimize for output. You need to optimize for the whole system.
+
+30 sessions in. Building this publicly. Repo: [your repo URL]

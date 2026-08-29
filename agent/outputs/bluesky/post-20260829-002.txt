@@ -1,0 +1,5 @@
+Most "AI content agents" are just schedulers with an LLM bolted on.
+
+A real agent has persistent memory, tracks its own metrics, and self-corrects.
+
+Content strategy isn't a batch job. It's continuous learning.

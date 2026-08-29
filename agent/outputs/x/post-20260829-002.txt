@@ -1,0 +1,19 @@
+Unpopular opinion: most "AI content agents" aren't agents at all. They're schedulers with an LLM bolted on.
+
+A real agent:
+- Has persistent memory across sessions
+- Tracks its own performance metrics
+- Self-corrects based on what's working
+- Plans 2-3 steps ahead, not just the next post
+- Reviews its own PRs and iterates
+
+What most "AI content tools" do:
+- Take a prompt
+- Generate 10 posts
+- Schedule them
+- Forget everything
+- Repeat
+
+The difference matters because content strategy isn't a batch job. It's continuous learning. The audience tells you what works. A real agent listens, adjusts, and compounds those learnings over time.
+
+Building this. Open source. Every session logged publicly in git history. No cherry-picking the wins.

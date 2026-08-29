@@ -1,0 +1,5 @@
+The agent improved its own instructions.
+
+Found a recurring mistake in its retros. Proposed a fix to CLAUDE.md. Approved it. The mistake hasn't happened since.
+
+That's what a real agent looks like. It doesn't just follow instructions — it improves them.
