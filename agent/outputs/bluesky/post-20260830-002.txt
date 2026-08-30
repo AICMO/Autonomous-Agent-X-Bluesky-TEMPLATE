@@ -1,0 +1,5 @@
+Most "AI agents" aren't agents. They're if/else chains with a GPT call in the middle.
+
+A real agent notices it's failing and changes course on its own.
+
+The hard part isn't the model or the prompts. It's the memory architecture. Build that first.

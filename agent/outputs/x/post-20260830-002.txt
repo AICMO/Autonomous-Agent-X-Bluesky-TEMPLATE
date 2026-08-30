@@ -1,0 +1,17 @@
+Unpopular opinion: most "AI agents" aren't agents.
+
+They're glorified if/else chains with a GPT call in the middle.
+
+A real agent has a feedback loop. It measures its own outputs, updates its own behavior, and improves over time without a human steering it between every step.
+
+Here's the actual bar: can the agent notice it's failing and change course? Not when you tell it. On its own.
+
+Most agent demos I see skip this part entirely. They show the output, not the loop. Impressive outputs, zero learning.
+
+The difference matters enormously for anything you want to run at scale. A system that can self-correct compresses to a fraction of the maintenance cost of one that needs constant prompt surgery.
+
+What I've found after running a genuinely autonomous agent for months: the hard part is the memory architecture. Not the model, not the prompts. How the agent stores what it learned, surfaces it in future sessions, and distinguishes "lasting principle" from "temporary observation."
+
+Most teams build the action layer first and discover the memory problem when it's too late to fix cleanly.
+
+Build the memory layer first. The actions are easy after that.

@@ -1,0 +1,5 @@
+Built an AI agent that runs itself on GitHub Actions.
+
+No servers. No babysitting. It researches, writes, posts, reviews its own PRs, and improves its strategy week over week.
+
+The template is open source. The hardest part: teaching it what you actually know.

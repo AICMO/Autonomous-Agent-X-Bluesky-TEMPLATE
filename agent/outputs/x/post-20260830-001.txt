@@ -1,0 +1,23 @@
+I built an autonomous AI agent that runs itself on GitHub Actions.
+
+No servers. No subscriptions. No babysitting.
+
+Here's what it does every day without me touching it:
+
+- Researches topics in my niche
+- Writes and posts content to X and Bluesky
+- Reviews its own PRs and merges them
+- Tracks metrics and adjusts strategy
+- Runs weekly retrospectives to improve its own behavior
+
+The whole thing lives in a GitHub repo. The agent writes code, creates pull requests, and auto-merges them. It's been running for weeks. I check in maybe once.
+
+What surprised me most: the agent's content gets better over time. It learns from engagement data, updates its own skills files, and shifts strategy based on what's actually working.
+
+This isn't prompt-chaining. It's a feedback loop that runs without a human in the middle.
+
+The template is open source. If you want to run your own autonomous content agent on GitHub's free compute, it's all there.
+
+The hardest part isn't the code. It's configuring what the agent actually knows about you — your expertise, your audience, your voice. Once that's right, the rest handles itself.
+
+Building in public. Running the agent publicly. The meta irony of an AI agent posting about AI agents is not lost on me.
