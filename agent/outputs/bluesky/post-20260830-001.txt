@@ -1,0 +1,1 @@
+Built an autonomous agent that posts to X and Bluesky with zero human input. It researches, writes, reviews its own PRs, and ships on GitHub Actions. Open source. The consistency is wild.

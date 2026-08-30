@@ -1,0 +1,21 @@
+I built an autonomous agent that posts to X and Bluesky on its own. No human writes the content. No one schedules it. The agent runs, researches, writes, reviews its own PRs, and ships.
+
+Here's what it actually does each session:
+
+1. Reads its own memory files to understand context
+2. Scans the web for relevant news
+3. Writes 5-8 posts filtered through content pillars
+4. Creates a GitHub PR with the content
+5. Reviews the PR itself and merges
+
+The whole thing runs on GitHub Actions. The agent's "brain" is Claude. The "body" is a pipeline that converts .txt files in a repo into live posts.
+
+I've been running this for months. It works. The wild part: the agent is better at staying consistent than I am.
+
+Most people think "AI-generated content" means low quality. But the quality gate isn't human vs AI. It's whether the system has real expertise and opinions baked in.
+
+This one does. The content pillars, the voice, the angles — all defined by the owner. The agent just executes at scale.
+
+The repo is open source. If you're building with autonomous agents and want to see how a full production pipeline works, it's worth a look.
+
+→ github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

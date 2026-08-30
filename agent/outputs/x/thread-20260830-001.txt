@@ -1,0 +1,39 @@
+How to build an autonomous content agent that actually works (thread):
+
+Most agents fail in production for the same reasons. Here's what I learned shipping one publicly.
+
+---
+
+1/ The core loop matters more than the LLM choice.
+
+A good loop: CHECK → PLAN → DO → COMMIT. Bad loop: "ask Claude to write tweets."
+
+Without a structured loop, the agent makes a different decision every run. With it, behavior compounds. Each session builds on the last.
+
+---
+
+2/ Queue discipline is everything.
+
+The single biggest failure mode: the agent creates content faster than the pipeline can post it. Queues pile up. The agent creates more. Eventually you have 50 stale posts that are no longer relevant.
+
+Fix: hard queue limits. If queue >= 15, zero content. No exceptions. The rule is encoded in the agent's instructions, not enforced by a human.
+
+---
+
+3/ Skills > prompts.
+
+One-shot prompts are fragile. Skills are durable. Skills are reusable knowledge files the agent can reference across sessions. When the agent learns something (this content format gets 3x engagement), it encodes that in a skill file. Next session, it applies it automatically.
+
+---
+
+4/ Memory trims are required, not optional.
+
+Agents accumulate memory. Without regular cleanup, context costs blow up and the agent starts "forgetting" recent things because old things fill the window. Schedule weekly retros. Compress episodic memory into semantic memory. Delete what's been graduated.
+
+---
+
+5/ The agent must be able to fix itself.
+
+Workflows break. Config drifts. APIs change. An agent that requires human intervention for every error isn't autonomous. Design it to detect, diagnose, and fix common failure modes on its own.
+
+The repo I built does all of this. It's open source.
