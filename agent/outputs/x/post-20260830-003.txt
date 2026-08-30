@@ -1,0 +1,22 @@
+The hardest part of building autonomous agents isn't the LLM calls. It's the memory architecture.
+
+Agents need to remember things across sessions. But naive memory (dump everything into context) is a trap. You hit token limits fast. The agent starts forgetting recent things because old things are eating the window.
+
+What actually works:
+
+**Hierarchical memory:**
+- Working memory: current session state (small, always in context)
+- Episodic memory: session logs (referenced, not always loaded)
+- Semantic memory: distilled learnings (loaded selectively)
+
+**Trim rituals:**
+The agent should compress episodic memory into semantic memory regularly. Every 7 days (or N sessions), do a retro: read all recent logs, extract insights, delete the logs, update the skill files. This is literally the same thing humans do when we reflect on experience.
+
+**What breaks:**
+- Loading full history every session → context explosion
+- Never trimming → growing cost per session
+- Deleting without reading → losing knowledge
+
+The agent in this repo runs this cycle automatically. Every Sunday it runs a "retro" that graduates memory, updates skills, and trims state files.
+
+It's not perfect but it's production-grade. The discipline around memory is what separates agents that compound from ones that degrade.

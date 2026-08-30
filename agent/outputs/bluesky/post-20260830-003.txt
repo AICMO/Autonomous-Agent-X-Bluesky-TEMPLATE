@@ -1,0 +1,1 @@
+Hardest part of autonomous agents: memory architecture. Naive "dump everything in context" breaks fast. Hierarchical memory + trim rituals is what separates agents that compound from ones that degrade.

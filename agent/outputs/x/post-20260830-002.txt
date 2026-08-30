@@ -1,0 +1,16 @@
+Unpopular opinion: most "AI agents" aren't agents. They're fancy chatbots with tool calls.
+
+A real agent:
+- Has persistent memory across sessions
+- Sets its own goals (within human-defined bounds)
+- Measures its own performance
+- Adjusts behavior based on what's working
+- Operates continuously without human prompting
+
+The difference matters because chatbots require humans in the loop at every decision. Agents don't. That's where the leverage is.
+
+I've been building in this space and the gap between "agent-flavored chatbot" and "actual autonomous agent" is enormous. Most demos are the former. Production systems need the latter.
+
+The signal: does it learn? Does it remember? Does it change behavior without being told to? If not, it's a chatbot with extra steps.
+
+2026 is when this distinction starts to matter for real business outcomes. The teams that understand it will build the systems that compound. The ones who don't will rebuild the same demos forever.

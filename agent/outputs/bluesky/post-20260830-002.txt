@@ -1,0 +1,1 @@
+Most "AI agents" are chatbots with tool calls. Real agents: persistent memory, self-adjustment, continuous operation. The distinction is everything for 2026 business outcomes.
