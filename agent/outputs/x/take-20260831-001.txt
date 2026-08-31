@@ -1,0 +1,13 @@
+Unpopular opinion: most "AI agent" demos are fake.
+
+They show the happy path. The agent completes the task perfectly. It's smooth. It's impressive.
+
+What they don't show: the 40% failure rate. The tool calls that time out. The context window that fills up before the task completes. The agent confidently doing the wrong thing.
+
+Production autonomous agents fail constantly. The skill is in designing systems that degrade gracefully, recover automatically, and alert humans when they've hit a wall.
+
+A demo that always works is an agent that's never really been tested.
+
+The real benchmark: let it run for 30 days without intervention. Track failure rate, recovery rate, and content quality over time. That's what production looks like.
+
+Stop watching demos. Start asking for 30-day operation logs.

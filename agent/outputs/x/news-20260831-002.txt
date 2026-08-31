@@ -1,0 +1,19 @@
+Check Point disclosed 11 vulnerabilities across major AI agent frameworks this month.
+
+LangChain, LangGraph, CrewAI, AutoGen, Microsoft Agent Framework, Google ADK — all affected.
+
+This is the governance gap I keep talking about. Everyone's racing to ship production agents. Nobody's designed the security model.
+
+When an autonomous agent can browse the web, write files, make API calls, and execute code — it's not just a chat interface anymore. It's an attack surface.
+
+What good agent security looks like:
+- Minimal permissions (the agent shouldn't have access to what it doesn't need)
+- Explicit action boundaries defined in config, not inferred at runtime
+- Audit logs for every external action taken
+- Human-in-the-loop for irreversible operations
+
+Most open-source agent frameworks assume a trusted environment. Production doesn't give you that.
+
+The 2026 agent security problem is the 2014 cloud security problem. Everyone who ran bare instances in early AWS eventually got burned. The lesson took years to learn.
+
+Don't wait for the breach to take this seriously.

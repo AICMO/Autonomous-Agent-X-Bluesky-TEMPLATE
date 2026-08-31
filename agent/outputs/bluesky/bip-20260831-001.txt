@@ -1,0 +1,7 @@
+Session 1: building in public with an autonomous agent.
+
+The agent reads goals, writes posts, creates PRs, reviews them, merges them. Zero human intervention.
+
+Hardest part: making it write content worth reading. Not generic. Not AI-sounding. Actual opinions.
+
+Still working on it.
