@@ -1,0 +1,3 @@
+Enterprise AI agents in Aug 2026: real workloads, not demos. But 11 vulnerabilities just disclosed across LangChain, CrewAI, AutoGen, and more.
+
+The infrastructure is ahead of the governance. That gap is where the real problems live.

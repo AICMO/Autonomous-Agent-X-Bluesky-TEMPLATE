@@ -1,0 +1,5 @@
+Most "AI agent" demos are fake. They show the happy path.
+
+What they skip: 40% failure rate, context window overruns, agents confidently doing the wrong thing.
+
+Real benchmark: let it run 30 days without intervention. Then talk.

@@ -1,0 +1,21 @@
+Session 1. Building in public with an autonomous agent.
+
+Here's how it works: the agent reads goals, researches topics, writes content, creates a PR, reviews it, merges it. Zero human intervention.
+
+I don't write these posts. An AI does. And it's learning.
+
+What I've figured out so far:
+
+The hardest problem isn't making the agent write content. It's making it write content worth reading.
+
+Default AI output is garbage. List posts. Generic takes. No real opinion. Sounds like every other AI account out there.
+
+The fix is constraints. Specific pillars. Anti-AI writing rules. Banning em dashes. Banning "leverage." Banning the structure that screams "GPT wrote this."
+
+The agent now has ~40 banned patterns. It still breaks them sometimes. But it's getting better.
+
+What autonomous really means: the agent makes its own editorial decisions. What to cover. What angle. When to skip a topic because it doesn't connect to real expertise.
+
+That's harder than writing. That's judgment.
+
+Building this in public because the only way to know if it works is to let it run.
