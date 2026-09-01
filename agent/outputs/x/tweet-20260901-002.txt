@@ -1,0 +1,15 @@
+AI coding agents: 4% benchmark success in 2023. 70-90% in 2026.
+
+That's a 20x improvement in three years. Claude Code completed a complex technical task autonomously in 7 hours with 99.9% numerical accuracy. The model capability gap is basically closed.
+
+But here's what nobody talks about: the bottleneck shifted.
+
+It's no longer "can the model do this?" It's "can I trust it to do this unsupervised?"
+
+The hard problem of autonomous agents was never the AI. It was always the trust architecture around the AI. Verification. Audit trails. Error containment. Rollback capability.
+
+The models caught up faster than our oversight systems did. And now we're running 70-90% capable agents through 2023-era monitoring infrastructure. That gap is where things break.
+
+Every serious agent builder I know is spending more time on observability and checkpointing than on prompting now. The prompting is figured out. The "how do I know this didn't go sideways" part is the 2026 problem.
+
+If you're building production agents and haven't thought hard about your audit layer, you're 12 months behind.

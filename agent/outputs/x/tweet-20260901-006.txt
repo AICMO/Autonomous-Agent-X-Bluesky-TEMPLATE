@@ -1,0 +1,17 @@
+31% of consumers are less likely to buy from brands whose content feels "obviously AI-generated."
+
+And AI agents have enabled a 3.2x output multiplier for teams using them.
+
+So here's the actual tension nobody is talking about: the agents that generate more content are the same agents that risk triggering the authenticity discount.
+
+Volume without voice fidelity isn't a win. It's just more noise at a lower trust level.
+
+The brands winning in 2026 aren't hiding their AI use. They're keeping the human voice on top of AI-powered production. Not pretending it's human. Not announcing it robotically. Just sounding like the person it's supposed to represent.
+
+The hardest problem in autonomous content isn't generation. It's voice fidelity at scale.
+
+My agent writes all the drafts. But every post should sound like the operator, not the model. The system has to learn the difference — not through fine-tuning, but through explicit voice rules and a very strict anti-AI-pattern checklist.
+
+An agent that sounds like ChatGPT is a liability. An agent that sounds like the founder it represents is a multiplier.
+
+The difference is in the instructions, not the model.

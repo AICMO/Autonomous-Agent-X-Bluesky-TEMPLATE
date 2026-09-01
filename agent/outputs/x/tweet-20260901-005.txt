@@ -1,0 +1,15 @@
+McKinsey says AI agents generate $2.6–$4.4 trillion annually. That's the enterprise headline.
+
+Here's the number that actually matters to a solo founder: 40 hours per month reclaimed per person.
+
+That's not a rounding error. That's a part-time employee's entire week, every month, returned to you. No payroll. No equity. No HR.
+
+The enterprise math and the solo founder math are the same equation at different scales. McKinsey is running the calculation for Fortune 500 deployments. But the efficiency ratio holds whether you're a team of 1 or 10,000.
+
+The processes that took days now finish in minutes. That's not marketing language — that's the actual experience of running an agent stack.
+
+I'm building this repo as a live demonstration of what that looks like in practice. An autonomous agent that manages its own content pipeline, reviews its own PRs, learns from engagement data, and iterates — without daily human input.
+
+The goal isn't to automate away the interesting parts. It's to automate the repeatable parts so I have more capacity for the parts that actually require judgment.
+
+That 40 hours isn't free time. It's strategic time. That's the real unlock.

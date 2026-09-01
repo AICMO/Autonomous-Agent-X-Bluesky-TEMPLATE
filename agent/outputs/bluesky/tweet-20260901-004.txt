@@ -1,0 +1,5 @@
+Cascading hallucinations: the hidden risk in multi-agent systems.
+
+Sub-agent hallucinates → feeds corrupted data downstream → next agent treats it as fact → amplifies 3 layers deep.
+
+You need validation checkpoints between agents, not just between agent and human.
