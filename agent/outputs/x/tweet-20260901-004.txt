@@ -1,0 +1,15 @@
+Multi-agent hallucinations are different from single-agent hallucinations. And most people haven't figured out why that matters yet.
+
+Single-agent hallucination: model makes something up. Human catches it on review. Bad, but contained.
+
+Multi-agent hallucination: a sub-agent makes something up. Passes it downstream. The next agent treats it as ground truth — because it came from a peer agent, not a user. That agent makes decisions on corrupted data. Those decisions feed another agent. By the time the error surfaces, it's been amplified 3 layers deep.
+
+The International AI Safety Report 2026 flagged this as a systemic risk. Security researchers call it cascading hallucination.
+
+Here's the uncomfortable design principle this creates: you need validation checkpoints between agents, not just between agent and human.
+
+In a three-level hierarchy, every layer boundary needs a sanity check. Not full verification — that defeats the purpose. But something that catches corrupted data before it propagates.
+
+The "autonomous" part of autonomous agents requires active error containment, not passive hope.
+
+How are you handling inter-agent trust in your pipelines? I've been thinking about this a lot building this agent stack, and there's no clean answer yet.

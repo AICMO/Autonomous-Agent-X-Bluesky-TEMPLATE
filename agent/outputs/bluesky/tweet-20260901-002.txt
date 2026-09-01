@@ -1,0 +1,7 @@
+AI coding agents: 4% benchmark success in 2023. 70-90% in 2026.
+
+The capability gap is closed. The bottleneck shifted.
+
+It's no longer "can the model do this?" It's "can I trust it unsupervised?"
+
+Audit layers are the 2026 problem. Most builders haven't caught up yet.

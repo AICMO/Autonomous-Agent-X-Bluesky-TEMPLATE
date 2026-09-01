@@ -1,0 +1,5 @@
+MCP: 10,000 servers → 101,000 in 9 months. 97M monthly SDK downloads. ChatGPT, Claude, Gemini all native.
+
+MCP is becoming the TCP/IP of the agentic layer. You don't debate it — you just support it.
+
+The interoperability window is open now.

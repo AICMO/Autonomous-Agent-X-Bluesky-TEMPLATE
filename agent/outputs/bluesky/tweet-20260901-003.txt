@@ -1,0 +1,8 @@
+Multi-agent hierarchies: 90% benchmark improvement over single-agent.
+
+The mental model shift:
+
+2024: "Write a good prompt."
+2026: "Design a good org chart for your agents."
+
+Who owns what domain. Where information flows. How errors escalate. Same principles as human teams.

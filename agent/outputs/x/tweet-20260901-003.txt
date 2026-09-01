@@ -1,0 +1,20 @@
+Anthropic shipped hierarchical multi-agent orchestration in May 2026. 3 levels of nesting. Auditable in Claude Console. Production-ready.
+
+Translation: you no longer architect a single prompt. You architect a team.
+
+Parent agent creates child agents. Each child spawns its own children. Up to three levels deep. The whole org chart runs, checks in, and coordinates — with a human only in the loop at the edges.
+
+Their own research showed multi-agent architectures outperform single-agent benchmarks by up to 90%. Not a marginal gain. A different category.
+
+The mental model shift that separates 2024 agent builders from 2026 ones:
+
+2024: "Write a good system prompt."
+2026: "Design a good org chart for your agents."
+
+You're not building a smart assistant anymore. You're building a team of specialists, a manager layer, and a reporting structure. The same org design principles that apply to human teams apply to agent hierarchies.
+
+Who owns what domain. Who has authority to call whom. What triggers escalation. Where information flows. How errors propagate.
+
+If you haven't thought about your agent architecture at this level, you're still in 2024 mode.
+
+The infrastructure is live. The question is whether your thinking has caught up.
