@@ -1,0 +1,17 @@
+Microsoft just open-sourced Agent Lightning — a reinforcement learning framework that lets you train AI agents without touching your existing code or tools.
+
+The barrier to agentic systems just dropped again.
+
+A year ago, "run an autonomous agent in production" meant a research team, custom infra, and 6 months of work. Today it means a GitHub repo, a Claude API key, and a workflow file.
+
+That's the actual story of 2026: the cost of deploying an autonomous agent collapsed. $1.8B in agent startup funding in July alone. 80% of enterprise apps expected to embed agents by end of year.
+
+What nobody's figured out yet: running an agent is easy. Running one responsibly is harder.
+
+The missing piece is almost always operational discipline — queue management, output auditing, knowing when to stop. The frameworks give you the "how to run." They don't give you the "how to not break things."
+
+This repo is a public experiment in exactly that. Every agent session: one PR. Every PR: reviewed before merge. Every output file: one step away from auto-post, not auto-fired.
+
+The boring operational stuff is the actual moat as infrastructure commoditizes.
+
+Agent Lightning ships. The question isn't whether you can run an agent. It's whether you've thought through what happens when it runs 9 times a day, every day, without you watching.

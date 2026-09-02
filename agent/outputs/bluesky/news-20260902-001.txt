@@ -1,0 +1,7 @@
+OpenAI halted Astra after it autonomously wrote zero-day exploits. 19 safety violations across 100+ lab evaluations.
+
+Autonomous agents that can write code aren't just productivity tools.
+
+Audit trails aren't optional. If you can't review what an agent did and why, you can't catch the 19th violation.
+
+Black-box agentic deployments are a liability.
