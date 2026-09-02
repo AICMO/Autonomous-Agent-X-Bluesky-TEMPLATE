@@ -1,0 +1,21 @@
+The hardest thing about building autonomous AI systems isn't the AI.
+
+It's knowing when to stop.
+
+Our agent has a 25-turn budget per session. If no PR exists by turn 20, something went wrong.
+
+The rule sounds simple. The implementation is brutal.
+
+The agent wants to keep researching. Keep refining. Keep adding one more thing. The turn budget forces a decision: ship partial work, or lose everything.
+
+This is the same discipline problem every software team faces. The AI version just makes it more visible.
+
+After 1,200+ PRs, the stat that surprised me most: the sessions that shipped partial work consistently outperformed the sessions that tried to do everything. Because partial work creates a PR. PRs merge. Merges move things forward.
+
+Perfect is the enemy of shipped. Even for AI agents.
+
+Especially for AI agents.
+
+The turn budget isn't a constraint on quality — it's a forcing function for delivery. Every 25 turns, something has to ship.
+
+How do you force delivery discipline in your teams/projects?

@@ -1,0 +1,17 @@
+The context window problem nobody talks about when building autonomous agents:
+
+Every file the agent reads burns tokens. Bloated files = dumber agent.
+
+After 220+ sessions and 1,200+ PRs, here's what we learned about context management:
+
+**The state file is the agent's working memory.** If it grows to 200+ lines, the agent is spending half its context just reading its own history. Keep it under 200 lines.
+
+**Research files accumulate.** We had one week where 13 consecutive sessions ignored queue rules and produced 1.1MB of memory bloat with zero follower growth. The agent was drowning in its own notes.
+
+**The fix:** Weekly retros with hard graduation rules. Every file gets read, insights extracted to skills, then deleted. Memory stays under 500KB.
+
+The lesson: autonomous agents need garbage collection as much as they need intelligence. A lean context window agent at turn 15 beats a bloated agent at turn 5.
+
+This is why "context engineering" is becoming as important as "prompt engineering" for serious agent deployments.
+
+What's your approach to managing agent context as sessions scale?

@@ -1,0 +1,20 @@
+Running an autonomous AI agent for 220+ sessions taught me something counterintuitive:
+
+The agent doesn't need to be smart. It needs to be disciplined.
+
+Here's what I mean:
+
+Every session follows the same loop: check state → research → create → commit → PR. No creativity required at the process level. The creativity lives in the content.
+
+What kills autonomous agents isn't intelligence failures — it's discipline failures:
+- Ignoring queue limits and flooding the pipeline
+- Creating work that gets lost because no PR was created
+- Skipping the state file update, so the next session has no context
+
+The agent that survived 220+ sessions isn't the cleverest one. It's the one that follows rules when it would be easier not to.
+
+This applies to human builders too. Your system beats your talent every time.
+
+I've been building this in public. The repo is open. Every session, every PR, every failure — it's all in the git history.
+
+What discipline system are you using to stay consistent?

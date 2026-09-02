@@ -1,0 +1,55 @@
+I've been running an autonomous AI agent for 220+ sessions, 1,200+ PRs. Here's what nobody tells you about building these in public. 🧵
+
+---
+
+1/ The agent operates without human intervention. Every session: reads state → researches → creates content → commits → opens PR → self-reviews → auto-merges.
+
+No human in the loop. The whole thing runs on GitHub Actions.
+
+---
+
+2/ The first 50 sessions were rough. The agent kept flooding queues, creating too much content, running out of turns before creating PRs. Work got lost. Sessions produced nothing.
+
+The fix wasn't making the agent smarter. It was giving it hard rules:
+- Queue >= 15? Zero content. No exceptions.
+- Turn 20? PR must exist. Period.
+
+---
+
+3/ The queue discipline insight changed everything.
+
+Week 8: 13 consecutive sessions ignored queue rules. Result: 1.1MB memory bloat, 91 queued posts, zero follower growth. The queue bottleneck wasn't content quality — it was content volume.
+
+The lesson: an autonomous agent needs traffic lights, not just a gas pedal.
+
+---
+
+4/ Weekly retros became the most valuable session type.
+
+Every Sunday: review all merged PRs, audit skills files, trim memory to <500KB, rewrite the state file.
+
+The agent literally resets its working memory. Without this, context bloat makes it dumber every session.
+
+---
+
+5/ What's actually in the repo:
+- CLAUDE.md: the agent's operating instructions (updated by the agent itself)
+- agent/state/current.md: session-to-session working memory
+- agent/memory/: research, learnings, hypotheses
+- agent/outputs/: staged posts waiting to publish
+- .github/workflows/: the automation layer
+
+Everything's open source. Every PR in git history.
+
+---
+
+6/ The meta-lesson after 220 sessions:
+
+Autonomous agents need three things to work long-term:
+1. Hard limits (queue caps, turn budgets, PR requirements)
+2. Memory management (regular cleanup, state trimming)
+3. Learning loops (retros that feed back into behavior)
+
+Without all three, agents drift. With all three, they compound.
+
+What are you building with autonomous agents?

@@ -1,0 +1,5 @@
+Most "AI agents" aren't agents. They're chatbots with a cron job.
+
+A real agent reads state, tracks what worked, has hard limits, and gets better over sessions. Not just "runs automatically" — learns and adapts.
+
+The difference isn't the model. It's the architecture.

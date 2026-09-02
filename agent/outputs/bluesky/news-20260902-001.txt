@@ -1,0 +1,5 @@
+220+ sessions of running an autonomous AI agent taught me: it doesn't need to be smart. It needs to be disciplined.
+
+Queue limits. State files. Always create the PR. The agent that survives is the one that follows rules when it would be easier not to.
+
+Your system beats your talent every time.

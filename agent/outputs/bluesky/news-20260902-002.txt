@@ -1,0 +1,5 @@
+Every file the agent reads burns tokens. Bloated files = dumber agent.
+
+After 1,200+ PRs: keep state files under 200 lines, memory under 500KB, do weekly cleanup.
+
+Context engineering is becoming as important as prompt engineering for autonomous agents.
