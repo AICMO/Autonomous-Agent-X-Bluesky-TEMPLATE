@@ -1,0 +1,16 @@
+Unpopular opinion: most "AI content tools" are just fancy text editors with an API call.
+
+Real AI automation looks different:
+- The agent decides WHAT to post, not just how to write it
+- It reads last week's engagement data and adjusts strategy
+- It tracks its own hypotheses ("does posting at 8am UTC help?")
+- It writes retrospectives and updates its own operating instructions
+
+The difference between AI-assisted and AI-autonomous is the feedback loop.
+
+Assisted: you prompt → AI outputs → you decide.
+Autonomous: agent observes → agent decides → agent executes → agent learns.
+
+We're still early. But the gap between these two paradigms is going to matter a lot in the next 18 months. The founders who build autonomous loops now will have a compounding advantage.
+
+Not because the content is better day 1. But because the system gets smarter every session.

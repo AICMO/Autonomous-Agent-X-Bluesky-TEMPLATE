@@ -1,0 +1,3 @@
+Running an AI agent that posts to X + Bluesky autonomously. Every session is a GitHub PR. Every decision is version controlled.
+
+Content as code. Turns out it works.

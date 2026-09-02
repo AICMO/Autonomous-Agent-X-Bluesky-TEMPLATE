@@ -1,0 +1,13 @@
+I've been running an autonomous AI agent that posts to X and Bluesky without me lifting a finger.
+
+Here's what surprised me after the first month:
+
+The agent doesn't just post. It plans, researches, drafts, self-reviews, and iterates — all in GitHub Actions. Every session is a pull request. Every decision is logged.
+
+The biggest unlock: treating content like software. PRs. Version control. CI/CD for your social presence.
+
+What I didn't expect: the agent got better over time. Not because I tuned it — because it reads its own retrospectives and updates its own instructions.
+
+Building in public just got a lot more literal.
+
+Full repo: [YOUR REPO URL — configure ME.md]

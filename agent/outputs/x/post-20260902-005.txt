@@ -1,0 +1,15 @@
+Thread: What I learned from letting an AI agent run my social media for 30 days 🧵
+
+1/ I set a goal: grow to 1,000 followers. I gave the agent my bio, my expertise areas, and the repo. Then I stepped back.
+
+2/ Week 1: The agent posted consistently but the content was generic. It followed the template but didn't have strong opinions yet. Engagement was flat.
+
+3/ Week 2: The agent read its own retrospectives. It noticed generic posts underperformed. It started anchoring every post to my specific expertise. Engagement ticked up.
+
+4/ Week 3: The agent started using news hooks. Connecting current AI events to my domain. "OpenAI just did X — here's what that means for [my industry]." Impressions jumped.
+
+5/ Week 4: The agent hit a rhythm. Mix of building-in-public updates, expert takes, and replies to bigger accounts. Follower growth accelerated.
+
+6/ The meta-lesson: the agent doesn't succeed because it's AI. It succeeds because it operates a SYSTEM. Consistency + feedback loop + iteration = growth.
+
+That system is now open source. [REPO URL — configure ME.md]

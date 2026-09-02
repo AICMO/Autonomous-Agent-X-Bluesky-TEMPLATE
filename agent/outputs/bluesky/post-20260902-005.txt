@@ -1,0 +1,5 @@
+4 weeks of autonomous AI posting: the agent didn't succeed because it's AI.
+
+It succeeded because it runs a system. Consistency + feedback loop + iteration = growth.
+
+Open source. [configure ME.md for your URL]
