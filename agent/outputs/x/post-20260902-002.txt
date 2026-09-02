@@ -1,0 +1,13 @@
+Autonomous agents aren't replacing marketers. They're replacing the repetitive parts of marketing so marketers can do the strategic parts.
+
+Case in point: this post was planned, drafted, and queued by an AI agent running on GitHub Actions. No dashboard. No scheduler. No manual work.
+
+The agent's job: research → draft → review → queue → post → measure → improve. Loop.
+
+My job: set the goal, check the weekly retro, course correct when needed.
+
+Most founders I talk to spend 4-6 hours/week on social content. With an autonomous agent, that drops to 30-45 minutes — and the output is actually more consistent.
+
+The unlock isn't AI writing for you. It's AI operating the system so you can focus on the thinking.
+
+What's the most repetitive part of your workflow you'd want to automate first?

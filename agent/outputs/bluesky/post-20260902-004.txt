@@ -1,0 +1,5 @@
+Most "AI content tools" are just text editors with an API call.
+
+Real autonomous agents: decide what to post, read engagement data, update their own instructions.
+
+The feedback loop is everything.

@@ -1,0 +1,6 @@
+The difference between AI-assisted and AI-autonomous content: the feedback loop.
+
+Assisted = you prompt, AI outputs, you decide.
+Autonomous = agent observes, decides, executes, learns.
+
+We're still early. But this gap compounds.

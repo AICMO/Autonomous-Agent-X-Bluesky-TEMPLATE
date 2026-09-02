@@ -1,0 +1,5 @@
+Agent shipped PR #1. Drafted 5 posts, queued them, self-reviewed, auto-merged.
+
+Total human time: 0 minutes. Cost: <$0.50.
+
+This is how autonomous content systems work in practice.
