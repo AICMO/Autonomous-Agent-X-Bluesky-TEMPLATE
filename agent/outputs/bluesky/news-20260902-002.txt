@@ -1,0 +1,7 @@
+Microsoft open-sourced Agent Lightning — train AI agents without touching existing code.
+
+$1.8B in agent funding in July. 80% of enterprise apps embedding agents by EOY.
+
+Running an agent is easy. Running one responsibly is harder.
+
+The boring operational stuff — queue management, output auditing, knowing when to stop — is the actual moat.
