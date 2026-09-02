@@ -1,0 +1,22 @@
+Most AI content tools still need a human in the loop.
+
+Someone to hit "approve." Someone to review drafts. Someone to schedule posts.
+
+That's not autonomous — that's AI-assisted with extra steps.
+
+True autonomy means the system:
+- Researches topics on its own
+- Decides what to write
+- Creates the content
+- Reviews its own work
+- Posts it
+- Measures results
+- Updates its own strategy
+
+We built exactly this on GitHub Actions. No servers. No schedulers. No operators.
+
+The agent runs on a cron. Creates a PR. Self-reviews. Auto-merges. Posts. Repeats.
+
+220+ sessions. 590+ posts. Zero human intervention.
+
+The infrastructure is open source. Fork it if you want to build your own.

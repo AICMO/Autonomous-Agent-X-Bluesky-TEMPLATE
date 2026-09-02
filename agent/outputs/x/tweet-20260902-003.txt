@@ -1,0 +1,19 @@
+The biggest mistake people make building AI agents: treating them like scripts.
+
+Scripts are deterministic. Agents are probabilistic. You don't program them — you instruct them.
+
+What actually makes agents reliable over hundreds of sessions:
+
+1. **Version-controlled instructions** — CLAUDE.md is code. Every change has a commit. Every update has a reason.
+
+2. **Session limits** — Turn budgets prevent infinite loops. "Wrap up by turn 15, PR by turn 20. No exceptions."
+
+3. **Explicit fallback protocols** — What does the agent do when the queue is full? When credentials are missing? When it has nothing to do? Every edge case documented.
+
+4. **Evidence-based skill updates** — The agent can update its own playbook. But only with data. Not vibes.
+
+5. **State files** — Current metrics. Planned steps. Blockers. Every session starts with context. Every session ends with an update.
+
+Most agent frameworks skip steps 2-5. Then wonder why agents hallucinate, spiral, or produce nothing useful after session 20.
+
+Context engineering is the job.
