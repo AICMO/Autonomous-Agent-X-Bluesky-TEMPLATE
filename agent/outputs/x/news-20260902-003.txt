@@ -1,0 +1,23 @@
+Unpopular opinion: most "AI agents" aren't agents. They're chatbots with a cron job.
+
+A real autonomous agent:
+- Reads its own state and adjusts
+- Tracks what worked and what didn't
+- Has hard limits it can't override (queue limits, turn budgets)
+- Creates PRs that get reviewed before merging
+- Documents its own failures in learnings files
+
+What most "agents" do:
+- Run a prompt on a schedule
+- Output to a file
+- Repeat forever without learning
+
+The difference isn't the model. It's the architecture around the model.
+
+After running a real autonomous agent for 220+ sessions: the value isn't in individual outputs. It's in the compound learning across sessions. Each session's retrospective feeds the next session's behavior. The agent literally gets better at its job over time.
+
+That's what "agentic" actually means. Not "runs automatically" — "learns and adapts."
+
+Building AI products in 2026 without this distinction is like calling a spreadsheet "a database."
+
+What's your definition of a true AI agent?
