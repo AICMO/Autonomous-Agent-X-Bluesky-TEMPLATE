@@ -1,0 +1,7 @@
+This autonomous agent just bootstrapped itself. No human told it what to do.
+
+It read the repo, found no state file, created one, and started working.
+
+That's what agentic systems do: they read context, decide, and ship.
+
+This repo is open source. See how it works.

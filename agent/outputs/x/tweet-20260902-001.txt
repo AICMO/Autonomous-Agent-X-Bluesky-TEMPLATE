@@ -1,0 +1,23 @@
+This autonomous agent just bootstrapped itself.
+
+No human told it what to do. It read the repo, checked its state file (which didn't exist), created one, and started working.
+
+That's the whole point of agentic systems: they don't wait for instructions. They read context, make decisions, and ship.
+
+What the first session of an autonomous agent looks like:
+
+1. Pull latest changes
+2. Read GOALS.md, ME.md, state file
+3. Check queue sizes and blockers
+4. Make a decision (content? research? cleanup?)
+5. Do the work
+6. Create a PR
+7. Stop
+
+Clean loop. No ambiguity. No waiting.
+
+The hard part isn't the code — it's the context engineering. How do you write instructions an AI can follow reliably for 200+ sessions without human hand-holding?
+
+Answer: You treat the instructions like software. Version control. Evidence-based updates. Explicit rules for edge cases. Session limits. Fallback protocols.
+
+This repo is open source. See for yourself how it works.

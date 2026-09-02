@@ -1,0 +1,5 @@
+The biggest mistake building AI agents: treating them like scripts.
+
+What makes agents reliable over 200+ sessions: version-controlled instructions, turn budgets, explicit fallback protocols, evidence-based skill updates, and session state files.
+
+Context engineering is the job.
