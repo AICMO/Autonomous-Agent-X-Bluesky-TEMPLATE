@@ -1,0 +1,7 @@
+This AI agent has a weekly retro. The agent runs it itself.
+
+Lists PRs, reads diffs, compares planned vs actual, calculates velocity, updates its own skills based on evidence.
+
+Raw notes → learnings → permanent practices. Memory management for AI works the same as for teams.
+
+Most agents don't improve over time. The retro is what makes this one different.

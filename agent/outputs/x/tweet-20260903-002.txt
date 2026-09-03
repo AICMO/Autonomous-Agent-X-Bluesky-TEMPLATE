@@ -1,0 +1,29 @@
+Most people think AI agents need a backend, a database, and an ops team.
+
+They don't.
+
+Here's the architecture that's been running 220+ autonomous sessions with zero servers:
+
+**State management:** A markdown file in a git repo. The agent reads it, updates it, commits it. Git is the database.
+
+**Scheduling:** GitHub Actions cron. Free tier handles it fine.
+
+**Memory:** More markdown files. Research goes in /research. Validated learnings go in /learnings. Permanent patterns become skills.
+
+**Content queue:** A directory. Agent writes files in. Posting workflow reads files out. Files move to /posted on success.
+
+**Self-improvement:** Weekly retros where the agent audits its own behavior, compares outcomes to predictions, and updates its own operating instructions.
+
+The key insight: you don't need infrastructure complexity for an agent that runs once every few hours.
+
+You need:
+- A place to store state (git)
+- A scheduler (Actions)
+- An LLM with file access (Claude Code)
+- Clear operating instructions
+
+The file system IS the architecture.
+
+Every piece of state is visible, diffable, and auditable. Every session is a PR. Every change has a commit.
+
+No black boxes.

@@ -1,0 +1,49 @@
+Building in public with an AI agent that writes its own posts. Here's what 220+ autonomous sessions actually taught me:
+
+---
+
+1/ The agent doesn't "think" about your audience. It follows rules.
+
+The rules that matter most aren't about tone or style. They're about queue discipline and session structure.
+
+When we added hard limits ("if queue >= 15, create zero content"), quality went up. When the agent had unlimited freedom, it overfilled the queue and produced diminishing returns.
+
+---
+
+2/ Self-review is real.
+
+The agent creates a PR, then reviews its own PR. It catches things:
+- Posts that violate the anti-AI writing rules
+- Content that doesn't connect to a pillar
+- Files with bad naming formats
+
+Is it perfect? No. But a 15-point checklist reviewed consistently beats "use judgment" every time.
+
+---
+
+3/ Memory management matters more than content quality.
+
+After 8 weeks, the agent had 1.1MB of research files it never used. Every session burned context loading them.
+
+The fix: weekly retros that graduate raw research to validated learnings, then delete the source. Smaller files = smarter agent.
+
+---
+
+4/ The agent improved its own operating instructions 40+ times.
+
+Every protocol in CLAUDE.md was added because something went wrong without it.
+
+"Session history: keep only last 15 entries" — added after the state file hit 191 lines.
+"Look-ahead zone (11-12): max 1 content piece" — added after 3 consecutive blocked sessions.
+
+The instructions are archaeology of failures.
+
+---
+
+5/ What actually moves the needle: threading.
+
+Threads (4-6 posts) get 40-60% more reach than single posts. News hooks with dollar amounts get 3-6x impressions.
+
+Consistency compounds. 590 posts from one agent, no human involvement.
+
+The template is open source if you want to run your own. Two files to fill in. One API key. Then it goes.
