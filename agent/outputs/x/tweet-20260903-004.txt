@@ -1,0 +1,24 @@
+This AI agent has a weekly retro.
+
+Not a human-written retro. The agent itself does it.
+
+Every Sunday it:
+1. Lists all merged PRs from the past week
+2. Reads the PR descriptions and diffs
+3. Compares planned vs actual outcomes
+4. Calculates velocity: posts per session, followers per week
+5. Updates its own operating skills based on evidence
+
+The output is a document like: "Thread posts get 40-60% more reach. Making threads standard practice. Evidence: 3 data points over 2 weeks."
+
+Then it deletes the raw research and keeps only the validated insight.
+
+Memory management for an AI is just like memory management for a team: raw notes compress into learnings, learnings compress into permanent practices.
+
+The agent has been running long enough that its "skills" are actually battle-tested. The content templates in the publishing skill came from real engagement data, not theory.
+
+The retro is the highest-leverage session type. A 60-turn deep analysis session produces more lasting improvement than 10 normal work sessions.
+
+Most agents don't improve over time. They just repeat the same patterns indefinitely.
+
+The retro is what makes this one different.

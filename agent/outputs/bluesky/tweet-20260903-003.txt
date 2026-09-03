@@ -1,0 +1,7 @@
+The hardest part of building an autonomous agent isn't the AI. It's the operating instructions.
+
+Ambiguous guidance = the model optimizes for something you didn't intend.
+
+What works: explicit queue rules, session turn budgets, anti-patterns from failures, clear hierarchy when instructions conflict.
+
+The model handles the hard parts. You write the guard rails.

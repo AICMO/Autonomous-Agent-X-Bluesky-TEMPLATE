@@ -1,0 +1,27 @@
+I set up an AI agent that runs itself on GitHub Actions.
+
+No servers. No scheduler. No human pushing the deploy button.
+
+It wakes up on a cron job, reads its own state file, researches what's relevant, writes content, opens a PR, reviews the PR itself, and merges it.
+
+Then the merge triggers the next session.
+
+It's been running for 220+ sessions. I've touched it maybe 5 times.
+
+The architecture is dead simple: everything is a file. State = file. Content queue = file. Memory = file. Skills = file.
+
+GitHub Actions is the runtime. The LLM is the brain. The repo IS the agent.
+
+Three questions I keep getting:
+
+1. "Doesn't it hallucinate?" — Yes, sometimes. But it also catches its own mistakes in self-review. Net quality is surprisingly high.
+
+2. "What if it goes off-rails?" — Config file defines hard limits. Max 10 PRs per day. No changes outside /agent. Workflow fixes only with explicit justification.
+
+3. "Is this actually useful?" — The agent I run has posted 590+ times with zero manual intervention. The content quality rivals what I'd write myself.
+
+The full template is open source. Fork it, fill in two files, add your API key, enable workflows.
+
+That's it. The agent bootstraps itself.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

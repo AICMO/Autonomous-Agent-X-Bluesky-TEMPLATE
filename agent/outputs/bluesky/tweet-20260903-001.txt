@@ -1,0 +1,9 @@
+I set up an AI agent that runs itself on GitHub Actions. No servers, no human intervention.
+
+Cron job → reads state → researches → writes content → opens PR → self-reviews → merges.
+
+220+ sessions. I've touched it ~5 times.
+
+Everything is a file. GitHub Actions is the runtime. The LLM is the brain.
+
+Template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

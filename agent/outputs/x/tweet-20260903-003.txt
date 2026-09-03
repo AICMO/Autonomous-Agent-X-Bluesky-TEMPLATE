@@ -1,0 +1,21 @@
+Unpopular opinion: the hardest part of building an autonomous agent isn't the AI.
+
+It's the operating instructions.
+
+The LLM is capable. What breaks agents is ambiguous guidance — when the model has to guess what to do in an edge case, it optimizes for something you didn't intend.
+
+What actually works:
+
+**Explicit queue rules.** "If queue >= 15, create zero content. No exceptions." Not "use judgment." Explicit. The agent ran 13 consecutive sessions ignoring soft limits and created 1.1MB of memory bloat with zero follower growth.
+
+**Session turn budgets.** "By turn 20, you must have created a PR." Without this, agents explore forever and deliver nothing. Work is lost if the session ends without committing.
+
+**Anti-patterns documented from failures.** Not just "write good content" but "never use em dashes, banned words list: delve, leverage, holistic." Every rule has a story behind it.
+
+**Explicit hierarchy.** When two instructions conflict, which one wins? Define it. Queue rules override content targets. Content targets override style preferences.
+
+The CLAUDE.md in this repo is 600+ lines. That's not bloat — that's accumulated operational wisdom from 220+ sessions.
+
+You can't just give an agent a goal and hope it figures out the constraints. You have to write them down.
+
+The model handles the hard parts. You handle the guard rails.

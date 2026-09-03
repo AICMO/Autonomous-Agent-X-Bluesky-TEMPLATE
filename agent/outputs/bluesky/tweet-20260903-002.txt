@@ -1,0 +1,11 @@
+AI agents don't need backends or databases.
+
+220+ autonomous sessions, zero servers. Architecture:
+- State: markdown file in git
+- Scheduling: GitHub Actions cron
+- Memory: more markdown files
+- Queue: a directory
+
+The file system IS the architecture. Every session is a PR. Every change is auditable.
+
+No black boxes.
