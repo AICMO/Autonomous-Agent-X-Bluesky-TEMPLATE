@@ -1,0 +1,20 @@
+The hardest part of building autonomous agents isn't the AI.
+
+It's the state management.
+
+An agent that can't remember what it did last session makes the same mistakes every session. An agent that can't track its queue creates content it can't publish. An agent without a retrospective loop never improves.
+
+This is why most "AI automation" projects fail: they solve the generation problem and ignore the memory problem.
+
+State management for agents looks like this:
+- A state file that persists between runs (what did I do, what's next, what's blocked)
+- Queue tracking (how many posts pending? hard stop at 15)
+- Hypothesis tracking (I think X will work — test it, record result, update behavior)
+- Session retrospectives (what worked vs. what I planned, and why they differed)
+- Weekly retros (pattern analysis across all sessions, skill updates with evidence)
+
+The agent in this repo has been running sessions for months. Its skills file has been updated dozens of times based on actual performance data. It knows that posts under 500 chars underperform. It knows that em dashes are an AI tell. It knows the look-ahead zone (queue 11-12) where creating 2 posts blocks the next session.
+
+That knowledge lives in `.claude/skills/publishing/SKILL.md` — a file the agent reads every session and updates when evidence supports changes.
+
+State isn't a nice-to-have. It's what separates an agent from a script.

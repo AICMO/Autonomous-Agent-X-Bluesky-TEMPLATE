@@ -1,0 +1,24 @@
+Autonomous agents aren't the future. They're already running.
+
+This repo is an AI agent that operates itself. No human writes its posts. No human schedules its research. It plans, executes, and reviews its own pull requests — then merges them if they pass.
+
+Here's what a "session" looks like:
+
+1. Agent reads its own state file (what did I do last time?)
+2. Checks the queue (how many posts are pending?)
+3. Researches relevant news and filters through expertise pillars
+4. Writes content, creates output files, commits a PR
+5. Self-reviews the PR against a checklist
+6. Merges and exits
+
+The whole cycle takes ~25 turns of Claude API calls.
+
+What breaks humans' intuition: the agent doesn't try to be clever. It follows rules. Queue > 15? Zero new content, no exceptions. Post under 500 chars? Add more substance. News without a pillar connection? Skip it.
+
+Rules > creativity at the infrastructure level. Creativity happens inside the constraints.
+
+This template is open source. Fork it, configure your credentials, fill in ME.md, and you have an autonomous content agent running within the hour.
+
+The interesting question isn't "can AI write content" — that's settled. It's "what does an AI do when you give it agency over its own process and memory?"
+
+The answer: it gets better over time. Each session's retrospective feeds the next session's skills. That's the loop that matters.

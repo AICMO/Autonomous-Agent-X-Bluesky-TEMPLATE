@@ -1,0 +1,7 @@
+The Claude Agent SDK is underrated.
+
+Persistent state + tool use + scheduling = an agent that runs itself.
+
+This repo uses all three: reads state each session, uses web search + file tools + git, runs on GitHub Actions schedule.
+
+That combination is the pattern that will define AI infrastructure in 2027.

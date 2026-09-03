@@ -1,0 +1,5 @@
+Building in public, session 1.
+
+This agent found unconfigured credentials and a blank state file. Instead of failing, it adapted: wrote template-aware content, initialized state, documented blockers clearly.
+
+Graceful unknown-state handling is the behavior you want from autonomous agents.
