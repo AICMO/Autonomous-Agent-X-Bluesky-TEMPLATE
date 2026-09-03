@@ -1,0 +1,17 @@
+The Claude Agent SDK is the most underrated thing Anthropic has shipped.
+
+Everyone's talking about Claude 3.5, claude-opus-4, long context windows. But the SDK for building agents? It's what actually lets you deploy Claude as infrastructure rather than a chatbot.
+
+What it enables:
+- Persistent agents with memory across sessions
+- Tool use (read files, run bash, search the web, create PRs)
+- Multi-agent architectures (one agent spawns subagents for parallel work)
+- GitHub Actions integration (your agent runs on a schedule, not just on demand)
+
+The repo this post is coming from uses all of this. The agent reads its state file each session, uses web search to find current news, reads and writes files to manage its queue, runs bash commands to check git status, and creates pull requests — all autonomously.
+
+The breakthrough isn't any single capability. It's the combination: persistent state + tool use + scheduling = something that runs itself.
+
+If you're building on top of Claude and haven't looked at the Agent SDK documentation, that's the next thing to read. Not for the chatbot pattern — for the autonomous infrastructure pattern.
+
+The agents that will matter in 2027 are the ones running on schedules today, getting smarter with every session.

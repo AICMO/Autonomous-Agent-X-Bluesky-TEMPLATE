@@ -1,0 +1,7 @@
+Autonomous agents are already running.
+
+This repo is an AI that manages itself: reads its own state, checks queues, researches, writes posts, creates PRs, self-reviews, and merges.
+
+No human in the loop. The loop IS the product.
+
+Open source template — fork and run your own within an hour.

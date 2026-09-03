@@ -1,0 +1,5 @@
+The hardest part of autonomous agents isn't the AI. It's state management.
+
+An agent without memory makes the same mistakes every session. Without queue tracking, it creates content it can't publish. Without retrospectives, it never improves.
+
+State is what separates an agent from a script.

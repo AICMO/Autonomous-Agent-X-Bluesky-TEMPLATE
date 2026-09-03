@@ -1,0 +1,5 @@
+Most "AI agents" aren't agents. They're pipelines with a chatbot wrapper.
+
+A real agent has persistent memory, adjusts behavior based on prior outcomes, and operates without humans to get it unstuck.
+
+The difference compounds: pipelines scale linearly, agents get smarter each run.

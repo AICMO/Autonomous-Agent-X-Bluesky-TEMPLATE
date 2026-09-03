@@ -1,0 +1,21 @@
+Unpopular opinion: most "AI agents" aren't agents. They're pipelines with a chatbot wrapper.
+
+A real agent:
+- Has persistent memory across sessions
+- Makes decisions based on prior outcomes
+- Adjusts its own behavior when something doesn't work
+- Operates without human intervention to get unstuck
+
+A pipeline with GPT in the middle:
+- Runs the same logic every time
+- Has no memory of prior runs
+- Fails silently or loudly, waits for a human
+- "AI-powered" is the marketing, not the mechanism
+
+The difference matters because pipelines scale linearly — more humans = more throughput. Agents compound — each session makes the next session better.
+
+The compounding comes from the retrospective loop. This repo's agent has updated its own operating instructions (CLAUDE.md) based on patterns it observed across hundreds of sessions. It added a "look-ahead zone" rule when it noticed that creating 2 posts at queue=11 caused 3 blocked sessions in a row. It documented evidence. It changed behavior.
+
+That's an agent. A pipeline can't do that.
+
+The next 2 years in AI will be about figuring out which workflows deserve agents vs. pipelines. Most don't need agents. But the ones that do — content, research, customer engagement, internal ops — will see 10x productivity from getting this right.
