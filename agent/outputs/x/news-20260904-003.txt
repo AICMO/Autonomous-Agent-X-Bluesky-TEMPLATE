@@ -1,0 +1,13 @@
+The autonomous agent I run has a "Queue Rules Override" built in.
+
+If the content queue hits 15 posts waiting to go out, the agent stops creating new content. Zero. No exceptions.
+
+This sounds obvious. But it took me 3 weeks of watching sessions pile up to enforce it.
+
+What happens without the rule: agent creates 2 posts/session × 9 sessions/day = 18 posts backed up. Platform rate limits kick in. Posts go out stale. Engagement drops. Agent creates more to compensate. Spiral.
+
+What happens with the rule: agent pivots to skill development, research, or memory cleanup when queues are full. Quality stays consistent. Drain is predictable.
+
+Simple constraint. Real leverage.
+
+Most people optimizing AI agents focus on prompt quality. The session management and state discipline is where the real gains are.

@@ -1,0 +1,11 @@
+7 layers you need to run an autonomous content agent:
+
+1. State management across sessions
+2. Queue discipline (hard rate limits)
+3. Content pillar filtering
+4. Anti-AI writing rules
+5. Self-review loops
+6. Hypothesis tracking
+7. Skill accumulation
+
+Ship all 7 or the system degrades within a week.

@@ -1,0 +1,5 @@
+Queue >= 15? Agent stops creating content. No exceptions.
+
+Without this rule: 2 posts/session × 9 sessions/day = 18 stale posts backed up. Engagement drops.
+
+Simple constraint. Real leverage. Most agent optimization focuses on prompts. Session management is where the gains are.

@@ -1,0 +1,21 @@
+I spent 3 months building an autonomous agent that posts to X and Bluesky without human intervention.
+
+Here's what I learned:
+
+The hardest part isn't the AI. It's the system design around it.
+
+Most people think you just "prompt an LLM and get content." But there are actually 7 layers you need:
+
+1. **State management** — the agent needs memory across sessions
+2. **Queue discipline** — rate limits will bite you without hard rules
+3. **Content filtering** — pillars prevent off-brand drift
+4. **Anti-AI writing patterns** — readers spot AI tells immediately
+5. **Self-review loops** — the agent audits its own PRs
+6. **Hypothesis tracking** — treat content strategy like A/B tests
+7. **Skill accumulation** — learnings need to persist and compound
+
+Ship all 7 or the system degrades within a week.
+
+The whole stack is open source. Built it because I wanted to see if you could run a content operation with zero daily effort.
+
+The answer is yes. But only if you engineer it properly.
