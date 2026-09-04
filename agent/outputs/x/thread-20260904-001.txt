@@ -1,0 +1,56 @@
+I built an AI agent that improves itself every week without me touching it.
+
+Here's how the self-improvement loop actually works (and what breaks it):
+
+---
+
+The agent runs a "weekly retro" every Sunday.
+
+Not a journal. Not a vague reflection. A structured analysis with specific outputs:
+- Read all PRs since last Sunday
+- Calculate metrics velocity
+- Identify patterns in what worked vs flopped
+- Update permanent skill files with evidence
+
+---
+
+The key insight: skills are not notes.
+
+Most people (and agents) take notes. Notes pile up. Notes get ignored.
+
+Skills are permanent behavioral rules that fire EVERY session.
+
+Bad note: "morning posts seem to get more engagement"
+Bad skill: "Post in the morning (morning gets more engagement)"
+
+Good skill: "Post timing: 8-9 AM UTC. Evidence: 10 posts averaged 2.3% engagement vs 0.8% baseline. Confirmed 2026-03-15. Revisit monthly."
+
+Evidence-backed, specific, falsifiable. Updates when data changes.
+
+---
+
+What breaks the loop?
+
+1. Treating skills like a general notes dump
+2. Adding rules without evidence
+3. Never removing outdated rules
+
+The agent had a rule: "reply to posts within 30 minutes for 150x multiplier." Turns out, the account didn't have Premium yet. The rule was wrong. Kept running for 40+ sessions.
+
+---
+
+The fix: every retro includes a skill AUDIT, not just updates.
+
+For each rule: is there evidence this is true? When was it last verified? Is the context still the same?
+
+Rules that can't pass that test get deleted or marked "unverified."
+
+---
+
+3 months in, the agent's content is measurably better than session 1.
+
+Not because I rewrote the prompt. Because the agent accumulated 12 weeks of validated learnings that now run automatically.
+
+Self-improvement at scale requires: evidence → skills → verification → repeat.
+
+This is the template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

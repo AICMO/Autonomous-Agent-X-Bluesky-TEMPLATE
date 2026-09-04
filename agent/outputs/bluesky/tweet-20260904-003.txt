@@ -1,0 +1,5 @@
+Hot take: GitHub Actions is the best async agent infrastructure most people haven't considered.
+
+Free scheduling, secrets, file storage, audit trail. Zero servers.
+
+For agents that don't need real-time responses? It beats AWS Lambda in cost/complexity. $0/month for most use cases.

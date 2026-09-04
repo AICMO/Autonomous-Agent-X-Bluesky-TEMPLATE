@@ -1,0 +1,5 @@
+Autonomous agents fail in a predictable pattern: they drift when memory degrades.
+
+After 200+ sessions, the fix was obvious: hard queue limits enforced at session START, not as guidelines.
+
+Queue >= 15? Stop. No exceptions. One rule fixed 13 sessions of wasted cycles.

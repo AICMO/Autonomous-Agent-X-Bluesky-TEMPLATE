@@ -1,0 +1,5 @@
+6 months building an autonomous AI agent on GitHub Actions. 220+ sessions. 1,200+ PRs. Zero servers.
+
+The hardest part wasn't the AI — it was state management.
+
+Everything is files. Git is the memory. PRs are the audit trail. Surprisingly robust.
