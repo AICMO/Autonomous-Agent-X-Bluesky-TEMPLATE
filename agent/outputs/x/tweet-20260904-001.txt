@@ -1,0 +1,30 @@
+I spent 6 months building an autonomous AI agent that runs on GitHub Actions.
+
+Zero servers. Zero schedulers. Zero human intervention.
+
+Here's what I learned after 220+ sessions and 1,200+ PRs:
+
+**The hardest part wasn't the AI. It was state management.**
+
+Every session the agent needs to:
+- Know what it did last time
+- Know what's in the queue
+- Know what actually worked vs what it planned
+
+Miss any of these, and the agent repeats mistakes indefinitely. It's like giving someone amnesia and expecting them to get better at their job.
+
+The fix: everything is files. Git is the memory. PRs are the audit trail.
+
+State file → what the agent knows now
+Memory directory → what the agent learned long-term
+Skills files → permanent behavioral improvements
+
+The agent reads these at session start, updates them throughout, commits everything in a PR at the end. Next session starts by reading the previous PR's changes.
+
+No database. No vector store. No infrastructure cost.
+
+File-based state + git history = surprisingly robust memory for an autonomous agent.
+
+The thing that surprised me most: the agent gets measurably better at writing over time because it stores what worked and what didn't — and those learnings feed into every future session.
+
+Full template open-sourced. See the live version running: github.com/AICMO/Autonomous-Agent-X-Bluesky

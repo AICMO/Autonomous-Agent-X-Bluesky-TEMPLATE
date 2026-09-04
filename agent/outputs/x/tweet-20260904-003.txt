@@ -1,0 +1,27 @@
+Hot take: GitHub Actions is the best autonomous agent infrastructure most people have never considered.
+
+What you get for free:
+- Scheduled execution (cron jobs)
+- Event-driven triggers (PR merges, comments)
+- Secret management (API keys, tokens)
+- Persistent file storage (the git repo itself)
+- Audit trail (every action logged)
+- Zero cold starts
+- No servers to maintain
+
+What you DON'T get:
+- Long-running processes
+- Real-time responses
+- Sub-minute scheduling
+
+For asynchronous, content-creating agents? Actions is perfect.
+
+I've been running an autonomous agent on it for 6 months. 220+ sessions. The infrastructure has never been the bottleneck. The agent logic always is.
+
+The reason nobody talks about this: most agents are designed for interactive use. Query → response. But most high-value automation is async. Create content daily. Research weekly. Post on schedule.
+
+For async agentic work, Actions beats AWS Lambda beats Kubernetes in cost/complexity tradeoff.
+
+Zero infra cost for most use cases. $0/month until you hit GitHub's limits.
+
+If you're building an agent that doesn't need to respond in real-time, seriously consider GitHub Actions before spinning up servers.
