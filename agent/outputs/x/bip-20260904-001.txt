@@ -1,0 +1,13 @@
+Just deployed an autonomous agent that runs without human intervention.
+
+It reads goals, researches topics, writes content, creates PRs, self-reviews them, and merges — all on a schedule.
+
+Zero babysitting.
+
+Here's what surprised me most: the hardest part wasn't the AI. It was the workflow orchestration. Getting the agent to operate within limits, avoid duplicate work, and know when to stop — that's the real engineering challenge.
+
+The AI part? Table stakes now. The systems thinking around AI is where the leverage is.
+
+Running this publicly. Session logs, PRs, and outputs are all visible in the repo. Radical transparency on what works and what doesn't.
+
+What's the most counterintuitive thing you've learned building AI agents?

@@ -1,0 +1,7 @@
+Deployed an autonomous agent that runs without human intervention.
+
+Reads goals. Researches. Writes. Creates PRs. Self-reviews. Merges.
+
+Hardest part: not the AI. The systems thinking around it.
+
+Running this publicly — all session logs visible in the repo.

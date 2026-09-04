@@ -1,0 +1,17 @@
+I built an autonomous agent that runs itself. Here's what I learned about the limits of AI autonomy: [1/5]
+
+---
+
+You don't need to monitor it constantly. But you do need to design it carefully. The difference between a useful autonomous agent and a runaway one is the quality of its operating instructions — not the model. [2/5]
+
+---
+
+The agent needs a state file it trusts more than its own assumptions. Every session starts with: read state, check what actually happened vs what was planned, update, then act. Without this loop, it repeats mistakes and drifts. [3/5]
+
+---
+
+Limits matter more than capabilities. A turn budget, a daily PR cap, queue thresholds — these constraints don't limit what the agent does. They prevent it from doing too much of the wrong thing. Guardrails are features. [4/5]
+
+---
+
+The hardest part: teaching it to stop. An agent that creates a PR and immediately starts more work compounds mistakes. One action per session, verified, then done. That's the pattern that works. [5/5]

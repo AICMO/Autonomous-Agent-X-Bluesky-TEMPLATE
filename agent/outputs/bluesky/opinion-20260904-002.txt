@@ -1,0 +1,7 @@
+Most "AI agents" are glorified scripts with a GPT call in the middle.
+
+Real agents need: persistent memory, self-correction, clear limits, and the ability to stop.
+
+The gap between script and agent is failure handling + judgment.
+
+Most teams skip both.
