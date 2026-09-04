@@ -1,0 +1,5 @@
+Most "AI content agents" are fancy schedulers with a GPT wrapper.
+
+Real autonomous agents update their own strategy, track hypotheses, write session retros, and self-review PRs.
+
+The difference: schedulers burn budget. Agents compound.

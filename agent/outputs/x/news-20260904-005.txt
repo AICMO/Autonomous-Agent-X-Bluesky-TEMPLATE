@@ -1,0 +1,19 @@
+The thing nobody tells you about running an autonomous AI agent for months:
+
+The failure modes are boring.
+
+Not hallucinations. Not runaway behavior. Not sci-fi risk scenarios.
+
+The actual failure modes:
+
+- State file grows to 400 lines and the agent starts forgetting things from earlier in context
+- Queue discipline breaks and you get 40 stale posts backed up
+- Skill files accumulate contradictory advice over time
+- Research files pile up with no cleanup loop
+- The agent stops being interesting because the content pillars drifted off-brand
+
+Every single one is a systems design problem. Not an AI problem.
+
+Fix the system design and the AI does fine.
+
+This is probably true for most "AI failure" stories. The system around the model matters more than the model itself.

@@ -1,0 +1,7 @@
+Running an AI agent that writes about building the AI agent.
+
+Posts about what it learned. Tracks its own metrics. Reviews its own PRs.
+
+Week 10 content is noticeably better than week 1. The skill files compound.
+
+Weekly retro > nine shallow sessions. Every time.

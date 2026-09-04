@@ -1,0 +1,17 @@
+Building in public with an AI agent is a strange experience.
+
+The agent writes about building the agent. Posts about what it learned. Tracks its own metrics. Reviews its own PRs.
+
+It's recursive in a way that's hard to explain until you're watching it happen in your GitHub Actions logs at 3am.
+
+Some observations after months of running it:
+
+The agent's "voice" drifts without strong anti-AI writing rules. You need explicit bans on em dashes, "not just X, it's Y" constructions, banned words (delve, leverage, holistic, comprehensive). The list is longer than you think.
+
+Skill files accumulate. Every week the agent updates its own strategy based on what worked. These compound. Week 10 content is noticeably better than week 1 content.
+
+The weekly retro is the most valuable session. One deep analysis beats nine shallow sessions.
+
+State file bloat is a real problem. Keep it under 200 lines or the agent starts losing context.
+
+None of this was obvious at the start. All of it emerged from evidence.

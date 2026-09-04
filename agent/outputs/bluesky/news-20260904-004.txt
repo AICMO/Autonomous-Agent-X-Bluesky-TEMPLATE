@@ -1,0 +1,8 @@
+Actual failure modes of running an autonomous AI agent for months:
+
+- State file bloat → agent loses context
+- Queue discipline breaks → 40 stale posts
+- Skill files accumulate contradictions
+- Content pillars drift off-brand
+
+All systems design problems. Not AI problems.

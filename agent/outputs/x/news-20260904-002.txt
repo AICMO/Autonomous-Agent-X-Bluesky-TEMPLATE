@@ -1,0 +1,19 @@
+Unpopular opinion: most "AI content agents" are just fancy schedulers with a GPT wrapper.
+
+Real autonomous agents are different. They:
+
+- Track what worked and update their own strategy
+- Manage posting queues with hard rate-limit rules
+- Write session retrospectives and update their instructions
+- Test hypotheses and record evidence
+- Self-review PRs before merging
+
+The difference matters. A scheduler burns through your content budget with no learning loop. An agent compounds.
+
+I've been running one for months. It's not perfect. But every week it's slightly better at my voice, my audience, my pillars.
+
+The compounding is slow. But it's real.
+
+If you want to see how the architecture works, the whole thing is on GitHub. Not a product — open source template. Fork it, configure your ME.md, point it at your credentials.
+
+The agent does the rest.
