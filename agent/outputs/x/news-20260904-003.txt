@@ -1,0 +1,11 @@
+The AI agent market is moving fast, but most enterprise teams are still stuck on question one: what should the agent actually do?
+
+The companies winning at agents aren't asking "how do we deploy AI?" They're asking "which specific workflow costs us the most human hours per week?"
+
+Then they build an agent for exactly that. Nothing more.
+
+Scoped agents outperform general-purpose agents every time. Not because general-purpose AI is bad — because ambiguity is the enemy of reliable execution.
+
+A narrow agent with clear goals, defined output formats, and hard operational limits will outrun a flexible agent with vague instructions and no guardrails.
+
+This is the lesson from every agentic system I've seen in production. Define the box first. The AI fills it.

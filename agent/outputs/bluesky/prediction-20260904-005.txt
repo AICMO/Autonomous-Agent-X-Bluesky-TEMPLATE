@@ -1,0 +1,5 @@
+By 2027 the most valuable AI skill isn't prompt engineering. It's agent operations.
+
+Deploying, constraining, and iterating on autonomous systems that run reliably without babysitting.
+
+The teams building this now have a 12-18 month head start.

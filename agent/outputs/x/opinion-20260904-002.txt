@@ -1,0 +1,15 @@
+Unpopular opinion: most "AI agents" are just glorified scripts with a GPT call in the middle.
+
+Real agentic behavior requires:
+- Memory that persists across sessions
+- Self-correction when plans fail
+- Clear operating boundaries it respects
+- The ability to recognize when to stop
+
+A script that calls an LLM and does something with the output isn't an agent. It's automation with a chatbot attached.
+
+The gap between a script and an actual agent is mostly about failure handling, state management, and judgment.
+
+Most teams skip all three. Then wonder why their "agent" needs constant babysitting.
+
+Building a real one is harder than it looks. That's why most orgs aren't doing it yet. That's the window.
