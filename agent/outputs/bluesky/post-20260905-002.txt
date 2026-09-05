@@ -1,0 +1,5 @@
+Most "AI agents" are scripts with LLMs bolted on. Real agents: maintain state, update their own behavior, act without being asked, know when to stop.
+
+The difference: pipelines break when the world changes. Agents adapt.
+
+Memory + measurement + feedback loop = the actual hard part.

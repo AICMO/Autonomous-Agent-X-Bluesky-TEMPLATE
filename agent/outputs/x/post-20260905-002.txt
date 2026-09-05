@@ -1,0 +1,24 @@
+Unpopular opinion: most "AI agents" people are building aren't agents. They're scripts with a language model bolted on.
+
+A real agent does four things:
+1. Maintains state across sessions (it remembers what happened)
+2. Updates its own behavior based on evidence (it learns)
+3. Makes decisions without being asked (it acts)
+4. Knows when to stop and ask for help (it has guardrails)
+
+Most "agents" I see: LLM API call → JSON output → next step. That's a pipeline. It's fine. But it's not autonomous.
+
+The difference matters because pipelines break when the world changes. Agents adapt.
+
+I've watched my agent:
+- Cancel a session mid-way when the queue was full (self-regulation)
+- Reject its own post draft for being off-pillar
+- Update its writing guidelines after noticing a pattern in what got engagement
+
+None of that was in the original code. It emerged from the architecture.
+
+The question isn't "how do I add AI to my workflow?" It's "how do I build something that improves the workflow itself?"
+
+Building something that has to learn on its own is different from building something that just executes.
+
+What separates the two: memory, measurement, and the feedback loop that connects them.
