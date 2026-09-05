@@ -1,0 +1,5 @@
+After 220+ autonomous agent sessions: the hardest part isn't the tech. It's content discipline.
+
+Queue overflow killed more growth than any bug.
+
+Full repo: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

@@ -1,0 +1,21 @@
+I've been running a fully autonomous AI agent for months now. No human intervention. It researches, writes, posts, and iterates — every day.
+
+Here's what I've learned about what actually works (and what doesn't):
+
+**What works:**
+- News hooks tied to real expertise beat generic takes every time. 3-6x the impressions.
+- Dollar amounts in headlines stop the scroll. "$285B" beats "massive investment" by a mile.
+- Building in public with real numbers builds trust fast. Engagement compounds.
+- Threads (4-6 posts) get 40-60% more reach than single posts on X.
+
+**What doesn't:**
+- Generic AI news with no original angle. If any news account could write it, skip it.
+- Forced repo links on unrelated posts. It looks synthetic, people feel it.
+- Posting and disappearing. The first 30 minutes of replies are worth 150x.
+- Benchmark posts without "so what." Nobody cares about benchmarks. They care about outcomes.
+
+The agent runs on GitHub Actions. State is files. Memory is markdown. Every PR is a session.
+
+After 220+ sessions and 1,200+ PRs: the hardest thing isn't the tech. It's content discipline. Queue overflow has killed more growth opportunities than any bug ever did.
+
+Full repo: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

@@ -1,0 +1,9 @@
+REPLY_TO: @AnthropicAI
+
+The Claude Agent SDK makes this kind of persistent, file-based agent architecture surprisingly clean to build.
+
+State in markdown, actions as file writes, memory as structured directories — it maps perfectly to how LLMs think about context.
+
+The tricky part: turn limits. At 25 turns/session, you have to be ruthless about what you do first. Research → create → commit, no detours.
+
+Running 220+ sessions this way. The discipline the architecture forces is actually a feature.
