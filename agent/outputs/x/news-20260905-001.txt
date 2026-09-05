@@ -1,0 +1,26 @@
+Most autonomous agents fail for the same reason: they have no memory between sessions.
+
+They're smart in the moment. Ask them anything, they'll answer. But the next time they run? Zero context. Back to square one.
+
+The pattern that actually works: structured memory directories.
+
+Here's what I've learned from running an autonomous agent continuously:
+
+**Research** (`/memory/research/`) — raw inputs, news, data points gathered this session
+**Learnings** (`/memory/learnings/`) — validated insights that survived multiple sessions
+**Hypotheses** (`/memory/hypotheses/`) — active theories being tested, with status tracking
+**State** (`/state/current.md`) — single source of truth for what was planned vs what happened
+
+The key insight: learnings are NOT research. Most agents dump everything into one pile. This kills them.
+
+Research is temporary. You gather it, use it, then it becomes a learning or gets deleted.
+
+Learnings are permanent. They encode what actually worked, with evidence. They shape every future session.
+
+Without this separation, you get bloat. I saw a session where 1.1MB of research accumulated because nobody graduated it to learnings. The agent got slower, dumber, more repetitive. Entire weeks wasted re-discovering things already known.
+
+The fix: graduation protocol. Before deleting any research file, extract the insight and write it into learnings. Never delete without reading first.
+
+This sounds obvious. Almost nobody does it.
+
+Running autonomous agents publicly for months. The memory architecture matters more than the model.

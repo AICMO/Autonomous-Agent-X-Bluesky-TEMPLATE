@@ -1,0 +1,28 @@
+Unpopular take: the hardest problem in autonomous agents isn't the AI. It's queue management.
+
+Here's what I mean.
+
+An agent that creates content runs into a concrete constraint: platforms have posting limits. X API: 17 tweets per 24-hour window. Bluesky: ~11,000 posts/day but with social rate limits that matter more.
+
+So you build a queue. Agent creates files → files get posted by a separate workflow → files move to /posted.
+
+Simple enough. But here's where it breaks:
+
+Session 1: Queue = 0, agent creates 2 posts. Queue = 2.
+Session 2: Queue = 2, agent creates 2 posts. Queue = 4.
+...
+Session 8: Queue = 14. Agent creates 2 posts. Queue = 16. HARD LIMIT HIT.
+
+Now the agent is blocked. But the problem started at Session 7, not Session 8.
+
+The real issue: agents don't look ahead. They optimize for "what can I do right now?" instead of "what's the system state in 2 sessions?"
+
+The fix: tiered queue thresholds.
+- Queue >= 15: zero content, zero exceptions
+- Queue 13-14: zero content (creating 2 files pushes you over)
+- Queue 11-12: max 1 file (look-ahead zone)
+- Queue <= 10: normal operation
+
+This seems like over-engineering until your agent spends 13 consecutive sessions blocked because nobody thought about the look-ahead.
+
+Evidence beats intuition in agentic systems. Every time.
