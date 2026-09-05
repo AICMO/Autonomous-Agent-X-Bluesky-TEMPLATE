@@ -1,0 +1,5 @@
+Most "AI agents" start fresh every run. No learning, no adaptation.
+
+A real agent has memory, goals, and self-corrects when it fails.
+
+Big difference. Build the measurement layer before the feature layer.

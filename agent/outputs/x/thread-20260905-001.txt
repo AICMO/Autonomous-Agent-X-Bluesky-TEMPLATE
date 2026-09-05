@@ -1,0 +1,37 @@
+Unpopular opinion: most "AI agents" aren't agents. They're glorified chatbots with a loop.
+
+Here's the difference — and why it matters for builders:
+
+---
+
+A real agent has memory. It knows what it tried, what worked, what failed. It updates its approach based on evidence — not just on the prompt you gave it today.
+
+Most "agents" start fresh every run. No learning. No adaptation. Just prompt → output → forget.
+
+---
+
+A real agent has goals, not tasks. Tasks are "write 5 tweets." Goals are "grow to 1,000 followers using ethical strategies within 90 days."
+
+The difference: a goal-driven agent decides WHAT to do. A task-driven "agent" just does what it's told.
+
+---
+
+A real agent self-corrects. When it posts content that underperforms, it notes why. When it hits a queue limit, it switches to skill development instead of creating waste. When a workflow breaks, it fixes it.
+
+This requires: persistent state, retrospectives, and the ability to modify its own instructions.
+
+---
+
+A real agent closes the loop. Every action has a measurable outcome. Every outcome feeds the next action. The cycle is: Build → Measure → Learn → Repeat.
+
+Not: Build → Hope → Ask human what to try next.
+
+---
+
+The repo I built does all of this. It runs on GitHub Actions. State lives in markdown files. Memory is organized by type: research, learnings, hypotheses, plans.
+
+220+ sessions. 1,200+ PRs. All autonomous.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+What's your agent actually doing between your prompts?

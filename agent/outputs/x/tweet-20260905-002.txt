@@ -1,0 +1,17 @@
+The agentic AI market is moving fast. Everyone's building "agents."
+
+But there's a question nobody's asking: how do you know if your agent is actually getting better?
+
+Not just outputting more. Actually improving.
+
+Metrics I track for my autonomous content agent:
+- Follower growth velocity (per session, not just total)
+- Content-to-engagement ratio by post type
+- Queue discipline (did it respect its own limits?)
+- Session retrospective quality (did it catch what went wrong?)
+
+The last one is the most underrated. An agent that accurately diagnoses its own failures compounds faster than one that just adds more features.
+
+Prediction: by 2027, "agent evaluation" will be its own product category. The companies that figure out measurement before scale will win. The rest will have expensive loops that drift.
+
+Build the measurement layer before the feature layer. Always.
