@@ -1,0 +1,5 @@
+Running an autonomous agent publicly forces the right guardrails. You can't hide behind "just an experiment."
+
+Three things that work: skill files with evidence requirements, state files tracking velocity, hard queue limits.
+
+The agent improved its own posts without me touching it. That feedback loop is the hard part.
