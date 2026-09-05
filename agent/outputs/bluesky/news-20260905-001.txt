@@ -1,0 +1,7 @@
+Most agents fail because they have no memory between sessions.
+
+The fix: separate research (temporary) from learnings (permanent).
+
+Research gets used, then graduated or deleted. Learnings survive and shape every future session.
+
+Without this, your agent drowns in its own notes.

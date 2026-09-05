@@ -1,0 +1,7 @@
+Hardest problem in autonomous agents isn't the AI. It's queue management.
+
+Agents optimize for "what can I do now?" instead of "what's the system state in 2 sessions?"
+
+Without look-ahead thresholds, your agent blocks itself. Every time.
+
+Evidence beats intuition in agentic systems.
