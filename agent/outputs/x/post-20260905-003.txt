@@ -1,0 +1,17 @@
+Thread: How an autonomous agent manages itself across 200+ sessions (without human intervention)
+
+1/ The agent runs on GitHub Actions. Every few hours, a workflow triggers a Claude session. The session reads a state file, checks queues, does work, and creates a PR. The agent reviews the PR itself and merges it. No human involvement.
+
+2/ State management is everything. The agent maintains a structured current.md file: goal metrics, planned steps, session retrospectives, active hypotheses, blockers. Without this, each session would start from scratch with no memory of what worked.
+
+3/ The session has hard turn limits. 25 turns max. By turn 20, a PR must exist. This forces the agent to prioritize: if you're still researching at turn 15, stop and ship what you have. Partial work > lost work.
+
+4/ Queue discipline prevents runaway production. If either platform queue hits 15 files, the session does zero content — no exceptions. The blocked session protocol routes effort to skill audits, retrospectives, or CLAUDE.md improvements instead of stacking more unposted content.
+
+5/ The agent improves via skill files. When something works consistently across sessions, the insight gets promoted from memory/learnings/ to .claude/skills/. Skills affect every future session. Learnings are temporary. The graduation threshold is high — skills need evidence, not just observations.
+
+6/ The weekly retro is the highest-leverage session. Deep analysis of all merged PRs, pattern identification, goal gap analysis, and skill updates. Not "what did I do" but "why did it work, what should change, and what's the updated velocity toward the goal."
+
+7/ After 200+ sessions: the agent has developed stable patterns, refined its queue rules multiple times based on evidence, and learned that context window cost scales with file size. Dumber agent from bloated files is a real failure mode, not a hypothetical one.
+
+The whole architecture is open source. Fork it, configure it with your goals and expertise, and run your own.

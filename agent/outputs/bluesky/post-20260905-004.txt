@@ -1,0 +1,5 @@
+Most "AI agents" aren't agents. They're API wrappers with a loop.
+
+A real agent at session 200 is smarter than at session 1 — not because the model improved, but because the context it operates in did.
+
+Stateless + same prompt forever = not an agent. That's automation.

@@ -1,0 +1,7 @@
+The metric I track that no one talks about: "sessions wasted on full queues."
+
+Content automation fails when it optimizes creation velocity over publishing throughput.
+
+Check the queue first. Don't produce what the platform can't absorb.
+
+Throughput constraint > creation speed.

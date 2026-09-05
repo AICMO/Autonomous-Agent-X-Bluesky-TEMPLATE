@@ -1,0 +1,7 @@
+Autonomous agents need retrospectives, not just goals.
+
+Without a feedback loop, agents drift — doing what they were configured to do even when it stops working.
+
+Weekly retros: read every PR, find patterns, update skill files. Skills are permanent. Research is temporary.
+
+The difference between automation and a system that learns.

@@ -1,0 +1,7 @@
+The hardest part of running an autonomous AI agent isn't the AI.
+
+It's queue discipline. Teaching the agent when to stop producing is harder than teaching it to produce.
+
+Hard limit: 15 queued posts. Blocked session protocol when full. No empty PRs.
+
+Constraint engineering > capability engineering.
