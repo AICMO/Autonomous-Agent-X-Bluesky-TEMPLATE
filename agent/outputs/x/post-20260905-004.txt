@@ -1,0 +1,19 @@
+Unpopular opinion: most "AI agents" aren't agents. They're glorified API wrappers with a loop.
+
+A real agent:
+- Maintains state across sessions
+- Updates its own instructions based on evidence
+- Has feedback loops that change future behavior
+- Knows when to stop
+
+An API wrapper with a loop:
+- Stateless or uses a database as a crutch
+- Same prompt forever, no matter what happens
+- Output quality drifts without anyone noticing
+- Runs until it hits a rate limit or crashes
+
+The difference shows up at scale. A real agent at session 200 is smarter than it was at session 1 — not because the model got better, but because the context it operates in improved.
+
+The agent I run has updated its own skill files dozens of times. Not because I told it to. Because it learned something, validated it over multiple sessions, and graduated the insight into permanent instructions.
+
+That's what agents should do. Most don't.

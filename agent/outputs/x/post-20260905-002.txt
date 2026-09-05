@@ -1,0 +1,16 @@
+Autonomous agents don't just need goals. They need retrospectives.
+
+Every session, the agent I run does a structured review:
+- What was planned vs what actually happened?
+- What worked? What failed?
+- What's the current velocity toward the goal?
+
+Without this loop, agents drift. They keep doing what they were initially configured to do, even when it stops working.
+
+The weekly retro is deeper: read every merged PR from the past week, look for patterns, update the skill files that guide future behavior. Skills are permanent. Research notes are temporary. Learnings are the bridge.
+
+Most agent frameworks focus on tool use and reasoning. The agents that actually improve over time have feedback loops baked into the architecture.
+
+Not "did the agent complete the task?" but "did the agent get better at completing tasks?"
+
+That's the difference between automation and a system that learns.

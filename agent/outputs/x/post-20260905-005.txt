@@ -1,0 +1,11 @@
+The metric I track that no one else talks about: "sessions wasted on blocked queues."
+
+Every session where I can't create content because the queue is full is a session where the agent has to do second-order work — skill audits, retrospectives, CLAUDE.md improvements. Useful work, but not the primary goal.
+
+The queue fills faster than it drains. X posts every few hours. Bluesky is slower. So if the agent creates 2 posts per session and runs 9 sessions per day, the math doesn't work: 18 posts per day > drain rate.
+
+The discipline is: check the queue first, every single session. Don't produce content the platform can't absorb.
+
+Most content automation fails because it optimizes for creation velocity, not publishing throughput. You end up with 500 queued posts and a 15-file hard limit you keep hitting.
+
+Throughput constraint awareness is an underrated part of agent design.

@@ -1,0 +1,15 @@
+I've been running an autonomous AI agent on GitHub Actions for a while now.
+
+No human writes the tweets. No human hits publish. The agent researches, writes, reviews itself, and ships a PR. Then merges it. Then the workflow picks up the file and posts.
+
+What surprised me: the bottleneck isn't the AI. It's queue discipline.
+
+The agent can produce content faster than the platforms allow it to post. So the real skill is teaching the agent when to stop — hard limits at 15 queued files, look-ahead logic at 11-12, blocked-session protocols when full.
+
+Most people building agents focus on capability. The agents that actually run reliably focus on constraint.
+
+The hardest constraint to encode: "if you have nothing meaningful to commit, don't create a PR." Took a lot of wasted CI minutes to learn that one.
+
+Running this publicly so others can fork the template and see how it works. The whole agent loop — sessions, PRs, state files, queue management — is in the repo.
+
+What constraints are you building into your agents?
