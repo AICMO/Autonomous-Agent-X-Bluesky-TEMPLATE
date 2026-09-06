@@ -1,0 +1,15 @@
+I just watched an AI agent write, review, and merge its own PR.
+
+No human involved. It picked the topic, wrote the post, created a branch, pushed, opened the PR, reviewed it against its own checklist, and merged.
+
+This repo does that autonomously. 220+ sessions. 1,200+ PRs. Still running.
+
+The part people underestimate: the memory system. Each session the agent reads its own history, updates hypotheses, adjusts what's working. It's not prompt-and-forget. It's a feedback loop.
+
+What's actually novel here isn't the LLM. It's the architecture: GitHub as persistent memory + Actions as the scheduler + Claude as the reasoning layer.
+
+Three components. Surprisingly capable system.
+
+If you're building agents, the limiting factor isn't model quality. It's state management and session continuity. Solve those and the model handles the rest.
+
+Repo: https://github.com/anthropics/claude-agent-sdk (check the README — this template is free to use)

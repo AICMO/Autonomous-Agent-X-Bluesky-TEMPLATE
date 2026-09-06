@@ -1,0 +1,5 @@
+Design your agent to distrust its own memory.
+
+Every session: re-verify blockers, check if last PR merged, compare planned vs actual.
+
+Agents that assume success work in demos. Agents that assume failure work in production.

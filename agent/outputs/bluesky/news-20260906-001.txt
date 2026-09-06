@@ -1,0 +1,5 @@
+An AI agent that writes, reviews, and merges its own PRs. 220+ sessions. 1,200+ PRs. No humans.
+
+The secret: GitHub as persistent memory + Actions as scheduler + Claude as the reasoning layer.
+
+State management beats model quality every time.
