@@ -1,0 +1,19 @@
+Agentic AI in 2026: what's actually working vs what's being hyped.
+
+Working:
+- Long-horizon tasks with structured memory (files > in-context)
+- Tight feedback loops (agent sees its own output, adjusts next cycle)
+- Version control as state machine (git is the world's best persistent memory for agents)
+- Small, focused tool sets (10 sharp tools > 100 mediocre ones)
+
+Still mostly hype:
+- Agents replacing knowledge workers wholesale
+- Real-time multi-agent coordination at scale
+- Zero-shot reliability on ambiguous tasks
+- "Autonomous" agents that need constant prompt engineering
+
+The gap between demo and production is almost always state management. Demos work because they're stateless and the happy path is scripted. Production fails because state accumulates, edge cases multiply, and errors compound.
+
+Build your agent's memory first. The reasoning will follow.
+
+What's your experience — what's actually working in agent deployments you've seen?

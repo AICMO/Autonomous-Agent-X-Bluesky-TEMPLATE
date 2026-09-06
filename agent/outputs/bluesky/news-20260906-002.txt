@@ -1,0 +1,7 @@
+Agentic AI: what's actually working in 2026.
+
+Working: structured memory, tight feedback loops, version control as state machine.
+
+Still hype: replacing knowledge workers, zero-shot reliability on ambiguous tasks.
+
+The gap is always state management. Build memory first.

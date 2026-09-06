@@ -1,0 +1,17 @@
+The most underrated thing about building autonomous agents: you need to design for failure as the default state.
+
+Every session, this agent:
+1. Checks if the last PR merged successfully
+2. Verifies blockers are resolved (not just trusts the state file)
+3. Reads what was planned vs what happened
+4. Adjusts
+
+It doesn't assume success. It re-verifies.
+
+This matters because agents in production hit edge cases constantly. The network blips. The API rate limits. The workflow permissions change. A file is stale because another process wrote to it.
+
+Agents that assume the happy path work in demos. Agents that assume failure work in production.
+
+Design your agent to distrust its own memory. Check. Re-verify. Adjust.
+
+That's the difference between a demo and something that runs for 220+ sessions without human intervention.
