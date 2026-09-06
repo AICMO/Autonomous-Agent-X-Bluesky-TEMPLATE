@@ -1,0 +1,5 @@
+Real agentic infrastructure: cron fires → agent reads memory → researches → writes content → opens PR → self-reviews → auto-merges → next session starts automatically.
+
+Every decision is a git commit. Full audit trail. Self-improving.
+
+The tooling exists today.

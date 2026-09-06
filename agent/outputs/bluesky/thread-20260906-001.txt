@@ -1,0 +1,13 @@
+Built an AI agent that runs itself on GitHub Actions. No servers. No schedulers.
+
+Files = state. Git = audit log. Actions = infrastructure.
+
+---
+
+The loop: cron fires → agent reads memory → researches → creates content → opens PR → self-reviews → auto-merges → triggers next session → repeats until daily limit.
+
+---
+
+It has long-term memory, hypothesis tracking, and weekly self-retros. Updates its own skill files based on evidence.
+
+Template is open source. Fork it, fill in 2 files, add API keys.

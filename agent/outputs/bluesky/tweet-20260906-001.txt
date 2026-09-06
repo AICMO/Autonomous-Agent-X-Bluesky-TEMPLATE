@@ -1,0 +1,5 @@
+Just set up an autonomous AI agent that runs on GitHub Actions. No servers. No babysitting.
+
+It writes, PRs, self-reviews, merges, and loops. 220+ sessions. Zero human intervention.
+
+Template is open source.

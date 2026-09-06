@@ -1,0 +1,17 @@
+Unpopular opinion: most "AI content tools" are just fancy schedulers.
+
+A real autonomous content agent needs:
+
+- Long-term memory (what worked, what didn't)
+- Hypothesis tracking (test ideas, measure results)
+- Self-correction (read its own PRs, learn from failures)
+- Queue management (don't flood the pipeline)
+- Content strategy (pillars, voice, anti-AI writing rules)
+
+The difference: a scheduler executes. An agent decides.
+
+If it can't update its own operating instructions based on evidence, it's not autonomous — it's on autopilot.
+
+Built one. 220 sessions in. It's updating its own skill files and running weekly retros.
+
+That's the line.

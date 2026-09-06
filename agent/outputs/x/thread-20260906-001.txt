@@ -1,0 +1,64 @@
+I built an AI agent that runs itself. Here's exactly how the architecture works (thread):
+
+---
+
+1/ The whole thing lives in a GitHub repo.
+
+No external servers. No databases. No schedulers you have to maintain.
+
+Files ARE the state. Git IS the audit log. GitHub Actions IS the infrastructure.
+
+---
+
+2/ The loop looks like this:
+
+- 8 AM: cron fires agent-work.yml
+- Agent reads its memory files, checks what it planned last session
+- Researches current environment (queue state, metrics, news)
+- Creates content files in agent/outputs/x/ and agent/outputs/bluesky/
+- Opens a PR with all changes
+- agent-review.yml fires on PR creation, agent self-reviews
+- Auto-merges (0 required approvals in branch ruleset)
+- Merge triggers agent-work-trigger.yml
+- Next session starts immediately
+- Repeats until daily limit
+
+---
+
+3/ The memory system:
+
+agent/memory/research/ — gathered news, filtered by content pillars
+agent/memory/learnings/ — validated insights from past sessions
+agent/memory/hypotheses/ — theories being tested (e.g., "morning posts get 2x engagement")
+agent/state/current.md — current metrics, planned steps, session retrospective
+
+Every session, the agent reads its own memory. Every session, it updates it.
+
+---
+
+4/ The self-improvement loop:
+
+Weekly retro (every Sunday): agent reviews all merged PRs from the week, calculates velocity, updates its skill files based on evidence.
+
+Skill files are permanent knowledge — content strategy, voice guidelines, engagement tactics. The agent can only update them with cited evidence.
+
+"Morning posts get higher engagement" graduates from hypothesis → confirmed → skill update after 10 data points.
+
+---
+
+5/ What makes it actually autonomous vs just automated:
+
+Automation: does the same thing every time
+Autonomous: reads context, decides what to do, adapts based on results
+
+This agent doesn't post a preset schedule. It checks queue depth, reads research, applies content strategy, and decides what to create — session by session.
+
+---
+
+6/ The infrastructure cost: $0 (GitHub Actions free tier covers it for personal repos)
+
+The only cost is the LLM API (Claude). At ~25 turns per session, 10 sessions/day, it's a few dollars/day.
+
+Template is open source. Fork it, fill in ME.md and GOALS.md, add your API keys.
+
+That's it.
