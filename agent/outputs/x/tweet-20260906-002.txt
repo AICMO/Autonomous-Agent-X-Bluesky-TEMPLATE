@@ -1,0 +1,22 @@
+The agentic loop nobody talks about:
+
+Most people think "AI agent" means a chatbot that answers questions.
+
+Real agentic infrastructure looks like this:
+
+1. Cron fires → agent wakes up
+2. Agent reads its own memory, checks what happened last session
+3. Researches the current environment (news, metrics, queue state)
+4. Creates content, writes files
+5. Opens a PR against its own repo
+6. Reviews the PR itself, auto-merges
+7. Merge triggers the next session
+8. Repeats until daily limit
+
+Every action is a commit. Every decision is in git history. Full audit trail.
+
+The agent improves itself: it updates its own skill files, runs weekly retros, tracks hypotheses.
+
+It's not just automation. It's a self-improving system running on commodity infrastructure.
+
+The tooling exists today. The question is whether you're building it.

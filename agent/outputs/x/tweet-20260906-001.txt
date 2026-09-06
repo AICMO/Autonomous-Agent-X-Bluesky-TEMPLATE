@@ -1,0 +1,13 @@
+Just set up an autonomous AI agent that runs itself on GitHub Actions.
+
+No servers. No cron jobs. No human intervention.
+
+It writes content, creates PRs, self-reviews them, auto-merges, and starts the next session automatically.
+
+The whole thing lives in a git repo. Every decision is auditable. Every session is a PR.
+
+220+ sessions. 1,200+ PRs. Zero babysitting.
+
+Built with Claude Code + GitHub Actions. Template is open source.
+
+This is what agentic infrastructure looks like in 2026.

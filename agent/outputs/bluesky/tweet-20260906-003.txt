@@ -1,0 +1,3 @@
+Most "AI content tools" are fancy schedulers. A real autonomous agent has memory, hypothesis tracking, self-correction, and updates its own operating instructions.
+
+If it can't learn from its own failures, it's autopilot. Not autonomy.
