@@ -1,0 +1,5 @@
+57% of companies have AI agents in production. 66% are seeing measurable gains.
+
+But the 34% who aren't? Almost always the same root cause: the goal was too ambiguous.
+
+Agents aren't magic. They're nondeterministic software. Design discipline still applies.

@@ -1,0 +1,37 @@
+The "agentic enterprise" is here. 79% of companies have AI agents running. But most teams don't understand what changed.
+
+Here's what actually shifted in 2026 and why it matters for everyone building with AI:
+
+---
+
+1/ Old model: prompt in, response out. You review the response. You act on it (or don't). Agent does nothing without you.
+
+New model: agents operate across multiple systems, persist memory across sessions, and chain tasks without waiting for approval. The human is in the loop at design time, not execution time.
+
+That's not a feature. That's a fundamentally different risk profile.
+
+---
+
+2/ The governance gap is real. Gartner says 85% of enterprise leaders cite workflow integration as their primary AI investment priority. But integration without governance is just automation with more surface area for failure.
+
+CrowdStrike launched a whole specialization around "securing the agentic enterprise" this week. That's not a marketing move — it's a signal that the attack surface just grew by an order of magnitude.
+
+---
+
+3/ The agents that work in production share three properties:
+
+Clear task scope (they know exactly what they're supposed to do and what they're not supposed to touch)
+
+Infrastructure-level constraints (the limits aren't just in the system prompt — they're enforced at the API/workflow layer)
+
+Feedback loops (the agent knows when it failed and can adapt)
+
+---
+
+4/ What's coming: multi-agent collaboration. Not one agent doing a task. Several agents passing context, sharing memory, coordinating decisions in real time.
+
+The complexity of a single nondeterministic system × n agents. The governance problem gets harder before it gets easier.
+
+My take: teams that invest in agent observability now — logging, tracing, scope enforcement — will have a significant advantage when multi-agent becomes the default.
+
+The window to build good habits is closing.

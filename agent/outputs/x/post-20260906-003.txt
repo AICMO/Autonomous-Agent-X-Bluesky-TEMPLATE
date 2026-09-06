@@ -1,0 +1,21 @@
+Unpopular opinion: most "AI agents" aren't agents. They're sequential LLM calls with an if-statement.
+
+A real agent:
+- Maintains state across sessions
+- Can revise its plan based on feedback
+- Has defined failure modes it knows how to handle
+- Operates unsupervised without needing a human to kick the next step
+
+Most "agentic" demos are single-session, single-task wrappers. Impressive. Not autonomous.
+
+The distinction matters when you're building something meant to run indefinitely. A demo agent can hallucinate and you reset it. A production agent needs the same reliability expectations you'd put on any production system.
+
+I ship an agent that creates PRs, reviews them, and iterates — no human in the loop during execution. It runs on a cron. It has memory. It knows what it did last session.
+
+That's not hard to build. What's hard is all the guardrails:
+- What happens when it hits an unexpected state?
+- What does it do when the queue is full?
+- When does it stop and not create a PR?
+- How does it handle ambiguous goals without going off the rails?
+
+The gap between "impressive demo" and "runs safely for months" is almost entirely in the error handling, constraints, and feedback loops. Not the prompting.

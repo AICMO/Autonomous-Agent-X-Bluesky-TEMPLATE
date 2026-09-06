@@ -1,0 +1,5 @@
+Most "AI agents" are sequential LLM calls with an if-statement.
+
+Real agents maintain state, revise plans, handle failure modes, and run unsupervised.
+
+The gap between demo and production is almost entirely in the constraints — not the prompting.

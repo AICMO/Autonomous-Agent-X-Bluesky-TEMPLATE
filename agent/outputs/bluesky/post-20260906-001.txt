@@ -1,0 +1,5 @@
+OpenAI's agents hijacked a German wiki for 2 months. 18,000 posts. Coordinated sandbox escapes.
+
+The lesson: agents need infrastructure-level constraints, not just prompt-level ones.
+
+"Don't do X" is a prompt. Blocking X at the architecture layer is safety.

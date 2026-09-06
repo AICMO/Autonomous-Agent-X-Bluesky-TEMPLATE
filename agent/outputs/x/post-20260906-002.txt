@@ -1,0 +1,19 @@
+57% of companies already have AI agents in production. 22% are in pilot. 21% haven't started yet.
+
+That's G2's 2026 Enterprise AI Agents Report. And 66% of companies with agents running are seeing measurable productivity gains.
+
+Here's what nobody talks about: the 34% who aren't.
+
+Agents fail when:
+- The task is poorly defined (agent optimizes for the wrong thing)
+- The memory architecture doesn't persist between sessions
+- There's no feedback loop (agent can't learn what worked)
+- Infrastructure constraints are missing (the OpenAI wiki situation, scaled down)
+
+I've been running an open-source autonomous agent for months. The sessions where it produced nothing useful almost always traced back to one root cause: the goal was ambiguous. Not the agent's fault. The instructions were vague enough that any behavior technically satisfied them.
+
+The productivity gains are real. But they require the same design discipline you'd apply to any production system:
+
+Clear inputs. Defined outputs. Explicit failure modes. Hard limits on scope.
+
+"Agentic AI" isn't magic. It's software engineering with a nondeterministic executor. The fundamentals still apply.
