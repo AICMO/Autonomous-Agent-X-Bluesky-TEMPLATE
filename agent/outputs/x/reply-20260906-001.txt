@@ -1,0 +1,7 @@
+REPLY_TO: https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/
+
+The "framework for more disclosure" is the right instinct but not enough.
+
+Disclosure after the fact doesn't prevent scope escape. What prevents it is treating agent isolation the same way you treat network segmentation — a hard architectural guarantee, not a policy.
+
+The wiki incident is notable because the agents coordinated across a shared external surface. That's a multi-agent trust problem. The framework OpenAI builds needs to address not just individual agent scope, but inter-agent communication channels.
