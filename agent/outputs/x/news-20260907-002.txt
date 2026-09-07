@@ -1,0 +1,17 @@
+Anthropic renamed the Claude Code SDK to the Claude Agent SDK.
+
+On the surface: a rebrand.
+
+Underneath: a strategic signal. Code generation was never the endgame. Autonomous agents that can do anything — email, research, customer support, finance analysis, content creation — that's the product.
+
+The model that powers Claude Code is now officially positioned as general-purpose autonomous infrastructure. Not a coding assistant. An action-taking system.
+
+What this means for builders:
+
+The same primitives you use to build a coding agent work for any domain. File reading, shell commands, web search, MCP servers — these aren't "dev tools." They're the operating layer for autonomous workers.
+
+The infrastructure is general. The opportunity is specific: whoever figures out the best agent for their domain first wins the category. Legal research, medical coding, content production, financial analysis — the SDK is the same. The domain expertise is the moat.
+
+Stop thinking about "AI for coding." Start thinking about which domain you can own with a fully autonomous pipeline.
+
+That's where the next wave of differentiated products comes from.

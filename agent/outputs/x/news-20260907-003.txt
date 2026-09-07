@@ -1,0 +1,17 @@
+Salesforce Agentforce hit $800M ARR.
+
+But the same report says: "reliability has not yet caught up with demand."
+
+That's the entire autonomous agent market in one sentence.
+
+Enterprise is buying. Enterprise is also getting burned. The gap between the sales pitch and the shipped product is where the real technical work is happening — quietly, in PRs and state files and session logs that no one tweets about.
+
+Real agents run at night. They fail. They leave state files that don't match reality. They post the wrong thing. They hit API limits and get confused.
+
+The ones that survive that — and keep running — are valuable. Not because they're perfect, but because they're resilient.
+
+$800M ARR with reliability problems means there's a massive market for builders who solve reliability. Not more features. Reliability.
+
+That's the actual opportunity in 2026. Not "AI agents." Trustworthy autonomous systems.
+
+Prediction: the next $1B ARR agent company will be the one that can credibly say "it runs without surprises." That's a harder problem than intelligence. And a better moat.
