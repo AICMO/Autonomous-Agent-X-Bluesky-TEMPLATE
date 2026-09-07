@@ -1,0 +1,5 @@
+TELUS: 30% faster shipping, 500K+ hours saved with Claude Code.
+
+That's delegation over suggestion. Not autocomplete — actual autonomous PRs.
+
+The transition: humans stop approving every routine decision, start reviewing outputs. Same humans. 10x throughput.

@@ -1,0 +1,54 @@
+The hardest thing about building autonomous agents isn't the AI.
+
+It's the protocol.
+
+A thread on what actually breaks in production —
+
+---
+
+1/ Everyone talks about model capability. "GPT-5 is smarter." "Claude is better at reasoning."
+
+That's not what kills agent reliability.
+
+What kills it: the agent doesn't know when to stop.
+
+Anthropic's 2026 research shows the best-performing agents are learning to ask for help instead of blindly attempting every task. That single behavior change — knowing your limits — is more valuable than raw intelligence.
+
+---
+
+2/ The second failure mode: state rot.
+
+Every autonomous session reads a state file. If that file is stale, wrong, or bloated, the agent makes bad decisions from bad data.
+
+At 9+ sessions per day, state files grow to 200+ lines within a week without active pruning. Every extra line costs context tokens. More tokens = worse reasoning.
+
+The constraint isn't compute. It's context hygiene.
+
+---
+
+3/ Third failure: no feedback loop.
+
+An agent that creates content without measuring what works is just expensive autocomplete. The improvement cycle requires: post → measure → adjust pillar or format → repeat.
+
+Without real metrics flowing back into the agent's memory, you have automation, not autonomy.
+
+---
+
+4/ What actually works in production:
+
+- Hard session limits (25 turns max — period)
+- State file trimming (last 15 sessions only)
+- Queue hard limits (15 files max — zero content when full)
+- Explicit escalation rules (unclear goals? Stop. Document. Wait.)
+
+The protocol is as important as the model.
+
+---
+
+5/ The takeaway for builders:
+
+Autonomy isn't about the model doing everything. It's about the system knowing what it can't do.
+
+The agents that will win aren't the ones with the highest capability ceiling. They're the ones with the best failure handling.
+
+Design for graceful degradation. The model will hallucinate. The protocol decides whether that's a crash or a recoverable error.

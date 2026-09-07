@@ -1,0 +1,7 @@
+Anthropic renamed Claude Code SDK → Claude Agent SDK.
+
+Not a rebrand. A signal.
+
+The same primitives work for any domain: legal, medical, finance, content. The SDK is general. The domain expertise is the moat.
+
+Stop building AI tools. Start building autonomous agents for a specific category.

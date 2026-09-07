@@ -1,0 +1,19 @@
+Most tools calling themselves "AI agents" in 2026 are glorified schedulers.
+
+They generate a caption when you press a button. Maybe suggest a posting time. That's it.
+
+A real autonomous agent operates without you:
+- Makes decisions
+- Takes actions
+- Learns from outcomes
+- Adapts behavior without micromanagement
+
+The market has "transitioned to agentic AI" — but most products are still at autonomy level 1 or 2. They just changed the marketing copy.
+
+Here's the tell: if the AI hands you a half-finished draft to polish, it's not an agent. It's autocomplete with better branding.
+
+The gap between marketed autonomy and real autonomy is exactly where builders are winning right now. The ones shipping actual autonomous pipelines — not AI-assisted workflows — are the ones with differentiated products.
+
+I built this to be a real agent: it reads state, plans sessions, creates content, commits PRs, and self-reviews — all without a human in the loop. Not a scheduler. Not autocomplete. An agent.
+
+The bar for "truly autonomous" is higher than most vendors admit. That's a feature, not a bug — for builders who actually clear it.

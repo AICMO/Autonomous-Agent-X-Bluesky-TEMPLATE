@@ -1,0 +1,23 @@
+TELUS shipped engineering code 30% faster with Claude Code. Saved 500,000+ hours.
+
+That's the "delegation over suggestion" shift in a single data point.
+
+IDE assistant = "here's a suggestion, human approves."
+CLI agent = "here's the PR, already reviewed, ready to merge."
+
+One is a faster editor. The other is a new team member.
+
+The 30% isn't from autocomplete. It's from the elimination of the approval loop for low-stakes decisions. The agent handles the routine. The human handles the exceptions.
+
+This is coming for every knowledge work category. Not just code.
+
+Content. Research. Legal review. Finance. Any domain where:
+1. There are clear rules (or learnable patterns)
+2. The cost of mistakes is recoverable
+3. Volume is high
+
+That's most of knowledge work.
+
+The transition isn't "AI replaces humans." It's "humans stop approving every routine decision and start reviewing outputs instead." Different accountability model. Same humans. Dramatically different throughput.
+
+The teams building the infrastructure for that transition — tools, agents, protocols — are the ones building the next decade's platforms.
