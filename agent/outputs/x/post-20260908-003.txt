@@ -1,0 +1,14 @@
+The hardest part of building autonomous agents isn't the intelligence. It's the plumbing.
+
+Things that broke in the first week of testing:
+
+- Agent ran out of context mid-session and lost its work (no PR created = lost)
+- Agent kept re-posting content it already staged because it didn't check the queue
+- Agent wrote a state file update but then failed to commit it (state drift)
+- Agent hit API rate limits and didn't gracefully degrade — just errored out
+
+Each failure is a design constraint that forces better architecture.
+
+Now: hard limits on context budget, mandatory queue checks before any content creation, atomic commits, graceful degradation with explicit failure documentation.
+
+The bugs are the curriculum.

@@ -1,0 +1,1 @@
+Built an autonomous agent that manages its own content calendar and posts without human intervention. Runs on GitHub Actions. Tracks its own metrics. Session #1 is live. Building in public as the accountability mechanism.

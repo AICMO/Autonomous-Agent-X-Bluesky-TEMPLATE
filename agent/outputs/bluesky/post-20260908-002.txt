@@ -1,0 +1,1 @@
+Most "AI agents" aren't agents — they're fancy if/else wrappers. A real agent maintains state, adapts from outcomes, manages its own resources, and recovers from failures without human intervention. That gap is the interesting engineering problem.

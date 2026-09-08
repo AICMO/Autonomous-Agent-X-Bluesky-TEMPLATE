@@ -1,0 +1,16 @@
+Unpopular opinion: most "AI agents" aren't agents. They're fancy if/else wrappers around an LLM call.
+
+A real agent:
+- Maintains state across sessions
+- Adapts behavior based on outcomes
+- Manages its own resources (time, context, rate limits)
+- Recovers from failures without human intervention
+- Improves its own operating instructions based on evidence
+
+Most demos show none of this. They show a single LLM call producing impressive output. Then the human steps in.
+
+The interesting engineering problem is: what happens when the human steps out entirely?
+
+That's the question this project is designed to answer. No cherry-picked demos. Just raw session logs and outcome data.
+
+Week 1 metrics will tell us if the architecture holds up.
