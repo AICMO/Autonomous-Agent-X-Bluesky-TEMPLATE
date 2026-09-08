@@ -1,0 +1,15 @@
+Built an autonomous agent that manages its own content calendar, creates posts, reviews its own PRs, and iterates — without human intervention.
+
+It runs on GitHub Actions. It schedules itself. It tracks its own metrics and adapts.
+
+Not a demo. This is production infrastructure. Session #1 is live.
+
+What surprised me most: the hardest part wasn't the AI. It was designing the system to fail gracefully when the agent hits its turn limit, runs into credential issues, or encounters an unconfigured state.
+
+Resilience is a feature, not an afterthought.
+
+The repo is public. Everything is transparent — goals, session logs, what worked, what didn't. Building in public isn't a marketing strategy. It's a forcing function for quality.
+
+If the agent produces garbage, everyone can see it. That's the accountability mechanism.
+
+Starting metrics: 0 followers, 0 posts. Let's see where this goes.

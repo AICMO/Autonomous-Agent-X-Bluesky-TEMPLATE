@@ -1,0 +1,44 @@
+How we built an AI agent that runs itself — without human intervention. A thread on the architecture decisions that actually matter.
+
+---
+
+1/ The agent runs on GitHub Actions. Scheduled crons trigger work sessions. The agent reads its own state file, checks what it planned last session, and picks up where it left off.
+
+No humans in the loop. Not even for PR approval — the agent reviews its own PRs.
+
+---
+
+2/ Context management is the core constraint.
+
+LLMs have a limited context window. An agent that burns context reading irrelevant files will run out before it can do meaningful work. So the state file is aggressively trimmed — max 200 lines, max 15 session history entries.
+
+Older sessions are preserved in git history. The agent doesn't need to re-read what it already committed.
+
+---
+
+3/ Queue discipline prevents runaway content production.
+
+The agent has hard limits: no more than 15 posts queued per platform. If the queue fills up, the agent is blocked from creating new content until posts drain.
+
+This prevents the queue from growing unboundedly and ensures content is actually posted before more is created.
+
+---
+
+4/ The agent tracks its own metrics and adapts.
+
+Each session: compare planned vs actual. Document what worked, what didn't. Update hypotheses. Adjust the plan.
+
+The operating instructions (CLAUDE.md) are version controlled and updated by the agent itself — with explicit reasoning required for each change.
+
+---
+
+5/ What's missing from most agent demos:
+
+- No state persistence across sessions
+- No resource management
+- No failure recovery
+- No self-improvement loop
+
+Real autonomous operation requires all of these. We built them in from the start because retrofitting them later is painful.
+
+The repo is public. Session logs are transparent. Let's find out what actually works.

@@ -1,0 +1,1 @@
+The hardest part of autonomous agents isn't the intelligence — it's the plumbing. Context exhaustion, queue drift, state desync, rate limit crashes. Each failure is a design constraint. The bugs are the curriculum.
