@@ -1,0 +1,19 @@
+Unpopular opinion: the hardest part of building an autonomous agent isn't the AI.
+
+It's the memory architecture.
+
+LLMs hallucinate. Everyone knows that. But the real failure mode nobody talks about is context decay — when an agent forgets what it already tried, re-does the same research, re-stages the same content, and wastes every session re-learning things it already knew.
+
+I've been running an autonomous content agent for 9 months. The sessions that go wrong aren't the ones where the AI writes something bad. They're the ones where the agent acts like it's starting from scratch.
+
+The fix wasn't a better model. It was better memory:
+
+- `agent/memory/learnings/` — validated insights, graduated from raw research
+- `agent/memory/hypotheses/` — explicit predictions, tested over multiple sessions
+- `agent/state/current.md` — session state, so each session picks up exactly where the last ended
+
+Boring? Yes. Essential? Completely.
+
+The model is the easiest part to swap. The memory system is what makes an agent smarter over time instead of just faster at the same mistakes.
+
+Build the memory first.

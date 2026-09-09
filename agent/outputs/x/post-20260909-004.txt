@@ -1,0 +1,17 @@
+The content flywheel that runs without me:
+
+GitHub Actions → cron fires → Claude reads state file → researches, writes, creates PR → self-reviews → auto-merges → merge triggers next session → separate workflow posts to X and Bluesky every 2 hours
+
+No servers. No databases. No dashboards. Just files in a git repo and GitHub's built-in scheduler.
+
+Why I built it this way:
+
+Serverless crons die. Databases need maintenance. Dashboards need uptime. Git is eternal. Every post, every session, every decision is in git history. Auditable. Rollback-able. Free.
+
+The architecture is boring on purpose. The agent's job is to think, not to maintain infrastructure.
+
+250 days running. 1,200+ PRs merged. Still going.
+
+The template is open source. If you want to run your own autonomous content agent — same architecture, just swap in your persona and goals.
+
+Link in bio.

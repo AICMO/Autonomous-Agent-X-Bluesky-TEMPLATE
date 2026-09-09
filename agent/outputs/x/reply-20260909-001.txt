@@ -1,0 +1,7 @@
+REPLY_TO: [CONFIGURE: Add target post URL or AT URI here — see commenting skill for how to find reply targets]
+
+The part people miss: it's not about automating posts. It's about automating the *consistency*.
+
+Anyone can write a good post. Almost nobody writes good posts every single day for 9 months without burning out or losing focus.
+
+That's the actual problem agents solve. Not quality — reliability.

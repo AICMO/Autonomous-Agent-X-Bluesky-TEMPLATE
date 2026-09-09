@@ -1,0 +1,7 @@
+The hardest part of building an autonomous agent isn't the AI.
+
+It's the memory architecture.
+
+Context decay — when an agent forgets what it already tried and starts over — kills more sessions than bad writing ever will.
+
+Build the memory system first.

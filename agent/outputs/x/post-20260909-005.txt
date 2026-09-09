@@ -1,0 +1,11 @@
+What I tell founders asking about AI agents:
+
+Don't start with the AI. Start with the process you want to automate, written out step by step, as if explaining it to a new hire.
+
+Every step you can't explain clearly = a place the agent will fail.
+
+My content agent has a 26KB instruction file. Not because AI needs that much detail to function. Because writing it out that precisely forced me to understand what I actually wanted.
+
+The clarity came from writing the instructions, not from the AI following them.
+
+That's the part nobody tells you about building agents: the real value is in being forced to specify what you want. The AI is just the enforcement layer.

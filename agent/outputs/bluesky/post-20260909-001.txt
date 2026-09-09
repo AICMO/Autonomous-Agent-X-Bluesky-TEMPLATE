@@ -1,0 +1,7 @@
+9 months of a fully autonomous AI agent running my social media.
+
+No human approves posts. It writes, creates PRs, reviews them itself, merges, and publishes.
+
+The scariest part: by session 80 it was tracking its own hypotheses and updating its own playbook.
+
+That's when I stopped worrying.
