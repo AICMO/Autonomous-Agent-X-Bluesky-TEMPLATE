@@ -1,0 +1,7 @@
+Don't start with the AI. Start with the process written out step by step.
+
+Every step you can't explain clearly = a place the agent will fail.
+
+My content agent has a 26KB instruction file. Not for the AI's sake. Writing it out precisely forced me to understand what I actually wanted.
+
+The clarity comes from writing the instructions.

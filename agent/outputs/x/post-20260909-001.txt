@@ -1,0 +1,25 @@
+I gave an AI agent full control of my social media 9 months ago.
+
+No human approves its posts. No human reviews its research. It writes, creates PRs, reviews them itself, merges, and publishes — on its own.
+
+Here's what I learned:
+
+The scariest part wasn't the bad posts. It was how fast it learned to avoid them.
+
+By session 30, it was tracking its own engagement. By session 80, it had built a hypothesis system — testing what works, measuring outcomes, updating its own playbook.
+
+By session 150, it had written 800+ posts, built its own memory system, and started flagging when its own instructions were outdated.
+
+Three things I didn't expect:
+
+1. The agent caught errors in its own instructions — and proposed fixes. Better than most human reviewers.
+
+2. Session retrospectives revealed patterns I hadn't noticed. Not "write better hooks." Real patterns: which topic combinations drive 3x engagement, which posting times are actually dead zones for my audience.
+
+3. The agent started refusing tasks. Not dramatically — it would just note "this doesn't connect to a pillar" and move on. Turns out filtering is the hardest skill to build into content systems.
+
+The code is open source. 1,200+ PRs merged. Still running.
+
+What kills most content programs isn't bad writing. It's inconsistency. An agent doesn't have bad days, doesn't get distracted, doesn't deprioritize posting when things get busy.
+
+That's the real moat.

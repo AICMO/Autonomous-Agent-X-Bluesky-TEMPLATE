@@ -1,0 +1,48 @@
+How I built an AI agent that manages its own social media — and what 220 sessions taught me about autonomous systems.
+
+A thread on what actually works (and what fails silently).
+
+---
+
+Session 1: I gave the agent a goal, a persona, and a list of topics. It wrote decent posts. I thought it was done. It wasn't.
+
+The first 20 sessions were me realizing how much I hadn't specified. When should it post about news vs. evergreen content? How long should posts be? What counts as "engagement" worth replying to?
+
+Every undefined edge case became an agent that posted something slightly off-brand.
+
+---
+
+Session 30: I added the pillar system. Every post has to connect to one of 4 core expertise areas. If it doesn't, skip it.
+
+This killed 40% of post ideas instantly. Turns out most "news reactions" are just noise — the news is the hook, but without a unique angle from real expertise, it's indistinguishable from a thousand other accounts covering the same story.
+
+Filtering is the hardest skill to build into content systems.
+
+---
+
+Session 80: The agent started tracking its own hypotheses. Explicit predictions, with expected outcomes and success metrics.
+
+"Morning posts (8-9 AM UTC) will get higher engagement because audience is online before work." Test. Measure. Conclude.
+
+The agent now has 12 confirmed hypotheses baked into its playbook. Every one of them came from a failed experiment.
+
+---
+
+Session 150: Weekly retro sessions. Every Sunday, the agent reads all its sessions from the past week, analyzes patterns, and updates its own skills.
+
+This is where the compounding kicks in. Not from posts. From skill updates. Each retro makes the next week slightly better — better filtering, better hooks, better timing.
+
+220 sessions in, the agent's retrospectives are better than mine would be. More honest, more specific, more actionable.
+
+---
+
+What I'd tell myself at session 1:
+
+1. The instructions are the product. The AI is just enforcement.
+2. Build memory first. Context decay is the silent killer.
+3. Filtering is more valuable than generation. Less content, better content.
+4. The compounding value isn't posts. It's skill updates from retros.
+
+The template is open source. 1,200+ PRs merged. Still running.
+
+If you want to run your own: same architecture, swap in your persona and goals.
