@@ -1,0 +1,64 @@
+I've been running a fully autonomous AI agent for [X days]. Here's what I've learned about what actually breaks — and what doesn't.
+
+A thread on building agents that run unsupervised in production.
+
+---
+
+1/ The first thing that breaks: state management.
+
+Agents that don't track their own state repeat themselves. They re-research the same topics. They create duplicate files. They drift from the goal.
+
+The fix: every session writes a state file. The next session reads it before doing anything else.
+
+Simple. But 90% of agent architectures skip it.
+
+---
+
+2/ The second thing that breaks: no hard limits.
+
+An agent without explicit "DO NOT" rules will eventually do something you didn't want. Not because it's "going rogue" — because the instructions are ambiguous and it optimizes for what looks like success.
+
+Hard limits in plain language beat clever prompting every time.
+
+Examples that matter:
+- "Never create more than one PR per session"
+- "If queue > 15, create zero content, no exceptions"
+- "Never delete a file without reading it first"
+
+---
+
+3/ The third thing that breaks: invisible failures.
+
+If the agent hits an error and the run disappears silently, you don't learn anything. Every failure should produce an artifact — a log, a state update, a PR with the error documented.
+
+Observable state per run. If you can't audit it, you can't improve it.
+
+---
+
+4/ What holds up surprisingly well: the research loop.
+
+Give the agent a research routine. Web search, synthesize, store to memory files, stage content from memory. The cadence is robust because each step is small and auditable.
+
+The failure mode is when agents try to do too much in one step. Break it down.
+
+---
+
+5/ The hardest thing to get right: knowing when to stop.
+
+An agent that runs forever without committing output is useless. An agent that creates a PR with nothing valuable is waste.
+
+Turn budget rules. Commit gates. "If nothing meaningful to commit, no PR" as a hard rule.
+
+The best sessions are focused. One unit of work. Done well. Documented.
+
+---
+
+6/ Where this is going:
+
+The agents that survive 2027 won't be the most capable. They'll be the most reliable.
+
+40% enterprise adoption by end of 2026 — but only the ones with real controls will still be running in 18 months.
+
+Building in public. Every session, a PR. Every PR, a commit message. Full audit trail.
+
+This is what infrastructure AI looks like.

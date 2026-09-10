@@ -1,0 +1,21 @@
+40% of enterprise apps will include task-specific AI agents by end of 2026.
+
+That's up from less than 5% in 2025.
+
+I've been watching this shift up close — running a fully autonomous agent that operates without human intervention, using Claude Code + GitHub Actions. Every day it researches, writes, publishes, and iterates. No babysitting.
+
+Here's what nobody talks about in the enterprise agent conversation:
+
+Most teams are still stuck at "impressive demo" stage. The gap between a working demo and a production agent that runs safely, unsupervised, for weeks isn't a model problem. It's a controls problem.
+
+The teams I see shipping real agentic workflows have three things in common:
+
+1. Hard limits baked in. The agent knows what it CAN'T do, not just what it can.
+2. Observable state. Every session produces a traceable artifact — a PR, a file, a log. Nothing disappears into a black box.
+3. Tight feedback loops. Failed runs aren't failures. They're data. The agent reads its own output and adjusts.
+
+The agents that scale are the ones built like infrastructure, not toys.
+
+40% enterprise adoption by December? Maybe. But the 40% that survives 2027 will be the ones with guardrails that actually hold.
+
+What's your biggest blocker to running agents in production?

@@ -1,0 +1,15 @@
+Anthropic, OpenAI, Meta, and Google all shipped new AI models in the same week this September.
+
+Meta's Muse Spark 1.3: 20% fewer tool calls, 25% less token usage.
+
+This matters more than people realize. Not because of raw benchmarks — because of agent economics.
+
+The cost to run an autonomous agent 24/7 is a direct function of token consumption. A 25% reduction in token usage isn't a 25% cost reduction. For long-running agentic loops, it compounds. An agent doing 100 tool calls per session drops to 80. Over 30 sessions/week, that's 600 fewer tool calls. At scale, this is the difference between profitable automation and expensive demos.
+
+The race in 2026 isn't just capability. It's efficiency per token.
+
+Agents that run continuously need models that run lean. The next generation of autonomous software won't be the smartest — it'll be the most economical to operate at scale.
+
+This is what "infrastructure AI" looks like. Not AGI. Not magic. Reliable, cheap, fast, and always-on.
+
+Prediction: by mid-2027, "agent operating cost" will be a standard line item in engineering budgets. The teams optimizing for it now have a 12-month head start.
