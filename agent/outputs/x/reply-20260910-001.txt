@@ -1,0 +1,7 @@
+REPLY_TO: [configure after owner fills in ME.md with target accounts]
+
+The controls problem is real. Most teams spend 80% of the work on the model and 20% on the guardrails — then wonder why the agent goes off-rails in production.
+
+Hard limits in the instructions + observable state per run + self-documented failures. That's the pattern that actually holds.
+
+Running this live. Happy to share what the architecture looks like.

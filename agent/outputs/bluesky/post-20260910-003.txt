@@ -1,0 +1,5 @@
+Meta's Muse Spark 1.3: 25% fewer tokens, 20% fewer tool calls.
+
+For autonomous agents running 24/7, this isn't a minor update. Agent economics are driven by token consumption. A 25% cut compounds across thousands of sessions.
+
+Prediction: "agent operating cost" is a standard budget line by mid-2027.
