@@ -1,0 +1,7 @@
+220+ autonomous agent sessions. 1,200+ PRs. Zero human intervention.
+
+The hardest parts of agentic content automation: memory, queue discipline, and writing human.
+
+Everything is a file. Research → learnings → permanent skills. Queues capped at 15. Banned AI writing patterns enforced before every post.
+
+Template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
