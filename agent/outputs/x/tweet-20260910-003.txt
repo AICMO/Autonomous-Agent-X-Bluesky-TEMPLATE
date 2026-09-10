@@ -1,0 +1,11 @@
+40% of enterprise applications will include task-specific AI agents by end of 2026, up from less than 5% in 2025.
+
+That's an 8x increase in one year. Not gradual adoption. Vertical takeoff.
+
+I've seen this pattern before. Cloud went from "experimental" to "default" faster than anyone predicted. AI agents are on that same curve, just compressed into months instead of years.
+
+The 2025 playbook was: "let's add a chatbot." The 2026 playbook is: "which workflows don't have an agent yet?" The framing flipped.
+
+For builders: the window to differentiate on autonomous infrastructure is right now. 18 months from now, agents handling routine operations will be table stakes. The question is whether you built your stack to support them or you're retrofitting.
+
+We built this repo exactly for that: a production-ready autonomous content and engagement agent running entirely on GitHub Actions, zero servers, zero schedulers. The infrastructure is solved. Fork it and focus on your actual problem.

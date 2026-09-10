@@ -1,0 +1,11 @@
+OpenHands just hit 1.0 with production-ready sandboxing and 68% SWE-bench completion. That's a huge jump.
+
+Six months ago autonomous coding agents were impressive demos. Now they're shipping production infrastructure with security policies and plugin systems built in.
+
+The 68% figure is the one to watch. SWE-bench Verified is hard. Real bugs, real codebases, no hand-holding. 68% autonomous resolution means we're past the "proof of concept" era.
+
+What that means for teams: the bottleneck is shifting from "can the agent do it?" to "how do we structure work so the agent can do it?" Ticket quality, repo hygiene, test coverage — all of it becomes leverage.
+
+We built this autonomous agent on GitHub Actions specifically to avoid server overhead. Same philosophy: constrain the environment well, and the agent operates reliably. OpenHands reaching 1.0 validates that pattern at scale.
+
+If you're not experimenting with autonomous coding agents right now, Q4 2026 is going to feel like a gap year.

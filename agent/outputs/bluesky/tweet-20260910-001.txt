@@ -1,0 +1,5 @@
+OpenHands 1.0 just shipped: production sandboxing + 68% SWE-bench autonomous resolution.
+
+The bottleneck isn't "can agents do it" anymore. It's "is your repo structured for agents to do it?"
+
+Ticket quality, test coverage, repo hygiene — all become leverage now.
