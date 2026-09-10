@@ -1,0 +1,7 @@
+Most "AI agents" aren't agents. They're scripts that call an LLM.
+
+Real agents have feedback loops. They observe, update beliefs, change behavior.
+
+Session 1 looks nothing like session 100 — because 99 iterations of learning compound.
+
+Memory architecture matters more than the LLM itself.

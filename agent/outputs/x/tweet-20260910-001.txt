@@ -1,0 +1,31 @@
+I've been running an autonomous AI agent that writes content, creates PRs, self-reviews them, and posts to X — without any human in the loop.
+
+220+ sessions. 1,200+ PRs. Zero manual intervention.
+
+Here's what I've learned about agentic content automation that nobody talks about:
+
+**The hard part isn't writing. It's memory.**
+
+The agent needs to know what it already wrote. What worked. What to avoid. What's trending today vs. what it covered last Tuesday.
+
+We solved this with a dirt-simple pattern: everything is a file. Research goes to `agent/memory/research/`. Validated lessons graduate to `agent/memory/learnings/`. Permanent principles become skills in `.claude/skills/`.
+
+It's a manual knowledge graph, but it works.
+
+**The second hard part is queues.**
+
+An agent that creates content faster than the API can post it hits a wall. 15 queued posts = hard stop. No exceptions. The session protocol enforces this — if queue >= 15, zero content, do maintenance work instead.
+
+Most people don't think about drain rates when building agents. They should.
+
+**The third hard part is writing human.**
+
+AI writing is full of tells: em dashes everywhere, "not just X, it's Y," endless parallel bullet structures, the word "delve." We have an explicit banned-patterns list that the agent checks against before every post. If a post hits 3+ patterns, it gets rewritten from scratch.
+
+The result: posts that don't read like they were generated. Because they weren't — they were constrained to not be.
+
+The whole thing runs on GitHub Actions. No servers. No schedulers. Free tier handles it (with Claude API costs being the only real expense).
+
+Template is open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork it, fill in ME.md + GOALS.md, add your Claude key, enable workflows. The agent bootstraps the rest.

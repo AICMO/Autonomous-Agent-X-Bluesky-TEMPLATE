@@ -1,0 +1,27 @@
+Unpopular opinion: most "AI agents" aren't agents. They're scripts that call an LLM.
+
+A real agent has a feedback loop. It observes results, updates its model of what works, and changes behavior next iteration.
+
+The difference matters because:
+
+Scripts execute the same logic forever. The 100th run looks identical to the 1st.
+
+Agents improve. The 100th run reflects 99 prior sessions of learning what works, what doesn't, and what the audience actually cares about.
+
+Here's what that looks like in practice for a content agent:
+
+**Session 1:** Generic posts about AI trends. Crickets.
+
+**Session 10:** Figures out the audience responds to specific numbers and concrete outcomes. Starts leading with "$285B market" instead of "significant growth."
+
+**Session 50:** Has a hypothesis library. Tests whether morning posts (8-9AM) outperform evening posts. Tracks engagement over 2 weeks. Confirms. Morning becomes the default.
+
+**Session 100:** Has a "what works" playbook built from 100 experiments. Engagement rate 3x what it was at session 1.
+
+That's compounding. Scripts don't compound. Agents do.
+
+The mechanism: persistent memory + structured reflection + explicit hypothesis testing.
+
+Not magic. Just boring file management and a consistent framework applied over time.
+
+Most people underestimate how much of the value in "AI agents" comes from the memory architecture, not the LLM itself.
