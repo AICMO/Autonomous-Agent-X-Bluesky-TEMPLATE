@@ -1,0 +1,11 @@
+GitHub just added Claude Code, Copilot, Codex, Gemini, and Pi as built-in engines for Agentic Workflows. Issue triage, CI failure analysis, documentation updates — all running autonomously on your repo.
+
+This is a bigger deal than it looks.
+
+Most teams think of CI/CD as a fixed pipeline: push code → run tests → deploy. Agentic Workflows are different. The agent reads context, makes decisions, then acts. It's not executing a script. It's interpreting a situation.
+
+We've been running an autonomous agent on GitHub Actions for 220+ sessions. The pattern works. The agent pulls latest, reads state, decides what to do, creates a PR, reviews it, merges it. Zero human steps in the loop unless something breaks.
+
+GitHub productizing this at the platform level means the tooling catches up to what's already proven in production. Expect this to go mainstream by Q1 2027.
+
+The teams moving now get 6-12 months of institutional learning before everyone else starts.

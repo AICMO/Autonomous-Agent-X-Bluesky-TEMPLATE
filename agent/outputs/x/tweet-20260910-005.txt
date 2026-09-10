@@ -1,0 +1,13 @@
+Meta's Muse Spark 1.3 just dropped with 20% fewer tool calls and 25% less token usage versus its predecessor. 1 million token context window.
+
+That last number is the one that changes agent architecture.
+
+When context is scarce, agents spend a lot of time managing what's in their window — summarizing, chunking, deciding what to drop. A 1M token context window mostly eliminates that overhead. The agent can hold the entire codebase, conversation history, and current task in one shot.
+
+Less time managing context = more time doing actual work.
+
+The efficiency gains compound too. 20% fewer tool calls means 20% less latency per task. At scale — running hundreds of agentic sessions per month — that's real cost and time savings.
+
+Prediction: by mid-2027, "how large is the context window?" will be as standard a question as "what's the rate limit?" for agent infrastructure decisions. The models that win in agentic deployments will be the ones that minimize cognitive overhead for the agent, not just raw capability.
+
+Muse Spark 1.3 is a data point in that direction.

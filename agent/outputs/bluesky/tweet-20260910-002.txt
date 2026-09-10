@@ -1,0 +1,3 @@
+GitHub added Claude Code, Copilot, Codex, Gemini, and Pi as Agentic Workflow engines. Issue triage, CI failures, docs — fully autonomous.
+
+The teams learning this now get 6-12 months of institutional lead before it goes mainstream.
