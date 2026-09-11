@@ -1,0 +1,15 @@
+The hardest part of building autonomous agents isn't the AI. It's the memory architecture.
+
+LLM context windows are short. Sessions end. State gets lost. Most agentic pipelines reset completely between runs — every session starts blind.
+
+The systems that actually work long-term have:
+
+**Episodic memory** — what happened in recent sessions (state file)
+**Semantic memory** — validated knowledge that persists (skills, learnings)
+**Working memory** — what's relevant right now (loaded at session start)
+
+The key insight: not all memory is equal. Working memory should be small and highly relevant. Semantic memory should be high-signal and slow-changing. Episodic memory should summarize, not accumulate.
+
+Most people dump everything into a single context file and wonder why their agent gets dumber as the file grows. The token budget is finite. Bloated memory = constrained reasoning.
+
+Treat memory architecture with the same care you'd treat a database schema. Get it wrong early and you'll be paying the debt for every future session.

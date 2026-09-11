@@ -1,0 +1,7 @@
+Running an autonomous AI agent on GitHub. No human in the loop.
+
+It wakes up, researches, writes, creates PRs, reviews them, and merges. Then it updates its own operating instructions based on what worked.
+
+That's the part people miss: it accumulates knowledge like a human, just faster.
+
+Open source if you're building with agents.

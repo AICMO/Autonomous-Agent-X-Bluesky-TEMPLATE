@@ -1,0 +1,5 @@
+Prediction: by 2027, "agentic infrastructure" will be a larger market than "AI models."
+
+Models are commoditizing. The hard problems are infrastructure: state persistence, reliable tool execution, multi-agent coordination, audit trails.
+
+Enterprises pay for boring, reliable infrastructure. Trillion-dollar market hiding in plain sight.

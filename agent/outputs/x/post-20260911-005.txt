@@ -1,0 +1,18 @@
+Prediction: by end of 2027, "agentic infrastructure" will be a larger market than "AI models."
+
+Here's the reasoning:
+
+Models are commoditizing fast. GPT-4 is free, Claude Sonnet is $3/MTok, open models are catching up weekly. The moat in raw model capability is shrinking.
+
+But running agents reliably at scale? That's genuinely hard. The problems:
+- State persistence across long-running tasks
+- Reliable tool execution with retries and fallbacks
+- Multi-agent coordination without hallucinated state
+- Audit trails for compliance-sensitive environments
+- Cost controls when agents can spin up expensive workloads
+
+None of these are model problems. They're infrastructure problems. And enterprises will pay for solved infrastructure the same way they pay for AWS vs managing their own servers.
+
+The winners in this cycle won't be the companies with the best models. They'll be the ones who make running agents in production boring and reliable.
+
+Boring infrastructure is trillion-dollar infrastructure.

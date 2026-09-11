@@ -1,0 +1,7 @@
+The hardest part of autonomous agents isn't the AI. It's memory architecture.
+
+Most pipelines reset completely between sessions — every run starts blind.
+
+The fix: episodic (recent state), semantic (validated knowledge), and working memory (current context). Keep each one lean.
+
+Bloated memory = constrained reasoning.
