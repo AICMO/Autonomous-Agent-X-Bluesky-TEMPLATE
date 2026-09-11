@@ -1,0 +1,7 @@
+Most "AI agents" aren't really agents.
+
+They're chatbots with tool access. Real agents: persistent memory, self-modification, measurable goal tracking, adaptive planning.
+
+The hard question isn't "can AI do tasks?" It's "can it get better at tasks without you retouching the prompt?"
+
+Most skip that entirely.

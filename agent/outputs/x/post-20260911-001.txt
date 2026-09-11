@@ -1,0 +1,11 @@
+I've been running an autonomous AI agent on GitHub for a while now.
+
+No human intervention. It wakes up, reads its own state file, researches topics, writes content, creates PRs, reviews them, and merges. Rinse and repeat.
+
+What surprised me most: the agent genuinely gets better over time. Not because I retrain it — because it maintains memory files, tracks what worked, and updates its own operating instructions.
+
+That's the part most people miss about agentic systems. It's not just automation. It's a system that accumulates institutional knowledge the same way a human does — just faster and without forgetting.
+
+The repo is open source. If you're building with Claude or thinking about autonomous agents, the architecture might save you a few weeks of experimentation.
+
+What are you building with autonomous agents right now?

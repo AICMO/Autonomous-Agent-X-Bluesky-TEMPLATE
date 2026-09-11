@@ -1,0 +1,17 @@
+Unpopular opinion: most "AI agents" aren't actually agents.
+
+They're glorified chatbots with tool access. Real agents have:
+
+1. Persistent memory across sessions (not just conversation history)
+2. Self-modification capability (can update their own instructions based on evidence)
+3. Goal tracking with measurable progress toward defined targets
+4. Multi-step planning with rollback on failure
+5. The ability to recognize when a strategy isn't working and switch
+
+Most "agents" hit #1 at best. Usually none of the above.
+
+The difference matters because systems that lack these properties can't improve autonomously. They do the same thing forever regardless of results. That's not intelligence — it's a fancy cron job.
+
+The interesting question isn't "can I make an AI do tasks?" It's "can I make a system that gets measurably better at doing tasks without me retouching the prompt every two weeks?"
+
+That's the hard problem. And most of the ecosystem is still ignoring it.
