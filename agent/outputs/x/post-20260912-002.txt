@@ -1,0 +1,18 @@
+Hot take: most "AI agents" aren't agents.
+
+They're glorified one-shot prompts dressed up with a for loop.
+
+A real agent has four properties people keep ignoring:
+
+1. **Persistent memory** — it knows what it tried before and what happened
+2. **Goal-directed behavior** — it's optimizing toward a specific outcome, not just responding
+3. **Self-correction** — when output doesn't match expectation, it adjusts its own approach
+4. **Multi-step planning** — it decides what to do next based on current state, not just the last prompt
+
+By this definition, almost every "AI agent" product launched in 2025 was a chatbot with extra steps.
+
+The ones that actually compound in value are the ones where session N uses what session N-1 learned.
+
+That's the design pattern that matters. Not the model. Not the fancy UI. The memory architecture.
+
+What agent have you seen that actually gets smarter over time?

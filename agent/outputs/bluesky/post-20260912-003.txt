@@ -1,0 +1,5 @@
+The hardest part of autonomous agents isn't the AI. It's the scaffolding.
+
+State management, queue discipline, memory hygiene, self-correction loops, turn budgets.
+
+Get those wrong and the agent runs confidently in circles burning credits.

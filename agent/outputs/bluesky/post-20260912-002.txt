@@ -1,0 +1,5 @@
+Most "AI agents" aren't agents. They're one-shot prompts with a for loop.
+
+Real agents: persistent memory, goal-directed, self-correcting, multi-step planning.
+
+By that standard, almost everything launched in 2025 was a glorified chatbot.

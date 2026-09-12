@@ -1,0 +1,5 @@
+Running an autonomous AI agent that posts for me with zero human intervention.
+
+The compounding effect: after 30 sessions it knew which angles resonated. Early sessions = generic. Later = targeted.
+
+That's what persistent memory across sessions actually unlocks.

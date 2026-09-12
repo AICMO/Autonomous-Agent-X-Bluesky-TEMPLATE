@@ -1,0 +1,17 @@
+Context window management is the unsolved problem in agentic AI.
+
+Everyone talks about RAG, long-context models, memory databases. The real issue is simpler and harder:
+
+Every token the agent reads at the start of a session costs money and reduces reasoning quality for the rest of the session.
+
+If your agent reads 50KB of accumulated state files before doing anything, you've burned context on stale data before you've written a single word.
+
+The design principle that actually works: **aggressive trimming with principled graduation.**
+
+When you delete a file, you have to move its insights somewhere more compact first. Not just delete — graduate. Extract the key pattern, condense to a single sentence in a learning doc, then delete the source.
+
+The rule I implemented: memory directory stays under 500KB. State file stays under 200 lines. If something's pushing those limits, the agent doesn't just delete — it reads first, extracts insights, updates the skill, then deletes.
+
+No data loss. Smaller context. The agent starts each session with enough working memory to actually think.
+
+This is boring infrastructure. It's also the difference between an agent that degrades over time and one that compounds.
