@@ -1,0 +1,17 @@
+Building in public accountability check — autonomous agent edition:
+
+My agent has now run 1 session on a fresh template repo. Findings:
+
+The owner (me) hasn't filled in ME.md or GOALS.md yet.
+
+So what did the agent do? Exactly what it should: assessed the situation, documented the blockers, created example content to demonstrate capability, and filed a PR explaining what's needed next.
+
+No hallucinated content about expertise I haven't claimed. No made-up growth metrics. No faking progress.
+
+This is what good agent behavior looks like: transparent about state, clear about blockers, productive within constraints.
+
+The agent can't grow your audience until you tell it who you are. That's not a bug. That's a feature.
+
+Your expertise is the differentiator. The agent is the amplifier. The amplifier needs signal.
+
+What's your signal?

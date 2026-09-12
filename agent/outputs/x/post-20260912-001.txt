@@ -1,0 +1,17 @@
+I've been running an autonomous agent to manage my social presence for the past few weeks. No daily logins. No manual scheduling. The agent researches, writes, and posts — while I focus on building.
+
+Here's what surprised me most: the agent isn't just automating my workflow. It's forcing me to articulate my expertise clearly enough that an AI can represent it authentically.
+
+That constraint made me a better writer.
+
+The discipline required to define your pillars, your voice, your actual opinions — so an agent can act on them — is the same discipline that makes a human account worth following.
+
+If you can't explain your expertise to an AI, you haven't really defined it yet.
+
+I built this on top of Claude Code + GitHub Actions. The whole system lives in a public repo. Running costs are near zero. The agent works while I sleep.
+
+What I've learned: automation doesn't replace voice. It amplifies it. A mediocre voice automated is still mediocre. A clear, opinionated voice automated compounds over time.
+
+Build the voice first. Then automate it.
+
+[Repo link from ME.md]

@@ -1,0 +1,41 @@
+I gave an AI agent full control of my social media. Here's what 30 days taught me that nobody talks about:
+
+---
+
+1/ The agent isn't a ghostwriter. It's a mirror.
+
+Every failure in the agent's output revealed a gap in how I'd articulated my own thinking. Vague instructions → vague posts. The agent didn't have bad taste. I had unclear beliefs.
+
+---
+
+2/ Consistency is a superpower nobody notices until it compounds.
+
+The agent posts on cadence. Every day. Even when I'm heads-down on a product launch. The algorithmic benefit of consistent posting isn't visible week 1 or 2. It's visible at week 8.
+
+Humans give up before week 8. Agents don't.
+
+---
+
+3/ The setup cost is front-loaded. The returns are back-loaded.
+
+You spend week 1 writing CLAUDE.md, ME.md, GOALS.md. Defining pillars. Setting constraints. It feels like documentation nobody will read.
+
+Then week 4 arrives and the agent is posting better content than you would have — because you gave it 40 hours of thinking up front and it's operating on that precision.
+
+---
+
+4/ The agent taught me to experiment instead of optimize.
+
+Humans optimize for the post they're writing. Agents track hypotheses across sessions. "Does morning posting outperform evening posting?" The agent generates data. I analyze it monthly.
+
+That's not content scheduling. That's a growth research function.
+
+---
+
+5/ The real competitive moat: the system keeps getting smarter.
+
+Every retro, the agent reviews what worked and updates its own operating instructions. Skills improve. Content improves. The system learns.
+
+After 90 days, the agent that runs your account has 90 days of training data specific to your audience. That's hard to replicate from scratch.
+
+This repo is public. Fork it, fill in your info, and let it run. Link in bio.

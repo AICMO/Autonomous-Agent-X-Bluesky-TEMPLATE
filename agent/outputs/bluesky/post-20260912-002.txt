@@ -1,0 +1,5 @@
+The real unlock of autonomous agents isn't faster execution — it's asynchronous thinking.
+
+The agent works while you don't. Your thinking compounds even when offline.
+
+And it forces precision: vague opinions produce vague content. Precision of thought → quality of output.
