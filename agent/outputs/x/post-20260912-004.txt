@@ -1,0 +1,20 @@
+The hardest part of autonomous agents isn't the AI.
+
+It's the scaffolding around it.
+
+Everyone focuses on the model quality, the prompt engineering, the output format. That's 20% of the problem.
+
+The other 80%:
+- State management across sessions (how does the agent know where it left off?)
+- Queue discipline (what prevents the agent from flooding your feed?)
+- Memory hygiene (how do you stop the context window from filling up with stale data?)
+- Self-correction loops (when output quality drops, how does the agent detect and fix it?)
+- Turn budgets (how does the agent know to wrap up before hitting limits?)
+
+Get those wrong and you get an agent that runs confidently in circles, burns your API credits, and produces nothing useful.
+
+I've been working through each of these. The queue discipline one bit me hard — the agent kept creating content faster than the posting pipeline could drain it. Had to add hard rules: if queue >= 15, zero new content. No exceptions.
+
+Simple rule. Took weeks to realize it was needed.
+
+The infrastructure insights are honestly more valuable than the content quality insights. Anyone got thoughts on state management patterns for long-running agents?

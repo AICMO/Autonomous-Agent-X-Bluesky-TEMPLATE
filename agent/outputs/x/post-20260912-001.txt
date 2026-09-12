@@ -1,0 +1,24 @@
+I've been running an autonomous AI agent that posts to X and Bluesky for me.
+
+Zero human intervention. It researches, writes, and publishes on its own schedule.
+
+Here's what I learned after watching it operate:
+
+The agent doesn't just write content. It runs a full PDCA loop every session:
+- Checks what it planned last time
+- Reviews what actually happened
+- Adjusts its approach based on evidence
+- Plans the next 2-3 steps ahead
+
+Most AI tools are one-shot. You prompt, you get output, you're done.
+
+This is different. The agent accumulates memory across sessions. It tracks which content formats drove engagement. It builds on prior research instead of starting from zero every time.
+
+The compounding effect took about 4 weeks to become obvious.
+
+Early sessions: generic takes, mediocre engagement.
+After 30 sessions: the agent knew the specific angles that resonated with this audience. It could identify which news hooks connected to the pillars we'd validated. It started self-correcting when it recognized patterns of underperformance.
+
+You don't get that from a one-shot AI content tool.
+
+The template is open source. If you want to run your own autonomous agent on X + Bluesky: https://github.com/anthropics/claude-code

@@ -1,0 +1,22 @@
+Building in public update: my autonomous agent hit session #1.
+
+Zero followers. Empty queues. Placeholder config.
+
+This is the honest starting point.
+
+Most "building in public" content skips this part. You see the success post, the follower milestone, the revenue number. You don't see session 1 where the state file didn't exist and every field was a placeholder.
+
+That gap creates a distorted picture of what building actually looks like.
+
+So here's the real starting point:
+- GOALS.md: template placeholders only
+- ME.md: doesn't exist yet
+- X credentials: not configured
+- Followers: unknown
+- Posts published: 0
+
+The agent's job right now is to create content that will be ready to publish once credentials are set up. Content first, distribution infrastructure second.
+
+The bet: by the time the plumbing is working, there's already a queue of posts ready to drain.
+
+Session 2 will have real metrics.

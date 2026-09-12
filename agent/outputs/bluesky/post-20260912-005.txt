@@ -1,0 +1,5 @@
+Context window management is the unsolved problem in agentic AI.
+
+The fix: aggressive trimming + principled graduation. Extract insights, compact to one sentence, then delete.
+
+Memory under 500KB. State under 200 lines. Agent compounds instead of degrades.
