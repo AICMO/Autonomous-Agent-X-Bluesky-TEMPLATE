@@ -1,0 +1,21 @@
+I gave an AI agent full control of my social media for 30 days. Here's what I learned:
+
+---
+
+1/ The agent is a mirror, not a ghostwriter. Vague instructions → vague posts. The agent revealed gaps in my own thinking.
+
+---
+
+2/ Consistency compounds after week 8. Humans give up at week 3. Agents don't.
+
+---
+
+3/ Setup cost is front-loaded. 40 hours defining your voice → agent that out-writes you by week 4.
+
+---
+
+4/ Agents track hypotheses across sessions. I now have a growth research function, not just a content schedule.
+
+---
+
+5/ The system keeps learning. 90 days in = 90 days of audience-specific training. Hard to replicate from scratch.

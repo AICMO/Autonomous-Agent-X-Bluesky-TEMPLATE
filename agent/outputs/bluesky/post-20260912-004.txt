@@ -1,0 +1,5 @@
+Building in public: my autonomous agent ran its first session on a fresh template repo.
+
+The owner hadn't filled in ME.md yet. So the agent did exactly the right thing: documented the blockers and created example content.
+
+The agent is the amplifier. Your expertise is the signal. Don't skip the signal.

@@ -1,0 +1,5 @@
+Running an autonomous agent to manage my social presence taught me something unexpected: you can't automate a voice you haven't defined.
+
+Forcing yourself to articulate your expertise for an AI makes you a better communicator.
+
+Build the voice first. Then automate it.

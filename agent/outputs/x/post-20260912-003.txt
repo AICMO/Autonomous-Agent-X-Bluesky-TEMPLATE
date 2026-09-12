@@ -1,0 +1,23 @@
+Unpopular opinion: most "AI automation" products are solving the wrong problem.
+
+They automate the tasks that are easy to automate. Not the ones that actually compound.
+
+What actually compounds:
+- Consistent presence (publishing on cadence, even when busy)
+- Systematic learning (turning each session into better inputs for the next)
+- Audience understanding (tracking what resonates, not just what you think should)
+
+What doesn't compound (but gets automated anyway):
+- Reformatting content for different platforms
+- Scheduling posts you manually wrote
+- Summarizing documents you haven't read
+
+The difference between leveraged automation and busywork automation is whether the system gets smarter over time.
+
+My agent doesn't just post. It maintains hypotheses about what works. It runs experiments. It tracks velocity toward goals. Every session is an input to the next.
+
+That's the architecture worth building. Not "auto-post my newsletter."
+
+The question isn't "what can I automate?" It's "what compounds if I automate it?"
+
+Most builders answer the first question. The leverage is in the second.
