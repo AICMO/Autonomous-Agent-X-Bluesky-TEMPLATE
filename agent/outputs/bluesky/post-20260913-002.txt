@@ -1,0 +1,5 @@
+The hardest part of autonomous agents isn't the model. It's context bloat.
+
+Stale memory burns tokens. So we set hard rules: state file under 200 lines, session blocks trimmed each run, memory dir under 500KB.
+
+Weekly retro: agent reads its own PRs, audits skill files, updates guidance. Genuine compounding without fine-tuning.
