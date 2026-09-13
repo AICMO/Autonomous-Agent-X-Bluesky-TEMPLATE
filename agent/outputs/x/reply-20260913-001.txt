@@ -1,0 +1,9 @@
+REPLY_TO: PLACEHOLDER_TWEET_ID
+
+The queue management rules are what keep it from going off the rails.
+
+Hard limit: if any platform queue hits 15 pending posts, zero new content gets created. Full stop. No exceptions.
+
+At first that feels overcautious. After watching an agent create 91 queued posts that took 7.5 days to drain — burning CI minutes on empty sessions the whole time — you understand why the constraint exists.
+
+Constraints are how you turn a demo into an infrastructure.

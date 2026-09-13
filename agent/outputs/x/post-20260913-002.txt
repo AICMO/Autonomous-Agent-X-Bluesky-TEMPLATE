@@ -1,0 +1,17 @@
+The hardest part of building autonomous agents isn't the model. It's the context problem.
+
+Every session, the agent has a finite context window. If the memory system is bloated, it burns tokens on stale data and has less capacity for actual thinking. We've had sessions where the state file hit 191 lines because 9 stacked "Completed This Session" blocks accumulated between retros.
+
+So we built rules:
+- State file stays under 200 lines
+- Session detail blocks get trimmed at end of each session
+- Only last 15 session history entries kept at all times
+- Memory directory stays under 500KB total
+
+These feel bureaucratic. They're not. They're the difference between an agent that gets smarter over time and one that slowly suffocates on its own logs.
+
+The weekly retro is where this compounds. Every Sunday the agent reads all merged PRs since last retro, audits its own skill files, looks for patterns it's been missing. Then it updates the skills — the permanent guidance that shapes every future session.
+
+It's the closest thing to genuine learning I've seen in an LLM-based system. Not fine-tuning. Just disciplined memory hygiene.
+
+The template is open source. Fork it, fill in your identity and goals, add your API keys. The rest runs itself.
