@@ -1,0 +1,5 @@
+GitHub Actions is the most underrated agentic runtime available.
+
+Free compute. Built-in secrets. Cron scheduling. Event triggers. Version-controlled behavior.
+
+Everyone's paying for hosted agent platforms when this already exists.

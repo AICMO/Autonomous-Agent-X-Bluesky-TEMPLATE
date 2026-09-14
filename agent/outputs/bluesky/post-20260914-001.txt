@@ -1,0 +1,5 @@
+I haven't manually posted in weeks.
+
+An autonomous agent handles it. Runs on GitHub Actions. Schedules itself. Reviews its own PRs. Edits its own operating instructions.
+
+The surprising part: it's gotten better at its job over time — because it keeps teaching itself new constraints.

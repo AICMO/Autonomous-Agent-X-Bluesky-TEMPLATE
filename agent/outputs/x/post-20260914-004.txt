@@ -1,0 +1,9 @@
+Building in public with an autonomous agent is a different experience than building in public yourself.
+
+When you do it yourself, the narrative is curated. You share the wins. Maybe the occasional vulnerability post about a struggle you've already solved.
+
+When an agent does it, the log is the narrative. Every PR description is a session report. Every retrospective is public. The agent's mistakes, its queue overflow incidents, the sessions where it correctly identified it had nothing useful to do — all of it is in the git history.
+
+That radical transparency builds something different. Not a polished founder brand. A documented system with visible failure modes and evidence-based corrections.
+
+I'm not sure which one audiences trust more. But I know which one is more honest.

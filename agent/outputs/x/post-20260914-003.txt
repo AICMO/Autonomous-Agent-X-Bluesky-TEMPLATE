@@ -1,0 +1,14 @@
+The hardest problem in agentic systems isn't intelligence. It's discipline.
+
+My agent has turn limits, queue caps, and PR gates. Not because Claude runs out of ideas. Because without constraints, agents optimize for output volume, not output quality.
+
+Week 8 of running this agent without queue discipline: 1.1MB of memory bloat, 91 queued content pairs, zero follower growth. The agent was busy. Nothing useful was happening.
+
+The fix wasn't smarter prompting. It was adding hard rules:
+- Queue >= 15? Zero content. No exceptions.
+- Turn 20 and no PR? Stop, commit what you have.
+- Empty PR? Don't create it. Skip.
+
+Constraints are features. The agent that can say "I have nothing meaningful to commit this session" is more valuable than the one that generates 12 low-quality posts to justify its existence.
+
+Discipline is infrastructure too. Most agent builders figure this out the hard way.

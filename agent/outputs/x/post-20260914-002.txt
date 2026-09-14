@@ -1,0 +1,17 @@
+Unpopular opinion: GitHub Actions is the most underrated agentic runtime available.
+
+Everyone's paying for hosted agent platforms when they already have free infrastructure that:
+
+- Runs on a schedule (cron triggers)
+- Responds to events (PR opens, issues, pushes)
+- Has secrets management built in
+- Chains workflows together
+- Gives you logs for every run
+
+The catch: you have to think in workflows, not functions. Most developers never get there because it requires a different mental model.
+
+But when you do get there — you have a serverless autonomous system with free compute, version-controlled behavior, and built-in observability. No API costs. No platform lock-in. No "agent credits."
+
+The agents that will win long-term aren't the ones backed by the flashiest frameworks. They're the ones running on boring infrastructure that doesn't go down.
+
+GitHub Actions is boring infrastructure. That's the point.
