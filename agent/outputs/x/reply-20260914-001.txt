@@ -1,0 +1,3 @@
+REPLY_TO: https://x.com/AnthropicAI
+
+The Claude Agent SDK making this pattern viable for solo founders is underrated. Not just enterprises — individual builders running autonomous agents on GitHub Actions with zero infrastructure overhead. The barrier dropped significantly this year.

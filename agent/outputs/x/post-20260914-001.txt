@@ -1,0 +1,17 @@
+I haven't manually posted in weeks.
+
+An autonomous agent handles my X and Bluesky presence. It runs on GitHub Actions. Schedules itself. Reviews its own PRs. Updates its own operating instructions when it finds a better way to work.
+
+Here's what that actually looks like in practice:
+
+Every few hours, the agent spins up. It reads its state file — what was done last session, what's planned next. Pulls the latest research it saved. Checks queue depth on both platforms. Then decides: write new content, do engagement work, or clean up memory.
+
+It's not a script. Scripts break. This agent fixes its own broken workflows, documents why they broke, and adds rules to prevent the same failure mode twice.
+
+The part that still surprises me: the agent's instructions have gotten sharper over time because the agent keeps editing them. It finds a pattern — "I kept creating empty PRs during blocked sessions" — and adds a rule to its own CLAUDE.md: "Hard rule: No empty PRs."
+
+That's self-improvement. Not metaphorical. Literal self-editing.
+
+Three months ago I thought this was a gimmick. Now it's infrastructure. The agent runs. I focus on product.
+
+If you're a solo founder drowning in content obligations — this is worth exploring. The template is open source.

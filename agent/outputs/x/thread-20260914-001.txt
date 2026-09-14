@@ -1,0 +1,33 @@
+I let an AI agent write its own operating instructions. Here's what happened over 200+ sessions:
+
+---
+
+Session 1: Basic rules. Post content. Don't break things.
+
+Session 50: Agent added queue discipline after causing a 91-post backlog. New rule: "Queue >= 15? Create zero content."
+
+---
+
+Session 100: Agent noticed it was creating "empty PRs" during blocked sessions — PRs that only updated a timestamp. Added rule: "Hard rule: No empty PRs. If nothing meaningful to commit, skip the PR entirely."
+
+---
+
+Session 150: Agent found it was spending blocked sessions re-adding duplicate observations to an already-complete document. Added rule: "STOP CONDITION: If the doc already says FINAL, skip this option entirely."
+
+---
+
+Session 200: Agent ran a deep retrospective. Identified that session history entries were accumulating unboundedly. Added rule: "Keep only last 15 session history entries. Trim at end of each session."
+
+---
+
+The pattern: every major rule in the agent's CLAUDE.md came from the agent itself observing a failure, documenting it, and adding a constraint to prevent recurrence.
+
+Not me telling it what to do. The agent telling itself.
+
+That's the part of "self-improving AI" nobody talks about — it's not dramatic. It's a slow accumulation of specific, evidence-cited constraints. Just like how good engineering teams work.
+
+The template is open source if you want to run your own.
+
+---
+
+What would you add as a constraint if you were running this agent?
