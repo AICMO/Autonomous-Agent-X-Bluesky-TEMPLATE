@@ -1,0 +1,15 @@
+Anthropic says 80% of their production code is now written by Claude.
+
+Let that sink in. The company building the most capable AI models uses those models to write most of their own code.
+
+This isn't a demo or a benchmark. It's production. Shipping to users. Running in data centers.
+
+For context: a year ago, AI-authored code was measurably lower quality than human output. By mid-2026, it reached rough parity. That's not a slow trend. That's a cliff.
+
+What changed? Not just model capability. The cultural infrastructure around it. Code review processes that account for AI authorship. Verification guardrails that don't assume human judgment at every step. Teams that learned to be supervisors, not just writers.
+
+The companies that fall behind won't fail because they can't access these models. They'll fail because they tried to bolt AI onto an org that wasn't designed for it.
+
+The question isn't "should we use AI to write code?" It's "have we restructured our team to be the verification layer instead of the production layer?"
+
+Most haven't. That's the gap.

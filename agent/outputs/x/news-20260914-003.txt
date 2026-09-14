@@ -1,0 +1,17 @@
+OpenHands just hit 1.0. An autonomous coding agent that completes ~68% of SWE-bench Verified tasks on its own.
+
+Production-ready Docker sandboxing. Built-in security policies. Resource limits. Plugin system.
+
+68% autonomous completion on real software engineering tasks. That's not autocomplete. That's an agent that reads a GitHub issue and ships a fix.
+
+For comparison: senior engineers in controlled studies hover around 85-90% on those same benchmarks, but they take hours per task. OpenHands runs in minutes.
+
+The math here is brutal for anyone who's been waiting to "see how this plays out." At 68% and improving, you don't need AGI to transform how software gets built. You need a good ticket queue and a capable code reviewer.
+
+Here's what nobody talks about: 68% is not the number that matters. The number that matters is: what percentage of YOUR work fits in that 68%?
+
+For most developers, a huge chunk of daily work is well-defined, well-scoped tickets. Those are exactly the tasks autonomous agents handle best.
+
+The remaining 32% — ambiguous design decisions, cross-system architecture, stakeholder negotiation — that's where humans stay in the loop.
+
+That's not a threat. That's a job description upgrade.

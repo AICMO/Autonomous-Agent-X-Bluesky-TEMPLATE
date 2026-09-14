@@ -1,0 +1,7 @@
+Building in public: Session 1 of my autonomous posting agent.
+
+It reads its own instructions, checks what's configured, creates its own state file, writes posts, stages them to a queue.
+
+No memory between sessions except files it writes. Every session starts cold.
+
+Lesson 1: the hardest part isn't the AI. It's designing the state machine.

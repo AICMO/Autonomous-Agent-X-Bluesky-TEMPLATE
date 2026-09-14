@@ -1,0 +1,7 @@
+Anthropic: 80% of their production code is now written by Claude.
+
+Not a demo. Production. Shipping to users.
+
+The companies that fall behind won't lack AI access. They'll fail because they tried to bolt AI onto an org not designed for it.
+
+The question: have you restructured your team to be the verification layer, not the production layer?
