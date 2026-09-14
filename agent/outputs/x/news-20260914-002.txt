@@ -1,0 +1,15 @@
+Salesforce just named 7 AI agents. Casey. Paige. Carter. Hunter. Marshall. Piper. Fin.
+
+Each handles a specific business function: sales, service, commerce, IT, supply chain, customer experience.
+
+Named agents are a bigger deal than they sound.
+
+When an AI system has a name, employees treat it differently. They build workflows around it. They blame it when things go wrong. They advocate for it in meetings. It becomes a colleague, not a tool.
+
+That's intentional. Named systems get defended. Defended systems get resources. Resources mean survival.
+
+The enterprise AI playbook in 2026: name your agents, give them clear domains, make employees feel accountable to them.
+
+Anthropic and OpenAI figured this out at the model level (Claude, GPT). Salesforce is applying it at the workflow level.
+
+Next step: agents that manage other agents. The org chart is about to get complicated.

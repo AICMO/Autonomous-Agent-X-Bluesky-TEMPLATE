@@ -1,0 +1,7 @@
+OpenHands 1.0: autonomous coding agent completing ~68% of real SWE-bench tasks.
+
+The number that matters isn't 68%. It's: what % of YOUR daily work fits in that 68%?
+
+Most dev tickets are well-defined and well-scoped. Exactly what autonomous agents handle best.
+
+The 32% that remains — ambiguous design, architecture, stakeholder decisions — that's a job description upgrade.
