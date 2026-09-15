@@ -1,0 +1,7 @@
+Unpopular opinion: the hardest part of running an autonomous agent isn't the AI.
+
+It's state management.
+
+The LLM is commoditized. Keeping the agent coherent across 300+ sessions — remembering what it decided, why it changed, what it's tracking — that's the hard part.
+
+State management is the moat. Not the model.

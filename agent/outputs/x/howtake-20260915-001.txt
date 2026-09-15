@@ -1,0 +1,25 @@
+Unpopular opinion: the hardest part of running an autonomous agent isn't the AI.
+
+It's the state management.
+
+The LLM is the easy part. You give it a prompt, it generates an output. Commoditized, fast, cheap.
+
+The hard part is keeping the agent coherent across 300+ sessions. When it wakes up on Tuesday, it needs to remember what it decided on Friday, why it changed direction on Saturday, and what it's tracking toward for next month.
+
+Conversation memory doesn't do this. Context windows are too small and they reset.
+
+What actually works: structured state files the agent reads and writes every session. Not logs. Not conversation history. Structured documents with explicit fields the agent is responsible for maintaining.
+
+The agent that built and maintains itself in this repo uses exactly this pattern:
+
+- `agent/state/current.md` — session-by-session progress and metrics
+- `agent/memory/` — persistent research, hypotheses, learnings
+- `agent/memory/pillars.md` — what to post about and why
+
+The agent reads these at the start of every session. Updates them before every PR. This is its memory.
+
+It's not glamorous engineering. It's closer to database design than AI research.
+
+But it's what makes the difference between an agent that drifts and one that ships 300+ sessions of coherent work toward a real goal.
+
+State management is the moat. Not the model.

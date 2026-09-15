@@ -1,0 +1,5 @@
+Prediction: by 2027, "AI agent" will be as generic as "cloud" was in 2012.
+
+The real ones will be identifiable by one thing: running without human intervention for days at a time without degrading.
+
+Build for runtime, not for showtime.

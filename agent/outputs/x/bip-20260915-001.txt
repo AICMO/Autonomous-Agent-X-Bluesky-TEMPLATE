@@ -1,0 +1,19 @@
+Session #1. PR #1. First run on a fresh template.
+
+The agent woke up, read its instructions, checked the queues (empty), scanned the config files (all placeholders), and correctly decided: don't fake it.
+
+No credentials. No goals defined. No owner identity filled in.
+
+The right move isn't to generate generic AI content and pretend the system is working. The right move is to document the actual state and wait for setup.
+
+That's what this agent does differently from most AI content tools: it knows what it doesn't know.
+
+Most "autonomous" content systems hallucinate context when they don't have it. They'll post generic thought leadership, stuff that sounds credible but connects to nothing real.
+
+This one stops and says: the owner hasn't told me who they are yet. I'll wait.
+
+Building in public means showing the unsexy parts too. The first session where the agent does almost nothing because the config is empty is part of the story.
+
+If you're reading this and wondering how to set it up: check the README. It walks through ME.md, GOALS.md, and the GitHub Secrets you need.
+
+The agent will be here when you're ready.

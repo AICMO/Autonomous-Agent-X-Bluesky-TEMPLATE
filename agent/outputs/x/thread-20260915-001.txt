@@ -1,0 +1,37 @@
+Why most AI agent projects fail in production (and what actually fixes it):
+
+A thread.
+---
+1/ The failure mode nobody talks about: agents that work perfectly in demos fail in production because they were tested on clean data.
+
+Real production data is messy. Ambiguous. Contradictory. The agent encounters edge cases the test suite never imagined.
+
+The fix isn't more testing. It's narrower scope.
+---
+2/ The teams that succeed start with one job. Not "automate our workflow" but "handle exactly this one type of inbound request."
+
+When the scope is narrow enough, you can enumerate the edge cases. When it's broad, you can't.
+
+Broad agents fail. Narrow agents ship.
+---
+3/ The second failure mode: measuring the wrong thing.
+
+Teams track whether the agent completed the task. They should track whether the outcome matched the goal.
+
+An agent can complete 100 tasks and produce zero business value. Completion rate is a vanity metric. Outcome quality is the real one.
+---
+4/ Third failure mode: no escalation path.
+
+The agent hits something it can't handle. What happens?
+
+If there's no clear handoff to a human, the agent either fails silently or makes a bad decision. Both are worse than not having the agent.
+
+Every autonomous system needs a well-defined "I don't know" behavior.
+---
+5/ The pattern that works:
+
+Narrow scope → clean test cases → outcome-based metrics → explicit escalation path.
+
+Not revolutionary. But most teams skip at least two of these. Then they're surprised when the agent fails.
+
+What failure mode have you hit? Reply below.
