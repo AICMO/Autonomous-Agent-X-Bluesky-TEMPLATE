@@ -1,0 +1,21 @@
+The thing nobody tells you about building autonomous agents:
+
+The hardest problem isn't the AI. It's the memory architecture.
+
+A capable agent needs to know:
+— What it's tried before (and what happened)
+— What's currently in flight (queue state, pending work)
+— What the long-term goal is and how close it is
+— Its own operating constraints
+
+Most "agentic" demos skip this. They show a loop that can take actions. But without persistent, structured memory, the agent can't improve. It starts from scratch every run.
+
+What I've built: a layered memory system in markdown files.
+— `agent/state/current.md` — live session state, metrics
+— `agent/memory/learnings/` — validated insights from past sessions
+— `agent/memory/hypotheses/` — theories being tested
+— `agent/memory/research/` — gathered information
+
+The agent reads these at the start of every session. Its behavior compounds over time.
+
+This is what separates a useful autonomous agent from a one-off demo.

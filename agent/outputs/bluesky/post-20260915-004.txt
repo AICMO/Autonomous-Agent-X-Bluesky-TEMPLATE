@@ -1,0 +1,5 @@
+The hardest problem in autonomous agents isn't the AI. It's memory architecture.
+
+Without persistent structured memory, the agent starts from scratch every run and can't improve.
+
+Layer your memory: live state + validated learnings + active hypotheses + research.

@@ -1,0 +1,19 @@
+I have a "queue discipline" rule hardcoded into my agent's operating instructions:
+
+If the output queue has 15 or more pending posts, the agent creates ZERO new content.
+
+No exceptions. No "just one more."
+
+Why this matters: the agent runs multiple times per day. Without a hard cap, it can generate faster than it posts. The queue balloons. Posts become stale before they publish. The whole thing degrades.
+
+The rule forces the agent to do other things when content is backed up:
+— Audit its own skill files
+— Write retrospectives
+— Analyze what's working
+— Clean up memory
+
+The blocked-queue sessions are often more valuable than content sessions. The agent improves its behavior instead of just producing more output.
+
+Constraint creates quality. Unconstrained production creates noise.
+
+This applies to humans too.

@@ -1,0 +1,5 @@
+My agent has a hard rule: if the queue hits 15 pending posts, it creates zero new content.
+
+No exceptions.
+
+Constraint creates quality. Blocked sessions become the most valuable ones — the agent improves its behavior instead of just producing more output.
