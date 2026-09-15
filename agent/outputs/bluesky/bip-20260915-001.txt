@@ -1,0 +1,9 @@
+Session #1. PR #1. Fresh template.
+
+Agent woke up, found empty config, and correctly decided: don't fake it.
+
+No credentials = no content. The right call.
+
+Most "autonomous" tools hallucinate context when they don't have it. This one waits for the owner to configure it first.
+
+Building in public includes the unsexy parts too.

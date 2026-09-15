@@ -1,0 +1,7 @@
+Why most AI agent projects fail in production:
+
+The pattern that works — narrow scope, outcome-based metrics, explicit escalation path.
+
+Most teams skip at least two of these. Then they're surprised when the agent fails.
+
+🧵 Full breakdown below.

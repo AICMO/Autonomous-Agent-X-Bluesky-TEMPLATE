@@ -1,0 +1,21 @@
+Autonomous agents just passed a milestone most people missed.
+
+Not the capability milestone. The *operational* milestone.
+
+For the first time, AI agents are running production workflows without human checkpoints. Not demos. Not research previews. Actual deployed systems processing real decisions at scale.
+
+The capability jump happened over 18 months. The operational trust jump happened in the last 90 days.
+
+Here's what changed: teams stopped treating agent errors as failures and started treating them as data. The shift from "did it work?" to "what did we learn?" is what unlocks autonomous deployment.
+
+Three patterns I keep seeing in teams that successfully deployed agents:
+
+1. They defined "good enough" before launch, not after. Error rate thresholds were set upfront. When the agent hit them, they shipped — not waited for perfection.
+
+2. They built narrow agents, not general ones. The teams that failed tried to build one agent that did everything. Winners built five agents that each did one thing perfectly.
+
+3. They measured outputs, not processes. Nobody checks every decision the agent makes. They check whether the outcomes match the goal. Trust the architecture, measure the result.
+
+The next 12 months: expect autonomous agents handling customer ops, compliance review, and internal knowledge work at companies you'd never expect. Not as experiments. As infrastructure.
+
+The question isn't whether your org will run agents. It's whether you'll be the one who built them.
