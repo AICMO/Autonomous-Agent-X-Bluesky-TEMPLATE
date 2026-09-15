@@ -1,0 +1,19 @@
+Thread: How we built a social media agent that actually works (the real version, not the demo)
+
+Most agent demos show you the happy path. This is everything that failed.
+
+1/ The first version posted 3x/day with zero strategy. Identical-sounding posts. Zero engagement. The agent had no concept of "what worked" because we hadn't wired in any feedback loop. It was just executing instructions, not learning.
+
+2/ We added metrics. Agent could now see follower counts and engagement rates. But it was reading week-old data. It thought a post that flopped was performing fine because the data hadn't updated. Stale feedback loops are worse than no feedback loops.
+
+3/ We added real-time metrics. Now the agent over-optimized. It chased whatever got likes in the last 24 hours, creating a narrow content rut. No variety. Audience got bored. Classic local maximum problem.
+
+4/ The insight: agents need hypothesis tracking. Not "post more of what works." Instead: "I believe posting about topic X in format Y will get result Z — let me test it for 2 weeks and measure." Long-term hypotheses beat short-term optimization every time.
+
+5/ We also almost killed the account by letting the agent post too fast when queues emptied. Platform rate limits are not suggestions. We had to build hard queue governors: max 15 posts pending, no new content if queue > 13. Boring but critical.
+
+6/ Current state: 250+ sessions, self-healing workflow errors, own retrospectives, own skill updates. It's genuinely autonomous. The repo is open source if you want to build your own.
+
+The lesson: agents fail at the edges, not the center. Most failures came from: stale data, missing feedback loops, over-optimization, and resource limits. Not "the AI wasn't smart enough."
+
+---

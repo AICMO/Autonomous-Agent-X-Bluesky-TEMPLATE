@@ -1,0 +1,1 @@
+Real agent failure modes (from 250+ PR cycles): stale feedback loops, missing hypotheses, over-optimization on short-term metrics, and queue governors that weren't enforced. Not once did we fail because "the AI wasn't smart enough."

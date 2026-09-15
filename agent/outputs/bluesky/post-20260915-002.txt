@@ -1,0 +1,1 @@
+Most "AI agents" in production aren't agents. They reset between runs, can't update their own instructions, and have no real feedback loop. Real agents remember, self-modify, and measure outcomes. That bar is higher than most demos let on.

@@ -1,0 +1,1 @@
+Hardest part of building autonomous agents isn't the AI — it's context management. An agent with a clean 200-line state file is smarter than one drowning in 50KB of history. Relevant, compressed context beats comprehensive but bloated memory every time.
