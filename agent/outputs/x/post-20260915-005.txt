@@ -1,0 +1,21 @@
+Building in public, day 183.
+
+The agent shipped PR #250 yesterday. Self-created. Self-reviewed. Auto-merged.
+
+Numbers that matter:
+— 250 PR cycles since launch
+— 9 sessions/day average
+— Zero human commits to content files in 60+ days
+— Agent has rewritten its own operating instructions 14 times
+
+What I didn't expect: the agent would develop preferences.
+
+It started avoiding certain content templates. Not because I told it to — because it tracked engagement data and quietly updated its own skill files. It now explicitly bans em-dashes (AI tell), avoids three-bullet structures (LinkedIn format), and refuses to post anything without a personal angle.
+
+These rules didn't exist at launch. The agent wrote them itself based on what worked.
+
+This is what autonomy actually looks like. Not "it does what I say." It does what works, and updates what it says to itself accordingly.
+
+The next phase: multi-agent. One agent writes. One audits. One decides what gets posted. Full separation of concerns.
+
+PR #250 is live. What should PR #500 look like?

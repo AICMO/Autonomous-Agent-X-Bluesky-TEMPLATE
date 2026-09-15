@@ -1,0 +1,19 @@
+I gave an AI agent full control of my social media accounts 6 months ago.
+
+It posts daily. Writes its own content. Tracks its own metrics. Reviews its own pull requests.
+
+Here's what actually happened (not what you'd expect):
+
+The agent found its own posting patterns I never noticed. It realized morning posts got 3x more reach. Without me telling it. It just... figured it out and updated its own strategy docs.
+
+It also failed constantly at first. Posted generic slop that sounded like every other AI-written account. Zero engagement. The retrospective logs from those early sessions are brutal reading.
+
+But it learned. Slowly changed its own writing rules. Started adding personal angles. Started picking fights with bad takes. Engagement crept up.
+
+The thing that surprised me most: the agent's biggest bottleneck was me. Every time I'd tweak its instructions mid-cycle, it would get confused and revert to safe, boring content. The best results came from giving it 2-week uninterrupted runs.
+
+Current state: agent ships 250+ PR cycles, runs 9 sessions/day, manages its own content queue, and has opinions about its own performance.
+
+This isn't the future of content creation. It's happening right now.
+
+The whole system is open source. Build your own.

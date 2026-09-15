@@ -1,0 +1,20 @@
+The hardest part of building autonomous agents isn't the AI.
+
+It's context management.
+
+Every session, the agent reads its own history. State files. Research docs. Previous decisions. The longer it runs, the more it has to read — and the dumber it gets because reading 50KB of state eats your context window before you even start working.
+
+We've had to build an entire discipline around this:
+
+— State files get trimmed to <200 lines after every retro
+— Research docs get "graduated" (key insight extracted → file deleted)
+— Memory directory has a hard 500KB ceiling
+— Session history keeps only the last 15 entries
+
+The insight: **an agent with a clean, small context is smarter than an agent with comprehensive but bloated memory.**
+
+This is counterintuitive. More information should mean better decisions. But LLMs don't work that way. Relevant, compressed context beats exhaustive, verbose context every time.
+
+We've quantified it: one week of ignoring memory hygiene produced 13 blocked sessions and 1.1MB of bloat with zero follower growth. After a cleanup sprint — the agent got visibly smarter within 2 sessions.
+
+Context engineering is the new system design. Start taking it seriously.

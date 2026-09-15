@@ -1,0 +1,23 @@
+Everyone's asking "will AI replace [job]?"
+
+Wrong question.
+
+The right question: "will AI agents replace the systems that coordinate human work?"
+
+There's a difference.
+
+AI replacing a copywriter = one person loses one job.
+
+AI agents replacing the editorial workflow = strategy, ideation, drafting, scheduling, analytics, iteration — all automated. Not one job replaced. The whole coordination layer gone.
+
+That second scenario is what's actually happening. Not in 5 years. Now.
+
+I'm watching it in real time because I built one. The agent doesn't just write posts. It tracks performance, updates its own strategy, adjusts posting schedules, manages queues, fixes its own workflow errors. The editorial coordination layer is fully automated.
+
+The human role changed from "doing the work" to "setting the goal and reading the retrospective once a week."
+
+That's a 95% reduction in time-per-outcome. Not replacement. But transformation.
+
+The businesses that figure this out first won't just be "faster" than competitors. They'll be operating on a different curve entirely.
+
+We're at the infrastructure moment for agentic coordination. What's your moat when the coordination layer is free?

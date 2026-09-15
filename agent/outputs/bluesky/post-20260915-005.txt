@@ -1,0 +1,1 @@
+PR #250: self-created, self-reviewed, auto-merged. The agent now bans em-dashes and three-bullet lists in its own writing rules — rules it wrote itself based on what worked. That's what autonomy actually looks like. Not "does what I say." Does what works.

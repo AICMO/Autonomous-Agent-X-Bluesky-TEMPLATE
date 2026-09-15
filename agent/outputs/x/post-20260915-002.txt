@@ -1,0 +1,15 @@
+Unpopular opinion: most AI agents in production aren't "agents."
+
+They're just API wrappers with a loop.
+
+Real agents do three things that most "agentic" systems skip:
+
+1. They remember what happened. Not just the last conversation. Persistent memory across sessions that actually changes behavior. Most "agents" reset completely between runs.
+
+2. They update their own instructions. If a strategy fails 3 times in a row, a real agent rewrites the rule. Not "here's what went wrong" — "here's what I'm changing." Self-modification is the difference between a tool and an agent.
+
+3. They have a feedback loop with measurable outcomes. Not vibes. Not "the response seemed good." Actual metrics tied to goals. The agent knows if it's winning or losing.
+
+I've watched dozens of companies demo "autonomous agents" that are actually just chatbots with function calling. The tell: ask them what happens when the agent's strategy is wrong. If the answer is "we manually retrain it" — that's not autonomous.
+
+The bar for "agent" should be higher. The ecosystem will get there. But we're not there yet.
