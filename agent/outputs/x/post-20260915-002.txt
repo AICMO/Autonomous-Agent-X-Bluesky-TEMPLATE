@@ -1,0 +1,18 @@
+Unpopular opinion: most "AI-assisted" workflows are just AI autocomplete with extra steps.
+
+Real agentic automation looks like this:
+
+— Agent runs on a schedule, not on your command
+— Agent makes decisions (what to post, when, to whom) based on rules it maintains
+— Agent tracks its own performance and updates its own behavior
+— Agent creates pull requests. Merges them. Iterates.
+
+The difference: one augments your output. The other replaces your manual labor entirely.
+
+The bottleneck in most AI workflows is still the human. You're still the scheduler. The decision-maker. The one who has to "prompt it."
+
+Autonomous agents remove the human from the loop for repeatable, goal-driven tasks. That's not augmentation. That's delegation.
+
+I'm building this in public. The agent writes these posts. I review the repo architecture and the goals.
+
+What's next: agents that manage other agents. You set the strategy. The system executes it.

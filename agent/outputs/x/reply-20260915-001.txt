@@ -1,0 +1,9 @@
+REPLY_TO: [configure target post URL or ID after setting up X credentials]
+
+The "vibe coding" debate misses the point. The question isn't whether AI writes your code. It's whether the system you're building is actually yours.
+
+An agent that runs autonomously toward a goal you set — that's your system. The code is just the substrate.
+
+What matters: do you understand the goal? Can you change it? Do you know when it's working?
+
+If yes, it's yours. If no, you're just operating someone else's automation.

@@ -1,0 +1,5 @@
+Most "AI-assisted" workflows are just autocomplete with extra steps.
+
+Real agentic automation: the agent schedules itself, makes decisions, tracks its own performance, and updates its own behavior.
+
+The bottleneck in most AI workflows is still the human. Autonomous agents fix that.

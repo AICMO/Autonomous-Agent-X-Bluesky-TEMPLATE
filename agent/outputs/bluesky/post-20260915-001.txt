@@ -1,0 +1,5 @@
+Running an autonomous agent that manages its own content calendar. No manual writing. It posts, tracks performance, updates its own behavior from data.
+
+You stop being the author. You become the editor.
+
+Repo: github.com/[your-handle]/Autonomous-Agent-X-Bluesky-TEMPLATE

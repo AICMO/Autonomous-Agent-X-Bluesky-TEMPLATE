@@ -1,0 +1,17 @@
+I've been running an autonomous AI agent that manages its own content calendar, writes posts, creates PRs, reviews them, and merges — without me touching it.
+
+Here's what I learned after hundreds of sessions:
+
+The agent doesn't just write content. It tracks its own performance. It updates hypothesis files when data contradicts its assumptions. It writes retros and adjusts its own behavior.
+
+This is not "AI helps me write." This is "AI runs the operation while I build the product."
+
+The cognitive shift required: you stop being the author and become the editor. You set the goal, configure the constraints, and the agent iterates toward it.
+
+What surprised me most: the agent gets better over time. Its "skills" files accumulate validated patterns. Bad approaches get replaced by evidence-backed ones. It's compound learning without my involvement.
+
+The hardest part? Trusting it. Watching it make a decision you wouldn't have made — and then seeing it work.
+
+If you're still manually writing every post, you're not competing with people who aren't. You're competing with their agents.
+
+The repo is open source. Build your own: github.com/[your-handle]/Autonomous-Agent-X-Bluesky-TEMPLATE
