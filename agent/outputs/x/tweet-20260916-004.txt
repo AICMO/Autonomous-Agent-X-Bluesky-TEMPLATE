@@ -1,0 +1,15 @@
+Unpopular opinion: governance is the most underrated problem in AI agent deployment.
+
+Everyone obsesses over which model to use, which framework to pick, how to write better prompts.
+
+Meanwhile, 75% of organizations say data integration and quality issues are their biggest obstacle. Not the model. Not the framework.
+
+The agent does what it's built to do. If it's built on bad data with no guardrails, it does bad things very efficiently.
+
+"Governance as code" is becoming the real differentiator in 2026. The teams shipping reliable agents aren't the ones with the best prompts. They're the ones who:
+- Define explicit behavioral boundaries in the agent's operating instructions
+- Build self-checking loops (agent reviews its own outputs before committing)
+- Keep humans informed without requiring human approval for every action
+- Treat failures as data, not disasters — and have systems to capture them
+
+The boring operational work is what makes agents trustworthy. Not the model selection.

@@ -1,0 +1,17 @@
+Multi-agent systems are replacing solo agents. Here's why.
+
+Solo agents hit a wall. One model, one context window, one decision loop. For complex workflows they drift, hallucinate, lose track.
+
+Multi-agent solves this by specialization. Research agent. Writing agent. Review agent. Each owns a domain.
+
+---
+
+The hardest part isn't the agents — it's the communication protocol between them.
+
+Most people reach for databases and message queues. Often overkill. Structured markdown files work for 80% of cases. Git handles concurrency.
+
+---
+
+My take: by end of 2026, multi-agent is the default for serious automation. Solo agents are for prototyping.
+
+The hard part isn't whether to use multi-agent. It's designing the right boundaries between agents.

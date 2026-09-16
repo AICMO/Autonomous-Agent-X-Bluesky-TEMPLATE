@@ -1,0 +1,7 @@
+Most AI agent projects fail because of state management, not the model.
+
+Agents forget. They repeat work, contradict past decisions, can't track what they were doing.
+
+Fix: treat agent state as a first-class concern. Structured state files. Persistent memory by type. Session history. Planned vs actual comparison.
+
+The agent that knows what it did last week beats better prompts. Every time.

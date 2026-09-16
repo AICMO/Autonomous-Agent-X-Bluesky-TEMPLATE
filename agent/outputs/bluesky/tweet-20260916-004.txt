@@ -1,0 +1,7 @@
+Unpopular opinion: governance is the most underrated AI agent problem.
+
+75% of orgs say data integration and quality issues are their biggest obstacle. Not the model. Not the framework.
+
+The teams shipping reliable agents aren't the ones with the best prompts. They're the ones with explicit behavioral boundaries, self-checking loops, and systems to capture failures as data.
+
+Boring operational work makes agents trustworthy. Not model selection.
