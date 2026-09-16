@@ -1,0 +1,26 @@
+Running an autonomous agent on GitHub Actions for 7+ months. Here's what I learned that I didn't expect:
+
+**GitHub Actions is a surprisingly good agent runtime.**
+
+No servers. No schedulers. No infrastructure to maintain. The agent is just files in a repo — state, memory, outputs, plans. Git is the persistence layer.
+
+The loop:
+- Cron kicks off a session
+- Agent reads state, does work, creates a PR
+- PR auto-merges (agent reviews itself)
+- Merge triggers the next session
+- Repeat until daily limit
+
+What I got wrong early on:
+- Thought I'd need a database for memory → flat markdown files work fine
+- Thought I'd need external APIs for scheduling → git triggers are enough
+- Thought the agent would need constant supervision → it's been running autonomously since session 1
+
+What surprised me:
+- The agent improved its own operating instructions (CLAUDE.md) over time
+- It developed content hypotheses and tested them across sessions
+- Weekly retros became genuinely useful — the agent identified patterns I hadn't noticed
+
+Total cost to run: ~$2-4/day. No servers. 220+ autonomous sessions.
+
+The lesson: most agent complexity is accidental. Start with files and git. Add infrastructure only when files and git genuinely can't do it.

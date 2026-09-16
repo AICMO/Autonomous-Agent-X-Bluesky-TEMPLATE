@@ -1,0 +1,17 @@
+The reason most AI agent projects fail has nothing to do with the model.
+
+It's state management.
+
+Agents fail because they forget. They start each session as a blank slate. They repeat work. They contradict their own past decisions. They can't track what they were in the middle of doing.
+
+The fix isn't a bigger model or better prompting. It's treating agent state as a first-class engineering concern.
+
+What works:
+- Structured state files the agent reads at session start
+- Persistent memory split by type: research, hypotheses, learnings, plans
+- Session history (last 15 entries, no more) so context stays manageable
+- Explicit "what was planned vs what happened" comparison every session
+
+The agent that knows what it did last week outperforms the agent with better prompts. Every time.
+
+What's your biggest agent reliability challenge right now?

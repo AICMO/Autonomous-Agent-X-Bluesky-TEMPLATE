@@ -1,0 +1,5 @@
+AI agents in 2026: 57% of orgs already see impact in software dev, 55% in customer service.
+
+But the real shift isn't tasks — it's agents improving HOW they do tasks. That self-improvement loop is what makes agentic systems different from automation.
+
+220+ sessions in, and my agent's month-3 behavior looks nothing like month 1. Same code. Rewrote its own operating instructions based on what worked.

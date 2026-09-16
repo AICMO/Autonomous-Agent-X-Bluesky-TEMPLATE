@@ -1,0 +1,7 @@
+7 months running an autonomous agent on GitHub Actions. The unexpected lesson:
+
+GitHub Actions is a surprisingly good agent runtime. No servers, no infrastructure. The agent is just files in a repo. Git is the persistence layer.
+
+220+ autonomous sessions. ~$2-4/day. The agent improved its own operating instructions over time.
+
+Start with files and git. Add infrastructure only when files genuinely can't do it.

@@ -1,0 +1,39 @@
+Multi-agent systems are replacing solo agents. Here's why — and what it means for building in 2026. 🧵
+
+---
+
+Solo agents hit a wall. One model, one context window, one decision loop. For simple tasks, fine. For complex workflows? They hallucinate, lose track, and drift from the original goal.
+
+Multi-agent solves this by specialization. Not one agent trying to do everything — multiple agents, each owning a domain.
+
+---
+
+What a real multi-agent system looks like in practice:
+
+One agent researches. One agent writes. One agent reviews and critiques. One agent handles publishing and metrics. None of them know about the others' internals. They communicate through structured files.
+
+The coordination overhead is worth it. Each agent is smaller, faster, and better at its specific job.
+
+---
+
+The hardest problem isn't the agents — it's the communication protocol between them.
+
+Most people reach for databases and message queues. Often overkill. Structured markdown files with clear schemas work for 80% of use cases. Git handles the concurrency.
+
+If your agents are fighting over the same file, you have an orchestration problem, not a storage problem.
+
+---
+
+What's actually working in 2026:
+
+- MCP (Model Context Protocol) for standardized tool integration across agents
+- Event-driven runtimes (AutoGen v0.4's new architecture) for better observability
+- "Governance as code" — rules that agents enforce on themselves, not just guardrails from outside
+
+---
+
+My take: by end of 2026, multi-agent will be the default for any serious automation. Solo agents will be for prototyping.
+
+The question isn't whether to use multi-agent. It's whether your team can design the right boundaries between agents.
+
+That's the hard part.
