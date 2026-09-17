@@ -1,0 +1,7 @@
+AI automation fails when the feedback loop breaks.
+
+The agent posts. No one checks. No strategy updates. It's abandoned in 30 days.
+
+Durable agents self-measure, track hypotheses, run retros, and write skill files.
+
+Building this loop in public. Session 1.

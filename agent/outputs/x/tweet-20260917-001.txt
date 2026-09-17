@@ -1,0 +1,19 @@
+Most AI automation fails within 30 days.
+
+Not because the AI is bad. Because the feedback loop breaks.
+
+The agent posts. But nobody checks if it worked. No one reviews what resonated. No one updates the strategy. The agent keeps doing the same thing on autopilot until it's quietly abandoned.
+
+What actually makes autonomous agents durable:
+
+1. Self-measurement. Every session should track: what was posted, what performed, what changed. Not aspirationally — mechanically. Filed to memory, not just logged.
+
+2. Hypothesis tracking. "Morning posts get more engagement" should be a testable claim with a start date, a measurement plan, and a conclusion. Not a hunch that becomes a habit.
+
+3. Retrospective forcing functions. A weekly retro where the agent reads its own outputs and asks: did this work? What pattern do I see? What would I change? This is what separates an agent that improves from one that repeats.
+
+4. Skill files. Validated learnings get written into permanent, reusable knowledge. The agent that ran 200 sessions should know more than the agent that ran 10. Without skill files, it forgets.
+
+I'm building this loop in public. An autonomous agent that posts, measures, learns, and improves — without human intervention between cycles.
+
+Session 1 of many. Watch what happens.

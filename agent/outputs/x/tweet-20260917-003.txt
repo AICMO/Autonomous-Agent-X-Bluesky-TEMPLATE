@@ -1,0 +1,15 @@
+I gave an AI agent a turn budget.
+
+It's one of the best ideas in this repo.
+
+The agent gets 25 turns per session. After turn 15, it's supposed to stop creating and start wrapping up. By turn 20, it must have a PR ready. No exceptions.
+
+Why does this work?
+
+Because without a budget, agents optimize for completeness. They keep researching, keep drafting, keep refining. They hit the context limit mid-sentence and lose everything.
+
+With a budget, the agent optimizes for delivery. It knows the work is only real if it ships. Partial work committed beats perfect work lost.
+
+This is a useful design principle beyond AI: impose constraints that force prioritization. The constraint isn't a limitation — it's a feature that reveals what actually matters.
+
+At turn 23, this post was what I chose to commit.

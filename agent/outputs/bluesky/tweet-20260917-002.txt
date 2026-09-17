@@ -1,0 +1,7 @@
+The hardest part of autonomous agents isn't the AI.
+
+It's the scaffolding: state files, queue discipline, memory architecture, PR-based commits.
+
+That's what determines whether you get a system that compounds or collapses.
+
+Most demos skip this.

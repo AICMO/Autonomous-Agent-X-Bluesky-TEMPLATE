@@ -1,0 +1,18 @@
+Unpopular opinion: the hardest part of autonomous agents isn't the AI.
+
+It's the scaffolding.
+
+Anyone can prompt an LLM to write tweets. The interesting problem is: how does it know when to post? What stops it from flooding the queue? How does it remember what it did last week? How does it know when a strategy isn't working?
+
+The answers aren't in the model. They're in:
+
+- State files (what session is this? what was planned?)
+- Queue discipline (hard limits that can't be overridden)
+- Memory architecture (research, hypotheses, learnings, plans — separate buckets)
+- PR-based commits (every change is reviewable, reversible, traceable)
+
+The scaffolding determines whether you get a system that compounds or a system that collapses.
+
+Most AI agent demos skip all of this. They show the shiny output. They don't show the turn budget, the state machine, the rate limits, the retry logic, the PR review loop.
+
+That's what this repo is actually about. Not prompts. Architecture.

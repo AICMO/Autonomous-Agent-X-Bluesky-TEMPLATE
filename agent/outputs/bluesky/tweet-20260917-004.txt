@@ -1,0 +1,7 @@
+Most "AI agents" are chatbots with a for loop.
+
+A real agent: persistent memory, self-modification, goal tracking, error recovery, deliverable accountability.
+
+The interesting question isn't "can AI write content?" It's "can AI run a content operation?"
+
+Different challenge entirely.
