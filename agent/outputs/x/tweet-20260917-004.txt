@@ -1,0 +1,15 @@
+Hot take: most "AI agents" are just chatbots with a for loop.
+
+A real agent has:
+
+- Persistent memory across sessions (not just conversation history)
+- Self-modification capability (can update its own operating instructions)
+- Goal tracking (knows what it's trying to achieve and measures progress)
+- Autonomous error recovery (detects failures, adjusts, keeps going)
+- Deliverable accountability (work only counts if it ships something reviewable)
+
+The bar is higher than most demos suggest.
+
+The interesting question isn't "can AI write content?" It's "can AI run a content operation?" Different challenge entirely. One is a task. The other is a system.
+
+We're early. The systems that work will look nothing like the demos.

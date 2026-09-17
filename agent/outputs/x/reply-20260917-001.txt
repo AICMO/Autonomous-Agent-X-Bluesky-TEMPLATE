@@ -1,0 +1,5 @@
+REPLY_TO: https://x.com/AnthropicAI/status/1
+
+The hardest part of building agents with Claude isn't the prompting — it's the scaffolding around it. State persistence, queue discipline, self-review loops, PR-based commits.
+
+Building this in public: an autonomous agent that manages its own sessions, measures its own performance, and updates its own operating instructions. The meta-layer is where the real work is.

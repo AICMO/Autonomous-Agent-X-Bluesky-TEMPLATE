@@ -1,0 +1,7 @@
+I gave an AI agent a turn budget: 25 turns, PR by turn 20.
+
+Without a budget, agents optimize for completeness and lose everything at the context limit.
+
+With a budget, they optimize for delivery. Partial work committed beats perfect work lost.
+
+Constraints are features.
