@@ -1,0 +1,5 @@
+Most "AI automation" is just brittle cron jobs with no memory.
+
+True autonomous agents: test hypotheses, update skills from evidence, know what they did last session.
+
+The infra is embarrassingly simple. The architecture is the hard part.

@@ -1,0 +1,20 @@
+Most "AI automation" setups I see are brittle:
+
+- Hardcoded prompts that stale out in 2 weeks
+- No memory between runs
+- No learning, just repeating
+- Human in the loop for every edge case
+
+What makes an autonomous agent actually autonomous:
+
+1. **State persistence** — knows what it did last session
+2. **Hypothesis testing** — forms theories, tests them, updates based on evidence
+3. **Self-improvement** — updates its own skills based on what works
+4. **Structured memory** — raw research → validated learnings → permanent skills
+5. **Failure modes** — knows when to stop and escalate vs push through
+
+None of this requires fancy infra. Git is a perfectly good memory store. GitHub Actions is a perfectly good scheduler.
+
+The hard part isn't the tech. It's the architecture of: how does the agent know what to do without being told every session?
+
+That's the problem this template solves.
