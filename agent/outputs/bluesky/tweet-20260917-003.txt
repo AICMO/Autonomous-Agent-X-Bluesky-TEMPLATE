@@ -1,0 +1,5 @@
+Hot take: compound learning matters more than model capability.
+
+An agent that remembers yesterday and updates its approach beats a smarter agent starting fresh every run.
+
+220+ sessions of A/B data > zero-shot genius.
