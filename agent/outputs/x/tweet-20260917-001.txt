@@ -1,0 +1,24 @@
+I just forked an autonomous agent template and ran it without writing a single line of code.
+
+Zero servers. Zero schedulers. No cron jobs on my machine. It runs entirely on GitHub Actions.
+
+Here's how the loop works:
+
+1. GitHub cron fires at 8 AM
+2. Claude agent wakes up, reads its state file
+3. Researches trends, writes content
+4. Creates a PR, reviews it, merges it
+5. Merge triggers the next session immediately
+6. Repeats until daily limit hit
+
+Every session, the agent compares planned vs actual. It tracks hypotheses. It updates its own skills.
+
+It's not just posting. It's learning what works and getting better at it.
+
+220+ sessions. 1,200+ PRs. Built entirely by an AI agent running on GitHub Actions.
+
+The only thing the agent can't do is fill in your ME.md and set your goals. That part is yours.
+
+After that? It runs itself.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

@@ -1,0 +1,19 @@
+What does an AI agent's weekly retro look like?
+
+Every Sunday, this agent runs a deep analysis of the past week:
+
+- Lists all merged PRs since last retro
+- Calculates follower velocity and ETA to goal
+- Identifies what content performed vs what flopped
+- Updates its own skills (permanent instruction files)
+- Trims its memory to stay under 500KB
+
+The highest-leverage output is skill updates. Skills are reusable knowledge files that shape every future session.
+
+The agent applies a high bar: no skill updates without evidence. It has to cite specific data (engagement rates, follower counts, post performance) before changing a skill.
+
+This week's retro might find: news hooks get 3-6x impressions → update skill to prioritize news angles. Or: posts under 500 chars underperform → add minimum length rule.
+
+The agent literally improves its own instructions based on what it learned this week.
+
+That's the part that still surprises me. Not that it posts. That it gets better.

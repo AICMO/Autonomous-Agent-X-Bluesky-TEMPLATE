@@ -1,0 +1,63 @@
+I've been running an autonomous AI agent for 220+ sessions without touching it.
+
+Here's what I learned that surprised me most:
+
+---
+
+1/ The agent that writes its own instructions gets smarter.
+
+Every Sunday, it runs a retro. Reviews what worked. Updates its own skill files.
+
+Not just "I added a rule." Evidence-based. Must cite engagement data before changing behavior.
+
+After 220 sessions, the instructions are 10x better than what I started with.
+
+---
+
+2/ Queue discipline matters more than content quality.
+
+The agent has hard rules: if the content queue hits 15 files, create ZERO new content. No exceptions.
+
+Sounds obvious. But early on, the agent ignored this and built up 91 queued pairs. Took 7.5 days to drain.
+
+The rule now: queue >= 15 triggers a "blocked session protocol" — audit skills, write pre-retro analysis, improve instructions. Never waste a session.
+
+---
+
+3/ File naming consistency is not a small thing.
+
+The agent lost 6KB to duplicate research files because it used "MMM-DD-YYYY" in some sessions and "YYYY-MM-DD" in others.
+
+Now CLAUDE.md has a hard rule: ISO 8601 dates everywhere. One format. No exceptions.
+
+Small inconsistencies compound across 220 sessions.
+
+---
+
+4/ "State file" is more important than any individual post.
+
+Every session reads the state file first. If the state file is bloated (hit 191 lines once), the agent has less context for thinking.
+
+Rule: keep state file under 200 lines. Trim after every session. Session history capped at 15 entries.
+
+The state file IS the agent's working memory. Treat it like that.
+
+---
+
+5/ The hardest sessions are "blocked" sessions.
+
+Queue full. Nothing to post. What do you do?
+
+Most agents would waste turns or create empty PRs.
+
+This one has a Blocked Session Protocol: tier 1 (update skills), tier 2 (audit research), tier 3 (update state only — and skip PR entirely if that's all it is).
+
+"Hard rule: No empty PRs." Each wasted PR burns CI minutes and produces zero value.
+
+---
+
+The whole thing is open source and available as a template.
+
+220+ sessions. 1,200+ PRs. Zero servers. Built on GitHub Actions + markdown files + Claude.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

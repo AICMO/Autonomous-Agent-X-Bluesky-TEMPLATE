@@ -1,0 +1,7 @@
+Most AI agents are over-engineered.
+
+No LangChain. No orchestration. No vector DB.
+
+This one runs 220+ sessions on: markdown files + git + GitHub Actions + Claude.
+
+Simple systems compound. Complex systems accumulate debt.

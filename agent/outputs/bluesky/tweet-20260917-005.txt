@@ -1,0 +1,5 @@
+The hardest part of building an autonomous agent wasn't the code. It was writing the instructions.
+
+You have to write a runbook for someone who can't ask questions and will follow your words literally — including the parts you forgot to specify.
+
+Most agent failures aren't model failures. They're instruction failures.

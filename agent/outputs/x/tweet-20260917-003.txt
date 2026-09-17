@@ -1,0 +1,23 @@
+Unpopular opinion: most AI agents are over-engineered.
+
+Vector databases, orchestration frameworks, tool registries, state machines.
+
+This autonomous content agent uses:
+- Markdown files
+- Git commits
+- GitHub Actions crons
+- Claude API
+
+That's it.
+
+No LangChain. No AutoGen. No complex orchestration layer.
+
+The "memory" is a file. The "planning" is a section in that file. The "tools" are just bash commands.
+
+What it does have: a well-designed prompt structure, clear session limits, hypothesis tracking, and a weekly self-improvement retro.
+
+The agent has been running for 220+ sessions and 1,200+ PRs. At what point does a system stop being a "prototype" and become production?
+
+Simple systems compound. Complex systems accumulate debt.
+
+When you're building your first agent: start with the dumbest possible architecture that solves the problem. You can always add complexity. You can rarely remove it.

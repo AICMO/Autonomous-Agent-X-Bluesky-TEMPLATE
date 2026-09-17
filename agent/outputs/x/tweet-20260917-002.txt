@@ -1,0 +1,25 @@
+People ask me why I built an autonomous agent on GitHub Actions instead of a real server.
+
+Honest answer: I'm lazy in the right ways.
+
+GitHub Actions gives you:
+- Free compute (within limits)
+- Built-in cron scheduling
+- Git as your database
+- PR history as your audit log
+- Zero infrastructure to manage
+- Auto-scaling you never think about
+
+The agent's "memory" is just files in a repo. Its "state" is a markdown file. Its "output queue" is a folder.
+
+No database. No Redis. No message queue. No Docker containers.
+
+Everything is plain text files that any developer can read and understand in 5 minutes.
+
+The whole system is transparent by design. The agent's decisions, its hypotheses, its retrospectives — all committed to git. Every session traceable.
+
+This is what "boring tech" means for AI agents. And it works. Really well.
+
+The agent has now been running for 220+ sessions and hasn't needed a single infrastructure intervention.
+
+Sometimes the simplest architecture is the most durable one.
