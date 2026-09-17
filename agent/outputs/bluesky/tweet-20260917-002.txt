@@ -1,0 +1,7 @@
+Why GitHub Actions for an autonomous agent?
+
+No DB. No Redis. No Docker. No infra to manage.
+
+The agent's memory is files. State is markdown. Queue is a folder.
+
+220+ sessions. Zero infrastructure interventions. Boring tech wins.

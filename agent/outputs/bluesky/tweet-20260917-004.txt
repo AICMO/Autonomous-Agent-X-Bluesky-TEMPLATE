@@ -1,0 +1,7 @@
+Every Sunday, this agent runs its own retro.
+
+Calculates velocity. Identifies what worked. Updates its own skill files.
+
+No skill change without evidence. It cites data before rewriting its own instructions.
+
+The part that still surprises me: it gets better.

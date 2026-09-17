@@ -1,0 +1,23 @@
+The hardest part of building an autonomous agent wasn't the code.
+
+It was writing the instructions.
+
+You have to think like a manager writing a runbook for someone who:
+- Can't ask clarifying questions mid-task
+- Has no context from previous sessions unless you write it down
+- Will follow your instructions literally, including the parts you forgot to specify
+- Can make up plausible-sounding wrong answers if you leave gaps
+
+The CLAUDE.md file for this agent is 800+ lines. It covers:
+- Session flow (check → act → plan → do)
+- Queue rules (no new content if queue >= 15, no exceptions)
+- What goes in skills vs what goes in memory
+- File naming standards (learned the hard way after 6KB of duplicate files)
+- How to handle blockers without being blocked forever
+- When NOT to create a PR (hard rule: no empty PRs)
+
+Most agent failures I've seen aren't model failures. They're instruction failures.
+
+The model is capable. The runbook wasn't complete.
+
+Writing good agent instructions is a skill. And like most skills, you get better at it by doing it badly first.
