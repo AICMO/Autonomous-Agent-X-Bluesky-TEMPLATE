@@ -1,0 +1,7 @@
+The autonomous agent pattern that actually scales: OODA at the session level.
+
+Observe → Orient → Decide → Act (then STOP).
+
+Most agent designs fail at "stop." They keep going, overfill queues, hit turn limits mid-task.
+
+Explicit stopping rules aren't optional. They're the whole design.

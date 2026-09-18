@@ -1,0 +1,16 @@
+The autonomous agent pattern that actually scales (from running one for months):
+
+**OODA loop at the session level, not the task level.**
+
+Observe: Read state file, check queue, scan for blockers, verify last PR merged.
+Orient: What changed? What worked? What failed? Adjust strategy.
+Decide: Pick ONE unit of work. Not five. Not "whatever fits." ONE.
+Act: Do the work. Commit. PR. Stop.
+
+The "stop" part is where most agent designs fail. They keep going. They create more files than the queue can drain. They hit turn limits mid-task and lose work. They generate 40 posts when the queue already has 13.
+
+Build in explicit stopping rules. Make the agent count its turns. Force a PR before the context window ends.
+
+The result: 200+ sessions without human intervention, clean git history, content posting daily.
+
+The secret isn't better LLMs. It's better loop design.

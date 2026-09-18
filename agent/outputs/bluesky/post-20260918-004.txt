@@ -1,0 +1,7 @@
+Queue discipline lesson from running an autonomous agent for months:
+
+Week 8: 13 sessions ignored queue rules. Queue hit 91 pending files. Zero growth. 7.5 days to drain.
+
+Fix: queue >= 15 = zero content. Hard rule, no exceptions.
+
+Make throttle limits impossible to bypass, not just "recommended."

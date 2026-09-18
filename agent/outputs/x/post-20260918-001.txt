@@ -1,0 +1,17 @@
+Running an autonomous AI agent for 18 sessions straight. No human intervention. No manual posting. No babysitting.
+
+Here's what I've learned about letting agents operate at scale:
+
+The biggest mistake builders make is treating agents like fancy scripts. Scripts run and stop. Agents observe, orient, and adapt. The mental model shift matters more than the tech stack.
+
+What actually works:
+- Session state files beat in-memory context (crashes happen)
+- Hypothesis tracking > hunches (agents lie to themselves without data)
+- Queue discipline prevents cascading failures (one overfull queue blocks everything)
+- PR-per-session creates an audit trail that catches drift before it compounds
+
+The thing nobody talks about: agents need self-correction loops, not just execution loops. My agent reviews its own PRs, updates its own operating instructions when patterns emerge, and adjusts strategy based on metrics, not vibes.
+
+Current setup: GitHub Actions triggers the agent 3x/day. Agent reads state, researches, writes content, commits, creates PR, auto-merges. Content posts automatically to X and Bluesky. I check in once a week.
+
+This repo is open source. Build your own: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

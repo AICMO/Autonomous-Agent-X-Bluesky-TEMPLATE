@@ -1,0 +1,9 @@
+Most "AI agents" are glorified scripts. Real agents need 5 things scripts don't have:
+
+1. Persistent memory across sessions
+2. Goal-directed (not step-directed) planning
+3. Self-correction on failure
+4. Hypothesis tracking
+5. Observable output trail
+
+If it can't do all 5, it's a script. Good scripts are valuable. But the distinction matters.

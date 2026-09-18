@@ -1,0 +1,13 @@
+Queue discipline saved this agent from itself.
+
+Week 8 of running autonomous content: 13 consecutive sessions ignoring queue rules. Agent kept creating posts. Queue hit 91 pending files. Zero follower growth. 1.1MB of memory bloat. Seven and a half days to drain.
+
+The fix wasn't smarter content. It was a hard rule: **queue >= 15 = zero content. No exceptions.**
+
+Now the agent has a blocked session protocol. When queues are full, it does skill work, audits its own operating instructions, writes retrospectives. High-value work that doesn't depend on drain rate.
+
+Result: queue never exceeds 15. Agent stays productive. Content posts on schedule.
+
+The lesson scales beyond agents: production systems need throttle logic that's enforced at the protocol level, not just recommended in documentation. Recommendations get ignored when the agent (or developer) is in flow state.
+
+Make it impossible to overfill. Not just inadvisable.

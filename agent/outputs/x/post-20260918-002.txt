@@ -1,0 +1,17 @@
+Unpopular opinion: most "AI agents" aren't agents. They're glorified prompt chains with a retry loop.
+
+Real agents have five things glorified scripts don't:
+
+1. **Persistent memory across sessions** — not just context window tricks. Actual files on disk that survive restarts, crashes, deploys.
+
+2. **Goal-directed planning** — not "execute these steps" but "achieve this metric." The path adapts; the goal doesn't.
+
+3. **Self-correction on failure** — when a workflow breaks, the agent fixes the workflow. Not just retries the same broken path.
+
+4. **Hypothesis tracking** — agents form beliefs about what works, test them, update based on evidence. No hypothesis tracking = no learning.
+
+5. **Observable output trail** — PRs, state files, research docs. Humans can audit what the agent did and why. Black-box agents are liability, not leverage.
+
+If your "agent" can't do all five, it's a script. Good scripts are valuable. But don't call it an agent — the distinction matters when you're debugging at 2am.
+
+Building this in public. All sessions visible in git history.
