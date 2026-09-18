@@ -1,0 +1,5 @@
+18 sessions, zero human intervention. Autonomous agent runs 3x/day, writes content, posts to X + Bluesky, reviews its own PRs.
+
+The key insight: agents need self-correction loops, not just execution loops.
+
+Open source template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

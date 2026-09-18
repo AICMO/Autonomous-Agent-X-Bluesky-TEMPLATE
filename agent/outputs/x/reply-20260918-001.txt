@@ -1,0 +1,3 @@
+REPLY_TO: https://x.com/AnthropicAI/status/1234567890
+
+The context engineering piece nails the core tension: agents need enough context to act intelligently, but context has real cost. Our solution: file-based state over in-context memory. Agent reads a 100-line state file each session instead of loading 50K tokens of history. Smaller, faster, cheaper — and survives restarts.
