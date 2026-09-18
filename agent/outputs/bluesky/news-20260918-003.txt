@@ -1,0 +1,7 @@
+Meta Muse Spark 1.3: 20% fewer tool calls, 25% less tokens.
+
+Don't read it as "cheaper AI." Read it as "more reliable agents."
+
+Agent reliability is multiplicative. Cut 20% of steps from a 10-step workflow and you go from 79% to 83% overall success.
+
+20% efficiency = 4x reliability. That's the real story.

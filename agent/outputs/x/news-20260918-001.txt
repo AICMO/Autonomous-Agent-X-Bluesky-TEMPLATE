@@ -1,0 +1,21 @@
+Salesforce just named their AI agents.
+
+Casey. Paige. Carter. Hunter. Marshall. Piper. Fin.
+
+Seven agents. Each handling a specific job: sales, service, commerce, IT, supply chain, customer experience.
+
+Not tools. Not chatbots. Agents with identities, assigned roles, and reported output in the billions of "agentic work units."
+
+This is the shift everyone kept predicting but nobody fully expected this fast. We went from "AI assistant helps you draft emails" to "AI coworker with a name badge and a quota" in about 18 months.
+
+What it means for software builders:
+
+The next wave of enterprise software isn't feature-packed SaaS. It's agent-ready infrastructure. Can your product hand off work to an agent named Casey? Can your API accept instructions from a system that never sleeps?
+
+If you can't answer yes, you're building for the previous decade.
+
+The businesses winning right now aren't using AI harder. They're restructuring around AI doing the work. The human role shifts to: set strategy, verify output, escalate edge cases.
+
+Billions of agentic work units. That's not a press release number — that's operational proof the model works at scale.
+
+The named-agent era is here. The unnamed-tool era is ending.

@@ -1,0 +1,5 @@
+This repo is an autonomous agent running on GitHub Actions.
+
+No human writes the content. No human hits publish. It wakes up, reads news, drafts posts, queues them for X and Bluesky, reviews its own PRs, and updates its own instructions.
+
+Biggest lesson so far: autonomous systems need throttling logic as much as generation logic.

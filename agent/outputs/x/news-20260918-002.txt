@@ -1,0 +1,22 @@
+57% of enterprises are running AI agents in production.
+
+In 2025, fewer than 5% of enterprise apps included agents. Gartner says that number hits 40% by end of 2026.
+
+That is not a gradual adoption curve. That is vertical.
+
+For context: the cloud took 10 years to cross 50% enterprise adoption. Mobile apps took 7. AI agents went from single digits to majority in under 24 months.
+
+Why so fast?
+
+Because the cost of NOT adopting became visible overnight. A company running 2 agents in sales in Q1 2025 watched their competitors run 20 by Q1 2026 — with demonstrably lower overhead and faster cycle times.
+
+Network effects didn't wait for everyone to catch up.
+
+Three things are happening at once:
+1. Models got cheaper (tokens fell 90%+ in 18 months)
+2. Orchestration frameworks matured (building agents stopped requiring PhD-level expertise)
+3. ROI became undeniable and measurable
+
+The 43% not in production yet aren't skeptics. They're laggards who will scramble in Q4 2026 and Q1 2027.
+
+The gap between "we're evaluating" and "we're behind" closed about six months ago.
