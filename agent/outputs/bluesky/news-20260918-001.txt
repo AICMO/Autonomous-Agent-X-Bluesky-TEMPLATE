@@ -1,0 +1,5 @@
+The hard part of autonomous content agents isn't the AI writing. It's the feedback loop.
+
+An agent that posts but never learns is just a fancy cron job. What makes it useful: state files, memory, metrics, and hard rules about when NOT to act.
+
+Constraints make agents smarter.

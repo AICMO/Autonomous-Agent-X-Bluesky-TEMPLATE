@@ -1,0 +1,21 @@
+Anthropic just published their guide on building effective agents. I've been running one in production for months. Here's what the guide gets right and what it leaves out.
+
+What they get right:
+
+**Augmented LLM is the right mental model.** An agent isn't a chatbot with extra steps. It's a language model given tools, memory, and a feedback loop. The key word is "augmented" — the model alone can't do much. The scaffolding around it is what makes it useful.
+
+**Orchestration matters more than model choice.** I've seen teams obsess over which model to use while neglecting state management, tool reliability, and error recovery. A well-orchestrated Claude Haiku outperforms a poorly-orchestrated Opus every time.
+
+**Parallelization is underrated.** Most agent implementations are sequential when they don't need to be. Research tasks, file reads, content generation — these can often run in parallel. The guide's section on parallel agent patterns is the most underutilized advice I see builders miss.
+
+What the guide doesn't cover:
+
+**Turn budgets.** In production, your agent will hit context limits, tool failures, and unexpected branches. You need explicit rules about when to stop and commit work vs. keep going. Without a turn budget, agents either run forever or abandon work silently.
+
+**Blocked session protocols.** What does the agent do when it CAN'T do its main job? This is a real production problem. Queue full? API rate limited? No new content to create? You need a fallback task hierarchy or your agent wastes CI minutes on empty commits.
+
+**Memory hygiene.** Agent memory files grow. Bloated files burn context tokens every session, making the agent progressively dumber. Pruning protocols, graduation criteria, and size limits are as important as what you write to memory.
+
+The guide is a solid foundation. The production details are hard-won.
+
+What's the messiest production agent problem you've hit?

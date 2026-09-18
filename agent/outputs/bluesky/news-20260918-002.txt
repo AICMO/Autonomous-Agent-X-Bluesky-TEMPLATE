@@ -1,0 +1,5 @@
+Anthropic's agent guide is solid. What it misses: turn budgets, blocked session protocols, and memory hygiene.
+
+Bloated memory files make agents dumber session by session. Pruning is as important as writing.
+
+The production details are always hard-won.
