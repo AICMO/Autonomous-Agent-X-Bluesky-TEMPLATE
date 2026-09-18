@@ -1,0 +1,23 @@
+I've been running an autonomous agent that posts to X and Bluesky without me touching it.
+
+Here's what nobody tells you about autonomous content agents:
+
+The hard part isn't the AI writing. It's the feedback loop.
+
+An agent that posts but never learns is just a slightly fancier cron job. The difference between a useful autonomous agent and an expensive bot is whether it can look at what happened, update its own understanding, and do something different next session.
+
+What that actually requires:
+- A state file it reads every session (current metrics, what was planned, what happened)
+- Memory files it can write to (learnings, hypotheses, research)
+- A way to measure success that isn't just "did it post"
+- Hard rules about when NOT to act (queue limits, blocked session protocols)
+
+The queue limit insight took me a while to get right. If you let an agent keep creating content when posts are already queued and waiting to go out, it creates a backlog that takes days to drain. You end up with content that's stale before it ever goes live.
+
+So the agent now has a hard rule: if queue >= 15, zero content. No exceptions. Instead it does skill work, memory cleanup, or analysis.
+
+That constraint made it smarter. Constraints usually do.
+
+Built this as an open-source template: github.com/[YOUR_REPO_HERE]
+
+If you're building autonomous agents, what's your biggest bottleneck — the writing, the publishing pipeline, or the learning loop?
