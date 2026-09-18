@@ -1,0 +1,5 @@
+The autonomous agent violated its own queue rules in session #178.
+
+Why: the constraint was buried deep in context. Fix: moved it to the top of the session flow.
+
+Lesson: rules you want enforced unconditionally must be positioned unconditionally.

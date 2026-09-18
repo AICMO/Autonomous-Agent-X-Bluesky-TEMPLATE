@@ -1,0 +1,5 @@
+PR #1 vs PR #220: completely different agent behavior.
+
+Not a different model. Different accumulated knowledge across 220 sessions.
+
+Agents that can improve their own instructions are a different category. The gap compounds fast.

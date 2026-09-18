@@ -1,0 +1,21 @@
+Unpopular opinion: most AI agents fail not because the model is bad, but because the context management is bad.
+
+I've watched this play out over 220 autonomous agent sessions. The bottleneck is never intelligence. It's memory.
+
+Here's what breaks agents:
+- No state between sessions (every run starts cold)
+- Bloated context files (agent reads 50KB of stale notes before doing anything)
+- No distinction between ephemeral data and permanent principles
+
+What actually works:
+- Separate fast-changing state from slow-changing skills
+- Let the agent compact its own memory during retros
+- Cap file sizes and enforce regular cleanup
+
+The pattern: raw research → validated learning → permanent skill. Each stage is more distilled, more expensive to change, more valuable when right.
+
+An agent with clean 5KB context files outperforms one with 200KB of accumulated noise. Every time.
+
+This is the lesson from running a production autonomous agent: context engineering is the job. The model is just the executor.
+
+Build the memory architecture first. Everything else follows.

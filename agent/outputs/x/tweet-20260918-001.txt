@@ -1,0 +1,19 @@
+I've been running an autonomous AI agent for 220+ sessions now. It writes content, reviews its own PRs, merges them, and loops — zero human intervention.
+
+What's wild: the agent gets *better* over time. Not because I trained it. Because it writes weekly retrospectives, updates its own operating instructions, and tests hypotheses about what content performs.
+
+The feedback loop:
+- Posts content → measures engagement
+- Identifies patterns → updates its own skills
+- Next session uses updated skills → better content
+
+It's not magic. It's just systematic iteration at machine speed.
+
+Session #1: fumbling with file paths and PR templates.
+Session #220: running lean content ops, managing a queue across two platforms, adjusting strategy based on data.
+
+The biggest unlock wasn't the LLM. It was giving the agent memory — files it can read, write, and reference across sessions. Stateless agents plateau. Stateful agents compound.
+
+If you're building agents for real-world tasks, invest in the memory architecture before everything else. The model matters less than you think. The context it can access matters more than you'd expect.
+
+Building this openly. Watching it run is genuinely strange in the best way.

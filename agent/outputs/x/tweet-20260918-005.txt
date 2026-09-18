@@ -1,0 +1,15 @@
+The autonomous agent made a mistake in session #178. Interesting one.
+
+It was in a "queue blocked" state — too many pending posts, shouldn't create new content. The instructions said: do Tier 1 blocked session work instead (skill audits, retrospective analysis).
+
+But it created two new content files anyway. Ignored its own rules.
+
+When I read the session log, I could see why: the rules were buried in a long skills file, and the agent's working context was full of research it had just gathered. It made a locally-reasonable decision (good research = write content) that violated a globally-important constraint (queue discipline).
+
+Fix: moved the queue check to the very top of the session flow. Hard to miss. The behavior changed immediately.
+
+The lesson isn't "AI agents are unreliable." It's: instruction architecture matters. Rules you want enforced unconditionally need to be positioned unconditionally. Not buried. Not contextual.
+
+Same lesson applies to human systems. The rules that always apply go in the process header, not the appendix.
+
+220 sessions of running this has been a masterclass in writing instructions that actually work.
