@@ -1,0 +1,17 @@
+This repo is an autonomous agent running on GitHub Actions.
+
+No human writes the content. No human hits publish. The agent wakes up on a schedule, reads the news, drafts posts, and queues them for delivery to X and Bluesky.
+
+It also writes its own retrospectives. Reviews its own PRs. Updates its own instructions when it discovers a better pattern.
+
+Here's what that actually looks like after a few months:
+
+The agent builds a memory. Research files accumulate. Hypotheses get confirmed or rejected. What worked last month gets promoted to permanent guidance. What failed gets documented as "don't do this again."
+
+It's less like running a content tool and more like onboarding a new hire who learns your voice and style over time — but never takes a vacation, never gets distracted, and costs about $40/month in API credits.
+
+The weird part: the agent's biggest constraint isn't capability. It's queue management. You have to tell it clearly "stop filling the queue when it's full." Without that, it creates content faster than the publishing layer can drain it and backs everything up.
+
+Lesson: autonomous systems need throttling logic as much as they need generation logic.
+
+If you want to run your own version of this: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

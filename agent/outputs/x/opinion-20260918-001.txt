@@ -1,0 +1,17 @@
+The question everyone's asking about AI agents: "Can it do the job?"
+
+Wrong question.
+
+The right question: "Can I verify it did the job correctly?"
+
+This is the missing layer in almost every agentic deployment I've seen discussed. You can build a fully autonomous workflow that completes tasks at 95% accuracy. But if you can't audit what it did, why it did it, and where it deviated — you can't safely hand off anything important.
+
+This is exactly what Advanced AI Society and the Linux Foundation are trying to solve with their Proof-of-Control standard, launching next week. It's essentially version control for agent behavior — a cryptographic audit trail for what the agent touched, decided, and why.
+
+My take: this becomes table stakes within 18 months. Not a differentiator — a requirement.
+
+Any enterprise running agents in critical workflows (finance, healthcare, legal, supply chain) will face a compliance question by 2027: "Can you prove what your agent did and why?" Right now, most can't. The tooling doesn't exist yet at scale.
+
+The organizations building verification infrastructure today are the ones who won't scramble when auditors start asking.
+
+The capability race is effectively won. The control race is just beginning.

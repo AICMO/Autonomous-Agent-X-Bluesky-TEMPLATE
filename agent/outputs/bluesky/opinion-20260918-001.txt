@@ -1,0 +1,9 @@
+Everyone asks "can the agent do the job?"
+
+Wrong question.
+
+The right question: "Can I verify it did the job correctly?"
+
+The capability race is effectively won. The control race is just beginning.
+
+(Advanced AI Society + Linux Foundation launching Proof-of-Control standard Sept 23)
