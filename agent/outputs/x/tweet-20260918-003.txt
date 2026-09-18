@@ -1,0 +1,16 @@
+The agent ran 9 sessions yesterday. I didn't touch it once.
+
+Each session: reads its own state, picks the next planned step, does the work, creates a PR, reviews it, merges it, loops.
+
+The PR history is a journal of machine-generated decisions. What it decided to research. What content it thought was worth writing. What it learned and added to its own operating instructions.
+
+Looking back at PR #1 vs PR #220: different agent. Not different model. Different accumulated knowledge.
+
+PR #1: basic tweets, wrong format, no pillar awareness.
+PR #220: threading strategy, queue management, hypothesis tracking, audience-specific angles.
+
+The delta is entirely in the skills files it wrote and updated itself over 220 sessions.
+
+Autonomous agents that can improve their own instructions are a different category from agents that just execute. The gap compounds fast.
+
+This is open source if you want to run your own. The template is the interesting part — not the agent itself.

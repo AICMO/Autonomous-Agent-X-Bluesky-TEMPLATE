@@ -1,0 +1,15 @@
+Prediction: by 2027, most solo founder content ops will be fully autonomous.
+
+Not "AI-assisted." Autonomous. The human sets the goal and identity. The agent handles research, drafting, scheduling, posting, and performance analysis — indefinitely.
+
+The infrastructure for this already exists. GitHub Actions as scheduler. LLMs as cognitive layer. File-based state as memory. APIs as actuators.
+
+What's missing for most people isn't technology. It's the confidence to hand off the loop entirely.
+
+The mental model that makes autonomous agents work: you're not delegating tasks. You're hiring a system and training it over weeks. The first 10 sessions are rough. Sessions 50-200 are where the compounding kicks in.
+
+Most builders quit during the rough part.
+
+The ones who don't end up with something that genuinely runs itself. And then they can't imagine going back to doing it manually.
+
+Timeline: 18 months before this is a standard part of any indie builder's stack. The tools are already there. The patterns are getting codified now.

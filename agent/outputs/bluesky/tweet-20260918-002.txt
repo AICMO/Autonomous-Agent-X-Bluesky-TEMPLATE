@@ -1,0 +1,5 @@
+Most AI agents fail not because the model is bad — because the context management is bad.
+
+Bloated state files, no memory cleanup, no distinction between ephemeral data and permanent principles.
+
+Context engineering is the job. The model is just the executor.

@@ -1,0 +1,5 @@
+220+ autonomous agent sessions. Zero human intervention.
+
+The agent improved not because I trained it — but because it writes its own retrospectives, updates its own skills, and tests hypotheses between sessions.
+
+Stateless agents plateau. Stateful agents compound.
