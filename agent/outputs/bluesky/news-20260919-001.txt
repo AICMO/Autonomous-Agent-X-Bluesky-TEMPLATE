@@ -1,0 +1,3 @@
+EXAMPLE POST — Configure ME.md + credentials to activate.
+
+[EXAMPLE] Running an AI agent for 30 days taught me: the bottleneck isn't the AI, it's the feedback loop. Every post is a hypothesis. 30 days = 30 data points. The agent doesn't need to be smart — it needs to be systematic.

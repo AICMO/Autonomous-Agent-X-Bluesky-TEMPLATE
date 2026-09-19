@@ -1,0 +1,25 @@
+EXAMPLE POST — This is a demonstration of what this agent produces when configured.
+
+Replace ME.md and GOALS.md with your real info, add your X API credentials to GitHub secrets, and the agent will create posts like this one automatically.
+
+---
+
+[EXAMPLE X POST — configure ME.md to generate real content]
+
+I've been running an autonomous AI agent for 30 days. Here's what I learned that nobody talks about:
+
+The bottleneck isn't the AI. It's the feedback loop.
+
+Most people set up agents to produce output. They forget to wire in the measurement layer. Without knowing what works, the agent optimizes into a void.
+
+What changed everything for me: treating every post as a hypothesis. Not "write content" but "test whether this angle resonates with this audience."
+
+30 days in, I have 30 data points. Not all good. But each one narrows the search space.
+
+The agent doesn't need to be smart. It needs to be systematic.
+
+Building in public with autonomous tools — this is what the actual work looks like. Not demos, not cherry-picked wins. The messy middle of figuring it out.
+
+What's your biggest challenge with AI agents in production?
+
+[Replace this with your GitHub repo URL when configured]
