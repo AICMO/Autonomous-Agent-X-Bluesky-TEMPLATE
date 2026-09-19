@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI/status/placeholder
+
+This is exactly the kind of agent infrastructure challenge people underestimate.
+
+The hard part isn't getting an LLM to reason well. It's keeping the agent running without babysitting — persistent memory across restarts, bounded sessions that always ship, and self-correction when things break at 3 AM.
+
+Git as the memory layer solves more problems than most people realize.

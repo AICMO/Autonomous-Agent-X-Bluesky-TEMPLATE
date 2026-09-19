@@ -1,0 +1,5 @@
+Most "autonomous agents" still need a human to restart them when something breaks.
+
+After 220+ sessions of truly hands-off operation, the lessons: git is the best memory layer, hard turn limits ship every session, queue caps prevent content debt.
+
+Build for months, not minutes.
