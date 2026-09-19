@@ -1,0 +1,7 @@
+Real autonomous agents have 3 things chatbots don't:
+
+1. Persistent memory across sessions
+2. Self-correction without human input
+3. Bounded autonomy with hard stops
+
+The boring infrastructure work is what separates demo agents from production agents.

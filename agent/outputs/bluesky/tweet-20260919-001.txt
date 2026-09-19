@@ -1,0 +1,5 @@
+Built an AI agent that runs itself — no servers, no humans.
+
+220+ autonomous sessions. Wakes up, researches, writes, creates PRs, self-reviews, merges. Posts to X + Bluesky every 2 hours.
+
+The whole thing runs on GitHub Actions. Template is open source.

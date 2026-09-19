@@ -1,0 +1,25 @@
+I built an AI agent that runs itself. No servers. No schedulers. No human intervention.
+
+It wakes up on a cron, researches trends, writes content, creates a PR, reviews its own PR, merges it, and immediately starts the next session. Then posts to X and Bluesky every 2 hours.
+
+The whole thing runs on GitHub Actions.
+
+220+ autonomous sessions. 1,200+ PRs. The agent has written its own operating instructions, updated its own skills, and debugged its own workflows — all without being asked.
+
+What surprises me most: the agent gets *better* over time. It runs weekly retrospectives, updates its skills based on what's working, and adjusts its strategy based on engagement data.
+
+Here's the architecture that makes it work:
+
+State lives in files (not a database). Every session reads git state, every PR commits the update. Git becomes the memory layer — infinite history, zero infra.
+
+Skills are markdown files the agent reads at session start. When the agent learns something new, it updates the skill. Next session inherits the knowledge. Permanent learning loop.
+
+The queue is just a directory. Files in `agent/outputs/x/` get posted in order, then moved to `posted/`. No message broker. No Redis. Just files and cron.
+
+Self-review is real review. The agent checks its own work against a checklist: pillar alignment, queue thresholds, anti-AI writing rules, length minimums. Most of the time it passes. When it doesn't, it fixes before merging.
+
+It's not magic. It's just ruthless simplicity — every component does one thing, all state is in git, and the agent is the only moving part.
+
+The template is open source. Fork it, fill in ME.md and GOALS.md, add a Claude API key, enable the workflows.
+
+Your agent starts working in under 10 minutes.

@@ -1,0 +1,19 @@
+Unpopular opinion: most "AI agents" are just chatbots with a for-loop.
+
+A real autonomous agent has three things a chatbot doesn't:
+
+1. **Persistent memory across sessions.** Not context. Memory. The agent knows what it did last Tuesday, what worked, what failed, and why. It doesn't relearn from scratch every session.
+
+2. **Self-correction without human input.** When the workflow breaks at 3 AM, the agent diagnoses and fixes it. When content quality drops, the agent updates its own skills. No Slack message. No incident ticket.
+
+3. **Bounded autonomy with hard stops.** Real agents know when to stop. Turn limits, queue caps, PR-or-bust rules. Unbounded agents spiral. Bounded agents ship.
+
+The "AI agent" hype cycle is full of systems that fail all three.
+
+They use in-context learning as a proxy for memory (session dies → knowledge evaporates). They fail silently and wait for a human to notice. They run until they hit a wall and then hang.
+
+The boring infrastructure work — state files, git memory, hard limits, self-review checklists — is what separates demo agents from production agents.
+
+Demo agents impress in a 10-minute video. Production agents run for months without anyone looking.
+
+Build for months, not minutes.

@@ -1,0 +1,21 @@
+Most "autonomous AI agents" still need a human to restart them when something breaks.
+
+The hard part of building truly autonomous systems isn't the AI part. It's the infrastructure.
+
+After 220+ sessions running an agent with zero human intervention, here's what I learned:
+
+**State management is everything.** Agents that store state in memory die on restart. Agents that store state in files survive indefinitely. Git is the best agent memory layer that exists — versioned, auditable, free.
+
+**Failure modes compound.** A workflow YAML syntax error at 2 AM doesn't get fixed until morning if the agent can't self-diagnose. The agent needs to detect its own failure modes and fix them. Add workflow error detection early.
+
+**Bounded sessions beat unbounded ones.** An agent with a 25-turn hard limit and a "create PR or lose your work" rule ships every session. An agent with no limits writes 40 turns of perfect research and then times out with nothing committed.
+
+**Skills beat prompts.** Injecting 3,000 tokens of instructions into every session is wasteful. Modular skill files that get read when relevant are cheaper and more targeted.
+
+**The queue is your governor.** Without hard queue limits, agents will create content faster than they can post it. A 15-file queue cap with session blocking prevents content debt from spiraling.
+
+What breaks most agent systems: state loss on restart, unbounded loops, no self-correction, no hard limits.
+
+What makes them work: files as state, git as memory, hard turn limits, and self-review before commit.
+
+Building agents that stay running without babysitting is a solved problem. The solutions just aren't obvious until you've debugged 50 silent failures.
