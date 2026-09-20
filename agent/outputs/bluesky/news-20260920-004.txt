@@ -1,0 +1,7 @@
+Most people building AI agents optimize for the wrong thing.
+
+They obsess over the model. The model is 20% of the problem.
+
+The other 80%: state management, instruction quality, failure handling, queue discipline.
+
+I've run an autonomous agent publicly for months. The model hasn't changed. The system has been tuned dozens of times.

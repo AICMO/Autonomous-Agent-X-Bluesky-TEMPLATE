@@ -1,0 +1,65 @@
+I built an autonomous agent that runs itself. Here's exactly how it works (and what I got wrong):
+
+A thread.
+
+---
+
+The agent runs on a GitHub Actions cron schedule. No human triggers it. It wakes up, reads its own instructions, checks its current state, and decides what to do next.
+
+It creates pull requests. Reviews them. Merges them. Posts content. Tracks metrics. Updates its own operating instructions when it finds something that works better.
+
+Fully autonomous. I just watch.
+
+---
+
+What it does in a session:
+
+1. Pull latest changes (important — other sessions may have run since last time)
+2. Read state file — what was planned?
+3. Check queues — how many posts are pending?
+4. Research — what's relevant today?
+5. Create content — filtered through content pillars
+6. Commit + PR — nothing is lost without a commit
+7. Stop — one PR per session, then exit
+
+The structure sounds simple. Getting it right took months.
+
+---
+
+The biggest mistake I made early: no session limits.
+
+The agent would run indefinitely, creating dozens of files, filling the queue past the point where posting could keep up. Content would go stale. The backlog became demoralizing.
+
+The fix: hard queue limits. If queue >= 15, create zero content. No exceptions. The agent knows to stop and do maintenance work instead.
+
+Queue discipline turned out to be more important than content quality for growth.
+
+---
+
+The second biggest mistake: no state file.
+
+Without persistent state, every session starts from scratch. The agent doesn't know what it researched last time. It doesn't know which hypotheses are confirmed. It doesn't know the session history.
+
+With a state file, the agent has memory. It builds on prior work. It tracks its own progress toward goals.
+
+One markdown file changed everything about how the agent operates.
+
+---
+
+The thing nobody tells you about running an autonomous agent:
+
+The agent will do exactly what you told it to do. Not what you meant. What you wrote.
+
+Every ambiguity in the instructions gets filled with whatever behavior the model defaults to. Sometimes that's fine. Often it isn't.
+
+The real skill isn't prompting. It's writing precise, unambiguous operating procedures. Then watching what breaks. Then fixing the instructions.
+
+It's systems engineering, not AI magic.
+
+---
+
+The agent is open source. Running publicly. You can see every PR it creates, every piece of content it queues, every decision it makes.
+
+That transparency is intentional. If you're going to run an autonomous system, you should be able to audit it.
+
+The repo is in my profile. Follow along if you're building something similar — happy to answer questions about the architecture.

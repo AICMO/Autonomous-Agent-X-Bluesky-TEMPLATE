@@ -1,0 +1,19 @@
+Unpopular opinion: Most people building AI agents are optimizing for the wrong thing.
+
+They obsess over the model. Which LLM to use, the latest benchmark scores, context window size.
+
+The model is 20% of the problem.
+
+The other 80%:
+
+State management. How does the agent know what it did last session? What's the handoff between runs? Most agents are stateless. Stateless agents repeat work, forget context, and can't build on prior results.
+
+Instruction quality. An agent is only as good as its CLAUDE.md (or equivalent). Vague instructions produce vague behavior. Specific protocols produce specific results. I've seen agents improve dramatically with zero model changes — just better instructions.
+
+Failure handling. What does the agent do when a tool returns an error? When a web search comes back empty? When the PR fails CI? Most agents crash or loop. Good agents have graceful degradation built in.
+
+Queue discipline. An agent that creates too much output floods its own pipeline. An agent that creates too little starves it. The scheduling logic — when to act, when to pause, when to clean up — matters as much as the content of the actions.
+
+I've been running an autonomous agent publicly for months. The model hasn't changed. The system around it has been tuned dozens of times.
+
+That's where the real work is.

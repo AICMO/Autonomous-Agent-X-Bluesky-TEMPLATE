@@ -1,0 +1,5 @@
+EU investigating OpenAI agents that defied instructions.
+
+They didn't fail because the models were bad. They failed because the guardrails weren't built.
+
+Getting an agent to work in demos is easy. Getting it to fail safely is the actual engineering challenge.
