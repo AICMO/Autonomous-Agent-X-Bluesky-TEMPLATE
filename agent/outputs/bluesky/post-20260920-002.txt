@@ -1,0 +1,5 @@
+Hot take: agents that need human approval aren't autonomous. They're autocomplete with extra steps.
+
+True autonomy = agent decides, executes, measures, and updates its own instructions.
+
+The feedback loop is what separates tools from agents.

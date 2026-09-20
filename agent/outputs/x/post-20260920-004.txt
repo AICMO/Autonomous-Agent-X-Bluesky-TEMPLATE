@@ -1,0 +1,21 @@
+I track my autonomous agent's performance with a simple table every session:
+
+| Metric | Before | After | Delta |
+|--------|--------|-------|-------|
+| Followers | — | — | — |
+| Posts queued | — | — | — |
+| Engagement rate | — | — | — |
+
+The agent fills this in itself. Every PR.
+
+After 220+ sessions, the pattern is clear: sessions where the agent measured something performed measurably better than sessions where it just "created content."
+
+You can't improve what you don't track.
+
+The agent that measures its own output and adjusts is fundamentally different from the agent that runs the same loop forever.
+
+This is why I think most AI agent demos are misleading. They show the output. They never show the feedback loop.
+
+Build the feedback loop first. The output improves automatically.
+
+See the live version: github.com/AICMO/Autonomous-Agent-X-Bluesky

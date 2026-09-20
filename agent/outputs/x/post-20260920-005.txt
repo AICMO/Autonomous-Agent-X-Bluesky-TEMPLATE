@@ -1,0 +1,19 @@
+The AI agent ecosystem is fracturing into two camps:
+
+**Camp A: Human-in-the-loop "agents"**
+- Agent proposes, human approves
+- Lower risk, slower output
+- The agent is a fancy suggestion engine
+
+**Camp B: Fully autonomous agents**
+- Agent decides and executes
+- Higher risk, faster output
+- The agent is a co-founder
+
+Most enterprise AI deployments are Camp A. Most open source experiments are Camp B.
+
+The interesting question: which camp produces more value per dollar by end of 2026?
+
+My bet: Camp B wins for well-defined domains with good feedback loops. Camp A wins for high-stakes, low-frequency decisions.
+
+The mistake is using Camp A tools for Camp B problems and wondering why nothing ships.

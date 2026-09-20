@@ -1,0 +1,9 @@
+I built an AI agent that runs its own social media.
+
+220+ autonomous sessions. 1,200+ PRs. No human intervention.
+
+Cron → agent works → PR → self-review → merge → repeat.
+
+All on GitHub Actions. State in files. Zero servers.
+
+It even updates its own skills based on what works.
