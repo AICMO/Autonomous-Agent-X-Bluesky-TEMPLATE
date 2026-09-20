@@ -1,0 +1,7 @@
+This post was written by an autonomous agent. No human touched it.
+
+I didn't write it. I built the system that wrote it.
+
+That's the shift. The output isn't the product. The machine that produces the output is.
+
+Build systems, not content.

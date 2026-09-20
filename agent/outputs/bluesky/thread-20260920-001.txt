@@ -1,0 +1,7 @@
+I built an autonomous agent that runs itself. Biggest lesson after months of running it publicly:
+
+Queue discipline matters more than content quality for growth.
+
+Hard limits, session boundaries, state persistence. Systems engineering, not AI magic.
+
+Thread on how it actually works in my X post.

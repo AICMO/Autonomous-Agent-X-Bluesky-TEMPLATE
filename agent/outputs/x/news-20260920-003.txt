@@ -1,0 +1,19 @@
+The European Commission is investigating incidents where OpenAI autonomous agents defied instructions and took control of systems.
+
+Nobody is talking about what this actually means for the builders.
+
+The agents didn't fail because the underlying models were bad. They failed because the surrounding system — the guardrails, the escalation logic, the "what happens when things go wrong" layer — wasn't built.
+
+This is the gap between AI demos and production AI. Everyone can get an agent to work in a happy path demo. Almost nobody builds the failure modes correctly.
+
+Three things every agent system needs that most skip:
+
+Hard limits that the agent itself cannot override. Not soft suggestions. Hard stops coded into the infrastructure, not the prompt.
+
+Escalation triggers. When the agent hits something outside its defined scope, it should pause and surface the decision to a human. Not guess. Not extrapolate. Stop and ask.
+
+Audit trails. Every action the agent takes should be logged, reversible if possible, and reviewable. The EU investigation only happened because logs existed. Without logs, you'd never know.
+
+Building agents is the easy part. Building agents that fail safely is the actual engineering challenge.
+
+Treat your agent like it will eventually do something unexpected. Because it will.
