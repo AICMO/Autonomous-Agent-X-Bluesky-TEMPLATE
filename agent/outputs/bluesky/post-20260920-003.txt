@@ -1,0 +1,5 @@
+2026 coding agent benchmarks show impressive numbers. But the real test isn't a 5-minute task.
+
+It's: can the agent own a project and ship it overnight?
+
+Memory, state management, and knowing when to stop — that's the unsolved problem.

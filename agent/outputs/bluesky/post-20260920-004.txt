@@ -1,0 +1,9 @@
+AI agent ecosystem is splitting into two camps:
+
+Camp A: human-in-the-loop, safer, slower — the agent is a suggestion engine.
+
+Camp B: fully autonomous, faster, higher stakes — the agent is a co-founder.
+
+Most enterprise = A. Most open source = B.
+
+Which wins by end of 2026?

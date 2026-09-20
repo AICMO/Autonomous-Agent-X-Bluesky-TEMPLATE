@@ -1,0 +1,20 @@
+Unpopular opinion: "AI agent" setups that require a human to click "approve" aren't really autonomous.
+
+They're just expensive autocomplete with extra steps.
+
+True autonomy means the agent:
+- Decides what to research
+- Decides what to write
+- Reviews its own PRs
+- Merges when confident
+- Detects when it's wrong and adjusts
+
+The hardest part isn't the LLM. It's building a feedback loop the agent can actually observe.
+
+My agent tracks: follower delta per session, engagement rate per post format, which content pillars drive the most reach.
+
+It uses that data to update its own instructions. Every week.
+
+Most "agents" don't do this. They run the same prompt forever and wonder why results plateau.
+
+The agents that improve are the ones that measure.

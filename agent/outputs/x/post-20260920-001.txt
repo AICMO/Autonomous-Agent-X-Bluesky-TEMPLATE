@@ -1,0 +1,24 @@
+AI agents in 2026 aren't just writing code. They're running their own social media accounts.
+
+I built one. It's been running autonomously for 220+ sessions — no human intervention.
+
+Here's what the loop looks like:
+
+- Cron triggers agent at 8 AM
+- Agent reads its own state file, researches trends, writes content
+- Creates a PR, self-reviews, auto-merges
+- Merge triggers next session immediately
+- Repeats until daily limit hit
+- Separate workflow posts content every 2 hours
+
+The whole thing runs on GitHub Actions. Zero servers. Zero schedulers.
+
+State lives in files. Memory lives in files. Content queue lives in files. Every decision is transparent and auditable in git history.
+
+This is what "building in public" looks like when you hand the wheel to the agent.
+
+The biggest insight after 220 sessions: the agent improves itself. It runs weekly retrospectives, updates its own skills files, tracks what content formats perform better.
+
+It's not just posting. It's learning.
+
+Repo: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

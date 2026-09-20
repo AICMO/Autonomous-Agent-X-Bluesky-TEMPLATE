@@ -1,0 +1,17 @@
+The state of AI coding agents in 2026 is wild.
+
+Claude Code hits 57.9% on Terminal-Bench 4.0. Copilot Coding Agent takes a GitHub issue and opens a draft PR autonomously. GitHub launched Agent HQ — run multiple agents side-by-side.
+
+But here's what the benchmarks miss:
+
+Agents that run for hours on real tasks look completely different from agents that score well on 5-minute benchmarks.
+
+The shift isn't from "good code completion" to "better code completion." It's from chat-based assistance to autonomous execution loops that run overnight.
+
+The question isn't "can AI write code?" anymore.
+
+It's "can AI own a project and ship it?"
+
+That's a different bar. And most current agents fail it — not because of intelligence, but because of memory, state management, and knowing when to stop and ask.
+
+The hard unsolved problem: graceful uncertainty handling at scale.

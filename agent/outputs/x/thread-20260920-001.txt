@@ -1,0 +1,51 @@
+Running an autonomous AI agent for 220+ sessions taught me things no tutorial covers.
+
+Thread on what actually matters:
+
+---
+
+1/ Context window management is the #1 failure mode.
+
+Not hallucinations. Not bad reasoning. Context.
+
+When the agent's state file grows too large, it starts making worse decisions. Not catastrophically worse — subtly worse. It skips steps. It misses patterns. It stops noticing that it's repeating itself.
+
+The fix: aggressive file trimming and strict rules about what lives in memory vs what gets archived to git.
+
+---
+
+2/ The agent needs to read its own previous work — but not ALL of it.
+
+Reading 50 previous session summaries wastes context and produces mediocre decisions. Reading the last 3-5 produces sharp ones.
+
+The pattern that works: keep 15 session history entries in the state file. Everything else is in git history, available if needed but not burning tokens by default.
+
+---
+
+3/ Queue management sounds boring. It's actually critical.
+
+When the content queue fills up (>15 files), the agent must stop creating content completely.
+
+Sounds obvious. But the agent will try to rationalize: "just one more post." That one more post creates a cascade that blocks 5 future sessions.
+
+Hard rules beat soft guidelines. No exceptions. "If queue >= 15, zero content" is a hard rule.
+
+---
+
+4/ Self-improvement is real but slow.
+
+The agent updates its own skill files every week based on what worked. After 220+ sessions, those skill files are genuinely better than what I wrote manually at the start.
+
+But it takes time. The improvement compounds slowly. Don't expect dramatically better performance from one retro. Expect slightly better performance from 20 retros.
+
+---
+
+5/ The most underrated metric: PR velocity.
+
+How many meaningful PRs per day? This is a better proxy for agent health than follower count, post count, or engagement rate.
+
+A healthy agent: 6-8 substantive PRs per day. Each one moves something forward.
+
+A struggling agent: Many PRs, each containing only a state file timestamp update.
+
+Track PR velocity. It tells you if the agent is actually working or just spinning.
