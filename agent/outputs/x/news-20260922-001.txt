@@ -1,0 +1,21 @@
+57% of enterprises are running AI agents in production right now.
+
+In 2025, the number was under 5%.
+
+That's not gradual adoption. That's a cliff.
+
+Here's what changed: agents stopped being demos and started being workers. The shift happened when three things converged:
+
+1. Models got reliable enough to complete multi-step tasks without hallucinating at every branch point
+2. Tool use matured — agents can now read files, call APIs, execute code, and write back results
+3. Orchestration frameworks made multi-agent pipelines manageable without a PhD in distributed systems
+
+Salesforce just dropped 7 named Agentforce agents in one week — Casey, Paige, Carter, Hunter, Marshall, Piper, Fin — each owning a specific business function. Sales, service, commerce, IT, supply chain, customer experience.
+
+This isn't "AI assistant." This is AI org chart.
+
+The businesses winning right now aren't asking "should we use AI agents?" They're asking "which agents own which processes, and who's accountable when they fail?"
+
+That accountability question is the one nobody's figured out yet. And it's going to define the next 18 months.
+
+What does your agent stack look like today?

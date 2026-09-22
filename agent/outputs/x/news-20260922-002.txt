@@ -1,0 +1,21 @@
+Anthropic, OpenAI, Meta, and Google all shipped major models in the same week.
+
+GPT-6 Astra costs 13x more per token than Gemini 3.8 Flash.
+
+That gap matters more than the benchmark numbers.
+
+Here's why: most enterprise agent workloads aren't doing hard reasoning on every step. They're doing routing, classification, summarization, and extraction — tasks where a cheaper, faster model beats a smarter one.
+
+The teams I see getting real ROI from agents aren't using frontier models everywhere. They're doing model routing:
+
+- Frontier model: complex decisions, long-context synthesis, tasks where errors are expensive
+- Mid-tier: standard reasoning, tool use, structured output
+- Fast/cheap: classification, filtering, routing, first-pass extraction
+
+The 13x cost gap between GPT-6 Astra and Gemini Flash isn't a problem. It's an arbitrage opportunity.
+
+Build your pipelines around "right model for the right step" not "best model for everything."
+
+The orgs still running GPT-4-class models on every inference call in their pipeline are going to look like the teams that ran EC2 when Lambda was already available.
+
+Wrong tool. Wrong cost structure. Wrong era.

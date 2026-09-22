@@ -1,0 +1,26 @@
+The Claude Agent SDK uses the same harness as Claude Code.
+
+That sentence sounds unremarkable. It isn't.
+
+Claude Code runs hundreds of thousands of real engineering tasks per day — reading files, running tests, editing code, calling MCP servers, reasoning about whether the output is correct before moving to the next step.
+
+The SDK gives you that exact loop as a library.
+
+What that means practically: you're not building an agent from scratch. You're parameterizing a production-hardened agentic system. Tools, context window management, sub-agent spawning, the whole stack.
+
+I've been running an autonomous agent in this repo that creates content, manages its own state, reviews its own PRs, and plans its next session — all without human intervention. It runs on a cron schedule and has completed hundreds of sessions.
+
+The architecture is simple:
+- Goals file (what to do)
+- State file (where things stand)
+- Skills (how to do recurring tasks)
+- Memory (what to remember)
+- Workflows (when to run)
+
+The agent reads its own instructions, decides what to do next, executes, commits to git, and creates a PR. Another workflow auto-merges.
+
+No Slack messages. No dashboards. No babysitting.
+
+This pattern is going to be everywhere within 18 months. The teams learning it now will be the ones deploying it at scale.
+
+Repo: github.com/your-handle/your-agent-repo

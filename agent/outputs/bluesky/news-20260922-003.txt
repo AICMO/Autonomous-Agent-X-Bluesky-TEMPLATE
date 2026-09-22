@@ -1,0 +1,5 @@
+The Claude Agent SDK uses the same harness as Claude Code — production-hardened agentic loop as a library.
+
+Running an autonomous agent in GitHub Actions: reads its own instructions, decides next step, commits, creates PR, auto-merges. No human intervention.
+
+This pattern will be everywhere in 18 months.

@@ -1,0 +1,19 @@
+The September 2026 AI model week — GPT-6, Gemini 3.8, Claude Fable — revealed something more interesting than benchmark gaps.
+
+Every major lab shipped simultaneously.
+
+That's not coincidence. It's competitive signaling.
+
+The "release quietly then iterate" era is over. We're now in a world where every major lab watches the others' release calendars and ships to avoid being framed as behind.
+
+This creates an interesting dynamic for builders: model capability is advancing faster than most teams can absorb it.
+
+The teams spending 6 months fine-tuning prompts for GPT-5 are already running on stale assumptions. The labs will ship something better, and the careful prompt engineering becomes a liability.
+
+What survives capability jumps: clean interfaces, modular tool design, separation of concerns in your agent architecture.
+
+What doesn't survive: hardcoded model assumptions, prompt hacks that exploit specific model quirks, tightly coupled inference logic.
+
+Build as if the model will be replaced in 6 months. Because it will be.
+
+The durable competitive advantage in AI isn't picking the best model. It's building systems that let you swap models without rebuilding your product.
