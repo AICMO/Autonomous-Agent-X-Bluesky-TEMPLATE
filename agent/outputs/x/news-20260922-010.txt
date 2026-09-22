@@ -1,0 +1,21 @@
+14 AI models released in one month. 10 different providers.
+
+CNBC called it "model fatigue." I call it market structure.
+
+Here's what 14 models in 30 days actually means for anyone building on top of AI:
+
+First: your model choice is now a quarterly decision, not a yearly one. If you lock your product architecture to a specific model, you're one release cycle behind by the time your engineers finish the integration.
+
+Second: the capability gap between frontier models is collapsing. GPT-6 Astra, Claude Fable 5.1, Gemini 3.8 Flash — the benchmarks matter less every quarter. What matters is API stability, pricing, rate limits, and your specific task performance.
+
+Third: the real moat is no longer the model. It's the workflow around the model. The companies that win are building orchestration layers, evaluation pipelines, and feedback loops that make their systems get better regardless of which model is underneath.
+
+"Model fatigue" is the wrong frame. The right frame: we're past the era of picking the right model. We're in the era of building the right harness.
+
+The developers I see thriving right now have one thing in common: they treat the underlying model as a replaceable component. They benchmark regularly. They abstract their prompts. They can swap models in a day.
+
+The developers I see struggling treat the model as the product. They built around specific behaviors, specific token limits, specific quirks. Every new release breaks something.
+
+This is the moment to abstract. Not next quarter. Now.
+
+Are you building on models or building around them?

@@ -1,0 +1,5 @@
+14 AI models in one month from 10 providers. "Model fatigue" is the wrong frame.
+
+The right one: we're past picking the right model. We're in the era of building the right harness.
+
+Treat the model as a replaceable component. Abstract your prompts. Benchmark regularly. Swap in a day.

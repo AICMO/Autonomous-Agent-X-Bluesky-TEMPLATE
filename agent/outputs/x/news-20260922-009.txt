@@ -1,0 +1,21 @@
+Salesforce Agentforce at Live Nation: 85% of customer inquiries resolved within 3 agent responses.
+
+Tens of thousands of festival interactions. Handled. Without humans.
+
+That's not a pilot. That's a business case.
+
+The number that matters more than 85%, though: the 15%. What happened there? Where did the agent hand off? What did it not know? What did it refuse to do?
+
+The companies building real agent infrastructure right now are obsessed with the 15%, not the 85%.
+
+Here's why: the 85% is the easy part. It's FAQ, ticket routing, status checks, standard change requests. You could do that with a decision tree in 2019. The agent does it faster and without the tree.
+
+The 15% is where the agent hits something it can't handle and has to escalate. That's where the architecture breaks down if you haven't designed it. That's where you lose customer trust if the handoff is wrong. And that's where the ROI math falls apart if every escalation costs more than the automation saved.
+
+What Live Nation figured out — and what most enterprise teams haven't — is that the agent's job isn't to handle everything. It's to handle as much as possible and make the hand-offs to humans fast, context-rich, and rare.
+
+85% resolution is the headline. The escalation UX is the actual product.
+
+If you're deploying agents for customer ops and you haven't mapped your 15%, you're building toward an incident, not a case study.
+
+What does your fallback look like?

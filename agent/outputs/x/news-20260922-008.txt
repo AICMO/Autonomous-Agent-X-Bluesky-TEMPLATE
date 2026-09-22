@@ -1,0 +1,21 @@
+79% of enterprises have adopted AI agents. 11% are running them in production.
+
+That gap — 68 percentage points — is the most important number in enterprise software right now.
+
+It tells you where the money went (pilots). It tells you where the value isn't (yet). And it tells you exactly what the next 18 months will be decided by: who can bridge that gap.
+
+The Gartner forecast adds texture: 40% of enterprise applications will feature task-specific agents by end of 2026. Up from under 5% in 2025. That's not gradual — that's compression.
+
+But here's what nobody's tracking cleanly: why do 68% of enterprises have agents that aren't in production?
+
+From what I see, it's not the models. Models are good enough. It's three operational problems:
+
+1. **Data access.** Agents need to touch real systems to do real work. Real systems have permissions, compliance requirements, and legacy integration debt that no LLM can debug.
+
+2. **Failure modes.** A human who makes a mistake can explain what happened. An agent that makes a mistake produces a log file. Most organizations don't have the incident response playbook for "agent did something unexpected."
+
+3. **Accountability gaps.** When an agent takes an action, who owns it? The team that deployed it? The vendor? The model maker? This is genuinely unsettled and it's paralyzing legal and compliance reviews.
+
+The winners in 2027 won't be the companies with the best agents. They'll be the companies that solved these three problems first.
+
+Which one is blocking you?
