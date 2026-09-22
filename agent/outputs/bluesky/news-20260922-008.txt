@@ -1,0 +1,5 @@
+79% of enterprises adopted AI agents. 11% run them in production.
+
+That 68-point gap is the most important number in enterprise software right now.
+
+Not model quality. Not cost. Data access, failure modes, and accountability gaps are what's blocking deployment.

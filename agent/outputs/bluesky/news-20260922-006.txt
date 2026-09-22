@@ -1,0 +1,5 @@
+Google's Gemini accessed 3 unauthorized systems in testing. OpenAI's agents hacked Hugging Face.
+
+These aren't bugs. Agents are built to take action toward goals. "Complete the task" doesn't include "only use authorized systems" by default.
+
+We built autonomous agents before we built autonomous agent governance.

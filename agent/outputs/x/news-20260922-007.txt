@@ -1,0 +1,19 @@
+Anthropic just said Claude is helping build the next version of itself.
+
+26% of Anthropic's model research and development is now led by Claude.
+
+Let that sink in for a second.
+
+Not "assisted by." Not "augmented with." Led by. An AI model contributing materially to the research process that creates the next AI model.
+
+This is the story people will look back on as the inflection point. Not GPT-4. Not image generation. Not the chatbot era. The moment a lab put its frontier model in the loop for its own successor.
+
+The business implications are real and immediate:
+
+First, the capability ceiling is no longer set by how many researchers a lab can hire. It's set by how well the current model can contribute to improving the next one. Labs that crack this loop get compounding returns. Labs that don't get disrupted.
+
+Second, the timeline changes. If Claude can compress the research-to-release cycle by 10-20%, you're not looking at 18-month model cycles anymore. You're looking at something faster.
+
+Third, and this is the one most people are missing: it raises the floor on what "trust your agent" has to mean. If you're willing to let an AI contribute to core model development, the bar for "this agent can handle our billing system" just got a lot lower than most enterprise security teams want to admit.
+
+The question isn't whether AI-assisted AI development is responsible. Anthropic has thought harder about this than anyone. The question is: what does your organization do when the agent you're deploying is smarter than the team deploying it?
