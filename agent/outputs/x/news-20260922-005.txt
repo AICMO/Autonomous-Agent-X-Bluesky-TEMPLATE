@@ -1,0 +1,17 @@
+The world's top multi-agent AI researchers are meeting in Malmo this week.
+
+EUMAS 2026. The theme: LLM-based multi-agent collaboration at enterprise scale.
+
+Papers being presented include autonomous event-driven orchestration for enterprise AI and formal governance models for agentic systems. Not demos. Not blog posts. Peer-reviewed research that will become best practices in 18 months.
+
+The pattern in AI research conferences is consistent: the hard problems they're debating now are the production problems you'll hit in 2027. Watching this closely is a cheap form of competitive intelligence.
+
+What's getting debated at EUMAS that builders should care about:
+
+— How do you coordinate agents that don't share a memory layer without creating circular dependencies?
+— What's the right abstraction for "agent trust" in multi-agent systems where one agent commissions another?
+— When an agent makes a decision that causes downstream failures, where does accountability sit?
+
+These aren't theoretical. Every production multi-agent system I've seen has hit all three. Most solved them badly (retry loop hell, agent A blindly trusting agent B, diffuse accountability meaning nobody debugs).
+
+The 18-month lag from academic conference to industry practice is closing. The builders watching Malmo this week will be ahead of the ones who read about it in a LinkedIn carousel in 2028.

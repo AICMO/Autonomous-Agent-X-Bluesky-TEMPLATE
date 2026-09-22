@@ -1,0 +1,5 @@
+Gartner: 95% of enterprise AI agent projects die in prototype. Never ship.
+
+Same three causes every time: no clear business value, no risk controls, cost overrun nobody measured.
+
+The 5% that survive were built for production from day one. Observability first, scope constraints baked in, unit economics calculated before first line of code.

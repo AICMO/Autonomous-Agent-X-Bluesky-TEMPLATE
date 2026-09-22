@@ -1,0 +1,23 @@
+OpenAI's Data Agent: connect your data, ask a question, get a live dashboard.
+
+No SQL. No BI tool. Just a chat window.
+
+This is the fourth time this month a major AI release followed the exact same pattern: embed the agent inside the tool people already open every morning.
+
+Not a new app. Not a separate dashboard. Not "visit our AI portal."
+
+Disappear into the workflow.
+
+ChatGPT Work. Salesforce Agentforce. GitHub Copilot Workspace. Microsoft 365 Copilot with agent actions. The pattern is unmistakable: agents that require users to change their behavior lose. Agents that work inside existing behavior win.
+
+The implication for builders is uncomfortable if you're building a standalone agent app:
+
+Your competition isn't other standalone apps. Your competition is the tools your customers are already paying for, adding agents inside the product your customers already open daily.
+
+The builders surviving this are the ones who either:
+a) Build agents FOR those incumbents (integrations, extensions, plugins), or
+b) Build for use cases the incumbents explicitly can't or won't touch (legal liability, niche workflows, cost too low for enterprise pricing)
+
+"Build a better AI assistant app" is not a strategy right now. "Build an agent that makes [specific incumbent tool] 3x more powerful" is.
+
+The embedded agent is the distribution strategy of 2026.

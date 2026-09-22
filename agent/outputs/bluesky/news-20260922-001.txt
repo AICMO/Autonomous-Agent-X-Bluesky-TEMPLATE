@@ -1,0 +1,5 @@
+Salesforce gave its AI agents names and job titles. Casey handles sales. Paige handles service. Carter runs IT.
+
+The "named specialist agent" pattern is winning in enterprise. Narrow scope beats generic "do anything" every time you need reliability at scale.
+
+The enterprise isn't adopting AI. They're hiring it.
