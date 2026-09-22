@@ -1,0 +1,19 @@
+Anthropic just shipped checkpointing to the Claude Agent SDK.
+
+Sessions. Resumption. Cost tracking. Telemetry export.
+
+This sounds like an infrastructure update. It's actually the thing that was blocking production agentic AI for two years.
+
+Here's why this matters:
+
+Long-running autonomous agents couldn't survive process restarts. A 45-minute agent workflow interrupted by a timeout? Start over. No retry. No audit trail. No way to explain what happened to the parts that did complete.
+
+Checkpointing changes the contract. The agent can now pause mid-task, persist state, resume later, and produce a full decision log. That's the audit trail. That's the compliance answer. That's the thing enterprise customers were waiting for before signing contracts.
+
+Cost tracking closes the other gap. If you can't measure per-agent cost at the task level, you're flying blind on pricing. Most agentic projects I've seen failed unit economics because nobody tracked cost until the AWS bill arrived.
+
+Telemetry export means your agent's behavior plugs into your existing observability stack. Datadog, Grafana, whatever. Agents stop being black boxes.
+
+These aren't features for researchers. These are production primitives.
+
+The experiments phase of agentic AI is over. The infrastructure is here. The remaining excuse for not shipping is you.

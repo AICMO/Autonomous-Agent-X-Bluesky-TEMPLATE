@@ -1,0 +1,19 @@
+95% of enterprise AI agent projects never reach production.
+
+Gartner's number. Not a prediction — current state, 2026.
+
+Meanwhile: 40% of enterprise applications will embed AI agents by EOY. 52% of executives say they have agents in production. The math doesn't add up because "in production" apparently includes things that run once in a demo environment and get quietly shelved.
+
+I've seen the prototype graveyard. Most die from the same three causes:
+
+1. No clear business value. Someone shipped an agent because agents were hot, not because it solved a $500k problem. When the bill came due, nobody could justify renewal.
+
+2. No risk controls. The agent ran fine in testing. In production it hallucinated on 3% of calls. Nobody noticed for 6 weeks. By then it had made decisions nobody could audit.
+
+3. Cost overrun. That "intelligent workflow" was pulling GPT-4 on every step, 40 steps per user session, 10,000 sessions/day. The math was never done.
+
+The 5% that survive all three have one thing in common: they were built for production from day one. Observability first. Scope constraints baked in. Cost estimates done before first line of code.
+
+The builders who solve prototype-to-production own the next decade of enterprise software.
+
+Most are still skipping the hard part.

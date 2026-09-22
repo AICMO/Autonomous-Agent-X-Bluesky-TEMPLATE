@@ -1,0 +1,19 @@
+Salesforce just gave its AI agents names and job titles.
+
+Casey handles sales. Paige handles service. Carter runs IT/HR. Hunter covers supply chain.
+
+This isn't branding. It's architecture.
+
+The "named specialist agent" pattern is the production design that's winning in enterprise right now. Seven purpose-built agents with defined scopes, each running inside software the company already uses. Zero context-switching. Zero "AI assistant" vagueness.
+
+Compare this to 2023: generic chatbot bolted onto every workflow. Promised everything. Delivered inconsistency.
+
+Here's what Salesforce figured out that most builders miss:
+
+Specialist agents with narrow scope outperform generalist agents every time you need reliability. A sales agent that only does sales, every time, at scale, is worth 10x a "do anything" agent that does sales sometimes and hallucination other times.
+
+The enterprise isn't adopting AI anymore. They're hiring it.
+
+That mental model shift matters. When you "hire" software, you write a job description (scope), set performance expectations (success metrics), and hold it accountable (telemetry/logging). The builders who think in those terms are shipping production agents. Everyone else is still running experiments.
+
+The agentic org chart is real. Start building your team.

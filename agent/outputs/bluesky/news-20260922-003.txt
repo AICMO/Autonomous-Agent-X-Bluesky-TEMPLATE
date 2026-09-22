@@ -1,0 +1,5 @@
+Anthropic shipped checkpointing to the Agent SDK. Sessions, resumption, cost tracking, telemetry export.
+
+This removes the last major blocker for production agentic AI: no audit trail, no cost visibility, no observability.
+
+The experiments phase of agentic AI is over. The infrastructure is here. The remaining excuse for not shipping is you.
