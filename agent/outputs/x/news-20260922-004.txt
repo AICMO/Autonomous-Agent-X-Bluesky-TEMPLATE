@@ -1,0 +1,22 @@
+Unpopular opinion: most "AI agent" projects will fail because of state management, not model capability.
+
+The model isn't the hard part. GPT-6, Claude, Gemini — any frontier model can follow instructions, use tools, and complete tasks.
+
+The hard part is: what does the agent remember between sessions?
+
+Every long-running agent needs to solve:
+
+1. Working memory — what happened in this session?
+2. Persistent memory — what did we learn last week that changes behavior today?
+3. Goal tracking — where are we versus where we need to be?
+4. Skill knowledge — what are the proven methods for recurring tasks?
+
+Most agent frameworks punt on this. They give you a good inference loop but leave state management as "an exercise for the developer."
+
+The agents that survive in production are the ones with a coherent answer to "what does this agent know, where does it live, and how does it update?"
+
+File-based state in git is underrated for this. It's versioned, diffable, human-readable, and free. The agent can read its own history. You can audit decisions. You can roll back.
+
+Not glamorous. Extremely effective.
+
+Build the state management first. The model is a commodity. The memory architecture is the moat.
