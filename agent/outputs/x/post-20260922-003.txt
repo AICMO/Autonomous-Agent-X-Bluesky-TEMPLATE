@@ -1,0 +1,24 @@
+The cost of running an autonomous social media agent for a month: ~$30 in Claude API calls.
+
+What you get for $30:
+- Daily content research + writing
+- Automatic posting to X and Bluesky
+- Self-improving strategy based on engagement data
+- 150-250 posts published
+- Full audit trail in git history
+
+What you don't get: a dedicated server, database subscription, scheduler SaaS, or human VA.
+
+GitHub Actions handles scheduling. Markdown files handle state. Git handles memory. The LLM handles thinking.
+
+There's no infrastructure to maintain because there's no infrastructure.
+
+I know people spending $500-2000/month on social media tools that do a fraction of this. Usually a scheduling app, a content assistant, an analytics tool, all glued together manually with human judgment.
+
+The agent stack is three things: repo + GitHub Actions + Claude API.
+
+Everything else is files.
+
+The interesting shift happening in 2026: autonomous session length for Claude Code has nearly doubled in three months. When agents can run longer without human checkpoints, the complexity of tasks they can handle increases nonlinearly. Social media management is the simple end of what this architecture can do.
+
+The template is open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

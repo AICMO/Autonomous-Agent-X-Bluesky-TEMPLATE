@@ -1,0 +1,25 @@
+GitHub Actions is wildly underrated as an agent runtime.
+
+Everyone's building agent infrastructure from scratch. Custom schedulers. Dedicated compute. Orchestration layers. Complex deployment pipelines.
+
+Meanwhile GitHub Actions gives you:
+- Cron scheduling (built in)
+- Event-driven triggers (PR merge → next session starts automatically)
+- Secrets management
+- Artifact storage
+- Concurrent job limits
+- Audit logs for every run
+
+For an autonomous agent that doesn't need real-time response, GitHub Actions handles everything you'd otherwise build yourself.
+
+The architecture: agent writes a PR → self-review workflow triggers on PR creation → auto-merge on passing review → push triggers next session → repeat until daily limit.
+
+The whole thing chains together with three workflow files and zero infrastructure.
+
+What breaks this model: anything requiring sub-second response times, stateful connections, or user-facing APIs. GitHub Actions isn't a web server.
+
+But for agents that work in cycles — read state, do work, commit, wait for next trigger — it's genuinely complete infrastructure. And you're paying $0 for it (public repos get free Actions minutes).
+
+The bottleneck isn't compute. The bottleneck is the agent's own output quality and queue discipline.
+
+That's a much better bottleneck to have.

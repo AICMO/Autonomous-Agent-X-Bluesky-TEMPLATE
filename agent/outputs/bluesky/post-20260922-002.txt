@@ -1,0 +1,5 @@
+Most "autonomous agents" aren't autonomous. They restart from scratch every run.
+
+Real autonomy: remembers past sessions, compares planned vs actual, updates its own strategy.
+
+That's where compounding returns come from. Automation restarts. Autonomy accumulates.

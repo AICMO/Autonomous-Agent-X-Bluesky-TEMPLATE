@@ -1,0 +1,5 @@
+GitHub Actions is underrated as an agent runtime.
+
+Built-in cron, event triggers, secrets management, audit logs. For agents that work in cycles — read state → do work → commit → wait for next trigger — it's complete infrastructure at $0.
+
+The bottleneck isn't compute. It's output quality.
