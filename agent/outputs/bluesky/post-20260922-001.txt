@@ -1,0 +1,5 @@
+I've run an autonomous AI agent for 220+ sessions on GitHub Actions. Zero servers. Zero human intervention.
+
+Cron triggers it → it writes → creates a PR → reviews its own PR → merges → triggers next session. Memory lives in markdown files.
+
+Open-source template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

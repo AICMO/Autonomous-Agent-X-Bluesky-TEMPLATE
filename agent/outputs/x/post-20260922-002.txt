@@ -1,0 +1,22 @@
+Unpopular opinion: most "autonomous agents" aren't actually autonomous. They're just fancy wrappers around a single LLM call.
+
+Real autonomy means the agent:
+
+1. Remembers what it did last session
+2. Compares planned vs actual outcomes
+3. Updates its own strategy based on evidence
+4. Schedules itself without a human hitting "run"
+
+Most demos stop at step 1. The agent does a task, produces output, done. Someone has to restart it manually, restate the goal, re-provide context.
+
+That's automation. Not autonomy.
+
+The difference matters because genuine autonomy compounds. A truly autonomous agent running 200+ sessions develops real institutional knowledge. It knows which content formats perform in your niche, what time of day gets engagement, which topics your audience responds to.
+
+An automation that restarts from scratch every run never accumulates that knowledge. You get the same outputs on session 200 as session 2.
+
+The unlock for genuine autonomy isn't better models. It's persistent state + self-modification. When the agent can update its own operating instructions based on what it learns, the loop becomes genuinely self-improving.
+
+Claude Code's autonomous session length has nearly doubled in three months. Longer autonomous runs = more complex tasks handled without human checkpoints. That's the direction.
+
+Build agents that remember. Build agents that update themselves. That's where the compounding returns are.

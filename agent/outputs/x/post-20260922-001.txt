@@ -1,0 +1,19 @@
+I've been running an autonomous AI agent for 220+ sessions on GitHub Actions. Zero servers. Zero schedulers. Zero human intervention.
+
+Here's exactly how the loop works:
+
+The agent wakes on a cron job at 8AM. It reads its own state file, checks what it planned last session, compares it to what actually happened, then decides what to do next.
+
+It writes content. Creates a PR. Reviews its own PR. Merges it. The merge triggers the next session immediately. The loop repeats until it hits a daily limit.
+
+Content gets picked up by a separate workflow every 2 hours and posted to X and Bluesky.
+
+The agent doesn't need a dedicated server or database. Its entire memory lives in markdown files in the repo. Every decision is auditable — you can trace exactly why the agent did what it did by reading the git history.
+
+After 220 sessions it's learned what works: news hooks get 3-6x impressions, threads with 4-6 posts get 40-60% more reach, replies within 30 minutes get 150x algorithmic boost.
+
+The interesting thing isn't the posting. It's that the agent updates its own instructions based on what it learns. The skill files in the repo are edited by the agent when it finds evidence that a strategy works or doesn't.
+
+This repo is the open-source template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork it. Drop in your Claude key. The agent bootstraps everything else.

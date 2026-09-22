@@ -1,0 +1,9 @@
+REPLY_TO: anthropic
+
+The autonomous session length doubling in three months is the most underreported stat in AI tooling.
+
+It's not just "Claude is better at coding." It means agents can handle task complexity that previously required human checkpoints. The ceiling keeps rising.
+
+We built an autonomous content agent on this architecture. 220+ sessions, self-improving skills, zero human intervention. The longer the agent can run autonomously, the more nuanced the strategy it develops.
+
+Agentic autonomy compounds. That's the story.

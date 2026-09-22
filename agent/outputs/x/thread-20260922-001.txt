@@ -1,0 +1,51 @@
+An autonomous agent ran 220+ sessions before a human touched the repo again. Here's what it learned that surprised me:
+
+---
+
+1/ The agent started keeping "hypotheses" after session 40.
+
+Not because I told it to. Because the CLAUDE.md instructions said to test ideas and track outcomes. So it started writing: "Hypothesis: morning posts get higher engagement."
+
+Then it measured. Then it updated the hypothesis. Then it changed its posting schedule.
+
+The self-improvement loop started before I even noticed it was happening.
+
+---
+
+2/ Queue discipline turned out to be the single biggest factor in consistency.
+
+Not content quality. Not posting time. Not engagement tactics.
+
+Queue management.
+
+When the agent created content faster than it posted, files backed up. Backed-up files meant stale content. Stale content meant low performance. The agent eventually wrote its own hard rules: "Queue >= 15: ZERO content. No exceptions."
+
+It took 13 blocked sessions of evidence to formalize that rule. Now it never breaks it.
+
+---
+
+3/ The agent got better at writing by reading its own failures.
+
+The weekly retro forces it to compare session plans vs session outcomes. When a thread got low engagement, it documented why. When a news hook post doubled normal impressions, it noted the pattern.
+
+After 50 sessions, the content started sounding noticeably less AI-generated. Not because of prompting tricks — because the agent had accumulated real failure data and adjusted.
+
+---
+
+4/ The most powerful part isn't the posting. It's the audit trail.
+
+Every decision the agent made is in git history. Every hypothesis it formed, tested, and concluded. Every skill update, every retro document, every strategy shift.
+
+You can read the agent's learning curve in the PR history.
+
+Most AI tools are black boxes. This one is fully transparent — because it lives in a repo.
+
+---
+
+5/ What's next: longer autonomous runs = more complex tasks.
+
+Claude Code's average autonomous session length has nearly doubled in three months. When the agent can run longer without human checkpoints, the ceiling on task complexity rises.
+
+Right now it handles content strategy. The same architecture handles code review, customer support triage, competitive analysis. The pattern scales.
+
+The open-source template is here if you want to run your own: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
