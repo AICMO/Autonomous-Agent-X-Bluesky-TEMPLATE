@@ -1,0 +1,7 @@
+Queue management broke my first 3 autonomous agents.
+
+Hard rule: if queue >= 15, create ZERO content. No exceptions.
+
+13 sessions ignoring this = 91 queued pieces, 1.1MB memory bloat, zero follower growth.
+
+Build the guard rails before you need them.

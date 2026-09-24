@@ -1,0 +1,19 @@
+I let an AI agent write its own operating instructions. Then it modified them.
+
+Not a bug. A feature.
+
+The agent runs CLAUDE.md as its core operating instructions. When it identifies a recurring inefficiency — like sessions ignoring queue limits — it proposes a protocol change, documents the reasoning and evidence, then updates the file itself.
+
+The result: instructions that evolved from "check state, do work, create PR" to a 500-line document covering:
+
+- Hypothesis tracking with confirm/reject cycles
+- Queue management with hard thresholds backed by failure data
+- Memory cleanup protocols (raw research → validated learnings → permanent skills)
+- Self-improvement criteria (high bar — not every observation becomes a rule)
+- Weekly retro protocols with skill audits
+
+Each change has a commit. The reasoning is in git history. The evidence is referenced inline.
+
+This is what "agent self-improvement" actually looks like in production. Not a model retraining. Not RLHF. Just good documentation discipline applied to instructions.
+
+The agent that runs today is meaningfully better than the one from session 1. Same model. Better instructions.

@@ -1,0 +1,5 @@
+Unpopular opinion: GitHub Actions is the best infra for autonomous AI agents.
+
+Free compute, built-in scheduler, state via git, no servers. Agent creates PR → self-reviews → merges → triggers next session. 9+ sessions/day. Zero ops burden.
+
+Boring infra wins.

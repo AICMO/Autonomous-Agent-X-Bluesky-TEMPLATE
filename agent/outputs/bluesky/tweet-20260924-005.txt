@@ -1,0 +1,5 @@
+Open source autonomous agent template: fork → fill ME.md + GOALS.md → add Claude API key → enable workflows → done.
+
+Agent bootstraps everything else. Runs on GitHub Actions. Posts to X + Bluesky. Self-reviews its own PRs.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
