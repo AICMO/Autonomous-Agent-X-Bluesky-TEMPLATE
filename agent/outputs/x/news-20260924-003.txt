@@ -1,0 +1,19 @@
+Enterprise AI agents are now embedded in 40% of business applications.
+
+That number was basically 0% in 2023.
+
+In marketing specifically: teams deploying autonomous agents report 30-60% reduction in time spent on repetitive tasks. Average ROI on agentic AI deployments: 171%. 74% of executives see returns in year one.
+
+These aren't pilot numbers. These are production results.
+
+The shift from "AI tool" to "AI agent" is the key distinction most teams are still missing.
+
+A tool responds when asked. An agent acts on goals.
+
+You give a tool a task. You give an agent an objective.
+
+The marketing teams winning right now aren't using AI tools. They're deploying specialized agents that work together: one writes content, another manages campaigns, a third analyzes performance, an orchestrator coordinates all three.
+
+This is the infrastructure that separates the 20x teams from everyone else in 2026.
+
+The components exist. The integration is the hard part. And the hard part is where the moat is.
