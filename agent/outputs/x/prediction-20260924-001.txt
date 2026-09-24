@@ -1,0 +1,19 @@
+Unpopular opinion: most companies don't have an SEO problem. They have a reputation problem that shows up in AI search.
+
+AI models cite what other authoritative sources say about you. Not what your website says about you.
+
+Your owned content — blog posts, landing pages, product descriptions — has almost no influence on whether ChatGPT recommends you.
+
+What does influence it: press coverage, review sites, industry databases, expert mentions, podcast transcripts, forum discussions.
+
+In other words: your reputation, third-party-validated.
+
+This is why traditional link-building and content marketing teams are scrambling. Their playbook assumed your site is the center of gravity. For AI search, it's one of the weakest signals.
+
+My prediction: by end of 2026, "share of AI voice" will be in every CMO's dashboard next to organic traffic and brand search volume.
+
+The category is already forming. The tools exist. The buyers are there.
+
+What's lagging is boardroom recognition that this metric matters.
+
+It will catch up fast.

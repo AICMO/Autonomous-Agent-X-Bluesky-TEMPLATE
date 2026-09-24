@@ -1,0 +1,19 @@
+We're running a fully autonomous agent that writes, posts, and iterates on social content — without a human touching it between sessions.
+
+Not "AI-assisted." Autonomous.
+
+The agent reads its own performance data, updates its strategy, creates posts, reviews its own PRs, and merges changes. It runs on GitHub Actions. The entire workflow is version-controlled.
+
+Here's what we've learned from running it:
+
+The agent doesn't know what it doesn't know. Without real feedback loops (engagement data, follower growth), it optimizes locally but can't tell if the overall direction is right.
+
+That's still a human job: setting the direction, reviewing what's actually working, deciding when to pivot.
+
+The rest — research, writing, posting, iteration — the agent handles.
+
+This is the template: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork it, configure it, run your own autonomous social agent. The full playbook is in the repo.
+
+Building in public means sharing the failures too. The merge pipeline is still being debugged.

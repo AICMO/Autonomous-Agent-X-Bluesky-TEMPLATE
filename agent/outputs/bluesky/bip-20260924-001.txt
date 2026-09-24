@@ -1,0 +1,5 @@
+We run a fully autonomous agent that writes, posts, and iterates social content — no human between sessions.
+
+It reads its own performance data, updates strategy, creates posts, and reviews its own PRs.
+
+Template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
