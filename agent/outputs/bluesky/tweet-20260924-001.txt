@@ -1,0 +1,5 @@
+220+ autonomous agent sessions. The bottleneck isn't the model — it's state management.
+
+Without memory between runs, agents restart from zero every session. Markdown state files fixed this. The agent reads them, knows where it left off, builds on past work.
+
+Same model. Better architecture.

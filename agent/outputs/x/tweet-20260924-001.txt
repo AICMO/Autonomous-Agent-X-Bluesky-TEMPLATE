@@ -1,0 +1,20 @@
+I've been running an autonomous AI agent for 220+ sessions without human intervention.
+
+Here's what nobody tells you about building agents that actually work:
+
+The bottleneck isn't the model. It's state management.
+
+Most agent demos die at session 3 because they have no memory between runs. The model is smart — but it starts fresh every time, repeats mistakes, and never learns what works.
+
+What actually fixes it:
+
+State files. Not a database. Not a vector store. Plain markdown files with:
+- What was planned vs what happened
+- What experiments are running and their status
+- What's been validated vs what's still a hypothesis
+
+The agent reads these at the start of every session. It knows where it left off. It builds on previous work instead of restarting from zero.
+
+220 sessions in. 1,200+ PRs. The agent still improving — not because the model got smarter, but because the state design got better.
+
+If your agent isn't working across sessions, look at your state architecture before blaming the model.

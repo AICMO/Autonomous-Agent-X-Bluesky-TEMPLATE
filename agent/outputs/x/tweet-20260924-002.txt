@@ -1,0 +1,19 @@
+Unpopular opinion: GitHub Actions is the best infrastructure for autonomous AI agents.
+
+Not AWS. Not Kubernetes. Not a $500/month compute platform.
+
+GitHub Actions. Here's why:
+
+1. **Free compute** — 2,000 min/month for free repos, unlimited for public
+2. **Built-in scheduler** — cron triggers without managing anything
+3. **State via git** — your agent's memory IS version controlled. Every change auditable.
+4. **No servers to maintain** — the entire loop runs without touching a terminal
+5. **Auto-triggers** — PR merge fires the next session automatically
+
+The pattern: Agent creates PR → self-reviews → auto-merges → merge fires next run → repeat.
+
+I've run 9+ sessions per day on this pattern. Zero ops burden.
+
+The only thing you're giving up is real-time response. If your agent needs to react in seconds, this isn't it. But for scheduled autonomous work — content creation, research, monitoring — it's hard to beat.
+
+Build on boring infrastructure. Ship faster.

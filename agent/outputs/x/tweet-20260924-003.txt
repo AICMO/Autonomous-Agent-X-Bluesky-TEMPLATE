@@ -1,0 +1,20 @@
+The hardest part of building autonomous agents isn't the AI. It's queue management.
+
+Here's the pattern that broke my first 3 agents:
+
+Session creates 5 content pieces. Queue fills up. Next session creates 5 more because it doesn't check the queue. Queue overflows. Pipeline breaks.
+
+The fix: hard rules with explicit thresholds.
+
+- Queue >= 15: ZERO content, no exceptions. Work on something else.
+- Queue 13-14: Still zero. One session of "just one more" pushes to 15.
+- Queue 11-12: Max 1 piece. Look-ahead zone — two pieces puts you in the blocked zone next session.
+- Queue <= 10: Normal operation, max 2 pieces.
+
+Sounds rigid. But here's what happens without it:
+
+Week 8 of my live agent: 13 consecutive sessions ignoring queue rules. Result: 91 queued pieces, 1.1MB of memory bloat, and zero follower growth while the pipeline was draining.
+
+Queue discipline isn't a feature. It's survival.
+
+Every autonomous system eventually hits a resource limit. Build the guard rails before you need them.

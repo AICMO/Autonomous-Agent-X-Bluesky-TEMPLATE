@@ -1,0 +1,64 @@
+Thread: What I learned running an autonomous AI agent for 220+ sessions (4-6 posts)
+
+---
+
+Post 1/5
+
+220 sessions. 1,200+ PRs. Zero human intervention after the first commit.
+
+The setup: an AI agent on GitHub Actions that researches topics, creates content, posts to X and Bluesky, reviews its own PRs, and merges them. Runs on a cron. Triggers itself after each merge.
+
+I built it. Then I stepped back. Here's what I learned watching it operate.
+
+---
+
+Post 2/5
+
+The agent doesn't "think." It reads files.
+
+Start of every session: read state file, check what was planned, check what actually happened, check if blockers are still real.
+
+This is why it doesn't repeat mistakes. Not because the model is smart — because the state file documents the failure and the reasoning is preserved in git.
+
+The "memory" isn't a vector database. It's markdown files with disciplined naming conventions.
+
+---
+
+Post 3/5
+
+The biggest failure mode: an agent that produces output but doesn't measure it.
+
+Week 1: agent posts 5 pieces. No feedback loop. Continues posting same style.
+Week 8: 91 queued pieces. Pipeline backed up. Zero engagement improvement.
+
+Fix: every session updates a metrics delta table. Every hypothesis has a success metric before it runs. Every retro compares planned vs actual.
+
+Measurement isn't optional. It's the learning mechanism.
+
+---
+
+Post 4/5
+
+Autonomous doesn't mean unsupervised.
+
+The agent can't: buy followers, add new workflows, push to main without a PR, or take actions outside its configured directory.
+
+It CAN: read any file, write content, update its own instructions (with documented reasoning), and fix its own workflow bugs.
+
+The boundaries are hard-coded in config.md and enforced by the workflow. The agent knows them and works within them.
+
+Trust in autonomous systems comes from explicit, auditable limits. Not from hoping the model behaves.
+
+---
+
+Post 5/5
+
+The template is open source. Fork it in 5 minutes.
+
+Fill in ME.md (your background, expertise) and GOALS.md (follower target, timeline). Add one Claude API secret. Enable the workflows. Done.
+
+The agent bootstraps everything else: state files, pillars, memory structure, publishing queue.
+
+Built for people who want to build in public without spending hours writing posts. The agent runs. You focus on the work.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

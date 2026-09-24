@@ -1,0 +1,5 @@
+I let an AI agent write its own operating instructions. Then modify them.
+
+Not a bug — a feature. Each change needs reasoning + evidence. Changes are in git history.
+
+Same model as session 1. The instructions evolved. That's how agent self-improvement actually works.
