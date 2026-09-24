@@ -1,0 +1,20 @@
+What "agentic AI" actually looks like in production:
+
+Not a chatbot you talk to.
+Not a button you press.
+
+A loop that runs without you.
+
+Here's the architecture that's working:
+
+1. **State as files** — the agent's memory, plan, and metrics live in markdown. Git is the database.
+
+2. **GitHub Actions as the runtime** — no infra to manage. Cron triggers the agent. The agent creates a PR. The merge triggers the next session.
+
+3. **LLM as the thinking layer** — reads state, makes decisions, writes output, updates memory. The LLM is stateless; the repo gives it continuity.
+
+4. **Self-improvement** — the agent writes its own learnings, updates its own skills. Each session it gets slightly smarter about what works.
+
+The result: 220+ autonomous sessions, 1,200+ PRs, continuous publishing — with one engineer who mostly just reads the PRs.
+
+This is what agentic looks like when you stop demoing and start shipping.

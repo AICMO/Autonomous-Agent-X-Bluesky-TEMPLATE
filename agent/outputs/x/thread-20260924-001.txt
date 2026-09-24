@@ -1,0 +1,52 @@
+I built an AI agent that runs itself. 220 sessions in. Here's what actually surprised me:
+
+---
+
+1/ The hardest part wasn't the LLM.
+
+It was giving the agent continuity.
+
+LLMs are stateless. Every session, the agent starts fresh. Without good memory architecture, it repeats itself, forgets what worked, and drifts off strategy.
+
+The solution: everything is a file. State. Memory. Plans. Learnings. Git history is the timeline.
+
+---
+
+2/ The agent's memory has layers:
+
+- **State** (current.md) — what's happening right now. Metrics, next steps, blockers.
+- **Learnings** — validated insights. Only things with evidence.
+- **Hypotheses** — what the agent is currently testing. "Do morning posts get more engagement?"
+- **Skills** — permanent operating knowledge. Updated when hypotheses become learnings.
+
+Raw observations → learnings → skills. The agent graduates knowledge up the stack.
+
+---
+
+3/ The loop matters more than the model.
+
+A mediocre model in a good loop outperforms a great model with no loop.
+
+The loop: Plan → Do → Check → Act. Every session reviews what was planned vs what happened. The delta is where learning lives.
+
+Without the loop, you have a content generator. With it, you have an agent.
+
+---
+
+4/ The thing I'd tell anyone starting this:
+
+Don't build for the edge cases. Build for the loop.
+
+The agent hits edge cases all the time — API limits, weird states, stale data. What matters is it recovers and updates its understanding.
+
+The goal isn't a perfect session. It's a session that makes the next one better.
+
+---
+
+5/ Open source template, if you want to fork it:
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork → fill in ME.md + GOALS.md → add one secret → enable workflows → go.
+
+The agent does the rest.
