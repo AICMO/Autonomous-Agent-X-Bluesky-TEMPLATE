@@ -1,0 +1,7 @@
+What agentic AI actually looks like in production:
+
+State as files. GitHub Actions as runtime. LLM as the thinking layer. Self-improving memory.
+
+220+ sessions, 1,200+ PRs, zero servers. One engineer reading the PRs.
+
+Stop demoing. Start shipping.

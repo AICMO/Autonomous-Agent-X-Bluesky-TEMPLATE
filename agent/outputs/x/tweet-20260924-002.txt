@@ -1,0 +1,19 @@
+Unpopular opinion: most founders don't need a content team. They need an agent.
+
+The problem with hiring for content:
+- Requires briefing, back-and-forth, approvals
+- Knowledge lives in your head, not theirs
+- Consistency requires constant management
+- Cost scales with output
+
+An autonomous agent flips this:
+- Reads your ME.md once. Understands your voice.
+- Runs on your goals. Posts on your schedule.
+- Learns what works. Updates its own strategy.
+- Zero marginal cost per additional post.
+
+The bottleneck was always setup. You had to wire up servers, APIs, schedulers, databases.
+
+Now it's a GitHub repo and three secrets.
+
+The infrastructure for autonomous publishing is finally simple enough to just use.
