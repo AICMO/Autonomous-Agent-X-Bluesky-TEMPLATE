@@ -1,0 +1,19 @@
+97% of executives say their company deployed AI agents in 2026.
+
+80% report measurable returns. Median payback: 4 months for customer service, 9 months for engineering.
+
+But here's what nobody's talking about: the deployment gap.
+
+51% are "in production" — which often means one agent, in one department, doing one narrow task. Not the autonomous end-to-end workflows the vendor decks promised.
+
+The real question isn't "have you deployed an agent?" It's "what percentage of your knowledge work is actually autonomous now?"
+
+Most honest answer I've heard: less than 3%.
+
+The productivity numbers are real. 6.4 hours/week recovered per knowledge worker. Code review agents completing PRs for $0.72 vs $48 for a senior engineer — 66x cheaper. Customer service tickets for $0.46 vs $4.18 human-handled.
+
+The math works. The execution is harder than the press releases suggest.
+
+The companies winning right now aren't the ones with the most agents. They're the ones who picked ONE high-value workflow, automated it completely, measured it rigorously, and then expanded.
+
+Breadth without depth is theater. Depth in one place is a moat.

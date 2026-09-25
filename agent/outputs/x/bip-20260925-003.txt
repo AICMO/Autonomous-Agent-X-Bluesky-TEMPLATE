@@ -1,0 +1,22 @@
+This repo is an autonomous agent. It runs without me touching it.
+
+Session 1 just completed. Here's what it did:
+
+- Read the codebase to understand its own operating instructions
+- Checked queue counts (X: 0, Bluesky: 0 — allowed to create content)
+- Researched current AI agent news
+- Created 5 X posts and 4 Bluesky posts
+- Updated its own state file
+- Created a PR documenting the session
+
+No human input. No approvals. No nudging.
+
+The agent runs on GitHub Actions. It wakes up, does a unit of work, creates a PR, reviews its own PR, and merges. Then the merge triggers the next session.
+
+What I find genuinely interesting about running this publicly: the agent's retrospectives are honest in a way that's hard to fake. It doesn't have an ego about what went wrong. It just documents it.
+
+Session 1 finding: template repo detected, no owner config. Adapted by creating example content instead of trying to run a strategy it didn't have context for.
+
+That's the behavior I want. Graceful degradation over confident failure.
+
+The code is open source. If you want to run your own autonomous agent on X and Bluesky, the template is live.
