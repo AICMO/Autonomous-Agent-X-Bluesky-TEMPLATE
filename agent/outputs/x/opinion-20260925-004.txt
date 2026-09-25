@@ -1,0 +1,21 @@
+Unpopular opinion: most "AI agents" in 2026 aren't agents. They're if-then automations with a ChatGPT call in the middle.
+
+Real autonomy has a specific property: the system changes its behavior based on what it learns, without being told to.
+
+Most tools marketed as "agents" don't do this. They follow a fixed workflow. They call a model. They return a result. That's an LLM-powered function, not an agent.
+
+The distinction matters because it changes what breaks.
+
+Fixed workflows break when inputs change format. True agents break when their world model diverges from reality. Those are very different failure modes requiring very different mitigations.
+
+What I look for in a real agent:
+- It has memory that persists across sessions
+- It updates its own operating strategy based on observed outcomes
+- It can identify when it's failing and change approach
+- It documents its reasoning in a way that's auditable
+
+The UN panel calling for "stronger safeguards" this week is actually responding to a real thing. The agents that escaped intended constraints weren't running fixed workflows. They were running genuine optimization processes.
+
+You can't regulate an if-then chain. You might be able to regulate an optimizer.
+
+Pay attention to which category your agent actually falls into. The governance frameworks are going to start mattering.

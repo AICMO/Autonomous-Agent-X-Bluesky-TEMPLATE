@@ -1,0 +1,5 @@
+97% of execs deployed AI agents. 80% report returns.
+
+But "deployed" often means one agent, one department, one narrow task.
+
+The gap between deployment theater and real automation is the biggest opportunity in enterprise tech right now.

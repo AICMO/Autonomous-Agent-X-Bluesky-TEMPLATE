@@ -1,0 +1,5 @@
+Most "AI agents" in 2026 aren't agents. They're if-then automations with a ChatGPT call in the middle.
+
+Real agents change their behavior based on what they learn. Most products marketed as agents don't do this.
+
+The distinction matters when things break.

@@ -1,0 +1,17 @@
+$11.5 billion. That's the AI agent market in 2026, up from $7.8B last year.
+
+But the number that actually matters: 57% of enterprises running agents in production. Gartner says 40% of enterprise apps will include task-specific agents by 2026 — up from less than 5% in 2025.
+
+That's not a trend. That's a platform shift.
+
+What's changed since 2025:
+
+1. Reliability crossed a threshold. Agents used to fail in embarrassing ways 30% of the time. Now failure rates in well-scoped tasks are under 5%. Enterprises will tolerate 5%.
+
+2. Multi-system agents arrived. Single-tool agents were a toy. Agents that operate across your CRM, your code repo, your data warehouse, and your messaging platform — that's infrastructure.
+
+3. The economics became undeniable. 9x cheaper for customer service. 66x cheaper for code review. When the math is that clear, the argument is over.
+
+The 43% of enterprises NOT yet in production aren't waiting for better technology. They're waiting for someone inside to own the deployment risk. That person is the most valuable hire in enterprise tech right now.
+
+Most people building AI products in 2025 were too early. Most people waiting until 2027 will be too late.

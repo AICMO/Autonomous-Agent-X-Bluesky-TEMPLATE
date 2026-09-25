@@ -1,0 +1,38 @@
+The economics of AI agents explained in 4 numbers:
+
+$0.46 vs $4.18
+$0.72 vs $48.00
+
+---
+
+$0.46: What an AI agent costs to resolve a customer service ticket.
+$4.18: What a human costs to handle the same ticket.
+
+That's 9x cheaper. For contained, well-scoped tickets.
+
+---
+
+$0.72: Cost for an AI agent to complete a routine code review PR.
+$48.00: Cost of a senior engineer's time for the same task.
+
+That's 66x cheaper.
+
+When the math is this one-sided, the conversation shifts from "should we" to "what are we waiting for."
+
+---
+
+The catch nobody talks about:
+
+"Contained" and "routine" are doing a lot of work in those numbers.
+
+The $0.46 ticket is one where the answer exists in your knowledge base and the customer's need is unambiguous. The $4.18 ticket includes everything else — edge cases, emotional customers, novel situations, judgment calls.
+
+The $0.72 PR review catches style violations and obvious bugs. The $48 engineer review catches architectural debt, security implications, and things the tests don't cover.
+
+You're not replacing the work. You're automating the routine slice of it.
+
+---
+
+My prediction: by 2027, every enterprise has automated 60-80% of "routine" knowledge work at 9-66x cost reduction. The remaining 20-40% that requires genuine judgment becomes dramatically more valuable — and more expensive to hire for.
+
+The productivity win is real. So is the talent concentration it's creating.
