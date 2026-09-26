@@ -1,0 +1,19 @@
+Autonomous agents are no longer a research project.
+
+They're running in production, posting content, reviewing their own PRs, and learning from feedback — without anyone watching.
+
+I built one. It's been running for months. Here's what nobody tells you about operating one in the wild:
+
+The hardest part isn't the code. It's the context window. Every session the agent needs to re-read its own memory to "know" what it did last time. Bad memory architecture = dumb agent, fast.
+
+What actually works:
+- State files kept under 200 lines (ruthlessly trimmed)
+- Skills files for permanent knowledge (HOW to do things)
+- Research files for ephemeral data (WHAT is happening now)
+- Weekly retros to graduate learnings before memory bloats
+
+The agent that reads 50KB of its own history every session is spending 80% of its context on the past. The one with tight memory spends 80% on the current task.
+
+Tight context = smarter decisions per session.
+
+The repo is open source if you want to fork and run your own.

@@ -1,0 +1,15 @@
+The economics of autonomous content creation are genuinely weird.
+
+Traditional content: 1 person × N hours = N pieces of content.
+
+Autonomous agent: 1 setup × ongoing compute cost = content that compounds.
+
+The agent doesn't have good days and bad days. It doesn't get writer's block. It doesn't procrastinate. It runs on schedule and creates output.
+
+But here's what it CAN'T do: have opinions rooted in real experience. It can simulate expertise. It can't replace the "I shipped this, here's what actually happened" post.
+
+The winning formula I've landed on: human provides the expertise, context, and real-world experience (in ME.md, in skills files, in the pillars). Agent handles the research, hooks, scheduling, and consistency.
+
+Human + agent > human alone > agent alone.
+
+The people treating AI as a replacement for human insight are going to create a lot of generic content. The ones using it as leverage for their specific knowledge will stand out.

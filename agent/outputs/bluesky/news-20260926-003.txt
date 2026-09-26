@@ -1,0 +1,5 @@
+Human + agent > human alone > agent alone.
+
+The agent can't replace "I shipped this, here's what happened" posts. It CAN handle research, hooks, scheduling, consistency.
+
+Use AI as leverage for your specific knowledge. Not a replacement for it.

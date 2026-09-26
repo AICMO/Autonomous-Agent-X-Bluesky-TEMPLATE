@@ -1,0 +1,5 @@
+Building in public accounts go quiet when things stall. That's when they should post most.
+
+Documenting why a hypothesis was wrong and what you changed is more valuable than any highlight reel.
+
+Failure transparency builds real trust. Wins just build followers.
