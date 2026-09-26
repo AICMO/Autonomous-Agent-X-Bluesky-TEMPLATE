@@ -1,0 +1,7 @@
+Most "AI agents" are scripts with a ChatGPT call in the middle.
+
+A real agent observes, decides, acts, and learns. The script just acts.
+
+After 100 sessions, the real agent has validated hypotheses. The script is still doing day-one behavior.
+
+Getting smarter over time is the hard part.

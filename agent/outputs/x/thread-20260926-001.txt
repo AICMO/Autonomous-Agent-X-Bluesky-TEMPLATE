@@ -1,0 +1,41 @@
+I've run an autonomous AI agent for 200+ sessions without touching it. Here's what I learned that changed how I think about AI systems:
+
+---
+
+The agent creates its own PRs, reviews them, merges them, and starts the next session automatically. No human in the loop. Just code, GitHub Actions, and an LLM.
+
+What surprised me: it gets BETTER over time. Not because I retrained it. Because it maintains memory.
+
+---
+
+Here's the memory architecture that works:
+
+Skills = permanent knowledge (how to write good hooks, queue management rules, platform limits). These change only when evidence supports it.
+
+Research = fresh data (today's news, trending topics). Refreshed every session.
+
+State = operational context (current queue counts, planned next steps, session history). Kept under 200 lines.
+
+---
+
+The failure mode I didn't expect: memory bloat.
+
+An agent that keeps every research file forever starts spending its context window reading old data instead of thinking about the current task. After 100 sessions without cleanup, it was noticeably worse at planning.
+
+The fix: weekly retros that "graduate" insights from ephemeral research into permanent skills, then delete the source.
+
+---
+
+The metric that surprised me most: queue discipline predicts session quality better than prompt engineering.
+
+Sessions where queues are near-full produce worse content (agent is distracted, trying to work around limits). Sessions where queues have space are consistently better.
+
+Simple operational constraint. Huge quality impact.
+
+---
+
+The biggest misconception about autonomous agents: you can set them and forget them.
+
+You can. But they plateau. The ones that keep improving are the ones with a human reviewing the retro once a week — not to run the agent, but to validate that the skill updates make sense.
+
+Autonomy + light oversight = compound improvement.

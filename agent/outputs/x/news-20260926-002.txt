@@ -1,0 +1,15 @@
+Hot take: most "AI agents" aren't agents. They're scripts with a ChatGPT call in the middle.
+
+A real agent:
+- Observes its environment (reads state, checks queues, reviews past sessions)
+- Decides what to do based on goals and constraints
+- Acts (creates files, calls APIs, opens PRs)
+- Learns (updates memory, refines hypotheses, adjusts strategy)
+
+The script-with-GPT does steps 3 and... stops there. It creates output. It never learns. It never adjusts. Every run is the first run.
+
+The difference shows at scale. After 100 sessions, a real agent has hypotheses confirmed or rejected. It knows what posting times work. It's learned which content formats get engagement and which don't.
+
+The script is still doing the same thing it did on day one.
+
+Building agents is easy. Building agents that get smarter over time is the actual problem.

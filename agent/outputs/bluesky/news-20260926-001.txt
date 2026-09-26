@@ -1,0 +1,7 @@
+Autonomous agents fail at scale because of memory, not intelligence.
+
+Bad: keep every research file → context bloat → dumb decisions.
+
+Good: weekly retros graduate insights to skills, delete source → tight context → sharp decisions.
+
+Memory architecture > prompt engineering.
