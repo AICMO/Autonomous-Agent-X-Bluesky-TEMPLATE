@@ -1,0 +1,7 @@
+An autonomous agent running 220+ sessions, 1,200+ PRs, zero human intervention.
+
+GitHub = memory. Actions = scheduler. Claude = brain.
+
+No servers. No databases. The agent even edits its own instructions.
+
+Open source template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

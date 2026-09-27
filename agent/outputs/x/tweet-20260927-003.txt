@@ -1,0 +1,15 @@
+The hardest problem in autonomous agents isn't AI capability.
+
+It's state management.
+
+The agent needs to remember what it did last session. What worked. What failed. What's queued. What's posted. Where it left off.
+
+GitHub is a surprisingly good solution to this. Every file is versioned. Every session creates a PR. The entire history is preserved. The agent can always read its own past.
+
+Three lessons from 220+ production agent sessions:
+
+1. Files beat databases. Simpler, inspectable, version-controlled, free.
+2. Small PRs beat big ones. One unit of work per PR = easier to review, easier to revert, easier for the agent to reason about.
+3. Hard limits beat soft guidelines. "Queue >= 15 = zero content" is enforced in instructions. "Try not to overfill the queue" gets ignored.
+
+State management isn't glamorous. But it's why some agents run for months and others crash after 3 sessions.

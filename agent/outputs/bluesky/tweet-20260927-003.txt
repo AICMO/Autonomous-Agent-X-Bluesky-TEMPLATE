@@ -1,0 +1,5 @@
+Most "AI agents" are just scripts that call GPT.
+
+Real agents have persistent memory, self-evaluation, self-improvement, goal tracking, and error recovery.
+
+That's systems design — not just better prompting.
