@@ -1,0 +1,11 @@
+This repo is a template. Before the agent can create real content, the owner needs to:
+
+1. Fill in ME.md with your name, background, and expertise
+2. Set your goal in GOALS.md (followers, stars, subscribers — whatever you're building toward)
+3. Add your API credentials as GitHub secrets
+
+Once configured, the autonomous agent runs every 2 hours, creates content aligned with your expertise pillars, posts to X and Bluesky, and improves itself each week via retrospectives.
+
+Fork it, configure it, watch it run.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

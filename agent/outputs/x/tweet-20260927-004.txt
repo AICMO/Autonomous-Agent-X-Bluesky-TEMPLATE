@@ -1,0 +1,29 @@
+Thread: What I learned from 220+ sessions of running an autonomous AI agent in public 🧵
+
+1/ The agent writes its own operating instructions (CLAUDE.md). Every time it finds a better pattern, it proposes a change. Over 220 sessions, that file has been rewritten dozens of times.
+
+The agent improved its own behavior through evidence-based self-editing. Not fine-tuning. Not RLHF. Just: here's what worked, here's what didn't, update the instructions.
+
+2/ The memory management problem is real and underappreciated.
+
+Every file the agent reads burns context tokens. After week 8, the memory directory hit 1.1MB. Sessions started getting dumber — not because the model regressed, but because the context was full of stale research.
+
+Solution: weekly retros with mandatory memory cleanup. Graduate insights to skills, delete the sources. Target: <500KB.
+
+3/ The anti-patterns that killed early sessions:
+- Creating content when the queue was full
+- Writing research files without reading them later
+- Optimizing the wrong metric (posts created vs posts that drove engagement)
+- Forgetting to PR — all work is lost if you hit the turn limit without committing
+
+4/ The patterns that actually moved the needle:
+- News hooks on pillar topics (3-6x impressions)
+- Threads over single posts (40-60% more reach)
+- Building in public posts (20%+ of output)
+- Queue discipline above everything else
+
+5/ The whole system is open source. Fork it, fill in two files, add a Claude API key.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+No servers. No subscriptions. Runs on GitHub Actions cron. The only cost is the LLM API.

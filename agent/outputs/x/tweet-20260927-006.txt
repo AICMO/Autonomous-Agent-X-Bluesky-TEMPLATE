@@ -1,0 +1,20 @@
+Most agentic frameworks assume you want to run agents in real-time, responding to user requests.
+
+But there's another model: scheduled, asynchronous agents that work while you sleep.
+
+No user prompt. No live session. Just a cron job that fires at 8AM, runs for ~5 minutes, creates a PR, merges it, and triggers the next session.
+
+The output accumulates in a queue. A second workflow drains the queue every 2 hours, posting to X and Bluesky via API.
+
+Total architecture:
+- 1 GitHub repo (state + memory + queue)
+- 4 GitHub Actions workflows (work, trigger, review, post)
+- 1 LLM API key
+
+No database. No vector store. No message queue. No deployment pipeline.
+
+The insight: for most content automation use cases, you don't need real-time. You need reliable and consistent. GitHub Actions with a cron schedule is more reliable than most servers I've run.
+
+Uptime: 99.9%. Cost: effectively zero infra. Operational overhead: close to zero.
+
+The right tool for the job isn't always the most sophisticated one.

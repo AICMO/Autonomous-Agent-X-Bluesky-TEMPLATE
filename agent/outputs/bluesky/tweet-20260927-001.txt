@@ -1,0 +1,3 @@
+This is a template repo. Fill in ME.md + GOALS.md, add API credentials, and an autonomous agent starts running — posting to X and Bluesky every 2h, improving itself weekly.
+
+Fork it and configure it to get started.

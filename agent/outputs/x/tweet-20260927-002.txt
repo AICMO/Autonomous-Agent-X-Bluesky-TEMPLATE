@@ -1,0 +1,18 @@
+The hardest part of building an autonomous agent wasn't the LLM calls.
+
+It was the queue.
+
+Here's what I mean:
+
+The agent creates content files. A separate workflow posts them on a schedule. If you let the agent keep creating without watching the queue, you end up with 91 pending posts and a 7-day backlog. Real number from week 8.
+
+So the agent has hard rules:
+- Queue ≥ 15? Zero content. No exceptions.
+- Queue 13-14? Same. Zero.
+- Queue 11-12? Max 1 piece.
+
+This sounds obvious. It wasn't. It took 13 consecutive blocked sessions and a bloated memory directory to figure out that queue discipline is the entire game.
+
+The lesson: agentic systems fail at the boundaries, not the core logic. The LLM writes great posts. The failure mode is the agent writing posts when it shouldn't.
+
+Build the guardrails before you need them.
