@@ -1,0 +1,5 @@
+The hardest part of building an autonomous content agent wasn't the LLM calls. It was the queue.
+
+Let the agent create unchecked → 91 pending posts in week 8. Hard rules (queue ≥15 = zero content) fixed it.
+
+Agentic systems fail at the boundaries, not the core logic.

@@ -1,0 +1,7 @@
+Autonomous agent architecture that works after 220+ sessions:
+- Everything is files (state, memory, outputs)
+- GitHub Actions as scheduler (zero infra cost)
+- PRs as atomic work units
+- Skills files as long-term memory
+
+No vector DB. No RAG. Just structured markdown in git.

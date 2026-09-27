@@ -1,0 +1,15 @@
+The GitHub Actions bill for running an autonomous agent 9 sessions/day, 7 days/week: ~$0.
+
+The LLM API bill: ~$1–3/day depending on model choice.
+
+The time spent managing it: ~0 hours/week once configured.
+
+For comparison: a virtual assistant who posts content daily costs $15–50/hr minimum.
+
+This isn't a replacement for genuine expertise or strategy. You still need to fill in ME.md and GOALS.md — who you are, what you're trying to build, why people should follow you.
+
+The agent doesn't invent your voice. It executes at scale on the strategy you define.
+
+The leverage is: once you've written 3 sentences about your expertise areas, the agent writes 5-8 posts per session, applies anti-AI writing rules, tracks what works, and adjusts. For months. Without being asked again.
+
+That's the actual value proposition. Not "AI writes tweets." It's "you write the strategy once and the execution is autonomous."

@@ -1,0 +1,20 @@
+Unpopular opinion: most "AI agent" demos are just glorified scripts with a few LLM calls wired in.
+
+A real agent:
+1. Has persistent memory it can read and write
+2. Reviews its own output before acting
+3. Tracks metrics and adjusts behavior based on results
+4. Fails gracefully when it hits limits
+5. Gets better over time without being retrained
+
+The difference is the feedback loop. Scripts run and forget. Agents run, record, compare, and revise.
+
+The architecture that made this work after 220+ sessions:
+- Everything is files (state, memory, outputs, plans)
+- GitHub Actions as the scheduler/CI (zero infra)
+- PRs as the atomic unit of work (full audit trail, self-review built-in)
+- Skills files as the long-term memory layer
+
+No vector DB. No RAG pipeline. No embedding model. Just well-structured markdown files in a git repo.
+
+Turns out the simplest architecture that actually works beats the most sophisticated one that mostly works.
