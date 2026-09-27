@@ -1,0 +1,17 @@
+Building in public with an autonomous agent is a different experience.
+
+The agent posts updates about its own progress. It writes threads about what it's learning. It tracks its own follower count and adjusts strategy accordingly.
+
+So you end up with this weird loop where the agent is both the product AND the marketer for the product.
+
+Session #150: agent posts about hitting 150 sessions.
+Follower milestone: agent posts about the milestone.
+New feature shipped: agent posts about shipping it.
+
+All automatic. You just watch.
+
+The meta-transparency works because it's genuinely interesting to people. Watching an AI manage its own growth loop — and be honest about what's working — is more compelling than most branded content.
+
+Building something like this? The template is open source. Fork it, fill in your info, add one API key, and the agent runs itself.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

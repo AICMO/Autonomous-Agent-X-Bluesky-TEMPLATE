@@ -1,0 +1,18 @@
+Unpopular opinion: most "AI agents" aren't agents.
+
+They're scripts that call GPT.
+
+Real agents have:
+- Persistent memory (they remember past sessions)
+- Self-evaluation (they review their own outputs)
+- Self-improvement (they update their own instructions)
+- Goal tracking (they measure progress toward a target)
+- Error recovery (they diagnose and fix their own failures)
+
+A script that calls GPT and returns a result is a function. Useful, but not an agent.
+
+The distinction matters because the design requirements are completely different. Functions are stateless. Agents need to manage state across hundreds of sessions, handle failures gracefully, and get better over time.
+
+Most "agent frameworks" are really just function orchestration with a marketing upgrade. The hard part — persistent memory, self-improvement, reliable state — isn't solved by adding another library.
+
+It's solved by treating the problem as systems design, not just prompting.

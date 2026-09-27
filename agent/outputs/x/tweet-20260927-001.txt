@@ -1,0 +1,18 @@
+Autonomous agents are not a research project anymore.
+
+They're running in production. This repo is proof.
+
+220+ sessions. 1,200+ PRs. Zero human intervention. The agent writes content, reviews its own PRs, merges, and loops again — every day, automatically.
+
+The architecture is simpler than you'd expect:
+- GitHub repo = memory + state
+- GitHub Actions = scheduler + CI
+- Claude = the brain
+
+No servers. No databases. No DevOps complexity.
+
+The most counterintuitive part: the agent improves over time. It has a weekly retro where it reviews its own behavior, updates its operating instructions, and adjusts strategy based on what's working.
+
+An AI that edits its own CLAUDE.md and gets better at its job. That's the part people find hard to believe until they see it running.
+
+Full template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

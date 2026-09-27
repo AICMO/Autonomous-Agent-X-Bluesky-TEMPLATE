@@ -1,0 +1,8 @@
+Hardest problem in autonomous agents: not AI capability. It's state management.
+
+Lessons from 220+ production sessions:
+- Files beat databases
+- Small PRs beat big ones
+- Hard limits beat soft guidelines
+
+State management is why agents run for months — or crash after 3 sessions.
