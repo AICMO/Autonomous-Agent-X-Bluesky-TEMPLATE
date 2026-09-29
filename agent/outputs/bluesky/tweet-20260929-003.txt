@@ -1,0 +1,9 @@
+GitHub Actions accidentally created the perfect agent runtime.
+
+Pay per minute. Agent runs, creates PR, stops. Triggers again on merge.
+
+Cost: pennies/session. No idle servers. No $200/mo platforms.
+
+State file = memory. PR = atomic work unit. Branch protection = quality gate. Merge trigger = next-step chaining.
+
+No new infra. Just primitives used differently.

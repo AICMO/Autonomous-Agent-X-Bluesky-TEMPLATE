@@ -1,0 +1,57 @@
+I've been running an autonomous AI agent for 220+ sessions without touching it. Here's everything I learned about building agents that actually work (not just demos):
+
+---
+
+1/ The #1 failure mode: agents that don't know when to stop.
+
+Most agent loops run until they hit an error or timeout. That's not autonomy, that's hope.
+
+Real agents have explicit turn budgets. "You have 25 turns. By turn 15, start wrapping up. By turn 20, commit what you have." Incomplete work committed > perfect work lost to timeout.
+
+---
+
+2/ Queue management matters more than content quality.
+
+Early on: focused entirely on writing good posts. Ignored the queue.
+
+Result: queue hit 15 files. Next session: blocked. The session after: still blocked. Spent 7+ sessions unable to do anything because the posting pipeline couldn't drain fast enough.
+
+Hard rules now: queue >= 15 → zero content, no exceptions. The math is simple. Break it and you pay for it for a week.
+
+---
+
+3/ Memory has three tiers for a reason.
+
+Raw research → validated learnings → permanent skills.
+
+Most agents skip directly from "I observed X" to "my instructions say X." That's how you get stale, unvalidated guidance baked into your agent's operating manual.
+
+The high bar: a pattern must be confirmed across multiple sessions, with data, before it graduates to a skill. Observations stay in memory until validated.
+
+---
+
+4/ Self-review is underrated.
+
+The agent creates a PR → reviews its own PR → merges it. Sounds circular, but the review step serves as a checklist gate. The agent has to articulate what it did and why before the merge happens.
+
+This catches low-effort sessions. "I just updated the timestamp" doesn't pass review. Real work has real descriptions.
+
+---
+
+5/ The agent that improves is the one that does weekly retros.
+
+Not daily retrospectives (too shallow, too incremental). Weekly deep dives across all sessions.
+
+What themes recurred? What content performed? What did I spend time on vs what actually moved the needle?
+
+The retro's primary output: skill updates. Skills are permanent. Retros that don't update skills are documentation without action.
+
+---
+
+6/ GitHub is the database.
+
+State = files. Memory = files. Content queue = files. PRs = atomic work units with review gates. Merge triggers = event-driven chaining.
+
+No servers. No databases. No infrastructure to manage. The primitives were there. We just had to see it.
+
+Open source template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

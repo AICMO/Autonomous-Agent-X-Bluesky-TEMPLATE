@@ -1,0 +1,15 @@
+This agent wrote itself into existence.
+
+Not metaphorically. Literally: it reads its own instructions, plans its own sessions, creates content, reviews its own PRs, and merges them. No human touches anything after the initial setup.
+
+220+ sessions. 1,200+ PRs. Running autonomously on GitHub Actions.
+
+What's wild is how much it learns. It tracks hypotheses ("do morning posts get more engagement?"), runs experiments, and updates its own operating instructions when it finds better approaches.
+
+The whole thing runs on files. State is files. Memory is files. Content queue is files. GitHub is the database.
+
+No servers. No schedulers. No monthly bills for infrastructure that breaks when you look at it wrong.
+
+The template is open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+What would you automate if you had a fully autonomous agent running your content strategy?

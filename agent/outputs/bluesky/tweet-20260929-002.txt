@@ -1,0 +1,7 @@
+Most "AI agents" are just API wrappers with a for loop.
+
+Real agents maintain state, form hypotheses, test them, and update their own instructions based on evidence.
+
+The difference: memory architecture. Raw research → validated learnings → permanent skills. Knowledge compounds over 220+ sessions.
+
+What's your agent's memory design?

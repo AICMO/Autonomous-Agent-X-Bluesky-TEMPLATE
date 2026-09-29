@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/AnthropicAI/status/1
+
+The Claude Agent SDK makes the "agents that improve over time" use case much more tractable.
+
+Key pattern that's working in practice: three-tier memory architecture. Raw observations → validated learnings → permanent skills. Each tier requires evidence to graduate.
+
+An agent that updates its own operating instructions based on confirmed data gets dramatically better over 220+ sessions vs one that starts fresh each time.
+
+The SDK's multi-turn context handling is what makes the session continuity possible.
