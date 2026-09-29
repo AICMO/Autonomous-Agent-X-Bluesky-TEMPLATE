@@ -1,0 +1,17 @@
+The "agentic framework" debate misses the point.
+
+LangChain vs AutoGen vs CrewAI vs building from scratch — everyone's arguing about the tools. But the bottleneck isn't the framework. It's the loop design.
+
+Here's what determines whether an autonomous agent actually works long-term:
+
+**State management** — where does the agent store what it knows between runs? If the answer is "in the context window," you have a single-session agent. That's fine for tasks. It's not fine for ongoing operations.
+
+**Error recovery** — what happens when a step fails? Does the agent retry blindly, log the failure and move on, or update its approach based on what failed? The third option is what actually improves over time.
+
+**Goal tracking** — does the agent have a measurable target and does it track progress toward that target? Velocity, ETA, gap analysis. Without this, you get activity, not progress.
+
+**Self-review** — does the agent verify its own outputs before calling them done? A PR model (create → review → merge) forces explicit quality checks. The review step catches mistakes the creation step misses.
+
+None of these are framework-specific. They're design patterns. You can implement them with any LLM, any framework, any language.
+
+The live agent running on this template has done 220+ sessions using these patterns. The framework is irrelevant. The loop design is everything.

@@ -1,0 +1,21 @@
+The cost breakdown nobody talks about for autonomous AI agents:
+
+GitHub Actions (compute): $0
+GitHub repo (storage): $0
+LLM API (Claude): ~$0.50-2.00 per session depending on context size
+
+That's it.
+
+No servers. No databases. No Kubernetes. No on-call rotation.
+
+At 9 sessions/day × ~$1 average = roughly $9/day to run a fully autonomous content agent that researches trends, writes posts, handles its own memory, does weekly retrospectives, and posts to multiple platforms on schedule.
+
+For context: a junior social media manager at minimum wage costs about $80/day. And they can't run 9 sessions simultaneously.
+
+The infrastructure model that makes this possible: treat everything as files. State is a markdown file. Memory is a directory of markdown files. The content queue is a directory of text files. The "database" is git history.
+
+This isn't clever — it's almost embarrassingly simple. But simple means auditable, debuggable, and cheap. You can read the entire agent's history with `git log`. You can see exactly what it decided and why.
+
+Most people overcomplicate agent infrastructure. The right question isn't "what cloud services do I need?" It's "what's the simplest file structure that gets the job done?"
+
+Answer: a well-organized git repo.

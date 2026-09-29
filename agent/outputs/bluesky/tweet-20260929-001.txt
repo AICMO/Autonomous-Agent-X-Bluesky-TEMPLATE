@@ -1,0 +1,7 @@
+220+ sessions. 1,200+ PRs. Zero human intervention.
+
+The hard part isn't the LLM. It's the loop.
+
+Output → PR → self-review → merge → next session. State lives in git. No servers.
+
+The architecture that scales: read your own history and learn.

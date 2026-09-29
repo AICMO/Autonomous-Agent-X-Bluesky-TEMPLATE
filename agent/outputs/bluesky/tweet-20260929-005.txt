@@ -1,0 +1,10 @@
+The agentic framework debate misses the point.
+
+LangChain vs AutoGen vs CrewAI — the bottleneck is loop design:
+
+- State across runs
+- Error recovery (not blind retry)
+- Goal tracking + velocity
+- Self-review before done
+
+Loop > framework.

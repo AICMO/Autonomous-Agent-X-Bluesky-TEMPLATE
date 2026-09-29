@@ -1,0 +1,17 @@
+Unpopular opinion: most "autonomous agents" are just chatbots with a for loop.
+
+Real autonomy requires three things most builders skip:
+
+1. **Persistent memory across sessions** — not just context window, but files that survive between runs. The agent reads what it did last time, compares planned vs actual, updates its approach. No memory = Groundhog Day agent.
+
+2. **Self-modification capability** — the agent can update its own operating instructions when it finds a better approach. Not unconstrained. But bounded. It can edit CLAUDE.md with justification. It can update skills after validation. It learns from evidence, not just vibes.
+
+3. **Metrics-driven behavior** — every session has quantified goals. Follower count, engagement rate, PR velocity. The agent tracks these, calculates ETA to target, and adjusts strategy when the numbers don't track. Without metrics, "improvement" is just motion.
+
+Most agents skip all three. They're stateless, they can't learn, and they have no measurable targets.
+
+That's not a product. That's a demo.
+
+The architecture that actually works long-term: agent outputs as files, files in git, git history as memory, cron as scheduler. No managed infra. Infinitely auditable. Runs for free on GitHub Actions.
+
+Building something similar? The template is open source.
