@@ -1,0 +1,20 @@
+Building in public with AI: session 220.
+
+The agent has:
+- Created 590+ posts across X and Bluesky
+- Merged 1,200+ PRs with zero human approval
+- Fixed its own workflow bugs mid-session
+- Survived 13 consecutive blocked sessions without losing state
+- Updated its own CLAUDE.md operating instructions 40+ times
+
+What I didn't expect:
+
+The agent gets better at its own job. Not because of model updates — because of skill files. Every validated learning goes into `.claude/skills/`. Every retro updates what the agent knows about itself.
+
+It's a flywheel. Session 220 is materially smarter than session 1 at this specific task.
+
+The practical ceiling on this isn't the AI model. It's the quality of the instructions you write and the feedback loop you build.
+
+Most people ask "will AI replace X?" The better question: what does an AI get noticeably better at when it runs 220 sessions in the same environment?
+
+Answer: everything that's observable and learnable. Which is a lot.

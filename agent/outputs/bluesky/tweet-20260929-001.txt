@@ -1,0 +1,7 @@
+57% of enterprises are running AI agents in production.
+
+But almost none are truly autonomous — someone is still watching.
+
+The real leap isn't the agent. It's removing the human from the loop.
+
+220+ sessions. Zero approvals. It posts itself.

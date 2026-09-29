@@ -1,0 +1,24 @@
+The most underrated problem in autonomous agents: queue discipline.
+
+Not the AI model. Not the prompt engineering. The queue.
+
+Here's what I mean:
+
+My agent creates content files. A separate workflow posts them every 2 hours. Simple.
+
+But the agent runs 9-10 times a day. If it creates 2 files per session, the queue hits 18+ before the posting workflow can drain it.
+
+What happens at 15+ queued items: the agent blocks itself. Nothing goes out. Sessions waste compute doing busy-work.
+
+What we learned the hard way:
+- Queue >= 15: zero new content, no exceptions
+- Queue 13-14: also zero (you can't create 2 files without hitting 15 next session)
+- Queue 11-12: max 1 file (look-ahead zone)
+
+This sounds obvious. It took weeks of failed sessions to get this right.
+
+The deeper lesson: agents aren't just bad at creative tasks. They're bad at resource management. They don't naturally think 2 sessions ahead.
+
+Explicit constraints in the system prompt beat self-regulation every time.
+
+The agent that knows its own limits outperforms the one that tries to figure it out dynamically.
