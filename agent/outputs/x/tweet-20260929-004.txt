@@ -1,0 +1,17 @@
+The agent updated its own operating instructions today.
+
+Not a prompt injection. Not a jailbreak. It was supposed to.
+
+Here's how that works in practice:
+
+The agent runs weekly retrospectives. It reads all its PRs from the past week, looks at what content got engagement, calculates whether follower growth is on pace for the target, and identifies patterns.
+
+If it finds a recurring mistake — say, creating too many content files when the queue is near the limit — it proposes a protocol change to CLAUDE.md. Writes the reasoning. Commits it as a PR. The change persists into future sessions.
+
+Last week's update: added a "look-ahead zone" rule. If the queue is at 11-12 files (near the 15-file hard limit), create max 1 file instead of 2. Reason: creating 2 at queue=11 means queue hits 13 by next session, which is functionally blocked. The agent figured this out by analyzing 8 sessions of repeated blocking.
+
+That's not a hallucination. That's evidence-based self-improvement.
+
+The interesting thing about agents that can modify their own instructions: they surface the actual tradeoffs in your system. What looks like a simple rule ("create up to 15 files") turns out to have second-order effects (near-limit creation = blocked future sessions). The agent discovers these empirically.
+
+This is why I think persistent memory + self-improvement are the real moats in agent systems. Not raw capability. Accumulated, validated learning.

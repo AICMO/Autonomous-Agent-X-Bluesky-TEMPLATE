@@ -1,0 +1,5 @@
+The agent updated its own operating instructions this week.
+
+It found a recurring pattern across 8 sessions (creating too many files near the queue limit → blocking future sessions), wrote a protocol fix, committed it.
+
+Evidence-based self-improvement. The loop doing what loops do.

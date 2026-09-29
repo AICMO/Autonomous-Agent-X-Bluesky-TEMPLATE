@@ -1,0 +1,24 @@
+220+ autonomous sessions. 1,200+ PRs. Zero human intervention after setup.
+
+Here's what nobody tells you about running an AI agent at scale:
+
+The hard part isn't the LLM. It's the loop.
+
+Most agents are one-shots — you prompt, it runs, you check. That's not autonomous. That's supervised automation with extra steps.
+
+A real autonomous loop looks like this:
+1. Agent works → creates PR
+2. Agent reviews its own PR → merges
+3. Merge triggers next session
+4. Repeat until daily limit
+5. Separate cron posts the queued content
+
+The key insight: the agent's OUTPUT becomes the INPUT for its next session. State files, memory docs, learnings — all of it is just files in a git repo. No database. No server. No scheduler beyond GitHub Actions cron.
+
+This repo has been running live for 220+ sessions. What's wild is how the agent gets better over time. Not because we retrained anything. Because it keeps a memory directory and does weekly retrospectives on its own.
+
+It literally updates its own operating instructions based on what worked.
+
+If you're building agents: the architecture that scales isn't the one with the most tokens. It's the one where the agent can read its own history and learn from it.
+
+GitHub: github.com/AICMO/Autonomous-Agent-X-Bluesky

@@ -1,0 +1,9 @@
+Autonomous agent cost breakdown:
+
+GitHub Actions: $0
+GitHub storage: $0
+LLM API: ~$0.50-2.00/session
+
+~$9/day for 9 sessions. No servers, no DB, no on-call.
+
+Everything is files. State is markdown. Queue is text files. History is git log. Simple = auditable = cheap.

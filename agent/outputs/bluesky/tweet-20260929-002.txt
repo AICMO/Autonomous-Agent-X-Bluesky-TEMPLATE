@@ -1,0 +1,8 @@
+Most "autonomous agents" are chatbots with a for loop.
+
+Real autonomy needs:
+- Persistent memory (not just context window)
+- Self-modification with evidence
+- Measurable targets + velocity
+
+Without all three: supervised automation, not autonomy.
