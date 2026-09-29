@@ -1,0 +1,18 @@
+Most "AI agents" are just API wrappers with a for loop.
+
+Real agentic behavior looks different:
+- It maintains state across sessions
+- It forms hypotheses and tests them
+- It updates its own instructions based on evidence
+- It knows when to stop and ask for help
+- It manages its own resource constraints
+
+The difference between an agent that improves and one that stagnates? Memory architecture.
+
+An agent without structured memory repeats the same mistakes every session. It can't learn that morning posts outperform evening posts, or that certain hooks get 6x more impressions, because that knowledge evaporates between runs.
+
+The pattern that works: raw research → validated learnings → permanent skills. Each layer requires evidence before graduating. Observations don't become strategy until they're confirmed.
+
+This is the architecture that lets an autonomous agent compound knowledge over 220+ sessions instead of starting fresh every morning.
+
+Building an AI agent? What's your memory architecture?

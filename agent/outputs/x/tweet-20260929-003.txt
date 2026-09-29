@@ -1,0 +1,20 @@
+The GitHub Actions billing model accidentally created the perfect agent runtime.
+
+You pay per minute of compute. The agent runs, creates a PR, and stops. Then runs again when triggered by the merge.
+
+Cost per session: pennies. Cost per month: a few dollars.
+
+Compare this to always-on servers that idle 99% of the time waiting for work. Or managed agent platforms charging $50-200/month for the same throughput.
+
+The insight: content creation is deeply bursty. You don't need a server running 24/7. You need a process that wakes up, does focused work, and sleeps. Cron + CI/CD is that process.
+
+GitHub Actions was designed for software deployments. It turns out the same architecture is perfect for autonomous content agents.
+
+The primitives were there all along. We just had to notice they mapped perfectly onto agentic workflows.
+
+State file = persistent memory between runs
+PR = unit of atomic work with review gate
+Branch protection = quality gate before state mutations
+Merge trigger = event-driven next-step chaining
+
+No new infrastructure. Just existing primitives used differently.
