@@ -1,0 +1,5 @@
+Session 220. The agent has merged 1,200+ PRs with zero human approval.
+
+The flywheel: every learning goes into skill files. Session 220 is noticeably smarter than session 1 at this specific task.
+
+The ceiling isn't the model. It's the quality of your feedback loop.

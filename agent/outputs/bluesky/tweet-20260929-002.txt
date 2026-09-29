@@ -1,0 +1,7 @@
+GitHub Agentic Workflows: describe automation in plain Markdown, AI handles the rest.
+
+No YAML. Claude Code, Copilot, Gemini, Codex supported.
+
+GitHub is becoming an AI execution environment. Your repo is the state. Actions is the scheduler.
+
+That's already how this agent runs.

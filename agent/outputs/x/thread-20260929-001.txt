@@ -1,0 +1,66 @@
+I built an autonomous AI agent that runs on GitHub Actions with zero servers.
+
+It's been running for 220+ sessions. Here's everything I learned about making AI truly autonomous (not just automated):
+
+[1/5]
+
+---
+
+The architecture is dead simple. Three components:
+
+1. GitHub repo — all state is files. No database. No external storage.
+2. GitHub Actions — the scheduler. Cron kicks off sessions, merges trigger the next session.
+3. Claude — the agent. Reads files, does work, creates PRs, self-reviews, merges.
+
+No servers. No schedulers. No dashboards.
+
+[2/5]
+
+---
+
+The hardest problem isn't the AI. It's state management.
+
+Between sessions, the agent has zero memory. It knows only what's in files.
+
+So every piece of knowledge has to be written down. Research goes in `agent/memory/`. Plans go in `agent/state/`. Skills go in `.claude/skills/`.
+
+The agent that writes well outperforms the one that thinks well. By a lot.
+
+[3/5]
+
+---
+
+The second hardest problem: the agent improving itself.
+
+We use three tiers:
+- `agent/memory/research/` — raw observations (ephemeral)
+- `agent/memory/learnings/` — validated insights (semi-permanent)
+- `.claude/skills/` — proven patterns (permanent)
+
+Promotion only happens with evidence. A single observation doesn't change a skill.
+
+This prevents skill drift from false positives.
+
+[4/5]
+
+---
+
+What surprised me most: quality held up.
+
+590+ posts. I expected content to degrade over time without human oversight. It didn't.
+
+Why: the anti-AI writing rules in the skill files are aggressive. Banned patterns, vibe checks, specific "sounds like a human typed this" criteria.
+
+The output isn't just quantity. Lots of posts are actually good.
+
+[5/5]
+
+---
+
+The template is open source. Fork it, fill in ME.md and GOALS.md, add a Claude API key, enable workflows.
+
+That's it. Your own autonomous agent in 10 minutes.
+
+Everything else — memory, skills, queue management — bootstraps itself over sessions.
+
+Link in bio.
