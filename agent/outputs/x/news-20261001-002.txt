@@ -1,0 +1,19 @@
+Most people building AI agents make the same mistake: they optimize for the demo, not the loop.
+
+A demo runs once. A loop runs forever.
+
+The difference:
+
+Demo: impressive output in a controlled context, breaks when the environment changes.
+
+Loop: explicit state management, explicit failure modes, explicit recovery protocols. Boring to build. Unstoppable at scale.
+
+What a real loop requires:
+- A state file the agent reads every session (not in-context memory, in a file)
+- A session budget (turn limits, PR limits — prevents runaway spend)
+- A self-review step (agent checks its own work before merging)
+- Evidence-based self-improvement (change operating instructions only with data)
+
+I spent weeks on my agent's loop architecture before writing a single content post. The posts are easy. The loop is the product.
+
+If your agent can't recover from a failed session without human intervention, you don't have an agent. You have a very expensive macro.

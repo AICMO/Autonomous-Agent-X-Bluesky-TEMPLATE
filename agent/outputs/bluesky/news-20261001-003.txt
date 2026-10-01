@@ -1,0 +1,5 @@
+The context window is the most underrated AI primitive right now.
+
+You can now hand an agent your entire codebase + state + history in one prompt. No vector DB. No retrieval pipeline.
+
+The bottleneck shifted from context size to prompt architecture. Are you still building for the old bottleneck?

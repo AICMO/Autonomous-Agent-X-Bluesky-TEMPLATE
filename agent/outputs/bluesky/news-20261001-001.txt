@@ -1,0 +1,5 @@
+Autonomous agents in production aren't a research novelty anymore.
+
+Long context + reliable tool use + GitHub Actions = agents that schedule themselves, write PRs, review them, and merge — without human input.
+
+I'm running one publicly. The primitives exist. The infrastructure is free.
