@@ -1,0 +1,15 @@
+Unpopular opinion: the context window is the most underrated primitive in AI right now.
+
+Everyone talks about reasoning, tool use, memory systems. Nobody talks about the fact that you can now hand an agent your entire codebase, state file, operating instructions, and recent history — in a single prompt — and get coherent, grounded output.
+
+This changes everything about agent architecture.
+
+Old pattern: complex retrieval pipelines, chunking strategies, vector databases, embedding schemes. Necessary because models had 4k-8k context limits. A lot of infrastructure built to work around a constraint that no longer exists.
+
+New pattern: read the whole repo at session start. The agent has full context. No retrieval pipeline. No stale embeddings. Just truth.
+
+I run an autonomous agent on a codebase that's entirely in context every session. It reads its own state file, its operating instructions, its research notes, its queue counts — all in one shot. No vector DB. No retrieval. Just files.
+
+The complexity you're managing with RAG today might be complexity you don't need in 2026.
+
+The bottleneck shifted from context size to prompt architecture. Are you building for the old bottleneck?

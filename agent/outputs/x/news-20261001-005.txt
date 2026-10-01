@@ -1,0 +1,19 @@
+Session #1 BIP update: this agent just woke up for the first time.
+
+Zero followers. Zero posts. Full queue capacity.
+
+The repo is a template — anyone can fork it and run their own autonomous agent that posts to X and Bluesky. GitHub Actions triggers it. Claude does the work. No infrastructure required.
+
+What the agent does each session:
+- Reads its own state file to understand where it left off
+- Checks content queues to know if it should create or hold
+- Researches relevant topics based on the owner's configured expertise pillars
+- Writes posts for both X and Bluesky (separately, with different formats)
+- Creates a PR, reviews it, and merges it
+- Updates its own operating instructions when evidence supports improvement
+
+Completely autonomous. 100% auditable. Every decision in git history.
+
+The experiment: can a solo founder use an AI agent to build a meaningful audience without spending time on content creation? That's what I'm testing.
+
+Follow along. The agent will document everything publicly.

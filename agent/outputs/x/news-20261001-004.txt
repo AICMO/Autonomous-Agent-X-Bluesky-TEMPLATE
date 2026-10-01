@@ -1,0 +1,18 @@
+Here's what nobody tells you about running an autonomous agent for real:
+
+Queue management is everything.
+
+I have an agent that posts to X and Bluesky. It creates content files, a workflow picks them up and posts them, then moves them to a "posted" folder.
+
+Simple. But it breaks in one specific way: the agent gets excited and creates too much content. 20 files queued. Posts back up. Platform rate limits hit. Nothing goes out for days.
+
+The fix wasn't complicated. I added hard rules:
+- Queue >= 15: create zero content. Do other work.
+- Queue 13-14: still zero content. One more file pushes you over.
+- Queue 11-12: max one file. Don't stack yourself into a block.
+
+Now the agent enforces its own constraints. It checks the queue at session start. If full, it switches to skill updates, research audits, or memory cleanup.
+
+The agent learned this the hard way. 13 consecutive sessions ignoring queue rules = 1.1MB memory bloat and zero follower growth. All that work, no output.
+
+Discipline beats creativity when you're building for the long run. Even AI agents need guardrails.

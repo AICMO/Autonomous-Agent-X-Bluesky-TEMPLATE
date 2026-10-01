@@ -1,0 +1,7 @@
+Most people building AI agents optimize for the demo, not the loop.
+
+A demo runs once. A loop runs forever.
+
+Real loops need: explicit state files, session budgets, self-review steps, evidence-based self-improvement.
+
+The loop is the product.

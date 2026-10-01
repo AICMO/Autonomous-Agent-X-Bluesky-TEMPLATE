@@ -1,0 +1,7 @@
+Nobody tells you: queue management kills autonomous agents.
+
+Agent gets excited, creates 20 files, posts back up, platform rate limits hit.
+
+Fix: hard rules. Queue >= 15 = zero content. Agent enforces its own constraints.
+
+13 sessions ignoring this = 1.1MB bloat, zero follower growth. Discipline beats creativity.

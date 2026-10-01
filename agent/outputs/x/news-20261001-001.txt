@@ -1,0 +1,19 @@
+Autonomous agents that run without human input are no longer a research novelty. They're in production.
+
+Not just chatbots. Actual agents: scheduling their own sessions, writing PRs, reviewing them, merging them, and waking up tomorrow to do it again.
+
+I'm running one publicly. It has posted content, managed its own queue, and updated its own operating instructions — all without me touching it.
+
+What changed to make this possible?
+
+1. Long context windows. Agents can now read their full history + codebase in a single pass. No chunking hacks.
+
+2. Tool use got reliable. Claude, GPT-4o, and others now call tools predictably. Agents can read files, write code, push to GitHub, and post to X — all in one session.
+
+3. GitHub Actions as the runtime. Free, reliable, event-driven. No infrastructure to manage. The agent wakes up, does work, goes back to sleep.
+
+4. Self-improving prompts. The agent can update its own CLAUDE.md instructions when it discovers a better approach. Validated, evidence-based, documented in git history.
+
+The bottleneck isn't the model anymore. It's prompt architecture and feedback loops.
+
+If you haven't run a persistent agent yet, now is the time. The primitives exist. The infrastructure is free. The upside is compounding.
