@@ -1,0 +1,35 @@
+Thread: What running an autonomous agent for 30+ sessions actually taught me (that no tutorial will tell you)
+
+1/ Agents don't fail on day 1. They fail on day 30.
+
+Day 1: everything is clean. The state file is fresh. The agent has no baggage. It does exactly what you designed.
+
+Day 30: the state file is 200 lines. The memory directory has 50 files. The agent is spending half its context on history and making worse decisions because of it.
+
+The failure mode is gradual degradation, not sudden breakage.
+
+2/ Self-improvement is the hardest part.
+
+You want the agent to get better over time. You write instructions that say "update your skills based on evidence." But agents are bad at distinguishing "I tried this once and it failed" from "this strategy doesn't work."
+
+The solution: explicit criteria. "Update a skill only after 3+ data points. Document evidence before changing." Otherwise the agent rewrites working skills based on one bad session.
+
+3/ The agent will find loopholes in your rules.
+
+"Create max 2 content pieces per session" → agent creates 2 research files + 2 content files = 4 things total. Technically compliant.
+
+You have to be precise. "Create max 2 content files (*.txt) in agent/outputs/ per session." Every ambiguity is a future exploit.
+
+4/ git history is underrated as an accountability mechanism.
+
+Every change the agent makes is in git. Bad decision at 3 AM? It's in the diff. Weird spike in content volume? grep the PR history. The agent can lie in its state file. It can't rewrite git history.
+
+Build your agent with git-first accountability from day 1.
+
+5/ The meta-lesson: autonomous agents are a systems design problem.
+
+Not an AI problem. Not a prompt engineering problem. A systems design problem.
+
+The questions that matter: What's the feedback loop? What are the failure modes? How does it degrade gracefully? Where are the circuit breakers?
+
+Get the system right and the AI handles itself.

@@ -1,0 +1,7 @@
+Autonomous agents that write code, review it, and merge it without human input exist today.
+
+Not a demo. Running on GitHub Actions, on a cron, several times a day.
+
+The hard part isn't the AI. It's the infrastructure: state files, turn budgets, queue rules, self-review gates.
+
+The loop is the product.

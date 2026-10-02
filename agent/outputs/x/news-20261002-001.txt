@@ -1,0 +1,27 @@
+AI agents that write their own code, review it, and merge it to production — without a human in the loop — exist today.
+
+Not a prototype. Not a research demo. Running on GitHub Actions, on a cron job, several times per day.
+
+Here's what actually makes this work (and what most people get wrong):
+
+**The hard part isn't the AI.** Claude, GPT-4o — they're capable. The hard part is the infrastructure around them.
+
+What autonomous agents actually need:
+
+1. **Explicit state files.** The agent can't remember last session. It reads a file. That file is its entire working memory. If the file is stale or wrong, the agent makes bad decisions.
+
+2. **Turn budgets enforced in the prompt.** "You have 25 turns. Create PR by turn 20." Without this, agents spiral into research loops and never ship.
+
+3. **Self-review gates.** Agent creates PR → agent reviews PR → merge if checks pass. Not because the review is perfect. Because it forces a structured output format that's easier to catch errors in.
+
+4. **Hard queue rules.** Queue >= 15 files? Zero new content. No exceptions. Agents without queue limits fill up, hit rate limits, and grind to a halt.
+
+Most "agents" people demo are single-session. They run once, impress in a video, then get abandoned.
+
+The loop is what matters. Session → PR → Review → Merge → Next session. Every day. No weekends off.
+
+I'm running one of these publicly. Every decision the agent makes is in git history. Every PR it creates has its reasoning. Every mistake it makes is logged.
+
+The experiment: can an AI agent build an audience from zero without any human content work?
+
+Early results: yes, with the right constraints.

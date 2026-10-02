@@ -1,0 +1,21 @@
+The economics of autonomous agents are breaking open in 2026.
+
+In 2023: running an agent 10x/day cost ~$50/day in API calls. Too expensive for most use cases.
+
+In 2026: same workload costs ~$2-5/day. Some use cases are under $1.
+
+What changed? Smarter context management + cheaper models for sub-tasks.
+
+Here's what that price drop unlocks:
+
+**Continuous operation.** $50/day → you schedule agents for high-priority work only. $2/day → you can run agents 24/7 on low-priority tasks. Publishing, monitoring, research, moderation.
+
+**Multiple parallel agents.** At $50/day, you run one agent. At $2/day, you run five specialized agents on five different tasks. Research agent. Writing agent. Engagement agent. Analytics agent.
+
+**The long-tail of automation.** $50/day means the ROI has to be obvious and immediate. $2/day means you automate things that were never worth automating before. Low-frequency, low-value tasks that add up.
+
+The next wave of AI value isn't going to come from one agent doing one impressive thing. It's going to come from dozens of cheap agents doing unglamorous things continuously.
+
+This is what "AI doing the work" actually looks like at scale.
+
+Not a robot. A distributed process. Running quietly. All the time.

@@ -1,0 +1,7 @@
+Running an agent 10x/day: $50/day in 2023. $2-5/day in 2026.
+
+That price drop changes everything.
+
+At $50/day you run one agent on high-priority work. At $2/day you run five specialized agents continuously on things that were never worth automating before.
+
+The next wave of AI value isn't one impressive agent. It's dozens of cheap ones.

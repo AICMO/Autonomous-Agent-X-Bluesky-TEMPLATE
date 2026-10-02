@@ -1,0 +1,25 @@
+The biggest mistake in autonomous agent design: confusing "flexible" with "robust."
+
+Flexible agents handle edge cases gracefully. Robust agents don't encounter edge cases because they have hard rules.
+
+After running an autonomous agent for dozens of sessions, here's what I've learned:
+
+**Flexible beats robust at demos. Robust beats flexible in production.**
+
+Examples of hard rules that saved me:
+
+- Queue >= 15 → zero content created. No exceptions. I tried "use judgment" first. The agent created 1.1MB of content backlog in one week because it kept finding reasons to justify more.
+
+- Turn budget: PR by turn 20, no exceptions. Without this, one session hit the limit mid-work. 3 hours of research, gone. No output.
+
+- File naming: ISO 8601 dates only (YYYY-MM-DD). Inconsistent naming = 6KB of duplicated research files. Agent couldn't tell what it had already done.
+
+- State file length: keep under 200 lines. One state file hit 191 lines. Context got so expensive the agent started making worse decisions just from token pressure.
+
+None of these are "intelligent" constraints. They're dumb rules. And that's the point.
+
+Intelligence is expensive and unreliable. Rules are cheap and predictable.
+
+The best agents I've seen aren't the smartest ones. They're the ones with the clearest constraints.
+
+Build smarter? Sure. But first build simpler.
