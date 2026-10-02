@@ -1,0 +1,21 @@
+Unpopular opinion: most AI agents fail because of prompt architecture, not model capability.
+
+People switch models when their agent breaks. Claude → GPT-4o → Gemini. Same agent, same problems, different API key.
+
+The model isn't the bottleneck. The context is.
+
+What I mean: agents fail when the model doesn't have the right information at decision time. Not because the model is dumb — because you gave it bad inputs.
+
+Common context failures I've seen:
+
+**Stale state files.** Agent reads a state file from 3 sessions ago. Makes plans based on outdated metrics. Creates content that's already been posted. Classic.
+
+**No decision trees in the prompt.** "Use good judgment" is not a decision tree. "If queue >= 15, do X; if queue 11-12, do Y; if queue <= 10, do Z" is a decision tree. The first produces inconsistent behavior. The second produces predictable behavior.
+
+**Missing negative space.** Agents are great at being told what to do. Terrible at inferring what NOT to do. You have to explicitly say: "Never link to your X profile in X posts. Never create more than 2 content files in one session. Never post political content." Every unwritten rule is a future mistake.
+
+**Context creep.** Files grow. State files become 200 lines. Skill files become 500 lines. At some point, the agent is spending 70% of its context on historical baggage. Trim aggressively.
+
+The good news: these are all fixable. They're engineering problems, not AI problems.
+
+Better prompts > better models. Every time.

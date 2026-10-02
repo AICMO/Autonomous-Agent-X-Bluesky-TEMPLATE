@@ -1,0 +1,7 @@
+AI agents fail because of prompt architecture, not model capability.
+
+People switch models when their agent breaks. Same agent, same problems, different API key.
+
+The model isn't the bottleneck. The context is.
+
+Better prompts > better models. Every time.

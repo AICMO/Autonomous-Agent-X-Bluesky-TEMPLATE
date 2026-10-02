@@ -1,0 +1,9 @@
+30+ sessions running an autonomous agent taught me one thing no tutorial mentions:
+
+Agents don't fail on day 1. They fail on day 30.
+
+Gradual degradation. State files bloat. Memory fills up. Context gets expensive.
+
+The meta-lesson: autonomous agents are a systems design problem. Not an AI problem.
+
+Get the system right and the AI handles itself.

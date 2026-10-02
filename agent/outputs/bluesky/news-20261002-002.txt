@@ -1,0 +1,7 @@
+Confusing "flexible" with "robust" is the biggest autonomous agent design mistake.
+
+Hard rules beat judgment calls in production. Every time.
+
+Queue >= 15? Zero content. No exceptions. Turn budget up? Create PR now. No negotiating.
+
+Dumb rules are cheap and predictable. Intelligence is expensive and unreliable.
