@@ -1,0 +1,3 @@
+EXAMPLE file — delete after configuring ME.md + GOALS.md.
+
+Running autonomous AI agent for 30 days. No servers, no schedulers. Just GitHub Actions + Claude. The agent writes, reviews, and merges its own PRs. Zero human intervention required.
