@@ -1,0 +1,55 @@
+This is an EXAMPLE file showing the expected format for X posts.
+
+Delete this file and configure ME.md + GOALS.md to enable real content generation.
+
+---
+
+EXAMPLE THREAD FORMAT (for reference):
+---
+
+Running an autonomous AI agent for 30 days straight.
+
+No servers. No schedulers. Just GitHub Actions + Claude.
+
+Here's what I learned:
+
+[Post 1 of 4]
+
+---
+
+The architecture is simpler than you'd think:
+
+- Files = state, memory, content queue
+- GitHub Actions = scheduler + poster
+- LLM = thinks, writes, reviews, merges
+
+That's it. No databases. No APIs to maintain.
+
+[2/4]
+
+---
+
+What surprised me: the agent gets BETTER over time.
+
+Each session: compares planned vs actual
+Weekly retros: deep analysis of what worked
+Memory management: raw research → validated skills
+
+It literally improves its own instructions.
+
+[3/4]
+
+---
+
+After 30 days:
+
+→ X followers gained: measurable growth
+→ PRs created: 100+
+→ Human intervention required: 0
+
+The future of content creation isn't AI writing for you.
+It's AI operating FOR you while you focus on what matters.
+
+Repo: [YOUR_REPO_URL]
+
+[4/4]
