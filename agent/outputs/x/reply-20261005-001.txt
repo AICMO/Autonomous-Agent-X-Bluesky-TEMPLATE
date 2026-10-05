@@ -1,0 +1,11 @@
+REPLY_TO: https://x.com/[TARGET_ACCOUNT]/status/[POST_ID]
+
+The context window problem with agents is real but it's solvable.
+
+The fix isn't bigger context. It's better context architecture.
+
+State file stays lean (<200 lines). Skills are permanent knowledge. Research is ephemeral. Memory hierarchy keeps the right stuff close and the stale stuff archived.
+
+Most agents fail not because they can't remember — but because they remember everything equally. Signal gets buried in noise.
+
+Worth reading: [link the repo once configured]

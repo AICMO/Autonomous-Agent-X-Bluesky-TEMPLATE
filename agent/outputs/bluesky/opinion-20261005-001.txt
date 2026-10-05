@@ -1,0 +1,5 @@
+Most AI agent products fail from too much autonomy, not too little.
+
+Hard STOP conditions are the architecture. Queue limits, turn budgets, PR caps.
+
+The agent that knows when to stop is more valuable than the one that never does.

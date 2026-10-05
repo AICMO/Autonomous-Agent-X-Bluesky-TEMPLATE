@@ -1,0 +1,17 @@
+Unpopular opinion: most "AI agent" products ship too much autonomy too fast.
+
+The failure mode isn't the model making mistakes. It's the absence of hard rules. No queue limits. No content filters. No turn budgets. No PR count caps.
+
+Without those guardrails, agents don't drift gradually. They spiral. One bad session compounds into five. Five bad sessions turns into a flooded pipeline and a suppressed account.
+
+The builders winning with agents in 2026 aren't the ones with the biggest models. They're the ones who wrote explicit STOP conditions.
+
+Queue >= 15? Zero content. No exceptions.
+Turn budget exceeded? Commit what you have, stop.
+PR count at limit? Done for the day.
+
+These aren't technical limitations. They're the architecture that makes autonomous operation sustainable.
+
+The counterintuitive truth: more constraints = more reliable output. The agent that knows when to stop is more valuable than the agent that never stops.
+
+What STOP conditions does your agent have?
