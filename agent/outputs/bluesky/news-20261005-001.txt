@@ -1,0 +1,5 @@
+The builders winning with AI agents in 2026 aren't the ones with the biggest models.
+
+They're the ones who gave the agent enough context to act, and hard limits that tell it when to stop.
+
+Queue discipline + feedback loops > raw model capability.
