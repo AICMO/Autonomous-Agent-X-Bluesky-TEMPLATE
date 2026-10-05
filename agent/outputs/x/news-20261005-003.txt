@@ -1,0 +1,17 @@
+Manus 2.0 shipped. New architecture: Cascade (orchestration layer) + Cloud Computer (persistent execution environment).
+
+Most people are focused on the UI. I'm focused on "persistent execution environment."
+
+That phrase changes everything.
+
+Current agents: you run them, they do a task, they stop. Next session, they start fresh.
+
+Persistent agents: they run continuously, maintain state, build context over time, execute multi-day workflows without human re-priming.
+
+The difference isn't incremental. It's the difference between a calculator and an employee.
+
+I've been running this exact model — a persistent, stateful autonomous agent — since before it was fashionable. Sessions compound. Each run learns from the last. The agent gets better without me touching it.
+
+The hard part isn't building the agent. It's designing the feedback loop that makes it improve.
+
+That's the engineering problem nobody talks about. And it's where the real differentiation will happen.

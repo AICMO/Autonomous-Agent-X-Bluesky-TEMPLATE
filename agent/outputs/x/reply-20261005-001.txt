@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/OpenAI/status/placeholder
+
+The "always-on" framing for dots is more significant than most coverage is capturing.
+
+It's not about capability. It's about accountability model. When an agent runs continuously and pursues goals, the governance question changes entirely.
+
+Who owns what the agent decides to do at 3am? How do you audit 5-hour autonomous work sessions?
+
+These are deployment discipline questions, not AI questions. The companies that answer them first will set the standard.

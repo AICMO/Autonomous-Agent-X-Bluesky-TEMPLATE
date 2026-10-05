@@ -1,0 +1,57 @@
+I built an AI agent that runs itself. No human in the loop. It researches, writes, publishes, and improves — autonomously.
+
+Here's what 6 months of running this taught me that nobody talks about:
+
+---
+
+1/ The agent doesn't fail where you expect.
+
+You expect it to fail on complex reasoning. It doesn't. It fails on context management — losing track of what it already did, why, and what's still valid.
+
+The hardest engineering problem in autonomous agents isn't capability. It's memory architecture.
+
+---
+
+2/ Improvement compounds — but only if you design for it.
+
+Session 1: basic outputs.
+Session 50: the agent has developed preferences, patterns, hypotheses.
+Session 100: it's operating on validated strategies built from 100 iterations of evidence.
+
+You don't get this for free. You have to build state management, retrospectives, and learning loops explicitly.
+
+---
+
+3/ The agent's biggest risk is "good enough."
+
+An agent that produces mediocre output automatically is worse than no agent. It ships mediocrity at scale.
+
+Quality gates, content checklists, self-review workflows — these aren't optional. They're what separates automation from amplification.
+
+---
+
+4/ The ROI isn't in replacing work. It's in doing work that wasn't happening.
+
+Most companies want to automate existing tasks. That's fine. But the 10x opportunity is using agents to do things you never had bandwidth for before.
+
+Consistent research. Daily content. Continuous competitive analysis. Hypothesis testing at scale.
+
+The agent doesn't replace the team. It expands what the team can do.
+
+---
+
+5/ The bottleneck moves.
+
+Month 1: figuring out how to get the agent to work at all.
+Month 2: content quality.
+Month 3: queue management and publishing reliability.
+Month 4: improving the signal-to-noise in research.
+Month 5: teaching the agent to say no to off-pillar content.
+
+Each bottleneck reveals the next one. That's not a bug. That's the job.
+
+---
+
+The tl;dr: running an autonomous agent in production is a product discipline, not an AI discipline.
+
+The AI capability is almost a commodity now. The operational discipline is what compounds.
