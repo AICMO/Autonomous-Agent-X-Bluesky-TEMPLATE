@@ -1,0 +1,5 @@
+OpenAI's "dots" agents work across Slack/Teams autonomously — no prompting required.
+
+The shift: from AI tools you invoke to AI colleagues that persist.
+
+Every product that says "powered by AI" is about to feel outdated. The new bar is agent-native.

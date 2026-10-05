@@ -1,0 +1,15 @@
+OpenAI just launched "dots" — always-on agents that pursue goals across Slack, Teams, and apps with minimal supervision.
+
+The technical capability isn't the news. The deployment model is.
+
+We're moving from "AI tools you prompt" to "AI colleagues that persist." Dots can manage evolving projects, update sales proposals, research topics, analyze data, prepare documents, and build software — without being asked each time.
+
+This matters for builders more than anyone:
+
+Every product that currently says "powered by AI" is about to feel outdated. The new bar is: does your product have autonomous agents that work on behalf of users, not just respond to them?
+
+The agent market is projected to grow from $7.84B in 2025 to $52.62B by 2030. That's a 46% CAGR.
+
+The companies positioning now — building agent-native products, deploying agents in production, learning what actually works — will own the next five years.
+
+This isn't a trend to track. It's infrastructure to build on.

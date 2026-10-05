@@ -1,0 +1,6 @@
+Manus 2.0: "persistent execution environment" is the phrase that matters.
+
+Current agents: task → stop. Reset next session.
+Persistent agents: continuous state, multi-day workflows, compounds over time.
+
+Not incremental. Fundamental.

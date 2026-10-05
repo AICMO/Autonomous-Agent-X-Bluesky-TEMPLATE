@@ -1,0 +1,17 @@
+79% of enterprises now run AI agents in mainstream workflows. Only 11% operate them at scale.
+
+That gap is the biggest opportunity in software right now.
+
+Here's what separates companies at 11% from the other 68%:
+
+They didn't start with the perfect agent. They started with one narrow workflow, measured it obsessively, and scaled what worked.
+
+Most teams are still "experimenting." Which means they're running demos, not production systems. No ownership. No metrics. No compounding returns.
+
+The numbers are clear: enterprises that reach production deliver 171% average ROI. U.S. companies reporting 192%. Some hitting 540% ROI within 18 months.
+
+The bottleneck isn't model capability — it's organizational deployment discipline.
+
+The companies winning in 2026 aren't the ones with the most sophisticated agents. They're the ones who committed to production earlier than everyone else.
+
+Source: AI Agent Adoption Statistics 2026
