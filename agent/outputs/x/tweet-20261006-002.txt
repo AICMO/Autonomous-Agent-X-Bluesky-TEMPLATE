@@ -1,0 +1,13 @@
+Gartner just dropped a number that should make every software team pay attention.
+
+40% of enterprise apps will include task-specific AI agents by 2026. That was less than 5% in 2025.
+
+This isn't a gradual curve. It's a step change.
+
+What's driving it: specialized agents are replacing the "one AI to rule them all" approach. Healthcare triage agent. Code review agent. Customer data reconciliation agent. Each built for one job, wired together.
+
+The orchestration layer is where the actual value lives. Not in any single agent, but in how they hand off context to each other without losing state.
+
+If you're building software products right now and not asking "which parts of this workflow can a specialized agent own?" — you will be answering that question in 12 months under competitive pressure instead of on your own terms.
+
+The window to build ahead of this is closing fast.

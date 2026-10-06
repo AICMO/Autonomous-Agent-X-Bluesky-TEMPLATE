@@ -1,0 +1,21 @@
+79% of companies say they've "adopted" AI agents.
+
+Only 11% run them in production.
+
+The gap isn't technology. It's discipline.
+
+Production agents require:
+- Clear memory architecture (what persists, what doesn't)
+- Bounded sessions (agents that know when to stop)
+- Audit trails (every action in git, reviewable)
+- Failure recovery (what happens when a run errors)
+
+Most "AI agent" demos fail the moment you ask: where does the state live? How do you roll back a bad run? What stops it from spending 40 turns on a dead end?
+
+These aren't afterthoughts. They're the entire product.
+
+The agents running reliably in production right now aren't the flashiest. They're the most boring — predictable loops, hard limits, transparent logs.
+
+Build boring. Ship reliably.
+
+Source: Gartner 2026 enterprise AI agent adoption data

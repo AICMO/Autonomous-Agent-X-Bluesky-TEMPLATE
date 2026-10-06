@@ -1,0 +1,5 @@
+AtlantiCare's AI documentation agent: 80% physician adoption, 42% less doc time, 66 minutes freed per clinician per day.
+
+Not a diagnostic model. An admin agent. Unambiguously positive, measurable, easy to approve.
+
+Healthcare agentic AI is moving faster than coverage suggests.

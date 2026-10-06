@@ -1,0 +1,5 @@
+Gartner: 40% of enterprise apps will include task-specific AI agents by 2026. That was <5% in 2025.
+
+The move: specialized agents per workflow, orchestrated together. Not one AI to rule them all.
+
+The orchestration layer is where the value lives.

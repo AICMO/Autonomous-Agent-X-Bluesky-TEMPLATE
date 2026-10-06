@@ -1,0 +1,5 @@
+79% of companies claim AI agent adoption. Only 11% run in production.
+
+The gap: state management, hard limits, audit trails, failure recovery.
+
+Production agents are boring by design. Predictable loops beat flashy demos every time.
