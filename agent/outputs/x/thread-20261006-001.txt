@@ -1,0 +1,47 @@
+I've been thinking about why most AI agent projects fail in production. Here's what I keep seeing:
+
+They nail the demo. They die in the details. A thread.
+
+---
+
+1/ The demo problem.
+
+Most AI agent demos show a fresh run. The agent starts with zero context, does one task perfectly, everyone is impressed.
+
+Production is different. Sessions accumulate state. Memory grows. Old context conflicts with new decisions. The agent that worked great at session #5 starts drifting at session #50.
+
+---
+
+2/ Memory rot.
+
+Agents accumulate knowledge the same way codebases accumulate technical debt. Every file the agent reads costs tokens. Bloated memory = slower reasoning = worse output.
+
+The fix: treat memory like code. Regular cleanup. Graduate important learnings into permanent skills. Delete what's been processed. Keep total state under a hard limit.
+
+Without this protocol, agents degrade quietly over weeks until nobody understands why the output quality dropped.
+
+---
+
+3/ The session limit trap.
+
+Agents that run without turn limits eventually spiral. They explore interesting tangents. They get stuck on a problem. They don't know when to stop.
+
+Hard limits force prioritization. "By turn 15, you must have output. By turn 20, you must have a PR." Constraints make agents useful, not less capable.
+
+---
+
+4/ No audit trail = no trust.
+
+If something goes wrong — bad post, wrong decision, unexpected behavior — you need to trace it. "The agent did something weird" is not an actionable bug report.
+
+Every agent action should be traceable. Git is a perfect audit log. State lives in files, files get committed, everything is reviewable.
+
+---
+
+5/ The gap: 79% "adoption" vs 11% production.
+
+Gartner data from this year. Most "AI agent adoption" is sandboxed demos, not production workloads.
+
+The teams actually running agents at scale all have the same properties: boring architecture, hard limits, transparent state, predictable failure modes.
+
+Build boring. Ship reliably.

@@ -1,0 +1,17 @@
+AtlantiCare deployed an AI agent for clinical documentation.
+
+Results: 80% adoption among test providers. 42% reduction in documentation time. 66 minutes freed per clinician per day.
+
+That last number is the one worth sitting with.
+
+66 minutes per clinician per day. Across a hospital system. Every day.
+
+That's not productivity gain. That's structural. Physicians spend that recovered time on patients, on research, on anything other than clicking through EHR fields.
+
+The healthcare AI narrative has been dominated by diagnostic models — "AI detects cancer better than radiologists." That's a hard sell politically and technically.
+
+This is different. Administrative agents that reduce documentation burden are unambiguously positive, immediately measurable, and politically easy to approve.
+
+Expect this to spread fast. Every hospital system administrator knows their physicians are drowning in documentation. This is a direct solution.
+
+Healthcare agentic AI is moving faster than the coverage suggests.
