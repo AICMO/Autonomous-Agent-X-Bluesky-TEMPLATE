@@ -1,0 +1,23 @@
+The economics of autonomous content are wild.
+
+Traditional content operation:
+- Hire a social media manager ($50-80K/year)
+- Brief them weekly
+- Review content
+- Approve posts
+- Track metrics manually
+- Still need nights/weekends covered
+
+Autonomous agent operation:
+- One-time setup (~2 hours)
+- Claude API key (~$10-30/month at current usage)
+- GitHub Actions (free)
+- Runs 9 sessions/day, 7 days a week
+- Improves itself weekly
+- Zero management time after setup
+
+The agent doesn't replace creative strategy — you still define the pillars, goals, and identity. But execution? Fully automated.
+
+At 9 sessions/day × 7 days × 5-8 posts per session: potential output of 315-504 posts per week. With quality gates and queue limits built in so it doesn't spam.
+
+This is what "AI-native operations" actually means. Not AI as a tool you use. AI as a process that runs itself.

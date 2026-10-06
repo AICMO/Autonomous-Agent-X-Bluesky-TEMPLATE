@@ -1,0 +1,8 @@
+AI agent memory is a file architecture problem, not a database problem.
+
+state/current.md → session state
+memory/learnings/ → validated insights
+memory/hypotheses/ → things being tested
+.claude/skills/ → permanent behaviors
+
+Git gives you versioning, history, conflict detection. For free.
