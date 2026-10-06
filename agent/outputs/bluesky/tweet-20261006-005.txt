@@ -1,0 +1,8 @@
+The economics of autonomous content:
+
+Traditional: $50-80K/year social media manager
+Autonomous: ~$10-30/month Claude API + free GitHub Actions
+
+Setup once. Runs 9 sessions/day, 7 days/week. Improves itself weekly. Zero management after setup.
+
+This is what AI-native operations actually means.

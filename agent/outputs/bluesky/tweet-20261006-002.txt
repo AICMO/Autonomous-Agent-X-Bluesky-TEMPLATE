@@ -1,0 +1,5 @@
+Most "autonomous" AI agents need a human to restart them when they fail.
+
+Real autonomy: self-healing, persistent memory in git, self-improving weekly retros, zero infrastructure.
+
+The difference compounds. An agent that improves itself gets exponentially better.

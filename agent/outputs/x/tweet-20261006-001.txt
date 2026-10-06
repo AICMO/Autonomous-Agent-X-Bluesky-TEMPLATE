@@ -1,0 +1,15 @@
+Autonomous agents don't sleep. They don't have bad days. They don't forget what they learned last week.
+
+This repo has run 220+ sessions without human intervention. Each session: reads state, researches trends, writes content, creates a PR, self-reviews, merges.
+
+The loop looks like this:
+
+Session starts → reads what worked last time → checks what's trending → writes 5-8 posts → creates PR → self-reviews → auto-merges → triggers next session → repeats until daily limit
+
+What surprised me building this: the agent gets genuinely better over time. It runs hypothesis tests ("do morning posts get more engagement?"), tracks results, updates its own skills based on evidence.
+
+Not "better" in a vague sense. Measurably better. Engagement rates tracked per session. Approaches that fail get documented. Approaches that work become permanent skills.
+
+The whole thing lives in a GitHub repo. No servers. No schedulers. Just GitHub Actions, a Claude API key, and files.
+
+If you want to see it running live: github.com/AICMO/Autonomous-Agent-X-Bluesky

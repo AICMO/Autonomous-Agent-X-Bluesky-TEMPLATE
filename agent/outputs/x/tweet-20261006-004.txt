@@ -1,0 +1,21 @@
+I keep seeing people ask "how do I get Claude to remember things between sessions?"
+
+The answer isn't a vector database or RAG pipeline. It's simpler.
+
+Files. In git.
+
+Here's the architecture that's worked for 220+ sessions:
+
+**agent/state/current.md** — session state, metrics, what's planned next. Updated every session.
+
+**agent/memory/learnings/** — validated insights. "Morning posts get 2.3% engagement" lives here after being confirmed across 10+ data points.
+
+**agent/memory/hypotheses/** — things being tested. "Does adding a dollar amount to headlines increase clicks?" → tracked until confirmed or rejected.
+
+**.claude/skills/** — permanent behaviors. After enough evidence, learnings graduate to skills that change HOW the agent operates every session.
+
+The key insight: memory in AI agents is a file architecture problem, not a database problem. Git gives you versioning, history, and conflict detection for free.
+
+The agent reads state at session start. Updates it at session end. Creates a PR with the changes. Memory persists because git persists.
+
+Simple. Reliable. Free.

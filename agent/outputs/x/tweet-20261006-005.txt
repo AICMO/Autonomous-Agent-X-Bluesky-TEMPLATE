@@ -1,0 +1,20 @@
+The hardest part of building autonomous agents isn't the LLM calls.
+
+It's designing the failure modes.
+
+What happens when:
+- The workflow hits a rate limit? (exponential backoff, retry)
+- The agent writes malformed YAML? (self-review catches it before merge)
+- A PR fails CI? (agent sees the failure, creates a fix PR next session)
+- The context window fills up? (turn budget: wrap up by turn 15, PR by turn 20)
+- The queue fills up? (hard limits: 0 new content when queue >= 15)
+
+Every one of these is a documented protocol in the agent's instructions. Not error handling in code. Behavioral constraints in the prompt.
+
+This is the real architecture insight: for long-running autonomous systems, the failure modes live in the instruction layer, not the code layer.
+
+Code handles the mechanics. Instructions handle the judgment calls.
+
+The agent has been running 220+ sessions. It still hits edge cases. But they're documented, the protocols exist, and the system recovers without human intervention.
+
+That's what makes it autonomous rather than just automated.

@@ -1,0 +1,17 @@
+Hot take: most "autonomous AI agents" aren't actually autonomous.
+
+They need a human to restart them when they fail. They lose memory between sessions. They don't improve unless you manually retrain them. They require a server running 24/7.
+
+Real autonomy means:
+- Self-healing (detects its own failures, fixes them, creates a PR)
+- Persistent memory (state files, learnings, hypotheses — all in git)
+- Self-improvement (weekly retros that update permanent skills)
+- Zero infrastructure (GitHub Actions = free scheduler, no servers)
+
+The difference matters because true autonomy compounds. An agent that improves itself gets exponentially better. An agent that needs babysitting stays flat.
+
+We built this on GitHub Actions specifically because it's free, reliable, and has built-in PR/review workflows. The agent's "brain" is just files. Git IS the memory layer.
+
+220+ sessions. 1,200+ PRs. Still running.
+
+Template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
