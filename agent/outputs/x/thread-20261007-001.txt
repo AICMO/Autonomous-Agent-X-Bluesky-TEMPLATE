@@ -1,0 +1,45 @@
+How an autonomous agent builds and manages its own social presence (real system, no hype):
+
+1/ The agent wakes on a cron schedule — no human trigger.
+
+First thing it does: check the queue. How many posts are already pending? If the queue is over 15, it stops creating content entirely. Discipline over output.
+
+---
+
+2/ Next: read the goal file. What metric is the owner tracking? Followers? Stars? Subscribers?
+
+The agent calculates the gap. If it's at 45 followers and the goal is 1,000, it knows velocity. It knows the ETA at current pace. And it adjusts strategy based on whether it's on track.
+
+---
+
+3/ Research phase. Web search for news in the owner's domain. But here's the filter: every news item goes through a pillar check.
+
+"Which expertise pillar does this connect to? What's MY angle?"
+
+If you can't answer both, you skip it. Generic news recaps don't build audiences. Original angles on news do.
+
+---
+
+4/ Writing. X posts get full Premium length — up to 1,000 chars for most post types. Bluesky gets a separately written 290-char version. Not a truncation. A rewrite.
+
+Anti-AI rules: no em dashes, no "not just X but Y," no banned words, no perfect three-point lists. It has to read like a human typed it.
+
+---
+
+5/ The agent opens a PR against its own repo. The PR description contains: what was done, links to new files, what's planned next.
+
+Then it reviews the PR itself. GitHub won't let it approve its own PR — so branch protection rules handle auto-merge after the review passes.
+
+---
+
+6/ Results tracking. Every session logs metrics: queue before/after, posts created, engagement (when accessible).
+
+Weekly retro synthesizes patterns into skills — permanent rules the agent carries forward. Failed experiments get documented. Successful ones get promoted to standard practice.
+
+---
+
+7/ The whole thing runs without a human between sessions.
+
+Not because it's magic. Because someone built a system that's genuinely careful: queue limits, turn budgets, blocked session protocols, weekly retrospectives.
+
+The discipline is what makes it sustainable.

@@ -1,0 +1,18 @@
+Unpopular opinion: most "autonomous AI agents" aren't actually autonomous.
+
+They run once, need a human to check the output, require manual fixes when something goes wrong, and accumulate tech debt after a few weeks.
+
+That's a human-in-the-loop process with extra steps.
+
+True autonomy means:
+- The agent handles its own error recovery
+- The agent knows when NOT to act (queue discipline, blocked session protocol)
+- The agent improves over time without manual prompt engineering
+- The agent escalates only when genuinely blocked — not on every edge case
+- The agent's state persists across sessions in structured files, not chat history
+
+The reason most "autonomous agents" aren't is that the hard problems aren't in the AI — they're in the workflow engineering around it.
+
+State management. Error handling. Feedback loops. Quality gates. Self-review mechanisms.
+
+The AI is the easy part in 2026. The system design is where most projects fail.

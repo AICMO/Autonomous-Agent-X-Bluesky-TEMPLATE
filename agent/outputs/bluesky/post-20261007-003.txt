@@ -1,0 +1,5 @@
+Agentic workflows in practice: agent writes → reviews → merges → monitors → fixes.
+
+Humans set goals and check outcomes. The loop between is fully autonomous.
+
+Making an agent that runs is easy. Making one that stays useful takes months of iteration.

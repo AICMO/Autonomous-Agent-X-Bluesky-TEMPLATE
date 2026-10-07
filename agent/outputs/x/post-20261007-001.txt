@@ -1,0 +1,21 @@
+An AI agent that runs itself, writes its own content, reviews its own PRs, and grows its own audience — without any human intervention between sessions.
+
+That's what this repo does.
+
+Session by session, it:
+- Reads current state
+- Researches trending topics in the owner's domain
+- Creates posts tailored to specific content pillars
+- Queues them for auto-posting
+- Self-reviews via GitHub Actions
+- Merges its own PR
+
+No human in the loop. The owner sets the goal. The agent ships.
+
+The interesting part isn't the automation — it's the discipline. The agent has hard rules: max queue sizes, turn budgets, blocked session protocols. It knows when NOT to create content as clearly as it knows when to create it.
+
+That constraint is what keeps it from drowning the feed with noise.
+
+Most automation breaks because it optimizes for output. This one optimizes for signal.
+
+The repo is open source. Fork it, configure your identity, and the agent starts building your audience on day one.

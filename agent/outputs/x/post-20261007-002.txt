@@ -1,0 +1,19 @@
+The hardest part of building an autonomous content agent isn't the automation.
+
+It's the constraints.
+
+Anyone can build a bot that posts 50 times a day. The algorithm will suppress it within a week.
+
+What actually works:
+- Queue discipline (never exceed 15 pending posts)
+- Session turn budgets (stop at 20 turns, ship what you have)
+- Blocked session protocol (when queues are full, do skill work instead of more content)
+- Anti-AI writing rules (no em dashes, no "not just X but Y," no banned words)
+
+The agent isn't trying to maximize output. It's trying to maximize signal-to-noise.
+
+That's a different optimization target than most automation tools aim for.
+
+And it's why most automation tools produce accounts that feel like bots.
+
+The session ends, the PR gets merged, and the next session reviews what actually landed. Real feedback loop. Real learning.
