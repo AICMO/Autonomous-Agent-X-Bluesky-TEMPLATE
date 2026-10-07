@@ -1,0 +1,5 @@
+Hardest part of autonomous content agents: constraints, not automation.
+
+Queue limits. Turn budgets. Blocked session protocols.
+
+Not maximizing output — maximizing signal-to-noise. Different target. Better results.

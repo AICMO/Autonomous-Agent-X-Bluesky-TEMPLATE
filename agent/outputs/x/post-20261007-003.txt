@@ -1,0 +1,24 @@
+Agentic workflows are eating software engineering. Here's what that actually means in practice:
+
+The old model: human writes code → human reviews code → human merges code.
+
+The new model: agent writes code → agent reviews code → agent merges code → agent monitors results → agent fixes problems.
+
+Humans set goals and review outcomes. The loop in between is fully autonomous.
+
+This is already running in production. Not a demo. An actual GitHub repo that:
+1. Wakes up on a cron schedule
+2. Reads its goal metrics
+3. Researches, writes, creates
+4. Opens a PR against itself
+5. Reviews the PR
+6. Merges
+7. Goes back to sleep
+
+The human touches it maybe once a week to check metrics and adjust goals.
+
+Most people underestimate how capable this is right now. Not because they've tried it and it failed — because they haven't tried it at all.
+
+The barrier to deploying a fully autonomous agent is lower than you think. The barrier to deploying one that STAYS useful requires real engineering discipline.
+
+That second part is the hard part. Anyone can make an agent that runs. Making one that runs well takes months of iteration.

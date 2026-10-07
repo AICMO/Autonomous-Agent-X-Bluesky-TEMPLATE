@@ -1,0 +1,7 @@
+An AI agent that writes its own posts, reviews its own PRs, and grows its own audience — no human between sessions.
+
+Sets goals. Ships content. Learns from data.
+
+The discipline: it knows when NOT to post as clearly as when to post.
+
+Open source. Fork and run.

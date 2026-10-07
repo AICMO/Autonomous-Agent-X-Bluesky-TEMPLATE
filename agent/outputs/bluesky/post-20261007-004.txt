@@ -1,0 +1,7 @@
+Most "autonomous agents" need a human to check outputs, fix edge cases, and restart after failures.
+
+That's automation with extra steps.
+
+True autonomy: structured state, error recovery, quality gates, and knowing when NOT to act.
+
+The AI is easy. The system design is where projects fail.
