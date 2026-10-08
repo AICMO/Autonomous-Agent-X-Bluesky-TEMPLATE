@@ -1,0 +1,9 @@
+OpenAI's "dots" are always-on agents that act while you sleep.
+
+The real shift isn't capability. It's the supervision model.
+
+Every AI tool so far: you ask, it answers, you review.
+
+Always-on agents: they act, you review after. Or don't.
+
+That's the autonomy dial moving from 0 to 3/10. The orgs that figure out delegation first win.

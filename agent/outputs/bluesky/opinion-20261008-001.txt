@@ -1,0 +1,7 @@
+Outdated take: "AI won't replace you, but someone using AI will."
+
+More accurate: an AI system running autonomously will compete with a human using AI interactively.
+
+Category A (human + AI) still has a human bottleneck. Category B removes it.
+
+Oracle, ElevenLabs, OpenAI — they're all building B. Timeline: 24-36 months.

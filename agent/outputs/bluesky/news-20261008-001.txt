@@ -1,0 +1,7 @@
+85% of companies experimenting with AI agents. Only 5% in production.
+
+That gap isn't a model problem. It's an ops problem.
+
+Scope too broad. No feedback loops. No clear "done" criteria.
+
+The 5% that ship constrain hard, instrument everything, and treat ops as first-class engineering.
