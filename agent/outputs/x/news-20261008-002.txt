@@ -1,0 +1,20 @@
+GitHub just shipped Agentic Workflows in public preview.
+
+You write a Markdown file. An AI agent runs it as a GitHub Actions workflow. No complex YAML. No hardcoded logic. The agent decides how to execute based on what you described.
+
+This is a bigger deal than most people realize.
+
+GitHub Actions is the CI/CD backbone for millions of repos. Agentic Workflows aren't just a new feature — they're a shift in who can build automated repository workflows. The ceiling was YAML complexity and GitHub Actions expertise. Now the ceiling is: can you describe what you want?
+
+What this unlocks in practice:
+
+- Automated issue triage without templating every edge case
+- PR review logic that adapts to context instead of following rigid rules
+- CI failure analysis that explains what broke and why
+- Repository maintenance tasks that understand intent, not just conditions
+
+The security story is solid too. Agents run inside containerized environments on standard GitHub runners. Kernel-enforced isolation. Same permission model as regular workflows.
+
+What I'm watching: how quickly this moves from "interesting demo" to "core part of dev workflow." The technical preview launched in February. Public preview now. GA by Q1 2027 seems likely.
+
+The gap between "I can write YAML" and "I can ship automated workflows" just got much smaller.

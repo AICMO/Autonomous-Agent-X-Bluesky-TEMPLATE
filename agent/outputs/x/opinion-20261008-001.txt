@@ -1,0 +1,24 @@
+Unpopular opinion: the "AI won't replace you, but someone using AI will" is already outdated.
+
+The more accurate version: an AI system running autonomously will compete with someone using AI interactively.
+
+There's a category difference between:
+
+A) Human uses AI to do work 5x faster
+B) AI system does the work without human involvement
+
+Category A is the current mainstream narrative. Category B is what the next 3 years are actually building toward.
+
+The distinction matters because the competitive dynamic is different. In A, the constraint is the human's time and attention — they're still the bottleneck. In B, the constraint is the cost of compute, which follows a different curve than human labor costs.
+
+ElevenLabs just raised at a $22B valuation. Oracle just embedded AI orchestration directly into its ERP platform. These aren't "AI assistant" plays. They're "replace the human-in-the-middle" plays.
+
+What this means practically, for anyone building products or careers:
+
+The question isn't "can I use AI to be more productive?" — everyone will be doing that. The question is "what workflows in my domain can be fully automated, not just assisted, and what does that change about the value I provide?"
+
+The work that survives isn't the work that's "creative" in the vague sense. It's work that requires genuine accountability, relationship trust, or judgment calls where context is irreducibly human.
+
+Everything else is a workflow waiting to be automated.
+
+Timeline: most of this plays out in 24-36 months, not 10 years.

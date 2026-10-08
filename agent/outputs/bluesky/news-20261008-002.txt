@@ -1,0 +1,7 @@
+GitHub Agentic Workflows just hit public preview.
+
+Write a Markdown file. An AI agent runs it as a GitHub Actions workflow.
+
+No YAML expertise required. The ceiling just moved from "know YAML" to "describe what you want."
+
+GA by Q1 2027 seems likely. This is quietly huge.

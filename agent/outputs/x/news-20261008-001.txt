@@ -1,0 +1,23 @@
+85% of large companies are experimenting with AI agents.
+
+Only 5% have moved them into production.
+
+That gap — 85% experimenting, 5% shipping — is the entire story of enterprise AI in 2026.
+
+Most AI agent pilots die at the same place: the handoff from "cool demo" to "runs reliably on real business data, every day, without a babysitter."
+
+The demos work because they're cherry-picked. Production fails because reality is messy. Edge cases. Permission errors. Stale data. Ambiguous instructions that a human would intuit around.
+
+What the 5% that ship have figured out:
+
+1. Constrain scope hard. An agent that does ONE thing reliably beats a general agent that does MANY things unreliably. The mistake is building for breadth first.
+
+2. Build in feedback loops from day one. The agent needs to know when it's wrong. Logging, escalation paths, human review gates — not optional.
+
+3. Start with async workflows, not real-time. Batch processing hides latency and retry complexity. Real-time is a trap for early deployments.
+
+4. Define "done" before you build. If you can't write a test case for success, you're building a demo, not a product.
+
+The 11-14% that do scale from pilot to production aren't the ones with the fanciest models. They're the ones that treated the operational scaffolding as first-class engineering work.
+
+The model is the easy part. The infra around it is the hard part.

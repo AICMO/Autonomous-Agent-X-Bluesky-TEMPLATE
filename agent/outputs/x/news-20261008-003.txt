@@ -1,0 +1,21 @@
+OpenAI launched "dots" — always-on agents that pursue your goals across apps with limited supervision.
+
+Works through Slack and Teams. Manages evolving projects. Updates sales proposals, researches data, prepares documents, builds software. All running while you sleep.
+
+Here's the thing nobody is saying: the real product shift isn't the capability. It's the supervision model.
+
+Every AI assistant so far has been reactive. You ask. It answers. You review. It waits.
+
+"Always-on agents with limited supervision" is a fundamentally different contract. The agent acts. You review after. Or you don't, if you trust it.
+
+This is the autonomy dial moving from 0 to something between 3 and 5 (out of 10). It's not AGI. It's delegation infrastructure.
+
+The business impact: knowledge work tasks that currently require a human to kick them off and monitor them get queued, batched, and executed without a human in the critical path.
+
+That changes headcount math. Not in the "everyone gets fired" headline way. In the "one person can now own the workflow that used to need three people to coordinate" way.
+
+The organizations that figure out what to delegate first will have a real operational advantage within 18 months. Those still debating whether to use AI at all will be competing against them.
+
+The supervision question is the important one. How much do you trust the agent? What happens when it's wrong? What's your review gate?
+
+These are the questions that determine whether "always-on" becomes a productivity multiplier or a liability.
