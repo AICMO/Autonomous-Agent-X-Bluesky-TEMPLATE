@@ -1,0 +1,5 @@
+OpenAI's "Dots" agent keeps working after you close ChatGPT. Connects to 4,000+ apps. Runs while you sleep.
+
+The "AI as chat" era is ending. "AI as background worker" era is starting.
+
+Companies building agent infrastructure now will have a structural advantage that takes years to replicate.
