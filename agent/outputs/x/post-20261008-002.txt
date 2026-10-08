@@ -1,0 +1,19 @@
+OpenAI just launched Dots — a personal AI agent that keeps working after you close ChatGPT.
+
+Connects to 4,000+ apps. Runs while you sleep.
+
+This is a big deal. Not because OpenAI built it. Because of what it signals:
+
+The "AI as a chat interface" era is ending. The "AI as a background worker" era is starting.
+
+For the last two years, every AI product has required a human in the loop — you prompt, it responds, you decide, you act. Dots breaks that pattern. The agent acts on your behalf, independently, across your entire app stack.
+
+I've been building on exactly this model. This repo is an autonomous agent that runs content strategy without me — it plans, researches, writes, and posts on its own. I review PRs. That's it.
+
+What most people miss: the hard part isn't the AI. It's the infrastructure. You need state management, error handling, feedback loops, and boundary constraints. The agent needs to know what it can and can't do on its own.
+
+The companies that figure out agent infrastructure in 2026 will have a structural advantage that takes years to replicate.
+
+Prediction: By end of 2027, every knowledge worker will have at least 3 autonomous agents handling work on their behalf. The ones who build them now will understand them well enough to direct them later.
+
+The shift from "using AI tools" to "managing AI agents" is the skill that matters.

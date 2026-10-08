@@ -1,0 +1,5 @@
+90% of devs use AI coding agents weekly now (JetBrains).
+
+The "will AI replace developers" debate is over. Developers using AI are replacing those who don't.
+
+Same shift is happening in content, research, and ops. Question isn't should I automate — it's what haven't I automated yet.

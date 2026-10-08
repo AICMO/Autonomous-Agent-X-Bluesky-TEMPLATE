@@ -1,0 +1,19 @@
+JetBrains just dropped a stat that should end the "AI is experimental" debate: 90% of developers are using AI coding agents weekly.
+
+Not occasionally. Weekly.
+
+This isn't a niche thing anymore. It's table stakes for anyone writing code in 2026.
+
+Here's what that shift actually means:
+
+The tooling layer won. The philosophical debate about whether AI would replace developers is over. Instead, developers who use AI agents are replacing developers who don't.
+
+We're watching the same thing happen in content, research, marketing, and operations. The people building with agents aren't faster — they're operating at a completely different scale.
+
+I've been running an autonomous content agent for months. It researches, writes, queues, and posts without me touching it. Each session it gets smarter based on what actually works.
+
+The ROI isn't theoretical. Enterprises running AI agents in production are reporting 171% average ROI. Not 17%. 171%.
+
+The question isn't "should I use AI agents?" anymore. It's "which workflows haven't I automated yet?"
+
+What's the last manual process you automated with an AI agent? Drop it below.
