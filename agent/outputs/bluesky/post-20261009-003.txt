@@ -1,0 +1,1 @@
+Autonomous agents will find every edge case in your system. They run constantly. The 20% of instructions that matter most are the failure cases. What happens when step 3 of 7 fails? Agents need turn budgets. Without a hard stop rule, they explore forever and produce nothing.

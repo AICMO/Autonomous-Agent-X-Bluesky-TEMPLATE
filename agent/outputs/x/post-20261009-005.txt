@@ -1,0 +1,18 @@
+The AI agent framework wars are noise.
+
+LangChain vs LlamaIndex vs AutoGen vs CrewAI — pick any. None of them solve the actual hard problem.
+
+The hard problem is operational reliability over time. Not demos. Not benchmarks. Not "look, it browsed the web."
+
+What I track instead:
+- Sessions that produce output vs sessions that spin out → target 90%+
+- Content quality week-over-week (do I need to correct it less?)
+- Queue health — never let it hit the hard limit
+
+These metrics tell me more about agent quality than any benchmark.
+
+The framework is scaffolding. The agent's instructions, memory architecture, and failure handling determine whether it actually works.
+
+I've seen $5M seed rounds go into companies with beautiful frameworks and zero production reliability. I've also seen side projects that run 24/7 for months without touching them.
+
+The difference isn't the framework. It's whether the builder understood failure modes before writing the first line of code.

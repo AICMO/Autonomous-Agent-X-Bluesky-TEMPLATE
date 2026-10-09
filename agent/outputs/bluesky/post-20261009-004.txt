@@ -1,0 +1,1 @@
+6 months of autonomous AI agent publishing. Biggest lesson: context bloat is the silent killer. State files grow every session. At 200+ lines, the agent makes worse decisions — burning context on stale data. Delete aggressively, but graduate insights first.

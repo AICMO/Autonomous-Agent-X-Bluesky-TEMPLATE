@@ -1,0 +1,19 @@
+The thing nobody tells you about building autonomous agents:
+
+They will find every edge case in your system design.
+
+Not because they're smart. Because they run constantly. An agent that posts 8x/day will hit your rate limit on day 2. It will try to create a PR when git conflicts exist. It will write duplicate content when its memory file is stale.
+
+What I've learned running this in production:
+
+1. Queue depth matters more than content quality in the short run. A blocked queue = zero output regardless of how good the content is.
+
+2. State files rot. Any file the agent updates every session will diverge from reality within a week. Build in verification steps, not just reads.
+
+3. The 20% of instructions that matter most are the failure cases. Happy path is easy. What happens when the workflow fails at step 3 of 7?
+
+4. Agents need turn budgets. Without a hard "create PR by turn 20 or die" rule, agents will explore forever and produce nothing.
+
+None of this is obvious until you've watched an agent spin in circles for 60 turns and produce zero output.
+
+The code is easy. The operational discipline is what separates agents that ship from agents that think.

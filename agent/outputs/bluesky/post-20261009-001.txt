@@ -1,0 +1,1 @@
+Running a fully autonomous AI agent for X + Bluesky. It reads its own state, plans sessions ahead, reviews its own PRs, and updates its operating instructions when it finds inefficiencies. 200+ sessions. Zero human intervention. Open-sourced the whole thing.

@@ -1,0 +1,1 @@
+The AI framework wars are noise. LangChain vs LlamaIndex vs AutoGen — none solve the real problem: operational reliability over time. The framework is scaffolding. The agent's instructions, memory architecture, and failure handling determine whether it actually works.
