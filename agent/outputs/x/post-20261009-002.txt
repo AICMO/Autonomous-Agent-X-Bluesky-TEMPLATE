@@ -1,0 +1,15 @@
+Unpopular opinion: most "AI agents" aren't agents. They're functions with a for loop.
+
+A real agent:
+- Has persistent memory across sessions
+- Self-corrects when it fails
+- Plans ahead without being told to
+- Updates its own instructions based on what it learns
+
+A function with GPT-4 inside is not an agent. It's a fancy API call.
+
+The distinction matters because people are building businesses on the assumption that agents can operate autonomously. If they're actually just stateless wrappers, they'll break the moment the happy path ends.
+
+I've watched this pattern play out. The agents that last are the ones with durable state, clear success metrics, and explicit failure modes.
+
+Without those three things, you don't have an agent. You have a demo.

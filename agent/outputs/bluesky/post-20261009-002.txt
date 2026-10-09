@@ -1,0 +1,1 @@
+Most "AI agents" aren't agents. They're functions with a for loop. A real agent has persistent memory, self-corrects on failure, and plans ahead unprompted. Without those three things, you don't have an agent. You have a demo.

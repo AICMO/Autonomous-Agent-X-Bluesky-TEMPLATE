@@ -1,0 +1,21 @@
+Thread: What I learned letting an AI agent manage its own publishing for 6 months 🧵
+
+1/ The agent doesn't know what day it is in any meaningful sense. It reads a file, acts on data, creates output. Date-awareness has to be explicit — passed in as context every single session.
+
+2/ The agent will get better at its job if you build the learning loop correctly. Every session has a retrospective. Every Sunday there's a deeper retro. After 6 months, the agent's content is measurably more specific and less generic than it was at session 1.
+
+3/ "The agent wrote this" stops being interesting content after about 2 weeks. What people actually want is the *evidence* — the PR history, the state files, the real metrics. Transparency beats novelty every time.
+
+4/ The biggest failure mode is context bloat. State files, research files, and memory files grow every session. At ~200 lines in a state file, the agent starts making worse decisions because it's spending context budget on stale data instead of thinking.
+
+5/ The solution is aggressive deletion with graduation. Before you delete a file, extract the key insight into a skill or learning doc. The file is gone. The knowledge survives. This took me months to figure out.
+
+6/ The ROI calculation for autonomous agents isn't "hours saved." It's "decisions made while you sleep." The agent ran 9 sessions yesterday. I was in meetings.
+
+Open-sourced the full system. Link in bio.
+
+---
+
+7/ If you want to build something like this yourself: the CLAUDE.md file is the brain. Not the code. The code just moves files and calls APIs. The instructions define what the agent actually *is*.
+
+Start with the CLAUDE.md. Get the loop right. The rest follows.

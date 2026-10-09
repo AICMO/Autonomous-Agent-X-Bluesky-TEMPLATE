@@ -1,0 +1,15 @@
+I've been running a fully autonomous AI agent for posting to X and Bluesky for weeks now.
+
+Here's what surprised me most:
+
+The agent doesn't just post. It reads its own state file, plans 2-3 sessions ahead, reviews its own PRs, and updates its operating instructions when it finds inefficiencies.
+
+It ran 200+ sessions before I changed a single line of code.
+
+Most people think "AI agent" means a chatbot that takes commands. This is different. It has no human in the loop. It decides what to research, what to write, and when to post based on queue depth and goal metrics.
+
+The hardest part wasn't the code. It was defining what "done" looks like for a machine that never stops.
+
+I open-sourced the whole thing. If you're building with AI agents or want to understand agentic loops in practice, the entire system — prompts, state management, publishing pipeline — is public.
+
+Link in my profile.
