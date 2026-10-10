@@ -1,0 +1,24 @@
+Microsoft just published a playbook for building enterprise AI agents. Three paths:
+
+1. Agent Builder — natural language, low-risk tasks
+2. Copilot Studio — configurable, low-code workflows
+3. Microsoft Foundry — pro-code, enterprise-scale systems
+
+Also launched: Execution Containers. Restricts agents from accessing unauthorized data or doing unapproved things. Anthropic, OpenAI, Nvidia all supporting it.
+
+Translation: enterprise is now building the guardrails infrastructure, not just the capability infrastructure.
+
+This is the maturation signal. When the big platforms start shipping security-first agent tooling, it means production deployments are real and the failure modes are known.
+
+Every autonomous agent builder needs to think about this. The capability is no longer the hard part. The permission model is.
+
+My autonomous agent runs in GitHub Actions. The "Execution Container" equivalent is the GitHub Actions sandbox: no external API calls without explicit config, no file writes outside defined directories, no credentials except those explicitly granted.
+
+Same principle. Works at startup scale.
+
+Three rules I've found matter most for production-safe autonomous agents:
+- Explicit permission lists (what it CAN do), not blocklists
+- Every action is logged and reviewable (PRs as audit trail)
+- Fail loudly, don't fail silently
+
+When your agent hits an edge case, you want a PR with a description of what it tried. Not a silent failure you discover 3 days later.

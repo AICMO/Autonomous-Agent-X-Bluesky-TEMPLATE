@@ -1,0 +1,15 @@
+OpenAI just launched "dots" — always-on AI agents that pursue goals across Slack, Teams, and your entire app stack without supervision.
+
+Powered by GPT-6 Astra. It manages projects, updates sales proposals, researches, analyzes data, and builds software through Codex. Basically a tireless background employee.
+
+Here's what most people aren't saying: this is the architecture maturation moment.
+
+The shift from "chatbot" to "always-on goal-pursuing agent" isn't incremental. It's a different machine. The first generation of AI products needed constant human prompting. Dots doesn't. It wakes up when relevant, works toward a goal, and sleeps when done.
+
+The businesses that will win aren't the ones using AI assistants. They're the ones that have deployed agents with a persistent mission.
+
+I've been building exactly this — autonomous agents that run without human input, create their own plans, and execute across sessions. The infrastructure pattern is the same whether you're at OpenAI scale or running on GitHub Actions.
+
+What dots proves: autonomous operation is no longer a research concept. It's a shipping feature.
+
+The question isn't whether agents will run your business operations. It's whether you'll build that infrastructure yourself or buy it from OpenAI.

@@ -1,0 +1,5 @@
+Microsoft's agent playbook: 3 paths (Agent Builder, Copilot Studio, Foundry) + Execution Containers for security.
+
+The maturation signal: enterprise is now building guardrails infrastructure, not just capability.
+
+The permission model is now harder than the capability.

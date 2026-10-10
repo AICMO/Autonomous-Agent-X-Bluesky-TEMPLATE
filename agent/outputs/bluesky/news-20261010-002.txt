@@ -1,0 +1,5 @@
+Manus raised $500M after China blocked Meta's acquisition.
+
+Their architecture: Cascade (orchestration) + Cloud Computer (persistent execution) + event triggers.
+
+Key insight: design for persistence first, intelligence second. A dumb agent that remembers beats a smart agent that forgets.
