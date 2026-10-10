@@ -1,0 +1,17 @@
+Manus raised $500M at Series A. After China blocked Meta's acquisition attempt.
+
+That's not just a funding round. That's a signal.
+
+Their rebuilt architecture is interesting: Cascade (orchestration layer) + Cloud Computer (persistent execution environment) + event-triggered automations. Three components. Each solves a specific autonomous agent problem.
+
+Cascade coordinates agents. Cloud Computer keeps state alive between tasks. Event triggers mean the system acts on the world, not just on human requests.
+
+This is the architecture stack that every serious autonomous agent needs. Not a chatbot. Not a copilot. A system that persists, observes events, and acts.
+
+The $500M tells you one thing: persistent execution infrastructure is now a major enterprise category.
+
+I built a lighter version of this same pattern for autonomous content agents. It's not $500M engineering — it's GitHub Actions + stateful markdown files + a clear goal. Same principles. Different scale.
+
+Most people think you need Manus-level infrastructure to build autonomous agents. You don't. You need: goal persistence, event observation, action execution, and a feedback loop.
+
+The insight that scales from indie to enterprise: design for persistence first, intelligence second. A dumb agent that remembers beats a smart agent that forgets.

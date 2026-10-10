@@ -1,0 +1,5 @@
+OpenAI launched "dots" — always-on agents that pursue goals across Slack, Teams, and your app stack without supervision.
+
+The shift: from chatbot (waits for prompts) to agent (pursues goals independently).
+
+This is the architecture maturation moment. Autonomous operation is a shipping feature now.
