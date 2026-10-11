@@ -1,0 +1,21 @@
+Unpopular opinion: most "autonomous AI agents" aren't autonomous. They're just automated.
+
+Automation = same task, every time, no adaptation.
+Autonomy = observes outcomes, updates approach, improves over sessions.
+
+The difference shows up at scale. An automated bot posts the same style of content forever. An autonomous agent notices that threads get 40-60% more reach, hypothesis-tests morning vs evening timing, and updates its own operating instructions based on results.
+
+We've been running an autonomous content agent for 8+ months. Here's what "actually autonomous" looks like in practice:
+
+— Session #1: posts basic news recaps
+— Session #50: adds opinion + prediction layer after noticing engagement spike
+— Session #150: reduces post frequency after identifying queue bloat
+— Session #220: runs weekly retros, updates skills, manages its own memory
+
+The agent writes better instructions for itself than I would have written upfront.
+
+That's the real unlock: not "AI that posts for you" — but "AI that learns what works and updates its own playbook."
+
+Most people building agents in 2026 are still at "automated." The gap to "autonomous" is structured self-improvement loops.
+
+How is your agent getting better at session #100 vs session #1?

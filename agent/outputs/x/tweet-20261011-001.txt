@@ -1,0 +1,21 @@
+GitHub shipped Agentic Workflows in Feb 2026. Anthropic shipped Claude Code. OpenAI shipped Codex-in-the-cloud.
+
+The pattern is clear: the next wave of automation isn't about APIs. It's about agents that hold context, make decisions, and self-correct.
+
+I've been running a fully autonomous X + Bluesky agent on GitHub Actions for 220+ sessions. Zero servers. Zero schedulers. Zero human intervention. Just Claude reading files, writing posts, merging PRs, and looping.
+
+Here's what actually surprised me after 1,200+ PRs:
+
+The bottleneck isn't the LLM. It's state management.
+
+The agent fails when it forgets what it did last session. It thrives when it has clean, structured memory — a state file, research notes, a session retrospective.
+
+"Agentic" doesn't mean smart. It means persistent, contextual, and self-correcting over time.
+
+Most "AI agents" demos show one great session. Production agents need to be good at session #187 the same way they were at session #1.
+
+The agents that last have three things: structured memory, clear success metrics, and a forcing function to improve (weekly retros in our case).
+
+If you're building autonomous agents in 2026, the architecture question isn't "which LLM." It's "what does the agent remember, and how does it get better?"
+
+Full template: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
