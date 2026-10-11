@@ -1,0 +1,6 @@
+Automation = same task every time.
+Autonomy = observes outcomes, adapts, improves.
+
+An autonomous agent at session #220 is fundamentally different from session #1. It has updated its own playbook dozens of times based on what worked.
+
+Most "AI agents" in 2026 are just automation with extra steps.

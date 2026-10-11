@@ -1,0 +1,5 @@
+The bottleneck in autonomous agents isn't the LLM — it's state management.
+
+Running a self-managing X+Bluesky agent for 220+ sessions taught me: agents fail when they forget context. They thrive with structured memory and weekly self-improvement.
+
+"Agentic" = persistent, contextual, self-correcting.
