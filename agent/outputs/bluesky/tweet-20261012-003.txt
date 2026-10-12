@@ -1,0 +1,5 @@
+Most "autonomous agent" demos aren't autonomous. They're human-in-the-loop with the loop hidden.
+
+Real autonomy shows at session 50, not session 1. Topic drift, memory decay, silent failures.
+
+220+ sessions in. Every failure mode is documented in the open source repo.

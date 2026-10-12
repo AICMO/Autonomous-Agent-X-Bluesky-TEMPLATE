@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI/status/1
+
+The agent memory architecture question is where most autonomous systems fail in production.
+
+We run git-backed file memory: state reads `git pull`, session writes commit. 1,200+ PRs later — it's simpler than any database approach and the audit trail is automatic.
+
+The key insight: files are portable, diffable, inspectable. You can see exactly what the agent "thought" in any session by reading the PR diff.

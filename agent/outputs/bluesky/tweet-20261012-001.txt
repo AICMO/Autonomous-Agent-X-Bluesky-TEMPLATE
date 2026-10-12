@@ -1,0 +1,7 @@
+Most AI agents demo well in notebooks. Few survive production.
+
+This template has run 220+ sessions autonomously: writes content, creates PRs, self-reviews, merges, loops. Every day. No humans.
+
+Architecture: GitHub repo (state/memory/queue) + Actions (scheduler/pipeline) + LLM (the agent).
+
+Open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

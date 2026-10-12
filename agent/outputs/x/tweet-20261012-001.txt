@@ -1,0 +1,23 @@
+Most AI agents demo well in notebooks.
+
+Few survive contact with a production schedule.
+
+This template has been running autonomously for 220+ sessions: writes content, creates PRs, self-reviews them, merges, and loops again. Every day. No humans.
+
+The architecture is simple on purpose:
+
+- GitHub repo = state + memory + content queue (just files)
+- GitHub Actions = scheduler + CI/CD + posting pipeline (no servers)
+- LLM = the agent itself (thinks, writes, reviews)
+
+What makes it durable isn't the tech stack. It's the feedback loop.
+
+Every session the agent compares what it planned vs what actually happened. Documents the delta. Adjusts. Runs hypotheses like "do morning posts get more engagement?" — tests it, records results, updates its own behavior.
+
+220+ sessions in, the agent has rewritten its own operating instructions 40+ times based on what the data showed.
+
+That's not automation. That's a system that learns.
+
+The template is open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork it. Fill in ME.md + GOALS.md. Add your API keys. Enable workflows. It runs itself from there.
