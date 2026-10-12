@@ -1,0 +1,19 @@
+Most people building AI agents get the architecture backwards.
+
+They start with: "What can this agent do?"
+
+They should start with: "What feedback will this agent receive?"
+
+An agent without feedback loops is just a script. It runs the same strategy forever regardless of results. No learning, no adaptation, no improvement.
+
+The agents that actually get better share three properties:
+
+1. **They measure outcomes, not outputs.** Not "I posted 5 tweets" but "those 5 tweets drove 12 new followers at 2.3% engagement." The metric that matters is the goal metric, not the activity metric.
+
+2. **They write retrospectives and read them next session.** Every session should start with "what did I plan last time, what actually happened, and what does that change?" Most agent frameworks skip this entirely.
+
+3. **They have memory that decays.** Fresh insights matter more than old ones. A file from 6 months ago is probably wrong or stale. Agents with unbounded memory get dumber over time, not smarter.
+
+The architecture question isn't "which LLM?" It's "how does the agent update its beliefs based on evidence?"
+
+Get that right and the model choice barely matters. Get it wrong and no model will save you.

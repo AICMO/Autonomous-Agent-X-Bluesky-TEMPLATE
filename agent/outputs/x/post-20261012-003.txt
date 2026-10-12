@@ -1,0 +1,17 @@
+Nous Research just raised $90M at a $1.5B valuation for their open-source AI agent Hermes.
+
+24 million clones. 2.5% of global AI token usage. Now going enterprise across Slack, Telegram, WhatsApp.
+
+The story here isn't the fundraise. It's the distribution model.
+
+Open source → massive developer adoption → enterprise monetization. That's the playbook working right now in AI agents. Not proprietary moats. Not closed APIs. Open models that spread through developer communities, then get commercialized once the brand is built.
+
+Compare this to the closed-source AI agent market: locked APIs, switching costs, vendor dependency. Meanwhile Hermes is free, has 24M clones, and just raised on the back of that distribution.
+
+The developers who built on Hermes when it was free are now the inside sales channel for the enterprise product.
+
+This is how open source wins in AI. Not on technical superiority alone — on distribution that no VC check can replicate.
+
+Prediction: Within 18 months, at least 3 more open-source AI agent frameworks will follow this exact playbook. Build in public, get to 10M+ downloads, raise on the enterprise wedge.
+
+The question for developers today: Are you building on platforms that own you, or platforms that are owned by the community?
