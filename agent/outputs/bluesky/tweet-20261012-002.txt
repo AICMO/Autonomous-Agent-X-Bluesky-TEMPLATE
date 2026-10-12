@@ -1,0 +1,5 @@
+Hardest part of autonomous agents isn't the AI — it's memory architecture.
+
+After 1,200+ PRs: files in a git repo beat databases and AI context every time.
+
+Agent reads files → writes files → commits → PRs. Git is the memory. Durable over clever.

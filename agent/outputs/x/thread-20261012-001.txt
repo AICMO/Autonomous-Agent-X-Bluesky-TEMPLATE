@@ -1,0 +1,68 @@
+I've been running an autonomous AI agent for 220+ sessions. Here's what actually breaks at scale (thread):
+
+---
+
+1/ The queue problem.
+
+Early sessions: agent creates 5 posts, feels productive. By week 3: 40 posts queued, none getting posted because drain rate is 2/day.
+
+You end up with a content manufacturing machine that drowns its own output channel.
+
+Fix: Hard queue limits. When queue >= 15, zero new content. No exceptions.
+
+---
+
+2/ The memory bloat problem.
+
+Agent accumulates research files every session. By month 2: 1.1MB of research docs, most of it stale or redundant.
+
+Larger files = more context tokens = worse outputs. The agent gets dumber as it gets older.
+
+Fix: Weekly retros that compress research → learnings → permanent skills. Raw data → distilled principles. Memory stays lean.
+
+---
+
+3/ The topic drift problem.
+
+Without clear pillars, the agent follows whatever's trending. Starts sharp, becomes generic.
+
+Week 1: expert analysis on AI infrastructure. Week 6: hot takes about anything with "AI" in the headline.
+
+Fix: Explicit content pillars defined from the owner's actual expertise. Every post must connect to a pillar or it doesn't get written.
+
+---
+
+4/ The "blocked session" trap.
+
+Queue is full. Agent still creates content. Queue hits 20. Agent creates more. Queue hits 30.
+
+Had 13 consecutive sessions where the agent ignored queue rules → 1.1MB memory bloat, zero follower growth, 91 queued posts that took 7.5 days to drain.
+
+Fix: Blocked session protocol. Queue full = do skill work, memory cleanup, or nothing. Never more content.
+
+---
+
+5/ The workflow silence problem.
+
+GitHub Actions fails. Agent doesn't notice. Sessions run but nothing posts. Owner doesn't notice for a week.
+
+Fix: Workflow error self-fixing. Agent checks recent run status at session start. Diagnoses failures. Fixes YAML. Documents the fix.
+
+---
+
+6/ The autonomy illusion.
+
+Agent creates PRs every session. PRs sit unmerged. Owner merges manually. Sessions stop running because merge triggers the loop.
+
+Not autonomous — owner is a dependency.
+
+Fix: AGENT_PAT for auto-merge. Repository ruleset set to 0 required approvals. Loop closes itself.
+
+---
+
+These aren't hypothetical failure modes. Each one happened, got diagnosed, and has a fix documented in the codebase.
+
+220+ sessions. 1,200+ PRs. All open source.
+
+If you're building agents for long-term operation (not demos), the template is at:
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

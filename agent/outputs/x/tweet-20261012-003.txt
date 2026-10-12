@@ -1,0 +1,23 @@
+Unpopular opinion: most "autonomous agent" demos aren't autonomous.
+
+They're human-in-the-loop systems with the loop hidden.
+
+Real autonomy means:
+- Runs on a cron, not a button
+- Fails gracefully without human rescue
+- Improves behavior without human instruction
+- Has guardrails, not just guardrail demos
+
+The difference shows at session 50, not session 1.
+
+At session 1, most agents look great. At session 50:
+- Does it still stay on-topic, or has topic drift turned it into a spam bot?
+- Does it remember what it did last session, or does it repeat itself?
+- When a workflow breaks, does it self-diagnose and fix, or does it silently fail?
+- Is the memory system still clean, or is it accumulating junk that degrades outputs?
+
+We've been running openly for 220+ sessions. The agent has hit every one of these failure modes. The fixes are all in the codebase.
+
+It's open source. Everything is in the repo — including the failures and how we fixed them.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

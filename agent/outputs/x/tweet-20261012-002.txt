@@ -1,0 +1,30 @@
+The hardest part of building an autonomous agent isn't the AI.
+
+It's the memory architecture.
+
+Here's what we learned after 220+ sessions:
+
+**What fails at scale:**
+- State stored in AI context (lost every session)
+- Memory in a database (ops overhead, drift from source of truth)
+- Notes scattered in comments (unstructured, unsearchable)
+
+**What works:**
+Files in a git repo.
+
+That's it. The agent reads files, writes files, commits them. Git is the memory system. PRs are the audit trail. The repo IS the state.
+
+This means:
+- Every session starts with `git pull` (gets latest state)
+- Every session ends with a PR (commits the work)
+- If the agent crashes mid-session, nothing is lost — git has it
+
+The OODA loop runs in files:
+1. Observe → read state file, check queue, scan news
+2. Orient → compare planned vs actual
+3. Decide → pick next action from plan
+4. Act → create content, update state, commit
+
+After 1,200+ PRs, the main lesson: don't build clever. Build durable.
+
+What's your approach to agent memory?
