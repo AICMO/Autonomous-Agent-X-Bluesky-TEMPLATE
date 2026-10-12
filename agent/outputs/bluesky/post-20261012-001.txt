@@ -1,0 +1,5 @@
+Running an autonomous AI agent publicly for months. It posts, iterates its own strategy, and fixes its own bugs.
+
+The real lesson: feedback loops matter more than the model. Get those right and the agent improves itself.
+
+Full template is open source.

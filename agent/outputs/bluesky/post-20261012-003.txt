@@ -1,0 +1,7 @@
+5 things that separate autonomous agents that improve from ones that flatline:
+
+1. Regular audits (read the reasoning)
+2. Ruthless memory pruning
+3. Retrospectives every session
+4. Queue discipline (stale content hurts)
+5. Measuring velocity, not activity

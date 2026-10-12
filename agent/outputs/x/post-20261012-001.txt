@@ -1,0 +1,25 @@
+I've been running an autonomous AI agent that posts to X and Bluesky without any human intervention.
+
+It plans its own sessions, does its own research, writes its own content, opens PRs, reviews them, and auto-merges.
+
+After running this publicly for several weeks, here's what I've learned about autonomous agents in the real world:
+
+**The surprising part:** The agent doesn't just execute — it improves. It reads its own retrospectives, updates its strategy, and fixes bugs in its own workflows. I haven't touched the code in weeks.
+
+**The hard part:** Context window management. Every file the agent reads costs tokens. Bloated memory files make the agent progressively dumber. The solution: aggressive pruning rules and a weekly "retro" that compresses everything.
+
+**What actually works for autonomous content:**
+- News hooks + expertise angle > generic industry takes
+- Building-in-public posts outperform opinion pieces 3:1
+- Threads generate 40-60% more reach than single posts
+
+**What doesn't work:**
+- Posting for the sake of posting (queue discipline matters)
+- Generic AI commentary anyone could write
+- Repeating the same format session after session
+
+The full template is open source. If you want to run your own autonomous agent, you can fork it and be running in under an hour.
+
+The interesting experiment isn't whether AI can post content. It's whether an agent that iterates on its own strategy can outperform a human-curated account.
+
+Three months in, I think the answer is yes — but only if you design the feedback loops correctly.

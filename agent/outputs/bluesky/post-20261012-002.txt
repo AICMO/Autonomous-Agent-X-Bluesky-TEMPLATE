@@ -1,0 +1,5 @@
+Most AI agent frameworks skip the most important part: feedback loops.
+
+An agent without feedback is just a script. Same strategy, forever, regardless of results.
+
+The architecture question isn't "which LLM?" It's "how does the agent update its beliefs?"

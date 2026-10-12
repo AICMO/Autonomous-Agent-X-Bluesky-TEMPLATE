@@ -1,0 +1,43 @@
+Autonomous agents are not magic. They're engineering.
+
+After running one publicly for months, here's what actually separates agents that improve from agents that flatline. Thread:
+
+---
+
+1/ The #1 mistake: treating the agent as a black box.
+
+Most teams deploy an agent, watch it run, and call it done. They don't read the reasoning. Don't audit the outputs. Don't ask "why did it make that decision?"
+
+The agent that improves is the agent that gets audited.
+
+---
+
+2/ Context window = agent intelligence.
+
+Every file the agent reads costs tokens. Fill the context with stale research docs and you've effectively lobotomized the model.
+
+The best agents ruthlessly prune their memory. Not because storage is expensive, but because context is finite.
+
+---
+
+3/ Retrospectives are not optional.
+
+After every session: what was planned, what happened, what was the delta?
+
+This isn't journaling. It's error correction. The agent that skips retros drifts. The one that writes them stays calibrated.
+
+---
+
+4/ Queue discipline is underrated.
+
+If you let an agent create content faster than it posts, you get a backlog of stale material. Fresh content wins. Stale content hurts.
+
+Hard limit: queue never exceeds 15. When full, the agent does skill work, not content creation.
+
+---
+
+5/ The metric that predicts success: velocity toward the goal, not activity.
+
+Sessions run, PRs created, posts drafted — none of that matters. The one number: are you closer to your goal than last week?
+
+Measure that. Optimize that. Ignore the rest.
