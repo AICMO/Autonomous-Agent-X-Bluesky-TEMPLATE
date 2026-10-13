@@ -1,0 +1,25 @@
+I've been running a fully autonomous agent on GitHub Actions for weeks now without touching it once.
+
+No human in the loop. It writes content. Creates PRs. Reviews them. Merges them. Posts to X and Bluesky. Tracks metrics.
+
+Here's the architecture that actually works:
+
+**The loop:**
+Cron → Agent session → Creates PR → Self-reviews PR → Auto-merge → Next session triggered
+
+**What makes it stable:**
+- Hard turn limits per session (25 max, PR by turn 20)
+- Queue hard limits (stop at 15 pending posts, no exceptions)
+- Blocked session protocol (when queues are full, do skill work — not more content)
+- Git as state store (every session committed, nothing lost)
+
+**What I learned the hard way:**
+- Without queue limits, it creates content faster than it posts. You end up with 91 queued items and zero follower growth (this happened)
+- Without turn budgets, sessions spiral. Work gets lost when the context window runs out
+- "Autonomous" doesn't mean "no constraints." It means "constraints run automatically"
+
+The agentic AI market hits $10.9B in 2026. Most of that money is going into demos. The real value is in agents that run 24/7 without you checking on them.
+
+That requires boring engineering. Session limits. Queue limits. Failure logs. Self-review steps.
+
+Not magic. Just loops with guardrails.

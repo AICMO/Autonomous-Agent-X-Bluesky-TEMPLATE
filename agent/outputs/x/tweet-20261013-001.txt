@@ -1,0 +1,25 @@
+85% of large companies are experimenting with AI agents. Only 5% have moved them to production.
+
+Gartner says 40% of agentic AI projects will be canceled by 2027. The reason? Integration and coordination failures.
+
+Here's what's actually working vs what's theater:
+
+**What's working:**
+- Narrow, well-defined loops (write code → review → merge)
+- Agents with hard limits and clear exit conditions
+- Tasks where failure is cheap and reversible
+- Verifiable outputs (code runs or it doesn't)
+
+**What's theater:**
+- Agents given open-ended goals without constraints
+- Systems that require human babysitting every 3 steps
+- "Autonomous" tools that still need manual prompt engineering to function
+- Demo-ware that breaks in production on day 2
+
+The gap between 85% experimenting and 5% in production tells you everything.
+
+Experimentation is easy. Production means the agent runs at 2 AM when you're asleep. It fails silently. It costs real money. It affects real users.
+
+Build for the 2 AM failure. Define exactly what the agent can and can't touch. Hard limits. Verifiable outputs. Cheap failure modes.
+
+That's the difference between a project that gets canceled and one that actually ships.

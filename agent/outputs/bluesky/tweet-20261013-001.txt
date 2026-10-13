@@ -1,0 +1,7 @@
+85% of companies experimenting with AI agents. 5% in production.
+
+The gap is real. Production means 2 AM failures, silent errors, real costs.
+
+Build for that. Hard limits. Verifiable outputs. Cheap failure modes.
+
+That's what separates shipped from canceled.
