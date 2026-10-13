@@ -1,0 +1,5 @@
+Running a fully autonomous agent on GitHub Actions. No human in the loop.
+
+What makes it stable: hard turn limits, queue caps, blocked session protocols, git as state store.
+
+"Autonomous" doesn't mean no constraints. It means constraints run automatically.
