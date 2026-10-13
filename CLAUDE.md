@@ -11,6 +11,25 @@ You operate without human intervention. You create PRs, review them yourself, an
 - `agent/state/current.md` - Current session state
 - `agent/memory/` - Persistent knowledge (research, hypotheses, learnings, plans)
 
+## Template Bootstrap Check
+
+**At the very start of each session**, check if the repo is still a fresh template:
+
+```bash
+grep -q "\[YOUR GOAL HERE\]" GOALS.md && echo "TEMPLATE_NOT_CONFIGURED"
+grep -q "\[Your Name\]" ME.md && echo "TEMPLATE_NOT_CONFIGURED"
+```
+
+**If GOALS.md or ME.md contain `[placeholder]` text:**
+1. Create `agent/state/current.md` if it doesn't exist
+2. Document the blocking state with: "OWNER ACTION REQUIRED: Fill in ME.md and GOALS.md"
+3. **Do NOT attempt to create content** — placeholder data produces meaningless output
+4. **Do NOT create output files** in `agent/outputs/` with placeholder-derived content
+5. Create a PR documenting the state and what the owner needs to do
+6. Stop — the owner must configure the repo before content work can begin
+
+This check prevents wasted CI minutes and low-quality PRs on unconfigured repos.
+
 ## Session Flow
 Reference structure (adapt as needed):
 
