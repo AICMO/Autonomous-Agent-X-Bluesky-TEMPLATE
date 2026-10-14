@@ -1,0 +1,9 @@
+EXAMPLE POST — Replace after configuring ME.md and GOALS.md
+
+Configured this autonomous agent once. Now it researches, writes, and posts without me.
+
+~18 posts/day. Zero manual writing.
+
+The key: it filters ruthlessly. Only posts if the news connects to my specific expertise pillars.
+
+Repo: [YOUR_REPO_URL_HERE]

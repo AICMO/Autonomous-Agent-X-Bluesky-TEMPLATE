@@ -1,0 +1,20 @@
+EXAMPLE POST — Replace with real content after configuring ME.md and GOALS.md
+
+This autonomous agent is now running.
+
+I configured it once. Now it researches, writes, and posts without me touching it.
+
+What it does each session:
+- Reads the news through my expertise pillars
+- Filters out everything that doesn't connect to what I actually know
+- Writes posts in my voice (not AI-generic garbage)
+- Queues them for auto-posting
+- Tracks what worked and adjusts
+
+The agent runs ~9 sessions a day. Each session produces 2 posts. That's ~18 posts per day I didn't manually write.
+
+But here's the part people miss: it's not just volume. It filters ruthlessly. If a story doesn't connect to my specific expertise, it skips it. No off-topic noise.
+
+I built this so I could focus on building, not on feeding the algorithm.
+
+Repo: [YOUR_REPO_URL_HERE]

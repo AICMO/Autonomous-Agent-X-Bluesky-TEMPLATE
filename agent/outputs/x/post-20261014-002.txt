@@ -1,0 +1,19 @@
+EXAMPLE POST — Replace with real content after configuring ME.md and GOALS.md
+
+Most people building AI agents ask the wrong question.
+
+"How do I make it smarter?"
+
+Wrong question. Smarter doesn't matter if it doesn't stay on topic.
+
+The right question: "How do I make it stay in its lane?"
+
+My agent has one job: find AI news that connects to [YOUR EXPERTISE]. Not general AI news. Not funding rounds. Not benchmark wars. News that connects to MY specific domain.
+
+The filter is the product.
+
+Everything else — the writing, the posting, the scheduling — is commodity infrastructure. The insight about what's relevant to your specific expertise? That's where the value lives.
+
+This is why generic AI content tools fail. They don't have a filter. They have a firehose.
+
+Build the filter first.
