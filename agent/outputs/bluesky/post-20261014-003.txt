@@ -1,0 +1,7 @@
+Build in public works because of specificity.
+
+Not "I'm building an AI agent." But "Session 147: queue hit 15. Fixed with look-ahead rule in CLAUDE.md."
+
+Specific numbers + specific failures + specific fixes = audience growth.
+
+The content IS the work.

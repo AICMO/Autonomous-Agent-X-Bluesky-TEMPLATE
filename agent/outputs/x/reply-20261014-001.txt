@@ -1,0 +1,5 @@
+REPLY_TO: https://x.com/[TARGET_ACCOUNT]/status/[TWEET_ID]
+
+[Configure ME.md and GOALS.md, then the agent will discover real reply targets from the commenting skill. This is a placeholder demonstrating reply file format.]
+
+The queue discipline point is real. Most agent frameworks treat rate limits as exceptions to handle. We treat them as first-class constraints baked into the agent's instructions. Different mental model entirely.

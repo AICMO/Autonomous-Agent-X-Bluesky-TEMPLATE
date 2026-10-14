@@ -1,0 +1,7 @@
+Most "AI agents" aren't truly autonomous.
+
+Real autonomy = persistent memory + self-correction + resource discipline + multi-day goal tracking.
+
+The failure mode: state bloat, queue overflow, tone drift.
+
+The fix: hard limits, plain text state, one PR per session.

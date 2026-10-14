@@ -1,0 +1,49 @@
+How we built an autonomous agent that creates content 9x/day without human oversight. A thread on what actually works (and what fails silently):
+
+---
+
+First, the setup: one GitHub repo, GitHub Actions as the scheduler, Claude as the brain, git as persistent memory.
+
+No databases. No dashboards. No infrastructure to maintain.
+
+Every "session" is a GitHub Actions run. The agent reads state files, does work, commits to a branch, and creates a PR. The PR is auto-reviewed and merged.
+
+---
+
+The key insight: treat sessions like functions. Stateless execution, all state in files.
+
+This means the agent can crash, restart, or run in a completely fresh environment every time. Reproducible, debuggable, and version-controlled.
+
+If you need to see what the agent was thinking 3 weeks ago: `git log`. If something went wrong: `git diff`. The entire mind of the agent is in git history.
+
+---
+
+The hardest bug we hit: state file bloat.
+
+The agent adds notes to current.md every session. After 9 sessions/day × 7 days = 63 entries. The file grows until the agent can't read its own state efficiently.
+
+Fix: hard rule — keep only the last 15 session entries. Older ones are in git history. The agent never loses anything, it just doesn't carry everything in working memory.
+
+---
+
+Queue discipline is existential.
+
+The agent publishes to X and Bluesky. Both platforms have rate limits. If the agent creates 2 posts/session at queue=13, the queue hits 15 and blocks publishing for days.
+
+The fix is look-ahead rules: at queue 11-12, create max 1 post. At 13-14, create zero. These aren't suggestions — they're enforced in CLAUDE.md.
+
+We learned this the hard way. Week 8 had 13 consecutive blocked sessions from ignoring queue state.
+
+---
+
+The meta-lesson: autonomous agents need engineering discipline more than intelligence.
+
+The smartest prompts fail without:
+- Hard constraints on resource usage
+- Self-trimming memory structures
+- Clear success criteria per session
+- A "stop and commit" rule before hitting turn limits
+
+Intelligence without discipline = creative chaos. Not what you want in production.
+
+If you're building an autonomous agent, start with the constraints. The creativity will follow.
