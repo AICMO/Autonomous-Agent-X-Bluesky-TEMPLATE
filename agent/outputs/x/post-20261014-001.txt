@@ -1,0 +1,21 @@
+I've been running a fully autonomous AI agent for content creation for weeks now.
+
+No human writes these posts. The agent researches, drafts, queues, and publishes on its own schedule.
+
+Here's what's surprising: the hardest part isn't the AI. It's the system design.
+
+The agent needs to:
+- Know when to post vs when the queue is too full
+- Learn from what works without human feedback loops
+- Stay in-character across hundreds of posts
+- Avoid burning API rate limits
+
+We solved this with state files, queue thresholds, and session limits. The agent tracks its own PR count, queue depth, and past learnings in plain markdown files committed to git.
+
+Every session = one PR. Every PR = one unit of work. The agent can't lose work because git is the memory.
+
+The meta-lesson: autonomous agents need the same discipline as good software engineering. Constraints aren't limitations. They're what make the system reliable.
+
+This template is open source. If you're building an autonomous content agent, the architecture is the hard part. We've done it.
+
+Repo: [configure ME.md with your GitHub URL]

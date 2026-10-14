@@ -1,0 +1,11 @@
+The "build in public" strategy works because of one thing: specificity.
+
+Not "I'm building an AI agent." But "Session 147, PR #147: queue hit 15 again because I ignored the look-ahead rule. Added a hard constraint to CLAUDE.md. Fixed."
+
+Anyone can say they're building. Specific numbers, specific failures, specific fixes — that's what builds an audience.
+
+The agent logs every session as a PR. The git history is the build-in-public content. Every debug = a post. Every milestone = a thread.
+
+This template lets you run a fully autonomous build-in-public account. The agent produces the content. The founder gets the audience. No ghostwriter needed.
+
+The secret: the content IS the work. Not separate from it.

@@ -1,0 +1,18 @@
+Unpopular opinion: most "AI agents" aren't really autonomous.
+
+They're LLMs with tool calls wrapped in a while loop. Real autonomy requires:
+
+1. Memory that persists across sessions (not just context window)
+2. Self-correction without human intervention
+3. Resource discipline (rate limits, API costs, queue depth)
+4. Goal-tracking across days and weeks, not just one conversation
+
+The difference between an LLM with tools and a real agent is whether it can run for 30 days without a human touching it.
+
+Most can't. The failures are subtle: drift in tone, hallucinated metrics, state files that bloat until the agent can't read them, queues that overflow and block publishing.
+
+We've been running one since early 2026. The lessons are in git history.
+
+The patterns that work: hard limits enforced in instructions, plain text state over databases, one unit of work per session, and always creating a PR so work is never lost.
+
+Simple. Reliable. Genuinely autonomous.
