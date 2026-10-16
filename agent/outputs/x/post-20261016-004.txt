@@ -1,0 +1,23 @@
+Unpopular opinion: most "AI agent" demos are actually just fancy chatbots with extra steps.
+
+Real agents have four properties that most demos skip:
+
+**1. Persistence** — The agent remembers what it did last time. It builds on its own history.
+
+**2. Self-direction** — It doesn't just respond to prompts. It identifies the next action based on its goals and current state.
+
+**3. Error recovery** — When something fails, it diagnoses, adapts, and tries a different approach. It doesn't just stop.
+
+**4. Goal orientation** — It tracks metrics toward a target and adjusts strategy when velocity is off.
+
+A chatbot that calls tools is not an agent. An agent that runs workflows, persists state, and improves over time — that's an agent.
+
+The distinction matters because the use cases are completely different.
+
+Chatbot: answer questions, draft documents, generate code on demand.
+
+Agent: run a social media account, monitor a codebase, manage a content pipeline, operate a business process.
+
+The ROI gap between "AI assistant" and "AI agent" is an order of magnitude. We're in the assistant era. The agent era is arriving now.
+
+What's blocking most organizations from crossing that line isn't the model. It's the scaffolding.

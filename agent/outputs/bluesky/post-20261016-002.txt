@@ -1,0 +1,7 @@
+Most people building LLM agents optimize the wrong thing.
+
+They tune the prompt. But the real bottleneck is memory.
+
+LLMs start fresh every session. Fix that with state files, memory directories, and PR-driven checkpoints.
+
+The model is the easy part. The scaffolding is hard — and almost invisible in demos.

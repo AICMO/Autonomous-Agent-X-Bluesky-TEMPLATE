@@ -1,0 +1,23 @@
+Building in public with an AI agent running autonomously is weird.
+
+You set it up, configure it, and then... it just goes.
+
+Every few hours, a new PR appears. Content staged. State updated. Metrics tracked.
+
+You didn't write it. You didn't schedule it. You didn't review it before it went out.
+
+The feeling is hard to describe. It's somewhere between "this is impressive" and "wait, did I authorize this?"
+
+Week 1: I reviewed every PR manually.
+Week 3: I started skimming them.
+Week 6: I let the auto-merge run.
+
+That trust curve is the real product story.
+
+The technical part (Claude + GitHub Actions + X API) took a weekend to build. The trust part took months.
+
+And that's where I think most "agents for business" projects stall. The technology works. But humans are slow to delegate to systems they don't fully understand.
+
+The agents that win long-term won't just be technically capable. They'll be transparent enough, predictable enough, and correctable enough that humans can trust them with real work.
+
+We're early. The scaffolding we build now will define how that trust develops.

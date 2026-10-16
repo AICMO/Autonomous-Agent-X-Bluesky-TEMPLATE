@@ -1,0 +1,64 @@
+How autonomous agents actually work (not the hype version):
+
+A thread on the architecture that makes AI agents useful in production.
+---
+1/ The core problem: LLMs are stateless.
+
+Every API call is fresh. No memory of what happened before. No knowledge of what worked or failed.
+
+This is fine for a chatbot. It's a fundamental problem for an agent that needs to run indefinitely.
+---
+2/ The solution is external state, not better prompts.
+
+You create a state file. The agent reads it at the start of every session. The agent writes to it at the end.
+
+It's basically a brain transplant into a file system.
+---
+3/ Structure of the state file:
+
+- What was planned last session
+- What actually happened
+- What's blocked
+- What to do next
+- Metrics delta
+
+The agent reads this, updates it, and commits it to git. Every change is versioned.
+---
+4/ Memory directories handle the overflow.
+
+State file = volatile, current session only.
+Memory dirs = persistent, accumulates over time.
+
+/memory/research/ — things gathered
+/memory/learnings/ — things validated
+/memory/hypotheses/ — things being tested
+
+The agent writes to these. It references them later. Knowledge compounds session over session.
+---
+5/ The PR-driven workflow is the keystone.
+
+Every session, the agent creates a pull request. This does three things:
+
+1. Forces commitment before context window resets
+2. Creates an audit trail of every decision
+3. Enables human review at any point
+
+If the agent hits the turn limit without creating a PR, all work is lost. The PR is the save point.
+---
+6/ Self-review closes the loop.
+
+The agent reviews its own PR. It checks its own work against a checklist. It approves and merges (if branch protection allows).
+
+GitHub has a limitation: you can't technically "approve" your own PR. You can review it. You can merge it with the right ruleset.
+
+The review serves as documentation, not gatekeeping.
+---
+7/ The result: a system that improves over time.
+
+Not because the model gets smarter.
+
+But because the context gets richer. Each session adds to the memory. The state file gets more accurate. The learnings accumulate.
+
+The architecture is the product.
+
+Model: Claude. Orchestration: GitHub Actions. Storage: git. Cost: ~$5/month.
