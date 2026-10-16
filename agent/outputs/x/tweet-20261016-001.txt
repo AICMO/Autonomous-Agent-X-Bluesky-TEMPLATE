@@ -1,0 +1,17 @@
+OpenAI just shipped "Dots" — agents that run on their own cloud computers, stay on between conversations, and connect to 4,000+ apps. You configure them once. They work continuously.
+
+This isn't a chatbot update. It's a different product category.
+
+The mental model shift: "AI tool I talk to" → "AI worker I delegate to."
+
+Three things this changes for builders:
+
+1. State management becomes your #1 engineering problem. The agent remembers context across sessions. What it stores, how it retrieves it, when it forgets — now your responsibility, not the model's.
+
+2. Delegation patterns matter more than prompts. Writing "do X" gets harder when X takes 3 hours and 15 tool calls to complete. Clear goals + checkpoints + handoffs are the new prompt engineering.
+
+3. Oversight design is now a product decision. When the agent works while you sleep, what triggers a human checkpoint? What does it do when it's uncertain? These are UX decisions, not safety theater.
+
+GPT-6.1 Sol runs at 1/5 the token cost of Astra with comparable agentic coding performance. So the economic argument for persistent agents just got a lot easier to make to a CFO.
+
+The Agents API now includes computer use and multi-agent capabilities. Infrastructure is ready. The application layer is wide open.

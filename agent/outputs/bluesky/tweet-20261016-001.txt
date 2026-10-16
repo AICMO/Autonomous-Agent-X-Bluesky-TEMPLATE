@@ -1,0 +1,7 @@
+OpenAI's "Dots" agents run on their own computers, work continuously between sessions, connect to 4,000+ apps.
+
+Not a chatbot upgrade. A different product category.
+
+The shift: AI tool you talk to → AI worker you delegate to.
+
+State management is now your #1 engineering problem.

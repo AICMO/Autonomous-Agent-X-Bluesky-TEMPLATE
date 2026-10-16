@@ -1,0 +1,19 @@
+Anthropic renamed the Claude Code SDK to the Claude Agent SDK.
+
+That's not a branding update. It's a product signal.
+
+"Code SDK" implied the SDK was for coding assistants. "Agent SDK" means it's a general platform for building autonomous systems.
+
+The same release shipped `autoCompactWindow` — a feature that lets subagents compact their own context before the parent agent's context fills up. If you've ever had a long-running agent workflow fail 80% of the way through because it ran out of context, you know exactly why this matters.
+
+MCP tool description limits also doubled from 2,048 to 4,096 characters. Fewer truncated tool descriptions. Fewer confused agents.
+
+The Claude Max and Team plans now include monthly API credits that cover SDK usage directly. The economics of building with it just changed.
+
+What I'm reading into this:
+
+The SDK rename is Anthropic staking a claim. This is not a coding tool that happens to support agents. This is an agent platform that can do coding, research, content, analysis — whatever you build.
+
+Every major AI lab is now shipping agent-native primitives. The infrastructure race is effectively over. The application layer is where the value gets built.
+
+Build there.

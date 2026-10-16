@@ -1,0 +1,5 @@
+Anthropic's Claude agents hit 30,000 code merges/day. Git broke. They built a new VCS called Scion.
+
+The lesson: when agents work at scale, bottlenecks shift from compute to coordination.
+
+Tools designed for human pace become your ceiling.
