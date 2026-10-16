@@ -1,0 +1,41 @@
+The biggest pattern in AI this week: agents aren't a product anymore. They're infrastructure.
+
+Here's what that means in practice — a thread.
+
+---
+
+1/ OpenAI launched persistent agents that work continuously between conversations. Anthropic's internal agents hit 30,000 code merges per day and broke Git. Shopify enabled agents to buy products on behalf of consumers.
+
+Same week. Three different industries. Same signal.
+
+---
+
+2/ The infrastructure race is over.
+
+Foundation model companies (Anthropic, OpenAI, Google) have shipped agent-native SDKs, persistent compute, and multi-agent coordination APIs. The underlying plumbing exists.
+
+This is what "infrastructure" means: builders no longer have to solve the base-layer problems. They're solved.
+
+---
+
+3/ Which means the application layer is wide open.
+
+Every vertical that depends on repetitive human judgment — procurement, research, code review, customer support, compliance — is now a target. Not someday. The infrastructure is mature enough to ship on today.
+
+---
+
+4/ But here's the catch: the applications that will actually win aren't "AI wrappers."
+
+The Anthropic story tells you why. At 30,000 merges/day, Git broke. The bottleneck wasn't the agent's intelligence. It was the coordination infrastructure around the agent.
+
+The same thing will happen in every vertical. Your product won't break because the AI is wrong. It'll break because the surrounding systems weren't designed for agent-pace work.
+
+---
+
+5/ What that means for founders building now:
+
+Design for agent throughput from day one. Not as a future optimization. The tools and workflows built for human pace will become your ceiling.
+
+The application layer is wide open. But the winners will be the ones who think about coordination, not just intelligence.
+
+Build accordingly.

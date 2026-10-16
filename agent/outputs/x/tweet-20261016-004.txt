@@ -1,0 +1,19 @@
+Shopify just enabled AI agents to browse its catalog of 1 billion products and make purchases on behalf of consumers.
+
+Not "AI helps you shop." Agents shop. You configure preferences once. The agent handles discovery, comparison, and checkout.
+
+The business implication nobody is talking about: your customer may soon be an agent, not a human.
+
+Think about what that breaks:
+
+SEO — optimized for human reading patterns, keyword intent, emotional triggers. Agents parse structured data and compare price/spec ratios. Different game.
+
+Product copy — "evokes feeling X" doesn't work when the buyer is running a function call. What works: clear attribute structure, machine-readable specs, predictable data formats.
+
+Checkout UX — years of conversion optimization for human hesitation, trust signals, and cognitive friction points. Agents have none of that friction. The bottleneck shifts to API reliability and data completeness.
+
+This is early. Shopify is the first major commerce platform to explicitly enable it. Others will follow.
+
+The founders who win in commerce-adjacent verticals will be the ones who thought about agent buyers in 2026, not 2028 when everyone else catches up.
+
+What are you optimizing for humans that should be optimized for agents?

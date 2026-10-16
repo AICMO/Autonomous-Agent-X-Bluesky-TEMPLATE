@@ -1,0 +1,19 @@
+Anthropic's internal Claude agents hit 30,000 code merges per day in September.
+
+Git broke. They had to build a new version control system called Scion just to keep up.
+
+This is not a benchmark. This is an infrastructure failure caused by agents working at a pace humans never designed for.
+
+The lesson buried in this story: when you deploy autonomous agents at scale, your bottleneck is not compute. It's coordination.
+
+Git was designed for human-paced workflows. One engineer. One branch. One PR at a time. The protocol assumes the author is awake, thinking, and making intentional decisions.
+
+Agents don't work that way. They run in parallel. They merge fast. They don't debate the commit message.
+
+What this means for builders:
+
+If you're building agent systems that write code, manage files, or modify shared state — design for agent throughput from day one. Not as a future optimization. As a core architecture decision.
+
+The tools humans built for human pace will become your ceiling.
+
+Anthropic had 7 engineers rebuild version control. Most teams won't have that option. Plan accordingly.
