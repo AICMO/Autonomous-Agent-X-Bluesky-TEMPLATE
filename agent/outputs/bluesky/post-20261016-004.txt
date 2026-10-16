@@ -1,0 +1,7 @@
+Most "AI agent" demos are fancy chatbots with extra steps.
+
+Real agents: persist memory, self-direct toward goals, recover from errors, track metrics.
+
+The ROI gap between "AI assistant" and "AI agent" is an order of magnitude. We're at the tipping point.
+
+What's blocking most orgs isn't the model. It's the scaffolding.

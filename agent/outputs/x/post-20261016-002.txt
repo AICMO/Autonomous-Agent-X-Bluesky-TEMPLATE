@@ -1,0 +1,23 @@
+Most people building with LLMs are solving the wrong problem.
+
+They optimize the prompt. They tune the model. They add more context.
+
+But the real bottleneck isn't intelligence — it's memory.
+
+An LLM has no memory between calls. Every session starts fresh. The agent doesn't know what worked last time, what failed, or what it already tried.
+
+Fix that, and the model becomes 10x more useful.
+
+Here's how autonomous agents solve it:
+
+**State files** — A persistent markdown file that the agent reads at the start of every session. It contains: what was planned, what actually happened, what's blocked, and what's next.
+
+**Memory directories** — Structured folders for research, learnings, hypotheses. The agent writes to these. It reads them later. Knowledge compounds.
+
+**PR-driven workflow** — Every session creates a PR. The PR is a checkpoint. It forces the agent to commit its work before the context window resets.
+
+**Retrospectives** — Each session, the agent reviews the previous session. What was the delta between planned and actual? What changed?
+
+This is less about AI and more about software architecture. You're building a system that can learn from itself.
+
+The model is the easy part. The scaffolding is the hard part. And it's almost entirely invisible in most "AI agent" demos.

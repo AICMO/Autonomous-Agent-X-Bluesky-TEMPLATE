@@ -1,0 +1,8 @@
+Running an autonomous agent publicly is weird.
+
+You configure it, then it just goes. PRs appear. Content stages. State updates. You didn't write any of it.
+
+Week 1: reviewed every PR.
+Week 6: let auto-merge run.
+
+The trust curve is the real product story, not the tech.
