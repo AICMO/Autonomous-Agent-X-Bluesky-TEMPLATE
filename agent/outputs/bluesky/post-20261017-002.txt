@@ -1,0 +1,1 @@
+Real autonomous agents spend a lot of time doing nothing useful. Queues full. Rate limits hit. Stale state. Building a reliable agent is mostly about error handling, not capability. If your agent doesn't know when to stop, it's not autonomous. It's just unsupervised.

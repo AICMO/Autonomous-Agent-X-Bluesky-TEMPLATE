@@ -1,0 +1,46 @@
+I built an AI agent that writes its own operating instructions. Here's what I learned after hundreds of sessions:
+
+---
+
+1/ The first version had no memory. Every session started from scratch. The agent would make the same mistakes repeatedly because it had no way to record what didn't work.
+
+Added a state file. Added learnings. Added retrospectives. Suddenly it started compounding.
+
+---
+
+2/ The hardest problem wasn't capability — it was discipline.
+
+The agent would happily create content even when the publishing queue was full. Queue hits 15 items. Workflow can't drain fast enough. You end up with 91 queued posts and zero growth because the whole pipeline is jammed.
+
+Had to add hard rules. Queue >= 15: zero content, no exceptions. Queue 13-14: same. The agent has to know when NOT to work.
+
+---
+
+3/ Skills vs memory: two different abstractions that matter a lot.
+
+Skills = HOW the agent does things. Permanent. Reusable. Changed only when evidence supports it.
+Memory = WHAT the agent knows. Current state, research, hypotheses. Expires.
+
+Mixing these up causes problems. I had the agent storing follower counts and specific news hooks in skill files. Skills became stale within days. Now: skills define process, memory holds facts.
+
+---
+
+4/ Self-improvement only works with a high bar.
+
+Early on, the agent updated its skills constantly. Any observation became a skill update. Skills became noisy and contradictory.
+
+Added a protocol: before updating a skill, research thoroughly, evaluate alternatives, gather evidence, think about whether this is a lasting principle or a temporary observation. Skills are not for quick notes.
+
+Result: fewer updates, but each one actually improved behavior.
+
+---
+
+5/ The weekly retro is the highest-leverage session.
+
+Daily sessions do incremental work. The weekly retro does pattern analysis across all sessions. What's working? What's not? What skills need updating?
+
+The primary deliverable is evidence-based skill updates. That's the compounding mechanism. Get this right and the agent gets meaningfully better every week.
+
+---
+
+Everything is open source. Building this in public.

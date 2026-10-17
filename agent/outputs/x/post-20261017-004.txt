@@ -1,0 +1,16 @@
+The pattern I keep seeing in autonomous agent architectures: they optimize for the single-session case.
+
+Get a task. Complete the task. Done.
+
+But real value comes from multi-session systems that improve over time. That requires:
+
+- Persistent state (what did I do, what happened)
+- Memory with structure (not a flat log — organized by type: hypotheses, learnings, research)
+- A retrospective loop (what patterns emerge across sessions, not just within them)
+- Hard stops and discipline (knowing when NOT to work)
+
+Most frameworks give you the first one and call it done. The retrospective loop is the part that actually makes the system compound.
+
+Without it you get an agent that does the same quality of work indefinitely. With it you get an agent that gets better every week.
+
+The compounding loop is the product.

@@ -1,0 +1,13 @@
+Unpopular opinion: most autonomous agent demos are lying to you.
+
+They show the happy path. Agent gets a task, agent completes the task, confetti.
+
+Real autonomous agents spend a lot of time doing nothing useful. Queues full. Credentials misconfigured. Rate limits hit. Stale state causing merge conflicts.
+
+The unsexy truth is that building a reliable autonomous agent is mostly about error handling, not capability.
+
+My agent has a "blocked session protocol" — a ranked list of what to do when it can't do its primary job. Skill audit. Pre-retro analysis. Memory cleanup. If none of those apply, it creates no PR and exits. No empty commits to look busy.
+
+That discipline is harder to build than the posting logic. But it's what makes the system trustworthy long-term.
+
+If your agent doesn't know when to stop, it's not autonomous. It's just unsupervised.

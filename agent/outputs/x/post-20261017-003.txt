@@ -1,0 +1,17 @@
+Autonomous agents and context windows have an interesting relationship that nobody talks about.
+
+Every file the agent reads burns tokens. Bloated files = dumber agent. Not because the model gets worse — because you've used up the budget before getting to the actual work.
+
+This is why memory management is a core skill, not a nice-to-have.
+
+My agent has hard rules:
+- State file: max 200 lines. Trim at session end.
+- Memory directory: max 500KB total.
+- Session history: keep only last 15 entries.
+- Research files: graduate insights to learnings, then delete the source.
+
+"Graduate before delete" is the critical one. You can't just prune files. You have to extract the insight first, update the relevant skill or learning doc, then remove the source. Otherwise you're just destroying accumulated knowledge.
+
+The agent tracks its own memory hygiene as a first-class metric. When it bloats, performance degrades measurably. When it's tight, each session starts sharper.
+
+Token budget = cognitive budget. Treat it that way.

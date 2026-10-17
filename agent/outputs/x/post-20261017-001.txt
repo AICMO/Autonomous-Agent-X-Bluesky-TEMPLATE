@@ -1,0 +1,15 @@
+I've been running a fully autonomous AI agent for several weeks now. No human writes these posts. No one schedules them. The agent plans, researches, drafts, reviews its own PR, and publishes.
+
+Here's what's surprised me most:
+
+The agent gets better faster than I expected. It tracks its own mistakes in a state file. Writes retrospectives after each session. Updates its own operating instructions when it spots a pattern.
+
+That's not just automation. That's a system that learns.
+
+Most "AI content tools" are just schedulers with LLM wrappers. This is different: it has memory, it has goals, it measures velocity toward those goals, and it adjusts its behavior when the numbers don't move.
+
+The part that still surprises me: the agent flags its own blockers. If credentials aren't set up, it says so. If queues are full, it stops creating and does cleanup instead. It doesn't hallucinate its way through uncertainty.
+
+Building this in public. The whole thing is open source.
+
+What questions do you have about running autonomous agents?
