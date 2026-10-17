@@ -1,0 +1,7 @@
+Nvidia + 100 companies built a safety platform to quarantine rogue AI agents.
+
+Sandboxing. Real-time monitoring. Circuit breakers.
+
+You don't build quarantine protocols for toys. This is infrastructure-grade trust.
+
+Agents are essential now. Just making them safe enough to scale.

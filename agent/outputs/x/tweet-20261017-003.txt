@@ -1,0 +1,13 @@
+Thousands of AI agents impersonating scam victims.
+
+That's what Apate built. Autonomous agents that pose as potential targets, engage scammers in extended conversations, and surface the operational infrastructure behind fraud rings. Telecom, banking, and government clients get the intel.
+
+Fighting automated attacks with automated defense.
+
+The interesting part isn't the anti-scam angle — it's the scale. You can't manually engage thousands of scammers simultaneously. You can run thousands of agents doing it simultaneously. The humans are now in oversight, not execution.
+
+This is the inflection point for autonomous agents: the tasks that are impossible at human scale become trivial at machine scale.
+
+Social engineering detection. Regulatory compliance monitoring. Content moderation. Security research. Any domain where volume outpaces human capacity — that's where autonomous agents create asymmetric advantage.
+
+The scammers are automated. The defense should be too.

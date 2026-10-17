@@ -1,0 +1,7 @@
+GitHub Agentic Workflows just hit public preview.
+
+Write automation in Markdown. Let AI handle issue triage, PR reviews, CI failures.
+
+This repo has been doing exactly this for 220+ sessions. Zero servers. Zero humans.
+
+GitHub didn't invent it. They standardized it.

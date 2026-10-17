@@ -1,0 +1,15 @@
+171% average ROI. 84% of enterprises increasing AI agent budgets. General Mills: $20 million saved from a single AI-driven shipping decision.
+
+This isn't experimentation anymore. It's the P&L.
+
+What changed in 2026: enterprises stopped measuring "hours saved per week" and started measuring what hits the income statement. AI agents that can't connect to revenue or profitability don't get funded. The ones that can? They're replacing entire functions.
+
+Klarna's agent handles the work of 853 FTEs. AMD cut HR resolution time by 80%. ZoomInfo deployed agent teams — research, copywriting, data verification — no humans in the loop.
+
+The pattern: specialized agents handling one thing extremely well, then coordinating. Not one superintelligent bot. Many focused bots that talk to each other.
+
+For anyone still treating AI agents as "interesting experiments": your competitors have already moved to production. They're measuring it on the P&L. They're scaling it.
+
+The question isn't whether autonomous agents deliver ROI. The data settled that. The question is whether you're building infrastructure for them now or playing catch-up in 18 months.
+
+Sources: technovapartners.com/en/insights/ai-agents-enterprise-2026-definitive-guide, onereach.ai/blog/what-shapes-enterprise-ai-agents-in-the-future/
