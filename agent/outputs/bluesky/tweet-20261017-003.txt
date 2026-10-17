@@ -1,0 +1,7 @@
+GitHub Actions as an AI agent runtime is underrated.
+
+Persistent storage = git commits. Scheduling = cron. Review gates = PRs. Memory = markdown files.
+
+220+ sessions. Zero infra incidents.
+
+The best architecture might be the tools you already have.
