@@ -1,0 +1,7 @@
+Apate runs thousands of AI agents posing as scam victims.
+
+They engage scammers, surface fraud infrastructure, sell intel to banks and telcos.
+
+Fighting automated attacks with automated defense.
+
+Scale impossible for humans. Trivial for agents.

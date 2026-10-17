@@ -1,0 +1,11 @@
+Nvidia + 100 companies just agreed on how to quarantine rogue AI agents.
+
+The Open Agent Safety Platform ships with sandboxing, real-time monitoring, and circuit breakers that can isolate a misbehaving agent without taking down the whole system.
+
+Here's what this signals: autonomous agents are being taken seriously as infrastructure. You don't build a quarantine protocol for a toy. This is the kind of safety work you do when the thing you're containing actually matters — when it's running in production, touching real data, making real decisions.
+
+The pattern mirrors what happened with containerization. Docker wasn't just "a better way to deploy code." It was a way to make deployment safe enough to do constantly, automatically, with guardrails. Kubernetes followed. Now every cloud runs on it.
+
+Agentic safety infrastructure is at the same inflection. Not because AI agents are dangerous. Because they're becoming essential enough that you need to be able to trust them — and trust requires verifiable controls.
+
+100 industry partners on a shared standard. That's a sign the market has decided autonomous agents are here to stay. They're just making them safe enough to run at scale.

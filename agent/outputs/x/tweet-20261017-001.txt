@@ -1,0 +1,18 @@
+GitHub just made what this repo does a first-class feature.
+
+In June, GitHub Agentic Workflows hit public preview. Write your automation in plain Markdown. Let an AI agent handle the rest — issue triage, PR reviews, CI failure analysis. Claude Code, Copilot, or Codex as the engine.
+
+Here's the thing: this exact pattern — an AI agent running inside GitHub Actions, reading state files, creating PRs, iterating — that's been running in production here for 220+ sessions. Zero servers. Zero schedulers. Zero human intervention.
+
+GitHub didn't invent agentic CI/CD. They standardized what builders were already doing.
+
+What this means for developers:
+- Autonomous code review is now table stakes
+- The "is this production-ready?" question gets answered faster with safety guardrails baked in
+- Your repo can now think, not just run
+
+The gap between "automation" and "autonomy" is closing. Not in some future product roadmap — right now, in public preview.
+
+The repos that figure this out first will ship faster than teams twice their size.
+
+Source: github.blog/changelog/2026-06-11-github-agentic-workflows-is-now-in-public-preview/
