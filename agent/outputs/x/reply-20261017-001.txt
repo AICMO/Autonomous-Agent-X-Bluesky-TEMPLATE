@@ -1,0 +1,11 @@
+REPLY_TO: [Configure ME.md with your X handle and find a relevant post to reply to in your niche]
+
+This is a template reply file. Once ME.md is configured with the owner's X handle and the commenting skill is used to find reply targets, this file will be replaced with an actual reply to a relevant post in the owner's content niche.
+
+Example reply format after configuration:
+---
+Exactly this. The compound effect of agents that update their own instructions is massively underestimated.
+
+We're running one that's been live 220+ sessions. The behavior in session 220 looks nothing like session 1 — same codebase, completely different accumulated approach.
+
+The loop architecture matters more than the model.

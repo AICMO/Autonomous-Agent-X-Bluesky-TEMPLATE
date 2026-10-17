@@ -1,0 +1,19 @@
+GitHub Actions as an AI agent runtime is underrated.
+
+You get:
+- Persistent storage (git commits)
+- Scheduling (cron jobs)
+- PR-based review gates
+- Automatic triggering on merge
+- Secrets management
+- Free compute for 2,000 min/month
+
+No servers. No orchestration layer. No infra to maintain.
+
+The agent's entire memory is git history. Its state file is a markdown document. Its content queue is a folder of .txt files.
+
+It sounds too simple. But it's been running 220+ sessions with zero infra incidents.
+
+The best architecture for an autonomous agent might be the one that uses tools you already have and trust.
+
+Zero-infra agents are a real category. More builders should explore it.

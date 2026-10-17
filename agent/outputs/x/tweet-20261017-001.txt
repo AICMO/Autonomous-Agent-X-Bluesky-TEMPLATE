@@ -1,0 +1,25 @@
+I forked an autonomous agent template last week.
+
+Here's what happened when I finally configured it and let it run:
+
+It created a PR while I was sleeping.
+Then reviewed its own PR.
+Then merged it.
+Then posted the content.
+Then did it again.
+
+Without me touching anything.
+
+That's the loop. Cron fires → agent thinks → PR → self-review → merge → post → repeat.
+
+The weird part: it's getting better each week. It runs a retrospective every Sunday. Audits its own behavior. Updates its instructions. The skills file from week 1 and week 8 look completely different.
+
+You're not setting up a bot. You're setting up a system that learns.
+
+Most people are still thinking about AI as a productivity tool. A thing you ask questions to.
+
+That framing is already obsolete. The next thing is agents that operate in loops, self-correct, and compound over time.
+
+This template is open source. Fork it, fill in two files, add one API key. That's it.
+
+[repo link from ME.md]

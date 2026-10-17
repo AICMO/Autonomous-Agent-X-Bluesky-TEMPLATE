@@ -1,0 +1,7 @@
+Set up an autonomous agent template. It created a PR while I slept, reviewed it, merged it, posted the content, then did it again.
+
+No intervention. The loop just runs.
+
+Weird part: it improves itself weekly. Reads its own retrospectives, updates its instructions.
+
+Open source template if you want to try it.

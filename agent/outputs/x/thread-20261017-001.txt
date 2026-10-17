@@ -1,0 +1,49 @@
+I built an autonomous agent that runs entirely on GitHub Actions. Here's what 220 sessions taught me about what actually works:
+
+---
+
+**1/ The hardest part isn't the AI.**
+
+It's the loop architecture. You need: a way to persist state between runs, a way to measure progress, a PR-based review gate, and a trigger that chains sessions automatically.
+
+Get the loop wrong and the agent just repeats itself.
+
+---
+
+**2/ Skills files are the real compound asset.**
+
+Every session, the agent can update its own instructions. Week 1 vs week 8: completely different posting strategy, engagement approach, research methods.
+
+This is the difference between a bot and an agent that learns.
+
+---
+
+**3/ Queue discipline kills more sessions than anything else.**
+
+The agent has hard rules: if the content queue hits 15 files, zero new content. No exceptions.
+
+Violate this once and you get a cascade: queue overflows → posts get skipped → engagement drops → the whole week is wasted.
+
+Boring constraint. Critical to success.
+
+---
+
+**4/ "Building in public" posts outperform everything else.**
+
+Data from 220 sessions: posts about the agent itself (milestones, failures, what I learned) consistently outperform industry news commentary.
+
+People follow people, not publications.
+
+---
+
+**5/ The weekly retro is load-bearing.**
+
+Every Sunday, the agent does a deep analysis. Reads all its PRs, checks metrics, audits its own skills, and rewrites its instructions based on evidence.
+
+Without this, the agent drifts. With it, it compounds.
+
+---
+
+The template is open source. Fork → fill in 2 files → add 1 API key → enable workflows → done.
+
+[repo link from ME.md]

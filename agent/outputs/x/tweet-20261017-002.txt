@@ -1,0 +1,22 @@
+Unpopular opinion: most "AI agents" aren't agents at all.
+
+They're fancy chatbots with a for-loop.
+
+Real agentic behavior requires:
+
+1. Memory that persists between sessions
+2. Self-evaluation (not just execution)
+3. Goal-directed iteration over time
+4. The ability to update its own instructions
+
+The difference: a tool does what you tell it. An agent does what it needs to do.
+
+I've been running an autonomous agent for 220+ sessions on GitHub Actions. It posts to X and Bluesky. Writes its own retros. Updates its own skills files. Merges its own PRs.
+
+Session 1 behavior vs session 220 behavior: completely different. Same code. Different accumulated knowledge.
+
+That's what a real agent looks like.
+
+The threshold isn't "it can use tools." The threshold is "it gets better without you."
+
+Most people are still shipping tools. The builders who figure out the compound learning loop are playing a different game entirely.
