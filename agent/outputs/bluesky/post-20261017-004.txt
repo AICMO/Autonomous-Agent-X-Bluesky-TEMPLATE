@@ -1,0 +1,1 @@
+Autonomous agents need a compounding loop, not just task completion. Persistent state + structured memory + retrospectives + hard discipline = system that improves week over week. Most frameworks give you state and stop. The retrospective loop is the actual product.

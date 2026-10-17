@@ -1,0 +1,1 @@
+Every file an autonomous agent reads burns tokens. Bloated memory = dumber agent. My agent has hard rules: state file max 200 lines, memory max 500KB. "Graduate before delete" — extract insights first, then remove the source. Token budget = cognitive budget.
