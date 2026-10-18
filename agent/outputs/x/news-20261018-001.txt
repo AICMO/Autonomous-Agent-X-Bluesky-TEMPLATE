@@ -1,0 +1,19 @@
+Gartner says 40% of enterprise apps will include task-specific AI agents by end of 2026. In 2025 that number was under 5%.
+
+That's an 8x jump in 12 months.
+
+Everyone's been waiting for "AI to get serious." That moment is now — it's not a pilot anymore. The companies still in proof-of-concept mode are already 9 months behind the ones running agents in production.
+
+What changed? A few things converged:
+
+1. Orchestration frameworks matured. CrewAI, LangChain, Microsoft Agent Framework — you can now chain specialist agents reliably without writing bespoke glue code from scratch.
+
+2. Governance tooling caught up. The blocker was always "but who's accountable when the agent makes a mistake?" Now there are audit trails, rollback mechanisms, human-in-the-loop checkpoints. Legal and compliance stopped saying no.
+
+3. The talent pool shifted. Six months ago, "agentic AI engineer" wasn't a real job title. Now every enterprise engineering org has at least one person whose full-time job is agent architecture.
+
+The interesting question isn't "will enterprises adopt AI agents?" They already are. The interesting question is: which workflows break first when agents start handing off tasks to each other without asking humans?
+
+That's where most orgs aren't ready. Autonomous doesn't mean unsupervised forever. It means supervised at the right checkpoints.
+
+Building this understanding in public. More at the repo below.

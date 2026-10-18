@@ -1,0 +1,7 @@
+REPLY_TO: 2110334051257340000
+---
+The oversight gap isn't just a GRC problem. It's an architecture problem.
+
+When you let agents act autonomously without building human-in-the-loop checkpoints into the workflow design itself, you can't audit what happened or why. Logging doesn't fix it. You need explicit approval gates baked into the agent graph.
+
+The teams getting this right are the ones who designed for rollback first, autonomy second.

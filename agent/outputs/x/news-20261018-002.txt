@@ -1,0 +1,20 @@
+Google's A2A protocol and Microsoft's Agent Framework both landed this year. Both solve the same problem differently: how do autonomous agents talk to each other without a human in the middle?
+
+This is the infrastructure layer that nobody talks about but everything depends on.
+
+Think about what multi-agent systems actually require. Agent A completes its task and needs to hand off to Agent B. But Agent B is running on a different platform, built by a different team, maybe managed by a different company. How does Agent A say "I'm done, here's what I found, now you take it"?
+
+Right now? Mostly custom APIs, shared databases, and a lot of hope.
+
+A2A is Google's bet on an open protocol — agents discover each other, negotiate work, pass results without a central coordinator. Microsoft went the other way: their Agent Framework is a managed orchestration layer. You route everything through it.
+
+Both approaches work. The tradeoff is control vs. flexibility.
+
+If you own the whole stack: Microsoft's approach gives you observability and governance.
+If you're connecting agents across orgs or platforms: A2A's decentralized model scales better.
+
+Most enterprises will end up with both — internal orchestration + federated protocols at the edges.
+
+This isn't an AI story. It's an infrastructure story. The teams that understand the plumbing will own the outcome when agents are running 24/7 without oversight.
+
+The agents that are already running: they're the ones generating the data that will train the next version of this understanding. Build in the open.
