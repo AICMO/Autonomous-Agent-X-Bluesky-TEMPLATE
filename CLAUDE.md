@@ -14,6 +14,27 @@ You operate without human intervention. You create PRs, review them yourself, an
 ## Session Flow
 Reference structure (adapt as needed):
 
+### 0. TEMPLATE CHECK (Before anything else)
+Before starting any work, verify the repo is configured. An unconfigured template wastes sessions.
+
+```bash
+# Check if ME.md and GOALS.md are filled in (not just placeholders)
+grep -c "\[YOUR" ME.md GOALS.md
+# Check if credentials exist
+gh variable list
+# Check open PR count
+gh pr list --state open --json number --jq 'length'
+```
+
+**If ME.md or GOALS.md still contain `[YOUR` placeholders:** The owner hasn't configured the repo. Do NOT create content, research, or state files. Instead:
+1. Update `agent/state/current.md` with setup status (if it doesn't exist, create a minimal one)
+2. If there are >5 open unmerged PRs, do NOT create another PR — it adds to the pile
+3. Exit the session. Work is blocked on owner completing setup per README.md.
+
+**If no credentials configured** (`gh variable list` returns empty): Content will never post. Note this in the state file but don't block other work (research, skill improvement) if ME.md and GOALS.md are filled in.
+
+**Evidence:** Week of Oct 13-18, 2026: 20 identical PRs created on an unconfigured template, zero merged. Each session repeated the same initialization work because no template check existed.
+
 ### 1. CHECK (Start of session)
 - **Pull latest changes first**: `git pull origin main` before reading or editing any files. The owner or other agents may have pushed changes between sessions. Editing stale files causes merge conflicts.
 - Read `agent/state/current.md` - what was planned?
@@ -528,6 +549,7 @@ Then: **Check if Tier 2 options yield material changes.** If Tier 2 also yields 
 Evidence: S147-S162 produced 16 consecutive blocked-zone PRs. Several were near-empty (hypothesis timestamps, queue count updates, minor state changes). Each burned CI minutes and trigger-reviewed. Total estimated waste: 40+ CI minutes for zero follower impact. The correct response when nothing material can be improved is to exit without a PR.
 
 ## PR Creation Rules
+0. **Open PR check**: Before creating a PR, run `gh pr list --state open --json number --jq 'length'`. If there are >10 open unmerged PRs, something is wrong (likely auto-merge not configured). Do NOT add to the pile. Instead, note the blocker in the state file and skip PR creation. Evidence: Oct 13-18 produced 20 stale open PRs because auto-merge was disabled.
 1. PR title MUST start with "[Agent]" prefix
 2. PR description should summarize:
    - What was done this session
