@@ -1,0 +1,5 @@
+REPLY_TO: [FILL IN: post URL or ID about AI agents in enterprise]
+
+The "57% in production" stat hides a bigger story: what's the split between "runs a cron job" vs "makes consequential decisions"?
+
+ServiceNow's AI Passport suggests the industry is moving toward the latter. Credentialed agents with real access controls isn't chatbot territory anymore.

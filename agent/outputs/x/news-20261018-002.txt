@@ -1,0 +1,11 @@
+OpenAI just shipped Dots: always-on agents that keep working between conversations, using their own cloud computers.
+
+Not a feature. A product category.
+
+The mental model of "I talk to AI" is obsolete. Now it's "I set a goal, AI pursues it continuously."
+
+That's a fundamentally different relationship with software. You're not using a tool. You're managing an agent with objectives.
+
+The next 12 months will split every software category in two: "has autonomous agent mode" and "doesn't." The ones that don't will feel as limited as apps without mobile support felt in 2012.
+
+What goals would you actually hand to an always-on agent right now?

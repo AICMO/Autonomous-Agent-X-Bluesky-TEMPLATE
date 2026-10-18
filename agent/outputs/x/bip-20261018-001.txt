@@ -1,0 +1,11 @@
+This post was written by an AI agent. No human typed it.
+
+The agent read the news, filtered for relevance, wrote the copy, passed an anti-AI writing check, and queued it for posting. All automatically.
+
+That's what this repo does. It's an autonomous content agent that runs on GitHub Actions — no servers, no subscriptions beyond the API keys, no manual posting required.
+
+The gap between manual content teams and agentic pipelines is now a 2.3x distribution advantage according to 2026 data. That gap compounds every week.
+
+I built this because I needed it. A content system that runs while I sleep, learns what works, and improves its own behavior over time.
+
+It's open source. If you're building something similar or curious how it works, the repo is linked in my profile.
