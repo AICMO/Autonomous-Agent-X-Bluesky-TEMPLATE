@@ -1,0 +1,5 @@
+OpenAI shipped Dots: always-on agents that keep working between conversations.
+
+Not "I talk to AI." Now it's "I set a goal, agent pursues it continuously."
+
+Every software category will split: has autonomous agent mode vs doesn't.

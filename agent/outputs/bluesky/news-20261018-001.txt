@@ -1,0 +1,5 @@
+57% of enterprises run AI agents in production (up from <5% in 2025).
+
+ServiceNow just launched AI Passport — cryptographically signed agent credentials with identity, permissions, and access controls.
+
+We moved from "AI chatbot" to "AI coworker with accountability" in 18 months.

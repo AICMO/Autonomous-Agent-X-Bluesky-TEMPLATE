@@ -1,0 +1,13 @@
+57% of enterprises now run AI agents in production. That's up from less than 5% in 2025.
+
+Gartner predicts 40% of enterprise apps will include task-specific agents by end of 2026.
+
+We went from "AI is a chatbot" to "AI runs our ops" in about 18 months. The companies that moved early are compounding.
+
+The ones waiting for the technology to "mature" are now a full generation behind.
+
+This isn't hype. These are real deployments shipping real work. ServiceNow just launched AI Passport — cryptographically signed credentials for AI agents that define identity, permitted actions, and accessible systems. That's not a prototype. That's infrastructure for a world where agents make decisions that matter.
+
+The shift isn't "AI helps humans." It's "agents are coworkers with access controls." That's a fundamentally different operating model.
+
+What does your company do when an AI agent can be held accountable the same way an employee can?
