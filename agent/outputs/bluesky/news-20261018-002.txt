@@ -1,0 +1,3 @@
+Google's A2A protocol vs Microsoft Agent Framework: both solve how autonomous agents hand off work without humans in the middle.
+
+This is the infrastructure layer nobody talks about. The teams that understand agent-to-agent plumbing will own the outcome.
