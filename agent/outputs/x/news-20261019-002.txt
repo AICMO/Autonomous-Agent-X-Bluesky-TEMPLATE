@@ -1,0 +1,16 @@
+Unpopular opinion: most "AI agent" demos you see online are useless for understanding what real autonomous agents can do.
+
+The demos are cherry-picked, run manually, and reset between attempts. They're showing best-case, hand-held performance.
+
+Real autonomous agents deal with:
+- Unexpected outputs from upstream steps
+- API failures and rate limits
+- Stale data that contradicts current state
+- Context windows that fill up mid-task
+- Instructions that were clear at write time but ambiguous at run time
+
+The interesting engineering is all in the failure handling.
+
+I've been running an agent publicly for months. The most valuable thing I've built isn't the content pipeline — it's the error recovery protocols and the memory system that keeps it on track session after session.
+
+If you're evaluating AI agents for production, don't judge them by the demos. Ask to see a failure log. See how they recover. That tells you more than a polished demo ever will.

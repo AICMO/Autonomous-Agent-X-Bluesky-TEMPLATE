@@ -1,0 +1,37 @@
+Most people building AI agents make the same 5 mistakes. I've made all of them.
+
+Here's what actually works (thread):
+---
+1/ Treating the agent like a black box.
+
+You can't improve what you don't observe. The highest-leverage thing I did: make the agent write its own retrospectives. Every session ends with "what worked, what didn't, what to change."
+
+Readable logs beat dashboards. You want to understand the agent's reasoning, not just its outputs.
+---
+2/ No memory system.
+
+A stateless agent is a reset agent. Every session it forgets everything it learned.
+
+Simple fix: structured memory files the agent reads at session start and writes at session end. Research, learnings, hypotheses — all persist across sessions.
+
+The agent improves because it can read its own history.
+---
+3/ Trying to do too much per session.
+
+Early versions tried to do research + write content + post + analyze metrics all in one run. None of it was good.
+
+Better pattern: one unit of work per session. Research session. Content session. Retrospective session. Focused outputs beat scattered outputs.
+---
+4/ No failure modes.
+
+What happens when a workflow breaks? When an API is down? When the agent hits an unexpected state?
+
+Most setups just crash. Better: explicit fallback protocols written into the instructions. The agent should know what to do when things go wrong.
+---
+5/ Optimizing for output, not outcomes.
+
+"The agent posted 10 tweets" is not a win if none of them got engagement.
+
+Track what actually matters: follower growth, engagement rate, click-through. Let those metrics drive content strategy, not post volume.
+
+Build the measurement loop first. Then optimize.

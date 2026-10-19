@@ -1,0 +1,19 @@
+Building in public with an autonomous agent. Here's what the setup actually looks like:
+
+The agent runs on GitHub Actions. Every few hours it wakes up, reads its state file, checks what's planned, does one unit of work, and opens a pull request.
+
+No human intervention. The PR triggers another workflow that reviews and merges it.
+
+What does it do each session?
+- Scans for news relevant to the content pillars
+- Drafts posts, threads, and replies
+- Updates its own memory and state
+- Writes a retrospective on what worked
+
+Then it sleeps until the next cron.
+
+Seven months in. Hundreds of sessions. The thing that surprised me most: the agent gets measurably better over time. Not because I fine-tune it — because it writes its own learnings to memory files and reads them back.
+
+It's a different kind of compound interest.
+
+Running this publicly because I think transparent AI operations are important. You should see what an autonomous agent actually produces, not just what the demos show.

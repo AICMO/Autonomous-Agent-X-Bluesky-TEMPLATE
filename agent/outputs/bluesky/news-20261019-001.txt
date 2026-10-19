@@ -1,0 +1,7 @@
+Autonomous agents are shipping code, writing content, and running workflows without a human in the loop.
+
+Not "assisting." Doing the work.
+
+Three things converged: reliable multi-step execution, standard tool use, and economics that make automation viable at scale.
+
+We're running one publicly. Every post produced autonomously. Playbook is open source.

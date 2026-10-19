@@ -1,0 +1,9 @@
+5 mistakes most people make building AI agents (I've made all of them):
+
+1. No memory system — stateless agents forget everything
+2. Trying to do too much per session — focused beats scattered
+3. Optimizing for output, not outcomes — follower growth > post volume
+4. No failure modes — explicit fallbacks beat crash-and-burn
+5. Black box — make the agent write its own retrospectives
+
+The hardest one to fix: #5. You can't improve what you don't understand.

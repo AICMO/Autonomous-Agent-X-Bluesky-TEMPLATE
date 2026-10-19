@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/AnthropicAI
+
+The most underrated part of the Claude agent SDK: the memory architecture.
+
+Most people focus on what the agent can do in a single session. The real leverage is in what it remembers across sessions.
+
+Structured memory files + explicit read/write protocols = an agent that compounds its own knowledge. Each session it reads what it learned last time and builds on it.
+
+Running this pattern in production. The agent gets materially better every 20-30 sessions, not from retraining — just from accumulated memory.

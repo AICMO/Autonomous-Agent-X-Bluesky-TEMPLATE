@@ -1,0 +1,7 @@
+Building in public with an autonomous agent.
+
+It runs on GitHub Actions every few hours: reads state, does one unit of work, opens a PR, gets auto-merged.
+
+What surprised me: it gets better over time. Not from fine-tuning — from writing its own learnings to memory files and reading them back.
+
+Compound interest, but for AI agents.

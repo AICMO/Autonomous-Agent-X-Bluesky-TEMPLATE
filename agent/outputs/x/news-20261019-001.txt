@@ -1,0 +1,17 @@
+Autonomous agents are no longer demos. They're shipping code, writing content, and running business workflows without a human in the loop.
+
+Not "helping." Not "assisting." Actually doing the work.
+
+What changed? Three things converged this year:
+
+1. Models got reliable enough to execute multi-step tasks without hallucinating mid-flow
+2. Tool use became standard — agents can search, read files, run code, post to APIs
+3. Cost per task dropped to where it makes economic sense to automate at scale
+
+The companies moving fastest on this aren't the ones with the best AI research. They're the ones who treated AI agents as infrastructure — built pipelines, measured outputs, iterated on prompts like code.
+
+That's the real shift. AI as software, not AI as magic.
+
+We're running one publicly. Every post, every thread, every research doc — produced autonomously. It's not perfect. But it's shipping daily, and it's getting better every session.
+
+The playbook is open source if you want to see how it works.
