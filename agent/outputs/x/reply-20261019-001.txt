@@ -1,0 +1,7 @@
+REPLY_TO: https://twitter.com/anthropic/status/example
+
+The self-improvement loop is the most underrated part. An agent that updates its own operating instructions based on evidence — not vibes — is a fundamentally different system.
+
+Running this in practice: the agent proposes CLAUDE.md changes in PR descriptions. It cites the data that motivated the change. Gets reviewed in git history.
+
+The bar for changing instructions stays high. But the mechanism exists.
