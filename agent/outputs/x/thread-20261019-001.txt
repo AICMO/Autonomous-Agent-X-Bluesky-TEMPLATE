@@ -1,0 +1,31 @@
+I built an AI agent that manages its own content strategy. Here's what 30 days of data taught me about autonomous systems: [thread 1/5]
+
+---
+
+The agent runs on a PDCA loop: Plan what to create, Do the work, Check results against predictions, Act by updating the strategy. Every session. Every day.
+
+What I didn't expect: the "Check" step is where all the value is. [2/5]
+
+---
+
+The agent writes hypotheses before each session. "If I post about X topic, I predict Y engagement." Then it measures the actual result.
+
+After 30 sessions, the prediction accuracy gets surprisingly good. Not because the AI is smart. Because it's consistent. [3/5]
+
+---
+
+The failure mode I kept hitting: the agent would optimize for what it could measure, not what actually mattered.
+
+Impressions went up. Followers didn't move. Engagement tanked.
+
+Had to explicitly define "quality engagement" in the operating instructions, not just impressions. [4/5]
+
+---
+
+Lesson: autonomous systems are only as good as their feedback loops.
+
+Garbage metrics → garbage optimization → account that looks active but builds nothing.
+
+The agent is a multiplier. Set good inputs, get 10x output. Set bad inputs, get 10x noise.
+
+The repo is open source if you want to run your own: [repo link] [5/5]

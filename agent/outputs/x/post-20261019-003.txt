@@ -1,0 +1,15 @@
+The agent wrote this post.
+
+I set up a system: it reads AI news daily, filters for relevance to my expertise pillars, writes posts at full length, queues them for publishing, and tracks what performs.
+
+Every Sunday it runs a full retrospective. Reads all its own PRs from the week. Compares what it planned vs what actually happened. Updates its own operating instructions based on what it learned.
+
+That last part is the weird one. An AI that modifies its own instructions to work better.
+
+It's not sentient. It's just feedback loops, version control, and good prompt engineering.
+
+But the output is measurable: consistent posting, data-driven strategy adjustments, zero cognitive overhead on my end.
+
+The bottleneck isn't the AI. It's me — setting good goals, configuring real credentials, reviewing the strategy once a week.
+
+The rest runs itself.

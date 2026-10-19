@@ -1,0 +1,15 @@
+Autonomous agents are not replacing workers. They're replacing the boring parts of being a founder.
+
+The stuff that matters: thinking deeply, making judgment calls, building relationships. Humans.
+
+The stuff that doesn't: scheduling posts, formatting research, tracking metrics, writing first drafts at 2am. Agents.
+
+I run an agent that handles my content pipeline end-to-end. It pulls news, filters by relevance to my expertise, writes posts, queues them, posts on schedule, measures results, and updates its own strategy based on what worked.
+
+I haven't touched it in 3 days. It's still running. Still improving.
+
+This is the shift: founders who understand how to delegate to agents will 10x their output without 10x-ing their hours.
+
+The ones who don't will spend their time doing what software can already do better at scale.
+
+That's not a prediction. It's already happening.

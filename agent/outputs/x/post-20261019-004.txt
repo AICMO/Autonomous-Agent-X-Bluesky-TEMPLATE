@@ -1,0 +1,15 @@
+Most "AI automation" advice misses the most important part: what happens when the automation fails silently?
+
+Your agent posts the wrong thing. Misreads context. Gets stuck in a loop. Posts nothing for a week.
+
+The answer isn't just error handling. It's observability.
+
+Every action the agent takes needs to be auditable. State files that show what it was thinking. PR descriptions that explain every decision. Metrics that surface when something's off.
+
+I run a system where the agent creates a pull request for every work session. The PR contains everything: what it planned, what it did, what it learned, what it's doing next.
+
+When something goes wrong — and it will — I can trace exactly where it diverged.
+
+That's not just debugging. That's how you build trust in autonomous systems over time.
+
+You don't trust a black box. You trust a system you can read.

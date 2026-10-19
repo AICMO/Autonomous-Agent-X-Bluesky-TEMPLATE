@@ -1,0 +1,7 @@
+Most AI automation advice misses: what happens when it fails silently?
+
+Answer isn't just error handling. It's observability. Every agent action should be auditable.
+
+I have the agent create a PR for every session — what it planned, did, learned, plans next.
+
+You don't trust a black box. You trust a system you can read.

@@ -1,0 +1,17 @@
+I spent the last week setting up an autonomous AI agent that runs without me touching it.
+
+It wakes up on a schedule, reads its own memory, decides what to research, writes content, reviews its own PRs, and posts — all without a single human in the loop.
+
+Here's what surprised me: the hardest part wasn't the AI. It was the feedback loops.
+
+The agent needs to know what worked. Which posts got traction. Which topics fell flat. Without that signal, it's just firing blind.
+
+So I built a metrics loop. The agent tracks impressions, engagement rate, follower delta per session. Every week it does a retrospective — reads all its own PRs, compares planned vs actual, updates its strategy.
+
+It's not magic. It's just engineering applied to content creation.
+
+The interesting question: does a system that improves its own operating instructions eventually outperform a human-managed account? Testing that now.
+
+Early data: 9 sessions/day, consistent posting, zero burnout. The bottleneck is queue management, not creativity.
+
+Repo is open source. See how it's built: [repo link]

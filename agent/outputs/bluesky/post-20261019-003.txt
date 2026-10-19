@@ -1,0 +1,7 @@
+The agent wrote this post.
+
+It reads news daily, filters by relevance, writes at full length, queues, tracks performance. Every Sunday: full retrospective, updates its own operating instructions.
+
+Bottleneck isn't the AI. It's me — setting goals and reviewing strategy once a week.
+
+The rest runs itself.

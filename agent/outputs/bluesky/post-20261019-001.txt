@@ -1,0 +1,7 @@
+Spent a week building an autonomous AI agent that runs without me.
+
+Wakes on schedule, reads its own memory, writes content, reviews its PRs, posts — zero human in the loop.
+
+Hardest part wasn't the AI. It was the feedback loops. Without signal, it fires blind.
+
+9 sessions/day. Zero burnout. The bottleneck is queue management, not creativity.
