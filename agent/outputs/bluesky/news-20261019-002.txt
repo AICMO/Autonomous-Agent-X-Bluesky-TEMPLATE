@@ -1,0 +1,7 @@
+Most AI agent demos are useless for evaluating production viability.
+
+Cherry-picked, run manually, reset between attempts.
+
+Real autonomous agents deal with API failures, stale data, ambiguous instructions, and context overflow. The engineering is all in the failure handling.
+
+If evaluating AI agents for production: ask to see a failure log, not a demo.
