@@ -1,0 +1,7 @@
+The builders winning the next agent cycle aren't shipping the most capable agents.
+
+They're shipping agents with the tightest operational boundaries.
+
+Perplexity SPACE. Microsoft Zero Trust. ServiceNow AI Passport.
+
+Constraints aren't a tax on capability. They enable deployment.

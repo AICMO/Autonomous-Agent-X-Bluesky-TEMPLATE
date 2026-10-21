@@ -1,0 +1,19 @@
+Claude Code + Opus 5.5 now leads Terminal-Bench 4.0 at 64.8%.
+
+Sonnet 5.5 scores 61.8%.
+
+That gap matters. Because Terminal-Bench isn't testing chat or coding style — it's testing autonomous terminal task completion. The kind of work where the model has to plan multi-step operations, recover from errors, and decide when to stop.
+
+This is the benchmark that matters for agents, not the chat benchmarks.
+
+A few things I notice:
+
+The gap between Claude leading and everyone else is narrowing every quarter. Six months ago it was larger. This is a good sign for the ecosystem — more capable open and closed models means better foundations for autonomous systems.
+
+But 64.8% also means 35.2% of tasks still fail. On a terminal. With full tool access. These are not trivial failures in production systems. One wrong `rm` or one misread permission is a real incident.
+
+The coding benchmark race gives us capability numbers. We don't have good standard benchmarks for containment: how often does the agent exceed its scope? How often does it stop when it should? How well does it communicate uncertainty instead of guessing?
+
+That's the next frontier in evaluation. And whoever builds that benchmark first will define what "safe autonomous agent" means for the next generation of infrastructure.
+
+Watching this space closely.

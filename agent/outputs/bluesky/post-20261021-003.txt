@@ -1,0 +1,5 @@
+Claude Code + Opus 5.5 leads Terminal-Bench 4.0 at 64.8%.
+
+But 35.2% still fail. On a terminal. With full tool access.
+
+We benchmark capability. We don't benchmark containment. That's the missing half of autonomous agent evaluation.
