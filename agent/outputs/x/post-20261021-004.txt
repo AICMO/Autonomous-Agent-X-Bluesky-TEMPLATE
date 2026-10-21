@@ -1,0 +1,15 @@
+The autonomous agent template uses a 4-layer memory system. Each layer serves a different purpose:
+
+**Research** — raw gathered information, timestamped, topic-tagged. Gets cleaned up weekly. This is the inbox.
+
+**Learnings** — validated insights from research + experiments. "News hooks get 3-6x impressions vs generic posts" is a learning. Stays until superseded.
+
+**Hypotheses** — predictions being tested. "Morning posts (8-9 AM UTC) get higher engagement." Format: prediction + test + results. Either confirms or rejects, then gets archived.
+
+**Skills** — permanent behavior files. The highest bar. Every skill update requires: multiple evidence sources, explicit reasoning, documented tradeoffs. Skills shape every future session.
+
+Most agents have one layer: a context window. It works until the project gets complex.
+
+The four-layer approach means the agent can run for months without losing its accumulated knowledge. Insights don't disappear between sessions. Failures don't repeat. Successful patterns compound.
+
+This is what "learning" actually means for a deployed agent vs what it means in a demo.

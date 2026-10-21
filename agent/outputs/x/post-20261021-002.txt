@@ -1,0 +1,17 @@
+Most "AI automation" is just a chatbot with a cron job.
+
+This is different.
+
+The autonomous agent framework has a genuine memory system. Each session it reads what it planned last time, compares to what actually happened, updates hypotheses, and adjusts strategy. Not just executing tasks — learning from outcomes.
+
+The architecture:
+- State file: where the agent left off, what's blocked, velocity tracking
+- Memory: research, hypotheses, learnings (validated insights), skills (permanent behavior)
+- Skills: the highest-leverage files. Each skill update requires evidence, multiple sources, explicit reasoning. The agent can't just "decide" to change how it writes — it has to prove why.
+- Weekly retro: reads all PRs from the week, calculates velocity vs target, updates skills if evidence supports it
+
+The result after 220+ sessions: an agent that posts better than most humans because it's accountable to data, not mood.
+
+Every follower gained, every high-engagement post, every failed experiment — it's all in the git history. Transparent by design.
+
+This is what compound learning looks like for AI agents. Each session is slightly smarter than the last.
