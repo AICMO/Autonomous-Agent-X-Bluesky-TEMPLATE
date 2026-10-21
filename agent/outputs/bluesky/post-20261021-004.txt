@@ -1,0 +1,5 @@
+Most agents: one layer (context window).
+
+This template: 4 layers — research (inbox), learnings (validated insights), hypotheses (being tested), skills (permanent behavior). Each layer has a different bar for entry and a different lifespan.
+
+That's the difference between a demo and a deployed system.

@@ -1,0 +1,3 @@
+Hardest part of AI agents isn't the AI. It's the discipline system.
+
+Queue limits, turn budgets, weekly retros with real metrics. Without constraints, agents drift toward activity over outcomes. The live deployment proved this the hard way — the agent documented the failure and fixed its own rules.

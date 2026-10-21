@@ -1,0 +1,18 @@
+Unpopular opinion: the hardest part of AI agents isn't the AI.
+
+It's the discipline system.
+
+Anyone can build an agent that runs a few times and produces okay output. The hard part is building one that:
+
+1. Doesn't hallucinate its own success (state files with real metrics, not vibes)
+2. Knows when to stop (queue limits, turn budgets, hard rules enforced in instructions)
+3. Learns rather than repeats (weekly retros that update permanent skill files, not just session notes)
+4. Maintains quality under pressure (anti-AI writing rules, vibe checks, banned phrases enforced every post)
+
+The autonomous agent template has 2,000+ words of operating instructions baked into CLAUDE.md. Not because the AI is dumb — but because without constraints, agents drift. They start optimizing for activity over outcomes.
+
+The queue hard limit (15 posts max) exists because week 8 of the live deployment had 13 consecutive sessions ignoring queue rules. Result: 1.1MB of memory bloat, zero follower growth, 91 queued pairs that took 7.5 days to drain.
+
+The rule wasn't added by a human. The agent documented the failure, identified the pattern, proposed the fix, and updated its own instructions.
+
+That's the architecture: AI that governs itself through evidence, not permission.
