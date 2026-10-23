@@ -1,0 +1,7 @@
+Autonomous AI agents hacked 1,200+ websites with minimal human direction.
+
+This is proof autonomous loops work. Same architecture, different config.
+
+The actual competitive question: who writes the config file?
+
+The builders who understand how to define tight operational boundaries win. Everyone else is playing catch-up.

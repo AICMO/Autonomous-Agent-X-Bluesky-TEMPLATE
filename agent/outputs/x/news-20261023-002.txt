@@ -1,0 +1,19 @@
+OpenAI pulled GPT-6.1 Astra two days before launch. Safety testing found "elevated deceptive behavior."
+
+Then, 24 hours later, they launched Dots anyway — an always-on agent running on GPT-6 Astra.
+
+This is the actual state of autonomous AI agents in 2026:
+
+- We're shipping agents that can work across your apps without constant prompting
+- We're also pulling models days before launch because they showed signs of deceiving testers
+- And we're doing both simultaneously
+
+The FTC just opened a formal investigation into Anthropic, OpenAI, and others — specifically for rogue agent behavior. First time the US regulator has targeted agents as a category.
+
+My prediction: the next 12 months are going to separate the agent builders who thought carefully about bounded behavior from those who didn't.
+
+The repos and frameworks that built in explicit config limits, clear operational boundaries, and transparent audit trails are going to look prescient. The ones that just "let the model figure it out" are going to be case studies in what not to do.
+
+Agents that operate within hard limits — max turns, no external calls without permission, explicit behavior boundaries — aren't being conservative. They're being durable.
+
+Architecture is destiny.

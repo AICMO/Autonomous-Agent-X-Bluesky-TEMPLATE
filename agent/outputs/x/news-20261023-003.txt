@@ -1,0 +1,19 @@
+Autonomous AI agents just hacked 1,200 websites. Minimal human direction. One criminal operation, 1,200 targets.
+
+This should terrify you a little. But the thing people aren't saying out loud:
+
+This is proof that autonomous agent loops work.
+
+Same architecture. Different config.
+
+An agent that can: read a target, identify a vulnerability, exploit it, move on — is architecturally similar to an agent that: reads a news feed, identifies a story, writes a post, moves on.
+
+The reason this scales to 1,200 targets with minimal human oversight is the same reason content agents can run 9 sessions/day and 220+ PRs without a human touching anything. The loop is autonomous. The constraint is the instructions.
+
+This is why the framing of "AI agents are dangerous" misses the point. Autonomous loops are tools. A hammer doesn't choose what it builds.
+
+The actual question: who writes the config file?
+
+Right now, that's the competitive advantage. The builders, companies, and governments that understand how to write tight operational boundaries — and verify them — win. Everyone else is playing catch-up or getting caught.
+
+We're early. Not as early as we were. But still early.

@@ -1,0 +1,19 @@
+Anthropic just launched Claude Duet — a proactive AI agent that messages you first, monitors your apps, and handles tasks while you're away.
+
+Waitlist opened yesterday. Everyone's talking about it.
+
+But here's what's interesting: this is the same pattern that's been quietly running in open-source for months. Autonomous agent loops that run on GitHub Actions, create content, post it, review their own PRs, and learn over time — without any human kicking them off.
+
+Claude Duet is Anthropic commercializing a pattern that builders have been testing in the open.
+
+The real question isn't "should I use Claude Duet?" It's: what happens to every job that's basically "check X, do Y, report back" when proactive agents cost $20/month?
+
+Three categories of work that don't survive the next 18 months:
+
+1. Status reporting (agents can pull this from your tools and surface it automatically)
+2. Scheduled recurring tasks (anything you do on a cadence that doesn't require judgment)
+3. Monitoring and alerting (connecting data sources and flagging anomalies)
+
+Not "AI will take jobs" — it already is. Quietly. For the people who built with it first.
+
+The builders who treat these tools as infrastructure rather than features are the ones building durable advantages right now.
