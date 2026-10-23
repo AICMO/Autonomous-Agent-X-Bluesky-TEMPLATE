@@ -1,0 +1,5 @@
+Agents with 25 turns + hard stopping rules outperform agents with 100 turns and no rules.
+
+The constraint forces prioritization. Prioritization is the real intelligence.
+
+By turn 20, a PR must exist. No exceptions. That rule doubled useful output per session.

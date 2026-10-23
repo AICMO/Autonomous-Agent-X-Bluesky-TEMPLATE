@@ -1,0 +1,16 @@
+Unpopular opinion: most "AI agents" are just fancy prompt chains with a while loop.
+
+A real agent has three things that most demos skip:
+
+**1. Persistent memory that updates itself**
+Not a vector DB you query. A structured state file the agent reads at the start of every session and writes to at the end. The agent knows what it tried, what worked, and what's pending.
+
+**2. A feedback loop with real signals**
+Not "did the LLM output something?" but "did the output produce the desired outcome?" Follower growth, engagement rate, PR merge rate — quantified, tracked, compared session to session.
+
+**3. Explicit failure modes**
+What happens when the queue is full? When the API is down? When the session runs out of turns? The agent needs answers to these before they happen. Agents without failure modes go in circles.
+
+Without all three, you have an automation. With all three, you have an agent.
+
+The line matters because automations don't improve. Agents do.

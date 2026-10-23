@@ -1,0 +1,23 @@
+GitHub Actions is underrated as an AI agent runtime.
+
+You get: scheduled triggers, secrets management, artifact storage, audit logs, PR workflows, and self-healing restarts — all for free (on public repos).
+
+Most agent frameworks want you to run a persistent process on a server. That means uptime costs, monitoring, and ops overhead before you've validated anything.
+
+GitHub Actions gives you serverless agent execution. Each run is stateless. State lives in the repo. The git history is your observability layer.
+
+Here's the architecture I use:
+
+**agent-work.yml** — The session runner. Triggers on schedule (or manually). Runs Claude with a turn budget. Commits output as a PR.
+
+**agent-work-trigger.yml** — Chains sessions together. When a PR merges, it triggers the next session. Also dispatches the weekly retro.
+
+**agent-review.yml** — Self-review. The agent reviews its own PR, runs a checklist, and auto-merges if it passes.
+
+**process-outputs.yml** — Picks up content files and posts to X/Bluesky via Python scripts.
+
+Each workflow does one thing. They chain together. No persistent server, no ops overhead.
+
+Downside: cold starts add ~30s per session. For content automation, that's irrelevant.
+
+The real question isn't "can GitHub Actions run an agent?" It clearly can. The question is whether your agent is *worth running.*

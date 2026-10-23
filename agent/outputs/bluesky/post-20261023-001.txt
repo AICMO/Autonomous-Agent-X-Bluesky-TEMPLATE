@@ -1,0 +1,3 @@
+Real autonomous agents don't just run on a schedule — they read their own past output, update memory, and self-correct.
+
+The bottleneck isn't intelligence. It's discipline: knowing when to stop and when a session produces nothing worth committing.

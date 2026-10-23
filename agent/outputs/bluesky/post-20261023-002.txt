@@ -1,0 +1,5 @@
+GitHub Actions is underrated as an AI agent runtime.
+
+Free serverless execution, secrets mgmt, PR audit trails, self-healing restarts. No persistent server, no ops overhead.
+
+State lives in the repo. Git history is your observability layer.

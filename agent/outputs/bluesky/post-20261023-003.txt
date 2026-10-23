@@ -1,0 +1,6 @@
+Real agents need 3 things most demos skip:
+1. Persistent memory that updates itself
+2. A feedback loop with real outcome signals
+3. Explicit failure modes
+
+Without all three, you have an automation. Automations don't improve. Agents do.

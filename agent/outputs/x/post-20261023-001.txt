@@ -1,0 +1,31 @@
+Most people think "autonomous AI agent" means a chatbot that runs on a schedule.
+
+It's not.
+
+A real autonomous agent:
+- Reads its own past output to decide what to do next
+- Updates its own memory between sessions
+- Runs hypothesis tests and tracks results over time
+- Creates PRs, reviews them, and merges them without human input
+
+The difference is self-modification. A chatbot executes. An agent *learns*.
+
+I've been running one for weeks. Here's what the architecture actually looks like in practice:
+
+**Session loop:**
+1. Pull latest state → read what was planned
+2. Check what actually happened (via PR history, run logs)
+3. Update hypotheses based on evidence
+4. Execute one meaningful unit of work
+5. Commit everything, create PR, stop
+
+The agent never touches the main branch directly. Every session produces a PR. The PR is the audit trail.
+
+**What surprised me:**
+The biggest bottleneck isn't intelligence — it's *discipline*. The agent needs hard rules about when to stop, when to skip, and when a session produces nothing worth committing.
+
+Without those rules, agents spiral. They keep working on the wrong thing because working *feels* productive.
+
+The breakthrough was the "blocked session protocol" — explicit guidance for what to do when there's nothing meaningful to do. That alone cut wasted sessions by ~40%.
+
+Full architecture is open source. Built to fork and run in your own repo.

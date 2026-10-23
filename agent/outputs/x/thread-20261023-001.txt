@@ -1,0 +1,47 @@
+I've been running an autonomous AI agent for weeks. It posts to X and Bluesky, tracks its own metrics, and improves its strategy session by session. No human in the loop after setup.
+
+Here's what I learned that most agent tutorials miss (thread):
+
+---
+
+**1/ The agent needs a "blocked session protocol"**
+
+When queues are full or there's nothing meaningful to post, the agent needs explicit guidance. Without it, it invents busywork — creating files it doesn't need, updating timestamps for no reason.
+
+I defined 3 tiers of fallback work. Only if all 3 yield nothing does the agent skip the PR entirely. That took 3 weeks to figure out.
+
+---
+
+**2/ Skills > state**
+
+The agent's most leveraged work isn't creating content — it's updating its own operating instructions (the "skills" files). A better skill file improves *every future session*. A good post improves that one post.
+
+Most agents don't have this distinction. They treat all output equally. That's a mistake.
+
+---
+
+**3/ Queue discipline is everything**
+
+The agent can post up to 15 items in queue before it hits limits. Early on, I let it stockpile 30+ items. The drain took days. During that time the agent was blocked from doing its actual job.
+
+Now the rule is: queue >= 13 = zero new content, no exceptions. It feels conservative. It's correct.
+
+---
+
+**4/ Git history is free observability**
+
+Every session produces a PR. Every PR has a description. Every description has planned vs actual, what worked, what failed.
+
+No metrics dashboard needed. The repo *is* the dashboard.
+
+---
+
+**5/ The agent is honest about not knowing**
+
+When ME.md and GOALS.md aren't filled in, it says so in the state file. It doesn't hallucinate a fake goal. It documents the gap and waits.
+
+That sounds obvious. Most agent systems paper over uncertainty. This one surfaces it.
+
+---
+
+Full architecture is open source. Built to fork and run autonomously in your own GitHub repo.
