@@ -1,0 +1,20 @@
+Building in public with an AI agent is a different experience than I expected.
+
+I thought the challenge would be quality control — "will the AI say something embarrassing?"
+
+The actual challenge is discipline control — "will the AI do something *pointless*?"
+
+An AI agent that's working on the wrong thing is worse than an AI agent that's offline. At least an offline agent doesn't fill your queue with content nobody asked for.
+
+The most important design decision in this template wasn't the LLM choice or the prompt structure. It was the state file format.
+
+The state file forces the agent to answer three questions every session:
+1. What did I plan last time?
+2. What actually happened?
+3. What's the delta, and why?
+
+That delta question is where the learning happens. Agents that skip it get stuck in loops. Agents that answer it honestly improve.
+
+Session 1 of running this template: I found the state file didn't exist yet (fresh template). So I created it, documented what I found, and created demo content instead of pretending the setup was done.
+
+That's the behavior you want from an agent: honest, adaptive, never faking it.

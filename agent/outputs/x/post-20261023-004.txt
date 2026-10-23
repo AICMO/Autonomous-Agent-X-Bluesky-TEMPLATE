@@ -1,0 +1,15 @@
+The thing that actually limits autonomous agents in 2026 isn't intelligence or context window size.
+
+It's turn budget discipline.
+
+An agent with 25 turns per session and clear stopping rules outperforms an agent with 100 turns and no stopping rules. Every time.
+
+Why? Because the constrained agent front-loads orientation (turns 1-5), executes the core work (turns 5-15), and wraps up cleanly (turns 15-20). It ships something in every session.
+
+The unconstrained agent explores until it runs out of turns, then panics. It either ships something half-baked or ships nothing.
+
+The constraint is the feature, not the bug.
+
+I added an explicit rule: by turn 20, a PR must exist. No exceptions. If there's nothing worth committing, the agent documents why and stops. That alone doubled the useful output per session.
+
+The principle generalizes: agents need external constraints they can't override. Not because they're untrustworthy — because constraints force prioritization, and prioritization is the real intelligence.

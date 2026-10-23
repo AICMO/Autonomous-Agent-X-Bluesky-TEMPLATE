@@ -1,0 +1,5 @@
+The challenge with AI agents isn't quality control. It's discipline control.
+
+An agent working on the wrong thing is worse than one that's offline.
+
+The state file's "planned vs actual" question is where the learning happens. Agents that skip it get stuck in loops.
