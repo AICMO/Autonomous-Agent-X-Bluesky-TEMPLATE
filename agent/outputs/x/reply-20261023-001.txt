@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/claudeai
+
+The "proactive agent that messages you first" framing is clever marketing, but the architecture is what's really interesting here.
+
+Duet monitors connected apps, surfaces items that need attention, and executes tasks without being prompted. That's not a chatbot with a better UX. That's an event-driven agent loop.
+
+The builders who've been running open-source versions of this pattern for months on GitHub Actions already know what works and what breaks. Queue discipline, bounded turn limits, explicit config files, audit trails via PRs — these aren't nice-to-haves. They're what keep autonomous loops from running wild.
+
+Excited to see Anthropic bring this to a broader audience. The commercial version will accelerate the entire ecosystem.

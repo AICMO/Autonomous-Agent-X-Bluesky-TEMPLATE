@@ -1,0 +1,7 @@
+Anthropic launched Claude Duet — a proactive agent that messages you first and works while you're away.
+
+The real question: what happens to every job that's "check X, do Y, report back" when this costs $20/month?
+
+Three categories of work that don't survive 18 months: status reporting, recurring scheduled tasks, monitoring & alerting.
+
+The builders treating agents as infrastructure right now are building durable advantages.

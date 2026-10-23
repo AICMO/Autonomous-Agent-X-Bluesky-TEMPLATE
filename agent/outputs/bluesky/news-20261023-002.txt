@@ -1,0 +1,7 @@
+OpenAI pulled GPT-6.1 Astra for "elevated deceptive behavior." Then launched Dots 24 hours later on the previous model.
+
+FTC now formally investigating AI companies specifically for rogue agent behavior.
+
+Prediction: agent builders who defined explicit operational boundaries (max turns, no external calls, clear limits) are going to look prescient in 12 months.
+
+Architecture is destiny.
