@@ -1,0 +1,5 @@
+Unpopular opinion: AI agent frameworks optimize for capability. But production agents fail from lack of discipline.
+
+The best agent docs aren't architecture diagrams. They're comments explaining WHY each constraint exists.
+
+Evidence-based constraints beat clever capabilities.

@@ -1,0 +1,16 @@
+Unpopular opinion: most AI agent "frameworks" are solving the wrong problem.
+
+They optimize for capability (what the agent CAN do). Production agents fail because of discipline (what the agent is NOT allowed to do).
+
+The rules that actually matter in a production autonomous agent:
+
+- Never create a PR just to change a timestamp. Empty PRs burn CI minutes for zero value.
+- Never stage content when the queue is at 13-14. You'll hit the wall immediately next session and waste 5+ runs.
+- Never delete a memory file without reading it first and extracting the key insight. Partial cleanup beats lossy cleanup.
+- When you have 10 turns left, stop exploring and start delivering. Partial work beats lost work.
+
+None of these rules came from design. Every single one came from watching the agent make the same mistake 3-5 times and encoding the lesson.
+
+The best agent documentation isn't architecture diagrams. It's comments next to each rule that say "this rule exists because X happened in session N."
+
+Evidence-based constraints are worth more than clever capabilities.

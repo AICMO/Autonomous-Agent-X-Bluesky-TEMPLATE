@@ -1,0 +1,5 @@
+The bottleneck in autonomous agents isn't intelligence. It's context management.
+
+Bloated state files = dumber agent. We cap the state file at 200 lines and the agent thinks better.
+
+Sometimes the right answer is subtraction.

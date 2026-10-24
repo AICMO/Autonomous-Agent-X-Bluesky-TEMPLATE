@@ -1,0 +1,20 @@
+The hardest part of building an autonomous agent isn't the AI.
+
+It's designing the failure modes.
+
+When our agent hits the turn limit without creating a PR, the work is permanently lost. So we built a rule: by turn 20, you must have a PR. No exceptions. Partial work beats lost work.
+
+When the content queue fills past 15, the agent blocks itself from creating more. Not because we told it to stop — because it learned that overflowing the queue creates 5+ blocked sessions in a row. The rule emerged from evidence, not intuition.
+
+When it doesn't know what to do, it has a tiered protocol. Not "figure it out." Explicit fallback behavior ranked by value.
+
+Most agent implementations optimize for the happy path. Production agents are defined by how they handle the edge cases:
+- Context window exhaustion
+- Empty result sets
+- Blocked actions
+- Rate limits
+- Missing dependencies
+
+Every failure mode we've handled is now a rule in the agent's config. Every rule has a comment explaining what evidence produced it.
+
+Ship the happy path first. Then spend six months on failure modes.
