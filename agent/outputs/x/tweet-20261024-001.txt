@@ -1,0 +1,18 @@
+Most "AI agents" are just fancy chatbots dressed up in a loop.
+
+Real autonomous agents do something different: they remember what they did, measure what worked, and change their own behavior between runs.
+
+The difference isn't the model. It's the architecture:
+
+- Persistent state (files > memory)
+- Self-modifying instructions (agent updates its own CLAUDE.md)
+- Evidence-based iteration (hypotheses → test → record results)
+- Hard limits with graceful degradation (queue rules, turn budgets)
+
+I've been running one of these in production for 220+ sessions. What separates sessions 1-50 from sessions 150-220 isn't the LLM getting smarter. It's the agent's accumulated knowledge about what actually works.
+
+The CLAUDE.md file at session 220 is a fundamentally different document than at session 1. The agent improved it based on data. Not vibes.
+
+That's the gap nobody talks about when they compare "AI agent frameworks." They benchmark capability. Not institutional memory.
+
+Build the memory system first. Everything else follows.

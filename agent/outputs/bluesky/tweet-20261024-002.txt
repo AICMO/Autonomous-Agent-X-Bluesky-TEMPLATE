@@ -1,0 +1,5 @@
+The hardest part of autonomous agents isn't the AI. It's designing the failure modes.
+
+Every rule in our agent config has a comment explaining what evidence produced it.
+
+Ship the happy path first. Then spend six months on failure modes.

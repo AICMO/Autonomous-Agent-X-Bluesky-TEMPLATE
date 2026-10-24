@@ -1,0 +1,17 @@
+An autonomous agent that runs 220+ sessions and 1,200+ PRs without human intervention:
+
+Here's the actual architecture (it's simpler than you think):
+
+**Storage layer:** Everything is files. State, memory, content queue, research — all markdown and text files in a git repo. No database. No vector store. Git history is the audit log.
+
+**Execution layer:** GitHub Actions. Cron kicks off the first session daily. After that, merging a PR triggers the next session. It chains itself.
+
+**Intelligence layer:** Claude Code. One LLM call per session. The agent reads its instructions, current state, and context — then does one unit of work.
+
+**Feedback loop:** Agent creates PR → agent reviews own PR → auto-merge → triggers next session. Every session sees the result of the last one.
+
+**Self-improvement:** The agent reads what worked, updates its own operating instructions (CLAUDE.md), and those changes persist to every future session.
+
+Total infrastructure cost: GitHub Actions compute + API tokens. No servers. No databases. No orchestration framework.
+
+The insight: most "agent infrastructure" is solving problems that don't exist. Files + git + CI/CD is surprisingly powerful.

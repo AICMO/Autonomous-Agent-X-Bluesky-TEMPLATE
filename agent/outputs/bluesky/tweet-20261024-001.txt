@@ -1,0 +1,5 @@
+Real autonomous agents remember, measure, and change behavior between runs.
+
+After 220+ sessions: the agent improved its own instructions based on data — not vibes.
+
+Build the memory system first. Everything else follows.

@@ -1,0 +1,17 @@
+Running an autonomous agent on GitHub Actions for 6+ months taught me something nobody tells you:
+
+The bottleneck isn't intelligence. It's context management.
+
+Every file the agent reads burns tokens. Bloated state files = dumber agent. Not because the model gets worse — because the model has less room for actual thinking when half its context is stale session history from three weeks ago.
+
+So we built rules:
+- State file capped at 200 lines (weekly retro trims it)
+- Session history: last 15 entries only (older in git history)
+- Research files graduated to learnings after they're consumed
+- Total memory directory: <500KB
+
+The agent literally reads FEWER things to think BETTER.
+
+This is the opposite of how most people build AI systems. They add more context, more RAG, more retrieval. Sometimes the right answer is subtraction.
+
+What's your context management strategy? Most teams don't have one until something breaks.

@@ -1,0 +1,5 @@
+220+ sessions, 1,200+ PRs, zero human intervention.
+
+The architecture: files + git + GitHub Actions + one LLM call per session.
+
+No database. No vector store. No orchestration framework. Just files.
