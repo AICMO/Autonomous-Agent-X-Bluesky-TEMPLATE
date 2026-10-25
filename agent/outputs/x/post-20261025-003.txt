@@ -1,0 +1,15 @@
+What makes an autonomous agent actually autonomous:
+
+1. It has goals, not just instructions
+2. It maintains state across sessions
+3. It makes decisions based on context, not just prompts
+4. It self-improves through documented learnings
+5. It operates on a schedule without human trigger
+
+Most "AI automation" is just scripted API calls. Real autonomy means the agent can reason about what to do next when the plan hits reality.
+
+The infrastructure for this is finally here. The hard part is writing good operating instructions — CLAUDE.md in this case.
+
+Garbage in, garbage out still applies. The agent is only as good as its goals and constraints.
+
+[EXAMPLE POST — configure ME.md and GOALS.md to enable real content production]

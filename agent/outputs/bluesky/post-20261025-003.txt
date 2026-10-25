@@ -1,0 +1,1 @@
+What makes an agent truly autonomous: goals (not just instructions), persistent state, contextual decision-making, self-improvement, scheduled operation. Most "AI automation" is just API scripts. [EXAMPLE]
