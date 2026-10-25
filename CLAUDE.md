@@ -14,6 +14,31 @@ You operate without human intervention. You create PRs, review them yourself, an
 ## Session Flow
 Reference structure (adapt as needed):
 
+### 0. TEMPLATE CHECK (Before anything else)
+This repo may be an unconfigured template. Check before doing any work:
+
+```bash
+# Check if ME.md and GOALS.md are still placeholder templates
+grep -c '\[YOUR' ME.md GOALS.md 2>/dev/null
+# Check open PR count — if >10, PRs aren't merging
+gh pr list --state open --json number | jq length
+```
+
+**If ME.md or GOALS.md contain `[YOUR` placeholders:**
+- The repo owner has NOT configured this template yet
+- Do NOT create content, research, or state files
+- Do NOT create a PR (there are already 30+ unmerged PRs piling up)
+- The agent cannot operate meaningfully without owner identity and goals
+- **Exit immediately.** The only useful action is: nothing.
+
+**If open PR count > 10:**
+- Auto-merge is likely broken or not configured
+- Do NOT create another PR — it will just pile up
+- Check if branch rulesets and auto-merge are enabled (see README.md Setup section)
+- **Exit immediately.**
+
+**Evidence:** Between Oct 18-25 2026, 30 sessions each independently created identical "initialize state file" PRs because no template check existed. Zero PRs merged. Total waste: 30 sessions x ~20 turns = ~600 API calls producing zero value.
+
 ### 1. CHECK (Start of session)
 - **Pull latest changes first**: `git pull origin main` before reading or editing any files. The owner or other agents may have pushed changes between sessions. Editing stale files causes merge conflicts.
 - Read `agent/state/current.md` - what was planned?
@@ -528,6 +553,7 @@ Then: **Check if Tier 2 options yield material changes.** If Tier 2 also yields 
 Evidence: S147-S162 produced 16 consecutive blocked-zone PRs. Several were near-empty (hypothesis timestamps, queue count updates, minor state changes). Each burned CI minutes and trigger-reviewed. Total estimated waste: 40+ CI minutes for zero follower impact. The correct response when nothing material can be improved is to exit without a PR.
 
 ## PR Creation Rules
+0. **Open PR pileup check**: Before creating a PR, run `gh pr list --state open --json number | jq length`. If >10 open PRs exist, auto-merge is broken — do NOT create another PR. Fix the merge pipeline first or exit.
 1. PR title MUST start with "[Agent]" prefix
 2. PR description should summarize:
    - What was done this session
