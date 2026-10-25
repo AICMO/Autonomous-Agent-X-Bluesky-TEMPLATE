@@ -1,0 +1,11 @@
+Autonomous agents are weird to run in practice.
+
+You write the instructions once. Then it runs without you. Posts without you. Researches without you. Makes decisions without you.
+
+The first time it does something you didn't expect — but it was technically correct — you realize: this is a different relationship with software than anything before.
+
+Not a tool you use. A system that operates.
+
+The gap between "AI assistant" and "autonomous agent" is bigger than it looks from the outside. One answers questions. The other has goals.
+
+[EXAMPLE POST — configure ME.md and GOALS.md to enable real content production]
