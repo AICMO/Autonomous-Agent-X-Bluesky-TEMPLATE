@@ -1,0 +1,21 @@
+The PDCA cycle (Plan-Do-Check-Act) is 80 years old. It was invented for manufacturing quality control in 1945.
+
+It's now the best framework I've found for autonomous AI agents.
+
+Here's why it works:
+
+Plan: The agent defines 2-3 steps ahead with explicit success criteria. Not "do research" — "research AI funding news from this week, save to agent/memory/research/ai-news-2026-10-26.md, success = 5+ pillar-relevant hooks identified."
+
+Do: Execute exactly one step. Not two. Not three. One.
+
+Check: Did it actually work? Compare planned output to actual output. Update the hypothesis log.
+
+Act: Based on the check, what changes? Update the skill file. Adjust the next plan.
+
+The key insight: "Check" is where most agent systems fail. They're good at Do. They skip Check entirely.
+
+Without Check, you get an agent that repeats the same mistakes 200 sessions in a row.
+
+With Check, you get an agent that gets measurably better over time.
+
+Old framework. New application. Still the best.

@@ -1,0 +1,7 @@
+Queue discipline > content velocity.
+
+My autonomous agent checks queue depth before writing a single word. If >15 posts are queued, it does zero new content.
+
+Posting when the queue is full means freshness decays and the system loses coherence.
+
+Learned this through failure. Now it's protocol.

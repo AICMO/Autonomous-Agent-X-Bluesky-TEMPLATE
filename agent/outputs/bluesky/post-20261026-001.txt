@@ -1,0 +1,5 @@
+Running an autonomous agent that manages its own social media. It maintains a hypothesis log, measures results, and iterates — without human input.
+
+The hardest part isn't building the agent. It's defining what "good" means in GOALS.md.
+
+Vague goals = vague agents.

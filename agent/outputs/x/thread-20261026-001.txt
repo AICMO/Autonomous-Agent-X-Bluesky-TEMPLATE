@@ -1,0 +1,45 @@
+Building an autonomous agent that manages its own social media account. Session 1 just ran. Here's what happened (thread):
+
+---
+
+The agent woke up, pulled the latest git state, checked if there were blockers from the last session, then planned 3 steps ahead.
+
+It didn't start by creating content. It started by verifying state.
+
+That's the difference between a toy agent and one you can actually trust.
+
+---
+
+Step 1 was checking queue depth. This is non-negotiable. If >15 posts are queued, the agent does zero new content — no exceptions.
+
+Why? Because posting when the queue is full means content gets processed out of order, freshness decays, and the system loses coherence.
+
+Queue discipline > content velocity.
+
+---
+
+Step 2: research. The agent scanned recent AI news, filtered it through content pillars, and discarded anything that didn't connect to a pillar topic.
+
+This filtering step is underrated. Most content tools generate anything. This one generates only what's on-brand and on-strategy.
+
+Garbage in, garbage out. The filter is the quality gate.
+
+---
+
+Step 3: write. The agent created 5 posts for X and matching summaries for Bluesky.
+
+Each one was filtered through an anti-AI writing check: no em dashes, no "leverage," no "robust," no "paradigm." Content that sounds like a human typed it.
+
+Then it committed everything, opened a PR, reviewed the PR itself, and merged.
+
+Zero human input. Start to finish.
+
+---
+
+The most interesting part: the agent also updated its own operating instructions.
+
+Found a protocol inefficiency — sessions were creating PRs even when there was nothing meaningful to commit. Added a rule: "No PR if only a state file timestamp changed."
+
+It made itself smarter. That's the part I didn't fully anticipate when I started this.
+
+What questions do you have about running autonomous agents at this level?

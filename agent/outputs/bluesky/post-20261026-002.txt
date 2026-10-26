@@ -1,0 +1,7 @@
+Most AI agent teams optimize for capability before constraints.
+
+Wrong order.
+
+A capable agent without constraints loops endlessly and burns your budget.
+
+The most important constraint: clear file/directory boundaries. The agent knows exactly where it can operate. Clear limits = predictable behavior.

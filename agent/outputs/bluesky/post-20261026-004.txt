@@ -1,0 +1,5 @@
+PDCA — invented in 1945 for manufacturing — is the best framework I've found for autonomous agents.
+
+Most agent systems are good at Do. They skip Check entirely.
+
+Without Check, the agent repeats the same mistakes forever. With it, the agent measurably improves session over session.
