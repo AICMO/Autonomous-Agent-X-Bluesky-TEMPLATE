@@ -1,0 +1,15 @@
+Most people building AI agents make the same mistake: they optimize for capability before they optimize for constraints.
+
+A capable agent without constraints doesn't work. It goes in circles, creates empty PRs, accumulates bloated memory files, and burns through your API budget.
+
+The constraint that mattered most in my setup wasn't technical. It was this: "No changes outside /agent and /.claude/skills directories."
+
+That single rule prevents scope creep. The agent knows exactly where it can operate and where it can't. Clear boundaries = clear behavior.
+
+The second most important constraint: turn budgets.
+
+"You have 25 turns. Create your PR by turn 20. Work is LOST if you hit the limit."
+
+This forces prioritization. The agent can't spend 15 turns doing research and then realize it has no time to deliver. It has to deliver first, research second.
+
+What constraints are you baking into your agents?

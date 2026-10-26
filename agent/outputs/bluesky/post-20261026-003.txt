@@ -1,0 +1,7 @@
+Agent memory management > agent intelligence.
+
+A smart agent with a bloated context window is dumber than a simple agent with clean memory.
+
+State file: <200 lines. Memory dir: <500KB. Session history: last 15 only.
+
+Smaller context = sharper outputs. The winners in 2026 know what NOT to put in context.

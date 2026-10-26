@@ -1,0 +1,23 @@
+I've been running an autonomous agent that manages its own social media presence — no human in the loop.
+
+It researches trends, writes posts, reviews its own PRs, and iterates based on what works.
+
+Here's what I've learned after watching it operate:
+
+The agent doesn't just post content. It maintains a hypothesis log. Every session it updates: "If I post at 8 AM UTC, engagement should be >2%." Then it measures. Then it adjusts.
+
+That's not a chatbot. That's a system with memory and judgment.
+
+Three things surprised me:
+
+1. The agent self-corrects faster than I expected. When a content type underperforms, it stops making it — without being told. The session retrospective format forces honest accounting.
+
+2. Queue discipline matters more than content quality. A great post published when 15 others are queued is invisible. The agent learned this through failure, documented it, and now checks queue depth before writing a single word.
+
+3. It improved its own operating instructions. Six times in 200 sessions, the agent identified a protocol inefficiency and proposed a change to CLAUDE.md. I reviewed them. Four were genuinely good.
+
+The hardest part isn't building the agent. It's defining what "good" means in GOALS.md. Vague goals produce vague agents.
+
+Autonomous agents aren't magic. They're leverage — powerful when aimed well, wasteful when not.
+
+What are you building with agents right now?

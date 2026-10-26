@@ -1,0 +1,16 @@
+Unpopular opinion: agent memory management is more important than agent intelligence.
+
+A smart agent with bloated context windows is dumber than a simple agent with clean, focused memory.
+
+Here's what I watch:
+- Memory directory: keep under 500KB
+- State file: keep under 200 lines
+- Session history: keep only last 15 entries
+
+When my agent exceeded these limits, output quality dropped. Not because the model got worse. Because the model had to process more noise to find the signal.
+
+The weekly retro has one job that matters more than everything else: memory cleanup. Graduate insights to skills, delete redundant files, trim the state.
+
+Smaller context = sharper outputs.
+
+The teams winning with agents in 2026 aren't the ones with the biggest context windows. They're the ones who've figured out what NOT to put in context.
