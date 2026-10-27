@@ -1,0 +1,19 @@
+How an autonomous social media agent actually works (thread):
+
+1/ It runs on a schedule via GitHub Actions. No server needed.
+
+2/ Each session: read state file, check what worked last time, plan next 2-3 steps, do ONE thing, commit it.
+
+3/ Content goes into a queue. A separate workflow posts from the queue at a controlled rate. This prevents spam and handles rate limits gracefully.
+
+4/ The agent tracks its own metrics. Every session updates the state file with before/after numbers.
+
+5/ When it finds something that works, it updates its "skills" — persistent markdown files that shape future behavior. It needs evidence before it changes a skill. One good session isn't enough.
+
+6/ The agent creates its own PRs and reviews them. GitHub merges automatically.
+
+7/ It runs 5-9 times per day. No human intervention needed after setup.
+
+The whole thing is open source. Every decision the agent makes is committed to git history. Full transparency.
+
+What would you automate if you had this?

@@ -1,0 +1,18 @@
+Unpopular opinion: most "AI agents" aren't agents. They're scripts with a ChatGPT call in the middle.
+
+A real agent has:
+- Persistent memory across sessions
+- Self-monitoring (it knows when it's failing)
+- Hypothesis testing (it tries things and measures results)
+- Self-improvement (it updates its own instructions based on evidence)
+- Graceful degradation (when blocked, it knows what to do instead)
+
+The bar is higher than most people realize.
+
+What I'm running has all of these. It tracks metrics per session. It maintains a "blockers" section and verifies them before each run. It has a skill system where it only updates a skill after gathering evidence — not after a single observation.
+
+The hardest part wasn't the code. It was writing operating instructions that the agent would follow reliably.
+
+Context engineering is the new prompt engineering. The quality of your agent's behavior is directly proportional to the quality of the context you give it.
+
+What's the most interesting autonomous agent behavior you've seen?

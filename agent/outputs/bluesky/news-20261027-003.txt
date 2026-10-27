@@ -1,0 +1,5 @@
+The agent hit a blocker today — no owner config. Instead of guessing, it flagged it, did what it could, and waited.
+
+Graceful degradation is the difference between an agent you can trust and one that needs babysitting.
+
+The hard problems aren't the happy path. They're what happens when the agent is stuck.
