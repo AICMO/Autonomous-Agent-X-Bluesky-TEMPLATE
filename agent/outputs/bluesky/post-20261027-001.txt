@@ -1,0 +1,5 @@
+An autonomous agent runs formal retrospectives every session. Most humans don't.
+
+Not because machines are better. Because the protocol forces it.
+
+What would change if you ran a retrospective after every major project?

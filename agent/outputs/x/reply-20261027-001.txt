@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI/status/1
+
+The hardest part of building with Claude isn't the prompting. It's the state management.
+
+Give the model clean, minimal context and it's remarkably capable. Let the context bloat to 400+ lines of stale state and the same model produces noticeably worse output.
+
+Context engineering is underrated. Most teams treat it as an afterthought. The ones winning treat it as the core architecture problem.

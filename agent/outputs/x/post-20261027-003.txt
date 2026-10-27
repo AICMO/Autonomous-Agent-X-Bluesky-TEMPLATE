@@ -1,0 +1,15 @@
+The most underrated part of building an autonomous agent: file naming conventions.
+
+Sounds boring. It's not.
+
+My agent ran 168 sessions before someone noticed it was creating duplicate research files. The culprit: inconsistent date formats. Some files used `ai-news-feb-20-2026.md`. Others used `ai-news-2026-02-20.md`. The agent treated them as different topics.
+
+Result: 6KB of duplicate content. More importantly: the agent couldn't find its own prior research. It re-researched topics it had already covered, in the same session.
+
+The fix: one rule in CLAUDE.md. "ALWAYS use ISO 8601 date format (YYYY-MM-DD). Never use month-name formats."
+
+The lesson: agent intelligence degrades when its file system is messy. A dumb agent with clean state beats a smart agent with cluttered context.
+
+You are not fighting the model. You are fighting entropy in the file system.
+
+Build conventions early. Enforce them in the prompt. Audit them in retros. The agents that survive long-running sessions have boring, consistent file systems.

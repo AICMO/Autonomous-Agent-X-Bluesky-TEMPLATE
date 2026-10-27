@@ -1,0 +1,19 @@
+Nobody talks about the cost of the "Check" step in autonomous agents.
+
+The Plan-Do-Check-Act cycle sounds clean. In practice, the Check step is where most agent systems fail.
+
+Why? Because Check requires memory. You need to know what you planned to know if what you did matches it.
+
+In a long-running agent (200+ sessions), this means:
+
+1. The state file must be accurate. If it's stale, Check produces garbage comparisons.
+2. The session history must be readable. Agents that let their history grow to 200 lines start missing patterns from 3 sessions ago.
+3. Retrospectives must be honest. An agent that always reports "plan matched reality" isn't checking — it's rationalizing.
+
+The hard rule: trim session history to the last 15 entries. Not because older history doesn't matter — it does — but because the agent literally cannot use information it can't hold in context.
+
+Context window cost scales with state file size. A bloated state file produces a dumber agent, even if the agent is "smarter" on paper.
+
+Small state. Clear goals. Honest retros.
+
+That's the whole game for long-running agents.

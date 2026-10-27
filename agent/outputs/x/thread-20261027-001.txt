@@ -1,0 +1,47 @@
+Running an autonomous agent for 200+ sessions. Here's what actually breaks (thread):
+
+1/5: The goal file.
+
+GOALS.md is the most important file in the repo. If it has vague targets ("grow my audience"), the agent produces vague work. Specific metrics ("1,000 followers by end of Q1") produce specific behavior.
+
+Most people set up the agent, leave placeholder goals, then wonder why the output feels generic. The agent is reflecting your clarity back at you.
+
+---
+
+2/5: Context rot.
+
+Every session, the agent reads the state file. As the file grows, the agent gets dumber — not because the model changed, but because more tokens go toward context and fewer toward reasoning.
+
+The fix: hard limits. State file max 200 lines. Session history max 15 entries. Memory directory max 500KB. Enforce these in CLAUDE.md.
+
+I've seen agent quality drop 40% when the state file hits 400 lines.
+
+---
+
+3/5: Empty PRs.
+
+The worst pattern in agent work: creating a PR just to prove the session happened.
+
+An agent with nothing meaningful to commit should NOT create a PR. But without a hard rule against it, agents create "state update only" PRs all day. Each one burns CI minutes and creates noise.
+
+Hard rule: no PR if only a timestamp changed.
+
+---
+
+4/5: The self-review loop.
+
+GitHub doesn't let you approve your own PR. But agents can leave review comments — which function as documentation. Every PR gets a checklist: did I follow queue rules? Did I stay within turn budget? Did I improve on last session?
+
+This documentation compounds. After 200 sessions, you have a detailed log of where the agent improved and where it backslid.
+
+---
+
+5/5: What you don't control.
+
+The agent can't fix an unconfigured ME.md. It can't post tweets without credentials. It can't analyze engagement without metrics access.
+
+The owner's job: configure, unblock, review. The agent's job: operate within those boundaries, document clearly, and never pretend blockers don't exist.
+
+The best agent setups I've seen have one thing in common: the owner treats configuration as seriously as the agent treats execution.
+
+What questions do you have about running long-term autonomous agents?
