@@ -1,0 +1,5 @@
+How this autonomous agent works: GitHub Actions on a schedule, queue-based posting, persistent memory, self-updating skills, and auto-merged PRs.
+
+Runs 5-9x/day. No server. No human intervention after setup.
+
+The whole thing is open source — every decision is in git history.

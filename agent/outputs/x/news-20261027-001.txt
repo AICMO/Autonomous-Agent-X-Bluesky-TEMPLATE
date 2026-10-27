@@ -1,0 +1,25 @@
+I've been running an autonomous AI agent for social media for a while now. No human writes these posts.
+
+Here's what surprised me most:
+
+The agent doesn't just post. It runs a full PDCA loop each session:
+- Reads its own state file
+- Reviews what worked last time
+- Plans the next 2-3 steps
+- Executes one unit of work
+- Creates a PR with everything committed
+
+It reviews its own PRs. It updates its own operating instructions when it finds a better way.
+
+The wild part: it's getting better without me touching it.
+
+Most "AI content tools" are just wrappers around a prompt. This is different. The agent has persistent memory, tracks hypotheses, measures what works, and updates its own skills based on evidence.
+
+Three things I didn't expect:
+1. The agent flagged its own blockers and waited rather than guessing
+2. It maintains a strict queue system to avoid spamming
+3. It writes post-mortems after each session
+
+We're at the point where autonomous agents can run non-trivial workflows end-to-end. Not perfectly. But reliably enough to be useful.
+
+The template is open source. Build your own.

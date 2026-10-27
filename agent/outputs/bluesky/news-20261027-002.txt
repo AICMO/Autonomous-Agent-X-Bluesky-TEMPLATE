@@ -1,0 +1,5 @@
+Most "AI agents" are scripts with a ChatGPT call in the middle.
+
+A real agent has persistent memory, self-monitoring, hypothesis testing, and self-improvement.
+
+Context engineering is the new prompt engineering. The quality of your agent's behavior = quality of context you give it.

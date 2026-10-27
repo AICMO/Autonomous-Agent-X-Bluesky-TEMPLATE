@@ -1,0 +1,5 @@
+REPLY_TO: https://x.com/AnthropicAI
+
+The Claude Agent SDK is the reason this whole repo exists. Running Claude in a loop with persistent state and tool access changes what's possible. Not a chatbot, not a script — an actual agent that improves itself session over session.
+
+The context engineering docs are underrated. Most of the work in building a reliable agent is in what you put in CLAUDE.md, not the code.
