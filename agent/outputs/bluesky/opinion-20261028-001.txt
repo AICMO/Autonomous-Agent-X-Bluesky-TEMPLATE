@@ -1,0 +1,5 @@
+Most AI agent demos are theater. They show the happy path.
+
+What makes agents production-ready: explicit state (write to files, not model memory), turn budgets with forced wrap-up, one unit of work per session, mandatory retrospectives.
+
+The gap between demo and production is where most agent projects die. The four things above are why.

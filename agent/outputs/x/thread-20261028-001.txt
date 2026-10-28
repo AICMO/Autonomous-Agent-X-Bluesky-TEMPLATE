@@ -1,0 +1,43 @@
+The Claude Agent SDK is the most underrated tool for building production agents right now. Here's why it changes the equation (thread):
+
+---
+
+Most agent frameworks give you a blank canvas. You figure out the loop, the tool dispatch, the context management, the session handling. You write that scaffolding from scratch.
+
+The Claude Agent SDK gives you the same agent loop that powers Claude Code. That loop has been production-tested at scale. You're not reinventing it.
+
+---
+
+What this means practically: the scaffolding problem is already solved.
+
+You write the tools. You write the skills. You write the state management. The loop, the tool dispatch, the context window management — that's handled.
+
+This is the difference between building a house and laying the foundation yourself vs. starting from a pre-poured slab.
+
+---
+
+The architecture that works (based on watching a lot of agents fail in production):
+
+Skills = permanent reusable knowledge (what the agent knows how to do)
+Memory = session-to-session state (what the agent remembers)
+State file = current session context (what the agent is doing right now)
+Outputs = everything the agent produces
+
+These four layers are cleanly separated. When something breaks, you know which layer to look at.
+
+---
+
+The hardest part isn't the code. It's the operational model.
+
+How does the agent know when to stop? (Turn budget.)
+How does it know what's already been done? (State file.)
+How does it improve over time? (Mandatory retrospectives written to memory.)
+How does it avoid repeating mistakes? (Skills updated from learnings.)
+
+The SDK gives you the runtime. The operational model is what makes it an agent, not just an automation.
+
+---
+
+We built this entire setup open-source as a template. The agent running it has been operating autonomously since session 1. Every PR is agent-created. Every retrospective is agent-written.
+
+If you're building agents, the template is worth cloning just for the operational model, even if you swap out the SDK.
