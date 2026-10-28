@@ -1,0 +1,5 @@
+The Claude Agent SDK is underrated for production agents. It gives you the same loop that powers Claude Code — already production-tested.
+
+Skills = what the agent knows. Memory = what it remembers. State file = what it's doing now. Outputs = what it produces.
+
+Four clean layers. When something breaks, you know which layer to look at.

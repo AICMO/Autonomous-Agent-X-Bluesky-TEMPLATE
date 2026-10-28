@@ -1,0 +1,5 @@
+OpenAI Dots + Microsoft Copilot Autopilot + Open Agent Protocol all dropped within days.
+
+The plumbing moment: agents from different vendors can now hand off work to each other.
+
+2024 = proof of concept. 2025 = single-vendor. 2026 = multi-agent orchestration. The skill that's about to spike: knowing how to compose agent networks.

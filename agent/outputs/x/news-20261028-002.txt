@@ -1,0 +1,15 @@
+OpenAI just shipped "Dots" — always-on agents that pursue your goals across apps with limited supervision. Works through Slack and Teams. Can manage projects, research, build software.
+
+Microsoft followed same day with an updated Copilot Autopilot agent it's calling a "digital coworker."
+
+And there's now an Open Agent Protocol (OAP) — a standardized framework for agents to authenticate, negotiate, and exchange data across platforms.
+
+These three things together matter more than any of them individually.
+
+Dots + OAP + Copilot means agents from different vendors can now hand off work to each other. You're not locked into one agent stack. Your OpenAI agent can delegate to an Anthropic agent. Your internal tooling agent can call a third-party research agent.
+
+This is the plumbing moment. 2024 was proof-of-concept. 2025 was single-vendor deployment. 2026 is multi-agent orchestration across vendors.
+
+The developers who understand agent interoperability right now — not just how to build one agent, but how to compose networks of agents — are sitting on a skill that most orgs don't have yet.
+
+Build the primitives now. The demand for orchestration architects is about to spike.
