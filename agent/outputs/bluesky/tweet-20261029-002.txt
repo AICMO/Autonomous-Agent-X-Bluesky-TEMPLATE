@@ -1,0 +1,7 @@
+The actual AI content leverage most people miss:
+
+AI has ideas → AI writes → AI posts → AI learns what worked → AI gets better.
+
+The feedback loop is the product. Self-improving system.
+
+Not "AI helps me write." AI writes, iterates, ships.

@@ -1,0 +1,7 @@
+Most "AI agents" are fancy autocomplete.
+
+A real agent: persistent memory, goal-directed, self-correcting, autonomous.
+
+Tools plateau. Agents compound.
+
+Post 1000 is better than post 1 because of everything learned in between. That's the distinction worth making.

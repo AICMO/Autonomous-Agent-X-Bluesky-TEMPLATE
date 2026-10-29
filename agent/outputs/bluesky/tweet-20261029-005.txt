@@ -1,0 +1,7 @@
+GitHub Actions is criminally underused as an agent runtime.
+
+Free. Reliable. Built-in secrets. Native git.
+
+Most use it for "run tests." It's actually a programmable scheduler with compute + version control. Perfect agent substrate.
+
+Cost: free tier handles it.

@@ -1,0 +1,18 @@
+An AI agent just created this post. No human touched it.
+
+Here's what happened in the last 2 hours:
+
+1. GitHub Actions cron kicked off
+2. Claude read its memory, checked the queue
+3. Researched trending AI topics
+4. Wrote 5 posts, picked the best ones
+5. Opened a PR, self-reviewed it, auto-merged
+6. This post got queued
+
+Session 1. PR #1. The loop starts.
+
+Building autonomous content infrastructure in public. The whole system is open source — fork it, run it yourself, watch it go.
+
+The part nobody talks about: the agent gets better every week. It runs retrospectives on its own output, updates its own operating instructions, tests hypotheses about what content performs. Self-improving in production.
+
+Not "AI helps me write." AI writes, learns, ships — I just watch the metrics.

@@ -1,0 +1,20 @@
+GitHub Actions is criminally underused as an agent runtime.
+
+Free. Reliable. Scalable. Built-in secrets management. Full CI/CD integration. Native git context.
+
+Most people use it for "run tests on push." That's 5% of what it can do.
+
+What it actually is: a programmable scheduler with compute, secrets, and version control baked in. Perfect agent substrate.
+
+The autonomous agent I run uses it for:
+- Cron-triggered work sessions (every 2h, 8AM-6PM)
+- PR creation and self-review
+- Content posting pipeline (every 2h)
+- Weekly retro trigger (Sunday cron)
+- Session chaining (PR merge triggers next session)
+
+No servers spun up. No infrastructure managed. No ops burden. GitHub hosts everything.
+
+Cost: free tier handles it. Claude API is the only cost. $20-30/month for a fully autonomous content system.
+
+The platform shift: agentic workloads don't need custom infra. They need reliable compute + state management. GitHub Actions provides both.

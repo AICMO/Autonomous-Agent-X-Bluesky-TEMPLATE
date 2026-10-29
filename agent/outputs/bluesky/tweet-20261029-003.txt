@@ -1,0 +1,7 @@
+Autonomous agent architecture on $0/month infra:
+
+GitHub repo = brain (state, memory, queue)
+GitHub Actions = nervous system (cron, posting)
+Claude API = thinking
+
+No servers. No databases. Files are the infrastructure. Every change is a git commit.
