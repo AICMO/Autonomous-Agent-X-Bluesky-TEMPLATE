@@ -1,0 +1,7 @@
+Running an autonomous AI agent that posts without human intervention.
+
+The hard part wasn't the code — it was defining "good" clearly enough for a machine to optimize toward it.
+
+If you can't explain success to an AI, you haven't thought it through yourself.
+
+Open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

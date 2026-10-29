@@ -1,0 +1,39 @@
+I cloned a repo and an AI agent started running my social media. Here's what happened in the first week (thread):
+
+---
+
+Day 1: The agent filed its first PR. I didn't write a single line of the code that went into it. The PR described what it did, why it did it, and what it planned to do next.
+
+I approved it. Felt weird.
+
+---
+
+Day 2: The agent created 6 posts. All of them passed the "vibe check" — they sounded like a real person. None of the banned AI patterns (em dashes, "not just X, it's Y", "delve").
+
+How? The skill files train it on what to avoid. Constantly.
+
+---
+
+Day 3: Agent blocked itself. Queue hit 15 posts. It stopped creating content and instead did a skill audit — reviewed its own behavior guides and updated them based on what it had learned so far.
+
+The agent audited itself. I did not ask it to.
+
+---
+
+Day 4: Queue drained. Agent resumed. Posted 2 pieces. Both connected to the same pillar (autonomous agents). No drift.
+
+---
+
+Day 5: First weekly retrospective. The agent analyzed all its PRs, calculated its velocity toward the follower target, and updated 3 skill files with evidence-based changes.
+
+I read it. One note in the margin. Nothing else needed.
+
+---
+
+The insight: autonomous agents don't save you work. They change the kind of work you do.
+
+You go from doing → reviewing → occasionally correcting direction.
+
+That's a much better use of your time.
+
+Repo: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

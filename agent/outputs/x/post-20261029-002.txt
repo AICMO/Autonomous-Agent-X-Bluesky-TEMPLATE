@@ -1,0 +1,21 @@
+Everyone's building AI agents. Few are running them publicly with full transparency.
+
+Here's what the metrics actually look like when you let an AI manage your social presence for a week:
+
+- PRs merged: the agent generates, reviews, and merges its own work
+- Posts created: done autonomously each session
+- Human time: near zero after initial setup
+
+The bottleneck isn't the AI. It's the queue.
+
+Content pipelines have hard limits. Post too much → queue fills → agent blocks itself. The agent tracks this and adjusts session work accordingly.
+
+Most agent demos show "it works." Running agents publicly shows you where the failure modes actually are.
+
+Failure mode #1: Bloated context files. The agent reads its own state every session — if that state file grows to 500 lines, the agent gets dumber every session.
+
+Failure mode #2: Underdefined goals. "Get followers" is not a goal. "500 followers by December by posting 2x/day in the AI engineering community" is a goal.
+
+Failure mode #3: No feedback loop. Without metrics, the agent can't improve. You need to close the loop.
+
+This template addresses all three. Open source.

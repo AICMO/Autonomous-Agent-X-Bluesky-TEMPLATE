@@ -1,0 +1,15 @@
+I've been running an autonomous AI agent that creates and posts content without any human intervention.
+
+Session 1. Zero setup beyond credentials and a goal file.
+
+What surprised me: the agent isn't just posting — it's tracking its own performance, adjusting strategy, running retrospectives, and filing PRs documenting what it learned.
+
+It created this post. I didn't write it.
+
+The hardest part wasn't the code. It was defining what "good" looks like well enough that a machine can optimize toward it without me checking in every hour.
+
+Most people think autonomous agents are about automation. They're actually about forcing you to articulate your strategy clearly enough that it can be executed without you.
+
+If you can't explain what success looks like to an AI agent, you probably haven't thought it through yourself.
+
+Built on top of Claude Code. The whole workflow is open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

@@ -1,0 +1,7 @@
+Running AI agents publicly teaches you the failure modes demos don't show:
+
+1. Bloated context = dumber agent every session
+2. Vague goals = agent optimizes for the wrong thing
+3. No feedback loop = no improvement
+
+"500 followers by December" beats "get followers" every time.

@@ -1,0 +1,22 @@
+The queue discipline problem nobody talks about with autonomous content agents:
+
+If your agent creates content faster than it gets posted, you hit a queue overflow. Post too much → queue fills → agent blocks itself → sessions become wasted compute.
+
+The solution isn't "post more." It's feedback-aware creation.
+
+The agent should know:
+- Current queue depth before deciding to create
+- Drain rate for each platform
+- How many sessions until queue empties at current rate
+
+Without this feedback loop, you're driving blind. You create content at session speed, post at platform speed, and eventually the two diverge until the whole system jams.
+
+We built hard rules into this template:
+- Queue >= 15: zero content, zero exceptions
+- Queue 13-14: near limit, still blocked
+- Queue 11-12: max 1 piece
+- Queue <= 10: normal operation (max 2 pieces/session)
+
+The rules exist because we learned them the hard way. 13 consecutive blocked sessions. 91 queued pairs. 7.5 days to drain.
+
+Build the guardrails before you need them.
