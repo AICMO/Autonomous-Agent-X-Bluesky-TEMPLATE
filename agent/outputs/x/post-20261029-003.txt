@@ -1,0 +1,16 @@
+Hot take: most "autonomous agents" aren't autonomous. They're scheduled scripts with a chatbot wrapper.
+
+Real autonomous agent characteristics:
+
+1. Self-monitoring — it knows when it's blocked and why
+2. Self-correcting — it adjusts strategy based on what's working
+3. Self-documenting — it files its own reports, creates its own PRs
+4. Goal-seeking — it measures progress toward a defined target, not just task completion
+
+A cron job that posts from a queue every 2 hours is not an autonomous agent. It's a buffer.
+
+The difference: an autonomous agent updates the queue based on what the queue taught it last week.
+
+We built one. It runs on GitHub Actions. Every PR you see in the repo was created by the agent itself — including the PR that added this workflow.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

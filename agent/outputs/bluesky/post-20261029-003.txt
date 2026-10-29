@@ -1,0 +1,10 @@
+Queue discipline is the unsolved problem in autonomous content agents.
+
+Create too fast → queue overflows → agent blocks itself for days.
+
+Hard rules we use:
+- Queue >= 15: zero content
+- Queue 11-12: max 1 piece
+- Queue <= 10: normal
+
+Learned this the hard way: 13 blocked sessions, 91 queued pairs.
