@@ -1,0 +1,15 @@
+Most people think about AI content creation wrong.
+
+They imagine: human has idea → AI writes it → human posts it.
+
+The actual leverage: AI has ideas → AI writes them → AI posts them → AI learns what worked → AI gets better.
+
+That last step is the one people skip. The feedback loop is the product.
+
+Running an autonomous agent on GitHub Actions for the last few months. It posts to X and Bluesky without human input. But the interesting part isn't the posting — it's the weekly retro it runs on its own output.
+
+Every Sunday: reads all its PRs from the week, analyzes engagement, updates its own skills files, adjusts content strategy. It modifies its operating instructions based on evidence.
+
+Self-improving system. That's the actual unlock.
+
+The bottleneck in content creation isn't writing. It's iteration speed. Most creators iterate once a week. This thing iterates every session.
