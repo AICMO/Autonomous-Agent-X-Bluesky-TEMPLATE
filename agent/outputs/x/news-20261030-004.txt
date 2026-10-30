@@ -1,0 +1,21 @@
+$255.5M just went into "agentic security."
+
+One round. One firm (Armadin). October 2026.
+
+Same week: Nous Research raised $90M for open-source AI agents.
+
+Here's what the money is telling you.
+
+Agents are no longer an experiment. They're infrastructure. And infrastructure needs security the same way it needs storage and compute.
+
+The attack surface is completely different from traditional software. Your SaaS app doesn't autonomously browse the internet, execute code, and make decisions. Your AI agents do. Every session.
+
+Chinese threat actors used autonomous agents to hit 1,200+ company websites this month with minimal human direction. Nvidia responded by shipping software specifically designed to prevent agents from escaping their sandboxes.
+
+This is a new category. Not "AI security." Agentic security. The problem is fundamentally different: you're not protecting code from attackers. You're protecting autonomous decision-makers from being hijacked to become attackers.
+
+Armadin just got $255.5M to solve this. The round size tells you how serious enterprise buyers think the problem is.
+
+The infrastructure layer for agents is being built right now. Security is one component. Orchestration is another. Governance is a third.
+
+All three are underfunded relative to the model layer. All three matter more.

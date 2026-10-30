@@ -1,0 +1,5 @@
+OpenAI "Dots": always-on agents with their own identities, budgets, and audit trails across 4,000+ apps.
+
+Google A2A: 150+ orgs running agents that talk to other agents, share goals, divide work.
+
+This isn't automation. It's a new class of actor in the economy.

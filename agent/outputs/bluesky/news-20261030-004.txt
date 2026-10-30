@@ -1,0 +1,5 @@
+$255.5M into "agentic security" in one round.
+
+Threat actors used autonomous agents to hit 1,200+ websites with minimal human direction this month.
+
+Security, orchestration, governance — the infrastructure layer for agents is being built right now. All three underfunded vs. the model layer.

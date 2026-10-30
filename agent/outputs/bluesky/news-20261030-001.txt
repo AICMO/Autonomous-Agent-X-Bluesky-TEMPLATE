@@ -1,0 +1,7 @@
+SK Telecom gave employee IDs to 2,000 AI agents.
+
+Each gets a supervisor, work history, and can be retired for underperformance.
+
+Target: 1 AI agent per human employee.
+
+The product gap opening up: nobody builds "HR for AI agents" yet.

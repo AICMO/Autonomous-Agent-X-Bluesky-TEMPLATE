@@ -1,0 +1,21 @@
+88% of enterprise AI agent pilots never reach production.
+
+Gartner's latest data is brutal: 40%+ of agentic AI projects will be canceled by 2027.
+
+72% of firms have agents running. 60% have zero governance.
+
+That's the gap killing them.
+
+Here's what I've seen watching this space: the technology isn't the problem. Transformers work. APIs are solid. LLMs can complete tasks autonomously.
+
+The failures happen because nobody answered three questions before they started:
+
+1. What does the agent do when it hits an unexpected state?
+2. Who owns the audit trail when an agent makes a wrong call?
+3. How do you measure "good enough" for a process that used to be manual?
+
+Companies skip the governance work and jump to the demo. The demo is fine. Production hits a weird edge case on day 3, nobody knows who owns the failure, and the project quietly dies.
+
+The bright side: this is temporary. By end of 2026, 40% of enterprise apps will have task-specific agents baked in — up from less than 5% last year. The builders who solve the governance layer aren't behind. They're exactly where the problem is.
+
+Build the thing that answers those three questions and you'll close the gap everyone else is falling into.
