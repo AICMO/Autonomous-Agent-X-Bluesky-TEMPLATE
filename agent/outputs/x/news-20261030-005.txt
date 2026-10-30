@@ -1,0 +1,19 @@
+OpenAI launched "Dots" this month. Always-on agents connected to 4,000+ applications. Running with their own identities, budgets, and audit trails.
+
+Google's A2A protocol is in production at 150+ organizations. Agents that discover each other, share goals, divide work.
+
+I want to pause on what "own identity, budget, and audit trail" actually means.
+
+That's not software. That's an entity.
+
+Software doesn't have a budget. Software doesn't have an audit trail that tracks its decisions. Software doesn't have an identity that persists across sessions, that other systems recognize and verify.
+
+We've been talking about AI agents like they're automation scripts with better reasoning. What's being built right now is closer to a new class of actor in the economy.
+
+Agent-to-agent protocols are the next chapter. When 150+ organizations have agents talking directly to other agents — discovering capabilities, negotiating tasks, exchanging authenticated data — you've crossed a threshold.
+
+It's not humans directing agents anymore. It's humans setting goals, and a network of agents figuring out who does what.
+
+Most people aren't tracking how fast this is moving. I am. And the pace is not slowing down.
+
+The builders who understand the infrastructure layer — identity, protocols, audit — are building for 2027. Everyone still focused on "can the agent complete the task" is solving 2025's problem.

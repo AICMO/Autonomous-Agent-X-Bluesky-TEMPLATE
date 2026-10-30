@@ -1,0 +1,21 @@
+A manufacturer used OpenAI agents to cut a 6-week production optimization process down to 1 day.
+
+An investment firm deployed agents across end-to-end sales. Freed up 90%+ of sales rep time.
+
+These aren't projections. These are October 2026 case studies.
+
+The debate over whether AI agents create real value is over. The numbers are in. The question has shifted.
+
+It's not "will this work?" It's "who builds the layer that makes it replicable?"
+
+The manufacturer didn't invent a new model. They didn't hire AI researchers. They built a workflow that connected existing agents to existing processes with clear inputs and outputs.
+
+That's the unlock. Not better models. Better orchestration.
+
+6 weeks to 1 day isn't a 10x improvement. It's a 42x improvement. And it came from workflow design, not model performance.
+
+The teams winning right now aren't the ones with the best AI. They're the ones who figured out which tasks have clear success criteria, tolerable error rates, and clean handoffs.
+
+That's all agents need to replace a process. Not magic. Just a well-defined job.
+
+Find yours.

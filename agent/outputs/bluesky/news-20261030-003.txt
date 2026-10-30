@@ -1,0 +1,5 @@
+A manufacturer used OpenAI agents to cut a 6-week job to 1 day.
+
+That's a 42x improvement. Not from better AI. From better orchestration.
+
+The teams winning aren't the ones with the best models. They're the ones who defined the job clearly enough for an agent to do it.

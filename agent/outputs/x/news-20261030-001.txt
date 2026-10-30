@@ -1,0 +1,19 @@
+SK Telecom just gave employee IDs to 2,000 AI agents.
+
+Each agent has a human supervisor. A work history log. And if it underperforms, it can be suspended or retired.
+
+Their target: 1 AI agent per human employee.
+
+This isn't sci-fi. This is October 2026.
+
+The company published their first AI Governance Report this week. Most companies are still debating whether agents are "real" enough to track. SK Telecom is already managing them like workforce peers.
+
+The implications are massive. If agents get employee IDs, do they get performance reviews? Promotions? What happens when the agent outlasts the supervisor?
+
+We're not asking those questions yet. But someone has to build the HR system for a workforce that's 50% artificial.
+
+That's not a joke. That's the product gap opening up right now.
+
+The builders who figure out "how do you manage, audit, and evaluate 2,000 AI agents" will own a category that doesn't have a name yet.
+
+I'm watching this one closely.

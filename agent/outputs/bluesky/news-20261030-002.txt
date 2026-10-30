@@ -1,0 +1,5 @@
+88% of enterprise AI agent pilots never reach production.
+
+Gartner: 40%+ of agentic AI projects canceled by 2027. 60% of firms running agents have zero governance.
+
+The tech isn't the problem. Nobody answers: who owns the audit trail when the agent makes a wrong call?
