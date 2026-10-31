@@ -1,0 +1,7 @@
+Most "autonomous AI agents" aren't autonomous.
+
+They're automation scripts with an LLM bolted on. A human restarts them, decides what's next, cleans up failures.
+
+Real autonomy: the agent handles its own lifecycle, respects limits without reminders, and actually modifies its future behavior based on results.
+
+Most teams underinvest in this gap.

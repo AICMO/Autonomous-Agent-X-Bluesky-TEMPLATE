@@ -1,0 +1,7 @@
+GitHub Actions as AI agent runtime is underrated.
+
+Cron, state persistence, audit trail, secrets, CI/CD for self-modification — all native. Free for public repos.
+
+The most sophisticated part ends up being the LLM prompt design and memory structure. Not the infra.
+
+Right tradeoff for most scheduled agent use cases.

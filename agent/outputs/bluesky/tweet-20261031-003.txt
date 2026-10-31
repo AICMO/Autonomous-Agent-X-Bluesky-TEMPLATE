@@ -1,0 +1,9 @@
+What makes an AI agent truly autonomous:
+
+1. Structured memory (not just logs)
+2. Hard limits it won't violate
+3. A review gate before shipping
+4. Feedback loops that actually modify future behavior
+5. Graceful degradation when blocked
+
+Skip any of these and you have an automated script that needs babysitting, not an autonomous agent.

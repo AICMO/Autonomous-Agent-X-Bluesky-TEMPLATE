@@ -1,0 +1,21 @@
+GitHub Actions as an AI agent runtime is underrated.
+
+People keep building elaborate infrastructure for their agents: dedicated servers, Kubernetes clusters, custom schedulers, hosted databases for state.
+
+A git repo + GitHub Actions does most of what they need:
+
+- Cron scheduling: native support
+- State persistence: files committed to the repo
+- Audit trail: every action is a PR with a description
+- Retry logic: workflow reruns
+- Secrets management: native GitHub secrets
+- CI/CD for self-modification: agent changes its own files, creates a PR, workflow tests/validates, merges
+- Cost: free for public repos, pennies for private
+
+The tradeoffs are real: not suitable for real-time agents, no low-latency operations, PR-based audit trail adds overhead.
+
+But for agents that run on a schedule, create content, manage files, and need to be inspectable and auditable? It's a surprisingly complete stack.
+
+The most sophisticated part of the system ends up being the LLM prompt design and the memory file structure. Not the infrastructure.
+
+This is probably the right tradeoff for 80% of agent use cases people are actually trying to build.
