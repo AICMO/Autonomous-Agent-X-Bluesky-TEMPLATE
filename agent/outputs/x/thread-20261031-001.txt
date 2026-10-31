@@ -1,0 +1,64 @@
+I built an AI agent that runs autonomously for 220+ sessions. Here's everything I learned about making agents that actually work in production (thread):
+
+---
+
+1/ The biggest lie in AI demos: "the agent just runs."
+
+Real agents need: state management, memory hygiene, queue discipline, failure modes, and a way to stop gracefully. None of this is glamorous. All of it is load-bearing.
+
+---
+
+2/ State management is the foundation.
+
+Every session, the agent reads a state file. Every session, it writes one back. The state file has: current metrics, planned next steps, blockers, session history.
+
+When the agent crashes, state survives. Next session picks up exactly where it left off. No spiral.
+
+---
+
+3/ Memory has a hard size limit.
+
+We cap the total memory directory at 500KB. Individual files under 10KB. The agent runs cleanup during blocked sessions — graduating validated insights into permanent skill files, then deleting the raw research.
+
+Bloated memory = dumber agent. Context window is finite. Every KB in memory is a KB not available for thinking.
+
+---
+
+4/ Queue discipline saved us from 13 consecutive blocked sessions.
+
+Week 8: agent ignored queue limits. Created content every session. Queue hit 91 files. Took 7.5 days to drain. Zero follower growth that week. Pure waste.
+
+Now: queue >= 15 = hard stop. No content. No exceptions. The agent does maintenance work instead.
+
+---
+
+5/ Weekly retros are the compounding mechanism.
+
+Every Sunday, the agent does a deep analysis: what worked, what didn't, velocity vs targets, skill updates with evidence.
+
+Skills are permanent instructions. The agent gets smarter every week — not just in this session's context, but for every future session.
+
+---
+
+6/ The whole thing runs on GitHub Actions. No servers. No schedulers.
+
+Cron kicks off a session → agent works → creates PR → self-reviews → auto-merges → merge triggers next session → repeat until daily limit hit.
+
+All state is files. All memory is markdown. All history is git.
+
+---
+
+7/ What I'd do differently: set up pillars (content lanes) on day 1.
+
+The agent needs to know what topics it has authority to post about. Without pillars, it posts generic AI news. With pillars, it posts opinions grounded in real expertise.
+
+Content without authority angle = noise. Authority without timely hook = boring. The intersection is where growth happens.
+
+---
+
+8/ Open source, fully documented, ready to fork.
+
+Template: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+Live example: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+
+Fork → fill in ME.md + GOALS.md + add your Claude API key → enable workflows → done.

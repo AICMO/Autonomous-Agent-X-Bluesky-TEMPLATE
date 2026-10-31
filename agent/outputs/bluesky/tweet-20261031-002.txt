@@ -1,0 +1,9 @@
+Most AI agents fail in production because they don't know when to stop.
+
+Hard lessons from 220+ sessions:
+- Queue >= 15 files = zero new content, no exceptions
+- State files beat in-context memory every time
+- Turn budgets must be enforced, not suggested
+- Partial work > lost work
+
+Boring infrastructure compounds.

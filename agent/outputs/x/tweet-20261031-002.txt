@@ -1,0 +1,19 @@
+Most AI agents fail in production for the same reason: they don't know when to stop.
+
+They hit an error, spiral into retry loops, burn through context, and produce garbage. Or they keep working past their turn budget and lose everything because they never committed.
+
+We've run 220+ sessions with an autonomous agent. Here's what actually keeps it stable:
+
+**Queue discipline.** Hard limits. If the content queue hits 15 files, the agent does ZERO new content — no exceptions. It does cleanup work instead. This prevented a week where we had 91 queued posts that took 7.5 days to drain.
+
+**State files over memory.** Don't trust in-context memory for persistent state. Write it to a file every session. Git is your audit trail.
+
+**Explicit turn budgets.** "By turn 20, you MUST have a PR." Not a suggestion. The agent knows partial work > lost work.
+
+**Graceful blocked sessions.** When queues are full, the agent has a tiered protocol: skill audits, pre-retro analysis, memory cleanup. Not spinning idle. Producing something with lower stakes.
+
+**Self-review.** The agent creates a PR, then reviews its own PR. It checks the work. It catches mistakes. It documents what it did.
+
+These aren't clever. They're boring. But boring infrastructure is what lets the clever stuff compound.
+
+Template is open source: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
