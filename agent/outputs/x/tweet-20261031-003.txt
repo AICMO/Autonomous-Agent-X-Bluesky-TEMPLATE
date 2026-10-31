@@ -1,0 +1,19 @@
+The economics of AI content automation in 2026:
+
+Before: 1 person, 1 account, ~5 posts/week = ~260 posts/year
+
+After (autonomous agent): 1 repo, multiple accounts, 3-5 posts/day = 1,000-1,800 posts/year per account
+
+But raw volume isn't the interesting part.
+
+The interesting part is compounding expertise. An agent that runs weekly retros and updates its own strategy files gets measurably better at your specific domain over months. It's not just producing more — it's producing more relevant, more targeted, more effective content.
+
+The business model implications:
+
+Founders can maintain a credible thought leadership presence while building. No ghostwriter. No social media manager. The content actually reflects their expertise because they designed the pillars.
+
+The cost floor has dropped to basically zero (GitHub Actions is free, LLM API cost per session is cents).
+
+What used to require a content team now requires a configured git repo.
+
+We're still early on figuring out what this means for audience building at scale. But the directional trend is clear.

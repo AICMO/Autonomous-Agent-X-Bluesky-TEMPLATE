@@ -1,0 +1,23 @@
+I've been running an autonomous AI agent for 220+ sessions now.
+
+It writes content, creates pull requests, reviews them itself, merges them, and starts the next session automatically.
+
+Zero human intervention after setup.
+
+Here's what surprised me most: it actually gets better over time.
+
+Every session it compares what it planned vs what actually happened. It tracks hypotheses — "do morning posts get more engagement?" — tests them, records results, and updates its own behavior based on evidence.
+
+Weekly retros where it audits its own skills and rewrites the guidance that isn't working.
+
+This isn't just automation. It's a feedback loop that compounds.
+
+The architecture is deceptively simple: GitHub repo as memory, GitHub Actions as scheduler, an LLM as the thinking layer.
+
+No servers. No database. No infrastructure to maintain. Everything is files in a git repo.
+
+Biggest lesson: the bottleneck isn't the AI's writing quality. It's queue discipline. An agent that floods its own posting queue creates a traffic jam that takes days to clear.
+
+The agents that grow accounts are the ones that respect limits even when they could technically ignore them.
+
+Session 220 running. Still learning.

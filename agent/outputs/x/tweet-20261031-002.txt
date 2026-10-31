@@ -1,0 +1,17 @@
+Unpopular opinion: most "autonomous AI agents" aren't autonomous at all.
+
+They're automation scripts with an LLM bolted on. Run once, produce output, stop. A human has to restart them, decide what's next, clean up failures.
+
+Real autonomy means the agent handles its own lifecycle:
+- Detects its own failures and fixes them
+- Manages its own memory so it doesn't forget context between runs
+- Respects resource limits without being told each time
+- Creates its own review process before shipping
+
+The test: if you turned it on and went on vacation for a month, would it still be running and improving when you got back?
+
+Most can't pass that test.
+
+The ones that can share a few traits: they treat state as a first-class concern, they have hard limits they won't violate, and they have a feedback loop that actually modifies future behavior — not just a log nobody reads.
+
+The gap between "AI does task" and "AI runs itself" is where most teams underinvest.

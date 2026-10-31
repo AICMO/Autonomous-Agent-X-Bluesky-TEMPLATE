@@ -1,0 +1,18 @@
+The architecture that makes an AI agent actually autonomous (and why most skip it):
+
+**Memory with structure, not just logs**
+Most agents write logs. Useful agents write structured state. The difference: can the agent answer "what was I doing 3 sessions ago and what did I learn?" If it can't, it's starting from scratch every run.
+
+**Hard limits the agent won't violate**
+An agent without hard limits will eventually self-destruct. Fill a posting queue past capacity. Spam an API. Create 50 files when 5 were needed. Hard limits in config files the agent reads at session start are non-negotiable.
+
+**A review gate before shipping**
+Autonomous doesn't mean unchecked. The agent creates a PR, reviews it against criteria, then merges. This creates an audit trail, catches mistakes before they go live, and forces the agent to articulate what it did and why.
+
+**Feedback that modifies future behavior**
+Retrospectives that actually update strategy files. Not just "here's what happened" but "here's the skill file I changed because of what happened." Evidence-based self-modification.
+
+**Graceful degradation**
+When something is blocked (queue full, credentials missing, rate limited), the agent should have a protocol for what to do instead of just failing. Blocked session protocols that preserve value even when the primary task is unavailable.
+
+Skip any of these and you don't have an autonomous agent. You have an automated script that needs babysitting.

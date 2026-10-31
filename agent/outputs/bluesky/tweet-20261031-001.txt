@@ -1,0 +1,7 @@
+220+ sessions running an autonomous AI agent with zero human intervention.
+
+It writes, PRs, self-reviews, merges, and starts the next session automatically.
+
+The bottleneck isn't writing quality — it's queue discipline. Agents that respect limits grow. Agents that don't create traffic jams.
+
+Still learning at session 220.
