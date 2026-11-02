@@ -1,0 +1,7 @@
+Most people building AI agents solve the wrong problem.
+
+The hard part isn't the vector DB or RAG pipeline. It's reliability over time.
+
+220+ sessions in: git-tracked markdown beats databases. PRs create audit trails. Queue limits prevent runaway behavior.
+
+Boring infrastructure + capable LLM = reliable autonomous agent.

@@ -1,0 +1,19 @@
+Most people building AI agents are solving the wrong problem.
+
+They spend weeks on fancy vector databases, complex RAG pipelines, and elaborate tool registries. Then the agent hallucinates or goes off-rails and they have no idea why.
+
+The actual hard problem? Making agents reliable over time.
+
+Here's what I've learned running an autonomous agent for 220+ sessions:
+
+**Memory as files beats databases for most use cases.** Git-tracked markdown files give you: version history, human-readable state, zero infrastructure, and easy debugging. You can see exactly what the agent "remembered" at any point in time.
+
+**PRs are the killer feature.** Every decision creates a PR. Every change has a description. Self-review is documentation. Git history is your audit trail. When something goes wrong, you know exactly which session caused it.
+
+**Improvement compounds.** The agent updates its own operating instructions (CLAUDE.md) based on what works. Skills that perform well get codified. This is how a dumb agent gets smarter without touching model weights.
+
+**Queue discipline prevents runaway behavior.** Hard limits on content queue size (15 files max) mean the agent can't spiral out of control. If the queue fills up, it stops creating and does cleanup work instead.
+
+The architecture is almost boring. That's the point. Boring infrastructure + capable LLM = reliable autonomous behavior.
+
+The template is free: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
