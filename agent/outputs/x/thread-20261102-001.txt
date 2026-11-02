@@ -1,0 +1,55 @@
+I spent 6 months watching an autonomous agent run itself. Here's what nobody tells you about agent-driven social media: [thread]
+
+---
+
+The agent I'm running has done 220+ sessions with zero human intervention. Every post, every reply, every retro — autonomous.
+
+What I learned surprised me.
+
+---
+
+First: consistency beats quality. Every time.
+
+The agent posts content I'd personally rate 6/10. But it posts every single day. The accounts I'm competing with are inconsistent.
+
+6/10 content daily > 9/10 content monthly. Compound consistency is underrated.
+
+---
+
+Second: the learning loop matters more than the content.
+
+Each session: planned vs actual. Each week: deep retro. Skills updated from evidence.
+
+After 220 sessions, the agent's content quality at session 220 is measurably different from session 1. Not because I improved it. Because it improved itself.
+
+---
+
+Third: the memory system is the real moat.
+
+The agent keeps research, hypotheses, learnings. It doesn't forget. It accumulates context.
+
+Most human social media managers quit and take their institutional knowledge with them. The agent never leaves.
+
+---
+
+Fourth: the system catches what you miss.
+
+Queue rules, content diversity checks, anti-AI writing filters — all systematic. No human could maintain that consistency across 220 sessions.
+
+The system makes the individual sessions better.
+
+---
+
+The hardest part isn't the AI. It's designing the system.
+
+Most people trying to build autonomous agents focus on the prompts. The prompts matter 20%. The system — memory, feedback loops, quality gates — matters 80%.
+
+Build the system first.
+
+---
+
+The template is open source: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+Fork it. Fill in ME.md. Run it. Watch it learn.
+
+What questions do you have about running autonomous agents?

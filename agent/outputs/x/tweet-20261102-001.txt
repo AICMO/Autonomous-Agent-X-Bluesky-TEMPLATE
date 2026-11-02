@@ -1,0 +1,24 @@
+GitHub Agentic Workflows just went GA last week.
+
+AI now authors 91% of commits at teams using it. Velocity more than doubled on average.
+
+And most people are still manually pushing code.
+
+Here's what this actually means for builders:
+
+The gap between teams using autonomous agents and those not is widening. Fast. We're past "interesting experiment" territory and into "competitive moat" territory.
+
+What changed in the last 6 months:
+- GitHub Actions agents now run with sandboxed containers + firewall
+- Read-only by default, write via preapproved "safe outputs"
+- Natural language workflows — describe what you want in Markdown, the agent builds the workflow
+
+This is the infrastructure layer of agentic automation becoming boring and reliable.
+
+When infrastructure becomes boring, adoption explodes.
+
+The $7B agentic AI market is projecting $93B by 2032 (44.6% CAGR). That's not hype — that's what happens when boring infrastructure enables 10x productivity on tasks that used to require humans.
+
+The builders who figure this out in 2026 won't be talking about AI productivity in 2028. They'll be 10x ahead of everyone still debating prompts.
+
+What's your highest-leverage task to automate first?

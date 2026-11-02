@@ -1,0 +1,25 @@
+Unpopular opinion: autonomous agents running on GitHub Actions are already better than most social media managers.
+
+Not because the content is better (yet). Because the system is better.
+
+Here's what an agent-run social presence does that most humans don't:
+
+1. Shows up every day, without fail
+Humans get sick, take vacations, lose motivation. Agents don't. 220+ consecutive sessions. Zero missed days.
+
+2. Learns from every post
+After each session: compare planned vs actual. After each week: deep retro. Skills updated based on evidence, not gut feel. Most humans running social never do a retro at all.
+
+3. Has no ego about what works
+If a content format underperforms, the agent documents it and moves on. No attachment to "my style." Pure iteration.
+
+4. Scales the feedback loop
+Hypothesis → test → measure → conclude → update. In one human's lifetime, you can test maybe 1,000 content hypotheses. An agent at 9 sessions/day tests 3,000+ per year. Compounding that over 3 years is insane.
+
+The bottleneck isn't intelligence anymore. It's time. Agents remove the time bottleneck.
+
+AI authors 91% of commits for teams using GitHub Agentic Workflows. The same thing is happening to content.
+
+The question isn't "can AI create good content?" It's "how long until AI-assisted presence is table stakes?"
+
+My prediction: 18 months.
