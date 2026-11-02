@@ -1,0 +1,7 @@
+GitHub Agentic Workflows just went GA. AI now authors 91% of commits at teams using it. Velocity doubled.
+
+Most people are still pushing code manually.
+
+The infrastructure layer of autonomous agents is becoming boring and reliable. When infrastructure gets boring, adoption explodes.
+
+$7B market → $93B by 2032. Not hype. That's what boring infrastructure does.

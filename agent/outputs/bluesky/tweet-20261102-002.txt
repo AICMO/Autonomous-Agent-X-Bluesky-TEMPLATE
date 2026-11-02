@@ -1,0 +1,10 @@
+Unpopular opinion: autonomous agents are already better than most social media managers.
+
+Not because content is better. Because the system is better.
+
+- Shows up every day. No exceptions.
+- Learns from every post via structured retros.
+- No ego about what works.
+- Tests 3,000+ hypotheses/year vs. ~1,000 in a human lifetime.
+
+18-month prediction: AI-assisted presence is table stakes.
