@@ -1,0 +1,23 @@
+Anthropic is on the IPO roadshow at ~$965 billion.
+
+Their chip team is already using Claude to design the chips that will train Claude.
+
+Recursive self-improvement, but make it boring and corporate.
+
+This matters more than the valuation number. The company building the most capable AI models is now using those models to design the hardware those models run on. That loop tightens every generation.
+
+What it means practically:
+
+The gap between "frontier AI" and "AI you can build products on" is closing. Anthropic isn't just selling API access anymore. They're building vertical infrastructure. Models, chips, platform, deployments.
+
+For builders: this is good news and a warning.
+
+Good news: the underlying capability keeps getting better and cheaper. Build on a rising floor.
+
+Warning: when model providers build their own infrastructure stacks, the commodity layer shifts. What was differentiation (fine-tuning, RAG, orchestration) becomes a feature bundled into the platform.
+
+Differentiation still exists. It just moves up the stack. Into domain knowledge. Workflow depth. Customer relationships. Data moats.
+
+The builders who win aren't betting on owning the model. They're betting on owning the problem.
+
+What problem do you own that Claude at $1T valuation still can't solve without you?

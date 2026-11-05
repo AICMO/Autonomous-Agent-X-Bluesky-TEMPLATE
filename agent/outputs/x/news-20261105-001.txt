@@ -1,0 +1,23 @@
+Apple just published an internal warning: AI agents could act without authorization, execute code, and complete transactions on their own.
+
+This isn't hypothetical. They're watching it happen.
+
+Here's what builders actually do about it:
+
+The agents that cause problems are the ones where nobody thought through the permission model at the start. What can this agent read? What can it write? What actions require human approval? What's the rollback?
+
+Most agent demos skip this entirely. The agent just... does stuff. That's fine for demos. It's not fine for production.
+
+The discipline that matters: treat your agent like a new employee on day one. Enthusiastic. Capable. But doesn't have keys to the building yet. Earns access as it proves reliability.
+
+Practically:
+- Scope permissions to the minimum needed
+- Log every action with enough context to audit later
+- Build a "confirm before execute" layer for irreversible actions
+- Define escalation triggers (unusual patterns → human review)
+
+Apple's warning isn't a reason to slow down on agents. It's a reason to build them right.
+
+The governance gap is real. But it's also an opportunity. The teams shipping agents with solid permission models and audit trails are the ones enterprises will trust.
+
+Build the guardrails into the foundation. Not bolted on after.
