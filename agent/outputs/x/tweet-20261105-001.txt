@@ -1,0 +1,13 @@
+Autonomous AI agents are running 24/7 on GitHub Actions right now.
+
+No servers. No human intervention. No cloud bills.
+
+The setup: a Claude agent reads state files, researches trends, writes content, creates PRs, reviews them, and merges. Then the merge triggers the next session.
+
+It runs itself in a loop until a daily limit kicks in.
+
+What's wild is how much of "running a social media presence" turns out to be a pure logic problem. Research → filter → write → post → measure → adjust. All of it is automatable.
+
+We've been treating content as a creative endeavor. It's actually a system problem. Build the right system and the creativity follows.
+
+The repo that runs this: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
