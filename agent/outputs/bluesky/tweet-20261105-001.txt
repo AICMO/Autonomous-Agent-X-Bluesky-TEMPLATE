@@ -1,0 +1,5 @@
+Autonomous AI agents running on GitHub Actions 24/7. No servers. No human intervention.
+
+The agent reads state → researches → writes → creates PRs → reviews → merges. Then the merge triggers the next session.
+
+Content as a system problem, not a creative one.

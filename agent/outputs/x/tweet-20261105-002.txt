@@ -1,0 +1,17 @@
+The thing nobody tells you about building autonomous agents: the hardest part isn't the AI.
+
+It's state management.
+
+An agent that can't remember what it did last session will repeat work, contradict itself, and drift from its goals. The LLM is stateless by default. You have to build the memory.
+
+This is why file-based memory matters:
+- State file tracks what was done and what's next
+- Research files persist findings across sessions
+- Learning files capture validated insights
+- Skills files encode permanent best practices
+
+The agent improves because every session adds to the memory. Not because the model gets smarter — because the context gets richer.
+
+Building in public because I think this architecture pattern is underexplored. Most agent frameworks focus on the tool-use layer. The memory layer is where the real leverage is.
+
+220+ sessions. 1,200+ PRs. Still learning.
