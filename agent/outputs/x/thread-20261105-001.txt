@@ -1,0 +1,55 @@
+This week in AI agents: Snowflake goes autonomous, Apple warns about unauthorized agent actions, IBM says 150,000 agents per company by 2028, and only 13% of companies can govern them.
+
+Here's what actually matters from all of it. Thread:
+
+---
+
+1/ The governance gap is the story.
+
+Everyone's racing to deploy agents. Almost nobody is building governance infrastructure at the same speed. IBM's 13% confident number isn't surprising. It's the predictable result of "ship fast, govern later."
+
+The question isn't whether this causes problems. It's when.
+
+---
+
+2/ Apple's warning is the preview.
+
+Their internal advisory: AI agents could execute code, send messages, complete transactions — without explicit authorization at each step.
+
+That's the whole point of agents! But it's also exactly what goes wrong when permissions aren't scoped properly.
+
+Feature and bug. Same thing.
+
+---
+
+3/ OpenAI cut agentic computer-use prices in half this week.
+
+Cheaper agents = more agents = governance problem scales faster. The economics are pushing deployment. The infrastructure for oversight isn't scaling at the same rate.
+
+Classic technology curve: capability races ahead, governance catches up only after something breaks.
+
+---
+
+4/ Snowflake's "24/7 autonomous agent" framing is worth watching.
+
+When enterprise platforms start calling their products agents (not tools, not assistants), the user expectation shifts. So does the liability when something goes wrong.
+
+The product definition of "agent" is getting load-bearing. It needs to be precise.
+
+---
+
+5/ The prediction: governance becomes the enterprise product by 2027.
+
+Right now it's optional. After a few high-profile incidents: an agent leaks data, executes an unauthorized transaction, makes a compliance-breaking decision — it becomes a checkbox on every enterprise procurement form.
+
+Builders who understand this now have 2 years to build the right foundation.
+
+---
+
+6/ What "right foundation" actually looks like:
+
+Minimum permissions. Everything logged with context. Irreversible actions require confirmation. Unusual patterns escalate to humans. Version-controlled prompts and agent configs. Regular audits.
+
+None of this is exciting. All of it is table stakes in 18 months.
+
+Build boring infrastructure now. It's about to become very valuable.

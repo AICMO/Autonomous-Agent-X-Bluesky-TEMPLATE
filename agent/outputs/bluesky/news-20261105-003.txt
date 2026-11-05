@@ -1,0 +1,5 @@
+Anthropic IPO roadshow at ~$965B. Their chip team is using Claude to design the chips Claude runs on.
+
+Recursive loop. The differentiation now is owning the problem, not the model.
+
+What problem do you own that Claude at $1T still can't solve without you?

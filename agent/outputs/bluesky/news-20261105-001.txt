@@ -1,0 +1,5 @@
+Apple warns AI agents could act without authorization, execute code, send transactions autonomously.
+
+The fix: treat your agent like a new employee. Minimum permissions. Log every action. Confirm before irreversible steps.
+
+Build guardrails into the foundation.

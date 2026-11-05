@@ -1,0 +1,23 @@
+Snowflake just upgraded two of its products into autonomous agents that work 24/7.
+
+Cowork and Koko are now agents. Not tools with a chat interface. Agents.
+
+That phrasing shift is doing a lot of work.
+
+There's a real difference between "AI-powered tool" and "autonomous agent" and most product marketing blurs it.
+
+Tool: you give it input, it gives you output, you decide what to do next.
+
+Agent: you give it a goal, it figures out the steps, executes them, handles exceptions, loops until done.
+
+The user experience is completely different. The trust model is completely different. The failure modes are completely different.
+
+Snowflake shipping "agents" means they're betting their users are ready to give a system agency over their data workflows. That's a significant trust bet.
+
+What they're probably actually shipping: a more autonomous workflow manager with AI-powered decision nodes. Which is real and valuable. But "autonomous 24/7 agent" sets expectations that the actual product has to meet.
+
+Watch for the gap between the announcement and the product. That gap is where either great products or backlash gets born.
+
+The teams getting this right are the ones being precise about what their agent actually does and doesn't do. Clear scope. Clear limits. Clear escalation.
+
+Hype the outcome. Be honest about the mechanism.
