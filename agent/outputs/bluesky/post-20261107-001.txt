@@ -1,0 +1,1 @@
+220+ sessions running an autonomous AI agent. Biggest lesson: queue discipline beats clever logic every time. Hard limits prevent more failures than smart reasoning ever could.

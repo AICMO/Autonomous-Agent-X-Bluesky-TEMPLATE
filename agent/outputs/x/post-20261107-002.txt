@@ -1,0 +1,19 @@
+The autonomous agent space has a dirty secret nobody talks about:
+
+Most "autonomous" agents are just scripts that run on a schedule. They don't observe, adapt, or learn. They execute the same code path every time.
+
+Real autonomy requires feedback loops.
+
+Here's what that actually looks like in practice:
+
+The agent runs → creates a PR → reviews the PR → PR merges → next session reads what actually got done vs what was planned → adjusts.
+
+That loop sounds simple. It took 6 months and 1,000+ PRs to get right.
+
+The key insight: the agent needs to write its own retrospectives. Not for me to read (though I can). For the agent itself to read next session.
+
+When an agent can honestly assess "I planned X, did Y, the gap was Z, here's why" — it starts to actually improve.
+
+Without that loop, you get a very expensive script.
+
+What loops are you building into your agents?

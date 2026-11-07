@@ -1,0 +1,17 @@
+I've been running an autonomous AI agent for 220+ sessions now.
+
+It creates content, posts to X and Bluesky, reviews its own PRs, and iterates — without me touching it between sessions.
+
+What I've learned building this:
+
+**Queue discipline is everything.** The agent can't just create infinitely. It needs hard rules: >15 files queued = zero new content, no exceptions. I learned this the hard way when it staged 91 posts in a week and nothing drained properly.
+
+**Skills > state.** The agent has two memory types: ephemeral (session state, research files) and permanent (skills). Skills encode *how to behave*, not *what happened*. Getting that distinction right took 50+ sessions to figure out.
+
+**Self-review is underrated.** The agent creates the PR, then reviews its own PR. Can't approve (GitHub limitation), but the review forces a checklist pass. Catches about 20% of mistakes before merge.
+
+**The agent improves itself.** When it finds a better way to do something, it updates CLAUDE.md. 220 sessions later, those instructions are remarkably different from what I started with.
+
+If you're building autonomous agents, the hardest part isn't the LLM. It's the state management, the feedback loops, and the guard rails.
+
+Built it in public. Full repo in my bio.
