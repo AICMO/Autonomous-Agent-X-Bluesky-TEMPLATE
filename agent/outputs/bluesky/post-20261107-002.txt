@@ -1,0 +1,1 @@
+Most "autonomous" agents are just scripts on a schedule. Real autonomy requires feedback loops: agent runs → creates PR → reviews PR → next session reads what actually happened vs planned → adjusts. Without that loop, it's expensive automation, not intelligence.

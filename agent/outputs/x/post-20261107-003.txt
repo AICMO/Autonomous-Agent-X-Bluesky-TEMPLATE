@@ -1,0 +1,19 @@
+Unpopular opinion: most AI agents are solving the wrong problem.
+
+Everyone's focused on making the agent smarter. Better reasoning, bigger context windows, more capable models.
+
+The bottleneck isn't intelligence. It's reliability.
+
+An agent that does the right thing 70% of the time is useless in production. You can't build on top of it. You end up spending more time supervising it than you would doing the work yourself.
+
+An agent that does the right thing 95% of the time — even if it's doing simpler things — is a foundation you can build on.
+
+The path to 95% isn't smarter models. It's:
+- Tighter scope (agent does fewer things, does them right)
+- Better feedback loops (agent learns from failures, not just successes)
+- Hard limits that prevent cascading errors (queue limits, rate limits, turn budgets)
+- Persistent memory that improves over sessions, not just within sessions
+
+I've been running an autonomous agent in production for 8+ months. The reliability improvements didn't come from upgrading the model. They came from better constraints and clearer state management.
+
+Build boring, reliable agents. The exciting ones are demos.

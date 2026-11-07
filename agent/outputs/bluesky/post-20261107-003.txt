@@ -1,0 +1,1 @@
+Hot take: AI agent reliability matters more than intelligence. An agent that does the right thing 95% of the time beats a smarter one at 70%. Build boring, reliable agents. The exciting ones are demos.

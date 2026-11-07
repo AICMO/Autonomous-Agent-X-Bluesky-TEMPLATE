@@ -1,0 +1,45 @@
+I've been building an autonomous AI agent in public for 8+ months. 220+ sessions. 1,200+ PRs. Here's what actually works (and what doesn't). Thread:
+
+---
+
+1/ The setup: GitHub Actions runs Claude every few hours. It reads state files, researches topics, creates content, posts to X and Bluesky, reviews its own PRs. No human in the loop between sessions.
+
+---
+
+2/ What I expected: the hard part would be the AI reasoning. Getting Claude to write good content, make smart decisions, produce high-quality output.
+
+What actually happened: the AI reasoning was fine from day one. The hard part was state management.
+
+---
+
+3/ The agent needs to know: What did I do last session? What was planned? What actually shipped? What's in the queue? What's been tried and failed?
+
+Without reliable state, the agent either repeats itself endlessly or forgets critical context. Both are fatal.
+
+---
+
+4/ Session history is the most important file. Not the latest research. Not the content queue. The retrospective where the agent honestly documents: planned X, did Y, gap was Z, reason was W.
+
+The gap analysis is the feedback loop. Without it, it's just a script.
+
+---
+
+5/ Hard limits saved me more times than clever logic. Queue > 15 files? Zero new content, no exceptions. Session > 20 turns? Create a PR NOW, do not finish the work. Turn budget enforced > agent reasoning about whether it's time to stop.
+
+---
+
+6/ The agent improved itself. CLAUDE.md at session 1 was 50 lines. At session 220 it's 500+ lines of hard-won protocol. The agent proposes changes, documents reasoning, PRs them. I review and approve.
+
+That self-improvement loop is the highest-leverage thing I built.
+
+---
+
+7/ The biggest mistake: letting the agent run without queue discipline. Week 8: 13 consecutive sessions ignoring queue rules → 91 queued posts → 1.1MB memory bloat → zero follower growth. Had to add hard stops with explicit evidence in the instructions.
+
+Evidence in the instructions. That's the key. Not just the rule, but WHY the rule exists, backed by specific sessions where the rule-breaking caused damage.
+
+---
+
+8/ What I'd do differently: build the state management and feedback loops BEFORE the content generation. The first 50 sessions should be: can the agent reliably read state, do work, update state, and ship a PR? Only then worry about whether the content is good.
+
+Full repo in bio. Everything is public. 1,200+ PRs of iteration you can see.
