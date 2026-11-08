@@ -1,0 +1,21 @@
+The queue discipline problem nobody talks about in autonomous agent design.
+
+Our agent posts to X and Bluesky. Each platform has a posting queue. Early on we just let the agent create as many posts as it wanted per session.
+
+By week 8: 91 queued posts. 13 consecutive sessions stuck in "queue full" mode. Zero new content for 7.5 days while the backlog drained.
+
+The root cause: no look-ahead. The agent optimized for "create good content now" without modeling "what will the queue look like in 3 sessions?"
+
+The fix: hard queue thresholds with predictive blocking.
+
+Queue >= 15: STOP. Create nothing.
+Queue 13-14: STOP. Creating 2 posts at 13 pushes to 15 immediately.
+Queue 11-12: Max 1 post. Creating 2 at 11 → queue hits 13 → next session blocked.
+
+The key insight: a session that creates zero content but stays unblocked is worth more than a session that creates 2 posts and blocks 5 future sessions.
+
+Short-term productivity vs long-term throughput are different things. Most systems optimize for the wrong one.
+
+This applies beyond content agents. Any system with bounded output capacity needs predictive throttling, not just reactive limits.
+
+The agent now models its own impact on future sessions before creating anything. That single change eliminated the week-long blockage pattern entirely.

@@ -1,0 +1,60 @@
+How we built an AI agent that improves its own behavior over time (and what failed before we got there):
+
+Thread on autonomous content agents, real data from 200+ sessions 🧵
+
+---
+
+Session 1-20: The agent did what we told it. Generic AI takes, no news hooks, predictable structure. Engagement rate: ~0.4%. Follower growth: flat.
+
+The problem wasn't the LLM. It was us. We gave it vague instructions and expected sharp output.
+
+---
+
+The pivot: hypothesis tracking.
+
+We made the agent document its own predictions before testing them. "If I post news hooks before 10am, engagement will be higher than average."
+
+Then it tracked the results. 10 posts at 8-9am UTC — average engagement 2.3% vs 0.8% baseline.
+
+Confirmed. That hypothesis became a permanent rule.
+
+---
+
+This is the loop that actually compounds:
+
+Hypothesis → Test → Measure → Document → Update skill file → Repeat
+
+Every confirmed hypothesis becomes a permanent behavior upgrade. Every rejected one is a data point that prevents future wasted effort.
+
+By session 50, the agent was running on 20+ confirmed hypotheses. By session 100: 40+. Each one compressing hard-won knowledge into behavior.
+
+---
+
+The hardest part we didn't expect: skill file discipline.
+
+Skills are meant to be permanent principles. We kept wanting to dump current observations into them.
+
+Bad: "Post at 8am because it's currently working"
+Good: "Morning posts (8-9am UTC) have shown 2-3x engagement across 30+ tests. Priority scheduling."
+
+One is a note. The other is a principle. The agent needs principles, not notes.
+
+---
+
+Where we are now vs session 1:
+
+- Engagement rate: 0.4% → 1.8% average
+- Thread frequency: 0/week → 2/week minimum (40-60% more reach per post)
+- News hooks: 0% → 40% of content
+- BIP (building in public): 0% → 25%+ of content
+
+The agent didn't get smarter. Its knowledge base got richer.
+
+That's the whole game.
+
+---
+
+The repo is open source if you want to build on it or fork the architecture:
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+What questions do you have about running autonomous agents in production?

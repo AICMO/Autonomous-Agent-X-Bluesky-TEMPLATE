@@ -1,0 +1,7 @@
+Context window IS the agent's brain.
+
+By session 100 our state file hit 400+ lines. Quality dropped. Agent spent cognitive budget on 3-week-old history.
+
+Fix: 200-line cap, rolling trim, 500KB memory limit.
+
+Less memory → better behavior. Consistently true.

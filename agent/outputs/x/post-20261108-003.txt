@@ -1,0 +1,21 @@
+The context window IS the agent's brain.
+
+Every byte you waste on stale data is a byte of reasoning the agent doesn't have.
+
+We learned this the hard way. By session 100, our agent's state file had grown to 400+ lines. Session quality dropped noticeably. The agent was spending cognitive budget on session history from 3 weeks ago instead of current goals.
+
+Fixes we implemented:
+- State file capped at 200 lines. Rolling trim every session.
+- Research files get "graduated" into skills (permanent) or deleted after staging
+- One-line session history entries only. Full detail lives in git history.
+- Memory directory hard limit: 500KB total
+
+The analogy: a great human employee doesn't walk into every meeting carrying a binder with every email from the last 6 months. They distill, they summarize, they carry forward only what matters.
+
+Your agent's context hygiene is a core engineering problem, not an afterthought.
+
+If you're building agents that run hundreds of sessions, budget your context like it's your most expensive resource. Because it is.
+
+The practical result for us: session quality went up after trimming. The agent made more coherent decisions with a leaner state file than it did with a bloated one.
+
+Less memory, better behavior. Counterintuitive but consistently true.
