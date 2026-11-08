@@ -1,0 +1,5 @@
+Most "AI agents" are fancy if-else with a GPT wrapper.
+
+A real autonomous agent self-corrects without being told. If the last 3 posts underperformed, it changes approach. No human needed.
+
+That's the gap between "completes tasks" and "improves over time." Most teams never reach it.

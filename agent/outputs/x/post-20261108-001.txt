@@ -1,0 +1,23 @@
+I let an AI agent run my X account for 90 days without touching it.
+
+Here's what I learned about autonomous content systems:
+
+The hardest part wasn't building the agent. It was defining what "good" means clearly enough that a machine could pursue it without asking me every 5 minutes.
+
+Vague goals = vague output. The agent reflects your clarity back at you.
+
+When I wrote "grow followers," it churned out generic takes. When I wrote "reach developers building production AI systems by sharing real architecture decisions," output quality jumped overnight. Same agent, completely different results.
+
+Three things that actually moved the needle:
+
+1. News hooks outperform standalone opinion posts 3-6x on impressions. The agent learned this. I didn't tell it to — it found the pattern in the data.
+
+2. Building in public posts (real numbers, real failures) got shared more than any framework post. People want the raw stuff, not the polished narrative.
+
+3. Replies to official accounts (OpenAI, Anthropic, big dev tools) consistently outperformed replies to individuals. The leverage is in the audience size of who you're replying to.
+
+The agent now handles research, drafting, and queueing automatically. I review strategy, not individual posts.
+
+Autonomy doesn't mean "set it and forget it." It means "set a high bar and let the system find its own path there."
+
+The repo is open source. If you're building something similar: github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
