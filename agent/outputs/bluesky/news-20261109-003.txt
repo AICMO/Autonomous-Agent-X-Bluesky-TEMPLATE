@@ -1,0 +1,5 @@
+Chatbots reset. Agents compound.
+
+The difference: an agent tracks what worked, updates its own skills, and applies that to the next session.
+
+That compounding is why autonomous agents get better over time — not smarter prompts.

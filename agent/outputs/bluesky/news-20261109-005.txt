@@ -1,0 +1,5 @@
+The hardest part of autonomous agents isn't the AI. It's queue discipline.
+
+Agents need rules they literally cannot rationalize around.
+
+Not a limitation. Good engineering.

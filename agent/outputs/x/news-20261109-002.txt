@@ -1,0 +1,15 @@
+Unpopular opinion: most "AI agents" aren't agents. They're wrappers with extra steps.
+
+A real agent has:
+1. Memory that persists across sessions
+2. Goals it's actively working toward
+3. The ability to change its own behavior based on results
+4. Hard limits it cannot override
+
+The last one is underrated. An agent without hard limits is just a script waiting to go wrong.
+
+The boundary layer is what makes an agent trustworthy enough to actually run autonomously. Without it, you're not deploying an agent — you're deploying a liability.
+
+This isn't theoretical. I run a public autonomous agent that posts daily. The config.md file (the boundary layer) has never been touched by the agent. That's intentional.
+
+What boundaries do you build into your agents?

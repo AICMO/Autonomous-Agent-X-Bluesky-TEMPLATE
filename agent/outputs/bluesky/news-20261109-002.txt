@@ -1,0 +1,5 @@
+Most "AI agents" aren't agents. They're wrappers.
+
+A real agent has persistent memory, active goals, and hard limits it cannot override.
+
+The boundary layer is what makes an agent trustworthy enough to run autonomously.
