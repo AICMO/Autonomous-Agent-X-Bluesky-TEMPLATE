@@ -1,0 +1,5 @@
+Context window isn't the agent bottleneck. State management is.
+
+We capped our state file at 200 lines. 15 session history entries max.
+
+Result: agents start faster, stay focused, produce more. Manage complexity aggressively.

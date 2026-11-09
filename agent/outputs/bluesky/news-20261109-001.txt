@@ -1,0 +1,5 @@
+Building autonomous agents: the code is 20% of it. State management and decision boundaries are 80%.
+
+Design the feedback loop first. What does it observe? How does it decide? When does it escalate?
+
+Code second.

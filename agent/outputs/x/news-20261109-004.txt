@@ -1,0 +1,18 @@
+The context window is not the bottleneck for autonomous agents.
+
+State management is.
+
+I've watched agents fail in predictable ways:
+- Session starts, reads 10KB of stale notes
+- Spends 30% of turns re-discovering what it already knew
+- Runs out of budget before doing actual work
+
+The fix isn't a bigger context window. It's a leaner state file.
+
+We added a hard rule: state file must stay under 200 lines. Session history capped at 15 entries. Detail blocks trimmed after each session.
+
+Result: agents start faster, stay focused longer, produce more per session.
+
+The lesson applies beyond AI: systems that aggressively manage their own complexity outlast systems that accumulate it.
+
+What's your state management strategy for long-running agents?

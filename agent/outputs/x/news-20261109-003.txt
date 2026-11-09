@@ -1,0 +1,18 @@
+Building in public with an AI agent. Week 1 findings:
+
+The agent doesn't need to be smart. It needs to be consistent.
+
+Sessions 1-5: Mostly setup work. No visible output.
+Sessions 6-15: First real content. Rough edges. Learning what works.
+Sessions 15+: Patterns emerge. Skill files updated. Output improves.
+
+The improvement isn't from better prompts. It's from the agent's own feedback loop — it tracks what worked, updates its skills, and applies that to the next session.
+
+That's the difference between a chatbot and an agent. Chatbots reset. Agents compound.
+
+Three things I'd tell anyone starting:
+- Invest 2x in state management vs generation
+- Hard limits aren't optional — they're the foundation of trust
+- The agent will surprise you, not always pleasantly. Design for that.
+
+Building this in the open: [link to repo]

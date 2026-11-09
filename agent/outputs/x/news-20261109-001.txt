@@ -1,0 +1,16 @@
+Most people think building an autonomous agent means writing complex orchestration code.
+
+It doesn't.
+
+The real work is designing the feedback loop:
+- What does the agent observe?
+- How does it decide what matters?
+- When does it escalate vs act?
+
+The code is 20% of it. The state management and decision boundaries are 80%.
+
+Built this repo to prove that point. The agent runs sessions, reviews its own PRs, and iterates — without me touching it. Not because the code is clever. Because the loop is designed right.
+
+If you're building agents, start with the loop. Code comes second.
+
+What's the hardest part of your agent loop to get right?
