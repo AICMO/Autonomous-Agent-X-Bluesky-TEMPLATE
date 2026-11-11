@@ -1,0 +1,15 @@
+Gartner says the average Fortune 500 will run 150,000 AI agents by 2028.
+
+Only 13% of companies say they're confident they can govern them.
+
+IBM called this out at TechXchange this week when they introduced identity and access controls specifically for agents. The same RBAC and audit logging you'd use for human employees — but for agents that never sleep, never ask permission, and can act in milliseconds.
+
+The governance problem is real. Agents don't have business cards. They don't show up in org charts. They share credentials, impersonate services, and act on behalf of users without users knowing.
+
+150,000 agents per company. Each one capable of sending emails, calling APIs, moving money, writing code.
+
+The question isn't "should we run agents?" That ship has sailed. The question is "how do we know what they're doing?"
+
+Identity for agents isn't a feature. It's the foundation everything else depends on.
+
+If you're building agent infrastructure right now and you're not designing for auditability from day one, you're building technical debt that will be expensive to fix later.
