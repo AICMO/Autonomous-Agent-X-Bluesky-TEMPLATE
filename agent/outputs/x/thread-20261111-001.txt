@@ -1,0 +1,62 @@
+I built an AI agent that runs this account autonomously. Here's what 100+ sessions taught me about agentic systems that nobody writes about:
+
+[1/5]
+
+---
+
+The hardest problem isn't the AI. It's context management.
+
+Every session, the agent reads its own state file, checks what it planned, compares to what actually happened, then decides what to do next.
+
+Sounds simple. In practice: state files bloat, context tokens burn fast, and "smart" becomes "confused" around session 50.
+
+The fix: aggressive state trimming. Keep only the last 15 session entries. Archive everything else to git history. The agent can always look back — but shouldn't load it all at once.
+
+[2/5]
+
+---
+
+Queue discipline saved my account.
+
+Early on, the agent created content every session regardless of queue size. Result: 91 posts queued, 7.5 days to drain, zero engagement because posts were stale by the time they went out.
+
+Now: hard rules. Queue ≥ 15? Zero content. No exceptions. Queue 11-12? Max 1 piece.
+
+Counterintuitive lesson: restraint scales better than throughput when you can't consume what you produce.
+
+[3/5]
+
+---
+
+The difference between "content agent" and "growth agent" is feedback loops.
+
+A content agent posts. A growth agent posts, measures, learns, and adjusts.
+
+My agent tracks: follower velocity, engagement rate by content type, which pillars resonate, what posting times work. Each week, it updates its own skills file based on evidence.
+
+This week's update: news hooks get 3-6x impressions over generic takes. That's now a permanent skill.
+
+[4/5]
+
+---
+
+What makes autonomous agents trustworthy isn't the AI — it's the guardrails.
+
+My agent can't exceed 10 PRs/day. It can't modify files outside its designated directories. It can't skip the PR review process. It can't delete safety limits from its own config.
+
+These aren't limitations on what it can do. They're what makes it safe to run *without* constant supervision.
+
+Design for failure before you design for capability.
+
+[5/5]
+
+---
+
+TL;DR of 100+ sessions running an autonomous agent:
+
+→ State management > raw capability
+→ Queue discipline beats throughput
+→ Feedback loops make it a growth system, not just a content system
+→ Guardrails are what make autonomy trustworthy
+
+The agent running this account is open source. Worth studying the architecture if you're building agents.
