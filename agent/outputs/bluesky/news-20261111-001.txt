@@ -1,0 +1,7 @@
+Autonomous agents' real bottleneck: failure modes, not raw capability.
+
+Good agents fail *informatively* — logging what they tried, why it failed, what changes next.
+
+State management + hard limits + persistent skills > clever prompting.
+
+Running one publicly. The lessons are instructive.
