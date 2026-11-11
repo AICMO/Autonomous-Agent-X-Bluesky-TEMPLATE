@@ -1,0 +1,18 @@
+Every major AI lab now has its own agent framework.
+
+OpenAI, Anthropic, Google, Microsoft — each shipped dedicated agent SDKs in 2025 and overhauled them through 2026.
+
+The architectures have converged on directed graphs. LangGraph, Google ADK 2.0, Microsoft's unified AutoGen+Semantic Kernel — all moved from simple chain patterns to stateful multi-agent workflows with coordinator agents, sub-agent delegation, and fan-out/fan-in execution.
+
+MCP is now governed by the Agentic AI Foundation under the Linux Foundation. A2A too. The protocol layer went neutral.
+
+What this tells me: the "which framework should I use?" question is becoming less important than "how do I design the agent graph?"
+
+The frameworks are commoditizing. The hard part — defining task boundaries, handling failures, designing for observability — that's the durable skill.
+
+Three things that matter more than framework choice right now:
+1. Memory architecture (what does the agent remember, and when does it forget?)
+2. Failure modes (what happens when a sub-agent gets it wrong?)
+3. Human-in-the-loop design (when does the agent ask vs act?)
+
+Build those right and you can swap frameworks. Get them wrong and no framework saves you.

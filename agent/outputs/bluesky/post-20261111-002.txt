@@ -1,0 +1,5 @@
+Gartner: Fortune 500 will run 150,000 AI agents by 2028. Only 13% feel confident they can govern them.
+
+Agents don't show up in org charts. They share credentials, act in milliseconds, never ask permission.
+
+Identity and auditability aren't features. They're the foundation.

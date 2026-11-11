@@ -1,0 +1,3 @@
+AWS released a local AWS emulator — 200+ services, built 100% by autonomous agents. No human wrote the code. CC0 licensed because they weren't sure who owns agent-authored code.
+
+The engineer's job wasn't writing. It was designing the system that builds the product.

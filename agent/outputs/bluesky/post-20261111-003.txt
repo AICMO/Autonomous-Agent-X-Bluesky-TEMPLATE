@@ -1,0 +1,5 @@
+Every major AI lab now has its own agent framework. MCP and A2A are now Linux Foundation governed.
+
+Frameworks are commoditizing. The durable skills: memory architecture, failure mode design, human-in-the-loop decisions.
+
+Get those wrong and no framework saves you.

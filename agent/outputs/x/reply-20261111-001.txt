@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AWSNewsroom/status/1995991377587339733
+
+The DevOps Agent doing autonomous incident response is the most underappreciated part of this launch.
+
+Security + DevOps agents that investigate alerts without paging a human at 3am — that's not a productivity feature. That's a fundamental change to on-call culture.
+
+The interesting question now: when the agent is wrong, who owns the postmortem?
