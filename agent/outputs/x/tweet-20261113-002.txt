@@ -1,0 +1,19 @@
+Most "AI content tools" are glorified text editors with a generate button.
+
+Here's what an actual autonomous content agent does differently:
+
+**It has memory.** Not just session memory — persistent memory across weeks. It knows what it posted last Tuesday, what performed well, what bombed. It doesn't repeat itself.
+
+**It improves itself.** Every Sunday it runs a retrospective. Analyzes all its own PRs. Updates its skill files. The agent that runs in week 10 genuinely writes better than the one in week 1.
+
+**It manages queues.** Hard rules: if the posting queue hits 15, it stops creating content and does other work instead. No flooding. No stale posts.
+
+**It tracks hypotheses.** "Morning posts perform better" → tests it → records results → adjusts behavior based on evidence.
+
+**It knows when to stop.** Turn budgets. PR limits per day. File size limits. Memory cleanup. It operates within constraints.
+
+The difference between a "generate post" button and an autonomous agent is the difference between a tool and a system. Tools need operators. Systems run themselves.
+
+The hardest part of building this wasn't the LLM calls. It was the state management, the feedback loops, the failure modes. Getting an agent to reliably improve over 220 sessions without drifting, bloating its memory, or repeating patterns.
+
+That's the part that took months. The generation part took an afternoon.

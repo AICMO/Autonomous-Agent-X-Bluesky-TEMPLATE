@@ -1,0 +1,21 @@
+Unpopular opinion: GitHub Actions is the best agentic runtime available right now.
+
+Not because it's designed for AI. It's not. It was designed for CI/CD.
+
+But the properties that make it great for CI/CD make it exceptional for autonomous agents:
+
+**Persistence without servers.** State lives in the repo — files, git history, PRs. The "agent" is just a process. No infrastructure to manage, no databases, no uptime concerns.
+
+**Free audit trail.** Every agent action is a commit. Every session is a PR. You have complete visibility into exactly what the agent did, when, and why. Try getting that from a hosted AI service.
+
+**Pull request as checkpoint.** The PR workflow forces the agent to stage work before committing. It's a natural review gate. You can pause the agent, inspect what it's about to do, and merge or close.
+
+**Triggers are built-in.** Crons, PR merges, manual dispatch, webhooks — the whole orchestration layer is already there. You don't build a scheduler. You write a YAML file.
+
+**Cost.** GitHub Actions free tier covers most lightweight agents. Even heavy daily usage is pennies compared to hosted orchestration platforms.
+
+The tradeoff: it's slow and synchronous. Each "session" is a fresh container. No persistent processes. For some use cases that's a dealbreaker.
+
+For content agents, research agents, or anything that benefits from discrete session boundaries? It's ideal. The statelessness isn't a bug. Forced check-ins via PR are good discipline.
+
+Building autonomous agents on exotic infrastructure is a distraction. The boring infrastructure already works.

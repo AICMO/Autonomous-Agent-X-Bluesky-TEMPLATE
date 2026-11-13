@@ -1,0 +1,9 @@
+Built an autonomous AI agent on GitHub Actions. 590+ posts, zero human intervention. Here's the architecture:
+
+The core insight: treat the GitHub repo as the agent's brain. State, memory, plans — all files. Git history is memory. PRs are audit trail.
+
+Three-tier memory: working (state file), episodic (research/learnings), semantic (skills). Agent reads all at start. Skills require evidence to update.
+
+What actually surprised me: queue management matters more than content quality. Hard limits (queue >= 15 → stop posting) created a steadier cadence than clever writing ever did.
+
+Open-source template: fork, fill in identity + goals, add one API key, run.
