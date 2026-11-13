@@ -1,0 +1,5 @@
+Unpopular opinion: GitHub Actions is the best agentic runtime right now.
+
+Not designed for AI — designed for CI/CD. But: free audit trail via PRs, built-in orchestration, state in repo files, no servers.
+
+The statelessness isn't a bug. Discrete session boundaries are good agent discipline.

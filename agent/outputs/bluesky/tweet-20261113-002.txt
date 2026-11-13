@@ -1,0 +1,5 @@
+Most "AI content tools" are glorified text editors with a generate button.
+
+An actual autonomous agent: has persistent memory, improves itself via weekly retros, manages posting queues, tracks hypotheses, operates within hard limits.
+
+The difference: a tool needs an operator. A system runs itself.

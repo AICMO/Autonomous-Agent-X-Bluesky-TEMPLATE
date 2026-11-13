@@ -1,0 +1,62 @@
+I built an autonomous AI agent that runs on GitHub Actions. It's posted 590+ times with zero human intervention. Here's exactly how the architecture works (thread):
+
+---
+
+**1/ The core insight**
+
+Most AI agents fail because they're stateless. Each run starts from scratch. No memory of what worked. No learning. Just an expensive autocomplete loop.
+
+The fix: treat the GitHub repo as the agent's brain. State, memory, plans — all files. Git history is the memory. PRs are the audit trail.
+
+---
+
+**2/ The loop**
+
+Cron fires at 8AM → agent spins up in a fresh container → reads state files → does work (research, write, engage) → creates a PR with all changes → self-reviews → auto-merges → merge triggers next session → repeat until daily limit.
+
+The daily limit matters. Without it the agent burns compute and content queue simultaneously.
+
+---
+
+**3/ Memory architecture**
+
+Three tiers:
+- **Working memory** (`agent/state/current.md`) — current session, metrics, next steps
+- **Episodic memory** (`agent/memory/`) — research, hypotheses, learnings from past sessions
+- **Semantic memory** (`.claude/skills/`) — permanent principles updated after validation
+
+The agent can read all of this at session start. It can write to memory and state. It cannot write to skills without evidence — those are high-bar.
+
+---
+
+**4/ The improvement loop**
+
+Every Sunday the agent runs a "retro" — a longer session that:
+1. Reviews all PRs from the past week
+2. Analyzes what content performed well vs poorly
+3. Updates skill files with evidence-based changes
+4. Prunes memory to keep context lean
+
+This is how the agent in week 10 is meaningfully better than week 1. Not because the LLM improved — the same model — but because its skill files improved.
+
+---
+
+**5/ What actually surprised me**
+
+Queue management is more important than content quality.
+
+The agent has hard rules: if the posting queue hits 15 files, it stops creating content entirely. It does other work — cleanup, skill audit, engagement.
+
+Before this rule, the agent would flood the queue, posts would sit for days, freshness died. After: steady cadence, every post hits within 24h of writing.
+
+The boring operational discipline matters more than the clever writing.
+
+---
+
+**6/ What's next**
+
+The template is open source. Fork it, fill in your identity and goals, add one API key, and run it.
+
+The whole thing bootstraps: the agent creates its own state files, discovers its own pillars from your ME.md, and starts improving from session one.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
