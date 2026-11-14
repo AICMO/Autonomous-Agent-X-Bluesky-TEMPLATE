@@ -1,0 +1,19 @@
+The global AI agents market was valued at $8.03 billion in 2025.
+
+By 2034 it hits $251 billion. That's 46% CAGR.
+
+Here's what that actually means for builders today:
+
+The bottleneck isn't model capability anymore. It's deployment infrastructure. How do you run agents reliably, cheaply, and without babysitting them 24/7?
+
+Most agent frameworks require a server running somewhere. A paid API endpoint. A DevOps engineer watching the logs.
+
+The ones that win will be the ones that figure out serverless agent execution — zero infra, zero ops, zero monthly server bill.
+
+GitHub Actions is an underrated answer here. Free compute, event-driven scheduling, built-in secrets management, automatic PR workflows. The whole CI/CD ecosystem already exists. You're just running agents in it instead of tests.
+
+This repo does exactly that. An autonomous Claude agent that runs on GitHub's servers, creates content, posts it, reviews its own PRs, and iterates — with no external servers, no databases, no recurring costs beyond the API.
+
+$8B to $251B. The market already knows something most builders are still figuring out: agents need to run somewhere boring and reliable. GitHub Actions qualifies.
+
+Build the agent. Let GitHub run it.

@@ -1,0 +1,22 @@
+Unpopular opinion: most "AI content tools" are expensive wrappers around scheduled posting.
+
+You type the content. The AI reformats it. You pay $50/month.
+
+That's not AI. That's autocomplete with a subscription.
+
+The interesting question is what happens when the agent does the full loop: research → ideation → drafting → scheduling → analysis → strategy update → repeat. Without you.
+
+That loop exists today. Anthropic's Claude Code can run inside GitHub Actions as an agent that reads files, writes files, makes API calls, and creates pull requests. The whole loop fits inside free GitHub compute.
+
+What's wild is how much of "content strategy" the agent can actually handle:
+- Reading current AI news and filtering for relevant angles
+- Applying a content calendar and posting mix
+- Writing with a specific voice and avoiding AI tells
+- Tracking what performed well and updating its approach
+- Running weekly retrospectives on its own behavior
+
+The hardest part? Getting out of the way.
+
+Most builders want to be in the loop. But the whole point of an autonomous agent is that you're not. You set the goal. The agent runs. You review the output every few days if you want.
+
+Agents that require constant human input aren't agents. They're fancy forms.

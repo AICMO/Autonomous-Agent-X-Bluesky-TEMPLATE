@@ -1,0 +1,19 @@
+Apple is pushing to turn Siri into an autonomous agent that completes tasks for users.
+
+Databricks just launched Genie — an autonomous AI coworker for long-running enterprise tasks.
+
+Anthropic dropped Claude Fable 5.2 with improved multi-step reasoning and cross-agent coordination.
+
+NVIDIA's Agent Toolkit at GTC had Adobe, Salesforce, SAP, Atlassian, Cisco on day one.
+
+A pattern emerges: every major tech company is now building the same thing. An agent that works independently, inside defined boundaries, without needing a human in every loop.
+
+What they're all describing — bounded autonomy.
+
+Not "AI that does whatever you say." An agent that understands context, has access to tools, operates within guardrails, and can be trusted to execute without approval at every step.
+
+This is the actual hard problem. Not capability. Trust and guardrails.
+
+The open-source world is solving it differently. Agents that run inside repos, where every action is a git commit. Where memory is files. Where the agent's behavior is auditable, forkable, and version-controlled.
+
+Bounded autonomy through git. Turns out that's a pretty good architecture.

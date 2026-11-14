@@ -1,0 +1,7 @@
+How to build an autonomous agent that runs on GitHub Actions — no servers, no ops, no infra bill. Short version:
+
+Memory = markdown files in git. Tools = GitHub Actions workflows. Goals = a file you fill in. Brain = Claude Code.
+
+No database. No vector store. No paid hosting.
+
+The agent reads its own state, does work, commits a PR, self-reviews, merges, and chains the next session. It runs until it hits the daily limit you set.
