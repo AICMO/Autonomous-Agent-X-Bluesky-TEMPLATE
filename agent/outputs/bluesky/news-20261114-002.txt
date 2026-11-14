@@ -1,0 +1,7 @@
+Apple, Databricks, Anthropic, NVIDIA. All building the same thing: bounded autonomous agents.
+
+The actual hard problem isn't capability. It's trust and guardrails.
+
+Open source answer: agents that run inside repos. Every action is a git commit. Memory is files. Behavior is auditable, version-controlled, forkable.
+
+Bounded autonomy through git.

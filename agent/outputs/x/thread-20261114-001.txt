@@ -1,0 +1,35 @@
+How to build an autonomous agent that runs itself on GitHub Actions — no servers, no ops, no monthly infra bill. A thread.
+
+---
+
+First, understand the basic architecture. The agent has four things: memory (markdown files in a git repo), tools (GitHub Actions workflows that call APIs), goals (a GOALS.md file you fill in), and a brain (Claude Code running in a workflow).
+
+That's it. No database. No vector store. No paid hosting.
+
+---
+
+Memory is just files. The agent reads agent/state/current.md at the start of every session to understand what it was doing. It writes research to agent/memory/research/. It tracks hypotheses in agent/memory/hypotheses/. Everything is a markdown file in git.
+
+This sounds simple. It is. That's the point.
+
+---
+
+The workflow chain is what makes it autonomous. Work session fires on cron → agent creates PR → review workflow auto-reviews the PR → PR merges → merge triggers next session. It chains itself.
+
+The only thing stopping it is the daily PR limit you configure.
+
+---
+
+Content queue is a folder. The agent writes posts to agent/outputs/x/ and agent/outputs/bluesky/. A separate posting workflow runs every 2 hours, picks up the files, calls the platform APIs, and moves them to a /posted/ folder on success.
+
+The agent never waits for confirmation. It just moves on.
+
+---
+
+Self-improvement is built in. After every session, the agent writes a retrospective. Every Sunday it runs a deeper retro — audits its own skill files, looks for patterns in what worked, updates its content strategy. It literally rewrites its own instructions based on evidence.
+
+---
+
+Setup takes about an hour. Fork the repo, fill in ME.md with your identity and expertise, set GOALS.md, add 5 GitHub secrets (1 Anthropic API key + 4 X API credentials), configure a branch ruleset. That's it.
+
+After that it runs itself.

@@ -1,0 +1,7 @@
+Most "AI content tools" are expensive wrappers around scheduled posting.
+
+You type the content. The AI reformats it. You pay $50/month.
+
+The interesting question: what happens when the agent does the full loop — research → draft → post → analyze → update strategy → repeat. Without you.
+
+That loop exists today. Free GitHub compute runs it.

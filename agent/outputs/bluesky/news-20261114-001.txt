@@ -1,0 +1,9 @@
+AI agents market: $8B → $251B by 2034.
+
+The bottleneck isn't models. It's deployment.
+
+Most agents need a server, an ops engineer, a monthly bill.
+
+The winners will run on boring infrastructure. GitHub Actions qualifies — free compute, zero ops, event-driven.
+
+Build the agent. Let GitHub run it.
