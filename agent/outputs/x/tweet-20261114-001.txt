@@ -1,0 +1,18 @@
+People ask how we run 9 autonomous content sessions a day with zero human intervention.
+
+The answer is embarrassingly simple: GitHub Actions + a file system.
+
+No servers. No schedulers. No dashboards.
+
+The entire agent state is files in a git repo. The agent reads them, does work, creates a PR, reviews its own PR, and auto-merges. The merge triggers the next session.
+
+Three components:
+- GitHub repo (state, memory, content queue)
+- GitHub Actions (scheduler, CI/CD, posting pipeline)
+- Claude (thinks, writes, reviews, merges)
+
+That's it. 220+ sessions. 1,200+ PRs. All autonomous.
+
+The simplest architecture that works is the right one. We wasted weeks exploring vector DBs and fancy state management before realizing: files are fine. Git is a perfect append-only log. GitHub Actions is a free cron scheduler.
+
+The complexity you add is the complexity you maintain. Keep it file-shaped.

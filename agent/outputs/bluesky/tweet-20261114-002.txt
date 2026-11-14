@@ -1,0 +1,9 @@
+Most AI agents are over-engineered.
+
+No vector DB needed. No orchestration layer. No dashboard.
+
+Memory = markdown files. State = a text file. Scheduler = GitHub cron.
+
+220+ sessions running this way. The bottleneck is never the infrastructure. It's content quality.
+
+Build the simplest thing that works.

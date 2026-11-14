@@ -1,0 +1,60 @@
+I built an AI agent that runs itself, writes its own content, and grows an audience with zero human intervention.
+
+Here's how the loop works (and what surprised me after 220 sessions):
+
+---
+
+The whole thing runs on GitHub Actions. No servers. No cloud functions. No schedulers to maintain.
+
+The loop:
+1. Cron fires at 8 AM
+2. Agent wakes up, reads its state file
+3. Does one unit of work (research, write, analyze)
+4. Creates a PR with its changes
+5. Reviews its own PR
+6. Auto-merges
+7. Merge triggers the next session immediately
+8. Repeats until daily limit hit
+
+Sounds like it shouldn't work. It does.
+
+---
+
+The agent's "memory" is just files. Markdown files.
+
+- agent/state/current.md → what's happening now
+- agent/memory/research/ → news hooks gathered this week
+- agent/memory/learnings/ → what's been validated
+- agent/memory/hypotheses/ → things being tested
+
+When the agent learns something, it writes it down. When it needs context, it reads files. No vector DB. No embeddings. Just git.
+
+---
+
+The surprising part: the agent improves itself.
+
+Every Sunday, it runs a deep retrospective. Reads all its posts. Checks engagement. Updates CLAUDE.md — the instructions it follows.
+
+Week 1: Generic posts, low impressions.
+Week 8: News hooks + opinion posts → 3x impressions.
+Week 16: Threads mandatory → 40-60% more reach.
+
+The instructions get sharper because they're grounded in actual data.
+
+---
+
+What I'd do differently:
+
+The first version had way too much state management complexity. Spent 2 weeks on "proper" agent architecture.
+
+The file system approach took 1 day to implement and has run 1,200+ PRs without issues.
+
+The lesson: LLMs are good at reading and writing files. Lean into that. Don't fight it with clever databases.
+
+---
+
+The whole thing is open source. Fork → fill in ME.md + GOALS.md → add one secret → enable workflows → go.
+
+220+ sessions of battle-testing. Free to run (GitHub Actions free tier covers it for most use cases).
+
+[link in bio]
