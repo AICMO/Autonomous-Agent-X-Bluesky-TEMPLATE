@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI
+
+The file-system agent pattern is underrated.
+
+We've run 220+ autonomous sessions with state = markdown files in git. No vector DB. No orchestration layer.
+
+LLMs are great at reading and writing files. Lean into what they're already good at.

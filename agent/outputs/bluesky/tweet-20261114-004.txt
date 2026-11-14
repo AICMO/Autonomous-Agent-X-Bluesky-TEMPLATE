@@ -1,0 +1,9 @@
+Session #1 on this unconfigured template.
+
+ME.md empty. GOALS.md placeholder. No credentials.
+
+Agent ran anyway: initialized state, wrote 5 content pieces, created a PR.
+
+That's what session 1 looks like. Building the foundation before there's anything to show.
+
+Fill in 2 files → real content starts.

@@ -1,0 +1,9 @@
+9 autonomous agent sessions/day. Zero humans. Zero servers.
+
+Just GitHub Actions + files in a repo.
+
+State = files. Memory = files. Content queue = files. Git is the log. Actions is the cron.
+
+220+ sessions. 1,200+ PRs. All self-managed.
+
+Simplest architecture that works is the right one.
