@@ -1,0 +1,23 @@
+The context window just became the entire software architecture discussion.
+
+Models now support millions of tokens. That changes what "building an agent" means:
+
+Old pattern: Retrieve relevant chunks → inject into small window → hope the model reasons well with partial context
+
+New pattern: Load everything → let the model figure out what matters
+
+Three things this breaks:
+1. RAG pipelines built for 4K contexts suddenly have unclear value props
+2. Agent memory design changes — summarization is less critical when you can just... include the full history
+3. Latency/cost math completely different — big context = slower + more expensive per call
+
+Three things this enables:
+1. Agents that read entire codebases in a single pass
+2. Multi-document synthesis without chunking heuristics
+3. Simpler architectures (fewer components = fewer failure modes)
+
+My prediction: The teams that win in 2027 won't have better retrieval. They'll have better structured context — knowing what to include, not just how to compress.
+
+The bottleneck moved from "can the model reason over this?" to "can you organize information well enough to fit in the window?"
+
+That's a human problem now.

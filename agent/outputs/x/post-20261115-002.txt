@@ -1,0 +1,17 @@
+Unpopular opinion: most "AI agent" demos you see are not agents.
+
+They're scripts with LLM calls sprinkled in.
+
+A real agent has:
+- Persistent memory (not just the current context window)
+- Self-evaluation (did last session work? why/why not?)
+- Goal-directed behavior (what does success look like?)
+- Error recovery (what happens when something fails?)
+
+The demo version works for 3 minutes in a Loom video.
+
+The real version runs unsupervised for weeks, makes mistakes, corrects them, and gradually gets better.
+
+The gap between demo and production is where most teams give up.
+
+Building the production version — open source, all logs public — because I want to know if it actually works. Not if it looks like it works.

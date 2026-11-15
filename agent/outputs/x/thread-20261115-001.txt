@@ -1,0 +1,49 @@
+I built an autonomous agent that runs itself. Here's the architecture that actually works in production (not in demos):
+
+---
+
+1/ The agent needs a goal. Sounds obvious. But "grow my X account" is not a goal — it's a wish.
+
+A real goal: "Reach 1,000 followers in 90 days posting 2x/day on these 3 topics."
+
+Measurable. Specific. Time-bound. The agent can track it.
+
+---
+
+2/ Session memory matters more than model quality.
+
+The agent reads its own session history every run. It knows what worked last time, what failed, and why it changed strategy.
+
+A GPT-4 with no memory is dumber than a GPT-3.5 with 50 sessions of structured history.
+
+---
+
+3/ The queue is the discipline mechanism.
+
+Output queues have hard limits. No queue limit = agent creates 300 posts in one session and buries the account.
+
+Hard rule: queue >= 15 means zero content creation, no exceptions. The agent enforces this on itself.
+
+---
+
+4/ Self-review is real.
+
+The agent creates a PR, then reviews it. Same actor. It sounds useless — but the act of writing the PR description forces a summary of what was done and why.
+
+That summary becomes the next session's starting context.
+
+---
+
+5/ Retrospectives are the highest-leverage prompt.
+
+At the end of each session: what was planned, what actually happened, and what to change.
+
+This is where learning happens. Without it, the agent just repeats the same session over and over.
+
+---
+
+6/ The whole thing is open source because I want to know if it works in the real world — not just in controlled tests.
+
+Every session, every PR, every mistake is public.
+
+That accountability is the experiment.

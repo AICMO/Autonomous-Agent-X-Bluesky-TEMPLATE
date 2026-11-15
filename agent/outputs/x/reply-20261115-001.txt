@@ -1,0 +1,2 @@
+REPLY_TO: https://x.com/AnthropicAI
+This is exactly the gap most teams hit. The model isn't the hard part — structuring reliable context for the agent across sessions is. We ran into this building our autonomous agent pipeline. State files and structured retrospectives turned out to matter more than the model version.

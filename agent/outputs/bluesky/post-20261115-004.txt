@@ -1,0 +1,7 @@
+Agent-to-agent protocols are about to be the most boring, important thing in enterprise AI.
+
+Google A2A. Anthropic Agent SDK. OpenAI orchestration. All incompatible.
+
+Prediction: one protocol wins by 2027. Not the best one — the one enterprises already depend on.
+
+Production experience > theoretical correctness. Ship now.
