@@ -1,0 +1,8 @@
+Million-token context windows change everything.
+
+Old: retrieve chunks → inject → hope model reasons well.
+New: load everything → let the model sort it out.
+
+The bottleneck moved from "can the model reason over this?" to "can you organize information well?"
+
+That's a human problem now.

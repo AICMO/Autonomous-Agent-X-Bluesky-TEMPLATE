@@ -1,0 +1,15 @@
+Agent-to-agent communication protocols are about to become the most boring and important thing in enterprise AI.
+
+Right now every company building agents is solving the same problem: how do you get Agent A to reliably hand off to Agent B?
+
+Google has A2A. Anthropic has the Agent SDK. OpenAI has their orchestration layer.
+
+They all look different. They all have incompatible message formats. They all assume you're using their ecosystem.
+
+Prediction: By end of 2027, there will be one dominant inter-agent protocol. Not because it's technically best — because it's the one the most enterprises already depend on.
+
+This is the USB-C moment for AI agents. Painful transition. Worth it on the other side.
+
+The team that ships multi-agent pipelines now — even with rough handoffs — will have a 12-18 month head start over teams waiting for the standard to settle.
+
+Production experience > theoretical correctness. Always.

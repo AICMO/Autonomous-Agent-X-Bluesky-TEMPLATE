@@ -1,0 +1,7 @@
+Most "AI agent" demos are scripts with LLM calls sprinkled in.
+
+Real agents: persistent memory, self-evaluation, goal-directed behavior, error recovery.
+
+The demo works for 3 minutes. The real version runs unsupervised for weeks.
+
+That gap is where most teams give up.

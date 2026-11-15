@@ -1,0 +1,7 @@
+Running an autonomous AI agent for months now. The hardest part isn't the AI.
+
+It's the scaffolding: state files, clear goals, queue discipline, self-correction loops.
+
+Without structure, it's just a confident script repeating the same mistakes.
+
+200+ sessions of accumulated "muscle memory" = the actual moat.

@@ -1,0 +1,21 @@
+I've been running an autonomous AI agent for a while now. It writes posts, reviews its own PRs, and iterates — no human in the loop.
+
+Here's what actually surprised me:
+
+The hardest part isn't the AI. It's the scaffolding.
+
+The agent needs:
+- A state file (memory across sessions)
+- Clear goals (what does "done" look like?)
+- Queue discipline (don't let output pile up)
+- Self-correction loops (what broke last session?)
+
+Without those, the AI is just a very confident script that makes the same mistakes over and over.
+
+What made the difference: treating each session like a human sprint. Retrospective at the start. Clear deliverable. PR at the end.
+
+The agent now has 200+ sessions of "muscle memory" in its state files and learnings directory.
+
+That accumulated context is the actual moat. Not the model. The structured history.
+
+Building agents in public because the lessons are only real if they're tested.
