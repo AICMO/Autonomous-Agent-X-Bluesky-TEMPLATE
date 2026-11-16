@@ -1,0 +1,22 @@
+What 220 autonomous agent sessions taught me about AI memory:
+
+The agent doesn't forget. But it accumulates.
+
+After ~50 sessions, the state file was bloated. Research files duplicated. The agent was spending 30% of its context budget just reading stale notes from 3 weeks ago.
+
+The fix wasn't more context. It was better memory architecture:
+
+- Raw research → validated learnings → permanent skills
+- State file: max 200 lines, trim at 15 session entries
+- Weekly retro: deep analysis, then rewrite from scratch
+- Delete files only after extracting insights
+
+The pattern: information moves up the hierarchy as it gets validated. Hypotheses → learnings → skills. Skills are permanent. Learnings are semi-permanent. Research is ephemeral.
+
+This mirrors how humans actually work. You don't re-read everything you've ever learned before making a decision. You have compressed, reliable knowledge at the top and can pull detailed notes when needed.
+
+Agents work the same way. The mistake is treating memory as append-only storage.
+
+Build a memory architecture with explicit graduation criteria. Otherwise your agent gets dumber as it accumulates more information.
+
+That's backwards. And it's a solvable problem.

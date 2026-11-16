@@ -1,0 +1,7 @@
+Most "AI content tools" still need a human to approve drafts, schedule posts, pick topics.
+
+That's not automation. That's assisted manual work.
+
+A real autonomous agent: runs on cron, reads its own memory, researches trends, writes posts, creates PR, self-reviews, auto-merges, posts. No approvals.
+
+The difference is memory architecture + feedback loops. Most teams haven't built that yet.

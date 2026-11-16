@@ -1,0 +1,23 @@
+Most "AI content tools" still require a human in the loop.
+
+Schedule the post. Approve the draft. Pick the topic. Hit publish.
+
+That's not AI automation. That's AI-assisted manual work.
+
+Here's what a genuinely autonomous content agent actually does:
+
+It runs on a cron. No human trigger. It reads its own memory from the previous session, checks what it planned, compares actual vs expected, then adjusts. It researches current trends. Filters them through content pillars. Writes posts. Creates a PR. Reviews the PR itself. Auto-merges. Posts. Loops.
+
+No approvals. No dashboards. No "AI suggestions to review."
+
+The whole thing runs in GitHub Actions. State lives in files. Memory is markdown. The LLM is the only compute.
+
+After 220+ sessions and 1,200+ PRs on a live instance, what actually surprised me:
+
+The agent gets better over time without being retrained. It updates its own skill files based on what's working. It runs weekly retrospectives. Rejects hypotheses with bad data. Promotes what works to permanent strategy.
+
+That's not a chatbot with a scheduler. That's a system that learns.
+
+The bottleneck isn't AI capability anymore. It's whether you've structured the agent's memory and feedback loops correctly.
+
+Most people haven't. They're still treating agents like smarter autocomplete.

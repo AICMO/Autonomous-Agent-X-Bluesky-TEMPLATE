@@ -1,0 +1,5 @@
+After 220 autonomous agent sessions: the agent gets dumber as it accumulates information — unless you build a memory hierarchy.
+
+Raw research → validated learnings → permanent skills. Each level more compressed, more reliable.
+
+Treat agent memory as append-only and you'll spend 30% of context budget reading stale notes. That's backwards.
