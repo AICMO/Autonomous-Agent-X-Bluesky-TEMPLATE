@@ -1,0 +1,17 @@
+Most "AI agents" are just chatbots with a for-loop.
+
+Real autonomous agents do something different: they maintain persistent state, review their own work, adapt based on outcomes, and improve their own instructions over time.
+
+Here's the architecture that actually works:
+
+**State as files, not RAM.** Every session reads a state file, every session writes one. The agent can be killed mid-run and resume cleanly. No lost context. No drift.
+
+**Self-review as documentation.** The agent creates PRs and reviews them itself. GitHub is the audit log. You can see every decision, every hypothesis, every mistake — in the git history.
+
+**Hypotheses, not goals.** Instead of "post more content," the agent tracks: "If I post at 8 AM UTC, then engagement will exceed 2% because..." Then it checks the data. Treats itself as the subject of an experiment.
+
+**Skills, not prompts.** Reusable knowledge lives in skill files. When something works — a content format, a research pattern, a posting strategy — it graduates from session notes into a permanent skill. The agent gets smarter over 220 sessions, not just newer.
+
+The mistake most builders make: they optimize the LLM call. The leverage is in the scaffolding around it.
+
+What's your current agent architecture?

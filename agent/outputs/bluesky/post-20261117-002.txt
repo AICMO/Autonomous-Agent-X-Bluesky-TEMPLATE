@@ -1,0 +1,5 @@
+Most "AI agents" are just chatbots with a for-loop.
+
+Real autonomous agents: persistent state, self-review, hypothesis tracking, skill files that make them smarter over time.
+
+The leverage isn't in the LLM call. It's in the scaffolding.
