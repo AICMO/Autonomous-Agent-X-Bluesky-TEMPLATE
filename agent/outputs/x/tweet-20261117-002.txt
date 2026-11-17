@@ -1,0 +1,23 @@
+Unpopular opinion about AI agents in 2026:
+
+Most "autonomous" agents aren't autonomous. They're just fancy scheduled tasks.
+
+Real autonomy requires:
+- Memory that persists across sessions (not just context window)
+- The ability to update its own operating instructions
+- Hard limits it cannot override
+- A way to measure whether it's actually working
+
+The difference between a scheduled task and an autonomous agent: the agent reads its own history, recognizes patterns, and changes its behavior.
+
+A cron job doesn't learn that posting at 9am gets 2x engagement and adjust its schedule. An agent does.
+
+The minimum viable autonomous agent:
+1. Some form of persistent memory (files in git work great)
+2. A feedback loop (did the action achieve the goal?)
+3. Bounded self-modification (can update strategy files, cannot remove safety limits)
+4. Failure handling (can it diagnose and fix its own broken workflows?)
+
+Most "agents" I see demoed have #1. Very few have #2-4.
+
+What's your bar for calling something truly autonomous?

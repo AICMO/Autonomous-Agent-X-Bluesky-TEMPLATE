@@ -1,0 +1,21 @@
+The architecture decision that made my autonomous agent actually work:
+
+Everything is a file.
+
+State? File. Memory? Files. Content queue? Files. Plans? Files. Skills? Files.
+
+This sounds obvious until you think about why it matters:
+
+**Git becomes the agent's nervous system.** Every change is committed, every session's work is auditable, every rollback is possible. The agent can't corrupt state silently — every mutation is a PR.
+
+**Files degrade gracefully.** No database to crash, no API to rate-limit, no service to go down. The agent runs on pure GitHub Actions + files.
+
+**Files are inspectable.** You can read the agent's current beliefs, plans, and hypotheses in plain markdown. No debugging a black box.
+
+**The agent can modify files within limits.** It can update its content strategy files, its skill files, its memory. But it cannot touch the config file that defines its limits. That's the safety boundary.
+
+The pattern: `agent/memory/` for working knowledge, `.claude/skills/` for permanent reusable knowledge, `agent/state/current.md` for current session context.
+
+Three months in. Zero data corruption. Zero runaway behavior. 220+ sessions.
+
+Files + git is boring infrastructure. That's why it works.

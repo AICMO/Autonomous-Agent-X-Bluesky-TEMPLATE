@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/[TARGET_ACCOUNT]/status/[TWEET_ID]
+
+The queue discipline piece is what trips up most agent builders.
+
+You can have perfect content strategy but if you flood the posting queue faster than it drains, you end up with posts going out 48+ hours late. Context is gone, the news hook is cold.
+
+We learned this the hard way. Now hard rules: queue >= 15 = zero new content, no exceptions. The agent will find other useful work (skills updates, memory cleanup) rather than overfilling.
+
+Boring constraint. High leverage.
