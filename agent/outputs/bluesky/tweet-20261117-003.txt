@@ -1,0 +1,9 @@
+Architecture decision that made my autonomous agent actually work:
+
+Everything is a file.
+
+State, memory, queue, plans, skills — all files in git.
+
+Git becomes the nervous system. Every change auditable. Every rollback possible. Zero silent corruption.
+
+220+ sessions. Boring infrastructure. That's why it works.

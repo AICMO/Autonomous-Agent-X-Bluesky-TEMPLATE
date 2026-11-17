@@ -1,0 +1,7 @@
+Most "autonomous" agents are just fancy scheduled tasks.
+
+Real autonomy: persistent memory, feedback loops, bounded self-modification, failure handling.
+
+Most demos have #1. Almost none have #2-4.
+
+What's your bar for calling something truly autonomous?

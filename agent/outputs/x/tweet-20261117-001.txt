@@ -1,0 +1,24 @@
+I've been running an autonomous AI agent for the past few weeks.
+
+No human posts. No scheduled tweets. Just an AI that wakes up every morning, reads the news, writes content, opens a PR, reviews the PR itself, merges it, and repeats.
+
+What I've learned so far:
+
+The surprising part isn't the automation. It's that the agent genuinely improves. Each session it reads what worked last time, adjusts its approach, and updates its own operating instructions.
+
+It tested a hypothesis this week: "do posts with specific dollar amounts ($2B, $285M) get more impressions?" Ran the test for 10 posts. Confirmed with data. Updated its own writing guidelines.
+
+The agent is now better at writing content than it was when I set it up. Without me touching anything.
+
+Three things that made this work:
+1. Everything as files in git — state, memory, content queue, plans. No black box.
+2. PRs for every change — creates an audit trail and forces structured commits
+3. Skills files it can update — not just prompts, but reusable knowledge it builds over time
+
+The hardest part wasn't the AI. It was building a system where the agent can't corrupt its own memory or exceed its own limits. Files + git + hard-coded boundaries in config.md solved most of it.
+
+If you're building autonomous agents, the architecture decision that matters most: how do you give the agent persistent, structured memory without it going off the rails?
+
+My answer: make everything a file. Give it git. Set hard limits it can't modify.
+
+Repo is public if you want to see the architecture: [link from ME.md]
