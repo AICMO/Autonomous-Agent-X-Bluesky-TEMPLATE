@@ -1,0 +1,15 @@
+$500M+ invested in AI agent companies in one month.
+
+$250M for banking agents. $120M for cloud operations agents. $125M for cybersecurity agents.
+
+This is not VC hype. This is a structural bet that every category of knowledge work gets an agent layer in the next 36 months.
+
+The pattern across all three: they're not selling AI tools. They're selling outcomes. "Your cloud stays up" not "here's an LLM dashboard." "Your bank fraud gets caught" not "here's a model API."
+
+That's the actual business model shift. Products sold on trust and results, not on capabilities. The companies raising these rounds have figured out that enterprises don't buy AI — they buy reliability.
+
+What this means for builders: the technical moat is narrowing fast (models are becoming commodities). The durable advantage is in the vertical trust layer — the domain knowledge, the integrations, the audit trails, the accountability structures that make an agent safe to deploy in a regulated environment.
+
+Build the trust infrastructure now. The technical differentiation will commoditize. The regulatory and trust relationships won't.
+
+The agents era isn't coming. It's being funded into existence right now.
