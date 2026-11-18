@@ -1,0 +1,17 @@
+Unpopular opinion: most "AI agents" aren't agents. They're wrappers.
+
+An agent has memory. It tracks what it did last session. It updates its own instructions based on what worked. It has a goal and measures progress toward it.
+
+A wrapper runs a prompt and returns a result. It forgets everything the moment the call ends. It has no concept of "last week" or "is this working?"
+
+The test: does it get better over time without you changing the code?
+
+If yes, it's an agent. If no, it's a very fancy API call.
+
+This distinction matters because companies are spending real money on "agentic" systems that will plateau after a few weeks. The instructions don't update. The memory doesn't compound. The same mistakes repeat.
+
+The agents that win will be the ones designed for iteration from the start. That means: state files, learning docs, hypothesis tracking, and self-review cycles baked in at the architecture level.
+
+Not bolted on later.
+
+What criteria do you use to decide if something is a real agent vs a wrapper?

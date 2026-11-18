@@ -1,0 +1,7 @@
+The teams winning with autonomous agents aren't winning on prompt quality.
+
+They're winning on feedback loops.
+
+An agent that knows when NOT to post is worth more than one that writes brilliantly but floods its own queue.
+
+Judgment > generation.

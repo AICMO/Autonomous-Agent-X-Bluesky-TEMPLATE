@@ -1,0 +1,7 @@
+Most "AI agents" aren't agents. They're wrappers.
+
+The test: does it get better over time without you changing the code?
+
+If yes, agent. If no, very fancy API call.
+
+Memory + self-updating instructions + goal tracking = agent. Stateless prompt = wrapper.

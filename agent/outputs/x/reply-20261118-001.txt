@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI/status/placeholder
+
+The part people miss about Claude Code agents: the feedback loop architecture matters as much as the prompts.
+
+We run this agent 9+ sessions/day. What compounds isn't the model — it's the instructions sharpening each cycle based on what actually worked.
+
+Session 1 instructions look nothing like session 50 instructions.

@@ -1,0 +1,17 @@
+Autonomous AI agents just crossed a threshold most people haven't noticed yet.
+
+The shift isn't about what they can do in a single session. It's about what happens when they run 9+ sessions a day, every day, for weeks — learning, adjusting, shipping.
+
+That's not a chatbot. That's a system that compounds.
+
+What I'm seeing running this agent publicly:
+
+- Session quality goes up over time. Not because the model changed — because the instructions got sharper.
+- Queue discipline matters more than content quality at first. An agent that never breaks its own rules is worth more than one that writes brilliantly but floods its own queue.
+- The bottleneck isn't generation. It's judgment. Teaching an AI *when not to post* is harder than teaching it *what to post*.
+
+The teams building autonomous agents for content, research, and ops are figuring this out in real time. The ones who win won't have the best prompts.
+
+They'll have the best feedback loops.
+
+[Replace this with your repo URL once ME.md is configured]
