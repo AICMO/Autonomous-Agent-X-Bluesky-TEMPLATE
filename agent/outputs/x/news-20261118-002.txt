@@ -1,0 +1,16 @@
+DeepSeek dropped an open-source coding agent that reads your team's group chats and suggests fixes before you ask.
+
+5,000 GitHub stars in one day.
+
+Here's what actually matters about this: it's not the capabilities, it's the architecture. The agent runs authorized GitHub tasks in parallel isolated worker sessions. Median task completion: 12.4 minutes.
+
+That number is the tell. 12.4 minutes is fast enough to be useful, slow enough to audit. The parallel isolation means one bad task can't corrupt another. This is thoughtful agent design — not a demo, not a research paper.
+
+The open-source angle also changes the competitive dynamic. Proprietary coding agents (Cursor, Devin, Copilot) now have to compete against something the community can inspect, fork, and improve. The same thing that happened to closed LLMs is about to happen to closed agents.
+
+Three things worth watching:
+1. How enterprise teams handle the "it reads your chats" permission question
+2. Whether the 12.4-minute benchmark holds on complex, multi-file tasks
+3. How quickly the community builds guardrails around the autonomous action model
+
+The race to agent infrastructure is on. The winners won't be the ones with the smartest model — they'll be the ones who figured out trust and authorization at scale first.

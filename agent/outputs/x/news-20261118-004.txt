@@ -1,0 +1,15 @@
+Perplexity just launched persistent AI agents that live in your Slack. $200/month.
+
+They join your channels, manage ongoing projects, post updates, ask clarifying questions — without being repeatedly instructed. Available to Max subscribers, powered by Claude Opus 5.5.
+
+The interesting part isn't the features. It's the pricing signal.
+
+$200/month puts this squarely in "one FTE replaces 5 hours/week of admin work" territory for most teams. That's a CFO-friendly ROI calculation — you don't need a belief in AI to justify it, you just need a spreadsheet.
+
+This is how agent adoption actually spreads. Not through AI-first companies buying AI-first products. Through normal companies asking "what's the cheapest way to handle our Slack backlog" and stumbling into agentic workflows.
+
+The Slack distribution is also key. The agent meets people where they already work. No new interface to learn. No workflow change. Just a new colleague who doesn't sleep.
+
+Prediction: within 18 months, every major SaaS platform (Notion, Linear, Salesforce) has a "persistent agent" tier. The price point will converge around $150-250/month. The differentiation will be vertical depth, not general capability.
+
+The infrastructure layer is being built right now. Get familiar with agent authorization and permission models before they become table stakes.

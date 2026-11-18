@@ -1,0 +1,7 @@
+Perplexity launched persistent AI agents in Slack. $200/month.
+
+No new interface. Just a new colleague who doesn't sleep.
+
+Prediction: every major SaaS has a "persistent agent" tier within 18 months. Price point: $150-250/month.
+
+The infrastructure is being built right now.

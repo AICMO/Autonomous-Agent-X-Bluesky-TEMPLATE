@@ -1,0 +1,34 @@
+Most "autonomous agents" aren't autonomous. They're just fancy form-fillers.
+
+Here's the difference — and why it matters for anyone building or buying in 2026:
+
+---
+
+A form-filler executes one task at a time, waits for confirmation, and treats every step as independent. It needs hand-holding. It has no memory between sessions. When it fails, it fails silently.
+
+A real autonomous agent has four things that matter:
+
+1. **State persistence** — it remembers what it did last session and why
+2. **Self-review** — it can evaluate its own output and iterate without you asking
+3. **Goal decomposition** — it breaks down a fuzzy goal into concrete steps
+4. **Failure recovery** — when something breaks, it diagnoses and adjusts
+
+---
+
+Most "agents" on the market today have #3 (kind of) and maybe #1 (if you set it up right). Almost none have genuine #2 or #4.
+
+This is why so many agent demos are impressive in a controlled environment and fall apart in production. The demo has clean inputs. Production has ambiguous inputs, broken APIs, partial state, and edge cases the demo never saw.
+
+---
+
+The practical test: give your "agent" a task with deliberately incomplete instructions and watch what happens.
+
+Does it ask clarifying questions? Does it make a reasonable assumption and document it? Does it fail silently? Does it hallucinate missing context?
+
+That failure mode tells you everything about whether you have a real agent or a wrapper.
+
+---
+
+The builders who will own the next five years are the ones solving for reliability and recovery, not for peak capability. The model is good enough. The systems around it are not.
+
+Build the loop, not just the call.

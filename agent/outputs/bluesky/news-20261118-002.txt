@@ -1,0 +1,7 @@
+DeepSeek dropped an open-source coding agent that reads your team chats and suggests fixes before you ask.
+
+5,000 GitHub stars in one day. MIT license.
+
+Median task time: 12.4 minutes. Parallel isolated sessions.
+
+The race to agent infrastructure is on. The winners will be whoever figures out trust first.

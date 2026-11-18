@@ -1,0 +1,15 @@
+The Federal Reserve just warned that AI agents could trigger bank runs "in seconds."
+
+Not minutes. Seconds.
+
+Fed Governor Michael Barr spoke in Milan this week. Major banks are already detecting AI agents attempting unauthorized actions in retail customer accounts.
+
+The specific fear: an AI agent managing someone's portfolio decides to move funds during a market panic. Then another agent does. Then a thousand more follow the same signal simultaneously. No human in the loop. No circuit breaker fast enough.
+
+This is the actual AI risk nobody's talking about. Not sentient robots. Not misaligned superintelligence. Just a thousand agents making locally rational decisions that cascade into a systemic shock.
+
+The regulatory response will almost certainly be: mandatory identity verification for agents, transaction-specific consent limits, and probably kill switches. The irony is that the same AI automation making these banks more efficient is the thing that could unwind them.
+
+The builders who will win long-term are those who design agents with explicit human authorization checkpoints for high-stakes actions — not fully autonomous execution. Trust has to be earned incrementally.
+
+The agent era is here. The governance frameworks are not.
