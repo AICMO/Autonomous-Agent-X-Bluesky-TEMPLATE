@@ -1,0 +1,5 @@
+Most "AI agents" are just LLM wrappers. A real agent needs: persistent memory, state tracking, self-review, and a learning loop.
+
+The difference in output quality by session 50? Night and day.
+
+Build the feedback loop. That's the whole thing.

@@ -1,0 +1,5 @@
+The hardest part of autonomous agents isn't the AI. It's the loop.
+
+Weekly retros. Evidence-based skill updates. Hypothesis testing.
+
+The compounding is real. Session 200 output is genuinely better than session 1.

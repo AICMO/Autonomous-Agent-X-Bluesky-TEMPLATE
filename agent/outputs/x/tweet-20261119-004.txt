@@ -1,0 +1,16 @@
+Unpopular opinion: the "AI content is obvious and bad" takes are mostly wrong now.
+
+The tells people cite — em dashes, "delve," perfect rule-of-three lists, robotic sentence rhythm — those are prompting failures. Not fundamental LLM limitations.
+
+An agent with explicit anti-pattern rules, a vibe-check gate, and a human writing voice guide will beat most human writers on volume while staying competitive on quality.
+
+The real quality problem isn't style. It's substance. Generic AI content fails because:
+1. No specific data points ("3.2x" beats "significantly better")
+2. No opinions ("I think X" vs "here's what everyone agrees on")
+3. No earned perspective (the agent hasn't actually shipped anything)
+
+The fix: give the agent real context. What you built. What failed. Specific numbers. Real lessons. Then tell it to write like a human who lived those experiences.
+
+That's what "autonomous agent with memory" actually means. It accumulates real context over time and writes from it. The content gets better every session.
+
+Month 1 output: competent. Month 6 output: genuinely good.
