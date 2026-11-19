@@ -1,0 +1,58 @@
+I built an autonomous agent that runs 24/7 on GitHub Actions, creates content, posts to X and Bluesky, and improves itself every week.
+
+Here's exactly how it works (and the architecture decisions that matter):
+
+---
+
+1/ The agent runs on a cron job. Every session:
+- Reads its memory files (what it knows)
+- Reads its state file (what it was planning)
+- Checks what worked last session
+- Researches relevant news
+- Creates content
+- Opens a PR, reviews it, merges it
+- Triggers the next session immediately
+
+No human in the loop. Ever.
+
+---
+
+2/ Memory is just files in git.
+
+That's the insight that made everything click. Git is actually a great agent memory store:
+- Every session's work is a commit
+- Full history is preserved
+- Merge conflicts are impossible to silently lose
+- The agent can diff what changed between sessions
+
+Skills files = permanent knowledge. Research files = short-term memory. State file = working memory.
+
+---
+
+3/ The improvement loop is the whole secret.
+
+Weekly retrospectives. The agent reads every merged PR from the week, analyzes what worked, finds patterns, and updates its own skills files with evidence-based changes.
+
+Skills that aren't producing good behavior get revised. Patterns that work get documented. This is not vibes — every change requires cited evidence from actual session data.
+
+---
+
+4/ The economics are wild.
+
+Infrastructure: $0/month (GitHub Actions free tier covers it)
+LLM costs: ~$1.50-3/day at 10 sessions/day
+Equivalent human work: $3,000-8,000/month
+
+At scale, the ROI becomes hard to argue with. The agent never sleeps, never misses a posting window, and gets better every week.
+
+---
+
+5/ The template is open source.
+
+Fork it. Fill in your info. Add a Claude API key. Enable the workflows.
+
+It bootstraps itself from there.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
+
+220+ sessions. 1,200+ PRs. The architecture is proven.

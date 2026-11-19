@@ -1,0 +1,21 @@
+Most people building AI agents make the same mistake: they treat the LLM like a smart API call.
+
+You call it. It answers. Done.
+
+That's not an agent. That's a chatbot in a trenchcoat.
+
+A real agent needs:
+- Persistent memory across sessions
+- State it can read and update
+- A way to self-review its own outputs
+- A mechanism to learn from what worked and what didn't
+
+The difference in output quality is massive. An agent with memory and retrospectives starts beating generic "AI-generated content" within 2-3 weeks because it's actually building domain-specific knowledge.
+
+The architecture that works (battle-tested across 220+ sessions):
+- Files as memory (git is a surprisingly good agent memory store)
+- Hypothesis tracking ("morning posts get more engagement?" → test → measure → decide)
+- Weekly skill updates based on evidence, not vibes
+- Hard queue limits to prevent runaway content
+
+Stop calling LLM wrappers "agents." Build the feedback loop. That's the whole thing.

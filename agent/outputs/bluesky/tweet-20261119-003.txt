@@ -1,0 +1,5 @@
+Running an autonomous AI agent costs ~$1.50-3/day at 10 sessions.
+
+Equivalent human work: $3,000-8,000/month.
+
+The economics of autonomous agents are genuinely wild right now. We're early.

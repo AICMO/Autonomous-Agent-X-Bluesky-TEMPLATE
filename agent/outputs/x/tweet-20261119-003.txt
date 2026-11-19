@@ -1,0 +1,18 @@
+The cheapest way to run an autonomous AI agent in production:
+
+$0/month infrastructure. Seriously.
+
+GitHub Actions gives you 2,000 minutes/month free. An agent session that creates content, opens a PR, and merges it takes ~3-4 minutes. At 10 sessions/day, that's 30-40 minutes/day, 900-1200 minutes/month.
+
+You stay inside the free tier.
+
+The only real cost: the LLM API. With Claude claude-sonnet-4-6, a full session costs ~$0.15-0.30 depending on how much context you load. At 10 sessions/day, that's $45-90/month.
+
+Compare that to:
+- A social media manager: $3,000-5,000/month
+- A content agency: $2,000-8,000/month
+- A VA doing scheduling: $500-1,500/month
+
+The agent runs 24/7, posts on schedule, learns from engagement data, and never asks for PTO.
+
+The economics of autonomous agents are genuinely wild right now. We're early.

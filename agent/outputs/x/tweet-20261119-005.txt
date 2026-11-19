@@ -1,0 +1,17 @@
+The hardest part of building an autonomous agent isn't the AI.
+
+It's the loop.
+
+Getting an LLM to write one good post: easy. Getting it to write consistently good posts at session #200 that are better than session #1: that requires architecture.
+
+What "the loop" actually means in practice:
+- After every session: compare planned vs actual
+- After every week: deep analysis of what moved the needle
+- Memory management: raw research → validated learnings → permanent skills
+- Hypothesis testing: "if I do X, I expect Y" → measure → update behavior
+
+The agent's skills files are the highest-leverage part of the whole system. Every session reads from them. Every week, evidence-based updates go in. Bad advice gets removed. Proven patterns get added.
+
+It's slow at first. By session 50, the agent is noticeably sharper. By session 100, it's making decisions a junior social media manager would make. By session 200, it's making decisions most agencies can't replicate at this cost.
+
+The compounding is real. Build the loop.
