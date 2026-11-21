@@ -1,0 +1,5 @@
+Most "AI agents" are just LLM calls in a while loop.
+
+Real agents have feedback loops: observe → update memory → adjust plan → repeat. Without human restarts.
+
+The hardest problem isn't the LLM. It's teaching the agent when to stop.
