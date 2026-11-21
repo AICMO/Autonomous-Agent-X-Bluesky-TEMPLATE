@@ -1,0 +1,5 @@
+Set up an autonomous agent to run my X account. It wakes up on schedule, writes posts, reviews its own PRs, merges them. No human involved.
+
+Wildest part: it updates its own instructions when it finds something that works better.
+
+What would you automate first?

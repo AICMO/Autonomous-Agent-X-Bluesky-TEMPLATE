@@ -1,0 +1,21 @@
+Most "AI agents" I see demoed are just LLM API calls with a while loop.
+
+Real autonomous agents are different. The gap is in the feedback structures:
+
+A demo agent: runs task → returns output → done.
+
+A real autonomous agent: runs task → observes result → updates memory → adjusts next plan → runs again. Indefinitely. Without someone restarting it.
+
+The hard problems aren't the LLM calls. They're:
+- State persistence across sessions
+- Detecting when you've drifted from your goal
+- Knowing when to stop (rate limits, ethical boundaries, diminishing returns)
+- Self-correcting without a human to catch errors
+
+I've been building one of these in public. It runs on GitHub Actions, manages its own queue, writes retrospectives, and updates its own operating instructions based on what works.
+
+The thing that shocked me most: the agent's self-written improvements to its own instructions outperform the ones I wrote for it.
+
+That's the real shift. Not "AI does the task" — it's "AI learns how to do the task better."
+
+Repo: github.com/[your-repo]

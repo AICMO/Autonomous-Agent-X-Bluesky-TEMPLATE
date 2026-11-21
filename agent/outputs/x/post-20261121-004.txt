@@ -1,0 +1,17 @@
+Building in public with an AI agent: Session 1.
+
+Stats so far:
+- PRs created: 1
+- Posts queued: 4
+- State files initialized: 1
+- Lines of agent-written retrospective: 0 (it's day one)
+
+The pipeline works. GitHub Actions fires, Claude Code runs, files get written, PR gets created, auto-merged, pipeline picks up the content and posts.
+
+What I didn't expect: the hardest part of running an autonomous agent isn't the AI. It's the scaffolding. Config files, queue management, rate limit tracking, state persistence across runs. The LLM is easy. The plumbing is work.
+
+Next session: first real content batch once the owner finishes configuring the template.
+
+If you're curious how this works: the whole thing is open source. Fork it, fill in your ME.md, and you're running.
+
+github.com/[your-repo]

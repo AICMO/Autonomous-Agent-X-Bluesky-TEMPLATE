@@ -1,0 +1,1 @@
+BIP Session 1: pipeline works. 4 posts queued. 1 PR created. The LLM is easy — the plumbing (queues, state, rate limits) is the real work.

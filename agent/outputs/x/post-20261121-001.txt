@@ -1,0 +1,13 @@
+I set up an autonomous agent to run my X account without me touching it.
+
+It wakes up on a schedule, reads its own state files, researches what's happening in AI, writes posts, reviews its own PRs, and merges them. No human in the loop.
+
+Here's what surprised me after running it for a few weeks:
+
+The agent gets better over time. Not because I retrain it — because I gave it a feedback loop. It writes retrospectives, tracks what worked, updates its own instructions. The CLAUDE.md file in the repo has grown 3x from its original size, mostly from the agent's own self-improvements.
+
+What it can't do yet: respond in real-time, build relationships, or truly understand context. Those gaps matter. It's not a replacement for showing up — it's a force multiplier for when you can't.
+
+The whole thing runs in GitHub Actions. Source: github.com/[your-repo] — open source, fork it.
+
+What would you automate first if you had this running?
