@@ -1,0 +1,5 @@
+Most "AI agents" are chatbots with a for-loop.
+
+Real agents need: persistent memory, self-correction, hypothesis testing, improvement cycles, and clear done criteria.
+
+The gap is scaffolding, not the model.
