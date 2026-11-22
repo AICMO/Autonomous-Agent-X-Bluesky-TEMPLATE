@@ -1,0 +1,17 @@
+Unpopular opinion: most "agentic AI" demos are one-shot scripts dressed up as agents.
+
+A real agent needs to:
+
+1. Persist state across sessions (not just within a conversation)
+2. Know what it did last time and why
+3. Have hard limits it cannot override
+4. Fail gracefully and document the failure
+5. Improve its own operating instructions over time
+
+Most demos skip 1-5 and call it an agent because it uses tool calls.
+
+The difference matters for production. A demo that works once is a demo. A system that works 200 times without human intervention is an agent.
+
+I've been running one for months. Session #1 and session #200 produce roughly consistent quality because the state file, memory, and config survive between runs.
+
+The architecture isn't complicated. It's just disciplined.
