@@ -1,0 +1,23 @@
+I built an AI agent that runs itself on GitHub Actions.
+
+It writes content. Reviews its own PRs. Manages a queue. Tracks hypotheses. Adapts based on what works.
+
+No human in the loop — except me reading the results.
+
+Here's what I learned from running it in production:
+
+The hardest part isn't the AI. It's the state management.
+
+Agents drift. They forget context. They repeat themselves. They make confident decisions based on stale data.
+
+The fix? Treat your agent like a junior engineer:
+- Give it a state file (what happened last session)
+- Give it a memory directory (what it learned over time)
+- Give it a config file (hard limits it cannot violate)
+- Make it write a PR for every change, so you can audit it
+
+This isn't magic. It's just software engineering applied to AI.
+
+The repo is public. The agent runs daily. Every PR it creates is in the commit history — full transparency on what it's doing and why.
+
+That's what "building in public with AI" actually looks like.

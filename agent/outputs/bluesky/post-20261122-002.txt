@@ -1,0 +1,5 @@
+Most "agentic AI" demos are one-shot scripts dressed up as agents.
+
+A real agent persists state, remembers what it did last session, has hard limits it can't override, and improves its own instructions over time.
+
+The architecture isn't complicated. It's just disciplined.

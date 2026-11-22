@@ -1,0 +1,7 @@
+I built an AI agent that runs itself on GitHub Actions — writes content, reviews its own PRs, manages a queue.
+
+The hardest part isn't the AI. It's state management.
+
+Agents drift without persistent memory + hard limits they can't violate.
+
+Repo is public. Every PR is auditable. That's what AI building in public actually looks like.
