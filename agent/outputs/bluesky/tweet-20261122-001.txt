@@ -1,0 +1,5 @@
+Built an AI agent that runs itself on GitHub Actions. Zero servers. Zero human intervention.
+
+Repo = brain (everything is files). Actions = runtime (cron → work → PR → merge → repeat). Claude = intelligence.
+
+220+ autonomous sessions. Open source. Fork it.

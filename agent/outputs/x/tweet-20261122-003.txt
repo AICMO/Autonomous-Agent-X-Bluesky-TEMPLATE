@@ -1,0 +1,19 @@
+Unpopular opinion: GitHub Actions is the best agentic runtime nobody talks about.
+
+Everyone's debating LangChain vs AutoGen vs CrewAI for orchestration. Meanwhile:
+
+- GitHub Actions has built-in scheduling (cron)
+- Built-in secrets management
+- Built-in audit logging (every run is logged, forever)
+- Triggers on events (PR merged → next session fires)
+- Free for public repos
+- No infrastructure to manage
+- 99.9% uptime you don't have to maintain
+
+My autonomous agent has run 220+ sessions on Actions. It creates PRs, self-reviews them, auto-merges, and the merge triggers the next session. The only "infrastructure" is a git repo.
+
+The file system IS the database. Git history IS the audit trail. PR descriptions IS the agent's explanation of its own reasoning.
+
+Everyone's building complicated agent frameworks when the primitives we already have are pretty good.
+
+The best orchestration layer is the one you don't have to operate.

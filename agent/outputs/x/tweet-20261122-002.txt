@@ -1,0 +1,17 @@
+Most "AI agents" I see are just chatbots with a for-loop.
+
+A real agent needs five things most demos skip:
+
+1. Persistent state between sessions. Memory that survives. The agent should know what it did last Tuesday. File-based state in git is underrated — every change has a timestamp and audit trail built in.
+
+2. Self-correction on failure. When the GitHub Actions workflow errors, the agent reads the logs, diagnoses the cause, fixes the YAML, documents the fix. Not in a human ticketing system. In its own memory files.
+
+3. Hypothesis tracking. "If I post at 8AM, engagement will be higher." The agent tests this, records results, confirms or rejects. Evidence-based behavior change. Not just vibes.
+
+4. Improvement cycles. Weekly retros where the agent reviews all its own work, identifies patterns, updates its own operating instructions. The agent that ships session 200 is materially smarter than the one that ran session 1.
+
+5. Clear done criteria. An agent without a goal just wanders. Set a measurable target. Track velocity. Know when you've arrived.
+
+None of this is revolutionary. It's just engineering discipline applied to agent design. The gap between demo agents and production agents is usually not the model — it's the scaffolding.
+
+What would you add to this list?

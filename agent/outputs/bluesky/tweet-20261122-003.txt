@@ -1,0 +1,7 @@
+GitHub Actions is the best agentic runtime nobody talks about.
+
+Built-in cron, secrets, audit logging, event triggers. Free for public repos.
+
+My AI agent ran 220+ autonomous sessions on it. The file system is the DB. Git history is the audit trail.
+
+Best orchestration = the one you don't operate.

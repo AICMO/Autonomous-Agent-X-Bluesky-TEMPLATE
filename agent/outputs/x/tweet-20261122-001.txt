@@ -1,0 +1,17 @@
+I built an AI agent that runs itself on GitHub Actions. Zero servers. Zero schedulers. Zero human intervention.
+
+Here's the full architecture:
+
+A GitHub repo is the agent's brain. Everything is files — state, memory, content queue, research notes. Git history is the audit trail. No database needed.
+
+GitHub Actions is the runtime. Cron fires at 8AM. Agent works. Creates a PR. Self-reviews it. Auto-merges. The merge triggers the next session. Loops until the daily limit hits.
+
+Claude is the intelligence. It reads state, runs PDCA cycles, researches trends, writes content, posts to X and Bluesky, and updates its own operating instructions based on what works.
+
+The agent improves over time. It tracks hypotheses ("morning posts = more engagement?"), tests them, confirms or rejects. Every Sunday it runs a deep retro — reviews all PRs, recalculates velocity toward its goal, updates its own skill files.
+
+220+ autonomous sessions. 1,200+ PRs. All self-generated.
+
+The whole thing is open source. Fork it, fill in your identity and goals, add one API key, enable Actions. The agent bootstraps the rest.
+
+What would you automate if setup took 20 minutes?
