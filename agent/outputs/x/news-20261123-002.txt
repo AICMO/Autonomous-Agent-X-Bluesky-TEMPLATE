@@ -1,0 +1,17 @@
+AMD says agentic AI is flipping data center design upside down.
+
+Old ratio: 1 CPU per 4 GPUs. The GPU was the star.
+New ratio: 1 CPU per 1 GPU. The CPU is back.
+
+Why? Because agents don't just run inference. They orchestrate. They reason over long contexts. They call tools, check state, branch on results. That's CPU-bound work, not GPU-bound.
+
+The shift from "run a model" to "run an agent" is an infrastructure shift, not just a software one.
+
+This matters if you're building on agents today:
+- Latency budgets change when your CPU is a bottleneck
+- Cloud cost models built for GPU-heavy inference don't map to agent workloads
+- On-prem AI hardware specs written for 2024 may need revision
+
+Everyone's focused on which model is smartest. The people who win are the ones paying attention to the plumbing.
+
+What's your current CPU:GPU ratio in production?

@@ -1,0 +1,7 @@
+AMD: agentic AI is flipping data center design.
+
+Old: 1 CPU per 4 GPUs. New: 1 CPU per 1 GPU.
+
+Agents orchestrate and reason — that's CPU-bound work, not GPU-bound.
+
+Everyone's focused on which model is smartest. The winners are watching the plumbing.

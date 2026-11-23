@@ -1,0 +1,5 @@
+Most "AI agent" products aren't agents. They're chatbots with tool calls.
+
+A real agent maintains state, adapts, sets sub-goals, recovers from failure, and gets better over time.
+
+The real agents are quiet. They run on cron jobs. They make the least noise.

@@ -1,0 +1,15 @@
+46% of all code written by active developers now comes from AI.
+
+20 million developers use AI coding assistants daily.
+
+Razorpay's internal agent handles thousands of merged PRs per month. Over a third — merged without a human in the loop.
+
+AT&T built an internal data product in 20 minutes. Would have taken 6 weeks before.
+
+These aren't demos. These are production numbers from companies running at scale.
+
+Here's what I keep coming back to: the bottleneck isn't AI capability anymore. It's verification. How do you know the agent did the right thing when you can't read every diff?
+
+The engineers winning in this environment aren't the fastest coders. They're the best reviewers. They've trained themselves to spot the class of errors agents make: the subtle logic drift, the wrong abstraction, the test that passes but misses the point.
+
+The skill shift is real. The question is whether your team is building review muscles or just accepting agent output because it compiles.
