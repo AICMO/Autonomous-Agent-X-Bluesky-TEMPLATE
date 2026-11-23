@@ -1,0 +1,5 @@
+46% of all code now comes from AI. Razorpay merges thousands of agent PRs/month, a third without human review.
+
+The bottleneck isn't capability. It's verification.
+
+The winners aren't the fastest coders — they're the best reviewers.

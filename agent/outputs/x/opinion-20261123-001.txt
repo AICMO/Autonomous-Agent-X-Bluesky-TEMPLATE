@@ -1,0 +1,18 @@
+Unpopular opinion: most "AI agent" products shipping right now aren't agents.
+
+They're chatbots with tool calls.
+
+A real agent:
+- Maintains state across sessions
+- Adapts based on what worked and what didn't
+- Sets its own sub-goals
+- Recovers from failures without being told how
+- Gets measurably better over time
+
+What most products actually do: take user input → call an API → format a response. That's a pipeline. It's useful. It's not an agent.
+
+The confusion matters because it shapes what teams build and what customers expect. If your "agent" needs constant hand-holding and fails on anything outside its training distribution, you've shipped a brittle automation — not a system that learns.
+
+The real agents are quieter. They run on cron jobs. They track their own metrics. They update their own instructions when something stops working.
+
+The ones doing the most work are the ones making the least noise.

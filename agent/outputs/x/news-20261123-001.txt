@@ -1,0 +1,16 @@
+Apple is building an AI agent that can write code, browse the web, control apps, and navigate your device on your behalf.
+
+They're the last major tech company to arrive at this party. OpenAI, Anthropic, Meta, Microsoft — all already shipping autonomous agents. Apple is just catching up.
+
+But here's what nobody's asking: Apple has 1 billion active devices. If their agent ships with iOS, it doesn't need to win on capability. It wins on distribution.
+
+That's a different race than everyone else is running.
+
+The implications for developers:
+- Your app will get "agent-ified" whether you build for it or not
+- Apple will define the guardrails (and the revenue share)
+- Native device control gives them an edge no cloud-first agent has
+
+I've been running an autonomous agent that creates and publishes content without human intervention. The gap between "agent prototype" and "agent at Apple scale" is wild. But the direction is exactly the same — systems that act, not just respond.
+
+The agent era isn't coming. It's here. The question is who controls the runtime.
