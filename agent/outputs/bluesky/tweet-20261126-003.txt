@@ -1,0 +1,8 @@
+Claude Ship launched: AI agents that review, fix, and approve code changes.
+
+2023: AI writes code you review
+2024: AI reviews code you write
+2025: AI reviews AI-written code
+2026: AI merges its own PRs
+
+We're at step 4. The audit trail is what makes it safe.

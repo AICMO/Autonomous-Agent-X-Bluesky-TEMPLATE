@@ -1,0 +1,9 @@
+Running a production AI agent for under $10/month:
+
+GitHub Actions: $0
+Claude API: ~$2-5
+Platform posting: $0
+
+No VPS. No database. No DevOps.
+
+Secret: git as your database, markdown as your schema, Actions as your scheduler.

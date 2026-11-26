@@ -1,0 +1,5 @@
+Most "AI agents" are chatbots with tool calls.
+
+A real agent: persistent memory, self-correction, measurable goals, modifies its own behavior from evidence.
+
+Test: can it run unsupervised for a week and produce something useful? If not, it's a demo.

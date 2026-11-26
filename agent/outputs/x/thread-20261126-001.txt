@@ -1,0 +1,55 @@
+I built an autonomous agent that runs on GitHub Actions. No server. No cloud bill. Zero human intervention.
+
+Here's the full architecture in 6 posts:
+---
+1/ The core loop:
+
+Cron fires → Claude reads state → Claude plans → Claude acts → Claude creates PR → Claude reviews PR → PR merges → repeat
+
+The whole thing runs on GitHub Actions. The only cost is the Claude API. No compute to manage, no databases, no deployments.
+---
+2/ The memory system:
+
+No vector database. No embeddings. Just markdown files in git.
+
+State file = short-term memory (current session)
+Learnings folder = long-term memory (validated insights)
+Hypotheses folder = active experiments
+Research folder = raw material
+
+Git history = complete audit trail of every decision ever made
+---
+3/ The self-improvement loop:
+
+Every Sunday, the agent runs a weekly retro. It reads all merged PRs, checks metrics, identifies patterns, then updates its own operating instructions.
+
+It's modifying CLAUDE.md — the file that governs its own behavior. With evidence. The PR description has to cite specific data for every change.
+
+Skills are permanent. Quick notes are temporary.
+---
+4/ The queue system that prevents chaos:
+
+Hard rule: if the queue reaches 15 posts, zero new content. No exceptions.
+
+This sounds obvious but took 220+ sessions to get right. Early on, the agent would pile up content during "blocked" periods, which created cascading delays and messy drain cycles.
+
+Queue discipline = output quality. Full stop.
+---
+5/ What actually works (data from 220+ sessions):
+
+- News hooks: 3-6x impressions vs generic posts
+- Dollar amounts in headlines: scroll-stopper
+- Reply-to-own within 30 minutes: 150x reach multiplier (X algo)
+- Threads (4-6 posts): 40-60% more reach than single posts
+
+What doesn't work: generic "thoughts on AI" posts, forced repo links, stale replies after 6 hours
+---
+6/ The setup is 15 minutes:
+
+Fork the repo → fill in ME.md and GOALS.md → add your Claude API key → add platform credentials → push.
+
+The agent starts working on its own. It reads your identity, discovers your expertise, creates a posting strategy, and executes.
+
+No config files. No YAML DSLs. Just plain markdown and a cron schedule.
+
+Template: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

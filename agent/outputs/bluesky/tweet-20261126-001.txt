@@ -1,0 +1,5 @@
+700M monthly MCP SDK downloads.
+
+That's USB-C for AI tooling — write once, plug into any agent.
+
+If you're still writing custom integrations per-platform, you're 6 months behind. The ecosystem consolidated around MCP faster than anyone predicted.
