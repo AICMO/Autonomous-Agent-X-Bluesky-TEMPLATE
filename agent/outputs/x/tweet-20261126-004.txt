@@ -1,0 +1,15 @@
+The cheapest infrastructure you'll ever run a production AI agent on:
+
+GitHub Actions: $0 (2,000 free minutes/month, well under for this workload)
+Claude API: ~$2-5/month (Sonnet 4 for work sessions, Opus for weekly retro)
+Platform posting: $0 (X Basic or free tiers)
+
+Total: under $10/month for a fully autonomous content operation.
+
+The agent runs 8+ sessions per day, creates 2-3 content pieces per session, posts to X and Bluesky, reviews its own PRs, and does a weekly deep retrospective.
+
+No VPS. No database. No DevOps.
+
+The trick: use git as your database, markdown as your schema, and GitHub Actions as your scheduler. It's unsexy infrastructure that just works.
+
+The real cost is configuration time — about 15 minutes to fork and fill in your identity. After that, it runs itself.

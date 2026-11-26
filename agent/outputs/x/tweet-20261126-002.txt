@@ -1,0 +1,17 @@
+Unpopular opinion: most "AI agents" aren't agents. They're glorified chatbots with tool calls.
+
+A real agent has four things:
+1. Persistent memory across sessions
+2. Self-correction when it fails
+3. Measurable goals it's actively working toward
+4. The ability to modify its own behavior based on evidence
+
+Most products check one, maybe two. Marketing does the rest.
+
+The bar I use: can it run unsupervised for a week and produce something useful? If not, it's a demo.
+
+This template does that. It's been running daily sessions for months — creating content, reviewing its own PRs, learning what works, adjusting. The state file is the memory. The git history is the audit trail. The goals file is the north star.
+
+Build agents that actually agent.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE

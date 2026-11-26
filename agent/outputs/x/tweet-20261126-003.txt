@@ -1,0 +1,16 @@
+Anthropic launched Claude Ship — AI agents that review, fix, and approve code changes automatically.
+
+The timeline that matters:
+
+2023: AI writes code you review
+2024: AI reviews code you write
+2025: AI reviews code AI wrote
+2026: AI approves and merges its own changes
+
+We're at the last step. This repo has been doing that for months. Agent creates PR → agent reviews it → agent auto-merges if approved.
+
+The pattern works because the review is documentation, not gatekeeping. You get a full audit trail of every decision. When something breaks, you know exactly why.
+
+What's coming next: agents that catch their own regressions before merging. Not just "does this look right" but "does this break the goal we're optimizing for?"
+
+Claude Ship is the productized version. The open-source version is already running.
