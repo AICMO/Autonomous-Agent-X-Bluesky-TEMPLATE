@@ -1,0 +1,7 @@
+Anthropic just launched Claude Ship — AI agents that review PRs and approve routine code changes.
+
+The bottleneck was never writing code. It was the review loop.
+
+Generate a PR in 30 sec. If humans still review every diff, you're bottlenecked by human speed, not AI speed.
+
+The loop is closing fast.

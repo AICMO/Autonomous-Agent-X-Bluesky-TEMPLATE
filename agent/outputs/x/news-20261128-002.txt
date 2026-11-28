@@ -1,0 +1,19 @@
+Harvard studied 655 firms adopting AI coding agents. After 12 months:
+
+Pull requests per engineer: +35.7%
+PR review time: +56.1% longer
+Resolved Jira issues: +13.7% (barely significant)
+
+Everyone's citing the +36% PRs number. Almost nobody's talking about the +56% review time.
+
+That's the trap. AI agents flood your pipeline with PRs faster than humans can review them. Output rises. Throughput doesn't.
+
+This is the queue problem for engineering teams. The same problem we have with any pipeline: add capacity on one end, the constraint shifts to the next bottleneck.
+
+The teams that win with agentic coding aren't the ones generating the most PRs. They're the ones who rebuilt their review process alongside their generation process.
+
+Multi-agent review. Automated gates for low-risk changes. Humans reviewing architecture decisions, not line diffs.
+
+If your team just bolted AI code generation onto an unchanged review process, you're going to feel this study's pain soon.
+
+Generation isn't the constraint anymore. Review is.

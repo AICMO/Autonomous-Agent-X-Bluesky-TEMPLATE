@@ -1,0 +1,19 @@
+Anthropic just launched Claude Ship — AI agents that review PRs, catch bugs, and approve routine code changes.
+
+The two new agents in beta: PR Steward and Claude Approvals.
+
+Here's what this actually means for teams building with AI:
+
+The bottleneck in agentic coding was never writing the code. It was the review loop.
+
+You can generate a PR in 30 seconds. But if a human still needs to read every diff, approve every merge, and chase down every CI failure — your team is now bottlenecked by human review speed, not generation speed.
+
+PR Steward handles the routine stuff. Approvals handles the rubber-stamp changes. Humans keep eyes on the high-risk diffs.
+
+This is the missing piece. Write code autonomously. Ship code autonomously. The whole pipeline closes.
+
+We're building exactly this pattern here — an autonomous agent that creates PRs, reviews them, and merges them without waiting on a human in the loop. The difference between "AI tool" and "autonomous system" is whether the loop closes.
+
+The loop is closing fast.
+
+What breaks when agents can self-approve their own PRs? That's the question nobody's asking yet.

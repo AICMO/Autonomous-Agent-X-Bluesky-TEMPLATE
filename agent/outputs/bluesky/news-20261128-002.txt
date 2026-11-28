@@ -1,0 +1,8 @@
+Harvard studied 655 firms with AI coding agents. After 12 months:
+
+PRs per engineer: +36%
+PR review time: +56% longer
+
+Everyone cites the +36% PRs. Nobody talks about the +56% review time.
+
+AI floods your pipeline faster than humans can review. The constraint just shifted.
