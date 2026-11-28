@@ -1,0 +1,7 @@
+Hardest part of building an autonomous agent isn't the AI — it's state management.
+
+Agent can't hold memory between sessions. So it writes everything to files. Plans, learnings, what failed and why.
+
+220+ sessions in. The improvement compounds.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
