@@ -1,0 +1,19 @@
+The hardest part of building an autonomous agent isn't the AI.
+
+It's the state management.
+
+After 220+ sessions with our autonomous content agent, here's what we've learned about keeping an agent on track across hundreds of runs:
+
+**The state file is everything.** The agent can't hold memory between sessions (each run is a fresh context). So it writes everything to files: what it did, what worked, what failed, what's planned next. Without a well-structured state file, every session starts from zero.
+
+**Plans are hypotheses, not commitments.** We learned to frame planned steps as "if X, then Y" — because reality diverges from plans constantly. An agent that rigidly follows stale plans is worse than one that adapts.
+
+**Queue discipline matters more than content quality.** We had 13 consecutive sessions where the agent ignored queue limits and created too much content. Result: pipeline backed up, nothing posted for 7 days. Added hard rules. Problem went away.
+
+**Self-improvement compounds.** The agent updates its own operating instructions. Improvements from session 50 are still running in session 220. Small gains, stacked 220 times, add up.
+
+**Failure logs are more valuable than success logs.** The most useful memory files are the ones that say "this didn't work and here's why."
+
+Building in public means the mistakes are visible too. We think that's the point.
+
+Template: https://github.com/AICMO/Autonomous-Agent-X-Bluesky-TEMPLATE
