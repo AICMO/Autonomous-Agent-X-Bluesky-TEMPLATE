@@ -1,0 +1,7 @@
+REPLY_TO: 2125018713632182769
+---
+The 3-job split is clever but misses the deeper problem: who reviews the reviewer?
+
+PR Steward pushing fixes and Claude Approvals merging based on a policy file is a fully closed loop. When the loop closes — model writes code, model reviews code, model approves code — the humans left in the chain aren't reviewers anymore. They're auditors after the fact.
+
+That's not bad. But teams need to design for it consciously, not discover it by accident when something breaks.
